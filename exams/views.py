@@ -23,9 +23,9 @@ def exam_list(request):
         'conversation_fill': '会話補充問題',
         'word_order': '語順選択問題',
         'reading_comprehension': '長文読解問題',
+        'listening_conversation': 'リスニング第2部: 会話問題',
+        'listening_illustration': 'リスニング第1部: イラスト問題',
         'listening_passage': 'リスニング第3部: 文章問題',
-        'listening_illustration': 'リスニング第2部: イラスト問題',
-        'listening_conversation': 'リスニング第1部: 会話問題',
     }
     
     # Grade 4の問題数を取得
@@ -61,9 +61,9 @@ def question_list(request, level=None, exam_id=None):
         'conversation_fill': '会話補充問題',
         'word_order': '語順選択問題',
         'reading_comprehension': '長文読解問題',
+        'listening_conversation': 'リスニング第2部: 会話問題',
+        'listening_illustration': 'リスニング第1部: イラスト問題',
         'listening_passage': 'リスニング第3部: 文章問題',
-        'listening_illustration': 'リスニング第2部: イラスト問題',
-        'listening_conversation': 'リスニング第1部: 会話問題',
     }
     
     # 問題数のオプション

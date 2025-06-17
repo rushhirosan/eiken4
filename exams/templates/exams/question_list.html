@@ -45,6 +45,17 @@
             <div class="card mb-4">
                 <div class="card-body">
                     <h5 class="card-title">問題 {{ forloop.counter }}</h5>
+                    {% if question.question.question_type == 'listening_illustration' %}
+                        <div class="text-center mb-3">
+                            <img src="{% static question.question.image_file %}" alt="問題のイラスト" class="img-fluid" style="max-width: 300px;">
+                        </div>
+                        <div class="text-center mb-3">
+                            <audio controls>
+                                <source src="{% static question.question.audio_file %}" type="audio/mpeg">
+                                お使いのブラウザは音声再生に対応していません。
+                            </audio>
+                        </div>
+                    {% endif %}
                     <p class="card-text">{{ question.question.question_text }}</p>
                     
                     <div class="choices">
