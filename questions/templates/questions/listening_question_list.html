@@ -1,0 +1,21 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<div class="container mt-4">
+    <h2>リスニング問題</h2>
+    <div class="row">
+        {% for question in questions %}
+        <div class="col-md-4 mb-4">
+            <div class="card">
+                <img src="{{ question.image.url }}" class="card-img-top" alt="Question Image">
+                <div class="card-body">
+                    <h5 class="card-title">問題 {{ question.id }}</h5>
+                    <p class="card-text">{{ question.question_text }}</p>
+                    <a href="{% url 'listening_question_detail' question.id %}" class="btn btn-primary">問題を解く</a>
+                </div>
+            </div>
+        </div>
+        {% endfor %}
+    </div>
+</div>
+{% endblock %} 

@@ -1,0 +1,57 @@
+{% extends 'accounts/base.html' %}
+{% load static %}
+
+{% block title %}英検試験対策{% endblock %}
+
+{% block content %}
+<div class="container mt-5">
+    <h2 class="mb-4">英検試験対策</h2>
+    
+    <div class="row">
+        <div class="col-12">
+            <h3 class="mb-4">級別問題</h3>
+            {% for level_code, level_name in levels %}
+            <div class="card mb-4">
+                <div class="card-body">
+                    <h4 class="card-title">英検{{ level_name }}</h4>
+                    <p class="card-text">英検{{ level_name }}の対策問題です。</p>
+                    
+                    <div class="mt-4">
+                        <h5>問題形式を選択</h5>
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="d-grid gap-2">
+                                    <a href="{% url 'exams:question_list_by_level' level=level_code %}?type=grammar_fill" class="btn btn-outline-primary">文法・語彙問題</a>
+                                    <a href="{% url 'exams:question_list_by_level' level=level_code %}?type=conversation_fill" class="btn btn-outline-primary">会話補充問題</a>
+                                    <a href="{% url 'exams:question_list_by_level' level=level_code %}?type=word_order" class="btn btn-outline-primary">語順選択問題</a>
+                                    <a href="{% url 'exams:question_list_by_level' level=level_code %}?type=reading_comprehension" class="btn btn-outline-primary">長文読解問題</a>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="d-grid gap-2">
+                                    <a href="{% url 'exams:question_list_by_level' level=level_code %}?type=listening_illustration" class="btn btn-outline-primary">リスニング第2部: イラスト問題</a>
+                                    <a href="{% url 'exams:question_list_by_level' level=level_code %}?type=listening_conversation" class="btn btn-outline-primary">リスニング第1部: 会話問題</a>
+                                    <a href="{% url 'exams:question_list_by_level' level=level_code %}?type=listening_passage" class="btn btn-outline-primary">リスニング第3部: 文章問題</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row mt-4">
+                            <div class="col-md-6">
+                                <a href="{% url 'exams:question_list_by_level' level=level_code %}?type=random" class="btn btn-primary btn-lg w-100">
+                                    <i class="fas fa-random"></i> ランダム10問
+                                </a>
+                            </div>
+                            <div class="col-md-6">
+                                <a href="{% url 'exams:question_list_by_level' level=level_code %}?type=mock_exam" class="btn btn-success btn-lg w-100">
+                                    <i class="fas fa-clipboard-list"></i> 模擬試験問題
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+</div>
+{% endblock %} 

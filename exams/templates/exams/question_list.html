@@ -1,0 +1,118 @@
+{% extends 'accounts/base.html' %}
+{% load static %}
+
+{% block title %}問題一覧 - {{ question_type_display }}{% endblock %}
+
+{% block content %}
+<div class="container mt-4">
+    <h1 class="mb-4">{{ question_type_display }}</h1>
+    
+    <div class="card mb-4">
+        <div class="card-body">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="form-group">
+                        <label for="status">状態</label>
+                        <select class="form-control" id="status" onchange="updateFilters()">
+                            <option value="all" {% if status == 'all' %}selected{% endif %}>全て</option>
+                            <option value="unanswered" {% if status == 'unanswered' %}selected{% endif %}>未回答</option>
+                            <option value="correct" {% if status == 'correct' %}selected{% endif %}>正解</option>
+                            <option value="incorrect" {% if status == 'incorrect' %}selected{% endif %}>不正解</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="form-group">
+                        <label for="num_questions">問題数</label>
+                        <select class="form-control" id="num_questions" onchange="updateFilters()">
+                            {% for value, label in question_count_options.items %}
+                            <option value="{{ value }}" {% if num_questions == value %}selected{% endif %}>{{ label }}</option>
+                            {% endfor %}
+                        </select>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <form method="post" action="{% url 'exams:submit_answers' level=level %}" id="examForm">
+        {% csrf_token %}
+        <input type="hidden" name="question_type" value="{{ question_type }}">
+        <input type="hidden" name="level" value="{{ level }}">
+        <input type="hidden" name="num_questions" value="{{ num_questions }}">
+
+        {% for question in questions %}
+            <div class="card mb-4">
+                <div class="card-body">
+                    <h5 class="card-title">問題 {{ forloop.counter }}</h5>
+                    <p class="card-text">{{ question.question.question_text }}</p>
+                    
+                    <div class="choices">
+                        {% for choice in question.choices %}
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="answer_{{ question.question.id }}" 
+                                       id="choice_{{ choice.id }}" value="{{ choice.id }}"
+                                       {% if question.user_answer == choice.id %}checked{% endif %}>
+                                <label class="form-check-label" for="choice_{{ choice.id }}">
+                                    {{ choice.choice_text }}
+                                </label>
+                            </div>
+                        {% endfor %}
+                    </div>
+                </div>
+            </div>
+        {% endfor %}
+
+        <div class="text-center mt-4">
+            <button type="submit" class="btn btn-primary btn-lg">回答を提出</button>
+        </div>
+    </form>
+</div>
+
+<script>
+document.getElementById('examForm').addEventListener('submit', function(e) {
+    const questions = document.querySelectorAll('.card');
+    let allAnswered = true;
+    let answeredCount = 0;
+    const totalQuestions = parseInt('{{ num_questions }}');
+    
+    questions.forEach(question => {
+        const radioButtons = question.querySelectorAll('input[type="radio"]');
+        let questionAnswered = false;
+        
+        radioButtons.forEach(radio => {
+            if (radio.checked) {
+                questionAnswered = true;
+                answeredCount++;
+            }
+        });
+        
+        if (!questionAnswered) {
+            allAnswered = false;
+            question.style.border = '2px solid red';
+        } else {
+            question.style.border = '';
+        }
+    });
+    
+    if (!allAnswered) {
+        e.preventDefault();
+        alert(`表示されている${totalQuestions}問すべてに回答してください。`);
+        return false;
+    }
+    
+    return true;
+});
+
+function updateFilters() {
+    const numQuestions = document.getElementById('num_questions').value;
+    const status = document.getElementById('status').value;
+    const currentUrl = new URL(window.location.href);
+    
+    currentUrl.searchParams.set('num_questions', numQuestions);
+    currentUrl.searchParams.set('status', status);
+    
+    window.location.href = currentUrl.toString();
+}
+</script>
+{% endblock %} 

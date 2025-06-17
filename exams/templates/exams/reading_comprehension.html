@@ -1,0 +1,109 @@
+{% extends 'accounts/base.html' %}
+{% load custom_filters %}
+{% load static %}
+
+{% block content %}
+<div class="container mt-5">
+    <h2 class="mb-4">英検{{ level }}級 {{ question_type_display }}</h2>
+    
+    {% if messages %}
+    <div class="messages">
+        {% for message in messages %}
+        <div class="alert alert-{{ message.tags }}">
+            {{ message }}
+        </div>
+        {% endfor %}
+    </div>
+    {% endif %}
+    
+    <div class="card mb-4">
+        <div class="card-body">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="form-group">
+                        <label for="num_passages">本文数</label>
+                        <select class="form-control" id="num_passages" onchange="updateFilters()">
+                            {% for value, label in question_count_options.items %}
+                            <option value="{{ value }}" {% if num_passages == value %}selected{% endif %}>{{ label }}</option>
+                            {% endfor %}
+                        </select>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <form method="post" action="{% url 'exams:submit_reading_comprehension' level=level %}" id="examForm">
+        {% csrf_token %}
+        {% for passage_data in passages %}
+        <div class="card mb-4">
+            <div class="card-body">
+                <h5 class="card-title">本文 {{ forloop.counter }}</h5>
+                <p class="card-text">{{ passage_data.passage.text|linebreaks }}</p>
+                
+                <div class="questions mt-4">
+                    {% for question_data in passage_data.questions %}
+                    <div class="question mb-4">
+                        <h6>問題 {{ forloop.counter }}</h6>
+                        <p>{{ question_data.question.text|linebreaks }}</p>
+                        
+                        <div class="choices">
+                            {% for choice in question_data.question.choices.all %}
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="question_{{ question_data.question.id }}" id="choice{{ choice.id }}" value="{{ choice.id }}" {% if question_data.answer and question_data.answer.selected_reading_choice.id == choice.id %}checked{% endif %}>
+                                <label class="form-check-label" for="choice{{ choice.id }}">
+                                    {{ choice.choice_text }}
+                                </label>
+                            </div>
+                            {% endfor %}
+                        </div>
+                    </div>
+                    {% endfor %}
+                </div>
+            </div>
+        </div>
+        {% endfor %}
+        
+        <div class="text-center mt-4">
+            <button type="submit" class="btn btn-primary btn-lg">回答を提出</button>
+        </div>
+    </form>
+</div>
+
+<script>
+function updateFilters() {
+    const numPassages = document.getElementById('num_passages').value;
+    const currentUrl = new URL(window.location.href);
+    currentUrl.searchParams.set('num_passages', numPassages);
+    window.location.href = currentUrl.toString();
+}
+
+document.getElementById('examForm').addEventListener('submit', function(e) {
+    const questions = document.querySelectorAll('.question');
+    let allAnswered = true;
+    
+    questions.forEach(question => {
+        const radioButtons = question.querySelectorAll('input[type="radio"]');
+        let questionAnswered = false;
+        
+        radioButtons.forEach(radio => {
+            if (radio.checked) {
+                questionAnswered = true;
+            }
+        });
+        
+        if (!questionAnswered) {
+            allAnswered = false;
+            question.style.border = '2px solid red';
+        } else {
+            question.style.border = '';
+        }
+    });
+    
+    if (!allAnswered) {
+        e.preventDefault();
+        alert('すべての問題に回答してください。');
+    }
+});
+</script>
+{% endblock %} 

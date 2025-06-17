@@ -1,0 +1,14 @@
+{% extends 'accounts/base.html' %}
+
+{% block content %}
+<h2>Welcome, {{ user.username }}!</h2>
+<p>You are now logged in.</p>
+
+<div class="exam-list">
+    <div class="exam-item">
+        <h3>英検4級</h3>
+        <p>基本的な英語の理解力を測る試験です。</p>
+        <a href="{% url 'exams:question_list' level='4' %}" class="btn">問題を解く</a>
+    </div>
+</div>
+{% endblock %} 

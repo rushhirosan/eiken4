@@ -1,0 +1,192 @@
+{% extends 'accounts/base.html' %}
+{% load custom_filters %}
+
+{% block content %}
+<div class="container mt-5">
+    <div class="d-flex justify-content-between align-items-center mb-4">
+        <h2>学習進捗</h2>
+        <form action="{% url 'exams:clear_progress' %}" method="post" onsubmit="return confirm('本当に学習進捗をクリアしますか？\nこの操作は取り消せません。');">
+            {% csrf_token %}
+            <button type="submit" class="btn btn-danger">
+                <i class="fas fa-trash"></i> 進捗をクリア
+            </button>
+        </form>
+    </div>
+    
+    {% if messages %}
+    <div class="messages">
+        {% for message in messages %}
+        <div class="alert alert-{{ message.tags }}">
+            {{ message }}
+        </div>
+        {% endfor %}
+    </div>
+    {% endif %}
+    
+    {% for level in levels %}
+    <div class="card mb-4">
+        <div class="card-header">
+            <h3>英検{{ level }}級</h3>
+        </div>
+        <div class="card-body">
+            <!-- グラフを追加 -->
+            <div class="row mb-4">
+                <div class="col-md-12">
+                    <canvas id="progressChart{{ level }}"></canvas>
+                </div>
+            </div>
+            
+            <div class="table-responsive">
+                <table class="table table-hover">
+                    <thead>
+                        <tr>
+                            <th>問題タイプ</th>
+                            <th>正答率</th>
+                            <th>回答数</th>
+                            <th>正解数</th>
+                            <th>最終回答日</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        {% with progress=progress_data|get_item:level %}
+                        <tr>
+                            <td>文法空所補充</td>
+                            <td>{{ progress.grammar_fill.accuracy_rate|default:"0" }}%</td>
+                            <td>{{ progress.grammar_fill.total_attempts|default:"0" }}</td>
+                            <td>{{ progress.grammar_fill.correct_answers|default:"0" }}</td>
+                            <td>{{ progress.grammar_fill.last_attempted|date:"Y/m/d"|default:"-" }}</td>
+                        </tr>
+                        <tr>
+                            <td>会話文空所補充</td>
+                            <td>{{ progress.conversation_fill.accuracy_rate|default:"0" }}%</td>
+                            <td>{{ progress.conversation_fill.total_attempts|default:"0" }}</td>
+                            <td>{{ progress.conversation_fill.correct_answers|default:"0" }}</td>
+                            <td>{{ progress.conversation_fill.last_attempted|date:"Y/m/d"|default:"-" }}</td>
+                        </tr>
+                        <tr>
+                            <td>語句整序</td>
+                            <td>{{ progress.word_order.accuracy_rate|default:"0" }}%</td>
+                            <td>{{ progress.word_order.total_attempts|default:"0" }}</td>
+                            <td>{{ progress.word_order.correct_answers|default:"0" }}</td>
+                            <td>{{ progress.word_order.last_attempted|date:"Y/m/d"|default:"-" }}</td>
+                        </tr>
+                        <tr>
+                            <td>長文読解</td>
+                            <td>{{ progress.reading_comprehension.accuracy_rate|default:"0" }}%</td>
+                            <td>{{ progress.reading_comprehension.total_attempts|default:"0" }}</td>
+                            <td>{{ progress.reading_comprehension.correct_answers|default:"0" }}</td>
+                            <td>{{ progress.reading_comprehension.last_attempted|date:"Y/m/d"|default:"-" }}</td>
+                        </tr>
+                        <tr>
+                            <td>リスニング応答</td>
+                            <td>{{ progress.listening_response.accuracy_rate|default:"0" }}%</td>
+                            <td>{{ progress.listening_response.total_attempts|default:"0" }}</td>
+                            <td>{{ progress.listening_response.correct_answers|default:"0" }}</td>
+                            <td>{{ progress.listening_response.last_attempted|date:"Y/m/d"|default:"-" }}</td>
+                        </tr>
+                        <tr>
+                            <td>リスニング会話</td>
+                            <td>{{ progress.listening_conversation.accuracy_rate|default:"0" }}%</td>
+                            <td>{{ progress.listening_conversation.total_attempts|default:"0" }}</td>
+                            <td>{{ progress.listening_conversation.correct_answers|default:"0" }}</td>
+                            <td>{{ progress.listening_conversation.last_attempted|date:"Y/m/d"|default:"-" }}</td>
+                        </tr>
+                        <tr>
+                            <td>リスニング短文</td>
+                            <td>{{ progress.listening_short_passage.accuracy_rate|default:"0" }}%</td>
+                            <td>{{ progress.listening_short_passage.total_attempts|default:"0" }}</td>
+                            <td>{{ progress.listening_short_passage.correct_answers|default:"0" }}</td>
+                            <td>{{ progress.listening_short_passage.last_attempted|date:"Y/m/d"|default:"-" }}</td>
+                        </tr>
+                        {% endwith %}
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+    {% endfor %}
+</div>
+
+<script>
+const progressData = {{ progress_json|safe }};
+
+{% for level in levels %}
+document.addEventListener('DOMContentLoaded', function() {
+    const ctx = document.getElementById('progressChart{{ level }}').getContext('2d');
+    const progress = progressData['{{ level }}'];
+    
+    const labels = [
+        '文法空所補充',
+        '会話文空所補充',
+        '語句整序',
+        '長文読解',
+        'リスニング応答',
+        'リスニング会話',
+        'リスニング短文'
+    ];
+    
+    const data = [
+        progress.grammar_fill.accuracy_rate,
+        progress.conversation_fill.accuracy_rate,
+        progress.word_order.accuracy_rate,
+        progress.reading_comprehension.accuracy_rate,
+        progress.listening_response.accuracy_rate,
+        progress.listening_conversation.accuracy_rate,
+        progress.listening_short_passage.accuracy_rate
+    ];
+    
+    new Chart(ctx, {
+        type: 'bar',
+        data: {
+            labels: labels,
+            datasets: [{
+                label: '正答率 (%)',
+                data: data,
+                backgroundColor: [
+                    'rgba(54, 162, 235, 0.5)',  // 文法
+                    'rgba(255, 99, 132, 0.5)',   // 会話
+                    'rgba(255, 206, 86, 0.5)',   // 語句
+                    'rgba(75, 192, 192, 0.5)',   // 読解
+                    'rgba(153, 102, 255, 0.5)',  // リスニング1
+                    'rgba(255, 159, 64, 0.5)',   // リスニング2
+                    'rgba(201, 203, 207, 0.5)'   // リスニング3
+                ],
+                borderColor: [
+                    'rgba(54, 162, 235, 1)',
+                    'rgba(255, 99, 132, 1)',
+                    'rgba(255, 206, 86, 1)',
+                    'rgba(75, 192, 192, 1)',
+                    'rgba(153, 102, 255, 1)',
+                    'rgba(255, 159, 64, 1)',
+                    'rgba(201, 203, 207, 1)'
+                ],
+                borderWidth: 1
+            }]
+        },
+        options: {
+            responsive: true,
+            scales: {
+                y: {
+                    beginAtZero: true,
+                    max: 100,
+                    title: {
+                        display: true,
+                        text: '正答率 (%)'
+                    }
+                }
+            },
+            plugins: {
+                title: {
+                    display: true,
+                    text: '英検{{ level }}級 正答率'
+                },
+                legend: {
+                    display: false
+                }
+            }
+        }
+    });
+});
+{% endfor %}
+</script>
+{% endblock %} 

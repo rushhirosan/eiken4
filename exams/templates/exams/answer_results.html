@@ -1,0 +1,79 @@
+{% extends 'accounts/base.html' %}
+{% load static %}
+{% load custom_filters %}
+
+{% block content %}
+<div class="container mt-5">
+    <h2 class="mb-4">回答結果</h2>
+    
+    <div class="card mb-4">
+        <div class="card-body">
+            <h5 class="card-title">正解率</h5>
+            <p class="card-text">
+                正解数: {{ correct_count }} / {{ total_count }} ({{ correct_count|divide:total_count|multiply:100|floatformat:1 }}%)
+            </p>
+        </div>
+    </div>
+    
+    {% if question_type == 'listening_illustration' %}
+        {% for answer in answers_with_questions %}
+        <div class="card mb-4">
+            <div class="card-body">
+                <h5 class="card-title">問題 {{ forloop.counter }}</h5>
+                
+                {% if answer.question.image %}
+                <div class="text-center mb-3">
+                    <img src="{% static answer.question.image %}" alt="問題のイラスト" class="img-fluid" style="max-width: 100%; height: auto;">
+                </div>
+                {% endif %}
+                
+                <p class="card-text">{{ answer.question.question_text|linebreaks }}</p>
+                
+                <div class="mt-3">
+                    <p class="{% if answer.is_correct %}text-success{% else %}text-danger{% endif %}">
+                        {% if answer.is_correct %}
+                        正解です！
+                        {% else %}
+                        不正解です。
+                        {% endif %}
+                    </p>
+                    <p>あなたの回答: {{ answer.user_answer }}</p>
+                    <p>正解: {{ answer.correct_answer }}</p>
+                </div>
+            </div>
+        </div>
+        {% endfor %}
+    {% else %}
+        {% for answer in user_answers %}
+        <div class="card mb-4">
+            <div class="card-body">
+                <h5 class="card-title">問題 {{ forloop.counter }}</h5>
+                <p class="card-text">{{ answer.question.question_text|linebreaks }}</p>
+                
+                <div class="mt-3">
+                    <p class="{% if answer.is_correct %}text-success{% else %}text-danger{% endif %}">
+                        {% if answer.is_correct %}
+                        正解です！
+                        {% else %}
+                        不正解です。
+                        {% endif %}
+                    </p>
+                    <p>あなたの回答: {{ answer.selected_choice.choice_text }}</p>
+                    <p>正解: {{ answer.correct_choice.choice_text }}</p>
+                    {% if answer.question.explanation %}
+                    <div class="alert alert-info">
+                        <strong>解説:</strong><br>
+                        {{ answer.question.explanation|linebreaks }}
+                    </div>
+                    {% endif %}
+                </div>
+            </div>
+        </div>
+        {% endfor %}
+    {% endif %}
+    
+    <div class="text-center mt-4">
+        <a href="{% url 'exams:question_list' level=level %}?type={{ question_type }}" class="btn btn-primary">問題一覧に戻る</a>
+    </div>
+</div>
+{% endblock %} 

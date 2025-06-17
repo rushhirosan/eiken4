@@ -1,0 +1,39 @@
+{% extends 'accounts/base.html' %}
+
+{% block content %}
+<div class="container mt-5">
+    <h2 class="mb-4">英検{{ level }}級 解答結果</h2>
+    
+    <div class="card mb-4">
+        <div class="card-body text-center">
+            <h3 class="card-title">正解数: {{ correct_count }}/{{ total_questions }}</h3>
+            <p class="card-text">正答率: {{ correct_count|div:total_questions|mul:100|floatformat:1 }}%</p>
+        </div>
+    </div>
+
+    {% for result in results %}
+    <div class="card mb-3">
+        <div class="card-body">
+            <h5 class="card-title">問題 {{ forloop.counter }}</h5>
+            <p class="card-text">
+                {% if result.is_correct %}
+                <span class="text-success">正解</span>
+                {% else %}
+                <span class="text-danger">不正解</span>
+                {% endif %}
+            </p>
+            {% if result.explanation %}
+            <div class="alert alert-info">
+                <strong>解説:</strong> {{ result.explanation }}
+            </div>
+            {% endif %}
+        </div>
+    </div>
+    {% endfor %}
+
+    <div class="text-center mt-4">
+        <a href="{% url 'exams:question_list' level=level %}" class="btn btn-primary">もう一度解く</a>
+        <a href="{% url 'exams:exam_list' %}" class="btn btn-secondary">問題一覧に戻る</a>
+    </div>
+</div>
+{% endblock %} 

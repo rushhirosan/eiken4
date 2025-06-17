@@ -1,0 +1,126 @@
+{% extends 'accounts/base.html' %}
+
+{% block content %}
+<div class="container mt-5">
+    <h2 class="mb-4">英検{{ question.level }}級 問題</h2>
+    
+    <div class="card mb-4">
+        <div class="card-body">
+            <h5 class="card-title">問題文</h5>
+            {% if question.question_type == 'listening_illustration' %}
+            <p class="card-text">No.{{ question.question_number }}</p>
+            {% else %}
+            <p class="card-text">{{ question.question_text|linebreaks }}</p>
+            {% endif %}
+            
+            {% if question.question_type == 'listening_illustration' and question.image %}
+            <div class="text-center mb-3">
+                <img src="{{ question.image.url }}" alt="問題のイラスト" class="img-fluid" style="max-height: 400px;">
+            </div>
+            {% endif %}
+            
+            {% if question.question_type == 'listening_illustration' %}
+            <div class="text-center mb-3">
+                <audio id="audioPlayer" controls class="w-100" style="max-width: 500px;">
+                    <source src="{% static question.audio_file %}" type="audio/mpeg">
+                    お使いのブラウザは音声再生に対応していません。
+                </audio>
+            </div>
+            <div class="text-center mb-3">
+                <img src="{% static question.image_file %}" alt="問題のイラスト" class="img-fluid" style="max-height: 400px; background-color: white;">
+            </div>
+            <div class="list-group">
+                {% for choice in question.choices.all %}
+                <div class="form-check mb-2">
+                    <input class="form-check-input" type="radio" name="answer" id="choice{{ choice.id }}" value="{{ choice.id }}">
+                    <label class="form-check-label" for="choice{{ choice.id }}">
+                        {{ forloop.counter }}
+                    </label>
+                </div>
+                {% endfor %}
+            </div>
+            {% else %}
+            {% for choice in question.choices.all %}
+            <div class="form-check mb-2">
+                <input class="form-check-input" type="radio" name="answer" id="choice{{ choice.id }}" value="{{ choice.id }}">
+                <label class="form-check-label" for="choice{{ choice.id }}">
+                    {{ choice.choice_text }}
+                </label>
+            </div>
+            {% endfor %}
+            {% endif %}
+            
+            {% if question.listening_text and question.question_type != 'listening_illustration' %}
+            <div class="alert alert-info">
+                <strong>音声内容:</strong><br>
+                {{ question.listening_text|linebreaks }}
+            </div>
+            {% endif %}
+        </div>
+    </div>
+
+    <form method="post" action="{% url 'exams:submit_answer' question.id %}">
+        {% csrf_token %}
+        <div class="card mb-4">
+            <div class="card-body">
+                <h5 class="card-title">選択肢</h5>
+                {% if question.question_type == 'listening_illustration' %}
+                <div class="list-group">
+                    <a href="#" class="list-group-item list-group-item-action" onclick="document.getElementById('choice1').checked = true;">
+                        A
+                    </a>
+                    <a href="#" class="list-group-item list-group-item-action" onclick="document.getElementById('choice2').checked = true;">
+                        B
+                    </a>
+                    <a href="#" class="list-group-item list-group-item-action" onclick="document.getElementById('choice3').checked = true;">
+                        C
+                    </a>
+                </div>
+                <div style="display: none;">
+                    <input type="radio" name="answer" id="choice1" value="1">
+                    <input type="radio" name="answer" id="choice2" value="2">
+                    <input type="radio" name="answer" id="choice3" value="3">
+                </div>
+                {% else %}
+                {% for choice in question.choices.all %}
+                <div class="form-check mb-2">
+                    <input class="form-check-input" type="radio" name="answer" id="choice{{ choice.id }}" value="{{ choice.id }}">
+                    <label class="form-check-label" for="choice{{ choice.id }}">
+                        {{ choice.choice_text }}
+                    </label>
+                </div>
+                {% endfor %}
+                {% endif %}
+            </div>
+        </div>
+
+        <button type="submit" class="btn btn-primary">回答を送信</button>
+    </form>
+
+    {% if user_answer %}
+    <div class="card mt-4">
+        <div class="card-body">
+            <h5 class="card-title">解説</h5>
+            <p class="card-text">{{ question.explanation|linebreaks }}</p>
+        </div>
+    </div>
+    {% endif %}
+</div>
+
+<script>
+// 音声合成のための関数
+function speakText(text) {
+    // 音声合成オブジェクトを作成
+    const speech = new SpeechSynthesisUtterance();
+    
+    // テキストを設定
+    speech.text = text;
+    
+    // 英語の音声を設定
+    speech.lang = 'en-US';
+    
+    // 音声を再生
+    window.speechSynthesis.speak(speech);
+}
+</script>
+{% endblock %} 
