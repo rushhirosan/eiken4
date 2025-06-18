@@ -74,8 +74,8 @@ class ListeningQuestion(models.Model):
     ]
     
     question_text = models.CharField(max_length=200)
-    image = models.ImageField(upload_to='images/part1/')
-    audio = models.FileField(upload_to='audio/part1/')
+    image = models.CharField(max_length=200)  # 静的ファイルのパスを保存
+    audio = models.CharField(max_length=200)  # 静的ファイルのパスを保存
     correct_answer = models.CharField(max_length=200)
     level = models.CharField(max_length=10, choices=LEVELS, default='4')
     created_at = models.DateTimeField(auto_now_add=True)

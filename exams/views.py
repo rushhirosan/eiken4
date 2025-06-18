@@ -102,7 +102,7 @@ def question_list(request, level=None, exam_id=None):
                 'choices': choices,
                 'user_answer': user_answers.get(question.id),
                 'is_correct': user_answers.get(question.id) == question.correct_answer if question.id in user_answers else None,
-                'explanation': question.explanation
+                'explanation': getattr(question, 'explanation', '')
             })
         
         context = {
@@ -242,7 +242,7 @@ def question_list(request, level=None, exam_id=None):
                 'choices': choices,
                 'user_answer': user_answers.get(question.id),
                 'correct_choice': correct_choice,
-                'explanation': question.explanation
+                    'explanation': question.explanation
             })
         
         print(f"Debug - Questions with answers: {len(questions_with_answers)}")  # デバッグ出力
