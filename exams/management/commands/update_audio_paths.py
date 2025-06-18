@@ -1,5 +1,6 @@
 from django.core.management.base import BaseCommand
 from exams.models import Question
+from questions.models import ListeningQuestion
 
 class Command(BaseCommand):
     help = 'Update audio file paths for listening questions'
@@ -31,16 +32,15 @@ class Command(BaseCommand):
                 self.style.SUCCESS(f'Updated audio path for question {i}: {question.audio_file}')
             )
 
-        # リスニングイラスト問題の音声ファイルパスを更新
-        illustration_questions = Question.objects.filter(
-            question_type='listening_illustration',
+        # リスニングイラスト問題の音声ファイルパスを更新（ListeningQuestionモデルを使用）
+        illustration_questions = ListeningQuestion.objects.filter(
             level='4'
         ).order_by('id')
 
         for i, question in enumerate(illustration_questions, 1):
-            question.audio_file = f'audio/part1/listening_illustration_question{i}.mp3'
-            question.image_file = f'images/part1/listening_illustration_image{i}.png'
+            question.audio = f'audio/part1/listening_illustration_question{i}.mp3'
+            question.image = f'images/part1/listening_illustration_image{i}.png'
             question.save()
             self.stdout.write(
-                self.style.SUCCESS(f'Updated audio and image paths for question {i}: {question.audio_file}, {question.image_file}')
+                self.style.SUCCESS(f'Updated audio and image paths for question {i}: {question.audio}, {question.image}')
             ) 
