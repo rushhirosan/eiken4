@@ -23,6 +23,7 @@ class ReadingQuestion(models.Model):
     passage = models.ForeignKey(ReadingPassage, on_delete=models.CASCADE, related_name='questions')
     question_text = models.TextField()
     question_number = models.IntegerField()  # a1, a2, ... の順番
+    explanation = models.TextField(blank=True, default='')
     created_at = models.DateTimeField(auto_now_add=True)
 
     def __str__(self):
@@ -77,6 +78,7 @@ class ListeningQuestion(models.Model):
     image = models.CharField(max_length=200)  # 静的ファイルのパスを保存
     audio = models.CharField(max_length=200)  # 静的ファイルのパスを保存
     correct_answer = models.CharField(max_length=200)
+    explanation = models.TextField(blank=True, default='')
     level = models.CharField(max_length=10, choices=LEVELS, default='4')
     created_at = models.DateTimeField(auto_now_add=True)
 

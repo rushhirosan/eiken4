@@ -50,7 +50,7 @@ def exam_list(request):
 @login_required
 def question_list(request, level=None, exam_id=None):
     question_type = request.GET.get('type')
-    num_questions = int(request.GET.get('num_questions', 10))
+    num_questions = int(request.GET.get('num_questions', 3))
     status = request.GET.get('status', 'all')
     
     print(f"Debug - Level: {level}, Question Type: {question_type}")  # デバッグ出力
@@ -74,6 +74,17 @@ def question_list(request, level=None, exam_id=None):
         20: '20問',
         30: '30問',
     }
+    
+    # 長文読解問題専用のオプション（1問を含む）
+    if question_type == 'reading_comprehension':
+        question_count_options = {
+            1: '1本文',
+            3: '3本文',
+            5: '5本文',
+            10: '10本文',
+            20: '20本文',
+            30: '30本文',
+        }
     
     if question_type == 'listening_illustration':
         # イラスト問題の場合
@@ -162,6 +173,11 @@ def question_list(request, level=None, exam_id=None):
         passages = ReadingPassage.objects.filter(level=level).order_by('id')
         print(f"Debug - Reading Passages: {passages.count()}")  # デバッグ出力
         
+        # パッセージ数を制限（1問の場合は1つのパッセージのみ）
+        if len(passages) > num_questions:
+            passages = random.sample(list(passages), num_questions)
+            passages.sort(key=lambda x: x.id)
+        
         # 出題時のパッセージ順序をセッションに保存
         passage_order = {passage.id: index for index, passage in enumerate(passages)}
         request.session[f'passage_order_{question_type}_{level}'] = passage_order
@@ -170,11 +186,6 @@ def question_list(request, level=None, exam_id=None):
         passages_with_questions = []
         for passage in passages:
             passage_questions = ReadingQuestion.objects.filter(passage=passage).order_by('question_number')
-            
-            # 問題数を制限（ランダムに選択）
-            if len(passage_questions) > num_questions:
-                passage_questions = random.sample(list(passage_questions), num_questions)
-                passage_questions.sort(key=lambda x: x.question_number)
             
             # ユーザーの回答を取得
             user_answers = {}
@@ -531,6 +542,7 @@ def answer_results(request, level, question_type):
                 'user_answer': answer.selected_answer,
                 'is_correct': answer.is_correct,
                 'correct_answer': answer.question.correct_answer,
+                'explanation': getattr(answer.question, 'explanation', ''),
                 'order': order_dict.get(answer.question.id, 0)  # 出題順序を追加
             })
         

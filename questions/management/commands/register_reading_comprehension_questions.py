@@ -41,6 +41,10 @@ class Command(BaseCommand):
                 correct_answer = question_match.group(3).strip()
                 explanation = question_match.group(4).strip()
 
+                # 正解の番号を除去（例：「3. Go fishing」→「Go fishing」）
+                if correct_answer.startswith(('1.', '2.', '3.', '4.')):
+                    correct_answer = correct_answer[2:].strip()
+
                 # Create question
                 question = ReadingQuestion.objects.create(
                     passage=passage,
@@ -52,6 +56,9 @@ class Command(BaseCommand):
                 # Create choices
                 choices = [c.strip() for c in choices_text.split('\n') if c.strip()]
                 for order, choice_text in enumerate(choices, 1):
+                    # 選択肢の番号を除去（例：「3. Go fishing」→「Go fishing」）
+                    if choice_text.startswith(('1.', '2.', '3.', '4.')):
+                        choice_text = choice_text[2:].strip()
                     is_correct = choice_text == correct_answer
                     ReadingChoice.objects.create(
                         question=question,

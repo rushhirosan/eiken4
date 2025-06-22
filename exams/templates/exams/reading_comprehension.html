@@ -24,7 +24,7 @@
                         <label for="num_passages">本文数</label>
                         <select class="form-control" id="num_passages" onchange="updateFilters()">
                             {% for value, label in question_count_options.items %}
-                            <option value="{{ value }}" {% if num_passages == value %}selected{% endif %}>{{ label }}</option>
+                            <option value="{{ value }}" {% if num_questions == value %}selected{% endif %}>{{ label }}</option>
                             {% endfor %}
                         </select>
                     </div>
@@ -77,7 +77,7 @@
 function updateFilters() {
     const numPassages = document.getElementById('num_passages').value;
     const currentUrl = new URL(window.location.href);
-    currentUrl.searchParams.set('num_passages', numPassages);
+    currentUrl.searchParams.set('num_questions', numPassages);
     window.location.href = currentUrl.toString();
 }
 

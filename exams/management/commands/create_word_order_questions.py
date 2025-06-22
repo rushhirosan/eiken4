@@ -17,7 +17,9 @@ class Command(BaseCommand):
         # 問題ごとに分割
         questions = re.split(r'\n---\n', content)
 
-        for q_text in questions:
+        for idx, q_text in enumerate(questions):
+            if idx >= 10:
+                break
             if not q_text.strip():
                 continue
 
@@ -35,14 +37,25 @@ class Command(BaseCommand):
             
             lines = q_text.split('\n')
             current_section = 'question'
+            japanese_text = ''
+            english_choices = ''
+            english_text = ''
             
+            expecting_correct_answer = False
             for line in lines:
                 line = line.strip()
                 if not line:
                     continue
-                    
-                if line.startswith('【正解】'):
+                if expecting_correct_answer and correct_answer is None:
+                    correct_answer = line
+                    if correct_answer.startswith(('1.', '2.', '3.', '4.')):
+                        correct_answer = correct_answer[2:].strip()
+                    expecting_correct_answer = False
+                    current_section = 'done'
+                    continue
+                if line.startswith('【正解】') or line.startswith('【正解'):
                     current_section = 'correct'
+                    expecting_correct_answer = True
                     continue
                 elif line.startswith('【解説】'):
                     current_section = 'explanation'
@@ -50,30 +63,33 @@ class Command(BaseCommand):
                 elif line.startswith('選択肢'):
                     current_section = 'choices'
                     continue
-                
                 if current_section == 'question':
-                    # 選択肢の行（①②③④⑤で始まる行）も問題文に含める
-                    question_text += line + '\n'
+                    if re.match(r'^[①②③④⑤]', line):
+                        english_choices += line + '\n'
+                    elif re.match(r'^\(.*\)', line):
+                        english_text += line + '\n'
+                    else:
+                        japanese_text += line + '\n'
                 elif current_section == 'choices':
-                    # 選択肢の行を処理
                     if re.match(r'^\d+\.', line):
-                        # 行の先頭の数字とドットを除去
                         choice_text = re.sub(r'^\d+\.\s*', '', line)
-                        # 選択肢の番号（①②③④⑤）を除去
-                        choice_text = re.sub(r'^[①②③④⑤]\s*─\s*', '', choice_text)
-                        choices.append(choice_text)
-                elif current_section == 'correct':
-                    correct_answer = line
-                    if correct_answer.startswith(('1.', '2.', '3.', '4.')):
-                        correct_answer = correct_answer[2:].strip()
+                        if choice_text not in choices:
+                            choices.append(choice_text)
                 elif current_section == 'explanation':
                     explanation += line + '\n'
+
+            # 問題文を構造化して作成
+            question_text = f"{japanese_text.strip()}\n{english_choices.strip()}\n{english_text.strip()}"
+
+            # デバッグ用の出力
+            self.stdout.write(f'Question {question_num} - Choices: {choices}')
+            self.stdout.write(f'Question {question_num} - Correct: {correct_answer}')
 
             # 問題を作成
             question = Question.objects.create(
                 level='4',  # 英検4級の問題として設定
                 question_type='word_order',
-                question_text=question_text.strip(),
+                question_text=question_text,
                 explanation=explanation.strip(),
                 question_number=question_num
             )

@@ -64,38 +64,62 @@ class Command(BaseCommand):
             self.stdout.write(f'画像ファイル: {image_path}')
             self.stdout.write(f'音声ファイル: {audio_path}')
 
-            # 選択肢の数を取得
+            # 選択肢・正解・解説の抽出
             choices = []
+            correct_answer = ''
+            explanation = ''
             in_choices = False
+            in_explanation = False
+            
             for line in lines[1:]:
                 if line.strip().startswith('Question No.'):
                     in_choices = True
                     continue
                 if in_choices and line.strip() and not line.startswith('【'):
                     if line.strip()[0].isdigit() and line.strip()[1] == '.':
-                        choices.append(line.strip())
+                        # 1. Yes, over there. など
+                        choices.append(line.strip()[3:].strip())
                 if '【正解' in line:
-                    break
-            num_choices = len(choices)
+                    in_choices = False
+                    # 正解テキストを抽出（次の行から）
+                    continue
+                if '【解説' in line:
+                    in_explanation = True
+                    explanation = ''
+                    continue
+                if in_explanation:
+                    if line.strip().startswith('---'):
+                        in_explanation = False
+                    else:
+                        explanation += line.strip() + '\n'
+                elif not in_choices and not in_explanation and line.strip() and not line.startswith('【'):
+                    # 正解行の処理
+                    if line.strip()[0].isdigit() and line.strip()[1] == '.':
+                        correct_answer = line.strip()[3:].strip()
+                    else:
+                        correct_answer = line.strip()
+            
+            explanation = explanation.strip()
 
-            # モデル登録（問題文・正解は空でOK）
+            # モデル登録
             q = ListeningQuestion.objects.create(
                 question_text='',
                 image=image_path,
                 audio=audio_path,
-                correct_answer='',
+                correct_answer=correct_answer,
+                explanation=explanation,
                 level='4'
             )
 
-            # 選択肢を番号のみで登録
-            for i in range(1, num_choices + 1):
+            # 選択肢をテキストで登録
+            for i, choice_text in enumerate(choices, 1):
                 ListeningChoice.objects.create(
                     question=q,
-                    choice_text=str(i),
-                    is_correct=False,  # 正解情報は使わない
+                    choice_text=choice_text,
+                    is_correct=(choice_text == correct_answer),
                     order=i
                 )
 
-            self.stdout.write(self.style.SUCCESS(f'問題 No.{number} を登録（選択肢{num_choices}個）'))
+            self.stdout.write(self.style.SUCCESS(f'問題 No.{number} を登録（選択肢{len(choices)}個, 正解: {correct_answer}）'))
 
         self.stdout.write(self.style.SUCCESS('全てのイラストリスニング問題を登録しました')) 

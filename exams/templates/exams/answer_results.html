@@ -59,6 +59,12 @@
                     </p>
                     <p><strong>あなたの回答:</strong> {{ answer.user_answer }}</p>
                     <p><strong>正解:</strong> {{ answer.correct_answer }}</p>
+                    {% if answer.explanation %}
+                    <div class="alert alert-info mt-2">
+                        <strong>解説:</strong><br>
+                        {{ answer.explanation|linebreaks }}
+                    </div>
+                    {% endif %}
                 </div>
             </div>
         </div>
@@ -70,7 +76,7 @@
                 <h5 class="card-title mb-0">本文 {{ forloop.counter }}</h5>
             </div>
             <div class="card-body">
-                <p class="card-text">{{ passage.content|linebreaks }}</p>
+                <p class="card-text">{{ passage.text|linebreaks }}</p>
                 
                 {% for answer in answers %}
                 <div class="mt-4">
@@ -128,8 +134,8 @@
         {% endfor %}
     {% endif %}
     
-    <div class="text-center mt-4">
-        <a href="{% url 'exams:question_list_by_level' level=level %}?type={{ question_type }}" class="btn btn-primary">問題一覧に戻る</a>
+    <div class="text-center mt-5 mb-5">
+        <a href="{% url 'exams:exam_list' %}" class="btn btn-primary">問題一覧に戻る</a>
     </div>
 </div>
 {% endblock %} 
