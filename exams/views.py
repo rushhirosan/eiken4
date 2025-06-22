@@ -381,34 +381,36 @@ def submit_answers(request, level):
         
         elif question_type in ['listening_conversation', 'listening_passage']:
             # その他のリスニング問題の場合
-            questions = Question.objects.filter(
-                level=level,
-                question_type=question_type
-            ).order_by('id')
-            
-            if len(questions) > num_questions:
-                questions = random.sample(list(questions), num_questions)
-                questions.sort(key=lambda x: x.id)
-            
-            # 既存の回答を削除
+            # POSTされたquestion_idをすべて取得
+            post_question_ids = [
+                int(key.replace('answer_', ''))
+                for key in request.POST.keys()
+                if key.startswith('answer_')
+            ]
+
+            # 既存の回答を削除（POSTされたquestion_idのみ）
             UserAnswer.objects.filter(
                 user=request.user,
-                question__in=questions
+                question_id__in=post_question_ids
             ).delete()
-                
-                # 回答を保存
-            for question in questions:
-                answer_key = f'answer_{question.id}'
-                if answer_key in request.POST:
-                    selected_choice_id = request.POST.get(answer_key)
+
+            # 回答を保存
+            for question_id in post_question_ids:
+                answer_key = f'answer_{question_id}'
+                selected_choice_id = request.POST.get(answer_key)
+                if selected_choice_id:
                     choice = Choice.objects.get(id=selected_choice_id)
                     is_correct = choice.is_correct
-                UserAnswer.objects.create(
-                    user=request.user,
-                    question=question,
-                    selected_choice=choice,
-                    is_correct=is_correct
-                )
+                    question = Question.objects.get(id=question_id)
+                    UserAnswer.objects.create(
+                        user=request.user,
+                        question=question,
+                        selected_choice=choice,
+                        is_correct=is_correct
+                    )
+
+            # 今回回答したquestion_idと出題順序をセッションに保存
+            request.session[f'answered_questions_{question_type}_{level}'] = post_question_ids
                 
             return redirect('exams:answer_results', level=level, question_type=question_type)
         
@@ -520,13 +522,21 @@ def answer_results(request, level, question_type):
     
     elif question_type in ['listening_conversation', 'listening_passage']:
         # その他のリスニング問題の場合
+        # セッションから今回回答したquestion_idを取得
+        session_key = f'answered_questions_{question_type}_{level}'
+        answered_question_ids = request.session.get(session_key, [])
+        
+        # 今回回答したquestion_idのUserAnswerのみを取得
         user_answers = UserAnswer.objects.filter(
             user=request.user,
-            question__level=level,
-            question__question_type=question_type
+            question_id__in=answered_question_ids
         ).select_related('question')
         
-        # 問題と回答を組み合わせる
+        # 出題順序に従ってソート
+        # answered_question_idsの順序でソートする辞書を作成
+        order_dict = {question_id: index for index, question_id in enumerate(answered_question_ids)}
+        
+        # 問題と回答を組み合わせる（出題順序でソート）
         answers_with_questions = []
         for answer in user_answers:
             choices = Choice.objects.filter(question=answer.question).order_by('order')
@@ -537,8 +547,12 @@ def answer_results(request, level, question_type):
                 'user_answer': answer.selected_choice,
                 'is_correct': answer.is_correct,
                 'correct_choice': correct_choice,
-                'explanation': answer.question.explanation
+                'explanation': answer.question.explanation,
+                'order': order_dict.get(answer.question.id, 0)  # 出題順序を追加
             })
+        
+        # 出題順序でソート
+        answers_with_questions.sort(key=lambda x: x['order'])
         
         # 正解数を計算
         correct_count = sum(1 for answer in user_answers if answer.is_correct)
