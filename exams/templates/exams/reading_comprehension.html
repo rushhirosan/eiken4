@@ -33,8 +33,11 @@
         </div>
     </div>
     
-    <form method="post" action="{% url 'exams:submit_reading_comprehension' level=level %}" id="examForm">
+    <form method="post" action="{% url 'exams:submit_answers' level=level %}" id="examForm">
         {% csrf_token %}
+        <input type="hidden" name="question_type" value="{{ question_type }}">
+        <input type="hidden" name="level" value="{{ level }}">
+        <input type="hidden" name="num_questions" value="{{ num_questions }}">
         {% for passage_data in passages %}
         <div class="card mb-4">
             <div class="card-body">
@@ -50,7 +53,7 @@
                         <div class="choices">
                             {% for choice in question_data.question.choices.all %}
                             <div class="form-check">
-                                <input class="form-check-input" type="radio" name="question_{{ question_data.question.id }}" id="choice{{ choice.id }}" value="{{ choice.id }}" {% if question_data.answer and question_data.answer.selected_reading_choice.id == choice.id %}checked{% endif %}>
+                                <input class="form-check-input" type="radio" name="answer_{{ question_data.question.id }}" id="choice{{ choice.id }}" value="{{ choice.id }}" {% if question_data.answer and question_data.answer.selected_reading_choice.id == choice.id %}checked{% endif %}>
                                 <label class="form-check-label" for="choice{{ choice.id }}">
                                     {{ choice.choice_text }}
                                 </label>

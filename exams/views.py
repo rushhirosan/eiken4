@@ -162,6 +162,10 @@ def question_list(request, level=None, exam_id=None):
         passages = ReadingPassage.objects.filter(level=level).order_by('id')
         print(f"Debug - Reading Passages: {passages.count()}")  # デバッグ出力
         
+        # 出題時のパッセージ順序をセッションに保存
+        passage_order = {passage.id: index for index, passage in enumerate(passages)}
+        request.session[f'passage_order_{question_type}_{level}'] = passage_order
+        
         # パッセージと問題を組み合わせる
         passages_with_questions = []
         for passage in passages:
@@ -357,18 +361,26 @@ def submit_answers(request, level):
             if len(questions) > num_questions:
                 questions = random.sample(list(questions), num_questions)
                 questions.sort(key=lambda x: x.id)
-        
-        # 既存の回答を削除
+            
+            # POSTされたquestion_idをすべて取得
+            post_question_ids = [
+                int(key.replace('answer_', ''))
+                for key in request.POST.keys()
+                if key.startswith('answer_')
+            ]
+            
+            # 既存の回答を削除（POSTされたquestion_idのみ）
             ListeningUserAnswer.objects.filter(
-            user=request.user,
-                question__in=questions
-        ).delete()
-        
+                user=request.user,
+                question_id__in=post_question_ids
+            ).delete()
+            
             # 回答を保存
-            for question in questions:
-                answer_key = f'answer_{question.id}'
+            for question_id in post_question_ids:
+                answer_key = f'answer_{question_id}'
                 if answer_key in request.POST:
                     selected_answer = request.POST.get(answer_key)
+                    question = ListeningQuestion.objects.get(id=question_id)
                     is_correct = selected_answer == question.correct_answer
                     ListeningUserAnswer.objects.create(
                         user=request.user,
@@ -376,6 +388,9 @@ def submit_answers(request, level):
                         selected_answer=selected_answer,
                         is_correct=is_correct
                     )
+            
+            # 今回回答したquestion_idと出題順序をセッションに保存
+            request.session[f'answered_questions_{question_type}_{level}'] = post_question_ids
             
             return redirect('exams:answer_results', level=level, question_type=question_type)
         
@@ -416,36 +431,36 @@ def submit_answers(request, level):
         
         elif question_type == 'reading_comprehension':
             # 長文読解問題の場合
-            passages = ReadingPassage.objects.filter(level=level).order_by('id')
-            
-            # パッセージごとに問題を処理
-            for passage in passages:
-                passage_questions = ReadingQuestion.objects.filter(passage=passage).order_by('question_number')
-                
-                # 問題数を制限
-                if len(passage_questions) > num_questions:
-                    passage_questions = random.sample(list(passage_questions), num_questions)
-                    passage_questions.sort(key=lambda x: x.question_number)
-                
-                # 既存の回答を削除
-                ReadingUserAnswer.objects.filter(
-                    user=request.user,
-                    reading_question__in=passage_questions
-                ).delete()
-                
-                # 回答を保存
-                for question in passage_questions:
-                    answer_key = f'answer_{question.id}'
-                    if answer_key in request.POST:
-                        selected_choice_id = request.POST.get(answer_key)
-                        choice = ReadingChoice.objects.get(id=selected_choice_id)
-                        is_correct = choice.is_correct
-                        ReadingUserAnswer.objects.create(
-                            user=request.user,
-                            reading_question=question,
-                            selected_reading_choice=choice,
-                            is_correct=is_correct
-                        )
+            # POSTされたquestion_idをすべて取得
+            post_question_ids = [
+                int(key.replace('answer_', ''))
+                for key in request.POST.keys()
+                if key.startswith('answer_')
+            ]
+
+            # 既存の回答を削除（POSTされたquestion_idのみ）
+            ReadingUserAnswer.objects.filter(
+                user=request.user,
+                reading_question_id__in=post_question_ids
+            ).delete()
+
+            # 回答を保存
+            for question_id in post_question_ids:
+                answer_key = f'answer_{question_id}'
+                selected_choice_id = request.POST.get(answer_key)
+                if selected_choice_id:
+                    choice = ReadingChoice.objects.get(id=selected_choice_id)
+                    is_correct = choice.is_correct
+                    question = ReadingQuestion.objects.get(id=question_id)
+                    ReadingUserAnswer.objects.create(
+                        user=request.user,
+                        reading_question=question,
+                        selected_reading_choice=choice,
+                        is_correct=is_correct
+                    )
+
+            # 今回回答したquestion_idと出題順序をセッションに保存
+            request.session[f'answered_questions_{question_type}_{level}'] = post_question_ids
             
             return redirect('exams:answer_results', level=level, question_type=question_type)
         
@@ -490,12 +505,23 @@ def submit_answers(request, level):
 def answer_results(request, level, question_type):
     if question_type == 'listening_illustration':
         # イラスト問題の場合
+        # セッションから今回回答したquestion_idを取得
+        session_key = f'answered_questions_{question_type}_{level}'
+        answered_question_ids = request.session.get(session_key, [])
+        
+        print(f"Debug - Listening Illustration answered_question_ids: {answered_question_ids}")
+        
+        # 今回回答したquestion_idのListeningUserAnswerのみを取得
         user_answers = ListeningUserAnswer.objects.filter(
             user=request.user,
-            question__level=level
+            question_id__in=answered_question_ids
         ).select_related('question')
         
-        # 問題と回答を組み合わせる
+        # 出題順序に従ってソート
+        # answered_question_idsの順序でソートする辞書を作成
+        order_dict = {question_id: index for index, question_id in enumerate(answered_question_ids)}
+        
+        # 問題と回答を組み合わせる（出題順序でソート）
         answers_with_questions = []
         for answer in user_answers:
             choices = ListeningChoice.objects.filter(question=answer.question).order_by('order')
@@ -504,8 +530,12 @@ def answer_results(request, level, question_type):
                 'choices': choices,
                 'user_answer': answer.selected_answer,
                 'is_correct': answer.is_correct,
-                'correct_answer': answer.question.correct_answer
+                'correct_answer': answer.question.correct_answer,
+                'order': order_dict.get(answer.question.id, 0)  # 出題順序を追加
             })
+        
+        # 出題順序でソート
+        answers_with_questions.sort(key=lambda x: x['order'])
         
         # 正解数を計算
         correct_count = sum(1 for answer in user_answers if answer.is_correct)
@@ -569,12 +599,28 @@ def answer_results(request, level, question_type):
     
     elif question_type == 'reading_comprehension':
         # 長文読解問題の場合
+        # セッションから今回回答したquestion_idを取得
+        session_key = f'answered_questions_{question_type}_{level}'
+        answered_question_ids = request.session.get(session_key, [])
+        
+        # パッセージの順序を取得
+        passage_order_key = f'passage_order_{question_type}_{level}'
+        passage_order = request.session.get(passage_order_key, {})
+        
+        print(f"Debug - answered_question_ids: {answered_question_ids}")
+        print(f"Debug - passage_order: {passage_order}")
+        
+        # 今回回答したquestion_idのReadingUserAnswerのみを取得
         user_answers = ReadingUserAnswer.objects.filter(
             user=request.user,
-            reading_question__passage__level=level
+            reading_question_id__in=answered_question_ids
         ).select_related('reading_question', 'reading_question__passage')
         
-        # パッセージごとに問題と回答をグループ化
+        # 出題順序に従ってソート
+        # answered_question_idsの順序でソートする辞書を作成
+        order_dict = {question_id: index for index, question_id in enumerate(answered_question_ids)}
+        
+        # パッセージごとに問題と回答をグループ化（出題順序でソート）
         passages_with_answers = {}
         for answer in user_answers:
             passage = answer.reading_question.passage
@@ -589,8 +635,21 @@ def answer_results(request, level, question_type):
                 'user_answer': answer.selected_reading_choice,
                 'is_correct': answer.is_correct,
                 'correct_choice': correct_choice,
-                'explanation': getattr(answer.reading_question, 'explanation', '')
+                'explanation': getattr(answer.reading_question, 'explanation', ''),
+                'order': order_dict.get(answer.reading_question.id, 0)  # 出題順序を追加
             })
+        
+        print(f"Debug - passages_with_answers keys: {[p.id for p in passages_with_answers.keys()]}")
+        
+        # 各パッセージ内で出題順序でソート
+        for passage in passages_with_answers:
+            passages_with_answers[passage].sort(key=lambda x: x['order'])
+        
+        # パッセージを順序でソート
+        sorted_passages = sorted(passages_with_answers.items(), key=lambda x: passage_order.get(str(x[0].id), 999))
+        passages_with_answers = dict(sorted_passages)
+        
+        print(f"Debug - sorted passages: {[p.id for p in passages_with_answers.keys()]}")
         
         # 正解数を計算
         correct_count = sum(1 for answer in user_answers if answer.is_correct)

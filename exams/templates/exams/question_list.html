@@ -57,14 +57,14 @@
                                         お使いのブラウザは音声再生に対応していません。
                                     </audio>
                                 </div>
-                                <div class="choices text-center">
+                                <div class="choices">
                                     {% for choice in question.choices %}
-                                        <div class="form-check form-check-inline">
+                                        <div class="form-check">
                                             <input class="form-check-input" type="radio" name="answer_{{ question.question.id }}" 
-                                                   id="choice_{{ choice.id }}" value="{{ choice.id }}"
-                                                   {% if question.user_answer == choice.id %}checked{% endif %}>
+                                                   id="choice_{{ choice.id }}" value="{{ choice.choice_text }}"
+                                                   {% if question.user_answer == choice.choice_text %}checked{% endif %}>
                                             <label class="form-check-label" for="choice_{{ choice.id }}">
-                                                {{ forloop.counter }}
+                                                {{ choice.choice_text }}
                                             </label>
                                         </div>
                                     {% endfor %}
@@ -79,16 +79,16 @@
                                 
                                 <div class="choices">
                                     {% for choice in question.choices %}
-                            <div class="form-check">
+                                        <div class="form-check">
                                             <input class="form-check-input" type="radio" name="answer_{{ question.question.id }}" 
-                                                   id="choice_{{ choice.id }}" value="{{ choice.id }}"
-                                                   {% if question.user_answer == choice.id %}checked{% endif %}>
+                                                   id="choice_{{ choice.id }}" value="{{ choice.choice_text }}"
+                                                   {% if question.user_answer == choice.choice_text %}checked{% endif %}>
                                             <label class="form-check-label" for="choice_{{ choice.id }}">
-                                    {{ choice.choice_text }}
-                                </label>
-                            </div>
-                            {% endfor %}
-                        </div>
+                                                {{ choice.choice_text }}
+                                            </label>
+                                        </div>
+                                    {% endfor %}
+                                </div>
                             {% else %}
                                 <p class="card-text">{{ question.question.question_text }}</p>
                                 
@@ -101,10 +101,10 @@
                                             <label class="form-check-label" for="choice_{{ choice.id }}">
                                                 {{ choice.choice_text }}
                                             </label>
-                            </div>
+                                        </div>
                                     {% endfor %}
-                        </div>
-                        {% endif %}
+                                </div>
+                            {% endif %}
                     </div>
                 </div>
             </div>
