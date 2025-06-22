@@ -14,38 +14,38 @@
         {% endfor %}
     </div>
     {% endif %}
-
+    
     <form method="post" action="{% url 'exams:submit_answers' level %}?type={{ question_type }}">
         {% csrf_token %}
         <input type="hidden" name="question_type" value="{{ question_type }}">
         
         <div class="row mb-4">
-            <div class="col-md-6">
-                <div class="form-group">
+                <div class="col-md-6">
+                    <div class="form-group">
                     <label for="num_questions">問題数:</label>
                     <select name="num_questions" id="num_questions" class="form-control" onchange="this.form.submit()">
                         {% for count, label in question_count_options.items %}
                         <option value="{{ count }}" {% if count == num_questions %}selected{% endif %}>{{ label }}</option>
                         {% endfor %}
-                    </select>
+                        </select>
+                    </div>
                 </div>
-            </div>
-            <div class="col-md-6">
-                <div class="form-group">
+                <div class="col-md-6">
+                    <div class="form-group">
                     <label for="status">状態:</label>
                     <select name="status" id="status" class="form-control" onchange="this.form.submit()">
                         <option value="all" {% if status == 'all' %}selected{% endif %}>全て</option>
                         <option value="correct" {% if status == 'correct' %}selected{% endif %}>正解</option>
                         <option value="incorrect" {% if status == 'incorrect' %}selected{% endif %}>不正解</option>
                         <option value="unanswered" {% if status == 'unanswered' %}selected{% endif %}>未回答</option>
-                    </select>
-                </div>
+                        </select>
             </div>
         </div>
-
+    </div>
+    
         {% for question_data in questions %}
         <div class="card mb-4">
-            <div class="card-body">
+                <div class="card-body">
                 <h5 class="card-title">問題 {{ forloop.counter }}</h5>
                 
                 {% if question_data.question.image %}
@@ -58,14 +58,14 @@
                 <div class="mb-3">
                     <audio controls class="w-100">
                         <source src="{% static question_data.question.audio %}" type="audio/mpeg">
-                        お使いのブラウザは音声再生に対応していません。
-                    </audio>
-                </div>
+                            お使いのブラウザは音声再生に対応していません。
+                        </audio>
+                    </div>
                 {% endif %}
-                
+                    
                 <div class="mb-3">
                     <p class="card-text">{{ question_data.question.question_text|linebreaks }}</p>
-                </div>
+                        </div>
                 
                 <div class="choices">
                     {% for choice in question_data.question.choices.all %}
@@ -107,10 +107,10 @@
             </div>
         </div>
         {% endfor %}
-        
+    
         <div class="text-center mb-4">
             <button type="submit" class="btn btn-primary">回答を送信</button>
-        </div>
+    </div>
     </form>
 </div>
 

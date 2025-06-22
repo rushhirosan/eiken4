@@ -43,10 +43,10 @@
 
         <div class="row">
             {% for question in questions %}
-                <div class="col-md-6 mb-4">
-                    <div class="card h-100">
-                        <div class="card-body">
-                            <h5 class="card-title">問題 {{ forloop.counter }}</h5>
+            <div class="col-md-6 mb-4">
+                <div class="card h-100">
+                    <div class="card-body">
+                        <h5 class="card-title">問題 {{ forloop.counter }}</h5>
                             {% if question_type == 'listening_illustration' %}
                                 <div class="text-center mb-3">
                                     <img src="{% static question.question.image %}" alt="問題のイラスト" class="img-fluid" style="max-width: 250px;">
@@ -79,16 +79,16 @@
                                 
                                 <div class="choices">
                                     {% for choice in question.choices %}
-                                        <div class="form-check">
+                            <div class="form-check">
                                             <input class="form-check-input" type="radio" name="answer_{{ question.question.id }}" 
                                                    id="choice_{{ choice.id }}" value="{{ choice.id }}"
                                                    {% if question.user_answer == choice.id %}checked{% endif %}>
                                             <label class="form-check-label" for="choice_{{ choice.id }}">
-                                                {{ choice.choice_text }}
-                                            </label>
-                                        </div>
-                                    {% endfor %}
-                                </div>
+                                    {{ choice.choice_text }}
+                                </label>
+                            </div>
+                            {% endfor %}
+                        </div>
                             {% else %}
                                 <p class="card-text">{{ question.question.question_text }}</p>
                                 
@@ -101,16 +101,16 @@
                                             <label class="form-check-label" for="choice_{{ choice.id }}">
                                                 {{ choice.choice_text }}
                                             </label>
-                                        </div>
+                            </div>
                                     {% endfor %}
-                                </div>
-                            {% endif %}
                         </div>
+                        {% endif %}
                     </div>
                 </div>
+            </div>
             {% endfor %}
         </div>
-
+        
         <div class="text-center mt-4">
             <button type="submit" class="btn btn-primary btn-lg">回答を提出</button>
         </div>
@@ -119,33 +119,34 @@
 
 <script>
 document.getElementById('examForm').addEventListener('submit', function(e) {
-    const questions = document.querySelectorAll('.card');
+    // 実際に表示されている問題カードを取得
+    const questionCards = document.querySelectorAll('.col-md-6 .card');
     let allAnswered = true;
     let answeredCount = 0;
-    const totalQuestions = parseInt('{{ num_questions }}');
     
-    questions.forEach(question => {
-        const radioButtons = question.querySelectorAll('input[type="radio"]');
+    // 各問題カードをチェック
+    questionCards.forEach((card, index) => {
+        const radioButtons = card.querySelectorAll('input[type="radio"]');
         let questionAnswered = false;
         
         radioButtons.forEach(radio => {
             if (radio.checked) {
                 questionAnswered = true;
-                answeredCount++;
             }
         });
         
         if (!questionAnswered) {
             allAnswered = false;
-            question.style.border = '2px solid red';
+            card.style.border = '2px solid red';
         } else {
-            question.style.border = '';
+            answeredCount++;
+            card.style.border = '';
         }
     });
     
     if (!allAnswered) {
         e.preventDefault();
-        alert(`表示されている${totalQuestions}問すべてに回答してください。`);
+        alert(`表示されている${questionCards.length}問すべてに回答してください。`);
         return false;
     }
     

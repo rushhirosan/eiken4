@@ -11,7 +11,7 @@ urlpatterns = [
     path('submit/<int:question_id>/', views.submit_answer, name='submit_answer'),
     path('submit-reading/<str:level>/', views.submit_reading_comprehension, name='submit_reading_comprehension'),
     path('submit-answers/<str:level>/', views.submit_answers, name='submit_answers'),
-    path('results/<str:level>/<str:type>/', views.answer_results, name='answer_results'),
+    path('results/<str:level>/<str:question_type>/', views.answer_results, name='answer_results'),
     path('progress/', views.progress_view, name='progress'),
     path('clear-progress/', views.clear_progress, name='clear_progress'),
 ] 

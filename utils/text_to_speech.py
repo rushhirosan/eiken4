@@ -126,10 +126,10 @@ async def main():
         
         # 問題の音声を生成（女性の声）
         await text_to_speech(question, question_audio, "en-US-JennyNeural")
-        
-        # 音声ファイルを結合
+            
+            # 音声ファイルを結合
         combine_audio_files(passage_audio, question_audio, output_audio)
-        
+                
         print(f"Processed question {question_number}")
 
 if __name__ == "__main__":
