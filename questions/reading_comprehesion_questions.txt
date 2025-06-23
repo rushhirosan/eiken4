@@ -21,7 +21,7 @@ What will students do at the camp?
 4. Climb trees.
 
 【正解1a】
-3. Go fishing
+3. Go fishing.
 
 【解説1a】
 本文に「Students will go fishing and learn about the trees and flowers」とあり、釣りをすることが書かれています。写真を撮る、バスを掃除する、木に登るとは書かれていません。
@@ -36,7 +36,7 @@ Where will the students meet?
 4. At the river.
 
 【正解1b】
-1. In front of the school
+1. In front of the school.
 
 【解説1b】
 本文に「We will meet in front of the school」と書かれているので、集合場所は学校の前です。Ms. Wilsonの部屋やバス停、川ではありません。
@@ -56,6 +56,14 @@ At basketball practice today, I took off my watch. I always put it in my bag bef
 Thank you,
 Amy
 
+From: Greg Harris
+To: Amy Simmons
+Date: May 12
+Subject: Your watch
+
+Hello Amy,
+I found your watch on a bench in the gym. I took it to the school office, so you can go there and get it. The office is closed now. It'll open at 8:00 a.m. tomorrow. The office is always busy at lunchtime, so you should go there tomorrow morning. See you soon, Coach Harris
+
 問題2a:
 What will Amy do tomorrow afternoon?
 
@@ -66,7 +74,7 @@ What will Amy do tomorrow afternoon?
 4. Meet Coach Harris.
 
 【正解2a】
-2. Take a test
+2. Take a test.
 
 【解説2a】
 Amyのメールの中に「I need it tomorrow afternoon because I’ll take a test」とあり、試験を受ける予定だと書かれています。バスケットボールをしたり、新しい時計を買ったり、Coach Harrisに会ったりするとは書かれていません。
@@ -81,7 +89,7 @@ Where did Coach Harris find Amy’s watch?
 4. At home. 
 
 【正解2b】
-1. In the gym
+1. In the gym.
 
 【解説2b】
 Coach Harrisのメールに「I found your watch on a bench in the gym」と書かれています。オフィスに持っていったのはその後のことなので、見つけた場所はジムです。
@@ -96,7 +104,7 @@ Amy should go to the school office
 4. tomorrow afternoon.
 
 【正解2c】
-2. tomorrow morning
+2. tomorrow morning.
 
 【解説2c】
 Coach Harrisは「The office is always busy at lunchtime, so you should go there tomorrow morning」とアドバイスしています。したがって、明日の朝が一番良い時間です。
@@ -116,7 +124,7 @@ What does Jill do every summer?
 4. She goes on a boat trip. 
 
 【正解3a】
-3. She goes to the beach
+3. She goes to the beach.
 
 【解説3a】
 本文の最初に「Every summer, she visits the beach with her family.」とあり、毎年夏にビーチに行くのが習慣であることが書かれています。釣りやボート旅行、プールは特定の出来事なので不正解です。
@@ -131,7 +139,7 @@ What time did Jill and her father get on a boat?
 4. At noon. 
 
 【正解3b】
-3. At seven
+3. At seven.
 
 【解説3b】
 本文に「They got up at six in the morning and got on a boat at seven.」と明確に書かれています。6時ではなく、7時が正解です。
@@ -146,7 +154,7 @@ Who did Jill meet by the beach?
 4. Her swimming coach. 
 
 【正解3c】
-2. A woman with long hair
+2. A woman with long hair.
 
 【解説3c】
 「She met a woman with long hair there.」と書かれています。父の友人やコーチではなく、「髪の長い女性」と明確です。
@@ -161,7 +169,7 @@ What did Jill do at college?
 4, She cleaned the pool every week. 
 
 【正解3d】
-3. She started taking surfing lessons
+3. She started taking surfing lessons.
 
 【解説3d】
 本文に「At college, she started taking surfing lessons.」とあるため正解です。泳ぎを学ぶことや掃除、釣りクラブについては書かれていません。

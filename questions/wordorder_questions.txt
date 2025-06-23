@@ -70,11 +70,11 @@ Tom and I were playing tennis yesterday afternoon.
 4. ④ ─ ⑤
 
 【正解4】  
-3. ④ ─ ②
+3. ④ ─ ⑤
 
 【解説4】  
 Which bus will get to the hotel first?  
-2番目は「bus」(④)、4番目は「the hotel」(②)。
+2番目は「bus」(④)、4番目は「get to」(⑤)。
 
 ---
 
@@ -90,11 +90,11 @@ Please ( ) [2番目] ( ) [4番目] ( ).
 4. ② ─ ④
 
 【正解5】  
-2. ② ─ ③
+2. ④ ─ ①  
 
 【解説5】  
 Please don't forget to wash the dishes.  
-2番目は「don't」(②)、4番目は「to」(③)。
+2番目は「forget」(④)、4番目は「wash」(①)。
 
 ---
 
@@ -110,17 +110,17 @@ Please don't forget to wash the dishes.
 4. ② ─ ①
 
 【正解6】  
-2. ③ ─ ④
+2. ② ─ ①
 
 【解説6】  
 May I play with Anna after school today?  
-2番目は「may」(③)、4番目は「play」(④)。
+2番目は「I」(③)、4番目は「with」(④)。
 
 ---
 
 問題7:
 あなたは英語を話すことが得意ですか。  
-① good ② at ③ English ④ you ⑤ speaking  
+Are ① good ② at ③ English ④ you ⑤ speaking  
 ( ) [2番目] ( ) [4番目] ( )?
 
 選択肢7:
@@ -130,17 +130,17 @@ May I play with Anna after school today?
 4. ① ─ ②
 
 【正解7】  
-3. ② ─ ④
+3. ① ─ ⑤
 
 【解説7】  
 Are you good at speaking English?  
-2番目は「at」(②)、4番目は「you」(④)。
+2番目は「good」(①)、4番目は「speaking」(⑤)。
 
 ---
 
 問題8:
 私は正午に昼食を作り始めました。  
-① to ② started ③ at ④ lunch ⑤ make  
+I ① to ② started ③ at ④ lunch ⑤ make  
 ( ) [2番目] ( ) [4番目] ( ) noon.
 
 選択肢8:
@@ -150,11 +150,11 @@ Are you good at speaking English?
 4. ① ─ ③
 
 【正解8】  
-1. ② ─ ⑤
+1. ① ─ ④
 
 【解説8】  
 I started to make lunch at noon.  
-2番目は「started」(②)、4番目は「make」(⑤)。
+2番目は「to」(①)、4番目は「lunch」(④)。
 
 ---
 
@@ -180,7 +180,7 @@ We're not going to have a test tomorrow.
 
 問題10: 
 このレストランはピザで有名です。  
-① is ② it's pizza ③ for ④ restaurant ⑤ famous  
+This ① is ② it's pizza ③ for ④ restaurant ⑤ famous  
 ( ) [2番目] ( ) [4番目] ( ).
 
 選択肢10:

@@ -91,7 +91,13 @@
                                 </div>
                             {% else %}
                                 {% if question_type == 'word_order' %}
-                                    <div class="card-text">{{ question.question.question_text|linebreaks }}</div>
+                                    {% with question_text=question.question.question_text %}
+                                        {% if question_text|slice:":3" == "問題" %}
+                                            <div class="card-text">{{ question_text|slice:"4:"|linebreaks }}</div>
+                                        {% else %}
+                                            <div class="card-text">{{ question_text|linebreaks }}</div>
+                                        {% endif %}
+                                    {% endwith %}
                                 {% else %}
                                     <p class="card-text">{{ question.question.question_text }}</p>
                                 {% endif %}

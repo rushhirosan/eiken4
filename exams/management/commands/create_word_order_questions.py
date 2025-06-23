@@ -57,7 +57,7 @@ class Command(BaseCommand):
                     current_section = 'correct'
                     expecting_correct_answer = True
                     continue
-                elif line.startswith('【解説】'):
+                elif line.startswith('【解説】') or line.startswith('【解説'):
                     current_section = 'explanation'
                     continue
                 elif line.startswith('選択肢'):
@@ -78,12 +78,15 @@ class Command(BaseCommand):
                 elif current_section == 'explanation':
                     explanation += line + '\n'
 
-            # 問題文を構造化して作成
-            question_text = f"{japanese_text.strip()}\n{english_choices.strip()}\n{english_text.strip()}"
+            # 問題文を構造化して作成（「問題X:」の部分を削除）
+            # 日本語文から「問題X:」の部分を削除
+            japanese_text_clean = re.sub(r'^問題\d+:\s*', '', japanese_text.strip())
+            question_text = f"{japanese_text_clean}\n{english_choices.strip()}\n{english_text.strip()}"
 
             # デバッグ用の出力
             self.stdout.write(f'Question {question_num} - Choices: {choices}')
             self.stdout.write(f'Question {question_num} - Correct: {correct_answer}')
+            self.stdout.write(f'Question {question_num} - Explanation: {explanation.strip()}')
 
             # 問題を作成
             question = Question.objects.create(

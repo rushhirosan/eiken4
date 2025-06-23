@@ -59,7 +59,14 @@ class Command(BaseCommand):
                     # 選択肢の番号を除去（例：「3. Go fishing」→「Go fishing」）
                     if choice_text.startswith(('1.', '2.', '3.', '4.')):
                         choice_text = choice_text[2:].strip()
+                    # 末尾のピリオドを除去する処理は削除
                     is_correct = choice_text == correct_answer
+                    
+                    # デバッグ出力
+                    print(f"Question: {question_text}")
+                    print(f"Correct answer: '{correct_answer}'")
+                    print(f"Choice {order}: '{choice_text}' (is_correct: {is_correct})")
+                    
                     ReadingChoice.objects.create(
                         question=question,
                         choice_text=choice_text,

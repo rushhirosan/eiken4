@@ -50,7 +50,13 @@ def exam_list(request):
 @login_required
 def question_list(request, level=None, exam_id=None):
     question_type = request.GET.get('type')
-    num_questions = int(request.GET.get('num_questions', 3))
+    
+    # 長文読解以外はデフォルト5問、長文読解はデフォルト3問
+    if question_type == 'reading_comprehension':
+        num_questions = int(request.GET.get('num_questions', 3))
+    else:
+        num_questions = int(request.GET.get('num_questions', 5))
+    
     status = request.GET.get('status', 'all')
     
     print(f"Debug - Level: {level}, Question Type: {question_type}")  # デバッグ出力
@@ -66,13 +72,14 @@ def question_list(request, level=None, exam_id=None):
         'listening_passage': 'リスニング第3部: 文章問題',
     }
     
-    # 問題数のオプション
+    # 問題数のオプション（長文読解以外）
     question_count_options = {
         3: '3問',
         5: '5問',
         10: '10問',
         20: '20問',
         30: '30問',
+        'all': '全て',
     }
     
     # 長文読解問題専用のオプション（1問を含む）
@@ -84,6 +91,7 @@ def question_list(request, level=None, exam_id=None):
             10: '10本文',
             20: '20本文',
             30: '30本文',
+            'all': '全て',
         }
     
     if question_type == 'listening_illustration':
@@ -91,7 +99,8 @@ def question_list(request, level=None, exam_id=None):
         questions = ListeningQuestion.objects.filter(level=level).order_by('id')
         print(f"Debug - Listening Illustration Questions: {questions.count()}")  # デバッグ出力
         
-        if len(questions) > num_questions:
+        # 「全て」が選択された場合は制限しない
+        if num_questions != 'all' and len(questions) > num_questions:
             questions = random.sample(list(questions), num_questions)
             questions.sort(key=lambda x: x.id)
         
@@ -131,7 +140,9 @@ def question_list(request, level=None, exam_id=None):
         # リスニング会話問題とリスニング文章問題の場合
         questions = Question.objects.filter(level=level, question_type=question_type).order_by('question_number')
         questions = list(questions)
-        if len(questions) > num_questions:
+        
+        # 「全て」が選択された場合は制限しない
+        if num_questions != 'all' and len(questions) > num_questions:
             questions = random.sample(questions, num_questions)
             questions.sort(key=lambda x: x.question_number)
         
@@ -173,8 +184,8 @@ def question_list(request, level=None, exam_id=None):
         passages = ReadingPassage.objects.filter(level=level).order_by('id')
         print(f"Debug - Reading Passages: {passages.count()}")  # デバッグ出力
         
-        # パッセージ数を制限（1問の場合は1つのパッセージのみ）
-        if len(passages) > num_questions:
+        # 「全て」が選択された場合は制限しない
+        if num_questions != 'all' and len(passages) > num_questions:
             passages = random.sample(list(passages), num_questions)
             passages.sort(key=lambda x: x.id)
         
@@ -230,7 +241,9 @@ def question_list(request, level=None, exam_id=None):
         questions = Question.objects.filter(level=level, question_type=question_type).order_by('question_number')
         print(f"Debug - Regular Questions: {questions.count()}")  # デバッグ出力
         questions = list(questions)
-        if len(questions) > num_questions:
+        
+        # 「全て」が選択された場合は制限しない
+        if num_questions != 'all' and len(questions) > num_questions:
             questions = random.sample(questions, num_questions)
             questions.sort(key=lambda x: x.question_number)
         
@@ -253,7 +266,7 @@ def question_list(request, level=None, exam_id=None):
                 'choices': choices,
                 'user_answer': user_answers.get(question.id),
                 'correct_choice': correct_choice,
-                    'explanation': question.explanation
+                'explanation': question.explanation
             })
         
         print(f"Debug - Questions with answers: {len(questions_with_answers)}")  # デバッグ出力
@@ -361,7 +374,13 @@ def submit_answers(request, level):
     if request.method == 'POST':
         question_type = request.POST.get('question_type')
         level = int(level)  # URLパラメータから取得したlevelを使用
-        num_questions = int(request.POST.get('num_questions', 10))
+        
+        # num_questionsが「全て」の場合は文字列、そうでなければ整数
+        num_questions_param = request.POST.get('num_questions', 10)
+        if num_questions_param == 'all':
+            num_questions = 'all'
+        else:
+            num_questions = int(num_questions_param)
         
         print(f"Debug - Submit Answers: question_type={question_type}, level={level}, num_questions={num_questions}")
         print(f"Debug - POST data: {request.POST}")
@@ -369,7 +388,8 @@ def submit_answers(request, level):
         if question_type == 'listening_illustration':
             # イラスト問題の場合
             questions = ListeningQuestion.objects.filter(level=level).order_by('id')
-            if len(questions) > num_questions:
+            # 「全て」が選択された場合は制限しない
+            if num_questions != 'all' and len(questions) > num_questions:
                 questions = random.sample(list(questions), num_questions)
                 questions.sort(key=lambda x: x.id)
             
@@ -407,6 +427,13 @@ def submit_answers(request, level):
         
         elif question_type in ['listening_conversation', 'listening_passage']:
             # その他のリスニング問題の場合
+            questions = Question.objects.filter(level=level, question_type=question_type).order_by('question_number')
+            questions = list(questions)
+            # 「全て」が選択された場合は制限しない
+            if num_questions != 'all' and len(questions) > num_questions:
+                questions = random.sample(questions, num_questions)
+                questions.sort(key=lambda x: x.question_number)
+            
             # POSTされたquestion_idをすべて取得
             post_question_ids = [
                 int(key.replace('answer_', ''))
@@ -442,6 +469,12 @@ def submit_answers(request, level):
         
         elif question_type == 'reading_comprehension':
             # 長文読解問題の場合
+            passages = ReadingPassage.objects.filter(level=level).order_by('id')
+            # 「全て」が選択された場合は制限しない
+            if num_questions != 'all' and len(passages) > num_questions:
+                passages = random.sample(list(passages), num_questions)
+                passages.sort(key=lambda x: x.id)
+            
             # POSTされたquestion_idをすべて取得
             post_question_ids = [
                 int(key.replace('answer_', ''))
@@ -477,6 +510,13 @@ def submit_answers(request, level):
         
         else:
             # 通常の問題の場合
+            questions = Question.objects.filter(level=level, question_type=question_type).order_by('question_number')
+            questions = list(questions)
+            # 「全て」が選択された場合は制限しない
+            if num_questions != 'all' and len(questions) > num_questions:
+                questions = random.sample(questions, num_questions)
+                questions.sort(key=lambda x: x.question_number)
+            
             # POSTされたquestion_idをすべて取得
             post_question_ids = [
                 int(key.replace('answer_', ''))
