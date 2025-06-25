@@ -455,34 +455,38 @@ def question_list(request, level=None, exam_id=None):
             questions = random.sample(questions, num_questions)
             questions.sort(key=lambda x: x.question_number)
         
-        # 問題と回答を組み合わせる（回答履歴は表示しない）
-        questions_with_answers = []
-        for question in questions:
-            choices = Choice.objects.filter(question=question).order_by('order')
-            correct_choice = choices.filter(is_correct=True).first()
-            questions_with_answers.append({
-                'question': question,
-                'choices': choices,
-                'user_answer': None,  # 常にNoneにして未選択状態にする
-                'correct_choice': correct_choice,
-                    'explanation': question.explanation
-            })
+        # POSTされたquestion_idをすべて取得
+        post_question_ids = [
+            int(key.replace('answer_', ''))
+            for key in request.POST.keys()
+            if key.startswith('answer_')
+        ]
         
-        print(f"Debug - Questions with answers: {len(questions_with_answers)}")  # デバッグ出力
-        for q in questions_with_answers:
-            print(f"Debug - Question: {q['question'].question_text}")  # デバッグ出力
-            print(f"Debug - Choices: {[c.choice_text for c in q['choices']]}")  # デバッグ出力
+        # 既存の回答を削除（POSTされたquestion_idのみ）
+        UserAnswer.objects.filter(
+            user=request.user,
+            question_id__in=post_question_ids
+        ).delete()
         
-        context = {
-            'level': level,
-            'question_type': question_type,
-            'question_type_display': question_types.get(question_type, ''),
-            'num_questions': num_questions,
-            'status': status,
-            'questions': questions_with_answers,
-            'question_count_options': question_count_options,
-        }
-        return render(request, 'exams/question_list.html', context)
+        # 回答を保存
+        for question_id in post_question_ids:
+            answer_key = f'answer_{question_id}'
+            selected_choice_id = request.POST.get(answer_key)
+            if selected_choice_id:
+                choice = Choice.objects.get(id=selected_choice_id)
+                is_correct = choice.is_correct
+                question = Question.objects.get(id=question_id)
+                UserAnswer.objects.create(
+                    user=request.user,
+                    question=question,
+                    selected_choice=choice,
+                    is_correct=is_correct
+                )
+
+        # 今回回答したquestion_idと出題順序をセッションに保存
+        request.session[f'answered_questions_{question_type}_{level}'] = post_question_ids
+
+        return redirect('exams:answer_results', level=level, question_type=question_type)
 
 @login_required
 def question_detail(request, question_id):
@@ -612,8 +616,8 @@ def submit_answers(request, level):
                         )
                     except ListeningQuestion.DoesNotExist:
                         # 通常の問題の場合
-            try:
-                question = Question.objects.get(id=question_id)
+                        try:
+                            question = Question.objects.get(id=question_id)
                             choice = Choice.objects.get(id=selected_answer)
                             UserAnswer.objects.create(
                                 user=request.user,
@@ -690,8 +694,8 @@ def submit_answers(request, level):
                 user=request.user,
                 question_id__in=post_question_ids
             ).delete()
-                
-                # 回答を保存
+            
+            # 回答を保存
             for question_id in post_question_ids:
                 answer_key = f'answer_{question_id}'
                 selected_choice_id = request.POST.get(answer_key)
@@ -699,16 +703,16 @@ def submit_answers(request, level):
                     choice = Choice.objects.get(id=selected_choice_id)
                     is_correct = choice.is_correct
                     question = Question.objects.get(id=question_id)
-                UserAnswer.objects.create(
-                    user=request.user,
-                    question=question,
-                    selected_choice=choice,
-                    is_correct=is_correct
-                )
-                
+                    UserAnswer.objects.create(
+                        user=request.user,
+                        question=question,
+                        selected_choice=choice,
+                        is_correct=is_correct
+                    )
+            
             # 今回回答したquestion_idと出題順序をセッションに保存
             request.session[f'answered_questions_{question_type}_{level}'] = post_question_ids
-                
+            
             return redirect('exams:answer_results', level=level, question_type=question_type)
         
         elif question_type == 'reading_comprehension':
@@ -763,18 +767,18 @@ def submit_answers(request, level):
                 questions = random.sample(questions, num_questions)
                 questions.sort(key=lambda x: x.question_number)
             
-            # 問題と回答を組み合わせる（回答履歴は表示しない）
-            questions_with_answers = []
-            for question in questions:
-                choices = Choice.objects.filter(question=question).order_by('order')
-                correct_choice = choices.filter(is_correct=True).first()
-                questions_with_answers.append({
-                    'question': question,
-                    'choices': choices,
-                    'user_answer': None,  # 常にNoneにして未選択状態にする
-                    'correct_choice': correct_choice,
-                    'explanation': question.explanation
-                })
+            # POSTされたquestion_idをすべて取得
+            post_question_ids = [
+                int(key.replace('answer_', ''))
+                for key in request.POST.keys()
+                if key.startswith('answer_')
+            ]
+            
+            # 既存の回答を削除（POSTされたquestion_idのみ）
+            UserAnswer.objects.filter(
+                user=request.user,
+                question_id__in=post_question_ids
+            ).delete()
             
             # 回答を保存
             for question_id in post_question_ids:
@@ -847,7 +851,7 @@ def answer_results(request, level, question_type):
                         'order': answered_question_ids.index(question_id)
                     })
                 except UserAnswer.DoesNotExist:
-                continue
+                    continue
         
         # 出題順序でソート
         answers_with_questions.sort(key=lambda x: x['order'])
@@ -1060,17 +1064,17 @@ def answer_results(request, level, question_type):
         
         # 出題順序でソート
         answers_with_questions.sort(key=lambda x: x['order'])
-    
-    # 正解数を計算
-    correct_count = sum(1 for answer in user_answers if answer.is_correct)
-    total_count = len(user_answers)
-    
+        
+        # 正解数を計算
+        correct_count = sum(1 for answer in user_answers if answer.is_correct)
+        total_count = len(user_answers)
+        
         context = {
             'level': level,
             'question_type': question_type,
             'answers_with_questions': answers_with_questions,
-        'correct_count': correct_count,
-        'total_count': total_count,
+            'correct_count': correct_count,
+            'total_count': total_count,
         }
         return render(request, 'exams/answer_results.html', context)
 
