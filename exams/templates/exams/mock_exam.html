@@ -1,0 +1,454 @@
+{% extends 'accounts/base.html' %}
+{% load static %}
+
+{% block title %}模擬試験問題{% endblock %}
+
+{% block content %}
+<div class="container mt-4">
+    <h1 class="mb-4">模擬試験問題（英検4級）</h1>
+    
+    <!-- 時間制限表示 -->
+    <div class="row mb-4">
+        <div class="col-12">
+            <div class="row">
+                <div class="col-md-6">
+                    <h6>筆記試験（大問1-4）</h6>
+                    <div class="progress mb-2">
+                        <div id="writingProgress" class="progress-bar bg-primary" role="progressbar" style="width: 100%"></div>
+                    </div>
+                    <small id="writingTime" class="text-muted">残り時間: 35:00</small>
+                </div>
+                <div class="col-md-6">
+                    <h6>リスニング試験（第1-3部）</h6>
+                    <div class="progress mb-2">
+                        <div id="listeningProgress" class="progress-bar bg-success" role="progressbar" style="width: 100%"></div>
+                    </div>
+                    <small id="listeningTime" class="text-muted">残り時間: 30:00</small>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <form method="post" action="{% url 'exams:submit_answers' level=level %}" id="examForm">
+        {% csrf_token %}
+        <input type="hidden" name="question_type" value="{{ question_type }}">
+        <input type="hidden" name="level" value="{{ level }}">
+        <input type="hidden" name="num_questions" value="{{ num_questions }}">
+        <input type="hidden" id="writingTimeRemaining" name="writing_time_remaining" value="">
+        <input type="hidden" id="listeningTimeRemaining" name="listening_time_remaining" value="">
+
+        <!-- 通常の問題（文法・語彙、会話、語順） -->
+        {% if questions %}
+        {% regroup questions by category as category_list %}
+        {% for category in category_list %}
+        {% if category.grouper != 'listening_illustration' and category.grouper != 'listening_conversation' and category.grouper != 'listening_passage' %}
+        <div class="row">
+            <div class="col-12">
+                <div class="card border-primary mb-3">
+                    <div class="card-header bg-primary text-white">
+                        <h5 class="mb-0">
+                            {% if category.grouper == 'grammar_fill' %}
+                                大問1: 文法・語彙問題
+                            {% elif category.grouper == 'conversation_fill' %}
+                                大問2: 会話補充問題
+                            {% elif category.grouper == 'word_order' %}
+                                大問3: 語順選択問題
+                            {% endif %}
+                        </h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            {% for question in category.list %}
+            <div class="col-md-6 mb-4">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">
+                            問題 {{ question.question_number }}
+                        </h5>
+                        
+                        {% if question.question_type == 'word_order' %}
+                            {% with question_text=question.question.question_text %}
+                                {% if question_text|slice:":3" == "問題" %}
+                                    <div class="card-text">{{ question_text|slice:"4:"|linebreaks }}</div>
+                                {% else %}
+                                    <div class="card-text">{{ question_text|linebreaks }}</div>
+                                {% endif %}
+                            {% endwith %}
+                        {% else %}
+                            <p class="card-text">{{ question.question.question_text }}</p>
+                        {% endif %}
+                        
+                        <div class="choices">
+                            {% for choice in question.choices %}
+                                <div class="form-check">
+                                    <input class="form-check-input" type="radio" name="answer_{{ question.question.id }}"
+                                           id="choice_{{ choice.id }}" value="{{ choice.id }}"
+                                           {% if question.user_answer == choice.id %}checked{% endif %}>
+                                    <label class="form-check-label" for="choice_{{ choice.id }}">
+                                        {{ choice.choice_text }}
+                                    </label>
+                                </div>
+                            {% endfor %}
+                        </div>
+                    </div>
+                </div>
+            </div>
+            {% endfor %}
+        </div>
+        {% endif %}
+        {% endfor %}
+        {% endif %}
+
+        <!-- 長文読解問題（大問4） -->
+        {% if passages %}
+        <div class="row">
+            <div class="col-12">
+                <div class="card border-primary mb-3">
+                    <div class="card-header bg-primary text-white">
+                        <h5 class="mb-0">大問4: 長文読解問題</h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+        {% for passage_data in passages %}
+        <div class="card mb-4">
+            <div class="card-header">
+                <h5>長文 {{ forloop.counter }}</h5>
+            </div>
+            <div class="card-body">
+                <div class="passage-text mb-4">
+                    {{ passage_data.passage.content|linebreaks }}
+                </div>
+                
+                {% for question_data in passage_data.questions %}
+                <div class="question-section mb-4">
+                    <h6>問題 {{ question_data.question_number }}</h6>
+                    <p class="question-text">{{ question_data.question.question_text }}</p>
+                    
+                    <div class="choices">
+                        {% for choice in question_data.choices %}
+                        <div class="form-check">
+                            <input class="form-check-input" type="radio" 
+                                   name="answer_{{ question_data.question.id }}" 
+                                   id="choice_{{ choice.id }}" 
+                                   value="{{ choice.id }}"
+                                   {% if question_data.user_answer == choice.id %}checked{% endif %}>
+                            <label class="form-check-label" for="choice_{{ choice.id }}">
+                                {{ choice.choice_text }}
+                            </label>
+                        </div>
+                        {% endfor %}
+                    </div>
+                </div>
+                {% endfor %}
+            </div>
+        </div>
+        {% endfor %}
+        {% endif %}
+
+        <!-- リスニング問題（第1-3部） -->
+        {% if listening_illustration or listening_conversation or listening_passage %}
+        <div data-section="listening">
+        
+        <!-- 第1部: リスニングイラスト問題 -->
+        {% if listening_illustration %}
+        <div class="row">
+            <div class="col-12">
+                <div class="card border-primary mb-3">
+                    <div class="card-header bg-primary text-white">
+                        <h5 class="mb-0">第1部: リスニングイラスト問題</h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            {% for question in listening_illustration %}
+            <div class="col-md-6 mb-4">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">
+                            問題 {{ question.question_number }}
+                        </h5>
+                        
+                        <div class="text-center mb-3">
+                            <img src="{% static question.question.image %}" alt="問題のイラスト" class="img-fluid" style="max-width: 200px; max-height: 150px;">
+                        </div>
+                        <div class="text-center mb-3">
+                            <audio controls style="width: 100%; max-width: 300px;">
+                                <source src="{% static question.question.audio %}" type="audio/mpeg">
+                                お使いのブラウザは音声再生に対応していません。
+                            </audio>
+                        </div>
+                        <div class="choices">
+                            {% for choice in question.choices %}
+                                <div class="form-check">
+                                    <input class="form-check-input" type="radio" name="answer_{{ question.question.id }}"
+                                           id="choice_{{ choice.id }}" value="{{ choice.choice_text }}"
+                                           {% if question.user_answer == choice.choice_text %}checked{% endif %}>
+                                    <label class="form-check-label" for="choice_{{ choice.id }}">
+                                        {{ forloop.counter }}
+                                    </label>
+                                </div>
+                            {% endfor %}
+                        </div>
+                    </div>
+                </div>
+            </div>
+            {% endfor %}
+        </div>
+        {% endif %}
+
+        <!-- 第2部: リスニング会話問題 -->
+        {% if listening_conversation %}
+        <div class="row">
+            <div class="col-12">
+                <div class="card border-primary mb-3">
+                    <div class="card-header bg-primary text-white">
+                        <h5 class="mb-0">第2部: リスニング会話問題</h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            {% for question in listening_conversation %}
+            <div class="col-md-6 mb-4">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">
+                            問題 {{ question.question_number }}
+                        </h5>
+                        
+                        <div class="text-center mb-3">
+                            <audio controls>
+                                <source src="{% static question.question.audio_file %}" type="audio/mpeg">
+                                お使いのブラウザは音声再生に対応していません。
+                            </audio>
+                        </div>
+                        
+                        <div class="choices">
+                            {% for choice in question.choices %}
+                                <div class="form-check">
+                                    <input class="form-check-input" type="radio" name="answer_{{ question.question.id }}" 
+                                           id="choice_{{ choice.id }}" value="{{ choice.id }}"
+                                           {% if question.user_answer == choice.id %}checked{% endif %}>
+                                    <label class="form-check-label" for="choice_{{ choice.id }}">
+                                        {{ choice.choice_text }}
+                                    </label>
+                                </div>
+                            {% endfor %}
+                        </div>
+                    </div>
+                </div>
+            </div>
+            {% endfor %}
+        </div>
+        {% endif %}
+
+        <!-- 第3部: リスニング文章問題 -->
+        {% if listening_passage %}
+        <div class="row">
+            <div class="col-12">
+                <div class="card border-primary mb-3">
+                    <div class="card-header bg-primary text-white">
+                        <h5 class="mb-0">第3部: リスニング文章問題</h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            {% for question in listening_passage %}
+            <div class="col-md-6 mb-4">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">
+                            問題 {{ question.question_number }}
+                        </h5>
+                        
+                        <div class="text-center mb-3">
+                            <audio controls>
+                                <source src="{% static question.question.audio_file %}" type="audio/mpeg">
+                                お使いのブラウザは音声再生に対応していません。
+                            </audio>
+                        </div>
+                        
+                        <div class="choices">
+                            {% for choice in question.choices %}
+                                <div class="form-check">
+                                    <input class="form-check-input" type="radio" name="answer_{{ question.question.id }}" 
+                                           id="choice_{{ choice.id }}" value="{{ choice.id }}"
+                                           {% if question.user_answer == choice.id %}checked{% endif %}>
+                                    <label class="form-check-label" for="choice_{{ choice.id }}">
+                                        {{ choice.choice_text }}
+                                    </label>
+                                </div>
+                            {% endfor %}
+                        </div>
+                    </div>
+                </div>
+            </div>
+            {% endfor %}
+        </div>
+        {% endif %}
+        </div>
+        {% endif %}
+        
+        <div class="text-center mt-4 mb-5">
+            <button type="submit" class="btn btn-primary btn-lg">回答を提出</button>
+        </div>
+    </form>
+</div>
+
+<script>
+// 時間制限機能
+let writingTimeRemaining = 35 * 60; // 35分（秒）
+let listeningTimeRemaining = 30 * 60; // 30分（秒）
+let currentPhase = 'writing'; // 'writing' または 'listening'
+let timer;
+
+function updateTimeDisplay() {
+    const now = new Date();
+    const timeString = now.toLocaleTimeString('ja-JP', { 
+        hour: '2-digit', 
+        minute: '2-digit', 
+        second: '2-digit' 
+    });
+    document.getElementById('timeDisplay').textContent = timeString;
+}
+
+function updateProgress() {
+    if (currentPhase === 'writing') {
+        const writingProgress = (writingTimeRemaining / (35 * 60)) * 100;
+        document.getElementById('writingProgress').style.width = writingProgress + '%';
+        
+        const minutes = Math.floor(writingTimeRemaining / 60);
+        const seconds = writingTimeRemaining % 60;
+        document.getElementById('writingTime').textContent = `残り時間: ${minutes}:${seconds.toString().padStart(2, '0')}`;
+        
+        if (writingTimeRemaining <= 0) {
+            // 筆記時間終了、リスニング開始
+            currentPhase = 'listening';
+            alert('筆記試験時間が終了しました。リスニング試験を開始してください。');
+        }
+    } else {
+        const listeningProgress = (listeningTimeRemaining / (30 * 60)) * 100;
+        document.getElementById('listeningProgress').style.width = listeningProgress + '%';
+        
+        const minutes = Math.floor(listeningTimeRemaining / 60);
+        const seconds = listeningTimeRemaining % 60;
+        document.getElementById('listeningTime').textContent = `残り時間: ${minutes}:${seconds.toString().padStart(2, '0')}`;
+        
+        if (listeningTimeRemaining <= 0) {
+            // リスニング時間終了
+            alert('リスニング試験時間が終了しました。回答を自動提出します。');
+            document.getElementById('examForm').submit();
+        }
+    }
+}
+
+function startTimer() {
+    timer = setInterval(() => {
+        if (currentPhase === 'writing') {
+            writingTimeRemaining--;
+        } else {
+            listeningTimeRemaining--;
+        }
+        updateProgress();
+    }, 1000);
+    
+    // 現在時刻の表示も更新
+    setInterval(updateTimeDisplay, 1000);
+}
+
+// リスニング問題にスクロールしたらリスニングフェーズに移行
+function checkListeningPhase() {
+    const listeningSection = document.querySelector('[data-section="listening"]');
+    if (listeningSection && isElementInViewport(listeningSection)) {
+        if (currentPhase === 'writing') {
+            currentPhase = 'listening';
+            alert('リスニング試験を開始します。');
+        }
+    }
+}
+
+function isElementInViewport(el) {
+    const rect = el.getBoundingClientRect();
+    return (
+        rect.top >= 0 &&
+        rect.left >= 0 &&
+        rect.bottom <= (window.innerHeight || document.documentElement.clientHeight) &&
+        rect.right <= (window.innerWidth || document.documentElement.clientWidth)
+    );
+}
+
+// ページ読み込み時にタイマー開始
+document.addEventListener('DOMContentLoaded', function() {
+    startTimer();
+    updateTimeDisplay();
+    
+    // スクロール監視
+    window.addEventListener('scroll', checkListeningPhase);
+});
+
+document.getElementById('examForm').addEventListener('submit', function(e) {
+    // 実際に表示されている問題カードを取得
+    const questionCards = document.querySelectorAll('.col-md-6 .card');
+    const passageQuestions = document.querySelectorAll('.question-section');
+    let allAnswered = true;
+    let answeredCount = 0;
+    
+    // 通常の問題カードをチェック
+    questionCards.forEach((card, index) => {
+        const radioButtons = card.querySelectorAll('input[type="radio"]');
+        let questionAnswered = false;
+        
+        radioButtons.forEach(radio => {
+            if (radio.checked) {
+                questionAnswered = true;
+            }
+        });
+        
+        if (!questionAnswered) {
+            allAnswered = false;
+            card.style.border = '2px solid red';
+        } else {
+            answeredCount++;
+            card.style.border = '';
+        }
+    });
+    
+    // 長文読解問題をチェック
+    passageQuestions.forEach((section, index) => {
+        const radioButtons = section.querySelectorAll('input[type="radio"]');
+        let questionAnswered = false;
+        
+        radioButtons.forEach(radio => {
+            if (radio.checked) {
+                questionAnswered = true;
+            }
+        });
+        
+        if (!questionAnswered) {
+            allAnswered = false;
+            section.style.border = '2px solid red';
+        } else {
+            answeredCount++;
+            section.style.border = '';
+        }
+    });
+    
+    if (!allAnswered) {
+        e.preventDefault();
+        alert(`表示されている${questionCards.length + passageQuestions.length}問すべてに回答してください。`);
+        return false;
+    }
+    
+    // 残り時間をフォームに追加
+    document.getElementById('writingTimeRemaining').value = writingTimeRemaining;
+    document.getElementById('listeningTimeRemaining').value = listeningTimeRemaining;
+    
+    return true;
+});
+</script>
+{% endblock %} 

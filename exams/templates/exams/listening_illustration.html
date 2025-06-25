@@ -76,7 +76,7 @@
                                value="{{ choice.id }}"
                                {% if question_data.user_answer == choice.id %}checked{% endif %}>
                         <label class="form-check-label" for="choice_{{ choice.id }}">
-                            {{ choice.choice_text }}
+                            {{ forloop.counter }}
                         </label>
                     </div>
                     {% endfor %}
@@ -88,13 +88,17 @@
                         <strong>あなたの回答:</strong> 
                         {% for choice in question_data.question.choices.all %}
                             {% if choice.id == question_data.user_answer %}
-                                {{ choice.choice_text }}
+                                {{ forloop.counter }}. {{ choice.choice_text }}
                             {% endif %}
                         {% endfor %}
                     </p>
                     <p class="mb-1">
                         <strong>正解:</strong> 
-                        {{ question_data.correct_answer }}
+                        {% for choice in question_data.question.choices.all %}
+                            {% if choice.is_correct %}
+                                {{ forloop.counter }}. {{ choice.choice_text }}
+                            {% endif %}
+                        {% endfor %}
                     </p>
                     {% if question_data.explanation %}
                     <p class="mb-1">

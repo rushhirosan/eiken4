@@ -7,6 +7,7 @@
 <div class="container mt-4">
     <h1 class="mb-4">{{ question_type_display }}</h1>
     
+    {% if question_type != 'random' and question_type != 'mock_exam' %}
     <div class="card mb-4">
         <div class="card-body">
             <div class="row">
@@ -34,6 +35,7 @@
             </div>
         </div>
     </div>
+    {% endif %}
 
     <form method="post" action="{% url 'exams:submit_answers' level=level %}" id="examForm">
         {% csrf_token %}
@@ -44,19 +46,70 @@
         <div class="row">
             {% for question in questions %}
             <div class="col-md-6 mb-4">
-                <div class="card h-100">
+                <div class="card">
                     <div class="card-body">
-                        <h5 class="card-title">問題 {{ forloop.counter }}</h5>
+                        <h5 class="card-title">
+                            問題 {{ forloop.counter }}
+                            {% if question_type == 'random' and question.category_name %}
+                                <small class="text-muted">({{ question.category_name }})</small>
+                            {% endif %}
+                        </h5>
+                        {% if question_type == 'listening_illustration' or question_type == 'random' and question.category == 'listening_illustration' %}
+                            <div class="text-center mb-3">
+                                <img src="{% static question.question.image %}" alt="問題のイラスト" class="img-fluid" style="max-width: 200px; max-height: 150px;">
+                            </div>
+                            <div class="text-center mb-3">
+                                <audio controls style="width: 100%; max-width: 300px;">
+                                    <source src="{% static question.question.audio %}" type="audio/mpeg">
+                                    お使いのブラウザは音声再生に対応していません。
+                                </audio>
+                            </div>
+                            <div class="choices">
+                                {% for choice in question.choices %}
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="radio" name="answer_{{ question.question.id }}"
+                                               id="choice_{{ choice.id }}" value="{{ choice.choice_text }}"
+                                               {% if question.user_answer == choice.choice_text %}checked{% endif %}>
+                                        <label class="form-check-label" for="choice_{{ choice.id }}">
+                                            {{ forloop.counter }}
+                                        </label>
+                                    </div>
+                                {% endfor %}
+                            </div>
+                        {% elif question.question.question_type == 'listening_conversation' or question.question.question_type == 'listening_passage' or question_type == 'random' and question.category in 'listening_conversation,listening_passage' %}
+                            <div class="text-center mb-3">
+                                <audio controls>
+                                    <source src="{% static question.question.audio_file %}" type="audio/mpeg">
+                                    お使いのブラウザは音声再生に対応していません。
+                                </audio>
+                            </div>
+                            
+                            <div class="choices">
+                                {% for choice in question.choices %}
+                            <div class="form-check">
+                                        <input class="form-check-input" type="radio" name="answer_{{ question.question.id }}" 
+                                               id="choice_{{ choice.id }}" value="{{ choice.id }}"
+                                               {% if question.user_answer == choice.id %}checked{% endif %}>
+                                        <label class="form-check-label" for="choice_{{ choice.id }}">
+                                    {{ choice.choice_text }}
+                                </label>
+                            </div>
+                            {% endfor %}
+                        </div>
+                        {% else %}
+                            {% if question_type == 'word_order' %}
+                                {% with question_text=question.question.question_text %}
+                                    {% if question_text|slice:":3" == "問題" %}
+                                        <div class="card-text">{{ question_text|slice:"4:"|linebreaks }}</div>
+                                    {% else %}
+                                        <div class="card-text">{{ question_text|linebreaks }}</div>
+                                    {% endif %}
+                                {% endwith %}
+                            {% else %}
+                                <p class="card-text">{{ question.question.question_text }}</p>
+                            {% endif %}
+                            
                             {% if question_type == 'listening_illustration' %}
-                                <div class="text-center mb-3">
-                                    <img src="{% static question.question.image %}" alt="問題のイラスト" class="img-fluid" style="max-width: 250px;">
-                                </div>
-                                <div class="text-center mb-3">
-                                    <audio controls>
-                                        <source src="{% static question.question.audio %}" type="audio/mpeg">
-                                        お使いのブラウザは音声再生に対応していません。
-                                    </audio>
-                                </div>
                                 <div class="choices">
                                     {% for choice in question.choices %}
                                         <div class="form-check">
@@ -69,18 +122,11 @@
                                         </div>
                                     {% endfor %}
                                 </div>
-                            {% elif question.question.question_type == 'listening_conversation' or question.question.question_type == 'listening_passage' %}
-                                <div class="text-center mb-3">
-                                    <audio controls>
-                                        <source src="{% static question.question.audio_file %}" type="audio/mpeg">
-                                        お使いのブラウザは音声再生に対応していません。
-                                    </audio>
-                                </div>
-                                
+                                {% else %}
                                 <div class="choices">
                                     {% for choice in question.choices %}
                                         <div class="form-check">
-                                            <input class="form-check-input" type="radio" name="answer_{{ question.question.id }}" 
+                                            <input class="form-check-input" type="radio" name="answer_{{ question.question.id }}"
                                                    id="choice_{{ choice.id }}" value="{{ choice.id }}"
                                                    {% if question.user_answer == choice.id %}checked{% endif %}>
                                             <label class="form-check-label" for="choice_{{ choice.id }}">
@@ -88,48 +134,9 @@
                                             </label>
                                         </div>
                                     {% endfor %}
-                                </div>
-                            {% else %}
-                                {% if question_type == 'word_order' %}
-                                    {% with question_text=question.question.question_text %}
-                                        {% if question_text|slice:":3" == "問題" %}
-                                            <div class="card-text">{{ question_text|slice:"4:"|linebreaks }}</div>
-                                        {% else %}
-                                            <div class="card-text">{{ question_text|linebreaks }}</div>
-                                        {% endif %}
-                                    {% endwith %}
-                                {% else %}
-                                    <p class="card-text">{{ question.question.question_text }}</p>
-                                {% endif %}
-                                
-                                {% if question_type == 'listening_illustration' %}
-                                    <div class="choices">
-                                        {% for choice in question.choices %}
-                                            <div class="form-check">
-                                                <input class="form-check-input" type="radio" name="answer_{{ question.question.id }}"
-                                                       id="choice_{{ choice.id }}" value="{{ choice.choice_text }}"
-                                                       {% if question.user_answer == choice.choice_text %}checked{% endif %}>
-                                                <label class="form-check-label" for="choice_{{ choice.id }}">
-                                                    {{ forloop.counter }}
-                                                </label>
-                                            </div>
-                                        {% endfor %}
-                                    </div>
-                                {% else %}
-                                    <div class="choices">
-                                        {% for choice in question.choices %}
-                                            <div class="form-check">
-                                                <input class="form-check-input" type="radio" name="answer_{{ question.question.id }}"
-                                                       id="choice_{{ choice.id }}" value="{{ choice.id }}"
-                                                       {% if question.user_answer == choice.id %}checked{% endif %}>
-                                                <label class="form-check-label" for="choice_{{ choice.id }}">
-                                                    {{ choice.choice_text }}
-                                                </label>
-                                            </div>
-                                        {% endfor %}
-                                    </div>
-                                {% endif %}
+                            </div>
                             {% endif %}
+                        {% endif %}
                     </div>
                 </div>
             </div>

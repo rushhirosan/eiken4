@@ -26,6 +26,8 @@ def exam_list(request):
         'listening_conversation': 'リスニング第2部: 会話問題',
         'listening_illustration': 'リスニング第1部: イラスト問題',
         'listening_passage': 'リスニング第3部: 文章問題',
+        'random': 'ランダム10問',
+        'mock_exam': '模擬試験問題',
     }
     
     # Grade 4の問題数を取得
@@ -70,6 +72,8 @@ def question_list(request, level=None, exam_id=None):
         'listening_conversation': 'リスニング第2部: 会話問題',
         'listening_illustration': 'リスニング第1部: イラスト問題',
         'listening_passage': 'リスニング第3部: 文章問題',
+        'random': 'ランダム10問',
+        'mock_exam': '模擬試験問題',
     }
     
     # 問題数のオプション（長文読解以外）
@@ -94,7 +98,229 @@ def question_list(request, level=None, exam_id=None):
             'all': '全て',
         }
     
-    if question_type == 'listening_illustration':
+    if question_type == 'random':
+        # ランダム10問の場合
+        all_questions = []
+        
+        # カテゴリーの日本語名マッピング
+        category_names = {
+            'grammar_fill': '文法・語彙問題',
+            'conversation_fill': '会話補充問題',
+            'word_order': '語順選択問題',
+            'listening_conversation': 'リスニング会話問題',
+            'listening_passage': 'リスニング文章問題',
+            'listening_illustration': 'リスニングイラスト問題',
+        }
+        
+        # 各カテゴリーから問題を取得
+        categories = [
+            ('grammar_fill', Question),
+            ('conversation_fill', Question),
+            ('word_order', Question),
+            ('listening_conversation', Question),
+            ('listening_passage', Question),
+            ('listening_illustration', ListeningQuestion),
+        ]
+        
+        # 各カテゴリーから2問ずつ取得（合計12問、その後10問に絞る）
+        for category_type, model_class in categories:
+            if model_class == ListeningQuestion:
+                questions = model_class.objects.filter(level=level).order_by('?')[:2]
+            else:
+                questions = model_class.objects.filter(level=level, question_type=category_type).order_by('?')[:2]
+            
+            for question in questions:
+                if model_class == ListeningQuestion:
+                    choices = ListeningChoice.objects.filter(question=question).order_by('order')
+                    all_questions.append({
+                        'question': question,
+                        'choices': choices,
+                        'user_answer': None,
+                        'is_correct': None,
+                        'explanation': getattr(question, 'explanation', ''),
+                        'category': category_type,
+                        'category_name': category_names.get(category_type, category_type),
+                        'question_type': 'listening_illustration'
+                    })
+                else:
+                    choices = Choice.objects.filter(question=question).order_by('order')
+                    correct_choice = choices.filter(is_correct=True).first()
+                    all_questions.append({
+                        'question': question,
+                        'choices': choices,
+                        'user_answer': None,
+                        'correct_choice': correct_choice,
+                        'explanation': question.explanation,
+                        'category': category_type,
+                        'category_name': category_names.get(category_type, category_type),
+                        'question_type': category_type
+                    })
+        
+        # 10問に絞る
+        if len(all_questions) > 10:
+            all_questions = random.sample(all_questions, 10)
+        
+        context = {
+            'level': level,
+            'question_type': question_type,
+            'question_type_display': question_types.get(question_type, ''),
+            'num_questions': 10,
+            'status': status,
+            'questions': all_questions,
+            'question_count_options': question_count_options,
+        }
+        return render(request, 'exams/question_list.html', context)
+    
+    elif question_type == 'mock_exam':
+        # 模擬試験問題の場合（英検4級の実際の問題構成）
+        all_questions = []
+        reading_passages = []
+        
+        # カテゴリーの日本語名マッピング（統一された名前）
+        category_names = {
+            'grammar_fill': '文法・語彙問題',
+            'conversation_fill': '会話補充問題',
+            'word_order': '語順選択問題',
+            'reading_comprehension': '長文読解問題',
+            'listening_illustration': 'リスニングイラスト問題',
+            'listening_conversation': 'リスニング会話問題',
+            'listening_passage': 'リスニング文章問題',
+        }
+        
+        # 英検4級の実際の問題構成（順序付き）
+        exam_structure = [
+            ('grammar_fill', Question, 15),      # 大問1: 15問
+            ('conversation_fill', Question, 5),  # 大問2: 5問
+            ('word_order', Question, 5),         # 大問3: 5問
+            ('reading_comprehension', ReadingPassage, 3),  # 大問4: 3パッセージ（約10問）
+            ('listening_illustration', ListeningQuestion, 10),  # 第1部: 10問
+            ('listening_conversation', Question, 10),      # 第2部: 10問
+            ('listening_passage', Question, 10),           # 第3部: 10問
+        ]
+        
+        # 各カテゴリーから指定された数の問題を取得
+        question_counter = 1
+        regular_questions = []  # 通常の問題（大問1-3）
+        reading_passages = []   # 長文読解問題（大問4）
+        listening_questions = [] # リスニング問題（第1-3部）
+        
+        for category_type, model_class, num_questions in exam_structure:
+            if model_class == ListeningQuestion:
+                questions = model_class.objects.filter(level=level).order_by('?')[:num_questions]
+                for question in questions:
+                    choices = ListeningChoice.objects.filter(question=question).order_by('order')
+                    listening_questions.append({
+                        'question': question,
+                        'choices': choices,
+                        'user_answer': None,
+                        'is_correct': None,
+                        'explanation': getattr(question, 'explanation', ''),
+                        'category': category_type,
+                        'category_name': category_names.get(category_type, category_type),
+                        'question_type': 'listening_illustration',
+                        'category_order': exam_structure.index((category_type, model_class, num_questions)),
+                        'question_number': question_counter
+                    })
+                    question_counter += 1
+            elif model_class == ReadingPassage:
+                passages = model_class.objects.filter(level=level).order_by('?')[:num_questions]
+                # パッセージから問題を取得
+                for passage in passages:
+                    passage_questions = ReadingQuestion.objects.filter(passage=passage).order_by('question_number')
+                    questions_with_answers = []
+                    for question in passage_questions:
+                        choices = ReadingChoice.objects.filter(question=question).order_by('order')
+                        correct_choice = choices.filter(is_correct=True).first()
+                        questions_with_answers.append({
+                            'question': question,
+                            'choices': choices,
+                            'user_answer': None,
+                            'correct_choice': correct_choice,
+                            'explanation': getattr(question, 'explanation', ''),
+                            'question_number': question_counter
+                        })
+                        question_counter += 1
+                    reading_passages.append({
+                        'passage': passage,
+                        'questions': questions_with_answers,
+                        'category_order': exam_structure.index((category_type, model_class, num_questions))
+                    })
+            else:
+                questions = model_class.objects.filter(level=level, question_type=category_type).order_by('?')[:num_questions]
+                for question in questions:
+                    choices = Choice.objects.filter(question=question).order_by('order')
+                    correct_choice = choices.filter(is_correct=True).first()
+                    
+                    # リスニング問題かどうかを判定
+                    if category_type in ['listening_conversation', 'listening_passage']:
+                        listening_questions.append({
+                            'question': question,
+                            'choices': choices,
+                            'user_answer': None,
+                            'correct_choice': correct_choice,
+                            'explanation': question.explanation,
+                            'category': category_type,
+                            'category_name': category_names.get(category_type, category_type),
+                            'question_type': category_type,
+                            'category_order': exam_structure.index((category_type, model_class, num_questions)),
+                            'question_number': question_counter
+                        })
+                    else:
+                        regular_questions.append({
+                            'question': question,
+                            'choices': choices,
+                            'user_answer': None,
+                            'correct_choice': correct_choice,
+                            'explanation': question.explanation,
+                            'category': category_type,
+                            'category_name': category_names.get(category_type, category_type),
+                            'question_type': category_type,
+                            'category_order': exam_structure.index((category_type, model_class, num_questions)),
+                            'question_number': question_counter
+                        })
+                    question_counter += 1
+        
+        # カテゴリー順序でソート
+        regular_questions.sort(key=lambda x: x['category_order'])
+        listening_questions.sort(key=lambda x: x['category_order'])
+        
+        # 英検4級の実際の順序で結合（リスニング問題は順序通り）
+        all_questions = regular_questions + listening_questions
+        
+        # 長文読解問題がある場合は専用テンプレートを使用
+        if reading_passages:
+            # リスニング問題を正しい順序で分離
+            listening_illustration = [q for q in listening_questions if q['category'] == 'listening_illustration']
+            listening_conversation = [q for q in listening_questions if q['category'] == 'listening_conversation']
+            listening_passage = [q for q in listening_questions if q['category'] == 'listening_passage']
+            
+            context = {
+                'level': level,
+                'question_type': question_type,
+                'question_type_display': question_types.get(question_type, ''),
+                'num_questions': len(all_questions) + sum(len(p['questions']) for p in reading_passages),
+                'status': status,
+                'questions': all_questions,
+                'passages': reading_passages,
+                'listening_illustration': listening_illustration,
+                'listening_conversation': listening_conversation,
+                'listening_passage': listening_passage,
+                'question_count_options': question_count_options,
+            }
+            return render(request, 'exams/mock_exam.html', context)
+        else:
+            context = {
+                'level': level,
+                'question_type': question_type,
+                'question_type_display': question_types.get(question_type, ''),
+                'num_questions': len(all_questions),
+                'status': status,
+                'questions': all_questions,
+                'question_count_options': question_count_options,
+            }
+            return render(request, 'exams/question_list.html', context)
+    
+    elif question_type == 'listening_illustration':
         # イラスト問題の場合
         questions = ListeningQuestion.objects.filter(level=level).order_by('id')
         print(f"Debug - Listening Illustration Questions: {questions.count()}")  # デバッグ出力
@@ -239,7 +465,7 @@ def question_list(request, level=None, exam_id=None):
                 'choices': choices,
                 'user_answer': None,  # 常にNoneにして未選択状態にする
                 'correct_choice': correct_choice,
-                'explanation': question.explanation
+                    'explanation': question.explanation
             })
         
         print(f"Debug - Questions with answers: {len(questions_with_answers)}")  # デバッグ出力
@@ -358,7 +584,52 @@ def submit_answers(request, level):
         print(f"Debug - Submit Answers: question_type={question_type}, level={level}, num_questions={num_questions}")
         print(f"Debug - POST data: {request.POST}")
         
-        if question_type == 'listening_illustration':
+        if question_type == 'random':
+            # ランダム10問の場合
+            # POSTされたquestion_idをすべて取得
+            post_question_ids = [
+                int(key.replace('answer_', ''))
+                for key in request.POST.keys()
+                if key.startswith('answer_')
+            ]
+            
+            # 各問題のタイプを判定して適切な回答を保存
+            for question_id in post_question_ids:
+                answer_key = f'answer_{question_id}'
+                if answer_key in request.POST:
+                    selected_answer = request.POST.get(answer_key)
+                    
+                    # リスニングイラスト問題かどうかを判定
+                    try:
+                        question = ListeningQuestion.objects.get(id=question_id)
+                        # リスニングイラスト問題の場合
+                        is_correct = selected_answer == question.correct_answer
+                        ListeningUserAnswer.objects.create(
+                            user=request.user,
+                            question=question,
+                            selected_answer=selected_answer,
+                            is_correct=is_correct
+                        )
+                    except ListeningQuestion.DoesNotExist:
+                        # 通常の問題の場合
+            try:
+                question = Question.objects.get(id=question_id)
+                            choice = Choice.objects.get(id=selected_answer)
+                            UserAnswer.objects.create(
+                                user=request.user,
+                                question=question,
+                                selected_choice=choice,
+                                is_correct=choice.is_correct
+                            )
+                        except (Question.DoesNotExist, Choice.DoesNotExist):
+                            continue
+            
+            # 今回回答したquestion_idをセッションに保存
+            request.session[f'answered_questions_{question_type}_{level}'] = post_question_ids
+            
+            return redirect('exams:answer_results', level=level, question_type=question_type)
+        
+        elif question_type == 'listening_illustration':
             # イラスト問題の場合
             questions = ListeningQuestion.objects.filter(level=level).order_by('id')
             # 「全て」が選択された場合は制限しない
@@ -529,7 +800,72 @@ def submit_answers(request, level):
 
 @login_required
 def answer_results(request, level, question_type):
-    if question_type == 'listening_illustration':
+    if question_type == 'random':
+        # ランダム10問の場合
+        # セッションから今回回答したquestion_idを取得
+        session_key = f'answered_questions_{question_type}_{level}'
+        answered_question_ids = request.session.get(session_key, [])
+        
+        # 各問題のタイプを判定して適切な回答を取得
+        answers_with_questions = []
+        
+        for question_id in answered_question_ids:
+            # リスニングイラスト問題かどうかを判定
+            try:
+                answer = ListeningUserAnswer.objects.get(
+                    user=request.user,
+                    question_id=question_id
+                )
+                choices = ListeningChoice.objects.filter(question=answer.question).order_by('order')
+                answers_with_questions.append({
+                    'question': answer.question,
+                    'choices': choices,
+                    'user_answer': answer.selected_answer,
+                    'is_correct': answer.is_correct,
+                    'correct_answer': answer.question.correct_answer,
+                    'explanation': getattr(answer.question, 'explanation', ''),
+                    'category': 'listening_illustration',
+                    'order': answered_question_ids.index(question_id)
+                })
+            except ListeningUserAnswer.DoesNotExist:
+                # 通常の問題の場合
+                try:
+                    answer = UserAnswer.objects.get(
+                        user=request.user,
+                        question_id=question_id
+                    )
+                    choices = Choice.objects.filter(question=answer.question).order_by('order')
+                    correct_choice = choices.filter(is_correct=True).first()
+                    answers_with_questions.append({
+                        'question': answer.question,
+                        'choices': choices,
+                        'user_answer': answer.selected_choice,
+                        'is_correct': answer.is_correct,
+                        'correct_choice': correct_choice,
+                        'explanation': answer.question.explanation,
+                        'category': answer.question.question_type,
+                        'order': answered_question_ids.index(question_id)
+                    })
+                except UserAnswer.DoesNotExist:
+                continue
+        
+        # 出題順序でソート
+        answers_with_questions.sort(key=lambda x: x['order'])
+        
+        # 正解数を計算
+        correct_count = sum(1 for answer in answers_with_questions if answer['is_correct'])
+        total_count = len(answers_with_questions)
+        
+        context = {
+            'level': level,
+            'question_type': question_type,
+            'answers_with_questions': answers_with_questions,
+            'correct_count': correct_count,
+            'total_count': total_count,
+        }
+        return render(request, 'exams/answer_results.html', context)
+    
+    elif question_type == 'listening_illustration':
         # イラスト問題の場合
         # セッションから今回回答したquestion_idを取得
         session_key = f'answered_questions_{question_type}_{level}'
@@ -724,17 +1060,17 @@ def answer_results(request, level, question_type):
         
         # 出題順序でソート
         answers_with_questions.sort(key=lambda x: x['order'])
-        
-        # 正解数を計算
-        correct_count = sum(1 for answer in user_answers if answer.is_correct)
-        total_count = len(user_answers)
-        
+    
+    # 正解数を計算
+    correct_count = sum(1 for answer in user_answers if answer.is_correct)
+    total_count = len(user_answers)
+    
         context = {
             'level': level,
             'question_type': question_type,
             'answers_with_questions': answers_with_questions,
-            'correct_count': correct_count,
-            'total_count': total_count,
+        'correct_count': correct_count,
+        'total_count': total_count,
         }
         return render(request, 'exams/answer_results.html', context)
 
