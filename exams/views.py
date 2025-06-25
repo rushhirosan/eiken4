@@ -104,24 +104,15 @@ def question_list(request, level=None, exam_id=None):
             questions = random.sample(list(questions), num_questions)
             questions.sort(key=lambda x: x.id)
         
-        # ユーザーの回答を取得
-        user_answers = {}
-        answers = ListeningUserAnswer.objects.filter(
-            user=request.user,
-            question__in=questions
-        )
-        for answer in answers:
-            user_answers[answer.question.id] = answer.selected_answer
-        
-        # 問題と選択肢を組み合わせる
+        # 問題と選択肢を組み合わせる（回答履歴は表示しない）
         questions_with_choices = []
         for question in questions:
             choices = ListeningChoice.objects.filter(question=question).order_by('order')
             questions_with_choices.append({
                 'question': question,
                 'choices': choices,
-                'user_answer': user_answers.get(question.id),
-                'is_correct': user_answers.get(question.id) == question.correct_answer if question.id in user_answers else None,
+                'user_answer': None,  # 常にNoneにして未選択状態にする
+                'is_correct': None,
                 'explanation': getattr(question, 'explanation', '')
             })
         
@@ -146,16 +137,7 @@ def question_list(request, level=None, exam_id=None):
             questions = random.sample(questions, num_questions)
             questions.sort(key=lambda x: x.question_number)
         
-        # ユーザーの回答を取得
-        user_answers = {}
-        answers = UserAnswer.objects.filter(
-            user=request.user,
-            question__in=questions
-        )
-        for answer in answers:
-            user_answers[answer.question.id] = answer.selected_choice
-        
-        # 問題と回答を組み合わせる
+        # 問題と回答を組み合わせる（回答履歴は表示しない）
         questions_with_answers = []
         for question in questions:
             choices = Choice.objects.filter(question=question).order_by('order')
@@ -163,7 +145,7 @@ def question_list(request, level=None, exam_id=None):
             questions_with_answers.append({
                 'question': question,
                 'choices': choices,
-                'user_answer': user_answers.get(question.id),
+                'user_answer': None,  # 常にNoneにして未選択状態にする
                 'correct_choice': correct_choice,
                 'explanation': question.explanation
             })
@@ -247,16 +229,7 @@ def question_list(request, level=None, exam_id=None):
             questions = random.sample(questions, num_questions)
             questions.sort(key=lambda x: x.question_number)
         
-        # ユーザーの回答を取得
-        user_answers = {}
-        answers = UserAnswer.objects.filter(
-            user=request.user,
-            question__in=questions
-        )
-        for answer in answers:
-            user_answers[answer.question.id] = answer.selected_choice
-        
-        # 問題と回答を組み合わせる
+        # 問題と回答を組み合わせる（回答履歴は表示しない）
         questions_with_answers = []
         for question in questions:
             choices = Choice.objects.filter(question=question).order_by('order')
@@ -264,7 +237,7 @@ def question_list(request, level=None, exam_id=None):
             questions_with_answers.append({
                 'question': question,
                 'choices': choices,
-                'user_answer': user_answers.get(question.id),
+                'user_answer': None,  # 常にNoneにして未選択状態にする
                 'correct_choice': correct_choice,
                 'explanation': question.explanation
             })
@@ -446,8 +419,8 @@ def submit_answers(request, level):
                 user=request.user,
                 question_id__in=post_question_ids
             ).delete()
-
-            # 回答を保存
+                
+                # 回答を保存
             for question_id in post_question_ids:
                 answer_key = f'answer_{question_id}'
                 selected_choice_id = request.POST.get(answer_key)
@@ -455,13 +428,13 @@ def submit_answers(request, level):
                     choice = Choice.objects.get(id=selected_choice_id)
                     is_correct = choice.is_correct
                     question = Question.objects.get(id=question_id)
-                    UserAnswer.objects.create(
-                        user=request.user,
-                        question=question,
-                        selected_choice=choice,
-                        is_correct=is_correct
-                    )
-
+                UserAnswer.objects.create(
+                    user=request.user,
+                    question=question,
+                    selected_choice=choice,
+                    is_correct=is_correct
+                )
+                
             # 今回回答したquestion_idと出題順序をセッションに保存
             request.session[f'answered_questions_{question_type}_{level}'] = post_question_ids
                 
@@ -511,25 +484,27 @@ def submit_answers(request, level):
         else:
             # 通常の問題の場合
             questions = Question.objects.filter(level=level, question_type=question_type).order_by('question_number')
+            print(f"Debug - Regular Questions: {questions.count()}")  # デバッグ出力
             questions = list(questions)
+            
             # 「全て」が選択された場合は制限しない
             if num_questions != 'all' and len(questions) > num_questions:
                 questions = random.sample(questions, num_questions)
                 questions.sort(key=lambda x: x.question_number)
             
-            # POSTされたquestion_idをすべて取得
-            post_question_ids = [
-                int(key.replace('answer_', ''))
-                for key in request.POST.keys()
-                if key.startswith('answer_')
-            ]
-
-            # 既存の回答を削除（POSTされたquestion_idのみ）
-            UserAnswer.objects.filter(
-                user=request.user,
-                question_id__in=post_question_ids
-            ).delete()
-
+            # 問題と回答を組み合わせる（回答履歴は表示しない）
+            questions_with_answers = []
+            for question in questions:
+                choices = Choice.objects.filter(question=question).order_by('order')
+                correct_choice = choices.filter(is_correct=True).first()
+                questions_with_answers.append({
+                    'question': question,
+                    'choices': choices,
+                    'user_answer': None,  # 常にNoneにして未選択状態にする
+                    'correct_choice': correct_choice,
+                    'explanation': question.explanation
+                })
+            
             # 回答を保存
             for question_id in post_question_ids:
                 answer_key = f'answer_{question_id}'
@@ -749,11 +724,11 @@ def answer_results(request, level, question_type):
         
         # 出題順序でソート
         answers_with_questions.sort(key=lambda x: x['order'])
-    
+        
         # 正解数を計算
         correct_count = sum(1 for answer in user_answers if answer.is_correct)
         total_count = len(user_answers)
-
+        
         context = {
             'level': level,
             'question_type': question_type,
