@@ -9,13 +9,6 @@ import json
 from questions.models import ReadingPassage, ReadingQuestion, ReadingChoice, ListeningQuestion, ListeningUserAnswer, ListeningChoice
 from django.urls import reverse
 from django.utils import timezone
-from datetime import datetime
-
-class DateTimeEncoder(json.JSONEncoder):
-    def default(self, obj):
-        if isinstance(obj, datetime):
-            return obj.strftime('%Y-%m-%d %H:%M:%S')
-        return super().default(obj)
 
 @login_required
 def exam_list(request):
@@ -902,7 +895,7 @@ def submit_answers(request, level):
                         selected_reading_choice=choice,
                         is_correct=is_correct
                     )
-                    # 進捗を更新
+                # 進捗を更新
                     update_user_progress(request.user, level, 'reading_comprehension', is_correct)
 
             # 今回回答したquestion_idと出題順序をセッションに保存
@@ -1278,15 +1271,15 @@ def answer_results(request, level, question_type):
     # 正解数を計算
     correct_count = sum(1 for answer in user_answers if answer.is_correct)
     total_count = len(user_answers)
-
-    context = {
-        'level': level,
-        'question_type': question_type,
-        'answers_with_questions': answers_with_questions,
+    
+        context = {
+            'level': level,
+            'question_type': question_type,
+            'answers_with_questions': answers_with_questions,
         'correct_count': correct_count,
         'total_count': total_count,
-    }
-    return render(request, 'exams/answer_results.html', context)
+        }
+        return render(request, 'exams/answer_results.html', context)
 
 @login_required
 def progress_view(request):
@@ -1316,7 +1309,7 @@ def progress_view(request):
     return render(request, 'exams/progress.html', {
         'progress_data': progress_data,
         'levels': levels,
-        'progress_json': json.dumps(progress_data, cls=DateTimeEncoder)
+        'progress_json': json.dumps(progress_data)
     })
 
 def update_user_progress(user, level, question_type, is_correct):
@@ -1347,12 +1340,11 @@ def progress_to_dict(progress):
             'last_attempted': None
         }
     print(f"Debug - progress_to_dict: progress.last_attempted={progress.last_attempted}")
-    
     result = {
         'accuracy_rate': progress.accuracy_rate,
         'total_attempts': progress.total_attempts,
         'correct_answers': progress.correct_answers,
-        'last_attempted': progress.last_attempted  # datetimeオブジェクトをそのまま返す
+        'last_attempted': progress.last_attempted  # 日付オブジェクトをそのまま返す
     }
     print(f"Debug - progress_to_dict: result.last_attempted={result['last_attempted']}")
     return result

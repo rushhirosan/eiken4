@@ -22,16 +22,23 @@
                     <div class="col-md-6">
                         <div class="d-grid gap-2">
                                     <a href="{% url 'exams:question_list_by_level' level=level_code %}?type=grammar_fill" class="btn btn-outline-primary">文法・語彙問題</a>
+                                    <!-- Debug: URL = {% url 'exams:question_list_by_level' level=level_code %}?type=grammar_fill -->
                                     <a href="{% url 'exams:question_list_by_level' level=level_code %}?type=conversation_fill" class="btn btn-outline-primary">会話補充問題</a>
+                                    <!-- Debug: URL = {% url 'exams:question_list_by_level' level=level_code %}?type=conversation_fill -->
                                     <a href="{% url 'exams:question_list_by_level' level=level_code %}?type=word_order" class="btn btn-outline-primary">語順選択問題</a>
+                                    <!-- Debug: URL = {% url 'exams:question_list_by_level' level=level_code %}?type=word_order -->
                                     <a href="{% url 'exams:question_list_by_level' level=level_code %}?type=reading_comprehension" class="btn btn-outline-primary">長文読解問題</a>
+                                    <!-- Debug: URL = {% url 'exams:question_list_by_level' level=level_code %}?type=reading_comprehension -->
                         </div>
                     </div>
                     <div class="col-md-6">
                         <div class="d-grid gap-2">
                                     <a href="{% url 'exams:question_list_by_level' level=level_code %}?type=listening_illustration" class="btn btn-outline-primary">リスニング第1部: イラスト問題</a>
+                                    <!-- Debug: URL = {% url 'exams:question_list_by_level' level=level_code %}?type=listening_illustration -->
                                     <a href="{% url 'exams:question_list_by_level' level=level_code %}?type=listening_conversation" class="btn btn-outline-primary">リスニング第2部: 会話問題</a>
+                                    <!-- Debug: URL = {% url 'exams:question_list_by_level' level=level_code %}?type=listening_conversation -->
                                     <a href="{% url 'exams:question_list_by_level' level=level_code %}?type=listening_passage" class="btn btn-outline-primary">リスニング第3部: 文章問題</a>
+                                    <!-- Debug: URL = {% url 'exams:question_list_by_level' level=level_code %}?type=listening_passage -->
                         </div>
                     </div>
                 </div>
@@ -40,11 +47,13 @@
                                 <a href="{% url 'exams:question_list_by_level' level=level_code %}?type=random" class="btn btn-primary btn-lg w-100">
                                         <i class="fas fa-random"></i> ランダム10問
                                     </a>
+                                <!-- Debug: URL = {% url 'exams:question_list_by_level' level=level_code %}?type=random -->
                                 </div>
                                 <div class="col-md-6">
                                 <a href="{% url 'exams:question_list_by_level' level=level_code %}?type=mock_exam" class="btn btn-success btn-lg w-100">
                                         <i class="fas fa-clipboard-list"></i> 模擬試験問題
                                     </a>
+                                <!-- Debug: URL = {% url 'exams:question_list_by_level' level=level_code %}?type=mock_exam -->
                     </div>
                 </div>
             </div>

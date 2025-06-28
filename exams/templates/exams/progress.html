@@ -50,53 +50,53 @@
                     <tbody>
                         {% with progress=progress_data|get_item:level %}
                         <tr>
-                            <td>文法空所補充</td>
+                            <td>文法・語彙問題</td>
                             <td>{{ progress.grammar_fill.accuracy_rate|default:"0" }}%</td>
                             <td>{{ progress.grammar_fill.total_attempts|default:"0" }}</td>
                             <td>{{ progress.grammar_fill.correct_answers|default:"0" }}</td>
-                            <td>{{ progress.grammar_fill.last_attempted|date:"Y/m/d"|default:"-" }}</td>
+                            <td>{% if progress.grammar_fill.last_attempted %}{{ progress.grammar_fill.last_attempted|date:"Y/m/d" }}{% else %}未回答{% endif %}</td>
                         </tr>
                         <tr>
-                            <td>会話文空所補充</td>
+                            <td>会話補充問題</td>
                             <td>{{ progress.conversation_fill.accuracy_rate|default:"0" }}%</td>
                             <td>{{ progress.conversation_fill.total_attempts|default:"0" }}</td>
                             <td>{{ progress.conversation_fill.correct_answers|default:"0" }}</td>
-                            <td>{{ progress.conversation_fill.last_attempted|date:"Y/m/d"|default:"-" }}</td>
+                            <td>{% if progress.conversation_fill.last_attempted %}{{ progress.conversation_fill.last_attempted|date:"Y/m/d" }}{% else %}未回答{% endif %}</td>
                         </tr>
                         <tr>
-                            <td>語句整序</td>
+                            <td>語順選択問題</td>
                             <td>{{ progress.word_order.accuracy_rate|default:"0" }}%</td>
                             <td>{{ progress.word_order.total_attempts|default:"0" }}</td>
                             <td>{{ progress.word_order.correct_answers|default:"0" }}</td>
-                            <td>{{ progress.word_order.last_attempted|date:"Y/m/d"|default:"-" }}</td>
+                            <td>{% if progress.word_order.last_attempted %}{{ progress.word_order.last_attempted|date:"Y/m/d" }}{% else %}未回答{% endif %}</td>
                         </tr>
                         <tr>
-                            <td>長文読解</td>
+                            <td>長文読解問題</td>
                             <td>{{ progress.reading_comprehension.accuracy_rate|default:"0" }}%</td>
                             <td>{{ progress.reading_comprehension.total_attempts|default:"0" }}</td>
                             <td>{{ progress.reading_comprehension.correct_answers|default:"0" }}</td>
-                            <td>{{ progress.reading_comprehension.last_attempted|date:"Y/m/d"|default:"-" }}</td>
+                            <td>{% if progress.reading_comprehension.last_attempted %}{{ progress.reading_comprehension.last_attempted|date:"Y/m/d" }}{% else %}未回答{% endif %}</td>
                         </tr>
                         <tr>
-                            <td>リスニング応答</td>
-                            <td>{{ progress.listening_response.accuracy_rate|default:"0" }}%</td>
-                            <td>{{ progress.listening_response.total_attempts|default:"0" }}</td>
-                            <td>{{ progress.listening_response.correct_answers|default:"0" }}</td>
-                            <td>{{ progress.listening_response.last_attempted|date:"Y/m/d"|default:"-" }}</td>
+                            <td>リスニングイラスト問題</td>
+                            <td>{{ progress.listening_illustration.accuracy_rate|default:"0" }}%</td>
+                            <td>{{ progress.listening_illustration.total_attempts|default:"0" }}</td>
+                            <td>{{ progress.listening_illustration.correct_answers|default:"0" }}</td>
+                            <td>{% if progress.listening_illustration.last_attempted %}{{ progress.listening_illustration.last_attempted|date:"Y/m/d" }}{% else %}未回答{% endif %}</td>
                         </tr>
                         <tr>
-                            <td>リスニング会話</td>
+                            <td>リスニング会話問題</td>
                             <td>{{ progress.listening_conversation.accuracy_rate|default:"0" }}%</td>
                             <td>{{ progress.listening_conversation.total_attempts|default:"0" }}</td>
                             <td>{{ progress.listening_conversation.correct_answers|default:"0" }}</td>
-                            <td>{{ progress.listening_conversation.last_attempted|date:"Y/m/d"|default:"-" }}</td>
+                            <td>{% if progress.listening_conversation.last_attempted %}{{ progress.listening_conversation.last_attempted|date:"Y/m/d" }}{% else %}未回答{% endif %}</td>
                         </tr>
                         <tr>
-                            <td>リスニング短文</td>
-                            <td>{{ progress.listening_short_passage.accuracy_rate|default:"0" }}%</td>
-                            <td>{{ progress.listening_short_passage.total_attempts|default:"0" }}</td>
-                            <td>{{ progress.listening_short_passage.correct_answers|default:"0" }}</td>
-                            <td>{{ progress.listening_short_passage.last_attempted|date:"Y/m/d"|default:"-" }}</td>
+                            <td>リスニング文章問題</td>
+                            <td>{{ progress.listening_passage.accuracy_rate|default:"0" }}%</td>
+                            <td>{{ progress.listening_passage.total_attempts|default:"0" }}</td>
+                            <td>{{ progress.listening_passage.correct_answers|default:"0" }}</td>
+                            <td>{% if progress.listening_passage.last_attempted %}{{ progress.listening_passage.last_attempted|date:"Y/m/d" }}{% else %}未回答{% endif %}</td>
                         </tr>
                         {% endwith %}
                     </tbody>
@@ -116,13 +116,13 @@ document.addEventListener('DOMContentLoaded', function() {
     const progress = progressData['{{ level }}'];
     
     const labels = [
-        '文法空所補充',
-        '会話文空所補充',
-        '語句整序',
-        '長文読解',
-        'リスニング応答',
-        'リスニング会話',
-        'リスニング短文'
+        '文法・語彙問題',
+        '会話補充問題',
+        '語順選択問題',
+        '長文読解問題',
+        'リスニングイラスト問題',
+        'リスニング会話問題',
+        'リスニング文章問題'
     ];
     
     const data = [
@@ -130,9 +130,9 @@ document.addEventListener('DOMContentLoaded', function() {
         progress.conversation_fill.accuracy_rate,
         progress.word_order.accuracy_rate,
         progress.reading_comprehension.accuracy_rate,
-        progress.listening_response.accuracy_rate,
+        progress.listening_illustration.accuracy_rate,
         progress.listening_conversation.accuracy_rate,
-        progress.listening_short_passage.accuracy_rate
+        progress.listening_passage.accuracy_rate
     ];
     
     new Chart(ctx, {
