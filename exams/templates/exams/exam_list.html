@@ -4,63 +4,184 @@
 {% block title %}英検試験対策{% endblock %}
 
 {% block content %}
-<div class="container mt-5">
-    <h2 class="mb-4">英検試験対策</h2>
-    
-    <div class="row">
-        <div class="col-12">
-            <h3 class="mb-4">級別問題</h3>
-            {% for level_code, level_name in levels %}
-    <div class="card mb-4">
-        <div class="card-body">
-                    <h4 class="card-title">英検{{ level_name }}</h4>
-                    <p class="card-text">英検{{ level_name }}の対策問題です。</p>
-            
-            <div class="mt-4">
-                <h5>問題形式を選択</h5>
-                <div class="row">
-                    <div class="col-md-6">
-                        <div class="d-grid gap-2">
-                                    <a href="{% url 'exams:question_list_by_level' level=level_code %}?type=grammar_fill" class="btn btn-outline-primary">文法・語彙問題</a>
-                                    <!-- Debug: URL = {% url 'exams:question_list_by_level' level=level_code %}?type=grammar_fill -->
-                                    <a href="{% url 'exams:question_list_by_level' level=level_code %}?type=conversation_fill" class="btn btn-outline-primary">会話補充問題</a>
-                                    <!-- Debug: URL = {% url 'exams:question_list_by_level' level=level_code %}?type=conversation_fill -->
-                                    <a href="{% url 'exams:question_list_by_level' level=level_code %}?type=word_order" class="btn btn-outline-primary">語順選択問題</a>
-                                    <!-- Debug: URL = {% url 'exams:question_list_by_level' level=level_code %}?type=word_order -->
-                                    <a href="{% url 'exams:question_list_by_level' level=level_code %}?type=reading_comprehension" class="btn btn-outline-primary">長文読解問題</a>
-                                    <!-- Debug: URL = {% url 'exams:question_list_by_level' level=level_code %}?type=reading_comprehension -->
-                        </div>
-                    </div>
-                    <div class="col-md-6">
-                        <div class="d-grid gap-2">
-                                    <a href="{% url 'exams:question_list_by_level' level=level_code %}?type=listening_illustration" class="btn btn-outline-primary">リスニング第1部: イラスト問題</a>
-                                    <!-- Debug: URL = {% url 'exams:question_list_by_level' level=level_code %}?type=listening_illustration -->
-                                    <a href="{% url 'exams:question_list_by_level' level=level_code %}?type=listening_conversation" class="btn btn-outline-primary">リスニング第2部: 会話問題</a>
-                                    <!-- Debug: URL = {% url 'exams:question_list_by_level' level=level_code %}?type=listening_conversation -->
-                                    <a href="{% url 'exams:question_list_by_level' level=level_code %}?type=listening_passage" class="btn btn-outline-primary">リスニング第3部: 文章問題</a>
-                                    <!-- Debug: URL = {% url 'exams:question_list_by_level' level=level_code %}?type=listening_passage -->
-                        </div>
-                    </div>
-                </div>
-                <div class="row mt-4">
-                                <div class="col-md-6">
-                                <a href="{% url 'exams:question_list_by_level' level=level_code %}?type=random" class="btn btn-primary btn-lg w-100">
-                                        <i class="fas fa-random"></i> ランダム10問
-                                    </a>
-                                <!-- Debug: URL = {% url 'exams:question_list_by_level' level=level_code %}?type=random -->
-                                </div>
-                                <div class="col-md-6">
-                                <a href="{% url 'exams:question_list_by_level' level=level_code %}?type=mock_exam" class="btn btn-success btn-lg w-100">
-                                        <i class="fas fa-clipboard-list"></i> 模擬試験問題
-                                    </a>
-                                <!-- Debug: URL = {% url 'exams:question_list_by_level' level=level_code %}?type=mock_exam -->
-                    </div>
-                </div>
+<div class="container">
+    <div class="row justify-content-center">
+        <div class="col-lg-10">
+            <div class="text-center mb-5">
+                <h1 class="display-4 fw-bold text-white mb-3">
+                    <i class="fas fa-graduation-cap me-3"></i>
+                    英検試験対策
+                </h1>
+                <p class="lead text-white-50">英検4級の対策問題で実力を向上させましょう</p>
             </div>
+            
+            {% for level_code, level_name in levels %}
+            <div class="card mb-5">
+                <div class="card-header text-center py-4">
+                    <h2 class="mb-0">
+                        <i class="fas fa-star me-2"></i>
+                        英検4級
+                    </h2>
+                    <p class="mb-0 mt-2 opacity-75">英検4級の対策問題です</p>
+                </div>
+                <div class="card-body p-4">
+                    <div class="mb-4">
+                        <h4 class="text-center mb-4">
+                            <i class="fas fa-tasks me-2"></i>
+                            問題形式を選択
+                        </h4>
+                        
+                        <!-- 基本問題 -->
+                        <div class="row mb-4">
+                            <div class="col-12">
+                                <h5 class="text-muted mb-3">
+                                    <i class="fas fa-book me-2"></i>
+                                    基本問題
+                                </h5>
+                            </div>
+                            <div class="col-md-6 mb-3">
+                                <a href="{% url 'exams:question_list_by_level' level=level_code %}?type=grammar_fill" 
+                                   class="btn btn-outline-primary w-100 py-3">
+                                    <i class="fas fa-language me-2"></i>
+                                    文法・語彙問題
+                                </a>
+                            </div>
+                            <div class="col-md-6 mb-3">
+                                <a href="{% url 'exams:question_list_by_level' level=level_code %}?type=conversation_fill" 
+                                   class="btn btn-outline-primary w-100 py-3">
+                                    <i class="fas fa-comments me-2"></i>
+                                    会話補充問題
+                                </a>
+                            </div>
+                            <div class="col-md-6 mb-3">
+                                <a href="{% url 'exams:question_list_by_level' level=level_code %}?type=word_order" 
+                                   class="btn btn-outline-primary w-100 py-3">
+                                    <i class="fas fa-sort-alpha-down me-2"></i>
+                                    語順選択問題
+                                </a>
+                            </div>
+                            <div class="col-md-6 mb-3">
+                                <a href="{% url 'exams:question_list_by_level' level=level_code %}?type=reading_comprehension" 
+                                   class="btn btn-outline-primary w-100 py-3">
+                                    <i class="fas fa-book-open me-2"></i>
+                                    長文読解問題
+                                </a>
+                            </div>
+                        </div>
+                        
+                        <!-- リスニング問題 -->
+                        <div class="row mb-4">
+                            <div class="col-12">
+                                <h5 class="text-muted mb-3">
+                                    <i class="fas fa-headphones me-2"></i>
+                                    リスニング問題
+                                </h5>
+                            </div>
+                            <div class="col-md-4 mb-3">
+                                <a href="{% url 'exams:question_list_by_level' level=level_code %}?type=listening_illustration" 
+                                   class="btn btn-outline-primary w-100 py-3">
+                                    <i class="fas fa-image me-2"></i>
+                                    第1部: イラスト問題
+                                </a>
+                            </div>
+                            <div class="col-md-4 mb-3">
+                                <a href="{% url 'exams:question_list_by_level' level=level_code %}?type=listening_conversation" 
+                                   class="btn btn-outline-primary w-100 py-3">
+                                    <i class="fas fa-users me-2"></i>
+                                    第2部: 会話問題
+                                </a>
+                            </div>
+                            <div class="col-md-4 mb-3">
+                                <a href="{% url 'exams:question_list_by_level' level=level_code %}?type=listening_passage" 
+                                   class="btn btn-outline-primary w-100 py-3">
+                                    <i class="fas fa-file-alt me-2"></i>
+                                    第3部: 文章問題
+                                </a>
+                            </div>
+                        </div>
+                        
+                        <!-- 総合問題 -->
+                        <div class="row">
+                            <div class="col-12">
+                                <h5 class="text-muted mb-3">
+                                    <i class="fas fa-trophy me-2"></i>
+                                    総合問題
+                                </h5>
+                            </div>
+                            <div class="col-md-6 mb-3">
+                                <a href="{% url 'exams:question_list_by_level' level=level_code %}?type=random" 
+                                   class="btn btn-primary w-100 py-4">
+                                    <i class="fas fa-random me-2"></i>
+                                    ランダム10問
+                                    <br>
+                                    <small class="opacity-75">様々な問題形式から出題</small>
+                                </a>
+                            </div>
+                            <div class="col-md-6 mb-3">
+                                <a href="{% url 'exams:question_list_by_level' level=level_code %}?type=mock_exam" 
+                                   class="btn btn-success w-100 py-4">
+                                    <i class="fas fa-clipboard-list me-2"></i>
+                                    模擬試験問題
+                                    <br>
+                                    <small class="opacity-75">本番形式の総合問題</small>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
             {% endfor %}
         </div>
     </div>
 </div>
+
+<style>
+.display-4 {
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.lead {
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+}
+
+.btn {
+    transition: all 0.3s ease;
+    position: relative;
+    overflow: hidden;
+}
+
+.btn::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.2), transparent);
+    transition: left 0.5s;
+}
+
+.btn:hover::before {
+    left: 100%;
+}
+
+.card {
+    transition: all 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 30px 60px rgba(0, 0, 0, 0.15);
+}
+
+@media (max-width: 768px) {
+    .display-4 {
+        font-size: 2rem;
+    }
+    
+    .btn {
+        margin-bottom: 0.5rem;
+    }
+}
+</style>
 {% endblock %} 

@@ -173,45 +173,186 @@ Luke is good ( ) playing tennis. He is on the school team.
 「be good at ～」は「～が得意」という意味の決まった表現です。テニスが得意だから学校のチームに入っている、という流れになります。前置詞を正しく覚えましょう！
 
 ---
-(11) A : Can I use your computer now? B : ( ) a minute. I need to read an e-mail first. 1 Fall 2 Wait 3 Cut 4 Put
-→ 【正解】2 Wait
-【解説】「Wait a minute.」は「ちょっと待って」という定番表現です。「Fall（落ちる）」「Cut（切る）」「Put（置く）」はこの場面では使いません。
 
-(12) A : You can’t go to bed now. () a bath first. B : OK, Mom. 1 Take 2 Drive 3 Wear 4 Send
-→ 【正解】1 Take
-【解説】「take a bath」は「お風呂に入る」という意味の決まり文句です。英語では「take」を使うことを覚えましょう。「Drive（運転する）」「Wear（着る）」「Send（送る）」では意味が通じません。
+問題11:
+A : Can I use your computer now?  
+B : ( ) a minute. I need to read an e-mail first.
 
-(13) A : There () many interesting animals at this zoo. B : Yes. I want to come here again. 1 is 2 are 3 am 4 be
-→ 【正解】2 are
-【解説】「animals」と複数形なので、「are」を使います。「There are ～」で「～がある、いる」という意味になります。「is」は単数形に使うので、ここでは不正解です。
+選択肢11:
+1. Fall  
+2. Wait  
+3. Cut  
+4. Put
 
-(14) A : Is skiing () than snowboarding, Tom? B : I think so, but it’s a lot of fun. 1 harder 2 hard 3 hardest 4 too hard
-→ 【正解】1 harder
-【解説】「than」があるので、比較級を使うことがわかります。「hard」の比較級は「harder」。「hard」は原形、「hardest」は最上級、「too hard」は「難しすぎる」という意味なので文脈に合いません。
+【正解11】  
+2. Wait
 
-(15) A : Did you get any food at the baseball stadium yesterday, Linda? B : Yes. I ( ) two hot dogs. They were delicious. 1 eat 2 eating 3 eats 4 ate
-→ 【正解】4 ate
-【解説】「did」という過去形の質問なので、答えも過去形で答える必要があります。「ate」は「eat（食べる）」の過去形です。他の選択肢は形が合わないので不正解です。
+【解説11】  
+「Wait a minute.」は「ちょっと待って」という定番表現です。「Fall（落ちる）」「Cut（切る）」「Put（置く）」はこの場面では使いません。
 
-(16) A : Do you like cats () dogs? B : I like cats better. 1 and 2 or 3 so 4 but
-→ 【正解】2 or
-【解説】「or」は「または、あるいは」という意味です。ここでは「猫が好きですか、犬が好きですか」という選択肢を提示しているので、「or」が自然です。「and（そして）」「so（だから）」「but（しかし）」はこの文脈には合いません。
+---
 
-(17) A : Your jacket is very nice. B : Thank you. It was a () from my mother. 1 call 2 gift 3 store 4 game
-→ 【正解】2 gift
-【解説】「gift」は「贈り物、プレゼント」という意味です。母からもらったものなので「gift」がぴったりです。「call（呼ぶ）」「store（店）」「game（ゲーム）」はここでは意味が通じません。
+問題12:
+A : You can’t go to bed now. () a bath first.  
+B : OK, Mom.
 
-(18) A : Are you going to the party () Saturday? B : Yes, I am. 1 in 2 on 3 at 4 to
-→ 【正解】2 on
-【解説】曜日（Saturday）の前には「on」を使います。英語では、日や曜日の前には「on」、月や年の前には「in」を使うのが基本ルールです。「at」は場所や時刻、「to」は方向なのでここでは使いません。
+選択肢12:
+1. Take  
+2. Drive  
+3. Wear  
+4. Send
 
-(19) A : We are going to () the school festival next week. B : I’m excited! 1 have 2 give 3 stand 4 bring
-→ 【正解】1 have
-【解説】「have a festival」で「祭りを開催する」という意味になります。イベントを「持つ＝開催する」という感覚です。「give（与える）」「stand（立つ）」「bring（持ってくる）」は意味がずれます。
+【正解12】  
+1. Take
 
-(20) A : What is Ken doing now? B : He is () a book in his room. 1 reading 2 reading at 3 read 4 reads
-→ 【正解】1 reading
-【解説】「be動詞＋動詞-ing」で現在進行形を作ります。Kenが「今」している動作なので「reading」が正解です。「read」は原形、「reads」は三人称単数現在、「reading at」は文法的におかしいです。
+【解説12】  
+「take a bath」は「お風呂に入る」という意味の決まり文句です。英語では「take」を使うことを覚えましょう。「Drive（運転する）」「Wear（着る）」「Send（送る）」では意味が通じません。
+
+---
+
+問題13:
+A : There () many interesting animals at this zoo.  
+B : Yes. I want to come here again.
+
+選択肢13:
+1. is  
+2. are  
+3. am  
+4. be
+
+【正解13】  
+2. are
+
+【解説13】  
+「animals」と複数形なので、「are」を使います。「There are ～」で「～がある、いる」という意味になります。「is」は単数形に使うので、ここでは不正解です。
+
+---
+
+問題14:
+A : Is skiing () than snowboarding, Tom?  
+B : I think so, but it’s a lot of fun.
+
+選択肢14:
+1. harder  
+2. hard  
+3. hardest  
+4. too hard
+
+【正解14】  
+1. harder
+
+【解説14】  
+「than」があるので、比較級を使うことがわかります。「hard」の比較級は「harder」。「hard」は原形、「hardest」は最上級、「too hard」は「難しすぎる」という意味なので文脈に合いません。
+
+---
+
+問題15:
+A : Did you get any food at the baseball stadium yesterday, Linda?  
+B : Yes. I ( ) two hot dogs. They were delicious.
+
+選択肢15:
+1. eat  
+2. eating  
+3. eats  
+4. ate
+
+【正解15】  
+4. ate
+
+【解説15】  
+「did」という過去形の質問なので、答えも過去形で答える必要があります。「ate」は「eat（食べる）」の過去形です。他の選択肢は形が合わないので不正解です。
+
+---
+
+問題16:
+A : Do you like cats () dogs?  
+B : I like cats better.
+
+選択肢16:
+1. and  
+2. or  
+3. so  
+4. but
+
+【正解16】  
+2. or
+
+【解説16】  
+「or」は「または、あるいは」という意味です。ここでは「猫が好きですか、犬が好きですか」という選択肢を提示しているので、「or」が自然です。「and（そして）」「so（だから）」「but（しかし）」はこの文脈には合いません。
+
+---
+
+問題17:
+A : Your jacket is very nice.  
+B : Thank you. It was a () from my mother.
+
+選択肢17:
+1. call  
+2. gift  
+3. store  
+4. game
+
+【正解17】  
+2. gift
+
+【解説17】  
+「gift」は「贈り物、プレゼント」という意味です。母からもらったものなので「gift」がぴったりです。「call（呼ぶ）」「store（店）」「game（ゲーム）」はここでは意味が通じません。
+
+---
+
+問題18:
+A : Are you going to the party () Saturday?  
+B : Yes, I am.
+
+選択肢18:
+1. in  
+2. on  
+3. at  
+4. to
+
+【正解18】  
+2. on
+
+【解説18】  
+曜日（Saturday）の前には「on」を使います。英語では、日や曜日の前には「on」、月や年の前には「in」を使うのが基本ルールです。「at」は場所や時刻、「to」は方向なのでここでは使いません。
+
+---
+
+問題19:
+A : We are going to () the school festival next week.  
+B : I’m excited!
+
+選択肢19:
+1. have  
+2. give  
+3. stand  
+4. bring
+
+【正解19】  
+1. have
+
+【解説19】  
+「have a festival」で「祭りを開催する」という意味になります。イベントを「持つ＝開催する」という感覚です。「give（与える）」「stand（立つ）」「bring（持ってくる）」は意味がずれます。
+
+---
+
+問題20:
+A : What is Ken doing now?  
+B : He is () a book in his room.
+
+選択肢20:
+1. reading  
+2. reading at  
+3. read  
+4. reads
+
+【正解20】  
+1. reading
+
+【解説20】  
+「be動詞＋動詞-ing」で現在進行形を作ります。Kenが「今」している動作なので「reading」が正解です。「read」は原形、「reads」は三人称単数現在、「reading at」は文法的におかしいです。
+
+---
 
 (21) A : Where is Dad? B : He’s () dinner in the kitchen. 1 making 2 walking 3 playing 4 cutting
 → 【正解】1 making

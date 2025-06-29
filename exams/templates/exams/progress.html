@@ -4,7 +4,7 @@
 {% block content %}
 <div class="container mt-5">
     <div class="d-flex justify-content-between align-items-center mb-4">
-        <h2>学習進捗</h2>
+        <h2 class="text-white">学習進捗</h2>
         <form action="{% url 'exams:clear_progress' %}" method="post" onsubmit="return confirm('本当に学習進捗をクリアしますか？\nこの操作は取り消せません。');">
             {% csrf_token %}
             <button type="submit" class="btn btn-danger">
