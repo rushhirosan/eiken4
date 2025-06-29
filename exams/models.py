@@ -120,3 +120,25 @@ class UserProgress(models.Model):
             self.correct_answers += 1
         self.last_attempted = timezone.now()
         self.save()
+
+class DailyProgress(models.Model):
+    """日々の学習進捗を記録するモデル"""
+    user = models.ForeignKey(settings.AUTH_USER_MODEL, on_delete=models.CASCADE)
+    date = models.DateField(default=timezone.now)
+    level = models.IntegerField()
+    question_type = models.CharField(max_length=50)
+    questions_attempted = models.IntegerField(default=0)
+    correct_answers = models.IntegerField(default=0)
+    
+    class Meta:
+        unique_together = ('user', 'date', 'level', 'question_type')
+        ordering = ['-date']
+    
+    def __str__(self):
+        return f"{self.user.username} - {self.date} - {self.question_type} - {self.questions_attempted}問"
+    
+    @property
+    def accuracy_rate(self):
+        if self.questions_attempted == 0:
+            return 0
+        return round((self.correct_answers / self.questions_attempted) * 100, 1)

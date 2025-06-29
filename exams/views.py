@@ -1,6 +1,6 @@
 from django.shortcuts import render, get_object_or_404, redirect
 from django.contrib.auth.decorators import login_required
-from .models import Question, Choice, UserAnswer, UserProgress, ReadingUserAnswer
+from .models import Question, Choice, UserAnswer, UserProgress, ReadingUserAnswer, DailyProgress
 from django.db.models import Count, Q
 import random
 from django.http import JsonResponse
@@ -1298,20 +1298,92 @@ def progress_view(request):
     progress_data = {}
     for level in levels:
         level_progress = UserProgress.objects.filter(user=user, level=level)
+        
+        # 各問題タイプの総問題数を取得
+        total_questions = {
+            'grammar_fill': Question.objects.filter(level=level, question_type='grammar_fill').count(),
+            'conversation_fill': Question.objects.filter(level=level, question_type='conversation_fill').count(),
+            'word_order': Question.objects.filter(level=level, question_type='word_order').count(),
+            'reading_comprehension': ReadingPassage.objects.filter(level=level).count(),
+            'listening_illustration': ListeningQuestion.objects.filter(level=level).count(),
+            'listening_conversation': Question.objects.filter(level=level, question_type='listening_conversation').count(),
+            'listening_passage': Question.objects.filter(level=level, question_type='listening_passage').count(),
+        }
+        
+        # 今日の取り組み数を取得
+        today = timezone.now().date()
+        today_progress = DailyProgress.objects.filter(
+            user=user,
+            date=today,
+            level=level
+        )
+        
+        today_attempts = {}
+        for progress in today_progress:
+            today_attempts[progress.question_type] = progress.questions_attempted
+        
+        # 過去7日間の日々の取り組み数を取得
+        from datetime import timedelta
+        daily_data = {}
+        for i in range(7):
+            date = today - timedelta(days=i)
+            daily_progress = DailyProgress.objects.filter(
+                user=user,
+                date=date,
+                level=level
+            )
+            
+            daily_total = 0
+            for progress in daily_progress:
+                daily_total += progress.questions_attempted
+            
+            daily_data[date.strftime('%m/%d')] = daily_total
+        
         progress_data[level] = {
-            'grammar_fill': progress_to_dict(level_progress.filter(question_type='grammar_fill').first()),
-            'conversation_fill': progress_to_dict(level_progress.filter(question_type='conversation_fill').first()),
-            'word_order': progress_to_dict(level_progress.filter(question_type='word_order').first()),
-            'reading_comprehension': progress_to_dict(level_progress.filter(question_type='reading_comprehension').first()),
-            'listening_illustration': progress_to_dict(level_progress.filter(question_type='listening_illustration').first()),
-            'listening_conversation': progress_to_dict(level_progress.filter(question_type='listening_conversation').first()),
-            'listening_passage': progress_to_dict(level_progress.filter(question_type='listening_passage').first()),
+            'grammar_fill': progress_to_dict_with_total_and_today(
+                level_progress.filter(question_type='grammar_fill').first(), 
+                total_questions['grammar_fill'],
+                today_attempts.get('grammar_fill', 0)
+            ),
+            'conversation_fill': progress_to_dict_with_total_and_today(
+                level_progress.filter(question_type='conversation_fill').first(), 
+                total_questions['conversation_fill'],
+                today_attempts.get('conversation_fill', 0)
+            ),
+            'word_order': progress_to_dict_with_total_and_today(
+                level_progress.filter(question_type='word_order').first(), 
+                total_questions['word_order'],
+                today_attempts.get('word_order', 0)
+            ),
+            'reading_comprehension': progress_to_dict_with_total_and_today(
+                level_progress.filter(question_type='reading_comprehension').first(), 
+                total_questions['reading_comprehension'],
+                today_attempts.get('reading_comprehension', 0)
+            ),
+            'listening_illustration': progress_to_dict_with_total_and_today(
+                level_progress.filter(question_type='listening_illustration').first(), 
+                total_questions['listening_illustration'],
+                today_attempts.get('listening_illustration', 0)
+            ),
+            'listening_conversation': progress_to_dict_with_total_and_today(
+                level_progress.filter(question_type='listening_conversation').first(), 
+                total_questions['listening_conversation'],
+                today_attempts.get('listening_conversation', 0)
+            ),
+            'listening_passage': progress_to_dict_with_total_and_today(
+                level_progress.filter(question_type='listening_passage').first(), 
+                total_questions['listening_passage'],
+                today_attempts.get('listening_passage', 0)
+            ),
+            'daily_data': daily_data  # 日々の取り組みデータを追加
         }
         
         # デバッグ出力を追加
         print(f"Debug - Progress data for level {level}:")
         for question_type, progress in progress_data[level].items():
-            print(f"  {question_type}: last_attempted={progress['last_attempted']}")
+            if question_type != 'daily_data':
+                print(f"  {question_type}: progress_rate={progress['progress_rate']}%, total_questions={progress['total_questions']}, attempted={progress['total_attempts']}, today={progress['today_attempts']}")
+        print(f"  Daily data: {progress_data[level]['daily_data']}")
     
     return render(request, 'exams/progress.html', {
         'progress_data': progress_data,
@@ -1335,6 +1407,26 @@ def update_user_progress(user, level, question_type, is_correct):
     print(f"Debug - Before update: last_attempted={progress.last_attempted}")
     progress.update_progress(is_correct)
     print(f"Debug - After update: last_attempted={progress.last_attempted}")
+    
+    # 日々の進捗も更新
+    today = timezone.now().date()
+    daily_progress, daily_created = DailyProgress.objects.get_or_create(
+        user=user,
+        date=today,
+        level=level,
+        question_type=question_type,
+        defaults={
+            'questions_attempted': 0,
+            'correct_answers': 0
+        }
+    )
+    
+    daily_progress.questions_attempted += 1
+    if is_correct:
+        daily_progress.correct_answers += 1
+    daily_progress.save()
+    
+    print(f"Debug - Daily progress updated: {daily_progress.questions_attempted} questions attempted today")
 
 def progress_to_dict(progress):
     """進捗オブジェクトを辞書に変換"""
@@ -1355,6 +1447,69 @@ def progress_to_dict(progress):
         'last_attempted': progress.last_attempted  # datetimeオブジェクトをそのまま返す
     }
     print(f"Debug - progress_to_dict: result.last_attempted={result['last_attempted']}")
+    return result
+
+def progress_to_dict_with_total(progress, total_questions):
+    """進捗オブジェクトを辞書に変換（取り組み率計算付き）"""
+    if progress is None:
+        print(f"Debug - progress_to_dict_with_total: progress is None, total_questions={total_questions}")
+        return {
+            'progress_rate': 0,
+            'total_questions': total_questions,
+            'total_attempts': 0,
+            'correct_answers': 0,
+            'last_attempted': None
+        }
+    print(f"Debug - progress_to_dict_with_total: progress.last_attempted={progress.last_attempted}, total_questions={total_questions}")
+    
+    # 取り組み率を計算（回答した問題数 / 総問題数 * 100）
+    progress_rate = 0
+    if total_questions > 0:
+        progress_rate = round((progress.total_attempts / total_questions) * 100)  # 小数点以下を削除
+    
+    result = {
+        'progress_rate': progress_rate,
+        'total_questions': total_questions,
+        'total_attempts': progress.total_attempts,
+        'correct_answers': progress.correct_answers,
+        'last_attempted': progress.last_attempted  # datetimeオブジェクトをそのまま返す
+    }
+    print(f"Debug - progress_to_dict_with_total: result.progress_rate={result['progress_rate']}%")
+    return result
+
+def progress_to_dict_with_total_and_today(progress, total_questions, today_attempts):
+    """進捗オブジェクトを辞書に変換（取り組み率計算付き）"""
+    if progress is None:
+        print(f"Debug - progress_to_dict_with_total_and_today: progress is None, total_questions={total_questions}, today_attempts={today_attempts}")
+        return {
+            'progress_rate': 0,
+            'total_questions': total_questions,
+            'total_attempts': 0,
+            'correct_answers': 0,
+            'incorrect_answers': 0,
+            'today_attempts': today_attempts,
+            'last_attempted': None
+        }
+    print(f"Debug - progress_to_dict_with_total_and_today: progress.last_attempted={progress.last_attempted}, total_questions={total_questions}, today_attempts={today_attempts}")
+    
+    # 取り組み率を計算（回答した問題数 / 総問題数 * 100）
+    progress_rate = 0
+    if total_questions > 0:
+        progress_rate = round((progress.total_attempts / total_questions) * 100)  # 小数点以下を削除
+    
+    # 不正解数を計算
+    incorrect_answers = progress.total_attempts - progress.correct_answers
+    
+    result = {
+        'progress_rate': progress_rate,
+        'total_questions': total_questions,
+        'total_attempts': progress.total_attempts,
+        'correct_answers': progress.correct_answers,
+        'incorrect_answers': incorrect_answers,
+        'today_attempts': today_attempts,
+        'last_attempted': progress.last_attempted  # datetimeオブジェクトをそのまま返す
+    }
+    print(f"Debug - progress_to_dict_with_total_and_today: result.progress_rate={result['progress_rate']}%, incorrect_answers={result['incorrect_answers']}")
     return result
 
 @login_required

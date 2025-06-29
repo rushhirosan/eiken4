@@ -29,10 +29,17 @@
             <h3>英検{{ level }}級</h3>
         </div>
         <div class="card-body">
-            <!-- グラフを追加 -->
+            <!-- 取り組み率グラフを追加 -->
             <div class="row mb-4">
                 <div class="col-md-12">
                     <canvas id="progressChart{{ level }}"></canvas>
+                </div>
+            </div>
+            
+            <!-- 日々の取り組み数グラフを追加 -->
+            <div class="row mb-4">
+                <div class="col-md-12">
+                    <canvas id="dailyProgressChart{{ level }}"></canvas>
                 </div>
             </div>
             
@@ -41,9 +48,12 @@
                     <thead>
                         <tr>
                             <th>問題タイプ</th>
-                            <th>正答率</th>
+                            <th>取り組み率</th>
                             <th>回答数</th>
+                            <th>総問題数</th>
+                            <th>今日の取り組み</th>
                             <th>正解数</th>
+                            <th>不正解数</th>
                             <th>最終回答日</th>
                         </tr>
                     </thead>
@@ -51,51 +61,72 @@
                         {% with progress=progress_data|get_item:level %}
                         <tr>
                             <td>文法・語彙問題</td>
-                            <td>{{ progress.grammar_fill.accuracy_rate|default:"0" }}%</td>
+                            <td>{{ progress.grammar_fill.progress_rate|default:"0" }}%</td>
                             <td>{{ progress.grammar_fill.total_attempts|default:"0" }}</td>
+                            <td>{{ progress.grammar_fill.total_questions|default:"0" }}</td>
+                            <td>{{ progress.grammar_fill.today_attempts|default:"0" }}問</td>
                             <td>{{ progress.grammar_fill.correct_answers|default:"0" }}</td>
+                            <td>{{ progress.grammar_fill.incorrect_answers|default:"0" }}</td>
                             <td>{% if progress.grammar_fill.last_attempted %}{{ progress.grammar_fill.last_attempted|date:"Y/m/d" }}{% else %}未回答{% endif %}</td>
                         </tr>
                         <tr>
                             <td>会話補充問題</td>
-                            <td>{{ progress.conversation_fill.accuracy_rate|default:"0" }}%</td>
+                            <td>{{ progress.conversation_fill.progress_rate|default:"0" }}%</td>
                             <td>{{ progress.conversation_fill.total_attempts|default:"0" }}</td>
+                            <td>{{ progress.conversation_fill.total_questions|default:"0" }}</td>
+                            <td>{{ progress.conversation_fill.today_attempts|default:"0" }}問</td>
                             <td>{{ progress.conversation_fill.correct_answers|default:"0" }}</td>
+                            <td>{{ progress.conversation_fill.incorrect_answers|default:"0" }}</td>
                             <td>{% if progress.conversation_fill.last_attempted %}{{ progress.conversation_fill.last_attempted|date:"Y/m/d" }}{% else %}未回答{% endif %}</td>
                         </tr>
                         <tr>
                             <td>語順選択問題</td>
-                            <td>{{ progress.word_order.accuracy_rate|default:"0" }}%</td>
+                            <td>{{ progress.word_order.progress_rate|default:"0" }}%</td>
                             <td>{{ progress.word_order.total_attempts|default:"0" }}</td>
+                            <td>{{ progress.word_order.total_questions|default:"0" }}</td>
+                            <td>{{ progress.word_order.today_attempts|default:"0" }}問</td>
                             <td>{{ progress.word_order.correct_answers|default:"0" }}</td>
+                            <td>{{ progress.word_order.incorrect_answers|default:"0" }}</td>
                             <td>{% if progress.word_order.last_attempted %}{{ progress.word_order.last_attempted|date:"Y/m/d" }}{% else %}未回答{% endif %}</td>
                         </tr>
                         <tr>
                             <td>長文読解問題</td>
-                            <td>{{ progress.reading_comprehension.accuracy_rate|default:"0" }}%</td>
+                            <td>{{ progress.reading_comprehension.progress_rate|default:"0" }}%</td>
                             <td>{{ progress.reading_comprehension.total_attempts|default:"0" }}</td>
+                            <td>{{ progress.reading_comprehension.total_questions|default:"0" }}</td>
+                            <td>{{ progress.reading_comprehension.today_attempts|default:"0" }}問</td>
                             <td>{{ progress.reading_comprehension.correct_answers|default:"0" }}</td>
+                            <td>{{ progress.reading_comprehension.incorrect_answers|default:"0" }}</td>
                             <td>{% if progress.reading_comprehension.last_attempted %}{{ progress.reading_comprehension.last_attempted|date:"Y/m/d" }}{% else %}未回答{% endif %}</td>
                         </tr>
                         <tr>
                             <td>リスニングイラスト問題</td>
-                            <td>{{ progress.listening_illustration.accuracy_rate|default:"0" }}%</td>
+                            <td>{{ progress.listening_illustration.progress_rate|default:"0" }}%</td>
                             <td>{{ progress.listening_illustration.total_attempts|default:"0" }}</td>
+                            <td>{{ progress.listening_illustration.total_questions|default:"0" }}</td>
+                            <td>{{ progress.listening_illustration.today_attempts|default:"0" }}問</td>
                             <td>{{ progress.listening_illustration.correct_answers|default:"0" }}</td>
+                            <td>{{ progress.listening_illustration.incorrect_answers|default:"0" }}</td>
                             <td>{% if progress.listening_illustration.last_attempted %}{{ progress.listening_illustration.last_attempted|date:"Y/m/d" }}{% else %}未回答{% endif %}</td>
                         </tr>
                         <tr>
                             <td>リスニング会話問題</td>
-                            <td>{{ progress.listening_conversation.accuracy_rate|default:"0" }}%</td>
+                            <td>{{ progress.listening_conversation.progress_rate|default:"0" }}%</td>
                             <td>{{ progress.listening_conversation.total_attempts|default:"0" }}</td>
+                            <td>{{ progress.listening_conversation.total_questions|default:"0" }}</td>
+                            <td>{{ progress.listening_conversation.today_attempts|default:"0" }}問</td>
                             <td>{{ progress.listening_conversation.correct_answers|default:"0" }}</td>
+                            <td>{{ progress.listening_conversation.incorrect_answers|default:"0" }}</td>
                             <td>{% if progress.listening_conversation.last_attempted %}{{ progress.listening_conversation.last_attempted|date:"Y/m/d" }}{% else %}未回答{% endif %}</td>
                         </tr>
                         <tr>
                             <td>リスニング文章問題</td>
-                            <td>{{ progress.listening_passage.accuracy_rate|default:"0" }}%</td>
+                            <td>{{ progress.listening_passage.progress_rate|default:"0" }}%</td>
                             <td>{{ progress.listening_passage.total_attempts|default:"0" }}</td>
+                            <td>{{ progress.listening_passage.total_questions|default:"0" }}</td>
+                            <td>{{ progress.listening_passage.today_attempts|default:"0" }}問</td>
                             <td>{{ progress.listening_passage.correct_answers|default:"0" }}</td>
+                            <td>{{ progress.listening_passage.incorrect_answers|default:"0" }}</td>
                             <td>{% if progress.listening_passage.last_attempted %}{{ progress.listening_passage.last_attempted|date:"Y/m/d" }}{% else %}未回答{% endif %}</td>
                         </tr>
                         {% endwith %}
@@ -126,13 +157,13 @@ document.addEventListener('DOMContentLoaded', function() {
     ];
     
     const data = [
-        progress.grammar_fill.accuracy_rate,
-        progress.conversation_fill.accuracy_rate,
-        progress.word_order.accuracy_rate,
-        progress.reading_comprehension.accuracy_rate,
-        progress.listening_illustration.accuracy_rate,
-        progress.listening_conversation.accuracy_rate,
-        progress.listening_passage.accuracy_rate
+        progress.grammar_fill.progress_rate,
+        progress.conversation_fill.progress_rate,
+        progress.word_order.progress_rate,
+        progress.reading_comprehension.progress_rate,
+        progress.listening_illustration.progress_rate,
+        progress.listening_conversation.progress_rate,
+        progress.listening_passage.progress_rate
     ];
     
     new Chart(ctx, {
@@ -140,7 +171,7 @@ document.addEventListener('DOMContentLoaded', function() {
         data: {
             labels: labels,
             datasets: [{
-                label: '正答率 (%)',
+                label: '取り組み率 (%)',
                 data: data,
                 backgroundColor: [
                     'rgba(54, 162, 235, 0.5)',  // 文法
@@ -171,14 +202,70 @@ document.addEventListener('DOMContentLoaded', function() {
                     max: 100,
                     title: {
                         display: true,
-                        text: '正答率 (%)'
+                        text: '取り組み率 (%)'
                     }
                 }
             },
             plugins: {
                 title: {
                     display: true,
-                    text: '英検{{ level }}級 正答率'
+                    text: '英検{{ level }}級 取り組み率'
+                },
+                legend: {
+                    display: false
+                }
+            }
+        }
+    });
+    
+    // 日々の取り組み数グラフ
+    const dailyCtx = document.getElementById('dailyProgressChart{{ level }}').getContext('2d');
+    const dailyData = progress.daily_data;
+    
+    const dailyLabels = Object.keys(dailyData).reverse(); // 古い日付から新しい日付の順
+    const dailyValues = dailyLabels.map(date => dailyData[date]);
+    
+    new Chart(dailyCtx, {
+        type: 'line',
+        data: {
+            labels: dailyLabels,
+            datasets: [{
+                label: '日々の取り組み数',
+                data: dailyValues,
+                borderColor: 'rgba(75, 192, 192, 1)',
+                backgroundColor: 'rgba(75, 192, 192, 0.2)',
+                borderWidth: 2,
+                fill: true,
+                tension: 0.1
+            }]
+        },
+        options: {
+            responsive: true,
+            scales: {
+                y: {
+                    beginAtZero: true,
+                    ticks: {
+                        stepSize: 1,  // 縦軸の目盛りを1刻みにする
+                        callback: function(value) {
+                            return Math.floor(value);  // 整数のみ表示
+                        }
+                    },
+                    title: {
+                        display: true,
+                        text: '取り組み数 (問)'
+                    }
+                },
+                x: {
+                    title: {
+                        display: true,
+                        text: '日付'
+                    }
+                }
+            },
+            plugins: {
+                title: {
+                    display: true,
+                    text: '英検{{ level }}級 過去7日間の取り組み数'
                 },
                 legend: {
                     display: false
