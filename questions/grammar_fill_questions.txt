@@ -354,541 +354,2288 @@ B : He is () a book in his room.
 
 ---
 
-(21) A : Where is Dad? B : He’s () dinner in the kitchen. 1 making 2 walking 3 playing 4 cutting
-→ 【正解】1 making
-【解説】「make dinner」で「夕食を作る」という意味になります。料理をする場面なので「make」が自然です。「walk（歩く）」「play（遊ぶ）」「cut（切る）」は合いません。
-
-(22) A : What’s your favorite () ? B : I like soccer. 1 food 2 sport 3 book 4 color
-→ 【正解】2 sport
-【解説】「soccer（サッカー）」はスポーツの一種なので、「favorite sport（お気に入りのスポーツ）」が正しいです。「food（食べ物）」「book（本）」「color（色）」では話が合いません。
-
-(23) A : Let's () to the park this afternoon. B : Good idea! 1 take 2 go 3 make 4 run
-→ 【正解】2 go
-【解説】「Let's go to ～」は「～へ行こう」という誘い文句でよく使います。「take（持っていく）」「make（作る）」「run（走る）」はここでは意味が通じません。
-
-(24) A : Is this your pencil? B : No, it's () . 1 my 2 mine 3 me 4 I
-→ 【正解】2 mine
-【解説】「mine」は「私のもの」という意味の所有代名詞です。「It is mine.（それは私のものです）」という形が自然です。「my」は形容詞なので後ろに名詞が必要、「me（私を）」「I（私は）」は主語なので違います。
-
-(25) A : Look at those clouds! B : It’s going to () soon. 1 snow 2 swim 3 teach 4 cook
-→ 【正解】1 snow
-【解説】雲がたくさんある→天気の変化→「snow（雪が降る）」を予想している流れです。「swim（泳ぐ）」「teach（教える）」「cook（料理する）」では天気の話に合いません。
-
-(26) A : How () oranges are there? B : Five. 1 much 2 many 3 long 4 big
-→ 【正解】2 many
-【解説】数えられるもの（oranges：オレンジ）には「many」を使います。「How many ～?（いくつの～？）」が正しい聞き方です。「much」は数えられないもの（水や砂など）に使うので不正解です。
-
-(27) A : I have a () tomorrow. B : Good luck! 1 camera 2 test 3 present 4 country
-→ 【正解】2 test
-【解説】「Good luck!（頑張って！）」という返事から、「test（テスト）」であることがわかります。「camera（カメラ）」「present（プレゼント）」「country（国）」は状況に合いません。
-
-(28) A : Can you () me your notebook? B : Sure, here you are. 1 show 2 clean 3 take 4 jump
-→ 【正解】1 show
-【解説】「show」は「見せる」という意味です。ノートを見せてほしいというお願いなので「show」が正しいです。「clean（掃除する）」「take（取る）」「jump（跳ぶ）」は不自然です。
-
-(29) A : Whose bag is this? B : It's () . 1 Amy 2 Amys 3 Amy’s 4 Amy is
-→ 【正解】3 Amy’s
-【解説】所有を表すときは、「’s」をつけます。「Amy’s bag（エイミーのバッグ）」の省略で「It’s Amy’s.」となっています。「Amy（名前だけ）」「Amys（間違った複数形）」「Amy is（エイミーは）」は不自然です。
-
-(30) A : What time do you () up? B : I usually get up at 7 am. 1 bring 2 wake 3 give 4 get
-→ 【正解】4 get
-【解説】「get up」は「起きる」という意味の決まり文句です。「wake up」も似た意味ですが、ここは「get up」を使うのが自然です。「bring（持ってくる）」「give（与える）」では意味が通じません。
-
-(31) A : Did you () the library yesterday? B : Yes, I borrowed some books. 1 visit 2 play 3 cook 4 open
-→ 【正解】1 visit
-【解説】「visit」は「訪れる」という意味です。図書館に行って本を借りた、という流れなので「visit」が正解です。「play（遊ぶ）」「cook（料理する）」「open（開ける）」では合いません。
-
-(32) A : Where does your brother work? B : He works in a big () . 1 sea 2 office 3 garden 4 farm
-→ 【正解】2 office
-【解説】「office（オフィス）」は働く場所を表します。「sea（海）」「garden（庭）」「farm（農場）」も場所ですが、「big office」が一番自然な流れです。
-
-(33) A : Excuse me. How () is it to the station? B : About ten minutes on foot. 1 many 2 long 3 much 4 far
-→ 【正解】4 far
-【解説】距離をたずねるときは「How far（どれくらい遠い）」を使います。「long」は時間の長さ、「much」「many」は量や数に使うので違います。
-
-(34) A : I can't () the answer. B : Let’s ask the teacher. 1 find 2 listen 3 hold 4 clean
-→ 【正解】1 find
-【解説】「find」は「見つける」という意味です。「答えが見つからない」という話なので「find」がぴったりです。「listen（聞く）」「hold（持つ）」「clean（掃除する）」は意味が合いません。
-
-(35) A : How’s the weather today? B : It’s very () . Let’s stay inside. 1 sunny 2 rainy 3 funny 4 tasty
-→ 【正解】2 rainy
-【解説】「stay inside（家の中にいよう）」という流れなので、外に出たくない天気、「rainy（雨の）」がぴったりです。「sunny（晴れ）」だったら外に出たくなるはず。「funny（おもしろい）」「tasty（おいしい）」は天気には使いません。
-
-(36) A : How often do you () your grandparents? B : About once a month. 1 watch 2 visit 3 listen 4 catch
-→ 【正解】2 visit
-【解説】「visit」は「訪問する」という意味です。おじいちゃんおばあちゃんに会いに行く、という意味にぴったりです。「watch（見る）」「listen（聞く）」「catch（捕まえる）」はここでは不自然です。
-
-(37) A : I can’t find my keys. B : Look () your bag again. 1 at 2 for 3 on 4 in
-→ 【正解】2 for
-【解説】「look for」は「探す」という意味の熟語です。鍵が見つからないので「探して」という意味になります。「look at（見る）」では意味が違います。
-
-(38) A : Could you () the door, please? B : Sure! 1 open 2 drink 3 paint 4 grow
-→ 【正解】1 open
-【解説】「open the door」で「ドアを開ける」という意味です。「drink（飲む）」「paint（塗る）」「grow（育てる）」はドアに使う動詞ではありません。
-
-(39) A : How was the movie? B : It was () than I thought. 1 good 2 better 3 best 4 well
-→ 【正解】2 better
-【解説】「than（～より）」があるので比較級を使います。「better」は「good」の比較級です。「good（原形）」「best（最上級）」「well（上手に）」は文法的に合いません。
-
-(40) A : May I borrow your dictionary? B : Of () . Here you are. 1 self 2 course 3 way 4 sure
-→ 【正解】2 course
-【解説】「Of course.（もちろん）」は、お願いを快く受け入れるときによく使う表現です。「self（自己）」「way（道）」「sure（確信して）」は文脈に合いません。
-
-(41) A : You look tired. B : I stayed up () last night to finish my homework. 1 late 2 slowly 3 strongly 4 badly
-→ 【正解】1 late
-【解説】「stay up late」で「夜遅くまで起きている」という意味です。「slowly（ゆっくり）」「strongly（強く）」「badly（ひどく）」は違います。
-
-(42) A : My sister () to Italy last summer. B : Wow, sounds exciting! 1 goes 2 went 3 go 4 going
-→ 【正解】2 went
-【解説】「last summer（去年の夏）」とあるので、過去形「went」を使います。「go（原形）」「goes（三人称単数現在）」「going（進行形）」はここでは使えません。
-
-(43) A : When did you () studying French? B : Two years ago. 1 begin 2 began 3 begins 4 beginning
-→ 【正解】1 begin
-【解説】「did」があるので後ろは動詞の原形を使います。「begin（始める）」が正解です。「began（過去形）」「begins（三人称単数現在）」「beginning（進行形）」はダメです。
-
-(44) A : This bag is too heavy. B : I’ll () you carry it. 1 let 2 help 3 call 4 tell
-→ 【正解】2 help
-【解説】「help 人 動詞」で「～するのを手伝う」という形です。「carry it（それを運ぶ）」の手伝いを申し出ているので「help」がぴったりです。「let（許す）」「call（呼ぶ）」「tell（言う）」は不自然です。
-
-(45) A : What will you do this weekend? B : I () to the beach with my family. 1 went 2 will go 3 goes 4 going
-→ 【正解】2 will go
-【解説】「this weekend（今週末）」について話しているので未来の話です。「will＋動詞の原形」で未来を表します。「went（過去形）」「goes（三人称単数現在）」「going（進行形）」では合いません。
-
-(46) A : I have never () to another country. B : I hope you can go someday! 1 travel 2 traveling 3 traveled 4 travels
-→ 【正解】3 traveled
-【解説】「have never＋過去分詞」で「一度も～したことがない」という現在完了形です。「traveled（travelの過去分詞）」を使うのが正しいです。
-
-(47) A : Which do you like () , spring or summer? B : I like spring. 1 better 2 best 3 good 4 well
-→ 【正解】1 better
-【解説】二つを比べてどちらが好きか聞くときは「better」を使います。「best（最も良い）」は三つ以上の比較で使います。
-
-(48) A : Who is the girl () to your brother? B : Oh, that’s his classmate. 1 stand 2 standing 3 stood 4 stands
-→ 【正解】2 standing
-【解説】今兄のそばに「立っている」女の子を表しているので、現在進行の「standing」が正しいです。「stand（立つ）」「stood（立った：過去形）」「stands（三人称単数現在）」では自然な文になりません。
-
-(49) A : It’s raining. Let’s stay inside. B : I agree. We can () a movie at home. 1 see 2 look 3 watch 4 view
-→ 【正解】3 watch
-【解説】「watch a movie」で「映画を見る」という自然な英語表現です。「see」は「見る」ですが、映画をじっくり見る場合は「watch」を使います。
-
-(50) A : I don’t understand this question. B : Why don’t you ask the () ? 1 teacher 2 brother 3 student 4 doctor
-→ 【正解】1 teacher
-【解説】「わからない質問」があるときは、当然「teacher（先生）」に聞くのが自然です。「brother（兄弟）」「student（生徒）」「doctor（医者）」ではおかしいです。
-
-(51) John didn’t have a train ( ), so he went to the station 10 minutes early to buy one. 1 coat 2 ticket 3 wallet 4 brush
-→ 【正解】2 ticket
-【解説】「ticket（切符）」を買うために駅に行ったという流れなので正解は「ticket」です。他の選択肢は意味が合いません。
-
-(52) Sarah wants to ( ) around the world. She hopes to visit many different countries. 1 stand 2 leave 3 fall 4 travel
-→ 【正解】4 travel
-【解説】「travel（旅行する）」が「世界中を巡る」に自然に合います。「stand（立つ）」「leave（去る）」「fall（落ちる）」では意味が通りません。
-
-(53) Kyoko loves dancing. She is a ( ) of the dance club at her school. 1 game 2 member 3 bench 4 festival
-→ 【正解】2 member
-【解説】クラブ活動の一員は「member（メンバー）」と呼びます。「game（試合）」「bench（ベンチ）」「festival（お祭り）」は意味が違います。
-
-(54) A : It’s cold outside, Jake. You should ( ) a hat and gloves. B : OK, Mom. I will. 1 cook 2 give 3 lose 4 wear
-→ 【正解】4 wear
-【解説】寒いときに「wear（着る）」のは当然なので「帽子と手袋を着る」が自然です。他の動詞は文脈に合いません。
-
-(55) George used a ( ) to cut the vegetables into small pieces. 1 plate 2 radio 3 knife 4 bowl
-→ 【正解】3 knife
-【解説】野菜を小さく切るには「knife（ナイフ）」を使うのでこれが正解です。お皿やボウル、ラジオは切る道具ではありません。
-
-(56) Mary got wet in the rain, so she ( ) her clothes when she got home. 1 looked 2 practiced 3 changed 4 arrived
-→ 【正解】3 changed
-【解説】雨で濡れたあと、家に帰って「change clothes（着替える）」のが自然です。他の動詞は違います。
-
-(57) The quiz was very ( ). James only knew the answer to one of the questions. 1 difficult 2 comfortable 3 exciting 4 popular
-→ 【正解】1 difficult
-【解説】「一問しか答えられなかった」ので、クイズは「difficult（難しかった）」とわかります。
-
-(58) When it’s sunny, Mia likes to take a ( ) by the river with her dog. 1 note 2 moon 3 walk 4 pair
-→ 【正解】3 walk
-【解説】「take a walk（散歩をする）」はよく使う表現です。犬と散歩するのにぴったりな言葉です。
-
-(59) A : Hi, Jim. Please come () . B : Thanks. Wow, your house is so big! 1 to 2 in 3 from 4 at
-→ 【正解】2 in
-【解説】「come in（中に入る）」が正しい表現です。「come to」などはここでは不自然になります。
-
-(60) A : What did you ( ) of the movie? B : I loved it! The story was very interesting. 1 draw 2 think 3 call 4 spend
-→ 【正解】2 think
-【解説】「What did you think of ～?」は「～をどう思った？」という意味の定番フレーズです。
-
-(61) A : Come here, Frank! I need to talk ( ) you about something. B : OK, Mom. 1 on 2 by 3 with 4 against
-→ 【正解】3 with
-【解説】「talk with 人」で「人と話す」という意味になります。「on」「by」「against」はこの文脈では使いません。
-
-(62) Bill ( ) for school at 8:20 every morning. It takes 10 minutes to walk there from his house. 1 wants 2 stays 3 leaves 4 tells
-→ 【正解】3 leaves
-【解説】「leave for school（学校へ出発する）」という流れなので「leaves」が正解です。他は意味が合いません。
-
-(63) A : Holly, is this your hat? B : No, it isn’t ( ). It’s Kelly’s. 1 I 2 me 3 my 4 mine
-→ 【正解】4 mine
-【解説】所有代名詞「mine（私のもの）」を使います。「It isn’t mine.（それは私のではありません）」となります。
-
-(64) Liam was ( ) to music in his room, so he couldn’t hear his mother when she called him. 1 listen 2 listens 3 listening 4 listened
-→ 【正解】3 listening
-【解説】進行中の動作を表すため、「was + 動詞-ing」（過去進行形）を使います。「listening（聞いているところ）」が正しいです。
-
-(65) Every Thursday, Jenny gets up ( ) than her parents because she has volleyball practice before school. 1 early 2 as early 3 earlier 4 earliest
-→ 【正解】3 earlier
-【解説】「than」があるので比較級「earlier（より早く）」を使います。「early（早く）」ではなく比較級に注意！
-
-(66) A : I’m hungry. Let’s () lunch now. B : Good idea! 1 take 2 make 3 eat 4 sleep
-→ 【正解】3 eat
-【解説】お腹が空いたので「eat（食べる）」が自然な流れです。「take（取る）」「make（作る）」も文脈によってありえますが、ここでは「食べる」が正解です。
-
-(67) A : Do you play tennis? B : Yes, I play it very () . 1 well 2 good 3 bad 4 slow
-→ 【正解】1 well
-【解説】動詞「play」を修飾するのは副詞「well（上手に）」です。「good」は形容詞なのでダメです。
-
-(68) My dog loves to ( ) in the park every morning. 1 walk 2 run 3 sit 4 read
-→ 【正解】2 run
-【解説】犬が公園で毎朝「run（走る）」のは自然なことです。「walk（歩く）」もあり得ますが、走る方が合っています。
-
-(69) A : What color is your bag? B : It’s ( ) . 1 big 2 long 3 red 4 slow
-→ 【正解】3 red
-【解説】色を答えるので「red（赤）」が正解です。「big（大きい）」「long（長い）」などはサイズや長さなので違います。
-
-(70) A : Where is the cat? B : It’s () the table. 1 under 2 over 3 next 4 by
-→ 【正解】1 under
-【解説】「under the table」で「テーブルの下」という意味になります。定番表現です。
-
-(71) A : Did you () a letter to your friend? B : Yes, yesterday. 1 write 2 cut 3 paint 4 catch
-→ 【正解】1 write
-【解説】「write a letter（手紙を書く）」が自然な表現です。他の動詞は不自然です。
-
-(72) A : Can you ( ) this bag for me? B : Sure!
-1 open 2 hold 3 play 4 fix
-→ 【正解】2 hold
-【解説】「hold」は「持つ」という意味です。「カバンを持つ」のは「hold」を使います。
-
-(73) Lisa ( ) a new dress for her birthday party. 1 drinks 2 wears 3 eats 4 sleeps
-→ 【正解】2 wears
-【解説】「wear a dress（ドレスを着る）」が自然な表現です。「drink（飲む）」や「eat（食べる）」は不自然です。
-
-(74) A : Are you ready? B : () a minute, please. 1 Wait 2 Make 3 Give 4 Take
-→ 【正解】1 Wait
-【解説】「Wait a minute.（ちょっと待って）」は定番表現です。他はこの場面に合いません。
-
-(75) A : What time do you ( ) school? B : At 8:00. 1 meet 2 start 3 begin 4 leave
-→ 【正解】4 leave
-【解説】「leave school（学校を出る）」、ここでは「leave」が自然な流れです。
-
-(76) A : Let’s ( ) a picture of the sunset. B : Great idea! 1 take 2 get 3 hold 4 stay
-→ 【正解】1 take
-【解説】「take a picture（写真を撮る）」という決まった表現です。
-
-(77) She is very () at swimming. She can swim fast. 1 good 2 bad 3 big 4 late
-→ 【正解】1 good
-【解説】「be good at ～（〜が得意）」の表現を使います。「bad（下手）」ではないので注意。
-
-(78) We always () soccer on Sundays. 1 go 2 play 3 make 4 meet
-→ 【正解】2 play
-【解説】「play soccer（サッカーをする）」が自然な表現です。
-
-(79) A : What’s your favorite () ? B : I like chocolate cake. 1 color 2 sport 3 food 4 movie
-→ 【正解】3 food
-【解説】チョコレートケーキは食べ物なので「food」が正しいです。
-
-(80) A : I like your bag. B : Thank you. It was a () from my sister. 1 present 2 call 3 trip 4 letter
-→ 【正解】1 present
-【解説】「present（プレゼント）」をもらった、という自然な流れです。
-
-(81) A : Where did you ( ) the news? B : On the internet. 1 find 2 tell 3 bring 4 carry
-→ 【正解】1 find
-【解説】「find the news」で「ニュースを見つける、知る」という意味です。他の動詞は不自然です。
-
-(82) Kevin ( ) his lunch before going to the library. 1 eats 2 ate 3 eat 4 eating
-→ 【正解】2 ate
-【解説】過去の出来事なので、「eat」の過去形「ate」を使います。「eat」「eating」は現在形や進行形で不適切です。
-
-(83) A : I can't finish this alone. B : Don’t worry, I’ll ( ) you. 1 ask 2 help 3 stop 4 show
-→ 【正解】2 help
-【解説】「help 人」で「～を助ける」という意味。文脈的にぴったりの表現です。
-
-(84) We ( ) to the zoo last weekend and saw a panda. 1 go 2 went 3 going 4 goes
-→ 【正解】2 went
-【解説】「last weekend」は過去なので、「go」の過去形「went」が正解です。
-
-(85) A : Do you know the girl () is talking to the teacher? B : Yes, she’s my friend. 1 what 2 where 3 who 4 that
-→ 【正解】4 that
-【解説】関係代名詞「that」は「話している女の子」を説明する役割です。「who」も可能ですが、文脈的に「that」がより基本的です。
-
-(86) I have to ( ) my homework before I go out. 1 finish 2 fix 3 forget 4 feed
-→ 【正解】1 finish
-【解説】「finish homework（宿題を終える）」が自然な表現です。
-
-(87) A : How long does it ( ) to get to school? B : About 20 minutes. 1 have 2 get 3 take 4 ride
-→ 【正解】3 take
-【解説】「How long does it take ～?」で「〜するのにどれくらい時間がかかるか」をたずねる表現です。
-
-(88) We didn’t go swimming because it was ( ) yesterday. 1 rainy 2 rain 3 rained 4 raining
-→ 【正解】1 rainy
-【解説】「rainy」は「雨の」という形容詞。「was」の後に形容詞が来るパターンです。
-
-(89) This book is () than the one I read last week. 1 interest 2 more interesting 3 most interesting 4 interested
-→ 【正解】2 more interesting
-【解説】「than」があるので比較級を使います。「interesting」の比較級は「more interesting」です。
-
-(90) A : Which language do you want to ( )? B : I want to learn French. 1 speak 2 learn 3 talk 4 say
-→ 【正解】2 learn
-【解説】新しく身につける＝「learn（学ぶ）」が正解です。
-
-(91) The baby was ( ) because he was hungry. 1 cry 2 cried 3 cries 4 crying
-→ 【正解】4 crying
-【解説】「was + -ing」で過去進行形。「泣いていた」という状態を表します。
-
-(92) A : I usually walk to school. B : Me too, but today I ( ) the bus. 1 take 2 took 3 takes 4 taking
-→ 【正解】2 took
-【解説】「today」の具体的な行動は過去なので、「take」の過去形「took」が正解です。
-
-(93) A : I’m not feeling well. B : You should ( ) a rest. 1 get 2 do 3 take 4 go
-→ 【正解】3 take
-【解説】「take a rest（休む）」は決まり文句。「get」などは文法的に合いません。
-
-(94) The movie was so ( ) that I cried. 1 boring 2 exciting 3 sad 4 easy
-→ 【正解】3 sad
-【解説】「cry（泣く）」の理由になるのは「sad（悲しい）」です。
-
-(95) A : Did you enjoy the concert? B : Yes, it was ( ) than I expected. 1 fun 2 more fun 3 funniest 4 funny
-→ 【正解】2 more fun
-【解説】「than」があるので比較級「more fun（より楽しい）」を使います。
-
-(96) A : Where ( ) you go last night? B : To the library. 1 did 2 do 3 were 4 does
-→ 【正解】1 did
-【解説】過去の行動をたずねるときは「did」を使います。「Where did you go ～?」の形。
-
-(97) If it ( ) tomorrow, we will go to the beach. 1 rain 2 rains 3 will rain 4 raining
-→ 【正解】2 rains
-【解説】条件文のif節には現在形を使います。「If it rains tomorrow, ～」が正しい構文。
-
-(98) My father is very ( ). He makes dinner for us every day. 1 kind 2 strong 3 high 4 fast
-→ 【正解】1 kind
-【解説】「親切である＝kind」という意味です。毎日料理してくれる優しさに対して使います。
-
-(99) A : I didn’t pass the test. B : That’s too ( ). Try again next time! 1 well 2 bad 3 good 4 nice
-→ 【正解】2 bad
-【解説】残念なことに対して「That’s too bad.（それは残念だね）」という決まり表現になります。
-
-(100) A : Did you ( ) your umbrella? It’s raining. B : Oh, no! I forgot it! 1 bring 2 take 3 carry 4 lose
-→ 【正解】1 bring
-【解説】「bring（持ってくる）」が「傘を持ってくる」場面にぴったりです。
-
-(101) Ms. Hayashi is a nice teacher. Her English class is very ( ). 1 thirsty 2 dark 3 left 4 popular
-→ 【正解】4 popular
-【解説】「popular」は「人気がある」という意味で、先生の授業が人気であることを表します。他の選択肢は意味が合いません。「thirsty（のどが渇いた）」「dark（暗い）」「left（左）」は授業の特徴として不自然です。
-
-(102) A : Dad, is Uncle Bob coming by plane?
-B : Yes. He’ll arrive at the ( ) soon. 1 radio 2 sky 3 computer 4 airport
-→ 【正解】4 airport
-【解説】飛行機で来るなら、到着する場所は「airport（空港）」が正解です。「radio（ラジオ）」「sky（空）」「computer（コンピュータ）」では意味が通じません。
-
-(103) Lucy’s uncle has a large ( ). Her cousins take care of chickens and pigs there. 1 farm 2 eraser 3 boat 4 mirror
-→ 【正解】1 farm
-【解説】「chickens and pigs（ニワトリとブタ）」がいる場所は「farm（農場）」です。「eraser（消しゴム）」「boat（ボート）」「mirror（鏡）」は全く文脈に合いません。
-
-(104) A : Are you making dinner, Dad? I’ll help you.
-B : Thanks, Becky. Please ( ) the vegetables and cut them. 1 meet 2 eat 3 wash 4 lose
-→ 【正解】3 wash
-【解説】野菜を切る前にするべきことは「wash（洗う）」ですね。「meet（会う）」「eat（食べる）」「lose（失う）」はすべて不適切です。
-
-(105) Emma likes reading music ( ) when she has free time. 1 tickets 2 magazines 3 rooms 4 shows
-→ 【正解】2 magazines
-【解説】「music magazines（音楽雑誌）」は実際にある表現で自然です。「tickets（チケット）」や「shows（ショー）」は読むものではありません。
-
-(106) Lucy loves the ( ) flowers in her garden. Her friends often come to see them, too. 1 angry 2 fast 3 excited 4 beautiful
-→ 【正解】4 beautiful
-【解説】「flowers（花）」を説明する形容詞は「beautiful（美しい）」が一番適切です。「angry（怒った）」「fast（速い）」「excited（興奮した）」は花には不自然です。
-
-(107) The library is always ( ). I like to study there after school. 1 cloudy 2 angry 3 late 4 quiet
-→ 【正解】4 quiet
-【解説】「図書館＝静かな場所」という定番のイメージに合うのは「quiet（静かな）」です。「cloudy（くもりの）」「angry（怒っている）」「late（遅い）」は不適切です。
-
-(108) Eating healthy foods is very important. For ( ), people should eat a lot of fruits and vegetables. 1 example 2 action 3 kitchen 4 answer
-→ 【正解】1 example
-【解説】「For example（たとえば）」という決まり文句で、「健康のために果物と野菜を食べる」という例を示しています。
-
-(109) A : How () is the movie?
-B : It’s about one and a half hours. 1 cheap 2 long 3 big 4 early
-→ 【正解】2 long
-【解説】時間の長さを聞いているので、「long（長い）」がぴったりです。「cheap（安い）」「big（大きい）」「early（早い）」は時間の長さには使いません。
-
-(110) A : Hello, this is Tom. Can I speak ( ) Kate?
-B : Sorry, but she’s not here right now. 1 under 2 to 3 of 4 in
-→ 【正解】2 to
-【解説】電話で「〜と話す」は「speak to ～」を使います。「speak with」でも可能ですが、選択肢にないため「to」が正解です。
-
-(111) Frank was thirsty, so he drank a () of water. 1 cup 2 piece 3 menu 4 group
-→ 【正解】1 cup
-【解説】水を飲む単位として自然なのは「a cup of water（コップ一杯の水）」です。「piece（かけら）」「menu（メニュー）」「group（グループ）」は水には使いません。
-
-(112) A : I’m really tired. Can we stop walking for a minute?
-B : Yes, let’s sit ( ) on this bench. 1 early 2 down 3 as 4 away
-→ 【正解】2 down
-【解説】「sit down（座る）」が自然な表現。「early（早く）」「as」「away（離れて）」は文法的にも意味的にも不適切です。
-
-(113) It was Monica’s father’s birthday two days ago. So she () dinner for him, and they had a great time together. 1 makes 2 is making 3 made 4 will make
-→ 【正解】3 made
-【解説】「two days ago（2日前）」は過去のことなので、「make」の過去形「made」が正解です。
-
-(114) There are two museums in the city. The new one is () interesting than the old one. 1 many 2 much 3 more 4 most
-→ 【正解】3 more
-【解説】比較には「more + 形容詞（長い形）」を使います。「more interesting（よりおもしろい）」が自然です。
-
-(115) A : ( ) I open the window?
-B : Yes, good idea. It’s hot. 1 Have 2 Shall 3 Were 4 Are
-→ 【正解】2 Shall
-【解説】「Shall I ～?」は「～しましょうか？」と申し出る丁寧な表現です。「Have」「Were」「Are」はこの形では使えません。
-
-(116) A : How do you go to school?
-B : I () my bike. 1 wash 2 use 3 ride 4 take
-→ 【正解】3 ride
-【解説】「ride my bike（自転車に乗る）」が自然な表現です。「wash（洗う）」「use（使う）」「take（取る）」は使えそうですが、「乗る」には「ride」を使います。
-
-(117) I always eat lunch ( ) 12:30 at school. 1 on 2 at 3 in 4 to
-→ 【正解】2 at
-【解説】時刻の前には「at」を使います。「at 12:30（12時半に）」が正しい表現です。
-
-(118) The children are ( ) a picture of a cat. 1 drawing 2 cleaning 3 buying 4 playing
-→ 【正解】1 drawing
-【解説】「draw a picture（絵を描く）」が自然です。他の選択肢は文の意味に合いません。
-
-(119) A : What did you do last Sunday?
-B : I ( ) a soccer game with my family. 1 watch 2 watched 3 watches 4 watching
-→ 【正解】2 watched
-【解説】「last Sunday（先週の日曜日）」があるので過去形「watched」が正解です。
-
-(120) That restaurant is always ( ). Let’s go somewhere else. 1 clean 2 full 3 ready 4 near
-→ 【正解】2 full
-【解説】「full（いっぱい）」のレストランには入れないという意味です。文脈に合います。
-
-(121) A : I need to find my book.
-B : Let’s ( ) for it together. 1 look 2 see 3 hear 4 stand
-→ 【正解】1 look
-【解説】「look for ～」で「〜を探す」という意味の熟語です。
-
-(122) My little sister always ( ) with her doll. 1 plays 2 eats 3 makes 4 goes
-→ 【正解】1 plays
-【解説】「play with ～（～と遊ぶ）」という表現が正しいです。
-
-(123) There is a big supermarket ( ) the station. 1 under 2 behind 3 between 4 in
-→ 【正解】2 behind
-【解説】「behind the station（駅の後ろに）」が自然な場所の表現です。
-
-(124) I ( ) a new book at the library yesterday. 1 borrow 2 borrowing 3 borrowed 4 borrows
-→ 【正解】3 borrowed
-【解説】「yesterday」があるので過去形の「borrowed（借りた）」が必要です。
-
-(125) A : Where is Mom?
-B : She is ( ) dinner in the kitchen. 1 cook 2 cooked 3 cooking 4 cooks
-→ 【正解】3 cooking
-【解説】現在進行形の「is + 動詞ing」で「料理しているところ」です。
-
-(126) I want to be a ( ) in the future and help sick people. 1 teacher 2 doctor 3 singer 4 player
-→ 【正解】2 doctor
-【解説】「sick people（病気の人）」を助けるのは「doctor（医者）」です。
-
-(127) My brother ( ) his homework before dinner every day. 1 doing 2 does 3 do 4 did
-→ 【正解】2 does
-【解説】「毎日」の習慣で主語が三人称単数（brother）なので「does」が正解です。
-
-(128) The movie was very ( ). I want to watch it again. 1 boring 2 tired 3 exciting 4 hungry
-→ 【正解】3 exciting
-【解説】もう一度観たい＝「exciting（ワクワクする）」が自然です。
-
-(129) A : What are you doing?
-B : I’m ( ) to music. 1 listen 2 listens 3 listening 4 listened
-→ 【正解】3 listening
-【解説】「am + listening」で現在進行形です。「listen」は原形なので使えません。
-
-(130) Let’s ( ) a cake for Mom’s birthday. 1 eat 2 make 3 cut 4 take
-→ 【正解】2 make
-【解説】誕生日のためにケーキを「作る＝make」が自然です。
-
-(131) My father often ( ) to work by car. 1 go 2 going 3 goes 4 went
-→ 【正解】3 goes
-【解説】三人称単数の現在形なので「goes」が正解です。
-
-(132) There ( ) many people at the festival last night. 1 is 2 are 3 were 4 was
-→ 【正解】3 were
-【解説】「last night」があるので過去形、「many people」で複数なので「were」が正しいです。
-
-(133) I have a lot of ( ) to do today. 1 job 2 works 3 work 4 homework
-→ 【正解】3 work
-【解説】「a lot of work」で「たくさんの仕事」という数えられない名詞です。「works」は間違い。
-
-(134) A : Did you bring your lunch?
-B : No, I () it at home. 1 forgot 2 forget 3 leave 4 left
-→ 【正解】1 forgot
-【解説】過去の話なので「forgot（忘れた）」が正解です。
-
-(135) A : What time is it now?
-B : It’s ( ) o’clock. 1 three 2 third 3 three’s 4 the three
-→ 【正解】1 three
-【解説】時刻を言う時は「It’s three o’clock」のように数字だけでOKです。
-
-(136) Yuka is a fast runner. She runs ( ) than any other student. 1 fast 2 faster 3 fastest 4 more fast
-→ 【正解】2 faster
-【解説】「than」があるので比較級「faster」を使います。
-
-(137) I like this song. Let’s ( ) to it again. 1 sing 2 hear 3 listen 4 listen
-→ 【正解】4 listen
-【解説】「listen to ～」で「～を聞く」という意味の熟語です。
-
-(138) Ken didn’t go to the party ( ) he was sick. 1 but 2 because 3 so 4 or
-→ 【正解】2 because
-【解説】「～なので」という理由を表す「because」が自然です。
-
-(139) A : Would you like tea or coffee?
-B : ( ), please. I’d like juice. 1 Each 2 Both 3 Neither 4 Either
-→ 【正解】3 Neither
-【解説】どちらもいらないという意味で「Neither」が正しいです。
-
-(140) My bag is ( ) than yours. 1 heavy 2 heavier 3 heaviest 4 heavily
-→ 【正解】2 heavier
-【解説】比較級を表す「than」があるので「heavier」が正解です。
-
-(141) A : Can you play the guitar?
-B : No, but I can ( ) the piano. 1 do 2 play 3 have 4 go
-→ 【正解】2 play
-【解説】「play the piano」で「ピアノを弾く」という表現になります。
-
-(142) A : I love animals.
-B : Then, you should visit the ( ). 1 pool 2 zoo 3 museum 4 store
-→ 【正解】2 zoo
-【解説】「animals（動物）」といえば「zoo（動物園）」が自然です。
-
-(143) My mother ( ) me to clean my room every Saturday. 1 tells 2 tells to 3 say 4 talk
-→ 【正解】1 tells
-【解説】「tell 人 to ～」で「〜するように言う」という表現です。
-
-(144) A : I’m going shopping.
-B : OK. ( ) you later! 1 See 2 Meet 3 Watch 4 Show
-→ 【正解】1 See
-【解説】「See you later（またね）」は別れ際の定番表現です。
-
-(145) They are going to ( ) a movie after lunch. 1 see 2 seeing 3 saw 4 seen
-→ 【正解】1 see
-【解説】「be going to + 動詞の原形」で「〜する予定」という未来表現です。
-
-(146) Please be ( ). This is a hospital. 1 noisy 2 loud 3 quiet 4 fun
-→ 【正解】3 quiet
-【解説】病院では「quiet（静かに）」が求められるのでこれが適切です。
-
-(147) This room is very ( ) than the other one. 1 clean 2 cleaner 3 cleanest 4 clearly
-→ 【正解】2 cleaner
-【解説】「than」があるので比較級「cleaner」が必要です。
-
-(148) The girl ( ) is talking to the teacher is my sister. 1 who 2 what 3 where 4 why
-→ 【正解】1 who
-【解説】関係代名詞「who」で「〜している女の子」を説明しています。
-
-(149) We ( ) seen that movie before. 1 have 2 has 3 are 4 had
-→ 【正解】1 have
-【解説】「have + 過去分詞」で現在完了。「We」は複数なので「have」を使います。
-
-(150) I want to buy a ( ) of shoes for my brother. 1 set 2 box 3 pair 4 piece
-→ 【正解】3 pair
-【解説】「a pair of shoes（靴1足）」が正しい表現です。
+問題21:
+A : Where is Dad?  
+B : He’s () dinner in the kitchen.
+
+選択肢21:
+1. making  
+2. walking  
+3. playing  
+4. cutting
+
+【正解21】  
+1. making
+
+【解説21】  
+「make dinner」で「夕食を作る」という意味になります。料理をする場面なので「make」が自然です。「walk（歩く）」「play（遊ぶ）」「cut（切る）」は合いません。
+
+---
+
+問題22:
+A : What’s your favorite () ?  
+B : I like soccer.
+
+選択肢22:
+1. food  
+2. sport  
+3. book  
+4. color
+
+【正解22】  
+2. sport
+
+【解説22】  
+「soccer（サッカー）」はスポーツの一種なので、「favorite sport（お気に入りのスポーツ）」が正しいです。「food（食べ物）」「book（本）」「color（色）」では話が合いません。
+
+---
+
+問題23:
+A : Let's () to the park this afternoon.  
+B : Good idea!
+
+選択肢23:
+1. take  
+2. go  
+3. make  
+4. run
+
+【正解23】  
+2. go
+
+【解説23】  
+「Let's go to ～」は「～へ行こう」という誘い文句でよく使います。「take（持っていく）」「make（作る）」「run（走る）」はここでは意味が通じません。
+
+---
+
+問題24:
+A : Is this your pencil?  
+B : No, it's () .
+
+選択肢24:
+1. my  
+2. mine  
+3. me  
+4. I
+
+【正解24】  
+2. mine
+
+【解説24】  
+「mine」は「私のもの」という意味の所有代名詞です。「It is mine.（それは私のものです）」という形が自然です。「my」は形容詞なので後ろに名詞が必要、「me（私を）」「I（私は）」は主語なので違います。
+
+---
+
+問題25:
+A : Look at those clouds!  
+B : It’s going to () soon.
+
+選択肢25:
+1. snow  
+2. swim  
+3. teach  
+4. cook
+
+【正解25】  
+1. snow
+
+【解説25】  
+雲がたくさんある→天気の変化→「snow（雪が降る）」を予想している流れです。「swim（泳ぐ）」「teach（教える）」「cook（料理する）」では天気の話に合いません。
+
+---
+
+問題26:
+A : How () oranges are there?  
+B : Five.
+
+選択肢26:
+1. much  
+2. many  
+3. long  
+4. big
+
+【正解26】  
+2. many
+
+【解説26】  
+数えられるもの（oranges：オレンジ）には「many」を使います。「How many ～?（いくつの～？）」が正しい聞き方です。「much」は数えられないもの（水や砂など）に使うので不正解です。
+
+---
+
+問題27:
+A : I have a () tomorrow.  
+B : Good luck!
+
+選択肢27:
+1. camera  
+2. test  
+3. present  
+4. country
+
+【正解27】  
+2. test
+
+【解説27】  
+「Good luck!（頑張って！）」という返事から、「test（テスト）」であることがわかります。「camera（カメラ）」「present（プレゼント）」「country（国）」は状況に合いません。
+
+---
+
+問題28:
+A : Can you () me your notebook?  
+B : Sure, here you are.
+
+選択肢28:
+1. show  
+2. clean  
+3. take  
+4. jump
+
+【正解28】  
+1. show
+
+【解説28】  
+「show」は「見せる」という意味です。ノートを見せてほしいというお願いなので「show」が正しいです。「clean（掃除する）」「take（取る）」「jump（跳ぶ）」は不自然です。
+
+---
+
+問題29:
+A : Whose bag is this?  
+B : It's () .
+
+選択肢29:
+1. Amy  
+2. Amys  
+3. Amy’s  
+4. Amy is
+
+【正解29】  
+3. Amy’s
+
+【解説29】  
+所有を表すときは、「’s」をつけます。「Amy’s bag（エイミーのバッグ）」の省略で「It’s Amy’s.」となっています。「Amy（名前だけ）」「Amys（間違った複数形）」「Amy is（エイミーは）」は不自然です。
+
+---
+
+問題30:
+A : What time do you () up?  
+B : I usually get up at 7 am.
+
+選択肢30:
+1. bring  
+2. wake  
+3. give  
+4. get
+
+【正解30】  
+4. get
+
+【解説30】  
+「get up」は「起きる」という意味の決まり文句です。「wake up」も似た意味ですが、ここは「get up」を使うのが自然です。「bring（持ってくる）」「give（与える）」では意味が通じません。
+
+---
+
+問題31:
+A : Did you () the library yesterday?  
+B : Yes, I borrowed some books.
+
+選択肢31:
+1. visit  
+2. play  
+3. cook  
+4. open
+
+【正解31】  
+1. visit
+
+【解説31】  
+「visit」は「訪れる」という意味です。図書館に行って本を借りた、という流れなので「visit」が正解です。「play（遊ぶ）」「cook（料理する）」「open（開ける）」では合いません。
+
+---
+
+問題32:
+A : Where does your brother work?  
+B : He works in a big () .
+
+選択肢32:
+1. sea  
+2. office  
+3. garden  
+4. farm
+
+【正解32】  
+2. office
+
+【解説32】  
+「office（オフィス）」は働く場所を表します。「sea（海）」「garden（庭）」「farm（農場）」も場所ですが、「big office」が一番自然な流れです。
+
+---
+
+問題33:
+A : Excuse me. How () is it to the station?  
+B : About ten minutes on foot.
+
+選択肢33:
+1. many  
+2. long  
+3. much  
+4. far
+
+【正解33】  
+4. far
+
+【解説33】  
+距離をたずねるときは「How far（どれくらい遠い）」を使います。「long」は時間の長さ、「much」「many」は量や数に使うので違います。
+
+---
+
+問題34:
+A : I can't () the answer.  
+B : Let’s ask the teacher.
+
+選択肢34:
+1. find  
+2. listen  
+3. hold  
+4. clean
+
+【正解34】  
+1. find
+
+【解説34】  
+「find」は「見つける」という意味です。「答えが見つからない」という話なので「find」がぴったりです。「listen（聞く）」「hold（持つ）」「clean（掃除する）」は意味が合いません。
+
+---
+
+問題35:
+A : How’s the weather today?  
+B : It’s very () . Let’s stay inside.
+
+選択肢35:
+1. sunny  
+2. rainy  
+3. funny  
+4. tasty
+
+【正解35】  
+2. rainy
+
+【解説35】  
+「stay inside（家の中にいよう）」という流れなので、外に出たくない天気、「rainy（雨の）」がぴったりです。「sunny（晴れ）」だったら外に出たくなるはず。「funny（おもしろい）」「tasty（おいしい）」は天気には使いません。
+
+---
+
+問題36:
+A : How often do you () your grandparents?  
+B : About once a month.
+
+選択肢36:
+1. watch  
+2. visit  
+3. listen  
+4. catch
+
+【正解36】  
+2. visit
+
+【解説36】  
+「visit」は「訪問する」という意味です。おじいちゃんおばあちゃんに会いに行く、という意味にぴったりです。「watch（見る）」「listen（聞く）」「catch（捕まえる）」はここでは不自然です。
+
+---
+
+問題37:
+A : I can’t find my keys.  
+B : Look () your bag again.
+
+選択肢37:
+1. at  
+2. for  
+3. on  
+4. in
+
+【正解37】  
+2. for
+
+【解説37】  
+「look for」は「探す」という意味の熟語です。鍵が見つからないので「探して」という意味になります。「look at（見る）」では意味が違います。
+
+---
+
+問題38:
+A : Could you () the door, please?  
+B : Sure!
+
+選択肢38:
+1. open  
+2. drink  
+3. paint  
+4. grow
+
+【正解38】  
+1. open
+
+【解説38】  
+「open the door」で「ドアを開ける」という意味です。「drink（飲む）」「paint（塗る）」「grow（育てる）」はドアに使う動詞ではありません。
+
+---
+
+問題39:
+A : How was the movie?  
+B : It was () than I thought.
+
+選択肢39:
+1. good  
+2. better  
+3. best  
+4. well
+
+【正解39】  
+2. better
+
+【解説39】  
+「than（～より）」があるので比較級を使います。「better」は「good」の比較級です。「good（原形）」「best（最上級）」「well（上手に）」は文法的に合いません。
+
+---
+
+問題40:
+A : May I borrow your dictionary?  
+B : Of () . Here you are.
+
+選択肢40:
+1. self  
+2. course  
+3. way  
+4. sure
+
+【正解40】  
+2. course
+
+【解説40】  
+「Of course.（もちろん）」は、お願いを快く受け入れるときによく使う表現です。「self（自己）」「way（道）」「sure（確信して）」は文脈に合いません。
+
+---
+
+問題41:
+A : You look tired.  
+B : I stayed up () last night to finish my homework.
+
+選択肢41:
+1. late  
+2. slowly  
+3. strongly  
+4. badly
+
+【正解41】  
+1. late
+
+【解説41】  
+「stay up late」で「夜遅くまで起きている」という意味です。「slowly（ゆっくり）」「strongly（強く）」「badly（ひどく）」は違います。
+
+---
+
+問題42:
+A : My sister () to Italy last summer.  
+B : Wow, sounds exciting!
+
+選択肢42:
+1. goes  
+2. went  
+3. go  
+4. going
+
+【正解42】  
+2. went
+
+【解説42】  
+「last summer（去年の夏）」とあるので、過去形「went」を使います。「go（原形）」「goes（三人称単数現在）」「going（進行形）」はここでは使えません。
+
+---
+
+問題43:
+A : When did you () studying French?  
+B : Two years ago.
+
+選択肢43:
+1. begin  
+2. began  
+3. begins  
+4. beginning
+
+【正解43】  
+1. begin
+
+【解説43】  
+「did」があるので後ろは動詞の原形を使います。「begin（始める）」が正解です。「began（過去形）」「begins（三人称単数現在）」「beginning（進行形）」はダメです。
+
+---
+
+問題44:
+A : This bag is too heavy.  
+B : I’ll () you carry it.
+
+選択肢44:
+1. let  
+2. help  
+3. call  
+4. tell
+
+【正解44】  
+2. help
+
+【解説44】  
+「help 人 動詞」で「～するのを手伝う」という形です。「carry it（それを運ぶ）」の手伝いを申し出ているので「help」がぴったりです。「let（許す）」「call（呼ぶ）」「tell（言う）」は不自然です。
+
+---
+
+問題45:
+A : What will you do this weekend?  
+B : I () to the beach with my family.
+
+選択肢45:
+1. went  
+2. will go  
+3. goes  
+4. going
+
+【正解45】  
+2. will go
+
+【解説45】  
+「this weekend（今週末）」について話しているので未来の話です。「will＋動詞の原形」で未来を表します。「went（過去形）」「goes（三人称単数現在）」「going（進行形）」では合いません。
+
+---
+
+問題46:
+A : I have never () to another country.  
+B : I hope you can go someday!
+
+選択肢46:
+1. travel  
+2. traveling  
+3. traveled  
+4. travels
+
+【正解46】  
+3. traveled
+
+【解説46】  
+「have never＋過去分詞」で「一度も～したことがない」という現在完了形です。「traveled（travelの過去分詞）」を使うのが正しいです。
+
+---
+
+問題47:
+A : Which do you like () , spring or summer?  
+B : I like spring.
+
+選択肢47:
+1. better  
+2. best  
+3. good  
+4. well
+
+【正解47】  
+1. better
+
+【解説47】  
+二つを比べてどちらが好きか聞くときは「better」を使います。「best（最も良い）」は三つ以上の比較で使います。
+
+---
+
+問題48:
+A : Who is the girl () to your brother?  
+B : Oh, that’s his classmate.
+
+選択肢48:
+1. stand  
+2. standing  
+3. stood  
+4. stands
+
+【正解48】  
+2. standing
+
+【解説48】  
+今兄のそばに「立っている」女の子を表しているので、現在進行の「standing」が正しいです。「stand（立つ）」「stood（立った：過去形）」「stands（三人称単数現在）」では自然な文になりません。
+
+---
+
+問題49:
+A : It’s raining. Let’s stay inside.  
+B : I agree. We can () a movie at home.
+
+選択肢49:
+1. see  
+2. look  
+3. watch  
+4. view
+
+【正解49】  
+3. watch
+
+【解説49】  
+「watch a movie」で「映画を見る」という自然な英語表現です。「see」は「見る」ですが、映画をじっくり見る場合は「watch」を使います。
+
+---
+
+問題50:
+A : I don’t understand this question.  
+B : Why don’t you ask the () ?
+
+選択肢50:
+1. teacher  
+2. brother  
+3. student  
+4. doctor
+
+【正解50】  
+1. teacher
+
+【解説50】  
+「わからない質問」があるときは、当然「teacher（先生）」に聞くのが自然です。「brother（兄弟）」「student（生徒）」「doctor（医者）」ではおかしいです。
+
+---
+
+問題51:
+John didn’t have a train ( ), so he went to the station 10 minutes early to buy one.
+
+選択肢51:
+1. coat  
+2. ticket  
+3. wallet  
+4. brush
+
+【正解51】  
+2. ticket
+
+【解説51】  
+「ticket（切符）」を買うために駅に行ったという流れなので正解は「ticket」です。他の選択肢は意味が合いません。
+
+---
+
+問題52:
+Sarah wants to ( ) around the world. She hopes to visit many different countries.
+
+選択肢52:
+1. stand  
+2. leave  
+3. fall  
+4. travel
+
+【正解52】  
+4. travel
+
+【解説52】  
+「travel（旅行する）」が「世界中を巡る」に自然に合います。「stand（立つ）」「leave（去る）」「fall（落ちる）」では意味が通りません。
+
+---
+
+問題53:
+Kyoko loves dancing. She is a ( ) of the dance club at her school.
+
+選択肢53:
+1. game  
+2. member  
+3. bench  
+4. festival
+
+【正解53】  
+2. member
+
+【解説53】  
+クラブ活動の一員は「member（メンバー）」と呼びます。「game（試合）」「bench（ベンチ）」「festival（お祭り）」は意味が違います。
+
+---
+
+問題54:
+A : It’s cold outside, Jake. You should ( ) a hat and gloves.  
+B : OK, Mom. I will.
+
+選択肢54:
+1. cook  
+2. give  
+3. lose  
+4. wear
+
+【正解54】  
+4. wear
+
+【解説54】  
+寒いときに「wear（着る）」のは当然なので「帽子と手袋を着る」が自然です。他の動詞は文脈に合いません。
+
+---
+
+問題55:
+George used a ( ) to cut the vegetables into small pieces.
+
+選択肢55:
+1. plate  
+2. radio  
+3. knife  
+4. bowl
+
+【正解55】  
+3. knife
+
+【解説55】  
+野菜を小さく切るには「knife（ナイフ）」を使うのでこれが正解です。お皿やボウル、ラジオは切る道具ではありません。
+
+---
+
+問題56:
+Mary got wet in the rain, so she ( ) her clothes when she got home.
+
+選択肢56:
+1. looked  
+2. practiced  
+3. changed  
+4. arrived
+
+【正解56】  
+3. changed
+
+【解説56】  
+雨で濡れたあと、家に帰って「change clothes（着替える）」のが自然です。他の動詞は違います。
+
+---
+
+問題57:
+The quiz was very ( ). James only knew the answer to one of the questions.
+
+選択肢57:
+1. difficult  
+2. comfortable  
+3. exciting  
+4. popular
+
+【正解57】  
+1. difficult
+
+【解説57】  
+「一問しか答えられなかった」ので、クイズは「difficult（難しかった）」とわかります。
+
+---
+
+問題58:
+When it’s sunny, Mia likes to take a ( ) by the river with her dog.
+
+選択肢58:
+1. note  
+2. moon  
+3. walk  
+4. pair
+
+【正解58】  
+3. walk
+
+【解説58】  
+「take a walk（散歩をする）」はよく使う表現です。犬と散歩するのにぴったりな言葉です。
+
+---
+
+問題59:
+A : Hi, Jim. Please come () .  
+B : Thanks. Wow, your house is so big!
+
+選択肢59:
+1. to  
+2. in  
+3. from  
+4. at
+
+【正解59】  
+2. in
+
+【解説59】  
+「come in（中に入る）」が正しい表現です。「come to」などはここでは不自然になります。
+
+---
+
+問題60:
+A : What did you ( ) of the movie?  
+B : I loved it! The story was very interesting.
+
+選択肢60:
+1. draw  
+2. think  
+3. call  
+4. spend
+
+【正解60】  
+2. think
+
+【解説60】  
+「What did you think of ～?」は「～をどう思った？」という意味の定番フレーズです。
+
+---
+
+問題61:
+A : Come here, Frank! I need to talk ( ) you about something.  
+B : OK, Mom.
+
+選択肢61:
+1. on  
+2. by  
+3. with  
+4. against
+
+【正解61】  
+3. with
+
+【解説61】  
+「talk with 人」で「人と話す」という意味になります。「on」「by」「against」はこの文脈では使いません。
+
+---
+
+問題62:
+Bill ( ) for school at 8:20 every morning. It takes 10 minutes to walk there from his house.
+
+選択肢62:
+1. wants  
+2. stays  
+3. leaves  
+4. tells
+
+【正解62】  
+3. leaves
+
+【解説62】  
+「leave for school（学校へ出発する）」という流れなので「leaves」が正解です。他は意味が合いません。
+
+---
+
+問題63:
+A : Holly, is this your hat?  
+B : No, it isn’t ( ). It’s Kelly’s.
+
+選択肢63:
+1. I  
+2. me  
+3. my  
+4. mine
+
+【正解63】  
+4. mine
+
+【解説63】  
+所有代名詞「mine（私のもの）」を使います。「It isn’t mine.（それは私のではありません）」となります。
+
+---
+
+問題64:
+Liam was ( ) to music in his room, so he couldn’t hear his mother when she called him.
+
+選択肢64:
+1. listen  
+2. listens  
+3. listening  
+4. listened
+
+【正解64】  
+3. listening
+
+【解説64】  
+進行中の動作を表すため、「was + 動詞-ing」（過去進行形）を使います。「listening（聞いているところ）」が正しいです。
+
+---
+
+問題65:
+Every Thursday, Jenny gets up ( ) than her parents because she has volleyball practice before school.
+
+選択肢65:
+1. early  
+2. as early  
+3. earlier  
+4. earliest
+
+【正解65】  
+3. earlier
+
+【解説65】  
+「than」があるので比較級「earlier（より早く）」を使います。「early（早く）」ではなく比較級に注意！
+
+---
+
+問題66:
+A : I’m hungry. Let’s () lunch now.  
+B : Good idea!
+
+選択肢66:
+1. take  
+2. make  
+3. eat  
+4. sleep
+
+【正解66】  
+3. eat
+
+【解説66】  
+お腹が空いたので「eat（食べる）」が自然な流れです。「take（取る）」「make（作る）」も文脈によってありえますが、ここでは「食べる」が正解です。
+
+---
+
+問題67:
+A : Do you play tennis?  
+B : Yes, I play it very () .
+
+選択肢67:
+1. well  
+2. good  
+3. bad  
+4. slow
+
+【正解67】  
+1. well
+
+【解説67】  
+動詞「play」を修飾するのは副詞「well（上手に）」です。「good」は形容詞なのでダメです。
+
+---
+
+問題68:
+My dog loves to ( ) in the park every morning.
+
+選択肢68:
+1. walk  
+2. run  
+3. sit  
+4. read
+
+【正解68】  
+2. run
+
+【解説68】  
+犬が公園で毎朝「run（走る）」のは自然なことです。「walk（歩く）」もあり得ますが、走る方が合っています。
+
+---
+
+問題69:
+A : What color is your bag?  
+B : It’s ( ) .
+
+選択肢69:
+1. big  
+2. long  
+3. red  
+4. slow
+
+【正解69】  
+3. red
+
+【解説69】  
+色を答えるので「red（赤）」が正解です。「big（大きい）」「long（長い）」などはサイズや長さなので違います。
+
+---
+
+問題70:
+A : Where is the cat?  
+B : It’s () the table.
+
+選択肢70:
+1. under  
+2. over  
+3. next  
+4. by
+
+【正解70】  
+1. under
+
+【解説70】  
+「under the table」で「テーブルの下」という意味になります。定番表現です。
+
+---
+
+問題71:
+A : Did you () a letter to your friend?  
+B : Yes, yesterday.
+
+選択肢71:
+1. write  
+2. cut  
+3. paint  
+4. catch
+
+【正解71】  
+1. write
+
+【解説71】  
+「write a letter（手紙を書く）」が自然な表現です。他の動詞は不自然です。
+
+---
+
+問題72:
+A : Can you ( ) this bag for me?  
+B : Sure!
+
+選択肢72:
+1. open  
+2. hold  
+3. play  
+4. fix
+
+【正解72】  
+2. hold
+
+【解説72】  
+「hold」は「持つ」という意味です。「カバンを持つ」のは「hold」を使います。
+
+---
+
+問題73:
+Lisa ( ) a new dress for her birthday party.
+
+選択肢73:
+1. drinks  
+2. wears  
+3. eats  
+4. sleeps
+
+【正解73】  
+2. wears
+
+【解説73】  
+「wear a dress（ドレスを着る）」が自然な表現です。「drink（飲む）」や「eat（食べる）」は不自然です。
+
+---
+
+問題74:
+A : Are you ready?  
+B : () a minute, please.
+
+選択肢74:
+1. Wait  
+2. Make  
+3. Give  
+4. Take
+
+【正解74】  
+1. Wait
+
+【解説74】  
+「Wait a minute.（ちょっと待って）」は定番表現です。他はこの場面に合いません。
+
+---
+
+問題75:
+A : What time do you ( ) school?  
+B : At 8:00.
+
+選択肢75:
+1. meet  
+2. start  
+3. begin  
+4. leave
+
+【正解75】  
+4. leave
+
+【解説75】  
+「leave school（学校を出る）」、ここでは「leave」が自然な流れです。
+
+---
+
+問題76:
+A : Let’s ( ) a picture of the sunset.  
+B : Great idea!
+
+選択肢76:
+1. take  
+2. get  
+3. hold  
+4. stay
+
+【正解76】  
+1. take
+
+【解説76】  
+「take a picture（写真を撮る）」という決まった表現です。
+
+---
+
+問題77:
+She is very () at swimming. She can swim fast.
+
+選択肢77:
+1. good  
+2. bad  
+3. big  
+4. late
+
+【正解77】  
+1. good
+
+【解説77】  
+「be good at ～（〜が得意）」の表現を使います。「bad（下手）」ではないので注意。
+
+---
+
+問題78:
+We always () soccer on Sundays.
+
+選択肢78:
+1. go  
+2. play  
+3. make  
+4. meet
+
+【正解78】  
+2. play
+
+【解説78】  
+「play soccer（サッカーをする）」が自然な表現です。
+
+---
+
+問題79:
+A : What’s your favorite () ?  
+B : I like chocolate cake.
+
+選択肢79:
+1. color  
+2. sport  
+3. food  
+4. movie
+
+【正解79】  
+3. food
+
+【解説79】  
+チョコレートケーキは食べ物なので「food」が正しいです。
+
+---
+
+問題80:
+A : I like your bag.  
+B : Thank you. It was a () from my sister.
+
+選択肢80:
+1. present  
+2. call  
+3. trip  
+4. letter
+
+【正解80】  
+1. present
+
+【解説80】  
+「present（プレゼント）」をもらった、という自然な流れです。
+
+---
+
+問題81:
+A : Where did you ( ) the news?  
+B : On the internet.
+
+選択肢81:
+1. find  
+2. tell  
+3. bring  
+4. carry
+
+【正解81】  
+1. find
+
+【解説81】  
+「find the news」で「ニュースを見つける、知る」という意味です。他の動詞は不自然です。
+
+---
+
+問題82:
+Kevin ( ) his lunch before going to the library.
+
+選択肢82:
+1. eats  
+2. ate  
+3. eat  
+4. eating
+
+【正解82】  
+2. ate
+
+【解説82】  
+過去の出来事なので、「eat」の過去形「ate」を使います。「eat」「eating」は現在形や進行形で不適切です。
+
+---
+
+問題83:
+A : I can't finish this alone.  
+B : Don’t worry, I’ll ( ) you.
+
+選択肢83:
+1. ask  
+2. help  
+3. stop  
+4. show
+
+【正解83】  
+2. help
+
+【解説83】  
+「help 人」で「～を助ける」という意味。文脈的にぴったりの表現です。
+
+---
+
+問題84:
+We ( ) to the zoo last weekend and saw a panda.
+
+選択肢84:
+1. go  
+2. went  
+3. going  
+4. goes
+
+【正解84】  
+2. went
+
+【解説84】  
+「last weekend」は過去なので、「go」の過去形「went」が正解です。
+
+---
+
+問題85:
+A : Do you know the girl () is talking to the teacher?  
+B : Yes, she’s my friend.
+
+選択肢85:
+1. what  
+2. where  
+3. who  
+4. that
+
+【正解85】  
+4. that
+
+【解説85】  
+関係代名詞「that」は「話している女の子」を説明する役割です。「who」も可能ですが、文脈的に「that」がより基本的です。
+
+---
+
+問題86:
+I have to ( ) my homework before I go out.
+
+選択肢86:
+1. finish  
+2. fix  
+3. forget  
+4. feed
+
+【正解86】  
+1. finish
+
+【解説86】  
+「finish homework（宿題を終える）」が自然な表現です。
+
+---
+
+問題87:
+A : How long does it ( ) to get to school?  
+B : About 20 minutes.
+
+選択肢87:
+1. have  
+2. get  
+3. take  
+4. ride
+
+【正解87】  
+3. take
+
+【解説87】  
+「How long does it take ～?」で「〜するのにどれくらい時間がかかるか」をたずねる表現です。
+
+---
+
+問題88:
+We didn’t go swimming because it was ( ) yesterday.
+
+選択肢88:
+1. rainy  
+2. rain  
+3. rained  
+4. raining
+
+【正解88】  
+1. rainy
+
+【解説88】  
+「rainy」は「雨の」という形容詞。「was」の後に形容詞が来るパターンです。
+
+---
+
+問題89:
+This book is () than the one I read last week.
+
+選択肢89:
+1. interest  
+2. more interesting  
+3. most interesting  
+4. interested
+
+【正解89】  
+2. more interesting
+
+【解説89】  
+「than」があるので比較級を使います。「interesting」の比較級は「more interesting」です。
+
+---
+
+問題90:
+A : Which language do you want to ( )?  
+B : I want to learn French.
+
+選択肢90:
+1. speak  
+2. learn  
+3. talk  
+4. say
+
+【正解90】  
+2. learn
+
+【解説90】  
+新しく身につける＝「learn（学ぶ）」が正解です。
+
+---
+
+問題91:
+The baby was ( ) because he was hungry.
+
+選択肢91:
+1. cry  
+2. cried  
+3. cries  
+4. crying
+
+【正解91】  
+4. crying
+
+【解説91】  
+「was + -ing」で過去進行形。「泣いていた」という状態を表します。
+
+---
+
+問題92:
+A : I usually walk to school.  
+B : Me too, but today I ( ) the bus.
+
+選択肢92:
+1. take  
+2. took  
+3. takes  
+4. taking
+
+【正解92】  
+2. took
+
+【解説92】  
+「today」の具体的な行動は過去なので、「take」の過去形「took」が正解です。
+
+---
+
+問題93:
+A : I’m not feeling well.  
+B : You should ( ) a rest.
+
+選択肢93:
+1. get  
+2. do  
+3. take  
+4. go
+
+【正解93】  
+3. take
+
+【解説93】  
+「take a rest（休む）」は決まり文句。「get」などは文法的に合いません。
+
+---
+
+問題94:
+The movie was so ( ) that I cried.
+
+選択肢94:
+1. boring  
+2. exciting  
+3. sad  
+4. easy
+
+【正解94】  
+3. sad
+
+【解説94】  
+「cry（泣く）」の理由になるのは「sad（悲しい）」です。
+
+---
+
+問題95:
+A : Did you enjoy the concert?  
+B : Yes, it was ( ) than I expected.
+
+選択肢95:
+1. fun  
+2. more fun  
+3. funniest  
+4. funny
+
+【正解95】  
+2. more fun
+
+【解説95】  
+「than」があるので比較級「more fun（より楽しい）」を使います。
+
+---
+
+問題96:
+A : Where ( ) you go last night?  
+B : To the library.
+
+選択肢96:
+1. did  
+2. do  
+3. were  
+4. does
+
+【正解96】  
+1. did
+
+【解説96】  
+過去の行動をたずねるときは「did」を使います。「Where did you go ～?」の形。
+
+---
+
+問題97:
+If it ( ) tomorrow, we will go to the beach.
+
+選択肢97:
+1. rain  
+2. rains  
+3. will rain  
+4. raining
+
+【正解97】  
+2. rains
+
+【解説97】  
+条件文のif節には現在形を使います。「If it rains tomorrow, ～」が正しい構文。
+
+---
+
+問題98:
+My father is very ( ). He makes dinner for us every day.
+
+選択肢98:
+1. kind  
+2. strong  
+3. high  
+4. fast
+
+【正解98】  
+1. kind
+
+【解説98】  
+「親切である＝kind」という意味です。毎日料理してくれる優しさに対して使います。
+
+---
+
+問題99:
+A : I didn’t pass the test.  
+B : That’s too ( ). Try again next time!
+
+選択肢99:
+1. well  
+2. bad  
+3. good  
+4. nice
+
+【正解99】  
+2. bad
+
+【解説99】  
+残念なことに対して「That’s too bad.（それは残念だね）」という決まり表現になります。
+
+---
+
+問題100:
+A : Did you ( ) your umbrella? It’s raining.  
+B : Oh, no! I forgot it!
+
+選択肢100:
+1. bring  
+2. take  
+3. carry  
+4. lose
+
+【正解100】  
+1. bring
+
+【解説100】  
+「bring（持ってくる）」が「傘を持ってくる」場面にぴったりです。
+
+---
+
+問題101:
+Ms. Hayashi is a nice teacher. Her English class is very ( ).
+
+選択肢101:
+1. thirsty  
+2. dark  
+3. left  
+4. popular
+
+【正解101】  
+4. popular
+
+【解説101】  
+「popular」は「人気がある」という意味で、先生の授業が人気であることを表します。他の選択肢は意味が合いません。「thirsty（のどが渇いた）」「dark（暗い）」「left（左）」は授業の特徴として不自然です。
+
+---
+
+問題102:
+A : Dad, is Uncle Bob coming by plane?  
+B : Yes. He’ll arrive at the ( ) soon.
+
+選択肢102:
+1. radio  
+2. sky  
+3. computer  
+4. airport
+
+【正解102】  
+4. airport
+
+【解説102】  
+飛行機で来るなら、到着する場所は「airport（空港）」が正解です。「radio（ラジオ）」「sky（空）」「computer（コンピュータ）」では意味が通じません。
+
+---
+
+問題103:
+Lucy’s uncle has a large ( ). Her cousins take care of chickens and pigs there.
+
+選択肢103:
+1. farm  
+2. eraser  
+3. boat  
+4. mirror
+
+【正解103】  
+1. farm
+
+【解説103】  
+「chickens and pigs（ニワトリとブタ）」がいる場所は「farm（農場）」です。「eraser（消しゴム）」「boat（ボート）」「mirror（鏡）」は全く文脈に合いません。
+
+---
+
+問題104:
+A : Are you making dinner, Dad? I’ll help you.  
+B : Thanks, Becky. Please ( ) the vegetables and cut them.
+
+選択肢104:
+1. meet  
+2. eat  
+3. wash  
+4. lose
+
+【正解104】  
+3. wash
+
+【解説104】  
+野菜を切る前にするべきことは「wash（洗う）」ですね。「meet（会う）」「eat（食べる）」「lose（失う）」はすべて不適切です。
+
+---
+
+問題105:
+Emma likes reading music ( ) when she has free time.
+
+選択肢105:
+1. tickets  
+2. magazines  
+3. rooms  
+4. shows
+
+【正解105】  
+2. magazines
+
+【解説105】  
+「music magazines（音楽雑誌）」は実際にある表現で自然です。「tickets（チケット）」や「shows（ショー）」は読むものではありません。
+
+---
+
+問題106:
+Lucy loves the ( ) flowers in her garden. Her friends often come to see them, too.
+
+選択肢106:
+1. angry  
+2. fast  
+3. excited  
+4. beautiful
+
+【正解106】  
+4. beautiful
+
+【解説106】  
+「flowers（花）」を説明する形容詞は「beautiful（美しい）」が一番適切です。「angry（怒った）」「fast（速い）」「excited（興奮した）」は花には不自然です。
+
+---
+
+問題107:
+The library is always ( ). I like to study there after school.
+
+選択肢107:
+1. cloudy  
+2. angry  
+3. late  
+4. quiet
+
+【正解107】  
+4. quiet
+
+【解説107】  
+「図書館＝静かな場所」という定番のイメージに合うのは「quiet（静かな）」です。「cloudy（くもりの）」「angry（怒っている）」「late（遅い）」は不適切です。
+
+---
+
+問題108:
+Eating healthy foods is very important. For ( ), people should eat a lot of fruits and vegetables.
+
+選択肢108:
+1. example  
+2. action  
+3. kitchen  
+4. answer
+
+【正解108】  
+1. example
+
+【解説108】  
+「For example（たとえば）」という決まり文句で、「健康のために果物と野菜を食べる」という例を示しています。
+
+---
+
+問題109:
+A : How () is the movie?  
+B : It’s about one and a half hours.
+
+選択肢109:
+1. cheap  
+2. long  
+3. big  
+4. early
+
+【正解109】  
+2. long
+
+【解説109】  
+時間の長さを聞いているので、「long（長い）」がぴったりです。「cheap（安い）」「big（大きい）」「early（早い）」は時間の長さには使いません。
+
+---
+
+問題110:
+A : Hello, this is Tom. Can I speak ( ) Kate?  
+B : Sorry, but she’s not here right now.
+
+選択肢110:
+1. under  
+2. to  
+3. of  
+4. in
+
+【正解110】  
+2. to
+
+【解説110】  
+電話で「〜と話す」は「speak to ～」を使います。「speak with」でも可能ですが、選択肢にないため「to」が正解です。
+
+---
+
+問題111:
+Frank was thirsty, so he drank a () of water.
+
+選択肢111:
+1. cup  
+2. piece  
+3. menu  
+4. group
+
+【正解111】  
+1. cup
+
+【解説111】  
+水を飲む単位として自然なのは「a cup of water（コップ一杯の水）」です。「piece（かけら）」「menu（メニュー）」「group（グループ）」は水には使いません。
+
+---
+
+問題112:
+A : I’m really tired. Can we stop walking for a minute?  
+B : Yes, let’s sit ( ) on this bench.
+
+選択肢112:
+1. early  
+2. down  
+3. as  
+4. away
+
+【正解112】  
+2. down
+
+【解説112】  
+「sit down（座る）」が自然な表現。「early（早く）」「as」「away（離れて）」は文法的にも意味的にも不適切です。
+
+---
+
+問題113:
+It was Monica’s father’s birthday two days ago. So she () dinner for him, and they had a great time together.
+
+選択肢113:
+1. makes  
+2. is making  
+3. made  
+4. will make
+
+【正解113】  
+3. made
+
+【解説113】  
+「two days ago（2日前）」は過去のことなので、「make」の過去形「made」が正解です。
+
+---
+
+問題114:
+There are two museums in the city. The new one is () interesting than the old one.
+
+選択肢114:
+1. many  
+2. much  
+3. more  
+4. most
+
+【正解114】  
+3. more
+
+【解説114】  
+比較には「more + 形容詞（長い形）」を使います。「more interesting（よりおもしろい）」が自然です。
+
+---
+
+問題115:
+A : ( ) I open the window?  
+B : Yes, good idea. It’s hot.
+
+選択肢115:
+1. Have  
+2. Shall  
+3. Were  
+4. Are
+
+【正解115】  
+2. Shall
+
+【解説115】  
+「Shall I ～?」は「～しましょうか？」と申し出る丁寧な表現です。「Have」「Were」「Are」はこの形では使えません。
+
+---
+
+問題116:
+A : How do you go to school?  
+B : I () my bike.
+
+選択肢116:
+1. wash  
+2. use  
+3. ride  
+4. take
+
+【正解116】  
+3. ride
+
+【解説116】  
+「ride my bike（自転車に乗る）」が自然な表現です。「wash（洗う）」「use（使う）」「take（取る）」は使えそうですが、「乗る」には「ride」を使います。
+
+---
+
+問題117:
+I always eat lunch ( ) 12:30 at school.
+
+選択肢117:
+1. on  
+2. at  
+3. in  
+4. to
+
+【正解117】  
+2. at
+
+【解説117】  
+時刻の前には「at」を使います。「at 12:30（12時半に）」が正しい表現です。
+
+---
+
+問題118:
+The children are ( ) a picture of a cat.
+
+選択肢118:
+1. drawing  
+2. cleaning  
+3. buying  
+4. playing
+
+【正解118】  
+1. drawing
+
+【解説118】  
+「draw a picture（絵を描く）」が自然です。他の選択肢は文の意味に合いません。
+
+---
+
+問題119:
+A : What did you do last Sunday?  
+B : I ( ) a soccer game with my family.
+
+選択肢119:
+1. watch  
+2. watched  
+3. watches  
+4. watching
+
+【正解119】  
+2. watched
+
+【解説119】  
+「last Sunday（先週の日曜日）」があるので過去形「watched」が正解です。
+
+---
+
+問題120:
+That restaurant is always ( ). Let’s go somewhere else.
+
+選択肢120:
+1. clean  
+2. full  
+3. ready  
+4. near
+
+【正解120】  
+2. full
+
+【解説120】  
+「full（いっぱい）」のレストランには入れないという意味です。文脈に合います。
+
+---
+
+問題121:
+A : I need to find my book.  
+B : Let’s ( ) for it together.
+
+選択肢121:
+1. look  
+2. see  
+3. hear  
+4. stand
+
+【正解121】  
+1. look
+
+【解説121】  
+「look for ～」で「〜を探す」という意味の熟語です。
+
+---
+
+問題122:
+My little sister always ( ) with her doll.
+
+選択肢122:
+1. plays  
+2. eats  
+3. makes  
+4. goes
+
+【正解122】  
+1. plays
+
+【解説122】  
+「play with ～（～と遊ぶ）」という表現が正しいです。
+
+---
+
+問題123:
+There is a big supermarket ( ) the station.
+
+選択肢123:
+1. under  
+2. behind  
+3. between  
+4. in
+
+【正解123】  
+2. behind
+
+【解説123】  
+「behind the station（駅の後ろに）」が自然な場所の表現です。
+
+---
+
+問題124:
+I ( ) a new book at the library yesterday.
+
+選択肢124:
+1. borrow  
+2. borrowing  
+3. borrowed  
+4. borrows
+
+【正解124】  
+3. borrowed
+
+【解説124】  
+「yesterday」があるので過去形の「borrowed（借りた）」が必要です。
+
+---
+
+問題125:
+A : Where is Mom?  
+B : She is ( ) dinner in the kitchen.
+
+選択肢125:
+1. cook  
+2. cooked  
+3. cooking  
+4. cooks
+
+【正解125】  
+3. cooking
+
+【解説125】  
+現在進行形の「is + 動詞ing」で「料理しているところ」です。
+
+---
+
+問題126:
+I want to be a ( ) in the future and help sick people.
+
+選択肢126:
+1. teacher  
+2. doctor  
+3. singer  
+4. player
+
+【正解126】  
+2. doctor
+
+【解説126】  
+「sick people（病気の人）」を助けるのは「doctor（医者）」です。
+
+---
+
+問題127:
+My brother ( ) his homework before dinner every day.
+
+選択肢127:
+1. doing  
+2. does  
+3. do  
+4. did
+
+【正解127】  
+2. does
+
+【解説127】  
+「毎日」の習慣で主語が三人称単数（brother）なので「does」が正解です。
+
+---
+
+問題128:
+The movie was very ( ). I want to watch it again.
+
+選択肢128:
+1. boring  
+2. tired  
+3. exciting  
+4. hungry
+
+【正解128】  
+3. exciting
+
+【解説128】  
+もう一度観たい＝「exciting（ワクワクする）」が自然です。
+
+---
+
+問題129:
+A : What are you doing?  
+B : I’m ( ) to music.
+
+選択肢129:
+1. listen  
+2. listens  
+3. listening  
+4. listened
+
+【正解129】  
+3. listening
+
+【解説129】  
+「am + listening」で現在進行形です。「listen」は原形なので使えません。
+
+---
+
+問題130:
+Let’s ( ) a cake for Mom’s birthday.
+
+選択肢130:
+1. eat  
+2. make  
+3. cut  
+4. take
+
+【正解130】  
+2. make
+
+【解説130】  
+誕生日のためにケーキを「作る＝make」が自然です。
+
+---
+
+問題131:
+My father often ( ) to work by car.
+
+選択肢131:
+1. go  
+2. going  
+3. goes  
+4. went
+
+【正解131】  
+3. goes
+
+【解説131】  
+三人称単数の現在形なので「goes」が正解です。
+
+---
+
+問題132:
+There ( ) many people at the festival last night.
+
+選択肢132:
+1. is  
+2. are  
+3. were  
+4. was
+
+【正解132】  
+3. were
+
+【解説132】  
+「last night」があるので過去形、「many people」で複数なので「were」が正しいです。
+
+---
+
+問題133:
+I have a lot of ( ) to do today.
+
+選択肢133:
+1. job  
+2. works  
+3. work  
+4. homework
+
+【正解133】  
+3. work
+
+【解説133】  
+「a lot of work」で「たくさんの仕事」という数えられない名詞です。「works」は間違い。
+
+---
+
+問題134:
+A : Did you bring your lunch?  
+B : No, I () it at home.
+
+選択肢134:
+1. forgot  
+2. forget  
+3. leave  
+4. left
+
+【正解134】  
+1. forgot
+
+【解説134】  
+過去の話なので「forgot（忘れた）」が正解です。
+
+---
+
+問題135:
+A : What time is it now?  
+B : It’s ( ) o’clock.
+
+選択肢135:
+1. three  
+2. third  
+3. three’s  
+4. the three
+
+【正解135】  
+1. three
+
+【解説135】  
+時刻を言う時は「It’s three o’clock」のように数字だけでOKです。
+
+---
+
+問題136:
+Yuka is a fast runner. She runs ( ) than any other student.
+
+選択肢136:
+1. fast  
+2. faster  
+3. fastest  
+4. more fast
+
+【正解136】  
+2. faster
+
+【解説136】  
+「than」があるので比較級「faster」を使います。
+
+---
+
+問題137:
+I like this song. Let’s ( ) to it again.
+
+選択肢137:
+1. sing  
+2. hear  
+3. listen  
+4. listen
+
+【正解137】  
+3. listen
+
+【解説137】  
+「listen to ～」で「～を聞く」という意味の熟語です。
+
+---
+
+問題138:
+Ken didn’t go to the party ( ) he was sick.
+
+選択肢138:
+1. but  
+2. because  
+3. so  
+4. or
+
+【正解138】  
+2. because
+
+【解説138】  
+「～なので」という理由を表す「because」が自然です。
+
+---
+
+問題139:
+A : Would you like tea or coffee?  
+B : ( ), please. I’d like juice.
+
+選択肢139:
+1. Each  
+2. Both  
+3. Neither  
+4. Either
+
+【正解139】  
+3. Neither
+
+【解説139】  
+どちらもいらないという意味で「Neither」が正しいです。
+
+---
+
+問題140:
+My bag is ( ) than yours.
+
+選択肢140:
+1. heavy  
+2. heavier  
+3. heaviest  
+4. heavily
+
+【正解140】  
+2. heavier
+
+【解説140】  
+比較級を表す「than」があるので「heavier」が正解です。
+
+---
+
+問題141:
+A : Can you play the guitar?  
+B : No, but I can ( ) the piano.
+
+選択肢141:
+1. do  
+2. play  
+3. have  
+4. go
+
+【正解141】  
+2. play
+
+【解説141】  
+「play the piano」で「ピアノを弾く」という表現になります。
+
+---
+
+問題142:
+A : I love animals.  
+B : Then, you should visit the ( ).
+
+選択肢142:
+1. pool  
+2. zoo  
+3. museum  
+4. store
+
+【正解142】  
+2. zoo
+
+【解説142】  
+「animals（動物）」といえば「zoo（動物園）」が自然です。
+
+---
+
+問題143:
+My mother ( ) me to clean my room every Saturday.
+
+選択肢143:
+1. tells  
+2. tells to  
+3. say  
+4. talk
+
+【正解143】  
+1. tells
+
+【解説143】  
+「tell 人 to ～」で「〜するように言う」という表現です。
+
+---
+
+問題144:
+A : I’m going shopping.  
+B : OK. ( ) you later!
+
+選択肢144:
+1. See  
+2. Meet  
+3. Watch  
+4. Show
+
+【正解144】  
+1. See
+
+【解説144】  
+「See you later（またね）」は別れ際の定番表現です。
+
+---
+
+問題145:
+They are going to ( ) a movie after lunch.
+
+選択肢145:
+1. see  
+2. seeing  
+3. saw  
+4. seen
+
+【正解145】  
+1. see
+
+【解説145】  
+「be going to + 動詞の原形」で「〜する予定」という未来表現です。
+
+---
+
+問題146:
+Please be ( ). This is a hospital.
+
+選択肢146:
+1. noisy  
+2. loud  
+3. quiet  
+4. fun
+
+【正解146】  
+3. quiet
+
+【解説146】  
+病院では「quiet（静かに）」が求められるのでこれが適切です。
+
+---
+
+問題147:
+This room is very ( ) than the other one.
+
+選択肢147:
+1. clean  
+2. cleaner  
+3. cleanest  
+4. clearly
+
+【正解147】  
+2. cleaner
+
+【解説147】  
+「than」があるので比較級「cleaner」が必要です。
+
+---
+
+問題148:
+The girl ( ) is talking to the teacher is my sister.
+
+選択肢148:
+1. who  
+2. what  
+3. where  
+4. why
+
+【正解148】  
+1. who
+
+【解説148】  
+関係代名詞「who」で「〜している女の子」を説明しています。
+
+---
+
+問題149:
+We ( ) seen that movie before.
+
+選択肢149:
+1. have  
+2. has  
+3. are  
+4. had
+
+【正解149】  
+1. have
+
+【解説149】  
+「have + 過去分詞」で現在完了。「We」は複数なので「have」を使います。
+
+---
+
+問題150:
+I want to buy a ( ) of shoes for my brother.
+
+選択肢150:
+1. set  
+2. box  
+3. pair  
+4. piece
+
+【正解150】  
+3. pair
+
+【解説150】  
+「a pair of shoes（靴1足）」が正しい表現です。
+
+---
+
 
