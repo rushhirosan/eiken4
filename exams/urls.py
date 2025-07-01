@@ -14,4 +14,5 @@ urlpatterns = [
     path('results/<str:level>/<str:question_type>/', views.answer_results, name='answer_results'),
     path('progress/', views.progress_view, name='progress'),
     path('clear-progress/', views.clear_progress, name='clear_progress'),
+    path('feedback/', views.feedback_form, name='feedback_form'),
 ] 

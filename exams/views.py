@@ -1,6 +1,6 @@
 from django.shortcuts import render, get_object_or_404, redirect
 from django.contrib.auth.decorators import login_required
-from .models import Question, Choice, UserAnswer, UserProgress, ReadingUserAnswer, DailyProgress
+from .models import Question, Choice, UserAnswer, UserProgress, ReadingUserAnswer
 from django.db.models import Count, Q
 import random
 from django.http import JsonResponse
@@ -9,13 +9,7 @@ import json
 from questions.models import ReadingPassage, ReadingQuestion, ReadingChoice, ListeningQuestion, ListeningUserAnswer, ListeningChoice
 from django.urls import reverse
 from django.utils import timezone
-from datetime import datetime
-
-class DateTimeEncoder(json.JSONEncoder):
-    def default(self, obj):
-        if isinstance(obj, datetime):
-            return obj.strftime('%Y-%m-%d %H:%M:%S')
-        return super().default(obj)
+from datetime import datetime, timedelta
 
 @login_required
 def exam_list(request):
@@ -306,326 +300,281 @@ def question_list(request, level=None, exam_id=None):
             listening_illustration = [q for q in listening_questions if q['category'] == 'listening_illustration']
             listening_conversation = [q for q in listening_questions if q['category'] == 'listening_conversation']
             listening_passage = [q for q in listening_questions if q['category'] == 'listening_passage']
-            
-            context = {
-                'level': level,
-                'question_type': question_type,
-                'question_type_display': question_types.get(question_type, ''),
-                'num_questions': len(all_questions) + sum(len(p['questions']) for p in reading_passages),
-                'status': status,
-                'questions': all_questions,
-                'passages': reading_passages,
-                'listening_illustration': listening_illustration,
-                'listening_conversation': listening_conversation,
-                'listening_passage': listening_passage,
-                'question_count_options': question_count_options,
-            }
-            return render(request, 'exams/mock_exam.html', context)
-        else:
-            context = {
-                'level': level,
-                'question_type': question_type,
-                'question_type_display': question_types.get(question_type, ''),
-                'num_questions': len(all_questions),
-                'status': status,
-                'questions': all_questions,
-                'question_count_options': question_count_options,
-            }
-            return render(request, 'exams/question_list.html', context)
-    
-    elif question_type == 'listening_illustration':
-        # イラスト問題の場合
-        questions = ListeningQuestion.objects.filter(level=level).order_by('id')
-        print(f"Debug - Listening Illustration Questions: {questions.count()}")  # デバッグ出力
-        
-        # 「全て」が選択された場合は制限しない
-        if num_questions != 'all' and len(questions) > num_questions:
-            questions = random.sample(list(questions), num_questions)
-            questions.sort(key=lambda x: x.id)
-        
-        # 問題と選択肢を組み合わせる（回答履歴は表示しない）
-        questions_with_choices = []
-        for question in questions:
-            choices = ListeningChoice.objects.filter(question=question).order_by('order')
-            questions_with_choices.append({
-                'question': question,
-                'choices': choices,
-                'user_answer': None,  # 常にNoneにして未選択状態にする
-                'is_correct': None,
-                'explanation': getattr(question, 'explanation', '')
-            })
         
         context = {
             'level': level,
             'question_type': question_type,
             'question_type_display': question_types.get(question_type, ''),
-            'num_questions': num_questions,
+            'num_questions': len(all_questions) + sum(len(p['questions']) for p in reading_passages),
             'status': status,
-            'questions': questions_with_choices,
+            'questions': all_questions,
+            'passages': reading_passages,
+            'listening_illustration': listening_illustration,
+            'listening_conversation': listening_conversation,
+            'listening_passage': listening_passage,
             'question_count_options': question_count_options,
         }
-        return render(request, 'exams/question_list.html', context)
-    
-    elif question_type in ['listening_conversation', 'listening_passage']:
-        # リスニング会話問題とリスニング文章問題の場合
-        questions = Question.objects.filter(level=level, question_type=question_type).order_by('question_number')
-        print(f"Debug - Regular Questions: {questions.count()}")  # デバッグ出力
-        questions = list(questions)
-        
-        # ユーザーの回答履歴を取得
-        user_answers = UserAnswer.objects.filter(
-            user=request.user,
-            question__in=questions
-        ).select_related('question', 'selected_choice')
-        
-        # 問題IDをキーとした回答辞書を作成
-        user_answer_dict = {answer.question.id: answer for answer in user_answers}
-        
-        # 状態フィルターに応じて問題をフィルタリング
-        if status == 'unanswered':
-            # 未回答の問題のみ
-            questions = [q for q in questions if q.id not in user_answer_dict]
-        elif status == 'correct':
-            # 正解の問題のみ
-            questions = [q for q in questions if q.id in user_answer_dict and user_answer_dict[q.id].is_correct]
-        elif status == 'incorrect':
-            # 不正解の問題のみ
-            questions = [q for q in questions if q.id in user_answer_dict and not user_answer_dict[q.id].is_correct]
-        # status == 'all' の場合は全ての問題を表示
-        
-        # デバッグ出力を追加
-        print(f"Debug - user_answer_dict keys: {list(user_answer_dict.keys())}")
-        print(f"Debug - questions after filter: {[q.id for q in questions]}")
-        print(f"Debug - status: {status}")
-        
-        # 問題数制限を適用
-        if num_questions != 'all' and len(questions) > num_questions:
-            questions = random.sample(questions, num_questions)
-            questions.sort(key=lambda x: x.question_number)
-        
-        # POSTリクエストがある場合のみ回答処理を実行
-        if request.method == 'POST':
-            # POSTされたquestion_idをすべて取得
-            post_question_ids = [
-                int(key.replace('answer_', ''))
-                for key in request.POST.keys()
-                if key.startswith('answer_')
-            ]
-            
-            # 既存の回答を削除（POSTされたquestion_idのみ）
-            UserAnswer.objects.filter(
-                user=request.user,
-                question_id__in=post_question_ids
-            ).delete()
-            
-            # 回答を保存
-            for question_id in post_question_ids:
-                answer_key = f'answer_{question_id}'
-                selected_choice_id = request.POST.get(answer_key)
-                if selected_choice_id:
-                    choice = Choice.objects.get(id=selected_choice_id)
-                    is_correct = choice.is_correct
-                    question = Question.objects.get(id=question_id)
-                    UserAnswer.objects.create(
-                        user=request.user,
-                        question=question,
-                        selected_choice=choice,
-                        is_correct=is_correct
-                    )
-                    # 進捗を更新
-                    update_user_progress(request.user, level, question_type, is_correct)
-
-            # 今回回答したquestion_idと出題順序をセッションに保存
-            request.session[f'answered_questions_{question_type}_{level}'] = post_question_ids
-
-            return redirect('exams:answer_results', level=level, question_type=question_type)
-        
-        # GETリクエストの場合は問題を表示
-        # 問題と回答を組み合わせる
-        questions_with_answers = []
-        for question in questions:
-            choices = Choice.objects.filter(question=question).order_by('order')
-            correct_choice = choices.filter(is_correct=True).first()
-            user_answer = user_answer_dict.get(question.id)
-            
-            questions_with_answers.append({
-                'question': question,
-                'choices': choices,
-                'user_answer': user_answer.selected_choice if user_answer else None,
-                'is_correct': user_answer.is_correct if user_answer else None,
-                'correct_choice': correct_choice,
-                'explanation': question.explanation
-            })
-        
-        context = {
-            'level': level,
-            'question_type': question_type,
-            'question_type_display': question_types.get(question_type, ''),
-            'num_questions': num_questions,
-            'status': status,
-            'questions': questions_with_answers,
-            'question_count_options': question_count_options,
-        }
-        return render(request, 'exams/question_list.html', context)
-
-    elif question_type == 'reading_comprehension':
-        # 長文読解問題の場合
-        passages = ReadingPassage.objects.filter(level=level).order_by('id')
-        print(f"Debug - Reading Passages: {passages.count()}")  # デバッグ出力
-        
-        # 「全て」が選択された場合は制限しない
-        if num_questions != 'all' and len(passages) > num_questions:
-            passages = random.sample(list(passages), num_questions)
-            passages.sort(key=lambda x: x.id)
-        
-        # 出題時のパッセージ順序をセッションに保存
-        passage_order = {passage.id: index for index, passage in enumerate(passages)}
-        request.session[f'passage_order_{question_type}_{level}'] = passage_order
-        
-        # パッセージと問題を組み合わせる
-        passages_with_questions = []
-        for passage in passages:
-            passage_questions = ReadingQuestion.objects.filter(passage=passage).order_by('question_number')
-            
-            # ユーザーの回答を取得
-            user_answers = {}
-            answers = ReadingUserAnswer.objects.filter(
-                user=request.user,
-                reading_question__in=passage_questions
-            )
-            for answer in answers:
-                user_answers[answer.reading_question.id] = answer.selected_reading_choice
-            
-            # 問題と回答を組み合わせる
-            questions_with_answers = []
-            for question in passage_questions:
-                choices = ReadingChoice.objects.filter(question=question).order_by('order')
-                correct_choice = choices.filter(is_correct=True).first()
-                questions_with_answers.append({
-                    'question': question,
-                    'choices': choices,
-                    'user_answer': user_answers.get(question.id),
-                    'correct_choice': correct_choice,
-                    'explanation': getattr(question, 'explanation', '')
-                })
-            
-            passages_with_questions.append({
-                'passage': passage,
-                'questions': questions_with_answers
-            })
-        
-        context = {
-            'level': level,
-            'question_type': question_type,
-            'question_type_display': question_types.get(question_type, ''),
-            'num_questions': num_questions,
-            'status': status,
-            'passages': passages_with_questions,
-            'question_count_options': question_count_options,
-        }
-        return render(request, 'exams/reading_comprehension.html', context)
-    
+        return render(request, 'exams/mock_exam.html', context)
     else:
         # 通常の問題の場合
-        questions = Question.objects.filter(level=level, question_type=question_type).order_by('question_number')
-        print(f"Debug - Regular Questions: {questions.count()}")  # デバッグ出力
-        questions = list(questions)
-        
-        # ユーザーの回答履歴を取得
-        user_answers = UserAnswer.objects.filter(
-            user=request.user,
-            question__in=questions
-        ).select_related('question', 'selected_choice')
-        
-        # 問題IDをキーとした回答辞書を作成
-        user_answer_dict = {answer.question.id: answer for answer in user_answers}
-        
-        # 状態フィルターに応じて問題をフィルタリング
-        if status == 'unanswered':
-            # 未回答の問題のみ
-            questions = [q for q in questions if q.id not in user_answer_dict]
-        elif status == 'correct':
-            # 正解の問題のみ
-            questions = [q for q in questions if q.id in user_answer_dict and user_answer_dict[q.id].is_correct]
-        elif status == 'incorrect':
-            # 不正解の問題のみ
-            questions = [q for q in questions if q.id in user_answer_dict and not user_answer_dict[q.id].is_correct]
-        # status == 'all' の場合は全ての問題を表示
-        
-        # デバッグ出力を追加
-        print(f"Debug - user_answer_dict keys: {list(user_answer_dict.keys())}")
-        print(f"Debug - questions after filter: {[q.id for q in questions]}")
-        print(f"Debug - status: {status}")
-        
-        # 問題数制限を適用
-        if num_questions != 'all' and len(questions) > num_questions:
-            questions = random.sample(questions, num_questions)
-            questions.sort(key=lambda x: x.question_number)
-        
-        # POSTリクエストがある場合のみ回答処理を実行
-        if request.method == 'POST':
-            # POSTされたquestion_idをすべて取得
-            post_question_ids = [
-                int(key.replace('answer_', ''))
-                for key in request.POST.keys()
-                if key.startswith('answer_')
-            ]
+        if question_type == 'reading_comprehension':
+            # 長文読解問題の場合
+            passages = ReadingPassage.objects.filter(level=level).order_by('id')
+            print(f"Debug - Reading Passages: {passages.count()}")  # デバッグ出力
             
-            # 既存の回答を削除（POSTされたquestion_idのみ）
-            UserAnswer.objects.filter(
-                user=request.user,
-                question_id__in=post_question_ids
-            ).delete()
+            # 「全て」が選択された場合は制限しない
+            if num_questions != 'all' and len(passages) > num_questions:
+                passages = random.sample(list(passages), num_questions)
+                passages.sort(key=lambda x: x.id)
             
-            # 回答を保存
-            for question_id in post_question_ids:
-                answer_key = f'answer_{question_id}'
-                selected_choice_id = request.POST.get(answer_key)
-                if selected_choice_id:
-                    choice = Choice.objects.get(id=selected_choice_id)
-                    is_correct = choice.is_correct
-                    question = Question.objects.get(id=question_id)
-                    UserAnswer.objects.create(
+            # 出題時のパッセージ順序をセッションに保存
+            passage_order = {passage.id: index for index, passage in enumerate(passages)}
+            request.session[f'passage_order_{question_type}_{level}'] = passage_order
+            
+            # パッセージと問題を組み合わせる
+            passages_with_questions = []
+            for passage in passages:
+                passage_questions = ReadingQuestion.objects.filter(passage=passage).order_by('question_number')
+                
+                # ユーザーの回答を取得
+                user_answers = {}
+                answers = ReadingUserAnswer.objects.filter(
+                    user=request.user,
+                    reading_question__in=passage_questions
+                )
+                for answer in answers:
+                    user_answers[answer.reading_question.id] = answer.selected_reading_choice
+                
+                # 問題と回答を組み合わせる
+                questions_with_answers = []
+                for question in passage_questions:
+                    choices = ReadingChoice.objects.filter(question=question).order_by('order')
+                    correct_choice = choices.filter(is_correct=True).first()
+                    questions_with_answers.append({
+                        'question': question,
+                        'choices': choices,
+                        'user_answer': user_answers.get(question.id),
+                        'correct_choice': correct_choice,
+                        'explanation': getattr(question, 'explanation', '')
+                    })
+                
+                passages_with_questions.append({
+                    'passage': passage,
+                    'questions': questions_with_answers
+                })
+            
+            context = {
+                'level': level,
+                'question_type': question_type,
+                'question_type_display': question_types.get(question_type, ''),
+                'num_questions': num_questions,
+                'status': status,
+                'passages': passages_with_questions,
+                'question_count_options': question_count_options,
+            }
+            return render(request, 'exams/reading_comprehension.html', context)
+        else:
+            # 通常の問題の場合
+            if question_type == 'listening_illustration':
+                # リスニングイラスト問題の場合
+                questions = ListeningQuestion.objects.filter(level=level).order_by('id')
+                print(f"Debug - Listening Questions: {questions.count()}")  # デバッグ出力
+                questions = list(questions)
+                
+                # ユーザーの回答履歴を取得
+                user_answers = ListeningUserAnswer.objects.filter(
+                    user=request.user,
+                    question__in=questions
+                ).select_related('question')
+                
+                # 問題IDをキーとした回答辞書を作成
+                user_answer_dict = {answer.question.id: answer for answer in user_answers}
+                
+                # 状態フィルターに応じて問題をフィルタリング
+                if status == 'unanswered':
+                    # 未回答の問題のみ
+                    questions = [q for q in questions if q.id not in user_answer_dict]
+                elif status == 'correct':
+                    # 正解の問題のみ
+                    questions = [q for q in questions if q.id in user_answer_dict and user_answer_dict[q.id].is_correct]
+                elif status == 'incorrect':
+                    # 不正解の問題のみ
+                    questions = [q for q in questions if q.id in user_answer_dict and not user_answer_dict[q.id].is_correct]
+                # status == 'all' の場合は全ての問題を表示
+                
+                # デバッグ出力を追加
+                print(f"Debug - user_answer_dict keys: {list(user_answer_dict.keys())}")
+                print(f"Debug - questions after filter: {[q.id for q in questions]}")
+                print(f"Debug - status: {status}")
+                
+                # 問題数制限を適用
+                if num_questions != 'all' and len(questions) > num_questions:
+                    questions = random.sample(questions, num_questions)
+                    questions.sort(key=lambda x: x.id)
+                
+                # POSTリクエストがある場合のみ回答処理を実行
+                if request.method == 'POST':
+                    # POSTされたquestion_idをすべて取得
+                    post_question_ids = [
+                        int(key.replace('answer_', ''))
+                        for key in request.POST.keys()
+                        if key.startswith('answer_')
+                    ]
+                    
+                    # 既存の回答を削除（POSTされたquestion_idのみ）
+                    ListeningUserAnswer.objects.filter(
                         user=request.user,
-                        question=question,
-                        selected_choice=choice,
-                        is_correct=is_correct
-                    )
-                    # 進捗を更新
-                    update_user_progress(request.user, level, question_type, is_correct)
+                        question_id__in=post_question_ids
+                    ).delete()
+                    
+                    # 回答を保存
+                    for question_id in post_question_ids:
+                        answer_key = f'answer_{question_id}'
+                        selected_answer = request.POST.get(answer_key)
+                        if selected_answer:
+                            question = ListeningQuestion.objects.get(id=question_id)
+                            is_correct = selected_answer == question.correct_answer
+                            ListeningUserAnswer.objects.create(
+                                user=request.user,
+                                question=question,
+                                selected_answer=selected_answer,
+                                is_correct=is_correct
+                            )
+                            # 進捗を更新
+                            update_user_progress(request.user, level, question_type, is_correct)
 
-            # 今回回答したquestion_idと出題順序をセッションに保存
-            request.session[f'answered_questions_{question_type}_{level}'] = post_question_ids
+                    # 今回回答したquestion_idと出題順序をセッションに保存
+                    request.session[f'answered_questions_{question_type}_{level}'] = post_question_ids
 
-            return redirect('exams:answer_results', level=level, question_type=question_type)
-        
-        # GETリクエストの場合は問題を表示
-        # 問題と回答を組み合わせる
-        questions_with_answers = []
-        for question in questions:
-            choices = Choice.objects.filter(question=question).order_by('order')
-            correct_choice = choices.filter(is_correct=True).first()
-            user_answer = user_answer_dict.get(question.id)
-            
-            questions_with_answers.append({
-                'question': question,
-                'choices': choices,
-                'user_answer': user_answer.selected_choice if user_answer else None,
-                'is_correct': user_answer.is_correct if user_answer else None,
-                'correct_choice': correct_choice,
-                'explanation': question.explanation
-            })
-        
-        context = {
-            'level': level,
-            'question_type': question_type,
-            'question_type_display': question_types.get(question_type, ''),
-            'num_questions': num_questions,
-            'status': status,
-            'questions': questions_with_answers,
-            'question_count_options': question_count_options,
-        }
-        return render(request, 'exams/question_list.html', context)
+                    return redirect('exams:answer_results', level=level, question_type=question_type)
+                
+                # GETリクエストの場合は問題を表示
+                # 問題と回答を組み合わせる
+                questions_with_answers = []
+                for question in questions:
+                    choices = ListeningChoice.objects.filter(question=question).order_by('order')
+                    user_answer = user_answer_dict.get(question.id)
+                    
+                    questions_with_answers.append({
+                        'question': question,
+                        'choices': choices,
+                        'user_answer': user_answer.selected_answer if user_answer else None,
+                        'is_correct': user_answer.is_correct if user_answer else None,
+                        'correct_answer': question.correct_answer,
+                        'explanation': getattr(question, 'explanation', '')
+                    })
+                
+                context = {
+                    'level': level,
+                    'question_type': question_type,
+                    'question_type_display': question_types.get(question_type, ''),
+                    'num_questions': num_questions,
+                    'status': status,
+                    'questions': questions_with_answers,
+                    'question_count_options': question_count_options,
+                }
+                return render(request, 'exams/question_list.html', context)
+            else:
+                # 通常の問題の場合
+                questions = Question.objects.filter(level=level, question_type=question_type).order_by('question_number')
+                print(f"Debug - Regular Questions: {questions.count()}")  # デバッグ出力
+                questions = list(questions)
+                
+                # ユーザーの回答履歴を取得
+                user_answers = UserAnswer.objects.filter(
+                    user=request.user,
+                    question__in=questions
+                ).select_related('question', 'selected_choice')
+                
+                # 問題IDをキーとした回答辞書を作成
+                user_answer_dict = {answer.question.id: answer for answer in user_answers}
+                
+                # 状態フィルターに応じて問題をフィルタリング
+                if status == 'unanswered':
+                    # 未回答の問題のみ
+                    questions = [q for q in questions if q.id not in user_answer_dict]
+                elif status == 'correct':
+                    # 正解の問題のみ
+                    questions = [q for q in questions if q.id in user_answer_dict and user_answer_dict[q.id].is_correct]
+                elif status == 'incorrect':
+                    # 不正解の問題のみ
+                    questions = [q for q in questions if q.id in user_answer_dict and not user_answer_dict[q.id].is_correct]
+                # status == 'all' の場合は全ての問題を表示
+                
+                # デバッグ出力を追加
+                print(f"Debug - user_answer_dict keys: {list(user_answer_dict.keys())}")
+                print(f"Debug - questions after filter: {[q.id for q in questions]}")
+                print(f"Debug - status: {status}")
+                
+                # 問題数制限を適用
+                if num_questions != 'all' and len(questions) > num_questions:
+                    questions = random.sample(questions, num_questions)
+                    questions.sort(key=lambda x: x.question_number)
+                
+                # POSTリクエストがある場合のみ回答処理を実行
+                if request.method == 'POST':
+                    # POSTされたquestion_idをすべて取得
+                    post_question_ids = [
+                        int(key.replace('answer_', ''))
+                        for key in request.POST.keys()
+                        if key.startswith('answer_')
+                    ]
+                    
+                    # 既存の回答を削除（POSTされたquestion_idのみ）
+                    UserAnswer.objects.filter(
+                        user=request.user,
+                        question_id__in=post_question_ids
+                    ).delete()
+                    
+                    # 回答を保存
+                    for question_id in post_question_ids:
+                        answer_key = f'answer_{question_id}'
+                        selected_choice_id = request.POST.get(answer_key)
+                        if selected_choice_id:
+                            choice = Choice.objects.get(id=selected_choice_id)
+                            is_correct = choice.is_correct
+                            question = Question.objects.get(id=question_id)
+                            UserAnswer.objects.create(
+                                user=request.user,
+                                question=question,
+                                selected_choice=choice,
+                                is_correct=is_correct
+                            )
+                            # 進捗を更新
+                            update_user_progress(request.user, level, question_type, is_correct)
+
+                    # 今回回答したquestion_idと出題順序をセッションに保存
+                    request.session[f'answered_questions_{question_type}_{level}'] = post_question_ids
+
+                    return redirect('exams:answer_results', level=level, question_type=question_type)
+                
+                # GETリクエストの場合は問題を表示
+                # 問題と回答を組み合わせる
+                questions_with_answers = []
+                for question in questions:
+                    choices = Choice.objects.filter(question=question).order_by('order')
+                    correct_choice = choices.filter(is_correct=True).first()
+                    user_answer = user_answer_dict.get(question.id)
+                    
+                    questions_with_answers.append({
+                        'question': question,
+                        'choices': choices,
+                        'user_answer': user_answer.selected_choice if user_answer else None,
+                        'is_correct': user_answer.is_correct if user_answer else None,
+                        'correct_choice': correct_choice,
+                        'explanation': question.explanation
+                    })
+                
+                context = {
+                    'level': level,
+                    'question_type': question_type,
+                    'question_type_display': question_types.get(question_type, ''),
+                    'num_questions': num_questions,
+                    'status': status,
+                    'questions': questions_with_answers,
+                    'question_count_options': question_count_options,
+                }
+                return render(request, 'exams/question_list.html', context)
 
 @login_required
 def question_detail(request, question_id):
@@ -902,7 +851,7 @@ def submit_answers(request, level):
                         selected_reading_choice=choice,
                         is_correct=is_correct
                     )
-                    # 進捗を更新
+                # 進捗を更新
                     update_user_progress(request.user, level, 'reading_comprehension', is_correct)
 
             # 今回回答したquestion_idと出題順序をセッションに保存
@@ -1278,7 +1227,7 @@ def answer_results(request, level, question_type):
     # 正解数を計算
     correct_count = sum(1 for answer in user_answers if answer.is_correct)
     total_count = len(user_answers)
-
+    
     context = {
         'level': level,
         'question_type': question_type,
@@ -1287,6 +1236,24 @@ def answer_results(request, level, question_type):
         'total_count': total_count,
     }
     return render(request, 'exams/answer_results.html', context)
+
+@login_required
+def feedback_form(request):
+    """フィードバックフォームを表示・処理"""
+    if request.method == 'POST':
+        from .forms import FeedbackForm
+        form = FeedbackForm(request.POST)
+        if form.is_valid():
+            feedback = form.save(commit=False)
+            feedback.user = request.user
+            feedback.save()
+            messages.success(request, 'フィードバックを送信しました。ありがとうございます。')
+            return redirect('exams:exam_list')
+    else:
+        from .forms import FeedbackForm
+        form = FeedbackForm()
+    
+    return render(request, 'exams/feedback_form.html', {'form': form})
 
 @login_required
 def progress_view(request):
@@ -1298,97 +1265,25 @@ def progress_view(request):
     progress_data = {}
     for level in levels:
         level_progress = UserProgress.objects.filter(user=user, level=level)
-        
-        # 各問題タイプの総問題数を取得
-        total_questions = {
-            'grammar_fill': Question.objects.filter(level=level, question_type='grammar_fill').count(),
-            'conversation_fill': Question.objects.filter(level=level, question_type='conversation_fill').count(),
-            'word_order': Question.objects.filter(level=level, question_type='word_order').count(),
-            'reading_comprehension': ReadingPassage.objects.filter(level=level).count(),
-            'listening_illustration': ListeningQuestion.objects.filter(level=level).count(),
-            'listening_conversation': Question.objects.filter(level=level, question_type='listening_conversation').count(),
-            'listening_passage': Question.objects.filter(level=level, question_type='listening_passage').count(),
-        }
-        
-        # 今日の取り組み数を取得
-        today = timezone.now().date()
-        today_progress = DailyProgress.objects.filter(
-            user=user,
-            date=today,
-            level=level
-        )
-        
-        today_attempts = {}
-        for progress in today_progress:
-            today_attempts[progress.question_type] = progress.questions_attempted
-        
-        # 過去7日間の日々の取り組み数を取得
-        from datetime import timedelta
-        daily_data = {}
-        for i in range(7):
-            date = today - timedelta(days=i)
-            daily_progress = DailyProgress.objects.filter(
-                user=user,
-                date=date,
-                level=level
-            )
-            
-            daily_total = 0
-            for progress in daily_progress:
-                daily_total += progress.questions_attempted
-            
-            daily_data[date.strftime('%m/%d')] = daily_total
-        
         progress_data[level] = {
-            'grammar_fill': progress_to_dict_with_total_and_today(
-                level_progress.filter(question_type='grammar_fill').first(), 
-                total_questions['grammar_fill'],
-                today_attempts.get('grammar_fill', 0)
-            ),
-            'conversation_fill': progress_to_dict_with_total_and_today(
-                level_progress.filter(question_type='conversation_fill').first(), 
-                total_questions['conversation_fill'],
-                today_attempts.get('conversation_fill', 0)
-            ),
-            'word_order': progress_to_dict_with_total_and_today(
-                level_progress.filter(question_type='word_order').first(), 
-                total_questions['word_order'],
-                today_attempts.get('word_order', 0)
-            ),
-            'reading_comprehension': progress_to_dict_with_total_and_today(
-                level_progress.filter(question_type='reading_comprehension').first(), 
-                total_questions['reading_comprehension'],
-                today_attempts.get('reading_comprehension', 0)
-            ),
-            'listening_illustration': progress_to_dict_with_total_and_today(
-                level_progress.filter(question_type='listening_illustration').first(), 
-                total_questions['listening_illustration'],
-                today_attempts.get('listening_illustration', 0)
-            ),
-            'listening_conversation': progress_to_dict_with_total_and_today(
-                level_progress.filter(question_type='listening_conversation').first(), 
-                total_questions['listening_conversation'],
-                today_attempts.get('listening_conversation', 0)
-            ),
-            'listening_passage': progress_to_dict_with_total_and_today(
-                level_progress.filter(question_type='listening_passage').first(), 
-                total_questions['listening_passage'],
-                today_attempts.get('listening_passage', 0)
-            ),
-            'daily_data': daily_data  # 日々の取り組みデータを追加
+            'grammar_fill': progress_to_dict(level_progress.filter(question_type='grammar_fill').first(), 'grammar_fill', level),
+            'conversation_fill': progress_to_dict(level_progress.filter(question_type='conversation_fill').first(), 'conversation_fill', level),
+            'word_order': progress_to_dict(level_progress.filter(question_type='word_order').first(), 'word_order', level),
+            'reading_comprehension': progress_to_dict(level_progress.filter(question_type='reading_comprehension').first(), 'reading_comprehension', level),
+            'listening_illustration': progress_to_dict(level_progress.filter(question_type='listening_illustration').first(), 'listening_illustration', level),
+            'listening_conversation': progress_to_dict(level_progress.filter(question_type='listening_conversation').first(), 'listening_conversation', level),
+            'listening_passage': progress_to_dict(level_progress.filter(question_type='listening_passage').first(), 'listening_passage', level),
         }
         
         # デバッグ出力を追加
         print(f"Debug - Progress data for level {level}:")
         for question_type, progress in progress_data[level].items():
-            if question_type != 'daily_data':
-                print(f"  {question_type}: progress_rate={progress['progress_rate']}%, total_questions={progress['total_questions']}, attempted={progress['total_attempts']}, today={progress['today_attempts']}")
-        print(f"  Daily data: {progress_data[level]['daily_data']}")
+            print(f"  {question_type}: last_attempted={progress['last_attempted']}")
     
     return render(request, 'exams/progress.html', {
         'progress_data': progress_data,
         'levels': levels,
-        'progress_json': json.dumps(progress_data, cls=DateTimeEncoder)
+        'progress_json': json.dumps(progress_data)
     })
 
 def update_user_progress(user, level, question_type, is_correct):
@@ -1407,109 +1302,114 @@ def update_user_progress(user, level, question_type, is_correct):
     print(f"Debug - Before update: last_attempted={progress.last_attempted}")
     progress.update_progress(is_correct)
     print(f"Debug - After update: last_attempted={progress.last_attempted}")
-    
-    # 日々の進捗も更新
-    today = timezone.now().date()
-    daily_progress, daily_created = DailyProgress.objects.get_or_create(
-        user=user,
-        date=today,
-        level=level,
-        question_type=question_type,
-        defaults={
-            'questions_attempted': 0,
-            'correct_answers': 0
-        }
-    )
-    
-    daily_progress.questions_attempted += 1
-    if is_correct:
-        daily_progress.correct_answers += 1
-    daily_progress.save()
-    
-    print(f"Debug - Daily progress updated: {daily_progress.questions_attempted} questions attempted today")
 
-def progress_to_dict(progress):
+def progress_to_dict(progress, question_type, level):
     """進捗オブジェクトを辞書に変換"""
     if progress is None:
-        print(f"Debug - progress_to_dict: progress is None")
+        print(f"Debug - progress_to_dict: progress is None for {question_type}")
+        # データベースから実際の総問題数を取得
+        if question_type == 'listening_illustration':
+            total_questions = ListeningQuestion.objects.filter(level=level).count()
+        elif question_type == 'reading_comprehension':
+            total_questions = ReadingPassage.objects.filter(level=level).count()
+        else:
+            total_questions = Question.objects.filter(level=level, question_type=question_type).count()
+        
+        # 日ごとの取り組み数データを生成（過去7日間）
+        daily_data = {}
+        today = datetime.now().date()
+        for i in range(7):
+            date = today - timedelta(days=i)
+            daily_data[date.strftime('%Y-%m-%d')] = 0
+        
         return {
             'accuracy_rate': 0,
+            'progress_rate': 0,  # 取り組み率
             'total_attempts': 0,
             'correct_answers': 0,
-            'last_attempted': None
+            'incorrect_answers': 0,  # 不正解数
+            'total_questions': total_questions,  # 実際の総問題数
+            'today_attempts': 0,  # 今日の取り組み数（仮の値）
+            'last_attempted': None,
+            'daily_data': daily_data  # 日ごとの取り組み数
         }
+    
     print(f"Debug - progress_to_dict: progress.last_attempted={progress.last_attempted}")
     
-    result = {
-        'accuracy_rate': progress.accuracy_rate,
-        'total_attempts': progress.total_attempts,
-        'correct_answers': progress.correct_answers,
-        'last_attempted': progress.last_attempted  # datetimeオブジェクトをそのまま返す
-    }
-    print(f"Debug - progress_to_dict: result.last_attempted={result['last_attempted']}")
-    return result
-
-def progress_to_dict_with_total(progress, total_questions):
-    """進捗オブジェクトを辞書に変換（取り組み率計算付き）"""
-    if progress is None:
-        print(f"Debug - progress_to_dict_with_total: progress is None, total_questions={total_questions}")
-        return {
-            'progress_rate': 0,
-            'total_questions': total_questions,
-            'total_attempts': 0,
-            'correct_answers': 0,
-            'last_attempted': None
-        }
-    print(f"Debug - progress_to_dict_with_total: progress.last_attempted={progress.last_attempted}, total_questions={total_questions}")
-    
-    # 取り組み率を計算（回答した問題数 / 総問題数 * 100）
-    progress_rate = 0
-    if total_questions > 0:
-        progress_rate = round((progress.total_attempts / total_questions) * 100)  # 小数点以下を削除
-    
-    result = {
-        'progress_rate': progress_rate,
-        'total_questions': total_questions,
-        'total_attempts': progress.total_attempts,
-        'correct_answers': progress.correct_answers,
-        'last_attempted': progress.last_attempted  # datetimeオブジェクトをそのまま返す
-    }
-    print(f"Debug - progress_to_dict_with_total: result.progress_rate={result['progress_rate']}%")
-    return result
-
-def progress_to_dict_with_total_and_today(progress, total_questions, today_attempts):
-    """進捗オブジェクトを辞書に変換（取り組み率計算付き）"""
-    if progress is None:
-        print(f"Debug - progress_to_dict_with_total_and_today: progress is None, total_questions={total_questions}, today_attempts={today_attempts}")
-        return {
-            'progress_rate': 0,
-            'total_questions': total_questions,
-            'total_attempts': 0,
-            'correct_answers': 0,
-            'incorrect_answers': 0,
-            'today_attempts': today_attempts,
-            'last_attempted': None
-        }
-    print(f"Debug - progress_to_dict_with_total_and_today: progress.last_attempted={progress.last_attempted}, total_questions={total_questions}, today_attempts={today_attempts}")
-    
-    # 取り組み率を計算（回答した問題数 / 総問題数 * 100）
-    progress_rate = 0
-    if total_questions > 0:
-        progress_rate = round((progress.total_attempts / total_questions) * 100)  # 小数点以下を削除
+    # データベースから実際の総問題数を取得
+    if question_type == 'listening_illustration':
+        total_questions = ListeningQuestion.objects.filter(level=level).count()
+    elif question_type == 'reading_comprehension':
+        total_questions = ReadingPassage.objects.filter(level=level).count()
+    else:
+        total_questions = Question.objects.filter(level=level, question_type=question_type).count()
     
     # 不正解数を計算
     incorrect_answers = progress.total_attempts - progress.correct_answers
     
+    # 取り組み率を計算（総問題数に対する取り組み数の割合）
+    progress_rate = (progress.total_attempts / total_questions * 100) if total_questions > 0 else 0
+    
+    # 最終回答日を適切な形式で処理
+    last_attempted = None
+    if progress.last_attempted:
+        # 日付オブジェクトを文字列に変換（YYYY-MM-DD形式）
+        last_attempted = progress.last_attempted.strftime('%Y-%m-%d')
+    
+    # 日ごとの取り組み数データを生成（過去7日間）
+    daily_data = {}
+    today = datetime.now().date()
+    
+    # 過去7日間の日付を生成
+    for i in range(7):
+        date = today - timedelta(days=i)
+        daily_data[date.strftime('%Y-%m-%d')] = 0
+    
+    # UserProgressのtotal_attemptsから今日の取り組み数を推定
+    # 最終回答日が今日の場合、total_attemptsを今日の取り組み数として使用
+    today_attempts = 0
+    if progress.last_attempted:
+        last_attempted_date = progress.last_attempted.date()
+        if last_attempted_date == today:
+            # 今日回答した場合、total_attemptsを今日の取り組み数として使用
+            today_attempts = progress.total_attempts
+            daily_data[today.strftime('%Y-%m-%d')] = today_attempts
+        elif last_attempted_date == today - timedelta(days=1):
+            # 昨日回答した場合
+            daily_data[(today - timedelta(days=1)).strftime('%Y-%m-%d')] = progress.total_attempts
+        elif last_attempted_date == today - timedelta(days=2):
+            # 2日前に回答した場合
+            daily_data[(today - timedelta(days=2)).strftime('%Y-%m-%d')] = progress.total_attempts
+        elif last_attempted_date == today - timedelta(days=3):
+            # 3日前に回答した場合
+            daily_data[(today - timedelta(days=3)).strftime('%Y-%m-%d')] = progress.total_attempts
+        elif last_attempted_date == today - timedelta(days=4):
+            # 4日前に回答した場合
+            daily_data[(today - timedelta(days=4)).strftime('%Y-%m-%d')] = progress.total_attempts
+        elif last_attempted_date == today - timedelta(days=5):
+            # 5日前に回答した場合
+            daily_data[(today - timedelta(days=5)).strftime('%Y-%m-%d')] = progress.total_attempts
+        elif last_attempted_date == today - timedelta(days=6):
+            # 6日前に回答した場合
+            daily_data[(today - timedelta(days=6)).strftime('%Y-%m-%d')] = progress.total_attempts
+    
+    print(f"Debug - {question_type} today_attempts: {today_attempts}")
+    print(f"Debug - {question_type} daily_data: {daily_data}")
+    
     result = {
-        'progress_rate': progress_rate,
-        'total_questions': total_questions,
+        'accuracy_rate': progress.accuracy_rate,
+        'progress_rate': round(progress_rate, 1),  # 取り組み率（小数点1桁まで）
         'total_attempts': progress.total_attempts,
         'correct_answers': progress.correct_answers,
-        'incorrect_answers': incorrect_answers,
-        'today_attempts': today_attempts,
-        'last_attempted': progress.last_attempted  # datetimeオブジェクトをそのまま返す
+        'incorrect_answers': incorrect_answers,  # 不正解数
+        'total_questions': total_questions,  # 実際の総問題数
+        'today_attempts': today_attempts,  # 今日の取り組み数
+        'last_attempted': last_attempted,  # YYYY-MM-DD形式の文字列
+        'daily_data': daily_data  # 日ごとの取り組み数
     }
-    print(f"Debug - progress_to_dict_with_total_and_today: result.progress_rate={result['progress_rate']}%, incorrect_answers={result['incorrect_answers']}")
+    print(f"Debug - progress_to_dict: result.last_attempted={result['last_attempted']}")
+    print(f"Debug - progress_to_dict: total_questions={total_questions}, progress_rate={progress_rate}")
+    print(f"Debug - progress_to_dict: daily_data={daily_data}")
     return result
 
 @login_required

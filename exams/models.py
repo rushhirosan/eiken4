@@ -142,3 +142,28 @@ class DailyProgress(models.Model):
         if self.questions_attempted == 0:
             return 0
         return round((self.correct_answers / self.questions_attempted) * 100, 1)
+
+class Feedback(models.Model):
+    """ユーザーからのフィードバックを保存するモデル"""
+    FEEDBACK_TYPES = [
+        ('bug', 'バグ報告'),
+        ('feature', '機能要望'),
+        ('improvement', '改善提案'),
+        ('other', 'その他'),
+    ]
+    
+    user = models.ForeignKey(settings.AUTH_USER_MODEL, on_delete=models.CASCADE, null=True, blank=True)
+    feedback_type = models.CharField(max_length=20, choices=FEEDBACK_TYPES, verbose_name='フィードバック種別')
+    title = models.CharField(max_length=200, verbose_name='タイトル')
+    content = models.TextField(verbose_name='内容')
+    email = models.EmailField(verbose_name='メールアドレス', null=True, blank=True)
+    created_at = models.DateTimeField(auto_now_add=True, verbose_name='作成日時')
+    is_resolved = models.BooleanField(default=False, verbose_name='解決済み')
+    
+    class Meta:
+        verbose_name = 'フィードバック'
+        verbose_name_plural = 'フィードバック'
+        ordering = ['-created_at']
+    
+    def __str__(self):
+        return f"{self.get_feedback_type_display()} - {self.title}"
