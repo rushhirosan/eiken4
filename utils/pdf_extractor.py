@@ -7,6 +7,7 @@ import fitz  # PyMuPDF
 from pdf2image import convert_from_path
 import tempfile
 from gtts import gTTS
+import numpy as np
 
 def clean_text(text):
     """
@@ -218,6 +219,9 @@ def extract_images_from_pdf(pdf_path, output_dir=None, page_number=None):
         else:
             pages_to_process = range(len(doc))
         
+        # 画像の連番を管理（11から開始）
+        image_counter = 11
+        
         # 各ページを処理
         for page_num in pages_to_process:
             print(f"ページ {page_num + 1} を処理しています...")
@@ -255,12 +259,31 @@ def extract_images_from_pdf(pdf_path, output_dir=None, page_number=None):
                         image = image.convert('RGB')
                     elif image.mode == 'RGBA':
                         image = image.convert('RGB')
+                    elif image.mode == 'L':
+                        # グレースケール画像をRGBに変換（黒背景問題を解決）
+                        image = image.convert('RGB')
                     
-                    # 画像を保存
+                    # 画像が反転しているかチェック（黒背景問題の解決）
+                    if image.mode == 'RGB':
+                        img_array = np.array(image)
+                        # 暗いピクセル（値が50未満）の割合を計算
+                        dark_pixels = np.sum(img_array < 50)
+                        total_pixels = img_array.shape[0] * img_array.shape[1] * img_array.shape[2]
+                        dark_ratio = dark_pixels / total_pixels
+                        
+                        # 暗いピクセルが50%以上ある場合、画像を反転
+                        if dark_ratio > 0.5:
+                            print(f"画像が反転しているため、色を反転します（暗いピクセル割合: {dark_ratio:.2%}）")
+                            # 画像を反転（255から各ピクセル値を引く）
+                            img_array = 255 - img_array
+                            image = Image.fromarray(img_array, mode='RGB')
+                    
+                    # 変換処理はここまで。以降は画像をそのまま保存
                     if output_dir:
-                        output_path = os.path.join(output_dir, f"page_{page_num + 1}_image_{img_index + 1}.png")
+                        output_path = os.path.join(output_dir, f"listening_illustration_image{image_counter}.png")
                         image.save(output_path, "PNG", quality=95)
                         print(f"画像を {output_path} に保存しました。")
+                        image_counter += 1
                     
                     images.append(image)
                 except Exception as e:
