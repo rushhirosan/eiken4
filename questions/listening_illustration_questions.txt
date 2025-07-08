@@ -188,3 +188,187 @@ Please take one.
 【解説10】
 「もらっていい？」に対して「どうぞ、一冊持っていって」が自然な返答です。
 2と3は質問に答えていません。
+
+---
+
+No.11:
+W: Wow, is this chicken curry?
+M: That’s right.
+W: Who made it?
+
+Question No.11:
+1. It’s hot.
+2. Twenty dollars.
+3. I did.
+
+【正解11】
+3. I did.
+
+【解説11】
+女性が「Who made it?（誰が作ったの？）」と質問しているため、答えは「I did（私が作った）」が自然です。
+選択肢1「It’s hot（辛い／熱い）」や選択肢2「Twenty dollars（20ドル）」は、質問の内容と合っていないため不適切です。
+
+---
+
+No.12:
+W: Excuse me.  
+M: How can I help you?  
+W: Do you have apple juice?
+
+Question No.12:
+1. Sorry, we only have orange juice.  
+2. No, I just ate one.  
+3. Thanks a lot for coming.  
+
+【正解12】  
+1. Sorry, we only have orange juice.  
+
+【解説12】  
+「Do you have apple juice?（リンゴジュースはありますか？）」という質問には、飲み物の在庫に関する返答が自然です。選択肢1が適切です。他の選択肢は会話の内容に合いません。
+
+---
+
+No.13:
+M: Where are you, Andy?  
+W: In my room, Mom.  
+M: Hurry up, please. We have to go.
+
+Question No.13:
+1. For an hour.  
+2. I’m coming.  
+3. Over there.  
+
+【正解13】  
+2. I’m coming.  
+
+【解説13】  
+母親が急いでと言っているため、「今行きます」という意味の選択肢2が自然です。他の選択肢は場面と合っていません。
+
+---
+
+No.14:
+W: What time did you get up today?  
+M: Seven thirty. How about you?  
+W: Six o’clock.
+
+Question No.14:
+1. It’s on my bed.  
+2. I didn’t have time.  
+3. That’s so early.  
+
+【正解14】  
+3. That’s so early.  
+
+【解説14】  
+相手が自分より早く起きたことに対しての反応として「早いね」という選択肢3が自然です。他の選択肢は質問とつながりません。
+
+---
+
+No.15:
+M: When will your brother finish high school?  
+W: Next March.  
+M: What will he do after that?
+
+Question No.15:
+1. I have an English test.  
+2. He’ll go to university.  
+3. My sister will, too.  
+
+【正解15】  
+2. He’ll go to university.  
+
+【解説15】  
+「高校を卒業した後何をするか」という質問に対する直接的な返答が選択肢2です。選択肢1と3は文脈に合いません。
+
+---
+
+No.16:
+W: Let’s go to the beach together.  
+M: Sorry, I can’t.  
+W: Why?
+
+Question No.16:
+1. I love swimming.  
+2. I have a piano lesson.  
+3. With my friends.  
+
+【正解16】  
+2. I have a piano lesson.  
+
+【解説16】  
+行けない理由として「ピアノのレッスンがある」が自然な返答です。他の選択肢は理由として不十分です。
+
+---
+
+No.17:
+M: What time is it now?  
+W: It’s 7:30.  
+M: The store will close soon.
+
+Question No.17:
+1. We must hurry.  
+2. I’ll do it later.  
+3. On Sundays.  
+
+【正解17】  
+1. We must hurry.  
+
+【解説17】  
+店が閉まることに対して「急がなきゃ」と言う選択肢1が適切です。他の選択肢は話の流れと合いません。
+
+---
+
+No.18:
+W: Does this bus go to the train station?  
+M: Yes, it does.  
+W: How long will it take?
+
+Question No.18:
+1. It’ll be five dollars.  
+2. About 20 minutes.  
+3. I can take it.  
+
+【正解18】  
+2. About 20 minutes.  
+
+【解説18】  
+「どれくらいかかる？」という時間に関する質問なので、「約20分」という選択肢2が正しいです。1と3は質問とずれています。
+
+---
+
+No.19:
+M: Excuse me. Is this your phone?  
+W: Yes! Where was it?  
+M: On the bench.
+
+Question No.19:
+1. That’s not my number.  
+2. It’s near the park.  
+3. Thank you so much.  
+
+【正解19】  
+3. Thank you so much.  
+
+【解説19】  
+自分の物が見つかったときに感謝を述べるのが自然なので、選択肢3が最適です。
+
+---
+
+No.20:
+W: You look worried.  
+M: My homework is too hard.  
+W: I can help you.
+
+Question No.20:
+1. Thanks, you’re so kind.  
+2. I saw her.  
+3. I already did.  
+
+【正解20】  
+1. Thanks, you’re so kind.  
+
+【解説20】  
+助けを申し出られての感謝を表す選択肢1が自然です。他の選択肢は場面と合いません。
+
+---
+

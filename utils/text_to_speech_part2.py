@@ -99,10 +99,10 @@ async def text_to_speech(text, output_path, voice="en-US-GuyNeural"):
 
 async def main():
     # 入力ファイルのパス
-    input_file = 'questions/listening_passage_questions.txt'
+    input_file = 'questions/listening_conversation_questions.txt'
     
     # 出力ディレクトリ
-    output_dir = 'static/audio/part3'
+    output_dir = 'static/audio/part2'
     os.makedirs(output_dir, exist_ok=True)
     
     # ファイルを読み込み
@@ -131,7 +131,7 @@ async def main():
         conversation_parts, question = extract_conversation_parts(block)
         
         # 新しいファイル名（11〜20）
-        output_audio = os.path.join(output_dir, f'listening_passage_question{question_number}.mp3')
+        output_audio = os.path.join(output_dir, f'listening_conversation_question{question_number}.mp3')
         
         # 会話の音声ファイルを作成（順番通り、話者別）
         conversation_audio = os.path.join(output_dir, f'temp_conversation_{question_number}.mp3')

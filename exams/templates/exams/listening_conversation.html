@@ -60,7 +60,7 @@
                         <!-- 音声再生ボタン -->
                         <div class="mb-3">
                             <audio id="audio-{{ question.question.id }}" controls>
-                                <source src="/static/audio/part2/listening_conversation_question{{ question.question.question_number }}.mp3" type="audio/mpeg">
+                                <source src="{% static question.question.audio_file %}" type="audio/mpeg">
                                 Your browser does not support the audio element.
                             </audio>
                         </div>

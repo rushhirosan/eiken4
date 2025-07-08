@@ -1,0 +1,324 @@
+Watching for file changes with StatReloader
+[06/Jul/2025 23:14:28] "GET /exams/ HTTP/1.1" 200 29330
+[06/Jul/2025 23:14:28] "GET /static/debug_toolbar/js/toolbar.js HTTP/1.1" 304 0
+[06/Jul/2025 23:14:28] "GET /static/debug_toolbar/css/toolbar.css HTTP/1.1" 304 0
+[06/Jul/2025 23:14:28] "GET /static/debug_toolbar/css/print.css HTTP/1.1" 304 0
+[06/Jul/2025 23:14:28] "GET /static/debug_toolbar/js/utils.js HTTP/1.1" 304 0
+[06/Jul/2025 23:14:30] "GET /exams/level/4/?type=listening_illustration HTTP/1.1" 200 40515
+[06/Jul/2025 23:14:31] "GET /static/images/part1/listening_illustration_image1.png HTTP/1.1" 200 170772
+[06/Jul/2025 23:14:31] "GET /static/images/part1/listening_illustration_image6.png HTTP/1.1" 200 135065
+[06/Jul/2025 23:14:31] "GET /static/images/part1/listening_illustration_image20.png HTTP/1.1" 200 141955
+[06/Jul/2025 23:14:31] "GET /static/images/part1/listening_illustration_image12.png HTTP/1.1" 200 434203
+[06/Jul/2025 23:14:31] "GET /static/images/part1/listening_illustration_image5.png HTTP/1.1" 200 340280
+[06/Jul/2025 23:14:31] "GET /static/audio/part1/listening_illustration_question5.mp3 HTTP/1.1" 200 80780
+[06/Jul/2025 23:14:31] "GET /static/audio/part1/listening_illustration_question20.mp3 HTTP/1.1" 200 71660
+[06/Jul/2025 23:14:31] "GET /static/audio/part1/listening_illustration_question6.mp3 HTTP/1.1" 200 78572
+[06/Jul/2025 23:14:31] "GET /static/audio/part1/listening_illustration_question12.mp3 HTTP/1.1" 200 75596
+[06/Jul/2025 23:14:31] "GET /static/audio/part1/listening_illustration_question1.mp3 HTTP/1.1" 200 78764
+[06/Jul/2025 23:14:38] "GET /exams/level/4/?type=listening_illustration&num_questions=all&status=all HTTP/1.1" 200 84293
+[06/Jul/2025 23:14:38] "GET /static/images/part1/listening_illustration_image4.png HTTP/1.1" 200 214735
+[06/Jul/2025 23:14:38] "GET /static/images/part1/listening_illustration_image2.png HTTP/1.1" 200 153636
+[06/Jul/2025 23:14:38] "GET /static/images/part1/listening_illustration_image8.png HTTP/1.1" 200 192818
+[06/Jul/2025 23:14:38] "GET /static/images/part1/listening_illustration_image7.png HTTP/1.1" 200 139781
+[06/Jul/2025 23:14:38] "GET /static/audio/part1/listening_illustration_question1.mp3 HTTP/1.1" 200 78764
+[06/Jul/2025 23:14:38] "GET /static/images/part1/listening_illustration_image3.png HTTP/1.1" 200 182202
+[06/Jul/2025 23:14:38] "GET /static/audio/part1/listening_illustration_question3.mp3 HTTP/1.1" 200 81740
+[06/Jul/2025 23:14:38] "GET /static/audio/part1/listening_illustration_question6.mp3 HTTP/1.1" 200 78572
+[06/Jul/2025 23:14:38] "GET /static/audio/part1/listening_illustration_question4.mp3 HTTP/1.1" 200 84908
+[06/Jul/2025 23:14:38] "GET /static/audio/part1/listening_illustration_question2.mp3 HTTP/1.1" 200 85388
+[06/Jul/2025 23:14:38] "GET /static/images/part1/listening_illustration_image10.png HTTP/1.1" 200 154961
+[06/Jul/2025 23:14:38] "GET /static/images/part1/listening_illustration_image13.png HTTP/1.1" 200 281588
+[06/Jul/2025 23:14:38] "GET /static/images/part1/listening_illustration_image11.png HTTP/1.1" 200 299318
+[06/Jul/2025 23:14:38] "GET /static/images/part1/listening_illustration_image9.png HTTP/1.1" 200 142017
+[06/Jul/2025 23:14:38] "GET /static/images/part1/listening_illustration_image14.png HTTP/1.1" 200 439722
+[06/Jul/2025 23:14:38] "GET /static/audio/part1/listening_illustration_question7.mp3 HTTP/1.1" 200 87596
+[06/Jul/2025 23:14:38] "GET /static/images/part1/listening_illustration_image15.png HTTP/1.1" 200 359465
+[06/Jul/2025 23:14:38] "GET /static/images/part1/listening_illustration_image17.png HTTP/1.1" 404 2014
+[06/Jul/2025 23:14:38] "GET /static/images/part1/listening_illustration_image16.png HTTP/1.1" 200 180624
+[06/Jul/2025 23:14:38] "GET /static/audio/part1/listening_illustration_question8.mp3 HTTP/1.1" 200 79532
+[06/Jul/2025 23:14:38] "GET /static/audio/part1/listening_illustration_question9.mp3 HTTP/1.1" 200 79148
+[06/Jul/2025 23:14:38] "GET /static/audio/part1/listening_illustration_question10.mp3 HTTP/1.1" 200 77804
+[06/Jul/2025 23:14:38] "GET /static/images/part1/listening_illustration_image18.png HTTP/1.1" 200 205885
+[06/Jul/2025 23:14:38] "GET /static/audio/part1/listening_illustration_question16.mp3 HTTP/1.1" 200 71660
+[06/Jul/2025 23:14:38] "GET /static/audio/part1/listening_illustration_question13.mp3 HTTP/1.1" 200 77804
+[06/Jul/2025 23:14:38] "GET /static/audio/part1/listening_illustration_question11.mp3 HTTP/1.1" 200 68204
+[06/Jul/2025 23:14:38] "GET /static/audio/part1/listening_illustration_question14.mp3 HTTP/1.1" 200 79052
+[06/Jul/2025 23:14:38] "GET /static/audio/part1/listening_illustration_question15.mp3 HTTP/1.1" 200 80012
+[06/Jul/2025 23:14:38] "GET /static/audio/part1/listening_illustration_question17.mp3 HTTP/1.1" 200 71948
+[06/Jul/2025 23:14:39] "GET /static/audio/part1/listening_illustration_question18.mp3 HTTP/1.1" 200 76076
+[06/Jul/2025 23:14:39] "GET /static/images/part1/listening_illustration_image19.png HTTP/1.1" 200 149606
+[06/Jul/2025 23:14:39] "GET /static/audio/part1/listening_illustration_question19.mp3 HTTP/1.1" 200 83660
+[06/Jul/2025 23:20:08] "GET /exams/level/4/?type=listening_illustration&num_questions=all&status=all HTTP/1.1" 200 84293
+[06/Jul/2025 23:20:08] "GET /static/audio/part1/listening_illustration_question2.mp3 HTTP/1.1" 200 85388
+[06/Jul/2025 23:20:08] "GET /static/audio/part1/listening_illustration_question4.mp3 HTTP/1.1" 200 84908
+[06/Jul/2025 23:20:08] "GET /static/images/part1/listening_illustration_image17.png HTTP/1.1" 200 205885
+[06/Jul/2025 23:20:08] "GET /static/audio/part1/listening_illustration_question8.mp3 HTTP/1.1" 200 79532
+[06/Jul/2025 23:20:08] "GET /static/audio/part1/listening_illustration_question10.mp3 HTTP/1.1" 200 77804
+[06/Jul/2025 23:20:08] "GET /static/audio/part1/listening_illustration_question13.mp3 HTTP/1.1" 304 0
+[06/Jul/2025 23:20:08] "GET /static/audio/part1/listening_illustration_question11.mp3 HTTP/1.1" 304 0
+[06/Jul/2025 23:20:08] "GET /static/audio/part1/listening_illustration_question14.mp3 HTTP/1.1" 304 0
+[06/Jul/2025 23:20:08] "GET /static/audio/part1/listening_illustration_question16.mp3 HTTP/1.1" 304 0
+[06/Jul/2025 23:20:08] "GET /static/audio/part1/listening_illustration_question17.mp3 HTTP/1.1" 304 0
+[06/Jul/2025 23:20:08] "GET /static/audio/part1/listening_illustration_question18.mp3 HTTP/1.1" 304 0
+[06/Jul/2025 23:20:08] "GET /static/audio/part1/listening_illustration_question12.mp3 HTTP/1.1" 304 0
+[06/Jul/2025 23:20:08] "GET /static/audio/part1/listening_illustration_question15.mp3 HTTP/1.1" 304 0
+[06/Jul/2025 23:20:08] "GET /static/audio/part1/listening_illustration_question19.mp3 HTTP/1.1" 304 0
+[06/Jul/2025 23:20:08] "GET /static/audio/part1/listening_illustration_question20.mp3 HTTP/1.1" 304 0
+[07/Jul/2025 22:36:06] "GET /exams/ HTTP/1.1" 200 29331
+[07/Jul/2025 22:37:03] "GET /exams/level/4/?type=listening_conversation HTTP/1.1" 200 41158
+[07/Jul/2025 22:37:03] "GET /static/audio/part2/listening_conversation_question6.mp3 HTTP/1.1" 304 0
+[07/Jul/2025 22:37:03] "GET /static/audio/part2/listening_conversation_question9.mp3 HTTP/1.1" 200 80108
+[07/Jul/2025 22:37:03] "GET /static/audio/part2/listening_conversation_question10.mp3 HTTP/1.1" 200 86636
+[07/Jul/2025 22:37:03] "GET /static/audio/part2/listening_conversation_question8.mp3 HTTP/1.1" 304 0
+[07/Jul/2025 22:37:03] "GET /static/audio/part2/listening_conversation_question4.mp3 HTTP/1.1" 200 82700
+[07/Jul/2025 22:37:10] "GET /exams/level/4/?type=listening_conversation&num_questions=all&status=all HTTP/1.1" 200 56607
+[07/Jul/2025 22:37:11] "GET /static/audio/part2/listening_conversation_question3.mp3 HTTP/1.1" 304 0
+[07/Jul/2025 22:37:11] "GET /static/audio/part2/listening_conversation_question2.mp3 HTTP/1.1" 304 0
+[07/Jul/2025 22:37:11] "GET /static/audio/part2/listening_conversation_question1.mp3 HTTP/1.1" 304 0
+[07/Jul/2025 22:37:11] "GET /static/audio/part2/listening_conversation_question5.mp3 HTTP/1.1" 304 0
+[07/Jul/2025 22:37:11] "GET /static/audio/part2/listening_conversation_question7.mp3 HTTP/1.1" 200 80876
+[07/Jul/2025 22:44:18] "GET /exams/level/4/?type=listening_conversation&num_questions=all&status=all HTTP/1.1" 200 87499
+[07/Jul/2025 22:44:19] "GET /static/static/audio/part2/listening_conversation_question11.mp3 HTTP/1.1" 404 2041
+[07/Jul/2025 22:44:19] "GET /static/static/audio/part2/listening_conversation_question12.mp3 HTTP/1.1" 404 2041
+[07/Jul/2025 22:44:19] "GET /static/static/audio/part2/listening_conversation_question13.mp3 HTTP/1.1" 404 2041
+[07/Jul/2025 22:44:19] "GET /static/static/audio/part2/listening_conversation_question15.mp3 HTTP/1.1" 404 2041
+[07/Jul/2025 22:44:19] "GET /static/static/audio/part2/listening_conversation_question14.mp3 HTTP/1.1" 404 2041
+[07/Jul/2025 22:44:19] "GET /static/static/audio/part2/listening_conversation_question16.mp3 HTTP/1.1" 404 2041
+[07/Jul/2025 22:44:19] "GET /static/static/audio/part2/listening_conversation_question17.mp3 HTTP/1.1" 404 2041
+[07/Jul/2025 22:44:19] "GET /static/static/audio/part2/listening_conversation_question18.mp3 HTTP/1.1" 404 2041
+[07/Jul/2025 22:44:19] "GET /static/static/audio/part2/listening_conversation_question20.mp3 HTTP/1.1" 404 2041
+[07/Jul/2025 22:44:19] "GET /static/static/audio/part2/listening_conversation_question19.mp3 HTTP/1.1" 404 2041
+[07/Jul/2025 22:47:58] "GET /exams/level/4/?type=listening_conversation&num_questions=all&status=all HTTP/1.1" 200 87429
+[07/Jul/2025 22:47:58] "GET /static/audio/part2/listening_conversation_question13.mp3 HTTP/1.1" 200 119468
+[07/Jul/2025 22:47:58] "GET /static/audio/part2/listening_conversation_question14.mp3 HTTP/1.1" 200 112460
+[07/Jul/2025 22:47:58] "GET /static/audio/part2/listening_conversation_question11.mp3 HTTP/1.1" 200 104876
+[07/Jul/2025 22:47:58] "GET /static/audio/part2/listening_conversation_question12.mp3 HTTP/1.1" 200 105548
+[07/Jul/2025 22:47:59] "GET /static/audio/part2/listening_conversation_question15.mp3 HTTP/1.1" 200 115340
+[07/Jul/2025 22:47:59] "GET /static/audio/part2/listening_conversation_question16.mp3 HTTP/1.1" 200 125612
+[07/Jul/2025 22:47:59] "GET /static/audio/part2/listening_conversation_question17.mp3 HTTP/1.1" 200 102860
+[07/Jul/2025 22:47:59] "GET /static/audio/part2/listening_conversation_question19.mp3 HTTP/1.1" 200 114764
+[07/Jul/2025 22:47:59] "GET /static/audio/part2/listening_conversation_question20.mp3 HTTP/1.1" 200 112076
+[07/Jul/2025 22:47:59] "GET /static/audio/part2/listening_conversation_question18.mp3 HTTP/1.1" 200 118220
+[07/Jul/2025 22:48:07] "GET /exams/level/4/?type=listening_conversation&num_questions=3&status=all HTTP/1.1" 200 35159
+Not Found: /favicon.ico
+[07/Jul/2025 22:48:11] "GET /favicon.ico HTTP/1.1" 404 16388
+[07/Jul/2025 23:00:51] "GET /exams/level/4/?type=listening_conversation&num_questions=all&status=all HTTP/1.1" 200 87428
+Not Found: /favicon.ico
+[07/Jul/2025 23:01:00] "GET /favicon.ico HTTP/1.1" 404 16387
+[07/Jul/2025 23:11:33] "GET /exams/ HTTP/1.1" 200 29330
+[07/Jul/2025 23:11:38] "GET /exams/level/4/?type=listening_passage HTTP/1.1" 200 41234
+[07/Jul/2025 23:11:38] "GET /static/audio/part3/listening_passage_question1.mp3 HTTP/1.1" 304 0
+[07/Jul/2025 23:11:38] "GET /static/audio/part3/listening_passage_question10.mp3 HTTP/1.1" 304 0
+[07/Jul/2025 23:11:38] "GET /static/audio/part3/listening_passage_question8.mp3 HTTP/1.1" 304 0
+[07/Jul/2025 23:11:38] "GET /static/audio/part3/listening_passage_question2.mp3 HTTP/1.1" 304 0
+[07/Jul/2025 23:11:38] "GET /static/audio/part3/listening_passage_question9.mp3 HTTP/1.1" 304 0
+[07/Jul/2025 23:11:46] "GET /exams/level/4/?type=listening_passage&num_questions=all&status=all HTTP/1.1" 200 56611
+[07/Jul/2025 23:11:46] "GET /static/audio/part3/listening_passage_question3.mp3 HTTP/1.1" 304 0
+[07/Jul/2025 23:11:46] "GET /static/audio/part3/listening_passage_question5.mp3 HTTP/1.1" 304 0
+[07/Jul/2025 23:11:46] "GET /static/audio/part3/listening_passage_question7.mp3 HTTP/1.1" 304 0
+[07/Jul/2025 23:11:46] "GET /static/audio/part3/listening_passage_question6.mp3 HTTP/1.1" 304 0
+[07/Jul/2025 23:11:46] "GET /static/audio/part3/listening_passage_question4.mp3 HTTP/1.1" 304 0
+[07/Jul/2025 23:14:06] "GET /exams/level/4/?type=listening_passage&num_questions=all&status=all HTTP/1.1" 200 87299
+[07/Jul/2025 23:14:06] "GET /static/audio/part3/listening_passage_question11.mp3 HTTP/1.1" 200 57740
+[07/Jul/2025 23:14:06] "GET /static/audio/part3/listening_passage_question15.mp3 HTTP/1.1" 200 66476
+[07/Jul/2025 23:14:06] "GET /static/audio/part3/listening_passage_question13.mp3 HTTP/1.1" 200 51500
+[07/Jul/2025 23:14:06] "GET /static/audio/part3/listening_passage_question12.mp3 HTTP/1.1" 200 54572
+[07/Jul/2025 23:14:07] "GET /static/audio/part3/listening_passage_question14.mp3 HTTP/1.1" 200 58796
+[07/Jul/2025 23:14:07] "GET /static/audio/part3/listening_passage_question16.mp3 HTTP/1.1" 200 59372
+[07/Jul/2025 23:14:07] "GET /static/audio/part3/listening_passage_question20.mp3 HTTP/1.1" 200 58604
+[07/Jul/2025 23:14:07] "GET /static/audio/part3/listening_passage_question17.mp3 HTTP/1.1" 200 69164
+[07/Jul/2025 23:14:07] "GET /static/audio/part3/listening_passage_question19.mp3 HTTP/1.1" 200 52460
+[07/Jul/2025 23:14:07] "GET /static/audio/part3/listening_passage_question18.mp3 HTTP/1.1" 200 65804
+Not Found: /favicon.ico
+[07/Jul/2025 23:14:13] "GET /favicon.ico HTTP/1.1" 404 16388
+[07/Jul/2025 23:26:45] "GET /exams/level/4/?type=listening_passage&num_questions=all&status=all HTTP/1.1" 200 87297
+[07/Jul/2025 23:26:46] "GET /static/audio/part3/listening_passage_question11.mp3 HTTP/1.1" 304 0
+[07/Jul/2025 23:26:46] "GET /static/audio/part3/listening_passage_question12.mp3 HTTP/1.1" 304 0
+[07/Jul/2025 23:26:46] "GET /static/audio/part3/listening_passage_question13.mp3 HTTP/1.1" 304 0
+[07/Jul/2025 23:26:46] "GET /static/audio/part3/listening_passage_question14.mp3 HTTP/1.1" 304 0
+[07/Jul/2025 23:26:46] "GET /static/audio/part3/listening_passage_question15.mp3 HTTP/1.1" 304 0
+[07/Jul/2025 23:26:46] "GET /static/audio/part3/listening_passage_question16.mp3 HTTP/1.1" 304 0
+[07/Jul/2025 23:26:46] "GET /static/audio/part3/listening_passage_question17.mp3 HTTP/1.1" 304 0
+[07/Jul/2025 23:26:46] "GET /static/audio/part3/listening_passage_question18.mp3 HTTP/1.1" 304 0
+[07/Jul/2025 23:26:46] "GET /static/audio/part3/listening_passage_question19.mp3 HTTP/1.1" 304 0
+[07/Jul/2025 23:26:46] "GET /static/audio/part3/listening_passage_question20.mp3 HTTP/1.1" 304 0
+[07/Jul/2025 23:26:52] "GET /exams/ HTTP/1.1" 200 29331
+[07/Jul/2025 23:26:57] "GET /exams/level/4/?type=listening_conversation HTTP/1.1" 200 41294
+[07/Jul/2025 23:26:57] "GET /static/static/audio/part2/listening_conversation_question18.mp3 HTTP/1.1" 404 2041
+[07/Jul/2025 23:26:57] "GET /static/static/audio/part2/listening_conversation_question17.mp3 HTTP/1.1" 404 2041
+[07/Jul/2025 23:28:03] "GET /exams/level/4/?type=listening_conversation HTTP/1.1" 200 41161
+[07/Jul/2025 23:28:09] "GET /exams/level/4/?type=listening_conversation&num_questions=all&status=all HTTP/1.1" 200 87479
+Not Found: /favicon.ico
+[07/Jul/2025 23:28:15] "GET /favicon.ico HTTP/1.1" 404 16387
+[07/Jul/2025 23:35:35] "GET /exams/level/4/?type=listening_conversation&num_questions=all&status=all HTTP/1.1" 200 87480
+[07/Jul/2025 23:35:43] "GET /exams/ HTTP/1.1" 200 29331
+Performing system checks...
+
+System check identified no issues (0 silenced).
+July 06, 2025 - 23:13:53
+Django version 4.2.20, using settings 'eiken_project.settings'
+Starting development server at http://0.0.0.0:8000/
+Quit the server with CONTROL-C.
+
+Debug - question_list called with level=4, exam_id=None, question_type=listening_illustration
+Debug - request.GET: <QueryDict: {'type': ['listening_illustration']}>
+Debug - request.path: /exams/level/4/
+Debug - Level: 4, Question Type: listening_illustration
+Debug - Listening Illustration Questions: 20
+Debug - question_list called with level=4, exam_id=None, question_type=listening_illustration
+Debug - request.GET: <QueryDict: {'type': ['listening_illustration'], 'num_questions': ['all'], 'status': ['all']}>
+Debug - request.path: /exams/level/4/
+Debug - Level: 4, Question Type: listening_illustration
+Debug - Listening Illustration Questions: 20
+Debug - question_list called with level=4, exam_id=None, question_type=listening_illustration
+Debug - request.GET: <QueryDict: {'type': ['listening_illustration'], 'num_questions': ['all'], 'status': ['all']}>
+Debug - request.path: /exams/level/4/
+Debug - Level: 4, Question Type: listening_illustration
+Debug - Listening Illustration Questions: 20
+Debug - question_list called with level=4, exam_id=None, question_type=listening_conversation
+Debug - request.GET: <QueryDict: {'type': ['listening_conversation']}>
+Debug - request.path: /exams/level/4/
+Debug - Level: 4, Question Type: listening_conversation
+Debug - Regular Questions: 10
+Debug - user_answer_dict keys: []
+Debug - questions after filter: [146, 147, 148, 149, 150, 151, 152, 153, 154, 155]
+Debug - status: all
+Debug - question_list called with level=4, exam_id=None, question_type=listening_conversation
+Debug - request.GET: <QueryDict: {'type': ['listening_conversation'], 'num_questions': ['all'], 'status': ['all']}>
+Debug - request.path: /exams/level/4/
+Debug - Level: 4, Question Type: listening_conversation
+Debug - Regular Questions: 10
+Debug - user_answer_dict keys: []
+Debug - questions after filter: [146, 147, 148, 149, 150, 151, 152, 153, 154, 155]
+Debug - status: all
+Debug - question_list called with level=4, exam_id=None, question_type=listening_conversation
+Debug - request.GET: <QueryDict: {'type': ['listening_conversation'], 'num_questions': ['all'], 'status': ['all']}>
+Debug - request.path: /exams/level/4/
+Debug - Level: 4, Question Type: listening_conversation
+Debug - Regular Questions: 20
+Debug - user_answer_dict keys: []
+Debug - questions after filter: [146, 147, 148, 149, 150, 151, 152, 153, 154, 155, 564, 565, 566, 567, 568, 569, 570, 571, 572, 573]
+Debug - status: all
+Debug - question_list called with level=4, exam_id=None, question_type=listening_conversation
+Debug - request.GET: <QueryDict: {'type': ['listening_conversation'], 'num_questions': ['all'], 'status': ['all']}>
+Debug - request.path: /exams/level/4/
+Debug - Level: 4, Question Type: listening_conversation
+Debug - Regular Questions: 20
+Debug - user_answer_dict keys: []
+Debug - questions after filter: [146, 147, 148, 149, 150, 151, 152, 153, 154, 155, 564, 565, 566, 567, 568, 569, 570, 571, 572, 573]
+Debug - status: all
+Debug - question_list called with level=4, exam_id=None, question_type=listening_conversation
+Debug - request.GET: <QueryDict: {'type': ['listening_conversation'], 'num_questions': ['3'], 'status': ['all']}>
+Debug - request.path: /exams/level/4/
+Debug - Level: 4, Question Type: listening_conversation
+Debug - Regular Questions: 20
+Debug - user_answer_dict keys: []
+Debug - questions after filter: [146, 147, 148, 149, 150, 151, 152, 153, 154, 155, 564, 565, 566, 567, 568, 569, 570, 571, 572, 573]
+Debug - status: all
+Debug - question_list called with level=4, exam_id=None, question_type=listening_conversation
+Debug - request.GET: <QueryDict: {'type': ['listening_conversation'], 'num_questions': ['all'], 'status': ['all']}>
+Debug - request.path: /exams/level/4/
+Debug - Level: 4, Question Type: listening_conversation
+Debug - Regular Questions: 20
+Debug - user_answer_dict keys: []
+Debug - questions after filter: [146, 147, 148, 149, 150, 151, 152, 153, 154, 155, 564, 565, 566, 567, 568, 569, 570, 571, 572, 573]
+Debug - status: all
+Debug - question_list called with level=4, exam_id=None, question_type=listening_passage
+Debug - request.GET: <QueryDict: {'type': ['listening_passage']}>
+Debug - request.path: /exams/level/4/
+Debug - Level: 4, Question Type: listening_passage
+Debug - Regular Questions: 10
+Debug - user_answer_dict keys: []
+Debug - questions after filter: [156, 157, 158, 159, 160, 161, 162, 163, 164, 165]
+Debug - status: all
+Debug - question_list called with level=4, exam_id=None, question_type=listening_passage
+Debug - request.GET: <QueryDict: {'type': ['listening_passage'], 'num_questions': ['all'], 'status': ['all']}>
+Debug - request.path: /exams/level/4/
+Debug - Level: 4, Question Type: listening_passage
+Debug - Regular Questions: 10
+Debug - user_answer_dict keys: []
+Debug - questions after filter: [156, 157, 158, 159, 160, 161, 162, 163, 164, 165]
+Debug - status: all
+Debug - question_list called with level=4, exam_id=None, question_type=listening_passage
+Debug - request.GET: <QueryDict: {'type': ['listening_passage'], 'num_questions': ['all'], 'status': ['all']}>
+Debug - request.path: /exams/level/4/
+Debug - Level: 4, Question Type: listening_passage
+Debug - Regular Questions: 20
+Debug - user_answer_dict keys: []
+Debug - questions after filter: [156, 157, 158, 159, 160, 161, 162, 163, 164, 165, 574, 575, 576, 577, 578, 579, 580, 581, 582, 583]
+Debug - status: all
+Debug - question_list called with level=4, exam_id=None, question_type=listening_passage
+Debug - request.GET: <QueryDict: {'type': ['listening_passage'], 'num_questions': ['all'], 'status': ['all']}>
+Debug - request.path: /exams/level/4/
+Debug - Level: 4, Question Type: listening_passage
+Debug - Regular Questions: 20
+Debug - user_answer_dict keys: []
+Debug - questions after filter: [156, 157, 158, 159, 160, 161, 162, 163, 164, 165, 574, 575, 576, 577, 578, 579, 580, 581, 582, 583]
+Debug - status: all
+Debug - question_list called with level=4, exam_id=None, question_type=listening_conversation
+Debug - request.GET: <QueryDict: {'type': ['listening_conversation']}>
+Debug - request.path: /exams/level/4/
+Debug - Level: 4, Question Type: listening_conversation
+Debug - Regular Questions: 20
+Debug - user_answer_dict keys: []
+Debug - questions after filter: [146, 147, 148, 149, 150, 151, 152, 153, 154, 155, 584, 585, 586, 587, 588, 589, 590, 591, 592, 593]
+Debug - status: all
+Debug - question_list called with level=4, exam_id=None, question_type=listening_conversation
+Debug - request.GET: <QueryDict: {'type': ['listening_conversation']}>
+Debug - request.path: /exams/level/4/
+Debug - Level: 4, Question Type: listening_conversation
+Debug - Regular Questions: 20
+Debug - user_answer_dict keys: []
+Debug - questions after filter: [146, 147, 148, 149, 150, 151, 152, 153, 154, 155, 584, 585, 586, 587, 588, 589, 590, 591, 592, 593]
+Debug - status: all
+Debug - question_list called with level=4, exam_id=None, question_type=listening_conversation
+Debug - request.GET: <QueryDict: {'type': ['listening_conversation'], 'num_questions': ['all'], 'status': ['all']}>
+Debug - request.path: /exams/level/4/
+Debug - Level: 4, Question Type: listening_conversation
+Debug - Regular Questions: 20
+Debug - user_answer_dict keys: []
+Debug - questions after filter: [146, 147, 148, 149, 150, 151, 152, 153, 154, 155, 584, 585, 586, 587, 588, 589, 590, 591, 592, 593]
+Debug - status: all
+Debug - question_list called with level=4, exam_id=None, question_type=listening_conversation
+Debug - request.GET: <QueryDict: {'type': ['listening_conversation'], 'num_questions': ['all'], 'status': ['all']}>
+Debug - request.path: /exams/level/4/
+Debug - Level: 4, Question Type: listening_conversation
+Debug - Regular Questions: 20
+Debug - user_answer_dict keys: []
+Debug - questions after filter: [146, 147, 148, 149, 150, 151, 152, 153, 154, 155, 584, 585, 586, 587, 588, 589, 590, 591, 592, 593]
+Debug - status: all
+[07/Jul/2025 23:35:47] "GET /exams/level/4/?type=listening_conversation HTTP/1.1" 200 41256
+[07/Jul/2025 23:35:53] "GET /exams/level/4/?type=listening_conversation&num_questions=all&status=all HTTP/1.1" 200 87479
+Not Found: /favicon.ico
+[07/Jul/2025 23:36:15] "GET /favicon.ico HTTP/1.1" 404 16388
+[08/Jul/2025 22:28:20] "GET /exams/ HTTP/1.1" 200 29331
+[08/Jul/2025 22:28:23] "GET /exams/level/4/?type=listening_conversation HTTP/1.1" 200 41232
+[08/Jul/2025 22:28:33] "GET /exams/level/4/?type=listening_conversation&num_questions=all&status=all HTTP/1.1" 200 87481
+[08/Jul/2025 22:28:33] "GET /static/audio/part2/listening_conversation_question14.mp3 HTTP/1.1" 200 77132
+[08/Jul/2025 22:28:33] "GET /static/audio/part2/listening_conversation_question12.mp3 HTTP/1.1" 200 69356
+[08/Jul/2025 22:28:33] "GET /static/audio/part2/listening_conversation_question13.mp3 HTTP/1.1" 200 82220
+[08/Jul/2025 22:28:33] "GET /static/audio/part2/listening_conversation_question15.mp3 HTTP/1.1" 200 75116
+[08/Jul/2025 22:28:33] "GET /static/audio/part2/listening_conversation_question16.mp3 HTTP/1.1" 200 82892
+[08/Jul/2025 22:28:33] "GET /static/audio/part2/listening_conversation_question17.mp3 HTTP/1.1" 200 69164
+[08/Jul/2025 22:28:33] "GET /static/audio/part2/listening_conversation_question20.mp3 HTTP/1.1" 200 71660
+[08/Jul/2025 22:28:33] "GET /static/audio/part2/listening_conversation_question19.mp3 HTTP/1.1" 200 80780
+[08/Jul/2025 22:28:33] "GET /static/audio/part2/listening_conversation_question18.mp3 HTTP/1.1" 200 78956
+[08/Jul/2025 22:28:33] "GET /static/audio/part2/listening_conversation_question11.mp3 HTTP/1.1" 200 67820
+[08/Jul/2025 22:28:41] "GET /static/audio/part2/listening_conversation_question15.mp3 HTTP/1.1" 200 75116
+Not Found: /favicon.ico
+[08/Jul/2025 22:28:41] "GET /favicon.ico HTTP/1.1" 404 16388
+[08/Jul/2025 22:29:03] "GET /exams/ HTTP/1.1" 200 29330
+[08/Jul/2025 22:29:07] "GET /exams/level/4/?type=listening_passage HTTP/1.1" 200 41258
+[08/Jul/2025 22:29:07] "GET /static/audio/part3/listening_passage_question18.mp3 HTTP/1.1" 304 0
+[08/Jul/2025 22:29:07] "GET /static/audio/part3/listening_passage_question20.mp3 HTTP/1.1" 304 0
+[08/Jul/2025 22:29:07] "GET /static/audio/part3/listening_passage_question19.mp3 HTTP/1.1" 304 0
+[08/Jul/2025 22:29:07] "GET /static/audio/part3/listening_passage_question16.mp3 HTTP/1.1" 304 0
+[08/Jul/2025 22:29:13] "GET /exams/level/4/?type=listening_passage&num_questions=all&status=all HTTP/1.1" 200 87298
+[08/Jul/2025 22:29:13] "GET /static/audio/part3/listening_passage_question11.mp3 HTTP/1.1" 304 0
+[08/Jul/2025 22:29:13] "GET /static/audio/part3/listening_passage_question14.mp3 HTTP/1.1" 304 0
+[08/Jul/2025 22:29:13] "GET /static/audio/part3/listening_passage_question12.mp3 HTTP/1.1" 304 0
+[08/Jul/2025 22:29:13] "GET /static/audio/part3/listening_passage_question13.mp3 HTTP/1.1" 304 0
+[08/Jul/2025 22:29:13] "GET /static/audio/part3/listening_passage_question17.mp3 HTTP/1.1" 304 0
+[08/Jul/2025 22:29:13] "GET /static/audio/part3/listening_passage_question15.mp3 HTTP/1.1" 304 0
+Not Found: /favicon.ico
+[08/Jul/2025 22:29:17] "GET /favicon.ico HTTP/1.1" 404 16387

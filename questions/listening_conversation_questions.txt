@@ -218,3 +218,214 @@ What will they have for dinner?
 母が最後に「OK」と言っているため、息子の提案「I want pizza!」が夕食に決まったことがわかります。
 
 ---
+
+No.11:
+M: How was the concert last night?  
+W: My favorite band played, but I didn’t like it.  
+M: Why not?  
+W: They didn’t play well.  
+
+Question No.11:  
+Where did the boy go last night?  
+1. To his guitar lesson.  
+4. To a CD store.  
+3. To the girl’s house.  
+4. To a concert.  
+
+【正解11】  
+4. To a concert.  
+
+【解説11】  
+男の子は「My favorite band played（好きなバンドが演奏した）」と言っているので、昨夜コンサートに行ったことがわかります。
+
+---
+
+No.12:
+W: Where’s my math book, Dad?  
+M: It’s in the living room, Katie.  
+W: Really? I can’t see it.  
+M: It’s on the sofa.  
+
+Question No.12:  
+Where is the book?  
+1. On the floor.  
+2. On the sofa.  
+3. In Katie's room.  
+4. In the bedroom.  
+
+【正解12】  
+2. On the sofa.  
+
+【解説12】  
+父親が「It’s on the sofa（ソファの上にある）」と言っているので、場所はソファです。
+
+---
+
+No.13:
+W: I really like Mr. Gordon’s English class.  
+M: Me, too. He’s a good teacher.  
+W: Yeah. I like writing stories, too.  
+M: It’s a fun class.  
+
+Question No.13:  
+What are they talking about?  
+1. A new TV program.  
+2. A new bookstore.  
+3. Their English class.  
+4. Their favorite book.  
+
+【正解13】  
+3. Their English class.  
+
+【解説13】  
+会話の冒頭で「Mr. Gordon’s English class（ゴードン先生の英語の授業）」について話しており、楽しい授業だという話題になっているので英語の授業がテーマです。
+
+---
+
+No.14:
+M: Can we go to the zoo today, Mom?  
+W: No. It’s raining.  
+M: How about the space museum?  
+W: No. It’s too expensive.  
+
+Question No.14:  
+Why won’t they go to the zoo today?  
+1. It is raining.  
+2. It is closed.  
+3. It is too expensive
+4. It is too far.  
+
+【正解14】  
+1. It’s raining.  
+
+【解説14】  
+母親が「No. It’s raining（雨が降っているから）」と言っているので、理由は天候です。
+
+---
+
+No.15:
+M: Do you want some more spaghetti, Julie?  
+W: No, thanks. I want to eat dessert.  
+M: What did Dad make?  
+W: Apple pie.  
+
+Question No.15:  
+Why doesn’t Julie want more spaghetti?  
+1. She wants to eat dessert.  
+2. She doesn't like spaghetti.  
+3. She is thirsty.  
+4. The spaghetti is cold.  
+
+【正解15】  
+1. She wants to eat dessert.  
+
+【解説15】  
+ジュリーは「I want to eat dessert（デザートを食べたい）」と言っているので、これ以上スパゲッティを食べたくない理由はデザートを食べたいからです。
+
+---
+
+No.16:
+W: Excuse me. Do you work here?  
+M: Yes. Can I help you?  
+W: I bought this lamp here, but it’s broken.  
+M: OK. I’ll give you a new one.  
+
+Question No.16:  
+What is the woman’s problem?  
+1. She needs a job.  
+2. The man can’t help her.
+3. Her lamp is broken.  
+4. She lost her wallet.  
+
+【正解16】  
+3. Her lamp is broken.  
+
+【解説16】  
+女性は「it’s broken（壊れている）」と言っているので、買ったランプが壊れていることが問題です。
+
+---
+
+No.17:
+M: Does your father work at the hospital?  
+W: Yes, but he isn’t a doctor.  
+M: Is he a nurse?  
+W: No, he’s a cook.  
+
+Question No.17:  
+What is the girl’s father’s job?  
+1. He is a cook.  
+2. He is a doctor.  
+3. He is a nurse.  
+4. He is a teacher.  
+
+【正解17】  
+1. He is a cook.  
+
+【解説17】  
+女の子が「he’s a cook（料理人）」と答えているので、職業はコックです。
+
+---
+
+No.18:
+W: Let’s go to the movies sometime.  
+M: OK. How about tomorrow night?  
+W: I can’t. How about Saturday afternoon?  
+M: Sounds good.  
+
+Question No.18:  
+When will they go to the movies?  
+1. Tonight.  
+2. Tomorrow afternoon.  
+3. Tomorrow night.  
+4. On Saturday afternoon.  
+
+【正解18】  
+4. On Saturday afternoon.  
+
+【解説18】  
+土曜日の午後が都合が良いと女性が提案し、それに男性も同意しているので、映画に行くのは「On Saturday afternoon」です。
+
+---
+
+No.19:
+M: Did you enjoy the art contest, Sally?  
+W: Yes. I liked Sam’s painting, Tom.  
+M: I liked Mindy’s painting and Bob’s painting.  
+W: Oh, I see.  
+
+Question No.19:  
+Whose painting did Sally like?  
+1. Mindy’s.  
+2. Bob’s.  
+3. Sam’s.  
+4. Tom’s.  
+
+【正解19】  
+3. Sam’s.  
+
+【解説19】  
+サリーは「I liked Sam’s painting」と言っているので、サムの絵が好きだったと明言しています。
+
+---
+
+No.20:
+W: Why were you late today, Pete?  
+M: Sorry, Ms. Baker. I slept too long.  
+W: Please give me your homework.  
+M: Here you are.  
+
+Question No.20:  
+Why was Pete late?  
+1. He slept too long.
+2. He forgot his homework.  
+3. His bike is broken.  
+4. His train was late.  
+
+【正解20】  
+1. He slept too long.
+
+【解説20】  
+「I slept too long（寝すぎた）」と言っているので、遅れた理由は寝坊です。
+
+---
+

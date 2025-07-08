@@ -187,3 +187,194 @@ What time did the man take the train?
 「I missed the 9:00 a.m. train... I had to take the 9:30 a.m. train」と述べているので、乗ったのは9:30の電車です。
 
 ---
+
+No.11:  
+M: Andy went to a concert with two friends. The concert was four hours long. Andy was tired, but he had fun.
+
+Question No.11:  
+How long was the concert?
+
+1. An hour.
+2. Two hours.  
+3. Three hours.  
+4. Four hours.  
+
+【正解11】  
+4. Four hours.
+
+【解説11】  
+会話に「The concert was four hours long（コンサートは4時間でした）」とあるため、正解は「Four hours」です。他の選択肢は会話の内容と一致しません。
+
+---
+
+No.12:  
+W: Megan is busy because she’ll go on a trip tomorrow. Today, she has to go shopping after work and clean her house tonight.
+
+Question No.12:  
+What will Megan do tomorrow?
+
+1. Go shopping.  
+2. Go on a trip.  
+3. Clean her house.  
+4. Go to work.
+
+【正解12】  
+2. Go on a trip.
+
+【解説12】  
+「She’ll go on a trip tomorrow（彼女は明日旅行に行きます）」とあるため、正解は「Go on a trip」です。買い物や掃除は今日する予定のことです。
+
+---
+
+No.13:  
+M: My family has a pet dog. My mom and I play with him a lot, and my dad gives him food every day.
+
+Question No.13:  
+Who gives food to the dog every day?
+
+1. The boy.  
+2. The boy’s sister.  
+3. The boy’s mother.  
+4. The boy’s father.
+
+【正解13】  
+4. The boy’s father.
+
+【解説13】  
+「my dad gives him food every day（私の父が毎日餌をあげています）」とあるため、正解は「The boy’s father.」です。
+
+---
+
+No.14:  
+W: Laura usually makes her lunch and eats it at a park near her office. But yesterday was her friend’s birthday, so they ate at a restaurant.
+
+Question No.14:  
+Where does Laura usually eat lunch?
+
+1. At her friend’s house.  
+2. At a restaurant.  
+3. At her office.  
+4. At a park.
+
+【正解14】  
+4. At a park.
+
+【解説14】  
+「eats it at a park near her office（オフィスの近くの公園で食べる）」とあるため、正解は「At a park」です。レストランで食べたのは昨日だけです。
+
+---
+
+No.15:  
+W: Julie went shopping. She saw a nice red shirt, but it was too small. The store also had blue and white shirts. Julie bought a white one.
+
+Question No.15:  
+Which shirt was too small?
+
+1. The blue one.  
+2. The black one.  
+3. The white one.  
+4. The red one.  
+
+
+【正解15】  
+4. The red one.
+
+【解説15】  
+「a nice red shirt, but it was too small（赤いシャツは小さすぎた）」とあるため、正解は「The red one」です。
+
+---
+
+No.16:  
+M: Yesterday was Ray’s birthday. His mother gave him a sweater, and his father gave him a bike. He got a comic book from Helen.
+
+Question No.16:  
+What did Helen give to Ray?
+
+1. A sweater.  
+2. A bicycle.  
+3. A comic book.  
+4. A birthday card.
+
+【正解16】  
+3. A comic book.
+
+【解説16】  
+「He got a comic book from Helen（ヘレンからはマンガ本をもらった）」とあるため、正解は「A comic book」です。
+
+---
+
+No.17:  
+M: Every morning, I get up at 6:00. I get dressed, and then I eat breakfast at 6:30. I leave for school at 7:15, and I get there at 7:30.
+
+Question No.17:  
+What time does the boy eat breakfast?
+
+1. At 6:00.  
+2. At 6:30.  
+3. At 7:15.  
+4. At 7:30.
+
+【正解17】  
+2. At 6:30.
+
+【解説17】  
+「I eat breakfast at 6:30（6時30分に朝ごはんを食べます）」とあるため、正解は「At 6:30」です。
+
+---
+
+No.18:  
+M: On Monday afternoon, Mr. Tanaka’s students will study English. They will have an art class on Wednesday afternoon, and on Friday afternoon, they will take a test.
+
+Question No.18:  
+When will the students have an art class?
+
+1. On Monday.  
+2. On Wednesday.  
+3. On Thursday.  
+4. On Friday.
+
+【正解18】  
+2. On Wednesday.
+
+【解説18】  
+「They will have an art class on Wednesday afternoon（美術の授業は水曜の午後）」とあるため、正解は「On Wednesday」です。
+
+---
+
+No.19:  
+W: Ian didn’t go to school today. His mother had a baby last night, so he went to the hospital with his father today.
+
+Question No.19:  
+Where did Ian go today?
+
+1. To the hospital.  
+2. To school.  
+3. To his father’s office.
+4. To a park.  
+
+【正解19】  
+1. To the hospital.
+
+【解説19】  
+「he went to the hospital with his father today（父と一緒に病院へ行った）」とあるため、正解は「To the hospital」です。
+
+---
+
+No.20:  
+W: Marsha usually plays tennis on Saturdays. This weekend, it will rain, so Marsha will play video games at home with her brother.
+
+Question No.20:  
+What will Marsha do this weekend?
+
+1. Play video games.  
+2. Run with her brother.
+3. Go to a friend’s home.
+4. Watch tennis.  
+
+【正解20】  
+1. Play video games.
+
+【解説20】  
+「Marsha will play video games at home with her brother（ビデオゲームを兄と家で遊ぶ）」とあるため、正解は「Play video games」です。テニスは天気のためにできません。
+
+---

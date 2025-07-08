@@ -7,9 +7,12 @@ class Command(BaseCommand):
     help = 'listening_illustration_questions.txt からイラスト問題を画像・音声付きで登録する（選択肢数も正確に）'
 
     def handle(self, *args, **options):
-        # 既存のListeningQuestionを削除
-        ListeningQuestion.objects.all().delete()
-        self.stdout.write(self.style.WARNING('既存のListeningQuestionを全削除しました'))
+        # 既存のListeningQuestionを削除（11-20のみ）
+        for i in range(11, 21):
+            ListeningQuestion.objects.filter(level='4').filter(
+                image__endswith=f'listening_illustration_image{i}.png'
+            ).delete()
+        self.stdout.write(self.style.WARNING('既存のListeningQuestion（11-20）を削除しました'))
 
         # ファイルパス
         base_dir = settings.BASE_DIR
@@ -50,6 +53,9 @@ class Command(BaseCommand):
             # 問題番号取得
             try:
                 number = int(lines[0].replace('No.', '').replace(':', '').strip())
+                # 11-20のみを処理
+                if number < 11 or number > 20:
+                    continue
                 self.stdout.write(f'処理中の問題番号: {number}')
             except Exception as e:
                 self.stdout.write(self.style.ERROR(f'問題番号の取得に失敗: {e}'))
@@ -111,15 +117,15 @@ class Command(BaseCommand):
                 level='4'
             )
 
-            # 選択肢をテキストで登録
+            # 選択肢を番号で登録（既存の形式に合わせる）
             for i, choice_text in enumerate(choices, 1):
                 ListeningChoice.objects.create(
                     question=q,
-                    choice_text=choice_text,
+                    choice_text=str(i),  # 選択肢は番号のみ
                     is_correct=(choice_text == correct_answer),
                     order=i
                 )
 
             self.stdout.write(self.style.SUCCESS(f'問題 No.{number} を登録（選択肢{len(choices)}個, 正解: {correct_answer}）'))
 
-        self.stdout.write(self.style.SUCCESS('全てのイラストリスニング問題を登録しました')) 
+        self.stdout.write(self.style.SUCCESS('問題11-20のイラストリスニング問題を登録しました')) 
