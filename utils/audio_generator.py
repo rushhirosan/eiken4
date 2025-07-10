@@ -1,3 +1,4 @@
+#!/usr/bin/env python3
 import os
 import re
 import asyncio
@@ -9,7 +10,9 @@ def extract_conversation_parts(text):
     lines = text.strip().split('\n')
     conversation_parts = []
     question = []
+    choices = []
     is_question = False
+    is_choices = False
     skip_until_next_question = False
     
     for line in lines:
@@ -33,12 +36,16 @@ def extract_conversation_parts(text):
         # Question No.X: の場合
         if line.startswith('Question No.'):
             is_question = True
+            is_choices = False
             # Question のみを追加
             question.append("Question")
             continue
             
-        # 選択肢をスキップ（数字で始まる行）
+        # 選択肢の開始（数字で始まる行）
         if re.match(r'^\d+\.', line):
+            is_question = False
+            is_choices = True
+            choices.append(line)
             continue
             
         # M: と W: を順番通りに処理（話者情報付き）
@@ -48,8 +55,10 @@ def extract_conversation_parts(text):
             conversation_parts.append((speaker, text))
         elif is_question:
             question.append(line)
+        elif is_choices:
+            choices.append(line)
     
-    return conversation_parts, '\n'.join(question)
+    return conversation_parts, '\n'.join(question), '\n'.join(choices)
 
 def combine_audio_files(conversation_audio, question_audio, output_path):
     """音声ファイルを結合"""
@@ -81,6 +90,44 @@ def combine_audio_files(conversation_audio, question_audio, output_path):
     if os.path.exists(question_audio):
         os.remove(question_audio)
 
+def combine_audio_files_with_choices(conversation_audio, question_audio, choices_audio, output_path):
+    """音声ファイルを結合（選択肢付き）"""
+    # 音声ファイルを読み込み
+    audio_segments = []
+    
+    # 1秒の無音を作成
+    silence = AudioSegment.silent(duration=1000)
+    
+    # 会話の音声を追加
+    if os.path.exists(conversation_audio):
+        conversation_audio_segment = AudioSegment.from_mp3(conversation_audio)
+        audio_segments.append(conversation_audio_segment)
+        audio_segments.append(silence)
+    
+    # 問題の音声を追加
+    if os.path.exists(question_audio):
+        question_audio_segment = AudioSegment.from_mp3(question_audio)
+        audio_segments.append(question_audio_segment)
+        audio_segments.append(silence)
+    
+    # 選択肢の音声を追加
+    if os.path.exists(choices_audio):
+        choices_audio_segment = AudioSegment.from_mp3(choices_audio)
+        audio_segments.append(choices_audio_segment)
+    
+    # 音声を結合
+    if audio_segments:
+        combined_audio = sum(audio_segments)
+        combined_audio.export(output_path, format="mp3")
+    
+    # 一時ファイルを削除
+    if os.path.exists(conversation_audio):
+        os.remove(conversation_audio)
+    if os.path.exists(question_audio):
+        os.remove(question_audio)
+    if os.path.exists(choices_audio):
+        os.remove(choices_audio)
+
 async def text_to_speech(text, output_path, voice="en-US-GuyNeural"):
     """テキストを音声ファイルに変換する"""
     try:
@@ -97,12 +144,16 @@ async def text_to_speech(text, output_path, voice="en-US-GuyNeural"):
     except Exception as e:
         print(f"エラーが発生しました: {str(e)}")
 
-async def main():
-    # 入力ファイルのパス
-    input_file = 'questions/listening_passage_questions.txt'
+async def generate_audio_from_file(input_file, output_dir, question_range=None):
+    """
+    ファイルから音声を生成する
     
-    # 出力ディレクトリ
-    output_dir = 'static/audio/part3'
+    Args:
+        input_file (str): 入力ファイルのパス
+        output_dir (str): 出力ディレクトリのパス
+        question_range (tuple, optional): 問題範囲 (start, end)
+    """
+    # 出力ディレクトリを作成
     os.makedirs(output_dir, exist_ok=True)
     
     # ファイルを読み込み
@@ -123,15 +174,17 @@ async def main():
             
         question_number = int(number_match.group(1))
         
-        # 11問目から20問目のみを処理
-        if question_number < 11 or question_number > 20:
-            continue
+        # 問題範囲が指定されている場合はチェック
+        if question_range:
+            start_num, end_num = question_range
+            if question_number < start_num or question_number > end_num:
+                continue
         
-        # 会話と問題を抽出
-        conversation_parts, question = extract_conversation_parts(block)
+        # 会話と問題と選択肢を抽出
+        conversation_parts, question, choices = extract_conversation_parts(block)
         
-        # 新しいファイル名（11〜20）
-        output_audio = os.path.join(output_dir, f'listening_passage_question{question_number}.mp3')
+        # 音声ファイル名
+        output_audio = os.path.join(output_dir, f'listening_illustration_question{question_number}.mp3')
         
         # 会話の音声ファイルを作成（順番通り、話者別）
         conversation_audio = os.path.join(output_dir, f'temp_conversation_{question_number}.mp3')
@@ -162,10 +215,25 @@ async def main():
         print(f"Question {question_number} - Question text: {question}")
         await text_to_speech(question, question_audio, "en-US-GuyNeural")
         
-        # 音声ファイルを結合
-        combine_audio_files(conversation_audio, question_audio, output_audio)
+        # 選択肢の音声ファイルを作成
+        choices_audio = os.path.join(output_dir, f'temp_choices_{question_number}.mp3')
+        print(f"Question {question_number} - Choices: {choices}")
+        await text_to_speech(choices, choices_audio, "en-US-GuyNeural")
+        
+        # 音声ファイルを結合（会話 + 問題 + 選択肢）
+        combine_audio_files_with_choices(conversation_audio, question_audio, choices_audio, output_audio)
                 
         print(f"Processed question {question_number}")
+
+async def main():
+    # 設定
+    input_file = 'questions/listening_illustration_questions.txt'
+    output_dir = 'static/audio/part1'
+    question_range = (21, 30)  # 21問目から30問目
+    
+    # 音声を生成
+    await generate_audio_from_file(input_file, output_dir, question_range)
+    print("音声生成が完了しました。")
 
 if __name__ == "__main__":
     asyncio.run(main()) 
