@@ -65,29 +65,21 @@ class Command(BaseCommand):
     help = 'listening_conversation_questions.txt から問題11-20の会話問題を登録する'
 
     def handle(self, *args, **options):
-        # 既存の問題を削除（11-20のみ）
+        # 既存の問題を削除（21-30のみ）
         Question.objects.filter(
             question_type='listening_conversation',
-            question_number__in=range(11, 21)
+            question_number__in=range(21, 31)
         ).delete()
-        print('既存のリスニング会話問題（11-20）を削除しました')
+        print('既存のリスニング会話問題（21-30）を削除しました')
         
         # テキストファイルから問題を読み込む
         questions_data = parse_questions_from_file('questions/listening_conversation_questions.txt')
         print(f'parse_questions_from_fileで抽出された問題数: {len(questions_data)}')
-        for idx, data in enumerate(questions_data, 1):
-            print(f'--- 問題{idx} ---')
-            print(f'question_number: {data.get("question_number")!r}')
-            print(f'question_text: {data.get("question_text")!r}')
-            print(f'choices: {data.get("choices")!r}')
-            print(f'correct_answer_number: {data.get("correct_answer_number")!r}')
-            print(f'conversation: {data.get("conversation")!r}')
-            print(f'explanation: {data.get("explanation")!r}')
         
         for data in questions_data:
             question_number = data['question_number']
-            # 11-20のみを処理
-            if question_number < 11 or question_number > 20:
+            # 21-30のみを処理
+            if question_number < 21 or question_number > 30:
                 continue
             # 問題を作成
             question = Question.objects.create(
@@ -107,8 +99,8 @@ class Command(BaseCommand):
                     is_correct=(j == data['correct_answer_number']),
                     order=j
                 )
-            print(f'問題{question_number}を登録')
-        print('問題11-20のリスニング会話問題を登録しました')
+            print(f'問題{question_number}を登録（正解: {data["correct_answer_number"]}）')
+        print('問題21-30のリスニング会話問題を登録しました')
 
 def extract_conversation_and_question(text):
     """会話と問題を抽出"""

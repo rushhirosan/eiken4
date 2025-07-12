@@ -20,8 +20,8 @@ class Command(BaseCommand):
             if not passage_block.strip():
                 continue
 
-            # Extract passage text
-            passage_match = re.search(r'本文\d+\n(.*?)\n問題\d+a:', passage_block, re.DOTALL)
+            # Extract passage text - 修正されたパターン
+            passage_match = re.search(r'本文\d+\s*\n(.*?)\n問題\d+[a-z]:', passage_block, re.DOTALL)
             if not passage_match:
                 continue
             passage_text = passage_match.group(1).strip()
@@ -32,8 +32,8 @@ class Command(BaseCommand):
                 level='4'  # Default to Grade 4
             )
 
-            # Extract all questions for this passage
-            questions = re.finditer(r'問題\d+[a-z]:\s*(.*?)\n選択肢\d+[a-z]:\s*(.*?)\n【正解\d+[a-z]】\s*(.*?)\n【解説\d+[a-z]】\s*(.*?)(?=\n\n|$)', passage_block, re.DOTALL)
+            # Extract all questions for this passage - 修正されたパターン
+            questions = re.finditer(r'問題\d+[a-z]:\s*(.*?)\n選択肢\d+[a-z]:\s*(.*?)\n【正解\d+[a-z]】\s*(.*?)\n【解説\d+[a-z]】\s*(.*?)(?=\n\n|$|問題\d+[a-z]:)', passage_block, re.DOTALL)
             
             for i, question_match in enumerate(questions, 1):
                 question_text = question_match.group(1).strip()

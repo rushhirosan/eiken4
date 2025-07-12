@@ -429,3 +429,213 @@ Why was Pete late?
 
 ---
 
+No.21:
+M: It’s really raining hard outside, Jill.  
+W: I know, Dad.  
+M: Don’t ride your bike to school.  
+W: I’m going to take the bus.
+
+Question No.21:  
+How will Jill get to school?
+1. On foot.  
+2. By bike.  
+3. By bus.  
+4. By train.
+
+【正解21】  
+3. By bus.
+
+【解説21】  
+Jill が「I’m going to take the bus.」と言っているので、バスで通学するのが正解です。
+
+---
+
+No.22:
+M: Excuse me, ma’am.  
+W: Can I help you?  
+M: I’m looking for the Simpson Hotel, but I can’t find it.  
+W: It’s next to the train station.
+
+Question No.22:  
+What is the man doing?
+1. Looking for a hotel.  
+2. Helping the woman.  
+3. Eating at a restaurant.  
+4. Buying a ticket.
+
+【正解22】  
+1. Looking for a hotel.
+
+【解説22】  
+男性が「I’m looking for the Simpson Hotel」と言っているのでホテルを探しているのが正解です。
+
+---
+
+No.23:
+M: Hi, Mom. How was work?  
+W: Good. Did your dad call this afternoon?  
+M: Yes. He’ll be home at 5:30.  
+W: Thanks, Ken.
+
+Question No.23:  
+Who called this afternoon?
+1. Ken.  
+2. Ken’s mother.  
+3. Ken’s father.  
+4. Ken’s teacher.
+
+【正解23】  
+3. Ken’s father.
+
+【解説23】  
+母親が「Did your dad call this afternoon?」と尋ね、Ken が「Yes」と答えているので Ken’s father が正解です。
+
+---
+
+No.24:
+M: Are you from America, Angela?  
+W: No, I’m from Mexico.  
+M: You speak English very well.  
+W: Thanks. I studied in Canada for a year.
+
+Question No.24:  
+Where is Angela from?
+1. America.  
+2. England.  
+3. Mexico.  
+4. Canada.
+
+【正解24】  
+3. Mexico.
+
+【解説24】  
+Angela が「I’m from Mexico」と言っているので Mexico が正解です。
+
+---
+
+No.25:
+W: You play badminton very well, Bill.  
+M: Thanks, Emiko. I have badminton lessons three times a week.  
+W: Really? How long are your lessons?  
+M: Two hours.
+
+Question No.25:  
+How long are Bill’s badminton lessons?
+1. One hour.  
+2. Two hours.  
+3. Three hours.  
+4. Four hours.
+
+【正解25】  
+2. Two hours.
+
+【解説25】  
+Bill が「Two hours」と答えているので 2 時間が正解です。
+
+---
+
+No.26:
+W: I’ll go to my uncle’s house next month. He lives in Hokkaido.  
+M: Will you fly there?  
+W: No, I’ll take the train.  
+M: That sounds fun!
+
+Question No.26:  
+How will the girl go to her uncle’s house?
+1. By train.  
+2. By plane.  
+3. By bus.  
+4. By car.
+
+【正解26】  
+1. By train.
+
+【解説26】  
+「I’ll take the train」と言っているので列車で行くのが正解です。
+
+---
+
+No.27:
+M: I wrote a 25-page story, and it won a contest.  
+W: Amazing! What was the prize?  
+M: I got $100.  
+W: Wow, that’s a lot.
+
+Question No.27:  
+How much money did the boy win?
+1. $10.  
+2. $25.  
+3. $50.  
+4. $100.
+
+【正解27】  
+4. $100.
+
+【解説27】  
+「I got $100」と言っているので 100 ドルが正解です。
+
+---
+
+No.28:
+W: Where’s the coach? He’s late for basketball practice.  
+M: He sent a message. He just got on the bus.  
+W: Did he forget something?  
+M: No, his car isn’t working.
+
+Question No.28:  
+Why is the coach late?
+1. His car isn’t working.  
+2. He missed the bus.  
+3. He forgot his notebook.  
+4. He couldn’t find the basketballs.
+
+【正解28】  
+1. His car isn’t working.
+
+【解説28】  
+「His car isn’t working」とあるので車が故障しているのが正解です。
+
+---
+
+No.29:
+M: I need to go home soon. When does the game end?  
+W: It ends at four o’clock. It’s only two thirty now.  
+M: I can stay for one more hour.  
+W: OK.
+
+Question No.29:  
+When does the game end?
+1. At 1:00.  
+2. At 1:30.  
+3. At 2:30.  
+4. At 4:00.
+
+【正解29】  
+4. At 4:00.
+
+【解説29】  
+「It ends at four o’clock」とあるので 4:00 が正解です。
+
+---
+
+No.30:
+W: I spoke to our new neighbor at the café.  
+M: Did you have coffee together?  
+W: No, she was leaving for the bank.  
+M: You should invite her to dinner sometime.
+
+Question No.30:  
+Where did the woman speak to her neighbor?
+1. At the café.  
+2. At the bank.  
+3. At a market.  
+4. At her house.
+
+【正解30】  
+1. At the café.
+
+【解説30】  
+「I spoke to our new neighbor at the café」と言っているので At the café が正解です。
+
+---
+

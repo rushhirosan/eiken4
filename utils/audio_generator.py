@@ -184,7 +184,7 @@ async def generate_audio_from_file(input_file, output_dir, question_range=None):
         conversation_parts, question, choices = extract_conversation_parts(block)
         
         # 音声ファイル名
-        output_audio = os.path.join(output_dir, f'listening_illustration_question{question_number}.mp3')
+        output_audio = os.path.join(output_dir, f'listening_conversation_question{question_number}.mp3')
         
         # 会話の音声ファイルを作成（順番通り、話者別）
         conversation_audio = os.path.join(output_dir, f'temp_conversation_{question_number}.mp3')
@@ -215,20 +215,15 @@ async def generate_audio_from_file(input_file, output_dir, question_range=None):
         print(f"Question {question_number} - Question text: {question}")
         await text_to_speech(question, question_audio, "en-US-GuyNeural")
         
-        # 選択肢の音声ファイルを作成
-        choices_audio = os.path.join(output_dir, f'temp_choices_{question_number}.mp3')
-        print(f"Question {question_number} - Choices: {choices}")
-        await text_to_speech(choices, choices_audio, "en-US-GuyNeural")
-        
-        # 音声ファイルを結合（会話 + 問題 + 選択肢）
-        combine_audio_files_with_choices(conversation_audio, question_audio, choices_audio, output_audio)
+        # 音声ファイルを結合（会話 + 問題のみ）
+        combine_audio_files(conversation_audio, question_audio, output_audio)
                 
         print(f"Processed question {question_number}")
 
 async def main():
     # 設定
-    input_file = 'questions/listening_illustration_questions.txt'
-    output_dir = 'static/audio/part1'
+    input_file = 'questions/listening_passage_questions.txt'
+    output_dir = 'static/audio/part3'
     question_range = (21, 30)  # 21問目から30問目
     
     # 音声を生成
