@@ -3,12 +3,15 @@ from exams.models import Question, Choice
 import re
 
 class Command(BaseCommand):
-    help = 'Register grammar fill questions from text file'
+    help = 'Register grammar fill questions 151-165 from text file'
 
     def handle(self, *args, **options):
-        # Clear existing questions
-        Question.objects.filter(question_type='grammar_fill').delete()
-        self.stdout.write(self.style.SUCCESS('既存の文法語彙問題を削除しました'))
+        # Clear existing questions 151-165
+        Question.objects.filter(
+            question_type='grammar_fill',
+            question_number__in=range(151, 166)
+        ).delete()
+        self.stdout.write(self.style.WARNING('既存の文法語彙問題（151-165）を削除しました'))
         
         # Read the text file
         with open('questions/grammar_fill_questions.txt', 'r', encoding='utf-8') as file:
@@ -18,11 +21,21 @@ class Command(BaseCommand):
         questions = content.split('---')
         
         registered_count = 0
-        for i, question_block in enumerate(questions, 1):
+        for question_block in questions:
             if not question_block.strip():
                 continue
 
             try:
+                # Extract question number
+                question_number_match = re.search(r'問題(\d+):', question_block)
+                if not question_number_match:
+                    continue
+                question_number = int(question_number_match.group(1))
+                
+                # Only process questions 151-165
+                if question_number < 151 or question_number > 165:
+                    continue
+
                 # Extract question text
                 question_match = re.search(r'問題\d+:\s*(.*?)\s*選択肢\d+:', question_block, re.DOTALL)
                 if not question_match:
@@ -60,6 +73,7 @@ class Command(BaseCommand):
                     question_text=question_text,
                     level='4',  # Default to Grade 4
                     question_type='grammar_fill',
+                    question_number=question_number,
                     explanation=explanation
                 )
 
@@ -74,10 +88,10 @@ class Command(BaseCommand):
                     )
 
                 registered_count += 1
-                self.stdout.write(self.style.SUCCESS(f'問題{registered_count}を登録しました: {question_text[:50]}...'))
+                self.stdout.write(self.style.SUCCESS(f'問題{question_number}を登録しました: {question_text[:50]}...'))
                 
             except Exception as e:
-                self.stdout.write(self.style.ERROR(f'問題{i}の登録でエラー: {str(e)}'))
+                self.stdout.write(self.style.ERROR(f'問題{question_number}の登録でエラー: {str(e)}'))
                 continue
 
         self.stdout.write(self.style.SUCCESS(f'\n登録完了: {registered_count}問の問題を登録しました'))
