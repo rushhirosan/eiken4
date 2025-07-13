@@ -53,6 +53,11 @@ def extract_conversation_parts(text):
             speaker = 'M' if line.startswith('M:') else 'W'
             text = line[2:].strip()
             conversation_parts.append((speaker, text))
+        # ☆ と ★ を順番通りに処理（リスニングイラスト問題用）
+        elif line.startswith('☆') or line.startswith('★'):
+            speaker = 'W' if line.startswith('☆') else 'M'  # ☆を女性、★を男性として扱う
+            text = line[1:].strip()
+            conversation_parts.append((speaker, text))
         elif is_question:
             question.append(line)
         elif is_choices:
@@ -183,8 +188,8 @@ async def generate_audio_from_file(input_file, output_dir, question_range=None):
         # 会話と問題と選択肢を抽出
         conversation_parts, question, choices = extract_conversation_parts(block)
         
-        # 音声ファイル名
-        output_audio = os.path.join(output_dir, f'listening_conversation_question{question_number}.mp3')
+        # 音声ファイル名（passageに変更）
+        output_audio = os.path.join(output_dir, f'listening_passage_question{question_number}.mp3')
         
         # 会話の音声ファイルを作成（順番通り、話者別）
         conversation_audio = os.path.join(output_dir, f'temp_conversation_{question_number}.mp3')
@@ -224,7 +229,7 @@ async def main():
     # 設定
     input_file = 'questions/listening_passage_questions.txt'
     output_dir = 'static/audio/part3'
-    question_range = (21, 30)  # 21問目から30問目
+    question_range = (31, 40)  # 31問目から40問目
     
     # 音声を生成
     await generate_audio_from_file(input_file, output_dir, question_range)

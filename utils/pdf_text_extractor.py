@@ -47,7 +47,7 @@ def extract_text_from_pdf(pdf_path, output_path=None, page_range=None):
 
 def main():
     # 設定
-    pdf_path = "/Users/igusahiroyuki/Downloads/eiken/2025-1-1ji-4kyu.pdf"
+    pdf_path = "/Users/igusahiroyuki/Downloads/eiken/2025-1-1ji-4kyu_script.pdf"
     output_path = "output.txt"
     
     # 全ページを抽出する場合

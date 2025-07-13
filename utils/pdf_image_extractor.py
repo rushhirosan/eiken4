@@ -97,9 +97,9 @@ def extract_images_from_pdf(pdf_path, output_dir=None, start_number=1):
 
 def main():
     # 設定
-    pdf_path = "/Users/igusahiroyuki/Downloads/eiken/2024-1-1ji-4kyu.pdf"
+    pdf_path = "/Users/igusahiroyuki/Downloads/eiken/2025-1-1ji-4kyu.pdf"
     output_dir = "static/images/part1"
-    start_number = 21  # 画像ファイル名の開始番号
+    start_number = 31  # 画像ファイル名の開始番号
     
     # 画像を抽出
     total_images = extract_images_from_pdf(pdf_path, output_dir, start_number)

@@ -639,3 +639,210 @@ Where did the woman speak to her neighbor?
 
 ---
 
+No.31:
+W: Dad, can we have curry for lunch?
+M: We had curry yesterday. Let’s have pizza.
+W: I don’t like pizza. How about spaghetti?
+M: OK.
+
+Question No.31:
+What will they eat for lunch today?
+1. Soup.
+2. Pizza.
+3. Spaghetti.
+4. Curry.
+
+【正解31】
+3. Spaghetti.
+
+【解説31】
+最終的に「How about spaghetti?」に対して「OK」と答えているので Spaghetti が正解です。
+
+---
+
+No.32:
+M: What’s that, Brenda?
+W: A letter from my grandfather.
+M: Where does he live?
+W: In Miami. I’ll visit him this summer with my sister.
+
+Question No.32:
+Who lives in Miami?
+1. Brenda.
+2. Brenda’s grandfather.
+3. Brenda’s sister.
+4. The boy.
+
+【正解32】
+2. Brenda’s grandfather.
+
+【解説32】
+「He live[s] in Miami」と言っているので Brenda の祖父が正解です。
+
+---
+
+No.33:
+M: Where did you have dinner last night?
+W: At the new Italian restaurant.
+M: Was it good?
+W: Yes, the food was delicious.
+
+Question No.33:
+What are they talking about?
+1. Their Italian class.
+2. The woman’s trip to Italy.
+3. The man’s favorite food.
+4. A new restaurant.
+
+【正解33】
+4. A new restaurant.
+
+【解説33】
+「At the new Italian restaurant」と言っているので新しいレストランについて話しています。
+
+---
+
+No.34:
+W: This is a great party. These cookies are delicious.
+M: Yeah. Simon brought those.
+W: Did you bring something, Tom?
+M: Yes, the cherry pie.
+
+Question No.34:
+Who brought the cookies to the party?
+1. The girl.
+2. The girl’s mother.
+3. Tom.
+4. Simon.
+
+【正解34】
+4. Simon.
+
+【解説34】
+「Simon brought those」と言っているので Simon が正解です。
+
+---
+
+No.35:
+W: Why weren’t you at school yesterday?
+M: I went to the doctor because I had a cold.
+W: Do you feel better today?
+M: Yes.
+
+Question No.35:
+Where did the boy go yesterday?
+1. To school.
+2. To the doctor.
+3. To the girl’s house.
+4. To the supermarket.
+
+【正解35】
+2. To the doctor.
+
+【解説35】
+「I went to the doctor」と言っているので To the doctor が正解です。
+
+---
+
+No.36:
+M: Is your English speech contest next week?
+W: No, it’s this weekend. But I don’t have enough time to prepare.
+M: Why not?
+W: I have exams tomorrow, so I have to study.
+
+Question No.36:
+When is the girl’s English speech contest?
+1. Today.
+2. Tomorrow.
+3. This weekend.
+4. Next week.
+
+【正解36】
+3. This weekend.
+
+【解説36】
+「it’s this weekend」と言っているので This weekend が正解です。
+
+---
+
+No.37:
+W: What time is it now?
+M: It’s 8:55. The train left 10 minutes ago.
+W: Let’s take the next one.
+M: OK. It comes at 9:00.
+
+Question No.37:
+What time does the next train come?
+1. At 8:45.
+2. At 8:55.
+3. At 9:00.
+4. At 9:10.
+
+【正解37】
+3. At 9:00.
+
+【解説37】
+「It comes at 9:00」と言っているので 9:00 が正解です。
+
+---
+
+No.38:
+M: Mom, can I go to the library now?
+W: Do you need a book?
+M: No, I can see my favorite movie there for free.
+W: I see.
+
+Question No.38:
+Why does the boy want to go to the library?
+1. To read a book.
+2. To buy a ticket.
+3. To see a movie.
+4. To meet an actor.
+
+【正解38】
+3. To see a movie.
+
+【解説38】
+「I can see my favorite movie there」と言っているので映画を見るためです。
+
+---
+
+No.39:
+W: I went camping during the summer vacation.
+M: Cool. Did you go swimming in the lake?
+W: No. But we watched beautiful stars at night.
+M: That’s great.
+
+Question No.39:
+What did the girl do when she went camping?
+1. She climbed mountains.
+2. She swam in the lake.
+3. She went cycling.
+4. She watched stars.
+
+【正解39】
+4. She watched stars.
+
+【解説39】
+「we watched beautiful stars at night」と言っているので星を見たのが正解です。
+
+---
+
+No.40:
+W: Do you have a cold, Jack?
+M: No, Ms. Tanaka, but I’m tired.
+W: Go home and rest.
+M: Thank you. I’ll feel better soon.
+
+Question No.40:
+How is Jack feeling?
+1. He is cold.
+2. He is tired.
+3. He is excited.
+4. He is good.
+
+【正解40】
+2. He is tired.
+
+【解説40】
+「I’m tired」と Jack が言っているので tired が正解です。
