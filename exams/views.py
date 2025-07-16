@@ -9,6 +9,9 @@ import json
 from questions.models import ReadingPassage, ReadingQuestion, ReadingChoice, ListeningQuestion, ListeningUserAnswer, ListeningChoice
 from django.urls import reverse
 from django.utils import timezone
+import logging
+
+logger = logging.getLogger(__name__)
 
 @login_required
 def exam_list(request):
@@ -55,9 +58,9 @@ def question_list(request, level=None, exam_id=None):
     question_type = request.GET.get('type')
     
     # デバッグ出力を追加
-    print(f"Debug - question_list called with level={level}, exam_id={exam_id}, question_type={question_type}")
-    print(f"Debug - request.GET: {request.GET}")
-    print(f"Debug - request.path: {request.path}")
+    logger.debug(f"Debug - question_list called with level={level}, exam_id={exam_id}, question_type={question_type}")
+    logger.debug(f"Debug - request.GET: {request.GET}")
+    logger.debug(f"Debug - request.path: {request.path}")
     
     # 長文読解以外はデフォルト5問、長文読解はデフォルト3問
     if question_type == 'reading_comprehension':
@@ -75,7 +78,7 @@ def question_list(request, level=None, exam_id=None):
     
     status = request.GET.get('status', 'all')
     
-    print(f"Debug - Level: {level}, Question Type: {question_type}")  # デバッグ出力
+    logger.debug(f"Debug - Level: {level}, Question Type: {question_type}")  # デバッグ出力
     
     # 問題タイプの定義
     question_types = {
@@ -337,7 +340,7 @@ def question_list(request, level=None, exam_id=None):
     elif question_type == 'listening_illustration':
         # イラスト問題の場合
         questions = ListeningQuestion.objects.filter(level=level).order_by('id')
-        print(f"Debug - Listening Illustration Questions: {questions.count()}")  # デバッグ出力
+        logger.debug(f"Debug - Listening Illustration Questions: {questions.count()}")  # デバッグ出力
         
         # 「全て」が選択された場合は制限しない
         if num_questions != 'all' and len(questions) > num_questions:
@@ -370,7 +373,7 @@ def question_list(request, level=None, exam_id=None):
     elif question_type in ['listening_conversation', 'listening_passage']:
         # リスニング会話問題とリスニング文章問題の場合
         questions = Question.objects.filter(level=level, question_type=question_type).order_by('question_number')
-        print(f"Debug - Regular Questions: {questions.count()}")  # デバッグ出力
+        logger.debug(f"Debug - Regular Questions: {questions.count()}")  # デバッグ出力
         questions = list(questions)
         
         # ユーザーの回答履歴を取得
@@ -395,9 +398,9 @@ def question_list(request, level=None, exam_id=None):
         # status == 'all' の場合は全ての問題を表示
         
         # デバッグ出力を追加
-        print(f"Debug - user_answer_dict keys: {list(user_answer_dict.keys())}")
-        print(f"Debug - questions after filter: {[q.id for q in questions]}")
-        print(f"Debug - status: {status}")
+        logger.debug(f"Debug - user_answer_dict keys: {list(user_answer_dict.keys())}")
+        logger.debug(f"Debug - questions after filter: {[q.id for q in questions]}")
+        logger.debug(f"Debug - status: {status}")
         
         # 問題数制限を適用
         if num_questions != 'all' and len(questions) > num_questions:
@@ -472,7 +475,7 @@ def question_list(request, level=None, exam_id=None):
     elif question_type == 'reading_comprehension':
         # 長文読解問題の場合
         passages = list(ReadingPassage.objects.filter(level=level).order_by('id'))
-        print(f"Debug - Reading Passages: {len(passages)}")  # デバッグ出力
+        logger.debug(f"Debug - Reading Passages: {len(passages)}")  # デバッグ出力
         
         # 「全て」が選択された場合は制限しない
         if num_questions != 'all' and len(passages) > num_questions:
@@ -529,8 +532,8 @@ def question_list(request, level=None, exam_id=None):
     else:
         # 通常の問題の場合
         questions = Question.objects.filter(level=level, question_type=question_type).order_by('question_number')
-        print(f"Debug - Regular Questions: {questions.count()}")  # デバッグ出力
-        print(f"Debug - Level: {level}, Question Type: {question_type}")  # デバッグ出力
+        logger.debug(f"Debug - Regular Questions: {questions.count()}")  # デバッグ出力
+        logger.debug(f"Debug - Level: {level}, Question Type: {question_type}")  # デバッグ出力
         questions = list(questions)
         
         # ユーザーの回答履歴を取得
@@ -555,18 +558,18 @@ def question_list(request, level=None, exam_id=None):
         # status == 'all' の場合は全ての問題を表示
         
         # デバッグ出力を追加
-        print(f"Debug - user_answer_dict keys: {list(user_answer_dict.keys())}")
-        print(f"Debug - questions after filter: {[q.id for q in questions]}")
-        print(f"Debug - status: {status}")
-        print(f"Debug - num_questions: {num_questions}")
+        logger.debug(f"Debug - user_answer_dict keys: {list(user_answer_dict.keys())}")
+        logger.debug(f"Debug - questions after filter: {[q.id for q in questions]}")
+        logger.debug(f"Debug - status: {status}")
+        logger.debug(f"Debug - num_questions: {num_questions}")
         
         # 問題数制限を適用
         if num_questions != 'all' and len(questions) > num_questions:
             questions = random.sample(questions, num_questions)
             questions.sort(key=lambda x: x.question_number)
         
-        print(f"Debug - Final questions count: {len(questions)}")
-        print(f"Debug - Final question IDs: {[q.id for q in questions]}")
+        logger.debug(f"Debug - Final questions count: {len(questions)}")
+        logger.debug(f"Debug - Final question IDs: {[q.id for q in questions]}")
         
         # POSTリクエストがある場合のみ回答処理を実行
         if request.method == 'POST':
@@ -735,8 +738,8 @@ def submit_answers(request, level):
         else:
             num_questions = int(num_questions_param)
         
-        print(f"Debug - Submit Answers: question_type={question_type}, level={level}, num_questions={num_questions}")
-        print(f"Debug - POST data: {request.POST}")
+        logger.debug(f"Debug - Submit Answers: question_type={question_type}, level={level}, num_questions={num_questions}")
+        logger.debug(f"Debug - POST data: {request.POST}")
         
         if question_type == 'random':
             # ランダム10問の場合
@@ -919,7 +922,7 @@ def submit_answers(request, level):
         else:
             # 通常の問題の場合
             questions = Question.objects.filter(level=level, question_type=question_type).order_by('question_number')
-            print(f"Debug - Regular Questions: {questions.count()}")  # デバッグ出力
+            logger.debug(f"Debug - Regular Questions: {questions.count()}")  # デバッグ出力
             questions = list(questions)
             
             # ユーザーの回答履歴を取得
@@ -944,9 +947,9 @@ def submit_answers(request, level):
             # status == 'all' の場合は全ての問題を表示
             
             # デバッグ出力を追加
-            print(f"Debug - user_answer_dict keys: {list(user_answer_dict.keys())}")
-            print(f"Debug - questions after filter: {[q.id for q in questions]}")
-            print(f"Debug - status: {status}")
+            logger.debug(f"Debug - user_answer_dict keys: {list(user_answer_dict.keys())}")
+            logger.debug(f"Debug - questions after filter: {[q.id for q in questions]}")
+            logger.debug(f"Debug - status: {status}")
             
             # 問題数制限を適用
             if num_questions != 'all' and len(questions) > num_questions:
@@ -1091,7 +1094,7 @@ def answer_results(request, level, question_type):
         session_key = f'answered_questions_{question_type}_{level}'
         answered_question_ids = request.session.get(session_key, [])
         
-        print(f"Debug - Listening Illustration answered_question_ids: {answered_question_ids}")
+        logger.debug(f"Debug - Listening Illustration answered_question_ids: {answered_question_ids}")
         
         # 今回回答したquestion_idのListeningUserAnswerのみを取得
         user_answers = ListeningUserAnswer.objects.filter(
@@ -1190,8 +1193,8 @@ def answer_results(request, level, question_type):
         passage_order_key = f'passage_order_{question_type}_{level}'
         passage_order = request.session.get(passage_order_key, {})
         
-        print(f"Debug - answered_question_ids: {answered_question_ids}")
-        print(f"Debug - passage_order: {passage_order}")
+        logger.debug(f"Debug - answered_question_ids: {answered_question_ids}")
+        logger.debug(f"Debug - passage_order: {passage_order}")
         
         # 今回回答したquestion_idのReadingUserAnswerのみを取得
         user_answers = ReadingUserAnswer.objects.filter(
@@ -1222,7 +1225,7 @@ def answer_results(request, level, question_type):
                 'order': order_dict.get(answer.reading_question.id, 0)  # 出題順序を追加
             })
         
-        print(f"Debug - passages_with_answers keys: {[p.id for p in passages_with_answers.keys()]}")
+        logger.debug(f"Debug - passages_with_answers keys: {[p.id for p in passages_with_answers.keys()]}")
         
         # 各パッセージ内で出題順序でソート
         for passage in passages_with_answers:
@@ -1232,7 +1235,7 @@ def answer_results(request, level, question_type):
         sorted_passages = sorted(passages_with_answers.items(), key=lambda x: passage_order.get(str(x[0].id), 999))
         passages_with_answers = dict(sorted_passages)
         
-        print(f"Debug - sorted passages: {[p.id for p in passages_with_answers.keys()]}")
+        logger.debug(f"Debug - sorted passages: {[p.id for p in passages_with_answers.keys()]}")
         
         # 正解数を計算
         correct_count = sum(1 for answer in user_answers if answer.is_correct)
@@ -1315,9 +1318,9 @@ def progress_view(request):
         }
         
         # デバッグ出力を追加
-        print(f"Debug - Progress data for level {level}:")
+        logger.debug(f"Debug - Progress data for level {level}:")
         for question_type, progress in progress_data[level].items():
-            print(f"  {question_type}: last_attempted={progress['last_attempted']}")
+            logger.debug(f"  {question_type}: last_attempted={progress['last_attempted']}")
     
     return render(request, 'exams/progress.html', {
         'progress_data': progress_data,
@@ -1337,29 +1340,29 @@ def update_user_progress(user, level, question_type, is_correct):
             'last_attempted': timezone.now()
         }
     )
-    print(f"Debug - Updating progress for user={user.username}, level={level}, type={question_type}, is_correct={is_correct}")
-    print(f"Debug - Before update: last_attempted={progress.last_attempted}")
+    logger.debug(f"Debug - Updating progress for user={user.username}, level={level}, type={question_type}, is_correct={is_correct}")
+    logger.debug(f"Debug - Before update: last_attempted={progress.last_attempted}")
     progress.update_progress(is_correct)
-    print(f"Debug - After update: last_attempted={progress.last_attempted}")
+    logger.debug(f"Debug - After update: last_attempted={progress.last_attempted}")
 
 def progress_to_dict(progress):
     """進捗オブジェクトを辞書に変換"""
     if progress is None:
-        print(f"Debug - progress_to_dict: progress is None")
+        logger.debug(f"Debug - progress_to_dict: progress is None")
         return {
             'accuracy_rate': 0,
             'total_attempts': 0,
             'correct_answers': 0,
             'last_attempted': None
         }
-    print(f"Debug - progress_to_dict: progress.last_attempted={progress.last_attempted}")
+    logger.debug(f"Debug - progress_to_dict: progress.last_attempted={progress.last_attempted}")
     result = {
         'accuracy_rate': progress.accuracy_rate,
         'total_attempts': progress.total_attempts,
         'correct_answers': progress.correct_answers,
         'last_attempted': progress.last_attempted  # 日付オブジェクトをそのまま返す
     }
-    print(f"Debug - progress_to_dict: result.last_attempted={result['last_attempted']}")
+    logger.debug(f"Debug - progress_to_dict: result.last_attempted={result['last_attempted']}")
     return result
 
 @login_required
