@@ -10,11 +10,7 @@ def signup(request):
         if form.is_valid():
             user = form.save()
             login(request, user)
-            return redirect('home')
+            return redirect('exams:exam_list')
     else:
         form = CustomUserCreationForm()
     return render(request, 'accounts/signup.html', {'form': form})
-
-@login_required
-def home(request):
-    return render(request, 'accounts/home.html')
