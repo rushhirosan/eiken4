@@ -142,9 +142,9 @@ def question_list(request, level=None, exam_id=None):
         # 各カテゴリーから2問ずつ取得（合計12問、その後10問に絞る）
         for category_type, model_class in categories:
             if model_class == ListeningQuestion:
-                questions = model_class.objects.filter(level=level).order_by('?')[:2]
+                questions = model_class.objects.filter(level=str(level)).order_by('?')[:2]
             else:
-                questions = model_class.objects.filter(level=level, question_type=category_type).order_by('?')[:2]
+                questions = model_class.objects.filter(level=str(level), question_type=category_type).order_by('?')[:2]
             
             for question in questions:
                 if model_class == ListeningQuestion:
@@ -223,7 +223,7 @@ def question_list(request, level=None, exam_id=None):
         
         for category_type, model_class, num_questions in exam_structure:
             if model_class == ListeningQuestion:
-                questions = model_class.objects.filter(level=level).order_by('?')[:num_questions]
+                questions = model_class.objects.filter(level=str(level)).order_by('?')[:num_questions]
                 for question in questions:
                     choices = ListeningChoice.objects.filter(question=question).order_by('order')
                     listening_questions.append({
@@ -240,7 +240,7 @@ def question_list(request, level=None, exam_id=None):
                     })
                     question_counter += 1
             elif model_class == ReadingPassage:
-                passages = model_class.objects.filter(level=level).order_by('?')[:num_questions]
+                passages = model_class.objects.filter(level=str(level)).order_by('?')[:num_questions]
                 # パッセージから問題を取得
                 for passage in passages:
                     passage_questions = ReadingQuestion.objects.filter(passage=passage).order_by('question_number')
@@ -263,7 +263,7 @@ def question_list(request, level=None, exam_id=None):
                         'category_order': exam_structure.index((category_type, model_class, num_questions))
                     })
             else:
-                questions = model_class.objects.filter(level=level, question_type=category_type).order_by('?')[:num_questions]
+                questions = model_class.objects.filter(level=str(level), question_type=category_type).order_by('?')[:num_questions]
                 for question in questions:
                     choices = Choice.objects.filter(question=question).order_by('order')
                     correct_choice = choices.filter(is_correct=True).first()
@@ -339,7 +339,7 @@ def question_list(request, level=None, exam_id=None):
     
     elif question_type == 'listening_illustration':
         # イラスト問題の場合
-        questions = ListeningQuestion.objects.filter(level=level).order_by('id')
+        questions = ListeningQuestion.objects.filter(level=str(level)).order_by('id')
         logger.debug(f"Debug - Listening Illustration Questions: {questions.count()}")  # デバッグ出力
         
         # 「全て」が選択された場合は制限しない
@@ -372,7 +372,7 @@ def question_list(request, level=None, exam_id=None):
     
     elif question_type in ['listening_conversation', 'listening_passage']:
         # リスニング会話問題とリスニング文章問題の場合
-        questions = Question.objects.filter(level=level, question_type=question_type).order_by('question_number')
+        questions = Question.objects.filter(level=str(level), question_type=question_type).order_by('question_number')
         logger.debug(f"Debug - Regular Questions: {questions.count()}")  # デバッグ出力
         questions = list(questions)
         
@@ -474,7 +474,7 @@ def question_list(request, level=None, exam_id=None):
 
     elif question_type == 'reading_comprehension':
         # 長文読解問題の場合
-        passages = list(ReadingPassage.objects.filter(level=level).order_by('id'))
+        passages = list(ReadingPassage.objects.filter(level=str(level)).order_by('id'))
         logger.debug(f"Debug - Reading Passages: {len(passages)}")  # デバッグ出力
         
         # 「全て」が選択された場合は制限しない
@@ -531,7 +531,7 @@ def question_list(request, level=None, exam_id=None):
     
     else:
         # 通常の問題の場合
-        questions = Question.objects.filter(level=level, question_type=question_type).order_by('question_number')
+        questions = Question.objects.filter(level=str(level), question_type=question_type).order_by('question_number')
         logger.debug(f"Debug - Regular Questions: {questions.count()}")  # デバッグ出力
         logger.debug(f"Debug - Level: {level}, Question Type: {question_type}")  # デバッグ出力
         questions = list(questions)
@@ -792,7 +792,7 @@ def submit_answers(request, level):
         
         elif question_type == 'listening_illustration':
             # イラスト問題の場合
-            questions = ListeningQuestion.objects.filter(level=level).order_by('id')
+            questions = ListeningQuestion.objects.filter(level=str(level)).order_by('id')
             # 「全て」が選択された場合は制限しない
             if num_questions != 'all' and len(questions) > num_questions:
                 questions = random.sample(list(questions), num_questions)
