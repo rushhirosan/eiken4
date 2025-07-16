@@ -32,7 +32,7 @@
     {% endfor %}
 
     <div class="text-center mt-4">
-        <a href="{% url 'exams:question_list' level=level %}" class="btn btn-primary">もう一度解く</a>
+        <a href="{% url 'exams:question_list_by_level' level=level %}" class="btn btn-primary">もう一度解く</a>
         <a href="{% url 'exams:exam_list' %}" class="btn btn-secondary">問題一覧に戻る</a>
     </div>
 </div>

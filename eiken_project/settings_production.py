@@ -1,8 +1,9 @@
 """
-Production settings for eiken_project.
+Django settings for eiken_project project - Production settings for Fly.io
 """
 
 import os
+import dj_database_url
 from pathlib import Path
 from .settings import *
 
@@ -15,29 +16,17 @@ SECRET_KEY = os.environ.get('SECRET_KEY', 'django-insecure-2ur(6(@gfj_21u@d@dtla
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = [
-    'localhost',
-    '127.0.0.1',
-    '.railway.app',
-    '.render.com',
-    '.herokuapp.com',
-]
-
-# Add your domain here when you have one
-# ALLOWED_HOSTS.append('yourdomain.com')
+ALLOWED_HOSTS = ['*']
 
 # Database
 # https://docs.djangoproject.com/en/4.2/ref/settings/#databases
 
 DATABASES = {
-    'default': {
-        'ENGINE': 'django.db.backends.postgresql',
-        'NAME': os.environ.get('DATABASE_NAME', 'eiken_db'),
-        'USER': os.environ.get('DATABASE_USER', 'postgres'),
-        'PASSWORD': os.environ.get('DATABASE_PASSWORD', ''),
-        'HOST': os.environ.get('DATABASE_HOST', 'localhost'),
-        'PORT': os.environ.get('DATABASE_PORT', '5432'),
-    }
+    'default': dj_database_url.config(
+        default=os.environ.get('DATABASE_URL'),
+        conn_max_age=600,
+        conn_health_checks=True,
+    )
 }
 
 # Static files (CSS, JavaScript, Images)
@@ -46,12 +35,8 @@ DATABASES = {
 STATIC_URL = '/static/'
 STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
 
-# Add whitenoise middleware for static files
-MIDDLEWARE = [
-    'whitenoise.middleware.WhiteNoiseMiddleware',
-] + MIDDLEWARE
-
-# Configure whitenoise
+# Whitenoise for static files
+MIDDLEWARE.insert(1, 'whitenoise.middleware.WhiteNoiseMiddleware')
 STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
 
 # Security settings
@@ -59,10 +44,19 @@ SECURE_BROWSER_XSS_FILTER = True
 SECURE_CONTENT_TYPE_NOSNIFF = True
 X_FRAME_OPTIONS = 'DENY'
 
-# HTTPS settings (uncomment when you have SSL)
+# HTTPS settings (for production) - REMOVED to prevent redirect loop
 # SECURE_SSL_REDIRECT = True
-# SESSION_COOKIE_SECURE = True
-# CSRF_COOKIE_SECURE = True
+# SECURE_HSTS_SECONDS = 31536000
+# SECURE_HSTS_INCLUDE_SUBDOMAINS = True
+# SECURE_HSTS_PRELOAD = True
+
+# Session settings
+SESSION_COOKIE_SECURE = True
+CSRF_COOKIE_SECURE = True
+
+# Remove debug toolbar in production
+INSTALLED_APPS.remove('debug_toolbar')
+MIDDLEWARE.remove('debug_toolbar.middleware.DebugToolbarMiddleware')
 
 # Logging
 LOGGING = {
@@ -77,8 +71,4 @@ LOGGING = {
         'handlers': ['console'],
         'level': 'INFO',
     },
-}
-
-# Remove debug toolbar from production
-INSTALLED_APPS = [app for app in INSTALLED_APPS if app != 'debug_toolbar']
-MIDDLEWARE = [middleware for middleware in MIDDLEWARE if 'debug_toolbar' not in middleware] 
+} 

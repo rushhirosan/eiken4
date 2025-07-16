@@ -849,3 +849,97 @@ Not Found: /favicon.ico
 [13/Jul/2025 23:43:36] "GET /static/audio/part3/listening_passage_question39.mp3 HTTP/1.1" 200 60044
 [13/Jul/2025 23:43:42] "GET /exams/ HTTP/1.1" 200 29331
 [13/Jul/2025 23:46:11] "GET /exams/ HTTP/1.1" 200 29491
+/Users/igusahiroyuki/PycharmProjects/eiken/eiken_project/urls.py changed, reloading.
+Debug - question_list called with level=4, exam_id=None, question_type=listening_passage
+Debug - request.GET: <QueryDict: {'type': ['listening_passage']}>
+Debug - request.path: /exams/level/4/
+Debug - Level: 4, Question Type: listening_passage
+Debug - Regular Questions: 30
+Debug - user_answer_dict keys: []
+Debug - questions after filter: [156, 157, 158, 159, 160, 161, 162, 163, 164, 165, 574, 575, 576, 577, 578, 579, 580, 581, 582, 583, 614, 615, 616, 617, 618, 619, 620, 621, 622, 623]
+Debug - status: all
+Debug - question_list called with level=4, exam_id=None, question_type=listening_passage
+Debug - request.GET: <QueryDict: {'type': ['listening_passage'], 'num_questions': ['all'], 'status': ['all']}>
+Debug - request.path: /exams/level/4/
+Debug - Level: 4, Question Type: listening_passage
+Debug - Regular Questions: 30
+Debug - user_answer_dict keys: []
+Debug - questions after filter: [156, 157, 158, 159, 160, 161, 162, 163, 164, 165, 574, 575, 576, 577, 578, 579, 580, 581, 582, 583, 614, 615, 616, 617, 618, 619, 620, 621, 622, 623]
+Debug - status: all
+Debug - question_list called with level=4, exam_id=None, question_type=listening_illustration
+Debug - request.GET: <QueryDict: {'type': ['listening_illustration']}>
+Debug - request.path: /exams/level/4/
+Debug - Level: 4, Question Type: listening_illustration
+Debug - Listening Illustration Questions: 40
+Debug - question_list called with level=4, exam_id=None, question_type=listening_illustration
+Debug - request.GET: <QueryDict: {'type': ['listening_illustration'], 'num_questions': ['all'], 'status': ['all']}>
+Debug - request.path: /exams/level/4/
+Debug - Level: 4, Question Type: listening_illustration
+Debug - Listening Illustration Questions: 40
+Debug - question_list called with level=4, exam_id=None, question_type=listening_conversation
+Debug - request.GET: <QueryDict: {'type': ['listening_conversation']}>
+Debug - request.path: /exams/level/4/
+Debug - Level: 4, Question Type: listening_conversation
+Debug - Regular Questions: 40
+Debug - user_answer_dict keys: []
+Debug - questions after filter: [146, 147, 148, 149, 150, 151, 152, 153, 154, 155, 594, 595, 596, 597, 598, 599, 600, 601, 602, 603, 604, 605, 606, 607, 608, 609, 610, 611, 612, 613, 649, 650, 651, 652, 653, 654, 655, 656, 657, 658]
+Debug - status: all
+Debug - question_list called with level=4, exam_id=None, question_type=listening_conversation
+Debug - request.GET: <QueryDict: {'type': ['listening_conversation'], 'num_questions': ['all'], 'status': ['all']}>
+Debug - request.path: /exams/level/4/
+Debug - Level: 4, Question Type: listening_conversation
+Debug - Regular Questions: 40
+Debug - user_answer_dict keys: []
+Debug - questions after filter: [146, 147, 148, 149, 150, 151, 152, 153, 154, 155, 594, 595, 596, 597, 598, 599, 600, 601, 602, 603, 604, 605, 606, 607, 608, 609, 610, 611, 612, 613, 649, 650, 651, 652, 653, 654, 655, 656, 657, 658]
+Debug - status: all
+Debug - question_list called with level=4, exam_id=None, question_type=listening_conversation
+Debug - request.GET: <QueryDict: {'type': ['listening_conversation'], 'num_questions': ['all'], 'status': ['all']}>
+Debug - request.path: /exams/level/4/
+Debug - Level: 4, Question Type: listening_conversation
+Debug - Regular Questions: 40
+Debug - user_answer_dict keys: []
+Debug - questions after filter: [146, 147, 148, 149, 150, 151, 152, 153, 154, 155, 594, 595, 596, 597, 598, 599, 600, 601, 602, 603, 604, 605, 606, 607, 608, 609, 610, 611, 612, 613, 659, 660, 661, 662, 663, 664, 665, 666, 667, 668]
+Debug - status: all
+Debug - question_list called with level=4, exam_id=None, question_type=listening_passage
+Debug - request.GET: <QueryDict: {'type': ['listening_passage']}>
+Debug - request.path: /exams/level/4/
+Debug - Level: 4, Question Type: listening_passage
+Debug - Regular Questions: 40
+Debug - user_answer_dict keys: []
+Debug - questions after filter: [156, 157, 158, 159, 160, 161, 162, 163, 164, 165, 574, 575, 576, 577, 578, 579, 580, 581, 582, 583, 614, 615, 616, 617, 618, 619, 620, 621, 622, 623, 669, 670, 671, 672, 673, 674, 675, 676, 677, 678]
+Debug - status: all
+Debug - question_list called with level=4, exam_id=None, question_type=listening_passage
+Debug - request.GET: <QueryDict: {'type': ['listening_passage'], 'num_questions': ['all'], 'status': ['all']}>
+Debug - request.path: /exams/level/4/
+Debug - Level: 4, Question Type: listening_passage
+Debug - Regular Questions: 40
+Debug - user_answer_dict keys: []
+Debug - questions after filter: [156, 157, 158, 159, 160, 161, 162, 163, 164, 165, 574, 575, 576, 577, 578, 579, 580, 581, 582, 583, 614, 615, 616, 617, 618, 619, 620, 621, 622, 623, 669, 670, 671, 672, 673, 674, 675, 676, 677, 678]
+Debug - status: all
+Watching for file changes with StatReloader
+Traceback (most recent call last):
+  File "/Users/igusahiroyuki/PycharmProjects/eiken/manage.py", line 22, in <module>
+    main()
+  File "/Users/igusahiroyuki/PycharmProjects/eiken/manage.py", line 18, in main
+    execute_from_command_line(sys.argv)
+  File "/Users/igusahiroyuki/PycharmProjects/eiken/venv/lib/python3.9/site-packages/django/core/management/__init__.py", line 442, in execute_from_command_line
+    utility.execute()
+  File "/Users/igusahiroyuki/PycharmProjects/eiken/venv/lib/python3.9/site-packages/django/core/management/__init__.py", line 436, in execute
+    self.fetch_command(subcommand).run_from_argv(self.argv)
+  File "/Users/igusahiroyuki/PycharmProjects/eiken/venv/lib/python3.9/site-packages/django/core/management/base.py", line 412, in run_from_argv
+    self.execute(*args, **cmd_options)
+  File "/Users/igusahiroyuki/PycharmProjects/eiken/venv/lib/python3.9/site-packages/django/core/management/commands/runserver.py", line 74, in execute
+    super().execute(*args, **options)
+  File "/Users/igusahiroyuki/PycharmProjects/eiken/venv/lib/python3.9/site-packages/django/core/management/base.py", line 458, in execute
+    output = self.handle(*args, **options)
+  File "/Users/igusahiroyuki/PycharmProjects/eiken/venv/lib/python3.9/site-packages/django/core/management/commands/runserver.py", line 111, in handle
+    self.run(**options)
+  File "/Users/igusahiroyuki/PycharmProjects/eiken/venv/lib/python3.9/site-packages/django/core/management/commands/runserver.py", line 118, in run
+    autoreload.run_with_reloader(self.inner_run, **options)
+  File "/Users/igusahiroyuki/PycharmProjects/eiken/venv/lib/python3.9/site-packages/django/utils/autoreload.py", line 671, in run_with_reloader
+    start_django(reloader, main_func, *args, **kwargs)
+  File "/Users/igusahiroyuki/PycharmProjects/eiken/venv/lib/python3.9/site-packages/django/utils/autoreload.py", line 650, in start_django
+    ensure_echo_on()
+  File "/Users/igusahiroyuki/PycharmProjects/eiken/venv/lib/python3.9/site-packages/django/utils/autoreload.py", line 95, in ensure_echo_on
+    if not termios or not sys.stdin.isatty():
+AttributeError: 'NoneType' object has no attribute 'isatty'
