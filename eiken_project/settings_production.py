@@ -18,6 +18,12 @@ DEBUG = False
 
 ALLOWED_HOSTS = ['*']
 
+# CSRF settings for Fly.io
+CSRF_TRUSTED_ORIGINS = [
+    'https://eiken-app.fly.dev',
+    'https://*.fly.dev',
+]
+
 # Database
 # https://docs.djangoproject.com/en/4.2/ref/settings/#databases
 
@@ -50,9 +56,9 @@ X_FRAME_OPTIONS = 'DENY'
 # SECURE_HSTS_INCLUDE_SUBDOMAINS = True
 # SECURE_HSTS_PRELOAD = True
 
-# Session settings
-SESSION_COOKIE_SECURE = True
-CSRF_COOKIE_SECURE = True
+# Session settings - Modified for Fly.io compatibility
+SESSION_COOKIE_SECURE = False  # Changed to False for Fly.io
+CSRF_COOKIE_SECURE = False     # Changed to False for Fly.io
 
 # Remove debug toolbar in production
 INSTALLED_APPS.remove('debug_toolbar')
