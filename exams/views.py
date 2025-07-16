@@ -530,6 +530,7 @@ def question_list(request, level=None, exam_id=None):
         # 通常の問題の場合
         questions = Question.objects.filter(level=level, question_type=question_type).order_by('question_number')
         print(f"Debug - Regular Questions: {questions.count()}")  # デバッグ出力
+        print(f"Debug - Level: {level}, Question Type: {question_type}")  # デバッグ出力
         questions = list(questions)
         
         # ユーザーの回答履歴を取得
@@ -557,11 +558,15 @@ def question_list(request, level=None, exam_id=None):
         print(f"Debug - user_answer_dict keys: {list(user_answer_dict.keys())}")
         print(f"Debug - questions after filter: {[q.id for q in questions]}")
         print(f"Debug - status: {status}")
+        print(f"Debug - num_questions: {num_questions}")
         
         # 問題数制限を適用
         if num_questions != 'all' and len(questions) > num_questions:
             questions = random.sample(questions, num_questions)
             questions.sort(key=lambda x: x.question_number)
+        
+        print(f"Debug - Final questions count: {len(questions)}")
+        print(f"Debug - Final question IDs: {[q.id for q in questions]}")
         
         # POSTリクエストがある場合のみ回答処理を実行
         if request.method == 'POST':
