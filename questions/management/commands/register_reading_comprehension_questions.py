@@ -6,9 +6,9 @@ class Command(BaseCommand):
     help = 'Register reading comprehension passages 10-12 and questions from text file'
 
     def handle(self, *args, **options):
-        # Clear existing passages 10-12
-        ReadingPassage.objects.filter(identifier__in=['10', '11', '12']).delete()
-        self.stdout.write(self.style.WARNING('既存の読解問題（本文10-12）を削除しました'))
+        # Clear existing passages 1-12
+        ReadingPassage.objects.filter(identifier__in=['1', '2', '3', '4', '5', '6', '7', '8', '9', '10', '11', '12']).delete()
+        self.stdout.write(self.style.WARNING('既存の読解問題（本文1-12）を削除しました'))
         
         # Read the text file
         with open('questions/reading_comprehesion_questions.txt', 'r', encoding='utf-8') as file:
@@ -27,8 +27,8 @@ class Command(BaseCommand):
                 continue
             passage_number = int(passage_number_match.group(1))
             
-            # Only process passages 10-12
-            if passage_number < 10 or passage_number > 12:
+            # Only process passages 1-12
+            if passage_number < 1 or passage_number > 12:
                 continue
 
             # Extract passage text (everything from 本文 to the first question)
@@ -38,10 +38,14 @@ class Command(BaseCommand):
             passage_text = passage_match.group(1).strip()
 
             # Create passage
+            # Convert passage number to single character identifier (1->a, 2->b, 3->c, ..., 9->i, 10->j, 11->k, 12->l)
+            identifier_map = {1: 'a', 2: 'b', 3: 'c', 4: 'd', 5: 'e', 6: 'f', 7: 'g', 8: 'h', 9: 'i', 10: 'j', 11: 'k', 12: 'l'}
+            identifier = identifier_map.get(passage_number, 'a')
+            
             passage = ReadingPassage.objects.create(
                 text=passage_text,
                 level='4',  # Default to Grade 4
-                identifier=str(passage_number)
+                identifier=identifier
             )
 
             # Extract all questions for this passage

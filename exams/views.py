@@ -1367,6 +1367,13 @@ def progress_to_dict(progress, level=None, question_type=None, user=None):
                     question__level=str(level),
                     answered_at__range=(date_start, date_end)
                 ).count()
+            elif question_type == 'reading_comprehension':
+                from questions.models import ReadingUserAnswer
+                daily_count = ReadingUserAnswer.objects.filter(
+                    user=user,  # userパラメータが必要
+                    reading_question__passage__level=str(level),
+                    answered_at__range=(date_start, date_end)
+                ).count()
             else:
                 daily_count = UserAnswer.objects.filter(
                     user=user,  # userパラメータが必要
@@ -1398,6 +1405,9 @@ def progress_to_dict(progress, level=None, question_type=None, user=None):
         if question_type == 'listening_illustration':
             from questions.models import ListeningQuestion
             total_questions = ListeningQuestion.objects.filter(level=str(level)).count()
+        elif question_type == 'reading_comprehension':
+            from questions.models import ReadingQuestion
+            total_questions = ReadingQuestion.objects.filter(passage__level=str(level)).count()
         else:
             total_questions = Question.objects.filter(level=level, question_type=question_type).count()
     
@@ -1417,6 +1427,13 @@ def progress_to_dict(progress, level=None, question_type=None, user=None):
         today_attempts = ListeningUserAnswer.objects.filter(
             user=progress.user,
             question__level=str(level),
+            answered_at__range=(today_start, today_end)
+        ).count()
+    elif question_type == 'reading_comprehension':
+        from questions.models import ReadingUserAnswer
+        today_attempts = ReadingUserAnswer.objects.filter(
+            user=progress.user,
+            reading_question__passage__level=str(level),
             answered_at__range=(today_start, today_end)
         ).count()
     else:
@@ -1440,6 +1457,13 @@ def progress_to_dict(progress, level=None, question_type=None, user=None):
             daily_count = ListeningUserAnswer.objects.filter(
                 user=progress.user,
                 question__level=str(level),
+                answered_at__range=(date_start, date_end)
+            ).count()
+        elif question_type == 'reading_comprehension':
+            from questions.models import ReadingUserAnswer
+            daily_count = ReadingUserAnswer.objects.filter(
+                user=progress.user,
+                reading_question__passage__level=str(level),
                 answered_at__range=(date_start, date_end)
             ).count()
         else:
