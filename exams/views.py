@@ -1308,13 +1308,13 @@ def progress_view(request):
     for level in levels:
         level_progress = UserProgress.objects.filter(user=user, level=level)
         progress_data[level] = {
-            'grammar_fill': progress_to_dict(level_progress.filter(question_type='grammar_fill').first(), level, 'grammar_fill'),
-            'conversation_fill': progress_to_dict(level_progress.filter(question_type='conversation_fill').first(), level, 'conversation_fill'),
-            'word_order': progress_to_dict(level_progress.filter(question_type='word_order').first(), level, 'word_order'),
-            'reading_comprehension': progress_to_dict(level_progress.filter(question_type='reading_comprehension').first(), level, 'reading_comprehension'),
-            'listening_illustration': progress_to_dict(level_progress.filter(question_type='listening_illustration').first(), level, 'listening_illustration'),
-            'listening_conversation': progress_to_dict(level_progress.filter(question_type='listening_conversation').first(), level, 'listening_conversation'),
-            'listening_passage': progress_to_dict(level_progress.filter(question_type='listening_passage').first(), level, 'listening_passage'),
+            'grammar_fill': progress_to_dict(level_progress.filter(question_type='grammar_fill').first(), level, 'grammar_fill', user),
+            'conversation_fill': progress_to_dict(level_progress.filter(question_type='conversation_fill').first(), level, 'conversation_fill', user),
+            'word_order': progress_to_dict(level_progress.filter(question_type='word_order').first(), level, 'word_order', user),
+            'reading_comprehension': progress_to_dict(level_progress.filter(question_type='reading_comprehension').first(), level, 'reading_comprehension', user),
+            'listening_illustration': progress_to_dict(level_progress.filter(question_type='listening_illustration').first(), level, 'listening_illustration', user),
+            'listening_conversation': progress_to_dict(level_progress.filter(question_type='listening_conversation').first(), level, 'listening_conversation', user),
+            'listening_passage': progress_to_dict(level_progress.filter(question_type='listening_passage').first(), level, 'listening_passage', user),
         }
         
         # デバッグ出力を追加
@@ -1345,10 +1345,38 @@ def update_user_progress(user, level, question_type, is_correct):
     progress.update_progress(is_correct)
     logger.debug(f"Debug - After update: last_attempted={progress.last_attempted}")
 
-def progress_to_dict(progress, level=None, question_type=None):
+def progress_to_dict(progress, level=None, question_type=None, user=None):
     """進捗オブジェクトを辞書に変換"""
     if progress is None:
         logger.debug(f"Debug - progress_to_dict: progress is None")
+        # 過去7日間のデータを取得（progressがNoneでも）
+        daily_data = {}
+        from django.utils import timezone
+        from datetime import datetime, time, timedelta
+        
+        for i in range(7):
+            date = timezone.now().date() - timedelta(days=i)
+            date_start = datetime.combine(date, time.min)
+            date_end = datetime.combine(date, time.max)
+            date_str = date.isoformat()
+            
+            if question_type == 'listening_illustration':
+                from questions.models import ListeningUserAnswer
+                daily_count = ListeningUserAnswer.objects.filter(
+                    user=user,  # userパラメータが必要
+                    question__level=str(level),
+                    answered_at__range=(date_start, date_end)
+                ).count()
+            else:
+                daily_count = UserAnswer.objects.filter(
+                    user=user,  # userパラメータが必要
+                    question__level=level,
+                    question__question_type=question_type,
+                    answered_at__range=(date_start, date_end)
+                ).count()
+            
+            daily_data[date_str] = daily_count
+        
         return {
             'accuracy_rate': 0,
             'total_attempts': 0,
@@ -1357,6 +1385,7 @@ def progress_to_dict(progress, level=None, question_type=None):
             'progress_rate': 0,
             'total_questions': 0,
             'today_attempts': 0,
+            'daily_data': daily_data,
             'last_attempted': None
         }
     
@@ -1379,7 +1408,7 @@ def progress_to_dict(progress, level=None, question_type=None):
     
     # 今日の取り組み数を取得
     from django.utils import timezone
-    from datetime import datetime, time
+    from datetime import datetime, time, timedelta
     today_start = datetime.combine(timezone.now().date(), time.min)
     today_end = datetime.combine(timezone.now().date(), time.max)
     
@@ -1398,6 +1427,31 @@ def progress_to_dict(progress, level=None, question_type=None):
             answered_at__range=(today_start, today_end)
         ).count()
     
+    # 過去7日間の取り組み数を取得
+    daily_data = {}
+    for i in range(7):
+        date = timezone.now().date() - timedelta(days=i)
+        date_start = datetime.combine(date, time.min)
+        date_end = datetime.combine(date, time.max)
+        date_str = date.isoformat()
+        
+        if question_type == 'listening_illustration':
+            from questions.models import ListeningUserAnswer
+            daily_count = ListeningUserAnswer.objects.filter(
+                user=progress.user,
+                question__level=str(level),
+                answered_at__range=(date_start, date_end)
+            ).count()
+        else:
+            daily_count = UserAnswer.objects.filter(
+                user=progress.user,
+                question__level=level,
+                question__question_type=question_type,
+                answered_at__range=(date_start, date_end)
+            ).count()
+        
+        daily_data[date_str] = daily_count
+    
     logger.debug(f"Debug - progress_to_dict: progress.last_attempted={progress.last_attempted}")
     result = {
         'accuracy_rate': progress.accuracy_rate,
@@ -1407,6 +1461,7 @@ def progress_to_dict(progress, level=None, question_type=None):
         'progress_rate': progress_rate,
         'total_questions': total_questions,
         'today_attempts': today_attempts,
+        'daily_data': daily_data,  # 過去7日間のデータを追加
         'last_attempted': progress.last_attempted.isoformat() if progress.last_attempted else None  # 日付をISO形式の文字列に変換
     }
     logger.debug(f"Debug - progress_to_dict: result.last_attempted={result['last_attempted']}")
