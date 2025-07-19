@@ -75,10 +75,32 @@
                             <a href="{% url 'exams:exam_list' %}" class="btn btn-secondary">
                                 戻る
                             </a>
-                            <button type="submit" class="btn btn-primary">
-                                送信
+                            <button type="submit" class="btn btn-primary" id="submitBtn">
+                                <span id="submitText">送信</span>
+                                <span id="submitSpinner" class="spinner-border spinner-border-sm ms-2" style="display: none;"></span>
                             </button>
                         </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+document.querySelector('form').addEventListener('submit', function(e) {
+    const submitBtn = document.getElementById('submitBtn');
+    const submitText = document.getElementById('submitText');
+    const submitSpinner = document.getElementById('submitSpinner');
+    
+    // 送信ボタンを無効化してローディング状態に変更
+    submitBtn.disabled = true;
+    submitText.textContent = '送信中...';
+    submitSpinner.style.display = 'inline-block';
+    
+    // フォームの送信は続行
+});
+</script>
                     </form>
                 </div>
             </div>

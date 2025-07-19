@@ -1,0 +1,58 @@
+{% extends 'base.html' %}
+
+{% block title %}フィードバック送信完了 - 英検学習アプリ{% endblock %}
+
+{% block content %}
+<div class="container mt-4">
+    <div class="row justify-content-center">
+        <div class="col-md-8">
+            <div class="card">
+                <div class="card-header bg-success text-white">
+                    <h3 class="card-title mb-0">
+                        <i class="fas fa-check-circle me-2"></i>フィードバック送信完了
+                    </h3>
+                </div>
+                <div class="card-body text-center">
+                    <div class="mb-4">
+                        <i class="fas fa-thumbs-up text-success" style="font-size: 4rem;"></i>
+                    </div>
+                    
+                    <h4 class="text-success mb-3">ありがとうございます！</h4>
+                    
+                    <p class="lead mb-4">
+                        フィードバックを送信しました。<br>
+                        ご意見・ご要望を参考に、アプリの改善を進めてまいります。
+                    </p>
+                    
+                    <div class="alert alert-info">
+                        <i class="fas fa-info-circle me-2"></i>
+                        <span id="countdown">3</span>秒後に問題一覧に戻ります...
+                    </div>
+                    
+                    <div class="mt-4">
+                        <a href="{% url 'exams:exam_list' %}" class="btn btn-primary">
+                            <i class="fas fa-arrow-left me-2"></i>問題一覧に戻る
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+// カウントダウン機能
+let countdown = 3;
+const countdownElement = document.getElementById('countdown');
+
+const timer = setInterval(function() {
+    countdown--;
+    countdownElement.textContent = countdown;
+    
+    if (countdown <= 0) {
+        clearInterval(timer);
+        window.location.href = "{% url 'exams:exam_list' %}";
+    }
+}, 1000);
+</script>
+{% endblock %} 

@@ -1489,10 +1489,14 @@ def feedback_form(request):
             feedback = form.save(commit=False)
             feedback.user = request.user
             feedback.save()
-            messages.success(request, 'フィードバックを送信しました。ありがとうございます。')
-            return redirect('exams:exam_list')
+            return redirect('exams:feedback_success')
     else:
         from .forms import FeedbackForm
         form = FeedbackForm()
     
     return render(request, 'exams/feedback_form.html', {'form': form})
+
+@login_required
+def feedback_success(request):
+    """フィードバック送信成功ページ"""
+    return render(request, 'exams/feedback_success.html')
