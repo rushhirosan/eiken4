@@ -1360,7 +1360,7 @@ def progress_to_dict(progress):
         'accuracy_rate': progress.accuracy_rate,
         'total_attempts': progress.total_attempts,
         'correct_answers': progress.correct_answers,
-        'last_attempted': progress.last_attempted  # 日付オブジェクトをそのまま返す
+        'last_attempted': progress.last_attempted.isoformat() if progress.last_attempted else None  # 日付をISO形式の文字列に変換
     }
     logger.debug(f"Debug - progress_to_dict: result.last_attempted={result['last_attempted']}")
     return result

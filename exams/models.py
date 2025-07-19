@@ -99,7 +99,7 @@ class ReadingUserAnswer(models.Model):
 
 class UserProgress(models.Model):
     user = models.ForeignKey(settings.AUTH_USER_MODEL, on_delete=models.CASCADE)
-    level = models.IntegerField()
+    level = models.CharField(max_length=10)  # IntegerFieldからCharFieldに変更
     question_type = models.CharField(max_length=50)
     total_attempts = models.IntegerField(default=0)
     correct_answers = models.IntegerField(default=0)
@@ -125,7 +125,7 @@ class DailyProgress(models.Model):
     """日々の学習進捗を記録するモデル"""
     user = models.ForeignKey(settings.AUTH_USER_MODEL, on_delete=models.CASCADE)
     date = models.DateField(default=timezone.now)
-    level = models.IntegerField()
+    level = models.CharField(max_length=10)  # IntegerFieldからCharFieldに変更
     question_type = models.CharField(max_length=50)
     questions_attempted = models.IntegerField(default=0)
     correct_answers = models.IntegerField(default=0)
