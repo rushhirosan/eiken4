@@ -5,4 +5,10 @@ from .models import CustomUser
 class CustomUserCreationForm(UserCreationForm):
     class Meta:
         model = CustomUser
-        fields = ('username', 'email', 'password1', 'password2') 
+        fields = ('username', 'password1', 'password2')
+    
+    def __init__(self, *args, **kwargs):
+        super().__init__(*args, **kwargs)
+        # emailフィールドをオプションにする
+        if 'email' in self.fields:
+            self.fields['email'].required = False 
