@@ -215,6 +215,16 @@
                         入力内容にエラーがあります。確認してください。
                         <button type="button" class="btn-close" data-bs-dismiss="alert"></button>
                     </div>
+                    <!-- デバッグ情報 -->
+                    <div class="alert alert-info">
+                        <strong>デバッグ情報:</strong><br>
+                        {% for field, errors in form.errors.items %}
+                            <strong>{{ field }}:</strong>
+                            {% for error in errors %}
+                                {{ error }}<br>
+                            {% endfor %}
+                        {% endfor %}
+                    </div>
                 {% endif %}
                 
                 <form method="post" class="needs-validation" novalidate>

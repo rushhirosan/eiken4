@@ -11,6 +11,10 @@ def signup(request):
             user = form.save()
             login(request, user)
             return redirect('exams:exam_list')
+        else:
+            # デバッグ情報をログに出力
+            print("Form errors:", form.errors)
+            print("Form data:", request.POST)
     else:
         form = CustomUserCreationForm()
     return render(request, 'accounts/signup.html', {'form': form})
