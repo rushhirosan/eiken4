@@ -18,8 +18,6 @@ class Command(BaseCommand):
         questions = re.split(r'\n---\n', content)
 
         for idx, q_text in enumerate(questions):
-            if idx >= 10:
-                break
             if not q_text.strip():
                 continue
 

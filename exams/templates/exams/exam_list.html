@@ -44,28 +44,28 @@
                                 <a href="{% url 'exams:question_list_by_level' level=level_code %}?type=grammar_fill" 
                                    class="btn btn-outline-primary w-100 py-3">
                                     <i class="fas fa-language me-2"></i>
-                                    文法・語彙問題
+                                    文法・語彙問題（{{ question_counts.grammar_fill }}問）
                                 </a>
                             </div>
                             <div class="col-md-6 mb-3">
                                 <a href="{% url 'exams:question_list_by_level' level=level_code %}?type=conversation_fill" 
                                    class="btn btn-outline-primary w-100 py-3">
                                     <i class="fas fa-comments me-2"></i>
-                                    会話補充問題
+                                    会話補充問題（{{ question_counts.conversation_fill }}問）
                                 </a>
                             </div>
                             <div class="col-md-6 mb-3">
                                 <a href="{% url 'exams:question_list_by_level' level=level_code %}?type=word_order" 
                                    class="btn btn-outline-primary w-100 py-3">
                                     <i class="fas fa-sort-alpha-down me-2"></i>
-                                    語順選択問題
+                                    語順選択問題（{{ question_counts.word_order }}問）
                                 </a>
                             </div>
                             <div class="col-md-6 mb-3">
                                 <a href="{% url 'exams:question_list_by_level' level=level_code %}?type=reading_comprehension" 
                                    class="btn btn-outline-primary w-100 py-3">
                                     <i class="fas fa-book-open me-2"></i>
-                                    長文読解問題
+                                    長文読解問題（{{ question_counts.reading_comprehension }}問）
                                 </a>
                             </div>
                         </div>
@@ -82,21 +82,21 @@
                                 <a href="{% url 'exams:question_list_by_level' level=level_code %}?type=listening_illustration" 
                                    class="btn btn-outline-primary w-100 py-3">
                                     <i class="fas fa-image me-2"></i>
-                                    第1部: イラスト問題
+                                    第1部: イラスト問題（{{ question_counts.listening_illustration }}問）
                                 </a>
                             </div>
                             <div class="col-md-4 mb-3">
                                 <a href="{% url 'exams:question_list_by_level' level=level_code %}?type=listening_conversation" 
                                    class="btn btn-outline-primary w-100 py-3">
                                     <i class="fas fa-users me-2"></i>
-                                    第2部: 会話問題
+                                    第2部: 会話問題（{{ question_counts.listening_conversation }}問）
                                 </a>
                             </div>
                             <div class="col-md-4 mb-3">
                                 <a href="{% url 'exams:question_list_by_level' level=level_code %}?type=listening_passage" 
                                    class="btn btn-outline-primary w-100 py-3">
                                     <i class="fas fa-file-alt me-2"></i>
-                                    第3部: 文章問題
+                                    第3部: 文章問題（{{ question_counts.listening_passage }}問）
                                 </a>
                     </div>
                         </div>

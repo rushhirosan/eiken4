@@ -221,7 +221,7 @@ How can I get to the station?
 問題12:
 ロンドンに着いたら，手紙を送ってください。  
 ① a letter ② you ③ when ④ send ⑤ me  
-( ) [2番目] ( ) [4番目] ( ) arrive in London.
+Please ( ) [2番目] ( ) [4番目] ( ) arrive in London.
 
 選択肢12:
 1. ③ ─ ①  
@@ -230,18 +230,18 @@ How can I get to the station?
 4. ⑤ ─ ③  
 
 【正解12】  
-2. ③ ─ ④  
+2. ⑤ ─ ③  
 
 【解説12】  
 Please send me a letter when you arrive in London.  
-→ 2番目「when」(③)、4番目「send」(④)。
+→ 2番目「me」(⑤)、4番目「when」(③)。
 
 ---
 
 問題13:
 智子は，フレッドとギターを弾くのを楽しみにしています。  
 ① looking ② playing ③ to ④ is ⑤ forward  
-( ) [2番目] ( ) [4番目] ( ) the guitar with Fred.
+Tomoko ( ) [2番目] ( ) [4番目] ( ) the guitar with Fred.
 
 選択肢13:
 1. ② ─ ①  
@@ -250,11 +250,11 @@ Please send me a letter when you arrive in London.
 4. ③ ─ ①  
 
 【正解13】  
-3. ⑤ ─ ④  
+3. ① ─ ③  
 
 【解説13】  
 Tomoko is looking forward to playing the guitar with Fred.  
-→ 2番目「forward」(⑤)、4番目「is」(④)。
+→ 2番目「looking」(①)、4番目「to」(③)。
 
 ---
 
@@ -270,11 +270,11 @@ I ( ) [2番目] ( ) [4番目] ( ) my house yesterday.
 4. ⑤ ─ ④  
 
 【正解14】  
-4. ⑤ ─ ④  
+4. ④ ─ ③  
 
 【解説14】  
 I enjoyed swimming in the pool near my house yesterday.  
-→ 2番目「enjoyed」(⑤)、4番目「swimming」(④)。
+→ 2番目「swimming」(④)、4番目「the pool」(③)。
 
 ---
 
@@ -290,11 +290,11 @@ I enjoyed swimming in the pool near my house yesterday.
 4. ② ─ ①  
 
 【正解15】  
-2. ⑤ ─ ③  
+2. ② ─ ①
 
 【解説15】  
 May I use this computer, please?  
-→ 2番目「may」(⑤)、4番目「computer」(③)。
+→ 2番目「may」(②)、4番目「this」(①)。
 
 ---
 
@@ -307,909 +307,109 @@ May I use this computer, please?
 1. ⑤ ─ ④  
 2. ② ─ ④  
 3. ⑤ ─ ①  
-4. ④ ─ ②  
+4. ④ ─ ①  
 
 【正解16】  
-1. ⑤ ─ ④  
+1. ④ ─ ①  
 
 【解説16】  
 Where did your brother study English?  
-→ 2番目「where」(⑤)、4番目「did」(④)。
+→ 2番目「did」(④)、4番目「study」(①)。
 
 ---
 
 問題17:
-私の父は昨日の夜遅く帰宅しました。  
-① came ② home ③ night ④ last ⑤ my father  
-( ) [2番目] ( ) [4番目] ( ).
-
-選択肢17:
-1. ⑤ ─ ①  
-2. ⑤ ─ ②  
-3. ① ─ ③  
-4. ④ ─ ②  
-
-【正解17】  
-1. ⑤ ─ ①  
-
-【解説17】  
-My father came home late last night.  
-→ 2番目「my father」(⑤)、4番目「came」(①)。
-
----
-
-問題18:
 彼はちょうど学校に着いたところです。  
 ① at ② just ③ has ④ arrived ⑤ school  
 ( ) [2番目] ( ) [4番目] ( ).
 
-選択肢18:
+選択肢17:
 1. ③ ─ ④  
 2. ④ ─ ②  
 3. ③ ─ ②  
 4. ④ ─ ①  
 
-【正解18】  
+【正解17】  
 1. ③ ─ ④  
 
-【解説18】  
+【解説17】  
 He has just arrived at school.  
 → 2番目「has」(③)、4番目「arrived」(④)。
 
 ---
 
-問題19:
-彼女はそのニュースを聞いて驚きました。  
-① the news ② surprised ③ was ④ heard ⑤ she  
-( ) [2番目] ( ) [4番目] ( ).
-
-選択肢19:
-1. ⑤ ─ ③  
-2. ③ ─ ④  
-3. ⑤ ─ ②  
-4. ④ ─ ①  
-
-【正解19】  
-1. ⑤ ─ ③  
-
-【解説19】  
-She was surprised to hear the news.  
-→ 2番目「she」(⑤)、4番目「was」(③)。
-
----
-
-問題20:
-私はその本を2回読んだことがあります。  
-① read ② times ③ I ④ have ⑤ the book  
-( ) [2番目] ( ) [4番目] ( ).
-
-選択肢20:
-1. ③ ─ ④  
-2. ④ ─ ①  
-3. ③ ─ ①  
-4. ④ ─ ②  
-
-【正解20】  
-2. ④ ─ ①  
-
-【解説20】  
-I have read the book two times.  
-→ 2番目「have」(④)、4番目「read」(①)。
-
----
-
-問題21:
-彼は何度もその歌を聞いたことがあります。  
-① many ② times ③ heard ④ has ⑤ the song  
-( ) [2番目] ( ) [4番目] ( ) before.
-
-選択肢21:  
-1. ④ ─ ③  
-2. ① ─ ②  
-3. ④ ─ ①  
-4. ⑤ ─ ④  
-
-【正解21】  
-1. ④ ─ ③  
-
-【解説21】  
-He has heard the song many times before.  
-→ 2番目「has」(④)、4番目「heard」(③)。
-
----
-
-問題22:
-昨日よりも今日のほうがずっと暖かいです。  
-① warmer ② much ③ it ④ than ⑤ yesterday  
-( ) [2番目] ( ) [4番目] ( ) today.
-
-選択肢22:  
-1. ③ ─ ①  
-2. ② ─ ④  
-3. ③ ─ ④  
-4. ② ─ ①  
-
-【正解22】  
-1. ③ ─ ①  
-
-【解説22】  
-It is much warmer than yesterday.  
-→ 2番目「it」(③)、4番目「warmer」(①)。
-
----
-
-問題23:
-彼はまだ昼ご飯を食べていません。  
-① eaten ② hasn't ③ lunch ④ he ⑤ yet  
-( ) [2番目] ( ) [4番目] ( ).
-
-選択肢23:  
-1. ④ ─ ②  
-2. ② ─ ①  
-3. ② ─ ③  
-4. ① ─ ④  
-
-【正解23】  
-2. ② ─ ①  
-
-【解説23】  
-He hasn't eaten lunch yet.  
-→ 2番目「hasn't」(②)、4番目「eaten」(①)。
-
----
-
-問題24:
-この箱はあの箱よりも軽いです。  
-① than ② lighter ③ box ④ is ⑤ this  
-( ) [2番目] ( ) [4番目] ( ) that one.
-
-選択肢24:  
-1. ⑤ ─ ④  
-2. ⑤ ─ ②  
-3. ③ ─ ④  
-4. ② ─ ①  
-
-【正解24】  
-2. ⑤ ─ ②  
-
-【解説24】  
-This box is lighter than that one.  
-→ 2番目「this」(⑤)、4番目「lighter」(②)。
-
----
-
-問題25:
-彼女はその手紙を書き終えたところです。  
-① written ② has ③ just ④ she ⑤ finished  
-( ) [2番目] ( ) [4番目] ( ).
-
-選択肢25:  
-1. ② ─ ⑤  
-2. ④ ─ ②  
-3. ② ─ ③  
-4. ④ ─ ⑤  
-
-【正解25】  
-1. ② ─ ⑤  
-
-【解説25】  
-She has just finished writing the letter.  
-→ 2番目「has」(②)、4番目「finished」(⑤)。
-
----
-
-問題26:
-私たちは今までに彼に2回会いました。  
-① twice ② met ③ have ④ we ⑤ him  
-( ) [2番目] ( ) [4番目] ( ) before.
-
-選択肢26:  
-1. ④ ─ ③  
-2. ③ ─ ②  
-3. ③ ─ ①  
-4. ② ─ ④  
-
-【正解26】  
-2. ③ ─ ②  
-
-【解説26】  
-We have met him twice before.  
-→ 2番目「have」(③)、4番目「met」(②)。
-
----
-
-問題27:
-その映画は思っていたよりずっと面白かったです。  
-① than ② interesting ③ was ④ more ⑤ I thought  
-( ) [2番目] ( ) [4番目] ( ).
-
-選択肢27:  
-1. ③ ─ ④  
-2. ④ ─ ②  
-3. ② ─ ①  
-4. ③ ─ ②  
-
-【正解27】  
-1. ③ ─ ④  
-
-【解説27】  
-The movie was more interesting than I thought.  
-→ 2番目「was」(③)、4番目「more」(④)。
-
----
-
-問題28:
-その本は今は図書館にありません。  
-① isn't ② at ③ now ④ the library ⑤ the book  
-( ) [2番目] ( ) [4番目] ( ).
-
-選択肢28:  
-1. ⑤ ─ ①  
-2. ① ─ ④  
-3. ⑤ ─ ②  
-4. ③ ─ ②  
-
-【正解28】  
-1. ⑤ ─ ①  
-
-【解説28】  
-The book isn't at the library now.  
-→ 2番目「the book」(⑤)、4番目「isn't」(①)。
-
----
-
-問題29:
-私は昨夜遅くまで起きていました。  
-① stayed ② late ③ I ④ up ⑤ last night  
-( ) [2番目] ( ) [4番目] ( ).
-
-選択肢29:  
-1. ③ ─ ④  
-2. ④ ─ ①  
-3. ③ ─ ①  
-4. ① ─ ②  
-
-【正解29】  
-3. ③ ─ ①  
-
-【解説29】  
-I stayed up late last night.  
-→ 2番目「I」(③)、4番目「stayed」(①)。
-
----
-
-問題30:
-私たちは山の上で写真を撮りました。  
-① the mountain ② on ③ took ④ pictures ⑤ we  
-( ) [2番目] ( ) [4番目] ( ).
-
-選択肢30:  
-1. ⑤ ─ ③  
-2. ③ ─ ④  
-3. ⑤ ─ ②  
-4. ④ ─ ②  
-
-【正解30】  
-1. ⑤ ─ ③  
-
-【解説30】  
-We took pictures on the mountain.  
-→ 2番目「we」(⑤)、4番目「took」(③)。
-
----
-
-問題31:
+問題18:
 彼はまだその問題を解決していません。  
-① solved ② he ③ has ④ yet ⑤ the problem  
+① solved ② he ③ has not ④ yet ⑤ the problem  
 ( ) [2番目] ( ) [4番目] ( ).
 
-選択肢31:  
+選択肢18:  
 1. ② ─ ③  
-2. ③ ─ ①  
+2. ③ ─ ⑤  
 3. ② ─ ①  
 4. ③ ─ ④  
 
-【正解31】  
+【正解18】  
 2. ③ ─ ①  
 
-【解説31】  
+【解説18】  
 He has not solved the problem yet.  
-→ 2番目「has」(③)、4番目「solved」(①)。
+→ 2番目「has not」(③)、4番目「the problem」(⑤)。
 
 ---
 
-問題32:
-彼女はとても速く走ることができます。  
-① run ② she ③ fast ④ can ⑤ very  
-( ) [2番目] ( ) [4番目] ( ).
-
-選択肢32:  
-1. ② ─ ④  
-2. ④ ─ ①  
-3. ② ─ ①  
-4. ④ ─ ③  
-
-【正解32】  
-2. ④ ─ ①  
-
-【解説32】  
-She can run very fast.  
-→ 2番目「can」(④)、4番目「run」(①)。
-
----
-
-問題33:
+問題19:
 私はすでにその宿題を終えました。  
 ① done ② I ③ the homework ④ already ⑤ have  
 ( ) [2番目] ( ) [4番目] ( ).
 
-選択肢33:  
+選択肢19:  
 1. ② ─ ⑤  
 2. ⑤ ─ ①  
 3. ② ─ ①  
 4. ⑤ ─ ③  
 
-【正解33】  
+【正解19】  
 2. ⑤ ─ ①  
 
-【解説33】  
+【解説19】  
 I have already done the homework.  
 → 2番目「have」(⑤)、4番目「done」(①)。
 
 ---
 
-問題34:
-これは今までで一番面白い本です。  
-① interesting ② I ③ have ④ the most ⑤ read  
-( ) [2番目] ( ) [4番目] ( ).
-
-選択肢34:  
-1. ③ ─ ④  
-2. ③ ─ ⑤  
-3. ② ─ ④  
-4. ④ ─ ①  
-
-【正解34】  
-1. ③ ─ ④  
-
-【解説34】  
-This is the most interesting book I have read.  
-→ 2番目「have」(③)、4番目「the most」(④)。
-
----
-
-問題35:
-あなたは今までに東京に行ったことがありますか。  
-① have ② Tokyo ③ you ④ to ⑤ been  
-( ) [2番目] ( ) [4番目] ( ) before?
-
-選択肢35:  
-1. ③ ─ ①  
-2. ① ─ ⑤  
-3. ③ ─ ⑤  
-4. ① ─ ④  
-
-【正解35】  
-2. ① ─ ⑤  
-
-【解説35】  
-Have you been to Tokyo before?  
-→ 2番目「have」(①)、4番目「been」(⑤)。
-
----
-
-問題36:
-彼は雨が降り始めたので家に急いで帰りました。  
-① rushed ② home ③ he ④ because ⑤ it started raining  
-( ) [2番目] ( ) [4番目] ( ).
-
-選択肢36:  
-1. ③ ─ ①  
-2. ① ─ ②  
-3. ③ ─ ④  
-4. ④ ─ ⑤  
-
-【正解36】  
-1. ③ ─ ①  
-
-【解説36】  
-He rushed home because it started raining.  
-→ 2番目「he」(③)、4番目「rushed」(①)。
-
----
-
-問題37:
-私たちは昨日そのイベントが中止されたことを知りました。  
-① cancelled ② yesterday ③ was ④ we ⑤ learned  
-( ) [2番目] ( ) [4番目] ( ).
-
-選択肢37:  
-1. ④ ─ ⑤  
-2. ⑤ ─ ①  
-3. ④ ─ ⑤  
-4. ⑤ ─ ③  
-
-【正解37】  
-3. ④ ─ ⑤  
-
-【解説37】  
-We learned yesterday that the event was cancelled.  
-→ 2番目「we」(④)、4番目「learned」(⑤)。
-
----
-
-問題38:
-その映画は私が今まで見た中で最も感動的でした。  
-① I ② seen ③ movie ④ have ⑤ the most moving  
-( ) [2番目] ( ) [4番目] ( ) so far.
-
-選択肢38:  
-1. ③ ─ ⑤  
-2. ⑤ ─ ④  
-3. ① ─ ④  
-4. ④ ─ ②  
-
-【正解38】  
-1. ③ ─ ⑤  
-
-【解説38】  
-The movie was the most moving I have seen so far.  
-→ 2番目「movie」(③)、4番目「the most moving」(⑤)。
-
----
-
-問題39:
-私は誰かがその窓を開けるのを見ました。  
-① open ② saw ③ the window ④ I ⑤ someone  
-( ) [2番目] ( ) [4番目] ( ).
-
-選択肢39:  
-1. ④ ─ ②  
-2. ② ─ ⑤  
-3. ④ ─ ⑤  
-4. ⑤ ─ ①  
-
-【正解39】  
-1. ④ ─ ②  
-
-【解説39】  
-I saw someone open the window.  
-→ 2番目「I」(④)、4番目「saw」(②)。
-
----
-
-問題40:
-彼らは次の会議を来週金曜日に開く予定です。  
-① are ② meeting ③ next ④ going ⑤ to hold  
-( ) [2番目] ( ) [4番目] ( ).
-
-選択肢40:  
-1. ① ─ ④  
-2. ① ─ ⑤  
-3. ④ ─ ⑤  
-4. ③ ─ ⑤  
-
-【正解40】  
-2. ① ─ ⑤  
-
-【解説40】  
-They are going to hold the next meeting on Friday.  
-→ 2番目「are」(①)、4番目「to hold」(⑤)。
-
----
-
-問題41:
-もし私があなたなら、もっと一生懸命勉強するでしょう。  
-① I ② you ③ were ④ would ⑤ study harder  
-( ) [2番目] ( ) [4番目] ( ).
-
-選択肢41:  
-1. ③ ─ ④  
-2. ① ─ ④  
-3. ① ─ ③  
-4. ③ ─ ⑤  
-
-【正解41】  
-2. ① ─ ④  
-
-【解説41】  
-If I were you, I would study harder.  
-→ 2番目「I」(①)、4番目「would」(④)。
-
----
-
-問題42:
-あなたはこの本を図書館に返さなければなりません。  
-① have ② this book ③ to return ④ you ⑤ must  
-( ) [2番目] ( ) [4番目] ( ).
-
-選択肢42:  
-1. ⑤ ─ ③  
-2. ④ ─ ①  
-3. ④ ─ ⑤  
-4. ⑤ ─ ②  
-
-【正解42】  
-3. ④ ─ ⑤  
-
-【解説42】  
-You must return this book to the library.  
-→ 2番目「you」(④)、4番目「must」(⑤)。
-
----
-
-問題43:
+問題20:
 彼は会議に遅れないように早く家を出ました。  
 ① left ② early ③ not ④ to ⑤ be late  
-( ) [2番目] ( ) [4番目] ( ).
+( ) [2番目] ( ) [4番目] ( ) for the meeting.
 
-選択肢43:  
+選択肢20:  
 1. ① ─ ④  
 2. ④ ─ ⑤  
 3. ② ─ ①  
 4. ④ ─ ③  
 
-【正解43】  
+【正解20】  
 1. ① ─ ④  
 
-【解説43】  
+【解説20】  
 He left early to not be late for the meeting.  
 → 2番目「left」(①)、4番目「to」(④)。
 
 ---
 
-問題44:
-あなたは自分の健康にもっと気をつけるべきです。  
-① take care ② should ③ your health ④ of ⑤ more  
-( ) [2番目] ( ) [4番目] ( ).
-
-選択肢44:  
-1. ② ─ ①  
-2. ① ─ ④  
-3. ② ─ ⑤  
-4. ① ─ ③  
-
-【正解44】  
-1. ② ─ ①  
-
-【解説44】  
-You should take care of your health more.  
-→ 2番目「should」(②)、4番目「take care」(①)。
-
----
-
-問題45:
-彼らはこのプロジェクトを来週までに終えなければなりません。  
-① by ② finish ③ must ④ this project ⑤ next week  
-( ) [2番目] ( ) [4番目] ( ).
-
-選択肢45:  
-1. ③ ─ ②  
-2. ③ ─ ④  
-3. ② ─ ④  
-4. ③ ─ ⑤  
-
-【正解45】  
-1. ③ ─ ②  
-
-【解説45】  
-They must finish this project by next week.  
-→ 2番目「must」(③)、4番目「finish」(②)。
-
----
-
-問題46:
-昨夜，私は家で友達と楽しく過ごしました。  
-① spent ② time ③ with ④ my friends ⑤ good  
-( ) [2番目] ( ) [4番目] ( ) at home last night.
-
-選択肢46:  
-1. ① ─ ⑤  
-2. ⑤ ─ ③  
-3. ① ─ ③  
-4. ③ ─ ⑤  
-
-【正解46】  
-1. ① ─ ⑤  
-
-【解説46】  
-I spent good time with my friends at home last night.  
-→ 2番目「spent」(①)、4番目「good」(⑤)。
-
----
-
-問題47:
-彼は昼食後すぐに仕事に戻りました。  
-① after ② returned ③ he ④ lunch ⑤ to work  
-( ) [2番目] ( ) [4番目] ( ) right away.
-
-選択肢47:  
-1. ③ ─ ②  
-2. ③ ─ ④  
-3. ② ─ ⑤  
-4. ⑤ ─ ①  
-
-【正解47】  
-1. ③ ─ ②  
-
-【解説47】  
-He returned to work after lunch right away.  
-→ 2番目「he」(③)、4番目「returned」(②)。
-
----
-
-問題48:
-雨が激しく降っていたので，彼らは家の中にいました。  
-① because ② stayed ③ raining ④ it ⑤ was heavily  
-( ) [2番目] ( ) [4番目] ( ) outside.
-
-選択肢48:  
-1. ④ ─ ⑤  
-2. ② ─ ①  
-3. ⑤ ─ ③  
-4. ④ ─ ③  
-
-【正解48】  
-2. ② ─ ①  
-
-【解説48】  
-They stayed inside because it was raining heavily.  
-→ 2番目「stayed」(②)、4番目「because」(①)。
-
----
-
-問題49:
-彼女は宿題を終えた後、テレビを見ました。  
-① after ② homework ③ finished ④ her ⑤ she  
-( ) [2番目] ( ) [4番目] ( ) watched TV.
-
-選択肢49:  
-1. ⑤ ─ ③  
-2. ③ ─ ②  
-3. ④ ─ ③  
-4. ⑤ ─ ①  
-
-【正解49】  
-1. ⑤ ─ ③  
-
-【解説49】  
-She finished her homework and watched TV.  
-→ 2番目「she」(⑤)、4番目「finished」(③)。
-
----
-
-問題50:
-夕食の準備ができたら、私に知らせてください。  
-① let ② dinner ③ know ④ when ⑤ is ready  
-( ) [2番目] ( ) [4番目] ( ) please.
-
-選択肢50:  
-1. ④ ─ ⑤  
-2. ③ ─ ①  
-3. ① ─ ③  
-4. ② ─ ⑤  
-
-【正解50】  
-3. ① ─ ③  
-
-【解説50】  
-Please let me know when dinner is ready.  
-→ 2番目「let」(①)、4番目「know」(③)。
-
----
-
-問題51:
-きのう，マイクと私は図書館で勉強していました。  
-① I ② studying ③ Mike ④ were ⑤ was  
-Mike and ( ) [2番目] ( ) [4番目] ( ) at the library yesterday.
-
-選択肢51:  
-1. ① ─ ④  
-2. ③ ─ ④  
-3. ① ─ ②  
-4. ④ ─ ⑤  
-
-【正解51】  
-1. ① ─ ④  
-
-【解説51】  
-Mike and I were studying.  
-→ 2番目「I」(①)、4番目「were」(④)。
-
----
-
-問題52:
-トムと私はその映画を2回見ました。  
-① watched ② Tom ③ times ④ I ⑤ twice  
-Tom and ( ) [2番目] ( ) [4番目] ( ) the movie.
-
-選択肢52:  
-1. ② ─ ①  
-2. ④ ─ ①  
-3. ② ─ ③  
-4. ④ ─ ③  
-
-【正解52】  
-2. ④ ─ ①  
-
-【解説52】  
-Tom and I watched the movie twice.  
-→ 2番目「I」(④)、4番目「watched」(①)。
-
----
-
-問題53:
-サラと私は一緒に昼食を食べました。  
-① ate ② I ③ Sarah ④ had ⑤ together  
-Sarah and ( ) [2番目] ( ) [4番目] ( ) lunch.
-
-選択肢53:  
-1. ② ─ ①  
-2. ② ─ ④  
-3. ② ─ ⑤  
-4. ② ─ ③  
-
-【正解53】  
-1. ② ─ ①  
-
-【解説53】  
-Sarah and I ate lunch together.  
-→ 2番目「I」(②)、4番目「ate」(①)。
-
----
-
-問題54:
-彼と私は放課後バスケットボールをしました。  
-① he ② I ③ basketball ④ played ⑤ and  
-He and ( ) [2番目] ( ) [4番目] ( ) after school.
-
-選択肢54:  
-1. ② ─ ④  
-2. ⑤ ─ ④  
-3. ① ─ ④  
-4. ② ─ ⑤  
-
-【正解54】  
-1. ② ─ ④  
-
-【解説54】  
-He and I played basketball after school.  
-→ 2番目「I」(②)、4番目「played」(④)。
-
----
-
-問題55:
-私とケビンは昨日その本について話しました。  
-① Kevin ② talked ③ yesterday ④ I ⑤ about  
-Kevin and ( ) [2番目] ( ) [4番目] ( ) the book.
-
-選択肢55:  
-1. ④ ─ ②  
-2. ① ─ ②  
-3. ④ ─ ③  
-4. ② ─ ③  
-
-【正解55】  
-1. ④ ─ ②  
-
-【解説55】  
-Kevin and I talked about the book.  
-→ 2番目「I」(④)、4番目「talked」(②)。
-
----
-
-問題56:
-ルーシーと私は公園を散歩しました。  
-① Lucy ② park ③ in ④ walked ⑤ I  
-Lucy and ( ) [2番目] ( ) [4番目] ( ) yesterday.
-
-選択肢56:  
-1. ⑤ ─ ④  
-2. ① ─ ④  
-3. ⑤ ─ ③  
-4. ④ ─ ③  
-
-【正解56】  
-1. ⑤ ─ ④  
-
-【解説56】  
-Lucy and I walked in the park.  
-→ 2番目「I」(⑤)、4番目「walked」(④)。
-
----
-
-問題57:
-先生と私はその問題について話し合いました。  
-① I ② discussed ③ and ④ teacher ⑤ the problem  
-The teacher and ( ) [2番目] ( ) [4番目] ( ).
-
-選択肢57:  
-1. ① ─ ②  
-2. ③ ─ ②  
-3. ① ─ ③  
-4. ② ─ ⑤  
-
-【正解57】  
-1. ① ─ ②  
-
-【解説57】  
-The teacher and I discussed the problem.  
-→ 2番目「I」(①)、4番目「discussed」(②)。
-
----
-
-問題58:
-ジョンと私はコーヒーを飲みながら話していました。  
-① John ② having ③ coffee ④ were ⑤ I  
-John and ( ) [2番目] ( ) [4番目] ( ) coffee.
-
-選択肢58:  
-1. ⑤ ─ ④  
-2. ① ─ ④  
-3. ⑤ ─ ②  
-4. ⑤ ─ ③  
-
-【正解58】  
-1. ⑤ ─ ④  
-
-【解説58】  
-John and I were having coffee.  
-→ 2番目「I」(⑤)、4番目「were」(④)。
-
----
-
-問題59:
-トムと私は海で泳ぎました。  
-① Tom ② I ③ swimming ④ went ⑤ beach  
-Tom and ( ) [2番目] ( ) [4番目] ( ) yesterday.
-
-選択肢59:  
-1. ② ─ ④  
-2. ① ─ ④  
-3. ② ─ ③  
-4. ④ ─ ③  
-
-【正解59】  
-1. ② ─ ④  
-
-【解説59】  
-Tom and I went swimming.  
-→ 2番目「I」(②)、4番目「went」(④)。
-
----
-
-問題60:
-私と母はスーパーで買い物をしました。  
-① shopping ② went ③ supermarket ④ I ⑤ mother  
-My mother and ( ) [2番目] ( ) [4番目] ( ) together.
-
-選択肢60:  
-1. ④ ─ ②  
-2. ⑤ ─ ②  
-3. ④ ─ ③  
-4. ② ─ ③  
-
-【正解60】  
-1. ④ ─ ②  
-
-【解説60】  
-My mother and I went shopping together.  
-→ 2番目「I」(④)、4番目「went」(②)。
-
----
-
-問題61:
+問題21:
 私はケント先生に趣味についてたずねました。  
 ① about ② Mr. Kent ③ hobbies ④ asked ⑤ his  
 I ( ) [2番目] ( ) [4番目] ( ).
 
-選択肢61:  
+選択肢21:  
 1. ② ─ ④  
 2. ④ ─ ①  
 3. ② ─ ⑤  
 4. ④ ─ ②
 
-【正解61】  
+【正解21】  
 3. ② ─ ⑤
 
 【解説61】  
@@ -1218,81 +418,81 @@ I asked Mr. Kent about his hobbies.
 
 ---
 
-問題62:
+問題22:
 ビルは今朝、朝食を食べる時間がありませんでした。  
 ① time ② have ③ to ④ breakfast ⑤ eat  
-Bill didn’t ( ) [2番目] ( ) [4番目] this morning.
+Bill didn’t ( ) [2番目] ( ) [4番目] ( ) this morning.
 
-選択肢62:  
+選択肢22:  
 1. ③ ─ ②  
 2. ④ ─ ③  
 3. ① ─ ⑤  
 4. ② ─ ⑤
 
-【正解62】  
+【正解22】  
 3. ① ─ ⑤
 
-【解説62】  
+【解説22】  
 Bill didn’t have time to eat breakfast this morning.  
 → 2番目「time」(①)、4番目「eat」(⑤)。
 
 ---
 
-問題63:
+問題23:
 晴美は京都で家族と楽しい週末を過ごしました。  
 ① great ② a ③ weekend ④ in ⑤ had  
-Harumi ( ) [2番目] ( ) [4番目] Kyoto with her family.
+Harumi ( ) [2番目] ( ) [4番目] ( ) Kyoto with her family.
 
-選択肢63:  
+選択肢23:  
 1. ③ ─ ⑤  
 2. ② ─ ③  
 3. ① ─ ④  
 4. ④ ─ ⑤
 
-【正解63】  
+【正解23】  
 2. ② ─ ③
 
-【解説63】  
+【解説23】  
 Harumi had a great weekend in Kyoto with her family.  
 → 2番目「a」(②)、4番目「weekend」(③)。
 
 ---
 
-問題64:
+問題24:
 あなたのお父さんは中国語とフランス語の両方を話せますか。  
 ① and ② speak ③ Chinese ④ both ⑤ father  
-Can your ( ) [2番目] ( ) [4番目] French?
+Can your ( ) [2番目] ( ) [4番目] ( ) French?
 
-選択肢64:  
+選択肢24:  
 1. ② ─ ①  
 2. ② ─ ③  
 3. ⑤ ─ ④  
 4. ③ ─ ④
 
-【正解64】  
+【正解24】  
 2. ② ─ ③
 
-【解説64】  
+【解説24】  
 Can your father speak both Chinese and French?  
 → 2番目「speak」(②)、4番目「Chinese」(③)。
 
 ---
 
-問題65:
+問題25:
 あの動物園でライオンを見ましたか。  
 ① did ② see ③ at ④ the lions ⑤ you  
-( ) [2番目] ( ) [4番目] that zoo?
+( ) [2番目] ( ) [4番目] ( ) that zoo?
 
-選択肢65:  
+選択肢25:  
 1. ⑤ ─ ③  
 2. ② ─ ③  
 3. ⑤ ─ ④  
 4. ② ─ ④
 
-【正解65】  
+【正解25】  
 3. ⑤ ─ ④  
 
-【解説65】  
+【解説25】  
 Did you see the lions at that zoo?  
 → 2番目「you」(⑤)、4番目「the lions」(④)。
 
