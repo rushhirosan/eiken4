@@ -71,8 +71,13 @@ class Command(BaseCommand):
                 question_number=question_num
             )
 
-            # 選択肢を作成
-            for i, choice_text in enumerate(choices, 1):
+            # 選択肢を作成（重複を防ぐため、選択肢を一意にする）
+            unique_choices = []
+            for choice_text in choices:
+                if choice_text not in unique_choices:
+                    unique_choices.append(choice_text)
+            
+            for i, choice_text in enumerate(unique_choices, 1):
                 is_correct = choice_text == correct_answer
                 Choice.objects.create(
                     question=question,

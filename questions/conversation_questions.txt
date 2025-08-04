@@ -281,647 +281,668 @@ Man : Just a minute. I’m almost finished.
 ---
 
 問題16:
-A : I can't find my umbrella.  
-B : ( ) Did you leave it at school?  
+A : I can't find my umbrella.
+B : Oh no! (    )
 A : Maybe. I'll check.
 
 選択肢16:
-1. You don't need it.  
-2. Where is it?  
-3. That's too bad.  
-4. Really?
+1. Did you leave it at school?
+2. Where might it be?
+3. That's too bad.
+4. Is it new?
 
-【正解16】  
-2. Where is it?
+【正解16】
+1. Did you leave it at school?
 
-【解説16】  
-「傘が見つからない」と言われたので、「どこにあるの？」とたずねる「Where is it?」が自然です。
+【解説16】
+傘が見つからないと言われたあと、「学校に置いてきた？」と推測して聞くのが具体的で自然です。
 
 ---
 
 問題17:
-A : What are you going to do this weekend?  
-B : ( ) I'm going camping with my family.  
+A : What are you going to do this weekend?
+B : (    )
 A : That sounds fun!
 
 選択肢17:
-1. Nothing special.  
-2. I’m busy.  
-3. I have no idea.  
-4. I’m going camping with my family.
+1. I’m going camping with my family.
+2. I’m staying home all day.
+3. I’m doing homework.
+4. I’m not sure yet.
 
-【正解17】  
-4. I’m going camping with my family.
+【正解17】
+1. I’m going camping with my family.
 
-【解説17】  
-「週末の予定」を聞かれたので、具体的に「家族とキャンプに行く」が自然な返答です。
+【解説17】
+「That sounds fun!」に合った楽しそうな予定を答えています。
 
 ---
 
 問題18:
-A : What’s wrong? You look worried.  
-B : ( ) I have a big test tomorrow.  
+A : What’s wrong? You seem worried.
+B : (    )
 A : Good luck!
 
 選択肢18:
-1. I’m fine.  
-2. I’m very sleepy.  
-3. I forgot my homework.  
+1. I’m fine.
+2. I’m very sleepy.
+3. I forgot my homework.
 4. I have a big test tomorrow.
 
-【正解18】  
+【正解18】
 4. I have a big test tomorrow.
 
-【解説18】  
-「心配そう」と言われているので、理由を説明する「明日大きなテストがある」が自然です。
+【解説18】
+心配に対して「明日大きなテストがある」と理由づけするのが自然です。
 
 ---
 
 問題19:
-A : Can you come to the park this afternoon?  
-B : ( ) I have to help my father.  
+A : Can you come to the park this afternoon?
+B : (    )
 A : OK, maybe next time.
 
 選択肢19:
-1. Yes, I can.  
-2. No, I can’t.  
-3. Of course.  
+1. Yes, I can.
+2. No, I can’t.
+3. Of course.
 4. Sounds good.
 
-【正解19】  
+【正解19】
 2. No, I can’t.
 
-【解説19】  
-「行けない理由」が続くので、「No, I can’t（行けない）」が適切です。
+【解説19】
+訪問を断る理由があるので、「No, I can’t」が明確で適切です。
 
 ---
 
 問題20:
-A : Why are you wearing a coat?  
-B : ( ) It’s very cold outside.  
+A : Why are you wearing a coat?
+B : (    )
 A : Oh, I see.
 
 選択肢20:
-1. I like blue.  
-2. It’s hot.  
-3. I just bought it.  
+1. I like blue.
+2. It’s hot.
+3. I just bought it.
 4. It’s very cold outside.
 
-【正解20】  
+【正解20】
 4. It’s very cold outside.
 
-【解説20】  
-「なぜ着ているの？」に対して「寒いから」と理由を言うのが自然です。
+【解説20】
+「なぜコートを着ているの？」という質問に対し、「寒いから」と答えるのが最も自然です。
 
 ---
 
-問題21:
-A : I’m bored.  
-B : ( ) Let’s play a game.  
-A : That’s a good idea.
+問題21（改善版）:
+A: I’m bored.
+B: (    )
+A: That’s a good idea.
 
 選択肢21:
-1. Me too.  
-2. Not really.  
-3. I’m hungry.  
-4. Go ahead.
+1. Let’s play a game.
+2. Me too.
+3. I’m hungry.
+4. Maybe later.
 
-【正解21】  
-1. Me too.
+【正解21】
+1. Let’s play a game.
 
-【解説21】  
-「退屈だ」という気持ちに「私も」と返すのが自然です。
+【解説21】
+A が「退屈だ」と感じているので、B が「ゲームをしよう」と提案すると、A の「That’s a good idea.（いいね）」につながって自然です。他の選択肢は意味は通じても、会話の流れとしては適切でありません。
 
 ---
 
 問題22:
-A : How do you go to school?  
-B : ( ) It takes about 20 minutes.  
+A : How do you go to school?
+B : (    )
 A : That’s not too bad.
 
 選択肢22:
-1. By bus.  
-2. Very fast.  
-3. On Monday.  
+1. By bus. It takes about 20 minutes.
+2. Very fast.
+3. On Monday.
 4. It’s boring.
 
-【正解22】  
-1. By bus.
+【正解22】
+1. By bus. It takes about 20 minutes.
 
-【解説22】  
-「どうやって行く？」という質問には「バスで」という交通手段が自然です。
+【解説22】
+交通手段と所要時間をセットで答えることで、A の反応「それほど悪くないね」に自然につながります。
 
 ---
 
 問題23:
-A : Are you free tomorrow afternoon?  
-B : ( ) I have soccer practice.  
+A : Are you free tomorrow afternoon?
+B : (    )
 A : OK, another time.
 
 選択肢23:
-1. Yes, I am.  
-2. I don’t know.  
-3. No, I’m not.  
+1. Yes, I am.
+2. I don’t know.
+3. No, I’m not.
 4. Sure.
 
-【正解23】  
+【正解23】
 3. No, I’m not.
 
-【解説23】  
-「サッカーの練習がある」ので「No, I’m not（暇ではない）」が適切です。
+【解説23】
+予定があることを伝えているので、「No, I’m not」が最適です。
 
 ---
 
 問題24:
-A : Do you want something to drink?  
-B : ( ) I’m fine, thank you.  
+A : Do you want something to drink?
+B : (    )
 A : OK, let me know if you do.
 
 選択肢24:
-1. Yes, please.  
-2. No, thanks.  
-3. Maybe later.  
+1. Yes, please.
+2. No, thanks.
+3. Maybe later.
 4. I’m very hungry.
 
-【正解24】  
+【正解24】
 2. No, thanks.
 
-【解説24】  
-「飲み物は？」と聞かれて「結構です」と断る「No, thanks」が自然です。
+【解説24】
+飲み物を差し出された際に断る自然な表現です。
 
 ---
 
 問題25:
-A : What’s the matter, Sam?  
-B : ( ) I lost my wallet.  
+A : What’s the matter, Sam?
+B : (    )
 A : Oh no, that’s terrible.
 
 選択肢25:
-1. I feel great.  
-2. I lost my wallet.  
-3. I found some money.  
+1. I feel great.
+2. I lost my wallet.
+3. I found some money.
 4. I’m happy.
 
-【正解25】  
+【正解25】
 2. I lost my wallet.
 
-【解説25】  
-「どうしたの？」に対して「財布をなくした」という理由を言うのが自然です。
+【解説25】
+どうしたの？に対する理由をシンプルに伝えています。
 
 ---
 
 問題26:
-A : Can I sit here?  
-B : ( ) This seat is free.  
+A : Can I sit here?
+B : (    )
 A : Thanks a lot.
 
 選択肢26:
-1. No, you can’t.  
-2. I’m sitting here.  
-3. Sure, go ahead.  
+1. No, you can’t.
+2. I’m sitting here.
+3. Sure, go ahead.
 4. It’s broken.
 
-【正解26】  
+【正解26】
 3. Sure, go ahead.
 
-【解説26】  
-「座ってもいい？」に「もちろん、どうぞ」と言う「Sure, go ahead」が自然です。
+【解説26】
+座ってよいかの質問に対し、丁寧に返答しています。
 
 ---
 
 問題27:
-A : Why didn’t you call me last night?  
-B : ( ) I forgot.  
+A : Why didn’t you call me last night?
+B : (    )
 A : Please call next time.
 
 選択肢27:
-1. I did.  
-2. I forgot.  
-3. I will.  
+1. I did.
+2. I forgot.
+3. I will.
 4. I don’t like phones.
 
-【正解27】  
+【正解27】
 2. I forgot.
 
-【解説27】  
-「電話しなかった理由」は「忘れたから」が自然です。
+【解説27】
+電話しなかった理由を簡潔に伝えています。
 
 ---
 
 問題28:
-A : Where are you going now?  
-B : ( ) I’m going to the library.  
+A : Where are you going now?
+B : (    )
 A : See you later.
 
 選択肢28:
-1. I don’t know.  
-2. Nowhere.  
-3. To the library.  
+1. I don’t know.
+2. Nowhere.
+3. To the library.
 4. Home.
 
-【正解28】  
+【正解28】
 3. To the library.
 
-【解説28】  
-「どこ行くの？」の質問には「図書館へ」と答えるのが自然です。
+【解説28】
+行き先を質問されて、具体的に場所を答えています。
 
 ---
 
 問題29:
-A : I’m going to buy a new bike.  
-B : ( ) I need a new one, too.  
+A : I’m going to buy a new bike.
+B : (    )
 A : Let’s go together!
 
 選択肢29:
-1. That’s nice.  
-2. I don’t ride bikes.  
-3. That’s boring.  
+1. That’s nice.
+2. I don’t ride bikes.
+3. That’s boring.
 4. It’s expensive.
 
-【正解29】  
+【正解29】
 1. That’s nice.
 
-【解説29】  
-「新しい自転車を買う」と聞いて「いいね」と言う「That’s nice」が自然です。
+【解説29】
+共感的な反応として「いいね」が最適です。
 
 ---
 
 問題30:
-A : I didn’t sleep well last night.  
-B : ( ) You look tired.  
+A : I didn’t sleep well last night.
+B : (    )
 A : Yeah, I am.
 
 選択肢30:
-1. Me neither.  
-2. I’m sleepy too.  
-3. Oh, really?  
-4. Why not?
+1. You seem tired.
+2. I feel fine.
+3. That sounds terrible.
+4. Sleep early tonight.
 
-【正解30】  
-3. Oh, really?
+【正解30】
+1. You seem tired.
 
-【解説30】  
-「よく寝られなかった」と聞いて「本当？」と驚く「Oh, really?」が自然です。
+【解説30】
+A が「よく眠れなかった」と言っているため、B は「疲れているね」と共感・観察的返答をすることで、A の「Yeah, I am.（うん、そうだよ）」へ自然につながります。選択肢はすべて plausibly で、形式・長さも統一しています。
 
 ---
 
 問題31:
-Girl : I’m going to visit my grandparents this weekend. ( )  
-Boy : Please say hello to them for me.
+Girl: I’m going to visit my grandparents this weekend.
+Boy: (    )
+Girl: Please say hello to them for me.
 
 選択肢31:
-1. I don't like them.  
-2. Where do they live?  
-3. That sounds nice.  
-4. I don't want to.
+1. I don’t like them.
+2. Where do they live?
+3. That sounds nice.
+4. I don’t want to.
 
-【正解31】  
+【正解31】
 3. That sounds nice.
 
-【解説31】  
-楽しい予定については「That sounds nice（それはいいね）」が自然な返答です。
+【解説31】
+相手の楽しそうな予定に対して「それはいいね」と反応すると、その後の「ご挨拶してね」に自然につながります。
 
 ---
 
 問題32:
-Boy : Did you do your homework already? ( )  
-Girl : I finished it before dinner.
+Boy: Did you do your homework already?
+Girl: (    )
+Boy: I finished it before dinner.
 
 選択肢32:
-1. Not yet.  
-2. Yes, I did.  
-3. I can't do it.  
-4. I forgot.
+1. Not mine.
+2. Yes, I did.
+3. I can’t do it.
+4. I will.
 
-【正解32】  
+【正解32】
 2. Yes, I did.
 
-【解説32】  
-「もうやった？」と聞かれているので、「はい、やりました（Yes, I did）」が自然です。
+【解説32】
+宿題を終えたか尋ねられ、「はい、やりました」と答えるのが最適です。
 
 ---
 
 問題33:
-Girl : I can't find my pen. ( )  
-Boy : Is this one yours?
+Girl: I can't find my pen.
+Boy: (    )
+Girl: Is this one yours?
 
 選択肢33:
-1. That's bad.  
-2. What's this?  
-3. Where is it?  
-4. Is this one yours?
+1. Did you check your desk?
+2. I think I saw one on the table.
+3. That’s too bad.
+4. Do you want to borrow mine?
 
-【正解33】  
-4. Is this one yours?
+【正解33】
+2. I think I saw one on the table.
 
-【解説33】  
-相手のペンを見つけたので「これはあなたのですか？」と聞くのが自然です。
+【解説33】
+Girl が「これあなたの？」と言う流れを作るためには、Boy が「そこにあったよ」と場所を示唆する形が自然です。  
+「机を確認した？」や「それは残念」も誤答ですが、Girl の次の発言とのつながりは薄くなります。
 
 ---
 
 問題34:
-Boy : I’m going shopping this afternoon. ( )  
-Girl : I need to buy some fruits too.
+Boy: I’m going shopping this afternoon.
+Girl: (    )
+Boy: I need to buy some fruits too.
 
 選択肢34:
-1. Me too.  
-2. Not really.  
-3. See you.  
-4. I can't.
+1. That sounds nice.
+2. I don’t like shopping.
+3. Where are you going?
+4. I can’t go today.
 
-【正解34】  
-1. Me too.
+【正解34】
+1. That sounds nice.
 
-【解説34】  
-「買い物に行く」と聞いて「私も（Me too）」と返すのが自然です。
+【解説34】
+Boy が買い物に行くという発言に、Girl が「いいね」と返すのが自然です。その後Boyが買う物の話に続きます。
 
 ---
 
 問題35:
-Girl : I lost my wallet. ( )  
-Boy : Did you check your bag?
+Girl: I lost my wallet.
+Boy: (    )
+Girl: Oh, I’ll check my bag again.
 
 選択肢35:
-1. That's too bad.  
-2. I found it.  
-3. What's wrong?  
-4. It's expensive.
+1. That’s too bad.
+2. Did you check your bag?
+3. I have it.
+4. It’s expensive.
 
-【正解35】  
-1. That's too bad.
+【正解35】
+2. Did you check your bag?
 
-【解説35】  
-「財布をなくした」という困った状況には「That’s too bad（それは大変だね）」が自然です。
+【解説35】
+財布をなくしたGirlに対して、Boyが「カバンを確認した？」と促すのが自然です。その後Girlが確認する流れにつながります。
 
 ---
 
 問題36:
-Boy : What are you going to do this weekend? ( )  
-Girl : I'm going camping with my family.
+Boy: What are you going to do this weekend?
+Girl: (    )
+Boy: I’m going camping with my family.
 
 選択肢36:
-1. Nothing special.  
-2. I’m busy.  
-3. I have no idea.  
-4. I’m going camping with my family.
+1. I’m not sure yet.
+2. I’m going camping too.
+3. I’m sleepy.
+4. I'm 15 years old.
 
-【正解36】  
-4. I’m going camping with my family.
+【正解36】
+1. I’m not sure yet.
 
-【解説36】  
-「週末の予定」を聞かれて、具体的に答えるのが自然です。
+【解説36】
+Boy の予定が続くので、Girl がまだ予定が決まっていないと返す流れが自然です。
 
 ---
 
 問題37:
-Girl : Why are you wearing a coat? ( )  
-Boy : It’s very cold outside.
+Girl: Did you finish the history project?
+Boy: (    )
+Girl: Great! We can show it to the teacher tomorrow.
 
 選択肢37:
-1. I like blue.  
-2. It’s hot.  
-3. I just bought it.  
-4. It’s very cold outside.
+1. Not yet, I’ll do it next week.
+2. Yes, I finished it yesterday.
+3. I don’t like history.
+4. I forgot about it.
 
-【正解37】  
-4. It’s very cold outside.
+【正解37】
+2. Yes, I finished it yesterday.
 
-【解説37】  
-理由を答えるので「It’s very cold outside（寒いから）」が適切です。
+【解説37】
+Girl が完成を確認しており、Boy が「昨日終えた」と答えることで、提出の話につながります。
 
 ---
 
 問題38:
-Boy : I’m bored. ( )  
-Girl : Let’s play a game.
+Boy: I heard you joined the music club.
+Girl: (    )
+Boy: That’s cool! I play the guitar.
 
 選択肢38:
-1. Me too.  
-2. Not really.  
-3. I'm hungry.  
-4. Go ahead.
+1. No, I quit it.
+2. Yes, I started last month.
+3. I don’t like music.
+4. I can’t play any instrument.
 
-【正解38】  
-1. Me too.
+【正解38】
+2. Yes, I started last month.
 
-【解説38】  
-「退屈だ」と言われたら「私も（Me too）」が自然です。
+【解説38】
+Boy の「かっこいいね！」という反応につながるのは、Girl がクラブ活動を始めた肯定的な答えです。
 
 ---
 
 問題39:
-Girl : How do you go to school? ( )  
-Boy : It takes about 20 minutes.
+Girl: Are you coming to the school festival this Saturday?
+Boy: (    )
+Girl: Great! Let’s meet at the entrance.
 
 選択肢39:
-1. By bus.  
-2. Very fast.  
-3. On Monday.  
-4. It’s boring.
+1. Yes, I’ll be there.
+2. No, I hate festivals.
+3. I haven’t decided yet.
+4. I’ll be busy cleaning my room.
 
-【正解39】  
-1. By bus.
+【正解39】
+1. Yes, I’ll be there.
 
-【解説39】  
-「どうやって行く？」には交通手段の「By bus」が自然です。
+【解説39】
+Girl の「じゃあ入り口で会おう」という約束につながるには、Boy の参加が確定している必要があります。
 
 ---
 
 問題40:
-Boy : Are you free tomorrow afternoon? ( )  
-Girl : I have soccer practice.
+Boy: I’m thinking of trying out for the soccer team.
+Girl: (    )
+Boy: Thanks! I’ll practice a lot.
 
 選択肢40:
-1. Yes, I am.  
-2. I don't know.  
-3. No, I'm not.  
-4. Sure.
+1. Good luck!
+2. I don’t like soccer.
+3. Why bother?
+4. I’m busy that day.
 
-【正解40】  
-3. No, I'm not.
+【正解40】
+1. Good luck!
 
-【解説40】  
-「サッカーの練習がある」ので「No, I'm not（暇ではない）」が自然です。
+【解説40】
+Boy の挑戦に対して、Girl が「頑張って！」と応援するのが自然です。
 
 ---
 
 問題41:
-Girl : Do you want something to drink? ( )  
-Boy : I’m fine, thank you.
+Girl: My father will work overseas next year.
+Boy: (    )
+Girl: Yes, he’s going to Canada.
 
 選択肢41:
-1. Yes, please.  
-2. No, thanks.  
-3. Maybe later.  
-4. I’m very hungry.
+1. Which country will he go to?
+2. I don’t like traveling.
+3. Does he play soccer?
+4. Why not go shopping?
 
-【正解41】  
-2. No, thanks.
+【正解41】
+1. Which country will he go to?
 
-【解説41】  
-「飲み物は？」に対して断るときは「No, thanks（結構です）」が自然です。
+【解説41】
+海外勤務の話題では行き先を尋ねるのが自然です。
 
 ---
 
 問題42:
-Boy : What's the matter, Sam? ( )  
-Girl : I lost my wallet.
+Boy: Our school is having a charity concert next month.
+Girl: (    )
+Boy: Thanks, I’ll save you a seat.
 
 選択肢42:
-1. I feel great.  
-2. I lost my wallet.  
-3. I found some money.  
-4. I'm happy.
+1. I can’t play any instruments.
+2. I’d love to come.
+3. I don’t like music.
+4. Why are you going?
 
-【正解42】  
-2. I lost my wallet.
+【正解42】
+2. I’d love to come.
 
-【解説42】  
-「どうしたの？」に対して「財布をなくした」と理由を言うのが自然です。
+【解説42】
+Boyの招待にGirlが参加意欲を見せることで会話が自然になります。
 
 ---
 
 問題43:
-Girl : Can I sit here? ( )  
-Boy : This seat is free.
+Girl: I missed the bus this morning.
+Boy: (    )
+Girl: Yes, but it was still a bit late.
 
 選択肢43:
-1. No, you can't.  
-2. I'm sitting here.  
-3. Sure, go ahead.  
-4. It's broken.
+1. I never miss the bus.
+2. I don’t like buses.
+3. Did you take the next one?
+4. Why don’t you buy a car?
 
-【正解43】  
-3. Sure, go ahead.
+【正解43】
+3. Did you take the next one?
 
-【解説43】  
-「座ってもいい？」に「どうぞ」という意味の「Sure, go ahead」が自然です。
+【解説43】
+バスを逃した話題からBoyが次の便を確認するのが自然です。
 
 ---
 
 問題44:
-Boy : Why didn't you call me last night? ( )  
-Girl : I forgot.
+Boy: I’m going camping with my family this weekend.
+Girl: (    )
+Boy: Near a lake.
 
 選択肢44:
-1. I did.  
-2. I forgot.  
-3. I will.  
-4. I don't like phones.
+1. Will you take me?
+2. Where will you go?
+3. I don’t like camping.
+4. I can’t go.
 
-【正解44】  
-2. I forgot.
+【正解44】
+2. Where will you go?
 
-【解説44】  
-理由を聞かれて「忘れた（I forgot）」が自然です。
+【解説44】
+Boyの予定を聞いたGirlが行き先を尋ねる流れが自然です。
 
 ---
 
 問題45:
-Girl : Where are you going now? ( )  
-Boy : I’m going to the library.
+Girl: I dropped my phone in the water.
+Boy: (    )
+Girl: Yes, I’m going there this afternoon.
 
 選択肢45:
-1. I don't know.  
-2. Nowhere.  
-3. To the library.  
-4. Home.
+1. I don’t like phones.
+2. I never use my phone.
+3. Will you take it to the repair shop?
+4. Why don’t you buy a new one?
 
-【正解45】  
-3. To the library.
+【正解45】
+3. Will you take it to the repair shop?
 
-【解説45】  
-「どこへ行くの？」に「図書館へ（To the library）」が自然です。
+【解説45】
+Boyが修理について尋ねることでGirlの返答につながります。
 
 ---
 
 問題46:
-Girl : I didn’t see you at the party yesterday. ( )  
-Boy : I was very busy with my homework.
+Boy: There will be a marathon in our city next Sunday.
+Girl: (    )
+Boy: Thanks, I’ll try my best.
 
 選択肢46:
-1. I enjoyed it a lot.  
-2. I didn't go.  
-3. I don't like parties.  
-4. I saw you there.
+1. I don’t like running.
+2. Good luck with the race!
+3. Why are you joining?
+4. I can’t run.
 
-【正解46】  
-2. I didn't go.
+【正解46】
+2. Good luck with the race!
 
-【解説46】  
-「昨日パーティーにいなかったね」という言葉に対して、「行かなかった（I didn't go）」が最も自然です。
+【解説46】
+GirlがBoyを応援するのが自然な流れです。
 
 ---
 
 問題47:
-Boy : Did you understand the math homework? ( )  
-Girl : Not really. I think I need to ask the teacher.
+Girl: I got first place in the art contest.
+Boy: (    )
+Girl: Thank you! I worked really hard.
 
 選択肢47:
-1. Yes, it was easy.  
-2. Of course.  
-3. Not really.  
-4. I didn’t do it.
+1. Congratulations!
+2. Why did you win?
+3. I don’t like art.
+4. That’s strange.
 
-【正解47】  
-3. Not really.
+【正解47】
+1. Congratulations!
 
-【解説47】  
-「わかった？」という質問に「あまり（Not really）」と答えるのが自然です。
+【解説47】
+Girlの受賞をBoyが祝福するのが自然です。
 
 ---
 
 問題48:
-Girl : I want to join the tennis club. ( )  
-Boy : That’s great! You’ll enjoy it.
+Boy: My cousin is visiting from Australia.
+Girl: (    )
+Boy: Yes, he’ll stay for two weeks.
 
 選択肢48:
-1. Me too.  
-2. Why?  
-3. Really?  
-4. Good luck.
+1. Why is he coming?
+2. I don’t like Australia.
+3. How long will he stay?
+4. I can’t visit him.
 
-【正解48】  
-4. Good luck.
+【正解48】
+3. How long will he stay?
 
-【解説48】  
-新しいことにチャレンジする時は「Good luck（がんばって）」というのが自然な応援の言葉です。
+【解説48】
+滞在期間を尋ねることでBoyの返答につながります。
 
 ---
 
 問題49:
-Boy : Can you help me with my science project? ( )  
-Girl : Sure, I’d be happy to.
+Girl: I joined a cooking class last month.
+Boy: (    )
+Girl: Yes, I can make pasta now.
 
 選択肢49:
-1. No way.  
-2. I’m too busy.  
-3. Sure, I’d be happy to.  
-4. I don’t like science.
+1. Can you cook Italian food now?
+2. I don’t like cooking.
+3. Why did you join?
+4. I never cook.
 
-【正解49】  
-3. Sure, I’d be happy to.
+【正解49】
+1. Can you cook Italian food now?
 
-【解説49】  
-「手伝ってくれる？」という頼みに対して「もちろん、喜んで（Sure, I’d be happy to）」が自然です。
+【解説49】
+Girlが料理を習っている話からBoyが成果を尋ねるのが自然です。
 
 ---
 
 問題50:
-Girl : What did you do during the winter vacation? ( )  
-Boy : I went skiing in Hokkaido.
+Boy: We’ll have a school trip to Okinawa next spring.
+Girl: (    )
+Boy: Yes, we’ll go snorkeling.
 
 選択肢50:
-1. Nothing special.  
-2. I stayed home.  
-3. I went skiing in Hokkaido.  
-4. I watched TV all day.
+1. I can’t swim.
+2. Why are you going there?
+3. I don’t like Okinawa.
+4. Will you swim in the sea?
 
-【正解50】  
-3. I went skiing in Hokkaido.
+【正解50】
+4. Will you swim in the sea?
 
-【解説50】  
-「何をしたの？」という質問に対して、具体的に「北海道でスキーをした」と答えるのが自然です。
+【解説50】
+Boyの旅行の話題からGirlがアクティビティを尋ねるのが自然です。
 
 ---
 

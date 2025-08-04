@@ -20,6 +20,7 @@ from django.views.generic import RedirectView
 from django.conf import settings
 from django.conf.urls.static import static
 from django.http import HttpResponse
+from django.views.static import serve
 
 def healthz(request):
     return HttpResponse("ok", status=200)
@@ -30,6 +31,8 @@ urlpatterns = [
     path('accounts/', include('django.contrib.auth.urls')),
     path('exams/', include('exams.urls')),
     path('', RedirectView.as_view(url='/exams/', permanent=True)),
+    # Google Search Console verification file
+    path('google41829dffd897ace8.html', lambda request: serve(request, 'google41829dffd897ace8.html', document_root='.')),
 ]
 
 if settings.DEBUG:

@@ -105,6 +105,8 @@
                                         <div class="card-text">{{ question_text|linebreaks }}</div>
                                     {% endif %}
                                 {% endwith %}
+                            {% elif question_type == 'conversation_fill' %}
+                                <p class="card-text">{{ question.question.question_text|linebreaks }}</p>
                             {% else %}
                                 <p class="card-text">{{ question.question.question_text }}</p>
                             {% endif %}

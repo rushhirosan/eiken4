@@ -38,10 +38,10 @@ class Command(BaseCommand):
                 if not line:
                     continue
                     
-                if line.startswith('【正解】'):
+                if line.startswith('【正解'):
                     current_section = 'correct'
                     continue
-                elif line.startswith('【解説】'):
+                elif line.startswith('【解説'):
                     current_section = 'explanation'
                     continue
                 elif line.startswith('選択肢'):
@@ -49,7 +49,9 @@ class Command(BaseCommand):
                     continue
                 
                 if current_section == 'question':
-                    question_text += line + '\n'
+                    # 「問題24:」のような行を除外
+                    if not line.startswith('問題') and ':' in line:
+                        question_text += line + '\n'
                 elif current_section == 'choices':
                     if line.startswith(('1.', '2.', '3.', '4.')):
                         choices.append(line[2:].strip())
