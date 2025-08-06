@@ -2,7 +2,7 @@ User-agent: *
 Allow: /
 
 # Sitemap
-Sitemap: https://eiken-app.fly.dev/static/sitemap.xml
+Sitemap: https://eiken-app.fly.dev/sitemap.xml
 
 # Crawl-delay
 Crawl-delay: 1
