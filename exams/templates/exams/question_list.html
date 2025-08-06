@@ -1,10 +1,18 @@
 {% extends 'accounts/base.html' %}
 {% load static %}
 
-{% block title %}問題一覧 - {{ question_type_display }}{% endblock %}
+{% block title %}{{ question_type_display }} - 英検4級対策問題 | Eiken Practice{% endblock %}
 
 {% block content %}
 <div class="container mt-4">
+    <!-- パンくずリスト -->
+    <nav aria-label="breadcrumb" class="mb-3">
+        <ol class="breadcrumb">
+            <li class="breadcrumb-item"><a href="{% url 'exams:exam_list' %}" class="text-white-50">問題一覧</a></li>
+            <li class="breadcrumb-item active text-white" aria-current="page">{{ question_type_display }}</li>
+        </ol>
+    </nav>
+    
     <h1 class="mb-4 text-white">{{ question_type_display }}</h1>
     
     {% if question_type != 'random' and question_type != 'mock_exam' %}

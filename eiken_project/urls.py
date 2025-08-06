@@ -34,7 +34,7 @@ urlpatterns = [
     # Google Search Console verification file
     path('google41829dffd897ace8.html', lambda request: serve(request, 'google41829dffd897ace8.html', document_root='.')),
     # Sitemap
-    path('sitemap.xml', lambda request: serve(request, 'sitemap.xml', document_root='.')),
+    path('sitemap.xml', include('exams.urls')),
     # Privacy Policy
     path('privacy-policy/', TemplateView.as_view(template_name='privacy_policy.html'), name='privacy_policy'),
 ]
