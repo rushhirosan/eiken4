@@ -1,0 +1,82 @@
+{% extends 'accounts/base.html' %}
+{% load static %}
+
+{% block title %}プライバシーポリシー - Eiken Practice{% endblock %}
+
+{% block content %}
+<div class="container mt-5">
+    <div class="row justify-content-center">
+        <div class="col-lg-8">
+            <div class="card shadow">
+                <div class="card-header bg-primary text-white">
+                    <h1 class="h3 mb-0">プライバシーポリシー</h1>
+                </div>
+                <div class="card-body">
+                    <p class="text-muted mb-4">最終更新日: 2024年12月19日</p>
+                    
+                    <h2 class="h4 mb-3">1. 個人情報の収集について</h2>
+                    <p>Eiken Practice（以下「当サイト」）では、以下の個人情報を収集いたします：</p>
+                    <ul>
+                        <li>ユーザー名（登録時）</li>
+                        <li>メールアドレス（登録時）</li>
+                        <li>学習進捗データ</li>
+                        <li>問題の回答履歴</li>
+                        <li>アクセスログ（IPアドレス、ブラウザ情報等）</li>
+                    </ul>
+
+                    <h2 class="h4 mb-3">2. 個人情報の利用目的</h2>
+                    <p>収集した個人情報は、以下の目的で利用いたします：</p>
+                    <ul>
+                        <li>ユーザー認証・ログイン機能の提供</li>
+                        <li>学習進捗の保存・表示</li>
+                        <li>問題の回答履歴の管理</li>
+                        <li>サービスの改善・開発</li>
+                        <li>不正利用の防止</li>
+                        <li>お問い合わせへの対応</li>
+                    </ul>
+
+                    <h2 class="h4 mb-3">3. 第三者への提供</h2>
+                    <p>当サイトでは、以下の場合を除き、個人情報を第三者に提供いたしません：</p>
+                    <ul>
+                        <li>ユーザーの同意がある場合</li>
+                        <li>法令に基づく場合</li>
+                        <li>人の生命、身体または財産の保護のために必要な場合</li>
+                    </ul>
+
+                    <h2 class="h4 mb-3">4. Google Analyticsについて</h2>
+                    <p>当サイトでは、Google Analytics 4を使用してアクセス解析を行っています。Google Analyticsは、以下の情報を収集します：</p>
+                    <ul>
+                        <li>ページビュー数</li>
+                        <li>滞在時間</li>
+                        <li>参照元</li>
+                        <li>デバイス情報</li>
+                        <li>地域情報</li>
+                    </ul>
+                    <p>これらの情報は、サービスの改善にのみ使用されます。Google Analyticsの利用規約については、<a href="https://marketingplatform.google.com/about/analytics/terms/jp/" target="_blank">Google Analytics利用規約</a>をご確認ください。</p>
+
+                    <h2 class="h4 mb-3">5. 個人情報の管理</h2>
+                    <p>当サイトでは、個人情報の正確性及び安全性を確保するために、セキュリティ対策を実施し、個人情報の漏洩、滅失またはき損の防止その他の個人情報の適切な管理を行います。</p>
+
+                    <h2 class="h4 mb-3">6. 個人情報の開示・訂正・削除</h2>
+                    <p>ユーザーは、当サイトに対して、ご自身の個人情報の開示、訂正、削除を求めることができます。これらの要求については、お問い合わせフォームよりご連絡ください。</p>
+
+                    <h2 class="h4 mb-3">7. Cookieの使用</h2>
+                    <p>当サイトでは、ユーザーエクスペリエンスの向上のためにCookieを使用しています。ブラウザの設定により、Cookieの使用を制限することができます。</p>
+
+                    <h2 class="h4 mb-3">8. プライバシーポリシーの変更</h2>
+                    <p>当サイトは、必要に応じて本プライバシーポリシーを変更することがあります。重要な変更がある場合は、サイト上でお知らせいたします。</p>
+
+                    <h2 class="h4 mb-3">9. お問い合わせ</h2>
+                    <p>プライバシーポリシーに関するお問い合わせは、お問い合わせフォームよりご連絡ください。</p>
+
+                    <div class="text-center mt-5">
+                        <a href="{% url 'exams:exam_list' %}" class="btn btn-primary">
+                            <i class="fas fa-arrow-left me-2"></i>問題一覧に戻る
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %} 

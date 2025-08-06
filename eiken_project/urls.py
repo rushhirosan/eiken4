@@ -16,7 +16,7 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path, include
-from django.views.generic.base import RedirectView
+from django.views.generic.base import RedirectView, TemplateView
 from django.conf import settings
 from django.conf.urls.static import static
 from django.http import HttpResponse
@@ -35,6 +35,8 @@ urlpatterns = [
     path('google41829dffd897ace8.html', lambda request: serve(request, 'google41829dffd897ace8.html', document_root='.')),
     # Sitemap
     path('sitemap.xml', lambda request: serve(request, 'sitemap.xml', document_root='.')),
+    # Privacy Policy
+    path('privacy-policy/', TemplateView.as_view(template_name='privacy_policy.html'), name='privacy_policy'),
 ]
 
 if settings.DEBUG:
