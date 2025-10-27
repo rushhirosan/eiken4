@@ -1,142 +1,143 @@
 #!/usr/bin/env python3
 import os
-from gtts import gTTS
 import re
+from gtts import gTTS
 
-def create_listening_illustration_audio_31_to_40():
-    """
-    リスニングイラスト問題31-40の音声ファイルを作成
-    会話文、質問文、選択肢すべてを含む
-    """
+def extract_illustration_parts(text):
+    """リスニングイラスト問題の会話文、質問文、選択肢を抽出"""
+    lines = text.strip().split('\n')
+    conversation = []
+    question = []
+    choices = []
+    is_question = False
+    is_choices = False
+    skip_until_next_question = False
     
-    # 問題データ（会話文、質問、選択肢、正解）
-    questions = {
-        31: {
-            'conversation': "That watch is pretty. Yes, but it's expensive. You're right.",
-            'question': "Question No.31:",
-            'choices': [
-                "1. Let's go to another store.",
-                "2. It's in a box.",
-                "3. At the mall."
-            ]
-        },
-        32: {
-            'conversation': "You look happy. I am. I got a new job at the library. That's great.",
-            'question': "Question No.32:",
-            'choices': [
-                "1. I'm so excited.",
-                "2. Sure you can.",
-                "3. I have that book."
-            ]
-        },
-        33: {
-            'conversation': "I love this cake. Do you want some more? Just a little.",
-            'question': "Question No.33:",
-            'choices': [
-                "1. For a few minutes.",
-                "2. I'm not a good cook.",
-                "3. Here you are."
-            ]
-        },
-        34: {
-            'conversation': "Where did you go on vacation? I went to Spain. Did you eat seafood?",
-            'question': "Question No.34:",
-            'choices': [
-                "1. Yes. It was delicious.",
-                "2. I'm studying Spanish.",
-                "3. Well, I have a meeting."
-            ]
-        },
-        35: {
-            'conversation': "Where did you go last weekend? I went snowboarding at Mt. Baker. How was it?",
-            'question': "Question No.35:",
-            'choices': [
-                "1. We went by car.",
-                "2. There were five.",
-                "3. It was exciting."
-            ]
-        },
-        36: {
-            'conversation': "I'd like an apple pie for dessert. I'll make some. Great. How many apples do you need?",
-            'question': "Question No.36:",
-            'choices': [
-                "1. It was so delicious.",
-                "2. Let's get four or five.",
-                "3. No, I'm full."
-            ]
-        },
-        37: {
-            'conversation': "Is your math test today? Yes, it is. Good luck!",
-            'question': "Question No.37:",
-            'choices': [
-                "1. I'll do my best.",
-                "2. It was difficult.",
-                "3. You'll like it."
-            ]
-        },
-        38: {
-            'conversation': "Where did you take this photo? In Toronto. Who are the people with you?",
-            'question': "Question No.38:",
-            'choices': [
-                "1. During the vacation.",
-                "2. It was cold and rainy.",
-                "3. My aunt and uncle."
-            ]
-        },
-        39: {
-            'conversation': "Were you at Sam's birthday party? Yes. How was it?",
-            'question': "Question No.39:",
-            'choices': [
-                "1. I had a good time.",
-                "2. That's a good idea.",
-                "3. I don't have a ticket."
-            ]
-        },
-        40: {
-            'conversation': "Do you have any plans for summer vacation? Yes. I'll go to Hawaii. What will you do there?",
-            'question': "Question No.40:",
-            'choices': [
-                "1. On the beach.",
-                "2. It will be hot.",
-                "3. I'll visit my cousins."
-            ]
-        }
-    }
+    for line in lines:
+        line = line.strip()
+        if not line:
+            continue
+            
+        # No.X: をスキップ
+        if re.match(r'No\.\d+:', line):
+            skip_until_next_question = False
+            continue
+            
+        # 正解と解説が始まったら、次の問題までスキップ
+        if line.startswith('【正解') or line.startswith('【解説'):
+            skip_until_next_question = True
+            continue
+            
+        if skip_until_next_question:
+            continue
+            
+        # Question No.X: の場合
+        if line.startswith('Question No.'):
+            is_question = True
+            is_choices = False
+            question.append("Question")
+            continue
+            
+        # 選択肢の開始（数字で始まる行）
+        if re.match(r'^\d+\.', line):
+            is_question = False
+            is_choices = True
+            choices.append(line)
+            continue
+            
+        # 会話文（M: と W: を順番通りに処理）
+        if line.startswith('M:') or line.startswith('W:'):
+            text = line[2:].strip()
+            conversation.append(text)
+        elif is_question:
+            question.append(line)
     
-    # 出力ディレクトリを作成
-    output_dir = "static/audio/part1"
-    if not os.path.exists(output_dir):
-        os.makedirs(output_dir)
-        print(f"ディレクトリを作成しました: {output_dir}")
-    
-    # 各問題の音声ファイルを作成
-    for question_num in range(31, 41):
-        print(f"問題{question_num}の音声ファイルを作成中...")
-        
-        # テキストを組み立て
-        question_data = questions[question_num]
-        
-        # 会話文（男性と女性の声で交互に）
-        conversation = question_data['conversation']
-        # 質問文
-        question = question_data['question']
-        # 選択肢
-        choices = question_data['choices']
-        
+    return ' '.join(conversation), ' '.join(question), choices
+
+def create_audio_file(conversation, question, choices, output_path):
+    """音声ファイルを作成"""
+    try:
         # 完全なテキストを作成
         full_text = f"{conversation} {question} {' '.join(choices)}"
         
         # 音声ファイルを作成
-        output_file = os.path.join(output_dir, f"listening_illustration_question{question_num}.mp3")
+        tts = gTTS(text=full_text, lang='en', slow=False)
+        tts.save(output_path)
+        print(f"音声ファイルを作成しました: {output_path}")
+        return True
         
-        try:
-            tts = gTTS(text=full_text, lang='en', slow=False)
-            tts.save(output_file)
-            print(f"音声ファイルを作成しました: {output_file}")
-        except Exception as e:
-            print(f"問題{question_num}の音声ファイル作成中にエラーが発生しました: {str(e)}")
+    except Exception as e:
+        print(f"音声ファイル作成中にエラーが発生しました: {str(e)}")
+        return False
+
+def generate_illustration_audio(input_file, output_dir, question_range=None):
+    """
+    リスニングイラスト問題の音声ファイルを生成
     
-    print("音声ファイル作成完了！")
+    Args:
+        input_file (str): 入力テキストファイルのパス
+        output_dir (str): 出力ディレクトリのパス
+        question_range (tuple, optional): 問題範囲 (start, end) 例: (31, 40)
+    """
+    # 出力ディレクトリを作成
+    if not os.path.exists(output_dir):
+        os.makedirs(output_dir)
+        print(f"ディレクトリを作成しました: {output_dir}")
+    
+    # ファイルを読み込み
+    with open(input_file, 'r', encoding='utf-8') as f:
+        content = f.read()
+    
+    # 問題ブロックを分割
+    question_blocks = content.split('---')
+    
+    success_count = 0
+    total_count = 0
+    
+    for block in question_blocks:
+        if not block.strip():
+            continue
+            
+        # 問題番号を抽出
+        number_match = re.search(r'No\.(\d+):', block)
+        if not number_match:
+            continue
+            
+        question_number = int(number_match.group(1))
+        
+        # 問題範囲の指定がある場合はチェック
+        if question_range:
+            start_num, end_num = question_range
+            if question_number < start_num or question_number > end_num:
+                continue
+        
+        total_count += 1
+        
+        # 会話、質問、選択肢を抽出
+        conversation, question, choices = extract_illustration_parts(block)
+        
+        # 音声ファイルを作成
+        output_file = os.path.join(output_dir, f"listening_illustration_question{question_number}.mp3")
+        
+        if create_audio_file(conversation, question, choices, output_file):
+            success_count += 1
+            print(f"問題{question_number}を処理しました")
+    
+    print(f"\n音声ファイル作成完了！")
+    print(f"成功: {success_count}/{total_count} 問")
+
+def main():
+    """メイン関数"""
+    # 設定
+    input_file = 'data/questions/listening_illustration_questions.txt'
+    output_dir = 'static/audio/part1'
+    
+    # 問題範囲を指定（Noneの場合は全問題）
+    # question_range = (31, 40)  # 31-40問のみ
+    question_range = None  # 全問題
+    
+    # 音声ファイルを生成
+    generate_illustration_audio(input_file, output_dir, question_range)
 
 if __name__ == "__main__":
-    create_listening_illustration_audio_31_to_40() 
+    main()

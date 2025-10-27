@@ -73,7 +73,7 @@ class Command(BaseCommand):
         print('既存のリスニング会話問題（31-40）を削除しました')
         
         # テキストファイルから問題を読み込む
-        questions_data = parse_questions_from_file('questions/listening_conversation_questions.txt')
+        questions_data = parse_questions_from_file('data/questions/listening_conversation_questions.txt')
         print(f'parse_questions_from_fileで抽出された問題数: {len(questions_data)}')
         
         for data in questions_data:
@@ -187,7 +187,7 @@ async def text_to_speech(text, output_path, voice):
 
 async def main():
     # 入力ファイルのパス
-    input_file = 'questions/listening_illustration_questions.txt'
+    input_file = 'data/questions/listening_illustration_questions.txt'
     
     # 出力ディレクトリ
     output_dir = 'static/audio/part1'

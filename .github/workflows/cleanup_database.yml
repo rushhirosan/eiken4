@@ -1,0 +1,49 @@
+name: Database Cleanup
+
+on:
+  schedule:
+    # 毎月1日の深夜3時（日本時間12時）に実行
+    - cron: '0 3 1 * *'
+  workflow_dispatch: # 手動実行も可能
+
+jobs:
+  cleanup:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+      
+      - name: Install flyctl
+        uses: superfly/flyctl-actions/setup-flyctl@master
+      
+      - name: Run database cleanup (dry run first)
+        run: |
+          echo "=========================================="
+          echo "Dry run - 削除対象を確認中..."
+          echo "=========================================="
+          flyctl ssh console -a eiken-app -C "cd /app && python manage_production.py cleanup_database --dry-run"
+        env:
+          FLY_API_TOKEN: ${{ secrets.FLY_API_TOKEN }}
+      
+      - name: Run actual database cleanup
+        run: |
+          echo "=========================================="
+          echo "実際のクリーンアップを実行中..."
+          echo "=========================================="
+          flyctl ssh console -a eiken-app -C "cd /app && python manage_production.py cleanup_database --vacuum"
+        env:
+          FLY_API_TOKEN: ${{ secrets.FLY_API_TOKEN }}
+      
+      - name: Check database size
+        run: |
+          echo "=========================================="
+          echo "データベースサイズを確認中..."
+          echo "=========================================="
+          flyctl postgres connect -a eiken-app-db -C "SELECT pg_size_pretty(pg_database_size(current_database())) AS size;"
+        env:
+          FLY_API_TOKEN: ${{ secrets.FLY_API_TOKEN }}
+        continue-on-error: true
+
+
+

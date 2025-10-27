@@ -227,7 +227,7 @@ async def generate_audio_from_file(input_file, output_dir, question_range=None):
 
 async def main():
     # 設定
-    input_file = 'questions/listening_passage_questions.txt'
+    input_file = 'data/questions/listening_passage_questions.txt'
     output_dir = 'static/audio/part3'
     question_range = (31, 40)  # 31問目から40問目
     

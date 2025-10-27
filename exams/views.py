@@ -55,7 +55,7 @@ def exam_list(request):
             count = Question.objects.filter(level='4', question_type=q_type).count()
         question_counts[q_type] = count
     
-        context = {
+    context = {
         'levels': levels,
         'question_types': question_types,
         'question_counts': question_counts,

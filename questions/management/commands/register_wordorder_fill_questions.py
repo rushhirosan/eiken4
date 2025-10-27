@@ -14,7 +14,7 @@ class Command(BaseCommand):
         self.stdout.write(self.style.WARNING('既存の語順穴埋め問題（61-65）を削除しました'))
         
         # Read the text file
-        with open('questions/wordorder_questions.txt', 'r', encoding='utf-8') as file:
+        with open('data/questions/wordorder_questions.txt', 'r', encoding='utf-8') as file:
             content = file.read()
 
         # Split into questions

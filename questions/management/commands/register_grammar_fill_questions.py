@@ -3,18 +3,15 @@ from exams.models import Question, Choice
 import re
 
 class Command(BaseCommand):
-    help = 'Register grammar fill questions 151-165 from text file'
+    help = 'Register all grammar fill questions (1-165) from text file'
 
     def handle(self, *args, **options):
-        # Clear existing questions 11-150
-        Question.objects.filter(
-            question_type='grammar_fill',
-            question_number__in=range(11, 151)
-        ).delete()
-        self.stdout.write(self.style.WARNING('既存の文法語彙問題（11-150）を削除しました'))
+        # Clear all existing grammar fill questions
+        Question.objects.filter(question_type='grammar_fill').delete()
+        self.stdout.write(self.style.WARNING('既存の文法語彙問題をすべて削除しました'))
         
         # Read the text file
-        with open('questions/grammar_fill_questions.txt', 'r', encoding='utf-8') as file:
+        with open('data/questions/grammar_fill_questions.txt', 'r', encoding='utf-8') as file:
             content = file.read()
 
         # Split into questions
@@ -32,8 +29,8 @@ class Command(BaseCommand):
                     continue
                 question_number = int(question_number_match.group(1))
                 
-                # Only process questions 11-150
-                if question_number < 11 or question_number > 150:
+                # Process all questions (1-165)
+                if question_number < 1 or question_number > 165:
                     continue
 
                 # Extract question text
