@@ -23,13 +23,13 @@
                 
                 {% if answer.question.image %}
                 <div class="text-center mb-3">
-                    <img src="{% static answer.question.image %}" alt="問題のイラスト" class="img-fluid" style="max-width: 300px; height: auto;">
+                    <img src="{% static answer.question.image %}" alt="問題のイラスト" class="img-fluid" style="max-width: 100%; height: auto;">
                 </div>
                 {% endif %}
                 
                 {% if answer.question.audio %}
                 <div class="text-center mb-3">
-                    <audio controls class="w-100" style="max-width: 400px;">
+                    <audio controls class="w-100" style="max-width: 100%;">
                         <source src="{% static answer.question.audio %}" type="audio/mpeg">
                         お使いのブラウザは音声再生に対応していません。
                     </audio>
@@ -121,7 +121,7 @@
                         {% endif %}
                     </p>
                     <p>あなたの回答: {{ answer.user_answer.choice_text }}</p>
-                    <p>正解: {{ answer.correct_choice.choice_text }}</p>
+                    <p>正解: {% if answer.correct_choice %}{{ answer.correct_choice.choice_text }}{% else %}（正解が見つかりませんでした）{% endif %}</p>
                     {% if answer.explanation %}
                     <div class="alert alert-info">
                         <strong>解説:</strong><br>
@@ -138,4 +138,68 @@
         <a href="{% url 'exams:exam_list' %}" class="btn btn-primary">問題一覧に戻る</a>
     </div>
 </div>
+
+<style>
+/* モバイル最適化 */
+@media (max-width: 768px) {
+    h2 {
+        font-size: 1.5rem;
+    }
+    
+    h5, h6 {
+        font-size: 1.1rem;
+    }
+    
+    .card {
+        margin-bottom: 1rem;
+    }
+    
+    .card-body {
+        padding: 1rem;
+    }
+    
+    .card-header {
+        padding: 0.75rem 1rem;
+    }
+    
+    .btn {
+        min-height: 44px;
+        padding: 0.75rem 1.5rem;
+        font-size: 1rem;
+    }
+    
+    .form-check {
+        padding: 0.75rem 0;
+        margin-bottom: 0.5rem;
+    }
+    
+    .form-check-input {
+        width: 1.25rem;
+        height: 1.25rem;
+    }
+    
+    .alert {
+        font-size: 0.95rem;
+    }
+    
+    audio {
+        width: 100% !important;
+    }
+}
+
+@media (max-width: 576px) {
+    h2 {
+        font-size: 1.3rem;
+    }
+    
+    .card-body {
+        padding: 0.75rem;
+    }
+    
+    .btn {
+        font-size: 0.9rem;
+        padding: 0.7rem 1.2rem;
+    }
+}
+</style>
 {% endblock %} 

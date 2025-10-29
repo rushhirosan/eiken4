@@ -444,7 +444,8 @@ def question_list(request, level=None, exam_id=None):
                         user=request.user,
                         question=question,
                         selected_choice=choice,
-                        is_correct=is_correct
+                        is_correct=is_correct,
+                        answered_at=timezone.now()
                     )
                     # 進捗を更新
                     update_user_progress(request.user, level, question_type, is_correct)
@@ -608,7 +609,8 @@ def question_list(request, level=None, exam_id=None):
                         user=request.user,
                         question=question,
                         selected_choice=choice,
-                        is_correct=is_correct
+                        is_correct=is_correct,
+                        answered_at=timezone.now()
                     )
                     # 進捗を更新
                     update_user_progress(request.user, level, question_type, is_correct)
@@ -720,7 +722,8 @@ def submit_reading_comprehension(request, level):
                     user=request.user,
                     reading_question=question,
                     selected_reading_choice=choice,
-                    is_correct=choice.is_correct
+                    is_correct=choice.is_correct,
+                    answered_at=timezone.now()
                 )
                 
                 # 進捗を更新
@@ -775,7 +778,8 @@ def submit_answers(request, level):
                             user=request.user,
                             question=question,
                             selected_answer=selected_answer,
-                            is_correct=is_correct
+                            is_correct=is_correct,
+                            answered_at=timezone.now()
                         )
                         # 進捗を更新
                         update_user_progress(request.user, level, 'listening_illustration', is_correct)
@@ -832,7 +836,8 @@ def submit_answers(request, level):
                         user=request.user,
                         question=question,
                         selected_answer=selected_answer,
-                        is_correct=is_correct
+                        is_correct=is_correct,
+                        answered_at=timezone.now()
                     )
                     # 進捗を更新
                     update_user_progress(request.user, level, 'listening_illustration', is_correct)
@@ -876,7 +881,8 @@ def submit_answers(request, level):
                         user=request.user,
                         question=question,
                         selected_choice=choice,
-                        is_correct=is_correct
+                        is_correct=is_correct,
+                        answered_at=timezone.now()
                     )
                     # 進捗を更新
                     update_user_progress(request.user, level, question_type, is_correct)
@@ -1261,7 +1267,7 @@ def answer_results(request, level, question_type):
         return render(request, 'exams/answer_results.html', context)
     
     else:
-        # 通常の問題の場合
+        # 通常の問題の場合（会話問題など）
         # セッションから今回回答したquestion_idを取得
         session_key = f'answered_questions_{question_type}_{level}'
         answered_question_ids = request.session.get(session_key, [])
@@ -1270,7 +1276,7 @@ def answer_results(request, level, question_type):
         user_answers = UserAnswer.objects.filter(
             user=request.user,
             question_id__in=answered_question_ids
-        ).select_related('question')
+        ).select_related('question', 'selected_choice')
         
         # 出題順序に従ってソート
         # answered_question_idsの順序でソートする辞書を作成
@@ -1281,6 +1287,12 @@ def answer_results(request, level, question_type):
         for answer in user_answers:
             choices = Choice.objects.filter(question=answer.question).order_by('order')
             correct_choice = choices.filter(is_correct=True).first()
+            
+            # デバッグ: 正解が見つからない場合の警告
+            if not correct_choice:
+                logger.warning(f'問題{answer.question.id} (問題番号{answer.question.question_number}, タイプ{answer.question.question_type})で正解が見つかりませんでした')
+                logger.warning(f'選択肢数: {choices.count()}, is_correct=Trueの数: {choices.filter(is_correct=True).count()}')
+            
             answers_with_questions.append({
                 'question': answer.question,
                 'choices': choices,
@@ -1429,8 +1441,8 @@ def progress_to_dict(progress, level=None, question_type=None, user=None):
     # 今日の取り組み数を取得
     from django.utils import timezone
     from datetime import datetime, time, timedelta
-    today_start = datetime.combine(timezone.now().date(), time.min)
-    today_end = datetime.combine(timezone.now().date(), time.max)
+    today_start = timezone.make_aware(datetime.combine(timezone.now().date(), time.min))
+    today_end = timezone.make_aware(datetime.combine(timezone.now().date(), time.max))
     
     if question_type == 'listening_illustration':
         from questions.models import ListeningUserAnswer
@@ -1458,8 +1470,8 @@ def progress_to_dict(progress, level=None, question_type=None, user=None):
     daily_data = {}
     for i in range(7):
         date = timezone.now().date() - timedelta(days=i)
-        date_start = datetime.combine(date, time.min)
-        date_end = datetime.combine(date, time.max)
+        date_start = timezone.make_aware(datetime.combine(date, time.min))
+        date_end = timezone.make_aware(datetime.combine(date, time.max))
         date_str = date.isoformat()
         
         if question_type == 'listening_illustration':
@@ -1486,7 +1498,6 @@ def progress_to_dict(progress, level=None, question_type=None, user=None):
         
         daily_data[date_str] = daily_count
     
-    logger.debug(f"Debug - progress_to_dict: progress.last_attempted={progress.last_attempted}")
     result = {
         'accuracy_rate': progress.accuracy_rate,
         'total_attempts': progress.total_attempts,
@@ -1496,7 +1507,7 @@ def progress_to_dict(progress, level=None, question_type=None, user=None):
         'total_questions': total_questions,
         'today_attempts': today_attempts,
         'daily_data': daily_data,  # 過去7日間のデータを追加
-        'last_attempted': progress.last_attempted.isoformat() if progress.last_attempted else None  # 日付をISO形式の文字列に変換
+        'last_attempted': progress.last_attempted.astimezone(timezone.get_current_timezone()).strftime('%Y年%m月%d日 %H:%M') if progress.last_attempted else None,  # 日付をJSTで日本語形式の文字列に変換
     }
     logger.debug(f"Debug - progress_to_dict: result.last_attempted={result['last_attempted']}")
     return result

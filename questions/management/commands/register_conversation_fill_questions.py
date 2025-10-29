@@ -3,15 +3,14 @@ from exams.models import Question, Choice
 import re
 
 class Command(BaseCommand):
-    help = 'Register conversation fill questions 51-55 from text file'
+    help = 'Register all conversation fill questions (1-55) from text file'
 
     def handle(self, *args, **options):
-        # Clear existing questions 51-55
+        # Clear all existing conversation fill questions
         Question.objects.filter(
-            question_type='conversation_fill',
-            question_number__in=range(51, 56)
+            question_type='conversation_fill'
         ).delete()
-        self.stdout.write(self.style.WARNING('既存の会話穴埋め問題（51-55）を削除しました'))
+        self.stdout.write(self.style.WARNING('既存の会話穴埋め問題をすべて削除しました'))
         
         # Read the text file
         with open('data/questions/conversation_questions.txt', 'r', encoding='utf-8') as file:
@@ -26,18 +25,18 @@ class Command(BaseCommand):
                 continue
 
             try:
-                # Extract question number
-                question_number_match = re.search(r'問題(\d+):', question_block)
+                # Extract question number (handle cases like "問題21（改善版）:")
+                question_number_match = re.search(r'問題(\d+)', question_block)
                 if not question_number_match:
                     continue
                 question_number = int(question_number_match.group(1))
                 
-                # Only process questions 51-55
-                if question_number < 51 or question_number > 55:
+                # Process questions 1-55
+                if question_number < 1 or question_number > 55:
                     continue
 
-                # Extract question text
-                question_match = re.search(r'問題\d+:\s*(.*?)\s*選択肢\d+:', question_block, re.DOTALL)
+                # Extract question text (handle cases like "問題21（改善版）:")
+                question_match = re.search(r'問題\d+[^:]*:\s*(.*?)\s*選択肢\d+:', question_block, re.DOTALL)
                 if not question_match:
                     self.stdout.write(self.style.WARNING(f'Could not extract question text from question {question_number}'))
                     continue
@@ -49,7 +48,23 @@ class Command(BaseCommand):
                     self.stdout.write(self.style.WARNING(f'Could not extract choices from question {question_number}'))
                     continue
                 choices_text = choices_match.group(1).strip()
-                choices = [c.strip() for c in choices_text.split('\n') if c.strip() and c.strip().startswith(('1.', '2.', '3.', '4.'))]
+                # 選択肢を抽出（1.から4.まで。5.以降は除外）
+                raw_choices = [c.strip() for c in choices_text.split('\n') if c.strip() and re.match(r'^[1-4]\.', c.strip())]
+                
+                # 重複チェック（数字を除去した内容でチェック）
+                seen_texts = set()
+                choices = []
+                for c in raw_choices:
+                    clean_text = re.sub(r'^\d+\.\s*', '', c.strip())
+                    if clean_text not in seen_texts:
+                        seen_texts.add(clean_text)
+                        choices.append(c)
+                    else:
+                        self.stdout.write(self.style.WARNING(f'問題{question_number}: 重複選択肢を検出しました - {clean_text}'))
+                
+                # 選択肢が4個でない場合は警告
+                if len(choices) != 4:
+                    self.stdout.write(self.style.WARNING(f'問題{question_number}: 選択肢が{len(choices)}個です（4個であるべきです）'))
 
                 # Extract correct answer
                 correct_match = re.search(r'【正解\d+】\s*(.*?)\s*【解説\d+】', question_block, re.DOTALL)
