@@ -16,7 +16,7 @@ class Command(BaseCommand):
 
         # ファイルパス
         base_dir = settings.BASE_DIR
-        txt_path = os.path.join(base_dir, 'questions', 'listening_illustration_questions.txt')
+        txt_path = os.path.join(base_dir, 'data', 'questions', 'listening_illustration_questions.txt')
         image_dir = os.path.join(base_dir, 'static', 'images', 'part1')
         audio_dir = os.path.join(base_dir, 'static', 'audio', 'part1')
 
@@ -100,8 +100,12 @@ class Command(BaseCommand):
                         explanation += line.strip() + '\n'
                 elif not in_choices and not in_explanation and line.strip() and not line.startswith('【'):
                     # 正解行の処理
+                    # 「2. I have a piano lesson.」形式からorder番号「2」を抽出
                     if line.strip()[0].isdigit() and line.strip()[1] == '.':
-                        correct_answer = line.strip()[3:].strip()
+                        # 番号を抽出（例：「2. I have a piano lesson.」→「2」）
+                        correct_answer_order = int(line.strip()[0])
+                        correct_answer_text = line.strip()[3:].strip()
+                        correct_answer = str(correct_answer_order)  # order番号を文字列で保存
                     else:
                         correct_answer = line.strip()
             
@@ -118,11 +122,16 @@ class Command(BaseCommand):
             )
 
             # 選択肢を番号で登録（既存の形式に合わせる）
+            # correct_answerはorder番号（文字列）になっている
+            correct_order = int(correct_answer) if correct_answer.isdigit() else None
+            
             for i, choice_text in enumerate(choices, 1):
+                # 選択肢のテキストは番号（"1", "2", "3"）として保存
+                # 正解判定はorderで行う
                 ListeningChoice.objects.create(
                     question=q,
                     choice_text=str(i),  # 選択肢は番号のみ
-                    is_correct=(choice_text == correct_answer),
+                    is_correct=(i == correct_order) if correct_order else False,
                     order=i
                 )
 

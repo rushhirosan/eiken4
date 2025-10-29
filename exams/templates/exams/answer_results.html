@@ -57,8 +57,20 @@
                         <strong>不正解です。</strong>
                         {% endif %}
                     </p>
-                    <p><strong>あなたの回答:</strong> {{ answer.user_answer }}</p>
-                    <p><strong>正解:</strong> {{ answer.correct_answer }}</p>
+                    <p><strong>あなたの回答:</strong> 
+                        {% if answer.correct_choice %}
+                            選択肢{% for choice in answer.choices %}{% if choice.choice_text == answer.user_answer %}{{ choice.order }}{% endif %}{% endfor %}
+                        {% else %}
+                            {{ answer.user_answer }}
+                        {% endif %}
+                    </p>
+                    <p><strong>正解:</strong> 
+                        {% if answer.correct_choice %}
+                            選択肢{{ answer.correct_choice.order }}
+                        {% else %}
+                            {{ answer.correct_answer }}
+                        {% endif %}
+                    </p>
                     {% if answer.explanation %}
                     <div class="alert alert-info mt-2">
                         <strong>解説:</strong><br>

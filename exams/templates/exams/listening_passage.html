@@ -18,7 +18,7 @@
     <div class="card mb-4">
         <div class="card-body">
             <div class="row">
-                <div class="col-md-6">
+                <div class="col-12 col-md-6 mb-3">
                     <div class="form-group">
                         <label for="status">状態</label>
                         <select class="form-control" id="status" onchange="updateFilters()">
@@ -29,7 +29,7 @@
                         </select>
                     </div>
                 </div>
-                <div class="col-md-6">
+                <div class="col-12 col-md-6 mb-3">
                     <div class="form-group">
                         <label for="num_questions">問題数</label>
                         <select class="form-control" id="num_questions" onchange="updateFilters()">
@@ -47,7 +47,7 @@
         {% csrf_token %}
         <div class="row">
             {% for question in questions %}
-            <div class="col-md-6 mb-4">
+            <div class="col-12 col-md-6 mb-4">
                 <div class="card h-100">
                     <div class="card-body">
                         <h5 class="card-title">問題 {{ forloop.counter }}</h5>
@@ -64,7 +64,7 @@
                         <div class="form-group">
                             {% for choice in question.question.choices.all %}
                             <div class="form-check">
-                                <input class="form-check-input" type="radio" name="question_{{ question.question.id }}" id="choice{{ choice.id }}" value="{{ choice.id }}" {% if question.answer and question.answer.selected_choice.id == choice.id %}checked{% endif %}>
+                                <input class="form-check-input" type="radio" name="answer_{{ question.question.id }}" id="choice{{ choice.id }}" value="{{ choice.id }}" {% if question.answer and question.answer.selected_choice.id == choice.id %}checked{% endif %}>
                                 <label class="form-check-label" for="choice{{ choice.id }}">
                                     {{ choice.choice_text }}
                                 </label>
@@ -94,6 +94,82 @@
         </div>
     </form>
 </div>
+
+<style>
+/* モバイル最適化 */
+@media (max-width: 768px) {
+    h2 {
+        font-size: 1.5rem;
+    }
+    
+    .card {
+        margin-bottom: 1rem;
+    }
+    
+    .card-body {
+        padding: 1rem;
+    }
+    
+    .form-check {
+        padding: 0.75rem 0;
+        margin-bottom: 0.5rem;
+    }
+    
+    .form-check-input {
+        width: 1.25rem;
+        height: 1.25rem;
+        margin-top: 0.3rem;
+    }
+    
+    .form-check-label {
+        font-size: 1rem;
+        padding-left: 0.5rem;
+        line-height: 1.5;
+    }
+    
+    .btn-lg {
+        min-height: 48px;
+        padding: 0.75rem 1.5rem;
+        font-size: 1.1rem;
+    }
+    
+    .form-control {
+        font-size: 1rem;
+        padding: 0.6rem;
+        min-height: 44px;
+    }
+    
+    label {
+        font-size: 0.95rem;
+        margin-bottom: 0.5rem;
+    }
+    
+    audio {
+        width: 100% !important;
+        max-width: 100% !important;
+    }
+}
+
+@media (max-width: 576px) {
+    h2 {
+        font-size: 1.3rem;
+    }
+    
+    .card-body {
+        padding: 0.75rem;
+    }
+    
+    .btn-lg {
+        font-size: 1rem;
+        padding: 0.7rem 1.2rem;
+    }
+    
+    .form-control {
+        font-size: 0.95rem;
+        padding: 0.5rem;
+    }
+}
+</style>
 
 <script>
 function updateFilters() {

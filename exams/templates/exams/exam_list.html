@@ -78,27 +78,27 @@
                                     リスニング問題
                                 </h5>
                             </div>
-                            <div class="col-md-4 mb-3">
+                            <div class="col-lg-4 col-md-6 mb-3">
                                 <a href="{% url 'exams:question_list_by_level' level=level_code %}?type=listening_illustration" 
-                                   class="btn btn-outline-primary w-100 py-3">
+                                   class="btn btn-outline-primary w-100 py-3" style="white-space: nowrap;">
                                     <i class="fas fa-image me-2"></i>
                                     第1部: イラスト問題（{{ question_counts.listening_illustration }}問）
                                 </a>
                             </div>
-                            <div class="col-md-4 mb-3">
+                            <div class="col-lg-4 col-md-6 mb-3">
                                 <a href="{% url 'exams:question_list_by_level' level=level_code %}?type=listening_conversation" 
-                                   class="btn btn-outline-primary w-100 py-3">
+                                   class="btn btn-outline-primary w-100 py-3" style="white-space: nowrap;">
                                     <i class="fas fa-users me-2"></i>
                                     第2部: 会話問題（{{ question_counts.listening_conversation }}問）
                                 </a>
                             </div>
-                            <div class="col-md-4 mb-3">
+                            <div class="col-lg-4 col-md-12 mb-3">
                                 <a href="{% url 'exams:question_list_by_level' level=level_code %}?type=listening_passage" 
-                                   class="btn btn-outline-primary w-100 py-3">
+                                   class="btn btn-outline-primary w-100 py-3" style="white-space: nowrap;">
                                     <i class="fas fa-file-alt me-2"></i>
                                     第3部: 文章問題（{{ question_counts.listening_passage }}問）
                                 </a>
-                    </div>
+                            </div>
                         </div>
                         
                         <!-- 総合問題 -->
@@ -175,13 +175,93 @@
     box-shadow: 0 30px 60px rgba(0, 0, 0, 0.15);
 }
 
+/* モバイル最適化 */
 @media (max-width: 768px) {
     .display-4 {
         font-size: 2rem;
     }
     
+    .lead {
+        font-size: 1rem;
+    }
+    
     .btn {
         margin-bottom: 0.5rem;
+        min-height: 44px;
+        padding: 0.75rem 1rem;
+        font-size: 0.95rem;
+    }
+    
+    .card {
+        margin-bottom: 1.5rem;
+    }
+    
+    .card-header {
+        padding: 1rem;
+    }
+    
+    .card-body {
+        padding: 1rem;
+    }
+    
+    .col-md-6 {
+        margin-bottom: 0.75rem;
+    }
+    
+    h2 {
+        font-size: 1.5rem;
+    }
+    
+    h4 {
+        font-size: 1.2rem;
+    }
+    
+    h5 {
+        font-size: 1.1rem;
+    }
+}
+
+@media (max-width: 576px) {
+    .display-4 {
+        font-size: 1.75rem;
+    }
+    
+    .lead {
+        font-size: 0.9rem;
+    }
+    
+    .btn {
+        font-size: 0.9rem;
+        padding: 0.7rem 0.9rem;
+    }
+    
+    .card-header h2 {
+        font-size: 1.3rem;
+    }
+    
+    .col-md-6,
+    .col-md-4,
+    .col-lg-4 {
+        margin-bottom: 0.5rem;
+    }
+    
+    .mb-5 {
+        margin-bottom: 2rem !important;
+    }
+    
+    /* リスニング問題のボタンで改行を防ぐ */
+    .btn[style*="white-space: nowrap"] {
+        font-size: 0.95rem;
+        padding: 0.8rem 0.5rem;
+    }
+}
+
+/* 中サイズの画面での調整 */
+@media (min-width: 992px) {
+    /* リスニング問題のボタンで余裕を持たせる */
+    .col-lg-4 .btn {
+        white-space: nowrap;
+        padding: 0.875rem 1rem;
     }
 }
 </style>

@@ -1,4 +1,4 @@
-{% extends 'base.html' %}
+{% extends 'accounts/base.html' %}
 {% load static %}
 
 {% block content %}
@@ -20,28 +20,28 @@
         <input type="hidden" name="question_type" value="{{ question_type }}">
         
         <div class="row mb-4">
-                <div class="col-md-6">
-                    <div class="form-group">
+            <div class="col-12 col-md-6 mb-3">
+                <div class="form-group">
                     <label for="num_questions">問題数:</label>
                     <select name="num_questions" id="num_questions" class="form-control" onchange="this.form.submit()">
                         {% for count, label in question_count_options.items %}
                         <option value="{{ count }}" {% if count == num_questions %}selected{% endif %}>{{ label }}</option>
                         {% endfor %}
-                        </select>
-                    </div>
+                    </select>
                 </div>
-                <div class="col-md-6">
-                    <div class="form-group">
+            </div>
+            <div class="col-12 col-md-6 mb-3">
+                <div class="form-group">
                     <label for="status">状態:</label>
                     <select name="status" id="status" class="form-control" onchange="this.form.submit()">
                         <option value="all" {% if status == 'all' %}selected{% endif %}>全て</option>
                         <option value="correct" {% if status == 'correct' %}selected{% endif %}>正解</option>
                         <option value="incorrect" {% if status == 'incorrect' %}selected{% endif %}>不正解</option>
                         <option value="unanswered" {% if status == 'unanswered' %}selected{% endif %}>未回答</option>
-                        </select>
+                    </select>
+                </div>
             </div>
         </div>
-    </div>
     
         {% for question_data in questions %}
         <div class="card mb-4">
@@ -71,10 +71,10 @@
                     {% for choice in question_data.question.choices.all %}
                     <div class="form-check mb-2">
                         <input class="form-check-input" type="radio" 
-                               name="question_{{ question_data.question.id }}" 
+                               name="answer_{{ question_data.question.id }}" 
                                id="choice_{{ choice.id }}" 
-                               value="{{ choice.id }}"
-                               {% if question_data.user_answer == choice.id %}checked{% endif %}>
+                               value="{{ choice.choice_text }}"
+                               {% if question_data.user_answer == choice.choice_text %}checked{% endif %}>
                         <label class="form-check-label" for="choice_{{ choice.id }}">
                             {{ forloop.counter }}
                         </label>
@@ -119,19 +119,95 @@
 </div>
 
 <style>
-.progress {
-    height: 20px;
-    margin-bottom: 20px;
+/* モバイル最適化 */
+@media (max-width: 768px) {
+    h2 {
+        font-size: 1.5rem;
+    }
+    
+    .card {
+        margin-bottom: 1rem;
+    }
+    
+    .card-body {
+        padding: 1rem;
+    }
+    
+    .card-title {
+        font-size: 1.1rem;
+    }
+    
+    .form-check {
+        padding: 0.75rem 0;
+        margin-bottom: 0.5rem;
+    }
+    
+    .form-check-input {
+        width: 1.25rem;
+        height: 1.25rem;
+        margin-top: 0.3rem;
+    }
+    
+    .form-check-label {
+        font-size: 1rem;
+        padding-left: 0.5rem;
+        line-height: 1.5;
+    }
+    
+    .btn {
+        min-height: 44px;
+        padding: 0.75rem 1.5rem;
+        font-size: 1rem;
+    }
+    
+    .form-control {
+        font-size: 1rem;
+        padding: 0.6rem;
+        min-height: 44px;
+    }
+    
+    label {
+        font-size: 0.95rem;
+        margin-bottom: 0.5rem;
+    }
+    
+    audio {
+        width: 100% !important;
+        max-width: 100% !important;
+    }
+    
+    img.img-fluid {
+        max-width: 100% !important;
+        height: auto;
+    }
 }
-.audio-player {
-    width: 100%;
-    margin-bottom: 20px;
-}
-.choices {
-    margin-top: 15px;
-}
-.form-check {
-    margin-bottom: 10px;
+
+@media (max-width: 576px) {
+    h2 {
+        font-size: 1.3rem;
+    }
+    
+    .card-body {
+        padding: 0.75rem;
+    }
+    
+    .card-title {
+        font-size: 1rem;
+    }
+    
+    .form-check {
+        padding: 0.6rem 0;
+    }
+    
+    .btn {
+        font-size: 0.9rem;
+        padding: 0.7rem 1.2rem;
+    }
+    
+    .form-control {
+        font-size: 0.95rem;
+        padding: 0.5rem;
+    }
 }
 </style>
 {% endblock %} 

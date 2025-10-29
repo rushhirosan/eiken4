@@ -11,27 +11,17 @@
 - [x] 問題更新フローを仕様に書きたい
 - [x] 全問題タイプの統合仕様書を作成
 - [x] 仕様書を1つに統合
+- [x] 学習進捗の日付形式を変更
+- [x] cursorルールを定義
+- [x] モバイル最適化
+  - [x] 進捗ページのモバイル最適化
+  - [x] メイン問題一覧ページのモバイル最適化
+  - [x] 問題一覧ページのモバイル最適化
+  - [x] 模擬試験ページのモバイル最適化
+  - [x] 長文読解・リスニング問題ページのモバイル最適化
+  - [x] 結果表示・フィードバックページのモバイル最適化
+- [x] ユニットテストを書く
+  - [x] モデルテスト（Question, Choice, UserProgress, UserAnswer, CustomUser）
+  - [x] ビューテスト（exam_list, progress, question_list, login, signup）
+  - [x] 24個のテストを実装（すべてパス）
 - [] 残りのuntracked filesをgitに追加するか判断
-
-
-## 最終的なディレクトリ構造
-
-プロジェクトホーム/
-├── docs/                    # ドキュメント
-│   └── README.md
-├── scripts/                 # スクリプト
-│   └── start.sh
-├── data/                    # データファイル
-│   ├── all_questions_export.json
-│   ├── conversation_questions_export.json
-│   ├── grammar_questions_export.json
-│   ├── word_order_questions_export.json
-│   └── questions_data.json
-├── accounts/               # Djangoアプリ
-├── exams/                 # Djangoアプリ
-├── questions/             # Djangoアプリ
-├── eiken_project/         # Djangoプロジェクト設定
-├── static/               # 静的ファイル
-├── templates/            # テンプレート
-├── utils/               # ユーティリティ
-└── manage.py           # Django管理コマンド

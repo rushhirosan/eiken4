@@ -683,7 +683,8 @@ def submit_answer(request, question_id):
             user=request.user,
             question=question,
             selected_choice=choice,
-            is_correct=choice.is_correct
+            is_correct=choice.is_correct,
+            answered_at=timezone.now()
         )
         # 進捗を更新
         update_user_progress(request.user, question.level, question.question_type, choice.is_correct)
@@ -773,7 +774,9 @@ def submit_answers(request, level):
                     try:
                         question = ListeningQuestion.objects.get(id=question_id)
                         # リスニングイラスト問題の場合
-                        is_correct = selected_answer == question.correct_answer
+                        # selected_answerは選択肢のテキスト（"1", "2", "3"などの番号）
+                        # correct_answerもorder番号（文字列）として保存されている
+                        is_correct = str(selected_answer).strip() == str(question.correct_answer).strip()
                         ListeningUserAnswer.objects.create(
                             user=request.user,
                             question=question,
@@ -792,7 +795,8 @@ def submit_answers(request, level):
                                 user=request.user,
                                 question=question,
                                 selected_choice=choice,
-                                is_correct=choice.is_correct
+                                is_correct=choice.is_correct,
+                                answered_at=timezone.now()
                             )
                             # 進捗を更新
                             update_user_progress(request.user, level, question.question_type, choice.is_correct)
@@ -831,7 +835,9 @@ def submit_answers(request, level):
                 if answer_key in request.POST:
                     selected_answer = request.POST.get(answer_key)
                     question = ListeningQuestion.objects.get(id=question_id)
-                    is_correct = selected_answer == question.correct_answer
+                    # selected_answerは選択肢のテキスト（"1", "2", "3"などの番号）
+                    # correct_answerもorder番号（文字列）として保存されている
+                    is_correct = str(selected_answer).strip() == str(question.correct_answer).strip()
                     ListeningUserAnswer.objects.create(
                         user=request.user,
                         question=question,
@@ -925,9 +931,10 @@ def submit_answers(request, level):
                         user=request.user,
                         reading_question=question,
                         selected_reading_choice=choice,
-                        is_correct=is_correct
+                        is_correct=is_correct,
+                        answered_at=timezone.now()
                     )
-                # 進捗を更新
+                    # 進捗を更新
                     update_user_progress(request.user, level, 'reading_comprehension', is_correct)
 
             # 今回回答したquestion_idと出題順序をセッションに保存
@@ -999,7 +1006,8 @@ def submit_answers(request, level):
                             user=request.user,
                             question=question,
                             selected_choice=choice,
-                            is_correct=is_correct
+                            is_correct=is_correct,
+                            answered_at=timezone.now()
                         )
                         # 進捗を更新
                         update_user_progress(request.user, level, question_type, is_correct)
@@ -1126,12 +1134,24 @@ def answer_results(request, level, question_type):
         answers_with_questions = []
         for answer in user_answers:
             choices = ListeningChoice.objects.filter(question=answer.question).order_by('order')
+            
+            # 正解の選択肢を見つける（correct_answerはorder番号として保存されている）
+            correct_choice = None
+            if answer.question.correct_answer:
+                try:
+                    correct_order = int(answer.question.correct_answer)
+                    correct_choice = choices.filter(order=correct_order).first()
+                except (ValueError, TypeError):
+                    # correct_answerが番号でない場合、テキストで検索
+                    correct_choice = choices.filter(choice_text=answer.question.correct_answer).first()
+            
             answers_with_questions.append({
                 'question': answer.question,
                 'choices': choices,
                 'user_answer': answer.selected_answer,
                 'is_correct': answer.is_correct,
                 'correct_answer': answer.question.correct_answer,
+                'correct_choice': correct_choice,  # 正解の選択肢オブジェクトを追加
                 'explanation': getattr(answer.question, 'explanation', ''),
                 'order': order_dict.get(answer.question.id, 0)  # 出題順序を追加
             })
