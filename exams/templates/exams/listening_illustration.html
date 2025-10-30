@@ -69,13 +69,13 @@
                 
                 <div class="choices">
                     {% for choice in question_data.question.choices.all %}
-                    <div class="form-check mb-2">
+                    <div class="form-check mb-2 d-flex align-items-center" style="gap: 8px;">
                         <input class="form-check-input" type="radio" 
                                name="answer_{{ question_data.question.id }}" 
                                id="choice_{{ choice.id }}" 
                                value="{{ choice.choice_text }}"
                                {% if question_data.user_answer == choice.choice_text %}checked{% endif %}>
-                        <label class="form-check-label" for="choice_{{ choice.id }}">
+                        <label class="form-check-label flex-grow-1 mb-0" for="choice_{{ choice.id }}" style="display:inline-flex; align-items:center;">
                             {{ forloop.counter }}
                         </label>
                     </div>
@@ -137,22 +137,12 @@
         font-size: 1.1rem;
     }
     
-    .form-check {
-        padding: 0.75rem 0;
-        margin-bottom: 0.5rem;
-    }
+    .choices { overflow: visible; }
+    .form-check { padding: 0.75rem 0; margin-bottom: 0.5rem; }
     
-    .form-check-input {
-        width: 1.25rem;
-        height: 1.25rem;
-        margin-top: 0.3rem;
-    }
+    .form-check-input { width: 1.25rem; height: 1.25rem; margin: 0; flex: 0 0 auto; }
     
-    .form-check-label {
-        font-size: 1rem;
-        padding-left: 0.5rem;
-        line-height: 1.5;
-    }
+    .form-check-label { font-size: 1rem; padding-left: 0.5rem; line-height: 1.5; white-space: nowrap; }
     
     .btn {
         min-height: 44px;
