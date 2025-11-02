@@ -20,7 +20,7 @@
         <input type="hidden" name="question_type" value="{{ question_type }}">
         
         <div class="row mb-4">
-            <div class="col-12 col-md-6 mb-3">
+            <div class="col-md-6">
                 <div class="form-group">
                     <label for="num_questions">問題数:</label>
                     <select name="num_questions" id="num_questions" class="form-control" onchange="this.form.submit()">
@@ -30,7 +30,7 @@
                     </select>
                 </div>
             </div>
-            <div class="col-12 col-md-6 mb-3">
+            <div class="col-md-6">
                 <div class="form-group">
                     <label for="status">状態:</label>
                     <select name="status" id="status" class="form-control" onchange="this.form.submit()">
@@ -44,8 +44,8 @@
         </div>
     
         {% for question_data in questions %}
-        <div class="card mb-4">
-                <div class="card-body">
+        <div class="card listening-illustration-card mb-4">
+            <div class="card-body">
                 <h5 class="card-title">問題 {{ forloop.counter }}</h5>
                 
                 {% if question_data.question.image %}
@@ -58,24 +58,24 @@
                 <div class="mb-3">
                     <audio controls class="w-100">
                         <source src="{% static question_data.question.audio %}" type="audio/mpeg">
-                            お使いのブラウザは音声再生に対応していません。
-                        </audio>
-                    </div>
+                        お使いのブラウザは音声再生に対応していません。
+                    </audio>
+                </div>
                 {% endif %}
-                    
+                
                 <div class="mb-3">
                     <p class="card-text">{{ question_data.question.question_text|linebreaks }}</p>
-                        </div>
+                </div>
                 
-                <div class="choices">
+                <div class="form-group">
                     {% for choice in question_data.question.choices.all %}
-                    <div class="form-check mb-2 d-flex align-items-center" style="gap: 8px;">
+                    <div class="form-check">
                         <input class="form-check-input" type="radio" 
-                               name="answer_{{ question_data.question.id }}" 
+                               name="question_{{ question_data.question.id }}" 
                                id="choice_{{ choice.id }}" 
-                               value="{{ choice.choice_text }}"
-                               {% if question_data.user_answer == choice.choice_text %}checked{% endif %}>
-                        <label class="form-check-label flex-grow-1 mb-0" for="choice_{{ choice.id }}" style="display:inline-flex; align-items:center;">
+                               value="{{ choice.id }}"
+                               {% if question_data.user_answer == choice.id %}checked{% endif %}>
+                        <label class="form-check-label" for="choice_{{ choice.id }}">
                             {{ forloop.counter }}
                         </label>
                     </div>
@@ -114,11 +114,22 @@
     
         <div class="text-center mb-4">
             <button type="submit" class="btn btn-primary">回答を送信</button>
-    </div>
+        </div>
     </form>
 </div>
 
 <style>
+/* カードのスタイル修正 */
+.listening-illustration-card {
+    overflow: visible;
+}
+
+/* デフォルトスタイル */
+.form-check {
+    padding-left: 1.25em;
+    margin-bottom: 0.5rem;
+}
+
 /* モバイル最適化 */
 @media (max-width: 768px) {
     h2 {
@@ -133,21 +144,27 @@
         padding: 1rem;
     }
     
-    .card-title {
-        font-size: 1.1rem;
+    .form-check {
+        padding: 0.75rem 0;
+        margin-bottom: 0.5rem;
     }
     
-    .choices { overflow: visible; }
-    .form-check { padding: 0.75rem 0; margin-bottom: 0.5rem; }
+    .form-check-input {
+        width: 1.25rem;
+        height: 1.25rem;
+        margin-top: 0.3rem;
+    }
     
-    .form-check-input { width: 1.25rem; height: 1.25rem; margin: 0; flex: 0 0 auto; }
-    
-    .form-check-label { font-size: 1rem; padding-left: 0.5rem; line-height: 1.5; white-space: nowrap; }
-    
-    .btn {
-        min-height: 44px;
-        padding: 0.75rem 1.5rem;
+    .form-check-label {
         font-size: 1rem;
+        padding-left: 0.5rem;
+        line-height: 1.5;
+    }
+    
+    .btn-lg {
+        min-height: 48px;
+        padding: 0.75rem 1.5rem;
+        font-size: 1.1rem;
     }
     
     .form-control {
@@ -165,11 +182,6 @@
         width: 100% !important;
         max-width: 100% !important;
     }
-    
-    img.img-fluid {
-        max-width: 100% !important;
-        height: auto;
-    }
 }
 
 @media (max-width: 576px) {
@@ -181,16 +193,8 @@
         padding: 0.75rem;
     }
     
-    .card-title {
+    .btn-lg {
         font-size: 1rem;
-    }
-    
-    .form-check {
-        padding: 0.6rem 0;
-    }
-    
-    .btn {
-        font-size: 0.9rem;
         padding: 0.7rem 1.2rem;
     }
     

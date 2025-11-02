@@ -120,13 +120,14 @@
                             {% endif %}
                             
                             {% if question_type == 'listening_illustration' %}
-                                <div class="choices">
+                                <div class="choices-list">
                                     {% for choice in question.choices %}
-                                        <div class="form-check">
-                                            <input class="form-check-input" type="radio" name="answer_{{ question.question.id }}"
+                                        <div class="choice-item">
+                                            <input type="radio" name="answer_{{ question.question.id }}"
                                                    id="choice_{{ choice.id }}" value="{{ choice.choice_text }}"
+                                                   class="choice-radio"
                                                    {% if question.user_answer == choice.choice_text %}checked{% endif %}>
-                                            <label class="form-check-label" for="choice_{{ choice.id }}">
+                                            <label for="choice_{{ choice.id }}" class="choice-label">
                                                 {{ forloop.counter }}
                                             </label>
                                         </div>
@@ -160,6 +161,50 @@
 </div>
 
 <style>
+/* デフォルトスタイル */
+.form-check {
+    padding-left: 1.25em;
+    margin-bottom: 0.5rem;
+}
+
+.form-check-input {
+    position: relative;
+    left: 0;
+    margin-top: 0.3em;
+}
+
+/* 選択肢のレイアウト - Bootstrapのform-checkを完全に無視 */
+.choices-list {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    margin-top: 1rem;
+}
+
+.choice-item {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0.5rem 0;
+}
+
+.choice-radio {
+    width: 1.25rem;
+    height: 1.25rem;
+    margin: 0;
+    flex-shrink: 0;
+    cursor: pointer;
+}
+
+.choice-label {
+    margin: 0;
+    padding: 0;
+    font-size: 1rem;
+    line-height: 1.5;
+    cursor: pointer;
+    flex: 1;
+}
+
 /* モバイル最適化 */
 @media (max-width: 768px) {
     .breadcrumb {
@@ -184,7 +229,7 @@
     }
     
     .form-check {
-        padding: 0.75rem 0;
+        padding: 0.75rem 0 0.75rem 1.25em;
         margin-bottom: 0.5rem;
     }
     
@@ -198,6 +243,23 @@
         font-size: 1rem;
         padding-left: 0.5rem;
         line-height: 1.5;
+    }
+    
+    .choices-list {
+        gap: 0.5rem;
+    }
+    
+    .choice-item {
+        padding: 0.5rem 0;
+    }
+    
+    .choice-radio {
+        width: 1.25rem;
+        height: 1.25rem;
+    }
+    
+    .choice-label {
+        font-size: 1rem;
     }
     
     .btn-lg {
@@ -253,6 +315,26 @@
     .form-control {
         font-size: 0.95rem;
         padding: 0.5rem;
+    }
+    
+    .choice-radio {
+        width: 1.2rem;
+        height: 1.2rem;
+    }
+    
+    .choice-label {
+        font-size: 0.95rem;
+    }
+}
+
+@media (max-width: 414px) {
+    .choice-radio {
+        width: 1.2rem;
+        height: 1.2rem;
+    }
+    
+    .choice-label {
+        font-size: 0.95rem;
     }
 }
 </style>

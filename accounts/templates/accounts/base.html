@@ -125,7 +125,7 @@
         /* カードの統一スタイル */
         .card {
             border-radius: 20px;
-            overflow: hidden;
+            overflow: visible;
             box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
             border: none;
             background: rgba(255, 255, 255, 0.95);
@@ -137,6 +137,10 @@
             border: none;
             color: white;
             font-weight: 600;
+        }
+        
+        .card-body {
+            border-radius: 20px;
         }
         
         /* ボタンの統一スタイル */
@@ -232,6 +236,63 @@
             50% { transform: scale(1.05) rotate(0.5deg); }
         }
         
+        /* モバイル用進捗カード */
+        .progress-card {
+            border-radius: 15px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+            transition: transform 0.2s ease, box-shadow 0.2s ease;
+        }
+        
+        .progress-card:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+        }
+        
+        .progress-card .card-header {
+            background: linear-gradient(135deg, #007bff 0%, #0056b3 100%);
+            border-radius: 15px 15px 0 0;
+            padding: 1rem;
+        }
+        
+        .progress-card .card-body {
+            padding: 1rem;
+        }
+        
+        .progress-card .badge {
+            font-size: 0.9rem;
+            padding: 0.5rem 0.8rem;
+        }
+        
+        /* タッチ操作最適化 */
+        .btn {
+            min-height: 44px;
+            min-width: 44px;
+            padding: 0.75rem 1.5rem;
+            font-size: 1rem;
+        }
+        
+        .btn-sm {
+            min-height: 38px;
+            min-width: 38px;
+            padding: 0.5rem 1rem;
+            font-size: 0.9rem;
+        }
+        
+        /* ナビゲーションの改善 */
+        .navbar-toggler {
+            border: none;
+            padding: 0.5rem;
+            font-size: 1.2rem;
+        }
+        
+        .navbar-toggler:focus {
+            box-shadow: none;
+        }
+        
+        .navbar-collapse {
+            margin-top: 1rem;
+        }
+        
         /* レスポンシブ対応 */
         @media (max-width: 768px) {
             .navbar-brand {
@@ -244,6 +305,64 @@
             
             .card {
                 margin-bottom: 1rem;
+            }
+            
+            .container {
+                padding-left: 1rem;
+                padding-right: 1rem;
+            }
+            
+            /* グラフのモバイル最適化 */
+            canvas {
+                max-height: 250px !important;
+            }
+            
+            /* フォントサイズ調整 */
+            h1 { font-size: 1.8rem; }
+            h2 { font-size: 1.6rem; }
+            h3 { font-size: 1.4rem; }
+            h4 { font-size: 1.2rem; }
+            h5 { font-size: 1.1rem; }
+            h6 { font-size: 1rem; }
+            
+            /* カードヘッダーの調整 */
+            .card-header h3 {
+                font-size: 1.3rem;
+            }
+            
+            /* 進捗クリアボタンの調整 */
+            .btn-danger {
+                font-size: 0.9rem;
+                padding: 0.5rem 1rem;
+            }
+        }
+        
+        @media (max-width: 576px) {
+            .navbar-brand {
+                font-size: 1.2rem;
+            }
+            
+            .container {
+                padding-left: 0.5rem;
+                padding-right: 0.5rem;
+            }
+            
+            .progress-card .card-body {
+                padding: 0.75rem;
+            }
+            
+            .progress-card .card-header {
+                padding: 0.75rem;
+            }
+            
+            /* 非常に小さい画面での調整 */
+            .btn {
+                font-size: 0.9rem;
+                padding: 0.6rem 1.2rem;
+            }
+            
+            canvas {
+                max-height: 200px !important;
             }
         }
         
