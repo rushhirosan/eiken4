@@ -20,10 +20,14 @@ from django.views.generic.base import RedirectView, TemplateView
 from django.conf import settings
 from django.conf.urls.static import static
 from django.http import HttpResponse
-from django.views.static import serve
 
 def healthz(request):
     return HttpResponse("ok", status=200)
+
+def google_verification(request):
+    """Google Search Console verification file"""
+    content = "google-site-verification: google41829dffd897ace8.html"
+    return HttpResponse(content, content_type='text/html')
 
 urlpatterns = [
     path('admin/', admin.site.urls),
@@ -32,7 +36,7 @@ urlpatterns = [
     path('exams/', include('exams.urls')),
     path('', RedirectView.as_view(url='/exams/', permanent=True)),
     # Google Search Console verification file
-    path('google41829dffd897ace8.html', lambda request: serve(request, 'google41829dffd897ace8.html', document_root='.')),
+    path('google41829dffd897ace8.html', google_verification),
     # Sitemap
     path('sitemap.xml', include('exams.urls')),
     # Privacy Policy
