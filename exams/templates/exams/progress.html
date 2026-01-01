@@ -24,18 +24,23 @@
             <!-- 取り組み率グラフを追加 -->
             <div class="row mb-4">
                 <div class="col-md-12">
-                    <canvas id="progressChart{{ level }}"></canvas>
+                    <div style="position: relative; height: 300px;">
+                        <canvas id="progressChart{{ level }}"></canvas>
+                    </div>
                 </div>
             </div>
             
             <!-- 日々の取り組み数グラフを追加 -->
             <div class="row mb-4">
                 <div class="col-md-12">
-                    <canvas id="dailyProgressChart{{ level }}"></canvas>
+                    <div style="position: relative; height: 300px;">
+                        <canvas id="dailyProgressChart{{ level }}"></canvas>
+                    </div>
                 </div>
             </div>
             
-            <div class="table-responsive">
+            <!-- デスクトップ用テーブル -->
+            <div class="table-responsive d-none d-lg-block">
                 <table class="table table-hover">
                     <thead>
                         <tr>
@@ -125,6 +130,209 @@
                     </tbody>
                 </table>
             </div>
+
+            <!-- モバイル用カード表示 -->
+            <div class="d-lg-none">
+                {% with progress=progress_data|get_item:level %}
+                
+                <!-- 文法・語彙問題 -->
+                <div class="card mb-3 progress-card">
+                    <div class="card-header d-flex justify-content-between align-items-center">
+                        <h6 class="mb-0"><i class="fas fa-book me-2"></i>文法・語彙問題</h6>
+                        <span class="badge bg-primary">{{ progress.grammar_fill.progress_rate|default:"0" }}%</span>
+                    </div>
+                    <div class="card-body">
+                        <div class="row g-2">
+                            <div class="col-6">
+                                <small class="text-muted">回答数</small>
+                                <div class="fw-bold">{{ progress.grammar_fill.total_attempts|default:"0" }}/{{ progress.grammar_fill.total_questions|default:"0" }}</div>
+                            </div>
+                            <div class="col-6">
+                                <small class="text-muted">今日の取り組み</small>
+                                <div class="fw-bold text-success">{{ progress.grammar_fill.today_attempts|default:"0" }}問</div>
+                            </div>
+                            <div class="col-6">
+                                <small class="text-muted">正解/不正解</small>
+                                <div class="fw-bold">{{ progress.grammar_fill.correct_answers|default:"0" }}/{{ progress.grammar_fill.incorrect_answers|default:"0" }}</div>
+                            </div>
+                            <div class="col-6">
+                                <small class="text-muted">最終回答日</small>
+                                <div class="fw-bold text-info">{% if progress.grammar_fill.last_attempted %}{{ progress.grammar_fill.last_attempted }}{% else %}未回答{% endif %}</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 会話補充問題 -->
+                <div class="card mb-3 progress-card">
+                    <div class="card-header d-flex justify-content-between align-items-center">
+                        <h6 class="mb-0"><i class="fas fa-comments me-2"></i>会話補充問題</h6>
+                        <span class="badge bg-primary">{{ progress.conversation_fill.progress_rate|default:"0" }}%</span>
+                    </div>
+                    <div class="card-body">
+                        <div class="row g-2">
+                            <div class="col-6">
+                                <small class="text-muted">回答数</small>
+                                <div class="fw-bold">{{ progress.conversation_fill.total_attempts|default:"0" }}/{{ progress.conversation_fill.total_questions|default:"0" }}</div>
+                            </div>
+                            <div class="col-6">
+                                <small class="text-muted">今日の取り組み</small>
+                                <div class="fw-bold text-success">{{ progress.conversation_fill.today_attempts|default:"0" }}問</div>
+                            </div>
+                            <div class="col-6">
+                                <small class="text-muted">正解/不正解</small>
+                                <div class="fw-bold">{{ progress.conversation_fill.correct_answers|default:"0" }}/{{ progress.conversation_fill.incorrect_answers|default:"0" }}</div>
+                            </div>
+                            <div class="col-6">
+                                <small class="text-muted">最終回答日</small>
+                                <div class="fw-bold text-info">{% if progress.conversation_fill.last_attempted %}{{ progress.conversation_fill.last_attempted }}{% else %}未回答{% endif %}</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 語順選択問題 -->
+                <div class="card mb-3 progress-card">
+                    <div class="card-header d-flex justify-content-between align-items-center">
+                        <h6 class="mb-0"><i class="fas fa-sort me-2"></i>語順選択問題</h6>
+                        <span class="badge bg-primary">{{ progress.word_order.progress_rate|default:"0" }}%</span>
+                    </div>
+                    <div class="card-body">
+                        <div class="row g-2">
+                            <div class="col-6">
+                                <small class="text-muted">回答数</small>
+                                <div class="fw-bold">{{ progress.word_order.total_attempts|default:"0" }}/{{ progress.word_order.total_questions|default:"0" }}</div>
+                            </div>
+                            <div class="col-6">
+                                <small class="text-muted">今日の取り組み</small>
+                                <div class="fw-bold text-success">{{ progress.word_order.today_attempts|default:"0" }}問</div>
+                            </div>
+                            <div class="col-6">
+                                <small class="text-muted">正解/不正解</small>
+                                <div class="fw-bold">{{ progress.word_order.correct_answers|default:"0" }}/{{ progress.word_order.incorrect_answers|default:"0" }}</div>
+                            </div>
+                            <div class="col-6">
+                                <small class="text-muted">最終回答日</small>
+                                <div class="fw-bold text-info">{% if progress.word_order.last_attempted %}{{ progress.word_order.last_attempted }}{% else %}未回答{% endif %}</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 長文読解問題 -->
+                <div class="card mb-3 progress-card">
+                    <div class="card-header d-flex justify-content-between align-items-center">
+                        <h6 class="mb-0"><i class="fas fa-file-text me-2"></i>長文読解問題</h6>
+                        <span class="badge bg-primary">{{ progress.reading_comprehension.progress_rate|default:"0" }}%</span>
+                    </div>
+                    <div class="card-body">
+                        <div class="row g-2">
+                            <div class="col-6">
+                                <small class="text-muted">回答数</small>
+                                <div class="fw-bold">{{ progress.reading_comprehension.total_attempts|default:"0" }}/{{ progress.reading_comprehension.total_questions|default:"0" }}</div>
+                            </div>
+                            <div class="col-6">
+                                <small class="text-muted">今日の取り組み</small>
+                                <div class="fw-bold text-success">{{ progress.reading_comprehension.today_attempts|default:"0" }}問</div>
+                            </div>
+                            <div class="col-6">
+                                <small class="text-muted">正解/不正解</small>
+                                <div class="fw-bold">{{ progress.reading_comprehension.correct_answers|default:"0" }}/{{ progress.reading_comprehension.incorrect_answers|default:"0" }}</div>
+                            </div>
+                            <div class="col-6">
+                                <small class="text-muted">最終回答日</small>
+                                <div class="fw-bold text-info">{% if progress.reading_comprehension.last_attempted %}{{ progress.reading_comprehension.last_attempted }}{% else %}未回答{% endif %}</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- リスニングイラスト問題 -->
+                <div class="card mb-3 progress-card">
+                    <div class="card-header d-flex justify-content-between align-items-center">
+                        <h6 class="mb-0"><i class="fas fa-headphones me-2"></i>リスニングイラスト問題</h6>
+                        <span class="badge bg-primary">{{ progress.listening_illustration.progress_rate|default:"0" }}%</span>
+                    </div>
+                    <div class="card-body">
+                        <div class="row g-2">
+                            <div class="col-6">
+                                <small class="text-muted">回答数</small>
+                                <div class="fw-bold">{{ progress.listening_illustration.total_attempts|default:"0" }}/{{ progress.listening_illustration.total_questions|default:"0" }}</div>
+                            </div>
+                            <div class="col-6">
+                                <small class="text-muted">今日の取り組み</small>
+                                <div class="fw-bold text-success">{{ progress.listening_illustration.today_attempts|default:"0" }}問</div>
+                            </div>
+                            <div class="col-6">
+                                <small class="text-muted">正解/不正解</small>
+                                <div class="fw-bold">{{ progress.listening_illustration.correct_answers|default:"0" }}/{{ progress.listening_illustration.incorrect_answers|default:"0" }}</div>
+                            </div>
+                            <div class="col-6">
+                                <small class="text-muted">最終回答日</small>
+                                <div class="fw-bold text-info">{% if progress.listening_illustration.last_attempted %}{{ progress.listening_illustration.last_attempted }}{% else %}未回答{% endif %}</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- リスニング会話問題 -->
+                <div class="card mb-3 progress-card">
+                    <div class="card-header d-flex justify-content-between align-items-center">
+                        <h6 class="mb-0"><i class="fas fa-volume-up me-2"></i>リスニング会話問題</h6>
+                        <span class="badge bg-primary">{{ progress.listening_conversation.progress_rate|default:"0" }}%</span>
+                    </div>
+                    <div class="card-body">
+                        <div class="row g-2">
+                            <div class="col-6">
+                                <small class="text-muted">回答数</small>
+                                <div class="fw-bold">{{ progress.listening_conversation.total_attempts|default:"0" }}/{{ progress.listening_conversation.total_questions|default:"0" }}</div>
+                            </div>
+                            <div class="col-6">
+                                <small class="text-muted">今日の取り組み</small>
+                                <div class="fw-bold text-success">{{ progress.listening_conversation.today_attempts|default:"0" }}問</div>
+                            </div>
+                            <div class="col-6">
+                                <small class="text-muted">正解/不正解</small>
+                                <div class="fw-bold">{{ progress.listening_conversation.correct_answers|default:"0" }}/{{ progress.listening_conversation.incorrect_answers|default:"0" }}</div>
+                            </div>
+                            <div class="col-6">
+                                <small class="text-muted">最終回答日</small>
+                                <div class="fw-bold text-info">{% if progress.listening_conversation.last_attempted %}{{ progress.listening_conversation.last_attempted }}{% else %}未回答{% endif %}</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- リスニング文章問題 -->
+                <div class="card mb-3 progress-card">
+                    <div class="card-header d-flex justify-content-between align-items-center">
+                        <h6 class="mb-0"><i class="fas fa-music me-2"></i>リスニング文章問題</h6>
+                        <span class="badge bg-primary">{{ progress.listening_passage.progress_rate|default:"0" }}%</span>
+                    </div>
+                    <div class="card-body">
+                        <div class="row g-2">
+                            <div class="col-6">
+                                <small class="text-muted">回答数</small>
+                                <div class="fw-bold">{{ progress.listening_passage.total_attempts|default:"0" }}/{{ progress.listening_passage.total_questions|default:"0" }}</div>
+                            </div>
+                            <div class="col-6">
+                                <small class="text-muted">今日の取り組み</small>
+                                <div class="fw-bold text-success">{{ progress.listening_passage.today_attempts|default:"0" }}問</div>
+                            </div>
+                            <div class="col-6">
+                                <small class="text-muted">正解/不正解</small>
+                                <div class="fw-bold">{{ progress.listening_passage.correct_answers|default:"0" }}/{{ progress.listening_passage.incorrect_answers|default:"0" }}</div>
+                            </div>
+                            <div class="col-6">
+                                <small class="text-muted">最終回答日</small>
+                                <div class="fw-bold text-info">{% if progress.listening_passage.last_attempted %}{{ progress.listening_passage.last_attempted }}{% else %}未回答{% endif %}</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                {% endwith %}
+            </div>
         </div>
     </div>
     {% endfor %}
@@ -194,20 +402,40 @@ document.addEventListener('DOMContentLoaded', function() {
         },
         options: {
             responsive: true,
+            maintainAspectRatio: false,
             scales: {
                 y: {
                     beginAtZero: true,
                     max: 100,
                     title: {
                         display: true,
-                        text: '取り組み率 (%)'
+                        text: '取り組み率 (%)',
+                        font: {
+                            size: window.innerWidth < 768 ? 10 : 12
+                        }
+                    },
+                    ticks: {
+                        font: {
+                            size: window.innerWidth < 768 ? 10 : 12
+                        }
+                    }
+                },
+                x: {
+                    ticks: {
+                        font: {
+                            size: window.innerWidth < 768 ? 8 : 10
+                        },
+                        maxRotation: window.innerWidth < 768 ? 45 : 0
                     }
                 }
             },
             plugins: {
                 title: {
                     display: true,
-                    text: '英検{{ level }}級 取り組み率'
+                    text: '英検{{ level }}級 取り組み率',
+                    font: {
+                        size: window.innerWidth < 768 ? 12 : 16
+                    }
                 },
                 legend: {
                     display: false
@@ -262,6 +490,7 @@ document.addEventListener('DOMContentLoaded', function() {
         },
         options: {
             responsive: true,
+            maintainAspectRatio: false,
             scales: {
                 y: {
                     beginAtZero: true,
@@ -269,24 +498,42 @@ document.addEventListener('DOMContentLoaded', function() {
                         stepSize: 1,  // 縦軸の目盛りを1刻みにする
                         callback: function(value) {
                             return Math.floor(value);  // 整数のみ表示
+                        },
+                        font: {
+                            size: window.innerWidth < 768 ? 10 : 12
                         }
                     },
                     title: {
                         display: true,
-                        text: '取り組み数 (問)'
+                        text: '取り組み数 (問)',
+                        font: {
+                            size: window.innerWidth < 768 ? 10 : 12
+                        }
                     }
                 },
                 x: {
                     title: {
                         display: true,
-                        text: '日付'
+                        text: '日付',
+                        font: {
+                            size: window.innerWidth < 768 ? 10 : 12
+                        }
+                    },
+                    ticks: {
+                        font: {
+                            size: window.innerWidth < 768 ? 8 : 10
+                        },
+                        maxRotation: window.innerWidth < 768 ? 45 : 0
                     }
                 }
             },
             plugins: {
                 title: {
                     display: true,
-                    text: '英検{{ level }}級 過去7日間の取り組み数'
+                    text: '英検{{ level }}級 過去7日間の取り組み数',
+                    font: {
+                        size: window.innerWidth < 768 ? 12 : 16
+                    }
                 },
                 legend: {
                     display: false

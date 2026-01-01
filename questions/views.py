@@ -1,5 +1,6 @@
 from django.shortcuts import render, redirect, get_object_or_404
 from django.contrib import messages
+from django.utils import timezone
 from .models import Question, Choice, ReadingPassage, ReadingQuestion, ReadingChoice, ListeningQuestion, ListeningUserAnswer
 
 def reading_comprehension_list_view(request):
@@ -79,7 +80,8 @@ def listening_question_detail(request, question_id):
                 user=request.user,
                 question=question,
                 selected_answer=selected_answer,
-                is_correct=is_correct
+                is_correct=is_correct,
+                answered_at=timezone.now()
             )
         return redirect('listening_question_list')
 

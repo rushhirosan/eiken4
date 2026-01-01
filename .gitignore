@@ -128,12 +128,6 @@ dmypy.json
 # Pyre type checker
 .pyre/
 
-# Django
-*.log
-local_settings.py
-db.sqlite3
-db.sqlite3-journal
-
 # Media files
 media/
 
@@ -166,4 +160,7 @@ Thumbs.db
 *.temp
 nohup.out
 output.txt
-output_backup.txt 
+output_backup.txt
+*_backup.py
+*.bak
+*.backup 

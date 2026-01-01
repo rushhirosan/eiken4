@@ -116,7 +116,7 @@ AUTH_PASSWORD_VALIDATORS = [
 
 LANGUAGE_CODE = 'en-us'
 
-TIME_ZONE = 'UTC'
+TIME_ZONE = 'Asia/Tokyo'
 
 USE_I18N = True
 
@@ -141,9 +141,21 @@ MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
-AUTH_USER_MODEL = 'accounts.CustomUser'
+# 警告を無効化
+import warnings
+warnings.filterwarnings("ignore", message="DateTimeField.*received a naive datetime.*while time zone support is active")
+
+# テスト実行時はデバッグツールバーを無効化
+import sys
+if 'test' in sys.argv or 'pytest' in sys.modules:
+    if 'debug_toolbar' in INSTALLED_APPS:
+        INSTALLED_APPS.remove('debug_toolbar')
+    if 'debug_toolbar.middleware.DebugToolbarMiddleware' in MIDDLEWARE:
+        MIDDLEWARE.remove('debug_toolbar.middleware.DebugToolbarMiddleware')
+    DEBUG_TOOLBAR_CONFIG = {'IS_RUNNING_TESTS': False}
 
 # Authentication settings
+AUTH_USER_MODEL = 'accounts.CustomUser'
 LOGIN_REDIRECT_URL = 'exams:exam_list'
 LOGOUT_REDIRECT_URL = 'login'
 

@@ -11,19 +11,19 @@
     <div class="row mb-4">
         <div class="col-12">
             <div class="row">
-                <div class="col-md-6">
+                <div class="col-12 col-md-6 mb-3">
                     <h6>筆記試験（大問1-4）</h6>
-                    <div class="progress mb-2">
+                    <div class="progress mb-2" style="height: 25px;">
                         <div id="writingProgress" class="progress-bar bg-primary" role="progressbar" style="width: 100%"></div>
                     </div>
-                    <small id="writingTime" class="text-muted">残り時間: 35:00</small>
+                    <small id="writingTime" class="text-muted d-block">残り時間: 35:00</small>
                 </div>
-                <div class="col-md-6">
+                <div class="col-12 col-md-6 mb-3">
                     <h6>リスニング試験（第1-3部）</h6>
-                    <div class="progress mb-2">
+                    <div class="progress mb-2" style="height: 25px;">
                         <div id="listeningProgress" class="progress-bar bg-success" role="progressbar" style="width: 100%"></div>
                     </div>
-                    <small id="listeningTime" class="text-muted">残り時間: 30:00</small>
+                    <small id="listeningTime" class="text-muted d-block">残り時間: 30:00</small>
                 </div>
             </div>
         </div>
@@ -61,7 +61,7 @@
         </div>
         <div class="row">
             {% for question in category.list %}
-            <div class="col-md-6 mb-4">
+            <div class="col-12 col-md-6 mb-4">
                 <div class="card">
                     <div class="card-body">
                         <h5 class="card-title">
@@ -167,7 +167,7 @@
         </div>
         <div class="row">
             {% for question in listening_illustration %}
-            <div class="col-md-6 mb-4">
+            <div class="col-12 col-md-6 mb-4">
                 <div class="card">
                     <div class="card-body">
                         <h5 class="card-title">
@@ -215,7 +215,7 @@
         </div>
         <div class="row">
             {% for question in listening_conversation %}
-            <div class="col-md-6 mb-4">
+            <div class="col-12 col-md-6 mb-4">
                 <div class="card">
                     <div class="card-body">
                         <h5 class="card-title">
@@ -261,7 +261,7 @@
         </div>
         <div class="row">
             {% for question in listening_passage %}
-            <div class="col-md-6 mb-4">
+            <div class="col-12 col-md-6 mb-4">
                 <div class="card">
                     <div class="card-body">
                         <h5 class="card-title">
@@ -301,6 +301,100 @@
         </div>
     </form>
 </div>
+
+<style>
+/* モバイル最適化 */
+@media (max-width: 768px) {
+    h1 {
+        font-size: 1.5rem;
+    }
+    
+    h5, h6 {
+        font-size: 1.1rem;
+    }
+    
+    .card {
+        margin-bottom: 1rem;
+    }
+    
+    .card-body {
+        padding: 1rem;
+    }
+    
+    .card-header {
+        padding: 0.75rem 1rem;
+    }
+    
+    .form-check {
+        padding: 0.75rem 0;
+        margin-bottom: 0.5rem;
+    }
+    
+    .form-check-input {
+        width: 1.25rem;
+        height: 1.25rem;
+        margin-top: 0.3rem;
+    }
+    
+    .form-check-label {
+        font-size: 1rem;
+        padding-left: 0.5rem;
+        line-height: 1.5;
+    }
+    
+    .btn-lg {
+        min-height: 48px;
+        padding: 0.75rem 1.5rem;
+        font-size: 1.1rem;
+    }
+    
+    .progress {
+        height: 20px !important;
+    }
+    
+    audio {
+        width: 100% !important;
+        max-width: 100% !important;
+    }
+    
+    img.img-fluid {
+        max-width: 100% !important;
+        height: auto;
+    }
+    
+    .passage-text {
+        font-size: 0.95rem;
+        line-height: 1.6;
+    }
+}
+
+@media (max-width: 576px) {
+    h1 {
+        font-size: 1.3rem;
+    }
+    
+    h5, h6 {
+        font-size: 1rem;
+    }
+    
+    .card-body {
+        padding: 0.75rem;
+    }
+    
+    .form-check {
+        padding: 0.6rem 0;
+    }
+    
+    .btn-lg {
+        font-size: 1rem;
+        padding: 0.7rem 1.2rem;
+    }
+    
+    .progress {
+        height: 18px !important;
+    }
+}
+</style>
 
 <script>
 // 時間制限機能

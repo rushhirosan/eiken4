@@ -73,6 +73,106 @@
     </form>
 </div>
 
+<style>
+/* モバイル最適化 */
+@media (max-width: 768px) {
+    h2 {
+        font-size: 1.5rem;
+    }
+    
+    .card {
+        margin-bottom: 1rem;
+    }
+    
+    .card-body {
+        padding: 1rem;
+    }
+    
+    .card-title {
+        font-size: 1.1rem;
+    }
+    
+    h5, h6 {
+        font-size: 1.1rem;
+    }
+    
+    .card-text {
+        font-size: 0.95rem;
+        line-height: 1.6;
+    }
+    
+    .form-check {
+        padding: 0.75rem 0;
+        margin-bottom: 0.5rem;
+    }
+    
+    .form-check-input {
+        width: 1.25rem;
+        height: 1.25rem;
+        margin-top: 0.3rem;
+    }
+    
+    .form-check-label {
+        font-size: 1rem;
+        padding-left: 0.5rem;
+        line-height: 1.5;
+    }
+    
+    .btn-lg {
+        min-height: 48px;
+        padding: 0.75rem 1.5rem;
+        font-size: 1.1rem;
+    }
+    
+    .form-control {
+        font-size: 1rem;
+        padding: 0.6rem;
+        min-height: 44px;
+    }
+    
+    label {
+        font-size: 0.95rem;
+        margin-bottom: 0.5rem;
+    }
+}
+
+@media (max-width: 576px) {
+    h2 {
+        font-size: 1.3rem;
+    }
+    
+    .card-body {
+        padding: 0.75rem;
+    }
+    
+    .card-title {
+        font-size: 1rem;
+    }
+    
+    h5, h6 {
+        font-size: 1rem;
+    }
+    
+    .card-text {
+        font-size: 0.9rem;
+    }
+    
+    .form-check {
+        padding: 0.6rem 0;
+    }
+    
+    .btn-lg {
+        font-size: 1rem;
+        padding: 0.7rem 1.2rem;
+    }
+    
+    .form-control {
+        font-size: 0.95rem;
+        padding: 0.5rem;
+    }
+}
+</style>
+
 <script>
 function updateFilters() {
     const numPassages = document.getElementById('num_passages').value;
