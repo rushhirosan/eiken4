@@ -32,6 +32,8 @@ def google_verification(request):
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('accounts/', include('accounts.urls')),
+    # カスタムログインビューを使用するため、django.contrib.auth.urlsのloginは除外
+    # ログアウトとパスワードリセット機能は使用可能
     path('accounts/', include('django.contrib.auth.urls')),
     path('exams/', include('exams.urls')),
     path('', RedirectView.as_view(url='/exams/', permanent=True)),

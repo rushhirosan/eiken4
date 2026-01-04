@@ -250,3 +250,54 @@ if DEBUG:
 
     # 自動リロード設定
     STATICFILES_STORAGE = 'django.contrib.staticfiles.storage.StaticFilesStorage'
+    
+    # ログ設定（開発環境）
+    LOGGING = {
+        'version': 1,
+        'disable_existing_loggers': False,
+        'formatters': {
+            'verbose': {
+                'format': '{levelname} {asctime} {module} {process:d} {thread:d} {message}',
+                'style': '{',
+            },
+            'simple': {
+                'format': '{levelname} {message}',
+                'style': '{',
+            },
+            'security': {
+                'format': '{levelname} {asctime} [SECURITY] {module} {message}',
+                'style': '{',
+            },
+        },
+        'handlers': {
+            'console': {
+                'class': 'logging.StreamHandler',
+                'formatter': 'verbose',
+            },
+            'security_console': {
+                'class': 'logging.StreamHandler',
+                'formatter': 'security',
+            },
+        },
+        'root': {
+            'handlers': ['console'],
+            'level': 'INFO',
+        },
+        'loggers': {
+            'django': {
+                'handlers': ['console'],
+                'level': 'INFO',
+                'propagate': False,
+            },
+            'accounts': {
+                'handlers': ['console', 'security_console'],
+                'level': 'INFO',
+                'propagate': False,
+            },
+            'django_ratelimit': {
+                'handlers': ['console', 'security_console'],
+                'level': 'WARNING',
+                'propagate': False,
+            },
+        },
+    }

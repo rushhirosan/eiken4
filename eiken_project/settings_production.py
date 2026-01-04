@@ -56,9 +56,14 @@ X_FRAME_OPTIONS = 'DENY'
 # SECURE_HSTS_INCLUDE_SUBDOMAINS = True
 # SECURE_HSTS_PRELOAD = True
 
-# Session settings - Modified for Fly.io compatibility
-SESSION_COOKIE_SECURE = False  # Changed to False for Fly.io
-CSRF_COOKIE_SECURE = False     # Changed to False for Fly.io
+# Session settings - Secure cookies for HTTPS
+# Note: These should be True when using HTTPS. Set to False only if behind a proxy that handles SSL termination
+SESSION_COOKIE_SECURE = True   # Secure cookie for HTTPS
+CSRF_COOKIE_SECURE = True      # Secure CSRF cookie for HTTPS
+SESSION_COOKIE_HTTPONLY = True  # Prevent JavaScript access to session cookie
+CSRF_COOKIE_HTTPONLY = False   # CSRF cookie needs to be accessible to JavaScript
+SESSION_COOKIE_SAMESITE = 'Lax'  # CSRF protection
+CSRF_COOKIE_SAMESITE = 'Lax'
 
 # Remove debug toolbar in production
 INSTALLED_APPS.remove('debug_toolbar')
@@ -77,11 +82,19 @@ LOGGING = {
             'format': '{levelname} {message}',
             'style': '{',
         },
+        'security': {
+            'format': '{levelname} {asctime} [SECURITY] {module} {message}',
+            'style': '{',
+        },
     },
     'handlers': {
         'console': {
             'class': 'logging.StreamHandler',
             'formatter': 'verbose',
+        },
+        'security_console': {
+            'class': 'logging.StreamHandler',
+            'formatter': 'security',
         },
     },
     'root': {
@@ -92,6 +105,16 @@ LOGGING = {
         'django': {
             'handlers': ['console'],
             'level': 'INFO',
+            'propagate': False,
+        },
+        'accounts': {
+            'handlers': ['console', 'security_console'],
+            'level': 'INFO',
+            'propagate': False,
+        },
+        'django_ratelimit': {
+            'handlers': ['console', 'security_console'],
+            'level': 'WARNING',
             'propagate': False,
         },
     },
