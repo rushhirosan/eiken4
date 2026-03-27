@@ -62,15 +62,11 @@ def parse_questions_from_file(file_path):
     return questions_data
 
 class Command(BaseCommand):
-    help = 'listening_conversation_questions.txt から問題11-20の会話問題を登録する'
+    help = 'listening_conversation_questions.txt からリスニング会話問題（No.1-40）を登録する'
 
     def handle(self, *args, **options):
-        # 既存の問題を削除（31-40のみ）
-        Question.objects.filter(
-            question_type='listening_conversation',
-            question_number__in=range(31, 41)
-        ).delete()
-        print('既存のリスニング会話問題（31-40）を削除しました')
+        Question.objects.filter(question_type='listening_conversation').delete()
+        print('既存のリスニング会話問題をすべて削除しました')
         
         # テキストファイルから問題を読み込む
         questions_data = parse_questions_from_file('data/questions/listening_conversation_questions.txt')
@@ -78,8 +74,7 @@ class Command(BaseCommand):
         
         for data in questions_data:
             question_number = data['question_number']
-            # 31-40のみを処理
-            if question_number < 31 or question_number > 40:
+            if question_number < 1 or question_number > 40:
                 continue
             # 問題を作成
             question = Question.objects.create(
@@ -100,7 +95,7 @@ class Command(BaseCommand):
                     order=j
                 )
             print(f'問題{question_number}を登録（正解: {data["correct_answer_number"]}）')
-        print('問題31-40のリスニング会話問題を登録しました')
+        print('リスニング会話問題（No.1-40）を登録しました')
 
 def extract_conversation_and_question(text):
     """会話と問題を抽出"""

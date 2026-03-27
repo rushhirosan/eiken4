@@ -6,12 +6,12 @@ class Command(BaseCommand):
     help = 'Register reading comprehension passages 10-12 and questions from text file'
 
     def handle(self, *args, **options):
-        # Clear existing passages 1-12
-        ReadingPassage.objects.filter(identifier__in=['1', '2', '3', '4', '5', '6', '7', '8', '9', '10', '11', '12']).delete()
-        self.stdout.write(self.style.WARNING('既存の読解問題（本文1-12）を削除しました'))
+        # Grade 4 の長文読解は identifier が a–l で保存される
+        ReadingPassage.objects.filter(level='4').delete()
+        self.stdout.write(self.style.WARNING('既存の読解パッセージ（4級）をすべて削除しました'))
         
         # Read the text file
-        with open('questions/reading_comprehesion_questions.txt', 'r', encoding='utf-8') as file:
+        with open('data/questions/reading_comprehesion_questions.txt', 'r', encoding='utf-8') as file:
             content = file.read()
 
         # Split into passages

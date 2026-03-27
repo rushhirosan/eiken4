@@ -3,18 +3,13 @@ from exams.models import Question, Choice
 import re
 
 class Command(BaseCommand):
-    help = 'listening_passage_questions.txt から問題31-40の文章問題を登録する'
+    help = 'listening_passage_questions.txt からリスニング文章問題（No.1-40）を登録する'
 
     def handle(self, *args, **options):
-        # 既存の問題を削除（31-40のみ）
-        Question.objects.filter(
-            question_type='listening_passage',
-            question_number__in=range(31, 41)
-        ).delete()
-        self.stdout.write(self.style.WARNING('既存のリスニング文章問題（31-40）を削除しました'))
+        Question.objects.filter(question_type='listening_passage').delete()
+        self.stdout.write(self.style.WARNING('既存のリスニング文章問題をすべて削除しました'))
         
-        # ファイルから問題を読み取る
-        file_path = 'questions/listening_passage_questions.txt'
+        file_path = 'data/questions/listening_passage_questions.txt'
         questions_data = self.extract_questions_from_file(file_path)
         
         self.stdout.write(f'抽出された問題数: {len(questions_data)}')
@@ -42,7 +37,7 @@ class Command(BaseCommand):
             
             self.stdout.write(self.style.SUCCESS(f'問題{q_data["question_number"]}を登録'))
         
-        self.stdout.write(self.style.SUCCESS('問題31-40のリスニング文章問題を登録しました'))
+        self.stdout.write(self.style.SUCCESS('リスニング文章問題（No.1-40）を登録しました'))
 
     def extract_questions_from_file(self, file_path):
         questions_data = []
@@ -59,8 +54,7 @@ class Command(BaseCommand):
                     continue
                 question_number = int(number_match.group(1))
                 
-                # 31-40のみを処理
-                if question_number < 31 or question_number > 40:
+                if question_number < 1 or question_number > 40:
                     continue
                 
                 # パッセージ文を抽出（No.X: から Question No.X: の直前まで）

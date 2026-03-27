@@ -126,7 +126,7 @@ Question No.7:
 3. Yes, I did.
 
 【正解7】
-No, let’s walk.
+1. No, let’s walk.
 
 【解説7】
 「バスに乗る？」という提案に、「歩こう」と答える1が自然です。
@@ -183,7 +183,7 @@ Question No.10:
 3. He writes stories.
 
 【正解10】
-Please take one.
+1. Please take one.
 
 【解説10】
 「もらっていい？」に対して「どうぞ、一冊持っていって」が自然な返答です。

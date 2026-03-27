@@ -290,10 +290,10 @@ W: No. It’s too expensive.
 
 Question No.14:  
 Why won’t they go to the zoo today?  
-1. It is raining.  
-2. It is closed.  
-3. It is too expensive
-4. It is too far.  
+1. It’s raining.  
+2. It’s closed.  
+3. It’s too expensive
+4. It’s too far.  
 
 【正解14】  
 1. It’s raining.  

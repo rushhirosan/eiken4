@@ -3,15 +3,11 @@ from exams.models import Question, Choice
 import re
 
 class Command(BaseCommand):
-    help = 'Register word order fill questions 61-65 from text file'
+    help = 'Register all word order questions from data/questions/wordorder_questions.txt'
 
     def handle(self, *args, **options):
-        # Clear existing questions 61-65
-        Question.objects.filter(
-            question_type='word_order',
-            question_number__in=range(61, 66)
-        ).delete()
-        self.stdout.write(self.style.WARNING('既存の語順穴埋め問題（61-65）を削除しました'))
+        Question.objects.filter(question_type='word_order').delete()
+        self.stdout.write(self.style.WARNING('既存の語順穴埋め問題をすべて削除しました'))
         
         # Read the text file
         with open('data/questions/wordorder_questions.txt', 'r', encoding='utf-8') as file:
@@ -32,10 +28,6 @@ class Command(BaseCommand):
                     continue
                 question_number = int(question_number_match.group(1))
                 
-                # Only process questions 61-65
-                if question_number < 61 or question_number > 65:
-                    continue
-
                 # Extract question text (日本語文＋英語文)
                 question_match = re.search(r'問題\d+:\s*(.*?)\n選択肢\d+:', question_block, re.DOTALL)
                 if not question_match:
