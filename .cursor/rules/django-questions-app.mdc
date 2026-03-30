@@ -1,0 +1,12 @@
+---
+description: questions アプリ（マスタ・登録コマンド）の実装ルール
+globs: "**/questions/**/*.py"
+alwaysApply: false
+---
+
+# questions アプリ
+
+- 詳細モデル（読解・文法・リスニング専用など）と `questions/management/commands/` の登録・作成コマンドが中心。
+- データ投入は `data/questions/` の形式とコマンド内パースがセット。**テキスト形式を変えるときは正規表現を同じ変更で直す**。
+- `ListeningQuestion` の `audio` / `image` は静的パス文字列。実体は `static/`。
+- 仕様の全体像は `docs/question_update_flow_specification.md`。

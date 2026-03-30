@@ -1,0 +1,15 @@
+---
+description: 英検学習アプリ（eiken4）のスタックとアプリ境界の共通前提
+alwaysApply: true
+---
+
+# eiken4 プロジェクト前提
+
+- **スタック**: Django、開発は SQLite、本番は PostgreSQL（Fly.io）。静的ファイルは `collectstatic`、音声・画像は `static/` 配下。
+- **アプリ分担**
+  - `exams/`: 試験 UI・回答・進捗。共通の `exams.models.Question` / `Choice` が多くの問題タイプの中心。
+  - `questions/`: 問題マスタの詳細モデル（読解パッセージ、文法穴埋め、リスニング専用など）と **問題登録用** `management/commands`。
+  - `accounts/`: 認証。セキュリティログは `[SECURITY]` プレフィックス（`docs/security_logging_guide.md`）。
+- **詳細仕様の一次情報**: `docs/question_update_flow_specification.md`（問題更新フロー・コマンド一覧・ディレクトリ役割）。迷ったらここを優先する。
+- **レベル表記**: `4`, `3`, `2`, `1`, `pre1`（モデルの `LEVELS` と一致させる）。
+- **ユーザー向け文言**: 日本語が基本。コードコメントは既存ファイルに合わせる（英日混在あり）。

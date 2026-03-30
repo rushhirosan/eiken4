@@ -1,0 +1,11 @@
+---
+description: exams アプリ（試験・共通 Question）の実装ルール
+globs: "**/exams/**/*.py"
+alwaysApply: false
+---
+
+# exams アプリ
+
+- 共通問題は `exams.models.Question` と `QUESTION_TYPES`。新タイプはマイグレーション・`views`・テンプレの分岐をまとめて確認する。
+- リスニングの `audio_file` / `image_file` は静的パスと整合させる。一括更新は `management/commands/update_audio_paths.py` を参照。
+- 変更後は `python manage.py check` と、影響する試験画面の動作を想定する。

@@ -301,3 +301,25 @@ if DEBUG:
             },
         },
     }
+
+
+def _patch_basecontext_copy_for_py314():
+    """copy(super()) in Django 4.2 BaseContext.__copy__ breaks on Python 3.14+ (CPython super() change)."""
+    import sys
+    from copy import copy as shallow_copy
+
+    if sys.version_info < (3, 14):
+        return
+    from django.template.context import BaseContext
+
+    def __copy__(self):
+        duplicate = BaseContext()
+        duplicate.__class__ = self.__class__
+        duplicate.__dict__ = shallow_copy(self.__dict__)
+        duplicate.dicts = self.dicts[:]
+        return duplicate
+
+    BaseContext.__copy__ = __copy__
+
+
+_patch_basecontext_copy_for_py314()
