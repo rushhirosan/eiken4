@@ -1,0 +1,40 @@
+---
+description: Eiken app conventions: Django architecture, data workflow, and safety checks
+alwaysApply: true
+---
+
+# Project: Eiken Learning App
+
+## Overview
+- Django app for Eiken study (grammar, reading, listening, progress tracking).
+- Core apps: `accounts`, `exams`, `questions`.
+- Local dev uses SQLite by default; production uses PostgreSQL on Fly.io.
+
+## Architecture
+- Routing and project settings: `eiken_project/`.
+- Exam and user-facing flow: `exams/`.
+- Question registration and data maintenance: `questions/management/commands/`.
+- Source question files: `data/questions/`.
+- Utility scripts for PDF/audio: `utils/`.
+
+## Working Style
+- Prefer small, practical changes that match existing Django patterns.
+- Keep backward compatibility for existing question text formats and management commands.
+- Avoid unnecessary abstractions for simple view/model updates.
+
+## Data and Content Safety
+- Never commit secrets or credentials.
+- When changing question import flow, verify:
+  - parsing still works for current text files in `data/questions/`
+  - related audio/image paths remain valid
+  - corresponding pages in `exams/templates/exams/` still render
+
+## Verification
+- Before finishing, run practical checks when possible:
+  - `python manage.py check`
+  - `python manage.py test` (or focused tests)
+- If command changes are included, run the affected command with a safe subset/dry-run path if available.
+
+## Deployment Awareness
+- Fly settings are in `config/` and root deployment files.
+- `scripts/start.sh` runs `collectstatic` and `migrate` before `gunicorn`; keep changes compatible.

@@ -1191,7 +1191,7 @@ B : Yes, I play it very () .
 ---
 
 問題68:
-My dog loves to (    ) around the park track every morning with me.
+My dog loves to () around the park track every morning with me.
 
 選択肢68:
 1. dig holes  
@@ -1262,7 +1262,7 @@ B : Yes, yesterday.
 ---
 
 問題72:
-A : Can you (    ) this bag for me while I tie my shoes?  
+A : Can you () this bag for me while I tie my shoes?  
 B : Sure!
 
 選択肢72:
@@ -1315,7 +1315,7 @@ B : () a minute, please.
 ---
 
 問題75:
-A : What time do you (    ) school after classes finish?  
+A : What time do you () school after classes finish?  
 B : At 3:30.
 
 選択肢75:
@@ -1439,7 +1439,7 @@ B : On the internet.
 ---
 
 問題82:
-Yesterday, Kevin (    ) his lunch before going to the library.
+Yesterday, Kevin () his lunch before going to the library.
 
 選択肢82:
 1. eats  
@@ -1491,7 +1491,7 @@ We ( ) to the zoo last weekend and saw a panda.
 ---
 
 問題85:
-A : Do you know the girl (    ) won the speech contest?  
+A : Do you know the girl () won the speech contest?  
 B : Yes, she’s my friend.
 
 選択肢85:
@@ -1578,7 +1578,7 @@ This book is () than the one I read last week.
 ---
 
 問題90:
-A : Which language do you want to (    ) next year at school?  
+A : Which language do you want to () next year at school?  
 B : I want to learn French.
 
 選択肢90:
@@ -1754,7 +1754,7 @@ B : That’s too ( ). Try again next time!
 ---
 
 問題100:
-A : Did you (    ) your umbrella to school today? It’s raining.  
+A : Did you () your umbrella to school today? It’s raining.  
 B : Oh, no! I forgot it!
 
 選択肢100:
@@ -2155,7 +2155,7 @@ My little sister always ( ) with her doll.
 ---
 
 問題123:
-There is a big supermarket (    ) the station, on the opposite side from the main entrance.
+There is a big supermarket () the station, on the opposite side from the main entrance.
 
 選択肢123:
 1. under  
@@ -2345,7 +2345,7 @@ I have a lot of ( ) to do today.
 
 問題134:
 A : Did you bring your lunch?  
-B : No, I completely (    ) to pack it this morning.
+B : No, I completely () to pack it this morning.
 
 選択肢134:
 1. forgot  

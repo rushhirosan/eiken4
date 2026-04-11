@@ -1,0 +1,10 @@
+---
+description: Reply in the same language as the user's message
+alwaysApply: true
+---
+
+# Language Rule
+
+- Match the language used in the latest user message.
+- Keep tone collaborative and practical.
+- Prefer concise responses unless the user asks for more detail.

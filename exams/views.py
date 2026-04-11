@@ -1397,9 +1397,9 @@ def progress_to_dict(progress, level=None, question_type=None, user=None):
         from datetime import datetime, time, timedelta
         
         for i in range(7):
-            date = timezone.now().date() - timedelta(days=i)
-            date_start = datetime.combine(date, time.min)
-            date_end = datetime.combine(date, time.max)
+            date = timezone.localdate() - timedelta(days=i)
+            date_start = timezone.make_aware(datetime.combine(date, time.min))
+            date_end = timezone.make_aware(datetime.combine(date, time.max))
             date_str = date.isoformat()
             
             if question_type == 'listening_illustration':
@@ -1458,11 +1458,12 @@ def progress_to_dict(progress, level=None, question_type=None, user=None):
     if total_questions > 0:
         progress_rate = min(100, round((progress.total_attempts / total_questions) * 100, 1))
     
-    # 今日の取り組み数を取得
+    # 今日の取り組み数を取得（暦日は TIME_ZONE、既定は Asia/Tokyo）
     from django.utils import timezone
     from datetime import datetime, time, timedelta
-    today_start = timezone.make_aware(datetime.combine(timezone.now().date(), time.min))
-    today_end = timezone.make_aware(datetime.combine(timezone.now().date(), time.max))
+    today = timezone.localdate()
+    today_start = timezone.make_aware(datetime.combine(today, time.min))
+    today_end = timezone.make_aware(datetime.combine(today, time.max))
     
     if question_type == 'listening_illustration':
         from questions.models import ListeningUserAnswer
@@ -1489,7 +1490,7 @@ def progress_to_dict(progress, level=None, question_type=None, user=None):
     # 過去7日間の取り組み数を取得
     daily_data = {}
     for i in range(7):
-        date = timezone.now().date() - timedelta(days=i)
+        date = timezone.localdate() - timedelta(days=i)
         date_start = timezone.make_aware(datetime.combine(date, time.min))
         date_end = timezone.make_aware(datetime.combine(date, time.max))
         date_str = date.isoformat()
