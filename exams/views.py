@@ -1387,8 +1387,41 @@ def update_user_progress(user, level, question_type, is_correct):
     progress.update_progress(is_correct)
     logger.debug(f"Debug - After update: last_attempted={progress.last_attempted}")
 
+
+def _total_questions_for_type(level, question_type):
+    """レベル・問題タイプごとのマスタ上の総問題数。"""
+    if not level or not question_type:
+        return 0
+    if question_type == 'listening_illustration':
+        return ListeningQuestion.objects.filter(level=str(level)).count()
+    if question_type == 'reading_comprehension':
+        return ReadingQuestion.objects.filter(passage__level=str(level)).count()
+    return Question.objects.filter(level=level, question_type=question_type).count()
+
+
+def _distinct_answered_question_count(user, level, question_type):
+    """そのレベル・タイプで一度以上回答したユニークな問題数（取り組み率の分子）。"""
+    if user is None or level is None or question_type is None:
+        return 0
+    if question_type == 'listening_illustration':
+        return ListeningUserAnswer.objects.filter(
+            user=user,
+            question__level=str(level),
+        ).count()
+    if question_type == 'reading_comprehension':
+        return ReadingUserAnswer.objects.filter(
+            user=user,
+            reading_question__passage__level=str(level),
+        ).values('reading_question_id').distinct().count()
+    return UserAnswer.objects.filter(
+        user=user,
+        question__level=level,
+        question__question_type=question_type,
+    ).values('question_id').distinct().count()
+
+
 def progress_to_dict(progress, level=None, question_type=None, user=None):
-    """進捗オブジェクトを辞書に変換"""
+    """進捗オブジェクトを辞書に変換。取り組み率は「全問に一度は答えた」割合（ユニーク問題数/総問題数、上限100%）。"""
     if progress is None:
         logger.debug(f"Debug - progress_to_dict: progress is None")
         # 過去7日間のデータを取得（progressがNoneでも）
@@ -1426,13 +1459,22 @@ def progress_to_dict(progress, level=None, question_type=None, user=None):
             
             daily_data[date_str] = daily_count
         
+        total_questions = _total_questions_for_type(level, question_type)
+        answered_distinct = _distinct_answered_question_count(user, level, question_type)
+        progress_rate = 0
+        if total_questions > 0:
+            progress_rate = min(
+                100,
+                round((answered_distinct / total_questions) * 100, 1),
+            )
+        
         return {
             'accuracy_rate': 0,
             'total_attempts': 0,
             'correct_answers': 0,
             'incorrect_answers': 0,
-            'progress_rate': 0,
-            'total_questions': 0,
+            'progress_rate': progress_rate,
+            'total_questions': total_questions,
             'today_attempts': 0,
             'daily_data': daily_data,
             'last_attempted': None
@@ -1441,22 +1483,17 @@ def progress_to_dict(progress, level=None, question_type=None, user=None):
     # 不正解数を計算
     incorrect_answers = progress.total_attempts - progress.correct_answers
     
-    # 総問題数を取得（レベルと問題タイプが指定されている場合）
-    total_questions = 0
-    if level and question_type:
-        if question_type == 'listening_illustration':
-            from questions.models import ListeningQuestion
-            total_questions = ListeningQuestion.objects.filter(level=str(level)).count()
-        elif question_type == 'reading_comprehension':
-            from questions.models import ReadingQuestion
-            total_questions = ReadingQuestion.objects.filter(passage__level=str(level)).count()
-        else:
-            total_questions = Question.objects.filter(level=level, question_type=question_type).count()
-    
-    # 取り組み率を計算
+    total_questions = _total_questions_for_type(level, question_type)
+    answered_distinct = _distinct_answered_question_count(
+        progress.user, level, question_type
+    )
+    # 取り組み率: ユニークな問題に一度以上答えた割合（100% = 全問に一度は回答済み）
     progress_rate = 0
     if total_questions > 0:
-        progress_rate = min(100, round((progress.total_attempts / total_questions) * 100, 1))
+        progress_rate = min(
+            100,
+            round((answered_distinct / total_questions) * 100, 1),
+        )
     
     # 今日の取り組み数を取得（暦日は TIME_ZONE、既定は Asia/Tokyo）
     from django.utils import timezone
