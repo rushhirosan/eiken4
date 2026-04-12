@@ -46,8 +46,9 @@
                         <tr>
                             <th>問題タイプ</th>
                             <th>取り組み率</th>
-                            <th>回答数</th>
+                            <th>回答済み問題数</th>
                             <th>総問題数</th>
+                            <th>累計回答回数</th>
                             <th>今日の取り組み</th>
                             <th>正解数</th>
                             <th>不正解数</th>
@@ -59,8 +60,9 @@
                         <tr>
                             <td>文法・語彙問題</td>
                             <td>{{ progress.grammar_fill.progress_rate|default:"0" }}%</td>
-                            <td>{{ progress.grammar_fill.total_attempts|default:"0" }}</td>
+                            <td>{{ progress.grammar_fill.answered_questions|default:"0" }}</td>
                             <td>{{ progress.grammar_fill.total_questions|default:"0" }}</td>
+                            <td>{{ progress.grammar_fill.total_attempts|default:"0" }}</td>
                             <td>{{ progress.grammar_fill.today_attempts|default:"0" }}問</td>
                             <td>{{ progress.grammar_fill.correct_answers|default:"0" }}</td>
                             <td>{{ progress.grammar_fill.incorrect_answers|default:"0" }}</td>
@@ -69,8 +71,9 @@
                         <tr>
                             <td>会話補充問題</td>
                             <td>{{ progress.conversation_fill.progress_rate|default:"0" }}%</td>
-                            <td>{{ progress.conversation_fill.total_attempts|default:"0" }}</td>
+                            <td>{{ progress.conversation_fill.answered_questions|default:"0" }}</td>
                             <td>{{ progress.conversation_fill.total_questions|default:"0" }}</td>
+                            <td>{{ progress.conversation_fill.total_attempts|default:"0" }}</td>
                             <td>{{ progress.conversation_fill.today_attempts|default:"0" }}問</td>
                             <td>{{ progress.conversation_fill.correct_answers|default:"0" }}</td>
                             <td>{{ progress.conversation_fill.incorrect_answers|default:"0" }}</td>
@@ -79,8 +82,9 @@
                         <tr>
                             <td>語順選択問題</td>
                             <td>{{ progress.word_order.progress_rate|default:"0" }}%</td>
-                            <td>{{ progress.word_order.total_attempts|default:"0" }}</td>
+                            <td>{{ progress.word_order.answered_questions|default:"0" }}</td>
                             <td>{{ progress.word_order.total_questions|default:"0" }}</td>
+                            <td>{{ progress.word_order.total_attempts|default:"0" }}</td>
                             <td>{{ progress.word_order.today_attempts|default:"0" }}問</td>
                             <td>{{ progress.word_order.correct_answers|default:"0" }}</td>
                             <td>{{ progress.word_order.incorrect_answers|default:"0" }}</td>
@@ -89,8 +93,9 @@
                         <tr>
                             <td>長文読解問題</td>
                             <td>{{ progress.reading_comprehension.progress_rate|default:"0" }}%</td>
-                            <td>{{ progress.reading_comprehension.total_attempts|default:"0" }}</td>
+                            <td>{{ progress.reading_comprehension.answered_questions|default:"0" }}</td>
                             <td>{{ progress.reading_comprehension.total_questions|default:"0" }}</td>
+                            <td>{{ progress.reading_comprehension.total_attempts|default:"0" }}</td>
                             <td>{{ progress.reading_comprehension.today_attempts|default:"0" }}問</td>
                             <td>{{ progress.reading_comprehension.correct_answers|default:"0" }}</td>
                             <td>{{ progress.reading_comprehension.incorrect_answers|default:"0" }}</td>
@@ -99,8 +104,9 @@
                         <tr>
                             <td>リスニングイラスト問題</td>
                             <td>{{ progress.listening_illustration.progress_rate|default:"0" }}%</td>
-                            <td>{{ progress.listening_illustration.total_attempts|default:"0" }}</td>
+                            <td>{{ progress.listening_illustration.answered_questions|default:"0" }}</td>
                             <td>{{ progress.listening_illustration.total_questions|default:"0" }}</td>
+                            <td>{{ progress.listening_illustration.total_attempts|default:"0" }}</td>
                             <td>{{ progress.listening_illustration.today_attempts|default:"0" }}問</td>
                             <td>{{ progress.listening_illustration.correct_answers|default:"0" }}</td>
                             <td>{{ progress.listening_illustration.incorrect_answers|default:"0" }}</td>
@@ -109,8 +115,9 @@
                         <tr>
                             <td>リスニング会話問題</td>
                             <td>{{ progress.listening_conversation.progress_rate|default:"0" }}%</td>
-                            <td>{{ progress.listening_conversation.total_attempts|default:"0" }}</td>
+                            <td>{{ progress.listening_conversation.answered_questions|default:"0" }}</td>
                             <td>{{ progress.listening_conversation.total_questions|default:"0" }}</td>
+                            <td>{{ progress.listening_conversation.total_attempts|default:"0" }}</td>
                             <td>{{ progress.listening_conversation.today_attempts|default:"0" }}問</td>
                             <td>{{ progress.listening_conversation.correct_answers|default:"0" }}</td>
                             <td>{{ progress.listening_conversation.incorrect_answers|default:"0" }}</td>
@@ -119,8 +126,9 @@
                         <tr>
                             <td>リスニング文章問題</td>
                             <td>{{ progress.listening_passage.progress_rate|default:"0" }}%</td>
-                            <td>{{ progress.listening_passage.total_attempts|default:"0" }}</td>
+                            <td>{{ progress.listening_passage.answered_questions|default:"0" }}</td>
                             <td>{{ progress.listening_passage.total_questions|default:"0" }}</td>
+                            <td>{{ progress.listening_passage.total_attempts|default:"0" }}</td>
                             <td>{{ progress.listening_passage.today_attempts|default:"0" }}問</td>
                             <td>{{ progress.listening_passage.correct_answers|default:"0" }}</td>
                             <td>{{ progress.listening_passage.incorrect_answers|default:"0" }}</td>
@@ -144,8 +152,12 @@
                     <div class="card-body">
                         <div class="row g-2">
                             <div class="col-6">
-                                <small class="text-muted">回答数</small>
-                                <div class="fw-bold">{{ progress.grammar_fill.total_attempts|default:"0" }}/{{ progress.grammar_fill.total_questions|default:"0" }}</div>
+                                <small class="text-muted">回答済み問題数</small>
+                                <div class="fw-bold">{{ progress.grammar_fill.answered_questions|default:"0" }}/{{ progress.grammar_fill.total_questions|default:"0" }}</div>
+                            </div>
+                            <div class="col-6">
+                                <small class="text-muted">累計回答回数</small>
+                                <div class="fw-bold">{{ progress.grammar_fill.total_attempts|default:"0" }}</div>
                             </div>
                             <div class="col-6">
                                 <small class="text-muted">今日の取り組み</small>
@@ -155,7 +167,7 @@
                                 <small class="text-muted">正解/不正解</small>
                                 <div class="fw-bold">{{ progress.grammar_fill.correct_answers|default:"0" }}/{{ progress.grammar_fill.incorrect_answers|default:"0" }}</div>
                             </div>
-                            <div class="col-6">
+                            <div class="col-12">
                                 <small class="text-muted">最終回答日</small>
                                 <div class="fw-bold text-info">{% if progress.grammar_fill.last_attempted %}{{ progress.grammar_fill.last_attempted }}{% else %}未回答{% endif %}</div>
                             </div>
@@ -172,8 +184,12 @@
                     <div class="card-body">
                         <div class="row g-2">
                             <div class="col-6">
-                                <small class="text-muted">回答数</small>
-                                <div class="fw-bold">{{ progress.conversation_fill.total_attempts|default:"0" }}/{{ progress.conversation_fill.total_questions|default:"0" }}</div>
+                                <small class="text-muted">回答済み問題数</small>
+                                <div class="fw-bold">{{ progress.conversation_fill.answered_questions|default:"0" }}/{{ progress.conversation_fill.total_questions|default:"0" }}</div>
+                            </div>
+                            <div class="col-6">
+                                <small class="text-muted">累計回答回数</small>
+                                <div class="fw-bold">{{ progress.conversation_fill.total_attempts|default:"0" }}</div>
                             </div>
                             <div class="col-6">
                                 <small class="text-muted">今日の取り組み</small>
@@ -183,7 +199,7 @@
                                 <small class="text-muted">正解/不正解</small>
                                 <div class="fw-bold">{{ progress.conversation_fill.correct_answers|default:"0" }}/{{ progress.conversation_fill.incorrect_answers|default:"0" }}</div>
                             </div>
-                            <div class="col-6">
+                            <div class="col-12">
                                 <small class="text-muted">最終回答日</small>
                                 <div class="fw-bold text-info">{% if progress.conversation_fill.last_attempted %}{{ progress.conversation_fill.last_attempted }}{% else %}未回答{% endif %}</div>
                             </div>
@@ -200,8 +216,12 @@
                     <div class="card-body">
                         <div class="row g-2">
                             <div class="col-6">
-                                <small class="text-muted">回答数</small>
-                                <div class="fw-bold">{{ progress.word_order.total_attempts|default:"0" }}/{{ progress.word_order.total_questions|default:"0" }}</div>
+                                <small class="text-muted">回答済み問題数</small>
+                                <div class="fw-bold">{{ progress.word_order.answered_questions|default:"0" }}/{{ progress.word_order.total_questions|default:"0" }}</div>
+                            </div>
+                            <div class="col-6">
+                                <small class="text-muted">累計回答回数</small>
+                                <div class="fw-bold">{{ progress.word_order.total_attempts|default:"0" }}</div>
                             </div>
                             <div class="col-6">
                                 <small class="text-muted">今日の取り組み</small>
@@ -211,7 +231,7 @@
                                 <small class="text-muted">正解/不正解</small>
                                 <div class="fw-bold">{{ progress.word_order.correct_answers|default:"0" }}/{{ progress.word_order.incorrect_answers|default:"0" }}</div>
                             </div>
-                            <div class="col-6">
+                            <div class="col-12">
                                 <small class="text-muted">最終回答日</small>
                                 <div class="fw-bold text-info">{% if progress.word_order.last_attempted %}{{ progress.word_order.last_attempted }}{% else %}未回答{% endif %}</div>
                             </div>
@@ -228,8 +248,12 @@
                     <div class="card-body">
                         <div class="row g-2">
                             <div class="col-6">
-                                <small class="text-muted">回答数</small>
-                                <div class="fw-bold">{{ progress.reading_comprehension.total_attempts|default:"0" }}/{{ progress.reading_comprehension.total_questions|default:"0" }}</div>
+                                <small class="text-muted">回答済み問題数</small>
+                                <div class="fw-bold">{{ progress.reading_comprehension.answered_questions|default:"0" }}/{{ progress.reading_comprehension.total_questions|default:"0" }}</div>
+                            </div>
+                            <div class="col-6">
+                                <small class="text-muted">累計回答回数</small>
+                                <div class="fw-bold">{{ progress.reading_comprehension.total_attempts|default:"0" }}</div>
                             </div>
                             <div class="col-6">
                                 <small class="text-muted">今日の取り組み</small>
@@ -239,7 +263,7 @@
                                 <small class="text-muted">正解/不正解</small>
                                 <div class="fw-bold">{{ progress.reading_comprehension.correct_answers|default:"0" }}/{{ progress.reading_comprehension.incorrect_answers|default:"0" }}</div>
                             </div>
-                            <div class="col-6">
+                            <div class="col-12">
                                 <small class="text-muted">最終回答日</small>
                                 <div class="fw-bold text-info">{% if progress.reading_comprehension.last_attempted %}{{ progress.reading_comprehension.last_attempted }}{% else %}未回答{% endif %}</div>
                             </div>
@@ -256,8 +280,12 @@
                     <div class="card-body">
                         <div class="row g-2">
                             <div class="col-6">
-                                <small class="text-muted">回答数</small>
-                                <div class="fw-bold">{{ progress.listening_illustration.total_attempts|default:"0" }}/{{ progress.listening_illustration.total_questions|default:"0" }}</div>
+                                <small class="text-muted">回答済み問題数</small>
+                                <div class="fw-bold">{{ progress.listening_illustration.answered_questions|default:"0" }}/{{ progress.listening_illustration.total_questions|default:"0" }}</div>
+                            </div>
+                            <div class="col-6">
+                                <small class="text-muted">累計回答回数</small>
+                                <div class="fw-bold">{{ progress.listening_illustration.total_attempts|default:"0" }}</div>
                             </div>
                             <div class="col-6">
                                 <small class="text-muted">今日の取り組み</small>
@@ -267,7 +295,7 @@
                                 <small class="text-muted">正解/不正解</small>
                                 <div class="fw-bold">{{ progress.listening_illustration.correct_answers|default:"0" }}/{{ progress.listening_illustration.incorrect_answers|default:"0" }}</div>
                             </div>
-                            <div class="col-6">
+                            <div class="col-12">
                                 <small class="text-muted">最終回答日</small>
                                 <div class="fw-bold text-info">{% if progress.listening_illustration.last_attempted %}{{ progress.listening_illustration.last_attempted }}{% else %}未回答{% endif %}</div>
                             </div>
@@ -284,8 +312,12 @@
                     <div class="card-body">
                         <div class="row g-2">
                             <div class="col-6">
-                                <small class="text-muted">回答数</small>
-                                <div class="fw-bold">{{ progress.listening_conversation.total_attempts|default:"0" }}/{{ progress.listening_conversation.total_questions|default:"0" }}</div>
+                                <small class="text-muted">回答済み問題数</small>
+                                <div class="fw-bold">{{ progress.listening_conversation.answered_questions|default:"0" }}/{{ progress.listening_conversation.total_questions|default:"0" }}</div>
+                            </div>
+                            <div class="col-6">
+                                <small class="text-muted">累計回答回数</small>
+                                <div class="fw-bold">{{ progress.listening_conversation.total_attempts|default:"0" }}</div>
                             </div>
                             <div class="col-6">
                                 <small class="text-muted">今日の取り組み</small>
@@ -295,7 +327,7 @@
                                 <small class="text-muted">正解/不正解</small>
                                 <div class="fw-bold">{{ progress.listening_conversation.correct_answers|default:"0" }}/{{ progress.listening_conversation.incorrect_answers|default:"0" }}</div>
                             </div>
-                            <div class="col-6">
+                            <div class="col-12">
                                 <small class="text-muted">最終回答日</small>
                                 <div class="fw-bold text-info">{% if progress.listening_conversation.last_attempted %}{{ progress.listening_conversation.last_attempted }}{% else %}未回答{% endif %}</div>
                             </div>
@@ -312,8 +344,12 @@
                     <div class="card-body">
                         <div class="row g-2">
                             <div class="col-6">
-                                <small class="text-muted">回答数</small>
-                                <div class="fw-bold">{{ progress.listening_passage.total_attempts|default:"0" }}/{{ progress.listening_passage.total_questions|default:"0" }}</div>
+                                <small class="text-muted">回答済み問題数</small>
+                                <div class="fw-bold">{{ progress.listening_passage.answered_questions|default:"0" }}/{{ progress.listening_passage.total_questions|default:"0" }}</div>
+                            </div>
+                            <div class="col-6">
+                                <small class="text-muted">累計回答回数</small>
+                                <div class="fw-bold">{{ progress.listening_passage.total_attempts|default:"0" }}</div>
                             </div>
                             <div class="col-6">
                                 <small class="text-muted">今日の取り組み</small>
@@ -323,7 +359,7 @@
                                 <small class="text-muted">正解/不正解</small>
                                 <div class="fw-bold">{{ progress.listening_passage.correct_answers|default:"0" }}/{{ progress.listening_passage.incorrect_answers|default:"0" }}</div>
                             </div>
-                            <div class="col-6">
+                            <div class="col-12">
                                 <small class="text-muted">最終回答日</small>
                                 <div class="fw-bold text-info">{% if progress.listening_passage.last_attempted %}{{ progress.listening_passage.last_attempted }}{% else %}未回答{% endif %}</div>
                             </div>

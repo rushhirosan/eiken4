@@ -1474,6 +1474,7 @@ def progress_to_dict(progress, level=None, question_type=None, user=None):
             'correct_answers': 0,
             'incorrect_answers': 0,
             'progress_rate': progress_rate,
+            'answered_questions': answered_distinct,
             'total_questions': total_questions,
             'today_attempts': 0,
             'daily_data': daily_data,
@@ -1562,6 +1563,7 @@ def progress_to_dict(progress, level=None, question_type=None, user=None):
         'correct_answers': progress.correct_answers,
         'incorrect_answers': incorrect_answers,
         'progress_rate': progress_rate,
+        'answered_questions': answered_distinct,
         'total_questions': total_questions,
         'today_attempts': today_attempts,
         'daily_data': daily_data,  # 過去7日間のデータを追加
