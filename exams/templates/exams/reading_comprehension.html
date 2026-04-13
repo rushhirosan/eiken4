@@ -21,6 +21,17 @@
             <div class="row">
                 <div class="col-md-6">
                     <div class="form-group">
+                        <label for="status">状態</label>
+                        <select class="form-control" id="status" onchange="updateFilters()">
+                            <option value="all" {% if status == 'all' %}selected{% endif %}>全て</option>
+                            <option value="unanswered" {% if status == 'unanswered' %}selected{% endif %}>未回答</option>
+                            <option value="correct" {% if status == 'correct' %}selected{% endif %}>正解</option>
+                            <option value="incorrect" {% if status == 'incorrect' %}selected{% endif %}>不正解</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="form-group">
                         <label for="num_passages">本文数</label>
                         <select class="form-control" id="num_passages" onchange="updateFilters()">
                             {% for value, label in question_count_options.items %}
@@ -175,8 +186,10 @@
 
 <script>
 function updateFilters() {
+    const status = document.getElementById('status').value;
     const numPassages = document.getElementById('num_passages').value;
     const currentUrl = new URL(window.location.href);
+    currentUrl.searchParams.set('status', status);
     currentUrl.searchParams.set('num_questions', numPassages);
     window.location.href = currentUrl.toString();
 }

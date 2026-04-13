@@ -487,43 +487,68 @@ def question_list(request, level=None, exam_id=None):
         # 長文読解問題の場合
         passages = list(ReadingPassage.objects.filter(level=str(level)).order_by('id'))
         logger.debug(f"Debug - Reading Passages: {len(passages)}")  # デバッグ出力
-        
+
+        all_questions = ReadingQuestion.objects.filter(
+            passage__in=passages
+        ).select_related('passage').order_by('passage_id', 'question_number')
+
+        questions_by_passage = {}
+        for question in all_questions:
+            questions_by_passage.setdefault(question.passage_id, []).append(question)
+
+        latest_answers = _latest_reading_answers_by_question(request.user, level)
+
+        # 状態フィルターを本文単位で適用
+        filtered_passages = []
+        for passage in passages:
+            passage_questions = questions_by_passage.get(passage.id, [])
+            if not passage_questions:
+                continue
+
+            answered_count = sum(1 for q in passage_questions if q.id in latest_answers)
+            all_answered = answered_count == len(passage_questions)
+            all_correct = all_answered and all(
+                latest_answers[q.id].is_correct for q in passage_questions
+            )
+
+            include = True
+            if status == 'unanswered':
+                include = answered_count == 0
+            elif status == 'correct':
+                include = all_correct
+            elif status == 'incorrect':
+                include = answered_count > 0 and not all_correct
+
+            if include:
+                filtered_passages.append(passage)
+
+        passages = filtered_passages
+
         # 「全て」が選択された場合は制限しない
         if num_questions != 'all' and len(passages) > num_questions:
             passages = random.sample(passages, num_questions)
             passages.sort(key=lambda x: x.id)
-        
+
         # 出題時のパッセージ順序をセッションに保存
         passage_order = {passage.id: index for index, passage in enumerate(passages)}
         request.session[f'passage_order_{question_type}_{level}'] = passage_order
-        
+
         # パッセージと問題を組み合わせる
         passages_with_questions = []
         for passage in passages:
-            passage_questions = ReadingQuestion.objects.filter(passage=passage).order_by('question_number')
-            
-            # ユーザーの回答を取得
-            user_answers = {}
-            answers = ReadingUserAnswer.objects.filter(
-                user=request.user,
-                reading_question__in=passage_questions
-            )
-            for answer in answers:
-                user_answers[answer.reading_question.id] = answer.selected_reading_choice
-            
-            # 問題と回答を組み合わせる
             questions_with_answers = []
-            for question in passage_questions:
+            for question in questions_by_passage.get(passage.id, []):
                 choices = ReadingChoice.objects.filter(question=question).order_by('order')
                 correct_choice = choices.filter(is_correct=True).first()
+                latest_answer = latest_answers.get(question.id)
                 questions_with_answers.append({
                     'question': question,
                     'choices': choices,
-                    'user_answer': user_answers.get(question.id),
+                    'user_answer': latest_answer.selected_reading_choice if latest_answer else None,
                     'correct_choice': correct_choice,
                     'explanation': getattr(question, 'explanation', '')
                 })
-            
+
             passages_with_questions.append({
                 'passage': passage,
                 'questions': questions_with_answers
@@ -1388,6 +1413,61 @@ def update_user_progress(user, level, question_type, is_correct):
     logger.debug(f"Debug - After update: last_attempted={progress.last_attempted}")
 
 
+def _latest_reading_answers_by_question(user, level):
+    """長文読解の各設問に対する最新回答を返す。"""
+    latest_answers = {}
+    if user is None or level is None:
+        return latest_answers
+
+    answers = ReadingUserAnswer.objects.filter(
+        user=user,
+        reading_question__passage__level=str(level),
+    ).select_related('selected_reading_choice').order_by(
+        'reading_question_id', '-answered_at', '-id'
+    )
+    for answer in answers:
+        if answer.reading_question_id not in latest_answers:
+            latest_answers[answer.reading_question_id] = answer
+    return latest_answers
+
+
+def _reading_passage_progress_counts(user, level):
+    """長文読解の進捗を本文単位（完了本文数/総本文数）で返す。"""
+    if level is None:
+        return 0, 0
+
+    question_rows = list(
+        ReadingQuestion.objects.filter(
+            passage__level=str(level)
+        ).values('id', 'passage_id')
+    )
+    if not question_rows:
+        return 0, 0
+
+    total_by_passage = {}
+    question_to_passage = {}
+    for row in question_rows:
+        passage_id = row['passage_id']
+        question_id = row['id']
+        total_by_passage[passage_id] = total_by_passage.get(passage_id, 0) + 1
+        question_to_passage[question_id] = passage_id
+
+    latest_answers = _latest_reading_answers_by_question(user, level)
+    answered_counts_by_passage = {}
+    for question_id in latest_answers.keys():
+        passage_id = question_to_passage.get(question_id)
+        if passage_id is None:
+            continue
+        answered_counts_by_passage[passage_id] = answered_counts_by_passage.get(passage_id, 0) + 1
+
+    completed_passages = 0
+    for passage_id, total_count in total_by_passage.items():
+        if answered_counts_by_passage.get(passage_id, 0) == total_count:
+            completed_passages += 1
+
+    return completed_passages, len(total_by_passage)
+
+
 def _total_questions_for_type(level, question_type):
     """レベル・問題タイプごとのマスタ上の総問題数。"""
     if not level or not question_type:
@@ -1395,12 +1475,13 @@ def _total_questions_for_type(level, question_type):
     if question_type == 'listening_illustration':
         return ListeningQuestion.objects.filter(level=str(level)).count()
     if question_type == 'reading_comprehension':
-        return ReadingQuestion.objects.filter(passage__level=str(level)).count()
+        _, total_passages = _reading_passage_progress_counts(None, level)
+        return total_passages
     return Question.objects.filter(level=level, question_type=question_type).count()
 
 
 def _distinct_answered_question_count(user, level, question_type):
-    """そのレベル・タイプで一度以上回答したユニークな問題数（取り組み率の分子）。"""
+    """そのレベル・タイプで進捗率の分子となる件数。"""
     if user is None or level is None or question_type is None:
         return 0
     if question_type == 'listening_illustration':
@@ -1409,10 +1490,8 @@ def _distinct_answered_question_count(user, level, question_type):
             question__level=str(level),
         ).count()
     if question_type == 'reading_comprehension':
-        return ReadingUserAnswer.objects.filter(
-            user=user,
-            reading_question__passage__level=str(level),
-        ).values('reading_question_id').distinct().count()
+        completed_passages, _ = _reading_passage_progress_counts(user, level)
+        return completed_passages
     return UserAnswer.objects.filter(
         user=user,
         question__level=level,

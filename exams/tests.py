@@ -1,7 +1,8 @@
 from django.test import TestCase, Client
 from django.contrib.auth import get_user_model
 from django.urls import reverse
-from .models import Question, Choice, UserProgress, UserAnswer
+from .models import Question, Choice, UserProgress, UserAnswer, ReadingUserAnswer
+from questions.models import ReadingPassage, ReadingQuestion, ReadingChoice
 from django.utils import timezone
 
 User = get_user_model()
@@ -228,3 +229,106 @@ class QuestionListViewTest(TestCase):
         url = reverse('exams:question_list_by_level', kwargs={'level': '4'})
         response = self.client.get(url + '?type=grammar_fill')
         self.assertEqual(response.status_code, 200)
+
+
+class ReadingComprehensionBehaviorTest(TestCase):
+    """長文読解のフィルターと進捗のテスト"""
+
+    def setUp(self):
+        self.client = Client()
+        self.user = User.objects.create_user(
+            username='reading_user',
+            email='reading@example.com',
+            password='testpass123'
+        )
+        self.client.login(username='reading_user', password='testpass123')
+
+        # progress_view の level 一覧は Question モデル由来のため、最低1件作成しておく
+        Question.objects.create(level='4', question_type='grammar_fill', question_text='dummy')
+
+        self.passage_a = ReadingPassage.objects.create(level='4', identifier='a', text='本文A')
+        self.passage_b = ReadingPassage.objects.create(level='4', identifier='b', text='本文B')
+
+        self.a_q1 = ReadingQuestion.objects.create(passage=self.passage_a, question_text='A-1', question_number=1)
+        self.a_q2 = ReadingQuestion.objects.create(passage=self.passage_a, question_text='A-2', question_number=2)
+        self.b_q1 = ReadingQuestion.objects.create(passage=self.passage_b, question_text='B-1', question_number=1)
+        self.b_q2 = ReadingQuestion.objects.create(passage=self.passage_b, question_text='B-2', question_number=2)
+
+        self.a_q1_correct = ReadingChoice.objects.create(question=self.a_q1, choice_text='A1正解', is_correct=True, order=1)
+        self.a_q2_correct = ReadingChoice.objects.create(question=self.a_q2, choice_text='A2正解', is_correct=True, order=1)
+        self.b_q1_correct = ReadingChoice.objects.create(question=self.b_q1, choice_text='B1正解', is_correct=True, order=1)
+        self.b_q2_correct = ReadingChoice.objects.create(question=self.b_q2, choice_text='B2正解', is_correct=True, order=1)
+
+        self.a_q1_wrong = ReadingChoice.objects.create(question=self.a_q1, choice_text='A1誤答', is_correct=False, order=2)
+        self.a_q2_wrong = ReadingChoice.objects.create(question=self.a_q2, choice_text='A2誤答', is_correct=False, order=2)
+        self.b_q1_wrong = ReadingChoice.objects.create(question=self.b_q1, choice_text='B1誤答', is_correct=False, order=2)
+        self.b_q2_wrong = ReadingChoice.objects.create(question=self.b_q2, choice_text='B2誤答', is_correct=False, order=2)
+
+    def test_reading_correct_filter_returns_only_all_correct_passages(self):
+        ReadingUserAnswer.objects.create(
+            user=self.user,
+            reading_question=self.a_q1,
+            selected_reading_choice=self.a_q1_correct,
+            is_correct=True,
+            answered_at=timezone.now(),
+        )
+        ReadingUserAnswer.objects.create(
+            user=self.user,
+            reading_question=self.a_q2,
+            selected_reading_choice=self.a_q2_correct,
+            is_correct=True,
+            answered_at=timezone.now(),
+        )
+        ReadingUserAnswer.objects.create(
+            user=self.user,
+            reading_question=self.b_q1,
+            selected_reading_choice=self.b_q1_correct,
+            is_correct=True,
+            answered_at=timezone.now(),
+        )
+        ReadingUserAnswer.objects.create(
+            user=self.user,
+            reading_question=self.b_q2,
+            selected_reading_choice=self.b_q2_wrong,
+            is_correct=False,
+            answered_at=timezone.now(),
+        )
+
+        url = reverse('exams:question_list_by_level', kwargs={'level': '4'})
+        response = self.client.get(url, {'type': 'reading_comprehension', 'status': 'correct'})
+
+        self.assertEqual(response.status_code, 200)
+        passages = response.context['passages']
+        self.assertEqual(len(passages), 1)
+        self.assertEqual(passages[0]['passage'].id, self.passage_a.id)
+
+    def test_reading_progress_counts_completed_passages(self):
+        ReadingUserAnswer.objects.create(
+            user=self.user,
+            reading_question=self.a_q1,
+            selected_reading_choice=self.a_q1_correct,
+            is_correct=True,
+            answered_at=timezone.now(),
+        )
+        ReadingUserAnswer.objects.create(
+            user=self.user,
+            reading_question=self.a_q2,
+            selected_reading_choice=self.a_q2_correct,
+            is_correct=True,
+            answered_at=timezone.now(),
+        )
+        # 本文Bは未完了（1問のみ回答）
+        ReadingUserAnswer.objects.create(
+            user=self.user,
+            reading_question=self.b_q1,
+            selected_reading_choice=self.b_q1_correct,
+            is_correct=True,
+            answered_at=timezone.now(),
+        )
+
+        response = self.client.get(reverse('exams:progress'))
+        self.assertEqual(response.status_code, 200)
+
+        reading_progress = response.context['progress_data']['4']['reading_comprehension']
+        self.assertEqual(reading_progress['answered_questions'], 1)
+        self.assertEqual(reading_progress['total_questions'], 2)
