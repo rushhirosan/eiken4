@@ -23,6 +23,25 @@ from django.views.decorators.csrf import csrf_exempt
 
 logger = logging.getLogger(__name__)
 
+def _is_correct_listening_illustration_answer(question, selected_answer):
+    """リスニング第1部の回答値（テキスト/番号）から正解判定を行う。"""
+    normalized_answer = (selected_answer or '').strip()
+    choices = ListeningChoice.objects.filter(question=question)
+
+    # 現行フォームは choice_text を value に送るため、まず選択肢テキストで判定
+    selected_choice = choices.filter(choice_text=normalized_answer).first()
+    if selected_choice:
+        return selected_choice.is_correct
+
+    # 互換性のため、番号回答（"1" など）でも判定できるようにしておく
+    if normalized_answer.isdigit():
+        selected_choice = choices.filter(order=int(normalized_answer)).first()
+        if selected_choice:
+            return selected_choice.is_correct
+
+    # 最後のフォールバック（既存データ形式との互換性維持）
+    return normalized_answer == str(question.correct_answer).strip()
+
 @login_required
 def exam_list(request):
     """試験一覧を表示"""
@@ -798,10 +817,8 @@ def submit_answers(request, level):
                     # リスニングイラスト問題かどうかを判定
                     try:
                         question = ListeningQuestion.objects.get(id=question_id)
-                        # リスニングイラスト問題の場合
-                        # selected_answerは選択肢のテキスト（"1", "2", "3"などの番号）
-                        # correct_answerもorder番号（文字列）として保存されている
-                        is_correct = str(selected_answer).strip() == str(question.correct_answer).strip()
+                        # リスニング第1部は選択肢テキスト/番号の双方に対応して採点
+                        is_correct = _is_correct_listening_illustration_answer(question, selected_answer)
                         ListeningUserAnswer.objects.create(
                             user=request.user,
                             question=question,
@@ -860,9 +877,8 @@ def submit_answers(request, level):
                 if answer_key in request.POST:
                     selected_answer = request.POST.get(answer_key)
                     question = ListeningQuestion.objects.get(id=question_id)
-                    # selected_answerは選択肢のテキスト（"1", "2", "3"などの番号）
-                    # correct_answerもorder番号（文字列）として保存されている
-                    is_correct = str(selected_answer).strip() == str(question.correct_answer).strip()
+                    # リスニング第1部は選択肢テキスト/番号の双方に対応して採点
+                    is_correct = _is_correct_listening_illustration_answer(question, selected_answer)
                     ListeningUserAnswer.objects.create(
                         user=request.user,
                         question=question,

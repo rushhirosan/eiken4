@@ -2,7 +2,14 @@ from django.test import TestCase, Client
 from django.contrib.auth import get_user_model
 from django.urls import reverse
 from .models import Question, Choice, UserProgress, UserAnswer, ReadingUserAnswer
-from questions.models import ReadingPassage, ReadingQuestion, ReadingChoice
+from questions.models import (
+    ReadingPassage,
+    ReadingQuestion,
+    ReadingChoice,
+    ListeningQuestion,
+    ListeningChoice,
+    ListeningUserAnswer,
+)
 from django.utils import timezone
 
 User = get_user_model()
@@ -332,3 +339,53 @@ class ReadingComprehensionBehaviorTest(TestCase):
         reading_progress = response.context['progress_data']['4']['reading_comprehension']
         self.assertEqual(reading_progress['answered_questions'], 1)
         self.assertEqual(reading_progress['total_questions'], 2)
+
+
+class ListeningIllustrationScoringTest(TestCase):
+    """リスニング第1部の採点ロジックのテスト"""
+
+    def setUp(self):
+        self.client = Client()
+        self.user = User.objects.create_user(
+            username='listening_user',
+            email='listening@example.com',
+            password='testpass123'
+        )
+        self.client.login(username='listening_user', password='testpass123')
+
+        self.question = ListeningQuestion.objects.create(
+            question_text='Do you have apple juice?',
+            image='images/test.png',
+            audio='audio/test.mp3',
+            correct_answer='1',
+            explanation='テスト解説',
+            level='4'
+        )
+        self.choice1 = ListeningChoice.objects.create(
+            question=self.question,
+            choice_text='Sorry, we only have orange juice.',
+            is_correct=True,
+            order=1
+        )
+        self.choice2 = ListeningChoice.objects.create(
+            question=self.question,
+            choice_text='Yes, I can play soccer.',
+            is_correct=False,
+            order=2
+        )
+
+    def test_submit_answers_scores_by_choice_text_value(self):
+        """フォーム値が choice_text の場合でも正しく採点される"""
+        response = self.client.post(
+            reverse('exams:submit_answers', kwargs={'level': '4'}),
+            {
+                'question_type': 'listening_illustration',
+                'num_questions': '5',
+                f'answer_{self.question.id}': self.choice1.choice_text,
+            }
+        )
+
+        self.assertEqual(response.status_code, 302)
+        saved = ListeningUserAnswer.objects.get(user=self.user, question=self.question)
+        self.assertEqual(saved.selected_answer, self.choice1.choice_text)
+        self.assertTrue(saved.is_correct)
