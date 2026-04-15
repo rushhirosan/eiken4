@@ -389,3 +389,81 @@ class ListeningIllustrationScoringTest(TestCase):
         saved = ListeningUserAnswer.objects.get(user=self.user, question=self.question)
         self.assertEqual(saved.selected_answer, self.choice1.choice_text)
         self.assertTrue(saved.is_correct)
+
+    def test_submit_answers_scores_by_display_index_even_when_order_is_non_sequential(self):
+        """表示番号(1,2,3)が送信されても正しく採点される"""
+        question = ListeningQuestion.objects.create(
+            question_text='Where are you going?',
+            image='images/test2.png',
+            audio='audio/test2.mp3',
+            correct_answer='2',
+            explanation='テスト解説2',
+            level='4'
+        )
+        ListeningChoice.objects.create(
+            question=question,
+            choice_text='To the library.',
+            is_correct=False,
+            order=10
+        )
+        ListeningChoice.objects.create(
+            question=question,
+            choice_text='To the station.',
+            is_correct=True,
+            order=20
+        )
+        ListeningChoice.objects.create(
+            question=question,
+            choice_text='To my school.',
+            is_correct=False,
+            order=30
+        )
+
+        response = self.client.post(
+            reverse('exams:submit_answers', kwargs={'level': '4'}),
+            {
+                'question_type': 'listening_illustration',
+                'num_questions': 'all',
+                f'answer_{question.id}': '2',
+            }
+        )
+
+        self.assertEqual(response.status_code, 302)
+        saved = ListeningUserAnswer.objects.get(user=self.user, question=question)
+        self.assertTrue(saved.is_correct)
+
+    def test_listening_illustration_unanswered_filter_excludes_answered_questions(self):
+        """未回答フィルターで回答済み問題が再出題されない"""
+        unanswered_question = ListeningQuestion.objects.create(
+            question_text='How is the weather?',
+            image='images/test3.png',
+            audio='audio/test3.mp3',
+            correct_answer='1',
+            explanation='テスト解説3',
+            level='4'
+        )
+        ListeningChoice.objects.create(question=unanswered_question, choice_text='Sunny.', is_correct=True, order=1)
+        ListeningChoice.objects.create(question=unanswered_question, choice_text='Monday.', is_correct=False, order=2)
+        ListeningChoice.objects.create(question=unanswered_question, choice_text='At home.', is_correct=False, order=3)
+
+        ListeningUserAnswer.objects.create(
+            user=self.user,
+            question=self.question,
+            selected_answer=self.choice1.choice_text,
+            is_correct=True,
+            answered_at=timezone.now(),
+        )
+
+        response = self.client.get(
+            reverse('exams:question_list_by_level', kwargs={'level': '4'}),
+            {
+                'type': 'listening_illustration',
+                'status': 'unanswered',
+                'num_questions': 'all',
+            }
+        )
+
+        self.assertEqual(response.status_code, 200)
+        displayed_question_ids = [item['question'].id for item in response.context['questions']]
+        self.assertNotIn(self.question.id, displayed_question_ids)
+        self.assertIn(unanswered_question.id, displayed_question_ids)

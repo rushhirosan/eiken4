@@ -26,21 +26,37 @@ logger = logging.getLogger(__name__)
 def _is_correct_listening_illustration_answer(question, selected_answer):
     """リスニング第1部の回答値（テキスト/番号）から正解判定を行う。"""
     normalized_answer = (selected_answer or '').strip()
-    choices = ListeningChoice.objects.filter(question=question)
+    choices = list(ListeningChoice.objects.filter(question=question).order_by('order', 'id'))
+    if not normalized_answer or not choices:
+        return False
 
-    # 現行フォームは choice_text を value に送るため、まず選択肢テキストで判定
-    selected_choice = choices.filter(choice_text=normalized_answer).first()
-    if selected_choice:
-        return selected_choice.is_correct
+    # choice_text が空白混じりでも一致できるよう Python 側で正規化して判定
+    for choice in choices:
+        if normalized_answer == (choice.choice_text or '').strip():
+            return choice.is_correct
 
-    # 互換性のため、番号回答（"1" など）でも判定できるようにしておく
+    # 互換性: 番号回答（"1" など）なら order と画面上の並び（1始まり）の双方で判定
     if normalized_answer.isdigit():
-        selected_choice = choices.filter(order=int(normalized_answer)).first()
+        answer_number = int(normalized_answer)
+
+        selected_choice = next((c for c in choices if c.order == answer_number), None)
         if selected_choice:
             return selected_choice.is_correct
 
-    # 最後のフォールバック（既存データ形式との互換性維持）
-    return normalized_answer == str(question.correct_answer).strip()
+        index_based = answer_number - 1
+        if 0 <= index_based < len(choices):
+            return choices[index_based].is_correct
+
+    # フォールバック: correct_answer が番号/テキストどちらでも判定可能にする
+    normalized_correct_answer = str(question.correct_answer or '').strip()
+    if normalized_correct_answer:
+        if normalized_answer == normalized_correct_answer:
+            return True
+        if normalized_correct_answer.isdigit():
+            correct_number = int(normalized_correct_answer)
+            return normalized_answer.isdigit() and int(normalized_answer) == correct_number
+
+    return False
 
 @login_required
 def exam_list(request):
@@ -370,10 +386,27 @@ def question_list(request, level=None, exam_id=None):
         # イラスト問題の場合
         questions = ListeningQuestion.objects.filter(level=str(level)).order_by('id')
         logger.debug(f"Debug - Listening Illustration Questions: {questions.count()}")  # デバッグ出力
-        
+
+        latest_answers = {
+            answer.question_id: answer
+            for answer in ListeningUserAnswer.objects.filter(
+                user=request.user,
+                question__in=questions
+            ).select_related('question')
+        }
+
+        # 状態フィルターに応じて問題をフィルタリング
+        questions = list(questions)
+        if status == 'unanswered':
+            questions = [q for q in questions if q.id not in latest_answers]
+        elif status == 'correct':
+            questions = [q for q in questions if q.id in latest_answers and latest_answers[q.id].is_correct]
+        elif status == 'incorrect':
+            questions = [q for q in questions if q.id in latest_answers and not latest_answers[q.id].is_correct]
+
         # 「全て」が選択された場合は制限しない
         if num_questions != 'all' and len(questions) > num_questions:
-            questions = random.sample(list(questions), num_questions)
+            questions = random.sample(questions, num_questions)
             questions.sort(key=lambda x: x.id)
         
         # 問題と選択肢を組み合わせる（回答履歴は表示しない）
