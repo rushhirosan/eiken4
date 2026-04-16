@@ -76,7 +76,7 @@
                                     お使いのブラウザは音声再生に対応していません。
                                 </audio>
                             </div>
-                            <div class="choices">
+                            <div class="choices listening-choices">
                                 {% for choice in question.choices %}
                                     <div class="form-check">
                                         <input class="form-check-input" type="radio" name="answer_{{ question.question.id }}"
@@ -96,7 +96,7 @@
                                 </audio>
                             </div>
                             
-                            <div class="choices">
+                            <div class="choices listening-choices">
                                 {% for choice in question.choices %}
                             <div class="form-check">
                                         <input class="form-check-input" type="radio" name="answer_{{ question.question.id }}" 
