@@ -303,6 +303,24 @@
 </div>
 
 <style>
+/* リスニング問題のみ、ラジオとテキストの間隔を他カテゴリ相当に調整 */
+[data-section="listening"] .form-check {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+[data-section="listening"] .form-check-input {
+    position: relative;
+    left: 0;
+    margin-left: 0;
+}
+
+[data-section="listening"] .form-check-label {
+    padding-left: 0;
+    margin-bottom: 0;
+}
+
 /* モバイル最適化 */
 @media (max-width: 768px) {
     h1 {
@@ -334,9 +352,6 @@
         width: 1.25rem;
         height: 1.25rem;
         margin-top: 0.3rem;
-        position: relative;
-        left: 0;
-        margin-left: 0;
     }
     
     [data-section="listening"] .form-check-label {

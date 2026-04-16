@@ -15,6 +15,18 @@
     margin-top: 0.3em;
 }
 
+/* リスニング選択肢だけ、他カテゴリと同程度のラベル間隔に揃える */
+.listening-choices .form-check {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.listening-choices .form-check-label {
+    padding-left: 0;
+    margin-bottom: 0;
+}
+
 /* 選択肢のレイアウト - Bootstrapのform-checkを完全に無視 */
 .choices-list {
     display: flex;
@@ -83,6 +95,10 @@
         position: relative !important;
         left: 0 !important;
         margin-left: 0 !important;
+    }
+
+    .listening-choices .form-check {
+        gap: 0.5rem;
     }
     
     .form-check-label {
