@@ -90,16 +90,14 @@
                             </div>
                         {% elif question.question.question_type == 'listening_conversation' or question.question.question_type == 'listening_passage' or question_type == 'random' and question.category in 'listening_conversation,listening_passage' %}
                             <div class="text-center mb-3 listening-audio-wrap">
-                                <audio id="audio-{{ question.question.id }}" class="w-100 listening-native-audio" controls preload="auto" style="max-width: 420px;">
-                                    <source src="{% static question.question.audio_file %}" type="audio/mpeg">
+                                {% if question.question.audio_file %}
+                                <audio id="audio-{{ question.question.id }}" class="w-100 listening-native-audio" controls preload="auto" playsinline style="max-width: 420px;" src="{% static question.question.audio_file %}">
                                     お使いのブラウザは音声再生に対応していません。
                                 </audio>
                                 <p class="small text-danger listening-audio-error d-none mt-2 mb-0" role="alert" data-for-audio="audio-{{ question.question.id }}">音声を読み込めませんでした。ページを再読み込みするか、別のブラウザでお試しください。</p>
-                                <div class="mt-2">
-                                    <button type="button" class="btn btn-outline-secondary btn-sm listening-play-fallback" data-audio-id="audio-{{ question.question.id }}">
-                                        <i class="fas fa-play"></i> 再生（代替）
-                                    </button>
-                                </div>
+                                {% else %}
+                                <p class="small text-warning mb-0" role="status">音声ファイルが登録されていません。</p>
+                                {% endif %}
                             </div>
                             
                             <div class="choices listening-choices">
@@ -241,21 +239,6 @@ function updateFilters() {
             if (err) {
                 err.classList.remove('d-none');
             }
-        });
-    });
-    document.querySelectorAll('.listening-play-fallback').forEach(function(btn) {
-        btn.addEventListener('click', function() {
-            var id = btn.getAttribute('data-audio-id');
-            var audio = id ? document.getElementById(id) : null;
-            if (!audio) {
-                return;
-            }
-            audio.play().catch(function() {
-                var err = document.querySelector('.listening-audio-error[data-for-audio="' + id + '"]');
-                if (err) {
-                    err.classList.remove('d-none');
-                }
-            });
         });
     });
 })();

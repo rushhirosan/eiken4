@@ -1,4 +1,4 @@
-/* リスニング: ネイティブコントロールが無効表示になる環境向けにタッチ領域を確保 */
+/* リスニング: ネイティブ audio コントロールのタップ領域を確保 */
 .listening-audio-wrap {
     position: relative;
     z-index: 2;

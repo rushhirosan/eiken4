@@ -40,6 +40,8 @@ INSTALLED_APPS = [
     'django.contrib.contenttypes',
     'django.contrib.sessions',
     'django.contrib.messages',
+    # runserver 時は Django 標準の静的配信の代わりに WhiteNoise を使う（HTML5 audio の Range 対応など）
+    'whitenoise.runserver_nostatic',
     'django.contrib.staticfiles',
     'debug_toolbar',
     'accounts',
@@ -50,6 +52,7 @@ INSTALLED_APPS = [
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
+    'whitenoise.middleware.WhiteNoiseMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
     'django.middleware.common.CommonMiddleware',
     'django.middleware.csrf.CsrfViewMiddleware',

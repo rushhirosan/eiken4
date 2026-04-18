@@ -41,8 +41,7 @@ DATABASES = {
 STATIC_URL = '/static/'
 STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
 
-# Whitenoise for static files
-MIDDLEWARE.insert(1, 'whitenoise.middleware.WhiteNoiseMiddleware')
+# Whitenoise for static files（middleware は settings.py で SecurityMiddleware の直後に登録済み）
 STATICFILES_STORAGE = 'whitenoise.storage.CompressedStaticFilesStorage'
 
 # Security settings
