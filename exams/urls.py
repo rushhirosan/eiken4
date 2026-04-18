@@ -16,5 +16,4 @@ urlpatterns = [
     path('clear-progress/', views.clear_progress, name='clear_progress'),
     path('feedback/', views.feedback_form, name='feedback_form'),
     path('feedback/success/', views.feedback_success, name='feedback_success'),
-    path('sitemap.xml', views.sitemap_xml, name='sitemap_xml'),
 ] 

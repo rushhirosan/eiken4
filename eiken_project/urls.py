@@ -21,6 +21,8 @@ from django.conf import settings
 from django.conf.urls.static import static
 from django.http import HttpResponse
 
+from exams.views import sitemap_xml
+
 def healthz(request):
     return HttpResponse("ok", status=200)
 
@@ -39,8 +41,8 @@ urlpatterns = [
     path('', RedirectView.as_view(url='/exams/', permanent=True)),
     # Google Search Console verification file
     path('google41829dffd897ace8.html', google_verification),
-    # Sitemap
-    path('sitemap.xml', include('exams.urls')),
+    # Sitemap（exams.urls を二重 include しない — URL namespace 重複警告を防ぐ）
+    path('sitemap.xml', sitemap_xml, name='sitemap_xml'),
     # Privacy Policy
     path('privacy-policy/', TemplateView.as_view(template_name='privacy_policy.html'), name='privacy_policy'),
 ]
