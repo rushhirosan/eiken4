@@ -88,10 +88,10 @@
                                     </div>
                                 {% endfor %}
                             </div>
-                        {% elif question.question.question_type == 'listening_conversation' or question.question.question_type == 'listening_passage' or question_type == 'random' and question.category in 'listening_conversation,listening_passage' %}
+                        {% elif question.question.question_type == 'listening_conversation' or question.question.question_type == 'listening_passage' or question_type == 'random' and question.category == 'listening_conversation' or question_type == 'random' and question.category == 'listening_passage' %}
                             <div class="text-center mb-3 listening-audio-wrap">
-                                {% if question.question.audio_file %}
-                                <audio id="audio-{{ question.question.id }}" class="w-100 listening-native-audio" controls preload="auto" playsinline style="max-width: 420px;" src="{% static question.question.audio_file %}">
+                                {% if question.question.resolved_audio_file %}
+                                <audio id="audio-{{ question.question.id }}" class="w-100 listening-native-audio" controls preload="auto" playsinline style="max-width: 420px;" src="{% static question.question.resolved_audio_file %}">
                                     お使いのブラウザは音声再生に対応していません。
                                 </audio>
                                 <p class="small text-danger listening-audio-error d-none mt-2 mb-0" role="alert" data-for-audio="audio-{{ question.question.id }}">音声を読み込めませんでした。ページを再読み込みするか、別のブラウザでお試しください。</p>

@@ -1,4 +1,5 @@
 {% extends 'accounts/base.html' %}
+{% load static %}
 
 {% block content %}
 <div class="container mt-5">
@@ -12,6 +13,17 @@
             {% else %}
             <p class="card-text">{{ question.question_text|linebreaks }}</p>
             {% endif %}
+
+            {% if question.question_type == 'listening_conversation' or question.question_type == 'listening_passage' %}
+            {% if question.resolved_audio_file %}
+            <div class="text-center mb-3">
+                <audio id="detailListeningAudio" controls class="w-100" style="max-width: 500px;" preload="metadata" playsinline>
+                    <source src="{% static question.resolved_audio_file %}" type="audio/mpeg">
+                    お使いのブラウザは音声再生に対応していません。
+                </audio>
+            </div>
+            {% endif %}
+            {% endif %}
             
             {% if question.question_type == 'listening_illustration' and question.image %}
             <div class="text-center mb-3">
@@ -22,7 +34,7 @@
             {% if question.question_type == 'listening_illustration' %}
             <div class="text-center mb-3">
                 <audio id="audioPlayer" controls class="w-100" style="max-width: 500px;">
-                    <source src="{% static question.audio_file %}" type="audio/mpeg">
+                    <source src="{% static question.resolved_audio_file %}" type="audio/mpeg">
                     お使いのブラウザは音声再生に対応していません。
                 </audio>
             </div>

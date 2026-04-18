@@ -223,10 +223,14 @@
                         </h5>
                         
                         <div class="text-center mb-3">
-                            <audio controls>
-                                <source src="{% static question.question.audio_file %}" type="audio/mpeg">
+                            {% if question.question.resolved_audio_file %}
+                            <audio controls preload="metadata" playsinline>
+                                <source src="{% static question.question.resolved_audio_file %}" type="audio/mpeg">
                                 お使いのブラウザは音声再生に対応していません。
                             </audio>
+                            {% else %}
+                            <p class="small text-warning mb-0" role="status">音声ファイルが登録されていません。</p>
+                            {% endif %}
                         </div>
                         
                         <div class="choices">
@@ -269,10 +273,14 @@
                         </h5>
                         
                         <div class="text-center mb-3">
-                            <audio controls>
-                                <source src="{% static question.question.audio_file %}" type="audio/mpeg">
+                            {% if question.question.resolved_audio_file %}
+                            <audio controls preload="metadata" playsinline>
+                                <source src="{% static question.question.resolved_audio_file %}" type="audio/mpeg">
                                 お使いのブラウザは音声再生に対応していません。
                             </audio>
+                            {% else %}
+                            <p class="small text-warning mb-0" role="status">音声ファイルが登録されていません。</p>
+                            {% endif %}
                         </div>
                         
                         <div class="choices">

@@ -122,6 +122,17 @@
         <div class="card mb-4">
             <div class="card-body">
                 <h5 class="card-title">問題 {{ forloop.counter }}</h5>
+                {% if answer.question.resolved_audio_file %}
+                <div class="text-center mb-3">
+                    <audio controls class="w-100" style="max-width: 420px;" preload="metadata">
+                        <source src="{% static answer.question.resolved_audio_file %}" type="audio/mpeg">
+                        お使いのブラウザは音声再生に対応していません。
+                    </audio>
+                </div>
+                {% endif %}
+                {% if answer.question.listening_text and answer.question.question_type != 'listening_illustration' %}
+                <div class="mb-3 small text-muted">{{ answer.question.listening_text|linebreaks }}</div>
+                {% endif %}
                 <p class="card-text">{{ answer.question.question_text|linebreaks }}</p>
                 
                 <div class="mt-3">

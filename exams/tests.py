@@ -27,6 +27,51 @@ class QuestionModelTest(TestCase):
             explanation='テスト解説'
         )
     
+    def test_resolved_audio_file_listening_conversation_fallback(self):
+        """audio_file が空でも会話リスニングは規約パスを返す"""
+        q = Question.objects.create(
+            level='4',
+            question_type='listening_conversation',
+            question_text='Q1',
+            question_number=7,
+            audio_file='',
+        )
+        self.assertEqual(q.resolved_audio_file(), 'audio/part2/listening_conversation_question7.mp3')
+
+    def test_resolved_audio_file_prefers_db_when_set(self):
+        """audio_file があればその値を優先する"""
+        custom = 'audio/custom/foo.mp3'
+        q = Question.objects.create(
+            level='4',
+            question_type='listening_conversation',
+            question_text='Q',
+            question_number=1,
+            audio_file=custom,
+        )
+        self.assertEqual(q.resolved_audio_file(), custom)
+
+    def test_resolved_audio_file_strips_whitespace_empty_means_fallback(self):
+        """空白のみの audio_file は未設定とみなしてフォールバックする"""
+        q = Question.objects.create(
+            level='4',
+            question_type='listening_passage',
+            question_text='P1',
+            question_number=3,
+            audio_file='   ',
+        )
+        self.assertEqual(q.resolved_audio_file(), 'audio/part3/listening_passage_question3.mp3')
+
+    def test_resolved_audio_file_listening_illustration_on_question_model(self):
+        """共通 Question でイラスト型のとき part1 の規約パスを返す"""
+        q = Question.objects.create(
+            level='4',
+            question_type='listening_illustration',
+            question_text='Ill',
+            question_number=12,
+            audio_file='',
+        )
+        self.assertEqual(q.resolved_audio_file(), 'audio/part1/listening_illustration_question12.mp3')
+
     def test_question_creation(self):
         """Questionが正しく作成されるかテスト"""
         self.assertEqual(self.question.level, '4')

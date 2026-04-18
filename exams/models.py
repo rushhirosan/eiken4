@@ -62,6 +62,22 @@ class Question(models.Model):
     def get_level_display(self):
         return dict(self.LEVELS).get(self.level, self.level)
 
+    def resolved_audio_file(self):
+        """静的ファイル用の相対パス。DB の audio_file が空のときは問題種別・番号から既定パスを返す。"""
+        stored = (self.audio_file or '').strip()
+        if stored:
+            return stored
+        qn = self.question_number
+        if qn < 1:
+            return ''
+        if self.question_type == 'listening_conversation':
+            return f'audio/part2/listening_conversation_question{qn}.mp3'
+        if self.question_type == 'listening_passage':
+            return f'audio/part3/listening_passage_question{qn}.mp3'
+        if self.question_type == 'listening_illustration':
+            return f'audio/part1/listening_illustration_question{qn}.mp3'
+        return ''
+
 class Choice(models.Model):
     question = models.ForeignKey(Question, on_delete=models.CASCADE, related_name='choices')
     choice_text = models.CharField(max_length=200, verbose_name='選択肢')
