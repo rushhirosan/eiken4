@@ -1,3 +1,13 @@
+/* リスニング: ネイティブコントロールが無効表示になる環境向けにタッチ領域を確保 */
+.listening-audio-wrap {
+    position: relative;
+    z-index: 2;
+}
+
+.listening-native-audio {
+    min-height: 48px;
+}
+
 /* デフォルトスタイル */
 .card-body {
     overflow: visible !important;
