@@ -23,6 +23,29 @@ from django.views.decorators.csrf import csrf_exempt
 
 logger = logging.getLogger(__name__)
 
+FOUNDATION_QUESTION_TYPES = [
+    'grammar_fill',
+    'conversation_fill',
+    'word_order',
+    'reading_comprehension',
+    'listening_illustration',
+    'listening_conversation',
+    'listening_passage',
+]
+
+RANDOM_UNLOCK_MIN_RATE = 20
+RANDOM_UNLOCK_REQUIRED_CATEGORIES = 3
+MOCK_EXAM_UNLOCK_MIN_RATE = 80
+QUESTION_TYPE_LABELS = {
+    'grammar_fill': '文法・語彙問題',
+    'conversation_fill': '会話補充問題',
+    'word_order': '語順選択問題',
+    'reading_comprehension': '長文読解問題',
+    'listening_illustration': 'リスニング第1部: イラスト問題',
+    'listening_conversation': 'リスニング第2部: 会話問題',
+    'listening_passage': 'リスニング第3部: 文章問題',
+}
+
 def _is_correct_listening_illustration_answer(question, selected_answer):
     """リスニング第1部の回答値（テキスト/番号）から正解判定を行う。"""
     normalized_answer = (selected_answer or '').strip()
@@ -90,10 +113,13 @@ def exam_list(request):
             count = Question.objects.filter(level='4', question_type=q_type).count()
         question_counts[q_type] = count
     
+    unlock_status = _build_exam_unlock_status(request.user, '4')
+
     context = {
         'levels': levels,
         'question_types': question_types,
         'question_counts': question_counts,
+        'unlock_status': unlock_status,
     }
     
     return render(request, 'exams/exam_list.html', context)
@@ -161,6 +187,11 @@ def question_list(request, level=None, exam_id=None):
         }
     
     if question_type == 'random':
+        unlock_status = _build_exam_unlock_status(request.user, str(level))
+        if not unlock_status['random']['is_unlocked']:
+            messages.warning(request, 'ランダム10問は、基本問題3カテゴリで取り組み率20%以上になると解放されます。')
+            return redirect('exams:exam_list')
+
         # ランダム10問の場合
         all_questions = []
         
@@ -234,6 +265,11 @@ def question_list(request, level=None, exam_id=None):
         return render(request, 'exams/question_list.html', context)
     
     elif question_type == 'mock_exam':
+        unlock_status = _build_exam_unlock_status(request.user, str(level))
+        if not unlock_status['mock_exam']['is_unlocked']:
+            messages.warning(request, '模擬試験は、基本問題の各カテゴリで取り組み率80%以上になると解放されます。')
+            return redirect('exams:exam_list')
+
         # 模擬試験問題の場合（英検4級の実際の問題構成）
         all_questions = []
         reading_passages = []
@@ -1527,6 +1563,61 @@ def _total_questions_for_type(level, question_type):
         _, total_passages = _reading_passage_progress_counts(None, level)
         return total_passages
     return Question.objects.filter(level=level, question_type=question_type).count()
+
+
+def _progress_rate_for_type(user, level, question_type):
+    """指定タイプの取り組み率（0-100）を返す。"""
+    total_questions = _total_questions_for_type(level, question_type)
+    if total_questions <= 0:
+        return 0
+    answered_distinct = _distinct_answered_question_count(user, level, question_type)
+    return min(100, round((answered_distinct / total_questions) * 100, 1))
+
+
+def _build_exam_unlock_status(user, level):
+    """ランダム問題・模擬試験の解放状態を返す。"""
+    category_progress = []
+    for question_type in FOUNDATION_QUESTION_TYPES:
+        total_questions = _total_questions_for_type(level, question_type)
+        if total_questions <= 0:
+            continue
+        progress_rate = _progress_rate_for_type(user, level, question_type)
+        category_progress.append({
+            'question_type': question_type,
+            'display_name': QUESTION_TYPE_LABELS.get(question_type, question_type),
+            'progress_rate': progress_rate,
+            'total_questions': total_questions,
+        })
+
+    random_ready_count = sum(
+        1 for item in category_progress
+        if item['progress_rate'] >= RANDOM_UNLOCK_MIN_RATE
+    )
+    random_unlocked = random_ready_count >= RANDOM_UNLOCK_REQUIRED_CATEGORIES
+
+    mock_unlocked = bool(category_progress) and all(
+        item['progress_rate'] >= MOCK_EXAM_UNLOCK_MIN_RATE
+        for item in category_progress
+    )
+    mock_remaining = [
+        item for item in category_progress
+        if item['progress_rate'] < MOCK_EXAM_UNLOCK_MIN_RATE
+    ]
+
+    return {
+        'random': {
+            'is_unlocked': random_unlocked,
+            'ready_count': random_ready_count,
+            'required_count': RANDOM_UNLOCK_REQUIRED_CATEGORIES,
+            'required_rate': RANDOM_UNLOCK_MIN_RATE,
+        },
+        'mock_exam': {
+            'is_unlocked': mock_unlocked,
+            'required_rate': MOCK_EXAM_UNLOCK_MIN_RATE,
+            'remaining_categories': mock_remaining,
+            'total_categories': len(category_progress),
+        },
+    }
 
 
 def _distinct_answered_question_count(user, level, question_type):

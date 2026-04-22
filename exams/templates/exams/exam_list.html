@@ -110,23 +110,46 @@
                                 </h5>
                     </div>
                             <div class="col-md-6 mb-3">
-                                <a href="{% url 'exams:question_list_by_level' level=level_code %}?type=random" 
-                                   class="btn btn-primary w-100 py-4">
+                                <a href="{% if unlock_status.random.is_unlocked %}{% url 'exams:question_list_by_level' level=level_code %}?type=random{% else %}#{% endif %}" 
+                                   class="btn {% if unlock_status.random.is_unlocked %}btn-primary{% else %}btn-outline-secondary disabled{% endif %} w-100 py-4"
+                                   {% if not unlock_status.random.is_unlocked %}aria-disabled="true" tabindex="-1"{% endif %}>
                                     <i class="fas fa-random me-2"></i>
                                     ランダム10問
                                     <br>
+                                    {% if unlock_status.random.is_unlocked %}
                                     <small class="opacity-75">様々な問題形式から出題</small>
+                                    {% else %}
+                                    <small class="opacity-75">
+                                        解放条件: 基本問題3カテゴリで取り組み率20%以上
+                                        （{{ unlock_status.random.ready_count }}/{{ unlock_status.random.required_count }}カテゴリ達成）
+                                    </small>
+                                    {% endif %}
                                 </a>
                 </div>
                             <div class="col-md-6 mb-3">
-                                <a href="{% url 'exams:question_list_by_level' level=level_code %}?type=mock_exam" 
-                                   class="btn btn-success w-100 py-4">
+                                <a href="{% if unlock_status.mock_exam.is_unlocked %}{% url 'exams:question_list_by_level' level=level_code %}?type=mock_exam{% else %}#{% endif %}" 
+                                   class="btn {% if unlock_status.mock_exam.is_unlocked %}btn-success{% else %}btn-outline-secondary disabled{% endif %} w-100 py-4"
+                                   {% if not unlock_status.mock_exam.is_unlocked %}aria-disabled="true" tabindex="-1"{% endif %}>
                                     <i class="fas fa-clipboard-list me-2"></i>
                                     模擬試験問題
                                     <br>
+                                    {% if unlock_status.mock_exam.is_unlocked %}
                                     <small class="opacity-75">本番形式の総合問題</small>
+                                    {% else %}
+                                    <small class="opacity-75">解放条件: 基本問題の各カテゴリで取り組み率80%以上</small>
+                                    {% endif %}
                                     </a>
                                 </div>
+                            {% if not unlock_status.mock_exam.is_unlocked and unlock_status.mock_exam.remaining_categories %}
+                            <div class="col-12">
+                                <div class="alert alert-secondary mb-0 py-2 px-3 small">
+                                    模擬試験の解放まで:
+                                    {% for item in unlock_status.mock_exam.remaining_categories %}
+                                        {{ item.display_name }} {{ item.progress_rate|floatformat:0 }}%{% if not forloop.last %} / {% endif %}
+                                    {% endfor %}
+                                </div>
+                            </div>
+                            {% endif %}
                         </div>
                     </div>
                 </div>
