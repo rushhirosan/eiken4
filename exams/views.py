@@ -1600,7 +1600,13 @@ def _build_exam_unlock_status(user, level):
         for item in category_progress
     )
     mock_remaining = [
-        item for item in category_progress
+        {
+            **item,
+            'remaining_rate': round(
+                MOCK_EXAM_UNLOCK_MIN_RATE - item['progress_rate'], 1
+            ),
+        }
+        for item in category_progress
         if item['progress_rate'] < MOCK_EXAM_UNLOCK_MIN_RATE
     ]
 

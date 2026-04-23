@@ -143,10 +143,15 @@
                             {% if not unlock_status.mock_exam.is_unlocked and unlock_status.mock_exam.remaining_categories %}
                             <div class="col-12">
                                 <div class="alert alert-secondary mb-0 py-2 px-3 small">
-                                    模擬試験の解放まで:
-                                    {% for item in unlock_status.mock_exam.remaining_categories %}
-                                        {{ item.display_name }} {{ item.progress_rate|floatformat:0 }}%{% if not forloop.last %} / {% endif %}
-                                    {% endfor %}
+                                    <div class="fw-semibold mb-1">模擬試験の解放まで（各カテゴリ80%以上が必要）</div>
+                                    <ul class="mb-0 ps-3">
+                                        {% for item in unlock_status.mock_exam.remaining_categories %}
+                                        <li>
+                                            {{ item.display_name }}: あと{{ item.remaining_rate|floatformat:0 }}%
+                                            （現在 {{ item.progress_rate|floatformat:0 }}%）
+                                        </li>
+                                        {% endfor %}
+                                    </ul>
                                 </div>
                             </div>
                             {% endif %}
