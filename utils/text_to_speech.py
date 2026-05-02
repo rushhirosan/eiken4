@@ -31,7 +31,7 @@ def extract_illustration_parts(text):
         if skip_until_next_question:
             continue
             
-        # Question No.X: の場合
+        # Question No.X: の場合（音声には番号を含めず "Question" のみ読み上げる）
         if line.startswith('Question No.'):
             is_question = True
             is_choices = False
@@ -73,6 +73,9 @@ def create_audio_file(conversation, question, choices, output_path):
 def generate_illustration_audio(input_file, output_dir, question_range=None):
     """
     リスニングイラスト問題の音声ファイルを生成
+    
+    既存の MP3 が「Question No.12」のように番号まで読んでいる場合は、
+    このスクリプトで再生成したファイルに差し替えること。
     
     Args:
         input_file (str): 入力テキストファイルのパス

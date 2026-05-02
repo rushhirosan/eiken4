@@ -43,7 +43,7 @@
   "fields": {
     "level": "4",
     "question_type": "listening_conversation",
-    "question_text": "What color shoes is the girl going to buy?",
+    "question_text": "What color shoes is the boy going to buy?",
     "listening_text": "W: Will you buy white basketball shoes?  \nM: No, I’ll get red ones.  \nW: Is your team’s uniform red, too?  \nM: No, it’s blue and gold.",
     "explanation": "「I’ll get red ones（赤いのにする）」という発言から、赤いバスケットシューズを買うとわかります。",
     "passage": null,

@@ -14,7 +14,7 @@
 
 【解説1】
 The classroom was very quiet during the math test.
-2番目は「was」(②)、4番目は「quiet」(③)。
+「主語 + be動詞 + very + 形容詞」の語順になるため、2番目は was、4番目は quiet になります。
 
 ---
 
@@ -34,7 +34,7 @@ The classroom was very quiet during the math test.
 
 【解説2】  
 The pancake was as big as the plate.  
-2番目は「was」(④)、4番目は「big」(⑤)。
+同等比較は「as + 形容詞 + as」の形を使うため、2番目は was、4番目は big になります。
 
 ---
 
@@ -54,7 +54,7 @@ Tom and ( ) [2番目] ( ) [4番目] ( ) afternoon.
 
 【解説3】  
 Tom and I were playing tennis yesterday afternoon.  
-2番目は「were」(①)、4番目は「tennis」(②)。
+過去進行形は「主語 + were + 動詞ing」で作るので、2番目は were、4番目は tennis になります。
 
 ---
 
@@ -74,7 +74,7 @@ Tom and I were playing tennis yesterday afternoon.
 
 【解説4】  
 Which bus will get to the hotel first?  
-2番目は「bus」(④)、4番目は「get to」(⑤)。
+疑問文は「Which + 名詞 + will + 動詞」の語順なので、2番目は bus、4番目は get to です。
 
 ---
 
@@ -94,7 +94,7 @@ Please ( ) [2番目] ( ) [4番目] ( ).
 
 【解説5】  
 Please don't forget to wash the dishes.  
-2番目は「forget」(④)、4番目は「wash」(①)。
+「forget to + 動詞原形（〜するのを忘れる）」の形を使うため、2番目は forget、4番目は wash になります。
 
 ---
 
@@ -114,7 +114,7 @@ Please don't forget to wash the dishes.
 
 【解説6】  
 May I play with Anna after school today?  
-2番目は「I」(③)、4番目は「with」(④)。
+「May I + 動詞」で許可を求める文になり、その後は「play with 人」と続くため、2番目は I、4番目は with です。
 
 ---
 
@@ -134,7 +134,7 @@ Are ① good ② at ③ English ④ you ⑤ speaking
 
 【解説7】  
 Are you good at speaking English?  
-2番目は「good」(①)、4番目は「speaking」(⑤)。
+「be good at + 動詞ing」の語法を使うので、2番目は good、4番目は speaking になります。
 
 ---
 
@@ -154,7 +154,7 @@ I ① to ② started ③ at ④ lunch ⑤ make
 
 【解説8】  
 I started to make lunch at noon.  
-2番目は「to」(①)、4番目は「lunch」(④)。
+「start to + 動詞原形」の形を使うため、2番目は to、4番目は lunch になります。
 
 ---
 
@@ -174,7 +174,7 @@ We're ( ) [2番目] ( ) [4番目] ( ) tomorrow.
 
 【解説9】  
 We're not going to have a test tomorrow.  
-2番目は「going」(⑤)、4番目は「have」(②)。
+未来予定は「be going to + 動詞原形」で表すので、2番目は going、4番目は have です。
 
 ---
 
@@ -194,7 +194,7 @@ This ① is ② it's pizza ③ for ④ restaurant ⑤ famous
 
 【解説10】  
 This restaurant is famous for pizza.  
-2番目は「is」(①)、4番目は「for」(③)。
+「be famous for 〜（〜で有名）」の固定表現なので、2番目は is、4番目は for になります。
 
 ---
 
@@ -214,7 +214,7 @@ This restaurant is famous for pizza.
 
 【解説11】  
 How can I get to the station?  
-→ 2番目「can」(①)、4番目「get」(④)。
+疑問文は「How + 助動詞 + 主語 + 動詞」の語順なので、2番目は can、4番目は get です。
 
 ---
 
@@ -234,7 +234,7 @@ Please ( ) [2番目] ( ) [4番目] ( ) arrive in London.
 
 【解説12】  
 Please send me a letter when you arrive in London.  
-→ 2番目「me」(⑤)、4番目「when」(③)。
+「send 人 物」と「when + 主語 + 動詞」の語順を使うため、2番目は me、4番目は when になります。
 
 ---
 
@@ -254,7 +254,7 @@ Tomoko ( ) [2番目] ( ) [4番目] ( ) the guitar with Fred.
 
 【解説13】  
 Tomoko is looking forward to playing the guitar with Fred.  
-→ 2番目「looking」(①)、4番目「to」(③)。
+「look forward to + 動詞ing」の語法なので、2番目は looking、4番目は to です。
 
 ---
 
@@ -274,7 +274,7 @@ I ( ) [2番目] ( ) [4番目] ( ) my house yesterday.
 
 【解説14】  
 I enjoyed swimming in the pool near my house yesterday.  
-→ 2番目「swimming」(④)、4番目「the pool」(③)。
+「enjoy + 動詞ing」を使い、場所は「in the pool」となるため、2番目は swimming、4番目は the pool になります。
 
 ---
 
@@ -294,7 +294,7 @@ I enjoyed swimming in the pool near my house yesterday.
 
 【解説15】  
 May I use this computer, please?  
-→ 2番目「may」(②)、4番目「this」(①)。
+依頼表現は「May I + 動詞原形」で、名詞前は「this + 名詞」になるため、2番目は may、4番目は this です。
 
 ---
 
@@ -314,13 +314,13 @@ May I use this computer, please?
 
 【解説16】  
 Where did your brother study English?  
-→ 2番目「did」(④)、4番目「study」(①)。
+過去の疑問文は「疑問詞 + did + 主語 + 動詞原形」の語順なので、2番目は did、4番目は study です。
 
 ---
 
 問題17:
-彼はちょうど学校に着いたところです。  
-① at ② just ③ has ④ arrived ⑤ school  
+彼はちょうど家に着いたところです。  
+① home ② just ③ has ④ arrived ⑤ he  
 ( ) [2番目] ( ) [4番目] ( ).
 
 選択肢17:
@@ -333,28 +333,28 @@ Where did your brother study English?
 1. ③ ─ ④  
 
 【解説17】  
-He has just arrived at school.  
-→ 2番目「has」(③)、4番目「arrived」(④)。
+He has just arrived home.  
+現在完了は「主語 + have/has + 過去分詞」の形なので、2番目は has、4番目は arrived になります。
 
 ---
 
 問題18:
-彼はまだその問題を解決していません。  
-① solved ② he ③ has not ④ yet ⑤ the problem  
+彼はその問題を解決していません。  
+① solved ② he ③ has ④ not ⑤ the problem  
 ( ) [2番目] ( ) [4番目] ( ).
 
 選択肢18:  
 1. ② ─ ③  
 2. ③ ─ ⑤  
-3. ② ─ ①  
-4. ③ ─ ④  
+3. ③ ─ ①  
+4. ④ ─ ①  
 
 【正解18】  
-2. ③ ─ ⑤  
+3. ③ ─ ①  
 
 【解説18】  
-He has not solved the problem yet.  
-→ 2番目「has not」(③)、4番目「the problem」(⑤)。
+He has not solved the problem.  
+否定の現在完了は「has not + 過去分詞」となるため、2番目は has、4番目は solved です。
 
 ---
 
@@ -374,27 +374,27 @@ He has not solved the problem yet.
 
 【解説19】  
 I have already done the homework.  
-→ 2番目「have」(⑤)、4番目「done」(①)。
+現在完了は「have + 過去分詞」で作り、副詞 already はその間に置けるため、2番目は have、4番目は done になります。
 
 ---
 
 問題20:
 彼は会議に遅れないように早く家を出ました。  
-① left ② early ③ not ④ to ⑤ be late  
+① left ② early ③ so as ④ he ⑤ not to be late  
 ( ) [2番目] ( ) [4番目] ( ) for the meeting.
 
 選択肢20:  
-1. ① ─ ④  
+1. ① ─ ③  
 2. ④ ─ ⑤  
 3. ② ─ ①  
-4. ④ ─ ③  
+4. ④ ─ ②  
 
 【正解20】  
-1. ① ─ ④  
+1. ① ─ ③  
 
 【解説20】  
-He left early to not be late for the meeting.  
-→ 2番目「left」(①)、4番目「to」(④)。
+He left early so as not to be late for the meeting.  
+目的は「so as not to + 動詞」で表せるため、2番目は left、4番目は so as です。
 
 ---
 
@@ -412,9 +412,9 @@ I ( ) [2番目] ( ) [4番目] ( ).
 【正解21】  
 3. ② ─ ⑤
 
-【解説61】  
+【解説21】  
 I asked Mr. Kent about his hobbies.  
-→ 2番目「Mr. Kent」(②)、4番目「his」(⑤)。
+「ask 人 about 〜」の語法を使うため、2番目は Mr. Kent、4番目は his になります。
 
 ---
 
@@ -434,7 +434,7 @@ Bill didn’t ( ) [2番目] ( ) [4番目] ( ) this morning.
 
 【解説22】  
 Bill didn’t have time to eat breakfast this morning.  
-→ 2番目「time」(①)、4番目「eat」(⑤)。
+「have time to + 動詞原形」の形になるため、2番目は time、4番目は eat です。
 
 ---
 
@@ -454,7 +454,7 @@ Harumi ( ) [2番目] ( ) [4番目] ( ) Kyoto with her family.
 
 【解説23】  
 Harumi had a great weekend in Kyoto with her family.  
-→ 2番目「a」(②)、4番目「weekend」(③)。
+「have a + 形容詞 + 名詞」の語順を使うので、2番目は a、4番目は weekend になります。
 
 ---
 
@@ -474,7 +474,7 @@ Can your ( ) [2番目] ( ) [4番目] ( ) French?
 
 【解説24】  
 Can your father speak both Chinese and French?  
-→ 2番目「speak」(②)、4番目「Chinese」(③)。
+「both A and B」の並列表現を使うため、2番目は speak、4番目は Chinese です。
 
 ---
 
@@ -494,6 +494,6 @@ Can your father speak both Chinese and French?
 
 【解説25】  
 Did you see the lions at that zoo?  
-→ 2番目「you」(⑤)、4番目「the lions」(④)。
+過去の疑問文は「Did + 主語 + 動詞原形」の語順なので、2番目は you、4番目は the lions になります。
 
 ---

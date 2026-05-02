@@ -131,9 +131,9 @@
                 </div>
                 {% endif %}
                 {% if answer.question.listening_text and answer.question.question_type != 'listening_illustration' %}
-                <div class="mb-3 small text-muted">{{ answer.question.listening_text|linebreaks }}</div>
+                <div class="mb-3 small text-muted">{{ answer.question.listening_text|strip_question_no|linebreaks }}</div>
                 {% endif %}
-                <p class="card-text">{{ answer.question.question_text|linebreaks }}</p>
+                <p class="card-text">{{ answer.question.question_text|strip_question_no|linebreaks }}</p>
                 
                 <div class="mt-3">
                     <p class="{% if answer.is_correct %}text-success{% else %}text-danger{% endif %}">

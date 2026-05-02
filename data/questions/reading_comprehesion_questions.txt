@@ -24,7 +24,7 @@ What will students do at the camp?
 3. Go fishing.
 
 【解説1a】
-本文に「Students will go fishing and learn about the trees and flowers」とあり、釣りをすることが書かれています。写真を撮る、バスを掃除する、木に登るとは書かれていません。
+本文に「Students will go fishing and learn about the trees and flowers」とあり、指定の活動は釣りと自然観察です。写真・バス掃除・木登りの記述はありません。
 
 問題1b:
 Where will the students meet?
@@ -39,7 +39,7 @@ Where will the students meet?
 1. In front of the school.
 
 【解説1b】
-本文に「We will meet in front of the school」と書かれているので、集合場所は学校の前です。Ms. Wilsonの部屋やバス停、川ではありません。
+集合場所は「We will meet in front of the school」と明記されています。Wilson先生への相談先や川・バス停は本文の集合地ではありません。
 
 ---
 
@@ -51,7 +51,13 @@ Subject: My watch
 
 Dear Coach Harris,
 
-At basketball practice today, I took off my watch. I always put it in my bag before practice because I don’t want to break it. However, my watch wasn’t in my bag when I got home! I need it tomorrow afternoon because I’ll take a test. Did I leave my watch in the gym?
+At basketball practice today, I took off my watch. 
+
+I always put it in my bag before practice because I don’t want to break it. 
+
+However, my watch wasn’t in my bag when I got home! I need it tomorrow afternoon because I’ll take a test. 
+
+Did I leave my watch in the gym?
 
 Thank you,
 Amy
@@ -64,7 +70,15 @@ Date: May 12
 Subject: Your watch
 
 Hello Amy,
-I found your watch on a bench in the gym. I took it to the school office, so you can go there and get it. The office is closed now. It'll open at 8:00 a.m. tomorrow. The office is always busy at lunchtime, so you should go there tomorrow morning. See you soon, Coach Harris
+I found your watch on a bench in the gym. 
+
+I took it to the school office, so you can go there and get it. 
+
+The office is closed now. It'll open at 8:00 a.m. tomorrow. 
+
+The office is always busy at lunchtime, so you should go there tomorrow morning. 
+
+See you soon, Coach Harris
 
 問題2a:
 What will Amy do tomorrow afternoon?
@@ -79,7 +93,7 @@ What will Amy do tomorrow afternoon?
 2. Take a test.
 
 【解説2a】
-Amyのメールの中に「I need it tomorrow afternoon because I’ll take a test」とあり、試験を受ける予定だと書かれています。バスケットボールをしたり、新しい時計を買ったり、Coach Harrisに会ったりするとは書かれていません。
+Amyが「I’ll take a test」と翌午後の予定を書いており、明日の午後の行動として試験が本文どおりです。バスケ・時計購入・コーチとの面会は記載がありません。
 
 問題2b:
 Where did Coach Harris find Amy’s watch?
@@ -94,7 +108,7 @@ Where did Coach Harris find Amy’s watch?
 1. In the gym.
 
 【解説2b】
-Coach Harrisのメールに「I found your watch on a bench in the gym」と書かれています。オフィスに持っていったのはその後のことなので、見つけた場所はジムです。
+時計を見つけた場所は「on a bench in the gym」です。オフィスは預けた場所なので「見つかった場所」の質問には答えになりません。
 
 問題2c:
 Amy should go to the school office
@@ -109,12 +123,32 @@ Amy should go to the school office
 2. tomorrow morning.
 
 【解説2c】
-Coach Harrisは「The office is always busy at lunchtime, so you should go there tomorrow morning」とアドバイスしています。したがって、明日の朝が一番良い時間です。
+オフィスが開くのは翌朝8時で、昼は混むので「tomorrow morning に行く」と勧められています。午後に試験があるAmyにも朝の受け取りが無難です。
 
 ---
 
 本文3
-Fun at the Beach Jill is from a big city in Canada. Every summer, she visits the beach with her family. She enjoys swimming there. One day last summer, she also went fishing with her father. They got up at six in the morning and got on a boat at seven. They went fishing for four hours, but they didn’t catch any fish. Jill didn’t like fishing. The next day, Jill went for a walk by the beach at noon. She met a woman with long hair there. Jill asked her, “Do you like fishing?” The woman said, “No, but I love surfing.” Jill wanted to try surfing. The woman said, “You should take surfing lessons first.” Last fall, Jill went to college. At college, she started taking surfing lessons. Her first lesson was in the college swimming pool. Now, Jill has a lesson every week. This summer, she will take a trip with her friends. They will go surfing in the sea.
+Fun at the Beach Jill is from a big city in Canada. 
+
+Every summer, she visits the beach with her family. She enjoys swimming there. 
+
+One day last summer, she also went fishing with her father. 
+
+They got up at six in the morning and got on a boat at seven. 
+
+They went fishing for four hours, but they didn’t catch any fish. 
+
+Jill didn’t like fishing. The next day, Jill went for a walk by the beach at noon. 
+
+She met a woman with long hair there. Jill asked her, “Do you like fishing?” 
+
+The woman said, “No, but I love surfing.” Jill wanted to try surfing. The woman said, “You should take surfing lessons first.” 
+
+Last fall, Jill went to college. At college, she started taking surfing lessons. 
+
+Her first lesson was in the college swimming pool. Now, Jill has a lesson every week. 
+
+This summer, she will take a trip with her friends. They will go surfing in the sea.
 
 問題3a:
 What does Jill do every summer? 
@@ -129,7 +163,7 @@ What does Jill do every summer?
 3. She goes to the beach.
 
 【解説3a】
-本文の最初に「Every summer, she visits the beach with her family.」とあり、毎年夏にビーチに行くのが習慣であることが書かれています。釣りやボート旅行、プールは特定の出来事なので不正解です。
+習慣として「Every summer, she visits the beach with her family」とあります。釣り・ボート・大学のプールレッスンは別の時期・出来事の話です。
 
 問題3b:
 What time did Jill and her father get on a boat? 
@@ -144,7 +178,7 @@ What time did Jill and her father get on a boat?
 3. At seven.
 
 【解説3b】
-本文に「They got up at six in the morning and got on a boat at seven.」と明確に書かれています。6時ではなく、7時が正解です。
+「got up at six」「got on a boat at seven」と並べて書かれており、ボートに乗った時刻は7時です。6時は起床時刻なので混同しないようにします。
 
 問題3c:
 Who did Jill meet by the beach? 
@@ -159,7 +193,7 @@ Who did Jill meet by the beach?
 2. A woman with long hair.
 
 【解説3c】
-「She met a woman with long hair there.」と書かれています。父の友人やコーチではなく、「髪の長い女性」と明確です。
+「She met a woman with long hair there.」と描写されています。男性や父の知人・コーチとは書かれていません。
 
 問題3d:
 What did Jill do at college? 
@@ -168,13 +202,13 @@ What did Jill do at college?
 1. She joined a fishing club.
 2. She learned to swim.
 3. She started taking surfing lessons.
-4, She cleaned the pool every week. 
+4. She cleaned the pool. 
 
 【正解3d】
 3. She started taking surfing lessons.
 
 【解説3d】
-本文に「At college, she started taking surfing lessons.」とあるため正解です。泳ぎを学ぶことや掃除、釣りクラブについては書かれていません。
+大学では「started taking surfing lessons」とあり、サーフィンレッスンが本文どおりです。プール掃除や釣りクラブ・水泳習得とは記載がありません。
 
 問題3e:
 What will Jill do this summer? 
@@ -189,7 +223,7 @@ What will Jill do this summer?
 4. Take a trip with her friends.
 
 【解説3e】
-最後の文に「This summer, she will take a trip with her friends.」と明記されています。新しいボートを買ったり、仕事をしたりするとは書かれていません。
+「This summer, she will take a trip with her friends. They will go surfing」と今年の夏の予定が書かれています。ボート購入やアルバイト・大学の泳ぎの授業は別の文脈です。
 
 ---
 
@@ -216,7 +250,7 @@ When will the students show their clothes?
 1. From 10:00 a.m.
 
 【解説4a】
-本文に「From 10:00 a.m., the students will show their clothes.」とあるので、服を披露するのは10時からです。他の時間帯は該当しません。
+「From 10:00 a.m., the students will show their clothes」とあり、ショー開始は午前10時です。レストランの営業時間（11時〜）や午後とは別です。
 
 問題4b:
 In the afternoon, people can
@@ -231,7 +265,7 @@ In the afternoon, people can
 2. talk to students from the Fairview Fashion School.
 
 【解説4b】
-午後には「you can talk to the students」とあり、生徒たちと話すことができます。服作りや料理、歴史については記載されていません。
+「In the afternoon, you can talk to the students」とあり、午後の活動は学生との会話です。服を作る・料理・Arts Centerの歴史とは書かれていません。
 
 ---
 
@@ -271,7 +305,7 @@ What did Ben do last week?
 2. He watched golf on TV.
 
 【解説5a】
-Benは「I watched golf on TV last week with Mom.」と書いており、ゴルフをテレビで見たことがわかります。他の選択肢は本文に記載されていません。
+Benが「watched golf on TV last week」と書いており、先週したことはテレビ観戦です。祖父宅訪問やゴルフ実践・母との昼食は記載がありません。
 
 問題5b:
 Every Sunday morning, Ben
@@ -286,7 +320,7 @@ Every Sunday morning, Ben
 2. has piano lessons.
 
 【解説5b】
-Benは「piano lessons every Sunday morning」と書いています。サッカーは土曜日、宿題は日曜の夜、祖父への電話は記載されていません。
+「piano lessons every Sunday morning」とあり、日曜の朝の予定はピアノです。サッカーは土曜、宿題は日曜夕方と本文で区別されています。
 
 問題5c:
 What should Ben bring next Sunday?
@@ -330,7 +364,7 @@ What does Wendy do every day?
 2. She does her homework.
 
 【解説6a】
-本文冒頭に「Wendy is very busy. She does homework every day.」とあるように、彼女は毎日宿題をしています。ピアノや野球は週に数回です。
+「She does homework every day」と毎日の行動として書かれています。ピアノは水曜夜、野球は土曜など「every day」ではありません。
 
 問題6b:
 Where did Wendy and her parents go last summer?
@@ -342,10 +376,10 @@ Where did Wendy and her parents go last summer?
 4. To a new restaurant.
 
 【正解6b】
-To the mountains.
+1. To the mountains.
 
 【解説6b】
-「Wendy and her parents stayed on a farm in the mountains」とあるので、彼らは山の中の農場に行ったことがわかります。
+本文に「stayed on a farm in the mountains」とあり、目的地は山間部の農場です。大都市や祖父の家・レストランとは書かれていません。
 
 問題6c:
 What time did Wendy and her parents wake up during their trip?
@@ -360,7 +394,7 @@ What time did Wendy and her parents wake up during their trip?
 3. At seven o'clock.
 
 【解説6c】
-「During their trip, they woke up at seven o'clock.」と本文に明記されています。
+旅行中は「they woke up at seven o'clock」と時刻が明示されています。
 
 問題6d:
 What did Wendy and her mother do every morning during their trip?
@@ -375,7 +409,7 @@ What did Wendy and her mother do every morning during their trip?
 2. They gave food to the sheep.
 
 【解説6d】
-「Every morning, Wendy and her mother gave food to the sheep.」と書かれています。朝食を作ったのは父親です。
+母娘は「gave food to the sheep」、父は「cooked breakfast」と役割が分かれて書かれています。
 
 問題6e:
 Why does Wendy like looking at the photos?
@@ -390,7 +424,7 @@ Why does Wendy like looking at the photos?
 3. She really enjoyed her trip.
 
 【解説6e】
-「Wendy likes looking at the photos because she really enjoyed her trip to the farm.」と本文にそのまま書かれています。他の選択肢は本文にありません。
+理由は「because she really enjoyed her trip to the farm」と因果が述べられています。祖父が撮ったわけでもなく、プレゼントだからという理由ではありません。
 
 ---
 
@@ -419,7 +453,7 @@ Where will the dance lesson be?
 4. At City Sports Center.
 
 【解説7a】  
-「There will be a dance lesson at City Sports Center」とあるので4が正解。
+本文冒頭に開催場所として「at City Sports Center」と明記されています。ダンスセンター・体育館・市役所という記載はありません。
 
 問題7b:  
 What should the students do to take the dance lesson?
@@ -434,7 +468,7 @@ What should the students do to take the dance lesson?
 1. Bring lunch and gym shoes.
 
 【解説7b】  
-「Students must bring lunch and gym shoes」とあるので1が正解。
+参加条件として「Students must bring lunch and gym shoes」と書かれています。パーティーを友人に伝える・教科書購入・学校の掃除とは本文にありません。
 
 ---
 
@@ -480,7 +514,7 @@ What will Beth and Cathy do on Saturday evening?
 4. Have a barbecue.
 
 【解説8a】  
-Bethのメールに「having a barbecue on Saturday evening」とあるので4が正解。
+Bethが「having a barbecue on Saturday evening」と予定を書いており、土曜夕方はバーベキューです。ハイキングは土曜午後、映画は日曜の話なので該当しません。
 
 問題8b:  
 What will happen in Cathy’s town this Sunday?
@@ -495,7 +529,7 @@ What will happen in Cathy’s town this Sunday?
 1. There will be a festival.
 
 【解説8b】  
-Cathyのメールに「We can go to the festival in my town on Sunday」とあるので1が正解。
+Cathyが日曜の予定として「go to the festival in my town」と書いています。天気は「hot and sunny」とあり雨の多さや映画館開店とは書かれていません。
 
 問題8c:  
 What should Beth bring this weekend?
@@ -510,7 +544,7 @@ What should Beth bring this weekend?
 3. A cap.
 
 【解説8c】  
-「you should bring your cap」とあるので3が正解。
+Cathyが「The weather will be hot and sunny」と続けて「you should bring your cap」と書いており、傘より帽子が指示されています（ハイキング時にも使うと記載）。
 
 ---
 
@@ -549,7 +583,7 @@ What does Gerald’s father play?
 1. The guitar.
 
 【解説9a】  
-「His father plays the guitar」とあるので1が正解。
+本文に「His father plays the guitar in a band」とあります。トランペットはGerald、ヴァイオリンとピアノはバンドの別メンバーです。
 
 問題9b:  
 What does Gerald want to do?
@@ -564,7 +598,7 @@ What does Gerald want to do?
 3. Become a musician.
 
 【解説9b】  
-「Gerald wants to become a musician like his father」とあるので3が正解。
+「Gerald wants to become a musician like his father」と書かれています。バンドを見に行く・スポーツ・レストランでの仕事とは本文にありません。
 
 問題9c:  
 When did Gerald see the poster?
@@ -579,7 +613,7 @@ When did Gerald see the poster?
 1. In May.
 
 【解説9c】  
-「In May, Gerald saw a poster」とあるので1が正解。
+「In May, Gerald saw a poster about...」とあります。厳しい練習は6月、フェスティバル開催は7月なので時期が異なります。
 
 問題9d:  
 During the performance at the festival, Gerald was
@@ -594,7 +628,7 @@ During the performance at the festival, Gerald was
 1. nervous.
 
 【解説9d】  
-「He was nervous, and he played the song too quickly」とあるので1が正解。
+演奏直後は「He was nervous」と述べられています。観客の反応を見て後から驚きや喜びが書かれるので、その時点では「nervous」が本文どおりです。
 
 問題9e:  
 What did Gerald do after the performance?
@@ -609,7 +643,7 @@ What did Gerald do after the performance?
 4. He went to a restaurant.
 
 【解説9e】  
-「After the performance, he went to a pizza restaurant with Jessica and his parents」とあるので4が正解。
+本文末尾に「went to a pizza restaurant ... to celebrate」とあります。先生への礼・Jessicaの家・電話とは書かれていません。
 
 ---
 
@@ -635,7 +669,7 @@ What can people do at the festival?
 1. Drink hot chocolate.
 
 【解説10a】
-本文に「People can drink hot chocolate and watch skating」と書かれているので、正解は「Drink hot chocolate」です。
+本文に「People can drink hot chocolate and watch skating」とあり、アイスホッケー・映画・料理という記載はありません。
 
 問題10b:
 When will the festival close on weekends?
@@ -650,7 +684,7 @@ When will the festival close on weekends?
 3. At 8:00 p.m.
 
 【解説10b】
-本文に「10:00 a.m. to 8:00 p.m. on weekends」とあるため、週末の閉場時間は8:00 p.m.です。
+週末の営業は「10:00 a.m. to 8:00 p.m. on weekends」とあり、閉場は8:00 p.m.です。平日は9:00 p.m.までなので混同しないよう時刻を照合します。
 
 ---
 
@@ -688,7 +722,7 @@ Why does Paulina want Misaki’s help?
 4. Misaki did well in a class.
 
 【解説11a】
-Paulinaは「You did really well in that class」と書いており、Misakiがその授業でよい成績を取ったから助けてほしいのです。
+Paulinaが「You did really well in that class」と述べており、Misakiがその授業（日本史）でよかったから頼むという流れです。Paulinaが英語が苦手だからではありません。
 
 問題11b:
 Why does Misaki need to be home early on Thursday?
@@ -703,7 +737,7 @@ Why does Misaki need to be home early on Thursday?
 4. To have dinner with her family.
 
 【解説11b】
-Misakiは「my family will have dinner together that evening」と書いています。
+Misakiが「I need to be home early because my family will have dinner together」と書いており、早帰りの理由は家族との夕食です。
 
 問題11c:
 Where does Misaki want to study?
@@ -718,7 +752,7 @@ Where does Misaki want to study?
 3. At a coffee shop.
 
 【解説11c】
-Misakiは「Can we study at the coffee shop near my house?」と提案しています。
+MisakiがPaulinaの図書館案に続けて「Can we study at the coffee shop near my house?」と変更を提案しています。理科教室や自宅ではなくコーヒーショップです。
 
 ---
 
@@ -740,8 +774,8 @@ What did Daniel do every day after school?
 【正解12a】
 4. He studied in his room.
 
-【解説12a】
-本文に「he studied every day in his room after school」とあります。
+【解説12a】  
+本文に「studied every day in his room after school」とあります。画家になるまで絵を描くのは後の話で、毎日のルーティンは勉強です。
 
 問題12b:
 Why was Daniel nervous about the contest?
@@ -755,8 +789,8 @@ Why was Daniel nervous about the contest?
 【正解12b】
 2. Many people took part in it.
 
-【解説12b】
-「Many people took part in the contest, so Daniel was nervous」と書かれています。
+【解説12b】  
+「Many people took part in the contest, so Daniel was nervous」と因果が書かれています。開催場所や年齢・選考者は不安の理由として本文に挙げられていません。
 
 問題12c:
 What did Daniel paint for the contest?
@@ -770,8 +804,8 @@ What did Daniel paint for the contest?
 【正解12c】
 1. A picture of his house.
 
-【解説12c】
-「He painted a picture of his house for the contest」と書かれています。
+【解説12c】  
+「He painted a picture of his house for the contest」と明記されています。家族・学校・クラスメイトの絵とは書かれていません。
 
 問題12d:
 How long did the teachers need to choose the winner?
@@ -785,8 +819,8 @@ How long did the teachers need to choose the winner?
 【正解12d】
 4. Four weeks.
 
-【解説12d】
-「The teachers needed four weeks to choose a winner」と書かれています。
+【解説12d】  
+「The teachers needed four weeks to choose a winner」と数が明示されています。
 
 問題12e:
 After the contest, Daniel was excited to
@@ -800,8 +834,8 @@ After the contest, Daniel was excited to
 【正解12e】
 1. begin taking art lessons.
 
-【解説12e】
-「Daniel was excited to begin taking art lessons」と書かれています。
+【解説12e】  
+父の「you can take art lessons」の後で「excited to begin taking art lessons」と続いており、賞金の使い道や追加コンテストとは本文にありません。
 
 ---
 

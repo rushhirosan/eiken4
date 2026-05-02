@@ -517,8 +517,8 @@ B : It's () .
 ---
 
 問題30:
-A : What time do you () up?  
-B : I usually get up at 7 am.
+A : What time do you () up on school days?
+B : Around seven.
 
 選択肢30:
 1. bring  
@@ -661,7 +661,7 @@ B : Look () your bag again.
 ---
 
 問題38:
-A : Could you () the door, please?  
+A : Could you () the door? My hands are full.
 B : Sure!
 
 選択肢38:
@@ -1156,7 +1156,7 @@ Every Thursday, Jenny gets up ( ) than her parents because she has volleyball pr
 
 問題66:
 A : I’m hungry. Let’s () lunch now.  
-B : Good idea!
+B: Good idea. I already made sandwiches.
 
 選択肢66:
 1. take  
@@ -1168,7 +1168,7 @@ B : Good idea!
 3. eat
 
 【解説66】  
-お腹が空いたので「eat（食べる）」が自然な流れです。「take（取る）」「make（作る）」も文脈によってありえますが、ここでは「食べる」が正解です。
+お腹が空いたので「eat（食べる）」が自然な流れです。「take（取る）」「make（作る）」も文法によってありえますが、ここでは「食べる」が正解です。
 
 ---
 
@@ -1226,20 +1226,20 @@ B : It’s ( ) .
 ---
 
 問題70:
-A : Where is the cat?  
-B : It’s () the table.
+A : Where is the cat?
+B : It’s () the table, near your feet.
 
 選択肢70:
 1. under  
-2. over  
-3. next  
-4. by
+2. on  
+3. in  
+4. behind
 
 【正解70】  
 1. under
 
 【解説70】  
-「under the table」で「テーブルの下」という意味になります。定番表現です。
+「under the table」は「テーブルの下」という意味です。「on the table（テーブルの上）」「in the table（通常は不自然）」「behind the table（テーブルの後ろ）」は位置が異なります。
 
 ---
 
@@ -1266,16 +1266,16 @@ A : Can you () this bag for me while I tie my shoes?
 B : Sure!
 
 選択肢72:
-1. open  
+1. talk
 2. hold  
 3. play  
-4. fix
+4. walk
 
 【正解72】  
 2. hold
 
 【解説72】  
-「靴ひもを結んでいる間、このカバンを持ってくれる？」という文脈により、自然な答えは「hold」です。「open」や「fix」は文脈に合いません。
+「靴ひもを結んでいる間、このカバンを持ってくれる？」という文脈により、自然な答えは「hold」です。「talk」や「walk」は文脈に合いません。
 
 ---
 
@@ -1544,11 +1544,11 @@ B : About 20 minutes.
 ---
 
 問題88:
-We didn’t go swimming because it was ( ) yesterday.
+Yesterday was a very ( ) day.
 
 選択肢88:
 1. rainy  
-2. rain  
+2. rain
 3. rained  
 4. raining
 
@@ -1556,7 +1556,7 @@ We didn’t go swimming because it was ( ) yesterday.
 1. rainy
 
 【解説88】  
-「rainy」は「雨の」という形容詞。「was」の後に形容詞が来るパターンです。
+「rainy」は「雨の」という形容詞。「a very ( ) day」の形では形容詞が必要なので rainy が正解です。  
 
 ---
 
@@ -1578,8 +1578,8 @@ This book is () than the one I read last week.
 ---
 
 問題90:
-A : Which language do you want to () next year at school?  
-B : I want to learn French.
+A: Which language do you want to () this year at school?
+B: French. I can't speak it yet.
 
 選択肢90:
 1. speak  

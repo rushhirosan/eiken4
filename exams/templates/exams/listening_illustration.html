@@ -1,5 +1,6 @@
 {% extends 'accounts/base.html' %}
 {% load static %}
+{% load custom_filters %}
 
 {% block content %}
 <div class="container mt-4">
@@ -64,7 +65,7 @@
                 {% endif %}
                 
                 <div class="mb-3">
-                    <p class="card-text">{{ question_data.question.question_text|linebreaks }}</p>
+                    <p class="card-text">{{ question_data.question.question_text|strip_question_no|linebreaks }}</p>
                 </div>
                 
                 <div class="form-group">

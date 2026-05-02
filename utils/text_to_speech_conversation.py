@@ -149,14 +149,20 @@ async def text_to_speech(text, output_path, voice="en-US-GuyNeural"):
     except Exception as e:
         print(f"エラーが発生しました: {str(e)}")
 
-async def generate_audio_from_file(input_file, output_dir, question_range=None):
+async def generate_audio_from_file(
+    input_file,
+    output_dir,
+    question_range=None,
+    output_prefix='listening_passage_question',
+):
     """
     ファイルから音声を生成する
     
     Args:
-        input_file (str): 入力ファイルのパス
-        output_dir (str): 出力ディレクトリのパス
-        question_range (tuple, optional): 問題範囲 (start, end)
+        input_file (str): 入力テキストのパス
+        output_dir (str): 出力ディレクトリ
+        question_range (tuple, optional): 問題範囲 (start, end)。None で全問
+        output_prefix (str): ファイル名プレフィックス（例: listening_conversation_question）
     """
     # 出力ディレクトリを作成
     os.makedirs(output_dir, exist_ok=True)
@@ -188,8 +194,9 @@ async def generate_audio_from_file(input_file, output_dir, question_range=None):
         # 会話と問題と選択肢を抽出
         conversation_parts, question, choices = extract_conversation_parts(block)
         
-        # 音声ファイル名（passageに変更）
-        output_audio = os.path.join(output_dir, f'listening_passage_question{question_number}.mp3')
+        output_audio = os.path.join(
+            output_dir, f'{output_prefix}{question_number}.mp3'
+        )
         
         # 会話の音声ファイルを作成（順番通り、話者別）
         conversation_audio = os.path.join(output_dir, f'temp_conversation_{question_number}.mp3')
@@ -226,14 +233,22 @@ async def generate_audio_from_file(input_file, output_dir, question_range=None):
         print(f"Processed question {question_number}")
 
 async def main():
-    # 設定
-    input_file = 'data/questions/listening_passage_questions.txt'
-    output_dir = 'static/audio/part3'
-    question_range = (31, 40)  # 31問目から40問目
-    
-    # 音声を生成
-    await generate_audio_from_file(input_file, output_dir, question_range)
-    print("音声生成が完了しました。")
+    """第2部・第3部を全問再生成（Question No. は読み上げテキストから除外済み）。"""
+    await generate_audio_from_file(
+        'data/questions/listening_conversation_questions.txt',
+        'static/audio/part2',
+        question_range=None,
+        output_prefix='listening_conversation_question',
+    )
+    print('--- 第2部 完了 ---')
+    await generate_audio_from_file(
+        'data/questions/listening_passage_questions.txt',
+        'static/audio/part3',
+        question_range=None,
+        output_prefix='listening_passage_question',
+    )
+    print('--- 第3部 完了 ---')
+    print('音声生成が完了しました。')
 
 if __name__ == "__main__":
     asyncio.run(main()) 

@@ -1,5 +1,6 @@
 {% extends 'accounts/base.html' %}
 {% load static %}
+{% load custom_filters %}
 
 {% block content %}
 <div class="container mt-5">
@@ -9,9 +10,9 @@
         <div class="card-body">
             <h5 class="card-title">問題文</h5>
             {% if question.question_type == 'listening_illustration' %}
-            <p class="card-text">No.{{ question.question_number }}</p>
+            <p class="card-text" lang="en">Question{% if question.question_number %} <span class="text-muted small" aria-hidden="true">(#{{ question.question_number }})</span>{% endif %}</p>
             {% else %}
-            <p class="card-text">{{ question.question_text|linebreaks }}</p>
+            <p class="card-text">{{ question.question_text|strip_question_no|linebreaks }}</p>
             {% endif %}
 
             {% if question.question_type == 'listening_conversation' or question.question_type == 'listening_passage' %}
@@ -65,7 +66,7 @@
             {% if question.listening_text and question.question_type != 'listening_illustration' %}
             <div class="alert alert-info">
                 <strong>音声内容:</strong><br>
-                {{ question.listening_text|linebreaks }}
+                {{ question.listening_text|strip_question_no|linebreaks }}
             </div>
             {% endif %}
         </div>

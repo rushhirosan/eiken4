@@ -1,5 +1,6 @@
 {% extends 'accounts/base.html' %}
 {% load static %}
+{% load custom_filters %}
 
 {% block content %}
 <div class="container mt-5">
@@ -54,7 +55,7 @@
                         
                         <!-- 会話文 -->
                         <div class="mb-3">
-                            {{ question.question.listening_text|linebreaks }}
+                            {{ question.question.listening_text|strip_question_no|linebreaks }}
                         </div>
                         
                         <!-- 音声再生 -->
