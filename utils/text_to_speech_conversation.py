@@ -232,6 +232,80 @@ async def generate_audio_from_file(
                 
         print(f"Processed question {question_number}")
 
+
+async def generate_illustration_audio_from_file(
+    input_file,
+    output_dir,
+    question_range=None,
+):
+    """
+    リスニング第1部（イラスト問題）の音声を生成する。
+
+    第2部・第3部と同じく「会話 → 1秒無音 → 質問」のみ（選択肢は音声に含めない）。
+    会話は M/W で話者別（Edge TTS）、セリフ間に短い無音。「Question No.xx」は読まず Question のみ。
+    """
+    os.makedirs(output_dir, exist_ok=True)
+
+    with open(input_file, 'r', encoding='utf-8') as f:
+        content = f.read()
+
+    question_blocks = content.split('---')
+
+    for block in question_blocks:
+        if not block.strip():
+            continue
+
+        number_match = re.search(r'No\.(\d+):', block)
+        if not number_match:
+            continue
+
+        question_number = int(number_match.group(1))
+
+        if question_range:
+            start_num, end_num = question_range
+            if question_number < start_num or question_number > end_num:
+                continue
+
+        conversation_parts, question, _choices = extract_conversation_parts(block)
+
+        output_audio = os.path.join(
+            output_dir, f'listening_illustration_question{question_number}.mp3'
+        )
+        conversation_audio = os.path.join(
+            output_dir, f'temp_conversation_{question_number}.mp3'
+        )
+
+        audio_segments = []
+        silence = AudioSegment.silent(duration=500)
+
+        for speaker, text in conversation_parts:
+            temp_audio = os.path.join(
+                output_dir, f'temp_{speaker}_{question_number}.mp3'
+            )
+            voice = "en-US-GuyNeural" if speaker == 'M' else "en-US-JennyNeural"
+            print(f"Illustration {question_number} - {speaker}: {text}")
+            await text_to_speech(text, temp_audio, voice)
+
+            if os.path.exists(temp_audio):
+                audio_segments.append(AudioSegment.from_mp3(temp_audio))
+                audio_segments.append(silence)
+                os.remove(temp_audio)
+
+        if audio_segments:
+            combined_conversation = sum(audio_segments)
+            combined_conversation.export(conversation_audio, format="mp3")
+
+        question_audio = os.path.join(
+            output_dir, f'temp_question_{question_number}.mp3'
+        )
+        print(f"Illustration {question_number} - Question text: {question}")
+        await text_to_speech(question, question_audio, "en-US-GuyNeural")
+
+        combine_audio_files(conversation_audio, question_audio, output_audio)
+
+        print(f"Illustration question {question_number} done -> {output_audio}")
+
+
 async def main():
     """第2部・第3部を全問再生成（Question No. は読み上げテキストから除外済み）。"""
     await generate_audio_from_file(
