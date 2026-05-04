@@ -241,8 +241,11 @@ async def generate_illustration_audio_from_file(
     """
     リスニング第1部（イラスト問題）の音声を生成する。
 
-    第2部・第3部と同じく「会話 → 1秒無音 → 質問」のみ（選択肢は音声に含めない）。
+    会話 → 1秒無音 → 質問 → 1秒無音 → 選択肢（あれば）。
     会話は M/W で話者別（Edge TTS）、セリフ間に短い無音。「Question No.xx」は読まず Question のみ。
+
+    選択肢テキストは extract_conversation_parts の第3戻り値（既に join 済みの str）をそのまま
+    TTS に渡す。list と誤って再度 join すると1文字ずつ読み上げになるため禁止。
     """
     os.makedirs(output_dir, exist_ok=True)
 
@@ -266,7 +269,9 @@ async def generate_illustration_audio_from_file(
             if question_number < start_num or question_number > end_num:
                 continue
 
-        conversation_parts, question, _choices = extract_conversation_parts(block)
+        conversation_parts, question, choices_text = extract_conversation_parts(
+            block
+        )
 
         output_audio = os.path.join(
             output_dir, f'listening_illustration_question{question_number}.mp3'
@@ -301,7 +306,18 @@ async def generate_illustration_audio_from_file(
         print(f"Illustration {question_number} - Question text: {question}")
         await text_to_speech(question, question_audio, "en-US-GuyNeural")
 
-        combine_audio_files(conversation_audio, question_audio, output_audio)
+        ct = (choices_text or "").strip()
+        if ct:
+            choices_audio = os.path.join(
+                output_dir, f'temp_choices_{question_number}.mp3'
+            )
+            print(f"Illustration {question_number} - Choices:\n{ct}")
+            await text_to_speech(ct, choices_audio, "en-US-GuyNeural")
+            combine_audio_files_with_choices(
+                conversation_audio, question_audio, choices_audio, output_audio
+            )
+        else:
+            combine_audio_files(conversation_audio, question_audio, output_audio)
 
         print(f"Illustration question {question_number} done -> {output_audio}")
 

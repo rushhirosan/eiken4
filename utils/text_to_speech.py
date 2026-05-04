@@ -3,7 +3,8 @@
 リスニング第1部（イラスト問題）の音声生成エントリポイント。
 
 会話は M/W で話者分けし、セリフ間に無音を挟む（第2・第3部と同じ Edge TTS パイプライン）。
-出力は会話＋質問のみ（選択肢は含めない）。「Question No.xx」は読まず Question のみ。
+会話 → 質問 → 選択肢の順で結合（選択肢は extract の join 済み文字列をそのまま TTS）。
+「Question No.xx」は読まず Question のみ。
 """
 import asyncio
 import os
