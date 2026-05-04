@@ -1,151 +1,161 @@
 {% extends 'accounts/base.html' %}
 {% load static %}
 
-{% block title %}英検4級対策問題 - 無料で練習できる英検学習サイト{% endblock %}
+{% block title %}英検対策問題 - 無料で練習できる英検学習サイト{% endblock %}
 
 {% block content %}
-<div class="container">
+<div class="container exam-list-compact">
     <div class="row justify-content-center">
         <div class="col-lg-10">
-            <div class="text-center mb-5">
-                <h1 class="display-4 fw-bold text-white mb-3">
-                    <i class="fas fa-graduation-cap me-3"></i>
+            <div class="text-center mb-2 exam-list-hero">
+                <h1 class="fw-bold text-white mb-1 exam-list-title">
+                    <i class="fas fa-graduation-cap me-2"></i>
                     英検試験対策
                 </h1>
-                <p class="lead text-white-50">英検4級の対策問題で実力を向上させましょう</p>
-                <p class="text-white-50 small">ベータ版です、不具合等々あるかもしれません、フィードバックお寄せください</p>
+                <p class="lead text-white-50 mb-1 small-md-lead">級を選んで対策問題で実力を向上させましょう</p>
+                <p class="text-white-50 small mb-0 opacity-75">ベータ版です、不具合等々あるかもしれません、フィードバックお寄せください</p>
+            </div>
+
+            <div class="text-center mb-2 px-2 exam-level-bar">
+                <p class="text-white-50 small mb-1">試験級を選んでください</p>
+                <div class="d-flex flex-wrap justify-content-center gap-2 exam-level-switch" role="tablist" aria-label="試験級">
+                    {% for section in exam_sections %}
+                    <button type="button"
+                            class="btn px-3 py-2 exam-level-tab{% if forloop.first %} active{% endif %}"
+                            id="tab-level-{{ section.level_code }}"
+                            data-panel-id="level-panel-{{ section.level_code }}"
+                            aria-selected="{% if forloop.first %}true{% else %}false{% endif %}">
+                        {{ section.level_name }}
+                    </button>
+                    {% endfor %}
+                </div>
             </div>
             
-            {% for level_code, level_name in levels %}
-            <div class="card mb-5">
-                <div class="card-header text-center py-4">
-                    <h2 class="mb-0">
-                        <i class="fas fa-star me-2"></i>
-                        英検4級
-                    </h2>
-                    <p class="mb-0 mt-2 opacity-75">英検4級の対策問題です</p>
+            {% for section in exam_sections %}
+            <div id="level-panel-{{ section.level_code }}"
+                 class="card mb-3 exam-level-panel exam-list-card exam-format-panel border-0 shadow overflow-hidden{% if not forloop.first %} d-none{% endif %}">
+                <div class="exam-format-panel-header text-center py-3 px-3">
+                    <h4 class="mb-0 h5 text-white">
+                        <i class="fas fa-tasks me-2"></i>
+                        問題形式を選択
+                    </h4>
                 </div>
-                <div class="card-body p-4">
-                    <div class="mb-4">
-                        <h4 class="text-center mb-4">
-                            <i class="fas fa-tasks me-2"></i>
-                            問題形式を選択
-                        </h4>
-                        
+                <div class="card-body exam-format-panel-body bg-white p-4">
+                    <div class="mb-0">
                         <!-- 基本問題 -->
-                        <div class="row mb-4">
+                        <div class="row mb-4 g-3">
                             <div class="col-12">
-                                <h5 class="text-muted mb-3">
+                                <h5 class="exam-format-section-label mb-2 h6 fw-semibold">
                                     <i class="fas fa-book me-2"></i>
                                     基本問題
                                 </h5>
                             </div>
-                            <div class="col-md-6 mb-3">
-                                <a href="{% url 'exams:question_list_by_level' level=level_code %}?type=grammar_fill" 
-                                   class="btn btn-outline-primary w-100 py-3">
+                            <div class="col-md-6">
+                                <a href="{% url 'exams:question_list_by_level' level=section.level_code %}?type=grammar_fill" 
+                                   class="btn btn-light shadow-sm text-dark w-100 py-2">
                                     <i class="fas fa-language me-2"></i>
-                                    文法・語彙問題（{{ question_counts.grammar_fill }}問）
+                                    文法・語彙問題（{{ section.question_counts.grammar_fill }}問）
                                 </a>
                             </div>
-                            <div class="col-md-6 mb-3">
-                                <a href="{% url 'exams:question_list_by_level' level=level_code %}?type=conversation_fill" 
-                                   class="btn btn-outline-primary w-100 py-3">
+                            <div class="col-md-6">
+                                <a href="{% url 'exams:question_list_by_level' level=section.level_code %}?type=conversation_fill" 
+                                   class="btn btn-light shadow-sm text-dark w-100 py-2">
                                     <i class="fas fa-comments me-2"></i>
-                                    会話補充問題（{{ question_counts.conversation_fill }}問）
+                                    会話補充問題（{{ section.question_counts.conversation_fill }}問）
                                 </a>
                             </div>
-                            <div class="col-md-6 mb-3">
-                                <a href="{% url 'exams:question_list_by_level' level=level_code %}?type=word_order" 
-                                   class="btn btn-outline-primary w-100 py-3">
+                            <div class="col-md-6">
+                                <a href="{% url 'exams:question_list_by_level' level=section.level_code %}?type=word_order" 
+                                   class="btn btn-light shadow-sm text-dark w-100 py-2">
                                     <i class="fas fa-sort-alpha-down me-2"></i>
-                                    語順選択問題（{{ question_counts.word_order }}問）
+                                    語順選択問題（{{ section.question_counts.word_order }}問）
                                 </a>
                             </div>
-                            <div class="col-md-6 mb-3">
-                                <a href="{% url 'exams:question_list_by_level' level=level_code %}?type=reading_comprehension" 
-                                   class="btn btn-outline-primary w-100 py-3">
+                            <div class="col-md-6">
+                                <a href="{% url 'exams:question_list_by_level' level=section.level_code %}?type=reading_comprehension" 
+                                   class="btn btn-light shadow-sm text-dark w-100 py-2">
                                     <i class="fas fa-book-open me-2"></i>
-                                    長文読解問題（{{ question_counts.reading_comprehension }}本文）
+                                    長文読解問題（{{ section.question_counts.reading_comprehension }}本文）
                                 </a>
                             </div>
                         </div>
                         
                         <!-- リスニング問題 -->
-                        <div class="row mb-4">
+                        <div class="row mb-4 g-3">
                             <div class="col-12">
-                                <h5 class="text-muted mb-3">
+                                <h5 class="exam-format-section-label mb-2 h6 fw-semibold">
                                     <i class="fas fa-headphones me-2"></i>
                                     リスニング問題
                                 </h5>
                             </div>
-                            <div class="col-lg-4 col-md-6 mb-3">
-                                <a href="{% url 'exams:question_list_by_level' level=level_code %}?type=listening_illustration" 
-                                   class="btn btn-outline-primary w-100 py-3" style="white-space: nowrap;">
+                            <div class="col-lg-4 col-md-6">
+                                <a href="{% url 'exams:question_list_by_level' level=section.level_code %}?type=listening_illustration" 
+                                   class="btn btn-light shadow-sm text-dark w-100 py-2" style="white-space: nowrap;">
                                     <i class="fas fa-image me-2"></i>
-                                    第1部: イラスト問題（{{ question_counts.listening_illustration }}問）
+                                    第1部: イラスト問題（{{ section.question_counts.listening_illustration }}問）
                                 </a>
                             </div>
-                            <div class="col-lg-4 col-md-6 mb-3">
-                                <a href="{% url 'exams:question_list_by_level' level=level_code %}?type=listening_conversation" 
-                                   class="btn btn-outline-primary w-100 py-3" style="white-space: nowrap;">
+                            <div class="col-lg-4 col-md-6">
+                                <a href="{% url 'exams:question_list_by_level' level=section.level_code %}?type=listening_conversation" 
+                                   class="btn btn-light shadow-sm text-dark w-100 py-2" style="white-space: nowrap;">
                                     <i class="fas fa-users me-2"></i>
-                                    第2部: 会話問題（{{ question_counts.listening_conversation }}問）
+                                    第2部: 会話問題（{{ section.question_counts.listening_conversation }}問）
                                 </a>
                             </div>
-                            <div class="col-lg-4 col-md-12 mb-3">
-                                <a href="{% url 'exams:question_list_by_level' level=level_code %}?type=listening_passage" 
-                                   class="btn btn-outline-primary w-100 py-3" style="white-space: nowrap;">
+                            <div class="col-lg-4 col-md-12">
+                                <a href="{% url 'exams:question_list_by_level' level=section.level_code %}?type=listening_passage" 
+                                   class="btn btn-light shadow-sm text-dark w-100 py-2" style="white-space: nowrap;">
                                     <i class="fas fa-file-alt me-2"></i>
-                                    第3部: 文章問題（{{ question_counts.listening_passage }}問）
+                                    第3部: 文章問題（{{ section.question_counts.listening_passage }}問）
                                 </a>
                             </div>
                         </div>
                         
                         <!-- 総合問題 -->
-                        <div class="row">
+                        <div class="row g-3">
                             <div class="col-12">
-                                <h5 class="text-muted mb-3">
+                                <h5 class="exam-format-section-label mb-2 h6 fw-semibold">
                                     <i class="fas fa-trophy me-2"></i>
                                     総合問題
                                 </h5>
-                    </div>
-                            <div class="col-md-6 mb-3">
-                                <a href="{% if unlock_status.random.is_unlocked %}{% url 'exams:question_list_by_level' level=level_code %}?type=random{% else %}#{% endif %}" 
-                                   class="btn {% if unlock_status.random.is_unlocked %}btn-primary{% else %}btn-outline-secondary disabled{% endif %} w-100 py-4"
-                                   {% if not unlock_status.random.is_unlocked %}aria-disabled="true" tabindex="-1"{% endif %}>
+                            </div>
+                            <div class="col-md-6">
+                                <a href="{% if section.unlock_status.random.is_unlocked %}{% url 'exams:question_list_by_level' level=section.level_code %}?type=random{% else %}#{% endif %}" 
+                                   class="btn {% if section.unlock_status.random.is_unlocked %}btn-light text-primary fw-semibold border shadow-sm{% else %}btn-outline-secondary disabled opacity-50{% endif %} w-100 py-3"
+                                   {% if not section.unlock_status.random.is_unlocked %}aria-disabled="true" tabindex="-1"{% endif %}>
                                     <i class="fas fa-random me-2"></i>
                                     ランダム10問
                                     <br>
-                                    {% if unlock_status.random.is_unlocked %}
+                                    {% if section.unlock_status.random.is_unlocked %}
                                     <small class="opacity-75">様々な問題形式から出題</small>
                                     {% else %}
                                     <small class="opacity-75">
                                         解放条件: 基本問題3カテゴリで取り組み率20%以上
-                                        （{{ unlock_status.random.ready_count }}/{{ unlock_status.random.required_count }}カテゴリ達成）
+                                        （{{ section.unlock_status.random.ready_count }}/{{ section.unlock_status.random.required_count }}カテゴリ達成）
                                     </small>
                                     {% endif %}
                                 </a>
-                </div>
-                            <div class="col-md-6 mb-3">
-                                <a href="{% if unlock_status.mock_exam.is_unlocked %}{% url 'exams:question_list_by_level' level=level_code %}?type=mock_exam{% else %}#{% endif %}" 
-                                   class="btn {% if unlock_status.mock_exam.is_unlocked %}btn-success{% else %}btn-outline-secondary disabled{% endif %} w-100 py-4"
-                                   {% if not unlock_status.mock_exam.is_unlocked %}aria-disabled="true" tabindex="-1"{% endif %}>
+                            </div>
+                            <div class="col-md-6">
+                                <a href="{% if section.unlock_status.mock_exam.is_unlocked %}{% url 'exams:question_list_by_level' level=section.level_code %}?type=mock_exam{% else %}#{% endif %}" 
+                                   class="btn {% if section.unlock_status.mock_exam.is_unlocked %}btn-success shadow{% else %}btn-outline-light disabled opacity-50{% endif %} w-100 py-3"
+                                   {% if not section.unlock_status.mock_exam.is_unlocked %}aria-disabled="true" tabindex="-1"{% endif %}>
                                     <i class="fas fa-clipboard-list me-2"></i>
                                     模擬試験問題
                                     <br>
-                                    {% if unlock_status.mock_exam.is_unlocked %}
+                                    {% if section.unlock_status.mock_exam.is_unlocked %}
                                     <small class="opacity-75">本番形式の総合問題</small>
                                     {% else %}
                                     <small class="opacity-75">解放条件: 基本問題の各カテゴリで取り組み率80%以上</small>
                                     {% endif %}
                                     </a>
                                 </div>
-                            {% if not unlock_status.mock_exam.is_unlocked and unlock_status.mock_exam.remaining_categories %}
+                            {% if not section.unlock_status.mock_exam.is_unlocked and section.unlock_status.mock_exam.remaining_categories %}
                             <div class="col-12">
-                                <div class="alert alert-secondary mb-0 py-2 px-3 small">
+                                <div class="alert alert-light border-0 mb-0 py-2 px-3 small shadow-sm">
                                     <div class="fw-semibold mb-1">模擬試験の解放まで（各カテゴリ80%以上が必要）</div>
                                     <ul class="mb-0 ps-3">
-                                        {% for item in unlock_status.mock_exam.remaining_categories %}
+                                        {% for item in section.unlock_status.mock_exam.remaining_categories %}
                                         <li>
                                             {{ item.display_name }}: あと{{ item.remaining_rate|floatformat:0 }}%
                                             （現在 {{ item.progress_rate|floatformat:0 }}%）
@@ -164,7 +174,117 @@
     </div>
 </div>
 
+<script>
+(function () {
+    var storageKey = 'exam_list_level';
+    var tabs = document.querySelectorAll('.exam-level-tab');
+    var panels = document.querySelectorAll('.exam-level-panel');
+
+    function showPanel(panelId) {
+        panels.forEach(function (p) {
+            if (p.id === panelId) {
+                p.classList.remove('d-none');
+            } else {
+                p.classList.add('d-none');
+            }
+        });
+        tabs.forEach(function (t) {
+            var match = t.getAttribute('data-panel-id') === panelId;
+            t.classList.toggle('active', match);
+            t.setAttribute('aria-selected', match ? 'true' : 'false');
+        });
+        try {
+            if (panelId && panelId.indexOf('level-panel-') === 0) {
+                sessionStorage.setItem(storageKey, panelId.replace('level-panel-', ''));
+            }
+        } catch (e) {}
+    }
+
+    tabs.forEach(function (tab) {
+        tab.addEventListener('click', function () {
+            showPanel(tab.getAttribute('data-panel-id'));
+        });
+    });
+
+    try {
+        var saved = sessionStorage.getItem(storageKey);
+        if (saved) {
+            var pid = 'level-panel-' + saved;
+            if (document.getElementById(pid)) {
+                showPanel(pid);
+            }
+        }
+    } catch (e) {}
+})();
+</script>
+
 <style>
+.exam-level-tab {
+    border: 2px solid rgba(255, 255, 255, 0.55);
+    color: rgba(255, 255, 255, 0.95);
+    background: transparent;
+    font-weight: 600;
+}
+.exam-level-tab:hover {
+    background: rgba(255, 255, 255, 0.12);
+    color: #fff;
+}
+.exam-level-tab.active {
+    background: #fff;
+    color: #212529;
+    border-color: #fff;
+}
+
+/* 試験一覧のみ: main の上下パディングを詰める（このページにインライン style があるときだけ有効） */
+body main.container {
+    padding-top: 0.35rem !important;
+    padding-bottom: 1rem !important;
+}
+@media (min-width: 768px) {
+    body main.container {
+        padding-top: 0.5rem !important;
+    }
+}
+
+.exam-list-compact {
+    margin-top: -0.35rem;
+}
+
+.exam-list-title {
+    font-size: clamp(1.45rem, 4vw, 2.15rem);
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.exam-list-hero .lead {
+    font-size: 1rem;
+}
+
+@media (min-width: 576px) {
+    .exam-list-hero .lead {
+        font-size: 1.1rem;
+    }
+}
+
+/* 問題形式パネル: 見出しだけ青、本文は白（以前のボタン見た目に寄せる） */
+.exam-format-panel {
+    background: #fff;
+    border-radius: 1rem;
+}
+
+.exam-format-panel-header {
+    background: linear-gradient(165deg, #2a4a9e 0%, #355fc9 42%, #2e4fae 100%);
+    border-radius: 1rem 1rem 0 0;
+}
+
+.exam-format-panel-body {
+    border-radius: 0 0 1rem 1rem;
+}
+
+.exam-format-section-label {
+    color: #343a40;
+    letter-spacing: 0.02em;
+}
+
 .display-4 {
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
 }
@@ -203,6 +323,15 @@
     box-shadow: 0 30px 60px rgba(0, 0, 0, 0.15);
 }
 
+.exam-list-compact .exam-list-card:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 14px 36px rgba(0, 0, 0, 0.12);
+}
+
+.exam-format-panel .btn-light:hover {
+    filter: brightness(1.02);
+}
+
 /* モバイル最適化 */
 @media (max-width: 768px) {
     .display-4 {
@@ -212,12 +341,22 @@
     .lead {
         font-size: 1rem;
     }
+
+    .exam-list-hero .lead.small-md-lead {
+        font-size: 0.92rem;
+    }
     
     .btn {
         margin-bottom: 0.5rem;
         min-height: 44px;
         padding: 0.75rem 1rem;
         font-size: 0.95rem;
+    }
+
+    .exam-list-compact .exam-level-tab {
+        min-height: 2.6rem;
+        padding-top: 0.35rem;
+        padding-bottom: 0.35rem;
     }
     
     .card {

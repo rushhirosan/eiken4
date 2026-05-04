@@ -83,13 +83,12 @@ def _is_correct_listening_illustration_answer(question, selected_answer):
 
 @login_required
 def exam_list(request):
-    """試験一覧を表示"""
-    # 級の定義（Grade 4のみ）
-    levels = [
-        ('4', 'Grade 4'),
+    """試験一覧を表示（級ごとのカード）"""
+    level_entries = [
+        ('4', '英検4級'),
+        ('3', '英検3級'),
     ]
-    
-    # 問題タイプの定義
+
     question_types = {
         'grammar_fill': '文法・語彙問題',
         'conversation_fill': '会話補充問題',
@@ -101,27 +100,25 @@ def exam_list(request):
         'random': 'ランダム10問',
         'mock_exam': '模擬試験問題',
     }
-    
-    # Grade 4の問題数を取得
-    question_counts = {}
-    for q_type in question_types.keys():
-        if q_type == 'listening_illustration':
-            count = ListeningQuestion.objects.filter(level='4').count()
-        elif q_type == 'reading_comprehension':
-            count = ReadingPassage.objects.filter(level='4').count()
-        else:
-            count = Question.objects.filter(level='4', question_type=q_type).count()
-        question_counts[q_type] = count
-    
-    unlock_status = _build_exam_unlock_status(request.user, '4')
+
+    exam_sections = []
+    for level_code, level_name in level_entries:
+        question_counts = {
+            q_type: _total_questions_for_type(level_code, q_type)
+            for q_type in question_types.keys()
+        }
+        exam_sections.append({
+            'level_code': level_code,
+            'level_name': level_name,
+            'question_counts': question_counts,
+            'unlock_status': _build_exam_unlock_status(request.user, level_code),
+        })
 
     context = {
-        'levels': levels,
         'question_types': question_types,
-        'question_counts': question_counts,
-        'unlock_status': unlock_status,
+        'exam_sections': exam_sections,
     }
-    
+
     return render(request, 'exams/exam_list.html', context)
 
 @login_required

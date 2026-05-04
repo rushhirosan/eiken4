@@ -1,17 +1,764 @@
 問題1:
-(LEVEL3 TEMPLATE) Fill in ( ).
-Dummy sentence for registration test.
+A : Mom, I ate my sandwich, but I’m still hungry. B: OK. Wait a minute. I’ll make you ( ) one.
 
 選択肢1:
-1. one
-2. two
-3. three
-4. four
+1. another
+2. near
+3. every
+4. much
 
 【正解1】
-1. one
+1. another
 
 【解説1】
-3級用テンプレ（ダミー）。実データで差し替えること。
+公式一次試験の解答（協会発表の解答速報PDF）に基づく。
+
+---
+
+問題2:
+A : Do you know where the library is? B: It’s ( ) the post ofﬁce.
+
+選択肢2:
+1. during
+2. of
+3. until
+4. beside
+
+【正解2】
+4. beside
+
+【解説2】
+公式一次試験の解答（協会発表の解答速報PDF）に基づく。
+
+---
+
+問題3:
+( ) by scientists shows that global warming is a big problem.
+
+選択肢3:
+1. Research
+2. Energy
+3. Environment
+4. Danger
+
+【正解3】
+1. Research
+
+【解説3】
+公式一次試験の解答（協会発表の解答速報PDF）に基づく。
+
+---
+
+問題4:
+John has an ( ) tomorrow. He hopes to get a new job.
+
+選択肢4:
+1. interview
+2. airport
+3. example
+4. excuse
+
+【正解4】
+4. excuse
+
+【解説4】
+公式一次試験の解答（協会発表の解答速報PDF）に基づく。
+
+---
+
+問題5:
+The road was closed yesterday because there was an ( ).
+
+選択肢5:
+1. accident
+2. appointment
+3. apartment
+4. address
+
+【正解5】
+1. accident
+
+【解説5】
+公式一次試験の解答（協会発表の解答速報PDF）に基づく。
+
+---
+
+問題6:
+A : What should I do with this ( ) bottle? B: We can recycle it.
+
+選択肢6:
+1. glad
+2. empty
+3. different
+4. serious
+
+【正解6】
+1. glad
+
+【解説6】
+公式一次試験の解答（協会発表の解答速報PDF）に基づく。
+
+---
+
+問題7:
+This morning, Pat took a ( ) medicine for his stomachache, but it didn’t get better. He took some more later.
+
+選択肢7:
+1. little
+2. lot
+3. most
+4. much
+
+【正解7】
+4. much
+
+【解説7】
+公式一次試験の解答（協会発表の解答速報PDF）に基づく。
+
+---
+
+問題8:
+A : Can you ( ) down the radio, please? B: OK.
+
+選択肢8:
+1. turn
+2. get
+3. go
+4. make
+
+【正解8】
+4. make
+
+【解説8】
+公式一次試験の解答（協会発表の解答速報PDF）に基づく。
+
+---
+
+問題9:
+A : Where do you want to meet, Kate? B: Let’s meet ( ) front of the ﬂower shop.
+
+選択肢9:
+1. on
+2. for
+3. in
+4. to
+
+【正解9】
+4. to
+
+【解説9】
+公式一次試験の解答（協会発表の解答速報PDF）に基づく。
+
+---
+
+問題10:
+Mr. Ford often buys a newspaper at the station in the morning ( ) his way to work.
+
+選択肢10:
+1. at
+2. by
+3. on
+4. to
+
+【正解10】
+2. by
+
+【解説10】
+公式一次試験の解答（協会発表の解答速報PDF）に基づく。
+
+---
+
+問題11:
+A : Good luck, Jim. Do your ( ) in the baseball game. B: I will, Dad.
+
+選択肢11:
+1. best
+2. widest
+3. longest
+4. deepest
+
+【正解11】
+1. best
+
+【解説11】
+公式一次試験の解答（協会発表の解答速報PDF）に基づく。
+
+---
+
+問題12:
+Mr. Jones has a meeting at 5:00. He has to leave ( ) now.
+
+選択肢12:
+1. right
+2. some
+3. very
+4. also
+
+【正解12】
+1. right
+
+【解説12】
+公式一次試験の解答（協会発表の解答速報PDF）に基づく。
+
+---
+
+問題13:
+A : Was this picture ( ) in Australia? B: Yes. My father sent it to me when he was working there.
+
+選択肢13:
+1. take
+2. took
+3. taking
+4. taken
+
+【正解13】
+3. taking
+
+【解説13】
+公式一次試験の解答（協会発表の解答速報PDF）に基づく。
+
+---
+
+問題14:
+A : Mom, have you ( ) the mail yet today? B: Yes. You got a letter from Aunt Jen.
+
+選択肢14:
+1. check
+2. checking
+3. to check
+4. checked
+
+【正解14】
+3. to check
+
+【解説14】
+公式一次試験の解答（協会発表の解答速報PDF）に基づく。
+
+---
+
+問題15:
+A : Was it hot in Vancouver during your trip? B: No, it was ( ) than my hometown.
+
+選択肢15:
+1. cooling
+2. cooler
+3. coolest
+4. cool
+
+【正解15】
+2. cooler
+
+【解説15】
+公式一次試験の解答（協会発表の解答速報PDF）に基づく。
+
+---
+
+問題16:
+A : Can I borrow your book? B: Sure. I’ll ( ) it to you, but please give it back to me next week.
+
+選択肢16:
+1. lend
+2. catch
+3. cost
+4. close
+
+【正解16】
+1. lend
+
+【解説16】
+公式一次試験の解答（協会発表の解答速報PDF）に基づく。
+
+---
+
+問題17:
+A : This pool is so ( ) that I can’t see the bottom. B: Don’t get into it. It can be dangerous.
+
+選択肢17:
+1. high
+2. cold
+3. short
+4. deep
+
+【正解17】
+3. short
+
+【解説17】
+公式一次試験の解答（協会発表の解答速報PDF）に基づく。
+
+---
+
+問題18:
+A : What was my ( ) score on the test, Ms. Green? B: It was 80 points, John.
+
+選択肢18:
+1. quick
+2. clean
+3. happy
+4. total
+
+【正解18】
+1. quick
+
+【解説18】
+公式一次試験の解答（協会発表の解答速報PDF）に基づく。
+
+---
+
+問題19:
+A : Let’s go to the new ( ) and see the ﬁsh. B: Good idea! I want to see the dolphins.
+
+選択肢19:
+1. aquarium
+2. cafeteria
+3. stadium
+4. university
+
+【正解19】
+1. aquarium
+
+【解説19】
+公式一次試験の解答（協会発表の解答速報PDF）に基づく。
+
+---
+
+問題20:
+Mr. Yamamoto is a very busy man. He doesn’t have ( ) time to read newspapers.
+
+選択肢20:
+1. many
+2. high
+3. enough
+4. little
+
+【正解20】
+2. high
+
+【解説20】
+公式一次試験の解答（協会発表の解答速報PDF）に基づく。
+
+---
+
+問題21:
+A : It’s getting cold. Do you need a ( )? B: Yes, please.
+
+選択肢21:
+1. cousin
+2. bottle
+3. blanket
+4. castle
+
+【正解21】
+2. bottle
+
+【解説21】
+公式一次試験の解答（協会発表の解答速報PDF）に基づく。
+
+---
+
+問題22:
+Yumi ( ) a video of her dance class. She sent it to her grandfather.
+
+選択肢22:
+1. recorded
+2. opened
+3. painted
+4. celebrated
+
+【正解22】
+2. opened
+
+【解説22】
+公式一次試験の解答（協会発表の解答速報PDF）に基づく。
+
+---
+
+問題23:
+A : Did you ask your boss about the new project? B: Not yet. She’s always in a ( ), so I never have a chance to talk to her.
+
+選択肢23:
+1. hurry
+2. promise
+3. calendar
+4. package
+
+【正解23】
+1. hurry
+
+【解説23】
+公式一次試験の解答（協会発表の解答速報PDF）に基づく。
+
+---
+
+問題24:
+Jenny saw her grandparents ( ) the ﬁrst time in years. She missed them very much.
+
+選択肢24:
+1. for
+2. from
+3. out
+4. over
+
+【正解24】
+4. over
+
+【解説24】
+公式一次試験の解答（協会発表の解答速報PDF）に基づく。
+
+---
+
+問題25:
+Jeff plays video games ( ) the time, so his mother always gets angry with him.
+
+選択肢25:
+1. both
+2. all
+3. that
+4. our
+
+【正解25】
+4. our
+
+【解説25】
+公式一次試験の解答（協会発表の解答速報PDF）に基づく。
+
+---
+
+問題26:
+Tim was ( ) from school for a week because he was sick, but he feels much better now.
+
+選択肢26:
+1. silent
+2. narrow
+3. straight
+4. absent
+
+【正解26】
+2. narrow
+
+【解説26】
+公式一次試験の解答（協会発表の解答速報PDF）に基づく。
+
+---
+
+問題27:
+Yuki was looking ( ) to going to the concert with her friends.
+
+選択肢27:
+1. right
+2. forward
+3. up
+4. after
+
+【正解27】
+1. right
+
+【解説27】
+公式一次試験の解答（協会発表の解答速報PDF）に基づく。
+
+---
+
+問題28:
+A : Do you have anything ( )? B: Yes. I have some tea.
+
+選択肢28:
+1. drank
+2. drinking
+3. to drink
+4. drinks
+
+【正解28】
+2. drinking
+
+【解説28】
+公式一次試験の解答（協会発表の解答速報PDF）に基づく。
+
+---
+
+問題29:
+Nancy is happy because the tomato plant she has ( ) in her garden is very big.
+
+選択肢29:
+1. grown
+2. grew
+3. grow
+4. grows
+
+【正解29】
+1. grown
+
+【解説29】
+公式一次試験の解答（協会発表の解答速報PDF）に基づく。
+
+---
+
+問題30:
+A : Bob, you walked the dog, ( ) you? B: No, Mom. I’ll do it after dinner.
+
+選択肢30:
+1. weren’t
+2. couldn’t
+3. didn’t
+4. shouldn’t
+
+【正解30】
+4. shouldn’t
+
+【解説30】
+公式一次試験の解答（協会発表の解答速報PDF）に基づく。
+
+---
+
+問題31:
+A : Who takes part in the Olympic Games? B: Many famous ( ) from around the world.
+
+選択肢31:
+1. passengers
+2. travelers
+3. animals
+4. athletes
+
+【正解31】
+1. passengers
+
+【解説31】
+公式一次試験の解答（協会発表の解答速報PDF）に基づく。
+
+---
+
+問題32:
+A : Our trip plan looks ( ). B: Yes. I’m really looking forward to it.
+
+選択肢32:
+1. poor
+2. cold
+3. perfect
+4. slow
+
+【正解32】
+3. perfect
+
+【解説32】
+公式一次試験の解答（協会発表の解答速報PDF）に基づく。
+
+---
+
+問題33:
+A : When you get off the train, please ( ) the signs to the exit. B: OK.
+
+選択肢33:
+1. spend
+2. reach
+3. meet
+4. follow
+
+【正解33】
+4. follow
+
+【解説33】
+公式一次試験の解答（協会発表の解答速報PDF）に基づく。
+
+---
+
+問題34:
+Shuhei’s trip to Hawaii was great. He’ll remember it ( ).
+
+選択肢34:
+1. slowly
+2. ever
+3. forever
+4. soon
+
+【正解34】
+2. ever
+
+【解説34】
+公式一次試験の解答（協会発表の解答速報PDF）に基づく。
+
+---
+
+問題35:
+Mr. Suzuki ( ) some ﬂowers in his garden. They are very beautiful.
+
+選択肢35:
+1. grows
+2. impresses
+3. performs
+4. ﬁghts
+
+【正解35】
+1. grows
+
+【解説35】
+公式一次試験の解答（協会発表の解答速報PDF）に基づく。
+
+---
+
+問題36:
+Mr. Brown was very kind, so Emily will ( ) forget her stay at his house.
+
+選択肢36:
+1. never
+2. along
+3. else
+4. abroad
+
+【正解36】
+2. along
+
+【解説36】
+公式一次試験の解答（協会発表の解答速報PDF）に基づく。
+
+---
+
+問題37:
+A : What is that delicious smell, Mom? B: I just ( ) some cookies. Try one.
+
+選択肢37:
+1. baked
+2. met
+3. believed
+4. held
+
+【正解37】
+1. baked
+
+【解説37】
+公式一次試験の解答（協会発表の解答速報PDF）に基づく。
+
+---
+
+問題38:
+This town is famous ( ) its beautiful river.
+
+選択肢38:
+1. to
+2. for
+3. in
+4. at
+
+【正解38】
+3. in
+
+【解説38】
+公式一次試験の解答（協会発表の解答速報PDF）に基づく。
+
+---
+
+問題39:
+A : I haven’t seen Karen for a while. B: Well, I saw her the ( ) day. She just started a new job.
+
+選択肢39:
+1. high
+2. other
+3. large
+4. each
+
+【正解39】
+3. large
+
+【解説39】
+公式一次試験の解答（協会発表の解答速報PDF）に基づく。
+
+---
+
+問題40:
+A : What’s the ( ), Cindy? B: I studied really hard, but I didn’t do well on my history test.
+
+選択肢40:
+1. matter
+2. choice
+3. purpose
+4. difference
+
+【正解40】
+2. choice
+
+【解説40】
+公式一次試験の解答（協会発表の解答速報PDF）に基づく。
+
+---
+
+問題41:
+A : Do you have time now, Doug? B: No, I’m sorry. ( ) fact, I have to leave for a meeting now. I’ll call you later.
+
+選択肢41:
+1. In
+2. At
+3. By
+4. On
+
+【正解41】
+1. In
+
+【解説41】
+公式一次試験の解答（協会発表の解答速報PDF）に基づく。
+
+---
+
+問題42:
+A : Where were you? You’re just in ( ) for the movie. It starts in two minutes. B: I’m sorry. The roads were busy.
+
+選択肢42:
+1. month
+2. hour
+3. time
+4. schedule
+
+【正解42】
+3. time
+
+【解説42】
+公式一次試験の解答（協会発表の解答速報PDF）に基づく。
+
+---
+
+問題43:
+A : Hannah, ( ) you like coffee or tea? B: I’ll just have some water, thank you.
+
+選択肢43:
+1. have
+2. should
+3. would
+4. be
+
+【正解43】
+2. should
+
+【解説43】
+公式一次試験の解答（協会発表の解答速報PDF）に基づく。
+
+---
+
+問題44:
+A : What can I do in Japan in August, Keita? B: You should ( ) Mt. Fuji if you have time.
+
+選択肢44:
+1. climb
+2. climbing
+3. climbed
+4. climbs
+
+【正解44】
+2. climbing
+
+【解説44】
+公式一次試験の解答（協会発表の解答速報PDF）に基づく。
+
+---
+
+問題45:
+Katie’s neighbor has a noisy dog, so it is difﬁcult for her ( ) at night.
+
+選択肢45:
+1. sleeps
+2. to sleep
+3. slept
+4. sleep
+
+【正解45】
+2. to sleep
+
+【解説45】
+公式一次試験の解答（協会発表の解答速報PDF）に基づく。
 
 ---

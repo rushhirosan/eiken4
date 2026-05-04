@@ -1,17 +1,254 @@
 問題1:
-A : (LEVEL3 TEMPLATE) Hello?
-B : Hi.
+Customer : Could you make me a salad without tomatoes? Waiter : ( ) That’s not a problem.
 
 選択肢1:
-1. OK.
-2. Sure.
-3. Bye.
-4. Later.
+1. Certainly.
+2. Not so good.
+3. Congratulations.
+4. Anywhere.
 
 【正解1】
-1. OK.
+4. Anywhere.
 
 【解説1】
-3級用テンプレ（ダミー）。
+公式一次試験の解答（協会発表の解答速報PDF）に基づく。
+
+---
+
+問題2:
+Man 1 : Do you want to go jogging with me on the beach tomorrow? Man 2 : OK. ( ) I usually just run in the park.
+
+選択肢2:
+1. It was my summer vacation.
+2. The race is almost ﬁnished.
+3. I’ve never done that before.
+4. I have to stay home.
+
+【正解2】
+2. The race is almost ﬁnished.
+
+【解説2】
+公式一次試験の解答（協会発表の解答速報PDF）に基づく。
+
+---
+
+問題3:
+Son : Do you want to watch the soccer game today? Father : ( ) Son : The one between England and Japan.
+
+選択肢3:
+1. Which game are you talking about?
+2. Which team is going to win?
+3. Where is your favorite player from?
+4. Where do you want to visit?
+
+【正解3】
+4. Where do you want to visit?
+
+【解説3】
+公式一次試験の解答（協会発表の解答速報PDF）に基づく。
+
+---
+
+問題4:
+Girl 1 : How are you going to the festival, Ann? Girl 2 : My mom’s taking me by car. You can come with us. Girl 1 : ( ) Thanks.
+
+選択肢4:
+1. I already did it.
+2. That sounds great.
+3. Here’s the key.
+4. About ten minutes.
+
+【正解4】
+3. Here’s the key.
+
+【解説4】
+公式一次試験の解答（協会発表の解答速報PDF）に基づく。
+
+---
+
+問題5:
+Wife : I need to go. I’ll call you when I arrive in Boston. Husband : OK. ( )
+
+選択肢5:
+1. I’ve been to New York.
+2. I went by train.
+3. Of course I remember.
+4. Have a safe trip.
+
+【正解5】
+4. Have a safe trip.
+
+【解説5】
+公式一次試験の解答（協会発表の解答速報PDF）に基づく。
+
+---
+
+問題6:
+Husband : Where shall we travel to this summer? Wife : How about Greenville? ( ) Husband : Sounds good. We can go ﬁshing and swimming.
+
+選択肢6:
+1. I lost my passport.
+2. There’s a big lake there.
+3. I hate traveling.
+4. It’s too crowded.
+
+【正解6】
+4. It’s too crowded.
+
+【解説6】
+公式一次試験の解答（協会発表の解答速報PDF）に基づく。
+
+---
+
+問題7:
+Boy : I called you last night, but you didn’t answer the phone. Girl : Sorry, ( ) I have to give it to my English teacher today.
+
+選択肢7:
+1. I forgot about your question.
+2. I was writing a report.
+3. I don’t have a phone.
+4. I don’t know the answer.
+
+【正解7】
+4. I don’t know the answer.
+
+【解説7】
+公式一次試験の解答（協会発表の解答速報PDF）に基づく。
+
+---
+
+問題8:
+Mother : Fred, the TV is too loud. ( ) please? Son : All right, Mom.
+
+選択肢8:
+1. Will you pick it up,
+2. Will you buy it,
+3. Will you turn it down,
+4. Will you play it,
+
+【正解8】
+3. Will you turn it down,
+
+【解説8】
+公式一次試験の解答（協会発表の解答速報PDF）に基づく。
+
+---
+
+問題9:
+Sister : Why are you eating my piece of cake? Brother : ( ) It’s mine.
+
+選択肢9:
+1. This isn’t yours.
+2. Thanks, it looks delicious.
+3. It wasn’t me.
+4. This morning, after breakfast.
+
+【正解9】
+4. This morning, after breakfast.
+
+【解説9】
+公式一次試験の解答（協会発表の解答速報PDF）に基づく。
+
+---
+
+問題10:
+Girl : When’s your big tennis match? Boy : Tomorrow. I haven’t practiced much this week, so ( )
+
+選択肢10:
+1. it starts at two o’clock.
+2. I’m a little worried.
+3. it’s going to rain.
+4. I really like your racket.
+
+【正解10】
+3. it’s going to rain.
+
+【解説10】
+公式一次試験の解答（協会発表の解答速報PDF）に基づく。
+
+---
+
+問題11:
+Boy : Have you been to the new zoo? Girl : Yes, but ( ) There are many cute animals there.
+
+選択肢11:
+1. I’ll call you back.
+2. I’d like to go again.
+3. it’s not your ticket.
+4. it’ll be my ﬁrst time.
+
+【正解11】
+4. it’ll be my ﬁrst time.
+
+【解説11】
+公式一次試験の解答（協会発表の解答速報PDF）に基づく。
+
+---
+
+問題12:
+Man 1 : Should we take a bus to the art museum? Man 2 : Yes. ( ) Man 1 : I think so, too.
+
+選択肢12:
+1. It’s a famous painting.
+2. We’re on the train.
+3. It’s too far to walk.
+4. I can’t ﬁnd my ticket.
+
+【正解12】
+1. It’s a famous painting.
+
+【解説12】
+公式一次試験の解答（協会発表の解答速報PDF）に基づく。
+
+---
+
+問題13:
+Girl : I’m going to Hawaii with my family. Boy : That’s nice. ( ) Girl : Yes. This is my second time. I went there last year, too.
+
+選択肢13:
+1. Have you been there before?
+2. Can you call back later?
+3. Do you live near here?
+4. Could you help me with it?
+
+【正解13】
+2. Can you call back later?
+
+【解説13】
+公式一次試験の解答（協会発表の解答速報PDF）に基づく。
+
+---
+
+問題14:
+Husband : Our train is going to leave soon. We should go, or we’ll be late. Do you have everything you need? Wife : ( ) Let’s go. Husband : Don’t forget to lock the door.
+
+選択肢14:
+1. No, thank you.
+2. Sure, it’s mine.
+3. I’m ready.
+4. I want all of them.
+
+【正解14】
+3. I’m ready.
+
+【解説14】
+公式一次試験の解答（協会発表の解答速報PDF）に基づく。
+
+---
+
+問題15:
+Son : Hi, Mom. Mother : Hi, Martin. ( ) Son : We didn’t have band practice today, so I left school at 2:30.
+
+選択肢15:
+1. It’s not for you.
+2. Have a wonderful day.
+3. You’re home early.
+4. You got a good score.
+
+【正解15】
+1. It’s not for you.
+
+【解説15】
+公式一次試験の解答（協会発表の解答速報PDF）に基づく。
 
 ---

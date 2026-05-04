@@ -1,20 +1,494 @@
 本文1
-LEVEL3 TEMPLATE PASSAGE
-This is a one-line placeholder for grade 3 reading registration.
+Volunteer Work Are you interested in volunteering? There will be an event on Sunday morning for students to clean up the local park. Recently, Maplewood Park has been dirty. Volunteers will pick up all the trash and throw it away. There will be gloves for volunteers to use, and city staff members will prepare three trash cans. The red can will be for plastic bottles, the blue can will be for other plastic, and the yellow can will be for paper. When: September 19, 10:00 a.m. 12:30 p.m. Where: Maplewood Park The city staff will give lunch to all volunteers after cleaning. Volunteers should bring their own drinks.
 
 問題1a:
-What is this passage?
+Which trash can will the volunteers throw away paper in?
 
 選択肢1a:
-1. A template.
-2. A recipe.
-3. A letter.
-4. A news article.
+1. The red one.
+2. The green one.
+3. The blue one.
+4. The yellow one.
 
 【正解1a】
-1. A template.
+3. The blue one.
 
 【解説1a】
-3級用テンプレ（ダミー）。
+公式解答（協会発表の解答速報PDF）に基づく。
+
+問題1b:
+What will the city staff do on September 19?
+
+選択肢1b:
+1. Sell cold drinks at a park.
+2. Throw away old gloves.
+3. Bring something to eat for the volunteers.
+4. Buy colorful plastic bottles.
+
+【正解1b】
+1. Sell cold drinks at a park.
+
+【解説1b】
+公式解答（協会発表の解答速報PDF）に基づく。
+
+---
+
+本文2
+From: Bryan Fox To: Jill White Date: June 18 Subject: Japanese Hi Jill, I want to ask you about something. As you know, the only languages we can study at our high school are Spanish, French, and German. You’re studying French, right? I’m studying Spanish, but I actually want to study a different language. I really want to learn Japanese because I’m interested in Japanese culture. When I go to college, I want to study abroad in Japan for a year. I want to try judo while I’m there, too. Your aunt can speak Japanese, right? Can she teach me how to speak it? Your friend, Bryan From: Jill White To: Bryan Fox Date: June 19 Subject: Sure! Hello Bryan, My aunt lived in Japan for 10 years. She lived in Hokkaido for three years. Then, she moved to Tokyo, and she lived there for seven years. She came back to the United States one year ago. She speaks Japanese very well, and she knows a lot about Japanese culture. I asked her, and she said that she could teach you Japanese. I gave her your phone number. She’ll call you this week. I’m interested in Japanese comic books and TV shows, so I want to learn Japanese, too. Why don’t we study it together? Bye for now, Jill From: Bryan Fox To: Jill White Date: June 19 Subject: Thanks! Hi Jill, Thank you for talking to your aunt! She just called me. She’ll teach me Japanese on Wednesday evenings at the café near the station. We’ll have a lesson from 5:00 p.m. to 6:00 p.m. every week, and we’ll have the first lesson this Wednesday. I think studying together is a great idea, so please come if you can! See you at school, Bryan 次のＥメールの内容に関して，(23)から(25)までの質問に対する答 B
+
+問題2a:
+What language does Bryan study at high school?
+
+選択肢2a:
+1. Spanish.
+2. French.
+3. Japanese.
+4. German.
+
+【正解2a】
+2. French.
+
+【解説2a】
+公式解答（協会発表の解答速報PDF）に基づく。
+
+問題2b:
+How long did Jill’s aunt live in Tokyo?
+
+選択肢2b:
+1. For one year.
+2. For three years.
+3. For seven years.
+4. For ten years.
+
+【正解2b】
+1. For one year.
+
+【解説2b】
+公式解答（協会発表の解答速報PDF）に基づく。
+
+問題2c:
+What does Bryan want Jill to do on Wednesday evening?
+
+選択肢2c:
+1. Have a lesson with him at a café.
+2. Study with him in the school library.
+3. Meet him at a station near their school.
+4. Tell her aunt about his trip to Japan.
+
+【正解2c】
+4. Tell her aunt about his trip to Japan.
+
+【解説2c】
+公式解答（協会発表の解答速報PDF）に基づく。
+
+---
+
+本文3
+The Three Sisters Around the world, people grow many kinds of vegetables. Growing vegetables can be difﬁcult. It is sometimes hard to know how much sun and water they need. Native American* people in North America have a traditional method* for growing vegetables. It is called the “Three Sisters Method.” The Three Sisters Method helps people to grow many vegetables in a small area. In the Three Sisters Method, three different vegetables are grown together. The vegetables are corn, beans, and pumpkins. Native Americans have stories about these vegetables. According to them, the vegetables are “sisters.” Corn is the oldest sister, beans are the middle sister, and pumpkins are the youngest sister. When Native Americans grow these vegetables, they plant corn ﬁrst. Next, they plant beans, and they plant pumpkins last. If people plant the corn ﬁrst, the beans can use the corn plants to grow and get light from the sun. The pumpkins grow along the ground, so animals cannot go near the corn and beans easily. Pumpkins also have large leaves. They are important because they protect the area around the vegetables from the sun. Because of this, the ground does not become too dry. These three vegetables help each other to grow. When Europeans went to North America in the 1600s, they took new plants and animals with them. Since then, the food that Native Americans eat has changed. However, many Native Americans and other farmers still use the Three Sisters Method today. *Native American: アメリカ先住民（の） *method: 方法 次の英文の内容に関して，(26)から(30)までの質問に対する答えとして C
+
+問題3a:
+When people use the “Three Sisters Method,” they can
+
+選択肢3a:
+1. learn about hundreds of Native American foods.
+2. use plants to get clean water for drinking.
+3. grow vegetables without light or water.
+4. grow many vegetables in a small area.
+
+【正解3a】
+1. learn about hundreds of Native American foods.
+
+【解説3a】
+公式解答（協会発表の解答速報PDF）に基づく。
+
+問題3b:
+What do people plant ﬁrst when they use the Three Sisters Method?
+
+選択肢3b:
+1. Pumpkins.
+2. Sunﬂowers.
+3. Beans.
+4. Corn.
+
+【正解3b】
+2. Sunﬂowers.
+
+【解説3b】
+公式解答（協会発表の解答速報PDF）に基づく。
+
+問題3c:
+What do the pumpkins’ leaves do?
+
+選択肢3c:
+1. They protect the soil from the sun.
+2. They help to keep the soil dry.
+3. They protect the corn from the beans.
+4. They help animals to ﬁnd the corn.
+
+【正解3c】
+2. They help to keep the soil dry.
+
+【解説3c】
+公式解答（協会発表の解答速報PDF）に基づく。
+
+問題3d:
+What happened after Europeans went to North America?
+
+選択肢3d:
+1. Native Americans began to eat different foods.
+2. Native Americans stopped using the Three Sisters Method.
+3. Europeans said pumpkins should be eaten on Halloween.
+4. Europeans said Native Americans should eat more fruit.
+
+【正解3d】
+4. Europeans said Native Americans should eat more fruit.
+
+【解説3d】
+公式解答（協会発表の解答速報PDF）に基づく。
+
+問題3e:
+What is this story about?
+
+選択肢3e:
+1. A new way to cook vegetables.
+2. A special way to grow vegetables.
+3. Three farmers who were sisters.
+4. Three women who started a food company.
+
+【正解3e】
+1. A new way to cook vegetables.
+
+【解説3e】
+公式解答（協会発表の解答速報PDF）に基づく。
+
+---
+
+本文4
+Notice Next month, Blue Sky Junior High School students will go on a tour of a house built in the 17th century. The house has many rooms, and students will see the old kitchen, living room, and bedrooms. There is also a garden outside. You can see it during the tour. Date: Wednesday, October 18 Time: 10:00 a.m. 3:00 p.m. Please bring your own lunch. We will have lunch together in the garden after the tour. You can bring a camera to take pictures of the garden but do not take pictures inside the house. You must write a report about the house by November 1.
+
+問題4a:
+What must students do on October 18?
+
+選択肢4a:
+1. Clean the garden.
+2. Take pictures of the house.
+3. Bring their own lunch.
+4. Take an exam at school.
+
+【正解4a】
+2. Take pictures of the house.
+
+【解説4a】
+公式解答（協会発表の解答速報PDF）に基づく。
+
+問題4b:
+Where can students take photos during the tour?
+
+選択肢4b:
+1. In the kitchen.
+2. In the garden.
+3. In the bedrooms.
+4. In the living room.
+
+【正解4b】
+1. In the kitchen.
+
+【解説4b】
+公式解答（協会発表の解答速報PDF）に基づく。
+
+---
+
+本文5
+From: Sophia Jones To: Anna Jones Date: September 25 Subject: Surprise! Hi Mom, How are you? My college life here is going well. I had a surprising experience last Monday! On that day, I met my old friend Mia in an art class at my college. Do you remember her? She went to the same junior high school as me, but then she moved to a different city four years ago. Last Friday and Saturday, we had lunch together at a restaurant. We had a good time, and it was very fun. I never thought Mia was at this college, too! By the way, I’ll come home on October 20. Can you pick me up at Union Station at 5:00 p.m.? Love, Sophia From: Anna Jones To: Sophia Jones Date: September 25 Subject: Great! Hi Sophia, Thanks for the great news! I remember Mia, and I’m glad to hear that you had a good time with her again! Say hi to her for me. When you and Mia were junior high school students, you often went to the library together. You always studied math with her there because she taught math well. You loved drawing pictures and playing sports, but you didn’t like learning math very much. I have many great memories of you and Mia. On October 20, my work at the hospital won’t finish early, so I can’t pick you up at that time. Your dad will need to attend a meeting at his office that day, but his meeting will finish at 4:00 p.m., so he can pick you up at the station. We’re excited to see you then! Love, Mom 次のＥメールの内容に関して，(23)から(25)までの質問に対する答 B
+
+問題5a:
+When did Sophia meet Mia in her class at college?
+
+選択肢5a:
+1. Four years ago.
+2. Last Monday.
+3. Last Friday.
+4. Last Saturday.
+
+【正解5a】
+2. Last Monday.
+
+【解説5a】
+公式解答（協会発表の解答速報PDF）に基づく。
+
+問題5b:
+What did Sophia and Mia often do together when they were junior high school students?
+
+選択肢5b:
+1. They tried many sports at school.
+2. They drew pictures at Sophia’s home.
+3. They studied math at the library.
+4. They went home after school.
+
+【正解5b】
+2. They drew pictures at Sophia’s home.
+
+【解説5b】
+公式解答（協会発表の解答速報PDF）に基づく。
+
+問題5c:
+What will Sophia’s mother do on October 20?
+
+選択肢5c:
+1. Pick Sophia up at Union Station.
+2. Work at the hospital.
+3. Visit her husband’s ofﬁce.
+4. Meet her old friends at a café.
+
+【正解5c】
+4. Meet her old friends at a café.
+
+【解説5c】
+公式解答（協会発表の解答速報PDF）に基づく。
+
+---
+
+本文6
+La Tomatina Buñol is a small town in Spain with a long history. Only around 10,000 people live in Buñol, and it is a peaceful town most of the year. However, for one day of the year, the number of people in the town increases by over 20,000. People from all over the world go to Buñol to celebrate a tomato festival called La Tomatina and throw tomatoes at each other. La Tomatina began in an interesting way. In 1945, there was a parade happening in Buñol, and musicians were performing in the street. Some kids pushed a musician, and they stopped the parade. The musician got angry at the kids, and then someone threw a tomato. Many people started throwing tomatoes at each other. They had fun and tried to throw tomatoes again the next year. However, the government did not like this new event and stopped it for a while. Many people in Buñol wanted to throw tomatoes, so the festival happened again in 1957. People from other countries heard about La Tomatina and wanted to try throwing tomatoes, too. Now, at La Tomatina, people throw a lot of tomatoes at each other for one hour. Many people wear white clothes. The color of their clothes changes because of the tomatoes. Although La Tomatina is famous, some people do not think it is good because it is hard to clean up after the festival. Also, people throw away all of the tomatoes. Some people think it is better to eat the tomatoes and not throw them at each other. 次の英文の内容に関して，(26)から(30)までの質問に対する答えとして C
+
+問題6a:
+How many people live in Buñol?
+
+選択肢6a:
+1. About 10,000 people.
+2. About 20,000 people.
+3. About 22,000 people.
+4. About 50,000 people.
+
+【正解6a】
+2. About 20,000 people.
+
+【解説6a】
+公式解答（協会発表の解答速報PDF）に基づく。
+
+問題6b:
+What happened during the parade in 1945?
+
+選択肢6b:
+1. Children played music at school.
+2. Children danced in the street.
+3. A musician bought tomatoes at the market.
+4. A musician got angry at some children.
+
+【正解6b】
+1. Children played music at school.
+
+【解説6b】
+公式解答（協会発表の解答速報PDF）に基づく。
+
+問題6c:
+What do a lot of people do at La Tomatina?
+
+選択肢6c:
+1. Perform a dance.
+2. Eat tomatoes.
+3. Wear white clothes.
+4. Go to a farm.
+
+【正解6c】
+2. Eat tomatoes.
+
+【解説6c】
+公式解答（協会発表の解答速報PDF）に基づく。
+
+問題6d:
+Some people do not like La Tomatina because
+
+選択肢6d:
+1. there are too many people.
+2. cleaning up after the festival is difﬁcult.
+3. it is too expensive.
+4. the tomatoes are not delicious.
+
+【正解6d】
+3. it is too expensive.
+
+【解説6d】
+公式解答（協会発表の解答速報PDF）に基づく。
+
+問題6e:
+What is this story about?
+
+選択肢6e:
+1. A parade in 1945.
+2. A new city in Spain.
+3. A famous festival.
+4. A farming event.
+
+【正解6e】
+1. A parade in 1945.
+
+【解説6e】
+公式解答（協会発表の解答速報PDF）に基づく。
+
+---
+
+本文7
+To All Students There is a new librarian at the school library. Her name is Ms. Wilson. She worked at a bookstore for eight years and at the library at the local university for ﬁve years. There will be a welcome party for her next week. Date: Friday, April 17 Time: 3:30 p.m. 5:00 p.m. Place: School gym At the welcome party, she will introduce herself. You can ask her questions. After that, you will have some time to talk to her and others. You can enjoy free drinks and snacks. If you are interested in the party, please tell your homeroom teacher before six o’clock on April 10.
+
+問題7a:
+How long did Ms. Wilson work at the local university’s library?
+
+選択肢7a:
+1. For ﬁve years.
+2. For six years.
+3. For eight years.
+4. For ten years.
+
+【正解7a】
+3. For eight years.
+
+【解説7a】
+公式解答（協会発表の解答速報PDF）に基づく。
+
+問題7b:
+At the welcome party, students can
+
+選択肢7b:
+1. meet many people from a foreign university.
+2. enjoy drinks and food for free.
+3. play sports in the gym.
+4. watch a new movie.
+
+【正解7b】
+2. enjoy drinks and food for free.
+
+【解説7b】
+公式解答（協会発表の解答速報PDF）に基づく。
+
+---
+
+本文8
+From: Lucas Miller To: Kevin Miller Date: May 8 Subject: About your city Hi Grandpa, How are you? Can you help me? I must write a report for my social studies class by next Friday. I have to write about another city. Can I interview you about your city this Saturday? There’s an exciting summer festival in your city, right? Write back soon, Lucas From: Kevin Miller To: Lucas Miller Date: May 8 Subject: Sure! Hi Lucas, I’m fine! Yes, there’s a summer festival in my city, but my city also has interesting festivals in other seasons. Last autumn, you came here and joined a pumpkin festival, right? We made many pumpkin pies and shared them with everyone at the festival. There’s also a cherry blossom festival in spring. In winter, there’s a beautiful winter parade. My city has big festivals in all seasons. Anyway, I can answer your questions for your report. However, I have a lot of work to do this Saturday and Sunday morning. How about on Sunday afternoon? If it’s not in the morning, I can meet you! Can you come here alone by train? Keep in touch, Grandpa From: Lucas Miller To: Kevin Miller Date: May 9 Subject: On Sunday Hi Grandpa, Thank you for writing back to me! I have soccer practice on Sunday morning, but I can visit your house in the afternoon! Don’t worry. Mom will drive me to your home on that day. It’s nice that your city has many festivals in all seasons. Today, I heard from one of my friends. He has already written about the summer festival, so I decided to write my report about your city’s spring festival. If you have some pictures of the festival, I want to see them! See you then, Lucas 次のＥメールの内容に関して，(23)から(25)までの質問に対する答 B
+
+問題8a:
+Why did Lucas write to his grandfather?
+
+選択肢8a:
+1. To share the news about Lucas’s city.
+2. To ask about interviewing his grandfather.
+3. To invite his grandfather to a soccer game.
+4. To ask about making pumpkin pies.
+
+【正解8a】
+2. To ask about interviewing his grandfather.
+
+【解説8a】
+公式解答（協会発表の解答速報PDF）に基づく。
+
+問題8b:
+When will Lucas’s grandfather be able to meet Lucas?
+
+選択肢8b:
+1. On Friday afternoon.
+2. On Saturday morning.
+3. On Sunday morning.
+4. On Sunday afternoon.
+
+【正解8b】
+4. On Sunday afternoon.
+
+【解説8b】
+公式解答（協会発表の解答速報PDF）に基づく。
+
+問題8c:
+What did Lucas choose to write about for his report?
+
+選択肢8c:
+1. The spring festival in his grandfather’s city.
+2. The summer festival in his city.
+3. The pumpkin festival in his grandfather’s city.
+4. The winter parade in his city.
+
+【正解8c】
+1. The spring festival in his grandfather’s city.
+
+【解説8c】
+公式解答（協会発表の解答速報PDF）に基づく。
+
+---
+
+本文9
+Ansel Adams Ansel Adams was a famous photographer in the United States. He was born in 1902. As a child, he could not focus in class and did not like school. Adams enjoyed taking walks in nature and playing the piano. Adams played the piano for over ten years in his childhood and was very good. He wanted to be a professional musician. In the 1910s, Adams received his ﬁrst camera. He took many pictures in a large park in the United States called Yosemite National Park. Adams often went hiking in the mountains there with his camera. When he was older, he joined a club of people who worked in the park and went on hikes with them. Adams loved to take pictures of the mountains in Yosemite National Park. In the late 1920s, Adams decided to become a professional photographer instead of a professional musician. Then he made many books of his photos and sold them. His photos of beautiful nature were very popular. Many people thought the photos were very artistic and were like paintings, so they became popular. Adams worked for many companies and took pictures of new products. However, Adams did not like taking pictures for companies because he believed photography was an art. He took photographs of nature and showed them in museums. Adams taught many people how to take pictures. In 1980, Adams received an award from the president of the United States to celebrate his life. Adams became one of the most famous photographers. 次の英文の内容に関して，(26)から(30)までの質問に対する答えとして C
+
+問題9a:
+As a child, Ansel Adams
+
+選択肢9a:
+1. learned how to draw.
+2. liked to go to school.
+3. went for walks in cities.
+4. played the piano.
+
+【正解9a】
+1. learned how to draw.
+
+【解説9a】
+公式解答（協会発表の解答速報PDF）に基づく。
+
+問題9b:
+What did Adams do when he got his ﬁrst camera?
+
+選択肢9b:
+1. He took pictures of buildings.
+2. He went on hikes in the mountains.
+3. He worked at a camera store.
+4. He joined a photography club.
+
+【正解9b】
+3. He worked at a camera store.
+
+【解説9b】
+公式解答（協会発表の解答速報PDF）に基づく。
+
+問題9c:
+Why were Adams’s photographs popular?
+
+選択肢9c:
+1. They were photos of old products.
+2. They looked like paintings.
+3. They were in many newspapers.
+4. They were not expensive.
+
+【正解9c】
+2. They looked like paintings.
+
+【解説9c】
+公式解答（協会発表の解答速報PDF）に基づく。
+
+問題9d:
+What happened in 1980?
+
+選択肢9d:
+1. Adams showed his photos in museums.
+2. Adams wrote a book.
+3. Adams won an award.
+4. Adams worked for the government.
+
+【正解9d】
+1. Adams showed his photos in museums.
+
+【解説9d】
+公式解答（協会発表の解答速報PDF）に基づく。
+
+問題9e:
+What is this story about?
+
+選択肢9e:
+1. A professional piano player.
+2. A new camera from the 1900s.
+3. How to take photographs of nature.
+4. A photographer in the 1900s.
+
+【正解9e】
+2. A new camera from the 1900s.
+
+【解説9e】
+公式解答（協会発表の解答速報PDF）に基づく。
 
 ---
