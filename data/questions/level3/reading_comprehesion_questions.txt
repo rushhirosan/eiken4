@@ -1,0 +1,20 @@
+本文1
+LEVEL3 TEMPLATE PASSAGE
+This is a one-line placeholder for grade 3 reading registration.
+
+問題1a:
+What is this passage?
+
+選択肢1a:
+1. A template.
+2. A recipe.
+3. A letter.
+4. A news article.
+
+【正解1a】
+1. A template.
+
+【解説1a】
+3級用テンプレ（ダミー）。
+
+---

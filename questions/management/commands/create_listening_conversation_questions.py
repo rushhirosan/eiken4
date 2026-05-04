@@ -3,6 +3,12 @@ from exams.models import Question, Choice
 import re
 import os
 
+from questions.level_paths import (
+    add_default_register_arguments,
+    db_audio_path,
+    questions_file_abspath,
+)
+
 def parse_questions_from_file(file_path):
     with open(file_path, 'r', encoding='utf-8') as f:
         content = f.read()
@@ -64,12 +70,18 @@ def parse_questions_from_file(file_path):
 class Command(BaseCommand):
     help = 'listening_conversation_questions.txt からリスニング会話問題（No.1-40）を登録する'
 
+    def add_arguments(self, parser):
+        add_default_register_arguments(parser)
+
     def handle(self, *args, **options):
-        Question.objects.filter(question_type='listening_conversation').delete()
-        print('既存のリスニング会話問題をすべて削除しました')
+        level = options['level']
+        Question.objects.filter(
+            question_type='listening_conversation', level=level
+        ).delete()
+        print(f'既存のリスニング会話問題（level={level}）を削除しました')
         
-        # テキストファイルから問題を読み込む
-        questions_data = parse_questions_from_file('data/questions/listening_conversation_questions.txt')
+        txt_path = questions_file_abspath(level, 'listening_conversation_questions.txt')
+        questions_data = parse_questions_from_file(txt_path)
         print(f'parse_questions_from_fileで抽出された問題数: {len(questions_data)}')
         
         for data in questions_data:
@@ -77,13 +89,16 @@ class Command(BaseCommand):
             if question_number < 1 or question_number > 40:
                 continue
             # 問題を作成
+            af = db_audio_path(
+                level, 'part2', f'listening_conversation_question{question_number}.mp3'
+            )
             question = Question.objects.create(
-                level='4',
+                level=level,
                 question_type='listening_conversation',
                 question_text=data['question_text'],
                 listening_text=data['conversation'],  # 会話文を保存
                 explanation=data['explanation'],
-                audio_file=f'audio/part2/listening_conversation_question{question_number}.mp3',
+                audio_file=af,
                 question_number=question_number
             )
             # 選択肢を作成

@@ -1,24 +1,38 @@
+import os
+
 from django.core.management.base import BaseCommand
 from questions.models import ListeningQuestion, ListeningChoice
-import os
-from django.conf import settings
+
+from questions.level_paths import (
+    add_default_register_arguments,
+    db_audio_path,
+    db_image_path_part1,
+    questions_file_abspath,
+    static_audio_dir,
+    static_images_part1_dir,
+)
+
 
 class Command(BaseCommand):
     help = 'listening_illustration_questions.txt からイラスト問題を画像・音声付きで登録する（選択肢数も正確に）'
 
-    def handle(self, *args, **options):
-        # 既存のListeningQuestionを削除（1-40）
-        for i in range(1, 41):
-            ListeningQuestion.objects.filter(level='4').filter(
-                image__endswith=f'listening_illustration_image{i}.png'
-            ).delete()
-        self.stdout.write(self.style.WARNING('既存のListeningQuestion（1-40）を削除しました'))
+    def add_arguments(self, parser):
+        add_default_register_arguments(parser)
 
-        # ファイルパス
-        base_dir = settings.BASE_DIR
-        txt_path = os.path.join(base_dir, 'data', 'questions', 'listening_illustration_questions.txt')
-        image_dir = os.path.join(base_dir, 'static', 'images', 'part1')
-        audio_dir = os.path.join(base_dir, 'static', 'audio', 'part1')
+    def handle(self, *args, **options):
+        level = options['level']
+        if level == '4':
+            for i in range(1, 41):
+                ListeningQuestion.objects.filter(level='4').filter(
+                    image__endswith=f'listening_illustration_image{i}.png'
+                ).delete()
+        else:
+            ListeningQuestion.objects.filter(level=level).delete()
+        self.stdout.write(self.style.WARNING(f'既存のListeningQuestion（level={level}）を削除しました'))
+
+        txt_path = questions_file_abspath(level, 'listening_illustration_questions.txt')
+        image_dir = static_images_part1_dir(level)
+        audio_dir = static_audio_dir(level, 'part1')
 
         self.stdout.write(f'テキストファイルパス: {txt_path}')
         self.stdout.write(f'画像ディレクトリ: {image_dir}')
@@ -64,8 +78,8 @@ class Command(BaseCommand):
             # 画像・音声ファイル名
             image_name = f'listening_illustration_image{number}.png'
             audio_name = f'listening_illustration_question{number}.mp3'
-            image_path = os.path.join('images/part1', image_name)
-            audio_path = os.path.join('audio/part1', audio_name)
+            image_path = db_image_path_part1(level, image_name)
+            audio_path = db_audio_path(level, 'part1', audio_name)
 
             self.stdout.write(f'画像ファイル: {image_path}')
             self.stdout.write(f'音声ファイル: {audio_path}')
@@ -118,7 +132,7 @@ class Command(BaseCommand):
                 audio=audio_path,
                 correct_answer=correct_answer,
                 explanation=explanation,
-                level='4'
+                level=level
             )
 
             # 選択肢を番号で登録（既存の形式に合わせる）
@@ -137,4 +151,6 @@ class Command(BaseCommand):
 
             self.stdout.write(self.style.SUCCESS(f'問題 No.{number} を登録（選択肢{len(choices)}個, 正解: {correct_answer}）'))
 
-        self.stdout.write(self.style.SUCCESS('問題1-40のイラストリスニング問題を登録しました')) 
+        self.stdout.write(self.style.SUCCESS(
+            f'イラストリスニング問題の登録が完了しました（level={level}）'
+        )) 

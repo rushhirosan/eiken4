@@ -1,9 +1,14 @@
 #!/usr/bin/env python3
 import os
 import re
+import sys
 import asyncio
 import edge_tts
 from pydub import AudioSegment
+
+_REPO = os.path.abspath(os.path.join(os.path.dirname(__file__), '..'))
+if _REPO not in sys.path:
+    sys.path.insert(0, _REPO)
 
 def extract_conversation_parts(text):
     """
@@ -334,23 +339,57 @@ async def generate_illustration_audio_from_file(
         print(f"Illustration question {question_number} done -> {output_audio}")
 
 
-async def main():
+async def main_async(args):
     """第2部・第3部を全問再生成（Question No. は読み上げテキストから除外済み）。"""
+    from utils.eiken_paths import questions_txt, static_audio_part
+
+    lev = args.level
+    conv_txt = args.conversation_txt or questions_txt(lev, 'listening_conversation_questions.txt')
+    pass_txt = args.passage_txt or questions_txt(lev, 'listening_passage_questions.txt')
+    part2_dir = args.part2_dir or static_audio_part(lev, 'part2')
+    part3_dir = args.part3_dir or static_audio_part(lev, 'part3')
+
+    for path in (conv_txt, pass_txt):
+        if not os.path.exists(path):
+            raise SystemExit(f'入力ファイルが見つかりません: {path}')
+
     await generate_audio_from_file(
-        'data/questions/listening_conversation_questions.txt',
-        'static/audio/part2',
+        conv_txt,
+        part2_dir,
         question_range=None,
         output_prefix='listening_conversation_question',
     )
     print('--- 第2部 完了 ---')
     await generate_audio_from_file(
-        'data/questions/listening_passage_questions.txt',
-        'static/audio/part3',
+        pass_txt,
+        part3_dir,
         question_range=None,
         output_prefix='listening_passage_question',
     )
     print('--- 第3部 完了 ---')
     print('音声生成が完了しました。')
 
+
+def main():
+    import argparse
+    import os
+
+    parser = argparse.ArgumentParser(
+        description='リスニング第2・第3部の音声生成（既定は 4級パス）'
+    )
+    parser.add_argument(
+        '--level',
+        default=os.environ.get('EIKEN_LEVEL', '4'),
+        choices=['3', '4'],
+        help='3 のとき level3 配下のテキスト・音声ディレクトリを既定にする',
+    )
+    parser.add_argument('--conversation-txt', default=None, help='第2部の入力テキスト')
+    parser.add_argument('--passage-txt', default=None, help='第3部の入力テキスト')
+    parser.add_argument('--part2-dir', default=None, help='第2部 MP3 の出力ディレクトリ')
+    parser.add_argument('--part3-dir', default=None, help='第3部 MP3 の出力ディレクトリ')
+    args = parser.parse_args()
+    asyncio.run(main_async(args))
+
+
 if __name__ == "__main__":
-    asyncio.run(main()) 
+    main() 

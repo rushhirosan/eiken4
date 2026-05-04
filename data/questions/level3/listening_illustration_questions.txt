@@ -1,0 +1,16 @@
+No.1:
+M: Level three template.
+W: OK.
+
+Question No.1:
+1. One
+2. Two
+3. Three
+
+【正解1】
+1. One.
+
+【解説1】
+3級用テンプレ（ダミー）。
+
+---

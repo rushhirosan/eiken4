@@ -2,16 +2,25 @@ from django.core.management.base import BaseCommand
 from questions.models import ReadingPassage, ReadingQuestion, ReadingChoice
 import re
 
+from questions.level_paths import (
+    add_default_register_arguments,
+    questions_file_abspath,
+)
+
+
 class Command(BaseCommand):
     help = 'Register reading comprehension passages 10-12 and questions from text file'
 
+    def add_arguments(self, parser):
+        add_default_register_arguments(parser)
+
     def handle(self, *args, **options):
-        # Grade 4 の長文読解は identifier が a–l で保存される
-        ReadingPassage.objects.filter(level='4').delete()
-        self.stdout.write(self.style.WARNING('既存の読解パッセージ（4級）をすべて削除しました'))
+        level = options['level']
+        ReadingPassage.objects.filter(level=level).delete()
+        self.stdout.write(self.style.WARNING(f'既存の読解パッセージ（level={level}）を削除しました'))
         
-        # Read the text file
-        with open('data/questions/reading_comprehesion_questions.txt', 'r', encoding='utf-8') as file:
+        txt_path = questions_file_abspath(level, 'reading_comprehesion_questions.txt')
+        with open(txt_path, 'r', encoding='utf-8') as file:
             content = file.read()
 
         # Split into passages
@@ -44,7 +53,7 @@ class Command(BaseCommand):
             
             passage = ReadingPassage.objects.create(
                 text=passage_text,
-                level='4',  # Default to Grade 4
+                level=level,
                 identifier=identifier
             )
 
@@ -91,6 +100,8 @@ class Command(BaseCommand):
         self.stdout.write(self.style.SUCCESS('登録完了'))
         
         # 確認
-        total_passages = ReadingPassage.objects.count()
-        total_questions = ReadingQuestion.objects.count()
-        self.stdout.write(self.style.SUCCESS(f'データベース内の読解問題総数: 本文{total_passages}個、問題{total_questions}問')) 
+        total_passages = ReadingPassage.objects.filter(level=level).count()
+        total_questions = ReadingQuestion.objects.filter(passage__level=level).count()
+        self.stdout.write(self.style.SUCCESS(
+            f'データベース内の読解問題総数（level={level}）: 本文{total_passages}個、問題{total_questions}問'
+        )) 

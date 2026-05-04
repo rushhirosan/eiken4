@@ -1,0 +1,19 @@
+No.1:
+M: Level three conversation template.
+W: Understood.
+
+Question No.1:
+What is this?
+
+1. A template.
+2. A quiz.
+3. A song.
+4. A story.
+
+【正解1】
+1. A template.
+
+【解説1】
+3級用テンプレ（ダミー）。
+
+---

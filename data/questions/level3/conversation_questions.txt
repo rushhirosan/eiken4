@@ -1,0 +1,17 @@
+問題1:
+A : (LEVEL3 TEMPLATE) Hello?
+B : Hi.
+
+選択肢1:
+1. OK.
+2. Sure.
+3. Bye.
+4. Later.
+
+【正解1】
+1. OK.
+
+【解説1】
+3級用テンプレ（ダミー）。
+
+---

@@ -6,10 +6,18 @@
 会話 → 質問 → 選択肢の順で結合（選択肢行は list から1回だけ join して TTS）。
 「Question No.xx」は読まず Question のみ。
 """
+import argparse
 import asyncio
 import os
+import sys
+
+_REPO = os.path.abspath(os.path.join(os.path.dirname(__file__), '..'))
+if _REPO not in sys.path:
+    sys.path.insert(0, _REPO)
 
 from text_to_speech_conversation import generate_illustration_audio_from_file
+
+from utils.eiken_paths import questions_txt, static_audio_part
 
 
 def generate_illustration_audio(input_file, output_dir, question_range=None):
@@ -22,9 +30,41 @@ def generate_illustration_audio(input_file, output_dir, question_range=None):
 
 
 def main():
-    input_file = 'data/questions/listening_illustration_questions.txt'
-    output_dir = 'static/audio/part1'
+    parser = argparse.ArgumentParser(
+        description='リスニング第1部（イラスト）の MP3 生成'
+    )
+    parser.add_argument(
+        '--level',
+        default=os.environ.get('EIKEN_LEVEL', '4'),
+        choices=['3', '4'],
+        help='3 のとき data/questions/level3/ と static/audio/level3/part1 を既定にする',
+    )
+    parser.add_argument(
+        '--input', '-i',
+        default=None,
+        help='listening_illustration_questions.txt（未指定時は級に応じた既定パス）',
+    )
+    parser.add_argument(
+        '--output-dir', '-o',
+        default=None,
+        help='出力先ディレクトリ（未指定時は級に応じた part1）',
+    )
+    parser.add_argument(
+        '--question-range',
+        nargs=2,
+        type=int,
+        metavar=('START', 'END'),
+        default=None,
+        help='問題番号の範囲（オプション）',
+    )
+    args = parser.parse_args()
+
+    lev = args.level
+    input_file = args.input or questions_txt(lev, 'listening_illustration_questions.txt')
+    output_dir = args.output_dir or static_audio_part(lev, 'part1')
     question_range = None
+    if args.question_range:
+        question_range = tuple(args.question_range)
 
     if not os.path.exists(input_file):
         raise SystemExit(f'入力ファイルが見つかりません: {input_file}')

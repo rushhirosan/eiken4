@@ -2,18 +2,27 @@ from django.core.management.base import BaseCommand
 from exams.models import Question, Choice
 import re
 
+from questions.level_paths import (
+    add_default_register_arguments,
+    questions_file_abspath,
+)
+
+
 class Command(BaseCommand):
     help = 'Register all conversation fill questions (1-55) from text file'
 
+    def add_arguments(self, parser):
+        add_default_register_arguments(parser)
+
     def handle(self, *args, **options):
-        # Clear all existing conversation fill questions
+        level = options['level']
         Question.objects.filter(
-            question_type='conversation_fill'
+            question_type='conversation_fill', level=level
         ).delete()
-        self.stdout.write(self.style.WARNING('既存の会話穴埋め問題をすべて削除しました'))
+        self.stdout.write(self.style.WARNING(f'既存の会話穴埋め問題（level={level}）を削除しました'))
         
-        # Read the text file
-        with open('data/questions/conversation_questions.txt', 'r', encoding='utf-8') as file:
+        txt_path = questions_file_abspath(level, 'conversation_questions.txt')
+        with open(txt_path, 'r', encoding='utf-8') as file:
             content = file.read()
 
         # Split into questions
@@ -80,7 +89,7 @@ class Command(BaseCommand):
                 # Create question
                 question = Question.objects.create(
                     question_text=question_text,
-                    level='4',  # Default to Grade 4
+                    level=level,
                     question_type='conversation_fill',
                     question_number=question_number,
                     explanation=explanation
@@ -110,5 +119,7 @@ class Command(BaseCommand):
         self.stdout.write(self.style.SUCCESS(f'\n登録完了: {registered_count}問の問題を登録しました'))
         
         # 確認
-        total_questions = Question.objects.filter(question_type='conversation_fill').count()
-        self.stdout.write(self.style.SUCCESS(f'データベース内の会話穴埋め問題総数: {total_questions}問')) 
+        total_questions = Question.objects.filter(
+            question_type='conversation_fill', level=level
+        ).count()
+        self.stdout.write(self.style.SUCCESS(f'データベース内の会話穴埋め問題総数（level={level}）: {total_questions}問')) 

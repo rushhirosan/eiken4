@@ -2,14 +2,25 @@ from django.core.management.base import BaseCommand
 from exams.models import Question, Choice
 import re
 
+from questions.level_paths import (
+    add_default_register_arguments,
+    db_audio_path,
+    questions_file_abspath,
+)
+
+
 class Command(BaseCommand):
     help = 'listening_passage_questions.txt からリスニング文章問題（No.1-40）を登録する'
 
+    def add_arguments(self, parser):
+        add_default_register_arguments(parser)
+
     def handle(self, *args, **options):
-        Question.objects.filter(question_type='listening_passage').delete()
-        self.stdout.write(self.style.WARNING('既存のリスニング文章問題をすべて削除しました'))
+        level = options['level']
+        Question.objects.filter(question_type='listening_passage', level=level).delete()
+        self.stdout.write(self.style.WARNING(f'既存のリスニング文章問題（level={level}）を削除しました'))
         
-        file_path = 'data/questions/listening_passage_questions.txt'
+        file_path = questions_file_abspath(level, 'listening_passage_questions.txt')
         questions_data = self.extract_questions_from_file(file_path)
         
         self.stdout.write(f'抽出された問題数: {len(questions_data)}')
@@ -17,13 +28,18 @@ class Command(BaseCommand):
         # 問題を作成
         for q_data in questions_data:
             # 問題を作成
+            af = db_audio_path(
+                level,
+                'part3',
+                f'listening_passage_question{q_data["question_number"]}.mp3',
+            )
             question = Question.objects.create(
                 question_type='listening_passage',
-                level='4',
+                level=level,
                 question_number=q_data['question_number'],
                 question_text=q_data['passage'] + '\n' + q_data['question_text'],
                 explanation=q_data['explanation'],
-                audio_file=f'audio/part3/listening_passage_question{q_data["question_number"]}.mp3'
+                audio_file=af,
             )
             
             # 選択肢を作成
