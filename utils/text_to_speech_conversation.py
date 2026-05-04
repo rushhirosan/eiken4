@@ -6,7 +6,13 @@ import edge_tts
 from pydub import AudioSegment
 
 def extract_conversation_parts(text):
-    """会話文を順番通りに抽出（MとWを区別）"""
+    """
+    会話文を順番通りに抽出（MとWを区別）。
+
+    Returns:
+        tuple: (conversation_parts, question_str, choices_lines)
+        choices_lines は選択肢行の list。「join 済み str」ではない（誤って再 join しないこと）。
+    """
     lines = text.strip().split('\n')
     conversation_parts = []
     question = []
@@ -63,7 +69,7 @@ def extract_conversation_parts(text):
         elif is_choices:
             choices.append(line)
     
-    return conversation_parts, '\n'.join(question), '\n'.join(choices)
+    return conversation_parts, '\n'.join(question), choices
 
 def combine_audio_files(conversation_audio, question_audio, output_path):
     """音声ファイルを結合"""
@@ -136,6 +142,11 @@ def combine_audio_files_with_choices(conversation_audio, question_audio, choices
 async def text_to_speech(text, output_path, voice="en-US-GuyNeural"):
     """テキストを音声ファイルに変換する"""
     try:
+        if isinstance(text, (list, tuple)):
+            text = '\n'.join(str(x) for x in text)
+        else:
+            text = str(text)
+
         # 出力ディレクトリが存在しない場合は作成
         output_dir = os.path.dirname(output_path)
         if output_dir and not os.path.exists(output_dir):
@@ -192,7 +203,9 @@ async def generate_audio_from_file(
                 continue
         
         # 会話と問題と選択肢を抽出
-        conversation_parts, question, choices = extract_conversation_parts(block)
+        conversation_parts, question, _choices_lines = extract_conversation_parts(
+            block
+        )
         
         output_audio = os.path.join(
             output_dir, f'{output_prefix}{question_number}.mp3'
@@ -244,8 +257,7 @@ async def generate_illustration_audio_from_file(
     会話 → 1秒無音 → 質問 → 1秒無音 → 選択肢（あれば）。
     会話は M/W で話者別（Edge TTS）、セリフ間に短い無音。「Question No.xx」は読まず Question のみ。
 
-    選択肢テキストは extract_conversation_parts の第3戻り値（既に join 済みの str）をそのまま
-    TTS に渡す。list と誤って再度 join すると1文字ずつ読み上げになるため禁止。
+    選択肢は extract の第3戻り値（行の list）を '\\n'.join してから TTS に渡す。
     """
     os.makedirs(output_dir, exist_ok=True)
 
@@ -269,7 +281,7 @@ async def generate_illustration_audio_from_file(
             if question_number < start_num or question_number > end_num:
                 continue
 
-        conversation_parts, question, choices_text = extract_conversation_parts(
+        conversation_parts, question, choices_lines = extract_conversation_parts(
             block
         )
 
@@ -306,7 +318,7 @@ async def generate_illustration_audio_from_file(
         print(f"Illustration {question_number} - Question text: {question}")
         await text_to_speech(question, question_audio, "en-US-GuyNeural")
 
-        ct = (choices_text or "").strip()
+        ct = '\n'.join(choices_lines).strip()
         if ct:
             choices_audio = os.path.join(
                 output_dir, f'temp_choices_{question_number}.mp3'
