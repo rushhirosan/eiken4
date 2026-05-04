@@ -12,4 +12,8 @@ alwaysApply: true
   - `accounts/`: 認証。セキュリティログは `[SECURITY]` プレフィックス（`docs/security_logging_guide.md`）。
 - **詳細仕様の一次情報**: `docs/question_update_flow_specification.md`（問題更新フロー・コマンド一覧・ディレクトリ役割）。迷ったらここを優先する。
 - **レベル表記**: `4`, `3`, `2`, `1`, `pre1`（モデルの `LEVELS` と一致させる）。
+- **データ・静的ファイルの置き場（級別）**
+  - **4級（従来）**: `data/questions/*.txt`、`static/audio/part1|part2|part3`、`static/images/part1`。**ここを 3級用に差し替えたり上書きしたりしない**（4級向け登録の既定のまま残す）。
+  - **3級**: `data/questions/level3/*.txt`（4級と同じファイル名）、`static/audio/level3/part1|2|3`、`static/images/level3/part1`（第1部イラスト用）。登録コマンドは `--level 3`、DB の `level='3'`。
+  - パス規約の実装は `questions/level_paths.py`（Django）、ユーティリティは `utils/eiken_paths.py`（引数・`EIKEN_LEVEL` 等）。
 - **ユーザー向け文言**: 日本語が基本。コードコメントは既存ファイルに合わせる（英日混在あり）。

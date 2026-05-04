@@ -1,6 +1,6 @@
 ---
 name: eiken-question-pipeline
-description: 英検4向けの問題データ更新フロー（PDF→テキスト→DB→試験画面）を案内する。問題登録コマンド、data/questions、静的ファイル、exams と questions の役割分担を扱うとき、または docs/question_update_flow_specification.md に沿った作業をするときに使う。
+description: 英検の問題データ更新フロー（PDF→テキスト→DB→試験画面）を案内する。4級の既定パスと 3級の level3 配下、register/create の --level、問題登録コマンド、docs/question_update_flow_specification.md に沿った作業で使う。
 ---
 
 # 英検問題パイプライン
@@ -13,13 +13,19 @@ description: 英検4向けの問題データ更新フロー（PDF→テキスト
 
 - `questions/`: マスタ登録・専用モデル・`questions/management/commands/` の登録・作成コマンド。
 - `exams/`: ユーザー向け試験・`exams.models.Question` 中心・進捗・回答履歴。
-- データファイル: `data/questions/*.txt` は多くの `register_*` / `create_*` と形式が結合している。
+- データファイル: **4級**は `data/questions/*.txt`。**3級**は `data/questions/level3/*.txt`（ファイル名は 4級と同じ）。多くの `register_*` / `create_*` と形式が結合している。
+- **4級のパスを `level3` 用に置き換えない**（4級マスタは直下のまま）。
+
+## 級と登録コマンド（`--level`）
+
+- すべての対象コマンドに **`--level`** あり（**既定 `4`**）。**3級**は **`--level 3`** → テキストは `data/questions/level3/`、DB は `level='3'`、音声・画像の保存パスは `questions/level_paths.py` の規約（例: `audio/level3/part2/...`）。
+- 実装の単一ソース: Django 側 `questions/level_paths.py`、PDF/TTS 系ユーティリティ `utils/eiken_paths.py`（`--level` / 環境変数 `EIKEN_LEVEL` 等）。
 
 ## 登録コマンド（仕様書と一致させる）
 
 | 用途の目安 | コマンド例（`python manage.py <name>`） |
 |-----------|----------------------------------------|
-| 文法・語彙 | `register_grammar_fill_questions` |
+| 文法・語彙 | `register_grammar_fill_questions`（例: `--level 3`） |
 | 会話補充 | `register_conversation_fill_questions` |
 | 語順 | `register_wordorder_fill_questions` |
 | 長文読解 | `register_reading_comprehension_questions` |
