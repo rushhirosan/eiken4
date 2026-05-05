@@ -8,10 +8,10 @@ Customer : Could you make me a salad without tomatoes? Waiter : ( ) That’s not
 4. Anywhere.
 
 【正解1】
-4. Anywhere.
+1. Certainly.
 
 【解説1】
-公式一次試験の解答（協会発表の解答速報PDF）に基づく。
+第1回3級の公式解答速報PDF（問16）に準拠。正答は 1（Certainly.）。
 
 ---
 
@@ -25,10 +25,10 @@ Man 1 : Do you want to go jogging with me on the beach tomorrow? Man 2 : OK. ( )
 4. I have to stay home.
 
 【正解2】
-2. The race is almost ﬁnished.
+3. I’ve never done that before.
 
 【解説2】
-公式一次試験の解答（協会発表の解答速報PDF）に基づく。
+第1回3級の公式解答速報PDF（問17）に準拠。正答は 3（I’ve never done that before.）。
 
 ---
 
@@ -42,10 +42,10 @@ Son : Do you want to watch the soccer game today? Father : ( ) Son : The one bet
 4. Where do you want to visit?
 
 【正解3】
-4. Where do you want to visit?
+1. Which game are you talking about?
 
 【解説3】
-公式一次試験の解答（協会発表の解答速報PDF）に基づく。
+第1回3級の公式解答速報PDF（問18）に準拠。正答は 1（Which game are you talking about?）。
 
 ---
 
@@ -59,10 +59,10 @@ Girl 1 : How are you going to the festival, Ann? Girl 2 : My mom’s taking me b
 4. About ten minutes.
 
 【正解4】
-3. Here’s the key.
+2. That sounds great.
 
 【解説4】
-公式一次試験の解答（協会発表の解答速報PDF）に基づく。
+第1回3級の公式解答速報PDF（問19）に準拠。正答は 2（That sounds great.）。
 
 ---
 
@@ -79,7 +79,7 @@ Wife : I need to go. I’ll call you when I arrive in Boston. Husband : OK. ( )
 4. Have a safe trip.
 
 【解説5】
-公式一次試験の解答（協会発表の解答速報PDF）に基づく。
+第1回3級の公式解答速報PDF（問20）に準拠。正答は 4（Have a safe trip.）。
 
 ---
 
@@ -93,10 +93,10 @@ Husband : Where shall we travel to this summer? Wife : How about Greenville? ( )
 4. It’s too crowded.
 
 【正解6】
-4. It’s too crowded.
+2. There’s a big lake there.
 
 【解説6】
-公式一次試験の解答（協会発表の解答速報PDF）に基づく。
+第2回3級の公式解答速報PDF（問16）に準拠。正答は 2（There’s a big lake there.）。
 
 ---
 
@@ -110,10 +110,10 @@ Boy : I called you last night, but you didn’t answer the phone. Girl : Sorry, 
 4. I don’t know the answer.
 
 【正解7】
-4. I don’t know the answer.
+2. I was writing a report.
 
 【解説7】
-公式一次試験の解答（協会発表の解答速報PDF）に基づく。
+第2回3級の公式解答速報PDF（問17）に準拠。正答は 2（I was writing a report.）。
 
 ---
 
@@ -130,7 +130,7 @@ Mother : Fred, the TV is too loud. ( ) please? Son : All right, Mom.
 3. Will you turn it down,
 
 【解説8】
-公式一次試験の解答（協会発表の解答速報PDF）に基づく。
+第2回3級の公式解答速報PDF（問18）に準拠。正答は 3（Will you turn it down,）。
 
 ---
 
@@ -144,10 +144,10 @@ Sister : Why are you eating my piece of cake? Brother : ( ) It’s mine.
 4. This morning, after breakfast.
 
 【正解9】
-4. This morning, after breakfast.
+1. This isn’t yours.
 
 【解説9】
-公式一次試験の解答（協会発表の解答速報PDF）に基づく。
+第2回3級の公式解答速報PDF（問19）に準拠。正答は 1（This isn’t yours.）。
 
 ---
 
@@ -161,10 +161,10 @@ Girl : When’s your big tennis match? Boy : Tomorrow. I haven’t practiced muc
 4. I really like your racket.
 
 【正解10】
-3. it’s going to rain.
+2. I’m a little worried.
 
 【解説10】
-公式一次試験の解答（協会発表の解答速報PDF）に基づく。
+第2回3級の公式解答速報PDF（問20）に準拠。正答は 2（I’m a little worried.）。
 
 ---
 
@@ -178,10 +178,10 @@ Boy : Have you been to the new zoo? Girl : Yes, but ( ) There are many cute anim
 4. it’ll be my ﬁrst time.
 
 【正解11】
-4. it’ll be my ﬁrst time.
+2. I’d like to go again.
 
 【解説11】
-公式一次試験の解答（協会発表の解答速報PDF）に基づく。
+第3回3級の公式解答速報PDF（問16）に準拠。正答は 2（I’d like to go again.）。
 
 ---
 
@@ -195,10 +195,10 @@ Man 1 : Should we take a bus to the art museum? Man 2 : Yes. ( ) Man 1 : I think
 4. I can’t ﬁnd my ticket.
 
 【正解12】
-1. It’s a famous painting.
+3. It’s too far to walk.
 
 【解説12】
-公式一次試験の解答（協会発表の解答速報PDF）に基づく。
+第3回3級の公式解答速報PDF（問17）に準拠。正答は 3（It’s too far to walk.）。
 
 ---
 
@@ -212,10 +212,10 @@ Girl : I’m going to Hawaii with my family. Boy : That’s nice. ( ) Girl : Yes
 4. Could you help me with it?
 
 【正解13】
-2. Can you call back later?
+1. Have you been there before?
 
 【解説13】
-公式一次試験の解答（協会発表の解答速報PDF）に基づく。
+第3回3級の公式解答速報PDF（問18）に準拠。正答は 1（Have you been there before?）。
 
 ---
 
@@ -232,7 +232,7 @@ Husband : Our train is going to leave soon. We should go, or we’ll be late. Do
 3. I’m ready.
 
 【解説14】
-公式一次試験の解答（協会発表の解答速報PDF）に基づく。
+第3回3級の公式解答速報PDF（問19）に準拠。正答は 3（I’m ready.）。
 
 ---
 
@@ -246,9 +246,9 @@ Son : Hi, Mom. Mother : Hi, Martin. ( ) Son : We didn’t have band practice tod
 4. You got a good score.
 
 【正解15】
-1. It’s not for you.
+3. You’re home early.
 
 【解説15】
-公式一次試験の解答（協会発表の解答速報PDF）に基づく。
+第3回3級の公式解答速報PDF（問20）に準拠。正答は 3（You’re home early.）。
 
 ---

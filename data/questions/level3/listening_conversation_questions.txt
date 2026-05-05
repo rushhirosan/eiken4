@@ -1,19 +1,219 @@
-No.1:
-M: Level three conversation template.
-W: Understood.
+No.11:
+★The Japanese speech contest is on Friday, right?
+☆Yeah.  I’m looking forward to it.
+★Me, too.  My speech is about Japanese food.
+☆Mine is about Japanese music.
 
-Question No.1:
-What is this?
+Question No.11:
+What are they looking forward to?
 
-1. A template.
-2. A quiz.
-3. A song.
-4. A story.
+1. A speech contest.
+2. A trip to Japan.
+3. A concert.
+4. A Japanese food festival.
 
-【正解1】
-1. A template.
+【正解11】
+1. A speech contest.
 
-【解説1】
-3級用テンプレ（ダミー）。
+【解説11】
+2025年度第3回3級リスニング第2部（No.11）の公式解答に準拠。
+
+---
+
+No.12:
+☆Let’s clean up the kitchen!
+★I’ll put the glass bottles in this plastic bag.
+☆Thanks.  I’ll recycle the orange juice cans.
+★We’ll be finished soon!
+
+Question No.12:
+What will the girl recycle?
+
+1. The glass bottles.
+2. The cans.
+3. The paper.
+4. The plastic bags.
+
+【正解12】
+2. The cans.
+
+【解説12】
+2025年度第3回3級リスニング第2部（No.12）の公式解答に準拠。
+
+---
+
+No.13:
+★I’m going to my cousin’s house to play chess after school.  Can you come?
+☆No, I have a violin lesson this afternoon.
+★Well, let’s get ice cream together this weekend, then.
+☆OK.
+
+Question No.13:
+What will the girl do after school today?
+
+1. Play chess.
+2. Visit her cousin.
+3. Play her violin.
+4. Eat ice cream.
+
+【正解13】
+3. Play her violin.
+
+【解説13】
+2025年度第3回3級リスニング第2部（No.13）の公式解答に準拠。
+
+---
+
+No.14:
+★Are you joining the tennis club, Janet?
+☆Not this year.  I’m going to try the cooking club.
+★Sounds fun.  I’ll join the speech club.
+☆That’s nice.
+
+Question No.14:
+Which club will Janet join?
+
+1. The tennis club.
+2. The cooking club.
+3. The speech club.
+4. The drama club.
+
+【正解14】
+2. The cooking club.
+
+【解説14】
+2025年度第3回3級リスニング第2部（No.14）の公式解答に準拠。
+
+---
+
+No.15:
+★Mom, let’s go to the swimming pool on Sunday afternoon.
+☆On Sundays, it’s only open in the morning.
+★Let’s go on Saturday, then.
+☆OK.
+
+Question No.15:
+When is the pool closed?
+
+1. On Saturday mornings.
+2. On Saturday afternoons.
+3. On Sunday mornings.
+4. On Sunday afternoons.
+
+【正解15】
+4. On Sunday afternoons.
+
+【解説15】
+2025年度第3回3級リスニング第2部（No.15）の公式解答に準拠。
+
+---
+
+No.16:
+★Do you want to go to the art museum this weekend, Sarah?
+☆Sorry, Brian.  I’m going to the science museum with my family.
+★That sounds fun.
+☆Maybe we can go next weekend.
+
+Question No.16:
+Where is Sarah going this weekend?
+
+1. To the science museum.
+2. To her family’s house.
+3. To her friend’s house.
+4. To the art museum.
+
+【正解16】
+1. To the science museum.
+
+【解説16】
+2025年度第3回3級リスニング第2部（No.16）の公式解答に準拠。
+
+---
+
+No.17:
+★Is your piano concert next Friday?
+☆No.  It’s next Saturday.  I practice hard every Sunday.
+★Can I come?
+☆Of course.  It’ll start at 6:30 p.m. at the community center.
+
+Question No.17:
+When is the girl’s piano concert?
+
+1. Next Friday.
+2. Next Saturday.
+3. Next Sunday.
+4. Next Monday.
+
+【正解17】
+2. Next Saturday.
+
+【解説17】
+2025年度第3回3級リスニング第2部（No.17）の公式解答に準拠。
+
+---
+
+No.18:
+★Let’s go to the park next to the train station.
+☆OK.  Let’s walk.
+★It’s too far to walk.  How about riding our bikes?
+☆Good idea.
+
+Question No.18:
+How will they go to the park?
+
+1. By bike.
+2. By train.
+3. By car.
+4. On foot.
+
+【正解18】
+1. By bike.
+
+【解説18】
+2025年度第3回3級リスニング第2部（No.18）の公式解答に準拠。
+
+---
+
+No.19:
+★Emily, do you like reading books?
+☆Yes, I usually go to the library on Saturday mornings.
+★Really?  I always go on Wednesday afternoons.
+☆Maybe we can meet there sometime.
+
+Question No.19:
+When does Emily usually go to the library?
+
+1. On Wednesday mornings.
+2. On Wednesday afternoons.
+3. On Saturday mornings.
+4. On Saturday afternoons.
+
+【正解19】
+3. On Saturday mornings.
+
+【解説19】
+2025年度第3回3級リスニング第2部（No.19）の公式解答に準拠。
+
+---
+
+No.20:
+☆How was your summer camp?
+★Great.  I met many interesting people.
+☆How long was it?
+★Five days.  Next year, I’ll go to a two-week camp.
+
+Question No.20:
+How long was the boy’s summer camp?
+
+1. Five days.
+2. One week.
+3. Two weeks.
+4. One month.
+
+【正解20】
+1. Five days.
+
+【解説20】
+2025年度第3回3級リスニング第2部（No.20）の公式解答に準拠。
 
 ---
