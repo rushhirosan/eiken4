@@ -102,6 +102,17 @@
                             <td>{% if progress.reading_comprehension.last_attempted %}{{ progress.reading_comprehension.last_attempted }}{% else %}未回答{% endif %}</td>
                         </tr>
                         <tr>
+                            <td>ライティング問題</td>
+                            <td>{{ progress.writing.progress_rate|default:"0" }}%</td>
+                            <td>{{ progress.writing.answered_questions|default:"0" }}</td>
+                            <td>{{ progress.writing.total_questions|default:"0" }}</td>
+                            <td>{{ progress.writing.total_attempts|default:"0" }}</td>
+                            <td>{{ progress.writing.today_attempts|default:"0" }}問</td>
+                            <td>{{ progress.writing.correct_answers|default:"0" }}</td>
+                            <td>{{ progress.writing.incorrect_answers|default:"0" }}</td>
+                            <td>{% if progress.writing.last_attempted %}{{ progress.writing.last_attempted }}{% else %}未回答{% endif %}</td>
+                        </tr>
+                        <tr>
                             <td>リスニングイラスト問題</td>
                             <td>{{ progress.listening_illustration.progress_rate|default:"0" }}%</td>
                             <td>{{ progress.listening_illustration.answered_questions|default:"0" }}</td>
@@ -271,6 +282,34 @@
                     </div>
                 </div>
 
+                <!-- ライティング問題 -->
+                <div class="card mb-3 progress-card">
+                    <div class="card-header d-flex justify-content-between align-items-center">
+                        <h6 class="mb-0"><i class="fas fa-pen-fancy me-2"></i>ライティング問題</h6>
+                        <span class="badge bg-primary">{{ progress.writing.progress_rate|default:"0" }}%</span>
+                    </div>
+                    <div class="card-body">
+                        <div class="row g-2">
+                            <div class="col-6">
+                                <small class="text-muted">回答済み数</small>
+                                <div class="fw-bold">{{ progress.writing.answered_questions|default:"0" }}/{{ progress.writing.total_questions|default:"0" }}</div>
+                            </div>
+                            <div class="col-6">
+                                <small class="text-muted">累計提出回数</small>
+                                <div class="fw-bold">{{ progress.writing.total_attempts|default:"0" }}</div>
+                            </div>
+                            <div class="col-6">
+                                <small class="text-muted">今日の取り組み</small>
+                                <div class="fw-bold text-success">{{ progress.writing.today_attempts|default:"0" }}問</div>
+                            </div>
+                            <div class="col-12">
+                                <small class="text-muted">最終回答日</small>
+                                <div class="fw-bold text-info">{% if progress.writing.last_attempted %}{{ progress.writing.last_attempted }}{% else %}未回答{% endif %}</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
                 <!-- リスニングイラスト問題 -->
                 <div class="card mb-3 progress-card">
                     <div class="card-header d-flex justify-content-between align-items-center">
@@ -390,6 +429,7 @@ document.addEventListener('DOMContentLoaded', function() {
         '会話補充問題',
         '語順選択問題',
         '長文読解問題',
+        'ライティング問題',
         'リスニングイラスト問題',
         'リスニング会話問題',
         'リスニング文章問題'
@@ -400,6 +440,7 @@ document.addEventListener('DOMContentLoaded', function() {
         progress.conversation_fill.progress_rate,
         progress.word_order.progress_rate,
         progress.reading_comprehension.progress_rate,
+        progress.writing.progress_rate,
         progress.listening_illustration.progress_rate,
         progress.listening_conversation.progress_rate,
         progress.listening_passage.progress_rate
@@ -420,6 +461,7 @@ document.addEventListener('DOMContentLoaded', function() {
                     'rgba(255, 99, 132, 0.5)',   // 会話
                     'rgba(255, 206, 86, 0.5)',   // 語句
                     'rgba(75, 192, 192, 0.5)',   // 読解
+                    'rgba(40, 167, 69, 0.5)',    // ライティング
                     'rgba(153, 102, 255, 0.5)',  // リスニング1
                     'rgba(255, 159, 64, 0.5)',   // リスニング2
                     'rgba(201, 203, 207, 0.5)'   // リスニング3
@@ -485,7 +527,7 @@ document.addEventListener('DOMContentLoaded', function() {
     
     // 各問題タイプの日ごとデータを統合
     const allDailyData = {};
-    const questionTypes = ['grammar_fill', 'conversation_fill', 'word_order', 'reading_comprehension', 'listening_illustration', 'listening_conversation', 'listening_passage'];
+    const questionTypes = ['grammar_fill', 'conversation_fill', 'word_order', 'reading_comprehension', 'writing', 'listening_illustration', 'listening_conversation', 'listening_passage'];
     
     // 過去7日間の日付を生成
     const today = new Date();

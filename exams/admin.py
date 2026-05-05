@@ -1,5 +1,5 @@
 from django.contrib import admin
-from .models import Question, Choice, UserAnswer, ReadingUserAnswer, Feedback
+from .models import Question, Choice, UserAnswer, ReadingUserAnswer, Feedback, WritingUserAnswer
 
 class ChoiceInline(admin.TabularInline):
     model = Choice
@@ -29,6 +29,14 @@ class ReadingUserAnswerAdmin(admin.ModelAdmin):
     list_display = ('user', 'reading_question', 'selected_reading_choice', 'is_correct', 'answered_at')
     list_filter = ('user', 'answered_at', 'is_correct')
     search_fields = ('user__username', 'reading_question__question_text')
+
+
+@admin.register(WritingUserAnswer)
+class WritingUserAnswerAdmin(admin.ModelAdmin):
+    list_display = ('user', 'question', 'answered_at')
+    list_filter = ('user', 'answered_at')
+    search_fields = ('user__username', 'response_text', 'question__question_text')
+
 
 @admin.register(Feedback)
 class FeedbackAdmin(admin.ModelAdmin):

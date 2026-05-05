@@ -6,7 +6,16 @@ from django.db.models import Q, Count
 from django.utils import timezone
 from django.template.loader import render_to_string
 from django.urls import reverse
-from .models import Question, Choice, UserAnswer, UserProgress, ReadingUserAnswer, DailyProgress, Feedback
+from .models import (
+    Question,
+    Choice,
+    UserAnswer,
+    UserProgress,
+    ReadingUserAnswer,
+    DailyProgress,
+    Feedback,
+    WritingUserAnswer,
+)
 from django.db.models import Count, Q
 import random
 from django.http import JsonResponse
@@ -41,6 +50,7 @@ QUESTION_TYPE_LABELS = {
     'conversation_fill': '会話補充問題',
     'word_order': '語順選択問題',
     'reading_comprehension': '長文読解問題',
+    'writing': 'ライティング問題',
     'listening_illustration': 'リスニング第1部: イラスト問題',
     'listening_conversation': 'リスニング第2部: 会話問題',
     'listening_passage': 'リスニング第3部: 文章問題',
@@ -94,6 +104,7 @@ def exam_list(request):
         'conversation_fill': '会話補充問題',
         'word_order': '語順選択問題',
         'reading_comprehension': '長文読解問題',
+        'writing': 'ライティング問題',
         'listening_conversation': 'リスニング第2部: 会話問題',
         'listening_illustration': 'リスニング第1部: イラスト問題',
         'listening_passage': 'リスニング第3部: 文章問題',
@@ -154,6 +165,7 @@ def question_list(request, level=None, exam_id=None):
         'conversation_fill': '会話補充問題',
         'word_order': '語順選択問題',
         'reading_comprehension': '長文読解問題',
+        'writing': 'ライティング問題',
         'listening_conversation': 'リスニング第2部: 会話問題',
         'listening_illustration': 'リスニング第1部: イラスト問題',
         'listening_passage': 'リスニング第3部: 文章問題',
@@ -649,7 +661,56 @@ def question_list(request, level=None, exam_id=None):
             'question_count_options': question_count_options,
         }
         return render(request, 'exams/reading_comprehension.html', context)
-    
+
+    elif question_type == 'writing':
+        questions = list(
+            Question.objects.filter(
+                level=str(level), question_type='writing'
+            ).order_by('question_number')
+        )
+        wa_query = WritingUserAnswer.objects.filter(
+            user=request.user,
+            question__in=questions,
+        ).order_by('-answered_at')
+        wa_by_qid = {}
+        for wa in wa_query:
+            if wa.question_id not in wa_by_qid:
+                wa_by_qid[wa.question_id] = wa
+
+        if status == 'unanswered':
+            questions = [q for q in questions if q.id not in wa_by_qid]
+        elif status == 'correct':
+            questions = [q for q in questions if q.id in wa_by_qid]
+        elif status == 'incorrect':
+            questions = []
+
+        if num_questions != 'all' and len(questions) > num_questions:
+            questions = random.sample(questions, num_questions)
+            questions.sort(key=lambda x: x.question_number)
+
+        questions_with_answers = []
+        for question in questions:
+            wa = wa_by_qid.get(question.id)
+            questions_with_answers.append({
+                'question': question,
+                'choices': [],
+                'user_answer': wa.response_text if wa else '',
+                'is_correct': None,
+                'correct_choice': None,
+                'explanation': question.explanation,
+            })
+
+        context = {
+            'level': level,
+            'question_type': question_type,
+            'question_type_display': question_types.get(question_type, ''),
+            'num_questions': num_questions,
+            'status': status,
+            'questions': questions_with_answers,
+            'question_count_options': question_count_options,
+        }
+        return render(request, 'exams/question_list.html', context)
+
     else:
         # 通常の問題の場合
         questions = Question.objects.filter(level=str(level), question_type=question_type).order_by('question_number')
@@ -1048,6 +1109,42 @@ def submit_answers(request, level):
             request.session[f'answered_questions_{question_type}_{level}'] = post_question_ids
             
             return redirect('exams:answer_results', level=level, question_type=question_type)
+
+        elif question_type == 'writing':
+            questions = list(
+                Question.objects.filter(
+                    level=str(level), question_type='writing'
+                ).order_by('question_number')
+            )
+            if num_questions != 'all' and len(questions) > num_questions:
+                questions = random.sample(questions, num_questions)
+                questions.sort(key=lambda x: x.question_number)
+
+            post_question_ids = [
+                int(key.replace('answer_', ''))
+                for key in request.POST.keys()
+                if key.startswith('answer_')
+            ]
+
+            WritingUserAnswer.objects.filter(
+                user=request.user,
+                question_id__in=post_question_ids,
+            ).delete()
+
+            for question_id in post_question_ids:
+                text = (request.POST.get(f'answer_{question_id}', '') or '').strip()
+                if not text:
+                    continue
+                WritingUserAnswer.objects.create(
+                    user=request.user,
+                    question_id=question_id,
+                    response_text=text,
+                )
+                update_user_progress(request.user, str(level), 'writing', True)
+
+            request.session[f'answered_questions_{question_type}_{level}'] = post_question_ids
+
+            return redirect('exams:answer_results', level=level, question_type=question_type)
         
         else:
             # 通常の問題の場合
@@ -1392,6 +1489,40 @@ def answer_results(request, level, question_type):
             'total_count': total_count,
         }
         return render(request, 'exams/answer_results.html', context)
+
+    elif question_type == 'writing':
+        session_key = f'answered_questions_{question_type}_{level}'
+        answered_question_ids = request.session.get(session_key, [])
+        order_dict = {
+            qid: idx for idx, qid in enumerate(answered_question_ids)
+        }
+        user_answers = WritingUserAnswer.objects.filter(
+            user=request.user,
+            question_id__in=answered_question_ids,
+        ).select_related('question')
+
+        answers_with_questions = []
+        for answer in user_answers:
+            answers_with_questions.append({
+                'question': answer.question,
+                'choices': [],
+                'user_answer': answer.response_text,
+                'is_correct': None,
+                'correct_choice': None,
+                'explanation': answer.question.explanation,
+                'order': order_dict.get(answer.question.id, 0),
+            })
+        answers_with_questions.sort(key=lambda x: x['order'])
+
+        submitted = sum(1 for a in user_answers if (a.response_text or '').strip())
+        context = {
+            'level': level,
+            'question_type': question_type,
+            'answers_with_questions': answers_with_questions,
+            'correct_count': submitted,
+            'total_count': len(user_answers),
+        }
+        return render(request, 'exams/answer_results.html', context)
     
     else:
         # 通常の問題の場合（会話問題など）
@@ -1461,6 +1592,7 @@ def progress_view(request):
             'conversation_fill': progress_to_dict(level_progress.filter(question_type='conversation_fill').first(), level, 'conversation_fill', user),
             'word_order': progress_to_dict(level_progress.filter(question_type='word_order').first(), level, 'word_order', user),
             'reading_comprehension': progress_to_dict(level_progress.filter(question_type='reading_comprehension').first(), level, 'reading_comprehension', user),
+            'writing': progress_to_dict(level_progress.filter(question_type='writing').first(), level, 'writing', user),
             'listening_illustration': progress_to_dict(level_progress.filter(question_type='listening_illustration').first(), level, 'listening_illustration', user),
             'listening_conversation': progress_to_dict(level_progress.filter(question_type='listening_conversation').first(), level, 'listening_conversation', user),
             'listening_passage': progress_to_dict(level_progress.filter(question_type='listening_passage').first(), level, 'listening_passage', user),
@@ -1635,6 +1767,12 @@ def _distinct_answered_question_count(user, level, question_type):
     if question_type == 'reading_comprehension':
         completed_passages, _ = _reading_passage_progress_counts(user, level)
         return completed_passages
+    if question_type == 'writing':
+        return WritingUserAnswer.objects.filter(
+            user=user,
+            question__level=str(level),
+            question__question_type='writing',
+        ).values('question_id').distinct().count()
     return UserAnswer.objects.filter(
         user=user,
         question__level=level,
@@ -1670,6 +1808,13 @@ def progress_to_dict(progress, level=None, question_type=None, user=None):
                     user=user,  # userパラメータが必要
                     reading_question__passage__level=str(level),
                     answered_at__range=(date_start, date_end)
+                ).count()
+            elif question_type == 'writing':
+                daily_count = WritingUserAnswer.objects.filter(
+                    user=user,
+                    question__level=str(level),
+                    question__question_type='writing',
+                    answered_at__range=(date_start, date_end),
                 ).count()
             else:
                 daily_count = UserAnswer.objects.filter(
@@ -1739,6 +1884,13 @@ def progress_to_dict(progress, level=None, question_type=None, user=None):
             reading_question__passage__level=str(level),
             answered_at__range=(today_start, today_end)
         ).count()
+    elif question_type == 'writing':
+        today_attempts = WritingUserAnswer.objects.filter(
+            user=progress.user,
+            question__level=str(level),
+            question__question_type='writing',
+            answered_at__range=(today_start, today_end),
+        ).count()
     else:
         today_attempts = UserAnswer.objects.filter(
             user=progress.user,
@@ -1768,6 +1920,13 @@ def progress_to_dict(progress, level=None, question_type=None, user=None):
                 user=progress.user,
                 reading_question__passage__level=str(level),
                 answered_at__range=(date_start, date_end)
+            ).count()
+        elif question_type == 'writing':
+            daily_count = WritingUserAnswer.objects.filter(
+                user=progress.user,
+                question__level=str(level),
+                question__question_type='writing',
+                answered_at__range=(date_start, date_end),
             ).count()
         else:
             daily_count = UserAnswer.objects.filter(
@@ -1803,6 +1962,7 @@ def clear_progress(request):
         UserProgress.objects.filter(user=user).delete()
         # ユーザーの全ての回答履歴をクリア
         UserAnswer.objects.filter(user=user).delete()
+        WritingUserAnswer.objects.filter(user=user).delete()
         messages.success(request, '学習進捗をクリアしました。')
     return redirect('exams:progress')
 

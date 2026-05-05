@@ -88,6 +88,11 @@
                                     </div>
                                 {% endfor %}
                             </div>
+                        {% elif question_type == 'writing' %}
+                            <div class="writing-prompt text-start">{{ question.question.question_text|linebreaks }}</div>
+                            <label class="form-label mt-3 mb-1" for="answer-{{ question.question.id }}">あなたの英文</label>
+                            <textarea class="form-control writing-answer-input" name="answer_{{ question.question.id }}" id="answer-{{ question.question.id }}" rows="12" placeholder="英文で入力してください">{{ question.user_answer }}</textarea>
+                            <p class="small text-muted mt-2 mb-0">自動採点はありません。提出後に参考解答と照らし合わせてください。</p>
                         {% elif question.question.question_type == 'listening_conversation' or question.question.question_type == 'listening_passage' or question_type == 'random' and question.category == 'listening_conversation' or question_type == 'random' and question.category == 'listening_passage' %}
                             <div class="text-center mb-3 listening-audio-wrap">
                                 {% if question.question.resolved_audio_file %}
@@ -170,34 +175,33 @@
 
 <script>
 document.getElementById('examForm').addEventListener('submit', function(e) {
-    // 実際に表示されている問題カードのみを取得
-    // .question-cardクラスを持つカードで、ラジオボタンがあるもののみ
     const allCards = document.querySelectorAll('.question-card');
     const questionCards = [];
-    
-    // ラジオボタンがあるカードだけを問題カードとして識別
     allCards.forEach(card => {
-        const radioButtons = card.querySelectorAll('input[type="radio"][name^="answer_"], input[type="radio"][name^="question_"]');
-        if (radioButtons.length > 0) {
+        const radios = card.querySelectorAll('input[type="radio"][name^="answer_"], input[type="radio"][name^="question_"]');
+        const ta = card.querySelector('textarea.writing-answer-input');
+        if (radios.length > 0 || ta) {
             questionCards.push(card);
         }
     });
-    
+
     let allAnswered = true;
     let answeredCount = 0;
-    let unansweredCards = [];
-    
-    // 各問題カードをチェック
+    const unansweredCards = [];
+
     questionCards.forEach((card, index) => {
         const radioButtons = card.querySelectorAll('input[type="radio"][name^="answer_"], input[type="radio"][name^="question_"]');
+        const textarea = card.querySelector('textarea.writing-answer-input');
         let questionAnswered = false;
-        
-        radioButtons.forEach(radio => {
-            if (radio.checked) {
-                questionAnswered = true;
-            }
-        });
-        
+
+        if (textarea) {
+            questionAnswered = textarea.value.trim().length > 0;
+        } else {
+            radioButtons.forEach(radio => {
+                if (radio.checked) questionAnswered = true;
+            });
+        }
+
         if (!questionAnswered) {
             allAnswered = false;
             unansweredCards.push(index + 1);
@@ -207,17 +211,12 @@ document.getElementById('examForm').addEventListener('submit', function(e) {
             card.style.border = '';
         }
     });
-    
+
     if (!allAnswered) {
         e.preventDefault();
         alert(`表示されている${questionCards.length}問のうち、${answeredCount}問に回答済みです。すべての問いに回答してください。`);
-        // 未回答の問題をハイライト
-        unansweredCards.forEach(num => {
-            console.log(`問題 ${num} が未回答です`);
-        });
         return false;
     }
-    
     return true;
 });
 

@@ -64,6 +64,7 @@
                                     会話補充問題（{{ section.question_counts.conversation_fill }}問）
                                 </a>
                             </div>
+                            {% if section.level_code != '3' %}
                             <div class="col-md-6">
                                 <a href="{% url 'exams:question_list_by_level' level=section.level_code %}?type=word_order" 
                                    class="btn btn-light shadow-sm text-dark w-100 py-2">
@@ -71,11 +72,19 @@
                                     語順選択問題（{{ section.question_counts.word_order }}問）
                                 </a>
                             </div>
+                            {% endif %}
                             <div class="col-md-6">
                                 <a href="{% url 'exams:question_list_by_level' level=section.level_code %}?type=reading_comprehension" 
                                    class="btn btn-light shadow-sm text-dark w-100 py-2">
                                     <i class="fas fa-book-open me-2"></i>
                                     長文読解問題（{{ section.question_counts.reading_comprehension }}本文）
+                                </a>
+                            </div>
+                            <div class="col-md-6">
+                                <a href="{% url 'exams:question_list_by_level' level=section.level_code %}?type=writing" 
+                                   class="btn btn-light shadow-sm text-dark w-100 py-2">
+                                    <i class="fas fa-pen-fancy me-2"></i>
+                                    ライティング問題（{{ section.question_counts.writing }}問）
                                 </a>
                             </div>
                         </div>

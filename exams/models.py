@@ -34,6 +34,7 @@ class Question(models.Model):
         ('conversation_fill', '会話補充問題'),
         ('word_order', '語順選択問題'),
         ('reading_comprehension', '長文読解問題'),
+        ('writing', 'ライティング問題'),
         ('listening_conversation', 'リスニング第2部: 会話問題'),
         ('listening_illustration', 'リスニング第1部: イラスト問題'),
         ('listening_passage', 'リスニング第3部: 文章問題'),
@@ -99,6 +100,21 @@ class UserAnswer(models.Model):
 
     def __str__(self):
         return f"{self.user.username} - {self.question} - {self.selected_choice}"
+
+
+class WritingUserAnswer(models.Model):
+    """ライティング（自由英作文）の提出文。採点はせず参考解答と照らし合わせて自己学習。"""
+
+    user = models.ForeignKey(CustomUser, on_delete=models.CASCADE)
+    question = models.ForeignKey(Question, on_delete=models.CASCADE)
+    response_text = models.TextField()
+    answered_at = models.DateTimeField(auto_now_add=True)
+
+    class Meta:
+        ordering = ['-answered_at']
+
+    def __str__(self):
+        return f"{self.user.username} - writing Q{self.question_id}"
 
 class ReadingUserAnswer(models.Model):
     user = models.ForeignKey(CustomUser, on_delete=models.CASCADE)
