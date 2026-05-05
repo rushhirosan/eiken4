@@ -80,6 +80,7 @@
                                     長文読解問題（{{ section.question_counts.reading_comprehension }}本文）
                                 </a>
                             </div>
+                            {% if section.level_code == '3' %}
                             <div class="col-md-6">
                                 <a href="{% url 'exams:question_list_by_level' level=section.level_code %}?type=writing" 
                                    class="btn btn-light shadow-sm text-dark w-100 py-2">
@@ -87,6 +88,7 @@
                                     ライティング問題（{{ section.question_counts.writing }}問）
                                 </a>
                             </div>
+                            {% endif %}
                         </div>
                         
                         <!-- リスニング問題 -->

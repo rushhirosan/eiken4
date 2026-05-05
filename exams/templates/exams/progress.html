@@ -101,6 +101,7 @@
                             <td>{{ progress.reading_comprehension.incorrect_answers|default:"0" }}</td>
                             <td>{% if progress.reading_comprehension.last_attempted %}{{ progress.reading_comprehension.last_attempted }}{% else %}未回答{% endif %}</td>
                         </tr>
+                        {% if level == '3' %}
                         <tr>
                             <td>ライティング問題</td>
                             <td>{{ progress.writing.progress_rate|default:"0" }}%</td>
@@ -112,6 +113,7 @@
                             <td>{{ progress.writing.incorrect_answers|default:"0" }}</td>
                             <td>{% if progress.writing.last_attempted %}{{ progress.writing.last_attempted }}{% else %}未回答{% endif %}</td>
                         </tr>
+                        {% endif %}
                         <tr>
                             <td>リスニングイラスト問題</td>
                             <td>{{ progress.listening_illustration.progress_rate|default:"0" }}%</td>
@@ -282,6 +284,7 @@
                     </div>
                 </div>
 
+                {% if level == '3' %}
                 <!-- ライティング問題 -->
                 <div class="card mb-3 progress-card">
                     <div class="card-header d-flex justify-content-between align-items-center">
@@ -309,6 +312,7 @@
                         </div>
                     </div>
                 </div>
+                {% endif %}
 
                 <!-- リスニングイラスト問題 -->
                 <div class="card mb-3 progress-card">
@@ -424,6 +428,7 @@ document.addEventListener('DOMContentLoaded', function() {
     // デバッグ用のコンソールログ
     console.log('Progress data for level {{ level }}:', progress);
     
+    {% if level == '3' %}
     const labels = [
         '文法・語彙問題',
         '会話補充問題',
@@ -445,6 +450,27 @@ document.addEventListener('DOMContentLoaded', function() {
         progress.listening_conversation.progress_rate,
         progress.listening_passage.progress_rate
     ];
+    {% else %}
+    const labels = [
+        '文法・語彙問題',
+        '会話補充問題',
+        '語順選択問題',
+        '長文読解問題',
+        'リスニングイラスト問題',
+        'リスニング会話問題',
+        'リスニング文章問題'
+    ];
+    
+    const data = [
+        progress.grammar_fill.progress_rate,
+        progress.conversation_fill.progress_rate,
+        progress.word_order.progress_rate,
+        progress.reading_comprehension.progress_rate,
+        progress.listening_illustration.progress_rate,
+        progress.listening_conversation.progress_rate,
+        progress.listening_passage.progress_rate
+    ];
+    {% endif %}
     
     // デバッグ用のコンソールログ
     console.log('Chart data:', data);
@@ -456,6 +482,7 @@ document.addEventListener('DOMContentLoaded', function() {
             datasets: [{
                 label: '取り組み率 (%)',
                 data: data,
+                {% if level == '3' %}
                 backgroundColor: [
                     'rgba(54, 162, 235, 0.5)',  // 文法
                     'rgba(255, 99, 132, 0.5)',   // 会話
@@ -471,10 +498,31 @@ document.addEventListener('DOMContentLoaded', function() {
                     'rgba(255, 99, 132, 1)',
                     'rgba(255, 206, 86, 1)',
                     'rgba(75, 192, 192, 1)',
+                    'rgba(40, 167, 69, 1)',
                     'rgba(153, 102, 255, 1)',
                     'rgba(255, 159, 64, 1)',
                     'rgba(201, 203, 207, 1)'
                 ],
+                {% else %}
+                backgroundColor: [
+                    'rgba(54, 162, 235, 0.5)',
+                    'rgba(255, 99, 132, 0.5)',
+                    'rgba(255, 206, 86, 0.5)',
+                    'rgba(75, 192, 192, 0.5)',
+                    'rgba(153, 102, 255, 0.5)',
+                    'rgba(255, 159, 64, 0.5)',
+                    'rgba(201, 203, 207, 0.5)'
+                ],
+                borderColor: [
+                    'rgba(54, 162, 235, 1)',
+                    'rgba(255, 99, 132, 1)',
+                    'rgba(255, 206, 86, 1)',
+                    'rgba(75, 192, 192, 1)',
+                    'rgba(153, 102, 255, 1)',
+                    'rgba(255, 159, 64, 1)',
+                    'rgba(201, 203, 207, 1)'
+                ],
+                {% endif %}
                 borderWidth: 1
             }]
         },
@@ -527,7 +575,11 @@ document.addEventListener('DOMContentLoaded', function() {
     
     // 各問題タイプの日ごとデータを統合
     const allDailyData = {};
-    const questionTypes = ['grammar_fill', 'conversation_fill', 'word_order', 'reading_comprehension', 'writing', 'listening_illustration', 'listening_conversation', 'listening_passage'];
+    const questionTypes = [
+        'grammar_fill', 'conversation_fill', 'word_order', 'reading_comprehension',
+        {% if level == '3' %}'writing', {% endif %}
+        'listening_illustration', 'listening_conversation', 'listening_passage'
+    ];
     
     // 過去7日間の日付を生成
     const today = new Date();

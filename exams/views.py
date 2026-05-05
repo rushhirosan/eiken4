@@ -156,6 +156,10 @@ def question_list(request, level=None, exam_id=None):
             num_questions = int(num_questions_param)
     
     status = request.GET.get('status', 'all')
+
+    if question_type == 'writing' and str(level) != '3':
+        messages.info(request, 'ライティング問題は英検3級のみです。')
+        return redirect('exams:exam_list')
     
     logger.debug(f"Debug - Level: {level}, Question Type: {question_type}")  # デバッグ出力
     
@@ -915,6 +919,9 @@ def submit_answers(request, level):
     if request.method == 'POST':
         question_type = request.POST.get('question_type')
         level = int(level)  # URLパラメータから取得したlevelを使用
+        if question_type == 'writing' and str(level) != '3':
+            messages.info(request, 'ライティング問題は英検3級のみです。')
+            return redirect('exams:exam_list')
         status = request.POST.get('status', 'all')  # 追加
         # num_questionsが「全て」の場合は文字列、そうでなければ整数
         num_questions_param = request.POST.get('num_questions', 10)
@@ -1251,6 +1258,9 @@ def submit_answers(request, level):
 
 @login_required
 def answer_results(request, level, question_type):
+    if question_type == 'writing' and str(level) != '3':
+        messages.info(request, 'ライティング問題は英検3級のみです。')
+        return redirect('exams:exam_list')
     if question_type == 'random':
         # ランダム10問の場合
         # セッションから今回回答したquestion_idを取得
