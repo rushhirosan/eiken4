@@ -18,6 +18,7 @@ from .models import (
 )
 from django.db.models import Count, Q
 import random
+import re
 from django.http import JsonResponse
 from django.contrib import messages
 import json
@@ -31,6 +32,27 @@ from django.http import HttpResponse
 from django.views.decorators.csrf import csrf_exempt
 
 logger = logging.getLogger(__name__)
+
+
+def _format_objective_explanation(raw_explanation, correct_choice):
+    """4級表示に寄せるため、機械的な解説文は最小限の実用文に整形する。"""
+    explanation = (raw_explanation or "").strip()
+    if not explanation:
+        return ""
+    if re.search(r"公式.*解答.*基づく", explanation):
+        correct_text = correct_choice.choice_text if correct_choice else ""
+        if correct_text:
+            return (
+                f"正解は「{correct_text}」です。文脈に最も合う語句を選びます。\n\n"
+                "※ 公式一次試験の解答に基づいています。"
+            )
+        return "文脈に最も合う語句を選ぶ問題です。※ 公式一次試験の解答に基づいています。"
+    return explanation
+
+
+def _is_currently_correct_choice(selected_choice):
+    """保存時の採点結果ではなく、現在の選択肢定義で正誤を判定する。"""
+    return bool(selected_choice and selected_choice.is_correct)
 
 FOUNDATION_QUESTION_TYPES = [
     'grammar_fill',
@@ -1282,7 +1304,9 @@ def answer_results(request, level, question_type):
                     'question': answer.question,
                     'choices': choices,
                     'user_answer': answer.selected_answer,
-                    'is_correct': answer.is_correct,
+                    'is_correct': _is_correct_listening_illustration_answer(
+                        answer.question, answer.selected_answer
+                    ),
                     'correct_answer': answer.question.correct_answer,
                     'explanation': getattr(answer.question, 'explanation', ''),
                     'category': 'listening_illustration',
@@ -1301,9 +1325,11 @@ def answer_results(request, level, question_type):
                         'question': answer.question,
                         'choices': choices,
                         'user_answer': answer.selected_choice,
-                        'is_correct': answer.is_correct,
+                        'is_correct': _is_currently_correct_choice(answer.selected_choice),
                         'correct_choice': correct_choice,
-                        'explanation': answer.question.explanation,
+                        'explanation': _format_objective_explanation(
+                            answer.question.explanation, correct_choice
+                        ),
                         'category': answer.question.question_type,
                         'order': answered_question_ids.index(question_id)
                     })
@@ -1363,7 +1389,9 @@ def answer_results(request, level, question_type):
                 'question': answer.question,
                 'choices': choices,
                 'user_answer': answer.selected_answer,
-                'is_correct': answer.is_correct,
+                'is_correct': _is_correct_listening_illustration_answer(
+                    answer.question, answer.selected_answer
+                ),
                 'correct_answer': answer.question.correct_answer,
                 'correct_choice': correct_choice,  # 正解の選択肢オブジェクトを追加
                 'explanation': getattr(answer.question, 'explanation', ''),
@@ -1374,7 +1402,7 @@ def answer_results(request, level, question_type):
         answers_with_questions.sort(key=lambda x: x['order'])
         
         # 正解数を計算
-        correct_count = sum(1 for answer in user_answers if answer.is_correct)
+        correct_count = sum(1 for answer in answers_with_questions if answer['is_correct'])
         total_count = len(user_answers)
         
         context = {
@@ -1411,9 +1439,11 @@ def answer_results(request, level, question_type):
                 'question': answer.question,
                 'choices': choices,
                 'user_answer': answer.selected_choice,
-                'is_correct': answer.is_correct,
+                'is_correct': _is_currently_correct_choice(answer.selected_choice),
                 'correct_choice': correct_choice,
-                'explanation': answer.question.explanation,
+                'explanation': _format_objective_explanation(
+                    answer.question.explanation, correct_choice
+                ),
                 'order': order_dict.get(answer.question.id, 0)  # 出題順序を追加
             })
         
@@ -1421,7 +1451,7 @@ def answer_results(request, level, question_type):
         answers_with_questions.sort(key=lambda x: x['order'])
         
         # 正解数を計算
-        correct_count = sum(1 for answer in user_answers if answer.is_correct)
+        correct_count = sum(1 for answer in answers_with_questions if answer['is_correct'])
         total_count = len(user_answers)
         
         context = {
@@ -1469,7 +1499,7 @@ def answer_results(request, level, question_type):
                 'question': answer.reading_question,
                 'choices': choices,
                 'user_answer': answer.selected_reading_choice,
-                'is_correct': answer.is_correct,
+                'is_correct': _is_currently_correct_choice(answer.selected_reading_choice),
                 'correct_choice': correct_choice,
                 'explanation': getattr(answer.reading_question, 'explanation', ''),
                 'order': order_dict.get(answer.reading_question.id, 0)  # 出題順序を追加
@@ -1488,7 +1518,12 @@ def answer_results(request, level, question_type):
         logger.debug(f"Debug - sorted passages: {[p.id for p in passages_with_answers.keys()]}")
         
         # 正解数を計算
-        correct_count = sum(1 for answer in user_answers if answer.is_correct)
+        correct_count = sum(
+            1
+            for answers in passages_with_answers.values()
+            for answer in answers
+            if answer['is_correct']
+        )
         total_count = len(user_answers)
         
         context = {
@@ -1540,11 +1575,16 @@ def answer_results(request, level, question_type):
         session_key = f'answered_questions_{question_type}_{level}'
         answered_question_ids = request.session.get(session_key, [])
         
-        # 今回回答したquestion_idのUserAnswerのみを取得
-        user_answers = UserAnswer.objects.filter(
+        # 今回回答したquestion_idのUserAnswerを取得（同一問題の複数回答がある場合は最新のみ採用）
+        raw_user_answers = UserAnswer.objects.filter(
             user=request.user,
             question_id__in=answered_question_ids
-        ).select_related('question', 'selected_choice')
+        ).select_related('question', 'selected_choice').order_by('question_id', '-answered_at', '-id')
+        latest_by_question_id = {}
+        for user_answer in raw_user_answers:
+            if user_answer.question_id not in latest_by_question_id:
+                latest_by_question_id[user_answer.question_id] = user_answer
+        user_answers = list(latest_by_question_id.values())
         
         # 出題順序に従ってソート
         # answered_question_idsの順序でソートする辞書を作成
@@ -1555,6 +1595,7 @@ def answer_results(request, level, question_type):
         for answer in user_answers:
             choices = Choice.objects.filter(question=answer.question).order_by('order')
             correct_choice = choices.filter(is_correct=True).first()
+            current_is_correct = bool(answer.selected_choice and answer.selected_choice.is_correct)
             
             # デバッグ: 正解が見つからない場合の警告
             if not correct_choice:
@@ -1565,9 +1606,9 @@ def answer_results(request, level, question_type):
                 'question': answer.question,
                 'choices': choices,
                 'user_answer': answer.selected_choice,
-                'is_correct': answer.is_correct,
+                'is_correct': current_is_correct,
                 'correct_choice': correct_choice,
-                'explanation': answer.question.explanation,
+                'explanation': _format_objective_explanation(answer.question.explanation, correct_choice),
                 'order': order_dict.get(answer.question.id, 0)  # 出題順序を追加
             })
         
@@ -1575,7 +1616,7 @@ def answer_results(request, level, question_type):
         answers_with_questions.sort(key=lambda x: x['order'])
     
         # 正解数を計算
-        correct_count = sum(1 for answer in user_answers if answer.is_correct)
+        correct_count = sum(1 for answer in answers_with_questions if answer['is_correct'])
         total_count = len(user_answers)
         
         context = {
