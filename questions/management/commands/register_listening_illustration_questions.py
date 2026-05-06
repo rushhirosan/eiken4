@@ -14,7 +14,7 @@ from questions.level_paths import (
 
 
 class Command(BaseCommand):
-    help = 'listening_illustration_questions.txt からイラスト問題を画像・音声付きで登録する（選択肢数も正確に）'
+    help = 'listening_illustration_questions.txt からイラスト問題を画像・音声付きで登録する（問題数上限なし）'
 
     def add_arguments(self, parser):
         add_default_register_arguments(parser)
@@ -67,8 +67,8 @@ class Command(BaseCommand):
             # 問題番号取得
             try:
                 number = int(lines[0].replace('No.', '').replace(':', '').strip())
-                # 1-40を処理
-                if number < 1 or number > 40:
+                # 正の問題番号を処理
+                if number < 1:
                     continue
                 self.stdout.write(f'処理中の問題番号: {number}')
             except Exception as e:

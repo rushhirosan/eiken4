@@ -10,7 +10,7 @@ from questions.level_paths import (
 
 
 class Command(BaseCommand):
-    help = 'listening_passage_questions.txt からリスニング文章問題（No.1-40）を登録する'
+    help = 'listening_passage_questions.txt からリスニング文章問題を登録する（問題数上限なし）'
 
     def add_arguments(self, parser):
         add_default_register_arguments(parser)
@@ -53,7 +53,7 @@ class Command(BaseCommand):
             
             self.stdout.write(self.style.SUCCESS(f'問題{q_data["question_number"]}を登録'))
         
-        self.stdout.write(self.style.SUCCESS('リスニング文章問題（No.1-40）を登録しました'))
+        self.stdout.write(self.style.SUCCESS('リスニング文章問題を登録しました'))
 
     def extract_questions_from_file(self, file_path):
         questions_data = []
@@ -70,7 +70,7 @@ class Command(BaseCommand):
                     continue
                 question_number = int(number_match.group(1))
                 
-                if question_number < 1 or question_number > 40:
+                if question_number < 1:
                     continue
                 
                 # パッセージ文を抽出（No.X: から Question No.X: の直前まで）

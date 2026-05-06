@@ -68,7 +68,7 @@ def parse_questions_from_file(file_path):
     return questions_data
 
 class Command(BaseCommand):
-    help = 'listening_conversation_questions.txt からリスニング会話問題（No.1-40）を登録する'
+    help = 'listening_conversation_questions.txt からリスニング会話問題を登録する（問題数上限なし）'
 
     def add_arguments(self, parser):
         add_default_register_arguments(parser)
@@ -86,7 +86,7 @@ class Command(BaseCommand):
         
         for data in questions_data:
             question_number = data['question_number']
-            if question_number < 1 or question_number > 40:
+            if question_number < 1:
                 continue
             # 問題を作成
             af = db_audio_path(
@@ -110,7 +110,7 @@ class Command(BaseCommand):
                     order=j
                 )
             print(f'問題{question_number}を登録（正解: {data["correct_answer_number"]}）')
-        print('リスニング会話問題（No.1-40）を登録しました')
+        print('リスニング会話問題を登録しました')
 
 def extract_conversation_and_question(text):
     """会話と問題を抽出"""
