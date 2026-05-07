@@ -1632,8 +1632,25 @@ def answer_results(request, level, question_type):
 def progress_view(request):
     """学習進捗を表示"""
     user = request.user
-    levels = Question.objects.values_list('level', flat=True).distinct()
-    
+    level_order = ['4', '3', '2', '1', 'pre1']
+    available_levels = list(
+        Question.objects.values_list('level', flat=True).distinct()
+    )
+    ordered = [lv for lv in level_order if lv in available_levels]
+    leftover = [lv for lv in available_levels if lv not in level_order]
+    levels = ordered + sorted(leftover)
+
+    level_labels = {
+        '4': '英検4級',
+        '3': '英検3級',
+        '2': '英検2級',
+        '1': '英検1級',
+        'pre1': '英検準1級',
+    }
+    level_entries = [
+        (lv, level_labels.get(lv, f'英検{lv}級')) for lv in levels
+    ]
+
     # 各級の進捗を取得
     progress_data = {}
     for level in levels:
@@ -1657,6 +1674,7 @@ def progress_view(request):
     return render(request, 'exams/progress.html', {
         'progress_data': progress_data,
         'levels': levels,
+        'level_entries': level_entries,
         'progress_json': json.dumps(progress_data)
     })
 

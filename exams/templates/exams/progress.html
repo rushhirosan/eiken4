@@ -12,11 +12,28 @@
             </button>
         </form>
     </div>
-    
 
-    
+    {% if level_entries|length > 1 %}
+    <div class="text-center mb-3 progress-level-bar">
+        <p class="text-white-50 small mb-1">表示する級を選んでください</p>
+        <div class="d-flex flex-wrap justify-content-center gap-2 progress-level-switch" role="tablist" aria-label="表示する級">
+            {% for code, name in level_entries %}
+            <button type="button"
+                    class="btn px-3 py-2 progress-level-tab{% if forloop.first %} active{% endif %}"
+                    id="progress-tab-{{ code }}"
+                    data-panel-id="progress-panel-{{ code }}"
+                    aria-selected="{% if forloop.first %}true{% else %}false{% endif %}">
+                {{ name }}
+            </button>
+            {% endfor %}
+        </div>
+    </div>
+    {% endif %}
+
     {% for level in levels %}
-    <div class="card mb-4">
+    <div id="progress-panel-{{ level }}"
+         class="card mb-4 progress-level-panel{% if not forloop.first %} d-none{% endif %}"
+         data-level="{{ level }}">
         <div class="card-header">
             <h3>英検{{ level }}級</h3>
         </div>
@@ -419,6 +436,7 @@
 
 <script>
 const progressData = {{ progress_json|safe }};
+window.__progressCharts = window.__progressCharts || {};
 
 {% for level in levels %}
 document.addEventListener('DOMContentLoaded', function() {
@@ -475,7 +493,7 @@ document.addEventListener('DOMContentLoaded', function() {
     // デバッグ用のコンソールログ
     console.log('Chart data:', data);
     
-    new Chart(ctx, {
+    const barChart = new Chart(ctx, {
         type: 'bar',
         data: {
             labels: labels,
@@ -604,7 +622,7 @@ document.addEventListener('DOMContentLoaded', function() {
     const dailyLabels = Object.keys(allDailyData).reverse(); // 古い日付から新しい日付の順
     const dailyValues = dailyLabels.map(date => allDailyData[date]);
     
-    new Chart(dailyCtx, {
+    const dailyChart = new Chart(dailyCtx, {
         type: 'line',
         data: {
             labels: dailyLabels,
@@ -671,7 +689,89 @@ document.addEventListener('DOMContentLoaded', function() {
             }
         }
     });
+
+    window.__progressCharts['{{ level }}'] = {
+        bar: barChart,
+        daily: dailyChart
+    };
 });
 {% endfor %}
+
+(function () {
+    const storageKey = 'progress_view_level';
+    const tabs = document.querySelectorAll('.progress-level-tab');
+    const panels = document.querySelectorAll('.progress-level-panel');
+
+    function showPanel(panelId) {
+        let activeLevel = null;
+        panels.forEach(function (p) {
+            const isTarget = p.id === panelId;
+            p.classList.toggle('d-none', !isTarget);
+            if (isTarget) {
+                activeLevel = p.getAttribute('data-level');
+            }
+        });
+        tabs.forEach(function (t) {
+            const match = t.getAttribute('data-panel-id') === panelId;
+            t.classList.toggle('active', match);
+            t.setAttribute('aria-selected', match ? 'true' : 'false');
+        });
+        try {
+            if (panelId && panelId.indexOf('progress-panel-') === 0) {
+                sessionStorage.setItem(storageKey, panelId.replace('progress-panel-', ''));
+            }
+        } catch (e) {}
+
+        if (activeLevel && window.__progressCharts && window.__progressCharts[activeLevel]) {
+            const charts = window.__progressCharts[activeLevel];
+            requestAnimationFrame(function () {
+                if (charts.bar) charts.bar.resize();
+                if (charts.daily) charts.daily.resize();
+            });
+        }
+    }
+
+    tabs.forEach(function (tab) {
+        tab.addEventListener('click', function () {
+            showPanel(tab.getAttribute('data-panel-id'));
+        });
+    });
+
+    try {
+        const saved = sessionStorage.getItem(storageKey);
+        if (saved) {
+            const pid = 'progress-panel-' + saved;
+            if (document.getElementById(pid)) {
+                showPanel(pid);
+            }
+        }
+    } catch (e) {}
+})();
 </script>
+
+<style>
+.progress-level-tab {
+    border: 2px solid rgba(255, 255, 255, 0.55);
+    color: rgba(255, 255, 255, 0.95);
+    background: transparent;
+    font-weight: 600;
+}
+.progress-level-tab:hover {
+    background: rgba(255, 255, 255, 0.12);
+    color: #fff;
+}
+.progress-level-tab.active {
+    background: #fff;
+    color: #212529;
+    border-color: #fff;
+}
+
+@media (max-width: 768px) {
+    .progress-level-tab {
+        min-height: 2.6rem;
+        padding-top: 0.35rem;
+        padding-bottom: 0.35rem;
+    }
+}
+</style>
 {% endblock %} 
