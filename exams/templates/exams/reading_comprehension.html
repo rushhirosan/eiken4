@@ -4,6 +4,13 @@
 
 {% block content %}
 <div class="container mt-5">
+    <nav aria-label="breadcrumb" class="mb-3">
+        <ol class="breadcrumb">
+            <li class="breadcrumb-item"><a href="{% url 'exams:exam_list' %}">問題一覧</a></li>
+            <li class="breadcrumb-item active" aria-current="page">{{ question_type_display }}</li>
+        </ol>
+    </nav>
+
     <h2 class="mb-4">英検{{ level }}級 {{ question_type_display }}</h2>
     
     {% if messages %}
