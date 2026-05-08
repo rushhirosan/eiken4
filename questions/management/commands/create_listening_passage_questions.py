@@ -84,7 +84,11 @@ class Command(BaseCommand):
                 # 選択肢を抽出
                 choices = []
                 for i in range(1, 5):
-                    choice_match = re.search(rf'{i}\.\s*(.*?)(?=\n\d\.\s|\n【正解|\n$)', block, re.DOTALL)
+                    choice_match = re.search(
+                        rf'^\s*{i}\.\s*(.*?)(?=\n\s*\d\.\s|\n\s*【正解|\n\s*$)',
+                        block,
+                        re.DOTALL | re.MULTILINE,
+                    )
                     if choice_match:
                         choices.append(choice_match.group(1).strip())
                 
