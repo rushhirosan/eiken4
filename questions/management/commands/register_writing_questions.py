@@ -40,9 +40,9 @@ class Command(BaseCommand):
             if qn < 1 or qn > 99:
                 continue
 
-            # 問題文: 「問題n:」から 【参考解答】 まで
+            # 問題文: このブロック先頭の「問題qn:」から 【参考解答】 まで（別の「問題\d+:」が紛れても取り違えない）
             body_match = re.search(
-                r'問題\d+:\s*(.*?)\s*【参考解答】\s*',
+                rf'問題{qn}:\s*(.*?)\s*【参考解答】\s*',
                 block,
                 re.DOTALL,
             )
@@ -53,7 +53,12 @@ class Command(BaseCommand):
                 continue
             question_text = body_match.group(1).strip()
 
-            ref_match = re.search(r'【参考解答】\s*(.*?)\s*$', block, re.DOTALL)
+            # 参考解答は「※協会…」の手前まで（ブロック結合ミスで次問が混入するのを防ぐ）
+            ref_match = re.search(
+                r'【参考解答】\s*(.*?)(?=\n※協会|\Z)',
+                block,
+                re.DOTALL,
+            )
             explanation = ref_match.group(1).strip() if ref_match else ''
 
             Question.objects.create(
