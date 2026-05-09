@@ -9,6 +9,23 @@ from questions.level_paths import (
     questions_file_abspath,
 )
 
+# 本文・参考解答から除く行（テキストに残っていても登録時に落とす）
+_LINE_FULLWIDTH_BRACKETS = re.compile(r'^【[^】]*】\s*$')
+_LINE_KYOKAI_DISCLAIMER = re.compile(
+    r'^※協会発表の解答例（一次試験）より[。.]?\s*$',
+)
+
+
+def _strip_writing_noise_lines(text: str) -> str:
+    """【…】のみの行と協会注意書きの行を除く。"""
+    out: list[str] = []
+    for line in text.splitlines():
+        s = line.strip()
+        if _LINE_FULLWIDTH_BRACKETS.match(s) or _LINE_KYOKAI_DISCLAIMER.match(s):
+            continue
+        out.append(line)
+    return '\n'.join(out).strip()
+
 
 class Command(BaseCommand):
     help = 'ライティング問題をテキストファイルから登録する（選択肢なし・参考解答は explanation）'
@@ -51,7 +68,7 @@ class Command(BaseCommand):
                     self.style.WARNING(f'問題{qn}: 本文を抽出できませんでした')
                 )
                 continue
-            question_text = body_match.group(1).strip()
+            question_text = _strip_writing_noise_lines(body_match.group(1).strip())
 
             # 参考解答は「※協会…」の手前まで（ブロック結合ミスで次問が混入するのを防ぐ）
             ref_match = re.search(
@@ -59,7 +76,9 @@ class Command(BaseCommand):
                 block,
                 re.DOTALL,
             )
-            explanation = ref_match.group(1).strip() if ref_match else ''
+            explanation = _strip_writing_noise_lines(
+                ref_match.group(1).strip() if ref_match else ''
+            )
 
             Question.objects.create(
                 question_text=question_text,
