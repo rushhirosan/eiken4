@@ -1,5 +1,6 @@
 問題1:
-Customer : Could you make me a salad without tomatoes? Waiter : ( ) That’s not a problem.
+Customer : Could you make me a salad without tomatoes?
+Waiter : ( ) That’s not a problem.
 
 選択肢1:
 1. Certainly.
@@ -11,14 +12,13 @@ Customer : Could you make me a salad without tomatoes? Waiter : ( ) That’s not
 1. Certainly.
 
 【解説1】
-正解は「Certainly.」です。
-設問（Customer : Could you make me a salad without tomatoes? Waiter : ( ) That’s not a problem.）に対して、会話の流れと一致するのは「Certainly.」です。
-他の選択肢（Not so good. / Congratulations. / Anywhere.）は、この設問の条件に当てはまりません。
+客がトマトなしのサラダを頼み、ウェイターが続けて「問題ありません」と言う流れなので、依頼を快く引き受ける「Certainly（もちろんです）」が自然です。「Not so good（あまりよくない）」や「Congratulations（おめでとう）」は返事として不適切で、「Anywhere（どこにでも）」は文脈と結びつきません。
 
 ---
 
 問題2:
-Man 1 : Do you want to go jogging with me on the beach tomorrow? Man 2 : OK. ( ) I usually just run in the park.
+Man 1 : Do you want to go jogging with me on the beach tomorrow?
+Man 2 : OK. ( ) I usually just run in the park.
 
 選択肢2:
 1. It was my summer vacation.
@@ -30,14 +30,14 @@ Man 1 : Do you want to go jogging with me on the beach tomorrow? Man 2 : OK. ( )
 3. I’ve never done that before.
 
 【解説2】
-正解は「I’ve never done that before.」です。
-設問（Man 1 : Do you want to go jogging with me on the beach tomorrow? Man 2 : OK. ( ) I usually just run in the park.）に対して、会話の流れと一致するのは「I’ve never done that before.」です。
-他の選択肢（It was my summer vacation. / The race is almost ﬁnished. / I have to stay home.）は、この設問の条件に当てはまりません。
+海辺でのジョギングに誘われ「OK」と言ったあと、「普段は公園で走っているだけ」と続くので、砂浜での経験が少ないことを示す「I’ve never done that before（そういうのは初めてだ）」がつながります。「It was my summer vacation」は時制と内容が合わず、「The race is almost ﬁnished」はレースの話、「I have to stay home」は前半の OK と矛盾します。
 
 ---
 
 問題3:
-Son : Do you want to watch the soccer game today? Father : ( ) Son : The one between England and Japan.
+Son : Do you want to watch the soccer game today?
+Father : ( )
+Son : The one between England and Japan.
 
 選択肢3:
 1. Which game are you talking about?
@@ -49,14 +49,14 @@ Son : Do you want to watch the soccer game today? Father : ( ) Son : The one bet
 1. Which game are you talking about?
 
 【解説3】
-正解は「Which game are you talking about?」です。
-設問（Son : Do you want to watch the soccer game today? Father : ( ) Son : The one between England and Japan.）に対して、会話の流れと一致するのは「Which game are you talking about?」です。
-他の選択肢（Which team is going to win? / Where is your favorite player from? / Where do you want to visit?）は、この設問の条件に当てはまりません。
+父のあと、子が「イングランド対日本の試合」と具体的に答えているので、どの試合かを尋ねる「Which game are you talking about?」が適切です。「Which team is going to win?」なら勝敗の予想を答えるはずで、「Where is your favorite player from?」「Where do you want to visit?」は続く答えと対応しません。
 
 ---
 
 問題4:
-Girl 1 : How are you going to the festival, Ann? Girl 2 : My mom’s taking me by car. You can come with us. Girl 1 : ( ) Thanks.
+Girl 1 : How are you going to the festival, Ann?
+Girl 2 : My mom’s taking me by car. You can come with us.
+Girl 1 : ( ) Thanks.
 
 選択肢4:
 1. I already did it.
@@ -68,14 +68,13 @@ Girl 1 : How are you going to the festival, Ann? Girl 2 : My mom’s taking me b
 2. That sounds great.
 
 【解説4】
-正解は「That sounds great.」です。
-設問（Girl 1 : How are you going to the festival, Ann? Girl 2 : My mom’s taking me by car. You can come with us. Girl 1 : ( ) Thanks.）に対して、会話の流れと一致するのは「That sounds great.」です。
-他の選択肢（I already did it. / Here’s the key. / About ten minutes.）は、この設問の条件に当てはまりません。
+車に同乗していいと誘われ、そのあと「Thanks」とあるので、誘いを喜んで受ける「That sounds great（いいね、ぜひ）」が自然です。「I already did it」は内容が重ならず、「Here’s the key」は鍵の話で唐突、「About ten minutes」だけでは礼としての返答になりません。
 
 ---
 
 問題5:
-Wife : I need to go. I’ll call you when I arrive in Boston. Husband : OK. ( )
+Wife : I need to go. I’ll call you when I arrive in Boston.
+Husband : OK. ( )
 
 選択肢5:
 1. I’ve been to New York.
@@ -87,14 +86,14 @@ Wife : I need to go. I’ll call you when I arrive in Boston. Husband : OK. ( )
 4. Have a safe trip.
 
 【解説5】
-正解は「Have a safe trip.」です。
-設問（Wife : I need to go. I’ll call you when I arrive in Boston. Husband : OK. ( )）に対して、会話の流れと一致するのは「Have a safe trip.」です。
-他の選択肢（I’ve been to New York. / I went by train. / Of course I remember.）は、この設問の条件に当てはまりません。
+妻がボストンに着いたら連絡する、と出発する場面なので、旅の安全を祈る「Have a safe trip（気をつけて行ってきて）」が定番の別れの言葉です。「I’ve been to New York」「I went by train」「Of course I remember」は、この別れのタイミングの返答としてはずれます。
 
 ---
 
 問題6:
-Husband : Where shall we travel to this summer? Wife : How about Greenville? ( ) Husband : Sounds good. We can go ﬁshing and swimming.
+Husband : Where shall we travel to this summer?
+Wife : How about Greenville? ( )
+Husband : Sounds good. We can go ﬁshing and swimming.
 
 選択肢6:
 1. I lost my passport.
@@ -106,14 +105,13 @@ Husband : Where shall we travel to this summer? Wife : How about Greenville? ( )
 2. There’s a big lake there.
 
 【解説6】
-正解は「There’s a big lake there.」です。
-設問（Husband : Where shall we travel to this summer? Wife : How about Greenville? ( ) Husband : Sounds good. We can go ﬁshing and swimming.）に対して、会話の流れと一致するのは「There’s a big lake there.」です。
-他の選択肢（I lost my passport. / I hate traveling. / It’s too crowded.）は、この設問の条件に当てはまりません。
+Greenville を提案したあと、夫が「釣りや泳ぎができる」と乗るので、水辺の魅力を足す「There’s a big lake there（大きな湖がある）」が理由として自然です。「I lost my passport」「I hate traveling」は前向きな旅行の話を弱め、「It’s too crowded」は後の反応と合いにくいです。
 
 ---
 
 問題7:
-Boy : I called you last night, but you didn’t answer the phone. Girl : Sorry, ( ) I have to give it to my English teacher today.
+Boy : I called you last night, but you didn’t answer the phone.
+Girl : Sorry, ( ) I have to give it to my English teacher today.
 
 選択肢7:
 1. I forgot about your question.
@@ -125,14 +123,13 @@ Boy : I called you last night, but you didn’t answer the phone. Girl : Sorry, 
 2. I was writing a report.
 
 【解説7】
-正解は「I was writing a report.」です。
-設問（Boy : I called you last night, but you didn’t answer the phone. Girl : Sorry, ( ) I have to give it to my English teacher today.）に対して、会話の流れと一致するのは「I was writing a report.」です。
-他の選択肢（I forgot about your question. / I don’t have a phone. / I don’t know the answer.）は、この設問の条件に当てはまりません。
+電話に出なかった理由を聞かれ、そのあと「今日英語の先生に渡す」とあるので、書き物に忙しかった「I was writing a report（レポートを書いていた）」がつながります。「I forgot about your question」は「問い」に対応しておらず、「I don’t have a phone」は説明として弱く、「I don’t know the answer」は内容が合いません。
 
 ---
 
 問題8:
-Mother : Fred, the TV is too loud. ( ) please? Son : All right, Mom.
+Mother : Fred, the TV is too loud. ( ) please?
+Son : All right, Mom.
 
 選択肢8:
 1. Will you pick it up,
@@ -144,14 +141,13 @@ Mother : Fred, the TV is too loud. ( ) please? Son : All right, Mom.
 3. Will you turn it down,
 
 【解説8】
-正解は「Will you turn it down,」です。
-設問（Mother : Fred, the TV is too loud. ( ) please? Son : All right, Mom.）に対して、会話の流れと一致するのは「Will you turn it down,」です。
-他の選択肢（Will you pick it up, / Will you buy it, / Will you play it,）は、この設問の条件に当てはまりません。
+「TV がうるさい」のあとで頼んでいるので、音量を下げる「turn down」が入る「Will you turn it down」が自然です。「pick it up」は取り上げる・電話に出るなどの意味になり、「buy」「play」は「うるさい」という問題に答えません。
 
 ---
 
 問題9:
-Sister : Why are you eating my piece of cake? Brother : ( ) It’s mine.
+Sister : Why are you eating my piece of cake?
+Brother : ( ) It’s mine.
 
 選択肢9:
 1. This isn’t yours.
@@ -163,14 +159,13 @@ Sister : Why are you eating my piece of cake? Brother : ( ) It’s mine.
 1. This isn’t yours.
 
 【解説9】
-正解は「This isn’t yours.」です。
-設問（Sister : Why are you eating my piece of cake? Brother : ( ) It’s mine.）に対して、会話の流れと一致するのは「This isn’t yours.」です。
-他の選択肢（Thanks, it looks delicious. / It wasn’t me. / This morning, after breakfast.）は、この設問の条件に当てはまりません。
+妹のケーキを食べていると問われたあと「私のものだ」と言い張る流れなので、所有を争う「This isn’t yours（これはあなたのじゃない）」が入ります。「Thanks, it looks delicious」は謝罪や説明になりません。「It wasn’t me」は後の「It’s mine」と矛盾しやすく、「This morning, after breakfast」は理由として答えになっていません。
 
 ---
 
 問題10:
-Girl : When’s your big tennis match? Boy : Tomorrow. I haven’t practiced much this week, so ( )
+Girl : When’s your big tennis match?
+Boy : Tomorrow. I haven’t practiced much this week, so ( )
 
 選択肢10:
 1. it starts at two o’clock.
@@ -182,14 +177,13 @@ Girl : When’s your big tennis match? Boy : Tomorrow. I haven’t practiced muc
 2. I’m a little worried.
 
 【解説10】
-正解は「I’m a little worried.」です。
-設問（Girl : When’s your big tennis match? Boy : Tomorrow. I haven’t practiced much this week, so ( )）に対して、会話の流れと一致するのは「I’m a little worried.」です。
-他の選択肢（it starts at two o’clock. / it’s going to rain. / I really like your racket.）は、この設問の条件に当てはまりません。
+練習不足と「so（だから）」で続くのは感情や予想で、「I’m a little worried（少し心配だ）」が自然です。「it starts at two o’clock」は時刻の事実で心配の結論にはなりにくく、「it’s going to rain」は根拠が飛び、「I really like your racket」は話の焦点とずれます。
 
 ---
 
 問題11:
-Boy : Have you been to the new zoo? Girl : Yes, but ( ) There are many cute animals there.
+Boy : Have you been to the new zoo?
+Girl : Yes, but ( ) There are many cute animals there.
 
 選択肢11:
 1. I’ll call you back.
@@ -201,14 +195,14 @@ Boy : Have you been to the new zoo? Girl : Yes, but ( ) There are many cute anim
 2. I’d like to go again.
 
 【解説11】
-正解は「I’d like to go again.」です。
-設問（Boy : Have you been to the new zoo? Girl : Yes, but ( ) There are many cute animals there.）に対して、会話の流れと一致するのは「I’d like to go again.」です。
-他の選択肢（I’ll call you back. / it’s not your ticket. / it’ll be my ﬁrst time.）は、この設問の条件に当てはまりません。
+「行ったことはあるが」と but で転じ、そのあと「かわいい動物がたくさん」と続くので、「また行きたい（I’d like to go again）」が合います。「I’ll call you back」は電話の決まり文句、「it’s not your ticket」は内容がずれ、「it’ll be my ﬁrst time」は「Yes, I have」と矛盾します。
 
 ---
 
 問題12:
-Man 1 : Should we take a bus to the art museum? Man 2 : Yes. ( ) Man 1 : I think so, too.
+Man 1 : Should we take a bus to the art museum?
+Man 2 : Yes. ( )
+Man 1 : I think so, too.
 
 選択肢12:
 1. It’s a famous painting.
@@ -220,14 +214,14 @@ Man 1 : Should we take a bus to the art museum? Man 2 : Yes. ( ) Man 1 : I think
 3. It’s too far to walk.
 
 【解説12】
-正解は「It’s too far to walk.」です。
-設問（Man 1 : Should we take a bus to the art museum? Man 2 : Yes. ( ) Man 1 : I think so, too.）に対して、会話の流れと一致するのは「It’s too far to walk.」です。
-他の選択肢（It’s a famous painting. / We’re on the train. / I can’t ﬁnd my ticket.）は、この設問の条件に当てはまりません。
+バスで行くかという話で「Yes」のあと、相手も同意する理由として「歩くには遠すぎる」がそのままつながります。「It’s a famous painting」「We’re on the train」「I can’t ﬁnd my ticket」は、バス利用の判断根拠になりません。
 
 ---
 
 問題13:
-Girl : I’m going to Hawaii with my family. Boy : That’s nice. ( ) Girl : Yes. This is my second time. I went there last year, too.
+Girl : I’m going to Hawaii with my family.
+Boy : That’s nice. ( )
+Girl : Yes. This is my second time. I went there last year, too.
 
 選択肢13:
 1. Have you been there before?
@@ -239,14 +233,14 @@ Girl : I’m going to Hawaii with my family. Boy : That’s nice. ( ) Girl : Yes
 1. Have you been there before?
 
 【解説13】
-正解は「Have you been there before?」です。
-設問（Girl : I’m going to Hawaii with my family. Boy : That’s nice. ( ) Girl : Yes. This is my second time. I went there last year, too.）に対して、会話の流れと一致するのは「Have you been there before?」です。
-他の選択肢（Can you call back later? / Do you live near here? / Could you help me with it?）は、この設問の条件に当てはまりません。
+娘が「二度目で去年も行った」と答えるので、その前は過去の訪問を尋ねる「Have you been there before?」が適切です。「Can you call back later?」「Do you live near here?」「Could you help me with it?」は、旅行の経験の話と対応しません。
 
 ---
 
 問題14:
-Husband : Our train is going to leave soon. We should go, or we’ll be late. Do you have everything you need? Wife : ( ) Let’s go. Husband : Don’t forget to lock the door.
+Husband : Our train is going to leave soon. We should go, or we’ll be late. Do you have everything you need?
+Wife : ( ) Let’s go.
+Husband : Don’t forget to lock the door.
 
 選択肢14:
 1. No, thank you.
@@ -258,14 +252,14 @@ Husband : Our train is going to leave soon. We should go, or we’ll be late. Do
 3. I’m ready.
 
 【解説14】
-正解は「I’m ready.」です。
-設問（Husband : Our train is going to leave soon. We should go, or we’ll be late. Do you have everything you need? Wife : ( ) Let’s go. Husband : Don’t forget to lock the door.）に対して、会話の流れと一致するのは「I’m ready.」です。
-他の選択肢（No, thank you. / Sure, it’s mine. / I want all of them.）は、この設問の条件に当てはまりません。
+「必要なものはそろった？」に対して、出発の合図「Let’s go」とつながるのは準備完了の「I’m ready」です。「No, thank you」は丁寧な断りで質問の意図と合いにくく、「Sure, it’s mine」「I want all of them」は内容がずれます。
 
 ---
 
 問題15:
-Son : Hi, Mom. Mother : Hi, Martin. ( ) Son : We didn’t have band practice today, so I left school at 2:30.
+Son : Hi, Mom.
+Mother : Hi, Martin. ( )
+Son : We didn’t have band practice today, so I left school at 2:30.
 
 選択肢15:
 1. It’s not for you.
@@ -277,6 +271,4 @@ Son : Hi, Mom. Mother : Hi, Martin. ( ) Son : We didn’t have band practice tod
 3. You’re home early.
 
 【解説15】
-正解は「You’re home early.」です。
-設問（Son : Hi, Mom. Mother : Hi, Martin. ( ) Son : We didn’t have band practice today, so I left school at 2:30.）に対して、会話の流れと一致するのは「You’re home early.」です。
-他の選択肢（It’s not for you. / Have a wonderful day. / You got a good score.）は、この設問の条件に当てはまりません。
+早めに学校を出た理由を息子が説明しているので、帰宅が早いことに気づく「You’re home early（早いね）」が自然です。「It’s not for you」「Have a wonderful day」「You got a good score」は、帰宅時間の話に直接つながりません。
