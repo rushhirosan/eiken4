@@ -1,5 +1,12 @@
 本文1
-Volunteer Work Are you interested in volunteering? There will be an event on Sunday morning for students to clean up the local park. Recently, Maplewood Park has been dirty. Volunteers will pick up all the trash and throw it away. There will be gloves for volunteers to use, and city staff members will prepare three trash cans. The red can will be for plastic bottles, the blue can will be for other plastic, and the yellow can will be for paper. When: September 19, 10:00 a.m. 12:30 p.m. Where: Maplewood Park The city staff will give lunch to all volunteers after cleaning. Volunteers should bring their own drinks.
+Volunteer Work
+
+Are you interested in volunteering? There will be an event on Sunday morning for students to clean up the local park. Recently, Maplewood Park has been dirty. Volunteers will pick up all the trash and throw it away. There will be gloves for volunteers to use, and city staff members will prepare three trash cans. The red can will be for plastic bottles, the blue can will be for other plastic, and the yellow can will be for paper.
+
+When: September 19, 10:00 a.m. 12:30 p.m.
+Where: Maplewood Park
+
+The city staff will give lunch to all volunteers after cleaning. Volunteers should bring their own drinks.
 
 問題1a:
 Which trash can will the volunteers throw away paper in?
@@ -34,7 +41,42 @@ What will the city staff do on September 19?
 ---
 
 本文2
-From: Bryan Fox To: Jill White Date: June 18 Subject: Japanese Hi Jill, I want to ask you about something. As you know, the only languages we can study at our high school are Spanish, French, and German. You’re studying French, right? I’m studying Spanish, but I actually want to study a different language. I really want to learn Japanese because I’m interested in Japanese culture. When I go to college, I want to study abroad in Japan for a year. I want to try judo while I’m there, too. Your aunt can speak Japanese, right? Can she teach me how to speak it? Your friend, Bryan From: Jill White To: Bryan Fox Date: June 19 Subject: Sure! Hello Bryan, My aunt lived in Japan for 10 years. She lived in Hokkaido for three years. Then, she moved to Tokyo, and she lived there for seven years. She came back to the United States one year ago. She speaks Japanese very well, and she knows a lot about Japanese culture. I asked her, and she said that she could teach you Japanese. I gave her your phone number. She’ll call you this week. I’m interested in Japanese comic books and TV shows, so I want to learn Japanese, too. Why don’t we study it together? Bye for now, Jill From: Bryan Fox To: Jill White Date: June 19 Subject: Thanks! Hi Jill, Thank you for talking to your aunt! She just called me. She’ll teach me Japanese on Wednesday evenings at the café near the station. We’ll have a lesson from 5:00 p.m. to 6:00 p.m. every week, and we’ll have the first lesson this Wednesday. I think studying together is a great idea, so please come if you can! See you at school, Bryan
+From: Bryan Fox
+To: Jill White
+Date: June 18
+Subject: Japanese
+
+Hi Jill,
+
+I want to ask you about something. As you know, the only languages we can study at our high school are Spanish, French, and German. You’re studying French, right? I’m studying Spanish, but I actually want to study a different language. I really want to learn Japanese because I’m interested in Japanese culture. When I go to college, I want to study abroad in Japan for a year. I want to try judo while I’m there, too. Your aunt can speak Japanese, right? Can she teach me how to speak it?
+
+Your friend,
+Bryan
+
+From: Jill White
+To: Bryan Fox
+Date: June 19
+Subject: Sure!
+
+Hello Bryan,
+
+My aunt lived in Japan for 10 years. She lived in Hokkaido for three years. Then, she moved to Tokyo, and she lived there for seven years. She came back to the United States one year ago. She speaks Japanese very well, and she knows a lot about Japanese culture. I asked her, and she said that she could teach you Japanese. I gave her your phone number. She’ll call you this week. I’m interested in Japanese comic books and TV shows, so I want to learn Japanese, too. Why don’t we study it together?
+
+Bye for now,
+Jill
+
+From: Bryan Fox
+To: Jill White
+Date: June 19
+Subject: Thanks!
+
+Hi Jill,
+
+Thank you for talking to your aunt! She just called me. She’ll teach me Japanese on Wednesday evenings at the café near the station. We’ll have a lesson from 5:00 p.m. to 6:00 p.m. every week, and we’ll have the first lesson this Wednesday. I think studying together is a great idea, so please come if you can!
+
+See you at school,
+Bryan
+
 問題2a:
 What language does Bryan study at high school?
 
@@ -83,7 +125,13 @@ Bryan の返信で、水曜の夕方に駅近くのカフェで日本語のレ�
 ---
 
 本文3
-The Three Sisters Around the world, people grow many kinds of vegetables. Growing vegetables can be difﬁcult. It is sometimes hard to know how much sun and water they need. Native American* people in North America have a traditional method* for growing vegetables. It is called the “Three Sisters Method.” The Three Sisters Method helps people to grow many vegetables in a small area. In the Three Sisters Method, three different vegetables are grown together. The vegetables are corn, beans, and pumpkins. Native Americans have stories about these vegetables. According to them, the vegetables are “sisters.” Corn is the oldest sister, beans are the middle sister, and pumpkins are the youngest sister. When Native Americans grow these vegetables, they plant corn ﬁrst. Next, they plant beans, and they plant pumpkins last. If people plant the corn ﬁrst, the beans can use the corn plants to grow and get light from the sun. The pumpkins grow along the ground, so animals cannot go near the corn and beans easily. Pumpkins also have large leaves. They are important because they protect the area around the vegetables from the sun. Because of this, the ground does not become too dry. These three vegetables help each other to grow. When Europeans went to North America in the 1600s, they took new plants and animals with them. Since then, the food that Native Americans eat has changed. However, many Native Americans and other farmers still use the Three Sisters Method today.
+The Three Sisters
+
+Around the world, people grow many kinds of vegetables. Growing vegetables can be difﬁcult. It is sometimes hard to know how much sun and water they need. Native American* people in North America have a traditional method* for growing vegetables. It is called the “Three Sisters Method.” The Three Sisters Method helps people to grow many vegetables in a small area.
+
+In the Three Sisters Method, three different vegetables are grown together. The vegetables are corn, beans, and pumpkins. Native Americans have stories about these vegetables. According to them, the vegetables are “sisters.” Corn is the oldest sister, beans are the middle sister, and pumpkins are the youngest sister. When Native Americans grow these vegetables, they plant corn ﬁrst. Next, they plant beans, and they plant pumpkins last. If people plant the corn ﬁrst, the beans can use the corn plants to grow and get light from the sun. The pumpkins grow along the ground, so animals cannot go near the corn and beans easily. Pumpkins also have large leaves. They are important because they protect the area around the vegetables from the sun. Because of this, the ground does not become too dry. These three vegetables help each other to grow.
+
+When Europeans went to North America in the 1600s, they took new plants and animals with them. Since then, the food that Native Americans eat has changed. However, many Native Americans and other farmers still use the Three Sisters Method today.
 
 問題3a:
 When people use the “Three Sisters Method,” they can
@@ -163,7 +211,14 @@ What is this story about?
 ---
 
 本文4
-Notice Next month, Blue Sky Junior High School students will go on a tour of a house built in the 17th century. The house has many rooms, and students will see the old kitchen, living room, and bedrooms. There is also a garden outside. You can see it during the tour. Date: Wednesday, October 18 Time: 10:00 a.m. 3:00 p.m. Please bring your own lunch. We will have lunch together in the garden after the tour. You can bring a camera to take pictures of the garden but do not take pictures inside the house. You must write a report about the house by November 1.
+Notice
+
+Next month, Blue Sky Junior High School students will go on a tour of a house built in the 17th century. The house has many rooms, and students will see the old kitchen, living room, and bedrooms. There is also a garden outside. You can see it during the tour.
+
+Date: Wednesday, October 18
+Time: 10:00 a.m. 3:00 p.m.
+
+Please bring your own lunch. We will have lunch together in the garden after the tour. You can bring a camera to take pictures of the garden but do not take pictures inside the house. You must write a report about the house by November 1.
 
 問題4a:
 What must students do on October 18?
@@ -198,7 +253,30 @@ Where can students take photos during the tour?
 ---
 
 本文5
-From: Sophia Jones To: Anna Jones Date: September 25 Subject: Surprise! Hi Mom, How are you? My college life here is going well. I had a surprising experience last Monday! On that day, I met my old friend Mia in an art class at my college. Do you remember her? She went to the same junior high school as me, but then she moved to a different city four years ago. Last Friday and Saturday, we had lunch together at a restaurant. We had a good time, and it was very fun. I never thought Mia was at this college, too! By the way, I’ll come home on October 20. Can you pick me up at Union Station at 5:00 p.m.? Love, Sophia From: Anna Jones To: Sophia Jones Date: September 25 Subject: Great! Hi Sophia, Thanks for the great news! I remember Mia, and I’m glad to hear that you had a good time with her again! Say hi to her for me. When you and Mia were junior high school students, you often went to the library together. You always studied math with her there because she taught math well. You loved drawing pictures and playing sports, but you didn’t like learning math very much. I have many great memories of you and Mia. On October 20, my work at the hospital won’t finish early, so I can’t pick you up at that time. Your dad will need to attend a meeting at his office that day, but his meeting will finish at 4:00 p.m., so he can pick you up at the station. We’re excited to see you then! Love, Mom
+From: Sophia Jones
+To: Anna Jones
+Date: September 25
+Subject: Surprise!
+
+Hi Mom,
+
+How are you? My college life here is going well. I had a surprising experience last Monday! On that day, I met my old friend Mia in an art class at my college. Do you remember her? She went to the same junior high school as me, but then she moved to a different city four years ago. Last Friday and Saturday, we had lunch together at a restaurant. We had a good time, and it was very fun. I never thought Mia was at this college, too! By the way, I’ll come home on October 20. Can you pick me up at Union Station at 5:00 p.m.?
+
+Love,
+Sophia
+
+From: Anna Jones
+To: Sophia Jones
+Date: September 25
+Subject: Great!
+
+Hi Sophia,
+
+Thanks for the great news! I remember Mia, and I’m glad to hear that you had a good time with her again! Say hi to her for me. When you and Mia were junior high school students, you often went to the library together. You always studied math with her there because she taught math well. You loved drawing pictures and playing sports, but you didn’t like learning math very much. I have many great memories of you and Mia. On October 20, my work at the hospital won’t finish early, so I can’t pick you up at that time. Your dad will need to attend a meeting at his office that day, but his meeting will finish at 4:00 p.m., so he can pick you up at the station. We’re excited to see you then!
+
+Love,
+Mom
+
 問題5a:
 When did Sophia meet Mia in her class at college?
 
@@ -247,7 +325,14 @@ What will Sophia’s mother do on October 20?
 ---
 
 本文6
-La Tomatina Buñol is a small town in Spain with a long history. Only around 10,000 people live in Buñol, and it is a peaceful town most of the year. However, for one day of the year, the number of people in the town increases by over 20,000. People from all over the world go to Buñol to celebrate a tomato festival called La Tomatina and throw tomatoes at each other. La Tomatina began in an interesting way. In 1945, there was a parade happening in Buñol, and musicians were performing in the street. Some kids pushed a musician, and they stopped the parade. The musician got angry at the kids, and then someone threw a tomato. Many people started throwing tomatoes at each other. They had fun and tried to throw tomatoes again the next year. However, the government did not like this new event and stopped it for a while. Many people in Buñol wanted to throw tomatoes, so the festival happened again in 1957. People from other countries heard about La Tomatina and wanted to try throwing tomatoes, too. Now, at La Tomatina, people throw a lot of tomatoes at each other for one hour. Many people wear white clothes. The color of their clothes changes because of the tomatoes. Although La Tomatina is famous, some people do not think it is good because it is hard to clean up after the festival. Also, people throw away all of the tomatoes. Some people think it is better to eat the tomatoes and not throw them at each other.
+La Tomatina
+
+Buñol is a small town in Spain with a long history. Only around 10,000 people live in Buñol, and it is a peaceful town most of the year. However, for one day of the year, the number of people in the town increases by over 20,000. People from all over the world go to Buñol to celebrate a tomato festival called La Tomatina and throw tomatoes at each other.
+
+La Tomatina began in an interesting way. In 1945, there was a parade happening in Buñol, and musicians were performing in the street. Some kids pushed a musician, and they stopped the parade. The musician got angry at the kids, and then someone threw a tomato. Many people started throwing tomatoes at each other. They had fun and tried to throw tomatoes again the next year. However, the government did not like this new event and stopped it for a while. Many people in Buñol wanted to throw tomatoes, so the festival happened again in 1957. People from other countries heard about La Tomatina and wanted to try throwing tomatoes, too.
+
+Now, at La Tomatina, people throw a lot of tomatoes at each other for one hour. Many people wear white clothes. The color of their clothes changes because of the tomatoes. Although La Tomatina is famous, some people do not think it is good because it is hard to clean up after the festival. Also, people throw away all of the tomatoes. Some people think it is better to eat the tomatoes and not throw them at each other.
+
 問題6a:
 How many people live in Buñol?
 
@@ -326,7 +411,17 @@ Buñol のトマト祭り La Tomatina の歴史と現在の様子、賛否が中
 ---
 
 本文7
-To All Students There is a new librarian at the school library. Her name is Ms. Wilson. She worked at a bookstore for eight years and at the library at the local university for ﬁve years. There will be a welcome party for her next week. Date: Friday, April 17 Time: 3:30 p.m. 5:00 p.m. Place: School gym At the welcome party, she will introduce herself. You can ask her questions. After that, you will have some time to talk to her and others. You can enjoy free drinks and snacks. If you are interested in the party, please tell your homeroom teacher before six o’clock on April 10.
+To All Students
+
+There is a new librarian at the school library. Her name is Ms. Wilson. She worked at a bookstore for eight years and at the library at the local university for ﬁve years. There will be a welcome party for her next week.
+
+Date: Friday, April 17
+Time: 3:30 p.m. 5:00 p.m.
+Place: School gym
+
+At the welcome party, she will introduce herself. You can ask her questions. After that, you will have some time to talk to her and others. You can enjoy free drinks and snacks.
+
+If you are interested in the party, please tell your homeroom teacher before six o’clock on April 10.
 
 問題7a:
 How long did Ms. Wilson work at the local university’s library?
@@ -361,7 +456,42 @@ At the welcome party, students can
 ---
 
 本文8
-From: Lucas Miller To: Kevin Miller Date: May 8 Subject: About your city Hi Grandpa, How are you? Can you help me? I must write a report for my social studies class by next Friday. I have to write about another city. Can I interview you about your city this Saturday? There’s an exciting summer festival in your city, right? Write back soon, Lucas From: Kevin Miller To: Lucas Miller Date: May 8 Subject: Sure! Hi Lucas, I’m fine! Yes, there’s a summer festival in my city, but my city also has interesting festivals in other seasons. Last autumn, you came here and joined a pumpkin festival, right? We made many pumpkin pies and shared them with everyone at the festival. There’s also a cherry blossom festival in spring. In winter, there’s a beautiful winter parade. My city has big festivals in all seasons. Anyway, I can answer your questions for your report. However, I have a lot of work to do this Saturday and Sunday morning. How about on Sunday afternoon? If it’s not in the morning, I can meet you! Can you come here alone by train? Keep in touch, Grandpa From: Lucas Miller To: Kevin Miller Date: May 9 Subject: On Sunday Hi Grandpa, Thank you for writing back to me! I have soccer practice on Sunday morning, but I can visit your house in the afternoon! Don’t worry. Mom will drive me to your home on that day. It’s nice that your city has many festivals in all seasons. Today, I heard from one of my friends. He has already written about the summer festival, so I decided to write my report about your city’s spring festival. If you have some pictures of the festival, I want to see them! See you then, Lucas
+From: Lucas Miller
+To: Kevin Miller
+Date: May 8
+Subject: About your city
+
+Hi Grandpa,
+
+How are you? Can you help me? I must write a report for my social studies class by next Friday. I have to write about another city. Can I interview you about your city this Saturday? There’s an exciting summer festival in your city, right?
+
+Write back soon,
+Lucas
+
+From: Kevin Miller
+To: Lucas Miller
+Date: May 8
+Subject: Sure!
+
+Hi Lucas,
+
+I’m fine! Yes, there’s a summer festival in my city, but my city also has interesting festivals in other seasons. Last autumn, you came here and joined a pumpkin festival, right? We made many pumpkin pies and shared them with everyone at the festival. There’s also a cherry blossom festival in spring. In winter, there’s a beautiful winter parade. My city has big festivals in all seasons. Anyway, I can answer your questions for your report. However, I have a lot of work to do this Saturday and Sunday morning. How about on Sunday afternoon? If it’s not in the morning, I can meet you! Can you come here alone by train?
+
+Keep in touch,
+Grandpa
+
+From: Lucas Miller
+To: Kevin Miller
+Date: May 9
+Subject: On Sunday
+
+Hi Grandpa,
+
+Thank you for writing back to me! I have soccer practice on Sunday morning, but I can visit your house in the afternoon! Don’t worry. Mom will drive me to your home on that day. It’s nice that your city has many festivals in all seasons. Today, I heard from one of my friends. He has already written about the summer festival, so I decided to write my report about your city’s spring festival. If you have some pictures of the festival, I want to see them!
+
+See you then,
+Lucas
+
 問題8a:
 Why did Lucas write to his grandfather?
 
@@ -410,7 +540,14 @@ What did Lucas choose to write about for his report?
 ---
 
 本文9
-Ansel Adams Ansel Adams was a famous photographer in the United States. He was born in 1902. As a child, he could not focus in class and did not like school. Adams enjoyed taking walks in nature and playing the piano. Adams played the piano for over ten years in his childhood and was very good. He wanted to be a professional musician. In the 1910s, Adams received his ﬁrst camera. He took many pictures in a large park in the United States called Yosemite National Park. Adams often went hiking in the mountains there with his camera. When he was older, he joined a club of people who worked in the park and went on hikes with them. Adams loved to take pictures of the mountains in Yosemite National Park. In the late 1920s, Adams decided to become a professional photographer instead of a professional musician. Then he made many books of his photos and sold them. His photos of beautiful nature were very popular. Many people thought the photos were very artistic and were like paintings, so they became popular. Adams worked for many companies and took pictures of new products. However, Adams did not like taking pictures for companies because he believed photography was an art. He took photographs of nature and showed them in museums. Adams taught many people how to take pictures. In 1980, Adams received an award from the president of the United States to celebrate his life. Adams became one of the most famous photographers.
+Ansel Adams
+
+Ansel Adams was a famous photographer in the United States. He was born in 1902. As a child, he could not focus in class and did not like school. Adams enjoyed taking walks in nature and playing the piano. Adams played the piano for over ten years in his childhood and was very good. He wanted to be a professional musician.
+
+In the 1910s, Adams received his ﬁrst camera. He took many pictures in a large park in the United States called Yosemite National Park. Adams often went hiking in the mountains there with his camera. When he was older, he joined a club of people who worked in the park and went on hikes with them. Adams loved to take pictures of the mountains in Yosemite National Park.
+
+In the late 1920s, Adams decided to become a professional photographer instead of a professional musician. Then he made many books of his photos and sold them. His photos of beautiful nature were very popular. Many people thought the photos were very artistic and were like paintings, so they became popular. Adams worked for many companies and took pictures of new products. However, Adams did not like taking pictures for companies because he believed photography was an art. He took photographs of nature and showed them in museums. Adams taught many people how to take pictures. In 1980, Adams received an award from the president of the United States to celebrate his life. Adams became one of the most famous photographers.
+
 問題9a:
 As a child, Ansel Adams
 
