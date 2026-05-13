@@ -10,14 +10,31 @@ from questions.level_paths import (
 )
 
 # 本文・参考解答から除く行（テキストに残っていても登録時に落とす）
+# 例: 【2025年度第1回・問題4・メール返信】、【出典】のみの行 など
 _LINE_FULLWIDTH_BRACKETS = re.compile(r'^【[^】]*】\s*$')
 _LINE_KYOKAI_DISCLAIMER = re.compile(
     r'^※協会発表の解答例（一次試験）より[。.]?\s*$',
 )
 
 
+def _strip_block_leader_metadata(block: str) -> str:
+    """ブロック先頭の空行と【…】のみの行・協会注意書きを除く（問題n: の手前の出典メタ用）。"""
+    lines = block.splitlines()
+    i = 0
+    while i < len(lines):
+        s = lines[i].strip()
+        if not s:
+            i += 1
+            continue
+        if _LINE_FULLWIDTH_BRACKETS.match(s) or _LINE_KYOKAI_DISCLAIMER.match(s):
+            i += 1
+            continue
+        break
+    return '\n'.join(lines[i:]).strip()
+
+
 def _strip_writing_noise_lines(text: str) -> str:
-    """【…】のみの行と協会注意書きの行を除く。"""
+    """【…】のみの行（回次・問題番号のメタ含む）と協会注意書きの行を除く。"""
     out: list[str] = []
     for line in text.splitlines():
         s = line.strip()
@@ -47,7 +64,7 @@ class Command(BaseCommand):
         blocks = content.split('---')
         registered = 0
         for block in blocks:
-            block = block.strip()
+            block = _strip_block_leader_metadata(block.strip())
             if not block:
                 continue
             m_num = re.search(r'問題(\d+):', block)
