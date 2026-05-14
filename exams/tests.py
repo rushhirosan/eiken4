@@ -512,3 +512,24 @@ class ListeningIllustrationScoringTest(TestCase):
         displayed_question_ids = [item['question'].id for item in response.context['questions']]
         self.assertNotIn(self.question.id, displayed_question_ids)
         self.assertIn(unanswered_question.id, displayed_question_ids)
+
+
+class WritingPromptHtmlFilterTest(TestCase):
+    """writing_prompt_html テンプレートフィルター"""
+
+    def test_underline_preserved_and_script_escaped(self):
+        from exams.templatetags.custom_filters import writing_prompt_html
+
+        html = writing_prompt_html('A <u>B</u> C <script>x</script>')
+        self.assertIn('writing-q-underline', html)
+        self.assertIn('>B</span>', html)
+        self.assertNotIn('<script>', html)
+        self.assertIn('&lt;script&gt;', html)
+
+    def test_unclosed_u_is_closed(self):
+        from exams.templatetags.custom_filters import writing_prompt_html
+
+        html = writing_prompt_html('<u>open')
+        compact = html.replace('\n', '')
+        self.assertIn('writing-q-underline', compact)
+        self.assertIn('>open</span>', compact)

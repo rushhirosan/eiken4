@@ -1,8 +1,55 @@
 import re
 
 from django import template
+from django.utils.html import escape
+from django.utils.safestring import mark_safe
 
 register = template.Library()
+
+# ライティング問題文: データ側は <u>...</u> で下線範囲を記述（|linebreaks ではタグが生かせない）
+# 出力は <span class="writing-q-underline"> にし、Bootstrap / ブラウザ既定でも下線が確実に見えるようにする
+_WRITING_U_TOKEN = re.compile(r'(<\s*u\s*>|<\s*/\s*u\s*>)', re.IGNORECASE)
+_WRITING_PARA_SPLIT = re.compile(r'\r?\n\r?\n')
+
+
+@register.filter
+def writing_prompt_html(value):
+    """
+    ライティングの問題文を HTML 化する。改行は段落／<br>、<u>...</u> のみ許可（他はエスケープ）。
+    <u> は表示用に span.writing-q-underline に置き換える。
+    """
+    if value is None or value == '':
+        return ''
+    parts = _WRITING_U_TOKEN.split(str(value))
+    buf: list[str] = []
+    u_depth = 0
+    for part in parts:
+        if not part:
+            continue
+        norm = re.sub(r'\s+', '', part).lower()
+        if norm == '<u>':
+            buf.append(
+                '<span class="writing-q-underline" style="text-decoration:underline;'
+                'text-decoration-skip-ink:none;text-underline-offset:0.18em;'
+                'text-decoration-thickness:0.11em">'
+            )
+            u_depth += 1
+        elif norm == '</u>':
+            if u_depth > 0:
+                buf.append('</span>')
+                u_depth -= 1
+        else:
+            buf.append(escape(part))
+    if u_depth:
+        buf.extend('</span>' * u_depth)
+    html = ''.join(buf)
+    paras = []
+    for block in _WRITING_PARA_SPLIT.split(html):
+        block = block.strip()
+        if not block:
+            continue
+        paras.append('<p>' + block.replace('\n', '<br>') + '</p>')
+    return mark_safe(''.join(paras)) if paras else mark_safe('')
 
 
 @register.filter

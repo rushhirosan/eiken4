@@ -1,5 +1,6 @@
 {% extends 'accounts/base.html' %}
 {% load static %}
+{% load custom_filters %}
 
 {% block title %}{{ question_type_display }} - 英検4級対策問題 | Eiken Practice{% endblock %}
 
@@ -89,7 +90,7 @@
                                 {% endfor %}
                             </div>
                         {% elif question_type == 'writing' %}
-                            <div class="writing-prompt text-start">{{ question.question.question_text|linebreaks }}</div>
+                            <div class="writing-prompt text-start">{{ question.question.question_text|writing_prompt_html }}</div>
                             <label class="form-label mt-3 mb-1" for="answer-{{ question.question.id }}">あなたの英文</label>
                             <textarea class="form-control writing-answer-input" name="answer_{{ question.question.id }}" id="answer-{{ question.question.id }}" rows="12" placeholder="英文で入力してください">{{ question.user_answer }}</textarea>
                             <p class="small text-muted mt-2 mb-0">自動採点はありません。提出後に参考解答と照らし合わせてください。</p>

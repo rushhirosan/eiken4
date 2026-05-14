@@ -130,7 +130,7 @@
         <div class="card mb-4">
             <div class="card-body">
                 <h5 class="card-title">問題 {{ forloop.counter }}</h5>
-                <div class="mb-3">{{ answer.question.question_text|linebreaks }}</div>
+                <div class="mb-3">{{ answer.question.question_text|writing_prompt_html }}</div>
                 <h6 class="mt-3">あなたが提出した英文</h6>
                 <div class="p-3 bg-light rounded border">{{ answer.user_answer|linebreaks }}</div>
                 {% if answer.explanation %}
