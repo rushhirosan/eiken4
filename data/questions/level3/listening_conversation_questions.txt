@@ -13,13 +13,12 @@ Who is the boy looking for?
 4. Anna’s sister.
 
 【正解1】
-1. His science teacher.
+3. Anna.
 
 【解説1】
-正解は「His science teacher.」です。
-設問（Who is the boy looking for?）に対して、会話で述べられている内容と一致するのは「His science teacher.」です。
-他の選択肢（His sister. / Anna. / Anna’s sister.）は、この設問の条件に当てはまりません。
-
+正解は「Anna.」です。
+設問（Who is the boy looking for?）に対して、会話で述べられている内容と一致するのは「Anna.」です。
+他の選択肢（His science teacher. / His sister. / Anna’s sister.）は、この設問の条件に当てはまりません。
 ---
 
 No.2:
@@ -43,7 +42,6 @@ Who found Lucy’s grandfather’s glasses?
 正解は「Lucy’s mother.」です。
 設問（Who found Lucy’s grandfather’s glasses?）に対して、会話で述べられている内容と一致するのは「Lucy’s mother.」です。
 他の選択肢（Lucy. / Terry. / Lucy’s father.）は、この設問の条件に当てはまりません。
-
 ---
 
 No.3:
@@ -67,7 +65,6 @@ What is the problem?
 正解は「Billy broke a glass.」です。
 設問（What is the problem?）に対して、会話で述べられている内容と一致するのは「Billy broke a glass.」です。
 他の選択肢（Billy cut his ﬁnger. / Billy’s mother can’t help him. / Billy’s mother can’t buy a glass.）は、この設問の条件に当てはまりません。
-
 ---
 
 No.4:
@@ -85,13 +82,12 @@ What does the boy ask his mother to do?
 4. Help him with his report.
 
 【正解4】
-3. Buy a book for him.
+4. Help him with his report.
 
 【解説4】
-正解は「Buy a book for him.」です。
-設問（What does the boy ask his mother to do?）に対して、会話で述べられている内容と一致するのは「Buy a book for him.」です。
-他の選択肢（Make lunch. / Wash the car. / Help him with his report.）は、この設問の条件に当てはまりません。
-
+正解は「Help him with his report.」です。
+設問（What does the boy ask his mother to do?）に対して、会話で述べられている内容と一致するのは「Help him with his report.」です。
+他の選択肢（Make lunch. / Wash the car. / Buy a book for him.）は、この設問の条件に当てはまりません。
 ---
 
 No.5:
@@ -109,13 +105,12 @@ What kind of test did the girl have today?
 4. English.
 
 【正解5】
-2. P.E.
+3. Math.
 
 【解説5】
-正解は「P.E.」です。
-設問（What kind of test did the girl have today?）に対して、会話で述べられている内容と一致するのは「P.E.」です。
-他の選択肢（Science. / Math. / English.）は、この設問の条件に当てはまりません。
-
+正解は「Math.」です。
+設問（What kind of test did the girl have today?）に対して、会話で述べられている内容と一致するのは「Math.」です。
+他の選択肢（Science. / P.E. / English.）は、この設問の条件に当てはまりません。
 ---
 
 No.6:
@@ -133,13 +128,12 @@ What is the woman’s problem?
 4. She can’t ﬁnd the man’s home.
 
 【正解6】
-2. She forgot her lunch.
+3. She doesn’t feel well.
 
 【解説6】
-正解は「She forgot her lunch.」です。
-設問（What is the woman’s problem?）に対して、会話で述べられている内容と一致するのは「She forgot her lunch.」です。
-他の選択肢（She dropped her sandwich. / She doesn’t feel well. / She can’t ﬁnd the man’s home.）は、この設問の条件に当てはまりません。
-
+正解は「She doesn’t feel well.」です。
+設問（What is the woman’s problem?）に対して、会話で述べられている内容と一致するのは「She doesn’t feel well.」です。
+他の選択肢（She dropped her sandwich. / She forgot her lunch. / She can’t ﬁnd the man’s home.）は、この設問の条件に当てはまりません。
 ---
 
 No.7:
@@ -163,7 +157,6 @@ Why did the woman leave the picnic early?
 正解は「It was cold.」です。
 設問（Why did the woman leave the picnic early?）に対して、会話で述べられている内容と一致するのは「It was cold.」です。
 他の選択肢（She had to buy a jacket. / She was busy. / She was hungry.）は、この設問の条件に当てはまりません。
-
 ---
 
 No.8:
@@ -187,7 +180,6 @@ What does the girl like about the book?
 正解は「The class photo.」です。
 設問（What does the girl like about the book?）に対して、会話で述べられている内容と一致するのは「The class photo.」です。
 他の選択肢（The boy’s painting. / The poem about trees. / The story about her class.）は、この設問の条件に当てはまりません。
-
 ---
 
 No.9:
@@ -205,13 +197,12 @@ What is Emma’s problem?
 4. She doesn’t like her bike.
 
 【正解9】
-1. She lost her bike.
+2. Her bike is broken.
 
 【解説9】
-正解は「She lost her bike.」です。
-設問（What is Emma’s problem?）に対して、会話で述べられている内容と一致するのは「She lost her bike.」です。
-他の選択肢（Her bike is broken. / She can’t walk to school. / She doesn’t like her bike.）は、この設問の条件に当てはまりません。
-
+正解は「Her bike is broken.」です。
+設問（What is Emma’s problem?）に対して、会話で述べられている内容と一致するのは「Her bike is broken.」です。
+他の選択肢（She lost her bike. / She can’t walk to school. / She doesn’t like her bike.）は、この設問の条件に当てはまりません。
 ---
 
 No.10:
@@ -229,13 +220,12 @@ What is the boy’s problem?
 4. He left his bag at school.
 
 【正解10】
-4. He left his bag at school.
+3. He lost a book.
 
 【解説10】
-正解は「He left his bag at school.」です。
-設問（What is the boy’s problem?）に対して、会話で述べられている内容と一致するのは「He left his bag at school.」です。
-他の選択肢（He forgot to do his homework. / He didn’t call his teacher. / He lost a book.）は、この設問の条件に当てはまりません。
-
+正解は「He lost a book.」です。
+設問（What is the boy’s problem?）に対して、会話で述べられている内容と一致するのは「He lost a book.」です。
+他の選択肢（He forgot to do his homework. / He didn’t call his teacher. / He left his bag at school.）は、この設問の条件に当てはまりません。
 ---
 
 No.11:
@@ -253,13 +243,12 @@ What does the girl want to do this afternoon?
 4. Buy a racket.
 
 【正解11】
-2. Play tennis.
+4. Buy a racket.
 
 【解説11】
-正解は「Play tennis.」です。
-設問（What does the girl want to do this afternoon?）に対して、会話で述べられている内容と一致するのは「Play tennis.」です。
-他の選択肢（Talk to her coach. / Study with Fred. / Buy a racket.）は、この設問の条件に当てはまりません。
-
+正解は「Buy a racket.」です。
+設問（What does the girl want to do this afternoon?）に対して、会話で述べられている内容と一致するのは「Buy a racket.」です。
+他の選択肢（Talk to her coach. / Play tennis. / Study with Fred.）は、この設問の条件に当てはまりません。
 ---
 
 No.12:
@@ -283,7 +272,6 @@ What does Ken’s mother ask him to do?
 正解は「Buy some carrots.」です。
 設問（What does Ken’s mother ask him to do?）に対して、会話で述べられている内容と一致するのは「Buy some carrots.」です。
 他の選択肢（Make dinner. / Get some meat. / Wash the vegetables.）は、この設問の条件に当てはまりません。
-
 ---
 
 No.13:
@@ -301,13 +289,12 @@ When will the boy start writing his science report?
 4. On Friday.
 
 【正解13】
-3. On Thursday.
+1. Today.
 
 【解説13】
-正解は「On Thursday.」です。
-設問（When will the boy start writing his science report?）に対して、会話で述べられている内容と一致するのは「On Thursday.」です。
-他の選択肢（Today. / Tomorrow. / On Friday.）は、この設問の条件に当てはまりません。
-
+正解は「Today.」です。
+設問（When will the boy start writing his science report?）に対して、会話で述べられている内容と一致するのは「Today.」です。
+他の選択肢（Tomorrow. / On Thursday. / On Friday.）は、この設問の条件に当てはまりません。
 ---
 
 No.14:
@@ -331,7 +318,6 @@ How long is Edward borrowing the game?
 正解は「For one week.」です。
 設問（How long is Edward borrowing the game?）に対して、会話で述べられている内容と一致するのは「For one week.」です。
 他の選択肢（For two weeks. / For one month. / For two months.）は、この設問の条件に当てはまりません。
-
 ---
 
 No.15:
@@ -349,13 +335,12 @@ What is the woman’s problem?
 4. Her TV is too loud.
 
 【正解15】
-2. She can’t ﬁnd her money.
+3. Her TV is broken.
 
 【解説15】
-正解は「She can’t ﬁnd her money.」です。
-設問（What is the woman’s problem?）に対して、会話で述べられている内容と一致するのは「She can’t ﬁnd her money.」です。
-他の選択肢（She has to work today. / Her TV is broken. / Her TV is too loud.）は、この設問の条件に当てはまりません。
-
+正解は「Her TV is broken.」です。
+設問（What is the woman’s problem?）に対して、会話で述べられている内容と一致するのは「Her TV is broken.」です。
+他の選択肢（She has to work today. / She can’t ﬁnd her money. / Her TV is too loud.）は、この設問の条件に当てはまりません。
 ---
 
 No.16:
@@ -379,7 +364,6 @@ What will Emma do tonight?
 正解は「Call the boy.」です。
 設問（What will Emma do tonight?）に対して、会話で述べられている内容と一致するのは「Call the boy.」です。
 他の選択肢（Buy a ticket. / Go to a concert. / Meet the boy.）は、この設問の条件に当てはまりません。
-
 ---
 
 No.17:
@@ -397,13 +381,12 @@ Where will the art club meeting be today?
 4. In the library.
 
 【正解17】
-3. In the music room.
+4. In the library.
 
 【解説17】
-正解は「In the music room.」です。
-設問（Where will the art club meeting be today?）に対して、会話で述べられている内容と一致するのは「In the music room.」です。
-他の選択肢（In the gym. / In Mr. Smith’s classroom. / In the library.）は、この設問の条件に当てはまりません。
-
+正解は「In the library.」です。
+設問（Where will the art club meeting be today?）に対して、会話で述べられている内容と一致するのは「In the library.」です。
+他の選択肢（In the gym. / In Mr. Smith’s classroom. / In the music room.）は、この設問の条件に当てはまりません。
 ---
 
 No.18:
@@ -427,7 +410,6 @@ What does Emma do on Fridays?
 正解は「She goes to the pool.」です。
 設問（What does Emma do on Fridays?）に対して、会話で述べられている内容と一致するのは「She goes to the pool.」です。
 他の選択肢（She works at a sports store. / She plays video games. / She watches basketball.）は、この設問の条件に当てはまりません。
-
 ---
 
 No.19:
@@ -451,7 +433,6 @@ When will they practice next?
 正解は「Tomorrow evening.」です。
 設問（When will they practice next?）に対して、会話で述べられている内容と一致するのは「Tomorrow evening.」です。
 他の選択肢（This evening. / On Saturday morning. / On Monday afternoon.）は、この設問の条件に当てはまりません。
-
 ---
 
 No.20:
@@ -469,13 +450,12 @@ What will Emily do first?
 4. Go home.
 
 【正解20】
-3. Go to the park.
+4. Go home.
 
 【解説20】
-正解は「Go to the park.」です。
-設問（What will Emily do first?）に対して、会話で述べられている内容と一致するのは「Go to the park.」です。
-他の選択肢（Get her lunch. / Meet her friend. / Go home.）は、この設問の条件に当てはまりません。
-
+正解は「Go home.」です。
+設問（What will Emily do first?）に対して、会話で述べられている内容と一致するのは「Go home.」です。
+他の選択肢（Get her lunch. / Meet her friend. / Go to the park.）は、この設問の条件に当てはまりません。
 ---
 
 No.21:
@@ -493,13 +473,12 @@ What are they looking forward to?
 4. A Japanese food festival.
 
 【正解21】
-2. A trip to Japan.
+1. A speech contest.
 
 【解説21】
-正解は「A trip to Japan.」です。
-設問（What are they looking forward to?）に対して、会話で述べられている内容と一致するのは「A trip to Japan.」です。
-他の選択肢（A speech contest. / A concert. / A Japanese food festival.）は、この設問の条件に当てはまりません。
-
+正解は「A speech contest.」です。
+設問（What are they looking forward to?）に対して、会話で述べられている内容と一致するのは「A speech contest.」です。
+他の選択肢（A trip to Japan. / A concert. / A Japanese food festival.）は、この設問の条件に当てはまりません。
 ---
 
 No.22:
@@ -517,13 +496,12 @@ What will the girl recycle?
 4. The plastic bags.
 
 【正解22】
-4. The plastic bags.
+2. The cans.
 
 【解説22】
-正解は「The plastic bags.」です。
-設問（What will the girl recycle?）に対して、会話で述べられている内容と一致するのは「The plastic bags.」です。
-他の選択肢（The glass bottles. / The cans. / The paper.）は、この設問の条件に当てはまりません。
-
+正解は「The cans.」です。
+設問（What will the girl recycle?）に対して、会話で述べられている内容と一致するのは「The cans.」です。
+他の選択肢（The glass bottles. / The paper. / The plastic bags.）は、この設問の条件に当てはまりません。
 ---
 
 No.23:
@@ -541,13 +519,12 @@ What will the girl do after school today?
 4. Eat ice cream.
 
 【正解23】
-4. Eat ice cream.
+3. Play her violin.
 
 【解説23】
-正解は「Eat ice cream.」です。
-設問（What will the girl do after school today?）に対して、会話で述べられている内容と一致するのは「Eat ice cream.」です。
-他の選択肢（Play chess. / Visit her cousin. / Play her violin.）は、この設問の条件に当てはまりません。
-
+正解は「Play her violin.」です。
+設問（What will the girl do after school today?）に対して、会話で述べられている内容と一致するのは「Play her violin.」です。
+他の選択肢（Play chess. / Visit her cousin. / Eat ice cream.）は、この設問の条件に当てはまりません。
 ---
 
 No.24:
@@ -565,13 +542,12 @@ Which club will Janet join?
 4. The drama club.
 
 【正解24】
-4. The drama club.
+2. The cooking club.
 
 【解説24】
-正解は「The drama club.」です。
-設問（Which club will Janet join?）に対して、会話で述べられている内容と一致するのは「The drama club.」です。
-他の選択肢（The tennis club. / The cooking club. / The speech club.）は、この設問の条件に当てはまりません。
-
+正解は「The cooking club.」です。
+設問（Which club will Janet join?）に対して、会話で述べられている内容と一致するのは「The cooking club.」です。
+他の選択肢（The tennis club. / The speech club. / The drama club.）は、この設問の条件に当てはまりません。
 ---
 
 No.25:
@@ -589,13 +565,12 @@ When is the pool closed?
 4. On Sunday afternoons.
 
 【正解25】
-1. On Saturday mornings.
+4. On Sunday afternoons.
 
 【解説25】
-正解は「On Saturday mornings.」です。
-設問（When is the pool closed?）に対して、会話で述べられている内容と一致するのは「On Saturday mornings.」です。
-他の選択肢（On Saturday afternoons. / On Sunday mornings. / On Sunday afternoons.）は、この設問の条件に当てはまりません。
-
+正解は「On Sunday afternoons.」です。
+設問（When is the pool closed?）に対して、会話で述べられている内容と一致するのは「On Sunday afternoons.」です。
+他の選択肢（On Saturday mornings. / On Saturday afternoons. / On Sunday mornings.）は、この設問の条件に当てはまりません。
 ---
 
 No.26:
@@ -613,13 +588,12 @@ Where is Sarah going this weekend?
 4. To the art museum.
 
 【正解26】
-2. To her family’s house.
+1. To the science museum.
 
 【解説26】
-正解は「To her family’s house.」です。
-設問（Where is Sarah going this weekend?）に対して、会話で述べられている内容と一致するのは「To her family’s house.」です。
-他の選択肢（To the science museum. / To her friend’s house. / To the art museum.）は、この設問の条件に当てはまりません。
-
+正解は「To the science museum.」です。
+設問（Where is Sarah going this weekend?）に対して、会話で述べられている内容と一致するのは「To the science museum.」です。
+他の選択肢（To her family’s house. / To her friend’s house. / To the art museum.）は、この設問の条件に当てはまりません。
 ---
 
 No.27:
@@ -637,13 +611,12 @@ When is the girl’s piano concert?
 4. Next Monday.
 
 【正解27】
-3. Next Sunday.
+2. Next Saturday.
 
 【解説27】
-正解は「Next Sunday.」です。
-設問（When is the girl’s piano concert?）に対して、会話で述べられている内容と一致するのは「Next Sunday.」です。
-他の選択肢（Next Friday. / Next Saturday. / Next Monday.）は、この設問の条件に当てはまりません。
-
+正解は「Next Saturday.」です。
+設問（When is the girl’s piano concert?）に対して、会話で述べられている内容と一致するのは「Next Saturday.」です。
+他の選択肢（Next Friday. / Next Sunday. / Next Monday.）は、この設問の条件に当てはまりません。
 ---
 
 No.28:
@@ -667,7 +640,6 @@ How will they go to the park?
 正解は「By bike.」です。
 設問（How will they go to the park?）に対して、会話で述べられている内容と一致するのは「By bike.」です。
 他の選択肢（By train. / By car. / On foot.）は、この設問の条件に当てはまりません。
-
 ---
 
 No.29:
@@ -691,7 +663,6 @@ When does Emily usually go to the library?
 正解は「On Saturday mornings.」です。
 設問（When does Emily usually go to the library?）に対して、会話で述べられている内容と一致するのは「On Saturday mornings.」です。
 他の選択肢（On Wednesday mornings. / On Wednesday afternoons. / On Saturday afternoons.）は、この設問の条件に当てはまりません。
-
 ---
 
 No.30:
@@ -709,9 +680,9 @@ How long was the boy’s summer camp?
 4. One month.
 
 【正解30】
-3. Two weeks.
+1. Five days.
 
 【解説30】
-正解は「Two weeks.」です。
-設問（How long was the boy’s summer camp?）に対して、会話で述べられている内容と一致するのは「Two weeks.」です。
-他の選択肢（Five days. / One week. / One month.）は、この設問の条件に当てはまりません。
+正解は「Five days.」です。
+設問（How long was the boy’s summer camp?）に対して、会話で述べられている内容と一致するのは「Five days.」です。
+他の選択肢（One week. / Two weeks. / One month.）は、この設問の条件に当てはまりません。
