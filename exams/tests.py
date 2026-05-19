@@ -181,6 +181,39 @@ class ExamListViewTest(TestCase):
         response = self.client.get(self.url)
         self.assertContains(response, '英検試験対策')
 
+    def test_exam_list_defaults_to_level_4(self):
+        """初回は4級にフォーカスする"""
+        self.client.login(username='testuser', password='testpass123')
+        response = self.client.get(self.url)
+        self.assertContains(response, '現在の試験級')
+        self.assertContains(response, '英検4級')
+        self.assertContains(response, '英検3級に切り替える')
+        self.assertNotContains(response, 'exam-level-tab')
+
+    def test_exam_list_level_query_switches_focus(self):
+        """?level= で級を切り替え、セッションに保存する"""
+        self.client.login(username='testuser', password='testpass123')
+        response = self.client.get(self.url, {'level': '3'})
+        self.assertContains(response, 'id="level-panel-3"')
+        self.assertContains(response, '英検4級に切り替える')
+        self.assertContains(response, 'ライティング問題')
+        self.assertEqual(self.client.session.get('preferred_exam_level'), '3')
+
+        response = self.client.get(self.url)
+        self.assertContains(response, 'id="level-panel-3"')
+        self.assertContains(response, 'ライティング問題')
+        self.assertNotContains(response, 'type=word_order')
+
+    def test_question_list_sets_preferred_level(self):
+        """問題一覧に入ると選択中の級がセッションに保存される"""
+        self.client.login(username='testuser', password='testpass123')
+        url = reverse('exams:question_list_by_level', kwargs={'level': '3'})
+        self.client.get(url, {'type': 'grammar_fill'})
+        self.assertEqual(self.client.session.get('preferred_exam_level'), '3')
+
+        response = self.client.get(self.url)
+        self.assertContains(response, '英検3級')
+
 
 class ProgressViewTest(TestCase):
     """進捗ページビューのテスト"""
@@ -207,6 +240,19 @@ class ProgressViewTest(TestCase):
         response = self.client.get(self.url)
         self.assertEqual(response.status_code, 200)
         self.assertTemplateUsed(response, 'exams/progress.html')
+
+    def test_progress_level3_hides_word_order(self):
+        """3級の進捗表示に語順選択問題を含めない"""
+        self.client.login(username='testuser', password='testpass123')
+        Question.objects.create(
+            level='3',
+            question_type='grammar_fill',
+            question_text='3級テスト',
+        )
+        response = self.client.get(self.url)
+        self.assertContains(response, '英検3級')
+        self.assertNotContains(response, '<td>語順選択問題</td>')
+        self.assertNotContains(response, '<i class="fas fa-sort me-2"></i>語順選択問題')
 
 
 class UserAnswerModelTest(TestCase):

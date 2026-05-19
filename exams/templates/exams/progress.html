@@ -96,6 +96,7 @@
                             <td>{{ progress.conversation_fill.incorrect_answers|default:"0" }}</td>
                             <td>{% if progress.conversation_fill.last_attempted %}{{ progress.conversation_fill.last_attempted }}{% else %}未回答{% endif %}</td>
                         </tr>
+                        {% if level != '3' %}
                         <tr>
                             <td>語順選択問題</td>
                             <td>{{ progress.word_order.progress_rate|default:"0" }}%</td>
@@ -107,6 +108,7 @@
                             <td>{{ progress.word_order.incorrect_answers|default:"0" }}</td>
                             <td>{% if progress.word_order.last_attempted %}{{ progress.word_order.last_attempted }}{% else %}未回答{% endif %}</td>
                         </tr>
+                        {% endif %}
                         <tr>
                             <td>長文読解問題</td>
                             <td>{{ progress.reading_comprehension.progress_rate|default:"0" }}%</td>
@@ -237,6 +239,7 @@
                     </div>
                 </div>
 
+                {% if level != '3' %}
                 <!-- 語順選択問題 -->
                 <div class="card mb-3 progress-card">
                     <div class="card-header d-flex justify-content-between align-items-center">
@@ -268,6 +271,7 @@
                         </div>
                     </div>
                 </div>
+                {% endif %}
 
                 <!-- 長文読解問題 -->
                 <div class="card mb-3 progress-card">
@@ -450,7 +454,6 @@ document.addEventListener('DOMContentLoaded', function() {
     const labels = [
         '文法・語彙問題',
         '会話補充問題',
-        '語順選択問題',
         '長文読解問題',
         'ライティング問題',
         'リスニングイラスト問題',
@@ -461,7 +464,6 @@ document.addEventListener('DOMContentLoaded', function() {
     const data = [
         progress.grammar_fill.progress_rate,
         progress.conversation_fill.progress_rate,
-        progress.word_order.progress_rate,
         progress.reading_comprehension.progress_rate,
         progress.writing.progress_rate,
         progress.listening_illustration.progress_rate,
@@ -504,7 +506,6 @@ document.addEventListener('DOMContentLoaded', function() {
                 backgroundColor: [
                     'rgba(54, 162, 235, 0.5)',  // 文法
                     'rgba(255, 99, 132, 0.5)',   // 会話
-                    'rgba(255, 206, 86, 0.5)',   // 語句
                     'rgba(75, 192, 192, 0.5)',   // 読解
                     'rgba(40, 167, 69, 0.5)',    // ライティング
                     'rgba(153, 102, 255, 0.5)',  // リスニング1
@@ -514,7 +515,6 @@ document.addEventListener('DOMContentLoaded', function() {
                 borderColor: [
                     'rgba(54, 162, 235, 1)',
                     'rgba(255, 99, 132, 1)',
-                    'rgba(255, 206, 86, 1)',
                     'rgba(75, 192, 192, 1)',
                     'rgba(40, 167, 69, 1)',
                     'rgba(153, 102, 255, 1)',
@@ -594,7 +594,9 @@ document.addEventListener('DOMContentLoaded', function() {
     // 各問題タイプの日ごとデータを統合
     const allDailyData = {};
     const questionTypes = [
-        'grammar_fill', 'conversation_fill', 'word_order', 'reading_comprehension',
+        'grammar_fill', 'conversation_fill',
+        {% if level != '3' %}'word_order', {% endif %}
+        'reading_comprehension',
         {% if level == '3' %}'writing', {% endif %}
         'listening_illustration', 'listening_conversation', 'listening_passage'
     ];

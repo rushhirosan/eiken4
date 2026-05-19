@@ -12,28 +12,26 @@
                     <i class="fas fa-graduation-cap me-2"></i>
                     英検試験対策
                 </h1>
-                <p class="lead text-white-50 mb-1 small-md-lead">級を選んで対策問題で実力を向上させましょう</p>
+                <p class="lead text-white-50 mb-1 small-md-lead">対策問題で実力を向上させましょう</p>
                 <p class="text-white-50 small mb-0 opacity-75">ベータ版です、不具合等々あるかもしれません、フィードバックお寄せください</p>
             </div>
 
-            <div class="text-center mb-2 px-2 exam-level-bar">
-                <p class="text-white-50 small mb-1">試験級を選んでください</p>
-                <div class="d-flex flex-wrap justify-content-center gap-2 exam-level-switch" role="tablist" aria-label="試験級">
-                    {% for section in exam_sections %}
-                    <button type="button"
-                            class="btn px-3 py-2 exam-level-tab{% if forloop.first %} active{% endif %}"
-                            id="tab-level-{{ section.level_code }}"
-                            data-panel-id="level-panel-{{ section.level_code }}"
-                            aria-selected="{% if forloop.first %}true{% else %}false{% endif %}">
-                        {{ section.level_name }}
-                    </button>
-                    {% endfor %}
-                </div>
+            <div class="text-center mb-3 px-2 exam-level-focus">
+                <p class="text-white-50 small mb-1">現在の試験級</p>
+                <p class="exam-level-focus-title mb-1">{{ active_section.level_name }}</p>
+                {% if other_level_code %}
+                <p class="mb-0">
+                    <a href="{% url 'exams:exam_list' %}?level={{ other_level_code }}"
+                       class="exam-level-switch-link">
+                        {{ other_level_name }}に切り替える
+                    </a>
+                </p>
+                {% endif %}
             </div>
-            
-            {% for section in exam_sections %}
+
+            {% with section=active_section %}
             <div id="level-panel-{{ section.level_code }}"
-                 class="card mb-3 exam-level-panel exam-list-card exam-format-panel border-0 shadow overflow-hidden{% if not forloop.first %} d-none{% endif %}">
+                 class="card mb-3 exam-level-panel exam-list-card exam-format-panel border-0 shadow overflow-hidden">
                 <div class="exam-format-panel-header text-center py-3 px-3">
                     <h4 class="mb-0 h5 text-white">
                         <i class="fas fa-tasks me-2"></i>
@@ -180,70 +178,28 @@
                     </div>
                 </div>
             </div>
-            {% endfor %}
+            {% endwith %}
         </div>
     </div>
 </div>
 
-<script>
-(function () {
-    var storageKey = 'exam_list_level';
-    var tabs = document.querySelectorAll('.exam-level-tab');
-    var panels = document.querySelectorAll('.exam-level-panel');
-
-    function showPanel(panelId) {
-        panels.forEach(function (p) {
-            if (p.id === panelId) {
-                p.classList.remove('d-none');
-            } else {
-                p.classList.add('d-none');
-            }
-        });
-        tabs.forEach(function (t) {
-            var match = t.getAttribute('data-panel-id') === panelId;
-            t.classList.toggle('active', match);
-            t.setAttribute('aria-selected', match ? 'true' : 'false');
-        });
-        try {
-            if (panelId && panelId.indexOf('level-panel-') === 0) {
-                sessionStorage.setItem(storageKey, panelId.replace('level-panel-', ''));
-            }
-        } catch (e) {}
-    }
-
-    tabs.forEach(function (tab) {
-        tab.addEventListener('click', function () {
-            showPanel(tab.getAttribute('data-panel-id'));
-        });
-    });
-
-    try {
-        var saved = sessionStorage.getItem(storageKey);
-        if (saved) {
-            var pid = 'level-panel-' + saved;
-            if (document.getElementById(pid)) {
-                showPanel(pid);
-            }
-        }
-    } catch (e) {}
-})();
-</script>
-
 <style>
-.exam-level-tab {
-    border: 2px solid rgba(255, 255, 255, 0.55);
-    color: rgba(255, 255, 255, 0.95);
-    background: transparent;
-    font-weight: 600;
-}
-.exam-level-tab:hover {
-    background: rgba(255, 255, 255, 0.12);
+.exam-level-focus-title {
     color: #fff;
+    font-size: clamp(1.35rem, 3.5vw, 1.75rem);
+    font-weight: 700;
+    letter-spacing: 0.02em;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.25);
 }
-.exam-level-tab.active {
-    background: #fff;
-    color: #212529;
-    border-color: #fff;
+
+.exam-level-switch-link {
+    color: rgba(255, 255, 255, 0.82);
+    font-size: 0.875rem;
+    text-decoration: underline;
+    text-underline-offset: 2px;
+}
+.exam-level-switch-link:hover {
+    color: #fff;
 }
 
 /* 試験一覧のみ: main の上下パディングを詰める（このページにインライン style があるときだけ有効） */
@@ -363,12 +319,6 @@ body main.container {
         padding: 0.75rem 1rem;
         font-size: 0.95rem;
     }
-
-    .exam-list-compact .exam-level-tab {
-        min-height: 2.6rem;
-        padding-top: 0.35rem;
-        padding-bottom: 0.35rem;
-    }
     
     .card {
         margin-bottom: 1.5rem;
@@ -443,4 +393,4 @@ body main.container {
     }
 }
 </style>
-{% endblock %} 
+{% endblock %}

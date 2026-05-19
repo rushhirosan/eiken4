@@ -67,6 +67,12 @@ FOUNDATION_QUESTION_TYPES = [
 RANDOM_UNLOCK_MIN_RATE = 20
 RANDOM_UNLOCK_REQUIRED_CATEGORIES = 3
 MOCK_EXAM_UNLOCK_MIN_RATE = 80
+PREFERRED_LEVEL_SESSION_KEY = 'preferred_exam_level'
+EXAM_LEVEL_ENTRIES = [
+    ('4', '英検4級'),
+    ('3', '英検3級'),
+]
+VALID_EXAM_LEVELS = {code for code, _ in EXAM_LEVEL_ENTRIES}
 QUESTION_TYPE_LABELS = {
     'grammar_fill': '文法・語彙問題',
     'conversation_fill': '会話補充問題',
@@ -113,14 +119,23 @@ def _is_correct_listening_illustration_answer(question, selected_answer):
 
     return False
 
-@login_required
-def exam_list(request):
-    """試験一覧を表示（級ごとのカード）"""
-    level_entries = [
-        ('4', '英検4級'),
-        ('3', '英検3級'),
-    ]
 
+def _set_preferred_exam_level(request, level):
+    level = str(level)
+    if level in VALID_EXAM_LEVELS:
+        request.session[PREFERRED_LEVEL_SESSION_KEY] = level
+
+
+def _get_preferred_exam_level(request):
+    level = request.session.get(PREFERRED_LEVEL_SESSION_KEY, '4')
+    return level if level in VALID_EXAM_LEVELS else '4'
+
+
+def _exam_level_name(level_code):
+    return dict(EXAM_LEVEL_ENTRIES).get(level_code, f'英検{level_code}級')
+
+
+def _build_exam_section(user, level_code, level_name):
     question_types = {
         'grammar_fill': '文法・語彙問題',
         'conversation_fill': '会話補充問題',
@@ -133,29 +148,45 @@ def exam_list(request):
         'random': 'ランダム10問',
         'mock_exam': '模擬試験問題',
     }
+    question_counts = {
+        q_type: _total_questions_for_type(level_code, q_type)
+        for q_type in question_types.keys()
+    }
+    return {
+        'level_code': level_code,
+        'level_name': level_name,
+        'question_counts': question_counts,
+        'unlock_status': _build_exam_unlock_status(user, level_code),
+    }
 
-    exam_sections = []
-    for level_code, level_name in level_entries:
-        question_counts = {
-            q_type: _total_questions_for_type(level_code, q_type)
-            for q_type in question_types.keys()
-        }
-        exam_sections.append({
-            'level_code': level_code,
-            'level_name': level_name,
-            'question_counts': question_counts,
-            'unlock_status': _build_exam_unlock_status(request.user, level_code),
-        })
+
+@login_required
+def exam_list(request):
+    """試験一覧を表示（選択中の級にフォーカス）"""
+    level_param = request.GET.get('level')
+    if level_param in VALID_EXAM_LEVELS:
+        active_level = level_param
+        _set_preferred_exam_level(request, active_level)
+    else:
+        active_level = _get_preferred_exam_level(request)
+
+    active_name = _exam_level_name(active_level)
+    other_entries = [(code, name) for code, name in EXAM_LEVEL_ENTRIES if code != active_level]
+    other_level_code, other_level_name = other_entries[0] if other_entries else (None, None)
 
     context = {
-        'question_types': question_types,
-        'exam_sections': exam_sections,
+        'active_section': _build_exam_section(request.user, active_level, active_name),
+        'other_level_code': other_level_code,
+        'other_level_name': other_level_name,
     }
 
     return render(request, 'exams/exam_list.html', context)
 
 @login_required
 def question_list(request, level=None, exam_id=None):
+    if level is not None:
+        _set_preferred_exam_level(request, level)
+
     question_type = request.GET.get('type')
     
     # デバッグ出力を追加
