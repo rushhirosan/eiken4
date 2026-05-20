@@ -21,7 +21,9 @@ Which trash can will the volunteers throw away paper in?
 4. The yellow one.
 
 【解説1a】
-案内に、黄色のゴミ箱は紙（paper）用、赤はペットボトル、青はその他のプラスチックと書かれています。紙を捨てるのは黄色のゴミ箱です。緑のゴミ箱は本文に出てきません。
+設問は、紙（paper）を捨てるゴミ箱の色を聞いています。
+案内では、赤のゴミ箱＝ペットボトル、青＝その他のプラスチック、黄＝紙（paper）と書かれています。したがって正解は黄色のゴミ箱です。
+緑のゴミ箱は本文に出てこないので、選択肢2は本文と合いません。
 
 問題1b:
 What will the city staff do on September 19?
@@ -36,7 +38,9 @@ What will the city staff do on September 19?
 3. Bring something to eat for the volunteers.
 
 【解説1b】
-本文では、掃除のあと市の職員がボランティア全員に昼食（lunch）を出すとあります。選択肢の「ボランティアが食べるものを持ってくる」は、この内容に最も近い表現です。飲み物は自分で持ってくるよう書かれているので、冷たい飲み物を売る・手袋を捨てる・ペットボトルを買う、という話とは合いません。
+設問は、9月19日に市の職員（city staff）がすることを聞いています。
+本文では、掃除のあと職員がボランティア全員に昼食（lunch）を出す、とあります。これに対応するのが選択肢3です。
+飲み物はボランティアが自分で持参するため、職員が飲み物を売る・手袋を捨てる・ペットボトルを買う、という話は本文にありません。
 
 ---
 
@@ -90,7 +94,8 @@ What language does Bryan study at high school?
 1. Spanish.
 
 【解説2a】
-Bryan の最初のメールで「I’m studying Spanish」と自分で述べています。日本語をこれから習いたいと言っているだけで、学校で日本語を取っているわけではありません。
+設問は、Bryan が高校で実際に勉強している言語を聞いています。
+Bryan の最初のメールで「I'm studying Spanish」と述べています。日本語はこれから習いたいと言っているだけで、学校の科目として取っているわけではありません。
 
 問題2b:
 How long did Jill’s aunt live in Tokyo?
@@ -105,7 +110,9 @@ How long did Jill’s aunt live in Tokyo?
 3. For seven years.
 
 【解説2b】
-Jill のメールでは、おばさんは北海道に 3 年、そのあと東京に移り「そこに 7 年住んだ（lived there for seven years）」とあります。東京での期間が答えです。日本全体で 10 年、という数字と取り違えないようにするとよいです。
+設問は、Jill のおばさんが東京に住んだ期間を聞いています。
+Jill のメールでは、北海道に3年、そのあと東京に移り「そこに7年住んだ（lived there for seven years）」とあります。東京での期間が答えです。
+日本全体で10年、という数字と取り違えないようにしましょう。
 
 問題2c:
 What does Bryan want Jill to do on Wednesday evening?
@@ -120,7 +127,9 @@ What does Bryan want Jill to do on Wednesday evening?
 1. Have a lesson with him at a café.
 
 【解説2c】
-Bryan の返信で、水曜の夕方に駅近くのカフェで日本語のレッスンがあり、「一緒に勉強するのはいい考えだから、来られたらぜひ」と Jill を誘っています。図書館や駅で「会うだけ」の話ではなく、カフェでのレッスンに来てほしい、という流れです。
+設問は、水曜の夕方に Bryan が Jill に何をしてほしいかを聞いています。
+Bryan の返信で、駅近くのカフェで日本語のレッスンがあり、「一緒に勉強するのはいい考えだから、来られたらぜひ」と Jill を誘っています。
+図書館や駅で会うだけの話ではなく、カフェでのレッスンに参加してほしい、という内容が正解です。
 
 ---
 
@@ -146,7 +155,9 @@ When people use the “Three Sisters Method,” they can
 4. grow many vegetables in a small area.
 
 【解説3a】
-「Three Sisters Method」は狭い場所でも多くの野菜を育てられる、と本文の前半で説明されています。太陽や水がまったく不要、という話ではなく、数百種類の食べ物を学ぶ内容でもありません。
+設問は、「Three Sisters Method」を使うと人々が何ができるかを聞いています。
+本文の前半で、この方法は狭い場所でも多くの野菜を育てられる、と説明されています。正解は選択肢4です。
+光や水がまったく不要、数百種類の食べ物を学ぶ、という内容は本文にありません。
 
 問題3b:
 What do people plant ﬁrst when they use the Three Sisters Method?
@@ -161,7 +172,9 @@ What do people plant ﬁrst when they use the Three Sisters Method?
 4. Corn.
 
 【解説3b】
-植え順の説明で、まずトウモロコシを植え、次に豆、最後にかぼちゃとあります。最初に植えるのはトウモロコシです。ひまわりは本文に出てきません。
+設問は、Three Sisters Method で最初に植える野菜を聞いています。
+植え順の説明で、まずトウモロコシ（corn）、次に豆（beans）、最後にかぼちゃ（pumpkins）とあります。
+ひまわり（sunflowers）は本文に出てこないため、選択肢2は誤りです。
 
 問題3c:
 What do the pumpkins’ leaves do?
@@ -176,7 +189,9 @@ What do the pumpkins’ leaves do?
 1. They protect the soil from the sun.
 
 【解説3c】
-かぼちゃの大きな葉は、野菜のまわりを日差しから守り、地面が乾きすぎないようにする、と書かれています。設問の選択肢では「土を日差しから守る」がこれに最も近い内容です。豆やトウモロコシを守る、動物を近づける、という説明とは違います。
+設問は、かぼちゃの葉（pumpkins' leaves）の役割を聞いています。
+本文では、大きな葉が野菜のまわりを日差しから守り、地面が乾きすぎないようにする、と書かれています。
+「土を日差しから守る」がこれに最も近い表現です。豆やトウモロコシを守る・動物を近づける、という説明とは異なります。
 
 問題3d:
 What happened after Europeans went to North America?
@@ -191,7 +206,9 @@ What happened after Europeans went to North America?
 1. Native Americans began to eat different foods.
 
 【解説3d】
-ヨーロッパ人が新しい動植物を持ち込んだあと、「それ以来ネイティブアメリカンが食べる食べ物は変わった」とあります。メソッドをやめた、ハロウィンや果物の指示、という話は本文にありません。
+設問は、ヨーロッパ人が北米に来たあとに起きたことを聞いています。
+本文では、新しい動植物を持ち込んだあと「それ以来ネイティブアメリカ人が食べる食べ物は変わった」とあります。
+メソッドをやめた、ハロウィンや果物の指示、という話は本文にありません。
 
 問題3e:
 What is this story about?
@@ -206,7 +223,9 @@ What is this story about?
 2. A special way to grow vegetables.
 
 【解説3e】
-全文は、トウモロコシ・豆・かぼちゃを一緒に育てる伝統的な「Three Sisters Method」について述べています。料理の新しい方法や、実際の三姉妹の農家の物語、会社設立の話ではありません。設問の「野菜を育てる特別なやり方」が全体の要約としてふさわしいです。
+設問は、本文全体の内容（What is this story about?）を聞いています。
+全文は、トウモロコシ・豆・かぼちゃを一緒に育てる伝統的な「Three Sisters Method」について述べています。
+料理の新しい方法や、実在の三姉妹の農家・会社の話ではなく、「野菜を育てる特別なやり方」が要約としてふさわしいです。
 
 ---
 
@@ -233,7 +252,9 @@ What must students do on October 18?
 3. Bring their own lunch.
 
 【解説4a】
-10 月 18 日の見学について、案内に「Please bring your own lunch（昼食は各自持参）」とあります。家の中の写真は禁止、庭の写真は可ですが、設問は「しなければならないこと」なので、持参する昼食が答えです。庭の掃除や試験の話は本文にありません。
+設問は、10月18日に生徒がしなければならないこと（must）を聞いています。
+案内に「Please bring your own lunch（昼食は各自持参）」とあります。正解は選択肢3です。
+家の中の写真は禁止ですが、それは「してはいけないこと」であり、持参する昼食とは別の話です。庭の掃除や試験の話は本文にありません。
 
 問題4b:
 Where can students take photos during the tour?
@@ -248,7 +269,9 @@ Where can students take photos during the tour?
 2. In the garden.
 
 【解説4b】
-「家の中では写真を撮らないでくださいが、庭の写真は撮ってよい」とあります。見学中に写真が許されるのは庭です。キッチンや寝室など屋内は不可です。
+設問は、見学中に写真を撮ってよい場所を聞いています。
+「家の中では写真を撮らないでくださいが、庭の写真は撮ってよい」と明記されています。
+キッチン・寝室・リビングなど屋内は不可で、庭だけが正解です。
 
 ---
 
@@ -290,7 +313,9 @@ When did Sophia meet Mia in her class at college?
 2. Last Monday.
 
 【解説5a】
-Sophia は「先週の月曜日に驚くようなことがあった。その日の美術の授業で Mia に会った」と書いています。大学の授業で会ったのは先週月曜です。4 年前は Mia が引っ越したころ、金土は一緒に食事した日で、授業で会った日ではありません。
+設問は、Sophia が大学の授業で Mia に会った日を聞いています。
+Sophia は「先週の月曜日（last Monday）に美術の授業で Mia に会った」と書いています。
+4年前は Mia が引っ越した時期、金・土は一緒に食事した日で、授業で会った日ではありません。
 
 問題5b:
 What did Sophia and Mia often do together when they were junior high school students?
@@ -305,7 +330,9 @@ What did Sophia and Mia often do together when they were junior high school stud
 3. They studied math at the library.
 
 【解説5b】
-Sophia の母のメールに、「中学校のころ Sophia と Mia はよく図書館に行き、そこでいつも数学を勉強していた。Mia は数学が得意だった」とあります。図書館で数学を勉強していたのが正しい内容です。「Sophia の家で絵を描いていた」などは書かれておらず、スポーツや絵が好きだったこととは別の話です。
+設問は、中学校時代に Sophia と Mia がよく一緒にしていたことを聞いています。
+母のメールに、「よく図書館に行き、そこでいつも数学を勉強していた。Mia は数学が得意だった」とあります。
+Sophia が絵やスポーツを好きだったことは別の話で、図書館で数学を勉強していた、が正解です。
 
 問題5c:
 What will Sophia’s mother do on October 20?
@@ -320,7 +347,9 @@ What will Sophia’s mother do on October 20?
 2. Work at the hospital.
 
 【解説5c】
-母は「10 月 20 日は病院の仕事が早く終わらず、駅には迎えに行けない」と書いています。迎えに行くのは父で、母の予定は病院での勤務です。駅で Sophia を迎えるのは母ではありません。
+設問は、10月20日に Sophia の母がすることを聞いています。
+母は「病院の仕事が早く終わらず、駅には迎えに行けない」と書いています。迎えに行くのは父です。
+母の予定として本文に書かれているのは病院での勤務（Work at the hospital）です。
 
 ---
 
@@ -346,7 +375,9 @@ How many people live in Buñol?
 1. About 10,000 people.
 
 【解説6a】
-Buñol の人口は「Only around 10,000 people live」とあります。祭りの日に町に来る人は 2 万人以上増える、という別の数字と混同しないようにしてください。
+設問は、Buñol に住む人の数を聞いています。
+「Only around 10,000 people live in Buñol」とあります。正解は約1万人です。
+祭りの日に町に来る人は2万人以上増える、という別の数字と混同しないようにしましょう。
 
 問題6b:
 What happened during the parade in 1945?
@@ -361,7 +392,9 @@ What happened during the parade in 1945?
 4. A musician got angry at some children.
 
 【解説6b】
-1945 年のパレードでは、子どもたちが音楽家にぶつかりパレードが止まり、音楽家は子どもたちに腹を立て、そのあと誰かがトマトを投げた、とあります。子どもが音楽を演奏した、市場でトマトを買った、という話ではありません。
+設問は、1945年のパレード中に起きたことを聞いています。
+子どもたちが音楽家にぶつかりパレードが止まり、音楽家は子どもたちに腹を立て、そのあと誰かがトマトを投げた、とあります。
+子どもが演奏した・踊った・市場でトマトを買った、という話は本文にありません。
 
 問題6c:
 What do a lot of people do at La Tomatina?
@@ -376,7 +409,9 @@ What do a lot of people do at La Tomatina?
 3. Wear white clothes.
 
 【解説6c】
-祭りの描写で「Many people wear white clothes」とあり、トマトで服の色が変わる、とも続いています。トマトを食べる、農場に行く、踊りを披露する、が主な行為として書かれているわけではありません。
+設問は、La Tomatina で多くの人がすることを聞いています。
+「Many people wear white clothes」とあり、トマトで服の色が変わる、とも続いています。
+トマトを食べる・農場に行く・踊る、が祭りの主な描写として書かれているわけではありません。
 
 問題6d:
 Some people do not like La Tomatina because
@@ -391,7 +426,9 @@ Some people do not like La Tomatina because
 2. cleaning up after the festival is difﬁcult.
 
 【解説6d】
-批判として「祭りのあとの片付けが大変だからよいと思えない人もいる」とあります。人が多すぎる、高い、トマトがまずい、という理由は本文にありません。
+設問は、La Tomatina を好まない人の理由を聞いています。
+本文では「祭りのあとの片付け（cleaning up）が大変だからよいと思えない人もいる」とあります。
+人が多すぎる・高い・トマトがまずい、という理由は本文にありません。
 
 問題6e:
 What is this story about?
@@ -406,7 +443,9 @@ What is this story about?
 3. A famous festival.
 
 【解説6e】
-Buñol のトマト祭り La Tomatina の歴史と現在の様子、賛否が中心です。1945 年のパレードだけに絞った話でも、新しい都市や農業イベントの紹介でもありません。「有名な祭り」が全体の主題に最も近いです。
+設問は、本文全体の主題を聞いています。
+Buñol のトマト祭り La Tomatina の始まり・現在・賛否が中心です。
+1945年のパレードだけの話や、新しい都市・農業イベントの紹介ではなく、「有名な祭り」が最もふさわしい要約です。
 
 ---
 
@@ -436,7 +475,9 @@ How long did Ms. Wilson work at the local university’s library?
 1. For ﬁve years.
 
 【解説7a】
-Ms. Wilson は「地元大学の図書館では 5 年働いた（at the library at the local university for five years）」と紹介されています。書店では 8 年ですが、設問は大学図書館の期間です。
+設問は、Ms. Wilson が地元大学の図書館で働いた年数を聞いています。
+「at the library at the local university for five years（5年）」と紹介されています。
+書店では8年働いていますが、設問は大学図書館の期間なので、8年や10年は誤りです。
 
 問題7b:
 At the welcome party, students can
@@ -451,7 +492,9 @@ At the welcome party, students can
 2. enjoy drinks and food for free.
 
 【解説7b】
-歓迎会では「無料の飲み物と軽食（free drinks and snacks）がある」とあります。外国の大学の人に会う、映画を見る、体育をする、という内容は案内にありません。
+設問は、歓迎会で生徒ができることを聞いています。
+「You can enjoy free drinks and snacks（無料の飲み物と軽食）」とあります。
+外国の大学の人に会う・映画を見る・体育をする、という内容は案内にありません。
 
 ---
 
@@ -505,7 +548,9 @@ Why did Lucas write to his grandfather?
 2. To ask about interviewing his grandfather.
 
 【解説8a】
-Lucas は社会のレポートのため別の都市について書く必要があり、「土曜日におじいちゃんの街についてインタビューしてもいいか」と頼んでいます。自分の街のニュースを伝える、サッカーに誘う、パイの作り方を聞く、という目的ではありません。
+設問は、Lucas がおじいちゃんに手紙を書いた理由を聞いています。
+社会のレポートのため別の都市について書く必要があり、「土曜日におじいちゃんの街についてインタビューしてもいいか」と頼んでいます。
+自分の街のニュースを伝える・サッカーに誘う・パイの作り方を聞く、という目的ではありません。
 
 問題8b:
 When will Lucas’s grandfather be able to meet Lucas?
@@ -520,7 +565,9 @@ When will Lucas’s grandfather be able to meet Lucas?
 4. On Sunday afternoon.
 
 【解説8b】
-おじいちゃんは土曜と日曜の午前は仕事が忙しく、日曜の午後なら会えると返信しています。Lucas も日曜の午後なら行けると返しています。土曜午前や日曜午前ではなく、日曜午後が一致します。
+設問は、おじいちゃんが Lucas と会える日時を聞いています。
+おじいちゃんは土曜と日曜午前は忙しく、日曜午後なら会えると返信しています。Lucas も日曜午後なら行けると答えています。
+金曜午後・土曜午前・日曜午前は、双方のメールの内容と合いません。
 
 問題8c:
 What did Lucas choose to write about for his report?
@@ -535,7 +582,9 @@ What did Lucas choose to write about for his report?
 1. The spring festival in his grandfather’s city.
 
 【解説8c】
-友人がすでに夏祭りのレポートを書いているので、Lucas は「おじいちゃんの街の春祭り（spring festival）について書くことにした」と書いています。夏祭りやかぼちゃ祭り、自分の街の冬のパレードをテーマにした、という内容ではありません。
+設問は、Lucas がレポートのテーマに選んだ祭りを聞いています。
+友人がすでに夏祭りを書いているため、「おじいちゃんの街の春祭り（spring festival）について書くことにした」と書いています。
+夏祭り・かぼちゃ祭り・自分の街の冬のパレードをテーマにした、という内容ではありません。
 
 ---
 
@@ -561,7 +610,9 @@ As a child, Ansel Adams
 4. played the piano.
 
 【解説9a】
-幼少期の Adams は「自然の中を散歩したりピアノを弾いたりするのが好きで、ピアノは十年以上弾いていた」とあります。学校が好き、都市を歩く、絵を習う、という記述は本文と合いません。
+設問は、幼少期の Ansel Adams について聞いています。
+「自然の中を散歩したりピアノを弾いたりするのが好きで、ピアノは十年以上弾いていた」とあります。
+学校が好き・都市を歩く・絵を習う、という記述は本文と合いません。
 
 問題9b:
 What did Adams do when he got his ﬁrst camera?
@@ -576,7 +627,9 @@ What did Adams do when he got his ﬁrst camera?
 2. He went on hikes in the mountains.
 
 【解説9b】
-初めてカメラを手に入れたあと、ヨセミテ国立公園で「山にハイキングに行き、カメラを持っていった」とあります。建物の写真、カメラ店での仕事、写真クラブへの加入、という流れではありません。
+設問は、初めてカメラを手に入れたあと Adams がしたことを聞いています。
+ヨセミテ国立公園で「山にハイキングに行き、カメラを持っていった」とあります。
+建物の写真・カメラ店での仕事・写真クラブへの加入、という流れではありません。
 
 問題9c:
 Why were Adams’s photographs popular?
@@ -591,7 +644,9 @@ Why were Adams’s photographs popular?
 2. They looked like paintings.
 
 【解説9c】
-人々は Adams の自然の写真を「絵のようで芸術的だと思い、人気になった」とあります。古い商品の写真や新聞、値段の安さが理由として書かれているわけではありません。
+設問は、Adams の写真が人気だった理由を聞いています。
+人々は自然の写真を「絵のようで芸術的（like paintings）だと思い、人気になった」とあります。
+古い商品の写真・新聞掲載・値段の安さが理由として書かれているわけではありません。
 
 問題9d:
 What happened in 1980?
@@ -606,7 +661,9 @@ What happened in 1980?
 3. Adams won an award.
 
 【解説9d】
-1980 年には「アメリカ大統領から生涯をたたえる賞（an award）を受けた」とあります。博物館展示や著書、政府勤務がその年だった、とは書かれていません。
+設問は、1980年に起きたことを聞いています。
+「アメリカ大統領から生涯をたたえる賞（an award）を受けた」とあります。
+博物館での展示や著書出版・政府勤務がその年だった、とは書かれていません。
 
 問題9e:
 What is this story about?
@@ -621,4 +678,6 @@ What is this story about?
 4. A photographer in the 1900s.
 
 【解説9e】
-全文は、1900 年代生まれの写真家 Ansel Adams の幼少期から晩年までの経歴です。ピアニスト専門の話、あるカメラの広告、自然写真の撮り方の手順書、としては狭すぎます。「1900 年代のある写真家について」が最もふさわしい要約です。
+設問は、本文全体の内容を聞いています。
+1900年代生まれの写真家 Ansel Adams の幼少期から晩年までの経歴が中心です。
+ピアニスト専門の話・あるカメラの紹介・撮り方の手順書としては狭すぎ、「1900年代のある写真家について」が最もふさわしい要約です。
