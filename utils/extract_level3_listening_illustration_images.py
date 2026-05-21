@@ -31,6 +31,10 @@ _PDF_ROUND1 = os.path.join(_PDF_DIR, '2025-1_3kyu.pdf')
 _PDF_ROUND2 = os.path.join(_PDF_DIR, '2025-2_3kyu.pdf')
 _PDF_ROUND3 = os.path.join(_PDF_DIR, '2025-3_3kyu.pdf')
 
+# 2025-3 第1部: PDF 上の No. ラベル順の埋め込み画像と、台本 No. の対応が一致しない。
+# 台本・listening_illustration_questions.txt の No.21–30 に合わせて並べ替える（0-based）。
+_ROUND3_IMAGE_PERMUTATION = [0, 1, 2, 3, 6, 9, 4, 8, 5, 7]
+
 # 2025-2 第1部: ページ 12 に No.1–2、ページ 13 に No.3–10（2 列）
 _ROUND2_CLIPS = [
     (12, fitz.Rect(35, 630, 295, 790)),
@@ -53,6 +57,29 @@ def _save_pixmap(pix: fitz.Pixmap, path: str) -> None:
     image.save(path, 'PNG', quality=95)
 
 
+def _page_images_sorted(page: fitz.Page) -> list[tuple[int, Image.Image]]:
+    """ページ上の位置（上→下、左→右）で埋め込み画像を並べる。"""
+    seen: set[int] = set()
+    items: list[tuple[float, float, int]] = []
+    for info in page.get_image_info(xrefs=True):
+        xref = info.get('xref')
+        if xref is None or xref in seen:
+            continue
+        seen.add(xref)
+        y0, x0, _, _ = info['bbox']
+        items.append((y0, x0, xref))
+    # 2 列配置のページでは y だけだと左右が逆になるため、行バケット後に x で整列
+    items.sort(key=lambda t: (round(t[0] / 120), t[1]))
+    images: list[tuple[int, Image.Image]] = []
+    for _, _, xref in items:
+        base = page.parent.extract_image(xref)
+        image = Image.open(io.BytesIO(base['image']))
+        if image.mode != 'RGB':
+            image = image.convert('RGB')
+        images.append((xref, image))
+    return images
+
+
 def _extract_embedded_part1(pdf_path: str, pages_1based: list[int]) -> list[Image.Image]:
     """第1回・第3回 PDF: ページ 12 の先頭（例題）を除き、埋め込み画像を順に取得。"""
     doc = fitz.open(pdf_path)
@@ -60,14 +87,10 @@ def _extract_embedded_part1(pdf_path: str, pages_1based: list[int]) -> list[Imag
     first_page = True
     for page_no in pages_1based:
         page = doc[page_no - 1]
-        embedded = page.get_images(full=True)
+        page_images = _page_images_sorted(page)
         start = 1 if first_page else 0
         first_page = False
-        for img in embedded[start:]:
-            base = doc.extract_image(img[0])
-            image = Image.open(io.BytesIO(base['image']))
-            if image.mode != 'RGB':
-                image = image.convert('RGB')
+        for _, image in page_images[start:]:
             images.append(image)
     doc.close()
     return images
@@ -103,6 +126,8 @@ def extract_all(output_dir: str | None = None) -> int:
             raise FileNotFoundError(f'PDF not found: {pdf_path}')
         if mode == 'embedded':
             images = _extract_embedded_part1(pdf_path, pages)
+            if pdf_path == _PDF_ROUND3:
+                images = [images[i] for i in _ROUND3_IMAGE_PERMUTATION]
         else:
             images = _extract_clipped_round2(pdf_path)
         if len(images) != 10:
