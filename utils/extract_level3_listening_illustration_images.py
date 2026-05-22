@@ -31,10 +31,6 @@ _PDF_ROUND1 = os.path.join(_PDF_DIR, '2025-1_3kyu.pdf')
 _PDF_ROUND2 = os.path.join(_PDF_DIR, '2025-2_3kyu.pdf')
 _PDF_ROUND3 = os.path.join(_PDF_DIR, '2025-3_3kyu.pdf')
 
-# 2025-3 第1部: PDF 上の No. ラベル順の埋め込み画像と、台本 No. の対応が一致しない。
-# 台本・listening_illustration_questions.txt の No.21–30 に合わせて並べ替える（0-based）。
-_ROUND3_IMAGE_PERMUTATION = [0, 1, 2, 3, 6, 9, 4, 8, 5, 7]
-
 # 2025-2 第1部: ページ 12 に No.1–2、ページ 13 に No.3–10（2 列）
 _ROUND2_CLIPS = [
     (12, fitz.Rect(35, 630, 295, 790)),
@@ -66,7 +62,7 @@ def _page_images_sorted(page: fitz.Page) -> list[tuple[int, Image.Image]]:
         if xref is None or xref in seen:
             continue
         seen.add(xref)
-        y0, x0, _, _ = info['bbox']
+        x0, y0, x1, y1 = info['bbox']
         items.append((y0, x0, xref))
     # 2 列配置のページでは y だけだと左右が逆になるため、行バケット後に x で整列
     items.sort(key=lambda t: (round(t[0] / 120), t[1]))
@@ -126,8 +122,6 @@ def extract_all(output_dir: str | None = None) -> int:
             raise FileNotFoundError(f'PDF not found: {pdf_path}')
         if mode == 'embedded':
             images = _extract_embedded_part1(pdf_path, pages)
-            if pdf_path == _PDF_ROUND3:
-                images = [images[i] for i in _ROUND3_IMAGE_PERMUTATION]
         else:
             images = _extract_clipped_round2(pdf_path)
         if len(images) != 10:

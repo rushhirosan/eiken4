@@ -290,8 +290,8 @@ async def generate_illustration_audio_from_file(
     """
     リスニング第1部（イラスト問題）の音声を生成する。
 
-    本番形式: 会話3行 → 正解の応答1行のみ（選択肢の読み上げ・Question 放送はしない）。
-    会話・応答は M/W で話者別（Edge TTS）、セリフ間に短い無音。
+    会話は M/W で話者別（Edge TTS）、セリフ間に短い無音。
+    「Question No.xx」は読まず Question のみ。続けて選択肢1〜3を読み上げる。
     """
     os.makedirs(output_dir, exist_ok=True)
 
@@ -315,11 +315,15 @@ async def generate_illustration_audio_from_file(
             if question_number < start_num or question_number > end_num:
                 continue
 
-        conversation_parts, _, _ = extract_conversation_parts(block)
-        response_text, response_speaker = extract_illustration_correct_answer(block)
+        conversation_parts, question, choices_lines = extract_conversation_parts(
+            block
+        )
 
         output_audio = os.path.join(
             output_dir, f'listening_illustration_question{question_number}.mp3'
+        )
+        conversation_audio = os.path.join(
+            output_dir, f'temp_conversation_{question_number}.mp3'
         )
 
         audio_segments = []
@@ -338,30 +342,30 @@ async def generate_illustration_audio_from_file(
                 audio_segments.append(silence)
                 os.remove(temp_audio)
 
-        if response_text and response_speaker:
-            temp_response = os.path.join(
-                output_dir, f'temp_response_{question_number}.mp3'
-            )
-            voice = (
-                "en-US-GuyNeural"
-                if response_speaker == 'M'
-                else "en-US-JennyNeural"
-            )
-            print(
-                f"Illustration {question_number} - {response_speaker} (response): "
-                f"{response_text}"
-            )
-            await text_to_speech(response_text, temp_response, voice)
-            if os.path.exists(temp_response):
-                audio_segments.append(AudioSegment.from_mp3(temp_response))
-                os.remove(temp_response)
-
         if audio_segments:
-            combined = sum(audio_segments)
-            combined.export(output_audio, format="mp3")
-            print(f"Illustration question {question_number} done -> {output_audio}")
+            combined_conversation = sum(audio_segments)
+            combined_conversation.export(conversation_audio, format="mp3")
+
+        question_audio = os.path.join(
+            output_dir, f'temp_question_{question_number}.mp3'
+        )
+        print(f"Illustration {question_number} - Question text: {question}")
+        await text_to_speech(question, question_audio, "en-US-GuyNeural")
+
+        ct = '\n'.join(choices_lines).strip()
+        if ct:
+            choices_audio = os.path.join(
+                output_dir, f'temp_choices_{question_number}.mp3'
+            )
+            print(f"Illustration {question_number} - Choices:\n{ct}")
+            await text_to_speech(ct, choices_audio, "en-US-GuyNeural")
+            combine_audio_files_with_choices(
+                conversation_audio, question_audio, choices_audio, output_audio
+            )
         else:
-            print(f"Illustration question {question_number} skipped (no audio segments)")
+            combine_audio_files(conversation_audio, question_audio, output_audio)
+
+        print(f"Illustration question {question_number} done -> {output_audio}")
 
 
 async def main_async(args):
