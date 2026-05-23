@@ -10,3 +10,5 @@ alwaysApply: false
 - 各ファイルは対応する `register_*` / `create_*` 管理コマンドの **パース形式に依存**する（区切り `---`、`問題n:`、`選択肢`、`【正解】` 等）。形式を変える場合は **必ず該当コマンドの正規表現を同時に更新**する。
 - 文字コードは UTF-8。編集後は登録コマンドを dry-run できない場合が多いので、小さく差分を出して試す。
 - ファイル名の typo（例: `reading_comprehesion`）は既存データ・スクリプトが依存している可能性がある。**リネームは参照元を全検索してから**。
+- **3級の正解照合**は [3級の過去問・試験内容](https://www.eiken.or.jp/eiken/exam/grade_3/) に対応する **F日程** の解答PDFのみを使う: `https://www.eiken.or.jp/eiken/result/pdf/{YYYYMM}F3kyu.pdf`（例: `202502F3kyu.pdf`）。`202502D3kyu` 等の **D日程（金曜）** は過去問冊子（`2025-*-1ji-3kyu.pdf`）と正解が一致しないことがある。**D版を正としない。**
+- 照合スクリプト: `python utils/verify_level3_official_answers.py`（ネットワーク要）。

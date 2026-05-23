@@ -45,6 +45,7 @@ python manage.py update_audio_paths
 - 問題数が想定通りか（極端な増減がないか）
 - 解説テキストが空になっていないか
 - リスニング問題で `audio_file` / `image_file` が有効か
+- **3級**: 正解変更後は `python utils/verify_level3_official_answers.py` で F日程公式PDFと一致することを確認する（[grade_3 過去問](https://www.eiken.or.jp/eiken/exam/grade_3/) → 解答PDF `202501F3kyu.pdf` 等）。D日程 `*D3kyu*` は照合に使わない。
 
 ## Common pitfalls
 

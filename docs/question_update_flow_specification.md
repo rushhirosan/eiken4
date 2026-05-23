@@ -5,6 +5,17 @@
 
 **データ置き場（級別）**: 4級は従来どおり `data/questions/*.txt` および `static/audio/part*` / `static/images/part1` 等。3級は `data/questions/level3/` と `static/audio/level3/part*` / `static/images/level3/part1`（登録コマンドは `--level 3`）。過去問PDFから問題を取得するフローから、データベースへの登録まで、すべての工程を網羅しています。
 
+### 3級の公式解答（正解照合の一次情報）
+
+- 問題冊子・リスニング原稿: [3級の過去問・試験内容](https://www.eiken.or.jp/eiken/exam/grade_3/)（`2025-{1,2,3}-1ji-3kyu.pdf` 等）
+- **解答PDFは F日程のみ**（本会場・準会場F日程。過去問ページの「解答」リンクと同じ）:
+  - `https://www.eiken.or.jp/eiken/result/pdf/202501F3kyu.pdf`（2025年度第1回）
+  - `https://www.eiken.or.jp/eiken/result/pdf/202502F3kyu.pdf`（2025年度第2回）
+  - `https://www.eiken.or.jp/eiken/result/pdf/202503F3kyu.pdf`（2025年度第3回）
+- リポジトリ内の `data/pdf_import/level3_kakomon/20250{D}3kyu_answers.pdf` は **D日程（金曜実施）** で、上記過去問冊子と正解がずれることがある。**正解の照合・テキスト修正に D版を使わない。**
+- 照合コマンド: `python utils/verify_level3_official_answers.py`（`data/questions/level3/*.txt` と F版PDFを突合。不一致時は exit 1）
+- 通し番号の対応（例: リスニング第1部）: アプリ `Question No.11–20` = 第2回の本番 No.1–10、…（各回10問×3回）
+
 ## プロジェクト構造とディレクトリ役割
 
 ### プロジェクト全体の構造
