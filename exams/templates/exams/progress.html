@@ -5,8 +5,9 @@
 <div class="container mt-5">
     <div class="d-flex justify-content-between align-items-center mb-4">
         <h2 class="text-white">学習進捗</h2>
-        <form action="{% url 'exams:clear_progress' %}" method="post" onsubmit="return confirm('本当に学習進捗をクリアしますか？\nこの操作は取り消せません。');">
+        <form id="clear-progress-form" action="{% url 'exams:clear_progress' %}" method="post">
             {% csrf_token %}
+            <input type="hidden" name="level" id="clear-progress-level" value="{{ levels.0 }}">
             <button type="submit" class="btn btn-danger">
                 <i class="fas fa-trash"></i> 進捗をクリア
             </button>
@@ -703,6 +704,33 @@ document.addEventListener('DOMContentLoaded', function() {
     const storageKey = 'progress_view_level';
     const tabs = document.querySelectorAll('.progress-level-tab');
     const panels = document.querySelectorAll('.progress-level-panel');
+    const clearForm = document.getElementById('clear-progress-form');
+    const clearLevelInput = document.getElementById('clear-progress-level');
+    const levelLabels = {
+        {% for code, name in level_entries %}
+        '{{ code }}': '{{ name }}',
+        {% endfor %}
+    };
+
+    function syncClearLevel(level) {
+        if (clearLevelInput && level) {
+            clearLevelInput.value = level;
+        }
+    }
+
+    if (clearForm) {
+        clearForm.addEventListener('submit', function (e) {
+            const level = clearLevelInput ? clearLevelInput.value : '';
+            const label = levelLabels[level] || ('英検' + level + '級');
+            const ok = confirm(
+                label + 'の学習進捗をクリアしますか？\n'
+                + '他の級の進捗は残ります。この操作は取り消せません。'
+            );
+            if (!ok) {
+                e.preventDefault();
+            }
+        });
+    }
 
     function showPanel(panelId) {
         let activeLevel = null;
@@ -711,6 +739,7 @@ document.addEventListener('DOMContentLoaded', function() {
             p.classList.toggle('d-none', !isTarget);
             if (isTarget) {
                 activeLevel = p.getAttribute('data-level');
+                syncClearLevel(activeLevel);
             }
         });
         tabs.forEach(function (t) {
@@ -748,6 +777,11 @@ document.addEventListener('DOMContentLoaded', function() {
             }
         }
     } catch (e) {}
+
+    const firstPanel = document.querySelector('.progress-level-panel');
+    if (firstPanel && clearLevelInput && !clearLevelInput.value) {
+        syncClearLevel(firstPanel.getAttribute('data-level'));
+    }
 })();
 </script>
 

@@ -254,6 +254,120 @@ class ProgressViewTest(TestCase):
         self.assertNotContains(response, '<td>語順選択問題</td>')
         self.assertNotContains(response, '<i class="fas fa-sort me-2"></i>語順選択問題')
 
+    def test_clear_progress_only_clears_requested_level(self):
+        """進捗クリアは指定級のみ削除し、他級とリスニング回答は残さない/残す"""
+        self.client.login(username='testuser', password='testpass123')
+        q4 = Question.objects.create(
+            level='4',
+            question_type='grammar_fill',
+            question_text='4級',
+        )
+        q3 = Question.objects.create(
+            level='3',
+            question_type='grammar_fill',
+            question_text='3級',
+        )
+        choice = Choice.objects.create(
+            question=q4,
+            choice_text='A',
+            is_correct=True,
+            order=1,
+        )
+        UserProgress.objects.create(
+            user=self.user,
+            level='4',
+            question_type='grammar_fill',
+            total_attempts=1,
+            correct_answers=1,
+        )
+        UserProgress.objects.create(
+            user=self.user,
+            level='3',
+            question_type='grammar_fill',
+            total_attempts=2,
+            correct_answers=1,
+        )
+        UserAnswer.objects.create(
+            user=self.user,
+            question=q4,
+            selected_choice=choice,
+            is_correct=True,
+        )
+        UserAnswer.objects.create(
+            user=self.user,
+            question=q3,
+            selected_choice=Choice.objects.create(
+                question=q3,
+                choice_text='B',
+                is_correct=True,
+                order=1,
+            ),
+            is_correct=True,
+        )
+        listening_q3 = ListeningQuestion.objects.create(
+            question_text='Level3 listening',
+            image='images/l3.png',
+            audio='audio/l3.mp3',
+            correct_answer='1',
+            explanation='',
+            level='3',
+        )
+        ListeningUserAnswer.objects.create(
+            user=self.user,
+            question=listening_q3,
+            selected_answer='1',
+            is_correct=True,
+        )
+
+        response = self.client.post(
+            reverse('exams:clear_progress'),
+            {'level': '3'},
+        )
+        self.assertEqual(response.status_code, 302)
+        self.assertFalse(
+            UserProgress.objects.filter(user=self.user, level='3').exists()
+        )
+        self.assertTrue(
+            UserProgress.objects.filter(user=self.user, level='4').exists()
+        )
+        self.assertFalse(
+            UserAnswer.objects.filter(user=self.user, question__level='3').exists()
+        )
+        self.assertTrue(
+            UserAnswer.objects.filter(user=self.user, question__level='4').exists()
+        )
+        self.assertFalse(
+            ListeningUserAnswer.objects.filter(
+                user=self.user,
+                question__level='3',
+            ).exists()
+        )
+
+    def test_clear_progress_rejects_invalid_level(self):
+        """不正な級指定では進捗を削除しない"""
+        self.client.login(username='testuser', password='testpass123')
+        Question.objects.create(
+            level='4',
+            question_type='grammar_fill',
+            question_text='4級',
+        )
+        UserProgress.objects.create(
+            user=self.user,
+            level='4',
+            question_type='grammar_fill',
+            total_attempts=1,
+            correct_answers=1,
+        )
+
+        response = self.client.post(
+            reverse('exams:clear_progress'),
+            {'level': '99'},
+        )
+        self.assertEqual(response.status_code, 302)
+        self.assertTrue(
+            UserProgress.objects.filter(user=self.user, level='4').exists()
+        )
+
 
 class UserAnswerModelTest(TestCase):
     """UserAnswerモデルのテスト"""

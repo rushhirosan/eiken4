@@ -2053,17 +2053,51 @@ def progress_to_dict(progress, level=None, question_type=None, user=None):
     logger.debug(f"Debug - progress_to_dict: result.last_attempted={result['last_attempted']}")
     return result
 
+def _allowed_progress_levels():
+    level_order = ['4', '3', '2', '1', 'pre1']
+    available_levels = list(
+        Question.objects.values_list('level', flat=True).distinct()
+    )
+    ordered = [lv for lv in level_order if lv in available_levels]
+    leftover = [lv for lv in available_levels if lv not in level_order]
+    return ordered + sorted(leftover)
+
+
+def _clear_user_progress_for_level(user, level):
+    """指定級の学習進捗と回答履歴を削除する。"""
+    level_str = str(level)
+    UserProgress.objects.filter(user=user, level=level_str).delete()
+    UserAnswer.objects.filter(user=user, question__level=level_str).delete()
+    WritingUserAnswer.objects.filter(user=user, question__level=level_str).delete()
+    ReadingUserAnswer.objects.filter(
+        user=user,
+        reading_question__passage__level=level_str,
+    ).delete()
+    ListeningUserAnswer.objects.filter(
+        user=user,
+        question__level=level_str,
+    ).delete()
+
+
 @login_required
 def clear_progress(request):
-    """学習進捗をクリア"""
+    """表示中の級の学習進捗をクリア"""
     if request.method == 'POST':
-        user = request.user
-        # ユーザーの全ての進捗をクリア
-        UserProgress.objects.filter(user=user).delete()
-        # ユーザーの全ての回答履歴をクリア
-        UserAnswer.objects.filter(user=user).delete()
-        WritingUserAnswer.objects.filter(user=user).delete()
-        messages.success(request, '学習進捗をクリアしました。')
+        level = request.POST.get('level', '').strip()
+        allowed_levels = _allowed_progress_levels()
+        level_labels = {
+            '4': '英検4級',
+            '3': '英検3級',
+            '2': '英検2級',
+            '1': '英検1級',
+            'pre1': '英検準1級',
+        }
+        if level not in allowed_levels:
+            messages.error(request, 'クリア対象の級が不正です。')
+            return redirect('exams:progress')
+        _clear_user_progress_for_level(request.user, level)
+        label = level_labels.get(level, f'英検{level}級')
+        messages.success(request, f'{label}の学習進捗をクリアしました。')
     return redirect('exams:progress')
 
 @login_required
