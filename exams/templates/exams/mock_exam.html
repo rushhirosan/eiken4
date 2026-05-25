@@ -3,6 +3,10 @@
 
 {% block title %}模擬試験問題{% endblock %}
 
+{% block extra_css %}
+<link href="{% static 'css/question_list.css' %}" rel="stylesheet">
+{% endblock %}
+
 {% block content %}
 <div class="container mt-4">
     <h1 class="mb-4">模擬試験問題（英検4級）</h1>
@@ -165,25 +169,25 @@
                 </div>
             </div>
         </div>
-        <div class="row">
+        <div class="row question-list-row">
             {% for question in listening_illustration %}
-            <div class="col-12 col-md-6 mb-4">
-                <div class="card">
-                    <div class="card-body">
+            <div class="col-12 col-md-6 mb-4 question-list-col">
+                <div class="card h-100">
+                    <div class="card-body d-flex flex-column">
                         <h5 class="card-title">
                             問題 {{ question.question_number }}
                         </h5>
                         
-                        <div class="text-center mb-3">
-                            <img src="{% static question.question.image %}" alt="問題のイラスト" class="img-fluid" style="max-width: 200px; max-height: 150px;">
+                        <div class="listening-illustration-img-wrap">
+                            <img src="{% static question.question.image %}" alt="問題のイラスト" class="listening-illustration-img">
                         </div>
-                        <div class="text-center mb-3">
-                            <audio controls style="width: 100%; max-width: 300px;">
+                        <div class="text-center listening-illustration-audio-wrap">
+                            <audio controls>
                                 <source src="{% static question.question.audio %}" type="audio/mpeg">
                                 お使いのブラウザは音声再生に対応していません。
                             </audio>
                         </div>
-                        <div class="choices">
+                        <div class="choices listening-choices mt-auto">
                             {% for choice in question.choices %}
                                 <div class="form-check">
                                     <input class="form-check-input" type="radio" name="answer_{{ question.question.id }}"

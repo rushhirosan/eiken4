@@ -2,6 +2,10 @@
 {% load static %}
 {% load custom_filters %}
 
+{% block extra_css %}
+<link href="{% static 'css/question_list.css' %}" rel="stylesheet">
+{% endblock %}
+
 {% block content %}
 <div class="container mt-4">
     <h2 class="mb-4">英検{{ level }}級 {{ question_type_display }}</h2>
@@ -50,8 +54,8 @@
                 <h5 class="card-title">問題 {{ forloop.counter }}</h5>
                 
                 {% if question_data.question.image %}
-                <div class="mb-3">
-                    <img src="{% static question_data.question.image %}" alt="問題画像" class="img-fluid">
+                <div class="listening-illustration-img-wrap">
+                    <img src="{% static question_data.question.image %}" alt="問題画像" class="listening-illustration-img">
                 </div>
                 {% endif %}
                 

@@ -1,3 +1,41 @@
+/* リスニングイラスト: 画像表示領域を固定してカード内の高さを揃える */
+.listening-illustration-img-wrap {
+    width: 100%;
+    max-width: 220px;
+    height: 160px;
+    margin: 0 auto 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+}
+
+.listening-illustration-img-wrap .listening-illustration-img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.listening-illustration-audio-wrap {
+    margin-bottom: 1rem;
+}
+
+.listening-illustration-audio-wrap audio {
+    width: 100%;
+    max-width: 300px;
+}
+
+/* 2列表示時: 横並びカードの高さを揃える */
+@media (min-width: 768px) {
+    .question-list-row > .question-list-col {
+        display: flex;
+    }
+
+    .question-list-row > .question-list-col > .question-card {
+        width: 100%;
+    }
+}
+
 /* リスニング: ネイティブ audio コントロールのタップ領域を確保 */
 .listening-audio-wrap {
     position: relative;
