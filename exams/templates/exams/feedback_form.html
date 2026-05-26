@@ -18,7 +18,10 @@
                     
                     <form method="post">
                         {% csrf_token %}
-                        
+                        <div class="visually-hidden" aria-hidden="true">
+                            {{ form.website }}
+                        </div>
+
                         {% if form.errors %}
                         <div class="alert alert-danger">
                             <ul class="mb-0">
@@ -56,6 +59,7 @@
                                 {{ form.content.label }}
                             </label>
                             {{ form.content }}
+                            <div class="form-text">最大 5,000 文字まで入力できます。</div>
                             {% if form.content.help_text %}
                                 <div class="form-text">{{ form.content.help_text }}</div>
                             {% endif %}
@@ -170,10 +174,4 @@ document.querySelector('form').addEventListener('submit', function(e) {
     // フォームの送信は続行
 });
 </script>
-                    </form>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-{% endblock %} 
+{% endblock %}

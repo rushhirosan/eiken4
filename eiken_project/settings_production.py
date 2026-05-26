@@ -111,6 +111,11 @@ LOGGING = {
             'level': 'INFO',
             'propagate': False,
         },
+        'exams': {
+            'handlers': ['console', 'security_console'],
+            'level': 'INFO',
+            'propagate': False,
+        },
         'django_ratelimit': {
             'handlers': ['console', 'security_console'],
             'level': 'WARNING',

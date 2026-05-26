@@ -1,7 +1,10 @@
-from django.test import TestCase, Client
+from django.test import TestCase, Client, override_settings
 from django.contrib.auth import get_user_model
 from django.urls import reverse
-from .models import Question, Choice, UserProgress, UserAnswer, ReadingUserAnswer
+from django.core.cache import cache
+from unittest.mock import patch
+from .models import Question, Choice, UserProgress, UserAnswer, ReadingUserAnswer, Feedback
+from .forms import FeedbackForm, FEEDBACK_CONTENT_MAX_LENGTH
 from questions.models import (
     ReadingPassage,
     ReadingQuestion,
@@ -672,6 +675,70 @@ class ListeningIllustrationScoringTest(TestCase):
         displayed_question_ids = [item['question'].id for item in response.context['questions']]
         self.assertNotIn(self.question.id, displayed_question_ids)
         self.assertIn(unanswered_question.id, displayed_question_ids)
+
+
+class FeedbackFormTest(TestCase):
+    """フィードバックフォームのバリデーション"""
+
+    def test_content_max_length(self):
+        form = FeedbackForm(data={
+            'feedback_type': 'bug',
+            'title': 'タイトル',
+            'content': 'x' * (FEEDBACK_CONTENT_MAX_LENGTH + 1),
+            'email': '',
+            'website': '',
+        })
+        self.assertFalse(form.is_valid())
+        self.assertIn('content', form.errors)
+
+    def test_honeypot_rejects_submission(self):
+        form = FeedbackForm(data={
+            'feedback_type': 'bug',
+            'title': 'タイトル',
+            'content': '内容',
+            'email': '',
+            'website': 'http://spam.example/',
+        })
+        self.assertFalse(form.is_valid())
+        self.assertIn('website', form.errors)
+
+
+@override_settings(
+    CACHES={'default': {'BACKEND': 'django.core.cache.backends.locmem.LocMemCache'}},
+)
+class FeedbackViewTest(TestCase):
+    """フィードバック送信ビュー"""
+
+    def setUp(self):
+        cache.clear()
+        self.client = Client()
+        self.user = User.objects.create_user(username='feedback_user', password='testpass123')
+        self.client.login(username='feedback_user', password='testpass123')
+        self.url = reverse('exams:feedback_form')
+        self.payload = {
+            'feedback_type': 'bug',
+            'title': 'テスト',
+            'content': 'テスト内容',
+            'email': '',
+            'website': '',
+        }
+
+    def test_submit_success(self):
+        response = self.client.post(self.url, self.payload)
+        self.assertRedirects(response, reverse('exams:feedback_success'))
+        self.assertEqual(Feedback.objects.filter(user=self.user).count(), 1)
+
+    @patch('exams.views.get_client_ip', return_value='127.0.0.1')
+    def test_rate_limit_blocks_excess_submissions(self, _mock_ip):
+        for _ in range(5):
+            response = self.client.post(self.url, self.payload)
+            self.assertEqual(response.status_code, 302)
+
+        response = self.client.post(self.url, self.payload)
+        self.assertEqual(response.status_code, 200)
+        self.assertEqual(Feedback.objects.filter(user=self.user).count(), 5)
+        messages = list(response.context['messages'])
+        self.assertTrue(any('上限' in str(m) for m in messages))
 
 
 class WritingPromptHtmlFilterTest(TestCase):

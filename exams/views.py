@@ -1,5 +1,7 @@
 from django.shortcuts import render, get_object_or_404, redirect
 from django.contrib.auth.decorators import login_required
+from django_ratelimit.decorators import ratelimit
+from accounts.views import get_client_ip
 from django.http import JsonResponse, HttpResponse
 from django.views.decorators.csrf import csrf_exempt
 from django.db.models import Q, Count
@@ -2101,20 +2103,46 @@ def clear_progress(request):
     return redirect('exams:progress')
 
 @login_required
+@ratelimit(key='user', rate='5/h', method='POST', block=False)
+@ratelimit(key='ip', rate='10/h', method='POST', block=False)
 def feedback_form(request):
     """フィードバックフォームを表示・処理"""
+    from .forms import FeedbackForm
+
     if request.method == 'POST':
-        from .forms import FeedbackForm
+        ip_address = get_client_ip(request)
+        if getattr(request, 'limited', False):
+            logger.warning(
+                f'フィードバック送信レート制限超過: username={request.user.username}, '
+                f'ip={ip_address}, user_agent={request.META.get("HTTP_USER_AGENT", "Unknown")}'
+            )
+            messages.error(
+                request,
+                '送信回数が上限に達しました。しばらく時間をおいてから再度お試しください。',
+            )
+            form = FeedbackForm(request.POST)
+            return render(request, 'exams/feedback_form.html', {'form': form})
+
         form = FeedbackForm(request.POST)
         if form.is_valid():
             feedback = form.save(commit=False)
             feedback.user = request.user
             feedback.save()
+            logger.info(
+                f'フィードバック送信: username={request.user.username}, ip={ip_address}, '
+                f'type={feedback.feedback_type}, title={feedback.title[:80]!r}, '
+                f'user_agent={request.META.get("HTTP_USER_AGENT", "Unknown")}'
+            )
             return redirect('exams:feedback_success')
+
+        if form.errors.get('website'):
+            logger.warning(
+                f'フィードバック送信拒否（ハニーポット）: username={request.user.username}, '
+                f'ip={ip_address}, user_agent={request.META.get("HTTP_USER_AGENT", "Unknown")}'
+            )
     else:
-        from .forms import FeedbackForm
         form = FeedbackForm()
-    
+
     return render(request, 'exams/feedback_form.html', {'form': form})
 
 @login_required

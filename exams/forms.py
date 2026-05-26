@@ -1,9 +1,21 @@
 from django import forms
 from .models import Feedback
 
+FEEDBACK_CONTENT_MAX_LENGTH = 5000
+
 class FeedbackForm(forms.ModelForm):
     """フィードバックフォーム"""
-    
+
+    # ボット向け（人間は触らない想定）
+    website = forms.CharField(
+        required=False,
+        label='',
+        widget=forms.TextInput(attrs={
+            'autocomplete': 'off',
+            'tabindex': '-1',
+        }),
+    )
+
     class Meta:
         model = Feedback
         fields = ['feedback_type', 'title', 'content', 'email']
@@ -19,7 +31,8 @@ class FeedbackForm(forms.ModelForm):
             'content': forms.Textarea(attrs={
                 'class': 'form-control',
                 'rows': 6,
-                'placeholder': '詳細な内容を入力してください。問題の状況や改善したい点を具体的にお聞かせください。'
+                'maxlength': FEEDBACK_CONTENT_MAX_LENGTH,
+                'placeholder': '詳細な内容を入力してください。問題の状況や改善したい点を具体的にお聞かせください。',
             }),
             'email': forms.EmailInput(attrs={
                 'class': 'form-control',
@@ -31,4 +44,20 @@ class FeedbackForm(forms.ModelForm):
             'title': 'タイトル',
             'content': '内容',
             'email': 'メールアドレス（任意）'
-        } 
+        }
+
+    def __init__(self, *args, **kwargs):
+        super().__init__(*args, **kwargs)
+        self.fields['content'].max_length = FEEDBACK_CONTENT_MAX_LENGTH
+
+    def clean_website(self):
+        value = (self.cleaned_data.get('website') or '').strip()
+        if value:
+            raise forms.ValidationError('送信できませんでした。')
+        return value
+
+    def clean_title(self):
+        return (self.cleaned_data.get('title') or '').strip()
+
+    def clean_content(self):
+        return (self.cleaned_data.get('content') or '').strip()

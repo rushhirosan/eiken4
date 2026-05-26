@@ -187,7 +187,7 @@ class Feedback(models.Model):
     user = models.ForeignKey(settings.AUTH_USER_MODEL, on_delete=models.CASCADE, null=True, blank=True)
     feedback_type = models.CharField(max_length=20, choices=FEEDBACK_TYPES, verbose_name='フィードバック種別')
     title = models.CharField(max_length=200, verbose_name='タイトル')
-    content = models.TextField(verbose_name='内容')
+    content = models.TextField(verbose_name='内容', max_length=5000)
     email = models.EmailField(verbose_name='メールアドレス', null=True, blank=True)
     created_at = models.DateTimeField(auto_now_add=True, verbose_name='作成日時')
     is_resolved = models.BooleanField(default=False, verbose_name='解決済み')
