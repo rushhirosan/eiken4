@@ -762,3 +762,452 @@ Katie’s neighbor has a noisy dog, so it is difﬁcult for her ( ) at night.
 「It is ＋ 形容詞 ＋ for 人 ＋ to do」で「（人）にとって～するのは…だ」という形です。「彼女にとって夜眠るのは難しい」という意味になります。sleeps / slept / sleep は、この形で必要な to不定詞の形になっていません。
 
 ---
+
+問題46:
+A : Emily practices the piano every day because she wants to become a ( ) musician someday.
+
+選択肢46:
+1. famous
+2. empty
+3. careful
+4. noisy
+
+【正解46】
+1. famous
+
+【解説46】
+「famous」は「有名な」という意味です。毎日練習していて、将来音楽家になりたいという文脈なので、「有名な音楽家になりたい」が最も自然です。empty（空の）/ careful（注意深い）/ noisy（うるさい）は、この文脈で musician を説明する語としては合いません。
+
+---
+
+問題47:
+A : Did you enjoy your stay in Kyoto?
+B : Yes. The temples were beautiful, and the food was ( ).
+
+選択肢47:
+1. delicious
+2. dangerous
+3. difficult
+4. expensive
+
+【正解47】
+1. delicious
+
+【解説47】
+「delicious」は「おいしい」という意味です。「寺は美しかった、食べ物は（　）」という並列の流れでは、食べ物の評価として最も自然です。dangerous（危険な）/ difficult（難しい）は意味が合わず、expensive（高価な）は文法上は置けても「滞在を楽しんだ」という前向きな文脈とはやや合いにくいです。
+
+---
+
+問題48:
+A : Why didn’t Ken come to soccer practice yesterday?
+B : He was very tired, so he stayed at home and ( ) for a few hours.
+
+選択肢48:
+1. rested
+2. traveled
+3. arrived
+4. cheered
+
+【正解48】
+1. rested
+
+【解説48】
+「rest」は「休む」という意味です。「とても疲れていたので、家にいて数時間休んだ」という流れが自然です。traveled（旅行した）/ arrived（到着した）/ cheered（応援した）は、前後の文脈と意味がつながりません。
+
+---
+
+問題49:
+A : Excuse me. Could you tell me how to get to the museum?
+B : Sure. Go straight and turn left at the second ( ).
+
+選択肢49:
+1. corner
+2. concert
+3. picture
+4. language
+
+【正解49】
+1. corner
+
+【解説49】
+「corner」は「角、曲がり角」という意味です。道案内で使う「turn left at the second corner（2つ目の角を左に曲がる）」という定番表現に当てはまります。concert（コンサート）/ picture（絵）/ language（言語）は、場所の案内として不自然です。
+
+---
+
+問題50:
+A : Have you finished your science homework yet?
+B : No, not yet. I’m still working ( ) it.
+
+選択肢50:
+1. on
+2. with
+3. by
+4. from
+
+【正解50】
+1. on
+
+【解説50】
+「work on ～」で「～に取り組む」という意味です。ここでは「まだ理科の宿題を進めている途中」という意味になります。with / by / from を入れると、この意味の定型表現になりません。
+
+---
+
+問題51:
+A : Why are you carrying that big bag?
+B : Because I need to buy some food at the ( ) on my way home.
+
+選択肢51:
+1. supermarket
+2. library
+3. factory
+4. station
+
+【正解51】
+1. supermarket
+
+【解説51】
+「supermarket」は「スーパーマーケット」です。「帰り道で食べ物を買う必要がある」という文脈なので、最も自然な行き先です。library（図書館）/ factory（工場）/ station（駅）は、この目的と一致しません。
+
+---
+
+問題52:
+A : Did you enjoy the movie last night?
+B : Yes. It was much more interesting ( ) I expected.
+
+選択肢52:
+1. if
+2. than
+3. because
+4. during
+
+【正解52】
+2. than
+
+【解説52】
+「more ～ than ...」で「…よりもっと～」という比較表現です。`much more interesting than I expected` で「思っていたよりずっと面白かった」という意味になります。if（もし）/ because（なぜなら）/ during（～の間）は比較のつなぎとして使えません。
+
+---
+
+問題53:
+A : Mike, don’t forget ( ) your homework to school tomorrow.
+B : OK, Mom.
+
+選択肢53:
+1. bring
+2. bringing
+3. to bring
+4. brought
+
+【正解53】
+3. to bring
+
+【解説53】
+「forget to do」で「（これから）～するのを忘れる」という意味です。明日学校へ持っていく話なので `to bring` が正解です。`forget doing` は「したこと自体を忘れる」という意味になり、tomorrow（これからの行為）とは合いません。brought / bring もこの形にはなりません。
+
+---
+
+問題54:
+A : I’m really tired today.
+B : You should go to bed ( ) tonight.
+
+選択肢54:
+1. early
+2. loudly
+3. easily
+4. carefully
+
+【正解54】
+1. early
+
+【解説54】
+「early」は「早く（早い時間に）」という意味の副詞です。疲れている相手への助言として「今夜は早く寝たほうがいい」が自然です。loudly（大声で）/ easily（簡単に）/ carefully（注意深く）は、bed の時間的な説明になりません。
+
+---
+
+問題55:
+A : Is this your ﬁrst time visiting Tokyo?
+B : No. I ( ) here three years ago.
+
+選択肢55:
+1. come
+2. came
+3. coming
+4. comes
+
+【正解55】
+2. came
+
+【解説55】
+`three years ago` があるため、時制は過去形です。come の過去形は came なので、`I came here three years ago.` となります。come / coming / comes はこの文の時制に合いません。
+
+---
+
+問題56:
+A : What are you doing, Lisa?
+B : I’m looking ( ) my glasses. I can’t find them anywhere.
+
+選択肢56:
+1. after
+2. for
+3. over
+4. at
+
+【正解56】
+2. for
+
+【解説56】
+「look for ～」で「～を探す」という意味です。「メガネがどこにも見つからない」とあるので、「今探している」が自然です。look after（世話をする）/ look over（ざっと見る）/ look at（見る）は意味が異なります。
+
+---
+
+問題57:
+A : Did your brother make this table?
+B : Yes. He made it by ( ).
+
+選択肢57:
+1. himself
+2. herself
+3. yourself
+4. itself
+
+【正解57】
+1. himself
+
+【解説57】
+`by oneself` で「ひとりで／自力で」という意味です。主語が `He` なので、再帰代名詞は `himself` を使います。herself / yourself / itself は主語との一致が取れません。
+
+---
+
+問題58:
+A : What did your teacher say?
+B : She told us ( ) to talk during the test.
+
+選択肢58:
+1. not
+2. don’t
+3. doesn’t
+4. didn’t
+
+【正解58】
+1. not
+
+【解説58】
+`tell 人 not to do` で「人に～しないように言う」という形です。ここでは「テスト中は話さないように言った」という意味になります。don’t / doesn’t / didn’t を入れると、`to talk` につながる文型になりません。
+
+---
+
+問題59:
+A : How long does it take to get to Osaka by train?
+B : It takes about two and a half ( ).
+
+選択肢59:
+1. times
+2. hours
+3. dates
+4. places
+
+【正解59】
+2. hours
+
+【解説59】
+`two and a half hours` で「2時間半」です。`It takes ...` は所要時間を表す定番表現なので、単位は hours が自然です。times（回数）/ dates（日付）/ places（場所）は時間の単位になりません。
+
+---
+
+問題60:
+A : I heard your sister won the speech contest.
+B : Yes. We’re all very ( ) of her.
+
+選択肢60:
+1. proud
+2. thirsty
+3. famous
+4. nervous
+
+【正解60】
+1. proud
+
+【解説60】
+`be proud of ～` で「～を誇りに思う」という意味です。妹がスピーチコンテストで優勝したという内容に自然につながります。thirsty（のどが渇いた）/ famous（有名な）/ nervous（緊張した）は、この文脈では不適切です。
+
+---
+
+問題61:
+A : Why are you so busy today?
+B : Because I have to ( ) my room before our guests arrive.
+
+選択肢61:
+1. clean
+2. borrow
+3. invite
+4. discover
+
+【正解61】
+1. clean
+
+【解説61】
+「clean」は「掃除する」という意味です。「お客さんが来る前に部屋を整える必要がある」という文脈に合います。borrow（借りる）/ invite（招待する）/ discover（発見する）は room を目的語に取る意味として不自然です。
+
+---
+
+問題62:
+A : Did you see the beautiful rainbow this morning?
+B : No, I missed it because I got up too ( ).
+
+選択肢62:
+1. carefully
+2. late
+3. fast
+4. quietly
+
+【正解62】
+2. late
+
+【解説62】
+「late」は「遅く」という意味です。`got up too late` で「起きるのが遅すぎた」となり、虹を見逃した理由として自然です。carefully（注意深く）/ fast（速く）/ quietly（静かに）は時間の遅早を表しません。
+
+---
+
+問題63:
+A : Excuse me. Is there a bank near here?
+B : Yes. Walk two blocks and you’ll see it ( ) your right.
+
+選択肢63:
+1. at
+2. in
+3. on
+4. from
+
+【正解63】
+3. on
+
+【解説63】
+`on your right` は「あなたの右側に」という道案内の定番表現です。`you’ll see it on your right` で「右手に見えてきます」という意味になります。at / in / from ではこの慣用的な言い方になりません。
+
+---
+
+問題64:
+A : I’m hungry.
+B : Why don’t we stop at that restaurant and get something ( )?
+
+選択肢64:
+1. eat
+2. eating
+3. to eat
+4. ate
+
+【正解64】
+3. to eat
+
+【解説64】
+`something to eat` で「何か食べるもの」という意味です。to eat は不定詞の形容詞的用法で、something を後ろから説明します。eat / eating / ate ではこの語順と文型になりません。
+
+---
+
+問題65:
+A : Where is your father now?
+B : He ( ) in the kitchen when I saw him a few minutes ago.
+
+選択肢65:
+1. cooks
+2. cooked
+3. was cooking
+4. cooking
+
+【正解65】
+3. was cooking
+
+【解説65】
+`when I saw him a few minutes ago` は過去のある時点を示すので、その時進行中だった動作を表す過去進行形 `was cooking` が適切です。cooks（現在形）/ cooked（過去形の一点の動作）/ cooking（動詞不足）は文の形に合いません。
+
+---
+
+問題66:
+A : This cake is delicious.
+B : Thanks. My grandmother taught me how to ( ) it.
+
+選択肢66:
+1. make
+2. making
+3. made
+4. makes
+
+【正解66】
+1. make
+
+【解説66】
+`how to do` で「どのように～するか」という意味です。`how to make it` で「それをどう作るか」となり、to の後ろは動詞の原形を使うので make が正解です。making / made / makes は形が合いません。
+
+---
+
+問題67:
+A : Did you bring your umbrella today?
+B : Yes. The weather report said it might ( ) this afternoon.
+
+選択肢67:
+1. rain
+2. rains
+3. raining
+4. rained
+
+【正解67】
+1. rain
+
+【解説67】
+助動詞 might の後ろは動詞の原形なので、`might rain` が正しい形です。「午後は雨が降るかもしれない」という意味になります。rains / raining / rained は原形ではないため不適切です。
+
+---
+
+問題68:
+A : Your English has improved a lot.
+B : Thank you. I practice speaking it every ( ).
+
+選択肢68:
+1. day
+2. color
+3. place
+4. year
+
+【正解68】
+1. day
+
+【解説68】
+`every day` で「毎日」です。「毎日英語を話す練習をしているので上達した」という流れに合います。color / place は意味が合わず、year だと頻度が低すぎて文脈に合いません。
+
+---
+
+問題69:
+A : I called you last night, but you didn’t answer.
+B : Sorry. I ( ) a shower when you called.
+
+選択肢69:
+1. take
+2. took
+3. was taking
+4. taking
+
+【正解69】
+3. was taking
+
+【解説69】
+`when you called`（そのとき）があるため、電話に出られなかった時点で進行中だった動作を表す過去進行形 `was taking` が適切です。take / took / taking ではこの文脈の時間関係を正確に表せません。
+
+---
+
+問題70:
+A : What are you going to do this weekend?
+B : I’m going to visit my cousin, ( ) lives in Osaka.
+
+選択肢70:
+1. who
+2. which
+3. where
+4. what
+
+【正解70】
+1. who
+
+【解説70】
+先行詞は `my cousin`（人）なので、人を先行詞に取る関係代名詞 `who` を使います。`my cousin, who lives in Osaka` で「大阪に住んでいるいとこ」という意味です。which は物、where は場所、what はこの形の関係節には使えません。
+
+---
