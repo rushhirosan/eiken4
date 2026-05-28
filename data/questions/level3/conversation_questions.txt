@@ -272,3 +272,636 @@ Son : We didn’t have band practice today, so I left school at 2:30.
 
 【解説15】
 早めに学校を出た理由を息子が説明しているので、帰宅が早いことに気づく「You’re home early（早いね）」が自然です。「It’s not for you」「Have a wonderful day」「You got a good score」は、帰宅時間の話に直接つながりません。
+
+---
+
+問題16:
+Girl : Did you enjoy the concert last night?
+Boy : Yes. ( ) The singer was amazing.
+
+選択肢16:
+1. I had a great time.
+2. I lost my notebook.
+3. I need some water.
+4. The library is closed.
+
+【正解16】
+1. I had a great time.
+
+【解説16】
+「コンサートは楽しかった？」と聞かれ、「Yes」のあとで具体的な感想に入る流れなので、体験全体を述べる「I had a great time（とても楽しかった）」が自然です。「I lost my notebook」は落とし物の話、「I need some water」はのどの渇き、「The library is closed」は図書館の話で、いずれも「歌手がすばらしかった」という続きとつながりません。
+
+---
+
+問題17:
+Mother : Kevin, did you clean your room?
+Son : Not yet. ( ) after dinner.
+
+選択肢17:
+1. I cleaned the window
+2. I’ll do it
+3. I forgot your name
+4. It was very small
+
+【正解17】
+2. I’ll do it
+
+【解説17】
+部屋の掃除を「まだ」と答えたあと、「夕食後に」と時期を示しているので、これから行う意思を表す「I’ll do it（やるよ）」が自然です。「I cleaned the window」はすでに別の掃除をした話になり、時制が合いません。「I forgot your name」は名前の話、「It was very small」は部屋の広さの話で、掃除の約束にはなりません。
+
+---
+
+問題18:
+Man : Excuse me. Is there a bank near here?
+Woman : Yes. ( )
+Man : Thanks a lot.
+
+選択肢18:
+1. I don’t like shopping.
+2. It closes at noon.
+3. Go straight and turn left.
+4. I went there yesterday.
+
+【正解18】
+3. Go straight and turn left.
+
+【解説18】
+「この近くに銀行はありますか」と場所を尋ねられているので、道順を示す「Go straight and turn left（まっすぐ行って左に曲がってください）」が適切です。「It closes at noon」は営業時間の情報で、場所の質問には直接答えていません。「I don’t like shopping」は買い物の好み、「I went there yesterday」は昨日行った事実で、道案内の返事としては不自然です。
+
+---
+
+問題19:
+Boy : Why are you carrying an umbrella?
+Girl : ( ) It might rain later.
+
+選択肢19:
+1. The sky looks dark.
+2. I can swim well.
+3. My bag is very heavy.
+4. The movie was funny.
+
+【正解19】
+1. The sky looks dark.
+
+【解説19】
+傘を持っている理由を聞かれ、続けて「It might rain later（あとで雨が降るかもしれない）」とあるので、その根拠として「The sky looks dark（空が暗く見える）」が自然です。「I can swim well」は泳ぎの話、「My bag is very heavy」はかばんの重さ、「The movie was funny」は映画の話で、雨の予想とは関係ありません。
+
+---
+
+問題20:
+Teacher : Please hand in your homework now.
+Student : ( ) I left it at home.
+
+選択肢20:
+1. I’m sorry.
+2. That sounds fun.
+3. Here you are.
+4. You’re very kind.
+
+【正解20】
+1. I’m sorry.
+
+【解説20】
+宿題の提出を求められ、「家に忘れた」と説明しているので、まず謝る「I’m sorry（すみません）」が自然です。「That sounds fun」は誘いへの感想、「Here you are」は物を手渡すときの表現、「You’re very kind」は相手への感謝で、提出できなかった場面の最初の返事としては合いません。
+
+---
+
+問題21:
+Father : Did you finish your science project?
+Son : Almost. ( ) before I go to bed.
+
+選択肢21:
+1. I’ll finish it
+2. I lost my pencil
+3. It was very exciting
+4. I don’t like science
+
+【正解21】
+1. I’ll finish it
+
+【解説21】
+科学のプロジェクトは「ほとんど終わった」と言い、「寝る前に」と時期を示しているので、これから仕上げる「I’ll finish it（終わらせるよ）」が自然です。「I lost my pencil」は文房具をなくした話、「It was very exciting」は感想、「I don’t like science」は科目の好みで、寝る前に何をするかという流れとつながりません。
+
+---
+
+問題22:
+Woman : Would you like some more coffee?
+Man : No, thank you. ( )
+
+選択肢22:
+1. I’m full.
+2. I play tennis.
+3. It’s next Tuesday.
+4. My sister is a doctor.
+
+【正解22】
+1. I’m full.
+
+【解説22】
+コーヒーをもう一杯どうかと勧められ、「No, thank you」と断ったあとに続く理由として、「I’m full（もうお腹いっぱいです）」が自然です。「I play tennis」はスポーツの話、「It’s next Tuesday」は日付、「My sister is a doctor」は家族の職業で、コーヒーを断る理由になりません。
+
+---
+
+問題23:
+Girl : Where did you buy those shoes?
+Boy : ( ) at the mall near the station.
+
+選択肢23:
+1. I bought them
+2. I cleaned them
+3. I’ll wear them
+4. I lost them
+
+【正解23】
+1. I bought them
+
+【解説23】
+靴を「どこで買ったの」と聞かれ、続けて「at the mall near the station（駅近くのモールで）」と場所を述べているので、購入の事実を示す「I bought them（それを買った）」が自然です。「I cleaned them」は洗った話、「I’ll wear them」はこれから履く話、「I lost them」はなくした話で、購入の場所を答える流れと合いません。
+
+---
+
+問題24:
+Mother : Why are you so happy today?
+Daughter : ( ) I passed my math test!
+
+選択肢24:
+1. Because
+2. I feel tired today.
+3. It was last Monday.
+4. I don’t like math.
+
+【正解24】
+1. Because
+
+【解説24】
+「今日はどうしてそんなにうれしいの？」と理由を聞かれ、続けて「数学のテストに合格した」と説明しているので、理由を導く「Because（なぜなら）」が自然です。「I feel tired today」は気分の話、「It was last Monday」は日付の事実、「I don’t like math」は科目の好みで、うれしさの理由としてはつながりません。
+
+---
+
+問題25:
+Boy : Do you know how to use this camera?
+Girl : Sorry, ( )
+
+選択肢25:
+1. I’ve never used one before.
+2. I’m watching TV now.
+3. It’s under the table.
+4. My father drives carefully.
+
+【正解25】
+1. I’ve never used one before.
+
+【解説25】
+カメラの使い方を知っているか聞かれ、「Sorry」と続くので、経験がないことを示す「I’ve never used one before（前に使ったことがない）」が自然です。「I’m watching TV now」は今していること、「It’s under the table」は場所、「My father drives carefully」は父の運転の話で、使い方がわからないという謝罪の流れと合いません。
+
+---
+
+問題26:
+Man : The pizza smells great.
+Woman : ( ) It’s from the new restaurant on King Street.
+
+選択肢26:
+1. I hope it tastes good, too.
+2. I forgot my homework again.
+3. We went there by train.
+4. The game starts at seven.
+
+【正解26】
+1. I hope it tastes good, too.
+
+【解説26】
+「ピザがいい香りがする」と言われたあと、店の情報に続く流れの手前で、香りへの反応として「I hope it tastes good, too（味もおいしいといいね）」が自然です。「I forgot my homework again」は宿題の話、「We went there by train」は交通手段、「The game starts at seven」は試合の時刻で、香りの話題とつながりません。
+
+---
+
+問題27:
+Teacher : Can everyone see the board?
+Student : No. ( )
+
+選択肢27:
+1. The letters are too small.
+2. I brought my lunch today.
+3. The bus was crowded.
+4. My brother likes music.
+
+【正解27】
+1. The letters are too small.
+
+【解説27】
+「黒板が見えるか」と聞かれ、「No」と答えたあとで理由を述べるので、「The letters are too small（文字が小さすぎる）」が自然です。「I brought my lunch today」は昼食の話、「The bus was crowded」はバスの話、「My brother likes music」は家族の好みで、見えにくい理由になりません。
+
+---
+
+問題28:
+Girl : Why don’t we go to the park this afternoon?
+Boy : Good idea. ( )
+
+選択肢28:
+1. The weather is beautiful.
+2. I broke my bicycle yesterday.
+3. My shoes are in the box.
+4. The movie was too long.
+
+【正解28】
+1. The weather is beautiful.
+
+【解説28】
+公園へ行こうという提案に「Good idea」と賛成したあと、その理由を足す流れなので、「The weather is beautiful（天気がいい）」が自然です。「I broke my bicycle yesterday」は否定的な出来事、「My shoes are in the box」は靴の場所、「The movie was too long」は映画の話で、公園に行く賛成理由にはなりません。
+
+---
+
+問題29:
+Customer : Excuse me. How much is this bag?
+Clerk : ( ) It’s on sale today.
+
+選択肢29:
+1. It’s forty dollars.
+2. I like your jacket.
+3. The station is nearby.
+4. I need a new bag.
+
+【正解29】
+1. It’s forty dollars.
+
+【解説29】
+かばんの値段を聞かれているので、「It’s forty dollars（40ドルです）」と答えるのが自然です。続けて「今日はセール中です」ともつながります。「I like your jacket」は相手の服装への感想、「The station is nearby」は駅の場所、「I need a new bag」は自分の買い物の話で、値段の質問への答えになりません。
+
+---
+
+問題30:
+Girl : I heard you won the speech contest.
+Boy : Thanks. ( )
+
+選択肢30:
+1. I practiced every day.
+2. The library closes early.
+3. My uncle lives in Osaka.
+4. I lost my watch yesterday.
+
+【正解30】
+1. I practiced every day.
+
+【解説30】
+スピーチコンテストで優勝したことを祝われ、「Thanks」のあとで成功の理由を述べる流れなので、「I practiced every day（毎日練習した）」が自然です。「The library closes early」は図書館の話、「My uncle lives in Osaka」は家族の話、「I lost my watch yesterday」は落とし物の話で、優勝の背景としてはつながりません。
+
+---
+
+問題31:
+Man : Did you enjoy the school festival?
+Woman : Yes. ( ) The music performance was great.
+
+選択肢31:
+1. I had a wonderful time.
+2. I left before it started.
+3. The tickets were expensive.
+4. It starts at noon.
+
+【正解31】
+1. I had a wonderful time.
+
+【解説31】
+学校祭を楽しんだか聞かれ、「Yes」のあと「音楽の演奏がすばらしかった」と具体的な感想に入るので、「I had a wonderful time（とても楽しかった）」が自然です。「I left before it started」は早退の話で Yes と矛盾しやすく、「The tickets were expensive」は入場料の話、「It starts at noon」は開始時刻の話で、楽しかったという流れと合いません。
+
+---
+
+問題32:
+Mother : Emma, did you feed the dog?
+Daughter : Not yet, but ( ) soon.
+
+選択肢32:
+1. I’ll do it
+2. I broke it
+3. I found them
+4. I sold it
+
+【正解32】
+1. I’ll do it
+
+【解説32】
+犬に餌をあげたか「まだ」と答え、「すぐに」と時期を示しているので、これから行う「I’ll do it（やるよ）」が自然です。「I broke it」は壊した話、「I found them」は見つけた話、「I sold it」は売った話で、餌をあげる約束にはなりません。
+
+---
+
+問題33:
+Boy : Why are you studying so hard?
+Girl : ( ) I have a big test tomorrow.
+
+選択肢33:
+1. Because
+2. I’m going to the park.
+3. That book is new.
+4. My brother is tall.
+
+【正解33】
+1. Because
+
+【解説33】
+「どうしてそんなに一生懸命勉強しているの？」と理由を聞かれ、続けて「明日大きなテストがある」と説明しているので、「Because（なぜなら）」が自然です。「I’m going to the park」は遊びの予定、「That book is new」は本の話、「My brother is tall」は身長の話で、勉強の理由になりません。
+
+---
+
+問題34:
+Customer : Excuse me. Do you have this shirt in blue?
+Clerk : Yes. ( )
+
+選択肢34:
+1. I’ll get one for you.
+2. I went there yesterday.
+3. It closes at six.
+4. My brother likes it.
+
+【正解34】
+1. I’ll get one for you.
+
+【解説34】
+青いシャツがあるか聞かれ、「Yes」と答えたあと、客のために取ってくる流れなので、「I’ll get one for you（お持ちします）」が自然です。「I went there yesterday」は昨日行った話、「It closes at six」は閉店時間、「My brother likes it」は家族の好みで、店員の対応としてはつながりません。
+
+---
+
+問題35:
+Girl : Let’s play tennis this afternoon.
+Boy : Sorry, ( ) I have to help my father.
+
+選択肢35:
+1. I can’t
+2. I’m ready
+3. it was exciting
+4. we won easily
+
+【正解35】
+1. I can’t
+
+【解説35】
+テニスに誘われ、「Sorry」と断ったあと「父を手伝わなければならない」と理由を述べているので、断りを示す「I can’t（行けない）」が自然です。「I’m ready」は準備できたという意味で誘いを受ける方向になり、「it was exciting」「we won easily」は過去の出来事の感想で、これから行けない理由にはなりません。
+
+---
+
+問題36:
+Teacher : Why were you late this morning?
+Student : ( ) I missed the bus.
+
+選択肢36:
+1. Because
+2. I ate lunch early.
+3. The test was easy.
+4. I like this school.
+
+【正解36】
+1. Because
+
+【解説36】
+「今朝どうして遅刻したの？」と理由を聞かれ、続けて「バスに乗り遅れた」と説明しているので、「Because（なぜなら）」が適切です。「I ate lunch early」は昼食の話、「The test was easy」はテストの難易度、「I like this school」は学校の好みで、遅刻の理由としてはつながりません。
+
+---
+
+問題37:
+Man : How was your trip to Kyoto?
+Woman : Great. ( ) The temples were beautiful.
+
+選択肢37:
+1. I really enjoyed it.
+2. I lost my wallet.
+3. I’ll stay home tomorrow.
+4. The game was canceled.
+
+【正解37】
+1. I really enjoyed it.
+
+【解説37】
+京都旅行を「どうだった」と聞かれ、「Great」のあと寺の美しさを述べているので、旅行全体の感想として「I really enjoyed it（本当に楽しんだ）」が自然です。「I lost my wallet」は財布をなくした話、「I’ll stay home tomorrow」は明日の予定、「The game was canceled」は試合の話で、旅行の感想としてはつながりません。
+
+---
+
+問題38:
+Boy : Can you help me with my homework?
+Girl : Sure. ( )
+
+選択肢38:
+1. Let’s look at it together.
+2. I have a new bicycle.
+3. The movie starts soon.
+4. I cleaned my room yesterday.
+
+【正解38】
+1. Let’s look at it together.
+
+【解説38】
+宿題を手伝ってほしいと頼まれ、「Sure」と引き受けたあと、具体的な行動に入るので、「Let’s look at it together（一緒に見よう）」が自然です。「I have a new bicycle」は自転車の話、「The movie starts soon」は映画の話、「I cleaned my room yesterday」は昨日の掃除の話で、手伝いの始め方としては合いません。
+
+---
+
+問題39:
+Father : It’s very cold outside today.
+Son : Yes. ( ) my coat?
+
+選択肢39:
+1. Should I wear
+2. Did I lose
+3. Can I clean
+4. Will I break
+
+【正解39】
+1. Should I wear
+
+【解説39】
+「外はとても寒い」と言われたあと、続けて「コートを着るべき？」と確認する流れなので、「Should I wear（着たほうがいい？）」が自然です。「Did I lose」はなくしたかの確認、「Can I clean」は掃除の許可、「Will I break」は壊すかの予想で、寒さへの対策を尋ねる文にはなりません。
+
+---
+
+問題40:
+Girl : I heard your team won the game.
+Boy : Yes. ( ) We practiced very hard.
+
+選択肢40:
+1. I’m really happy.
+2. I forgot my bag.
+3. The store is crowded.
+4. My brother is sleeping.
+
+【正解40】
+1. I’m really happy.
+
+【解説40】
+チームが試合に勝ったと聞かれ、「Yes」のあとで練習の話に続くので、気持ちを述べる「I’m really happy（とてもうれしい）」が自然です。「I forgot my bag」はかばんの話、「The store is crowded」は店の混雑、「My brother is sleeping」は弟の様子で、勝利の喜びとしてはつながりません。
+
+---
+
+問題41:
+Boy : Are you going to Lisa’s birthday party tonight?
+Girl : Yes. ( ) I bought her a present yesterday.
+
+選択肢41:
+1. I’m really excited.
+2. I lost my homework.
+3. The bus was crowded.
+4. I need a new notebook.
+
+【正解41】
+1. I’m really excited.
+
+【解説41】
+今夜の誕生日パーティーに行くと言い、続けて「昨日プレゼントを買った」とあるので、気持ちを述べる「I’m really excited（とても楽しみ）」が自然です。「I lost my homework」は宿題の話、「The bus was crowded」はバスの話、「I need a new notebook」は文房具の話で、パーティーへの期待としてはつながりません。
+
+---
+
+問題42:
+Father : Why is the kitchen so dirty?
+Son : Sorry. ( ) after lunch.
+
+選択肢42:
+1. I’ll clean it
+2. I won the game
+3. I watched TV
+4. It was expensive
+
+【正解42】
+1. I’ll clean it
+
+【解説42】
+キッチンが汚いと言われ「Sorry」と謝り、「昼食後に」と時期を示しているので、これから掃除する「I’ll clean it（掃除するよ）」が自然です。「I won the game」は試合の話、「I watched TV」はテレビを見た話、「It was expensive」は値段の話で、掃除の約束にはなりません。
+
+---
+
+問題43:
+Woman : Did you enjoy the movie?
+Man : Yes. ( ) It was very funny.
+
+選択肢43:
+1. I laughed a lot.
+2. I missed the train.
+3. The room was cold.
+4. My sister was absent.
+
+【正解43】
+1. I laughed a lot.
+
+【解説43】
+映画を楽しんだか聞かれ、「Yes」のあと「とても面白かった」と続くので、感想を具体化する「I laughed a lot（たくさん笑った）」が自然です。「I missed the train」は電車の話、「The room was cold」は部屋の寒さ、「My sister was absent」は妹の欠席で、映画の面白さとはつながりません。
+
+---
+
+問題44:
+Teacher : Can you come to school earlier tomorrow?
+Student : Sure. ( )
+
+選択肢44:
+1. What time should I come?
+2. I lost my bicycle.
+3. The park is beautiful.
+4. I have a math book.
+
+【正解44】
+1. What time should I come?
+
+【解説44】
+明日もっと早く来られるか聞かれ、「Sure」と承諾したあと、具体的な時刻を確認する「What time should I come?（何時に来ればいいですか）」が自然です。「I lost my bicycle」は自転車の話、「The park is beautiful」は公園の話、「I have a math book」は持ち物の話で、来校時間の確認にはなりません。
+
+---
+
+問題45:
+Girl : Why are you carrying so many bags?
+Boy : ( ) I went shopping with my mother.
+
+選択肢45:
+1. Because
+2. I need some help.
+3. I’ll carry them later.
+4. They’re on the table.
+
+【正解45】
+1. Because
+
+【解説45】
+「どうしてそんなにたくさんかばんを持っているの？」と理由を聞かれ、続けて「母と買い物に行った」と説明しているので、「Because（なぜなら）」が適切です。「I need some help」は助けを求める話、「I’ll carry them later」はこれから運ぶ約束、「They’re on the table」は置き場所の話で、袋をたくさん持っている理由にはなりません。
+
+---
+
+問題46:
+Customer : Excuse me. Where can I buy stamps?
+Clerk : ( ) next to the bank.
+
+選択肢46:
+1. There’s a post office
+2. I bought some yesterday
+3. The train is late
+4. My brother works there
+
+【正解46】
+1. There’s a post office
+
+【解説46】
+切手をどこで買えるか聞かれ、続けて「next to the bank（銀行の隣）」と場所を示しているので、「There’s a post office（郵便局があります）」が自然です。「I bought some yesterday」は昨日買った話、「The train is late」は電車の遅れ、「My brother works there」は家族の職場の話で、買える場所の案内にはなりません。
+
+---
+
+問題47:
+Mother : Don’t stay up too late tonight.
+Daughter : OK. ( ) tomorrow morning.
+
+選択肢47:
+1. I have a test
+2. I lost my shoes
+3. The movie was exciting
+4. We ate pizza
+
+【正解47】
+1. I have a test
+
+【解説47】
+「今夜は夜更かししないで」と言われ、「OK」のあと「明日の朝」と続くので、理由を述べる「I have a test（テストがある）」が自然です。「I lost my shoes」は靴の話、「The movie was exciting」は映画の話、「We ate pizza」は食事の話で、早く寝る理由としてはつながりません。
+
+---
+
+問題48:
+Boy : How was the soccer game yesterday?
+Girl : Great! ( ) in the last minute.
+
+選択肢48:
+1. Our team scored
+2. I forgot my bag
+3. The library closed
+4. My father cooked dinner
+
+【正解48】
+1. Our team scored
+
+【解説48】
+昨日のサッカーの試合を「どうだった」と聞かれ、「Great!」のあと最後の場面を述べているので、「Our team scored（うちのチームが得点した）」が自然です。「I forgot my bag」はかばんの話、「The library closed」は図書館の話、「My father cooked dinner」は夕食の話で、試合の結果としてはつながりません。
+
+---
+
+問題49:
+Man : It’s raining hard outside.
+Woman : Then ( ) take an umbrella.
+
+選択肢49:
+1. you should
+2. you were
+3. you have
+4. you can’t
+
+【正解49】
+1. you should
+
+【解説49】
+「外は激しく雨が降っている」と言われたあと、助言を続ける流れなので、「Then you should take an umbrella（なら傘を持っていったほうがいい）」となり、空所には「you should」が入ります。「you were」「you have」では文法的に続きません。「you can’t」は「持っていけない」という意味になり、雨の助言としては不自然です。
+
+---
+
+問題50:
+Girl : Thank you for helping me with my homework.
+Boy : ( )
+
+選択肢50:
+1. You’re welcome.
+2. I don’t know her.
+3. It was very small.
+4. The station is far away.
+
+【正解50】
+1. You’re welcome.
+
+【解説50】
+宿題を手伝ってくれたことへのお礼に対する返答なので、「You’re welcome（どういたしまして）」が定番の表現です。「I don’t know her」は人物の話、「It was very small」は大きさの話、「The station is far away」は駅の場所の話で、お礼への返事としては合いません。
+
+---
