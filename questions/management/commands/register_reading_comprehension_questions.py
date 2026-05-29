@@ -9,7 +9,7 @@ from questions.level_paths import (
 
 
 class Command(BaseCommand):
-    help = 'Register reading comprehension passages 10-12 and questions from text file'
+    help = 'Register reading comprehension passages and questions from text file'
 
     def add_arguments(self, parser):
         add_default_register_arguments(parser)
@@ -36,8 +36,8 @@ class Command(BaseCommand):
                 continue
             passage_number = int(passage_number_match.group(1))
             
-            # Only process passages 1-12
-            if passage_number < 1 or passage_number > 12:
+            # Process passages 1-15 (level 3 may have up to 15)
+            if passage_number < 1 or passage_number > 15:
                 continue
 
             # Extract passage text (everything from 本文 to the first question)
@@ -47,8 +47,11 @@ class Command(BaseCommand):
             passage_text = passage_match.group(1).strip()
 
             # Create passage
-            # Convert passage number to single character identifier (1->a, 2->b, 3->c, ..., 9->i, 10->j, 11->k, 12->l)
-            identifier_map = {1: 'a', 2: 'b', 3: 'c', 4: 'd', 5: 'e', 6: 'f', 7: 'g', 8: 'h', 9: 'i', 10: 'j', 11: 'k', 12: 'l'}
+            # Convert passage number to single character identifier (1->a … 15->o)
+            identifier_map = {
+                1: 'a', 2: 'b', 3: 'c', 4: 'd', 5: 'e', 6: 'f', 7: 'g', 8: 'h',
+                9: 'i', 10: 'j', 11: 'k', 12: 'l', 13: 'm', 14: 'n', 15: 'o',
+            }
             identifier = identifier_map.get(passage_number, 'a')
             
             passage = ReadingPassage.objects.create(

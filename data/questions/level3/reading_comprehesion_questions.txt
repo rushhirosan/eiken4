@@ -611,8 +611,8 @@ As a child, Ansel Adams
 
 【解説9a】
 設問は、幼少期の Ansel Adams について聞いています。
-「自然の中を散歩したりピアノを弾いたりするのが好きで、ピアノは十年以上弾いていた」とあります。
-学校が好き・都市を歩く・絵を習う、という記述は本文と合いません。
+本文では、学校に集中できず学校が好きではなかった一方、「自然の中を散歩するのを楽しみ、ピアノを弾いた。幼少期に十年以上ピアノを弾き、とても上手だった」とあります。正解は選択肢4です。
+選択肢2は「学校が好きだった」と本文の did not like school と矛盾し、選択肢3の都市での散歩や選択肢1の絵の習い事は本文にありません。
 
 問題9b:
 What did Adams do when he got his ﬁrst camera?
@@ -628,8 +628,8 @@ What did Adams do when he got his ﬁrst camera?
 
 【解説9b】
 設問は、初めてカメラを手に入れたあと Adams がしたことを聞いています。
-ヨセミテ国立公園で「山にハイキングに行き、カメラを持っていった」とあります。
-建物の写真・カメラ店での仕事・写真クラブへの加入、という流れではありません。
+1910年代に最初のカメラを受け取ったあと、ヨセミテ国立公園でたくさん写真を撮り、「カメラを持って山にハイキングに行った」とあります。正解は選択肢2です。
+建物の写真を撮った、カメラ店で働いた、写真クラブに入った、という記述は本文にありません。クラブに入ったのは、もっと後の話です。
 
 問題9c:
 Why were Adams’s photographs popular?
@@ -645,8 +645,8 @@ Why were Adams’s photographs popular?
 
 【解説9c】
 設問は、Adams の写真が人気だった理由を聞いています。
-人々は自然の写真を「絵のようで芸術的（like paintings）だと思い、人気になった」とあります。
-古い商品の写真・新聞掲載・値段の安さが理由として書かれているわけではありません。
+本文では、美しい自然の写真が「とても芸術的で、まるで絵のようだ（like paintings）」と多くの人に思われ、人気になったとあります。正解は選択肢2です。
+古い商品の写真だった、新聞に載ったから、安かったから、という理由は本文に書かれていません。会社の新製品の写真は撮っていますが、人気の理由として述べられているのは自然写真の芸術性です。
 
 問題9d:
 What happened in 1980?
@@ -662,8 +662,8 @@ What happened in 1980?
 
 【解説9d】
 設問は、1980年に起きたことを聞いています。
-「アメリカ大統領から生涯をたたえる賞（an award）を受けた」とあります。
-博物館での展示や著書出版・政府勤務がその年だった、とは書かれていません。
+「1980年、Adams はアメリカ大統領から、彼の生涯をたたえる賞（an award）を受けた」とあります。正解は選択肢3です。
+博物館での展示、本の出版、政府での仕事は本文に出てきますが、それらが1980年に起きたとは書かれていません。
 
 問題9e:
 What is this story about?
@@ -678,6 +678,428 @@ What is this story about?
 4. A photographer in the 1900s.
 
 【解説9e】
-設問は、本文全体の内容を聞いています。
-1900年代生まれの写真家 Ansel Adams の幼少期から晩年までの経歴が中心です。
-ピアニスト専門の話・あるカメラの紹介・撮り方の手順書としては狭すぎ、「1900年代のある写真家について」が最もふさわしい要約です。
+設問は、本文全体の内容（What is this story about?）を聞いています。
+全文は、1902年生まれの写真家 Ansel Adams が、幼少期のピアノ、カメラ、ヨセミテでの撮影、プロ写真家としての活動、1980年の受賞に至るまでの経歴を述べています。正解は選択肢4です。
+選択肢1はピアノも出てきますが、本文の中心は写真家としての生涯です。選択肢2はカメラ1台の紹介にすぎず、選択肢3は撮り方の説明ではありません。
+
+---
+
+本文10
+School Cooking Contest
+
+Green Hill Junior High School will have a cooking contest next month. Students can join in teams of two or three people. Each team must cook one healthy dish. The contest will begin at 9:00 a.m. in the school kitchen. Teachers from the cooking club will choose the best dish.
+
+Students should bring ingredients from home, but the school will provide cooking tools. After the contest, all students can try the dishes made by the teams. The winning team will receive free tickets to a local restaurant.
+
+Date: July 12
+Place: School kitchen
+
+問題10a:
+What must students bring from home?
+
+選択肢10a:
+1. Cooking tools.
+2. Tickets to a restaurant.
+3. Ingredients.
+4. Tables and chairs.
+
+【正解10a】
+3. Ingredients.
+
+【解説10a】
+設問は、生徒が家から持ってくる必要があるものを聞いています。
+案内に「Students should bring ingredients from home（材料は各自持参）」とあり、調理道具（cooking tools）は学校が提供すると書かれています。正解は選択肢3です。
+レストランのチケットは優勝チームへの賞品、机や椅子の持参の話は本文にありません。
+
+問題10b:
+What will the winning team receive?
+
+選択肢10b:
+1. Free cooking lessons.
+2. Free restaurant tickets.
+3. New cooking tools.
+4. A trip to another city.
+
+【正解10b】
+2. Free restaurant tickets.
+
+【解説10b】
+設問は、優勝チームが受け取るものを聞いています。
+「The winning team will receive free tickets to a local restaurant（地元レストランの無料チケット）」とあります。正解は選択肢2です。
+無料の料理教室、新しい調理道具、別の都市への旅行、という内容は案内にありません。
+
+---
+
+本文11
+From: Emily Brown
+To: Kate Brown
+Date: August 3
+Subject: My New Club
+
+Hi Mom,
+
+I joined the school science club last week. We meet every Tuesday after school. Yesterday, we did an experiment with plants and water. It was very interesting! Our science teacher said we may visit a science museum next month.
+
+I also made a new friend named Olivia. She likes science and math very much. After the club activity, we studied together in the library for an hour.
+
+See you tonight,
+Emily
+
+問題11a:
+When does the science club meet?
+
+選択肢11a:
+1. Every Monday.
+2. Every Tuesday.
+3. Every Wednesday.
+4. Every Friday.
+
+【正解11a】
+2. Every Tuesday.
+
+【解説11a】
+設問は、科学クラブがいつ集まるかを聞いています。
+Emily のメールに「We meet every Tuesday after school（毎週火曜日の放課後に集まる）」とあります。正解は選択肢2です。
+月曜・水曜・金曜のいずれも本文に出てこないため、選択肢1・3・4は誤りです。
+
+問題11b:
+What did Emily do after the club activity?
+
+選択肢11b:
+1. Played sports outside.
+2. Went home alone.
+3. Studied in the library.
+4. Visited a museum.
+
+【正解11b】
+3. Studied in the library.
+
+【解説11b】
+設問は、クラブ活動のあと Emily がしたことを聞いています。
+「After the club activity, we studied together in the library for an hour（クラブのあと、図書館で1時間一緒に勉強した）」とあります。正解は選択肢3です。
+外でスポーツをした、一人で帰った、博物館を訪れた、という記述は本文にありません。博物館への訪問は来月の予定として触れられているだけです。
+
+問題11c:
+What may the science club do next month?
+
+選択肢11c:
+1. Have a cooking contest.
+2. Visit a science museum.
+3. Join a sports festival.
+4. Travel to another country.
+
+【正解11c】
+2. Visit a science museum.
+
+【解説11c】
+設問は、科学クラブが来月にするかもしれないことを聞いています。
+「Our science teacher said we may visit a science museum next month（来月、科学博物館へ行くかもしれない）」とあります。正解は選択肢2です。
+料理コンテスト、スポーツ祭、海外旅行の話は、このメールにはありません。
+
+---
+
+本文12
+The History of Chocolate
+
+Chocolate is popular around the world today, but long ago, it was very different from the sweet chocolate we eat now. Hundreds of years ago, people in Central America made a drink from cacao beans. The drink was bitter, and people often added spices to it.
+
+In the 1500s, Europeans brought cacao beans to Europe. There, people started adding sugar to chocolate drinks. Later, chocolate became popular in many countries. In the 1800s, companies learned how to make solid chocolate bars. Because of this, more people could enjoy chocolate easily.
+
+Today, chocolate is used in many kinds of desserts and drinks. Some people even visit special museums to learn about the history of chocolate.
+
+問題12a:
+What did people in Central America make from cacao beans?
+
+選択肢12a:
+1. Bread.
+2. Soup.
+3. A drink.
+4. Ice cream.
+
+【正解12a】
+3. A drink.
+
+【解説12a】
+設問は、中央アメリカの人々がカカオ豆から何を作っていたかを聞いています。
+「Hundreds of years ago, people in Central America made a drink from cacao beans（飲み物を作っていた）」とあります。正解は選択肢3です。
+パン・スープ・アイスクリームを作っていた、という記述は本文にありません。
+
+問題12b:
+What did Europeans add to chocolate drinks?
+
+選択肢12b:
+1. Salt.
+2. Sugar.
+3. Milk.
+4. Butter.
+
+【正解12b】
+2. Sugar.
+
+【解説12b】
+設問は、ヨーロッパ人がチョコレート飲料に何を加えたかを聞いています。
+1500年代以降、「people started adding sugar to chocolate drinks（砂糖を加えるようになった）」とあります。正解は選択肢2です。
+塩・牛乳・バターを加えた、という記述は本文にありません。
+
+問題12c:
+What happened in the 1800s?
+
+選択肢12c:
+1. People stopped drinking chocolate.
+2. Companies made chocolate bars.
+3. Chocolate became very expensive.
+4. Museums stopped showing chocolate history.
+
+【正解12c】
+2. Companies made chocolate bars.
+
+【解説12c】
+設問は、1800年代に起きたことを聞いています。
+「In the 1800s, companies learned how to make solid chocolate bars（固形のチョコレートバーを作れるようになった）」とあります。正解は選択肢2です。
+チョコレートを飲むのをやめた、高価になった、博物館が歴史展示をやめた、という話は本文にありません。
+
+問題12d:
+Why could more people enjoy chocolate easily?
+
+選択肢12d:
+1. Chocolate became free.
+2. People grew more sugar.
+3. Chocolate bars were made.
+4. Museums sold chocolate.
+
+【正解12d】
+3. Chocolate bars were made.
+
+【解説12d】
+設問は、より多くの人がチョコレートを簡単に楽しめるようになった理由を聞いています。
+1800年代にバーが作られるようになったあと、「Because of this, more people could enjoy chocolate easily（その結果、より多くの人が簡単に楽しめるようになった）」と説明されています。正解は選択肢3です。
+チョコレートが無料になった、砂糖の生産が増えた、博物館が販売した、という理由は本文にありません。
+
+問題12e:
+What is this story about?
+
+選択肢12e:
+1. How chocolate changed over time.
+2. How to grow cacao trees.
+3. A famous chocolate museum.
+4. Different kinds of drinks.
+
+【正解12e】
+1. How chocolate changed over time.
+
+【解説12e】
+設問は、本文全体の内容（What is this story about?）を聞いています。
+全文は、昔の苦い飲み物から、ヨーロッパでの砂糖の添加、1800年代の固形チョコレート、現代のデザートや博物館まで、チョコレートが時代とともにどう変わったかを述べています。正解は選択肢1です。
+カカオの木の育て方、ある博物館の紹介、さまざまな飲み物の種類だけを扱う内容ではありません。
+
+---
+
+本文13
+Community Bike Day
+
+Many people in River Town use bicycles every day. To encourage safe cycling, the city will hold a special event called Community Bike Day on June 14.
+
+At the event, visitors can learn how to ride safely on busy roads. Police officers will teach bicycle safety rules, and local bike shops will check bicycles for free. There will also be a short bicycle race for children under 15 years old.
+
+The event will start at 9:00 a.m. and finish at 1:00 p.m. at Central Park. Participants should bring their own bicycles and helmets.
+
+問題13a:
+Who will teach bicycle safety rules?
+
+選択肢13a:
+1. Teachers.
+2. Police officers.
+3. Parents.
+4. Shop owners.
+
+【正解13a】
+2. Police officers.
+
+【解説13a】
+設問は、自転車の安全ルールを誰が教えるかを聞いています。
+「Police officers will teach bicycle safety rules（警察官が安全ルールを教える）」とあります。正解は選択肢2です。
+先生、親、店のオーナーが教える、という記述は本文にありません。
+
+問題13b:
+What will local bike shops do at the event?
+
+選択肢13b:
+1. Sell helmets.
+2. Hold a race.
+3. Check bicycles for free.
+4. Give riding lessons.
+
+【正解13b】
+3. Check bicycles for free.
+
+【解説13b】
+設問は、地元の自転車店がイベントで何をするかを聞いています。
+「local bike shops will check bicycles for free（無料で自転車点検を行う）」とあります。正解は選択肢3です。
+ヘルメットを売る、レースを開く、乗り方を教える、という内容は案内にありません。子ども向けのレースは別項目として触れられていますが、店が行うのは点検です。
+
+---
+
+本文14
+From: David Lee
+To: Sarah Lee
+Date: November 8
+Subject: School Trip
+
+Hi Mom,
+
+Our class went on a school trip to the science center yesterday. We learned about space and watched a movie about planets. My favorite part was seeing a model of a space station.
+
+After lunch, we joined a workshop and built small rockets from paper. My rocket flew farther than most of my classmates' rockets. Our teacher took many pictures during the trip.
+
+I had a great time!
+
+David
+
+問題14a:
+Where did David go yesterday?
+
+選択肢14a:
+1. A zoo.
+2. A science center.
+3. A museum of art.
+4. A library.
+
+【正解14a】
+2. A science center.
+
+【解説14a】
+設問は、David が昨日どこへ行ったかを聞いています。
+「Our class went on a school trip to the science center yesterday（昨日、科学センターへ学校行事で行った）」とあります。正解は選択肢2です。
+動物園、美術館、図書館への訪問の話は本文にありません。
+
+問題14b:
+What did David build during the workshop?
+
+選択肢14b:
+1. A robot.
+2. A model car.
+3. A paper rocket.
+4. A telescope.
+
+【正解14b】
+3. A paper rocket.
+
+【解説14b】
+設問は、ワークショップで David が何を作ったかを聞いています。
+「we joined a workshop and built small rockets from paper（紙で小さなロケットを作った）」とあります。正解は選択肢3です。
+ロボット、模型の車、望遠鏡を作った、という記述は本文にありません。
+
+問題14c:
+What was David's favorite part of the trip?
+
+選択肢14c:
+1. Eating lunch.
+2. Watching his teacher take pictures.
+3. Seeing a space station model.
+4. Flying on a rocket.
+
+【正解14c】
+3. Seeing a space station model.
+
+【解説14c】
+設問は、David が旅行で一番気に入った部分を聞いています。
+「My favorite part was seeing a model of a space station（宇宙ステーションの模型を見ること）」とあります。正解は選択肢3です。
+昼食、先生が写真を撮ること、ロケットに乗ることは、本文で「一番のお気に入り」とは述べられていません。
+
+---
+
+本文15
+The Giant Panda
+
+The giant panda is one of the most famous animals in the world. Most giant pandas live in the mountains of China. They spend many hours each day eating bamboo, which is their main food.
+
+Adult pandas can grow to over 100 kilograms. Although they are large animals, they are usually quiet and peaceful. Pandas are good climbers and can also swim.
+
+Many years ago, the number of giant pandas became very low because people cut down forests. Today, special parks protect pandas and their homes. Because of these efforts, the number of giant pandas has increased.
+
+問題15a:
+Where do most giant pandas live?
+
+選択肢15a:
+1. India.
+2. China.
+3. Canada.
+4. Australia.
+
+【正解15a】
+2. China.
+
+【解説15a】
+設問は、多くのジャイアントパンダがどこに住んでいるかを聞いています。
+「Most giant pandas live in the mountains of China（中国の山岳地帯）」とあります。正解は選択肢2です。
+インド、カナダ、オーストラリアに住む、という記述は本文にありません。
+
+問題15b:
+What is the main food of giant pandas?
+
+選択肢15b:
+1. Fish.
+2. Fruit.
+3. Bamboo.
+4. Grass.
+
+【正解15b】
+3. Bamboo.
+
+【解説15b】
+設問は、ジャイアントパンダの主な食べ物を聞いています。
+「They spend many hours each day eating bamboo, which is their main food（竹が主な食べ物）」とあります。正解は選択肢3です。
+魚、果物、草が主な食べ物だ、という記述は本文にありません。
+
+問題15c:
+Why did the number of giant pandas become low?
+
+選択肢15c:
+1. People cut down forests.
+2. They stopped eating bamboo.
+3. They moved to cities.
+4. They could not swim.
+
+【正解15c】
+1. People cut down forests.
+
+【解説15c】
+設問は、ジャイアントパンダの数が少なくなった理由を聞いています。
+「the number of giant pandas became very low because people cut down forests（人々が森林を伐採したため）」とあります。正解は選択肢1です。
+竹を食べなくなった、都市へ移った、泳げなくなった、という理由は本文にありません。
+
+問題15d:
+Which is true about giant pandas?
+
+選択肢15d:
+1. They cannot climb trees.
+2. They are usually peaceful.
+3. They only live in zoos.
+4. They are very noisy.
+
+【正解15d】
+2. They are usually peaceful.
+
+【解説15d】
+設問は、ジャイアントパンダについて正しい記述を選ぶ問題です。
+「Although they are large animals, they are usually quiet and peaceful（大きいが、通常は静かで穏やか）」とあります。正解は選択肢2です。
+木に登れない、動物園にしかいない、とても騒がしい、という記述は本文と矛盾します。本文では登るのが得意（good climbers）とも書かれています。
+
+問題15e:
+What is this story mainly about?
+
+選択肢15e:
+1. A famous animal and its life.
+2. How to grow bamboo.
+3. Animals that live in oceans.
+4. A trip to China.
+
+【正解15e】
+1. A famous animal and its life.
+
+【解説15e】
+設問は、本文全体の内容（What is this story mainly about?）を聞いています。
+全文は、ジャイアントパンダの生息地、食べ物、体の特徴、森林伐採による減少、保護活動による回復について述べています。正解は選択肢1です。
+竹の育て方、海の動物、中国への旅行記、という内容ではありません。
+
+---
