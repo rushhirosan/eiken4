@@ -686,3 +686,233 @@ How long was the boy’s summer camp?
 正解は「Five days.」です。
 設問（How long was the boy’s summer camp?）に対して、会話で述べられている内容と一致するのは「Five days.」です。
 他の選択肢（One week. / Two weeks. / One month.）は、この設問の条件に当てはまりません。
+---
+
+No.31:
+★Mom, I need a new notebook for school.
+☆OK.  Let’s stop at the bookstore on the way home.
+★Can we also get some colored pencils?
+☆Sure.  We’ll buy them together.
+
+Question No.31:
+What will the boy buy at the bookstore?
+
+1. A new notebook.
+2. Some colored pencils.
+3. A new notebook and some colored pencils.
+4. A school bag.
+
+【正解31】
+3. A new notebook and some colored pencils.
+
+【解説31】
+正解は「A new notebook and some colored pencils.」です。
+設問（What will the boy buy at the bookstore?）に対して、会話で述べられている内容と一致するのは「A new notebook and some colored pencils.」です。
+ノートと色鉛筆の両方を買うと話しているため、1や2だけでは不十分です。4の school bag は会話に出てきません。
+---
+
+No.32:
+★Hello.  Is this Mr. Green’s office?
+☆Yes, it is.  Can I help you?
+★I’d like to speak to Mr. Green, please.
+☆I’m sorry.  He’s in a meeting now.  Can I take a message?
+
+Question No.32:
+Why can’t the man speak to Mr. Green now?
+
+1. Mr. Green is at lunch.
+2. Mr. Green is in a meeting.
+3. Mr. Green is on vacation.
+4. Mr. Green left the office early.
+
+【正解32】
+2. Mr. Green is in a meeting.
+
+【解説32】
+正解は「Mr. Green is in a meeting.」です。
+設問（Why can’t the man speak to Mr. Green now?）に対して、会話で述べられている内容と一致するのは「Mr. Green is in a meeting.」です。
+他の選択肢（Mr. Green is at lunch. / Mr. Green is on vacation. / Mr. Green left the office early.）は、この設問の条件に当てはまりません。
+---
+
+No.33:
+★Let’s meet before the movie starts.
+☆OK.  Where should we meet?
+★How about in front of the ticket counter?
+☆Good idea.  I’ll be there at 6:15.
+
+Question No.33:
+Where will they meet?
+
+1. In front of the ticket counter.
+2. Inside the movie theater.
+3. At the bus stop near the station.
+4. In the café next to the station.
+
+【正解33】
+1. In front of the ticket counter.
+
+【解説33】
+正解は「In front of the ticket counter.」です。
+設問（Where will they meet?）に対して、会話で述べられている内容と一致するのは「In front of the ticket counter.」です。
+他の選択肢（Inside the movie theater. / At the bus stop near the station. / In the café next to the station.）は、この設問の条件に当てはまりません。
+---
+
+No.34:
+☆Which subject do you like best, Tom?
+★I like science best.  Our teacher shows us many interesting experiments.
+☆That sounds fun.  I like English because I enjoy reading stories.
+★Maybe we can study together sometime.
+
+Question No.34:
+Which subject does Tom like best?
+
+1. English.
+2. Science.
+3. History.
+4. Music.
+
+【正解34】
+2. Science.
+
+【解説34】
+正解は「Science.」です。
+設問（Which subject does Tom like best?）に対して、会話で述べられている内容と一致するのは「Science.」です。
+Tom は science が一番好きだと述べており、English を好きなのは話し相手のほうです。History と Music は会話に出てきません。
+---
+
+No.35:
+★Do you want to see the new action movie tonight, Lisa?
+☆Sorry, Kevin.  I have to help my brother with his homework.
+★That’s OK.  Maybe we can go tomorrow.
+☆Thanks.  I’ll call you in the morning.
+
+Question No.35:
+Why can’t Lisa go to the movie tonight?
+
+1. She has to work at a café.
+2. She has to help her brother with his homework.
+3. She already saw the movie last week.
+4. She has to visit her grandmother.
+
+【正解35】
+2. She has to help her brother with his homework.
+
+【解説35】
+正解は「She has to help her brother with his homework.」です。
+設問（Why can’t Lisa go to the movie tonight?）に対して、会話で述べられている内容と一致するのは「She has to help her brother with his homework.」です。
+他の選択肢（She has to work at a café. / She already saw the movie last week. / She has to visit her grandmother.）は、この設問の条件に当てはまりません。
+---
+
+No.36:
+★How much is this T-shirt?
+☆It’s twenty dollars.
+★That’s a little expensive.  Do you have a cheaper one?
+☆Yes.  This blue one is fifteen dollars.
+
+Question No.36:
+How much is the cheaper T-shirt?
+
+1. Ten dollars.
+2. Fifteen dollars.
+3. Twenty dollars.
+4. Twenty-five dollars.
+
+【正解36】
+2. Fifteen dollars.
+
+【解説36】
+正解は「Fifteen dollars.」です。
+設問（How much is the cheaper T-shirt?）に対して、会話で述べられている内容と一致するのは「Fifteen dollars.」です。
+Twenty dollars は最初の T シャツの値段であり、Ten dollars と Twenty-five dollars は会話に出てきません。
+---
+
+No.37:
+★Dad, can you pick me up after soccer practice today?
+☆Sorry, Mark.  I have to work late.
+★Then who can come?
+☆Your aunt Susan can.  She’ll be there at 5:30.
+
+Question No.37:
+Who will pick Mark up after soccer practice?
+
+1. His father.
+2. His aunt Susan.
+3. His soccer coach.
+4. His friend’s mother.
+
+【正解37】
+2. His aunt Susan.
+
+【解説37】
+正解は「His aunt Susan.」です。
+設問（Who will pick Mark up after soccer practice?）に対して、会話で述べられている内容と一致するのは「His aunt Susan.」です。
+父は残業で来られないと述べており、coach や friend’s mother は会話に出てきません。
+---
+
+No.38:
+☆Excuse me.  When does the next train to Tokyo leave?
+★At 3:15 p.m.  It leaves from Platform 4.
+☆Thank you.  I still have ten minutes.
+★You’d better hurry.
+
+Question No.38:
+When does the next train to Tokyo leave?
+
+1. At 3:05 p.m.
+2. At 3:15 p.m.
+3. At 3:25 p.m.
+4. At 4:15 p.m.
+
+【正解38】
+2. At 3:15 p.m.
+
+【解説38】
+正解は「At 3:15 p.m.」です。
+設問（When does the next train to Tokyo leave?）に対して、会話で述べられている内容と一致するのは「At 3:15 p.m.」です。
+他の選択肢（At 3:05 p.m. / At 3:25 p.m. / At 4:15 p.m.）は、この設問の条件に当てはまりません。
+---
+
+No.39:
+★Are you ready for the English test tomorrow, Amy?
+☆Not yet.  I’m going to study with Kate tonight.
+★Where will you study?
+☆At the library near the station.
+
+Question No.39:
+What will Amy do tonight?
+
+1. Take an English test.
+2. Study with Kate at the library.
+3. Meet her teacher at school.
+4. Go to the station to buy a book.
+
+【正解39】
+2. Study with Kate at the library.
+
+【解説39】
+正解は「Study with Kate at the library.」です。
+設問（What will Amy do tonight?）に対して、会話で述べられている内容と一致するのは「Study with Kate at the library.」です。
+テストは「明日」であり、teacher や本を買う話は会話に出てきません。
+---
+
+No.40:
+☆Mr. Brown, you look worried.
+★I can’t find my car keys.  I need to drive to the airport soon.
+☆Did you check your coat pocket?
+★Oh, you’re right.  They’re there.  Thank you.
+
+Question No.40:
+What did Mr. Brown forget?
+
+1. His wallet.
+2. His car keys.
+3. His airplane ticket.
+4. His coat.
+
+【正解40】
+2. His car keys.
+
+【解説40】
+正解は「His car keys.」です。
+設問（What did Mr. Brown forget?）に対して、会話で述べられている内容と一致するのは「His car keys.」です。
+鍵はコートのポケットにあり、wallet・ticket・coat そのものを忘れたわけではありません。
