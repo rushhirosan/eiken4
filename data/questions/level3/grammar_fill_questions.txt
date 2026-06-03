@@ -1211,3 +1211,533 @@ B : I’m going to visit my cousin, ( ) lives in Osaka.
 先行詞は `my cousin`（人）なので、人を先行詞に取る関係代名詞 `who` を使います。`my cousin, who lives in Osaka` で「大阪に住んでいるいとこ」という意味です。which は物、where は場所、what はこの形の関係節には使えません。
 
 ---
+
+問題71:
+A : What do you usually do after school, Ben?
+B : I enjoy ( ) basketball with my friends at the park.
+
+選択肢71:
+1. play
+2. playing
+3. played
+4. plays
+
+【正解71】
+2. playing
+
+【解説71】
+`enjoy` の後ろは動名詞（-ing 形）が来ます。`enjoy playing basketball` で「バスケをするのを楽しむ」という意味です。play / played / plays は enjoy の後ろに続ける形になりません。
+
+---
+
+問題72:
+Young children ( ) on their parents for food, clothes, and love.
+
+選択肢72:
+1. depend
+2. decide
+3. discover
+4. deliver
+
+【正解72】
+1. depend
+
+【解説72】
+`depend on ～` で「～に頼る、～次第である」という意味です。ここでは on が後ろに続いているので、depend が正解です。decide（決める）/ discover（発見する）/ deliver（配達する）は on と組み合わせてもこの意味になりません。
+
+---
+
+問題73:
+A : Why are you reading so many books about ancient Egypt?
+B : Because I’m very interested ( ) history.
+
+選択肢73:
+1. at
+2. on
+3. in
+4. with
+
+【正解73】
+3. in
+
+【解説73】
+`be interested in ～` で「～に興味がある」という決まった表現です。`interested in history` で「歴史に興味がある」となります。at / on / with では「～に興味がある」の意味になりません。
+
+---
+
+問題74:
+This suitcase is too heavy for me ( ) lift by myself.
+
+選択肢74:
+1. to
+2. for
+3. with
+4. by
+
+【正解74】
+1. to
+
+【解説74】
+`too ～ to do` で「～すぎて…できない」という形です。`too heavy for me to lift` で「私には持ち上げるには重すぎる」という意味になります。for / with / by ではこの不定詞の形につながりません。
+
+---
+
+問題75:
+A : How long have you played the violin?
+B : I’ve played it ( ) I was eight years old.
+
+選択肢75:
+1. for
+2. since
+3. during
+4. until
+
+【正解75】
+2. since
+
+【解説75】
+現在完了形と `since` を組み合わせると「～以来ずっと」という意味になります。`I’ve played it since I was eight` で「8歳のとき以来ずっと弾いている」となります。for は期間、during / until はこの文脈の「起点」を表せません。
+
+---
+
+問題76:
+A : Did you go to the festival yesterday?
+B : Yes, ( ) it rained all day, we had a great time.
+
+選択肢76:
+1. because
+2. although
+3. if
+4. until
+
+【正解76】
+2. although
+
+【解説76】
+`although` は「～だけれども」という意味の接続詞です。「一日中雨だったけれど、とても楽しかった」という逆接の流れになります。because（なぜなら）/ if（もし）/ until（～まで）は、この文脈の逆接にはなりません。
+
+---
+
+問題77:
+A : Excuse me. Where is the post office?
+B : It’s ( ) the hospital and the library.
+
+選択肢77:
+1. among
+2. between
+3. against
+4. without
+
+【正解77】
+2. between
+
+【解説77】
+`between A and B` で「AとBの間に」という意味です。病院と図書館の2つの建物の間にある場所を示すので between が正解です。among（3つ以上の中で）/ against（～に反して）/ without（～なしで）は場所の説明として不適切です。
+
+---
+
+問題78:
+A : It’s snowing outside.
+B : Then don’t leave the house ( ) your warm coat.
+
+選択肢78:
+1. without
+2. except
+3. beside
+4. toward
+
+【正解78】
+1. without
+
+【解説78】
+`without ～` で「～なしで」という意味です。`leave the house without your warm coat` で「暖かいコートなしで家を出ないで」となります。except（～を除いて）/ beside（～のそばに）/ toward（～の方へ）は、この文脈の「持たずに」という意味になりません。
+
+---
+
+問題79:
+A : Would you like some more soup?
+B : No, thanks. I’ve ( ) eaten enough.
+
+選択肢79:
+1. yet
+2. still
+3. already
+4. ever
+
+【正解79】
+3. already
+
+【解説79】
+`already` は「もう、すでに」という意味で、現在完了形とよく使われます。`I’ve already eaten enough` で「もう十分食べた」という意味になります。yet（まだ・もう）は疑問文・否定文向き、still（まだ）/ ever（これまでに）はこの文の意味に合いません。
+
+---
+
+問題80:
+A : Why is the light still on in Tom’s room?
+B : He’s probably ( ) studying for tomorrow’s test.
+
+選択肢80:
+1. yet
+2. still
+3. already
+4. ever
+
+【正解80】
+2. still
+
+【解説80】
+`still` は「まだ（続いている）」という意味の副詞です。`He’s probably still studying` で「おそらくまだ勉強している」という意味になります。yet / already / ever では「今も続いている」というニュアンスになりません。
+
+---
+
+問題81:
+There ( ) to be a small bookstore on this street, but it closed five years ago.
+
+選択肢81:
+1. used
+2. use
+3. using
+4. uses
+
+【正解81】
+1. used
+
+【解説81】
+`used to do` で「以前は～だった（今はそうではない）」という意味です。`There used to be ...` で「以前は～があった」となり、今は閉店したという後ろの文とつながります。use / using / uses ではこの過去の状態を表せません。
+
+---
+
+問題82:
+A : Can you speak French fluently?
+B : Not yet, but if I keep practicing, I’ll be ( ) to speak it well someday.
+
+選択肢82:
+1. able
+2. possible
+3. ready
+4. careful
+
+【正解82】
+1. able
+
+【解説82】
+`be able to do` で「～することができる」という意味です。`I’ll be able to speak it well` で「うまく話せるようになるだろう」となります。possible（可能な）/ ready（準備ができた）/ careful（注意深い）は to speak とこの形でつながりません。
+
+---
+
+問題83:
+Visitors ( ) show their tickets before they enter the museum.
+
+選択肢83:
+1. have
+2. has
+3. having
+4. had
+
+【正解83】
+1. have
+
+【解説83】
+`have to do` で「～しなければならない」という意味です。主語が複数形 Visitors なので have が正解です。`Visitors have to show their tickets` で「入館前にチケットを見せなければならない」となります。has / having / had は主語・文型に合いません。
+
+---
+
+問題84:
+A : It’s a little warm in here.
+B : Would you mind ( ) the window?
+
+選択肢84:
+1. open
+2. opening
+3. opened
+4. opens
+
+【正解84】
+2. opening
+
+【解説84】
+`Would you mind ～ing?` で「～してもいいですか／～していただけますか」という丁寧な依頼表現です。`mind opening the window` で「窓を開けてもらえますか」となります。open / opened / opens は mind の後ろに続ける形になりません。
+
+---
+
+問題85:
+A : What did Mr. Clark say about your essay?
+B : He asked me ( ) it again by Friday.
+
+選択肢85:
+1. write
+2. writing
+3. to write
+4. wrote
+
+【正解85】
+3. to write
+
+【解説85】
+`ask 人 to do` で「人に～するよう頼む／言う」という形です。`asked me to write it again` で「もう一度書き直すように言われた」となります。write / writing / wrote では ask と人をつなぐ文型になりません。
+
+---
+
+問題86:
+A : Are we almost at the station?
+B : Not yet. Just keep ( ) straight for two more blocks.
+
+選択肢86:
+1. walk
+2. walking
+3. walked
+4. walks
+
+【正解86】
+2. walking
+
+【解説86】
+`keep ～ing` で「～し続ける」という意味です。`keep walking straight` で「まっすぐ歩き続けて」となります。walk / walked / walks は keep の後ろに続ける形になりません。
+
+---
+
+問題87:
+A : You’re eating very slowly, Anna.
+B : I know. I haven’t finished ( ) my salad yet.
+
+選択肢87:
+1. eat
+2. eating
+3. ate
+4. eats
+
+【正解87】
+2. eating
+
+【解説87】
+`finish ～ing` で「～を終える」という意味です。`haven’t finished eating my salad` で「サラダを食べ終えていない」となります。eat / ate / eats は finish の後ろに続ける形になりません。
+
+---
+
+問題88:
+It was raining hard, so we took a taxi ( ) of walking to the station.
+
+選択肢88:
+1. instead
+2. because
+3. without
+4. during
+
+【正解88】
+1. instead
+
+【解説88】
+`instead of ～ing` で「～の代わりに」という意味です。`took a taxi instead of walking` で「歩く代わりにタクシーに乗った」となります。because / without / during は of と組み合わせてもこの意味になりません。
+
+---
+
+問題89:
+Our picnic was canceled ( ) the strong wind.
+
+選択肢89:
+1. because
+2. because of
+3. although
+4. if
+
+【正解89】
+2. because of
+
+【解説89】
+`because of ～` の後ろには名詞（句）が来ます。`because of the strong wind` で「強風のために」という意味です。because の後ろには文（節）が来るので、ここでは because of が正解です。although / if は理由を表す用法になりません。
+
+---
+
+問題90:
+A : Can I go out and play now, Mom?
+B : Not until you ( ) your room.
+
+選択肢90:
+1. tidy
+2. tidies
+3. tidied
+4. tidying
+
+【正解90】
+1. tidy
+
+【解説90】
+`Not until you do` で「～するまで（はだめ）」という意味です。`Not until you tidy your room` で「部屋を片付けるまで外出してはいけない」となります。tidies / tidied / tidying はこの文の形に合いません。
+
+---
+
+問題91:
+This is the camera ( ) my father bought in London last year.
+
+選択肢91:
+1. who
+2. which
+3. where
+4. when
+
+【正解91】
+2. which
+
+【解説91】
+先行詞が camera（物）なので、物を先行詞に取る関係代名詞 `which` を使います。`the camera which my father bought` で「父が買ったカメラ」という意味です。who は人、where は場所、when は時を表す関係詞で、ここでは camera に合いません。
+
+---
+
+問題92:
+A : Do you know that girl?
+B : Yes. She’s the student ( ) brother won the piano contest.
+
+選択肢92:
+1. who
+2. whose
+3. which
+4. where
+
+【正解92】
+2. whose
+
+【解説92】
+`whose` は「その人の～」という所有を表す関係代名詞です。`the student whose brother won ...` で「弟がピアノコンテストで優勝した生徒」という意味になります。who / which / where では brother との所有関係を表せません。
+
+---
+
+問題93:
+Kyoto is the city ( ) I want to visit again someday.
+
+選択肢93:
+1. who
+2. whose
+3. where
+4. what
+
+【正解93】
+3. where
+
+【解説93】
+先行詞が city（場所）で、関係詞の後ろが完全な文になる場合、場所を表す `where` を使います。`the city where I want to visit` で「再訪したい街」という意味です。who / whose は人、what はこの形の関係節には使えません。
+
+---
+
+問題94:
+A : Do you remember May 10th?
+B : Of course. That’s the day ( ) we moved into this house.
+
+選択肢94:
+1. who
+2. which
+3. when
+4. whose
+
+【正解94】
+3. when
+
+【解説94】
+先行詞が day（時）で、関係詞の後ろが完全な文になる場合、時を表す `when` を使います。`the day when we moved into this house` で「この家に引っ越した日」という意味です。who / which / whose は day を修飾する関係詞として不適切です。
+
+---
+
+問題95:
+A : I think we should take the earlier train.
+B : I ( ) with you. We don’t want to be late.
+
+選択肢95:
+1. agree
+2. argue
+3. deal
+4. share
+
+【正解95】
+1. agree
+
+【解説95】
+`agree with 人` で「人の意見に賛成する」という意味です。`I agree with you` で「あなたの意見に賛成です」となります。argue（口論する）/ deal（取引する）/ share（共有する）は with you と組み合わせても「賛成する」の意味になりません。
+
+---
+
+問題96:
+Many small children are ( ) of sleeping alone in the dark.
+
+選択肢96:
+1. afraid
+2. proud
+3. famous
+4. full
+
+【正解96】
+1. afraid
+
+【解説96】
+`be afraid of ～` で「～がこわい、～を恐れる」という意味です。`afraid of sleeping alone in the dark` で「暗闇で一人で寝るのがこわい」となります。proud（誇りに思う）/ famous（有名な）/ full（いっぱいの）は of sleeping alone とこの意味でつながりません。
+
+---
+
+問題97:
+A : Which do you like better, juice or milk?
+B : I ( ) juice to milk.
+
+選択肢97:
+1. prefer
+2. prepare
+3. prevent
+4. protect
+
+【正解97】
+1. prefer
+
+【解説97】
+`prefer A to B` で「BよりAのほうが好きだ」という意味です。`I prefer juice to milk` で「牛乳よりジュースのほうが好き」となります。prepare（準備する）/ prevent（防ぐ）/ protect（守る）は to milk と組み合わせても好みを表せません。
+
+---
+
+問題98:
+A : How much time do you spend on English every day?
+B : About an hour. I usually spend that time ( ) new words.
+
+選択肢98:
+1. memorize
+2. memorizing
+3. to memorize
+4. memorized
+
+【正解98】
+2. memorizing
+
+【解説98】
+`spend time ～ing` で「時間を～することに使う」という形です。`spend that time memorizing new words` で「その時間を新しい単語を覚えることに使う」となります。memorize / to memorize / memorized では spend time の後ろに続ける形になりません。
+
+---
+
+問題99:
+Ken has been to Canada ( ) times, but he wants to go again.
+
+選択肢99:
+1. several
+2. little
+3. much
+4. enough
+
+【正解99】
+1. several
+
+【解説99】
+`several` は「いくつかの、数回の」という意味で、可算名詞 times と一緒に使えます。`several times` で「何度か」という意味になります。little / much は不可算名詞向き、enough は「十分な」で、回数を数える表現としては several が自然です。
+
+---
+
+問題100:
+A : There are ten boxes on the shelf. Which one is yours?
+B : ( ) of them. They all belong to my sister.
+
+選択肢100:
+1. Both
+2. Every
+3. None
+4. Another
+
+【正解100】
+3. None
+
+【解説100】
+`none of ～` で「～のどれも～ない」という意味です。10個すべてが妹のものなので、`None of them` で「どれも（私のものでは）ない」となります。Both（2つとも）/ Every（すべての）/ Another（もう一つの）は、10個の箱すべてが妹のものだという答えには合いません。
+
+---
