@@ -145,6 +145,24 @@ def _exam_level_name(level_code):
     return dict(EXAM_LEVEL_ENTRIES).get(level_code, f'英検{level_code}級')
 
 
+def _extra_display_progress(user, level_code, foundation_progress):
+    """UI-only progress rows (e.g. 3級ライティングは解放条件外だが進捗は表示)."""
+    if str(level_code) != '3':
+        return []
+    if any(item['question_type'] == 'writing' for item in foundation_progress):
+        return []
+    total_questions = _total_questions_for_type(level_code, 'writing')
+    if total_questions <= 0:
+        return []
+    return [{
+        'question_type': 'writing',
+        'display_name': QUESTION_TYPE_LABELS.get('writing', 'writing'),
+        'progress_rate': _progress_rate_for_type(user, level_code, 'writing'),
+        'total_questions': total_questions,
+        'counts_toward_mock': False,
+    }]
+
+
 def _build_exam_section(user, level_code, level_name):
     question_types = {
         'grammar_fill': '文法・語彙問題',
@@ -163,9 +181,11 @@ def _build_exam_section(user, level_code, level_name):
         for q_type in question_types.keys()
     }
     unlock_status = _build_exam_unlock_status(user, level_code)
-    foundation_progress = enrich_foundation_progress(
+    foundation_rows = (
         unlock_status.get('foundation_progress', [])
+        + _extra_display_progress(user, level_code, unlock_status.get('foundation_progress', []))
     )
+    foundation_progress = enrich_foundation_progress(foundation_rows)
     progress_by_type = {
         item['question_type']: item for item in foundation_progress
     }

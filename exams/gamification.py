@@ -12,10 +12,16 @@ def enrich_foundation_progress(category_progress):
     enriched = []
     for item in category_progress:
         rate = item['progress_rate']
+        counts_toward_mock = item.get('counts_toward_mock', True)
         enriched.append({
             **item,
-            'remaining_to_mock': max(0.0, MOCK_EXAM_UNLOCK_MIN_RATE - rate),
+            'remaining_to_mock': (
+                max(0.0, MOCK_EXAM_UNLOCK_MIN_RATE - rate)
+                if counts_toward_mock
+                else None
+            ),
             'meets_random_threshold': rate >= RANDOM_UNLOCK_MIN_RATE,
+            'counts_toward_mock': counts_toward_mock,
         })
     return enriched
 

@@ -7,8 +7,10 @@
     </div>
     <small class="text-muted d-block mt-1 exam-foundation-progress-label">
         取り組み {{ progress_item.progress_rate|floatformat:0 }}%
-        {% if progress_item.progress_rate < 80 %}
+        {% if progress_item.counts_toward_mock and progress_item.progress_rate < 80 %}
         · 模擬試験まであと {{ progress_item.remaining_to_mock|floatformat:0 }}%
+        {% elif not progress_item.counts_toward_mock %}
+        · 模擬試験の解放条件には含まれません
         {% endif %}
     </small>
 </div>

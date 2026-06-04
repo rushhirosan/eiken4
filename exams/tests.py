@@ -841,3 +841,17 @@ class GamificationTest(TestCase):
         ])
         self.assertEqual(enriched[0]['remaining_to_mock'], 37)
         self.assertTrue(enriched[0]['meets_random_threshold'])
+
+    def test_enrich_foundation_progress_writing_excluded_from_mock(self):
+        from exams.gamification import enrich_foundation_progress
+
+        enriched = enrich_foundation_progress([
+            {
+                'question_type': 'writing',
+                'progress_rate': 0,
+                'display_name': 'ライティング',
+                'counts_toward_mock': False,
+            },
+        ])
+        self.assertIsNone(enriched[0]['remaining_to_mock'])
+        self.assertFalse(enriched[0]['counts_toward_mock'])
