@@ -1,0 +1,15 @@
+{% if progress_item %}
+<div class="exam-foundation-progress px-1">
+    <div class="progress exam-foundation-progress-bar" role="progressbar"
+         aria-valuenow="{{ progress_item.progress_rate }}" aria-valuemin="0" aria-valuemax="100"
+         aria-label="{{ progress_item.display_name }}の取り組み率">
+        <div class="progress-bar bg-primary" style="width: {{ progress_item.progress_rate }}%;"></div>
+    </div>
+    <small class="text-muted d-block mt-1 exam-foundation-progress-label">
+        取り組み {{ progress_item.progress_rate|floatformat:0 }}%
+        {% if progress_item.progress_rate < 80 %}
+        · 模擬試験まであと {{ progress_item.remaining_to_mock|floatformat:0 }}%
+        {% endif %}
+    </small>
+</div>
+{% endif %}

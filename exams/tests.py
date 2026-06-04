@@ -760,3 +760,84 @@ class WritingPromptHtmlFilterTest(TestCase):
         compact = html.replace('\n', '')
         self.assertIn('writing-q-underline', compact)
         self.assertIn('>open</span>', compact)
+
+
+class GamificationTest(TestCase):
+    """Gamification helper tests."""
+
+    def test_build_session_achievements_perfect_score(self):
+        from exams.gamification import build_session_achievements
+
+        unlock_status = {
+            'random': {'is_unlocked': False},
+            'mock_exam': {'is_unlocked': False, 'remaining_categories': []},
+        }
+        messages = build_session_achievements(
+            user=None,
+            level='4',
+            question_type='grammar_fill',
+            correct_count=5,
+            total_count=5,
+            unlock_status=unlock_status,
+            session_count=5,
+        )
+        self.assertTrue(any('パーフェクト' in m['text'] for m in messages))
+        self.assertLessEqual(len(messages), 2)
+
+    def test_build_session_achievements_unlock_random(self):
+        from exams.gamification import build_session_achievements
+
+        unlock_status = {
+            'random': {'is_unlocked': True},
+            'mock_exam': {'is_unlocked': False, 'remaining_categories': []},
+        }
+        messages = build_session_achievements(
+            user=None,
+            level='4',
+            question_type='grammar_fill',
+            correct_count=2,
+            total_count=5,
+            unlock_status=unlock_status,
+            pre_unlock={'random': False, 'mock_exam': False},
+            session_count=5,
+        )
+        self.assertTrue(any('ランダム10問' in m['text'] for m in messages))
+
+    def test_build_adventure_summary(self):
+        from exams.gamification import build_adventure_summary
+
+        unlock_status = {
+            'random': {
+                'is_unlocked': False,
+                'ready_count': 1,
+                'required_count': 3,
+                'required_rate': 20,
+            },
+            'mock_exam': {
+                'is_unlocked': False,
+                'required_rate': 80,
+                'remaining_categories': [
+                    {
+                        'display_name': '文法・語彙問題',
+                        'remaining_rate': 37,
+                        'progress_rate': 43,
+                    }
+                ],
+            },
+            'foundation_progress': [
+                {'question_type': 'grammar_fill', 'progress_rate': 43},
+            ],
+        }
+        summary = build_adventure_summary(unlock_status)
+        self.assertFalse(summary['random_unlocked'])
+        self.assertEqual(summary['random_ready_count'], 1)
+        self.assertEqual(summary['nearest_remaining']['display_name'], '文法・語彙問題')
+
+    def test_enrich_foundation_progress(self):
+        from exams.gamification import enrich_foundation_progress
+
+        enriched = enrich_foundation_progress([
+            {'question_type': 'grammar_fill', 'progress_rate': 43, 'display_name': '文法'},
+        ])
+        self.assertEqual(enriched[0]['remaining_to_mock'], 37)
+        self.assertTrue(enriched[0]['meets_random_threshold'])

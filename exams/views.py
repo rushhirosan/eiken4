@@ -35,6 +35,14 @@ from django.views.decorators.csrf import csrf_exempt
 
 logger = logging.getLogger(__name__)
 
+from .gamification import (
+    build_adventure_summary,
+    build_session_achievements,
+    enrich_foundation_progress,
+    pop_pre_submit_unlock_snapshot,
+    store_pre_submit_unlock_snapshot,
+)
+
 
 def _format_objective_explanation(raw_explanation, correct_choice):
     """4級表示に寄せるため、機械的な解説文は最小限の実用文に整形する。"""
@@ -154,11 +162,20 @@ def _build_exam_section(user, level_code, level_name):
         q_type: _total_questions_for_type(level_code, q_type)
         for q_type in question_types.keys()
     }
+    unlock_status = _build_exam_unlock_status(user, level_code)
+    foundation_progress = enrich_foundation_progress(
+        unlock_status.get('foundation_progress', [])
+    )
+    progress_by_type = {
+        item['question_type']: item for item in foundation_progress
+    }
     return {
         'level_code': level_code,
         'level_name': level_name,
         'question_counts': question_counts,
-        'unlock_status': _build_exam_unlock_status(user, level_code),
+        'unlock_status': unlock_status,
+        'adventure_summary': build_adventure_summary(unlock_status),
+        'foundation_progress_by_type': progress_by_type,
     }
 
 
@@ -575,6 +592,7 @@ def question_list(request, level=None, exam_id=None):
         
         # POSTリクエストがある場合のみ回答処理を実行
         if request.method == 'POST':
+            _snapshot_unlock_before_submit(request, request.user, level)
             # POSTされたquestion_idをすべて取得
             post_question_ids = [
                 int(key.replace('answer_', ''))
@@ -814,6 +832,7 @@ def question_list(request, level=None, exam_id=None):
         
         # POSTリクエストがある場合のみ回答処理を実行
         if request.method == 'POST':
+            _snapshot_unlock_before_submit(request, request.user, level)
             # POSTされたquestion_idをすべて取得
             post_question_ids = [
                 int(key.replace('answer_', ''))
@@ -926,6 +945,7 @@ def submit_answer(request, question_id):
 def submit_reading_comprehension(request, level):
     """長文読解問題の回答を提出"""
     if request.method == 'POST':
+        _snapshot_unlock_before_submit(request, request.user, level)
         # 既存の回答を削除
         ReadingUserAnswer.objects.filter(
             user=request.user,
@@ -972,6 +992,7 @@ def submit_reading_comprehension(request, level):
 @login_required
 def submit_answers(request, level):
     if request.method == 'POST':
+        _snapshot_unlock_before_submit(request, request.user, level)
         question_type = request.POST.get('question_type')
         level = int(level)  # URLパラメータから取得したlevelを使用
         if question_type == 'writing' and str(level) != '3':
@@ -1247,6 +1268,7 @@ def submit_answers(request, level):
             
             # POSTリクエストがある場合のみ回答処理を実行
             if request.method == 'POST':
+                _snapshot_unlock_before_submit(request, request.user, level)
                 # POSTされたquestion_idをすべて取得
                 post_question_ids = [
                     int(key.replace('answer_', ''))
@@ -1383,7 +1405,7 @@ def answer_results(request, level, question_type):
             'correct_count': correct_count,
             'total_count': total_count,
         }
-        return render(request, 'exams/answer_results.html', context)
+        return _finalize_and_render_answer_results(request, context)
     
     elif question_type == 'listening_illustration':
         # イラスト問題の場合
@@ -1445,7 +1467,7 @@ def answer_results(request, level, question_type):
             'correct_count': correct_count,
             'total_count': total_count,
         }
-        return render(request, 'exams/answer_results.html', context)
+        return _finalize_and_render_answer_results(request, context)
     
     elif question_type in ['listening_conversation', 'listening_passage']:
         # その他のリスニング問題の場合
@@ -1494,7 +1516,7 @@ def answer_results(request, level, question_type):
             'correct_count': correct_count,
             'total_count': total_count,
         }
-        return render(request, 'exams/answer_results.html', context)
+        return _finalize_and_render_answer_results(request, context)
     
     elif question_type == 'reading_comprehension':
         # 長文読解問題の場合
@@ -1566,7 +1588,7 @@ def answer_results(request, level, question_type):
             'correct_count': correct_count,
             'total_count': total_count,
         }
-        return render(request, 'exams/answer_results.html', context)
+        return _finalize_and_render_answer_results(request, context)
 
     elif question_type == 'writing':
         session_key = f'answered_questions_{question_type}_{level}'
@@ -1600,7 +1622,7 @@ def answer_results(request, level, question_type):
             'correct_count': submitted,
             'total_count': len(user_answers),
         }
-        return render(request, 'exams/answer_results.html', context)
+        return _finalize_and_render_answer_results(request, context)
     
     else:
         # 通常の問題の場合（会話問題など）
@@ -1659,7 +1681,7 @@ def answer_results(request, level, question_type):
             'correct_count': correct_count,
             'total_count': total_count,
         }
-        return render(request, 'exams/answer_results.html', context)
+        return _finalize_and_render_answer_results(request, context)
 
 @login_required
 def progress_view(request):
@@ -1854,7 +1876,34 @@ def _build_exam_unlock_status(user, level):
             'remaining_categories': mock_remaining,
             'total_categories': len(category_progress),
         },
+        'foundation_progress': category_progress,
     }
+
+
+def _snapshot_unlock_before_submit(request, user, level):
+    """Store unlock flags before batch submit updates progress rates."""
+    store_pre_submit_unlock_snapshot(
+        request,
+        _build_exam_unlock_status(user, str(level)),
+        str(level),
+    )
+
+
+def _finalize_and_render_answer_results(request, context):
+    """Attach session achievement messages and render answer results."""
+    unlock_status = _build_exam_unlock_status(request.user, context['level'])
+    pre_unlock = pop_pre_submit_unlock_snapshot(request, context['level'])
+    context['achievement_messages'] = build_session_achievements(
+        user=request.user,
+        level=str(context['level']),
+        question_type=context['question_type'],
+        correct_count=context.get('correct_count', 0),
+        total_count=context.get('total_count', 0),
+        unlock_status=unlock_status,
+        pre_unlock=pre_unlock,
+        session_count=context.get('total_count', 0),
+    )
+    return render(request, 'exams/answer_results.html', context)
 
 
 def _distinct_answered_question_count(user, level, question_type):

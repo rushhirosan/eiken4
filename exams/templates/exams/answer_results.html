@@ -22,6 +22,17 @@
             {% endif %}
         </div>
     </div>
+
+    {% if achievement_messages %}
+    <div class="mb-4 achievement-messages">
+        {% for msg in achievement_messages %}
+        <div class="alert alert-{{ msg.variant }} mb-2 py-3 px-3 shadow-sm" role="status">
+            <span class="me-2" aria-hidden="true">{% if msg.variant == 'success' %}🎉{% else %}✨{% endif %}</span>
+            {{ msg.text }}
+        </div>
+        {% endfor %}
+    </div>
+    {% endif %}
     
     {% if question_type == 'listening_illustration' %}
         {% for answer in answers_with_questions %}
