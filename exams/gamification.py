@@ -1,6 +1,5 @@
 """Session feedback and unlock progress display helpers."""
 
-from django.db.models import Sum
 from django.utils import timezone
 
 MOCK_EXAM_UNLOCK_MIN_RATE = 80
@@ -69,15 +68,28 @@ def pop_pre_submit_unlock_snapshot(request, level):
 
 
 def _count_today_attempts_for_level(user, level):
-    from .models import DailyProgress
+    """Count answer records for today at this level (includes the current session)."""
+    if user is None:
+        return 0
+
+    from questions.models import ListeningUserAnswer
+
+    from .models import ReadingUserAnswer, UserAnswer, WritingUserAnswer
 
     today = timezone.localdate()
-    total = DailyProgress.objects.filter(
-        user=user,
-        level=str(level),
-        date=today,
-    ).aggregate(total=Sum('questions_attempted'))['total']
-    return total or 0
+    level_str = str(level)
+    filters = {'user': user, 'answered_at__date': today}
+
+    counts = [
+        UserAnswer.objects.filter(question__level=level_str, **filters).count(),
+        WritingUserAnswer.objects.filter(question__level=level_str, **filters).count(),
+        ReadingUserAnswer.objects.filter(
+            reading_question__passage__level=level_str,
+            **filters,
+        ).count(),
+        ListeningUserAnswer.objects.filter(question__level=level_str, **filters).count(),
+    ]
+    return sum(counts)
 
 
 def build_session_achievements(
