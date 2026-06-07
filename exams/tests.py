@@ -207,6 +207,21 @@ class ExamListViewTest(TestCase):
         self.assertContains(response, 'ライティング問題')
         self.assertNotContains(response, 'type=word_order')
 
+    def test_exam_list_shows_daily_missions(self):
+        """問題一覧に今日のミッションカードが表示される"""
+        self.client.login(username='testuser', password='testpass123')
+        response = self.client.get(self.url)
+        self.assertContains(response, '今日のミッション')
+        self.assertContains(response, '今日3問解く')
+
+    def test_exam_list_daily_goal_query_updates_session(self):
+        """daily_goal クエリで目標問題数をセッション保存する"""
+        self.client.login(username='testuser', password='testpass123')
+        response = self.client.get(self.url, {'daily_goal': '10'})
+        self.assertEqual(response.status_code, 200)
+        self.assertEqual(self.client.session.get('daily_mission_goal'), 10)
+        self.assertContains(response, '今日10問解く')
+
     def test_question_list_sets_preferred_level(self):
         """問題一覧に入ると選択中の級がセッションに保存される"""
         self.client.login(username='testuser', password='testpass123')
@@ -855,3 +870,57 @@ class GamificationTest(TestCase):
         ])
         self.assertIsNone(enriched[0]['remaining_to_mock'])
         self.assertFalse(enriched[0]['counts_toward_mock'])
+
+    def test_build_daily_missions_includes_daily_goal_and_categories(self):
+        from exams.gamification import build_daily_missions
+
+        unlock_status = {
+            'mock_exam': {
+                'is_unlocked': False,
+                'remaining_categories': [
+                    {
+                        'question_type': 'grammar_fill',
+                        'display_name': '文法・語彙問題',
+                        'remaining_rate': 80,
+                        'progress_rate': 0,
+                        'total_questions': 100,
+                    },
+                    {
+                        'question_type': 'conversation_fill',
+                        'display_name': '会話補充問題',
+                        'remaining_rate': 80,
+                        'progress_rate': 0,
+                        'total_questions': 50,
+                    },
+                ],
+            },
+        }
+        foundation_progress_by_type = {
+            'grammar_fill': {'question_type': 'grammar_fill', 'display_name': '文法・語彙問題'},
+            'conversation_fill': {'question_type': 'conversation_fill', 'display_name': '会話補充問題'},
+        }
+        missions = build_daily_missions(
+            user=None,
+            level='4',
+            unlock_status=unlock_status,
+            foundation_progress_by_type=foundation_progress_by_type,
+            daily_goal=3,
+        )
+        self.assertEqual(missions['daily_goal'], 3)
+        self.assertEqual(missions['daily_goal_options'], [3, 5, 10])
+        self.assertFalse(missions['all_complete'])
+        self.assertEqual(missions['items'][0]['label'], '今日3問解く')
+        self.assertEqual(missions['items'][0]['progress_text'], '0/3')
+        self.assertEqual(missions['items'][1]['label'], '文法・語彙問題を進めよう')
+        self.assertIn('模擬まで', missions['items'][1]['progress_text'])
+        self.assertIn('grammar_fill', missions['items'][1]['url'])
+        self.assertEqual(missions['items'][2]['label'], '会話補充を3問')
+        self.assertEqual(missions['items'][2]['progress_text'], '0/3')
+
+    def test_normalize_daily_mission_goal_defaults_invalid(self):
+        from exams.gamification import normalize_daily_mission_goal
+
+        self.assertEqual(normalize_daily_mission_goal(5), 5)
+        self.assertEqual(normalize_daily_mission_goal('10'), 10)
+        self.assertEqual(normalize_daily_mission_goal(7), 3)
+        self.assertEqual(normalize_daily_mission_goal(None), 3)

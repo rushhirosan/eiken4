@@ -1,9 +1,43 @@
 """Session feedback and unlock progress display helpers."""
 
+from django.urls import reverse
 from django.utils import timezone
 
 MOCK_EXAM_UNLOCK_MIN_RATE = 80
 RANDOM_UNLOCK_MIN_RATE = 20
+DAILY_MISSION_GOAL_OPTIONS = (3, 5, 10)
+DEFAULT_DAILY_MISSION_GOAL = 3
+DAILY_MISSION_GOAL_SESSION_KEY = 'daily_mission_goal'
+MISSION_CATEGORY_ORDER = (
+    'grammar_fill',
+    'conversation_fill',
+    'word_order',
+    'reading_comprehension',
+    'writing',
+    'listening_illustration',
+    'listening_conversation',
+    'listening_passage',
+)
+MISSION_TYPE_LABELS = {
+    'grammar_fill': '文法・語彙問題',
+    'conversation_fill': '会話補充問題',
+    'word_order': '語順選択問題',
+    'reading_comprehension': '長文読解問題',
+    'writing': 'ライティング問題',
+    'listening_illustration': 'リスニング第1部',
+    'listening_conversation': 'リスニング第2部',
+    'listening_passage': 'リスニング第3部',
+}
+MISSION_SHORT_LABELS = {
+    'grammar_fill': '文法・語彙',
+    'conversation_fill': '会話補充',
+    'word_order': '語順選択',
+    'reading_comprehension': '長文読解',
+    'writing': 'ライティング',
+    'listening_illustration': 'リスニング第1部',
+    'listening_conversation': 'リスニング第2部',
+    'listening_passage': 'リスニング第3部',
+}
 
 
 def enrich_foundation_progress(category_progress):
@@ -65,6 +99,156 @@ def store_pre_submit_unlock_snapshot(request, unlock_status, level):
 def pop_pre_submit_unlock_snapshot(request, level):
     """Return and clear the pre-submit unlock snapshot for a level."""
     return request.session.pop(f'pre_submit_unlock_{level}', None)
+
+
+def normalize_daily_mission_goal(goal):
+    """Return a valid daily mission goal (3, 5, or 10)."""
+    try:
+        goal = int(goal)
+    except (TypeError, ValueError):
+        return DEFAULT_DAILY_MISSION_GOAL
+    if goal in DAILY_MISSION_GOAL_OPTIONS:
+        return goal
+    return DEFAULT_DAILY_MISSION_GOAL
+
+
+def get_daily_mission_goal(request):
+    """Read the user's daily question goal from the session."""
+    raw = request.session.get(DAILY_MISSION_GOAL_SESSION_KEY, DEFAULT_DAILY_MISSION_GOAL)
+    return normalize_daily_mission_goal(raw)
+
+
+def set_daily_mission_goal(request, goal):
+    """Persist the daily question goal in the session."""
+    normalized = normalize_daily_mission_goal(goal)
+    request.session[DAILY_MISSION_GOAL_SESSION_KEY] = normalized
+    request.session.modified = True
+    return normalized
+
+
+def _count_today_attempts_for_type(user, level, question_type):
+    """Count today's answer records for one question type at a level."""
+    if user is None:
+        return 0
+
+    from questions.models import ListeningUserAnswer
+
+    from .models import ReadingUserAnswer, UserAnswer, WritingUserAnswer
+
+    today = timezone.localdate()
+    level_str = str(level)
+    filters = {'user': user, 'answered_at__date': today}
+
+    if question_type == 'listening_illustration':
+        return ListeningUserAnswer.objects.filter(
+            question__level=level_str,
+            **filters,
+        ).count()
+    if question_type == 'reading_comprehension':
+        return ReadingUserAnswer.objects.filter(
+            reading_question__passage__level=level_str,
+            **filters,
+        ).count()
+    if question_type == 'writing':
+        return WritingUserAnswer.objects.filter(
+            question__level=level_str,
+            **filters,
+        ).count()
+    return UserAnswer.objects.filter(
+        question__level=level_str,
+        question__question_type=question_type,
+        **filters,
+    ).count()
+
+
+def _question_list_url(level, question_type, num_questions):
+    base = reverse('exams:question_list_by_level', kwargs={'level': str(level)})
+    return f'{base}?type={question_type}&num_questions={num_questions}'
+
+
+def build_daily_missions(*, user, level, unlock_status, foundation_progress_by_type, daily_goal):
+    """
+    Build up to three daily mission rows for the exam list card.
+    Returns {daily_goal, daily_goal_options, items, all_complete}.
+    """
+    daily_goal = normalize_daily_mission_goal(daily_goal)
+    today_total = _count_today_attempts_for_level(user, level)
+    items = []
+
+    items.append({
+        'kind': 'daily_total',
+        'label': f'今日{daily_goal}問解く',
+        'progress_text': f'{min(today_total, daily_goal)}/{daily_goal}',
+        'completed': today_total >= daily_goal,
+        'url': None,
+    })
+
+    nearest_type = None
+    mock_unlocked = unlock_status['mock_exam']['is_unlocked']
+    if not mock_unlocked:
+        remaining = unlock_status['mock_exam'].get('remaining_categories') or []
+        if remaining:
+            nearest = min(remaining, key=lambda item: item['remaining_rate'])
+            nearest_type = nearest['question_type']
+            progress_rate = nearest['progress_rate']
+            short_name = MISSION_TYPE_LABELS.get(
+                nearest_type,
+                nearest.get('display_name', nearest_type),
+            )
+            remaining_to_mock = nearest.get('remaining_rate', MOCK_EXAM_UNLOCK_MIN_RATE - progress_rate)
+            session_size = min(daily_goal, 10)
+            items.append({
+                'kind': 'nearest_mock',
+                'label': f'{short_name}を進めよう',
+                'progress_text': (
+                    f'取り組み {progress_rate:.0f}% · 模擬まであと{remaining_to_mock:.0f}%'
+                ),
+                'completed': progress_rate >= MOCK_EXAM_UNLOCK_MIN_RATE,
+                'url': _question_list_url(
+                    level,
+                    nearest_type,
+                    session_size,
+                ),
+                'question_type': nearest_type,
+            })
+
+    available_types = [
+        question_type
+        for question_type in MISSION_CATEGORY_ORDER
+        if question_type in foundation_progress_by_type
+    ]
+    for question_type in available_types:
+        if question_type == nearest_type:
+            continue
+        if _count_today_attempts_for_type(user, level, question_type) > 0:
+            continue
+        short_name = MISSION_SHORT_LABELS.get(
+            question_type,
+            MISSION_TYPE_LABELS.get(
+                question_type,
+                foundation_progress_by_type[question_type].get('display_name', question_type),
+            ),
+        )
+        num_questions = 1 if question_type == 'reading_comprehension' else 3
+        items.append({
+            'kind': 'untouched_today',
+            'label': f'{short_name}を{num_questions}問',
+            'progress_text': f'0/{num_questions}',
+            'completed': False,
+            'url': _question_list_url(level, question_type, num_questions),
+            'question_type': question_type,
+        })
+        break
+
+    visible_items = items[:3]
+    all_complete = bool(visible_items) and all(item['completed'] for item in visible_items)
+
+    return {
+        'daily_goal': daily_goal,
+        'daily_goal_options': list(DAILY_MISSION_GOAL_OPTIONS),
+        'items': visible_items,
+        'all_complete': all_complete,
+    }
 
 
 def _count_today_attempts_for_level(user, level):

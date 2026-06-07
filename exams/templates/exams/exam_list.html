@@ -8,15 +8,13 @@
     <div class="row justify-content-center">
         <div class="col-lg-10">
             <div class="text-center mb-2 exam-list-hero">
-                <h1 class="fw-bold text-white mb-1 exam-list-title">
+                <h1 class="fw-bold text-white mb-0 exam-list-title">
                     <i class="fas fa-graduation-cap me-2"></i>
                     英検試験対策
                 </h1>
-                <p class="lead text-white-50 mb-1 small-md-lead">対策問題で実力を向上させましょう</p>
-                <p class="text-white-50 small mb-0 opacity-75">ベータ版です、不具合等々あるかもしれません、フィードバックお寄せください</p>
             </div>
 
-            <div class="text-center mb-3 px-2 exam-level-focus">
+            <div class="text-center mb-2 px-2 exam-level-focus">
                 <p class="text-white-50 small mb-1">現在の試験級</p>
                 <p class="exam-level-focus-title mb-1">{{ active_section.level_name }}</p>
                 {% if other_level_code %}
@@ -28,6 +26,8 @@
                 </p>
                 {% endif %}
             </div>
+
+            {% include 'exams/_daily_missions.html' with daily_missions=active_section.daily_missions %}
 
             {% with section=active_section %}
             <div id="level-panel-{{ section.level_code }}"
@@ -255,6 +255,14 @@
     </div>
 </div>
 
+<script>
+function updateDailyMissionGoal(value) {
+    const url = new URL(window.location.href);
+    url.searchParams.set('daily_goal', value);
+    window.location.href = url.toString();
+}
+</script>
+
 <style>
 .exam-level-focus-title {
     color: #fff;
@@ -349,6 +357,52 @@ body main.container {
     height: 8px;
     border-radius: 4px;
     background-color: #e9ecef;
+}
+
+.daily-missions-card {
+    background: linear-gradient(180deg, #fffef8 0%, #ffffff 100%);
+    border: 1px solid rgba(53, 95, 201, 0.14);
+    border-radius: 0.75rem;
+}
+
+.daily-mission-goal-select {
+    width: 4.75rem;
+    min-width: 4.75rem;
+}
+
+.daily-mission-list {
+    display: grid;
+    gap: 0.35rem;
+}
+
+.daily-mission-item-complete {
+    opacity: 0.72;
+}
+
+.daily-mission-link,
+.daily-mission-row {
+    display: grid;
+    grid-template-columns: 1.25rem 1fr auto;
+    align-items: center;
+    gap: 0.35rem 0.5rem;
+    text-decoration: none;
+    color: inherit;
+    font-size: 0.875rem;
+    line-height: 1.35;
+    padding: 0.15rem 0;
+}
+
+.daily-mission-link:hover {
+    color: #2a4a9e;
+}
+
+.daily-mission-link:hover .daily-mission-label {
+    text-decoration: underline;
+}
+
+.daily-mission-progress {
+    font-size: 0.8125rem;
+    white-space: nowrap;
 }
 
 .display-4 {

@@ -1,0 +1,52 @@
+{% if daily_missions %}
+<div class="card mb-2 daily-missions-card border-0 shadow-sm overflow-hidden">
+    <div class="card-body py-2 px-3">
+        <div class="d-flex justify-content-between align-items-center gap-2 mb-2">
+            <h2 class="h6 mb-0 fw-semibold text-primary">
+                <i class="fas fa-list-check me-1" aria-hidden="true"></i>今日のミッション
+            </h2>
+            <label class="daily-mission-goal-picker mb-0 d-flex align-items-center gap-1 small text-muted">
+                <span class="d-none d-sm-inline">目標</span>
+                <select class="form-select form-select-sm daily-mission-goal-select"
+                        aria-label="今日の目標問題数"
+                        onchange="updateDailyMissionGoal(this.value)">
+                    {% for option in daily_missions.daily_goal_options %}
+                    <option value="{{ option }}" {% if daily_missions.daily_goal == option %}selected{% endif %}>
+                        {{ option }}問
+                    </option>
+                    {% endfor %}
+                </select>
+            </label>
+        </div>
+        <p class="small text-muted mb-2 daily-mission-hint">
+            目標は今日の合計。ほかはおすすめのやることです。
+        </p>
+
+        {% if daily_missions.all_complete %}
+        <p class="mb-0 small text-success fw-semibold" role="status">
+            <span aria-hidden="true">✅</span> 今日のミッション全部クリア！ 自由に復習しよう
+        </p>
+        {% else %}
+        <ul class="list-unstyled mb-0 daily-mission-list">
+            {% for item in daily_missions.items %}
+            <li class="daily-mission-item{% if item.completed %} daily-mission-item-complete{% endif %}">
+                {% if item.url and not item.completed %}
+                <a href="{{ item.url }}" class="daily-mission-link">
+                {% else %}
+                <div class="daily-mission-row">
+                {% endif %}
+                    <span class="daily-mission-check" aria-hidden="true">{% if item.completed %}☑{% else %}☐{% endif %}</span>
+                    <span class="daily-mission-label">{{ item.label }}</span>
+                    <span class="daily-mission-progress text-muted">{{ item.progress_text }}</span>
+                {% if item.url and not item.completed %}
+                </a>
+                {% else %}
+                </div>
+                {% endif %}
+            </li>
+            {% endfor %}
+        </ul>
+        {% endif %}
+    </div>
+</div>
+{% endif %}

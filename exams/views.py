@@ -37,9 +37,12 @@ logger = logging.getLogger(__name__)
 
 from .gamification import (
     build_adventure_summary,
+    build_daily_missions,
     build_session_achievements,
     enrich_foundation_progress,
+    get_daily_mission_goal,
     pop_pre_submit_unlock_snapshot,
+    set_daily_mission_goal,
     store_pre_submit_unlock_snapshot,
 )
 
@@ -163,7 +166,7 @@ def _extra_display_progress(user, level_code, foundation_progress):
     }]
 
 
-def _build_exam_section(user, level_code, level_name):
+def _build_exam_section(user, level_code, level_name, daily_goal=3):
     question_types = {
         'grammar_fill': '文法・語彙問題',
         'conversation_fill': '会話補充問題',
@@ -189,6 +192,13 @@ def _build_exam_section(user, level_code, level_name):
     progress_by_type = {
         item['question_type']: item for item in foundation_progress
     }
+    daily_missions = build_daily_missions(
+        user=user,
+        level=level_code,
+        unlock_status=unlock_status,
+        foundation_progress_by_type=progress_by_type,
+        daily_goal=daily_goal,
+    )
     return {
         'level_code': level_code,
         'level_name': level_name,
@@ -196,6 +206,7 @@ def _build_exam_section(user, level_code, level_name):
         'unlock_status': unlock_status,
         'adventure_summary': build_adventure_summary(unlock_status),
         'foundation_progress_by_type': progress_by_type,
+        'daily_missions': daily_missions,
     }
 
 
@@ -209,12 +220,22 @@ def exam_list(request):
     else:
         active_level = _get_preferred_exam_level(request)
 
+    daily_goal_param = request.GET.get('daily_goal')
+    if daily_goal_param is not None:
+        set_daily_mission_goal(request, daily_goal_param)
+    daily_goal = get_daily_mission_goal(request)
+
     active_name = _exam_level_name(active_level)
     other_entries = [(code, name) for code, name in EXAM_LEVEL_ENTRIES if code != active_level]
     other_level_code, other_level_name = other_entries[0] if other_entries else (None, None)
 
     context = {
-        'active_section': _build_exam_section(request.user, active_level, active_name),
+        'active_section': _build_exam_section(
+            request.user,
+            active_level,
+            active_name,
+            daily_goal=daily_goal,
+        ),
         'other_level_code': other_level_code,
         'other_level_name': other_level_name,
     }
