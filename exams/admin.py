@@ -1,5 +1,14 @@
 from django.contrib import admin
-from .models import Question, Choice, UserAnswer, ReadingUserAnswer, Feedback, WritingUserAnswer
+from .models import (
+    Question,
+    Choice,
+    UserAnswer,
+    ReadingUserAnswer,
+    Feedback,
+    WritingUserAnswer,
+    UserStreak,
+    UserBadge,
+)
 
 class ChoiceInline(admin.TabularInline):
     model = Choice
@@ -36,6 +45,19 @@ class WritingUserAnswerAdmin(admin.ModelAdmin):
     list_display = ('user', 'question', 'answered_at')
     list_filter = ('user', 'answered_at')
     search_fields = ('user__username', 'response_text', 'question__question_text')
+
+
+@admin.register(UserStreak)
+class UserStreakAdmin(admin.ModelAdmin):
+    list_display = ('user', 'current_streak', 'longest_streak', 'last_active_date')
+    search_fields = ('user__username',)
+
+
+@admin.register(UserBadge)
+class UserBadgeAdmin(admin.ModelAdmin):
+    list_display = ('user', 'badge_id', 'earned_at')
+    list_filter = ('badge_id',)
+    search_fields = ('user__username',)
 
 
 @admin.register(Feedback)

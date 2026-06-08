@@ -1,0 +1,25 @@
+{% if habit_summary %}
+<div class="exam-habit-status text-center mb-2 px-2">
+    <p class="exam-habit-status-line mb-0 small">
+        {% with streak=habit_summary.streak badges=habit_summary.badges %}
+        {% if streak.current_streak > 0 %}
+        <span class="exam-habit-streak" title="{% if streak.hint %}{{ streak.hint }}{% else %}連続学習{% endif %}">
+            <span aria-hidden="true">🔥</span> {{ streak.current_streak }}日
+        </span>
+        {% elif streak.hint %}
+        <span class="exam-habit-streak-muted text-white-50">{{ streak.hint }}</span>
+        {% endif %}
+        {% if badges.total_count %}
+        <span class="exam-habit-separator text-white-50" aria-hidden="true">·</span>
+        <button type="button"
+                class="btn btn-link btn-sm exam-habit-badge-btn p-0 align-baseline"
+                data-bs-toggle="modal"
+                data-bs-target="#badgeCollectionModal"
+                aria-label="集めたバッジ {{ badges.earned_count }}個">
+            <span aria-hidden="true">🏅</span> {{ badges.earned_count }}
+        </button>
+        {% endif %}
+        {% endwith %}
+    </p>
+</div>
+{% endif %}

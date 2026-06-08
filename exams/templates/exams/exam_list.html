@@ -14,18 +14,21 @@
                 </h1>
             </div>
 
-            <div class="text-center mb-2 px-2 exam-level-focus">
+            <div class="text-center mb-1 px-2 exam-level-focus">
                 <p class="text-white-50 small mb-1">現在の試験級</p>
-                <p class="exam-level-focus-title mb-1">{{ active_section.level_name }}</p>
-                {% if other_level_code %}
-                <p class="mb-0">
-                    <a href="{% url 'exams:exam_list' %}?level={{ other_level_code }}"
-                       class="exam-level-switch-link">
-                        {{ other_level_name }}に切り替える
-                    </a>
-                </p>
-                {% endif %}
+                <p class="exam-level-focus-title mb-0">{{ active_section.level_name }}</p>
             </div>
+
+            {% include 'exams/_habit_status.html' with habit_summary=active_section.habit_summary %}
+
+            {% if other_level_code %}
+            <p class="text-center mb-2 px-2">
+                <a href="{% url 'exams:exam_list' %}?level={{ other_level_code }}"
+                   class="exam-level-switch-link small">
+                    {{ other_level_name }}に切り替える
+                </a>
+            </p>
+            {% endif %}
 
             {% include 'exams/_daily_missions.html' with daily_missions=active_section.daily_missions %}
 
@@ -255,6 +258,8 @@
     </div>
 </div>
 
+{% include 'exams/_badge_modal.html' with badge_collection=active_section.badge_collection %}
+
 <script>
 function updateDailyMissionGoal(value) {
     const url = new URL(window.location.href);
@@ -403,6 +408,52 @@ body main.container {
 .daily-mission-progress {
     font-size: 0.8125rem;
     white-space: nowrap;
+}
+
+.exam-habit-status-line {
+    color: rgba(255, 255, 255, 0.92);
+    line-height: 1.4;
+}
+
+.exam-habit-streak {
+    font-weight: 600;
+}
+
+.exam-habit-separator {
+    margin: 0 0.35rem;
+}
+
+.exam-habit-badge-btn {
+    color: rgba(255, 255, 255, 0.92) !important;
+    text-decoration: none !important;
+    font-weight: 600;
+}
+
+.exam-habit-badge-btn:hover {
+    color: #fff !important;
+    text-decoration: underline !important;
+}
+
+.badge-collection-grid {
+    display: grid;
+    gap: 0.75rem;
+}
+
+.badge-collection-item {
+    display: grid;
+    grid-template-columns: 2rem 1fr;
+    gap: 0.15rem 0.65rem;
+    align-items: start;
+}
+
+.badge-collection-icon {
+    grid-row: span 2;
+    font-size: 1.35rem;
+    line-height: 1.2;
+}
+
+.badge-collection-item-locked {
+    opacity: 0.55;
 }
 
 .display-4 {

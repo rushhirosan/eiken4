@@ -175,6 +175,42 @@ class DailyProgress(models.Model):
             return 0
         return round((self.correct_answers / self.questions_attempted) * 100, 1)
 
+class UserStreak(models.Model):
+    """連続学習日数（やさしいストリーク）。"""
+
+    user = models.OneToOneField(
+        settings.AUTH_USER_MODEL,
+        on_delete=models.CASCADE,
+        related_name='streak',
+    )
+    current_streak = models.PositiveIntegerField(default=0)
+    longest_streak = models.PositiveIntegerField(default=0)
+    last_active_date = models.DateField(null=True, blank=True)
+    freeze_week_start = models.DateField(
+        null=True,
+        blank=True,
+        help_text='ストリーク維持チャンスを使った週（月曜始まり）',
+    )
+
+    def __str__(self):
+        return f'{self.user.username} streak={self.current_streak}'
+
+
+class UserBadge(models.Model):
+    """行動ベースの獲得バッジ。"""
+
+    user = models.ForeignKey(settings.AUTH_USER_MODEL, on_delete=models.CASCADE)
+    badge_id = models.CharField(max_length=50)
+    earned_at = models.DateTimeField(auto_now_add=True)
+
+    class Meta:
+        unique_together = ('user', 'badge_id')
+        ordering = ['earned_at']
+
+    def __str__(self):
+        return f'{self.user.username} - {self.badge_id}'
+
+
 class Feedback(models.Model):
     """ユーザーからのフィードバックを保存するモデル"""
     FEEDBACK_TYPES = [

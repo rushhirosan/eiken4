@@ -1,4 +1,6 @@
-"""Session feedback and unlock progress display helpers."""
+"""Session feedback, habits, badges, and unlock progress display helpers."""
+
+from datetime import timedelta
 
 from django.urls import reverse
 from django.utils import timezone
@@ -37,6 +39,55 @@ MISSION_SHORT_LABELS = {
     'listening_illustration': 'リスニング第1部',
     'listening_conversation': 'リスニング第2部',
     'listening_passage': 'リスニング第3部',
+}
+LISTENING_QUESTION_TYPES = (
+    'listening_illustration',
+    'listening_conversation',
+    'listening_passage',
+)
+WEEK_ACTIVE_DAYS_REQUIRED = 5
+WEEK_ACTIVE_WINDOW_DAYS = 7
+BADGE_DEFINITIONS = {
+    'first_mock': {
+        'label': 'はじめての模擬',
+        'icon': '🏁',
+        'description': '模擬試験に初めて挑戦した',
+    },
+    'first_random': {
+        'label': 'ランダム10問デビュー',
+        'icon': '🎲',
+        'description': 'ランダム10問を初めて完了した',
+    },
+    'first_reading': {
+        'label': '読解デビュー',
+        'icon': '📖',
+        'description': '長文読解に初めて挑戦した',
+    },
+    'first_writing': {
+        'label': 'ライティングデビュー',
+        'icon': '✍️',
+        'description': 'ライティングを初めて提出した',
+    },
+    'listening_all': {
+        'label': 'リスニングぜんぶ',
+        'icon': '🎧',
+        'description': 'リスニング第1〜3部すべてに触れた',
+    },
+    'total_50': {
+        'label': '50問の仲間入り',
+        'icon': '⭐',
+        'description': '累計50問に到達した',
+    },
+    'total_100': {
+        'label': '100問の仲間入り',
+        'icon': '🌟',
+        'description': '累計100問に到達した',
+    },
+    'week_active': {
+        'label': '1週間チャレンジ',
+        'icon': '📅',
+        'description': '7日間で5日以上学習した',
+    },
 }
 
 
@@ -362,3 +413,257 @@ def build_session_achievements(
         if len(deduped) >= 2:
             break
     return deduped
+
+
+def _week_start(value):
+    """Return Monday of the week containing value."""
+    return value - timedelta(days=value.weekday())
+
+
+def _freeze_available(streak, today):
+    """Whether the one-day grace can still be used this week."""
+    if streak.freeze_week_start is None:
+        return True
+    return streak.freeze_week_start < _week_start(today)
+
+
+def _get_or_create_streak(user):
+    from .models import UserStreak
+
+    streak, _ = UserStreak.objects.get_or_create(
+        user=user,
+        defaults={
+            'current_streak': 0,
+            'longest_streak': 0,
+        },
+    )
+    return streak
+
+
+def record_streak_activity(user):
+    """Update streak after a completed study session."""
+    if user is None or not getattr(user, 'is_authenticated', False):
+        return None
+
+    today = timezone.localdate()
+    streak = _get_or_create_streak(user)
+
+    if streak.last_active_date == today:
+        return streak
+
+    if streak.last_active_date is None:
+        streak.current_streak = 1
+    else:
+        gap = (today - streak.last_active_date).days
+        if gap == 1:
+            streak.current_streak += 1
+        elif gap == 2 and _freeze_available(streak, today):
+            streak.current_streak += 1
+            streak.freeze_week_start = _week_start(today)
+        else:
+            streak.current_streak = 1
+
+    streak.last_active_date = today
+    if streak.current_streak > streak.longest_streak:
+        streak.longest_streak = streak.current_streak
+    streak.save(update_fields=[
+        'current_streak',
+        'longest_streak',
+        'last_active_date',
+        'freeze_week_start',
+    ])
+    return streak
+
+
+def build_streak_summary(user):
+    """Read-only streak display data for the exam list."""
+    if user is None or not getattr(user, 'is_authenticated', False):
+        return None
+
+    streak = _get_or_create_streak(user)
+    today = timezone.localdate()
+
+    if streak.last_active_date is None:
+        return {
+            'current_streak': 0,
+            'longest_streak': 0,
+            'studied_today': False,
+            'hint': None,
+        }
+
+    days_since = (today - streak.last_active_date).days
+    studied_today = days_since == 0
+    effective_streak = streak.current_streak
+
+    if days_since == 0:
+        hint = None
+    elif days_since == 1:
+        hint = '今日1問で続けよう'
+        effective_streak = streak.current_streak
+    elif days_since == 2 and _freeze_available(streak, today):
+        hint = '今日1問で続けよう'
+        effective_streak = streak.current_streak
+    else:
+        effective_streak = 0
+        hint = '今日1問でまたスタート'
+
+    return {
+        'current_streak': effective_streak,
+        'longest_streak': streak.longest_streak,
+        'studied_today': studied_today,
+        'hint': hint,
+    }
+
+
+def _count_total_attempts(user):
+    if user is None:
+        return 0
+
+    from questions.models import ListeningUserAnswer
+
+    from .models import ReadingUserAnswer, UserAnswer, WritingUserAnswer
+
+    return sum([
+        UserAnswer.objects.filter(user=user).count(),
+        WritingUserAnswer.objects.filter(user=user).count(),
+        ReadingUserAnswer.objects.filter(user=user).count(),
+        ListeningUserAnswer.objects.filter(user=user).count(),
+    ])
+
+
+def _collect_activity_dates(user, *, since=None):
+    if user is None:
+        return set()
+
+    from questions.models import ListeningUserAnswer
+
+    from .models import ReadingUserAnswer, UserAnswer, WritingUserAnswer
+
+    dates = set()
+    filters = {'user': user}
+    if since is not None:
+        filters['answered_at__date__gte'] = since
+
+    for model in (
+        UserAnswer,
+        WritingUserAnswer,
+        ReadingUserAnswer,
+        ListeningUserAnswer,
+    ):
+        dates.update(model.objects.filter(**filters).dates('answered_at', 'day'))
+    return dates
+
+
+def _badge_row(badge_id, *, earned=False, earned_at=None):
+    definition = BADGE_DEFINITIONS[badge_id]
+    return {
+        'id': badge_id,
+        'label': definition['label'],
+        'icon': definition['icon'],
+        'description': definition['description'],
+        'earned': earned,
+        'earned_at': earned_at,
+    }
+
+
+def build_badge_collection(user):
+    """All badge slots with earned state for the modal."""
+    if user is None or not getattr(user, 'is_authenticated', False):
+        return {
+            'earned_count': 0,
+            'total_count': len(BADGE_DEFINITIONS),
+            'items': [],
+        }
+
+    from .models import UserBadge
+
+    earned_map = {
+        badge.badge_id: badge.earned_at
+        for badge in UserBadge.objects.filter(user=user)
+    }
+    items = [
+        _badge_row(
+            badge_id,
+            earned=badge_id in earned_map,
+            earned_at=earned_map.get(badge_id),
+        )
+        for badge_id in BADGE_DEFINITIONS
+    ]
+    earned_count = sum(1 for item in items if item['earned'])
+    return {
+        'earned_count': earned_count,
+        'total_count': len(BADGE_DEFINITIONS),
+        'items': items,
+    }
+
+
+def award_new_badges(user, *, question_type):
+    """Evaluate and persist newly earned badges. Returns display rows."""
+    if user is None or not getattr(user, 'is_authenticated', False):
+        return []
+
+    from .models import UserBadge, UserProgress
+
+    earned_ids = set(
+        UserBadge.objects.filter(user=user).values_list('badge_id', flat=True)
+    )
+    newly_earned = []
+
+    def try_award(badge_id):
+        if badge_id in earned_ids or badge_id not in BADGE_DEFINITIONS:
+            return
+        UserBadge.objects.create(user=user, badge_id=badge_id)
+        earned_ids.add(badge_id)
+        newly_earned.append(badge_id)
+
+    if question_type == 'mock_exam':
+        try_award('first_mock')
+    if question_type == 'random':
+        try_award('first_random')
+    if question_type == 'reading_comprehension':
+        try_award('first_reading')
+    if question_type == 'writing':
+        try_award('first_writing')
+
+    attempted_types = set(
+        UserProgress.objects.filter(
+            user=user,
+            total_attempts__gt=0,
+        ).values_list('question_type', flat=True)
+    )
+    if all(question_type in attempted_types for question_type in LISTENING_QUESTION_TYPES):
+        try_award('listening_all')
+
+    total_attempts = _count_total_attempts(user)
+    if total_attempts >= 50:
+        try_award('total_50')
+    if total_attempts >= 100:
+        try_award('total_100')
+
+    since = timezone.localdate() - timedelta(days=WEEK_ACTIVE_WINDOW_DAYS - 1)
+    if len(_collect_activity_dates(user, since=since)) >= WEEK_ACTIVE_DAYS_REQUIRED:
+        try_award('week_active')
+
+    return [_badge_row(badge_id, earned=True) for badge_id in newly_earned]
+
+
+def build_habit_summary(user):
+    """Compact streak + badge count for the exam list header."""
+    streak = build_streak_summary(user)
+    badges = build_badge_collection(user)
+    if streak is None:
+        return None
+    return {
+        'streak': streak,
+        'badges': badges,
+    }
+
+
+def process_gamification_after_session(user, *, question_type):
+    """Update streak and award badges after a submitted session."""
+    record_streak_activity(user)
+    new_badges = award_new_badges(user, question_type=question_type)
+    return {
+        'new_badges': new_badges,
+        'habit_summary': build_habit_summary(user),
+    }

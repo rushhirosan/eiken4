@@ -1,0 +1,29 @@
+{% if badge_collection %}
+<div class="modal fade" id="badgeCollectionModal" tabindex="-1" aria-labelledby="badgeCollectionModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+        <div class="modal-content">
+            <div class="modal-header py-2">
+                <h2 class="modal-title h6 mb-0" id="badgeCollectionModalLabel">
+                    集めたバッジ（{{ badge_collection.earned_count }}/{{ badge_collection.total_count }}）
+                </h2>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="閉じる"></button>
+            </div>
+            <div class="modal-body py-3">
+                <ul class="list-unstyled mb-0 badge-collection-grid">
+                    {% for badge in badge_collection.items %}
+                    <li class="badge-collection-item{% if not badge.earned %} badge-collection-item-locked{% endif %}">
+                        <span class="badge-collection-icon" aria-hidden="true">
+                            {% if badge.earned %}{{ badge.icon }}{% else %}❔{% endif %}
+                        </span>
+                        <span class="badge-collection-label fw-semibold">{{ badge.label }}</span>
+                        <span class="badge-collection-desc small text-muted d-block">
+                            {% if badge.earned %}{{ badge.description }}{% else %}まだ獲得していません{% endif %}
+                        </span>
+                    </li>
+                    {% endfor %}
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+{% endif %}

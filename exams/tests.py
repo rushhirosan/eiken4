@@ -3,7 +3,18 @@ from django.contrib.auth import get_user_model
 from django.urls import reverse
 from django.core.cache import cache
 from unittest.mock import patch
-from .models import Question, Choice, UserProgress, UserAnswer, ReadingUserAnswer, Feedback
+from datetime import timedelta
+
+from .models import (
+    Question,
+    Choice,
+    UserProgress,
+    UserAnswer,
+    ReadingUserAnswer,
+    Feedback,
+    UserStreak,
+    UserBadge,
+)
 from .forms import FeedbackForm, FEEDBACK_CONTENT_MAX_LENGTH
 from questions.models import (
     ReadingPassage,
@@ -221,6 +232,21 @@ class ExamListViewTest(TestCase):
         self.assertEqual(response.status_code, 200)
         self.assertEqual(self.client.session.get('daily_mission_goal'), 10)
         self.assertContains(response, '今日10問解く')
+
+    def test_exam_list_shows_habit_status(self):
+        """問題一覧にストリークとバッジ数のコンパクト表示がある"""
+        UserStreak.objects.create(
+            user=self.user,
+            current_streak=4,
+            longest_streak=4,
+            last_active_date=timezone.localdate(),
+        )
+        UserBadge.objects.create(user=self.user, badge_id='first_reading')
+        self.client.login(username='testuser', password='testpass123')
+        response = self.client.get(self.url)
+        self.assertContains(response, '4日')
+        self.assertContains(response, '集めたバッジ 1個')
+        self.assertContains(response, 'badgeCollectionModal')
 
     def test_question_list_sets_preferred_level(self):
         """問題一覧に入ると選択中の級がセッションに保存される"""
@@ -924,3 +950,70 @@ class GamificationTest(TestCase):
         self.assertEqual(normalize_daily_mission_goal('10'), 10)
         self.assertEqual(normalize_daily_mission_goal(7), 3)
         self.assertEqual(normalize_daily_mission_goal(None), 3)
+
+    def test_record_streak_activity_increments_on_consecutive_day(self):
+        from exams.gamification import record_streak_activity
+
+        user = User.objects.create_user(username='streakuser', password='pass')
+        yesterday = timezone.localdate() - timedelta(days=1)
+        UserStreak.objects.create(
+            user=user,
+            current_streak=2,
+            longest_streak=2,
+            last_active_date=yesterday,
+        )
+        record_streak_activity(user)
+        streak = UserStreak.objects.get(user=user)
+        self.assertEqual(streak.current_streak, 3)
+        self.assertEqual(streak.last_active_date, timezone.localdate())
+
+    def test_record_streak_activity_uses_weekly_freeze_once(self):
+        from exams.gamification import record_streak_activity
+
+        user = User.objects.create_user(username='freezeuser', password='pass')
+        two_days_ago = timezone.localdate() - timedelta(days=2)
+        UserStreak.objects.create(
+            user=user,
+            current_streak=5,
+            longest_streak=5,
+            last_active_date=two_days_ago,
+        )
+        record_streak_activity(user)
+        streak = UserStreak.objects.get(user=user)
+        self.assertEqual(streak.current_streak, 6)
+        self.assertIsNotNone(streak.freeze_week_start)
+
+    def test_build_streak_summary_hides_streak_after_long_gap(self):
+        from exams.gamification import build_streak_summary
+
+        user = User.objects.create_user(username='gapuser', password='pass')
+        UserStreak.objects.create(
+            user=user,
+            current_streak=8,
+            longest_streak=8,
+            last_active_date=timezone.localdate() - timedelta(days=4),
+        )
+        summary = build_streak_summary(user)
+        self.assertEqual(summary['current_streak'], 0)
+        self.assertIn('スタート', summary['hint'])
+
+    def test_award_new_badges_grants_first_reading_once(self):
+        from exams.gamification import award_new_badges
+
+        user = User.objects.create_user(username='badgeuser', password='pass')
+        earned = award_new_badges(user, question_type='reading_comprehension')
+        self.assertEqual(len(earned), 1)
+        self.assertEqual(earned[0]['id'], 'first_reading')
+        self.assertFalse(
+            award_new_badges(user, question_type='reading_comprehension')
+        )
+
+    def test_build_badge_collection_marks_earned_badges(self):
+        from exams.gamification import build_badge_collection
+
+        user = User.objects.create_user(username='collectionuser', password='pass')
+        UserBadge.objects.create(user=user, badge_id='total_50')
+        collection = build_badge_collection(user)
+        self.assertEqual(collection['earned_count'], 1)
+        earned_item = next(item for item in collection['items'] if item['id'] == 'total_50')
+        self.assertTrue(earned_item['earned'])

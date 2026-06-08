@@ -37,11 +37,14 @@ logger = logging.getLogger(__name__)
 
 from .gamification import (
     build_adventure_summary,
+    build_badge_collection,
     build_daily_missions,
+    build_habit_summary,
     build_session_achievements,
     enrich_foundation_progress,
     get_daily_mission_goal,
     pop_pre_submit_unlock_snapshot,
+    process_gamification_after_session,
     set_daily_mission_goal,
     store_pre_submit_unlock_snapshot,
 )
@@ -207,6 +210,8 @@ def _build_exam_section(user, level_code, level_name, daily_goal=3):
         'adventure_summary': build_adventure_summary(unlock_status),
         'foundation_progress_by_type': progress_by_type,
         'daily_missions': daily_missions,
+        'habit_summary': build_habit_summary(user),
+        'badge_collection': build_badge_collection(user),
     }
 
 
@@ -1944,6 +1949,11 @@ def _finalize_and_render_answer_results(request, context):
         pre_unlock=pre_unlock,
         session_count=context.get('total_count', 0),
     )
+    gamification_result = process_gamification_after_session(
+        request.user,
+        question_type=context['question_type'],
+    )
+    context['new_badges'] = gamification_result['new_badges']
     return render(request, 'exams/answer_results.html', context)
 
 

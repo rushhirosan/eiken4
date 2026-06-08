@@ -11,7 +11,7 @@
 | 学習が主、ゲームは添え物 | ポイント競争より「本番に近づく実感」を優先 |
 | 努力を褒める | 正答率だけでなく「今日やった」「続けている」も価値にする |
 | 失敗を怖くしない | 全体ランキング・厳しいストリーク切れは避ける |
-| 既存進捗データを活かす | `UserProgress` / `DailyProgress` / 解放ロジックを再利用する |
+| 既存進捗データを活かす | `UserProgress` / 回答履歴 / 解放ロジックを再利用する |
 
 ### 対象外（当面）
 
@@ -27,15 +27,48 @@
 |-------|------|------|------|
 | **Phase 1a** | セッション結果の達成メッセージ | ✅ 完了 | `answer_results.html` |
 | **Phase 1b** | アンロック条件のプログレスバー強化 | ✅ 完了 | `exam_list.html` |
-| **Phase 1c** | 今日のミッション（1〜3個） | ⬜ 未着手 | 設計のみ |
-| **Phase 2** | やさしいストリーク / 行動ベースバッジ | ⬜ 未着手 | |
+| **Phase 1c** | 今日のミッション（1〜3個） | ✅ 完了 | `_daily_missions.html` |
+| **Phase 2** | やさしいストリーク / 行動ベースバッジ | ✅ 完了 | コンパクト1行 + モーダル |
 | **Phase 3** | マスコット / 週間レポート / 模擬試験ボス演出 | ⬜ 未着手 | |
 
-**最終更新**: 2026-06-05（Phase 1a・1b 本番デプロイ済み）
+**最終更新**: 2026-06-09（Phase 1〜2 実装・テスト済み。本番反映はデプロイ待ち）
 
 ---
 
-## 既存実装（Phase 1 完了分）
+## Phase 2 UI 方針（上部肥大化を避ける）
+
+問題一覧の上部は **ミッションを主役** にし、ストリーク・バッジは縦幅を増やさない。
+
+| 要素 | 置き場所 | 常時表示 |
+|------|----------|----------|
+| ストリーク | 試験級タイトル直下の1行 | `🔥 N日` または短い励まし文のみ |
+| バッジ | 同じ1行の `🏅 N` ボタン | 獲得数のみ。詳細はモーダル |
+| バッジ詳細 | `#badgeCollectionModal` | タップで8種の一覧（獲得/未獲得） |
+| 新規獲得 | 回答結果画面 | Phase 1a と同トーンのバナー |
+
+**やさしいストリークのルール**
+
+- 1日1問の提出で継続（正解不要）
+- 1日空いても、**週1回まで** 連続日数を維持（`freeze_week_start` で管理）
+- 2日以上空き or チャンス使用済み → 表示上は 0 日。「今日1問でまたスタート」と案内（責めない）
+
+**行動ベースバッジ（8種）**
+
+| badge_id | 条件 |
+|----------|------|
+| `first_mock` | 模擬試験を初提出 |
+| `first_random` | ランダム10問を初完了 |
+| `first_reading` | 長文読解を初提出 |
+| `first_writing` | ライティングを初提出 |
+| `listening_all` | リスニング第1〜3部すべてに1回以上 |
+| `total_50` / `total_100` | 累計回答 50 / 100 件 |
+| `week_active` | 直近7日間のうち5日以上学習 |
+
+級別「進捗をクリア」ではバッジ・ストリークはリセットしない（アカウント全体の習慣記録）。
+
+---
+
+## 既存実装（Phase 1〜2）
 
 ### 1. セッション結果の達成メッセージ
 
@@ -55,7 +88,7 @@
 
 **技術メモ**
 
-- 提出直前に `_snapshot_unlock_before_submit()` で解放状態をセッション保存
+- 提出直前に `store_pre_submit_unlock_snapshot()` で解放状態をセッション保存
 - 結果表示時に `pop_pre_submit_unlock_snapshot()` で比較し「新規解放」を検出
 - スナップショット挿入箇所: `submit_answers` / `submit_reading_comprehension` / `question_list` の POST 各分岐
 
@@ -81,8 +114,83 @@
 | ランダム10問 | 基本問題のうち **3カテゴリ以上** が取り組み率 **20%以上** |
 | 模擬試験 | `FOUNDATION_QUESTION_TYPES` の **全カテゴリ** が **80%以上** |
 
-定数: `exams/views.py` の `RANDOM_UNLOCK_*` / `MOCK_EXAM_UNLOCK_MIN_RATE`  
+定数: `exams/views.py` の `RANDOM_UNLOCK_*` / `MOCK_EXAM_UNLOCK_MIN_RATE`（表示用は `gamification.py` にも同値）  
 集計: `_build_exam_unlock_status()` / `_progress_rate_for_type()`
+
+### 3. 今日のミッション（問題一覧）
+
+**画面**: 問題一覧（`exam_list.html`）—「現在の試験級」と「問題形式を選択」の間
+
+**コンポーネント**: `exams/templates/exams/_daily_missions.html`
+
+**ロジック**: `exams/gamification.py`
+
+| 関数 | 役割 |
+|------|------|
+| `build_daily_missions()` | 最大3件のミッション行を組み立て |
+| `get_daily_mission_goal()` / `set_daily_mission_goal()` | 目標問題数（3 / 5 / 10）をセッション保持 |
+| `normalize_daily_mission_goal()` | 不正値は既定 3 にフォールバック |
+| `_count_today_attempts_for_level()` | 当日の回答件数（級別合計） |
+| `_count_today_attempts_for_type()` | 当日の回答件数（カテゴリ別） |
+
+**ミッション種別（優先順・最大3件）**
+
+| kind | 条件 | 表示例 |
+|------|------|--------|
+| `daily_total` | 常に1件目 | 「今日3問解く」— 進捗 `2/3` |
+| `nearest_mock` | 模擬試験未解放かつ `remaining_categories` あり | 「文法・語彙問題を進めよう」— 取り組み率・模擬まであと% |
+| `untouched_today` | 当日未着手のカテゴリがあれば1件 | 「会話補充を3問」（読解は1問） |
+
+- 模擬に最も近いカテゴリと重複する未着手カテゴリはスキップ
+- 全件完了時: 「今日のミッション全部クリア！ 自由に復習しよう」
+- チェック表示は当日計算のみ（サーバー保存なし）
+
+**目標問題数の変更**
+
+- カード右上のセレクト（3 / 5 / 10問）
+- `?daily_goal=N` で `exam_list` に遷移 → セッション `daily_mission_goal` に保存
+- JS: `updateDailyMissionGoal()`（`exam_list.html` 内）
+
+**deep link**
+
+- `nearest_mock` / `untouched_today` から `question_list_by_level?type=...&num_questions=N` へリンク
+- `nearest_mock` のセッションサイズは `min(daily_goal, 10)`
+
+**当日カウントのデータ源**
+
+- 設計メモでは `DailyProgress` を想定していたが、実装は **当日の回答レコード件数**（`UserAnswer` / `WritingUserAnswer` / `ReadingUserAnswer` / `ListeningUserAnswer`）を直接集計
+
+**context 配線**
+
+- `exam_list` → `_build_exam_section(..., daily_goal=...)` → `active_section.daily_missions`
+
+### 4. やさしいストリーク / 行動ベースバッジ
+
+**画面**
+
+- 問題一覧: `_habit_status.html`（級名の下・1行）、`_badge_modal.html`
+- 回答結果: 新規バッジバナー（`new_badges`）
+
+**モデル**
+
+- `UserStreak`: `current_streak`, `longest_streak`, `last_active_date`, `freeze_week_start`
+- `UserBadge`: `badge_id`, `earned_at`（ユーザー × バッジで一意）
+
+**ロジック**: `exams/gamification.py`
+
+| 関数 | 役割 |
+|------|------|
+| `record_streak_activity()` | セッション提出後に連続日数を更新 |
+| `build_streak_summary()` | 問題一覧用の表示用ストリーク（当日未学習でも維持表示） |
+| `award_new_badges()` | 条件を満たしたバッジを付与（新規のみ返す） |
+| `build_badge_collection()` | モーダル用の全バッジ一覧 |
+| `build_habit_summary()` | ストリーク + バッジ数のコンパクトサマリ |
+| `process_gamification_after_session()` | 回答結果表示前の一括処理 |
+
+**配線**
+
+- `_finalize_and_render_answer_results()` で `process_gamification_after_session()` を呼ぶ
+- `_build_exam_section()` から `habit_summary` / `badge_collection` を渡す
 
 ---
 
@@ -90,67 +198,62 @@
 
 ```
 exams/
-├── gamification.py              # メッセージ・サマリ・スナップショット
-├── views.py                     # unlock 集計、exam section、answer_results
-├── models.py                    # UserProgress, DailyProgress
+├── gamification.py              # 達成・ミッション・ストリーク・バッジ
+├── views.py                     # unlock 集計、exam section、回答結果の gamification 配線
+├── models.py                    # UserProgress, DailyProgress, UserStreak, UserBadge
+├── tests.py                     # GamificationTest, ExamListViewTest
 └── templates/exams/
-    ├── exam_list.html           # 問題一覧 + 冒険カード
-    ├── answer_results.html      # 達成バナー
+    ├── exam_list.html           # 問題一覧 + 冒険カード + 習慣ステータス
+    ├── _daily_missions.html     # 今日のミッションカード
+    ├── _habit_status.html       # ストリーク + バッジ数（1行）
+    ├── _badge_modal.html        # バッジコレクション
+    ├── answer_results.html      # 達成バナー + 新規バッジ
     └── _foundation_progress.html  # カテゴリ別バー
 ```
 
 **進捗の一次データ**
 
 - `UserProgress`: ユーザー × 級 × 問題タイプ（累計・正答数・最終回答日）
-- `DailyProgress`: 日次の取り組み数
+- `DailyProgress`: 日次の取り組み数（ミッション当日カウントには未使用）
 - 取り組み率の分子: カテゴリごとに「回答済み distinct 件数」（読解は本文単位など）
+- ミッション当日カウント: 上記4種の回答モデル `answered_at__date=today`
 
 ---
 
 ## Todo リスト
 
-### Phase 1c — 今日のミッション（次の実装候補）
+### Phase 1 — 完了 ✅
 
-**目的**: ログイン直後に「今日やること」を1〜3個提示し、再訪理由を作る。
+Phase 1a〜1c は実装・単体テスト済み。1c の本番反映はデプロイ待ち。
 
-**配置**: `exam_list.html` の「現在の試験級」と「問題形式を選択」の間
+<details>
+<summary>Phase 1c 実装チェックリスト（参照用・すべて完了）</summary>
 
-**ミッション候補（優先順）**
+- [x] `build_daily_missions()` を `gamification.py` に追加
+- [x] `_build_exam_section()` から `daily_missions` を context に渡す
+- [x] `exam_list.html` にミッションカード UI（`_daily_missions.html`）
+- [x] 各ミッションから該当 `question_list` への deep link
+- [x] 目標問題数 3 / 5 / 10（セッション + クエリ `daily_goal`）
+- [x] テスト: `GamificationTest`（ミッション組み立て・目標正規化）、`ExamListViewTest`（表示・セッション更新）
 
-- [ ] 今日 N 問解く（例: 5問）— `DailyProgress` 当日合計
-- [ ] 模擬試験解放に最も近いカテゴリ — `remaining_categories[0]`
-- [ ] 今日未着手のカテゴリ — 当日 `today_attempts == 0` の形式
-
-**実装タスク**
-
-- [ ] `build_daily_missions(user, level)` を `gamification.py` に追加
-- [ ] `_build_exam_section()` から `daily_missions` を context に渡す
-- [ ] `exam_list.html` にミッションカード UI
-- [ ] 各ミッションから該当 `question_list` への deep link（`?type=...&num_questions=5`）
-- [ ] テスト: 新規ユーザー / 初週 / 模擬直前 の3パターン
-
-**UX メモ**
-
-- 固定3個ではなく **1〜3個**（新規は「今日3問」だけでも可）
-- チェックボックスは見た目のみで可（サーバー保存不要・当日計算で完結）
+</details>
 
 ---
 
-### Phase 2 — 習慣化
+### Phase 2 — 完了 ✅
 
-- [ ] **やさしいストリーク**
-  - [ ] 連続学習日数（1日1問でもカウント）
-  - [ ] 1日休んでも維持できる「チャンス1回」（要検討）
-  - [ ] ナビ or 問題一覧に小さく表示（🔥 N日目）
-  - [ ] DB: 新モデル `UserStreak` または `DailyProgress` から算出
+<details>
+<summary>Phase 2 実装チェックリスト（参照用・すべて完了）</summary>
 
-- [ ] **行動ベースバッジ（5〜10個）**
-  - [ ] 初めて模擬試験に挑戦
-  - [ ] リスニング3部すべてに触れた
-  - [ ] 累計50問 / 100問
-  - [ ] 7日間に1回以上学習
-  - [ ] 進捗ページ or 問題一覧に「集めたバッジ」コーナー
-  - [ ] DB: `UserBadge` モデル（badge_id, earned_at）— 要マイグレーション
+- [x] `UserStreak` / `UserBadge` モデル + マイグレーション `0024`
+- [x] 連続学習日数（1日1問以上のセッション提出で更新）
+- [x] 週1回のストリーク維持チャンス（1日空き）
+- [x] 問題一覧にコンパクト表示（`_habit_status.html`）
+- [x] バッジ8種 + モーダル詳細（`_badge_modal.html`）
+- [x] 回答結果に新規バッジバナー
+- [x] テスト: ストリーク更新・バッジ付与・問題一覧表示
+
+</details>
 
 ---
 
@@ -169,7 +272,8 @@ exams/
 - [ ] 「模擬試験まであと○%」の表示閾値（現在40%）の調整
 - [ ] 3級ライティングを模擬試験条件に含めるか product 判断
 - [ ] `progress.html` とゲームUIの役割分担を README 化（詳細 vs 今日やること）
-- [ ] 「進捗をクリア」とバッジ/ストリークの整合（誤操作対策・保護者確認）
+- [ ] 「進捗をクリア」とバッジ/ストリークの整合（現状は級クリアでもバッジ/ストリークは保持）
+- [ ] ミッション当日カウントを `DailyProgress` と揃えるか検討（現状は回答レコード直集計）
 
 ---
 
@@ -186,6 +290,10 @@ python manage.py test exams.tests.ExamListViewTest
 **手動確認**
 
 - [ ] 問題一覧: 各カテゴリにプログレスバー、冒険カードが表示される
+- [ ] 問題一覧: 級名下に `🔥 N日` / `🏅 N`（バッジモーダル）
+- [ ] 問題一覧: 「今日のミッション」カード（目標セレクト・最大3件・完了メッセージ）
+- [ ] 目標を 5問 / 10問 に変更するとラベルと進捗が更新される
+- [ ] ミッションリンクから該当形式の問題一覧へ遷移する
 - [ ] 3級: ライティングに取り組み率が出る（模擬条件外の注記付き）
 - [ ] 問題を解いた後: 結果画面に達成バナー（最大2件）
 - [ ] 解放条件を跨いだセッション: 「ランダム10問が解放された！」等
@@ -203,6 +311,8 @@ python manage.py test exams.tests.ExamListViewTest
 
 ```
 ログイン → 問題一覧
+  ├ 試験級 + 🔥ストリーク / 🏅バッジ（1行）        ← Phase 2
+  ├ 今日のミッション（目標・おすすめ・deep link）  ← Phase 1c
   ├ 各形式ボタン + 取り組み率バー
   ├ 冒険の進み具合（ランダム / 模擬）
   └ 総合問題（解放済みなら有効）
@@ -210,6 +320,7 @@ python manage.py test exams.tests.ExamListViewTest
 問題解答 → 回答結果
   ├ 正解数
   ├ 達成メッセージ（0〜2件）  ← Phase 1a
+  ├ 新規バッジバナー（条件時）  ← Phase 2
   └ 解説 → 問題一覧へ
 
 学習進捗（別ナビ）
