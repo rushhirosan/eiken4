@@ -89,6 +89,18 @@ BADGE_DEFINITIONS = {
         'description': '7日間で5日以上学習した',
     },
 }
+# 回答結果の達成バナー文言（小学生・中学生向け。正答率より「続けた・見直す」を優先）
+ACHIEVEMENT_COPY = {
+    'writing_done': '提出おつかれさま！模範解答と見比べてみよう',
+    'score_perfect': 'ぜんぶ正解！とてもよくできたね',
+    'score_high': 'よくできた！解説であと一歩を確認しよう',
+    'score_mid': 'ちゃんと取り組めたね。間違えたところを見直そう',
+    'score_low': 'おつかれさま。解説を読んで、もう一度チャレンジしてみよう',
+    'today_start': '今日の学習スタート、ナイス！',
+    'unlock_random': 'ランダム10問が解放された！挑戦してみよう',
+    'unlock_mock': '模擬試験が解放された！いつでも挑戦できるよ',
+}
+MOCK_NEAR_REMAINING_MAX = 40
 
 
 def enrich_foundation_progress(category_progress):
@@ -347,7 +359,7 @@ def build_session_achievements(
     if question_type == 'writing':
         if total_count > 0:
             messages.append({
-                'text': '提出おつかれさま！参考解答と比べて確認しよう',
+                'text': ACHIEVEMENT_COPY['writing_done'],
                 'variant': 'info',
             })
         return messages[:2]
@@ -355,49 +367,60 @@ def build_session_achievements(
     if total_count <= 0:
         return messages
 
+    accuracy = correct_count / total_count
     if correct_count == total_count:
         messages.append({
-            'text': 'パーフェクト！ぜんぶ正解だよ',
+            'text': ACHIEVEMENT_COPY['score_perfect'],
             'variant': 'success',
         })
-    elif correct_count / total_count >= 0.8:
+    elif accuracy >= 0.8:
         messages.append({
-            'text': 'よくがんばった！あと一歩',
+            'text': ACHIEVEMENT_COPY['score_high'],
             'variant': 'success',
         })
-    elif correct_count / total_count >= 0.5:
+    elif accuracy >= 0.5:
         messages.append({
-            'text': 'いい調子！間違えたところを見直そう',
+            'text': ACHIEVEMENT_COPY['score_mid'],
             'variant': 'info',
         })
-
-    today_total = _count_today_attempts_for_level(user, level)
-    if session_count > 0 and today_total <= session_count:
+    elif correct_count > 0:
         messages.append({
-            'text': '今日のスタート、ナイス！',
+            'text': ACHIEVEMENT_COPY['score_low'],
+            'variant': 'info',
+        })
+    else:
+        messages.append({
+            'text': ACHIEVEMENT_COPY['score_low'],
             'variant': 'info',
         })
 
     if pre_unlock:
         if not pre_unlock.get('random') and unlock_status['random']['is_unlocked']:
             messages.append({
-                'text': 'ランダム10問が解放された！',
+                'text': ACHIEVEMENT_COPY['unlock_random'],
                 'variant': 'success',
             })
         if not pre_unlock.get('mock_exam') and unlock_status['mock_exam']['is_unlocked']:
             messages.append({
-                'text': '模擬試験が解放された！挑戦してみよう',
+                'text': ACHIEVEMENT_COPY['unlock_mock'],
                 'variant': 'success',
             })
+
+    today_total = _count_today_attempts_for_level(user, level)
+    if session_count > 0 and today_total <= session_count:
+        messages.append({
+            'text': ACHIEVEMENT_COPY['today_start'],
+            'variant': 'info',
+        })
 
     if len(messages) < 2 and not unlock_status['mock_exam']['is_unlocked']:
         remaining = unlock_status['mock_exam'].get('remaining_categories') or []
         if remaining:
             nearest = min(remaining, key=lambda item: item['remaining_rate'])
-            if nearest['remaining_rate'] <= 40:
+            if nearest['remaining_rate'] <= MOCK_NEAR_REMAINING_MAX:
                 messages.append({
                     'text': (
-                        f"模擬試験まであと{nearest['remaining_rate']:.0f}%"
+                        f"あと少し！模擬試験まであと{nearest['remaining_rate']:.0f}%"
                         f"（{nearest['display_name']}）"
                     ),
                     'variant': 'info',

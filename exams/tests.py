@@ -822,8 +822,28 @@ class GamificationTest(TestCase):
             unlock_status=unlock_status,
             session_count=5,
         )
-        self.assertTrue(any('パーフェクト' in m['text'] for m in messages))
+        self.assertTrue(any('ぜんぶ正解' in m['text'] for m in messages))
         self.assertLessEqual(len(messages), 2)
+
+    def test_build_session_achievements_low_score_still_encourages(self):
+        from exams.gamification import ACHIEVEMENT_COPY, build_session_achievements
+
+        unlock_status = {
+            'random': {'is_unlocked': False},
+            'mock_exam': {'is_unlocked': False, 'remaining_categories': []},
+        }
+        messages = build_session_achievements(
+            user=None,
+            level='4',
+            question_type='grammar_fill',
+            correct_count=1,
+            total_count=5,
+            unlock_status=unlock_status,
+            session_count=5,
+        )
+        self.assertTrue(
+            any(ACHIEVEMENT_COPY['score_low'] in m['text'] for m in messages)
+        )
 
     def test_build_session_achievements_unlock_random(self):
         from exams.gamification import build_session_achievements
