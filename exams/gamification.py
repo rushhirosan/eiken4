@@ -10,6 +10,7 @@ RANDOM_UNLOCK_MIN_RATE = 20
 DAILY_MISSION_GOAL_OPTIONS = (3, 5, 10)
 DEFAULT_DAILY_MISSION_GOAL = 3
 DAILY_MISSION_GOAL_SESSION_KEY = 'daily_mission_goal'
+SESSION_ACHIEVEMENT_MAX = 3
 MISSION_CATEGORY_ORDER = (
     'grammar_fill',
     'conversation_fill',
@@ -99,8 +100,9 @@ ACHIEVEMENT_COPY = {
     'today_start': '今日の学習スタート、ナイス！',
     'unlock_random': 'ランダム10問が解放された！挑戦してみよう',
     'unlock_mock': '模擬試験が解放された！いつでも挑戦できるよ',
+    'mission_complete': '今日のミッション達成！おつかれさま',
 }
-MOCK_NEAR_REMAINING_MAX = 40
+MOCK_NEAR_REMAINING_MAX = 80
 
 
 def enrich_foundation_progress(category_progress):
@@ -175,16 +177,26 @@ def normalize_daily_mission_goal(goal):
     return DEFAULT_DAILY_MISSION_GOAL
 
 
-def get_daily_mission_goal(request):
-    """Read the user's daily question goal from the session."""
-    raw = request.session.get(DAILY_MISSION_GOAL_SESSION_KEY, DEFAULT_DAILY_MISSION_GOAL)
-    return normalize_daily_mission_goal(raw)
+def _daily_mission_goal_session_key(level):
+    """Session key for daily mission goal scoped to an exam level."""
+    return f'{DAILY_MISSION_GOAL_SESSION_KEY}_{str(level)}'
 
 
-def set_daily_mission_goal(request, goal):
-    """Persist the daily question goal in the session."""
+def get_daily_mission_goal(request, level='4'):
+    """Read the user's daily question goal for the given exam level."""
+    key = _daily_mission_goal_session_key(level)
+    if key in request.session:
+        return normalize_daily_mission_goal(request.session[key])
+    # Legacy single key (pre-level-scoping) applies to 4級 only.
+    if str(level) == '4' and DAILY_MISSION_GOAL_SESSION_KEY in request.session:
+        return normalize_daily_mission_goal(request.session[DAILY_MISSION_GOAL_SESSION_KEY])
+    return DEFAULT_DAILY_MISSION_GOAL
+
+
+def set_daily_mission_goal(request, goal, level='4'):
+    """Persist the daily question goal for the given exam level."""
     normalized = normalize_daily_mission_goal(goal)
-    request.session[DAILY_MISSION_GOAL_SESSION_KEY] = normalized
+    request.session[_daily_mission_goal_session_key(level)] = normalized
     request.session.modified = True
     return normalized
 
@@ -339,6 +351,34 @@ def _count_today_attempts_for_level(user, level):
     return sum(counts)
 
 
+def _append_habit_session_achievements(
+    messages,
+    *,
+    user,
+    level,
+    daily_goal=None,
+    session_count=0,
+    streak_incremented=False,
+    streak_count=0,
+):
+    """Add daily-mission and streak lines after a submitted session."""
+    if daily_goal and user and session_count > 0:
+        today_total = _count_today_attempts_for_level(user, level)
+        before_total = today_total - session_count
+        goal = normalize_daily_mission_goal(daily_goal)
+        if before_total < goal <= today_total:
+            messages.append({
+                'text': ACHIEVEMENT_COPY['mission_complete'],
+                'variant': 'success',
+            })
+
+    if streak_incremented and streak_count >= 1:
+        messages.append({
+            'text': f'🔥 {streak_count}日連続！いい調子',
+            'variant': 'success',
+        })
+
+
 def build_session_achievements(
     *,
     user,
@@ -349,9 +389,12 @@ def build_session_achievements(
     unlock_status,
     pre_unlock=None,
     session_count=0,
+    daily_goal=None,
+    streak_incremented=False,
+    streak_count=0,
 ):
     """
-    Build up to two short achievement lines for the answer results page.
+    Build up to three short achievement lines for the answer results page.
     Each item: {text, variant} where variant is bootstrap alert suffix.
     """
     messages = []
@@ -362,37 +405,28 @@ def build_session_achievements(
                 'text': ACHIEVEMENT_COPY['writing_done'],
                 'variant': 'info',
             })
-        return messages[:2]
-
-    if total_count <= 0:
-        return messages
-
-    accuracy = correct_count / total_count
-    if correct_count == total_count:
-        messages.append({
-            'text': ACHIEVEMENT_COPY['score_perfect'],
-            'variant': 'success',
-        })
-    elif accuracy >= 0.8:
-        messages.append({
-            'text': ACHIEVEMENT_COPY['score_high'],
-            'variant': 'success',
-        })
-    elif accuracy >= 0.5:
-        messages.append({
-            'text': ACHIEVEMENT_COPY['score_mid'],
-            'variant': 'info',
-        })
-    elif correct_count > 0:
-        messages.append({
-            'text': ACHIEVEMENT_COPY['score_low'],
-            'variant': 'info',
-        })
-    else:
-        messages.append({
-            'text': ACHIEVEMENT_COPY['score_low'],
-            'variant': 'info',
-        })
+    elif total_count > 0:
+        accuracy = correct_count / total_count
+        if correct_count == total_count:
+            messages.append({
+                'text': ACHIEVEMENT_COPY['score_perfect'],
+                'variant': 'success',
+            })
+        elif accuracy >= 0.8:
+            messages.append({
+                'text': ACHIEVEMENT_COPY['score_high'],
+                'variant': 'success',
+            })
+        elif accuracy >= 0.5:
+            messages.append({
+                'text': ACHIEVEMENT_COPY['score_mid'],
+                'variant': 'info',
+            })
+        else:
+            messages.append({
+                'text': ACHIEVEMENT_COPY['score_low'],
+                'variant': 'info',
+            })
 
     if pre_unlock:
         if not pre_unlock.get('random') and unlock_status['random']['is_unlocked']:
@@ -406,6 +440,16 @@ def build_session_achievements(
                 'variant': 'success',
             })
 
+    _append_habit_session_achievements(
+        messages,
+        user=user,
+        level=level,
+        daily_goal=daily_goal,
+        session_count=session_count,
+        streak_incremented=streak_incremented,
+        streak_count=streak_count,
+    )
+
     today_total = _count_today_attempts_for_level(user, level)
     if session_count > 0 and today_total <= session_count:
         messages.append({
@@ -413,7 +457,7 @@ def build_session_achievements(
             'variant': 'info',
         })
 
-    if len(messages) < 2 and not unlock_status['mock_exam']['is_unlocked']:
+    if len(messages) < SESSION_ACHIEVEMENT_MAX and not unlock_status['mock_exam']['is_unlocked']:
         remaining = unlock_status['mock_exam'].get('remaining_categories') or []
         if remaining:
             nearest = min(remaining, key=lambda item: item['remaining_rate'])
@@ -433,7 +477,7 @@ def build_session_achievements(
             continue
         seen_texts.add(msg['text'])
         deduped.append(msg)
-        if len(deduped) >= 2:
+        if len(deduped) >= SESSION_ACHIEVEMENT_MAX:
             break
     return deduped
 
@@ -464,15 +508,19 @@ def _get_or_create_streak(user):
 
 
 def record_streak_activity(user):
-    """Update streak after a completed study session."""
+    """Update streak after a completed study session.
+
+    Returns (streak, incremented_today) where incremented_today is True when
+    this session newly counts toward today's streak.
+    """
     if user is None or not getattr(user, 'is_authenticated', False):
-        return None
+        return None, False
 
     today = timezone.localdate()
     streak = _get_or_create_streak(user)
 
     if streak.last_active_date == today:
-        return streak
+        return streak, False
 
     if streak.last_active_date is None:
         streak.current_streak = 1
@@ -495,7 +543,7 @@ def record_streak_activity(user):
         'last_active_date',
         'freeze_week_start',
     ])
-    return streak
+    return streak, True
 
 
 def build_streak_summary(user):
@@ -684,9 +732,15 @@ def build_habit_summary(user):
 
 def process_gamification_after_session(user, *, question_type):
     """Update streak and award badges after a submitted session."""
-    record_streak_activity(user)
+    _, streak_incremented = record_streak_activity(user)
     new_badges = award_new_badges(user, question_type=question_type)
+    habit_summary = build_habit_summary(user)
+    streak_count = 0
+    if habit_summary and habit_summary.get('streak'):
+        streak_count = habit_summary['streak']['current_streak']
     return {
         'new_badges': new_badges,
-        'habit_summary': build_habit_summary(user),
+        'habit_summary': habit_summary,
+        'streak_incremented': streak_incremented,
+        'streak_count': streak_count,
     }

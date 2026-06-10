@@ -226,11 +226,25 @@ class ExamListViewTest(TestCase):
         self.assertContains(response, '今日3問解く')
 
     def test_exam_list_daily_goal_query_updates_session(self):
-        """daily_goal クエリで目標問題数をセッション保存する"""
+        """daily_goal クエリで目標問題数を級別セッションに保存する"""
         self.client.login(username='testuser', password='testpass123')
         response = self.client.get(self.url, {'daily_goal': '10'})
         self.assertEqual(response.status_code, 200)
-        self.assertEqual(self.client.session.get('daily_mission_goal'), 10)
+        self.assertEqual(self.client.session.get('daily_mission_goal_4'), 10)
+        self.assertContains(response, '今日10問解く')
+
+    def test_exam_list_daily_goal_is_scoped_per_level(self):
+        """級ごとにミッション目標を保持する"""
+        self.client.login(username='testuser', password='testpass123')
+        self.client.get(self.url, {'level': '4', 'daily_goal': '10'})
+        self.client.get(self.url, {'level': '3', 'daily_goal': '5'})
+        session = self.client.session
+        self.assertEqual(session.get('daily_mission_goal_4'), 10)
+        self.assertEqual(session.get('daily_mission_goal_3'), 5)
+
+        response = self.client.get(self.url, {'level': '3'})
+        self.assertContains(response, '今日5問解く')
+        response = self.client.get(self.url, {'level': '4'})
         self.assertContains(response, '今日10問解く')
 
     def test_exam_list_shows_habit_status(self):
@@ -247,6 +261,13 @@ class ExamListViewTest(TestCase):
         self.assertContains(response, '4日')
         self.assertContains(response, '集めたバッジ 1個')
         self.assertContains(response, 'badgeCollectionModal')
+
+    def test_exam_list_badge_modal_shows_unlock_hint_for_unearned(self):
+        """未獲得バッジにも獲得条件を表示する"""
+        self.client.login(username='testuser', password='testpass123')
+        response = self.client.get(self.url)
+        self.assertContains(response, '累計50問に到達した')
+        self.assertContains(response, 'まだ獲得していません')
 
     def test_question_list_sets_preferred_level(self):
         """問題一覧に入ると選択中の級がセッションに保存される"""
@@ -823,7 +844,7 @@ class GamificationTest(TestCase):
             session_count=5,
         )
         self.assertTrue(any('ぜんぶ正解' in m['text'] for m in messages))
-        self.assertLessEqual(len(messages), 2)
+        self.assertLessEqual(len(messages), 3)
 
     def test_build_session_achievements_low_score_still_encourages(self):
         from exams.gamification import ACHIEVEMENT_COPY, build_session_achievements
@@ -982,10 +1003,13 @@ class GamificationTest(TestCase):
             longest_streak=2,
             last_active_date=yesterday,
         )
-        record_streak_activity(user)
-        streak = UserStreak.objects.get(user=user)
+        streak, incremented = record_streak_activity(user)
+        self.assertTrue(incremented)
         self.assertEqual(streak.current_streak, 3)
         self.assertEqual(streak.last_active_date, timezone.localdate())
+
+        _, incremented_again = record_streak_activity(user)
+        self.assertFalse(incremented_again)
 
     def test_record_streak_activity_uses_weekly_freeze_once(self):
         from exams.gamification import record_streak_activity
@@ -998,10 +1022,112 @@ class GamificationTest(TestCase):
             longest_streak=5,
             last_active_date=two_days_ago,
         )
-        record_streak_activity(user)
-        streak = UserStreak.objects.get(user=user)
+        streak, incremented = record_streak_activity(user)
+        self.assertTrue(incremented)
         self.assertEqual(streak.current_streak, 6)
         self.assertIsNotNone(streak.freeze_week_start)
+
+    def test_build_session_achievements_shows_streak_on_first_session_today(self):
+        from exams.gamification import build_session_achievements
+
+        unlock_status = {
+            'random': {'is_unlocked': False},
+            'mock_exam': {'is_unlocked': False, 'remaining_categories': []},
+        }
+        messages = build_session_achievements(
+            user=None,
+            level='4',
+            question_type='grammar_fill',
+            correct_count=2,
+            total_count=3,
+            unlock_status=unlock_status,
+            session_count=3,
+            streak_incremented=True,
+            streak_count=2,
+        )
+        self.assertTrue(any('2日連続' in m['text'] for m in messages))
+
+    def test_build_session_achievements_shows_mock_near_when_remaining_within_threshold(self):
+        from exams.gamification import build_session_achievements
+
+        unlock_status = {
+            'random': {'is_unlocked': False},
+            'mock_exam': {
+                'is_unlocked': False,
+                'remaining_categories': [
+                    {
+                        'display_name': '文法・語彙問題',
+                        'remaining_rate': 55,
+                        'progress_rate': 25,
+                        'question_type': 'grammar_fill',
+                    },
+                ],
+            },
+        }
+        messages = build_session_achievements(
+            user=None,
+            level='4',
+            question_type='grammar_fill',
+            correct_count=1,
+            total_count=5,
+            unlock_status=unlock_status,
+            session_count=5,
+        )
+        self.assertTrue(any('模擬試験まであと55%' in m['text'] for m in messages))
+
+    def test_get_daily_mission_goal_legacy_session_key_for_level_4(self):
+        from exams.gamification import get_daily_mission_goal
+
+        class FakeSession(dict):
+            modified = False
+
+        session = FakeSession({'daily_mission_goal': 10})
+        request = type('R', (), {'session': session})()
+        self.assertEqual(get_daily_mission_goal(request, level='4'), 10)
+        self.assertEqual(get_daily_mission_goal(request, level='3'), 3)
+
+    def test_build_session_achievements_shows_mission_complete(self):
+        from exams.gamification import ACHIEVEMENT_COPY, build_session_achievements
+
+        user = User.objects.create_user(username='missionuser', password='pass')
+        question = Question.objects.create(
+            level='4',
+            question_type='grammar_fill',
+            question_text='Mission test',
+        )
+        choice = Choice.objects.create(
+            question=question,
+            choice_text='A',
+            is_correct=True,
+            order=1,
+        )
+        now = timezone.now()
+        for _ in range(3):
+            UserAnswer.objects.create(
+                user=user,
+                question=question,
+                selected_choice=choice,
+                is_correct=True,
+                answered_at=now,
+            )
+
+        unlock_status = {
+            'random': {'is_unlocked': False},
+            'mock_exam': {'is_unlocked': False, 'remaining_categories': []},
+        }
+        messages = build_session_achievements(
+            user=user,
+            level='4',
+            question_type='grammar_fill',
+            correct_count=1,
+            total_count=1,
+            unlock_status=unlock_status,
+            session_count=1,
+            daily_goal=3,
+        )
+        self.assertTrue(
+            any(ACHIEVEMENT_COPY['mission_complete'] in m['text'] for m in messages)
+        )
 
     def test_build_streak_summary_hides_streak_after_long_gap(self):
         from exams.gamification import build_streak_summary

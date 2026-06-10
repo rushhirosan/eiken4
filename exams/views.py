@@ -227,8 +227,8 @@ def exam_list(request):
 
     daily_goal_param = request.GET.get('daily_goal')
     if daily_goal_param is not None:
-        set_daily_mission_goal(request, daily_goal_param)
-    daily_goal = get_daily_mission_goal(request)
+        set_daily_mission_goal(request, daily_goal_param, level=active_level)
+    daily_goal = get_daily_mission_goal(request, level=active_level)
 
     active_name = _exam_level_name(active_level)
     other_entries = [(code, name) for code, name in EXAM_LEVEL_ENTRIES if code != active_level]
@@ -1937,21 +1937,26 @@ def _snapshot_unlock_before_submit(request, user, level):
 
 def _finalize_and_render_answer_results(request, context):
     """Attach session achievement messages and render answer results."""
+    level = str(context['level'])
     unlock_status = _build_exam_unlock_status(request.user, context['level'])
-    pre_unlock = pop_pre_submit_unlock_snapshot(request, context['level'])
+    pre_unlock = pop_pre_submit_unlock_snapshot(request, level)
+    gamification_result = process_gamification_after_session(
+        request.user,
+        question_type=context['question_type'],
+    )
+    daily_goal = get_daily_mission_goal(request, level=level)
     context['achievement_messages'] = build_session_achievements(
         user=request.user,
-        level=str(context['level']),
+        level=level,
         question_type=context['question_type'],
         correct_count=context.get('correct_count', 0),
         total_count=context.get('total_count', 0),
         unlock_status=unlock_status,
         pre_unlock=pre_unlock,
         session_count=context.get('total_count', 0),
-    )
-    gamification_result = process_gamification_after_session(
-        request.user,
-        question_type=context['question_type'],
+        daily_goal=daily_goal,
+        streak_incremented=gamification_result['streak_incremented'],
+        streak_count=gamification_result['streak_count'],
     )
     context['new_badges'] = gamification_result['new_badges']
     return render(request, 'exams/answer_results.html', context)

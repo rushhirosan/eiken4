@@ -17,7 +17,7 @@
                         </span>
                         <span class="badge-collection-label fw-semibold">{{ badge.label }}</span>
                         <span class="badge-collection-desc small text-muted d-block">
-                            {% if badge.earned %}{{ badge.description }}{% else %}まだ獲得していません{% endif %}
+                            {{ badge.description }}{% if not badge.earned %}（まだ獲得していません）{% endif %}
                         </span>
                     </li>
                     {% endfor %}
