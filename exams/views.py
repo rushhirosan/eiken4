@@ -273,7 +273,7 @@ def question_list(request, level=None, exam_id=None):
         else:
             num_questions = int(num_questions_param)
     
-    status = request.GET.get('status', 'all')
+    status = request.GET.get('status', 'unanswered')
 
     if question_type == 'writing' and str(level) != '3':
         messages.info(request, 'ライティング問題は英検3級のみです。')
@@ -1044,7 +1044,7 @@ def submit_answers(request, level):
         if question_type == 'writing' and str(level) != '3':
             messages.info(request, 'ライティング問題は英検3級のみです。')
             return redirect('exams:exam_list')
-        status = request.POST.get('status', 'all')  # 追加
+        status = request.POST.get('status', 'unanswered')
         # num_questionsが「全て」の場合は文字列、そうでなければ整数
         num_questions_param = request.POST.get('num_questions', 10)
         if num_questions_param == 'all':
