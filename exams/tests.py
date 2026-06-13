@@ -1183,3 +1183,20 @@ class GamificationTest(TestCase):
         self.assertEqual(collection['earned_count'], 1)
         earned_item = next(item for item in collection['items'] if item['id'] == 'total_50')
         self.assertTrue(earned_item['earned'])
+
+    def test_build_badge_collection_excludes_writing_for_level_4(self):
+        from exams.gamification import BADGE_DEFINITIONS, build_badge_collection
+
+        user = User.objects.create_user(username='badgeleveluser', password='pass')
+        collection = build_badge_collection(user, level='4')
+        badge_ids = [item['id'] for item in collection['items']]
+        self.assertNotIn('first_writing', badge_ids)
+        self.assertEqual(collection['total_count'], len(BADGE_DEFINITIONS) - 1)
+
+    def test_build_badge_collection_includes_writing_for_level_3(self):
+        from exams.gamification import build_badge_collection
+
+        user = User.objects.create_user(username='badgelevel3user', password='pass')
+        collection = build_badge_collection(user, level='3')
+        badge_ids = [item['id'] for item in collection['items']]
+        self.assertIn('first_writing', badge_ids)

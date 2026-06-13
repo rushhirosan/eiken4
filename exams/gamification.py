@@ -90,6 +90,20 @@ BADGE_DEFINITIONS = {
         'description': '7日間で5日以上学習した',
     },
 }
+# 級固有バッジ（未指定は全級で表示）
+BADGE_LEVELS = {
+    'first_writing': ('3',),
+}
+
+
+def badge_ids_for_level(level):
+    """Return badge ids visible for the given exam level."""
+    level_str = str(level)
+    return [
+        badge_id
+        for badge_id in BADGE_DEFINITIONS
+        if BADGE_LEVELS.get(badge_id) is None or level_str in BADGE_LEVELS[badge_id]
+    ]
 # 回答結果の達成バナー文言（小学生・中学生向け。正答率より「続けた・見直す」を優先）
 ACHIEVEMENT_COPY = {
     'writing_done': '提出おつかれさま！模範解答と見比べてみよう',
@@ -650,12 +664,13 @@ def _badge_row(badge_id, *, earned=False, earned_at=None):
     }
 
 
-def build_badge_collection(user):
+def build_badge_collection(user, level=None):
     """All badge slots with earned state for the modal."""
+    badge_ids = badge_ids_for_level(level) if level is not None else list(BADGE_DEFINITIONS)
     if user is None or not getattr(user, 'is_authenticated', False):
         return {
             'earned_count': 0,
-            'total_count': len(BADGE_DEFINITIONS),
+            'total_count': len(badge_ids),
             'items': [],
         }
 
@@ -671,12 +686,12 @@ def build_badge_collection(user):
             earned=badge_id in earned_map,
             earned_at=earned_map.get(badge_id),
         )
-        for badge_id in BADGE_DEFINITIONS
+        for badge_id in badge_ids
     ]
     earned_count = sum(1 for item in items if item['earned'])
     return {
         'earned_count': earned_count,
-        'total_count': len(BADGE_DEFINITIONS),
+        'total_count': len(badge_ids),
         'items': items,
     }
 
@@ -731,10 +746,10 @@ def award_new_badges(user, *, question_type):
     return [_badge_row(badge_id, earned=True) for badge_id in newly_earned]
 
 
-def build_habit_summary(user):
+def build_habit_summary(user, level=None):
     """Compact streak + badge count for the exam list header."""
     streak = build_streak_summary(user)
-    badges = build_badge_collection(user)
+    badges = build_badge_collection(user, level=level)
     if streak is None:
         return None
     return {

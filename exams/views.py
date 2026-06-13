@@ -210,8 +210,8 @@ def _build_exam_section(user, level_code, level_name, daily_goal=3):
         'adventure_summary': build_adventure_summary(unlock_status),
         'foundation_progress_by_type': progress_by_type,
         'daily_missions': daily_missions,
-        'habit_summary': build_habit_summary(user),
-        'badge_collection': build_badge_collection(user),
+        'habit_summary': build_habit_summary(user, level=level_code),
+        'badge_collection': build_badge_collection(user, level=level_code),
     }
 
 
