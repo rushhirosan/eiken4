@@ -2,6 +2,10 @@
 {% load static %}
 {% load custom_filters %}
 
+{% block extra_css %}
+<link href="{% static 'css/question_list.css' %}" rel="stylesheet">
+{% endblock %}
+
 {% block content %}
 <div class="container mt-5">
     <h2 class="mb-4">回答結果</h2>
@@ -56,14 +60,14 @@
                 <h5 class="card-title">問題 {{ forloop.counter }}</h5>
                 
                 {% if answer.question.image %}
-                <div class="text-center mb-3">
-                    <img src="{% static answer.question.image %}" alt="問題のイラスト" class="img-fluid" style="max-width: 100%; height: auto;">
+                <div class="listening-illustration-img-wrap">
+                    <img src="{% static answer.question.image %}" alt="問題のイラスト" class="listening-illustration-img">
                 </div>
                 {% endif %}
                 
                 {% if answer.question.audio %}
-                <div class="text-center mb-3">
-                    <audio controls class="w-100" style="max-width: 100%;">
+                <div class="text-center listening-illustration-audio-wrap">
+                    <audio controls>
                         <source src="{% static answer.question.audio %}" type="audio/mpeg">
                         お使いのブラウザは音声再生に対応していません。
                     </audio>

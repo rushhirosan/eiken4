@@ -408,6 +408,9 @@ class ProgressViewTest(TestCase):
             ).exists()
         )
 
+        follow = self.client.get(response.url)
+        self.assertContains(follow, '英検3級の学習進捗をクリアしました')
+
     def test_clear_progress_rejects_invalid_level(self):
         """不正な級指定では進捗を削除しない"""
         self.client.login(username='testuser', password='testpass123')
