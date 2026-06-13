@@ -103,6 +103,19 @@ ACHIEVEMENT_COPY = {
     'mission_complete': '今日のミッション達成！おつかれさま',
 }
 MOCK_NEAR_REMAINING_MAX = 80
+MOCK_REMAINING_COPY_NEAR = 15
+MOCK_REMAINING_COPY_MID = 40
+
+
+def format_mock_remaining_message(remaining_rate, display_name):
+    """Return tiered encouragement copy for mock-exam progress on answer results."""
+    remaining = round(float(remaining_rate))
+    suffix = f"模擬試験まであと{remaining}%（{display_name}）"
+    if remaining <= MOCK_REMAINING_COPY_NEAR:
+        return f"あと少し！{suffix}"
+    if remaining <= MOCK_REMAINING_COPY_MID:
+        return f"この調子！{suffix}"
+    return suffix
 
 
 def enrich_foundation_progress(category_progress):
@@ -463,9 +476,9 @@ def build_session_achievements(
             nearest = min(remaining, key=lambda item: item['remaining_rate'])
             if nearest['remaining_rate'] <= MOCK_NEAR_REMAINING_MAX:
                 messages.append({
-                    'text': (
-                        f"あと少し！模擬試験まであと{nearest['remaining_rate']:.0f}%"
-                        f"（{nearest['display_name']}）"
+                    'text': format_mock_remaining_message(
+                        nearest['remaining_rate'],
+                        nearest['display_name'],
                     ),
                     'variant': 'info',
                 })

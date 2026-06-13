@@ -24,13 +24,17 @@
     </div>
 
     {% if achievement_messages %}
-    <div class="mb-4 achievement-messages">
-        {% for msg in achievement_messages %}
-        <div class="alert alert-{{ msg.variant }} mb-2 py-3 px-3 shadow-sm" role="status">
-            <span class="me-2" aria-hidden="true">{% if msg.variant == 'success' %}🎉{% else %}✨{% endif %}</span>
-            {{ msg.text }}
+    <div class="card mb-4 achievement-summary-card shadow-sm border-0" role="status">
+        <div class="card-body py-3 px-3">
+            <ul class="list-unstyled mb-0 achievement-summary-list">
+                {% for msg in achievement_messages %}
+                <li class="achievement-summary-item{% if not forloop.last %} mb-2{% endif %}">
+                    <span class="achievement-summary-icon me-1" aria-hidden="true">{% if msg.variant == 'success' %}🎉{% else %}✨{% endif %}</span>
+                    {{ msg.text }}
+                </li>
+                {% endfor %}
+            </ul>
         </div>
-        {% endfor %}
     </div>
     {% endif %}
 
@@ -251,6 +255,16 @@
     
     .alert {
         font-size: 0.95rem;
+    }
+
+    .achievement-summary-card {
+        background: linear-gradient(180deg, #f0fdf4 0%, #ffffff 100%);
+        border-left: 4px solid #22c55e !important;
+    }
+
+    .achievement-summary-list {
+        font-size: 0.95rem;
+        line-height: 1.45;
     }
     
     audio {

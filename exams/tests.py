@@ -1074,6 +1074,23 @@ class GamificationTest(TestCase):
             session_count=5,
         )
         self.assertTrue(any('模擬試験まであと55%' in m['text'] for m in messages))
+        self.assertFalse(any('あと少し' in m['text'] for m in messages))
+
+    def test_format_mock_remaining_message_tiers(self):
+        from exams.gamification import format_mock_remaining_message
+
+        self.assertEqual(
+            format_mock_remaining_message(10, '会話補充問題'),
+            'あと少し！模擬試験まであと10%（会話補充問題）',
+        )
+        self.assertEqual(
+            format_mock_remaining_message(30, '文法・語彙問題'),
+            'この調子！模擬試験まであと30%（文法・語彙問題）',
+        )
+        self.assertEqual(
+            format_mock_remaining_message(70, '会話補充問題'),
+            '模擬試験まであと70%（会話補充問題）',
+        )
 
     def test_get_daily_mission_goal_legacy_session_key_for_level_4(self):
         from exams.gamification import get_daily_mission_goal
