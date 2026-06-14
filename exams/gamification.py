@@ -132,6 +132,16 @@ def format_mock_remaining_message(remaining_rate, display_name):
     return suffix
 
 
+def select_mock_remaining_category(remaining_categories, question_type):
+    """Prefer the category just practiced; otherwise pick the nearest to mock unlock."""
+    if not remaining_categories:
+        return None
+    for item in remaining_categories:
+        if item.get('question_type') == question_type:
+            return item
+    return min(remaining_categories, key=lambda item: item['remaining_rate'])
+
+
 def enrich_foundation_progress(category_progress):
     """Add mock-exam remaining rate to each foundation category row."""
     enriched = []
@@ -487,12 +497,12 @@ def build_session_achievements(
     if len(messages) < SESSION_ACHIEVEMENT_MAX and not unlock_status['mock_exam']['is_unlocked']:
         remaining = unlock_status['mock_exam'].get('remaining_categories') or []
         if remaining:
-            nearest = min(remaining, key=lambda item: item['remaining_rate'])
-            if nearest['remaining_rate'] <= MOCK_NEAR_REMAINING_MAX:
+            focus = select_mock_remaining_category(remaining, question_type)
+            if focus and focus['remaining_rate'] <= MOCK_NEAR_REMAINING_MAX:
                 messages.append({
                     'text': format_mock_remaining_message(
-                        nearest['remaining_rate'],
-                        nearest['display_name'],
+                        focus['remaining_rate'],
+                        focus['display_name'],
                     ),
                     'variant': 'info',
                 })

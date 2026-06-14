@@ -1079,6 +1079,44 @@ class GamificationTest(TestCase):
         self.assertTrue(any('模擬試験まであと55%' in m['text'] for m in messages))
         self.assertFalse(any('あと少し' in m['text'] for m in messages))
 
+    def test_build_session_achievements_mock_near_prefers_current_question_type(self):
+        from exams.gamification import build_session_achievements
+
+        unlock_status = {
+            'random': {'is_unlocked': False},
+            'mock_exam': {
+                'is_unlocked': False,
+                'remaining_categories': [
+                    {
+                        'display_name': '文法・語彙問題',
+                        'remaining_rate': 60,
+                        'progress_rate': 20,
+                        'question_type': 'grammar_fill',
+                    },
+                    {
+                        'display_name': '会話補充問題',
+                        'remaining_rate': 55,
+                        'progress_rate': 25,
+                        'question_type': 'conversation_fill',
+                    },
+                ],
+            },
+        }
+        messages = build_session_achievements(
+            user=None,
+            level='4',
+            question_type='grammar_fill',
+            correct_count=5,
+            total_count=5,
+            unlock_status=unlock_status,
+            session_count=5,
+        )
+        mock_messages = [m['text'] for m in messages if '模擬試験まで' in m['text']]
+        self.assertEqual(len(mock_messages), 1)
+        self.assertIn('文法・語彙問題', mock_messages[0])
+        self.assertIn('あと60%', mock_messages[0])
+        self.assertNotIn('会話補充問題', mock_messages[0])
+
     def test_format_mock_remaining_message_tiers(self):
         from exams.gamification import format_mock_remaining_message
 
