@@ -341,7 +341,7 @@ def build_daily_missions(*, user, level, unlock_status, foundation_progress_by_t
                 foundation_progress_by_type[question_type].get('display_name', question_type),
             ),
         )
-        num_questions = 1 if question_type == 'reading_comprehension' else 3
+        num_questions = 1 if question_type in ('reading_comprehension', 'writing') else 3
         items.append({
             'kind': 'untouched_today',
             'label': f'{short_name}を{num_questions}問',

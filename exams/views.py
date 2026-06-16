@@ -305,7 +305,7 @@ def question_list(request, level=None, exam_id=None):
         'all': '全て',
     }
     
-    # 長文読解問題専用のオプション（1問を含む）
+    # 長文読解・ライティングは1問から選べる
     if question_type == 'reading_comprehension':
         question_count_options = {
             1: '1本文',
@@ -314,6 +314,16 @@ def question_list(request, level=None, exam_id=None):
             10: '10本文',
             20: '20本文',
             30: '30本文',
+            'all': '全て',
+        }
+    elif question_type == 'writing':
+        question_count_options = {
+            1: '1問',
+            3: '3問',
+            5: '5問',
+            10: '10問',
+            20: '20問',
+            30: '30問',
             'all': '全て',
         }
     
