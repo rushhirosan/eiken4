@@ -85,9 +85,9 @@ BADGE_DEFINITIONS = {
         'description': '累計100問に到達した',
     },
     'week_active': {
-        'label': '1週間チャレンジ',
+        'label': '週5日チャレンジ',
         'icon': '📅',
-        'description': '7日間で5日以上学習した',
+        'description': '直近7日間のうち5日以上学習した',
     },
 }
 # 級固有バッジ（未指定は全級で表示）
