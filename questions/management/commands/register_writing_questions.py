@@ -4,6 +4,7 @@ from django.core.management.base import BaseCommand
 
 from exams.models import Question
 
+from exams.writing_feedback import parse_writing_rubric
 from questions.level_paths import (
     add_default_register_arguments,
     questions_file_abspath,
@@ -96,6 +97,7 @@ class Command(BaseCommand):
             explanation = _strip_writing_noise_lines(
                 ref_match.group(1).strip() if ref_match else ''
             )
+            writing_rubric = parse_writing_rubric(question_text)
 
             Question.objects.create(
                 question_text=question_text,
@@ -103,6 +105,7 @@ class Command(BaseCommand):
                 question_type='writing',
                 question_number=qn,
                 explanation=explanation,
+                writing_rubric=writing_rubric,
             )
             registered += 1
             self.stdout.write(

@@ -1238,3 +1238,91 @@ class GamificationTest(TestCase):
         collection = build_badge_collection(user, level='3')
         badge_ids = [item['id'] for item in collection['items']]
         self.assertIn('first_writing', badge_ids)
+
+
+class WritingFeedbackTests(TestCase):
+    """Phase-1 writing self-check (exams/writing_feedback.py)."""
+
+    def test_parse_rubric_email_reply(self):
+        from exams.writing_feedback import parse_writing_rubric
+
+        text = (
+            'James の 2 つの質問（下線部）に答えること。\n'
+            '●語数の目安は 15～25 語です。'
+        )
+        rubric = parse_writing_rubric(text)
+        self.assertEqual(rubric['kind'], 'email_reply')
+        self.assertEqual(rubric['word_min'], 15)
+        self.assertEqual(rubric['word_max'], 25)
+        self.assertTrue(rubric['count_body_only'])
+
+    def test_parse_rubric_opinion(self):
+        from exams.writing_feedback import parse_writing_rubric
+
+        text = '2 つの英文で書きなさい。語数の目安は 25～35語。'
+        rubric = parse_writing_rubric(text)
+        self.assertEqual(rubric['kind'], 'opinion')
+        self.assertEqual(rubric['sentence_min'], 2)
+
+    def test_extract_email_body_excludes_greeting(self):
+        from exams.writing_feedback import count_english_words, extract_email_body
+
+        text = (
+            'Hi, James!\n'
+            'Thank you for your e-mail.\n\n'
+            'I planted the potatoes this March. I am growing about twenty carrots.\n\n'
+            'Best wishes,\n'
+        )
+        body = extract_email_body(text)
+        self.assertIn('planted', body)
+        self.assertNotIn('Hi', body.split()[0])
+        self.assertEqual(count_english_words(body), 12)
+
+    def test_analyze_email_reply_word_count_ok(self):
+        from exams.writing_feedback import analyze_writing_response
+
+        rubric = {
+            'kind': 'email_reply',
+            'word_min': 15,
+            'word_max': 25,
+            'count_body_only': True,
+        }
+        text = (
+            'Hi, James!\n'
+            'Thank you for your e-mail.\n\n'
+            'I planted them last March. I am growing about twenty carrots in my garden now.\n\n'
+            'Best wishes,\n'
+        )
+        result = analyze_writing_response(text, rubric)
+        messages = [item['message'] for item in result['items']]
+        self.assertTrue(any('語数:' in msg and '✅' not in msg for msg in messages))
+        self.assertTrue(any(item['level'] == 'ok' and '語数:' in item['message'] for item in result['items']))
+
+    def test_analyze_opinion_warns_short_sentences(self):
+        from exams.writing_feedback import analyze_writing_response
+
+        rubric = {
+            'kind': 'opinion',
+            'word_min': 25,
+            'word_max': 35,
+            'sentence_min': 2,
+            'sentence_max': 2,
+            'count_body_only': False,
+        }
+        text = 'English is more interesting for me because I like reading books.'
+        result = analyze_writing_response(text, rubric)
+        self.assertTrue(
+            any(item['level'] == 'warn' and '文数' in item['message'] for item in result['items'])
+        )
+
+    def test_get_writing_rubric_falls_back_to_question_text(self):
+        from exams.models import Question
+        from exams.writing_feedback import get_writing_rubric
+
+        question = Question(
+            question_text='2 つの英文で書きなさい。語数の目安は 25～35語。',
+            question_type='writing',
+            level='3',
+        )
+        rubric = get_writing_rubric(question)
+        self.assertEqual(rubric['kind'], 'opinion')

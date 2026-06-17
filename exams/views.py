@@ -48,6 +48,7 @@ from .gamification import (
     set_daily_mission_goal,
     store_pre_submit_unlock_snapshot,
 )
+from .writing_feedback import analyze_writing_response, get_writing_rubric
 
 
 def _format_objective_explanation(raw_explanation, correct_choice):
@@ -1274,10 +1275,14 @@ def submit_answers(request, level):
                 text = (request.POST.get(f'answer_{question_id}', '') or '').strip()
                 if not text:
                     continue
+                question = Question.objects.get(id=question_id)
+                rubric = get_writing_rubric(question)
+                feedback = analyze_writing_response(text, rubric)
                 WritingUserAnswer.objects.create(
                     user=request.user,
                     question_id=question_id,
                     response_text=text,
+                    feedback_json=feedback,
                 )
                 update_user_progress(request.user, str(level), 'writing', True)
 
@@ -1659,6 +1664,9 @@ def answer_results(request, level, question_type):
 
         answers_with_questions = []
         for answer in user_answers:
+            feedback_items = []
+            if answer.feedback_json:
+                feedback_items = answer.feedback_json.get('items', [])
             answers_with_questions.append({
                 'question': answer.question,
                 'choices': [],
@@ -1666,6 +1674,7 @@ def answer_results(request, level, question_type):
                 'is_correct': None,
                 'correct_choice': None,
                 'explanation': answer.question.explanation,
+                'feedback_items': feedback_items,
                 'order': order_dict.get(answer.question.id, 0),
             })
         answers_with_questions.sort(key=lambda x: x['order'])

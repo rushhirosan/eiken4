@@ -45,6 +45,11 @@ class Question(models.Model):
     question_text = models.TextField()
     listening_text = models.TextField(blank=True, null=True, help_text="リスニング問題の音声内容")
     explanation = models.TextField(blank=True, default='')
+    writing_rubric = models.JSONField(
+        null=True,
+        blank=True,
+        help_text='ライティング自己チェック用ルーブリック（登録時に問題文から抽出）',
+    )
     passage = models.ForeignKey('self', on_delete=models.CASCADE, null=True, blank=True, related_name='related_questions')
     identifier = models.CharField(max_length=10, blank=True, help_text='本文の識別子（a, bなど）または問題の識別子（a1, b1など）')
     audio_file = models.CharField(max_length=255, blank=True)  # 音声ファイルのパス
@@ -108,6 +113,11 @@ class WritingUserAnswer(models.Model):
     user = models.ForeignKey(CustomUser, on_delete=models.CASCADE)
     question = models.ForeignKey(Question, on_delete=models.CASCADE)
     response_text = models.TextField()
+    feedback_json = models.JSONField(
+        null=True,
+        blank=True,
+        help_text='Phase-1 自己チェック結果（語数・文数など）',
+    )
     answered_at = models.DateTimeField(auto_now_add=True)
 
     class Meta:

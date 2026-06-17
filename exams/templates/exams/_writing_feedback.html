@@ -1,0 +1,11 @@
+{% if answer.feedback_items %}
+<h6 class="mt-3">自己チェック（自動）</h6>
+<ul class="list-unstyled writing-feedback-list mb-0">
+    {% for item in answer.feedback_items %}
+    <li class="mb-2 writing-feedback-item writing-feedback-{{ item.level }}">
+        <span class="me-1" aria-hidden="true">{% if item.level == 'ok' %}✅{% elif item.level == 'warn' %}⚠️{% else %}ℹ️{% endif %}</span>
+        {{ item.message }}
+    </li>
+    {% endfor %}
+</ul>
+{% endif %}
