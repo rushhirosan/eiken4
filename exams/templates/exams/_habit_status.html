@@ -3,12 +3,21 @@
     <p class="exam-habit-status-line mb-0 small">
         {% with streak=habit_summary.streak badges=habit_summary.badges %}
         {% if streak.current_streak > 0 %}
-        <span class="exam-habit-streak" title="{% if streak.hint %}{{ streak.hint }}{% else %}連続学習{% endif %}">
+        <span class="exam-habit-streak">
             <span aria-hidden="true">🔥</span> {{ streak.current_streak }}日
         </span>
         {% elif streak.hint %}
         <span class="exam-habit-streak-muted text-white-50">{{ streak.hint }}</span>
         {% endif %}
+        <button type="button"
+                class="btn btn-link btn-sm exam-habit-streak-help p-0 align-baseline"
+                data-bs-toggle="tooltip"
+                data-bs-placement="bottom"
+                data-bs-custom-class="exam-habit-streak-tooltip"
+                title="{{ streak.rule_tooltip }}"
+                aria-label="ストリークのルール: {{ streak.rule_tooltip }}">
+            <span aria-hidden="true">?</span>
+        </button>
         {% if badges.total_count %}
         {% if streak.current_streak > 0 or streak.hint %}
         <span class="exam-habit-separator text-white-50" aria-hidden="true">·</span>
@@ -23,5 +32,8 @@
         {% endif %}
         {% endwith %}
     </p>
+    {% if habit_summary.streak.grace_notice %}
+    <p class="exam-habit-grace-notice mb-0 small text-white-50">{{ habit_summary.streak.grace_notice }}</p>
+    {% endif %}
 </div>
 {% endif %}

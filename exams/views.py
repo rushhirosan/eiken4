@@ -83,6 +83,10 @@ FOUNDATION_QUESTION_TYPES = [
 
 RANDOM_UNLOCK_MIN_RATE = 20
 RANDOM_UNLOCK_REQUIRED_CATEGORIES = 3
+RANDOM_UNLOCK_HELP_TEXT = (
+    f'{RANDOM_UNLOCK_REQUIRED_CATEGORIES}カテゴリ以上で'
+    f'取り組み率{RANDOM_UNLOCK_MIN_RATE}%以上（基本・読解・リスニング）'
+)
 MOCK_EXAM_UNLOCK_MIN_RATE = 80
 PREFERRED_LEVEL_SESSION_KEY = 'preferred_exam_level'
 EXAM_LEVEL_ENTRIES = [
@@ -331,7 +335,10 @@ def question_list(request, level=None, exam_id=None):
     if question_type == 'random':
         unlock_status = _build_exam_unlock_status(request.user, str(level))
         if not unlock_status['random']['is_unlocked']:
-            messages.warning(request, 'ランダム10問は、基本問題3カテゴリで取り組み率20%以上になると解放されます。')
+            messages.warning(
+                request,
+                f'ランダム10問は、{RANDOM_UNLOCK_HELP_TEXT}になると解放されます。',
+            )
             return redirect('exams:exam_list')
 
         # ランダム10問の場合

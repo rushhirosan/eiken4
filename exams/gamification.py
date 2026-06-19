@@ -7,6 +7,10 @@ from django.utils import timezone
 
 MOCK_EXAM_UNLOCK_MIN_RATE = 80
 RANDOM_UNLOCK_MIN_RATE = 20
+STREAK_RULE_TOOLTIP = (
+    '1日1問で連続記録。週1回まで1日サボっても今日1問で続けられます。'
+)
+STREAK_GRACE_NOTICE = '今週の救済チャンス残り1回'
 DAILY_MISSION_GOAL_OPTIONS = (3, 5, 10)
 DEFAULT_DAILY_MISSION_GOAL = 3
 DAILY_MISSION_GOAL_SESSION_KEY = 'daily_mission_goal'
@@ -591,8 +595,15 @@ def build_streak_summary(user):
     streak = _get_or_create_streak(user)
     today = timezone.localdate()
 
+    base = {
+        'rule_tooltip': STREAK_RULE_TOOLTIP,
+        'grace_available': False,
+        'grace_notice': None,
+    }
+
     if streak.last_active_date is None:
         return {
+            **base,
             'current_streak': 0,
             'longest_streak': 0,
             'studied_today': False,
@@ -602,24 +613,29 @@ def build_streak_summary(user):
     days_since = (today - streak.last_active_date).days
     studied_today = days_since == 0
     effective_streak = streak.current_streak
+    grace_available = days_since == 2 and _freeze_available(streak, today)
 
     if days_since == 0:
         hint = None
     elif days_since == 1:
         hint = '今日1問で続けよう'
         effective_streak = streak.current_streak
-    elif days_since == 2 and _freeze_available(streak, today):
-        hint = '今日1問で続けよう'
-        effective_streak = streak.current_streak
+    elif grace_available:
+        # 1日空きは維持チャンス中。連続達成扱いにせず、今日の学習を促す。
+        effective_streak = 0
+        hint = f'今日1問で{streak.current_streak}日連続をキープ'
     else:
         effective_streak = 0
         hint = '今日1問でまたスタート'
 
     return {
+        **base,
         'current_streak': effective_streak,
         'longest_streak': streak.longest_streak,
         'studied_today': studied_today,
         'hint': hint,
+        'grace_available': grace_available,
+        'grace_notice': STREAK_GRACE_NOTICE if grace_available else None,
     }
 
 

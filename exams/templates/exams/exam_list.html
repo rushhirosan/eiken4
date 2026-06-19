@@ -214,7 +214,7 @@
                                     <small class="opacity-75">様々な問題形式から出題</small>
                                     {% else %}
                                     <small class="opacity-75">
-                                        解放条件: 基本問題3カテゴリで取り組み率20%以上
+                                        解放条件: 3カテゴリ以上で取り組み率20%以上（基本・読解・リスニング）
                                         （{{ section.unlock_status.random.ready_count }}/{{ section.unlock_status.random.required_count }}カテゴリ達成）
                                     </small>
                                     {% endif %}
@@ -419,6 +419,30 @@ body main.container {
     font-weight: 600;
 }
 
+.exam-habit-streak-help {
+    color: rgba(255, 255, 255, 0.75) !important;
+    text-decoration: none !important;
+    font-size: 0.75rem;
+    line-height: 1;
+    width: 1.1rem;
+    height: 1.1rem;
+    margin-left: 0.15rem;
+    border: 1px solid rgba(255, 255, 255, 0.45);
+    border-radius: 50%;
+    vertical-align: middle;
+}
+
+.exam-habit-streak-help:hover,
+.exam-habit-streak-help:focus {
+    color: #fff !important;
+    border-color: rgba(255, 255, 255, 0.85);
+}
+
+.exam-habit-grace-notice {
+    margin-top: 0.15rem;
+    line-height: 1.3;
+}
+
 .exam-habit-separator {
     margin: 0 0.35rem;
 }
@@ -597,4 +621,11 @@ body main.container {
     }
 }
 </style>
+<script>
+document.addEventListener('DOMContentLoaded', function () {
+    document.querySelectorAll('[data-bs-toggle="tooltip"]').forEach(function (el) {
+        new bootstrap.Tooltip(el);
+    });
+});
+</script>
 {% endblock %}

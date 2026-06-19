@@ -261,6 +261,21 @@ class ExamListViewTest(TestCase):
         self.assertContains(response, '4日')
         self.assertContains(response, '集めたバッジ 1個')
         self.assertContains(response, 'badgeCollectionModal')
+        self.assertContains(response, 'exam-habit-streak-help')
+        self.assertContains(response, '1日1問で連続記録')
+
+    def test_exam_list_shows_grace_notice_during_streak_grace(self):
+        """1日サボった翌々日は救済チャンスの案内を表示する"""
+        UserStreak.objects.create(
+            user=self.user,
+            current_streak=7,
+            longest_streak=7,
+            last_active_date=timezone.localdate() - timedelta(days=2),
+        )
+        self.client.login(username='testuser', password='testpass123')
+        response = self.client.get(self.url)
+        self.assertContains(response, '今週の救済チャンス残り1回')
+        self.assertContains(response, '7日連続をキープ')
 
     def test_exam_list_badge_modal_shows_unlock_hint_for_unearned(self):
         """未獲得バッジにも獲得条件を表示する"""
@@ -1199,6 +1214,41 @@ class GamificationTest(TestCase):
         )
         summary = build_streak_summary(user)
         self.assertEqual(summary['current_streak'], 0)
+        self.assertIn('スタート', summary['hint'])
+
+    def test_build_streak_summary_hides_streak_during_grace_period(self):
+        from exams.gamification import build_streak_summary
+
+        user = User.objects.create_user(username='graceuser', password='pass')
+        UserStreak.objects.create(
+            user=user,
+            current_streak=7,
+            longest_streak=7,
+            last_active_date=timezone.localdate() - timedelta(days=2),
+        )
+        summary = build_streak_summary(user)
+        self.assertEqual(summary['current_streak'], 0)
+        self.assertIn('7日連続をキープ', summary['hint'])
+        self.assertFalse(summary['studied_today'])
+        self.assertTrue(summary['grace_available'])
+        self.assertEqual(summary['grace_notice'], '今週の救済チャンス残り1回')
+        self.assertIn('週1回', summary['rule_tooltip'])
+
+    def test_build_streak_summary_grace_unavailable_after_weekly_use(self):
+        from exams.gamification import build_streak_summary, _week_start
+
+        user = User.objects.create_user(username='usedgrace', password='pass')
+        today = timezone.localdate()
+        UserStreak.objects.create(
+            user=user,
+            current_streak=5,
+            longest_streak=5,
+            last_active_date=today - timedelta(days=2),
+            freeze_week_start=_week_start(today),
+        )
+        summary = build_streak_summary(user)
+        self.assertFalse(summary['grace_available'])
+        self.assertIsNone(summary['grace_notice'])
         self.assertIn('スタート', summary['hint'])
 
     def test_award_new_badges_grants_first_reading_once(self):
