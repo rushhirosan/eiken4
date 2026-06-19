@@ -8,9 +8,9 @@ from django.utils import timezone
 MOCK_EXAM_UNLOCK_MIN_RATE = 80
 RANDOM_UNLOCK_MIN_RATE = 20
 STREAK_RULE_TOOLTIP = (
-    '1日1問で連続記録。週1回まで1日サボっても今日1問で続けられます。'
+    '1日1問で連続記録。週1回まで1日お休みしても、今日1問で続けられます。'
 )
-STREAK_GRACE_NOTICE = '今週の救済チャンス残り1回'
+STREAK_GRACE_NOTICE = '今週の維持チャンスが残り1回'
 DAILY_MISSION_GOAL_OPTIONS = (3, 5, 10)
 DEFAULT_DAILY_MISSION_GOAL = 3
 DAILY_MISSION_GOAL_SESSION_KEY = 'daily_mission_goal'
