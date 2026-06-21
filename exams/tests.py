@@ -261,8 +261,8 @@ class ExamListViewTest(TestCase):
         self.assertContains(response, '4日')
         self.assertContains(response, '集めたバッジ 1個')
         self.assertContains(response, 'badgeCollectionModal')
-        self.assertContains(response, 'exam-habit-streak-help')
-        self.assertContains(response, 'fa-info-circle')
+        self.assertContains(response, 'exam-habit-streak-btn')
+        self.assertContains(response, '1日1問で連続記録')
 
     def test_exam_list_shows_grace_notice_during_streak_grace(self):
         """1日お休みした翌々日は維持チャンスの案内を表示する"""
