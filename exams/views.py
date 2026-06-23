@@ -49,6 +49,11 @@ from .gamification import (
     store_pre_submit_unlock_snapshot,
 )
 from .writing_feedback import analyze_writing_response, get_writing_rubric
+from .choice_shuffle import (
+    apply_choice_shuffle_to_items,
+    apply_choice_shuffle_to_passages,
+    order_choices_for_display,
+)
 
 
 def _format_objective_explanation(raw_explanation, correct_choice):
@@ -105,10 +110,19 @@ QUESTION_TYPE_LABELS = {
     'listening_passage': 'リスニング第3部: 文章問題',
 }
 
-def _is_correct_listening_illustration_answer(question, selected_answer):
+def _is_correct_listening_illustration_answer(question, selected_answer, request=None, level=None):
     """リスニング第1部の回答値（テキスト/番号）から正解判定を行う。"""
     normalized_answer = (selected_answer or '').strip()
     choices = list(ListeningChoice.objects.filter(question=question).order_by('order', 'id'))
+    if request is not None and level is not None:
+        choices = order_choices_for_display(
+            request,
+            level,
+            'listening_illustration',
+            question.id,
+            choices,
+            create_if_missing=False,
+        )
     if not normalized_answer or not choices:
         return False
 
@@ -401,6 +415,8 @@ def question_list(request, level=None, exam_id=None):
         # 10問に絞る
         if len(all_questions) > 10:
             all_questions = random.sample(all_questions, 10)
+
+        apply_choice_shuffle_to_items(request, level, all_questions)
         
         context = {
             'level': level,
@@ -540,6 +556,12 @@ def question_list(request, level=None, exam_id=None):
             listening_illustration = [q for q in listening_questions if q['category'] == 'listening_illustration']
             listening_conversation = [q for q in listening_questions if q['category'] == 'listening_conversation']
             listening_passage = [q for q in listening_questions if q['category'] == 'listening_passage']
+
+            apply_choice_shuffle_to_items(request, level, all_questions)
+            apply_choice_shuffle_to_items(request, level, listening_illustration)
+            apply_choice_shuffle_to_items(request, level, listening_conversation)
+            apply_choice_shuffle_to_items(request, level, listening_passage)
+            apply_choice_shuffle_to_passages(request, level, reading_passages)
             
             context = {
                 'level': level,
@@ -556,6 +578,7 @@ def question_list(request, level=None, exam_id=None):
             }
             return render(request, 'exams/mock_exam.html', context)
         else:
+            apply_choice_shuffle_to_items(request, level, all_questions)
             context = {
                 'level': level,
                 'question_type': question_type,
@@ -605,6 +628,13 @@ def question_list(request, level=None, exam_id=None):
                 'is_correct': None,
                 'explanation': getattr(question, 'explanation', '')
             })
+
+        apply_choice_shuffle_to_items(
+            request,
+            level,
+            questions_with_choices,
+            default_question_type='listening_illustration',
+        )
         
         context = {
             'level': level,
@@ -709,6 +739,10 @@ def question_list(request, level=None, exam_id=None):
                 'correct_choice': correct_choice,
                 'explanation': question.explanation
             })
+
+        apply_choice_shuffle_to_items(
+            request, level, questions_with_answers, default_question_type=question_type
+        )
         
         context = {
             'level': level,
@@ -949,6 +983,10 @@ def question_list(request, level=None, exam_id=None):
                 'correct_choice': correct_choice,
                 'explanation': question.explanation
             })
+
+        apply_choice_shuffle_to_items(
+            request, level, questions_with_answers, default_question_type=question_type
+        )
         
         context = {
             'level': level,
@@ -965,7 +1003,14 @@ def question_list(request, level=None, exam_id=None):
 def question_detail(request, question_id):
     """問題の詳細を表示"""
     question = get_object_or_404(Question, id=question_id)
-    choices = question.choices.all().order_by('order')
+    choices = list(question.choices.all().order_by('order', 'id'))
+    choices = order_choices_for_display(
+        request,
+        question.level,
+        question.question_type,
+        question.id,
+        choices,
+    )
     
     # 再挑戦パラメータが指定されている場合は回答履歴を削除
     if request.GET.get('retry'):
@@ -1092,7 +1137,9 @@ def submit_answers(request, level):
                     try:
                         question = ListeningQuestion.objects.get(id=question_id)
                         # リスニング第1部は選択肢テキスト/番号の双方に対応して採点
-                        is_correct = _is_correct_listening_illustration_answer(question, selected_answer)
+                        is_correct = _is_correct_listening_illustration_answer(
+                            question, selected_answer, request=request, level=level
+                        )
                         ListeningUserAnswer.objects.create(
                             user=request.user,
                             question=question,
@@ -1152,7 +1199,9 @@ def submit_answers(request, level):
                     selected_answer = request.POST.get(answer_key)
                     question = ListeningQuestion.objects.get(id=question_id)
                     # リスニング第1部は選択肢テキスト/番号の双方に対応して採点
-                    is_correct = _is_correct_listening_illustration_answer(question, selected_answer)
+                    is_correct = _is_correct_listening_illustration_answer(
+                        question, selected_answer, request=request, level=level
+                    )
                     ListeningUserAnswer.objects.create(
                         user=request.user,
                         question=question,
@@ -1389,6 +1438,10 @@ def submit_answers(request, level):
                     'correct_choice': correct_choice,
                     'explanation': question.explanation
                 })
+
+            apply_choice_shuffle_to_items(
+                request, level, questions_with_answers, default_question_type=question_type
+            )
             
             context = {
                 'level': level,
@@ -1428,7 +1481,8 @@ def answer_results(request, level, question_type):
                     'choices': choices,
                     'user_answer': answer.selected_answer,
                     'is_correct': _is_correct_listening_illustration_answer(
-                        answer.question, answer.selected_answer
+                        answer.question, answer.selected_answer,
+                        request=request, level=level,
                     ),
                     'correct_answer': answer.question.correct_answer,
                     'explanation': getattr(answer.question, 'explanation', ''),
@@ -1461,6 +1515,10 @@ def answer_results(request, level, question_type):
         
         # 出題順序でソート
         answers_with_questions.sort(key=lambda x: x['order'])
+        
+        apply_choice_shuffle_to_items(
+            request, level, answers_with_questions, create_if_missing=False
+        )
         
         # 正解数を計算
         correct_count = sum(1 for answer in answers_with_questions if answer['is_correct'])
@@ -1513,7 +1571,8 @@ def answer_results(request, level, question_type):
                 'choices': choices,
                 'user_answer': answer.selected_answer,
                 'is_correct': _is_correct_listening_illustration_answer(
-                    answer.question, answer.selected_answer
+                    answer.question, answer.selected_answer,
+                    request=request, level=level,
                 ),
                 'correct_answer': answer.question.correct_answer,
                 'correct_choice': correct_choice,  # 正解の選択肢オブジェクトを追加
@@ -1523,6 +1582,14 @@ def answer_results(request, level, question_type):
         
         # 出題順序でソート
         answers_with_questions.sort(key=lambda x: x['order'])
+        
+        apply_choice_shuffle_to_items(
+            request,
+            level,
+            answers_with_questions,
+            default_question_type='listening_illustration',
+            create_if_missing=False,
+        )
         
         # 正解数を計算
         correct_count = sum(1 for answer in answers_with_questions if answer['is_correct'])
@@ -1572,6 +1639,14 @@ def answer_results(request, level, question_type):
         
         # 出題順序でソート
         answers_with_questions.sort(key=lambda x: x['order'])
+        
+        apply_choice_shuffle_to_items(
+            request,
+            level,
+            answers_with_questions,
+            default_question_type=question_type,
+            create_if_missing=False,
+        )
         
         # 正解数を計算
         correct_count = sum(1 for answer in answers_with_questions if answer['is_correct'])
@@ -1742,6 +1817,14 @@ def answer_results(request, level, question_type):
         # 出題順序でソート
         answers_with_questions.sort(key=lambda x: x['order'])
     
+        apply_choice_shuffle_to_items(
+            request,
+            level,
+            answers_with_questions,
+            default_question_type=question_type,
+            create_if_missing=False,
+        )
+
         # 正解数を計算
         correct_count = sum(1 for answer in answers_with_questions if answer['is_correct'])
         total_count = len(user_answers)
