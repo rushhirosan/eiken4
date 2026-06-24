@@ -1,9 +1,9 @@
 """Display-order shuffling for multiple-choice questions.
 
 Choices are reordered per question for the user's session. Answer grading uses
-choice primary keys (or choice text for listening illustration), so shuffling
-does not affect scoring. Reading comprehension is excluded because explanations
-reference fixed choice numbers.
+choice primary keys, so shuffling does not affect scoring. Reading comprehension
+and listening illustration are excluded: explanations reference fixed choice
+numbers, and illustration choices (1/2/3) refer to fixed positions in the image.
 """
 
 from __future__ import annotations
@@ -14,7 +14,6 @@ from typing import Iterable, List, Optional, Sequence, TypeVar
 CHOICE_SHUFFLE_QUESTION_TYPES = frozenset({
     'grammar_fill',
     'conversation_fill',
-    'listening_illustration',
     'listening_conversation',
     'listening_passage',
 })

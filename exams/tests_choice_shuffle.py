@@ -19,7 +19,7 @@ class ChoiceShuffleHelpersTest(TestCase):
     def test_should_shuffle_targets(self):
         self.assertTrue(should_shuffle_choices('grammar_fill'))
         self.assertTrue(should_shuffle_choices('conversation_fill'))
-        self.assertTrue(should_shuffle_choices('listening_illustration'))
+        self.assertFalse(should_shuffle_choices('listening_illustration'))
         self.assertFalse(should_shuffle_choices('reading_comprehension'))
         self.assertFalse(should_shuffle_choices('word_order'))
         self.assertFalse(should_shuffle_choices(None))
@@ -201,9 +201,8 @@ class ChoiceShuffleIntegrationTest(TestCase):
         self.assertEqual(results.status_code, 200)
         self.assertContains(results, '正解です！')
 
-    def test_listening_illustration_display_index_uses_shuffled_order(self):
+    def test_listening_illustration_keeps_database_order(self):
         from questions.models import ListeningChoice, ListeningQuestion
-        from exams.views import _is_correct_listening_illustration_answer
 
         question = ListeningQuestion.objects.create(
             question_text='Test listening',
@@ -213,26 +212,34 @@ class ChoiceShuffleIntegrationTest(TestCase):
             explanation='',
             level='3',
         )
-        wrong = ListeningChoice.objects.create(
-            question=question, choice_text='Wrong', is_correct=False, order=1
-        )
-        right = ListeningChoice.objects.create(
-            question=question, choice_text='Right', is_correct=True, order=2
-        )
-
-        session = self.client.session
-        session[choice_order_session_key('3')] = {
-            str(question.id): [wrong.id, right.id],
-        }
-        session.save()
+        choices = [
+            ListeningChoice.objects.create(
+                question=question, choice_text='1', is_correct=False, order=1
+            ),
+            ListeningChoice.objects.create(
+                question=question, choice_text='2', is_correct=True, order=2
+            ),
+            ListeningChoice.objects.create(
+                question=question, choice_text='3', is_correct=False, order=3
+            ),
+        ]
 
         factory = RequestFactory()
         request = factory.get('/')
-        request.session = session
-        self.assertTrue(
-            _is_correct_listening_illustration_answer(
-                question, '2', request=request, level='3'
+        request.session = self.client.session
+
+        with patch('exams.choice_shuffle.random.shuffle', side_effect=lambda items: items.reverse()):
+            ordered = order_choices_for_display(
+                request,
+                '3',
+                'listening_illustration',
+                question.id,
+                choices,
             )
+
+        self.assertEqual(
+            [choice.choice_text for choice in ordered],
+            ['1', '2', '3'],
         )
 
     def test_apply_choice_shuffle_skips_word_order_items(self):
