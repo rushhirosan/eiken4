@@ -757,6 +757,76 @@ class ListeningIllustrationScoringTest(TestCase):
         self.assertIn(unanswered_question.id, displayed_question_ids)
 
 
+class EmptySubmissionTest(TestCase):
+    """問題0件のまま回答提出できないことのテスト"""
+
+    def setUp(self):
+        self.client = Client()
+        self.user = User.objects.create_user(
+            username='empty_submit_user',
+            email='empty@example.com',
+            password='testpass123',
+        )
+        self.client.login(username='empty_submit_user', password='testpass123')
+
+        self.question = Question.objects.create(
+            level='4',
+            question_type='conversation_fill',
+            question_text='A: Hello.\nB: (  )',
+            question_number=1,
+        )
+        self.choice = Choice.objects.create(
+            question=self.question,
+            choice_text='Hi.',
+            is_correct=True,
+            order=1,
+        )
+        UserAnswer.objects.create(
+            user=self.user,
+            question=self.question,
+            selected_choice=self.choice,
+            is_correct=True,
+            answered_at=timezone.now(),
+        )
+
+    def test_unanswered_filter_shows_no_questions_when_all_answered(self):
+        response = self.client.get(
+            reverse('exams:question_list_by_level', kwargs={'level': '4'}),
+            {
+                'type': 'conversation_fill',
+                'status': 'unanswered',
+                'num_questions': '5',
+            },
+        )
+        self.assertEqual(response.status_code, 200)
+        self.assertEqual(len(response.context['questions']), 0)
+
+    def test_submit_without_answers_redirects_to_question_list(self):
+        response = self.client.post(
+            reverse('exams:submit_answers', kwargs={'level': '4'}),
+            {
+                'question_type': 'conversation_fill',
+                'num_questions': '5',
+                'status': 'unanswered',
+            },
+        )
+        self.assertEqual(response.status_code, 302)
+        self.assertIn('type=conversation_fill', response.url)
+        self.assertNotIn('answer_results', response.url)
+
+    def test_submit_without_answers_does_not_create_session_results(self):
+        self.client.post(
+            reverse('exams:submit_answers', kwargs={'level': '4'}),
+            {
+                'question_type': 'conversation_fill',
+                'num_questions': '5',
+                'status': 'unanswered',
+            },
+        )
+        session = self.client.session
+        self.assertNotIn('answered_questions_conversation_fill_4', session)
+
+
 class FeedbackFormTest(TestCase):
     """フィードバックフォームのバリデーション"""
 

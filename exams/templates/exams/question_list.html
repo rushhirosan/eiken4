@@ -55,6 +55,7 @@
         <input type="hidden" name="question_type" value="{{ question_type }}">
         <input type="hidden" name="level" value="{{ level }}">
         <input type="hidden" name="num_questions" value="{{ num_questions }}">
+        <input type="hidden" name="status" value="{{ status }}">
 
         <div class="row question-list-row">
             {% for question in questions %}
@@ -168,9 +169,15 @@
             {% endfor %}
         </div>
         
+        {% if questions %}
         <div class="text-center mt-4 mb-5">
             <button type="submit" class="btn btn-primary btn-lg">回答を提出</button>
         </div>
+        {% else %}
+        <div class="alert alert-info text-center mt-4 mb-5" role="status">
+            条件に該当する問題がありません。状態または問題数を変更してください。
+        </div>
+        {% endif %}
     </form>
 </div>
 
@@ -185,6 +192,12 @@ document.getElementById('examForm').addEventListener('submit', function(e) {
             questionCards.push(card);
         }
     });
+
+    if (questionCards.length === 0) {
+        e.preventDefault();
+        alert('回答する問題がありません。状態または問題数を変更してください。');
+        return false;
+    }
 
     let allAnswered = true;
     let answeredCount = 0;

@@ -76,6 +76,25 @@ def _is_currently_correct_choice(selected_choice):
     """保存時の採点結果ではなく、現在の選択肢定義で正誤を判定する。"""
     return bool(selected_choice and selected_choice.is_correct)
 
+
+def _has_submittable_answers(post):
+    """POSTに空でない回答が1件以上含まれるか。"""
+    for key, value in post.items():
+        if key.startswith('answer_') and (value or '').strip():
+            return True
+    return False
+
+
+def _redirect_empty_submission(request, level, question_type):
+    status = request.POST.get('status', 'unanswered')
+    num_questions = request.POST.get('num_questions', '5')
+    messages.warning(
+        request,
+        '回答する問題がありません。状態または問題数を変更してください。',
+    )
+    url = reverse('exams:question_list_by_level', kwargs={'level': level})
+    return redirect(f'{url}?type={question_type}&status={status}&num_questions={num_questions}')
+
 FOUNDATION_QUESTION_TYPES = [
     'grammar_fill',
     'conversation_fill',
@@ -1101,12 +1120,14 @@ def submit_reading_comprehension(request, level):
 @login_required
 def submit_answers(request, level):
     if request.method == 'POST':
-        _snapshot_unlock_before_submit(request, request.user, level)
         question_type = request.POST.get('question_type')
         level = int(level)  # URLパラメータから取得したlevelを使用
         if question_type == 'writing' and str(level) != '3':
             messages.info(request, 'ライティング問題は英検3級のみです。')
             return redirect('exams:exam_list')
+        if not _has_submittable_answers(request.POST):
+            return _redirect_empty_submission(request, level, question_type)
+        _snapshot_unlock_before_submit(request, request.user, level)
         status = request.POST.get('status', 'unanswered')
         # num_questionsが「全て」の場合は文字列、そうでなければ整数
         num_questions_param = request.POST.get('num_questions', 10)
