@@ -9,8 +9,8 @@ MOCK_EXAM_UNLOCK_MIN_RATE = 80
 RANDOM_UNLOCK_MIN_RATE = 20
 RANDOM_UNLOCK_REQUIRED_CATEGORIES = 3
 RANDOM_SCOPE_DESCRIPTIONS = {
-    '4': '文法・会話・語順・リスニングから出題（長文は別メニュー）',
-    '3': '文法・会話・リスニングから出題（長文・ライティングは別メニュー）',
+    '4': '文法・会話・語順・リスニングから出題。長文はランダム10問に含まれません',
+    '3': '文法・会話・リスニングから出題。長文・ライティングはランダム10問に含まれません',
 }
 STREAK_RULE_TOOLTIP = (
     '1日1問で連続記録。週1回まで1日お休みしても、今日1問で続けられます。'
