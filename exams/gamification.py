@@ -7,6 +7,11 @@ from django.utils import timezone
 
 MOCK_EXAM_UNLOCK_MIN_RATE = 80
 RANDOM_UNLOCK_MIN_RATE = 20
+RANDOM_UNLOCK_REQUIRED_CATEGORIES = 3
+RANDOM_SCOPE_DESCRIPTIONS = {
+    '4': '文法・会話・語順・リスニングから出題（長文は別メニュー）',
+    '3': '文法・会話・リスニングから出題（長文・ライティングは別メニュー）',
+}
 STREAK_RULE_TOOLTIP = (
     '1日1問で連続記録。週1回まで1日お休みしても、今日1問で続けられます。'
 )
@@ -98,6 +103,24 @@ BADGE_DEFINITIONS = {
 BADGE_LEVELS = {
     'first_writing': ('3',),
 }
+
+
+def random_scope_description(level):
+    """ランダム10問の出題範囲（級別）をユーザー向けに返す。"""
+    return RANDOM_SCOPE_DESCRIPTIONS.get(str(level), RANDOM_SCOPE_DESCRIPTIONS['4'])
+
+
+def random_unlock_help_text():
+    """ランダム10問の解放条件文言。"""
+    return (
+        f'{RANDOM_UNLOCK_REQUIRED_CATEGORIES}カテゴリ以上で'
+        f'取り組み率{RANDOM_UNLOCK_MIN_RATE}%以上'
+    )
+
+
+def unlock_random_achievement_text(level):
+    """ランダム10問解放時の達成バナー文言。"""
+    return f'ランダム10問が解放された！{random_scope_description(level)}'
 
 
 def badge_ids_for_level(level):
@@ -472,7 +495,7 @@ def build_session_achievements(
     if pre_unlock:
         if not pre_unlock.get('random') and unlock_status['random']['is_unlocked']:
             messages.append({
-                'text': ACHIEVEMENT_COPY['unlock_random'],
+                'text': unlock_random_achievement_text(level),
                 'variant': 'success',
             })
         if not pre_unlock.get('mock_exam') and unlock_status['mock_exam']['is_unlocked']:

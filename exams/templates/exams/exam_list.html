@@ -210,11 +210,11 @@
                                     <i class="fas fa-random me-2"></i>
                                     ランダム10問
                                     <br>
-                                    {% if section.unlock_status.random.is_unlocked %}
-                                    <small class="opacity-75">様々な問題形式から出題</small>
-                                    {% else %}
+                                    <small class="opacity-75">{{ section.random_scope_description }}</small>
+                                    {% if not section.unlock_status.random.is_unlocked %}
+                                    <br>
                                     <small class="opacity-75">
-                                        解放条件: 3カテゴリ以上で取り組み率20%以上（基本・読解・リスニング）
+                                        解放条件: {{ section.random_unlock_help_text }}
                                         （{{ section.unlock_status.random.ready_count }}/{{ section.unlock_status.random.required_count }}カテゴリ達成）
                                     </small>
                                     {% endif %}
@@ -228,7 +228,7 @@
                                     模擬試験問題
                                     <br>
                                     {% if section.unlock_status.mock_exam.is_unlocked %}
-                                    <small class="opacity-75">本番形式の総合問題</small>
+                                    <small class="opacity-75">本番形式の総合問題（長文込み）</small>
                                     {% else %}
                                     <small class="opacity-75">解放条件: 基本問題の各カテゴリで取り組み率80%以上</small>
                                     {% endif %}

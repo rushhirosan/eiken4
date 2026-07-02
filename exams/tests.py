@@ -203,6 +203,8 @@ class ExamListViewTest(TestCase):
         self.assertContains(response, '英検4級')
         self.assertContains(response, '英検3級に切り替える')
         self.assertNotContains(response, 'exam-level-tab')
+        self.assertContains(response, '長文は別メニュー')
+        self.assertNotContains(response, 'ライティングは別メニュー')
 
     def test_exam_list_level_query_switches_focus(self):
         """?level= で級を切り替え、セッションに保存する"""
@@ -211,6 +213,7 @@ class ExamListViewTest(TestCase):
         self.assertContains(response, 'id="level-panel-3"')
         self.assertContains(response, '英検4級に切り替える')
         self.assertContains(response, 'ライティング問題')
+        self.assertContains(response, '長文・ライティングは別メニュー')
         self.assertEqual(self.client.session.get('preferred_exam_level'), '3')
 
         response = self.client.get(self.url)
@@ -972,6 +975,16 @@ class GamificationTest(TestCase):
             session_count=5,
         )
         self.assertTrue(any('ランダム10問' in m['text'] for m in messages))
+        self.assertTrue(any('長文は別メニュー' in m['text'] for m in messages))
+
+    def test_random_scope_description_by_level(self):
+        from exams.gamification import random_scope_description, random_unlock_help_text
+
+        self.assertIn('語順', random_scope_description('4'))
+        self.assertIn('長文は別メニュー', random_scope_description('4'))
+        self.assertNotIn('ライティング', random_scope_description('4'))
+        self.assertIn('長文・ライティングは別メニュー', random_scope_description('3'))
+        self.assertNotIn('読解・リスニング', random_unlock_help_text())
 
     def test_build_adventure_summary(self):
         from exams.gamification import build_adventure_summary

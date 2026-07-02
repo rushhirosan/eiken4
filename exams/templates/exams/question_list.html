@@ -19,6 +19,9 @@
     </nav>
     
     <h1 class="mb-4 text-white">{{ question_type_display }}</h1>
+    {% if question_type == 'random' and random_scope_description %}
+    <p class="text-white-50 mb-4">{{ random_scope_description }}</p>
+    {% endif %}
     
     {% if question_type != 'random' and question_type != 'mock_exam' %}
     <div class="card mb-4">

@@ -36,6 +36,9 @@ from django.views.decorators.csrf import csrf_exempt
 logger = logging.getLogger(__name__)
 
 from .gamification import (
+    MOCK_EXAM_UNLOCK_MIN_RATE,
+    RANDOM_UNLOCK_MIN_RATE,
+    RANDOM_UNLOCK_REQUIRED_CATEGORIES,
     build_adventure_summary,
     build_badge_collection,
     build_daily_missions,
@@ -45,6 +48,8 @@ from .gamification import (
     get_daily_mission_goal,
     pop_pre_submit_unlock_snapshot,
     process_gamification_after_session,
+    random_scope_description,
+    random_unlock_help_text,
     set_daily_mission_goal,
     store_pre_submit_unlock_snapshot,
 )
@@ -105,13 +110,6 @@ FOUNDATION_QUESTION_TYPES = [
     'listening_passage',
 ]
 
-RANDOM_UNLOCK_MIN_RATE = 20
-RANDOM_UNLOCK_REQUIRED_CATEGORIES = 3
-RANDOM_UNLOCK_HELP_TEXT = (
-    f'{RANDOM_UNLOCK_REQUIRED_CATEGORIES}カテゴリ以上で'
-    f'取り組み率{RANDOM_UNLOCK_MIN_RATE}%以上（基本・読解・リスニング）'
-)
-MOCK_EXAM_UNLOCK_MIN_RATE = 80
 PREFERRED_LEVEL_SESSION_KEY = 'preferred_exam_level'
 EXAM_LEVEL_ENTRIES = [
     ('4', '英検4級'),
@@ -250,6 +248,8 @@ def _build_exam_section(user, level_code, level_name, daily_goal=3):
         'daily_missions': daily_missions,
         'habit_summary': build_habit_summary(user, level=level_code),
         'badge_collection': build_badge_collection(user, level=level_code),
+        'random_scope_description': random_scope_description(level_code),
+        'random_unlock_help_text': random_unlock_help_text(),
     }
 
 
@@ -370,7 +370,7 @@ def question_list(request, level=None, exam_id=None):
         if not unlock_status['random']['is_unlocked']:
             messages.warning(
                 request,
-                f'ランダム10問は、{RANDOM_UNLOCK_HELP_TEXT}になると解放されます。',
+                f'ランダム10問は、{random_unlock_help_text()}になると解放されます。',
             )
             return redirect('exams:exam_list')
 
@@ -441,6 +441,7 @@ def question_list(request, level=None, exam_id=None):
             'level': level,
             'question_type': question_type,
             'question_type_display': question_types.get(question_type, ''),
+            'random_scope_description': random_scope_description(level),
             'num_questions': 10,
             'status': status,
             'questions': all_questions,
