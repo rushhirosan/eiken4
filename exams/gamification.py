@@ -198,9 +198,12 @@ def build_adventure_summary(unlock_status):
     mock_cleared = sum(
         1 for item in foundation if item['progress_rate'] >= MOCK_EXAM_UNLOCK_MIN_RATE
     )
-    nearest_remaining = None
+    nearest_remaining_items = []
     if remaining:
-        nearest_remaining = min(remaining, key=lambda item: item['remaining_rate'])
+        min_rate = min(item['remaining_rate'] for item in remaining)
+        nearest_remaining_items = [
+            item for item in remaining if item['remaining_rate'] == min_rate
+        ]
 
     return {
         'random_unlocked': random_status['is_unlocked'],
@@ -212,7 +215,8 @@ def build_adventure_summary(unlock_status):
         'mock_total_count': len(foundation),
         'mock_required_rate': mock_status['required_rate'],
         'remaining_categories': remaining,
-        'nearest_remaining': nearest_remaining,
+        'nearest_remaining': nearest_remaining_items[0] if nearest_remaining_items else None,
+        'nearest_remaining_items': nearest_remaining_items,
     }
 
 

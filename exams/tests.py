@@ -1015,6 +1015,50 @@ class GamificationTest(TestCase):
         self.assertFalse(summary['random_unlocked'])
         self.assertEqual(summary['random_ready_count'], 1)
         self.assertEqual(summary['nearest_remaining']['display_name'], '文法・語彙問題')
+        self.assertEqual(len(summary['nearest_remaining_items']), 1)
+
+    def test_build_adventure_summary_nearest_remaining_ties(self):
+        from exams.gamification import build_adventure_summary
+
+        unlock_status = {
+            'random': {
+                'is_unlocked': False,
+                'ready_count': 0,
+                'required_count': 3,
+                'required_rate': 20,
+            },
+            'mock_exam': {
+                'is_unlocked': False,
+                'required_rate': 80,
+                'remaining_categories': [
+                    {
+                        'display_name': 'リスニング第1部',
+                        'remaining_rate': 5,
+                        'progress_rate': 75,
+                    },
+                    {
+                        'display_name': '会話補充問題',
+                        'remaining_rate': 30,
+                        'progress_rate': 50,
+                    },
+                    {
+                        'display_name': 'リスニング第3部',
+                        'remaining_rate': 5,
+                        'progress_rate': 75,
+                    },
+                ],
+            },
+            'foundation_progress': [
+                {'question_type': 'listening_illustration', 'progress_rate': 75},
+                {'question_type': 'conversation_fill', 'progress_rate': 50},
+                {'question_type': 'listening_passage', 'progress_rate': 75},
+            ],
+        }
+        summary = build_adventure_summary(unlock_status)
+        self.assertEqual(len(summary['nearest_remaining_items']), 2)
+        names = [item['display_name'] for item in summary['nearest_remaining_items']]
+        self.assertIn('リスニング第1部', names)
+        self.assertIn('リスニング第3部', names)
 
     def test_enrich_foundation_progress(self):
         from exams.gamification import enrich_foundation_progress

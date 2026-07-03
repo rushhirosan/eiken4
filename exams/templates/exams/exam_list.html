@@ -182,9 +182,9 @@
                                         <div class="progress adventure-progress-bar mb-2">
                                             <div class="progress-bar bg-warning" style="width: {% if summary.mock_total_count %}{% widthratio summary.mock_cleared_count summary.mock_total_count 100 %}{% else %}0{% endif %}%;"></div>
                                         </div>
-                                        {% if summary.nearest_remaining %}
+                                        {% if summary.nearest_remaining_items %}
                                         <p class="small text-muted mb-0">
-                                            いちばん近いのは<strong>{{ summary.nearest_remaining.display_name }}</strong>
+                                            いちばん近いのは<strong>{% for item in summary.nearest_remaining_items %}{{ item.display_name }}{% if not forloop.last %}・{% endif %}{% endfor %}</strong>
                                             （あと{{ summary.nearest_remaining.remaining_rate|floatformat:0 }}%）
                                         </p>
                                         {% endif %}
