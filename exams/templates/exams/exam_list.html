@@ -196,16 +196,16 @@
                         {% endwith %}
                         
                         <!-- 総合問題 -->
-                        <div class="row g-3">
+                        <div class="row g-3 align-items-stretch">
                             <div class="col-12">
                                 <h5 class="exam-format-section-label mb-2 h6 fw-semibold">
                                     <i class="fas fa-trophy me-2"></i>
                                     総合問題
                                 </h5>
                             </div>
-                            <div class="col-md-6">
+                            <div class="col-md-6 d-flex">
                                 <a href="{% if section.unlock_status.random.is_unlocked %}{% url 'exams:question_list_by_level' level=section.level_code %}?type=random{% else %}#{% endif %}" 
-                                   class="btn {% if section.unlock_status.random.is_unlocked %}btn-light text-primary fw-semibold border shadow-sm{% else %}btn-outline-secondary disabled{% endif %} w-100 py-3"
+                                   class="btn {% if section.unlock_status.random.is_unlocked %}btn-light text-primary fw-semibold border shadow-sm{% else %}btn-outline-secondary disabled{% endif %} w-100 py-3 d-flex flex-column align-items-center justify-content-center"
                                    {% if not section.unlock_status.random.is_unlocked %}aria-disabled="true" tabindex="-1"{% endif %}>
                                     <i class="fas fa-random me-2"></i>
                                     ランダム10問
@@ -220,9 +220,9 @@
                                     {% endif %}
                                 </a>
                             </div>
-                            <div class="col-md-6">
+                            <div class="col-md-6 d-flex">
                                 <a href="{% if section.unlock_status.mock_exam.is_unlocked %}{% url 'exams:question_list_by_level' level=section.level_code %}?type=mock_exam{% else %}#{% endif %}" 
-                                   class="btn {% if section.unlock_status.mock_exam.is_unlocked %}btn-success shadow{% else %}btn-outline-secondary disabled{% endif %} w-100 py-3"
+                                   class="btn {% if section.unlock_status.mock_exam.is_unlocked %}btn-success shadow{% else %}btn-outline-secondary disabled{% endif %} w-100 py-3 d-flex flex-column align-items-center justify-content-center"
                                    {% if not section.unlock_status.mock_exam.is_unlocked %}aria-disabled="true" tabindex="-1"{% endif %}>
                                     <i class="fas fa-clipboard-list me-2"></i>
                                     模擬試験問題
