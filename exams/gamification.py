@@ -363,6 +363,9 @@ def build_daily_missions(*, user, level, unlock_status, foundation_progress_by_t
     for question_type in available_types:
         if question_type == nearest_type:
             continue
+        progress_rate = foundation_progress_by_type[question_type].get('progress_rate', 0)
+        if progress_rate >= 100:
+            continue
         if _count_today_attempts_for_type(user, level, question_type) > 0:
             continue
         short_name = MISSION_SHORT_LABELS.get(

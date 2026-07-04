@@ -1129,6 +1129,44 @@ class GamificationTest(TestCase):
         self.assertEqual(missions['items'][2]['label'], '会話補充を3問')
         self.assertEqual(missions['items'][2]['progress_text'], '0/3')
 
+    def test_build_daily_missions_skips_fully_completed_untouched_today(self):
+        from exams.gamification import build_daily_missions
+
+        unlock_status = {
+            'mock_exam': {
+                'is_unlocked': True,
+                'remaining_categories': [],
+            },
+        }
+        foundation_progress_by_type = {
+            'grammar_fill': {
+                'question_type': 'grammar_fill',
+                'display_name': '文法・語彙問題',
+                'progress_rate': 100,
+            },
+            'conversation_fill': {
+                'question_type': 'conversation_fill',
+                'display_name': '会話補充問題',
+                'progress_rate': 100,
+            },
+            'word_order': {
+                'question_type': 'word_order',
+                'display_name': '語順選択問題',
+                'progress_rate': 50,
+            },
+        }
+        missions = build_daily_missions(
+            user=None,
+            level='4',
+            unlock_status=unlock_status,
+            foundation_progress_by_type=foundation_progress_by_type,
+            daily_goal=5,
+        )
+        labels = [item['label'] for item in missions['items']]
+        self.assertNotIn('会話補充を3問', labels)
+        self.assertEqual(missions['items'][-1]['label'], '語順選択を3問')
+        self.assertEqual(missions['items'][-1]['kind'], 'untouched_today')
+
     def test_normalize_daily_mission_goal_defaults_invalid(self):
         from exams.gamification import normalize_daily_mission_goal
 
