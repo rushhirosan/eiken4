@@ -23,6 +23,13 @@
     <p class="text-white-50 mb-4">{{ random_scope_description }}</p>
     {% endif %}
     
+    {% if question_type == 'listening_illustration' or question_type == 'listening_conversation' %}
+    <div class="alert alert-info small" role="note">
+        <i class="fas fa-info-circle"></i>
+        音声の話者（男性／女性）は実際の会話の役割と一致しない場合があります。
+    </div>
+    {% endif %}
+    
     {% if question_type != 'random' and question_type != 'mock_exam' %}
     <div class="card mb-4">
         <div class="card-body">
