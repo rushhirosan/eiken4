@@ -16,12 +16,13 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path, include
-from django.views.generic.base import RedirectView, TemplateView
+from django.views.generic.base import TemplateView
 from django.conf import settings
 from django.conf.urls.static import static
 from django.http import HttpResponse
 
 from exams.views import sitemap_xml
+from eiken_project.views import landing, robots_txt
 
 def healthz(request):
     return HttpResponse("ok", status=200)
@@ -38,7 +39,8 @@ urlpatterns = [
     # ログアウトとパスワードリセット機能は使用可能
     path('accounts/', include('django.contrib.auth.urls')),
     path('exams/', include('exams.urls')),
-    path('', RedirectView.as_view(url='/exams/', permanent=True)),
+    path('', landing, name='landing'),
+    path('robots.txt', robots_txt, name='robots_txt'),
     # Google Search Console verification file
     path('google41829dffd897ace8.html', google_verification),
     # Sitemap（exams.urls を二重 include しない — URL namespace 重複警告を防ぐ）

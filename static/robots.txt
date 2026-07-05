@@ -1,14 +1,9 @@
 User-agent: *
 Allow: /
-
-# Sitemap
-Sitemap: https://eiken-app.fly.dev/sitemap.xml
-
-# Crawl-delay
-Crawl-delay: 1
-
-# Disallow admin and private areas
-Disallow: /admin/
+Allow: /privacy-policy/
 Disallow: /accounts/
+Disallow: /exams/
+Disallow: /admin/
 Disallow: /static/admin/
-Disallow: /staticfiles/ 
+
+Sitemap: https://eiken-app.fly.dev/sitemap.xml

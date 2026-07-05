@@ -2388,59 +2388,27 @@ def feedback_success(request):
 
 @csrf_exempt
 def sitemap_xml(request):
-    """動的サイトマップ生成"""
+    """公開ページのみを含む動的サイトマップ"""
     base_url = "https://eiken-app.fly.dev"
-    
-    # 基本URL
+    today = datetime.now().strftime('%Y-%m-%d')
+
     urls = [
         {
-            'loc': base_url,
-            'lastmod': datetime.now().strftime('%Y-%m-%d'),
+            'loc': f"{base_url}/",
+            'lastmod': today,
             'changefreq': 'weekly',
-            'priority': '1.0'
-        },
-        {
-            'loc': f"{base_url}/exams/",
-            'lastmod': datetime.now().strftime('%Y-%m-%d'),
-            'changefreq': 'weekly',
-            'priority': '0.9'
+            'priority': '1.0',
         },
         {
             'loc': f"{base_url}/privacy-policy/",
-            'lastmod': datetime.now().strftime('%Y-%m-%d'),
+            'lastmod': today,
             'changefreq': 'monthly',
-            'priority': '0.5'
-        }
+            'priority': '0.5',
+        },
     ]
-    
-    # 問題カテゴリURL
-    question_types = [
-        ('grammar_fill', '文法・語彙問題'),
-        ('conversation_fill', '会話補充問題'),
-        ('word_order', '語順選択問題'),
-        ('reading_comprehension', '長文読解問題'),
-        ('listening_conversation', 'リスニング会話問題'),
-        ('listening_illustration', 'リスニングイラスト問題'),
-        ('listening_passage', 'リスニング長文問題'),
-        ('random', 'ランダム問題'),
-        ('mock_exam', '模擬試験')
-    ]
-    
-    for question_type, display_name in question_types:
-        urls.append({
-            'loc': f"{base_url}/exams/level/4/?type={question_type}",
-            'lastmod': datetime.now().strftime('%Y-%m-%d'),
-            'changefreq': 'monthly' if question_type not in ['random', 'mock_exam'] else 'weekly',
-            'priority': '0.8' if question_type not in ['random', 'mock_exam'] else '0.7'
-        })
-    
-    context = {
-        'urls': urls,
-        'base_url': base_url
-    }
-    
+
     response = HttpResponse(
-        render_to_string('exams/sitemap.xml', context),
-        content_type='application/xml'
+        render_to_string('exams/sitemap.xml', {'urls': urls}),
+        content_type='application/xml',
     )
     return response
