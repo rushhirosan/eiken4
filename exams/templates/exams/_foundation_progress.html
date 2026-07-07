@@ -1,5 +1,10 @@
 {% if progress_item %}
-<div class="exam-foundation-progress px-1">
+<div class="exam-foundation-progress">
+    {% if not progress_item.counts_toward_mock %}
+    <p class="small text-muted mb-2 exam-foundation-progress-note">
+        本番のライティング（英作文）はここで練習します。模擬試験には含まれません。
+    </p>
+    {% endif %}
     <div class="progress exam-foundation-progress-bar" role="progressbar"
          aria-valuenow="{{ progress_item.progress_rate }}" aria-valuemin="0" aria-valuemax="100"
          aria-label="{{ progress_item.display_name }}の取り組み率">
@@ -9,8 +14,6 @@
         取り組み {{ progress_item.progress_rate|floatformat:0 }}%
         {% if progress_item.counts_toward_mock and progress_item.progress_rate < 80 %}
         · 模擬試験まであと {{ progress_item.remaining_to_mock|floatformat:0 }}%
-        {% elif not progress_item.counts_toward_mock %}
-        · 模擬試験の解放条件には含まれません
         {% endif %}
     </small>
 </div>
