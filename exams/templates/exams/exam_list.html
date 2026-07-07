@@ -104,6 +104,7 @@
                                     <i class="fas fa-pen-fancy me-2"></i>
                                     ライティング問題（{{ section.question_counts.writing }}問）
                                 </a>
+                                <p class="small text-muted mb-1 mt-1">本番のライティング（英作文）はここで練習します。模擬試験には含まれません。</p>
                                 {% with progress_item=section.foundation_progress_by_type.writing %}
                                 {% include 'exams/_foundation_progress.html' %}
                                 {% endwith %}
@@ -195,6 +196,8 @@
                                             <span class="fw-semibold">模擬試験</span>
                                             {% if summary.mock_unlocked %}
                                             <span class="badge bg-success">解放済み</span>
+                                            {% elif section.level_code == '3' %}
+                                            <span class="text-muted">{{ summary.mock_cleared_count }}/{{ summary.mock_total_count }}カテゴリ達成（各{{ summary.mock_required_rate }}%以上）※ライティングは含みません</span>
                                             {% else %}
                                             <span class="text-muted">{{ summary.mock_cleared_count }}/{{ summary.mock_total_count }}カテゴリ達成（各{{ summary.mock_required_rate }}%以上）</span>
                                             {% endif %}
@@ -249,16 +252,22 @@
                                     模擬試験問題
                                     <br>
                                     {% if section.unlock_status.mock_exam.is_unlocked %}
-                                    <small class="opacity-75">本番形式の総合問題（長文込み）</small>
+                                    <small class="opacity-75">{{ section.mock_exam_scope_description }}</small>
                                     {% else %}
-                                    <small class="opacity-75">解放条件: 基本問題の各カテゴリで取り組み率80%以上</small>
+                                    <small class="opacity-75">解放条件: {{ section.mock_unlock_help_text }}</small>
                                     {% endif %}
                                     </a>
                                 </div>
                             {% if not section.unlock_status.mock_exam.is_unlocked and section.unlock_status.mock_exam.remaining_categories %}
                             <div class="col-12">
                                 <div class="alert alert-light border-0 mb-0 py-2 px-3 small shadow-sm">
-                                    <div class="fw-semibold mb-1">模擬試験の解放まで（各カテゴリ80%以上が必要）</div>
+                                    <div class="fw-semibold mb-1">
+                                        {% if section.level_code == '3' %}
+                                        模擬試験の解放まで（ライティングを除く各カテゴリ80%以上が必要）
+                                        {% else %}
+                                        模擬試験の解放まで（各カテゴリ80%以上が必要）
+                                        {% endif %}
+                                    </div>
                                     <ul class="mb-0 ps-3">
                                         {% for item in section.unlock_status.mock_exam.remaining_categories %}
                                         <li>

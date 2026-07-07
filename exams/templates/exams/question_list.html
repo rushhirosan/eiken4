@@ -104,7 +104,7 @@
                             <div class="writing-prompt text-start">{{ question.question.question_text|writing_prompt_html }}</div>
                             <label class="form-label mt-3 mb-1" for="answer-{{ question.question.id }}">あなたの英文</label>
                             <textarea class="form-control writing-answer-input" name="answer_{{ question.question.id }}" id="answer-{{ question.question.id }}" rows="12" placeholder="英文で入力してください">{{ question.user_answer }}</textarea>
-                            <p class="small text-muted mt-2 mb-0">自動採点はありません。提出後に参考解答と照らし合わせてください。</p>
+                            <p class="small text-muted mt-2 mb-0">自動採点はありません。提出後に参考解答と照らし合わせてください。意見問題は「2つの英文」が目安です（語数・文数は提出後にヒントが出ます）。</p>
                         {% elif question.question.question_type == 'listening_conversation' or question.question.question_type == 'listening_passage' or question_type == 'random' and question.category == 'listening_conversation' or question_type == 'random' and question.category == 'listening_passage' %}
                             <div class="text-center mb-3 listening-audio-wrap">
                                 {% if question.question.resolved_audio_file %}

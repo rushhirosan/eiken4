@@ -5,6 +5,15 @@ from datetime import timedelta
 from django.urls import reverse
 from django.utils import timezone
 
+MOCK_EXAM_SCOPE_DESCRIPTIONS = {
+    '3': '選択式・読解・リスニングの総合練習（ライティングは別メニュー）',
+    '4': '本番形式の総合問題（長文込み）',
+    '5': '本番形式の総合問題',
+}
+MOCK_UNLOCK_HELP_TEXTS = {
+    '3': '文法・会話・読解・リスニングの各カテゴリで取り組み率80%以上（ライティングは別メニューで練習）',
+    'default': '基本問題の各カテゴリで取り組み率80%以上',
+}
 MOCK_EXAM_UNLOCK_MIN_RATE = 80
 RANDOM_UNLOCK_MIN_RATE = 20
 RANDOM_UNLOCK_REQUIRED_CATEGORIES = 3
@@ -108,6 +117,11 @@ BADGE_LEVELS = {
 }
 
 
+def counts_toward_mock_unlock(level, question_type):
+    """3級ライティングは模擬試験の出題・解放条件の双方に含めない。"""
+    return not (str(level) == '3' and question_type == 'writing')
+
+
 def random_scope_description(level):
     """ランダム10問の出題範囲（級別）をユーザー向けに返す。"""
     return RANDOM_SCOPE_DESCRIPTIONS.get(str(level), RANDOM_SCOPE_DESCRIPTIONS['4'])
@@ -118,6 +132,22 @@ def random_unlock_help_text():
     return (
         f'{RANDOM_UNLOCK_REQUIRED_CATEGORIES}カテゴリ以上で'
         f'取り組み率{RANDOM_UNLOCK_MIN_RATE}%以上'
+    )
+
+
+def mock_exam_scope_description(level):
+    """模擬試験の出題範囲（級別）をユーザー向けに返す。"""
+    return MOCK_EXAM_SCOPE_DESCRIPTIONS.get(
+        str(level),
+        MOCK_EXAM_SCOPE_DESCRIPTIONS['4'],
+    )
+
+
+def mock_unlock_help_text(level):
+    """模擬試験の解放条件文言（級別）。"""
+    return MOCK_UNLOCK_HELP_TEXTS.get(
+        str(level),
+        MOCK_UNLOCK_HELP_TEXTS['default'],
     )
 
 
@@ -197,9 +227,13 @@ def build_adventure_summary(unlock_status):
     mock_status = unlock_status['mock_exam']
     foundation = unlock_status.get('foundation_progress', [])
     remaining = mock_status.get('remaining_categories') or []
+    mock_eligible = [
+        item for item in foundation if item.get('counts_toward_mock', True)
+    ]
 
     mock_cleared = sum(
-        1 for item in foundation if item['progress_rate'] >= MOCK_EXAM_UNLOCK_MIN_RATE
+        1 for item in mock_eligible
+        if item['progress_rate'] >= MOCK_EXAM_UNLOCK_MIN_RATE
     )
     nearest_remaining_items = []
     if remaining:
@@ -215,7 +249,7 @@ def build_adventure_summary(unlock_status):
         'random_required_rate': random_status['required_rate'],
         'mock_unlocked': mock_status['is_unlocked'],
         'mock_cleared_count': mock_cleared,
-        'mock_total_count': len(foundation),
+        'mock_total_count': len(mock_eligible),
         'mock_required_rate': mock_status['required_rate'],
         'remaining_categories': remaining,
         'nearest_remaining': nearest_remaining_items[0] if nearest_remaining_items else None,

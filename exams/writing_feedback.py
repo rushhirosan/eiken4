@@ -20,6 +20,8 @@ _EMAIL_BOILERPLATE_RES = (
 
 SHORT_RATIO = 0.7
 LONG_RATIO = 1.3
+# 意見問題: 問題文は「2つの英文」だが First/Second 型ではピリオドが3個になりやすい
+SENTENCE_INFO_MAX = 3
 
 
 def parse_writing_rubric(question_text: str) -> dict[str, Any] | None:
@@ -175,17 +177,26 @@ def _sentence_count_message(sentence_count: int, sentence_min: int, sentence_max
                 ' — 文が足りない可能性があります。'
             ),
         }
-    if sentence_count > sentence_max:
+    if sentence_count <= sentence_max:
         return {
-            'level': 'warn',
+            'level': 'ok',
+            'message': f'文数: {sentence_count}文（問題文どおり）',
+        }
+    if sentence_count <= SENTENCE_INFO_MAX:
+        return {
+            'level': 'info',
             'message': (
-                f'文数: {sentence_count}文（目安 {sentence_max}文程度）'
-                ' — 文が多いようです。'
+                f'文数: {sentence_count}文（問題文は「2つの英文」）。'
+                '英検では「意見1文＋理由1文」の2文型がよく使われます。'
+                '参考解答の書き方と見比べてみましょう。'
             ),
         }
     return {
-        'level': 'ok',
-        'message': f'文数: {sentence_count}文（目安 {sentence_min}文）',
+        'level': 'warn',
+        'message': (
+            f'文数: {sentence_count}文 — 「2つの英文」より多めです。'
+            '2文にまとめられるか、参考解答と見比べてみましょう。'
+        ),
     }
 
 
@@ -265,7 +276,10 @@ def analyze_writing_response(response_text: str, rubric: dict[str, Any] | None) 
 
     items.append({
         'level': 'info',
-        'message': '自動チェックは目安です。参考解答と見比べて自己チェックしてください。',
+        'message': (
+            '自動チェックは目安です（文数はピリオド . で数えた目安）。'
+            '参考解答と見比べて自己チェックしてください。'
+        ),
     })
 
     return {'items': items, 'stats': stats}

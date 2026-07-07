@@ -1627,6 +1627,74 @@ class WritingFeedbackTests(TestCase):
             any(item['level'] == 'warn' and '文数' in item['message'] for item in result['items'])
         )
 
+    def test_analyze_opinion_info_on_three_sentences(self):
+        from exams.writing_feedback import analyze_writing_response
+
+        rubric = {
+            'kind': 'opinion',
+            'word_min': 25,
+            'word_max': 35,
+            'sentence_min': 2,
+            'sentence_max': 2,
+            'count_body_only': False,
+        }
+        text = (
+            'English is more interesting for me. '
+            'I have two reasons. '
+            'First, I enjoy learning new words.'
+        )
+        result = analyze_writing_response(text, rubric)
+        sentence_items = [
+            item for item in result['items']
+            if item['message'].startswith('文数:')
+        ]
+        self.assertEqual(len(sentence_items), 1)
+        self.assertEqual(sentence_items[0]['level'], 'info')
+
+    def test_analyze_opinion_warns_on_four_sentences(self):
+        from exams.writing_feedback import analyze_writing_response
+
+        rubric = {
+            'kind': 'opinion',
+            'word_min': 25,
+            'word_max': 35,
+            'sentence_min': 2,
+            'sentence_max': 2,
+            'count_body_only': False,
+        }
+        text = (
+            'English is more interesting for me. '
+            'I have two reasons. '
+            'First, I enjoy learning new words. '
+            'Second, I can communicate with people from different countries.'
+        )
+        result = analyze_writing_response(text, rubric)
+        self.assertTrue(
+            any(item['level'] == 'warn' and '文数' in item['message'] for item in result['items'])
+        )
+
+    def test_build_exam_unlock_excludes_writing_from_mock_level3(self):
+        from exams.models import Question
+        from exams.views import _build_exam_unlock_status
+
+        Question.objects.create(
+            question_text='2 つの英文で書きなさい。語数の目安は 25～35語。',
+            level='3',
+            question_type='writing',
+            question_number=99,
+        )
+        unlock_status = _build_exam_unlock_status(user=None, level='3')
+        writing = next(
+            item for item in unlock_status['foundation_progress']
+            if item['question_type'] == 'writing'
+        )
+        self.assertFalse(writing['counts_toward_mock'])
+        remaining_types = {
+            item['question_type']
+            for item in unlock_status['mock_exam']['remaining_categories']
+        }
+        self.assertNotIn('writing', remaining_types)
+
     def test_get_writing_rubric_falls_back_to_question_text(self):
         from exams.models import Question
         from exams.writing_feedback import get_writing_rubric

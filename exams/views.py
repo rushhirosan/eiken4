@@ -44,8 +44,11 @@ from .gamification import (
     build_daily_missions,
     build_habit_summary,
     build_session_achievements,
+    counts_toward_mock_unlock,
     enrich_foundation_progress,
     get_daily_mission_goal,
+    mock_exam_scope_description,
+    mock_unlock_help_text,
     pop_pre_submit_unlock_snapshot,
     process_gamification_after_session,
     random_scope_description,
@@ -338,6 +341,8 @@ def _build_exam_section(user, level_code, level_name, daily_goal=3):
         'badge_collection': build_badge_collection(user, level=level_code),
         'random_scope_description': random_scope_description(level_code),
         'random_unlock_help_text': random_unlock_help_text(),
+        'mock_exam_scope_description': mock_exam_scope_description(level_code),
+        'mock_unlock_help_text': mock_unlock_help_text(level_code),
     }
 
 
@@ -2090,7 +2095,12 @@ def _build_exam_unlock_status(user, level):
             'display_name': QUESTION_TYPE_LABELS.get(question_type, question_type),
             'progress_rate': progress_rate,
             'total_questions': total_questions,
+            'counts_toward_mock': counts_toward_mock_unlock(level, question_type),
         })
+
+    mock_eligible = [
+        item for item in category_progress if item.get('counts_toward_mock', True)
+    ]
 
     random_ready_count = sum(
         1 for item in category_progress
@@ -2098,9 +2108,9 @@ def _build_exam_unlock_status(user, level):
     )
     random_unlocked = random_ready_count >= RANDOM_UNLOCK_REQUIRED_CATEGORIES
 
-    mock_unlocked = bool(category_progress) and all(
+    mock_unlocked = bool(mock_eligible) and all(
         item['progress_rate'] >= MOCK_EXAM_UNLOCK_MIN_RATE
-        for item in category_progress
+        for item in mock_eligible
     )
     mock_remaining = [
         {
@@ -2109,7 +2119,7 @@ def _build_exam_unlock_status(user, level):
                 MOCK_EXAM_UNLOCK_MIN_RATE - item['progress_rate'], 1
             ),
         }
-        for item in category_progress
+        for item in mock_eligible
         if item['progress_rate'] < MOCK_EXAM_UNLOCK_MIN_RATE
     ]
 
@@ -2124,7 +2134,7 @@ def _build_exam_unlock_status(user, level):
             'is_unlocked': mock_unlocked,
             'required_rate': MOCK_EXAM_UNLOCK_MIN_RATE,
             'remaining_categories': mock_remaining,
-            'total_categories': len(category_progress),
+            'total_categories': len(mock_eligible),
         },
         'foundation_progress': category_progress,
     }
