@@ -298,6 +298,103 @@ class ExamListViewTest(TestCase):
         self.assertContains(response, '英検3級')
 
 
+class Level5ExamListTests(TestCase):
+    """英検5級の試験一覧・模擬試験構成のテスト"""
+
+    def setUp(self):
+        self.client = Client()
+        self.user = User.objects.create_user(
+            username='level5user',
+            email='level5@example.com',
+            password='testpass123',
+        )
+        self.url = reverse('exams:exam_list')
+        self.client.login(username='level5user', password='testpass123')
+
+    def test_exam_list_level5_shows_correct_types(self):
+        response = self.client.get(self.url, {'level': '5'})
+        self.assertEqual(response.status_code, 200)
+        self.assertContains(response, 'id="level-panel-5"')
+        self.assertContains(response, '英検5級')
+        self.assertContains(response, 'type=word_order')
+        self.assertContains(response, 'type=listening_illustration_part3')
+        self.assertNotContains(response, 'type=reading_comprehension')
+        self.assertNotContains(response, 'type=writing')
+        self.assertEqual(self.client.session.get('preferred_exam_level'), '5')
+
+    def test_exam_list_level5_random_scope_description(self):
+        response = self.client.get(self.url, {'level': '5'})
+        self.assertContains(response, '長文はランダム10問に含まれません')
+
+    def test_mock_exam_structure_is_50_questions_without_reading(self):
+        from exams.views import _get_mock_exam_structure
+
+        structure = _get_mock_exam_structure('5')
+        total = sum(count for _, _, count in structure)
+        categories = [name for name, _, _ in structure]
+        self.assertEqual(total, 50)
+        self.assertNotIn('reading_comprehension', categories)
+        self.assertIn('listening_illustration_part3', categories)
+
+    def test_listening_illustration_audio_uses_part3_for_no31_plus(self):
+        from questions.level_paths import db_audio_path, listening_illustration_audio_part
+
+        self.assertEqual(listening_illustration_audio_part('5', 30), 'part1')
+        self.assertEqual(listening_illustration_audio_part('5', 31), 'part3')
+        self.assertEqual(
+            db_audio_path('5', 'part3', 'listening_illustration_question31.mp3'),
+            'audio/level5/part3/listening_illustration_question31.mp3',
+        )
+        self.assertEqual(listening_illustration_audio_part('4', 35), 'part1')
+
+    def test_clear_progress_only_clears_level5(self):
+        q5 = Question.objects.create(
+            level='5',
+            question_type='grammar_fill',
+            question_text='5級',
+        )
+        q4 = Question.objects.create(
+            level='4',
+            question_type='grammar_fill',
+            question_text='4級',
+        )
+        choice5 = Choice.objects.create(
+            question=q5,
+            choice_text='A',
+            is_correct=True,
+            order=1,
+        )
+        UserProgress.objects.create(
+            user=self.user,
+            level='5',
+            question_type='grammar_fill',
+            total_attempts=1,
+            correct_answers=1,
+        )
+        UserProgress.objects.create(
+            user=self.user,
+            level='4',
+            question_type='grammar_fill',
+            total_attempts=2,
+            correct_answers=1,
+        )
+        UserAnswer.objects.create(
+            user=self.user,
+            question=q5,
+            selected_choice=choice5,
+            is_correct=True,
+        )
+        url = reverse('exams:clear_progress')
+        response = self.client.post(url, {'level': '5'})
+        self.assertEqual(response.status_code, 302)
+        self.assertFalse(
+            UserProgress.objects.filter(user=self.user, level='5').exists()
+        )
+        self.assertTrue(
+            UserProgress.objects.filter(user=self.user, level='4').exists()
+        )
+
+
 class ProgressViewTest(TestCase):
     """進捗ページビューのテスト"""
     

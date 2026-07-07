@@ -9,6 +9,7 @@ MOCK_EXAM_UNLOCK_MIN_RATE = 80
 RANDOM_UNLOCK_MIN_RATE = 20
 RANDOM_UNLOCK_REQUIRED_CATEGORIES = 3
 RANDOM_SCOPE_DESCRIPTIONS = {
+    '5': '文法・会話・語順・リスニングから出題。長文はランダム10問に含まれません',
     '4': '文法・会話・語順・リスニングから出題。長文はランダム10問に含まれません',
     '3': '文法・会話・リスニングから出題。長文・ライティングはランダム10問に含まれません',
 }
@@ -37,6 +38,7 @@ MISSION_TYPE_LABELS = {
     'reading_comprehension': '長文読解問題',
     'writing': 'ライティング問題',
     'listening_illustration': 'リスニング第1部',
+    'listening_illustration_part3': 'リスニング第3部',
     'listening_conversation': 'リスニング第2部',
     'listening_passage': 'リスニング第3部',
 }
@@ -47,6 +49,7 @@ MISSION_SHORT_LABELS = {
     'reading_comprehension': '長文読解',
     'writing': 'ライティング',
     'listening_illustration': 'リスニング第1部',
+    'listening_illustration_part3': 'リスニング第3部',
     'listening_conversation': 'リスニング第2部',
     'listening_passage': 'リスニング第3部',
 }
@@ -283,8 +286,30 @@ def _count_today_attempts_for_type(user, level, question_type):
     filters = {'user': user, 'answered_at__date': today}
 
     if question_type == 'listening_illustration':
+        from .listening_utils import filter_listening_illustrations
+        from questions.models import ListeningQuestion
+
+        if level_str == '5':
+            part1 = filter_listening_illustrations(
+                ListeningQuestion.objects.filter(level=level_str), part=1
+            )
+            return ListeningUserAnswer.objects.filter(
+                question_id__in=[q.id for q in part1],
+                **filters,
+            ).count()
         return ListeningUserAnswer.objects.filter(
             question__level=level_str,
+            **filters,
+        ).count()
+    if question_type == 'listening_illustration_part3':
+        from .listening_utils import filter_listening_illustrations
+        from questions.models import ListeningQuestion
+
+        part3 = filter_listening_illustrations(
+            ListeningQuestion.objects.filter(level=level_str), part=3
+        )
+        return ListeningUserAnswer.objects.filter(
+            question_id__in=[q.id for q in part3],
             **filters,
         ).count()
     if question_type == 'reading_comprehension':

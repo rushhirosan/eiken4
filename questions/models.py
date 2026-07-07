@@ -4,6 +4,7 @@ from django.conf import settings
 
 class ReadingPassage(models.Model):
     LEVELS = [
+        ('5', 'Grade 5'),
         ('4', 'Grade 4'),
         ('3', 'Grade 3'),
         ('2', 'Grade 2'),
@@ -40,6 +41,7 @@ class ReadingChoice(models.Model):
 
 class GrammarFillQuestion(models.Model):
     LEVELS = [
+        ('5', 'Grade 5'),
         ('4', 'Grade 4'),
         ('3', 'Grade 3'),
         ('2', 'Grade 2'),
@@ -67,6 +69,7 @@ class GrammarFillChoice(models.Model):
 
 class ListeningQuestion(models.Model):
     LEVELS = [
+        ('5', 'Grade 5'),
         ('4', 'Grade 4'),
         ('3', 'Grade 3'),
         ('2', 'Grade 2'),

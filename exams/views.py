@@ -110,8 +110,14 @@ FOUNDATION_QUESTION_TYPES = [
     'listening_passage',
 ]
 
-PREFERRED_LEVEL_SESSION_KEY = 'preferred_exam_level'
+from .listening_utils import (
+    LISTENING_ILLUSTRATION_PART1_MAX,
+    LISTENING_ILLUSTRATION_PART3_MIN,
+    filter_listening_illustrations,
+    listening_illustration_number,
+)
 EXAM_LEVEL_ENTRIES = [
+    ('5', '英検5級'),
     ('4', '英検4級'),
     ('3', '英検3級'),
 ]
@@ -123,9 +129,84 @@ QUESTION_TYPE_LABELS = {
     'reading_comprehension': '長文読解問題',
     'writing': 'ライティング問題',
     'listening_illustration': 'リスニング第1部: イラスト問題',
+    'listening_illustration_part3': 'リスニング第3部: イラスト一致問題',
     'listening_conversation': 'リスニング第2部: 会話問題',
     'listening_passage': 'リスニング第3部: 文章問題',
 }
+
+PREFERRED_LEVEL_SESSION_KEY = 'preferred_exam_level'
+
+
+def _foundation_question_types_for_level(level):
+    level = str(level)
+    if level == '5':
+        return [
+            'grammar_fill',
+            'conversation_fill',
+            'word_order',
+            'listening_illustration',
+            'listening_conversation',
+            'listening_illustration_part3',
+        ]
+    if level == '3':
+        return [
+            'grammar_fill',
+            'conversation_fill',
+            'reading_comprehension',
+            'writing',
+            'listening_illustration',
+            'listening_conversation',
+            'listening_passage',
+        ]
+    return list(FOUNDATION_QUESTION_TYPES)
+
+
+_filter_listening_illustrations = filter_listening_illustrations
+_listening_illustration_number = listening_illustration_number
+
+
+def _random_categories_for_level(level):
+    level = str(level)
+    categories = [
+        ('grammar_fill', Question),
+        ('conversation_fill', Question),
+    ]
+    if level != '3':
+        categories.append(('word_order', Question))
+    categories.append(('listening_conversation', Question))
+    if level == '4':
+        categories.append(('listening_passage', Question))
+    categories.append(('listening_illustration', ListeningQuestion))
+    return categories
+
+
+def _get_mock_exam_structure(level):
+    level = str(level)
+    if level == '5':
+        return [
+            ('grammar_fill', Question, 15),
+            ('conversation_fill', Question, 5),
+            ('word_order', Question, 5),
+            ('listening_illustration_part1', ListeningQuestion, 10),
+            ('listening_conversation', Question, 5),
+            ('listening_illustration_part3', ListeningQuestion, 10),
+        ]
+    return [
+        ('grammar_fill', Question, 15),
+        ('conversation_fill', Question, 5),
+        ('word_order', Question, 5),
+        ('reading_comprehension', ReadingPassage, 3),
+        ('listening_illustration', ListeningQuestion, 10),
+        ('listening_conversation', Question, 10),
+        ('listening_passage', Question, 10),
+    ]
+
+
+def _is_level5_only_type(level, question_type):
+    if str(level) != '5':
+        return False
+    return question_type in ('reading_comprehension', 'writing', 'listening_passage')
+
 
 def _is_correct_listening_illustration_answer(question, selected_answer, request=None, level=None):
     """リスニング第1部の回答値（テキスト/番号）から正解判定を行う。"""
@@ -222,6 +303,13 @@ def _build_exam_section(user, level_code, level_name, daily_goal=3):
         q_type: _total_questions_for_type(level_code, q_type)
         for q_type in question_types.keys()
     }
+    if str(level_code) == '5':
+        question_counts['listening_illustration_part3'] = _total_questions_for_type(
+            level_code, 'listening_illustration_part3'
+        )
+        question_counts['listening_illustration'] = _total_questions_for_type(
+            level_code, 'listening_illustration'
+        )
     unlock_status = _build_exam_unlock_status(user, level_code)
     foundation_rows = (
         unlock_status.get('foundation_progress', [])
@@ -269,8 +357,11 @@ def exam_list(request):
     daily_goal = get_daily_mission_goal(request, level=active_level)
 
     active_name = _exam_level_name(active_level)
-    other_entries = [(code, name) for code, name in EXAM_LEVEL_ENTRIES if code != active_level]
-    other_level_code, other_level_name = other_entries[0] if other_entries else (None, None)
+    other_levels = [
+        {'code': code, 'name': name}
+        for code, name in EXAM_LEVEL_ENTRIES
+        if code != active_level
+    ]
 
     context = {
         'active_section': _build_exam_section(
@@ -279,8 +370,7 @@ def exam_list(request):
             active_name,
             daily_goal=daily_goal,
         ),
-        'other_level_code': other_level_code,
-        'other_level_name': other_level_name,
+        'other_levels': other_levels,
     }
 
     return render(request, 'exams/exam_list.html', context)
@@ -316,6 +406,10 @@ def question_list(request, level=None, exam_id=None):
     if question_type == 'writing' and str(level) != '3':
         messages.info(request, 'ライティング問題は英検3級のみです。')
         return redirect('exams:exam_list')
+
+    if _is_level5_only_type(level, question_type):
+        messages.info(request, 'この問題形式は英検5級にはありません。')
+        return redirect('exams:exam_list')
     
     logger.debug(f"Debug - Level: {level}, Question Type: {question_type}")  # デバッグ出力
     
@@ -328,6 +422,7 @@ def question_list(request, level=None, exam_id=None):
         'writing': 'ライティング問題',
         'listening_conversation': 'リスニング第2部: 会話問題',
         'listening_illustration': 'リスニング第1部: イラスト問題',
+        'listening_illustration_part3': 'リスニング第3部: イラスト一致問題',
         'listening_passage': 'リスニング第3部: 文章問題',
         'random': 'ランダム10問',
         'mock_exam': '模擬試験問題',
@@ -388,14 +483,7 @@ def question_list(request, level=None, exam_id=None):
         }
         
         # 各カテゴリーから問題を取得
-        categories = [
-            ('grammar_fill', Question),
-            ('conversation_fill', Question),
-            ('word_order', Question),
-            ('listening_conversation', Question),
-            ('listening_passage', Question),
-            ('listening_illustration', ListeningQuestion),
-        ]
+        categories = _random_categories_for_level(level)
         
         # 各カテゴリーから2問ずつ取得（合計12問、その後10問に絞る）
         for category_type, model_class in categories:
@@ -466,20 +554,13 @@ def question_list(request, level=None, exam_id=None):
             'word_order': '語順選択問題',
             'reading_comprehension': '長文読解問題',
             'listening_illustration': 'リスニングイラスト問題',
+            'listening_illustration_part1': 'リスニング第1部（会話応答）',
+            'listening_illustration_part3': 'リスニング第3部（イラスト一致）',
             'listening_conversation': 'リスニング会話問題',
             'listening_passage': 'リスニング文章問題',
         }
         
-        # 英検4級の実際の問題構成（順序付き）
-        exam_structure = [
-            ('grammar_fill', Question, 15),      # 大問1: 15問
-            ('conversation_fill', Question, 5),  # 大問2: 5問
-            ('word_order', Question, 5),         # 大問3: 5問
-            ('reading_comprehension', ReadingPassage, 3),  # 大問4: 3パッセージ（約10問）
-            ('listening_illustration', ListeningQuestion, 10),  # 第1部: 10問
-            ('listening_conversation', Question, 10),      # 第2部: 10問
-            ('listening_passage', Question, 10),           # 第3部: 10問
-        ]
+        exam_structure = _get_mock_exam_structure(level)
         
         # 各カテゴリーから指定された数の問題を取得
         question_counter = 1
@@ -489,7 +570,16 @@ def question_list(request, level=None, exam_id=None):
         
         for category_type, model_class, num_questions in exam_structure:
             if model_class == ListeningQuestion:
-                questions = model_class.objects.filter(level=str(level)).order_by('?')[:num_questions]
+                pool = list(model_class.objects.filter(level=str(level)).order_by('?'))
+                if category_type == 'listening_illustration_part1':
+                    pool = _filter_listening_illustrations(pool, part=1)
+                    display_category = 'listening_illustration'
+                elif category_type == 'listening_illustration_part3':
+                    pool = _filter_listening_illustrations(pool, part=3)
+                    display_category = 'listening_illustration_part3'
+                else:
+                    display_category = category_type
+                questions = pool[:num_questions]
                 for question in questions:
                     choices = ListeningChoice.objects.filter(question=question).order_by('order')
                     listening_questions.append({
@@ -498,7 +588,7 @@ def question_list(request, level=None, exam_id=None):
                         'user_answer': None,
                         'is_correct': None,
                         'explanation': getattr(question, 'explanation', ''),
-                        'category': category_type,
+                        'category': display_category,
                         'category_name': category_names.get(category_type, category_type),
                         'question_type': 'listening_illustration',
                         'category_order': exam_structure.index((category_type, model_class, num_questions)),
@@ -573,12 +663,19 @@ def question_list(request, level=None, exam_id=None):
         # 長文読解問題がある場合は専用テンプレートを使用
         if reading_passages:
             # リスニング問題を正しい順序で分離
-            listening_illustration = [q for q in listening_questions if q['category'] == 'listening_illustration']
+            listening_illustration = [
+                q for q in listening_questions
+                if q['category'] in ('listening_illustration', 'listening_illustration_part1')
+            ]
+            listening_illustration_part3 = [
+                q for q in listening_questions if q['category'] == 'listening_illustration_part3'
+            ]
             listening_conversation = [q for q in listening_questions if q['category'] == 'listening_conversation']
             listening_passage = [q for q in listening_questions if q['category'] == 'listening_passage']
 
             apply_choice_shuffle_to_items(request, level, all_questions)
             apply_choice_shuffle_to_items(request, level, listening_illustration)
+            apply_choice_shuffle_to_items(request, level, listening_illustration_part3)
             apply_choice_shuffle_to_items(request, level, listening_conversation)
             apply_choice_shuffle_to_items(request, level, listening_passage)
             apply_choice_shuffle_to_passages(request, level, reading_passages)
@@ -592,6 +689,7 @@ def question_list(request, level=None, exam_id=None):
                 'questions': all_questions,
                 'passages': reading_passages,
                 'listening_illustration': listening_illustration,
+                'listening_illustration_part3': listening_illustration_part3,
                 'listening_conversation': listening_conversation,
                 'listening_passage': listening_passage,
                 'question_count_options': question_count_options,
@@ -599,6 +697,9 @@ def question_list(request, level=None, exam_id=None):
             return render(request, 'exams/mock_exam.html', context)
         else:
             apply_choice_shuffle_to_items(request, level, all_questions)
+            listening_illustration_part3 = [
+                q for q in listening_questions if q['category'] == 'listening_illustration_part3'
+            ]
             context = {
                 'level': level,
                 'question_type': question_type,
@@ -606,14 +707,19 @@ def question_list(request, level=None, exam_id=None):
                 'num_questions': len(all_questions),
                 'status': status,
                 'questions': all_questions,
+                'listening_illustration_part3': listening_illustration_part3,
                 'question_count_options': question_count_options,
             }
             return render(request, 'exams/question_list.html', context)
     
-    elif question_type == 'listening_illustration':
-        # イラスト問題の場合
+    elif question_type in ('listening_illustration', 'listening_illustration_part3'):
+        illustration_part = 1 if question_type == 'listening_illustration' and str(level) == '5' else (
+            3 if question_type == 'listening_illustration_part3' else None
+        )
         questions = ListeningQuestion.objects.filter(level=str(level)).order_by('id')
-        logger.debug(f"Debug - Listening Illustration Questions: {questions.count()}")  # デバッグ出力
+        if illustration_part is not None:
+            questions = _filter_listening_illustrations(questions, part=illustration_part)
+        logger.debug(f"Debug - Listening Illustration Questions: {len(questions)}")
 
         latest_answers = {
             answer.question_id: answer
@@ -659,13 +765,13 @@ def question_list(request, level=None, exam_id=None):
         context = {
             'level': level,
             'question_type': question_type,
-            'question_type_display': question_types.get(question_type, ''),
+            'question_type_display': question_types.get(question_type, question_types.get('listening_illustration', '')),
             'num_questions': num_questions,
             'status': status,
             'questions': questions_with_choices,
             'question_count_options': question_count_options,
         }
-        return render(request, 'exams/question_list.html', context)
+        return render(request, 'exams/listening_illustration.html', context)
     
     elif question_type in ['listening_conversation', 'listening_passage']:
         # リスニング会話問題とリスニング文章問題の場合
@@ -1193,9 +1299,13 @@ def submit_answers(request, level):
             
             return redirect('exams:answer_results', level=level, question_type=question_type)
         
-        elif question_type == 'listening_illustration':
-            # イラスト問題の場合
+        elif question_type in ('listening_illustration', 'listening_illustration_part3'):
+            illustration_part = 1 if question_type == 'listening_illustration' and str(level) == '5' else (
+                3 if question_type == 'listening_illustration_part3' else None
+            )
             questions = ListeningQuestion.objects.filter(level=str(level)).order_by('id')
+            if illustration_part is not None:
+                questions = _filter_listening_illustrations(questions, part=illustration_part)
             # 「全て」が選択された場合は制限しない
             if num_questions != 'all' and len(questions) > num_questions:
                 questions = random.sample(list(questions), num_questions)
@@ -1231,59 +1341,16 @@ def submit_answers(request, level):
                         is_correct=is_correct,
                         answered_at=timezone.now()
                     )
-                    # 進捗を更新
-                    update_user_progress(request.user, level, 'listening_illustration', is_correct)
-            
-            # 今回回答したquestion_idと出題順序をセッションに保存
-            request.session[f'answered_questions_{question_type}_{level}'] = post_question_ids
-            
-            return redirect('exams:answer_results', level=level, question_type=question_type)
-        
-        elif question_type in ['listening_conversation', 'listening_passage']:
-            # その他のリスニング問題の場合
-            questions = Question.objects.filter(level=level, question_type=question_type).order_by('question_number')
-            questions = list(questions)
-            # 「全て」が選択された場合は制限しない
-            if num_questions != 'all' and len(questions) > num_questions:
-                questions = random.sample(questions, num_questions)
-                questions.sort(key=lambda x: x.question_number)
-            
-            # POSTされたquestion_idをすべて取得
-            post_question_ids = [
-                int(key.replace('answer_', ''))
-                for key in request.POST.keys()
-                if key.startswith('answer_')
-            ]
+                    progress_type = question_type
+                    if question_type == 'listening_illustration' and str(level) == '5':
+                        progress_type = 'listening_illustration'
+                    elif question_type == 'listening_illustration_part3':
+                        progress_type = 'listening_illustration_part3'
+                    update_user_progress(request.user, level, progress_type, is_correct)
 
-            # 既存の回答を削除（POSTされたquestion_idのみ）
-            UserAnswer.objects.filter(
-                user=request.user,
-                question_id__in=post_question_ids
-            ).delete()
-            
-            # 回答を保存
-            for question_id in post_question_ids:
-                answer_key = f'answer_{question_id}'
-                selected_choice_id = request.POST.get(answer_key)
-                if selected_choice_id:
-                    choice = Choice.objects.get(id=selected_choice_id)
-                    is_correct = choice.is_correct
-                    question = Question.objects.get(id=question_id)
-                    UserAnswer.objects.create(
-                        user=request.user,
-                        question=question,
-                        selected_choice=choice,
-                        is_correct=is_correct,
-                        answered_at=timezone.now()
-                    )
-                    # 進捗を更新
-                    update_user_progress(request.user, level, question_type, is_correct)
-            
-            # 今回回答したquestion_idと出題順序をセッションに保存
             request.session[f'answered_questions_{question_type}_{level}'] = post_question_ids
-            
             return redirect('exams:answer_results', level=level, question_type=question_type)
-        
+
         elif question_type == 'reading_comprehension':
             # 長文読解問題の場合
             passages = ReadingPassage.objects.filter(level=level).order_by('id')
@@ -1555,7 +1622,7 @@ def answer_results(request, level, question_type):
         }
         return _finalize_and_render_answer_results(request, context)
     
-    elif question_type == 'listening_illustration':
+    elif question_type in ('listening_illustration', 'listening_illustration_part3'):
         # イラスト問題の場合
         # セッションから今回回答したquestion_idを取得
         session_key = f'answered_questions_{question_type}_{level}'
@@ -1864,7 +1931,7 @@ def answer_results(request, level, question_type):
 def progress_view(request):
     """学習進捗を表示"""
     user = request.user
-    level_order = ['4', '3', '2', '1', 'pre1']
+    level_order = ['5', '4', '3', '2', '1', 'pre1']
     available_levels = list(
         Question.objects.values_list('level', flat=True).distinct()
     )
@@ -1988,7 +2055,13 @@ def _total_questions_for_type(level, question_type):
     if not level or not question_type:
         return 0
     if question_type == 'listening_illustration':
-        return ListeningQuestion.objects.filter(level=str(level)).count()
+        qs = ListeningQuestion.objects.filter(level=str(level))
+        if str(level) == '5':
+            return len(_filter_listening_illustrations(qs, part=1))
+        return qs.count()
+    if question_type == 'listening_illustration_part3':
+        qs = ListeningQuestion.objects.filter(level=str(level))
+        return len(_filter_listening_illustrations(qs, part=3))
     if question_type == 'reading_comprehension':
         _, total_passages = _reading_passage_progress_counts(None, level)
         return total_passages
@@ -2007,7 +2080,7 @@ def _progress_rate_for_type(user, level, question_type):
 def _build_exam_unlock_status(user, level):
     """ランダム問題・模擬試験の解放状態を返す。"""
     category_progress = []
-    for question_type in FOUNDATION_QUESTION_TYPES:
+    for question_type in _foundation_question_types_for_level(level):
         total_questions = _total_questions_for_type(level, question_type)
         if total_questions <= 0:
             continue
@@ -2098,9 +2171,29 @@ def _distinct_answered_question_count(user, level, question_type):
     if user is None or level is None or question_type is None:
         return 0
     if question_type == 'listening_illustration':
-        return ListeningUserAnswer.objects.filter(
+        answers = ListeningUserAnswer.objects.filter(
             user=user,
             question__level=str(level),
+        )
+        if str(level) == '5':
+            part1_ids = {
+                question.id
+                for question in _filter_listening_illustrations(
+                    ListeningQuestion.objects.filter(level=str(level)), part=1
+                )
+            }
+            return answers.filter(question_id__in=part1_ids).count()
+        return answers.count()
+    if question_type == 'listening_illustration_part3':
+        part3_ids = {
+            question.id
+            for question in _filter_listening_illustrations(
+                ListeningQuestion.objects.filter(level=str(level)), part=3
+            )
+        }
+        return ListeningUserAnswer.objects.filter(
+            user=user,
+            question_id__in=part3_ids,
         ).count()
     if question_type == 'reading_comprehension':
         completed_passages, _ = _reading_passage_progress_counts(user, level)
@@ -2292,7 +2385,7 @@ def progress_to_dict(progress, level=None, question_type=None, user=None):
     return result
 
 def _allowed_progress_levels():
-    level_order = ['4', '3', '2', '1', 'pre1']
+    level_order = ['5', '4', '3', '2', '1', 'pre1']
     available_levels = list(
         Question.objects.values_list('level', flat=True).distinct()
     )

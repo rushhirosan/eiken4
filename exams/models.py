@@ -23,6 +23,7 @@ class Exam(models.Model):
 
 class Question(models.Model):
     LEVELS = [
+        ('5', 'Grade 5'),
         ('4', 'Grade 4'),
         ('3', 'Grade 3'),
         ('2', 'Grade 2'),

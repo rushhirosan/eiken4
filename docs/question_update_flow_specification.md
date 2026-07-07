@@ -3,7 +3,7 @@
 ## 概要
 英検4級の全問題タイプの更新・管理フローを統合的に定義します。
 
-**データ置き場（級別）**: 4級は従来どおり `data/questions/*.txt` および `static/audio/part*` / `static/images/part1` 等。3級は `data/questions/level3/` と `static/audio/level3/part*` / `static/images/level3/part1`（登録コマンドは `--level 3`）。過去問PDFから問題を取得するフローから、データベースへの登録まで、すべての工程を網羅しています。
+**データ置き場（級別）**: 4級は従来どおり `data/questions/*.txt` および `static/audio/part*` / `static/images/part1` 等。3級は `data/questions/level3/` と `static/audio/level3/part*` / `static/images/level3/part1`（登録コマンドは `--level 3`）。5級は `data/questions/level5/` と `static/audio/level5/part*` / `static/images/level5/part1`（登録コマンドは `--level 5`）。過去問PDFから問題を取得するフローから、データベースへの登録まで、すべての工程を網羅しています。
 
 ### 3級の公式解答（正解照合の一次情報）
 
@@ -15,6 +15,32 @@
 - リポジトリ内の `data/pdf_import/level3_kakomon/20250{D}3kyu_answers.pdf` は **D日程（金曜実施）** で、上記過去問冊子と正解がずれることがある。**正解の照合・テキスト修正に D版を使わない。**
 - 照合コマンド: `python utils/verify_level3_official_answers.py`（`data/questions/level3/*.txt` と F版PDFを突合。不一致時は exit 1）
 - 通し番号の対応（例: リスニング第1部）: アプリ `Question No.11–20` = 第2回の本番 No.1–10、…（各回10問×3回）
+
+### 5級の公式解答（正解照合の一次情報）
+
+- 問題冊子・リスニング原稿: [5級の過去問・試験内容](https://www.eiken.or.jp/eiken/exam/grade_5/)（`2025-{2,3}-1ji-5kyu.pdf`、`2026-1-1ji-5kyu.pdf` 等）
+- **解答PDFは F日程のみ**:
+  - `https://www.eiken.or.jp/eiken/result/pdf/202502F5kyu.pdf`（2025年度第2回）
+  - `https://www.eiken.or.jp/eiken/result/pdf/202503F5kyu.pdf`（2025年度第3回）
+  - `https://www.eiken.or.jp/eiken/result/pdf/202601F5kyu.pdf`（2026年度第1回）
+- リポジトリ内: `data/pdf_import/level5_kakomon/`（問題冊子・F版解答・リスニング原稿）
+- テキスト生成: `python utils/build_level5_questions.py` → `data/questions/level5/*.txt`
+- 照合コマンド: `python utils/verify_level5_official_answers.py`（不一致時は exit 1）
+- 正解分布チェック: `python utils/check_answer_distribution.py`
+- 試験構成: 長文・ライティングなし。リスニングは第1部10問＋第2部5問＋第3部10問（`listening_illustration` No.1–30 / No.31–60）
+- 音声配置（公式 Part1/2/3 に対応）:
+  - `static/audio/level5/part1/listening_illustration_question{1-30}.mp3`
+  - `static/audio/level5/part2/listening_conversation_question{1-15}.mp3`
+  - `static/audio/level5/part3/listening_illustration_question{31-60}.mp3`（イラスト一致。4級の `part3` 文章問題とは別）
+- 登録コマンド（`--level 5`）:
+  ```bash
+  python manage.py register_grammar_fill_questions --level 5
+  python manage.py register_conversation_fill_questions --level 5
+  python manage.py register_wordorder_fill_questions --level 5
+  python manage.py register_listening_illustration_questions --level 5
+  python manage.py create_listening_conversation_questions --level 5
+  ```
+- アセット準備: `python utils/setup_level5_assets.py`（プレースホルダー画像・音声。TTS 不可時は ffmpeg で無音 MP3）
 
 ## プロジェクト構造とディレクトリ役割
 

@@ -21,12 +21,14 @@
 
             {% include 'exams/_habit_status.html' with habit_summary=active_section.habit_summary %}
 
-            {% if other_level_code %}
+            {% if other_levels %}
             <p class="text-center mb-2 px-2">
-                <a href="{% url 'exams:exam_list' %}?level={{ other_level_code }}"
-                   class="exam-level-switch-link small">
-                    {{ other_level_name }}に切り替える
+                {% for lvl in other_levels %}
+                <a href="{% url 'exams:exam_list' %}?level={{ lvl.code }}"
+                   class="exam-level-switch-link small{% if not forloop.first %} ms-2{% endif %}">
+                    {{ lvl.name }}に切り替える
                 </a>
+                {% endfor %}
             </p>
             {% endif %}
 
@@ -83,6 +85,7 @@
                                 {% endwith %}
                             </div>
                             {% endif %}
+                            {% if section.level_code != '5' %}
                             <div class="col-md-6">
                                 <a href="{% url 'exams:question_list_by_level' level=section.level_code %}?type=reading_comprehension" 
                                    class="btn btn-light shadow-sm text-dark w-100 py-2">
@@ -93,6 +96,7 @@
                                 {% include 'exams/_foundation_progress.html' %}
                                 {% endwith %}
                             </div>
+                            {% endif %}
                             {% if section.level_code == '3' %}
                             <div class="col-md-6">
                                 <a href="{% url 'exams:question_list_by_level' level=section.level_code %}?type=writing" 
@@ -119,7 +123,11 @@
                                 <a href="{% url 'exams:question_list_by_level' level=section.level_code %}?type=listening_illustration" 
                                    class="btn btn-light shadow-sm text-dark w-100 py-2" style="white-space: nowrap;">
                                     <i class="fas fa-image me-2"></i>
+                                    {% if section.level_code == '5' %}
+                                    第1部: 会話応答（{{ section.question_counts.listening_illustration }}問）
+                                    {% else %}
                                     第1部: イラスト問題（{{ section.question_counts.listening_illustration }}問）
+                                    {% endif %}
                                 </a>
                                 {% with progress_item=section.foundation_progress_by_type.listening_illustration %}
                                 {% include 'exams/_foundation_progress.html' %}
@@ -135,6 +143,18 @@
                                 {% include 'exams/_foundation_progress.html' %}
                                 {% endwith %}
                             </div>
+                            {% if section.level_code == '5' %}
+                            <div class="col-lg-4 col-md-12">
+                                <a href="{% url 'exams:question_list_by_level' level=section.level_code %}?type=listening_illustration_part3" 
+                                   class="btn btn-light shadow-sm text-dark w-100 py-2" style="white-space: nowrap;">
+                                    <i class="fas fa-images me-2"></i>
+                                    第3部: イラスト一致（{{ section.question_counts.listening_illustration_part3 }}問）
+                                </a>
+                                {% with progress_item=section.foundation_progress_by_type.listening_illustration_part3 %}
+                                {% include 'exams/_foundation_progress.html' %}
+                                {% endwith %}
+                            </div>
+                            {% else %}
                             <div class="col-lg-4 col-md-12">
                                 <a href="{% url 'exams:question_list_by_level' level=section.level_code %}?type=listening_passage" 
                                    class="btn btn-light shadow-sm text-dark w-100 py-2" style="white-space: nowrap;">
@@ -145,6 +165,7 @@
                                 {% include 'exams/_foundation_progress.html' %}
                                 {% endwith %}
                             </div>
+                            {% endif %}
                         </div>
 
                         {% with summary=section.adventure_summary %}

@@ -7,6 +7,7 @@ from questions.level_paths import (
     add_default_register_arguments,
     db_audio_path,
     db_image_path_part1,
+    listening_illustration_audio_part,
     questions_file_abspath,
     static_audio_dir,
     static_images_part1_dir,
@@ -32,11 +33,9 @@ class Command(BaseCommand):
 
         txt_path = questions_file_abspath(level, 'listening_illustration_questions.txt')
         image_dir = static_images_part1_dir(level)
-        audio_dir = static_audio_dir(level, 'part1')
 
         self.stdout.write(f'テキストファイルパス: {txt_path}')
         self.stdout.write(f'画像ディレクトリ: {image_dir}')
-        self.stdout.write(f'音声ディレクトリ: {audio_dir}')
 
         if not os.path.exists(txt_path):
             self.stdout.write(self.style.ERROR(f'ファイルが見つかりません: {txt_path}'))
@@ -79,10 +78,11 @@ class Command(BaseCommand):
             image_name = f'listening_illustration_image{number}.png'
             audio_name = f'listening_illustration_question{number}.mp3'
             image_path = db_image_path_part1(level, image_name)
-            audio_path = db_audio_path(level, 'part1', audio_name)
+            audio_part = listening_illustration_audio_part(level, number)
+            audio_path = db_audio_path(level, audio_part, audio_name)
 
             self.stdout.write(f'画像ファイル: {image_path}')
-            self.stdout.write(f'音声ファイル: {audio_path}')
+            self.stdout.write(f'音声ファイル: {audio_path} ({audio_part})')
 
             # 選択肢・正解・解説の抽出
             choices = []
@@ -96,9 +96,9 @@ class Command(BaseCommand):
                     in_choices = True
                     continue
                 if in_choices and line.strip() and not line.startswith('【'):
-                    if line.strip()[0].isdigit() and line.strip()[1] == '.':
-                        # 1. Yes, over there. など
-                        choices.append(line.strip()[3:].strip())
+                    stripped = line.strip()
+                    if len(stripped) >= 2 and stripped[0].isdigit() and stripped[1] == '.':
+                        choices.append(stripped[3:].strip())
                 if '【正解' in line:
                     in_choices = False
                     # 正解テキストを抽出（次の行から）
@@ -113,9 +113,8 @@ class Command(BaseCommand):
                     else:
                         explanation += line.strip() + '\n'
                 elif not in_choices and not in_explanation and line.strip() and not line.startswith('【'):
-                    # 正解行の処理
-                    # 「2. I have a piano lesson.」形式からorder番号「2」を抽出
-                    if line.strip()[0].isdigit() and line.strip()[1] == '.':
+                    stripped = line.strip()
+                    if len(stripped) >= 2 and stripped[0].isdigit() and stripped[1] == '.':
                         # 番号を抽出（例：「2. I have a piano lesson.」→「2」）
                         correct_answer_order = int(line.strip()[0])
                         correct_answer_text = line.strip()[3:].strip()
@@ -138,15 +137,19 @@ class Command(BaseCommand):
             # 選択肢を番号で登録（既存の形式に合わせる）
             # correct_answerはorder番号（文字列）になっている
             correct_order = int(correct_answer) if correct_answer.isdigit() else None
-            
+            is_level5_part3 = level == '5' and number >= 31
+
             for i, choice_text in enumerate(choices, 1):
-                # 選択肢のテキストは番号（"1", "2", "3"）として保存
-                # 正解判定はorderで行う
+                if is_level5_part3:
+                    choice_img = f'listening_illustration_q{number}_choice{i}.png'
+                    stored_text = db_image_path_part1(level, choice_img)
+                else:
+                    stored_text = str(i)
                 ListeningChoice.objects.create(
                     question=q,
-                    choice_text=str(i),  # 選択肢は番号のみ
+                    choice_text=stored_text,
                     is_correct=(i == correct_order) if correct_order else False,
-                    order=i
+                    order=i,
                 )
 
             self.stdout.write(self.style.SUCCESS(f'問題 No.{number} を登録（選択肢{len(choices)}個, 正解: {correct_answer}）'))

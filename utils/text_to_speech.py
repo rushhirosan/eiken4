@@ -35,7 +35,7 @@ def main():
     parser.add_argument(
         '--level',
         default=os.environ.get('EIKEN_LEVEL', '4'),
-        choices=['3', '4'],
+        choices=['3', '4', '5'],
         help='3 のとき data/questions/level3/ と static/audio/level3/part1 を既定にする',
     )
     parser.add_argument(

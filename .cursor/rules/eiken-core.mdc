@@ -11,9 +11,10 @@ alwaysApply: true
   - `questions/`: 問題マスタの詳細モデル（読解パッセージ、文法穴埋め、リスニング専用など）と **問題登録用** `management/commands`。
   - `accounts/`: 認証。セキュリティログは `[SECURITY]` プレフィックス（`docs/security_logging_guide.md`）。
 - **詳細仕様の一次情報**: `docs/question_update_flow_specification.md`（問題更新フロー・コマンド一覧・ディレクトリ役割）。迷ったらここを優先する。
-- **レベル表記**: `4`, `3`, `2`, `1`, `pre1`（モデルの `LEVELS` と一致させる）。
+- **レベル表記**: `5`, `4`, `3`, `2`, `1`, `pre1`（モデルの `LEVELS` と一致させる）。
 - **データ・静的ファイルの置き場（級別）**
-  - **4級（従来）**: `data/questions/*.txt`、`static/audio/part1|part2|part3`、`static/images/part1`。**ここを 3級用に差し替えたり上書きしたりしない**（4級向け登録の既定のまま残す）。
+  - **4級（従来）**: `data/questions/*.txt`、`static/audio/part1|part2|part3`、`static/images/part1`。**ここを 3級・5級用に差し替えたり上書きしたりしない**（4級向け登録の既定のまま残す）。
   - **3級**: `data/questions/level3/*.txt`（4級と同じファイル名）、`static/audio/level3/part1|2|3`、`static/images/level3/part1`（第1部イラスト用）。登録コマンドは `--level 3`、DB の `level='3'`。**正解の一次情報**は英検協会の F日程解答PDF（`https://www.eiken.or.jp/eiken/result/pdf/20250{1,2,3}F3kyu.pdf`）。`data/pdf_import/level3_kakomon/*D3kyu*` は使わない。
+  - **5級**: `data/questions/level5/*.txt`、`static/audio/level5/part1|2|3`、`static/images/level5/part1`。登録コマンドは `--level 5`、DB の `level='5'`。**正解の一次情報**は F日程解答PDF（`https://www.eiken.or.jp/eiken/result/pdf/20250{2,3}F5kyu.pdf`、`202601F5kyu.pdf`）。長文・ライティングなし。リスニング音声は公式に合わせ part1（No.1–30）/ part2（会話）/ part3（No.31–60・イラスト一致）。UI は `listening_illustration_part3` で第3部を分離。
   - パス規約の実装は `questions/level_paths.py`（Django）、ユーティリティは `utils/eiken_paths.py`（引数・`EIKEN_LEVEL` 等）。
 - **ユーザー向け文言**: 日本語が基本。コードコメントは既存ファイルに合わせる（英日混在あり）。
