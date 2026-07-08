@@ -362,10 +362,13 @@ def exam_list(request):
     daily_goal = get_daily_mission_goal(request, level=active_level)
 
     active_name = _exam_level_name(active_level)
-    other_levels = [
-        {'code': code, 'name': name}
+    exam_levels = [
+        {
+            'code': code,
+            'name': name,
+            'is_active': code == active_level,
+        }
         for code, name in EXAM_LEVEL_ENTRIES
-        if code != active_level
     ]
 
     context = {
@@ -375,7 +378,7 @@ def exam_list(request):
             active_name,
             daily_goal=daily_goal,
         ),
-        'other_levels': other_levels,
+        'exam_levels': exam_levels,
     }
 
     return render(request, 'exams/exam_list.html', context)

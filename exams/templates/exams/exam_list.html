@@ -21,16 +21,19 @@
 
             {% include 'exams/_habit_status.html' with habit_summary=active_section.habit_summary %}
 
-            {% if other_levels %}
-            <p class="text-center mb-2 px-2">
-                {% for lvl in other_levels %}
-                <a href="{% url 'exams:exam_list' %}?level={{ lvl.code }}"
-                   class="exam-level-switch-link small{% if not forloop.first %} ms-2{% endif %}">
-                    {{ lvl.name }}に切り替える
-                </a>
-                {% endfor %}
-            </p>
-            {% endif %}
+            <form method="get" action="{% url 'exams:exam_list' %}" class="exam-level-switch-form mb-2 px-2">
+                <label for="exam-level-select" class="exam-level-switch-label">級を変更</label>
+                <div class="exam-level-select-wrap">
+                    <select id="exam-level-select" name="level" class="form-select exam-level-select" onchange="this.form.submit()">
+                        {% for lvl in exam_levels %}
+                        <option value="{{ lvl.code }}"{% if lvl.is_active %} selected{% endif %}>{{ lvl.name }}</option>
+                        {% endfor %}
+                    </select>
+                </div>
+                <noscript>
+                    <button type="submit" class="btn btn-sm btn-light mt-2">変更</button>
+                </noscript>
+            </form>
 
             {% include 'exams/_daily_missions.html' with daily_missions=active_section.daily_missions %}
 
@@ -306,14 +309,44 @@ function updateDailyMissionGoal(value) {
     text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.25);
 }
 
-.exam-level-switch-link {
-    color: rgba(255, 255, 255, 0.82);
-    font-size: 0.875rem;
-    text-decoration: underline;
-    text-underline-offset: 2px;
+.exam-level-switch-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
 }
-.exam-level-switch-link:hover {
-    color: #fff;
+
+.exam-level-switch-label {
+    color: rgba(255, 255, 255, 0.85);
+    font-size: 0.85rem;
+    margin: 0;
+}
+
+.exam-level-select-wrap {
+    min-width: 9rem;
+}
+
+.exam-level-select {
+    background-color: rgba(255, 255, 255, 0.95);
+    border: none;
+    border-radius: 999px;
+    font-size: 0.9rem;
+    line-height: 1.2;
+    padding: 0.3rem 2rem 0.3rem 0.85rem;
+}
+
+.exam-level-select:focus {
+    box-shadow: 0 0 0 0.2rem rgba(255, 255, 255, 0.3);
+}
+
+@media (max-width: 576px) {
+    .exam-level-switch-form {
+        flex-direction: column;
+        gap: 0.35rem;
+    }
+    .exam-level-select-wrap {
+        width: min(100%, 12rem);
+    }
 }
 
 /* 試験一覧のみ: main の上下パディングを詰める（このページにインライン style があるときだけ有効） */
