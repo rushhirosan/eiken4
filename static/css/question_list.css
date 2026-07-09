@@ -46,6 +46,13 @@
     min-height: 48px;
 }
 
+/* ライティング: 2〜3文想定のコンパクトな入力欄（必要なら縦にリサイズ可） */
+.writing-answer-input {
+    resize: vertical;
+    min-height: 7rem;
+    max-height: 18rem;
+}
+
 /* デフォルトスタイル */
 .card-body {
     overflow: visible !important;

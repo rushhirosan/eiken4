@@ -11,8 +11,8 @@ Boy : Where are my pajamas, Mom? Mother : ( )
 3. On your bed.
 
 【解説1】
-会話の流れから、空所に入る最も自然なのは「On your bed.」です。
-「It’s big.」「Five dollars.」「After dinner.」は前後の発話とつながりが不自然です。
+「Where are my pajamas?（パジャマはどこ？）」は場所を聞いているので、「On your bed.（ベッドの上）」が正解です。
+「It's big.」は大きさ、「Five dollars.」は値段、「After dinner.」は時間の話で、場所の答えになりません。
 
 ---
 
@@ -29,8 +29,8 @@ Mother : What drink do you want? Girl : ( )
 3. Orange juice, please.
 
 【解説2】
-会話の流れから、空所に入る最も自然なのは「Orange juice, please.」です。
-「Two eggs.」「Yes, at night.」「Every weekend.」は前後の発話とつながりが不自然です。
+「What drink do you want?（どんな飲み物がいい？）」に対して、飲み物を答える「Orange juice, please.」が自然です。
+「Two eggs.」は食べ物、「Yes, at night.」「Every weekend.」は時間の話で、飲み物の質問に合いません。
 
 ---
 
@@ -47,8 +47,8 @@ Girl : Allan, your pink T-shirt is nice. Boy : ( ) Brenda.
 1. Thanks,
 
 【解説3】
-会話の流れから、空所に入る最も自然なのは「Thanks,」です。
-「Good job,」「You’re welcome,」「They’re interesting,」は前後の発話とつながりが不自然です。
+服をほめられた場面なので、感謝の「Thanks,」が自然です。
+「You're welcome,」は感謝を受け取った側の返答なので使えません。「Good job,」はほめる言い方で、ほめられた側の返答として不自然です。
 
 ---
 
@@ -65,8 +65,8 @@ Girl : When do you study English, Taro? Boy : ( ) Then I watch TV.
 3. After dinner.
 
 【解説4】
-会話の流れから、空所に入る最も自然なのは「After dinner.」です。
-「I like it.」「In my room.」「For three hours.」は前後の発話とつながりが不自然です。
+「When do you study English?（いつ英語を勉強する？）」に対して、時を答える「After dinner.」が正解で、「Then I watch TV.」ともつながります。
+「In my room.」は場所、「For three hours.」は時間の長さ、「I like it.」は好みの答えです。
 
 ---
 
@@ -77,14 +77,14 @@ Boy : Can you come to my house today, Lisa? Girl : No, I can’t. ( )
 1. That’s a good idea.
 2. I have a violin lesson.
 3. Come in, please.
-4. It’s not mine. 2 2025年度第2回検定一次試験（5級） copyright2025 公益財団法人日本英語検定協会 無断転載・複製を禁じます 5
+4. It’s not mine.
 
 【正解5】
 2. I have a violin lesson.
 
 【解説5】
-会話の流れから、空所に入る最も自然なのは「I have a violin lesson.」です。
-「That’s a good idea.」「Come in, please.」「It’s not mine. 2 2025年度第2回検定一次試験（5級） copyright2025 公益財団法人日本英語検定協会 無断転載・複製を禁じます 5」は前後の発話とつながりが不自然です。
+「Can you come to my house today?（今日うちに来られる？）」を断ったあと、理由を述べる「I have a violin lesson.（バイオリンのレッスンがある）」が自然です。
+「That's a good idea.」は賛成の言い方なので、「No, I can't.」と矛盾します。
 
 ---
 
@@ -101,8 +101,8 @@ Teacher : Let’s start today’s English lesson. ( ) Student : OK, Ms. Peterson
 3. Please open your book.
 
 【解説6】
-会話の流れから、空所に入る最も自然なのは「Please open your book.」です。
-「See you tomorrow.」「We’re going to school.」「You can go home.」は前後の発話とつながりが不自然です。
+授業を始める場面なので、生徒への指示「Please open your book.」が自然で、「OK, Ms. Peterson.」ともつながります。
+「See you tomorrow.」は別れの挨拶、「You can go home.」は授業開始の流れと合いません。
 
 ---
 
@@ -119,8 +119,8 @@ Woman : Excuse me. What time does the next train come? Man : ( )
 3. At five o’clock.
 
 【解説7】
-会話の流れから、空所に入る最も自然なのは「At five o’clock.」です。
-「Yes, it does.」「It’s good.」「For one hour.」は前後の発話とつながりが不自然です。
+「What time does the next train come?（次の電車は何時？）」なので、時刻を答える「At five o'clock.」が正解です。
+「Yes, it does.」は文の型だけ合わせた答え、「For one hour.」は時間の長さで、出発時刻の答えになりません。
 
 ---
 
@@ -137,8 +137,8 @@ Mother : Bob, come here and help me with dinner. Boy : ( ) Mom. I’m coming.
 1. All right,
 
 【解説8】
-会話の流れから、空所に入る最も自然なのは「All right,」です。
-「It’s ready,」「You can drink it,」「No, I can’t,」は前後の発話とつながりが不自然です。
+手伝いを頼まれたので、引き受ける「All right,」が自然で、続く「I'm coming.」ともつながります。
+「No, I can't,」は断る返答なので、そのあとの「I'm coming.」と矛盾します。
 
 ---
 
@@ -146,17 +146,17 @@ Mother : Bob, come here and help me with dinner. Boy : ( ) Mom. I’m coming.
 Girl : What class do you like? Boy : ( )
 
 選択肢9:
-1. Science.
-2. I go to school.
-3. After lunch.
+1. I go to school.
+2. After lunch.
+3. Science.
 4. It’s my homework.
 
 【正解9】
-1. Science.
+3. Science.
 
 【解説9】
-会話の流れから、空所に入る最も自然なのは「Science.」です。
-「I go to school.」「After lunch.」「It’s my homework.」は前後の発話とつながりが不自然です。
+「What class do you like?（どの教科が好き？）」なので、教科名の「Science.」が正解です。
+「I go to school.」「After lunch.」「It’s my homework.」は質問に合いません。
 
 ---
 
@@ -167,14 +167,14 @@ Teacher : Please close the windows, Jack. ( ) Student : Yes, Ms. Carter.
 1. Good morning.
 2. Here you are.
 3. It’s cold.
-4. It’s today. 2 2025年度第3回検定一次試験（5級） copyright 2026 公益財団法人日本英語検定協会 無断転載・複製を禁じます 5
+4. It’s windy.
 
 【正解10】
 3. It’s cold.
 
 【解説10】
-会話の流れから、空所に入る最も自然なのは「It’s cold.」です。
-「Good morning.」「Here you are.」「It’s today. 2 2025年度第3回検定一次試験（5級） copyright 2026 公益財団法人日本英語検定協会 無断転載・複製を禁じます 5」は前後の発話とつながりが不自然です。
+窓を閉めてほしいと言われた理由として「It's cold.（寒い）」が自然で、「Yes, Ms. Carter.」ともつながります。
+「Good morning.」は時間帯の挨拶、「Here you are.」は物を渡すときの表現です。
 
 ---
 
@@ -182,17 +182,17 @@ Teacher : Please close the windows, Jack. ( ) Student : Yes, Ms. Carter.
 Girl 1 : Is Ken in your class this year? Girl 2 : ( ) I like him a lot.
 
 選択肢11:
-1. Yes, he is.
-2. Please come back.
+1. Please come back.
+2. Yes, he is.
 3. Sit down.
-4. No, I don’t.
+4. No, he isn’t.
 
 【正解11】
-1. Yes, he is.
+2. Yes, he is.
 
 【解説11】
-会話の流れから、空所に入る最も自然なのは「Yes, he is.」です。
-「Please come back.」「Sit down.」「No, I don’t.」は前後の発話とつながりが不自然です。
+「Is Ken in your class?」に対する肯定で、続く「I like him a lot.」ともつながるのは「Yes, he is.」です。
+「No, he isn’t.」は否定なので文脈と合いません。
 
 ---
 
@@ -209,8 +209,8 @@ Boy : I enjoy basketball. Girl : ( ) I often play it on Sundays.
 2. I do, too.
 
 【解説12】
-会話の流れから、空所に入る最も自然なのは「I do, too.」です。
-「No, I don’t.」「That’s OK.」「You’re welcome.」は前後の発話とつながりが不自然です。
+相手が「バスケが好き」と言ったので、同意して自分のことも伝える「I do, too.」が自然で、「I often play it on Sundays.」ともつながります。
+「No, I don't.」は否定、「You're welcome.」は感謝への返答で、この場面に合いません。
 
 ---
 
@@ -218,17 +218,17 @@ Boy : I enjoy basketball. Girl : ( ) I often play it on Sundays.
 Teacher : Does your sister work at a hospital, Sally? Girl : Yes. ( )
 
 選択肢13:
-1. She’s a nurse.
-2. I like volleyball.
-3. I’m so fast.
-4. She has a dog.
+1. I like volleyball.
+2. She has a dog.
+3. She is tall.
+4. She’s a nurse.
 
 【正解13】
-1. She’s a nurse.
+4. She’s a nurse.
 
 【解説13】
-会話の流れから、空所に入る最も自然なのは「She’s a nurse.」です。
-「I like volleyball.」「I’m so fast.」「She has a dog.」は前後の発話とつながりが不自然です。
+病院で働いている姉の職業を補足するので、「She’s a nurse.」が自然です。
+趣味・外見・飼い物の話は職業の説明になりません。
 
 ---
 
@@ -236,17 +236,17 @@ Teacher : Does your sister work at a hospital, Sally? Girl : Yes. ( )
 Man : Let’s go to that hamburger shop. Woman : ( ) I’m hungry.
 
 選択肢14:
-1. Good idea.
-2. See you.
+1. See you.
+2. Good idea.
 3. That’s all.
 4. It’s sunny today.
 
 【正解14】
-1. Good idea.
+2. Good idea.
 
 【解説14】
-会話の流れから、空所に入る最も自然なのは「Good idea.」です。
-「See you.」「That’s all.」「It’s sunny today.」は前後の発話とつながりが不自然です。
+ハンバーガー店に行こうという提案に賛成する「Good idea.」が自然で、「I’m hungry.」ともつながります。
+別れの挨拶や無関係な話題は場面に合いません。
 
 ---
 
@@ -254,14 +254,646 @@ Man : Let’s go to that hamburger shop. Woman : ( ) I’m hungry.
 Man : Are you from Australia? Woman : ( )
 
 選択肢15:
-1. Yes, I am.
-2. Yes, I can.
+1. Yes, I can.
+2. Yes, I am.
 3. Yes, it is.
-4. Yes, it does. 2 2026年度第1回検定一次試験（5級） copyright 2026 公益財団法人日本英語検定協会 無断転載・複製を禁じます 5
+4. Yes, they are.
 
 【正解15】
-1. Yes, I am.
+2. Yes, I am.
 
 【解説15】
-会話の流れから、空所に入る最も自然なのは「Yes, I am.」です。
-「Yes, I can.」「Yes, it is.」「Yes, it does. 2 2026年度第1回検定一次試験（5級） copyright 2026 公益財団法人日本英語検定協会 無断転載・複製を禁じます 5」は前後の発話とつながりが不自然です。
+「Are you from Australia?（オーストラリアの出身？）」は be動詞の質問なので、「Yes, I am.」で答えます。
+「Yes, I can.」「Yes, it is.」「Yes, they are.」は助動詞や主語が質問と合いません。
+
+---
+
+問題16:
+Girl : Where is the library? Boy : ( )
+
+選択肢16:
+1. At three o’clock.
+2. Near the gym.
+3. It’s blue.
+4. I like soccer.
+
+【正解16】
+2. Near the gym.
+
+【解説16】
+「Where is the library?（図書館はどこ？）」は場所を聞いているので、「Near the gym.（体育館の近く）」が自然です。
+「At three o'clock.」は時間、「It's blue.」は色の答えで、場所の質問に合いません。
+
+---
+
+問題17:
+Boy : Can I use your pen, Yumi? Girl : ( )
+
+選択肢17:
+1. It’s on the desk.
+2. I have two.
+3. Sure, here you are.
+4. After school.
+
+【正解17】
+3. Sure, here you are.
+
+【解説17】
+ペンを貸してほしいというお願いに対して、「Sure, here you are.（いいよ、はいどうぞ）」が適切です。
+場所や時間だけを答える選択肢は会話の流れと合いません。
+
+---
+
+問題18:
+Mother : What do you want for breakfast? Boy : ( )
+
+選択肢18:
+1. Some bread and milk.
+2. In the kitchen.
+3. At seven.
+4. I go to school.
+
+【正解18】
+1. Some bread and milk.
+
+【解説18】
+朝食に何が欲しいかを聞かれているので、食べ物を答える「Some bread and milk.」が正解です。
+場所・時間・行動の答えは質問に合いません。
+
+---
+
+問題19:
+Teacher : See you tomorrow, Ken. Student : ( )
+
+選択肢19:
+1. Good morning.
+2. See you.
+3. Sit down.
+4. Open your book.
+
+【正解19】
+2. See you.
+
+【解説19】
+「See you tomorrow.（また明日）」に対する自然な返答は「See you.（じゃあね）」です。
+「Open your book.」や「Sit down.」は授業の指示で、別れの挨拶への返答ではありません。
+
+---
+
+問題20:
+Girl : Do you have a pet, Mike? Boy : ( )
+
+選択肢20:
+1. Yes, I can.
+2. Yes, it is.
+3. Yes, I have a cat.
+4. Yes, they are.
+
+【正解20】
+3. Yes, I have a cat.
+
+【解説20】
+「Do you have a pet?（ペットを飼っている？）」に対して、内容を具体的に答える「Yes, I have a cat.」が自然です。
+「Yes, I can.」「Yes, it is.」などは、質問の形（have）と合いません。
+
+---
+
+問題21:
+Boy : How was the movie? Girl : ( )
+
+選択肢21:
+1. At the cinema.
+2. With my brother.
+3. It was very interesting.
+4. For two hours.
+
+【正解21】
+3. It was very interesting.
+
+【解説21】
+映画がどうだったかを聞かれているので、感想を述べる「It was very interesting.」が正解です。
+場所・一緒に行った人・時間は感想の答えになりません。
+
+---
+
+問題22:
+Girl : Let’s play soccer after school. Boy : ( ) I have piano practice.
+
+選択肢22:
+1. Good idea.
+2. I like it.
+3. See you later.
+4. Sorry, I can’t.
+
+【正解22】
+4. Sorry, I can’t.
+
+【解説22】
+「Let's play soccer after school.（放課後サッカーしよう）」を断る場面なので、「Sorry, I can't.」が自然で、続く「I have piano practice.」が理由になります。
+「Good idea.」は賛成の言い方なので、そのあとの理由と矛盾します。
+
+---
+
+問題23:
+Boy : Who is that man? Girl : ( )
+
+選択肢23:
+1. At the park.
+2. He’s my father.
+3. He can swim.
+4. He likes dogs.
+
+【正解23】
+2. He’s my father.
+
+【解説23】
+「Who is that man?（あの男性は誰？）」なので、人物を示す「He’s my father.」が正解です。
+場所や能力・好みは「誰か」の答えになりません。
+
+---
+
+問題24:
+Teacher : Is this your bag, Anna? Girl : ( )
+
+選択肢24:
+1. Yes, I am.
+2. Yes, I do.
+3. No, it isn’t.
+4. No, they aren’t.
+
+【正解24】
+3. No, it isn’t.
+
+【解説24】
+「Is this your bag?（これはあなたのカバン？）」の this は it で受けるので、「No, it isn't.」が正解です。
+「Yes, I am.」「No, they aren't.」のように主語がずれた答えは文法的に不適切です。
+
+---
+
+問題25:
+Mother : What time do you get up, Tom? Boy : ( )
+
+選択肢25:
+1. In my room.
+2. For thirty minutes.
+3. Every day.
+4. At six thirty.
+
+【正解25】
+4. At six thirty.
+
+【解説25】
+起床時間を聞かれているので、「At six thirty.」が自然です。
+場所・期間・頻度だけでは時刻の質問に答えられません。
+
+---
+
+問題26:
+Girl : Thank you for your help. Boy : ( )
+
+選択肢26:
+1. You’re welcome.
+2. Thank you, too.
+3. I’m sorry.
+4. That’s right.
+
+【正解26】
+1. You’re welcome.
+
+【解説26】
+「Thank you for your help.（手伝ってくれてありがとう）」に対する定番の返答は「You're welcome.（どういたしまして）」です。
+「Thank you, too.」は別の感謝、「I'm sorry.」は謝罪なので、この場面では不自然です。
+
+---
+
+問題27:
+Boy : Where did you buy this book? Girl : ( )
+
+選択肢27:
+1. Last week.
+2. With my mom.
+3. It was cheap.
+4. At the bookstore.
+
+【正解27】
+4. At the bookstore.
+
+【解説27】
+本をどこで買ったかを聞かれているので、場所を答える「At the bookstore.」が正解です。
+時期・一緒に行った人・値段は「どこで」の答えになりません。
+
+---
+
+問題28:
+Teacher : Are you busy now, Jack? Boy : ( )
+
+選択肢28:
+1. No, I don’t.
+2. No, I’m not.
+3. No, it isn’t.
+4. No, they aren’t.
+
+【正解28】
+2. No, I’m not.
+
+【解説28】
+「Are you busy now?（今忙しい？）」は be動詞の質問なので、「No, I'm not.」で答えます。
+「No, I don't.」は do の質問への答え方で、主語や動詞の型が合いません。
+
+---
+
+問題29:
+Girl : What does your father do? Boy : ( )
+
+選択肢29:
+1. At a hospital.
+2. He’s a teacher.
+3. He is tall.
+4. He likes fishing.
+
+【正解29】
+2. He’s a teacher.
+
+【解説29】
+父親の職業を聞かれているので、「He’s a teacher.」が自然です。
+勤務場所・外見・趣味は職業の答えになりません。
+
+---
+
+問題30:
+Boy : It’s raining outside. Girl : ( )
+
+選択肢30:
+1. It’s sunny.
+2. I like rain.
+3. Let’s take an umbrella.
+4. After lunch.
+
+【正解30】
+3. Let’s take an umbrella.
+
+【解説30】
+雨が降っているという情報に対して、傘を持っていこうと提案する「Let’s take an umbrella.」が会話として自然です。
+天気の感想や無関係な時間の話はつながりが弱いです。
+
+---
+
+問題31:
+Woman : Can you speak Japanese? Boy : ( )
+
+選択肢31:
+1. Yes, a little.
+2. Yes, I am.
+3. Yes, it is.
+4. Yes, they can.
+
+【正解31】
+1. Yes, a little.
+
+【解説31】
+「Can you speak Japanese?（日本語を話せる？）」に対して、程度を示す「Yes, a little.（少し話せる）」が自然です。
+「Yes, I am.」は be動詞の答え方なので、can の質問には合いません。
+
+---
+
+問題32:
+Mother : How many apples do you want? Girl : ( )
+
+選択肢32:
+1. In the basket.
+2. Three, please.
+3. They are red.
+4. I like apples.
+
+【正解32】
+2. Three, please.
+
+【解説32】
+りんごをいくつ欲しいかを聞かれているので、数を答える「Three, please.」が正解です。
+場所・色・好みは数量の答えになりません。
+
+---
+
+問題33:
+Boy : I lost my key. Girl : ( )
+
+選択肢33:
+1. Good idea.
+2. Here you are.
+3. You’re welcome.
+4. That’s too bad.
+
+【正解33】
+4. That’s too bad.
+
+【解説33】
+鍵をなくしたという困った話に対して、同情を示す「That’s too bad.」が自然です。
+賛成・物を渡す・感謝への返答は場面に合いません。
+
+---
+
+問題34:
+Teacher : Do you like math, Sally? Girl : ( )
+
+選択肢34:
+1. Yes, I am.
+2. Yes, it is.
+3. Yes, they do.
+4. Yes, I do.
+
+【正解34】
+4. Yes, I do.
+
+【解説34】
+「Do you like math?（数学は好き？）」は一般動詞 like の質問なので、「Yes, I do.」で答えます。
+「Yes, I am.」「Yes, it is.」は be動詞の答え方で、do の質問には合いません。
+
+---
+
+問題35:
+Boy : When is your birthday? Girl : ( )
+
+選択肢35:
+1. At school.
+2. With my friends.
+3. In May.
+4. For one day.
+
+【正解35】
+3. In May.
+
+【解説35】
+誕生日がいつかを聞かれているので、月を答える「In May.」が自然です。
+場所・一緒に過ごす人・期間は「いつ」の答えになりません。
+
+---
+
+問題36:
+Girl : Pass me the salt, please. Boy : ( )
+
+選択肢36:
+1. Here you are.
+2. You’re welcome.
+3. I’m sorry.
+4. That’s right.
+
+【正解36】
+1. Here you are.
+
+【解説36】
+「Pass me the salt, please.（塩を取って）」という依頼に対して、物を渡すときの「Here you are.（はいどうぞ）」が適切です。
+「You're welcome.」は感謝への返答なので、物を渡す場面では使いません。
+
+---
+
+問題37:
+Mother : What are you doing, Ken? Boy : ( )
+
+選択肢37:
+1. I’m reading a book.
+2. In my room.
+3. At three o’clock.
+4. For one hour.
+
+【正解37】
+1. I’m reading a book.
+
+【解説37】
+今何をしているかを聞かれているので、行動を答える「I’m reading a book.」が正解です。
+場所・時刻・期間だけでは「何をしているか」に答えられません。
+
+---
+
+問題38:
+Boy : Is there a post office near here? Girl : ( )
+
+選択肢38:
+1. Yes, I am.
+2. Yes, I do.
+3. Yes, there is.
+4. Yes, it is.
+
+【正解38】
+3. Yes, there is.
+
+【解説38】
+「Is there a post office near here?（この近くに郵便局はある？）」は there で始まる質問なので、「Yes, there is.」が正解です。
+「Yes, I am.」「Yes, it is.」のように主語がずれた答えは文法的に不適切です。
+
+---
+
+問題39:
+Girl : I feel tired. Boy : ( )
+
+選択肢39:
+1. Good morning.
+2. See you.
+3. I’m fine.
+4. Why don’t you rest?
+
+【正解39】
+4. Why don’t you rest?
+
+【解説39】
+「I feel tired.（疲れた）」という話に対して、休むことを勧める「Why don't you rest?（休んだら？）」が自然です。
+「I'm fine.」は元気だという意味なので、疲れたという発話と矛盾します。
+
+---
+
+問題40:
+Teacher : How do you go to school, Lisa? Girl : ( )
+
+選択肢40:
+1. At eight o’clock.
+2. By bus.
+3. With my sister.
+4. For twenty minutes.
+
+【正解40】
+2. By bus.
+
+【解説40】
+通学の手段を聞かれているので、「By bus.」が正解です。
+時刻・一緒に行く人・所要時間は「どうやって」の答えになりません。
+
+---
+
+問題41:
+Boy : Whose jacket is this? Girl : ( )
+
+選択肢41:
+1. It’s red.
+2. It’s new.
+3. It’s big.
+4. It’s mine.
+
+【正解41】
+4. It’s mine.
+
+【解説41】
+「Whose ...?（誰の？）」なので、所有者を示す「It’s mine.」が正解です。
+色・新しさ・大きさは「誰のものか」の答えになりません。
+
+---
+
+問題42:
+Mother : What’s the matter, Amy? Girl : ( )
+
+選択肢42:
+1. I’m twelve.
+2. I’m at home.
+3. I have a headache.
+4. I like music.
+
+【正解42】
+3. I have a headache.
+
+【解説42】
+「What’s the matter?（どうしたの？）」という心配の言葉に対して、具合の悪さを伝える「I have a headache.」が自然です。
+年齢・場所・好みは状況の説明になりません。
+
+---
+
+問題43:
+Boy : Nice to meet you. Girl : ( )
+
+選択肢43:
+1. See you.
+2. Nice to meet you, too.
+3. You’re welcome.
+4. That’s OK.
+
+【正解43】
+2. Nice to meet you, too.
+
+【解説43】
+初対面の挨拶「Nice to meet you.（はじめまして）」には、「Nice to meet you, too.（こちらこそ）」で返すのが定番です。
+「See you.」は別れの挨拶、「You're welcome.」は感謝への返答なので、この場面に合いません。
+
+---
+
+問題44:
+Teacher : Are they students? Boy : ( )
+
+選択肢44:
+1. Yes, I am.
+2. Yes, it is.
+3. Yes, they are.
+4. Yes, we are.
+
+【正解44】
+3. Yes, they are.
+
+【解説44】
+「Are they students?（彼らは学生？）」は they で答える必要があるので、「Yes, they are.」が正解です。
+「Yes, I am.」「Yes, we are.」のように主語がずれた答えは文法的に不適切です。
+
+---
+
+問題45:
+Girl : How much is this pencil? Boy : ( )
+
+選択肢45:
+1. In the shop.
+2. On the desk.
+3. It’s short.
+4. It’s fifty yen.
+
+【正解45】
+4. It’s fifty yen.
+
+【解説45】
+値段を聞かれているので、「It’s fifty yen.」が自然です。
+場所や大きさは「いくらか」の答えになりません。
+
+---
+
+問題46:
+Boy : Let’s clean the classroom. Girl : ( )
+
+選択肢46:
+1. See you.
+2. OK, let’s start.
+3. I’m tired today.
+4. After dinner.
+
+【正解46】
+2. OK, let’s start.
+
+【解説46】
+教室を掃除しようという提案に賛成して始める「OK, let’s start.」が自然です。
+別れの挨拶や文脈のつながらない返答は不適切です。
+
+---
+
+問題47:
+Girl : Can Tom swim? Boy : ( )
+
+選択肢47:
+1. Yes, I can.
+2. Yes, he can.
+3. Yes, it can.
+4. Yes, they can.
+
+【正解47】
+2. Yes, he can.
+
+【解説47】
+「Can Tom swim?（トムは泳げる？）」は Tom について聞いているので、he で答える「Yes, he can.」が正解です。
+「Yes, I can.」「Yes, they can.」は主語が質問と合いません。
+
+---
+
+問題48:
+Mother : What color is your bike, Dan? Boy : ( )
+
+選択肢48:
+1. It’s fast.
+2. It’s new.
+3. It’s red.
+4. It’s mine.
+
+【正解48】
+3. It’s red.
+
+【解説48】
+自転車の色を聞かれているので、「It’s red.」が正解です。
+速さ・新しさ・所有者は「何色か」の答えになりません。
+
+---
+
+問題49:
+Girl : I don’t understand this word. Boy : ( )
+
+選択肢49:
+1. Good idea.
+2. See you later.
+3. You’re welcome.
+4. I’ll help you.
+
+【正解49】
+4. I’ll help you.
+
+【解説49】
+単語が分からないという助けを求める発話に対して、「I’ll help you.」が自然です。
+賛成・別れの挨拶・感謝への返答は場面に合いません。
+
+---
+
+問題50:
+Boy : Do you want some tea? Girl : ( )
+
+選択肢50:
+1. Yes, I am.
+2. Yes, please.
+3. Yes, it is.
+4. Yes, they do.
+
+【正解50】
+2. Yes, please.
+
+【解説50】
+「Do you want some tea?（お茶はいかが？）」と勧められたときの定番の返答は「Yes, please.（お願いします）」です。
+「Yes, I am.」「Yes, they do.」は、want の質問への答え方として不適切です。
+
+---
