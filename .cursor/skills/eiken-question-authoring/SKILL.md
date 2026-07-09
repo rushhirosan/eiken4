@@ -63,5 +63,5 @@ python utils/check_answer_distribution.py
 
 ## Example requests
 
-- 「5級の文法問題を10問作って追加して」
+- 「5級文法・語彙問題を10問作って追加して」
 - 「3級の会話補充を5問増やして」

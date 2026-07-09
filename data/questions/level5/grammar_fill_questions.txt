@@ -791,17 +791,1007 @@ A : Nancy, I can’t find my eraser. Can I use yours? B : Yes. You can use ( ).
 ---
 
 問題45:
-A : What do you do in your free time, John? B : I read a ( ) every day.
+A : Emma, open the ( ), please. It’s hot in here. B : OK, Dad.
 
 選択肢45:
-1. music
-2. paint
-3. newspaper
-4. lunch
+1. window
+2. book
+3. chair
+4. pencil
 
 【正解45】
-1. music
+1. window
 
 【解説45】
-正解は「music」です。文脈に最も合う語句を選びます。
-他の選択肢「paint」「newspaper」「lunch」は、この空所や会話の流れには合いません。
+正解は「window」です。「It’s hot in here（ここは暑い）」なので、窓を開けるのが自然です。
+他の選択肢「book」「chair」「pencil」は、この会話の流れには合いません。
+
+---
+
+問題46:
+Many students ( ) lunch in the cafeteria at school.
+
+選択肢46:
+1. write
+2. eat
+3. sleep
+4. swim
+
+【正解46】
+2. eat
+
+【解説46】
+正解は「eat」です。「cafeteria（食堂）」で「lunch（昼食）」をとるので「食べる」の意味が合います。
+他の選択肢「write」「sleep」「swim」は、この空所や文の流れには合いません。
+
+---
+
+問題47:
+A : Can you ( ) me with my homework, Lisa? B : Sure, Tom.
+
+選択肢47:
+1. help
+2. cook
+3. sing
+4. run
+
+【正解47】
+1. help
+
+【解説47】
+正解は「help」です。「help me with ～」で「～を手伝ってくれる」という意味になります。
+他の選択肢「cook」「sing」「run」は、この会話の流れには合いません。
+
+---
+
+問題48:
+My sister is ten years old. She is very ( ).
+
+選択肢48:
+1. tall
+2. fast
+3. young
+4. cold
+
+【正解48】
+3. young
+
+【解説48】
+正解は「young」です。「ten years old（10歳）」なので「若い・幼い」の意味が合います。
+他の選択肢「tall」「fast」「cold」は、年齢を表すこの文には合いません。
+
+---
+
+問題49:
+We need a ( ) to cut the birthday cake.
+
+選択肢49:
+1. spoon
+2. cup
+3. plate
+4. knife
+
+【正解49】
+4. knife
+
+【解説49】
+正解は「knife」です。「cut the cake（ケーキを切る）」にはナイフが必要です。
+他の選択肢「spoon」「cup」「plate」は、ケーキを切る道具としては合いません。
+
+---
+
+問題50:
+A : What time is it now? B : It’s three ( ).
+
+選択肢50:
+1. days
+2. o’clock
+3. weeks
+4. months
+
+【正解50】
+2. o’clock
+
+【解説50】
+正解は「o’clock」です。時刻を言うとき「three o’clock（3時）」のように使います。
+他の選択肢「days」「weeks」「months」は、時刻を表すこの会話には合いません。
+
+---
+
+問題51:
+Ken ( ) to school by bus every morning.
+
+選択肢51:
+1. goes
+2. go
+3. going
+4. went
+
+【正解51】
+1. goes
+
+【解説51】
+正解は「goes」です。主語が三人称単数「Ken」で、習慣を表すので動詞は「goes」になります。
+他の選択肢「go」「going」「went」は、この文の文法には合いません。
+
+---
+
+問題52:
+A : Is this your pencil, Anna? B : No, it’s ( ).
+
+選択肢52:
+1. she
+2. her
+3. hers
+4. she’s
+
+【正解52】
+3. hers
+
+【解説52】
+正解は「hers」です。「it’s hers」で「それは彼女の（もの）です」という意味になります。
+他の選択肢「she」「her」「she’s」は、この空所の文法には合いません。
+
+---
+
+問題53:
+The library is ( ) the post office and the bank.
+
+選択肢53:
+1. under
+2. from
+3. with
+4. between
+
+【正解53】
+4. between
+
+【解説53】
+正解は「between」です。「between A and B」で「AとBの間に」という意味になります。
+他の選択肢「under」「from」「with」は、この場所を表す文には合いません。
+
+---
+
+問題54:
+A : How’s the weather today? B : It’s sunny and ( ).
+
+選択肢54:
+1. heavy
+2. warm
+3. young
+4. busy
+
+【正解54】
+2. warm
+
+【解説54】
+正解は「warm」です。「sunny（晴れ）」と並べて天気・気温を表す「暖かい」が合います。
+他の選択肢「heavy」「young」「busy」は、天気を表すこの会話には合いません。
+
+---
+
+問題55:
+Please turn ( ) the lights when you leave the room.
+
+選択肢55:
+1. off
+2. on
+3. up
+4. out
+
+【正解55】
+1. off
+
+【解説55】
+正解は「off」です。「turn off the lights」で「電気を消す」という意味になります。
+部屋を出るときの指示なので「off」が自然です。他の選択肢はこの文脈には合いません。
+
+---
+
+問題56:
+A : Where is the station? B : Go ( ) this street.
+
+選択肢56:
+1. of
+2. down
+3. from
+4. with
+
+【正解56】
+2. down
+
+【解説56】
+正解は「down」です。「go down this street」で「この通りを進む」という意味になります。
+他の選択肢「of」「from」「with」は、道順を表すこの会話には合いません。
+
+---
+
+問題57:
+I ( ) English and math at school every day.
+
+選択肢57:
+1. study
+2. cook
+3. sleep
+4. swim
+
+【正解57】
+1. study
+
+【解説57】
+正解は「study」です。学校で「English and math（英語と数学）」を「勉強する」のが自然です。
+他の選択肢「cook」「sleep」「swim」は、この文の流れには合いません。
+
+---
+
+問題58:
+A : Do you like apples? B : Yes, I ( ).
+
+選択肢58:
+1. am
+2. do
+3. can
+4. have
+
+【正解58】
+2. do
+
+【解説58】
+正解は「do」です。「Do you like ～?」への短い肯定返答は「Yes, I do.」になります。
+他の選択肢「am」「can」「have」は、この返答の形には合いません。
+
+---
+
+問題59:
+This bag is too ( ). Can I use yours, Mike?
+
+選択肢59:
+1. short
+2. easy
+3. heavy
+4. young
+
+【正解59】
+3. heavy
+
+【解説59】
+正解は「heavy」です。かばんが「重い（heavy）」ので、相手のを借りたいという流れになります。
+他の選択肢「short」「easy」「young」は、この文脈には合いません。
+
+---
+
+問題60:
+My father works in a ( ) near our house.
+
+選択肢60:
+1. river
+2. mountain
+3. cloud
+4. hospital
+
+【正解60】
+4. hospital
+
+【解説60】
+正解は「hospital」です。「works in a ～」で働く場所を表し、病院で働く父親という設定が自然です。
+他の選択肢「river」「mountain」「cloud」は、通常「働く場所」としては合いません。
+
+---
+
+問題61:
+A : Happy birthday, Mom! B : Thank ( ), Ken.
+
+選択肢61:
+1. you
+2. your
+3. yours
+4. you’re
+
+【正解61】
+1. you
+
+【解説61】
+正解は「you」です。「Thank you.」で「ありがとう」という決まった表現になります。
+他の選択肢「your」「yours」「you’re」は、この表現には合いません。
+
+---
+
+問題62:
+We have an English test ( ) Friday.
+
+選択肢62:
+1. in
+2. on
+3. at
+4. by
+
+【正解62】
+2. on
+
+【解説62】
+正解は「on」です。曜日の前には「on」を使い、「on Friday（金曜日に）」となります。
+他の選択肢「in」「at」「by」は、曜日を表すこの文には合いません。
+
+---
+
+問題63:
+A : Who is that boy? B : ( ) is my brother, Tom.
+
+選択肢63:
+1. She
+2. They
+3. He
+4. We
+
+【正解63】
+3. He
+
+【解説63】
+正解は「He」です。「that boy（あの男の子）」を指すので、主語は「He」になります。
+他の選択肢「She」「They」「We」は、この文の主語としては合いません。
+
+---
+
+問題64:
+Please write your name ( ) the paper.
+
+選択肢64:
+1. under
+2. with
+3. from
+4. on
+
+【正解64】
+4. on
+
+【解説64】
+正解は「on」です。「on the paper」で「紙の上に」という意味になります。
+他の選択肢「under」「with」「from」は、この空所には合いません。
+
+---
+
+問題65:
+A : Can I use your pen? B : Yes, you ( ).
+
+選択肢65:
+1. can
+2. do
+3. are
+4. have
+
+【正解65】
+1. can
+
+【解説65】
+正解は「can」です。「Can I ～?」への返答は「Yes, you can.」の形になります。
+他の選択肢「do」「are」「have」は、この返答には合いません。
+
+---
+
+問題66:
+The train is very ( ). We can’t run after it.
+
+選択肢66:
+1. cold
+2. fast
+3. sad
+4. small
+
+【正解66】
+2. fast
+
+【解説66】
+正解は「fast」です。電車が「速い（fast）」ので、走って追いかけられないという流れになります。
+他の選択肢「cold」「sad」「small」は、この文脈には合いません。
+
+---
+
+問題67:
+A : What does your mother do? B : She is a ( ).
+
+選択肢67:
+1. student
+2. child
+3. teacher
+4. boy
+
+【正解67】
+3. teacher
+
+【解説67】
+正解は「teacher」です。「What does ～ do?」は職業をたずねる表現で、母親が「先生」という答えが自然です。
+他の選択肢「student」「child」「boy」は、母親の職業としては合いません。
+
+---
+
+問題68:
+I want to ( ) a letter to my friend in Canada.
+
+選択肢68:
+1. read
+2. eat
+3. drink
+4. send
+
+【正解68】
+4. send
+
+【解説68】
+正解は「send」です。「send a letter to ～」で「～に手紙を送る」という意味になります。
+他の選択肢「read」「eat」「drink」は、手紙に関するこの文には合いません。
+
+---
+
+問題69:
+A : Is this your umbrella? B : No, it isn’t ( ).
+
+選択肢69:
+1. mine
+2. my
+3. me
+4. I
+
+【正解69】
+1. mine
+
+【解説69】
+正解は「mine」です。「it isn’t mine」で「それは私の（もの）ではない」という意味になります。
+他の選択肢「my」「me」「I」は、この空所の文法には合いません。
+
+---
+
+問題70:
+Don’t ( ) in the classroom, please.
+
+選択肢70:
+1. sit
+2. run
+3. read
+4. write
+
+【正解70】
+2. run
+
+【解説70】
+正解は「run」です。教室で「走らないで」という注意なので「run」が合います。
+他の選択肢「sit」「read」「write」は、通常教室で禁止される行動としては不自然です。
+
+---
+
+問題71:
+A : How old are you, Ken? B : I’m ( ) years old.
+
+選択肢71:
+1. Sunday
+2. twelve
+3. lunch
+4. happy
+
+【正解71】
+2. twelve
+
+【解説71】
+正解は「twelve」です。年齢をたずねる会話なので、数詞の「twelve」が自然です。
+他の選択肢「Sunday」「lunch」「happy」は、この会話の流れには合いません。
+
+---
+
+問題72:
+Maria lives ( ) Tokyo with her family.
+
+選択肢72:
+1. on
+2. at
+3. to
+4. in
+
+【正解72】
+4. in
+
+【解説72】
+正解は「in」です。都市名の前には「in」を使い、「in Tokyo（東京に）」となります。
+他の選択肢「on」「at」「to」は、都市を表すこの文には合いません。
+
+---
+
+問題73:
+A : Can birds ( )? B : Yes, they can.
+
+選択肢73:
+1. fly
+2. swim
+3. cook
+4. sleep
+
+【正解73】
+1. fly
+
+【解説73】
+正解は「fly」です。鳥が「飛べる」という一般的な知識に合う答えです。
+他の選択肢「swim」「cook」「sleep」は、鳥の能力を表すこの会話には合いません。
+
+---
+
+問題74:
+It is ( ) today. Let’s take an umbrella.
+
+選択肢74:
+1. sunny
+2. rainy
+3. warm
+4. cool
+
+【正解74】
+2. rainy
+
+【解説74】
+正解は「rainy」です。「傘を持っていこう」という流れから、雨の日「rainy」が合います。
+他の選択肢「sunny」「warm」「cool」は、傘が必要な状況としては合いません。
+
+---
+
+問題75:
+A : What do you want for breakfast? B : I want ( ) and milk.
+
+選択肢75:
+1. water
+2. soup
+3. bread
+4. juice
+
+【正解75】
+3. bread
+
+【解説75】
+正解は「bread」です。「I want ( ) and milk.」では、朝食として食べ物を1つ選ぶ流れになり、「bread and milk」が自然です。
+他の選択肢「water」「soup」「juice」は飲み物・汁物で、ここで想定している朝食の組み合わせには合いません。
+
+---
+
+問題76:
+Look at the blackboard and ( ) carefully, everyone.
+
+選択肢76:
+1. run
+2. jump
+3. sleep
+4. listen
+
+【正解76】
+4. listen
+
+【解説76】
+正解は「listen」です。黒板を見て「よく聞く」という教室での指示が自然です。
+他の選択肢「run」「jump」「sleep」は、授業中の行動としては合いません。
+
+---
+
+問題77:
+My room is on the ( ) floor of this building.
+
+選択肢77:
+1. second
+2. apple
+3. water
+4. chair
+
+【正解77】
+1. second
+
+【解説77】
+正解は「second」です。「on the second floor」で「2階に」という意味になります。
+他の選択肢「apple」「water」「chair」は、階数を表すこの文には合いません。
+
+---
+
+問題78:
+A : Are you free this afternoon? B : Sorry, I’m ( ).
+
+選択肢78:
+1. tall
+2. busy
+3. cold
+4. new
+
+【正解78】
+2. busy
+
+【解説78】
+正解は「busy」です。誘いを断る場面で「忙しい（busy）」という意味が合います。
+他の選択肢「tall」「cold」「new」は、この返答には合いません。
+
+---
+
+問題79:
+We play soccer ( ) the park on Sundays.
+
+選択肢79:
+1. in
+2. on
+3. at
+4. to
+
+【正解79】
+3. at
+
+【解説79】
+正解は「at」です。「at the park」で「公園で」という意味になります。
+他の選択肢「in」「on」「to」は、この場所を表す文には合いません。
+
+---
+
+問題80:
+A : Nice to meet you. B : Nice to meet you, ( ).
+
+選択肢80:
+1. very
+2. much
+3. well
+4. too
+
+【正解80】
+4. too
+
+【解説80】
+正解は「too」です。「Nice to meet you, too.」で「こちらこそはじめまして」という決まった返答になります。
+他の選択肢「very」「much」「well」は、この表現には合いません。
+
+---
+
+問題81:
+A : Can you swim, Lisa? B : No, I ( ).
+
+選択肢81:
+1. can’t
+2. don’t
+3. isn’t
+4. aren’t
+
+【正解81】
+1. can’t
+
+【解説81】
+正解は「can’t」です。「Can you ～?」への否定返答は「No, I can’t.」になります。
+他の選択肢「don’t」「isn’t」「aren’t」は、この返答の形には合いません。
+
+---
+
+問題82:
+I usually have ( ) at seven in the morning.
+
+選択肢82:
+1. dinner
+2. breakfast
+3. lunch
+4. homework
+
+【正解82】
+2. breakfast
+
+【解説82】
+正解は「breakfast」です。「in the morning（朝）」なので「朝食（breakfast）」が合います。
+他の選択肢「dinner」「lunch」「homework」は、朝7時の食事としては合いません。
+
+---
+
+問題83:
+Look at ( ) birds in the tree.
+
+選択肢83:
+1. this
+2. that
+3. those
+4. it
+
+【正解83】
+3. those
+
+【解説83】
+正解は「those」です。複数の「birds（鳥）」を指すので「those（あれら）」が合います。
+他の選択肢「this」「that」「it」は、複数形の名詞には合いません。
+
+---
+
+問題84:
+I sleep in my ( ) every night.
+
+選択肢84:
+1. kitchen
+2. bathroom
+3. garden
+4. bedroom
+
+【正解84】
+4. bedroom
+
+【解説84】
+正解は「bedroom」です。「sleep（寝る）」場所として「bedroom（寝室）」が自然です。
+他の選択肢「kitchen」「bathroom」「garden」は、毎晩寝る場所としては合いません。
+
+---
+
+問題85:
+A : Do you ( ) some water? B : Yes, please.
+
+選択肢85:
+1. want
+2. know
+3. see
+4. hear
+
+【正解85】
+1. want
+
+【解説85】
+正解は「want」です。「Do you want some water?」で「お水はいかがですか」という意味になります。
+他の選択肢「know」「see」「hear」は、この会話の流れには合いません。
+
+---
+
+問題86:
+This computer is very ( ). It doesn’t work well.
+
+選択肢86:
+1. new
+2. old
+3. happy
+4. easy
+
+【正解86】
+2. old
+
+【解説86】
+正解は「old」です。うまく動かない理由として「古い（old）」が合います。
+他の選択肢「new」「happy」「easy」は、この文脈には合いません。
+
+---
+
+問題87:
+I can’t go out ( ) it is raining.
+
+選択肢87:
+1. but
+2. so
+3. because
+4. and
+
+【正解87】
+3. because
+
+【解説87】
+正解は「because」です。「because it is raining」で「雨が降っているので」という理由を表します。
+他の選択肢「but」「so」「and」は、理由を表すこの文には合いません。
+
+---
+
+問題88:
+I brush my ( ) every morning.
+
+選択肢88:
+1. hair
+2. hand
+3. foot
+4. teeth
+
+【正解88】
+4. teeth
+
+【解説88】
+正解は「teeth」です。「brush my teeth」で「歯を磨く」という自然な表現になります。
+他の選択肢「hair」「hand」「foot」は、この文脈には合いません。
+
+---
+
+問題89:
+We watch TV in the ( ) room after dinner.
+
+選択肢89:
+1. living
+2. swimming
+3. cooking
+4. running
+
+【正解89】
+1. living
+
+【解説89】
+正解は「living」です。「living room」で「居間」という意味になり、食後にテレビを見る場所として自然です。
+他の選択肢は名詞として「～ room」の形になりにくく、この文には合いません。
+
+---
+
+問題90:
+That bag is too ( ). I don’t have enough money.
+
+選択肢90:
+1. light
+2. expensive
+3. short
+4. easy
+
+【正解90】
+2. expensive
+
+【解説90】
+正解は「expensive」です。お金が足りないので「高い（expensive）」という意味が合います。
+他の選択肢「light」「short」「easy」は、この文脈には合いません。
+
+---
+
+問題91:
+A : How ( ) do you play tennis? B : Twice a week.
+
+選択肢91:
+1. much
+2. many
+3. often
+4. long
+
+【正解91】
+3. often
+
+【解説91】
+正解は「often」です。「How often ～?」で「どのくらいの頻度で～しますか」とたずねます。
+他の選択肢「much」「many」「long」は、「Twice a week（週2回）」という答えには合いません。
+
+---
+
+問題92:
+The cat is ( ) the door.
+
+選択肢92:
+1. on
+2. in
+3. with
+4. behind
+
+【正解92】
+4. behind
+
+【解説92】
+正解は「behind」です。「behind the door」で「ドアの後ろに」という意味になります。
+他の選択肢「on」「in」「with」は、猫の位置を表すこの文には合いません。
+
+---
+
+問題93:
+I’m ( ). Can I have some water, please?
+
+選択肢93:
+1. thirsty
+2. hungry
+3. tired
+4. angry
+
+【正解93】
+1. thirsty
+
+【解説93】
+正解は「thirsty」です。「水をください」という流れから「のどが渇いている（thirsty）」が合います。
+他の選択肢「hungry」「tired」「angry」は、水を求める理由としては合いません。
+
+---
+
+問題94:
+This is my ( ). Her name is Yuki.
+
+選択肢94:
+1. brother
+2. sister
+3. father
+4. uncle
+
+【正解94】
+2. sister
+
+【解説94】
+正解は「sister」です。「Her name is Yuki」から、女性の「妹／姉（sister）」が合います。
+他の選択肢「brother」「father」「uncle」は、「Her」という代名詞と合いません。
+
+---
+
+問題95:
+Do you have ( ) questions about the homework?
+
+選択肢95:
+1. some
+2. many
+3. any
+4. much
+
+【正解95】
+3. any
+
+【解説95】
+正解は「any」です。疑問文では「Do you have any questions?」が基本の形です。
+他の選択肢「some」「many」「much」は、この空所の定型表現としては合いません。
+
+---
+
+問題96:
+Please wash your hands ( ) dinner. We are going to eat now.
+
+選択肢96:
+1. after
+2. under
+3. about
+4. before
+
+【正解96】
+4. before
+
+【解説96】
+正解は「before」です。「We are going to eat now（今から食べる）」があるため、夕食の前に手を洗う流れが自然です。
+他の選択肢「after」「under」「about」は、この文脈には合いません。
+
+---
+
+問題97:
+Tom gets up ( ) every morning.
+
+選択肢97:
+1. early
+2. late
+3. slowly
+4. badly
+
+【正解97】
+1. early
+
+【解説97】
+正解は「early」です。「gets up early」で「早く起きる」という意味になります。
+他の選択肢「late」「slowly」「badly」は、毎朝の習慣を表すこの文には合いません。
+
+---
+
+問題98:
+She plays the ( ) in the music room.
+
+選択肢98:
+1. ball
+2. piano
+3. bike
+4. hat
+
+【正解98】
+2. piano
+
+【解説98】
+正解は「piano」です。「play the piano」で「ピアノを弾く」という意味になり、音楽室の設定とも合います。
+他の選択肢「ball」「bike」「hat」は、「play the ～」の形としては合いません。
+
+---
+
+問題99:
+A : How ( ) students are in your class? B : Twenty-five.
+
+選択肢99:
+1. much
+2. often
+3. many
+4. long
+
+【正解99】
+3. many
+
+【解説99】
+正解は「many」です。「How many ～?」で数えられる名詞の数をたずねます。
+他の選択肢「much」「often」「long」は、人数を答えるこの会話には合いません。
+
+---
+
+問題100:
+A : Is this your seat? B : Yes, that’s ( ).
+
+選択肢100:
+1. me
+2. my
+3. I
+4. right
+
+【正解100】
+4. right
+
+【解説100】
+正解は「right」です。「Yes, that’s right.」で「はい、そのとおりです」という意味になります。
+他の選択肢「me」「my」「I」は、この決まった返答には合いません。
