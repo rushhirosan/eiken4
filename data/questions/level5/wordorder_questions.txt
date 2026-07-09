@@ -13,8 +13,8 @@
 1. ① ─ ③
 
 【解説1】
-正しい語順の組み合わせは「① ─ ③」です。
-日本文の意味になるよう、1番目と3番目に来る語句の組み合わせを選びます。
+This is my sister's piano.
+「this + is + my + sister's + 名詞」の順になるので、1番目は this、3番目は my です。
 
 ---
 
@@ -33,8 +33,8 @@
 4. ③ ─ ②
 
 【解説2】
-正しい語順の組み合わせは「③ ─ ②」です。
-日本文の意味になるよう、1番目と3番目に来る語句の組み合わせを選びます。
+I walk to school in the morning.
+「walk + to + school」の順で「歩いて学校へ行く」という意味になるので、1番目は walk、3番目は school です。
 
 ---
 
@@ -53,8 +53,8 @@
 2. ② ─ ④
 
 【解説3】
-正しい語順の組み合わせは「② ─ ④」です。
-日本文の意味になるよう、1番目と3番目に来る語句の組み合わせを選びます。
+Is Kim watching TV in the living room?
+「Kim + is watching + TV + in the living room」の順になるので、1番目は Kim、3番目は TV です。
 
 ---
 
@@ -73,8 +73,8 @@
 4. ② ─ ③
 
 【解説4】
-正しい語順の組み合わせは「② ─ ③」です。
-日本文の意味になるよう、1番目と3番目に来る語句の組み合わせを選びます。
+Who can speak English well in your class, Nancy?
+「Who + can + speak」の疑問文になるので、1番目は who、3番目は speak です。
 
 ---
 
@@ -93,8 +93,8 @@
 3. ③ ─ ②
 
 【解説5】
-正しい語順の組み合わせは「③ ─ ②」です。
-日本文の意味になるよう、1番目と3番目に来る語句の組み合わせを選びます。
+My father runs three kilometers every morning.
+「my father + runs + three kilometers」の順になるので、1番目は my father、3番目は three kilometers です。
 
 ---
 
@@ -113,8 +113,8 @@
 3. ② ─ ①
 
 【解説6】
-正しい語順の組み合わせは「② ─ ①」です。
-日本文の意味になるよう、1番目と3番目に来る語句の組み合わせを選びます。
+How much are these shoes?
+「How much + are」の順で「いくらですか」の疑問文になるので、1番目は how、3番目は are です。
 
 ---
 
@@ -133,8 +133,8 @@
 2. ③ ─ ①
 
 【解説7】
-正しい語順の組み合わせは「③ ─ ①」です。
-日本文の意味になるよう、1番目と3番目に来る語句の組み合わせを選びます。
+Who is the girl in this photo?
+「Who + is + the girl」の疑問文になるので、1番目は who、3番目は the girl です。
 
 ---
 
@@ -153,8 +153,8 @@
 2. ④ ─ ③
 
 【解説8】
-正しい語順の組み合わせは「④ ─ ③」です。
-日本文の意味になるよう、1番目と3番目に来る語句の組み合わせを選びます。
+What do we need for the picnic tomorrow?
+「What + do + need」の疑問文になるので、1番目は do、3番目は need です。
 
 ---
 
@@ -173,8 +173,8 @@
 3. ② ─ ④
 
 【解説9】
-正しい語順の組み合わせは「② ─ ④」です。
-日本文の意味になるよう、1番目と3番目に来る語句の組み合わせを選びます。
+What does Tom's father teach at college?
+「What + does + Tom's father」の疑問文になるので、1番目は what、3番目は Tom's father です。
 
 ---
 
@@ -193,8 +193,8 @@
 1. ③ ─ ②
 
 【解説10】
-正しい語順の組み合わせは「③ ─ ②」です。
-日本文の意味になるよう、1番目と3番目に来る語句の組み合わせを選びます。
+I am cooking breakfast for Hiroshi.
+「I + am + cooking + breakfast」の順になるので、1番目は am、3番目は breakfast です。
 
 ---
 
@@ -213,8 +213,8 @@
 3. ② ─ ④
 
 【解説11】
-正しい語順の組み合わせは「② ─ ④」です。
-日本文の意味になるよう、1番目と3番目に来る語句の組み合わせを選びます。
+When is your English test?
+「When + is + your」の疑問文になるので、1番目は when、3番目は your です。
 
 ---
 
@@ -233,8 +233,8 @@
 3. ③ ─ ④
 
 【解説12】
-正しい語順の組み合わせは「③ ─ ④」です。
-日本文の意味になるよう、1番目と3番目に来る語句の組み合わせを選びます。
+What time is it in London?
+「What time + is + it」の疑問文になるので、1番目は time、3番目は it です。
 
 ---
 
@@ -253,8 +253,8 @@
 1. ① ─ ③
 
 【解説13】
-正しい語順の組み合わせは「① ─ ③」です。
-日本文の意味になるよう、1番目と3番目に来る語句の組み合わせを選びます。
+Our homeroom teacher is Mr. Endo.
+「Our + homeroom + teacher」の順になるので、1番目は our、3番目は teacher です。
 
 ---
 
@@ -273,8 +273,8 @@
 1. ④ ─ ②
 
 【解説14】
-正しい語順の組み合わせは「④ ─ ②」です。
-日本文の意味になるよう、1番目と3番目に来る語句の組み合わせを選びます。
+Kazuki wants some pizza for dinner.
+「Kazuki + wants + some pizza」の順になるので、1番目は Kazuki、3番目は some pizza です。
 
 ---
 
@@ -293,5 +293,305 @@
 1. ③ ─ ④
 
 【解説15】
-正しい語順の組み合わせは「③ ─ ④」です。
-日本文の意味になるよう、1番目と3番目に来る語句の組み合わせを選びます。
+What are you making for lunch?
+「What + are + you」の疑問文になるので、1番目は what、3番目は you です。
+
+---
+
+問題16:
+サラは毎まい日にち６時じに起おきます。
+① Sarah ② at six ③ gets up ④ every day
+( ) [1番目] ( ) [3番目] every day.
+
+選択肢16:
+1. ③ ─ ②
+2. ① ─ ②
+3. ② ─ ④
+4. ① ─ ④
+
+【正解16】
+2. ① ─ ②
+
+【解説16】
+Sarah gets up at six every day.
+「Sarah + gets up + at six」の順になるので、1番目は Sarah、3番目は at six です。
+
+---
+
+問題17:
+このりんごはとても大きおおきいです。
+① this apple ② is ③ very ④ big
+( ) [1番目] ( ) [3番目] big.
+
+選択肢17:
+1. ② ─ ④
+2. ③ ─ ①
+3. ① ─ ③
+4. ④ ─ ②
+
+【正解17】
+3. ① ─ ③
+
+【解説17】
+This apple is very big.
+「this apple + is + very + big」の順になるので、1番目は this apple、3番目は very です。
+
+---
+
+問題18:
+あの男おとこの子こは速はやく走はしれます。
+① that boy ② can ③ run ④ fast
+( ) [1番目] ( ) [3番目] fast.
+
+選択肢18:
+1. ① ─ ③
+2. ② ─ ④
+3. ③ ─ ②
+4. ④ ─ ①
+
+【正解18】
+1. ① ─ ③
+
+【解説18】
+That boy can run fast.
+「that boy + can + run」の順になるので、1番目は that boy、3番目は run です。
+
+---
+
+問題19:
+彼女はピアノを上手じょうずにひきます。
+① she ② well ③ plays ④ the piano
+( ) [1番目] ( ) [3番目] well.
+
+選択肢19:
+1. ③ ─ ④
+2. ④ ─ ②
+3. ② ─ ③
+4. ① ─ ④
+
+【正解19】
+4. ① ─ ④
+
+【解説19】
+She plays the piano well.
+「She + plays + the piano」の順になるので、1番目は she、3番目は the piano です。
+
+---
+
+問題20:
+犬いぬはにわで遊あそんでいます。
+① the dog ② in ③ is playing ④ the garden
+( ) [1番目] ( ) [3番目] the garden.
+
+選択肢20:
+1. ② ─ ③
+2. ③ ─ ④
+3. ① ─ ②
+4. ④ ─ ③
+
+【正解20】
+3. ① ─ ②
+
+【解説20】
+The dog is playing in the garden.
+「the dog + is playing + in」の順になるので、1番目は the dog、3番目は in です。
+
+---
+
+問題21:
+彼かれは毎まい朝あさ何なにを飲のみますか。
+① What ② he ③ does ④ drink
+( ) [1番目] ( ) [3番目] every morning?
+
+選択肢21:
+1. ③ ─ ④
+2. ① ─ ④
+3. ④ ─ ②
+4. ① ─ ②
+
+【正解21】
+4. ① ─ ②
+
+【解説21】
+What does he drink every morning?
+「What + does + he」の疑問文になるので、1番目は What、3番目は he です。
+
+---
+
+問題22:
+あなたのお兄さんはとても背せが高たかいですか。
+① Is ② your brother ③ very ④ tall
+( ) [1番目] ( ) [3番目] tall?
+
+選択肢22:
+1. ① ─ ③
+2. ③ ─ ④
+3. ② ─ ③
+4. ④ ─ ①
+
+【正解22】
+1. ① ─ ③
+
+【解説22】
+Is your brother very tall?
+「Is + your brother + very」の疑問文になるので、1番目は Is、3番目は very です。
+
+---
+
+問題23:
+ケンは数学すうがくがとても好すきです。
+① Ken ② math ③ likes ④ very much
+( ) [1番目] ( ) [3番目] very much.
+
+選択肢23:
+1. ③ ─ ④
+2. ② ─ ③
+3. ④ ─ ①
+4. ① ─ ②
+
+【正解23】
+4. ① ─ ②
+
+【解説23】
+Ken likes math very much.
+「Ken + likes + math」の順になるので、1番目は Ken、3番目は math です。
+
+---
+
+問題24:
+その本ほんは机つくえの上うえにあります。
+① on ② is ③ that book ④ the desk
+( ) [1番目] ( ) [3番目] the desk.
+
+選択肢24:
+1. ③ ─ ①
+2. ② ─ ④
+3. ① ─ ③
+4. ④ ─ ②
+
+【正解24】
+1. ③ ─ ①
+
+【解説24】
+That book is on the desk.
+「that book + is + on」の順になるので、1番目は that book、3番目は on です。
+
+---
+
+問題25:
+エミは歌うたを上手じょうずに歌うたえます。
+① Emi ② songs ③ can sing ④ well
+( ) [1番目] ( ) [3番目] well.
+
+選択肢25:
+1. ② ─ ④
+2. ③ ─ ②
+3. ① ─ ②
+4. ① ─ ③
+
+【正解25】
+3. ① ─ ②
+
+【解説25】
+Emi can sing songs well.
+「Emi + can sing + songs」の順になるので、1番目は Emi、3番目は songs です。
+
+---
+
+問題26:
+今日きょうはとても暑あついです。
+① It ② is ③ very hot ④ today
+( ) [1番目] ( ) [3番目] today.
+
+選択肢26:
+1. ① ─ ③
+2. ④ ─ ②
+3. ② ─ ④
+4. ③ ─ ②
+
+【正解26】
+1. ① ─ ③
+
+【解説26】
+It is very hot today.
+「It + is + very hot」の順になるので、1番目は It、3番目は very hot です。
+
+---
+
+問題27:
+その猫ねこはソファの上うえで寝ねています。
+① the cat ② is sleeping ③ on ④ the sofa
+( ) [1番目] ( ) [3番目] the sofa.
+
+選択肢27:
+1. ③ ─ ②
+2. ① ─ ③
+3. ② ─ ④
+4. ④ ─ ③
+
+【正解27】
+2. ① ─ ③
+
+【解説27】
+The cat is sleeping on the sofa.
+「the cat + is sleeping + on」の順になるので、1番目は the cat、3番目は on です。
+
+---
+
+問題28:
+彼女は英語えいごを話はなせますか。
+① Can ② she ③ English ④ speak
+( ) [1番目] ( ) [3番目] English?
+
+選択肢28:
+1. ④ ─ ③
+2. ① ─ ④
+3. ③ ─ ②
+4. ② ─ ③
+
+【正解28】
+2. ① ─ ④
+
+【解説28】
+Can she speak English?
+「Can + she + speak」の疑問文になるので、1番目は Can、3番目は speak です。
+
+---
+
+問題29:
+猫ねこは部屋へやの中なかにいます。
+① the cat ② the room ③ in ④ is
+( ) [1番目] ( ) [3番目] the room.
+
+選択肢29:
+1. ④ ─ ②
+2. ② ─ ③
+3. ① ─ ③
+4. ③ ─ ④
+
+【正解29】
+3. ① ─ ③
+
+【解説29】
+The cat is in the room.
+「the cat + is + in」の順になるので、1番目は the cat、3番目は in です。
+
+---
+
+問題30:
+私たちは午後ごごテニスをします。
+① tennis ② We ③ in the afternoon ④ play
+( ) [1番目] ( ) [3番目] in the afternoon.
+
+選択肢30:
+1. ② ─ ①
+2. ④ ─ ①
+3. ① ─ ③
+4. ③ ─ ②
+
+【正解30】
+1. ② ─ ①
+
+【解説30】
+We play tennis in the afternoon.
+「We + play + tennis」の順になるので、1番目は We、3番目は tennis です。
