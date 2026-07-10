@@ -22,7 +22,7 @@
 
 `python utils/build_level5_questions.py` → `data/questions/level5/*.txt`
 
-## 音声・画像（手動配置）
+## 音声・画像
 
 | 公式 | 配置先 | ファイル名 |
 |------|--------|-----------|
@@ -30,4 +30,13 @@
 | リスニング Part2 | `static/audio/level5/part2/` | `listening_conversation_question{1-15}.mp3` |
 | リスニング Part3 | `static/audio/level5/part3/` | `listening_illustration_question{31-60}.mp3` |
 
-画像: `static/images/level5/part1/`（本問イラスト + Part3 選択肢3枚/問）
+**イラスト画像**（本問用）: `static/images/level5/part1/listening_illustration_image{1-60}.png`
+
+過去問 PDF から一括抽出:
+
+```bash
+python utils/extract_level5_illustrations.py
+python manage.py register_listening_illustration_questions --level 5
+```
+
+音声のプレースホルダー生成のみ必要な場合: `python utils/setup_level5_assets.py`

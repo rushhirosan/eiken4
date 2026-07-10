@@ -53,7 +53,7 @@
     </div>
     {% endif %}
     
-    {% if question_type == 'listening_illustration' %}
+    {% if question_type == 'listening_illustration' or question_type == 'listening_illustration_part3' %}
         {% for answer in answers_with_questions %}
     <div class="card mb-4">
         <div class="card-body">
@@ -81,7 +81,13 @@
                         <input class="form-check-input" type="radio" disabled 
                                {% if answer.user_answer == choice.choice_text %}checked{% endif %}>
                         <label class="form-check-label">
+                            {% if choice.choice_text|slice:"-4:" == ".png" or choice.choice_text|slice:"-4:" == ".jpg" %}
+                            <img src="{% static choice.choice_text %}" alt="選択肢{{ forloop.counter }}" class="listening-choice-img">
+                            {% elif question_type == 'listening_illustration_part3' %}
+                            {{ forloop.counter }}. {{ choice.choice_text }}
+                            {% else %}
                             {{ choice.choice_text }}
+                            {% endif %}
                         </label>
                     </div>
                     {% endfor %}

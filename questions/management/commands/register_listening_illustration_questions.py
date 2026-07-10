@@ -137,12 +137,11 @@ class Command(BaseCommand):
             # 選択肢を番号で登録（既存の形式に合わせる）
             # correct_answerはorder番号（文字列）になっている
             correct_order = int(correct_answer) if correct_answer.isdigit() else None
-            is_level5_part3 = level == '5' and number >= 31
 
             for i, choice_text in enumerate(choices, 1):
-                if is_level5_part3:
-                    choice_img = f'listening_illustration_q{number}_choice{i}.png'
-                    stored_text = db_image_path_part1(level, choice_img)
+                # Part1（5級含む）: イラスト上の 1/2/3。Part3（5級 No.31+）: 英文選択肢をそのまま保存。
+                if level == '5' and number >= 31:
+                    stored_text = choice_text
                 else:
                     stored_text = str(i)
                 ListeningChoice.objects.create(
