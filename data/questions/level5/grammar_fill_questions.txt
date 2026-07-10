@@ -593,19 +593,19 @@ A : Where is your tennis ( ), Hiroki? B : It’s in my bag, Mom.
 ---
 
 問題34:
-A : Mike, please ( ) your coffee before you go to school. B : OK, Mom.
+A : Mike, please ( ) your breakfast before you go to school. B : OK, Mom.
 
 選択肢34:
 1. sleep
-2. drink
+2. eat
 3. arrive
 4. talk
 
 【正解34】
-2. drink
+2. eat
 
 【解説34】
-正解は「drink」です。文脈に最も合う語句を選びます。
+正解は「eat」です。学校に行く前に「朝食を食べる」という自然な場面です。
 他の選択肢「sleep」「arrive」「talk」は、この空所や会話の流れには合いません。
 
 ---
@@ -1190,7 +1190,7 @@ The train is very ( ). We can’t run after it.
 A : What does your mother do? B : She is a ( ).
 
 選択肢67:
-1. student
+1. happy
 2. child
 3. teacher
 4. boy
@@ -1199,8 +1199,8 @@ A : What does your mother do? B : She is a ( ).
 3. teacher
 
 【解説67】
-正解は「teacher」です。「What does ～ do?」は職業をたずねる表現で、母親が「先生」という答えが自然です。
-他の選択肢「student」「child」「boy」は、母親の職業としては合いません。
+正解は「teacher」です。「What does ～ do?」は職業をたずねる表現です。
+「She is a ～」の後には職業の名詞が来るので、「happy」「child」「boy」は合いません。
 
 ---
 
@@ -1727,7 +1727,7 @@ Please wash your hands ( ) dinner. We are going to eat now.
 ---
 
 問題97:
-Tom gets up ( ) every morning.
+Tom is never late for school. He gets up ( ) every morning.
 
 選択肢97:
 1. early
@@ -1739,8 +1739,8 @@ Tom gets up ( ) every morning.
 1. early
 
 【解説97】
-正解は「early」です。「gets up early」で「早く起きる」という意味になります。
-他の選択肢「late」「slowly」「badly」は、毎朝の習慣を表すこの文には合いません。
+正解は「early」です。遅刻しないという流れから、毎朝「早く起きる（gets up early）」が自然です。
+他の選択肢「late」「slowly」「badly」は、この文脈には合いません。
 
 ---
 
@@ -1781,7 +1781,7 @@ A : How ( ) students are in your class? B : Twenty-five.
 ---
 
 問題100:
-A : Is this your seat? B : Yes, that’s ( ).
+A : This is your seat, right? B : Yes, that’s ( ).
 
 選択肢100:
 1. me
@@ -1793,5 +1793,5 @@ A : Is this your seat? B : Yes, that’s ( ).
 4. right
 
 【解説100】
-正解は「right」です。「Yes, that’s right.」で「はい、そのとおりです」という意味になります。
-他の選択肢「me」「my」「I」は、この決まった返答には合いません。
+正解は「right」です。「Yes, that’s right.」で「はい、そのとおりです」という決まった返答になります。
+他の選択肢「me」「my」「I」は、この表現には合いません。
