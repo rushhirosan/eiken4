@@ -752,6 +752,11 @@ def question_list(request, level=None, exam_id=None):
             questions.sort(key=lambda x: x.id)
         
         # 問題と選択肢を組み合わせる（回答履歴は表示しない）
+        display_category = (
+            'listening_illustration_part3'
+            if question_type == 'listening_illustration_part3'
+            else 'listening_illustration'
+        )
         questions_with_choices = []
         for question in questions:
             choices = ListeningChoice.objects.filter(question=question).order_by('order')
@@ -760,7 +765,8 @@ def question_list(request, level=None, exam_id=None):
                 'choices': choices,
                 'user_answer': None,  # 常にNoneにして未選択状態にする
                 'is_correct': None,
-                'explanation': getattr(question, 'explanation', '')
+                'explanation': getattr(question, 'explanation', ''),
+                'category': display_category,
             })
 
         apply_choice_shuffle_to_items(
@@ -779,7 +785,7 @@ def question_list(request, level=None, exam_id=None):
             'questions': questions_with_choices,
             'question_count_options': question_count_options,
         }
-        return render(request, 'exams/listening_illustration.html', context)
+        return render(request, 'exams/question_list.html', context)
     
     elif question_type in ['listening_conversation', 'listening_passage']:
         # リスニング会話問題とリスニング文章問題の場合

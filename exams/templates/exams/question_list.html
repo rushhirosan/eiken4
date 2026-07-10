@@ -23,7 +23,7 @@
     <p class="text-white-50 mb-4">{{ random_scope_description }}</p>
     {% endif %}
     
-    {% if question_type == 'listening_illustration' or question_type == 'listening_conversation' %}
+    {% if question_type == 'listening_illustration' or question_type == 'listening_illustration_part3' or question_type == 'listening_conversation' %}
     <div class="alert alert-info small" role="note">
         <i class="fas fa-info-circle"></i>
         本問題の音声では、話者の性別が会話中の登場人物と一致しない場合があります。あらかじめご了承ください。
@@ -71,14 +71,14 @@
             {% for question in questions %}
             <div class="col-12 col-md-6 mb-4 question-list-col">
                 <div class="card question-card h-100">
-                    <div class="card-body{% if question_type == 'listening_illustration' or question_type == 'random' and question.category == 'listening_illustration' %} d-flex flex-column{% endif %}">
+                    <div class="card-body{% if question_type == 'listening_illustration' or question_type == 'listening_illustration_part3' or question_type == 'random' and question.category == 'listening_illustration' %} d-flex flex-column{% endif %}">
                         <h5 class="card-title">
                             問題 {{ forloop.counter }}
                             {% if question_type == 'random' and question.category_name %}
                                 <small class="text-muted">({{ question.category_name }})</small>
                             {% endif %}
                         </h5>
-                        {% if question.category == 'listening_illustration' or question.category == 'listening_illustration_part1' or question.category == 'listening_illustration_part3' or question_type == 'listening_illustration' or question_type == 'random' and question.category == 'listening_illustration' %}
+                        {% if question.category == 'listening_illustration' or question.category == 'listening_illustration_part1' or question.category == 'listening_illustration_part3' or question_type == 'listening_illustration' or question_type == 'listening_illustration_part3' or question_type == 'random' and question.category == 'listening_illustration' %}
                             <div class="listening-illustration-img-wrap">
                                 <img src="{% static question.question.image %}" alt="問題のイラスト" class="listening-illustration-img">
                             </div>
@@ -97,7 +97,7 @@
                                         <label class="form-check-label" for="choice_{{ choice.id }}">
                                             {% if choice.choice_text|slice:"-4:" == ".png" or choice.choice_text|slice:"-4:" == ".jpg" %}
                                             <img src="{% static choice.choice_text %}" alt="選択肢{{ forloop.counter }}" class="listening-choice-img">
-                                            {% elif question.category == 'listening_illustration_part3' %}
+                                            {% elif question.category == 'listening_illustration_part3' or question_type == 'listening_illustration_part3' %}
                                             {{ forloop.counter }}. {{ choice.choice_text }}
                                             {% else %}
                                             {{ forloop.counter }}

@@ -822,6 +822,63 @@ class ListeningIllustrationScoringTest(TestCase):
         saved = ListeningUserAnswer.objects.get(user=self.user, question=question)
         self.assertTrue(saved.is_correct)
 
+    def test_listening_illustration_uses_shared_question_list_template(self):
+        """イラスト問題は question_list.html を使い2列レイアウトを維持する（デグレ防止）"""
+        response = self.client.get(
+            reverse('exams:question_list_by_level', kwargs={'level': '4'}),
+            {
+                'type': 'listening_illustration',
+                'status': 'unanswered',
+                'num_questions': '5',
+            },
+        )
+
+        self.assertEqual(response.status_code, 200)
+        self.assertTemplateUsed(response, 'exams/question_list.html')
+        content = response.content.decode()
+        self.assertIn('question-list-row', content)
+        self.assertIn(f'name="answer_{self.question.id}"', content)
+        self.assertNotIn('type="radio" name="question_', content)
+        self.assertLess(content.find('for="status"'), content.find('for="num_questions"'))
+
+    def test_listening_illustration_part3_uses_shared_question_list_template(self):
+        """5級イラスト一致も question_list.html を使う（デグレ防止）"""
+        part3_question = ListeningQuestion.objects.create(
+            question_text='Which picture matches?',
+            image='images/level5/part1/listening_illustration_image31.png',
+            audio='audio/level5/part3/listening_illustration_question31.mp3',
+            correct_answer='1',
+            level='5',
+        )
+        ListeningChoice.objects.create(
+            question=part3_question,
+            choice_text='images/level5/part1/listening_illustration_q31_choice1.png',
+            is_correct=True,
+            order=1,
+        )
+        ListeningChoice.objects.create(
+            question=part3_question,
+            choice_text='images/level5/part1/listening_illustration_q31_choice2.png',
+            is_correct=False,
+            order=2,
+        )
+
+        response = self.client.get(
+            reverse('exams:question_list_by_level', kwargs={'level': '5'}),
+            {
+                'type': 'listening_illustration_part3',
+                'status': 'unanswered',
+                'num_questions': '5',
+            },
+        )
+
+        self.assertEqual(response.status_code, 200)
+        self.assertTemplateUsed(response, 'exams/question_list.html')
+        content = response.content.decode()
+        self.assertIn('question-list-row', content)
+        self.assertIn(f'name="answer_{part3_question.id}"', content)
+        self.assertLess(content.find('for="status"'), content.find('for="num_questions"'))
+
     def test_listening_illustration_unanswered_filter_excludes_answered_questions(self):
         """未回答フィルターで回答済み問題が再出題されない"""
         unanswered_question = ListeningQuestion.objects.create(

@@ -25,6 +25,13 @@
     max-width: 300px;
 }
 
+.listening-choice-img {
+    max-width: 120px;
+    max-height: 120px;
+    display: block;
+    margin-top: 0.25rem;
+}
+
 /* 2列表示時: 横並びカードの高さを揃える */
 @media (min-width: 768px) {
     .question-list-row > .question-list-col {
