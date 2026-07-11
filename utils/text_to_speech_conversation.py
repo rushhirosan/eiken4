@@ -68,8 +68,10 @@ def extract_conversation_parts(text):
         # ☆ と ★ を順番通りに処理（リスニングイラスト問題用）
         elif line.startswith('☆') or line.startswith('★'):
             speaker = 'W' if line.startswith('☆') else 'M'  # ☆を女性、★を男性として扱う
-            text = line[1:].strip()
-            conversation_parts.append((speaker, text))
+            # 「☆☆」等の終端マーカーは記号のみになるので読み上げ対象から除外する
+            text = line.lstrip('☆★').strip()
+            if text:
+                conversation_parts.append((speaker, text))
         elif is_question:
             question.append(line)
         elif is_choices:
@@ -116,13 +118,13 @@ def combine_audio_files(conversation_audio, question_audio, output_path):
     silence = AudioSegment.silent(duration=1000)
     
     # 会話の音声を追加
-    if os.path.exists(conversation_audio):
+    if os.path.exists(conversation_audio) and os.path.getsize(conversation_audio) > 0:
         conversation_audio_segment = AudioSegment.from_mp3(conversation_audio)
         audio_segments.append(conversation_audio_segment)
         audio_segments.append(silence)
     
     # 問題の音声を追加
-    if os.path.exists(question_audio):
+    if os.path.exists(question_audio) and os.path.getsize(question_audio) > 0:
         question_audio_segment = AudioSegment.from_mp3(question_audio)
         audio_segments.append(question_audio_segment)
     
@@ -146,19 +148,19 @@ def combine_audio_files_with_choices(conversation_audio, question_audio, choices
     silence = AudioSegment.silent(duration=1000)
     
     # 会話の音声を追加
-    if os.path.exists(conversation_audio):
+    if os.path.exists(conversation_audio) and os.path.getsize(conversation_audio) > 0:
         conversation_audio_segment = AudioSegment.from_mp3(conversation_audio)
         audio_segments.append(conversation_audio_segment)
         audio_segments.append(silence)
     
     # 問題の音声を追加
-    if os.path.exists(question_audio):
+    if os.path.exists(question_audio) and os.path.getsize(question_audio) > 0:
         question_audio_segment = AudioSegment.from_mp3(question_audio)
         audio_segments.append(question_audio_segment)
         audio_segments.append(silence)
     
     # 選択肢の音声を追加
-    if os.path.exists(choices_audio):
+    if os.path.exists(choices_audio) and os.path.getsize(choices_audio) > 0:
         choices_audio_segment = AudioSegment.from_mp3(choices_audio)
         audio_segments.append(choices_audio_segment)
     
@@ -260,10 +262,12 @@ async def generate_audio_from_file(
             print(f"Question {question_number} - {speaker}: {text}")
             await text_to_speech(text, temp_audio, voice)
             
-            if os.path.exists(temp_audio):
+            if os.path.exists(temp_audio) and os.path.getsize(temp_audio) > 0:
                 audio_segment = AudioSegment.from_mp3(temp_audio)
                 audio_segments.append(audio_segment)
                 audio_segments.append(silence)
+                os.remove(temp_audio)
+            elif os.path.exists(temp_audio):
                 os.remove(temp_audio)
         
         # 会話音声を結合
@@ -337,9 +341,11 @@ async def generate_illustration_audio_from_file(
             print(f"Illustration {question_number} - {speaker}: {text}")
             await text_to_speech(text, temp_audio, voice)
 
-            if os.path.exists(temp_audio):
+            if os.path.exists(temp_audio) and os.path.getsize(temp_audio) > 0:
                 audio_segments.append(AudioSegment.from_mp3(temp_audio))
                 audio_segments.append(silence)
+                os.remove(temp_audio)
+            elif os.path.exists(temp_audio):
                 os.remove(temp_audio)
 
         if audio_segments:
