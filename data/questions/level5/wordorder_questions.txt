@@ -1,7 +1,7 @@
 問題1:
-これは私わたしの姉あねのピアノです。
+これは私の姉のピアノです。
 ① this ② sister’s ③ my ④ is
-( ) [1番目] ( ) [3番目] piano.
+[1番目] ( ) [3番目] ( ) piano.
 
 選択肢1:
 1. ① ─ ③
@@ -19,9 +19,9 @@ This is my sister's piano.
 ---
 
 問題2:
-私わたしは朝あさ ，歩あるいて学がっ校こうへ行いきます。
+私は朝，歩いて学校へ行きます。
 ① to ② school ③ walk ④ in
-( ) [1番目] ( ) [3番目] I the morning.
+I [1番目] ( ) [3番目] ( ) the morning.
 
 選択肢2:
 1. ① ─ ②
@@ -39,9 +39,9 @@ I walk to school in the morning.
 ---
 
 問題3:
-キムは居い間までテレビを見みていますか。
+キムは居間でテレビを見ていますか。
 ① watching ② Kim ③ in ④ TV
-( ) [1番目] ( ) [3番目] Is the living room?
+Is [1番目] ( ) [3番目] ( ) the living room?
 
 選択肢3:
 1. ① ─ ④
@@ -59,9 +59,9 @@ Is Kim watching TV in the living room?
 ---
 
 問題4:
-ナンシー，あなたのクラスで誰だれが英えい語ごを上じょう手ずに話はなせますか。
+ナンシー，あなたのクラスで誰が英語を上手に話せますか。
 ① can ② who ③ speak ④ English
-( ) [1番目] ( ) [3番目] Nancy, well in your class?
+[1番目] ( ) [3番目] ( ) well in your class, Nancy?
 
 選択肢4:
 1. ③ ─ ④
@@ -79,9 +79,9 @@ Who can speak English well in your class, Nancy?
 ---
 
 問題5:
-私わたしの父ちちは毎まい朝あさ ３キロ走はしります。
+私の父は毎朝３キロ走ります。
 ① every ② three kilometers ③ my father ④ runs
-( ) [1番目] ( ) [3番目] morning.
+[1番目] ( ) [3番目] ( ) morning.
 
 選択肢5:
 1. ① ─ ④
@@ -99,9 +99,9 @@ My father runs three kilometers every morning.
 ---
 
 問題6:
-これらの靴くつはいくらですか。
+これらの靴はいくらですか。
 ① are ② how ③ much ④ these shoes
-( ) [1番目] ( ) [3番目] ?
+[1番目] ( ) [3番目] ( )?
 
 選択肢6:
 1. ③ ─ ②
@@ -119,9 +119,9 @@ How much are these shoes?
 ---
 
 問題7:
-この写しゃ真しんの中なかの女おんなの子こはだれですか。
+この写真の中の女の子はだれですか。
 ① the girl ② in ③ who ④ is
-( ) [1番目] ( ) [3番目] this photo?
+[1番目] ( ) [3番目] ( ) this photo?
 
 選択肢7:
 1. ④ ─ ②
@@ -139,9 +139,9 @@ Who is the girl in this photo?
 ---
 
 問題8:
-明あした日のピクニックに，私わたしたちは何なにが必ひつ要ようですか。
+明日のピクニックに，私たちは何が必要ですか。
 ① we ② for ③ need ④ do
-( ) [1番目] ( ) [3番目] What the picnic tomorrow?
+What [1番目] ( ) [3番目] ( ) the picnic tomorrow?
 
 選択肢8:
 1. ① ─ ②
@@ -159,9 +159,9 @@ What do we need for the picnic tomorrow?
 ---
 
 問題9:
-トムのお父とうさんは大だい学がくで何なにを教おしえていますか。
+トムのお父さんは大学で何を教えていますか。
 ① does ② what ③ teach ④ Tom’s father
-( ) [1番目] ( ) [3番目] at college?
+[1番目] ( ) [3番目] ( ) at college?
 
 選択肢9:
 1. ④ ─ ①
@@ -179,9 +179,9 @@ What does Tom's father teach at college?
 ---
 
 問題10:
-私わたしは浩ひろしのために朝ちょう食しょくを作つくっています。
+私は浩のために朝食を作っています。
 ① for ② breakfast ③ am ④ cooking
-( ) [1番目] ( ) [3番目] I Hiroshi.
+I [1番目] ( ) [3番目] ( ) Hiroshi.
 
 選択肢10:
 1. ③ ─ ②
@@ -199,9 +199,9 @@ I am cooking breakfast for Hiroshi.
 ---
 
 問題11:
-あなたの英えい語ごのテストはいつですか。
+あなたの英語のテストはいつですか。
 ① is ② when ③ English ④ your
-( ) [1番目] ( ) [3番目] test?
+[1番目] ( ) [3番目] ( ) test?
 
 選択肢11:
 1. ④ ─ ②
@@ -219,9 +219,9 @@ When is your English test?
 ---
 
 問題12:
-ロンドンは何なん時じですか。
+ロンドンは何時ですか。
 ① in ② is ③ time ④ it
-( ) [1番目] ( ) [3番目] What London?
+What [1番目] ( ) [3番目] ( ) London?
 
 選択肢12:
 1. ③ ─ ①
@@ -239,9 +239,9 @@ What time is it in London?
 ---
 
 問題13:
-私わたしたちの担たん任にんは遠えん藤どう先せん生せいです。
+私たちの担任は遠藤先生です。
 ① our ② is ③ teacher ④ homeroom
-( ) [1番目] ( ) [3番目] Mr. Endo.
+[1番目] ( ) [3番目] ( ) Mr. Endo.
 
 選択肢13:
 1. ① ─ ③
@@ -259,9 +259,9 @@ Our homeroom teacher is Mr. Endo.
 ---
 
 問題14:
-一かず樹きは夕ゆう食しょくにピザが欲ほしいです。
+一樹は夕食にピザが欲しいです。
 ① wants ② some pizza ③ for ④ Kazuki
-( ) [1番目] ( ) [3番目] dinner.
+[1番目] ( ) [3番目] ( ) dinner.
 
 選択肢14:
 1. ④ ─ ②
@@ -279,9 +279,9 @@ Kazuki wants some pizza for dinner.
 ---
 
 問題15:
-あなたは昼ちゅう食しょくに何なにを作つくっていますか。
+あなたは昼食に何を作っていますか。
 ① are ② making ③ what ④ you
-( ) [1番目] ( ) [3番目] for lunch?
+[1番目] ( ) [3番目] ( ) for lunch?
 
 選択肢15:
 1. ③ ─ ④
@@ -299,9 +299,9 @@ What are you making for lunch?
 ---
 
 問題16:
-サラは毎まい日にち６時じに起おきます。
+サラは毎日６時に起きます。
 ① Sarah ② at six ③ gets up ④ every day
-( ) [1番目] ( ) [3番目] every day.
+[1番目] ( ) [3番目] ( ).
 
 選択肢16:
 1. ③ ─ ②
@@ -319,9 +319,9 @@ Sarah gets up at six every day.
 ---
 
 問題17:
-このりんごはとても大きおおきいです。
+このりんごはとても大きいです。
 ① this apple ② is ③ very ④ big
-( ) [1番目] ( ) [3番目] big.
+[1番目] ( ) [3番目] ( ).
 
 選択肢17:
 1. ② ─ ④
@@ -339,9 +339,9 @@ This apple is very big.
 ---
 
 問題18:
-あの男おとこの子こは速はやく走はしれます。
+あの男の子は速く走れます。
 ① that boy ② can ③ run ④ fast
-( ) [1番目] ( ) [3番目] fast.
+[1番目] ( ) [3番目] ( ).
 
 選択肢18:
 1. ① ─ ③
@@ -359,9 +359,9 @@ That boy can run fast.
 ---
 
 問題19:
-彼女はピアノを上手じょうずにひきます。
+彼女はピアノを上手にひきます。
 ① she ② well ③ plays ④ the piano
-( ) [1番目] ( ) [3番目] well.
+[1番目] ( ) [3番目] ( ).
 
 選択肢19:
 1. ③ ─ ④
@@ -379,9 +379,9 @@ She plays the piano well.
 ---
 
 問題20:
-犬いぬはにわで遊あそんでいます。
+犬はにわで遊んでいます。
 ① the dog ② in ③ is playing ④ the garden
-( ) [1番目] ( ) [3番目] the garden.
+[1番目] ( ) [3番目] ( ).
 
 選択肢20:
 1. ② ─ ③
@@ -399,9 +399,9 @@ The dog is playing in the garden.
 ---
 
 問題21:
-彼かれは毎まい朝あさ何なにを飲のみますか。
-① What ② he ③ does ④ drink
-( ) [1番目] ( ) [3番目] every morning?
+彼は毎朝何を飲みますか。
+① what ② he ③ does ④ drink
+[1番目] ( ) [3番目] ( ) every morning?
 
 選択肢21:
 1. ③ ─ ④
@@ -414,14 +414,14 @@ The dog is playing in the garden.
 
 【解説21】
 What does he drink every morning?
-「What + does + he」の疑問文になるので、1番目は What、3番目は he です。
+「what + does + he」の疑問文になるので、1番目は what、3番目は he です。
 
 ---
 
 問題22:
-あなたのお兄さんはとても背せが高たかいですか。
-① Is ② your brother ③ very ④ tall
-( ) [1番目] ( ) [3番目] tall?
+あなたのお兄さんはとても背が高いですか。
+① is ② your brother ③ very ④ tall
+[1番目] ( ) [3番目] ( )?
 
 選択肢22:
 1. ① ─ ③
@@ -434,14 +434,14 @@ What does he drink every morning?
 
 【解説22】
 Is your brother very tall?
-「Is + your brother + very」の疑問文になるので、1番目は Is、3番目は very です。
+「is + your brother + very」の疑問文になるので、1番目は is、3番目は very です。
 
 ---
 
 問題23:
-ケンは数学すうがくがとても好すきです。
+ケンは数学がとても好きです。
 ① Ken ② math ③ likes ④ very much
-( ) [1番目] ( ) [3番目] very much.
+[1番目] ( ) [3番目] ( ).
 
 選択肢23:
 1. ③ ─ ④
@@ -459,9 +459,9 @@ Ken likes math very much.
 ---
 
 問題24:
-その本ほんは机つくえの上うえにあります。
+その本は机の上にあります。
 ① on ② is ③ that book ④ the desk
-( ) [1番目] ( ) [3番目] the desk.
+[1番目] ( ) [3番目] ( ).
 
 選択肢24:
 1. ③ ─ ①
@@ -479,9 +479,9 @@ That book is on the desk.
 ---
 
 問題25:
-エミは歌うたを上手じょうずに歌うたえます。
+エミは歌を上手に歌えます。
 ① Emi ② songs ③ can sing ④ well
-( ) [1番目] ( ) [3番目] well.
+[1番目] ( ) [3番目] ( ).
 
 選択肢25:
 1. ② ─ ④
@@ -499,9 +499,9 @@ Emi can sing songs well.
 ---
 
 問題26:
-今日きょうはとても暑あついです。
-① It ② is ③ very hot ④ today
-( ) [1番目] ( ) [3番目] today.
+今日はとても暑いです。
+① it ② is ③ very hot ④ today
+[1番目] ( ) [3番目] ( ).
 
 選択肢26:
 1. ① ─ ③
@@ -514,14 +514,14 @@ Emi can sing songs well.
 
 【解説26】
 It is very hot today.
-「It + is + very hot」の順になるので、1番目は It、3番目は very hot です。
+「it + is + very hot」の順になるので、1番目は it、3番目は very hot です。
 
 ---
 
 問題27:
-その猫ねこはソファの上うえで寝ねています。
+その猫はソファの上で寝ています。
 ① the cat ② is sleeping ③ on ④ the sofa
-( ) [1番目] ( ) [3番目] the sofa.
+[1番目] ( ) [3番目] ( ).
 
 選択肢27:
 1. ③ ─ ②
@@ -539,9 +539,9 @@ The cat is sleeping on the sofa.
 ---
 
 問題28:
-彼女は英語えいごを話はなせますか。
-① Can ② she ③ English ④ speak
-( ) [1番目] ( ) [3番目] English?
+彼女は英語を話せますか。
+① can ② she ③ English ④ speak
+[1番目] ( ) [3番目] ( )?
 
 選択肢28:
 1. ④ ─ ③
@@ -554,14 +554,14 @@ The cat is sleeping on the sofa.
 
 【解説28】
 Can she speak English?
-「Can + she + speak」の疑問文になるので、1番目は Can、3番目は speak です。
+「can + she + speak」の疑問文になるので、1番目は can、3番目は speak です。
 
 ---
 
 問題29:
-猫ねこは部屋へやの中なかにいます。
+猫は部屋の中にいます。
 ① the cat ② the room ③ in ④ is
-( ) [1番目] ( ) [3番目] the room.
+[1番目] ( ) [3番目] ( ).
 
 選択肢29:
 1. ④ ─ ②
@@ -579,9 +579,9 @@ The cat is in the room.
 ---
 
 問題30:
-私たちは午後ごごテニスをします。
-① tennis ② We ③ in the afternoon ④ play
-( ) [1番目] ( ) [3番目] in the afternoon.
+私たちは午後テニスをします。
+① tennis ② we ③ in the afternoon ④ play
+[1番目] ( ) [3番目] ( ).
 
 選択肢30:
 1. ② ─ ①
@@ -594,4 +594,4 @@ The cat is in the room.
 
 【解説30】
 We play tennis in the afternoon.
-「We + play + tennis」の順になるので、1番目は We、3番目は tennis です。
+「we + play + tennis」の順になるので、1番目は we、3番目は tennis です。

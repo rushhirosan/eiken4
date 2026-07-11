@@ -1335,7 +1335,7 @@ A : What do you want for breakfast? B : I want ( ) and milk.
 
 選択肢75:
 1. water
-2. soup
+2. tea
 3. bread
 4. juice
 
@@ -1344,7 +1344,7 @@ A : What do you want for breakfast? B : I want ( ) and milk.
 
 【解説75】
 正解は「bread」です。「I want ( ) and milk.」では、朝食として食べ物を1つ選ぶ流れになり、「bread and milk」が自然です。
-他の選択肢「water」「soup」「juice」は飲み物・汁物で、ここで想定している朝食の組み合わせには合いません。
+他の選択肢「water」「tea」「juice」は飲み物・汁物で、ここで想定している朝食の組み合わせには合いません。
 
 ---
 
