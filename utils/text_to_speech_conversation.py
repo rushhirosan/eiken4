@@ -177,8 +177,11 @@ def combine_audio_files_with_choices(conversation_audio, question_audio, choices
     if os.path.exists(choices_audio):
         os.remove(choices_audio)
 
-async def text_to_speech(text, output_path, voice="en-US-GuyNeural"):
-    """テキストを音声ファイルに変換する"""
+async def text_to_speech(text, output_path, voice="en-US-GuyNeural", rate="+0%"):
+    """テキストを音声ファイルに変換する。
+
+    rate は Edge TTS の話速指定（例: "-10%" で少しゆっくり、"+0%" が既定）。
+    """
     try:
         if isinstance(text, (list, tuple)):
             text = '\n'.join(str(x) for x in text)
@@ -191,7 +194,7 @@ async def text_to_speech(text, output_path, voice="en-US-GuyNeural"):
             os.makedirs(output_dir)
         
         # 音声を生成
-        communicate = edge_tts.Communicate(text, voice)
+        communicate = edge_tts.Communicate(text, voice, rate=rate)
         await communicate.save(output_path)
         print(f"音声ファイルを {output_path} に保存しました。")
         
@@ -203,6 +206,7 @@ async def generate_audio_from_file(
     output_dir,
     question_range=None,
     output_prefix='listening_passage_question',
+    rate="+0%",
 ):
     """
     ファイルから音声を生成する
@@ -212,6 +216,7 @@ async def generate_audio_from_file(
         output_dir (str): 出力ディレクトリ
         question_range (tuple, optional): 問題範囲 (start, end)。None で全問
         output_prefix (str): ファイル名プレフィックス（例: listening_conversation_question）
+        rate (str): Edge TTS の話速（例: "-10%" で少しゆっくり）
     """
     # 出力ディレクトリを作成
     os.makedirs(output_dir, exist_ok=True)
@@ -260,7 +265,7 @@ async def generate_audio_from_file(
             temp_audio = os.path.join(output_dir, f'temp_{speaker}_{question_number}.mp3')
             voice = "en-US-GuyNeural" if speaker == 'M' else "en-US-JennyNeural"
             print(f"Question {question_number} - {speaker}: {text}")
-            await text_to_speech(text, temp_audio, voice)
+            await text_to_speech(text, temp_audio, voice, rate=rate)
             
             if os.path.exists(temp_audio) and os.path.getsize(temp_audio) > 0:
                 audio_segment = AudioSegment.from_mp3(temp_audio)
@@ -278,7 +283,7 @@ async def generate_audio_from_file(
         # 問題の音声ファイルを作成
         question_audio = os.path.join(output_dir, f'temp_question_{question_number}.mp3')
         print(f"Question {question_number} - Question text: {question}")
-        await text_to_speech(question, question_audio, "en-US-GuyNeural")
+        await text_to_speech(question, question_audio, "en-US-GuyNeural", rate=rate)
         
         # 音声ファイルを結合（会話 + 問題のみ）
         combine_audio_files(conversation_audio, question_audio, output_audio)
@@ -290,12 +295,14 @@ async def generate_illustration_audio_from_file(
     input_file,
     output_dir,
     question_range=None,
+    rate="+0%",
 ):
     """
     リスニング第1部（イラスト問題）の音声を生成する。
 
     会話は M/W で話者別（Edge TTS）、セリフ間に短い無音。
     「Question No.xx」は読まず Question のみ。続けて選択肢1〜3を読み上げる。
+    rate は Edge TTS の話速（例: "-10%" で少しゆっくり）。
     """
     os.makedirs(output_dir, exist_ok=True)
 
@@ -339,7 +346,7 @@ async def generate_illustration_audio_from_file(
             )
             voice = "en-US-GuyNeural" if speaker == 'M' else "en-US-JennyNeural"
             print(f"Illustration {question_number} - {speaker}: {text}")
-            await text_to_speech(text, temp_audio, voice)
+            await text_to_speech(text, temp_audio, voice, rate=rate)
 
             if os.path.exists(temp_audio) and os.path.getsize(temp_audio) > 0:
                 audio_segments.append(AudioSegment.from_mp3(temp_audio))
@@ -356,7 +363,7 @@ async def generate_illustration_audio_from_file(
             output_dir, f'temp_question_{question_number}.mp3'
         )
         print(f"Illustration {question_number} - Question text: {question}")
-        await text_to_speech(question, question_audio, "en-US-GuyNeural")
+        await text_to_speech(question, question_audio, "en-US-GuyNeural", rate=rate)
 
         ct = '\n'.join(choices_lines).strip()
         if ct:
@@ -364,7 +371,7 @@ async def generate_illustration_audio_from_file(
                 output_dir, f'temp_choices_{question_number}.mp3'
             )
             print(f"Illustration {question_number} - Choices:\n{ct}")
-            await text_to_speech(ct, choices_audio, "en-US-GuyNeural")
+            await text_to_speech(ct, choices_audio, "en-US-GuyNeural", rate=rate)
             combine_audio_files_with_choices(
                 conversation_audio, question_audio, choices_audio, output_audio
             )
@@ -388,11 +395,13 @@ async def main_async(args):
         if not os.path.exists(path):
             raise SystemExit(f'入力ファイルが見つかりません: {path}')
 
+    rate = getattr(args, 'rate', '+0%')
     await generate_audio_from_file(
         conv_txt,
         part2_dir,
         question_range=None,
         output_prefix='listening_conversation_question',
+        rate=rate,
     )
     print('--- 第2部 完了 ---')
     await generate_audio_from_file(
@@ -400,6 +409,7 @@ async def main_async(args):
         part3_dir,
         question_range=None,
         output_prefix='listening_passage_question',
+        rate=rate,
     )
     print('--- 第3部 完了 ---')
     print('音声生成が完了しました。')
@@ -422,6 +432,11 @@ def main():
     parser.add_argument('--passage-txt', default=None, help='第3部の入力テキスト')
     parser.add_argument('--part2-dir', default=None, help='第2部 MP3 の出力ディレクトリ')
     parser.add_argument('--part3-dir', default=None, help='第3部 MP3 の出力ディレクトリ')
+    parser.add_argument(
+        '--rate',
+        default='+0%',
+        help='Edge TTS の話速（例: "-10%%" で少しゆっくり、既定は "+0%%"）',
+    )
     args = parser.parse_args()
     asyncio.run(main_async(args))
 
