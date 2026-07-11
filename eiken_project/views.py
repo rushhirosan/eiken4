@@ -16,3 +16,14 @@ def robots_txt(request):
     """ルートで robots.txt を配信"""
     path = Path(settings.BASE_DIR) / 'static' / 'robots.txt'
     return HttpResponse(path.read_text(encoding='utf-8'), content_type='text/plain')
+
+
+def llms_txt(request):
+    """AI向けサイト概要（llms.txt）を配信"""
+    path = Path(settings.BASE_DIR) / 'static' / 'llms.txt'
+    return HttpResponse(path.read_text(encoding='utf-8'), content_type='text/plain; charset=utf-8')
+
+
+def about(request):
+    """公開のサービス概要・FAQページ"""
+    return render(request, 'about.html')

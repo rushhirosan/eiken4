@@ -2512,6 +2512,12 @@ def sitemap_xml(request):
             'priority': '1.0',
         },
         {
+            'loc': f"{base_url}/about/",
+            'lastmod': today,
+            'changefreq': 'monthly',
+            'priority': '0.8',
+        },
+        {
             'loc': f"{base_url}/privacy-policy/",
             'lastmod': today,
             'changefreq': 'monthly',

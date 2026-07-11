@@ -22,7 +22,7 @@ from django.conf.urls.static import static
 from django.http import HttpResponse
 
 from exams.views import sitemap_xml
-from eiken_project.views import landing, robots_txt
+from eiken_project.views import about, landing, llms_txt, robots_txt
 
 def healthz(request):
     return HttpResponse("ok", status=200)
@@ -41,10 +41,12 @@ urlpatterns = [
     path('exams/', include('exams.urls')),
     path('', landing, name='landing'),
     path('robots.txt', robots_txt, name='robots_txt'),
+    path('llms.txt', llms_txt, name='llms_txt'),
     # Google Search Console verification file
     path('google41829dffd897ace8.html', google_verification),
     # Sitemap（exams.urls を二重 include しない — URL namespace 重複警告を防ぐ）
     path('sitemap.xml', sitemap_xml, name='sitemap_xml'),
+    path('about/', about, name='about'),
     # Privacy Policy
     path('privacy-policy/', TemplateView.as_view(template_name='privacy_policy.html'), name='privacy_policy'),
 ]

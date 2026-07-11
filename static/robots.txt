@@ -1,6 +1,8 @@
 User-agent: *
 Allow: /
+Allow: /about/
 Allow: /privacy-policy/
+Allow: /llms.txt
 Disallow: /accounts/
 Disallow: /exams/
 Disallow: /admin/

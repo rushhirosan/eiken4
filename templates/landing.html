@@ -46,6 +46,55 @@
     }
     </script>
 
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Eiken Practiceはどの英検級に対応していますか？",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "英検5級・4級・3級に対応しています。級ごとに最適化された問題セットで演習できます。"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Eiken Practiceは無料で使えますか？",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "はい、無料で利用できます。アカウント登録後、すぐに問題演習を開始できます。"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "どんな種類の問題が解けますか？",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "文法・語彙、長文読解、リスニング、模擬試験に対応しています。級によって語順選択・会話補充・ライティングなどの形式も収録しています。"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "リスニング問題はありますか？",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "はい。イラスト・会話・長文の3部構成で、ブラウザ上で音声を聞きながら解答できます。"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "スマートフォンでも使えますか？",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "はい。Webブラウザで動作するため、スマートフォン・PCのどちらでも利用できます。"
+          }
+        }
+      ]
+    }
+    </script>
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
@@ -522,6 +571,7 @@
                 <i class="fas fa-graduation-cap me-2"></i>Eiken Practice
             </p>
             <div class="d-flex gap-3 small">
+                <a href="/about/">サービス概要</a>
                 <a href="/privacy-policy/">プライバシーポリシー</a>
                 <a href="{% url 'login' %}">ログイン</a>
                 <a href="{% url 'signup' %}">新規登録</a>
