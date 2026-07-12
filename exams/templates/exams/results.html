@@ -24,7 +24,8 @@
             </p>
             {% if result.explanation %}
             <div class="alert alert-info">
-                <strong>解説:</strong> {{ result.explanation }}
+                <strong>解説:</strong><br>
+                {{ result.explanation|linebreaksbr }}
             </div>
             {% endif %}
         </div>

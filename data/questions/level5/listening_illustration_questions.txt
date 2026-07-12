@@ -10,8 +10,10 @@ Question No.1:
 1. A picture of a cat.
 
 【解説1】
-会話の最後の発話に対する自然な応答は「A picture of a cat.」です。
-他の選択肢は質問や発話の内容と合いません。
+放送文：What are you painting?（何を描いているの？）
+
+「何を描いているの？」と’何を’たずねているので、1「A picture of a cat.（ネコの絵だよ。）」が自然な応答です。
+2「Here’s your pencil.（はい、鉛筆だよ。）」はものを渡す表現、3「At four o’clock.（4時にね。）」は時刻の答えで、質問に合いません。
 
 ---
 
@@ -27,8 +29,10 @@ Question No.2:
 1. No, I’m Sarah Taylor.
 
 【解説2】
-会話の最後の発話に対する自然な応答は「No, I’m Sarah Taylor.」です。
-他の選択肢は質問や発話の内容と合いません。
+放送文：Excuse me.  Are you Ms. Gordon?（すみません、ゴードンさんですか？）
+
+「あなたはゴードンさんですか？」と名前を確認しているので、1「No, I’m Sarah Taylor.（いいえ、サラ・テイラーです。）」が自然な応答です。
+2「No, you don’t.（いいえ、あなたは〜しません。）」は一般動詞の否定で不自然、3「I see.（なるほど。）」はあいづちで、質問に答えていません。
 
 ---
 
@@ -44,8 +48,10 @@ Question No.3:
 3. On October 5.
 
 【解説3】
-会話の最後の発話に対する自然な応答は「On October 5.」です。
-他の選択肢は質問や発話の内容と合いません。
+放送文：When’s the school festival?（学園祭はいつ？）
+
+「いつ？」と’時’をたずねているので、3「On October 5.（10月5日だよ。）」が自然な応答です。
+1「That’s great.（すごいね。）」は感想、2「In the gym.（体育館で。）」は場所の答えで、質問に合いません。
 
 ---
 
@@ -61,8 +67,10 @@ Question No.4:
 3. It’s September 17.
 
 【解説4】
-会話の最後の発話に対する自然な応答は「It’s September 17.」です。
-他の選択肢は質問や発話の内容と合いません。
+放送文：Excuse me.  What’s the date today?（すみません、今日は何日ですか？）
+
+「今日は何日？」と日付をたずねているので、3「It’s September 17.（9月17日です。）」が正解です。
+1「It’s winter.（冬です。）」は季節、2「It’s fine today.（今日は晴れです。）」は天気の答えで、日付には答えていません。
 
 ---
 
@@ -78,8 +86,10 @@ Question No.5:
 2. No, I come by train.
 
 【解説5】
-会話の最後の発話に対する自然な応答は「No, I come by train.」です。
-他の選択肢は質問や発話の内容と合いません。
+放送文：Do you usually walk to school?（いつも歩いて学校へ行くの？）
+
+「歩いて通学するか」をたずねているので、交通手段を答える2「No, I come by train.（いいえ、電車で来ます。）」が自然です。
+1「No, I’m at home.（いいえ、家にいます。）」や3「No, I’m a student.（いいえ、私は学生です。）」は質問に合いません。
 
 ---
 
@@ -95,8 +105,10 @@ Question No.6:
 2. Yes, have fun.
 
 【解説6】
-会話の最後の発話に対する自然な応答は「Yes, have fun.」です。
-他の選択肢は質問や発話の内容と合いません。
+放送文：Can I play with your robot?（きみのロボットで遊んでいい？）
+
+「遊んでいい？」と許可を求めているので、2「Yes, have fun.（うん、楽しんでね。）」が自然な応答です。
+1「It’s on Saturday.（土曜日だよ。）」は日付、3「Yes, it does.（はい、そうします。）」は主語が合わず、質問に答えていません。
 
 ---
 
@@ -112,8 +124,10 @@ Question No.7:
 3. Yes, you can.
 
 【解説7】
-会話の最後の発話に対する自然な応答は「Yes, you can.」です。
-他の選択肢は質問や発話の内容と合いません。
+放送文：Can I buy scissors here?（ここでハサミを買えますか？）
+
+「ここで買えるか」をたずねているので、3「Yes, you can.（はい、買えます。）」が自然な応答です。
+1「This is my store.（ここは私の店です。）」や2「I love that one.（あれが大好きです。）」は質問に合いません。
 
 ---
 
@@ -129,8 +143,10 @@ Question No.8:
 1. I study in my room.
 
 【解説8】
-会話の最後の発話に対する自然な応答は「I study in my room.」です。
-他の選択肢は質問や発話の内容と合いません。
+放送文：Where do you study on weekends?（週末はどこで勉強するの？）
+
+「どこで勉強するか」と’場所’をたずねているので、1「I study in my room.（自分の部屋で勉強するよ。）」が正解です。
+2「I play tennis.（テニスをするよ。）」や3「I talk with my friends.（友達と話すよ。）」は場所を答えていません。
 
 ---
 
@@ -146,8 +162,10 @@ Question No.9:
 2. Thank you!
 
 【解説9】
-会話の最後の発話に対する自然な応答は「Thank you!」です。
-他の選択肢は質問や発話の内容と合いません。
+放送文：Your new shoes are cute!（新しい靴、かわいいね！）
+
+ほめられているので、2「Thank you!（ありがとう！）」が自然な応答です。
+1「Yes, please.（はい、お願いします。）」は依頼への返事、3「Good job!（よくやったね！）」は相手をほめる表現で、この場面には合いません。
 
 ---
 
@@ -163,8 +181,10 @@ Question No.10:
 3. My new watch.
 
 【解説10】
-会話の最後の発話に対する自然な応答は「My new watch.」です。
-他の選択肢は質問や発話の内容と合いません。
+放送文：What is in this box?（この箱の中には何が入っているの？）
+
+「中に何があるか」をたずねているので、3「My new watch.（私の新しい腕時計だよ。）」が正解です。
+1「It’s too small.（小さすぎるね。）」は感想、2「In the kitchen.（台所に。）」は場所の答えで、質問に合いません。
 
 ---
 
@@ -180,8 +200,11 @@ Question No.31:
 1. The teacher is closing the door.
 
 【解説31】
-放送された英文の内容に最も合うのは選択肢1「The teacher is closing the door.」です。
-イラストの動作・状況と英文の意味を照らし合わせて選びます。
+放送された3つの英文からイラストに合うものを選びます。
+1. The teacher is closing the door.（先生はドアを閉めている。）
+2. The teacher is making a door.（先生はドアを作っている。）
+3. The teacher is cleaning the door.（先生はドアをそうじしている。）
+動詞（closing / making / cleaning）の違いがポイントです。イラストに合うのは1です。
 
 ---
 
@@ -197,8 +220,11 @@ Question No.32:
 1. The flowers are by the basket.
 
 【解説32】
-放送された英文の内容に最も合うのは選択肢1「The flowers are by the basket.」です。
-イラストの動作・状況と英文の意味を照らし合わせて選びます。
+放送された3つの英文からイラストに合うものを選びます。
+1. The flowers are by the basket.（花はかごのそばにある。）
+2. The flowers are in the basket.（花はかごの中にある。）
+3. The flowers are on the basket.（花はかごの上にある。）
+位置を表す前置詞 by（そば）/ in（中）/ on（上）の違いがポイントです。イラストに合うのは1です。
 
 ---
 
@@ -214,8 +240,11 @@ Question No.33:
 1. Mike is buying a sandwich.
 
 【解説33】
-放送された英文の内容に最も合うのは選択肢1「Mike is buying a sandwich.」です。
-イラストの動作・状況と英文の意味を照らし合わせて選びます。
+放送された3つの英文からイラストに合うものを選びます。
+1. Mike is buying a sandwich.（マイクはサンドイッチを買っている。）
+2. Mike is eating a sandwich.（マイクはサンドイッチを食べている。）
+3. Mike is making a sandwich.（マイクはサンドイッチを作っている。）
+動作（buying / eating / making）の違いがポイントです。イラストに合うのは1です。
 
 ---
 
@@ -231,8 +260,11 @@ Question No.34:
 2. The cookie is 150 yen.
 
 【解説34】
-放送された英文の内容に最も合うのは選択肢2「The cookie is 150 yen.」です。
-イラストの動作・状況と英文の意味を照らし合わせて選びます。
+放送された3つの英文からイラストに合うものを選びます。
+1. The cookie is 105 yen.（クッキーは105円。）
+2. The cookie is 150 yen.（クッキーは150円。）
+3. The cookie is 155 yen.（クッキーは155円。）
+似た数字（105 / 150 / 155）の聞き取りがポイントです。イラストの値段に合うのは2です。
 
 ---
 
@@ -248,8 +280,11 @@ Question No.35:
 3. Helen is looking at a plane.
 
 【解説35】
-放送された英文の内容に最も合うのは選択肢3「Helen is looking at a plane.」です。
-イラストの動作・状況と英文の意味を照らし合わせて選びます。
+放送された3つの英文からイラストに合うものを選びます。
+1. Helen is looking at a bird.（ヘレンは鳥を見ている。）
+2. Helen is looking at a phone.（ヘレンは電話を見ている。）
+3. Helen is looking at a plane.（ヘレンは飛行機を見ている。）
+見ている対象（bird / phone / plane）の違いがポイントです。イラストに合うのは3です。
 
 ---
 
@@ -265,8 +300,11 @@ Question No.36:
 3. It’s windy.
 
 【解説36】
-放送された英文の内容に最も合うのは選択肢3「It’s windy.」です。
-イラストの動作・状況と英文の意味を照らし合わせて選びます。
+放送された3つの英文からイラストに合うものを選びます。
+1. It’s rainy.（雨が降っている。）
+2. It’s snowy.（雪が降っている。）
+3. It’s windy.（風が強い。）
+天気の表現（rainy / snowy / windy）の違いがポイントです。イラストに合うのは3です。
 
 ---
 
@@ -282,8 +320,11 @@ Question No.37:
 3. An elephant is by the tree.
 
 【解説37】
-放送された英文の内容に最も合うのは選択肢3「An elephant is by the tree.」です。
-イラストの動作・状況と英文の意味を照らし合わせて選びます。
+放送された3つの英文からイラストに合うものを選びます。
+1. A table is by the tree.（木のそばにテーブルがある。）
+2. A car is by the tree.（木のそばに車がある。）
+3. An elephant is by the tree.（木のそばにゾウがいる。）
+木のそばにあるもの（table / car / elephant）の違いがポイントです。イラストに合うのは3です。
 
 ---
 
@@ -299,8 +340,11 @@ Question No.38:
 2. Karen likes her hamster.
 
 【解説38】
-放送された英文の内容に最も合うのは選択肢2「Karen likes her hamster.」です。
-イラストの動作・状況と英文の意味を照らし合わせて選びます。
+放送された3つの英文からイラストに合うものを選びます。
+1. Karen likes her horse.（カレンは馬が好き。）
+2. Karen likes her hamster.（カレンはハムスターが好き。）
+3. Karen likes her sheep.（カレンはヒツジが好き。）
+動物（horse / hamster / sheep）の違いがポイントです。イラストに合うのは2です。
 
 ---
 
@@ -316,8 +360,11 @@ Question No.39:
 1. Naomi is painting her foot.
 
 【解説39】
-放送された英文の内容に最も合うのは選択肢1「Naomi is painting her foot.」です。
-イラストの動作・状況と英文の意味を照らし合わせて選びます。
+放送された3つの英文からイラストに合うものを選びます。
+1. Naomi is painting her foot.（ナオミは足をぬっている。）
+2. Naomi is painting her face.（ナオミは顔をぬっている。）
+3. Naomi is painting her hand.（ナオミは手をぬっている。）
+体の部分（foot / face / hand）の違いがポイントです。イラストに合うのは1です。
 
 ---
 
@@ -333,8 +380,11 @@ Question No.40:
 2. Tom is using a fork.
 
 【解説40】
-放送された英文の内容に最も合うのは選択肢2「Tom is using a fork.」です。
-イラストの動作・状況と英文の意味を照らし合わせて選びます。
+放送された3つの英文からイラストに合うものを選びます。
+1. Tom is using a towel.（トムはタオルを使っている。）
+2. Tom is using a fork.（トムはフォークを使っている。）
+3. Tom is using chopsticks.（トムははしを使っている。）
+使っている道具（towel / fork / chopsticks）の違いがポイントです。イラストに合うのは2です。
 
 ---
 
@@ -350,8 +400,10 @@ Question No.11:
 1. My sister does.
 
 【解説11】
-会話の最後の発話に対する自然な応答は「My sister does.」です。
-他の選択肢は質問や発話の内容と合いません。
+放送文：Who likes tennis in your family?（家族の中で誰がテニスを好きなの？）
+
+「誰が」と’人’をたずねているので、1「My sister does.（姉〔妹〕だよ。）」が正解です。
+2「It’s a racket.（それはラケットだよ。）」はもの、3「At school.（学校で。）」は場所の答えで、質問に合いません。
 
 ---
 
@@ -367,8 +419,10 @@ Question No.12:
 1. I don’t know.
 
 【解説12】
-会話の最後の発話に対する自然な応答は「I don’t know.」です。
-他の選択肢は質問や発話の内容と合いません。
+放送文：What’s that bird over there?（あそこにいるあの鳥は何？）
+
+「何の鳥か」をたずねているので、1「I don’t know.（わからないよ。）」が自然な応答です。
+2「I like this park.（この公園が好きだよ。）」や3「Thank you.（ありがとう。）」は質問に答えていません。
 
 ---
 
@@ -384,8 +438,10 @@ Question No.13:
 3. Me, too.
 
 【解説13】
-会話の最後の発話に対する自然な応答は「Me, too.」です。
-他の選択肢は質問や発話の内容と合いません。
+放送文：I like cats.  How about you?（私はネコが好き。あなたは？）
+
+「あなたはどう？」と相手の好みをたずねているので、3「Me, too.（私も。）」が自然な応答です。
+1「Over there.（あそこだよ。）」は場所、2「Good idea.（いい考えだね。）」は提案への返事で、質問に合いません。
 
 ---
 
@@ -401,8 +457,10 @@ Question No.14:
 2. Only one.
 
 【解説14】
-会話の最後の発話に対する自然な応答は「Only one.」です。
-他の選択肢は質問や発話の内容と合いません。
+放送文：How many baseball gloves do you have?（野球のグローブをいくつ持っているの？）
+
+「いくつ」と’数’をたずねているので、2「Only one.（1つだけだよ。）」が正解です。
+1「By bike.（自転車で。）」は手段、3「My favorite player.（お気に入りの選手だよ。）」は人で、数を答えていません。
 
 ---
 
@@ -418,8 +476,10 @@ Question No.15:
 1. 10 months old.
 
 【解説15】
-会話の最後の発話に対する自然な応答は「10 months old.」です。
-他の選択肢は質問や発話の内容と合いません。
+放送文：How old is your baby?（赤ちゃんは何歳ですか？）
+
+「何歳か」と’年齢’をたずねているので、1「10 months old.（生後10か月です。）」が正解です。
+2「He’s fine.（元気です。）」は様子、3「Good job.（よくやったね。）」はほめ言葉で、年齢を答えていません。
 
 ---
 
@@ -435,8 +495,10 @@ Question No.16:
 1. That’s right.
 
 【解説16】
-会話の最後の発話に対する自然な応答は「That’s right.」です。
-他の選択肢は質問や発話の内容と合いません。
+放送文：Do you live in London?（ロンドンに住んでいるの？）
+
+Yes / No でたずねているので、1「That’s right.（その通りだよ。）」が自然な応答です。
+2「By bus.（バスで。）」は手段、3「Nice to meet you.（はじめまして。）」は初対面のあいさつで、質問に合いません。
 
 ---
 
@@ -452,8 +514,10 @@ Question No.17:
 3. No, she doesn’t.
 
 【解説17】
-会話の最後の発話に対する自然な応答は「No, she doesn’t.」です。
-他の選択肢は質問や発話の内容と合いません。
+放送文：Does Aunt Cathy have a dog?（キャシーおばさんは犬を飼っているの？）
+
+「飼っているか」を三人称でたずねているので、3「No, she doesn’t.（いいえ、飼っていないよ。）」が正解です。
+1「No, she’s your teacher.（いいえ、彼女はあなたの先生だよ。）」や2「It’s a big pet shop.（大きなペット店だよ。）」は質問に合いません。
 
 ---
 
@@ -469,8 +533,10 @@ Question No.18:
 2. Mine is in April.
 
 【解説18】
-会話の最後の発話に対する自然な応答は「Mine is in April.」です。
-他の選択肢は質問や発話の内容と合いません。
+放送文：My birthday is September 2.（私の誕生日は9月2日だよ。）
+
+自分の誕生日を伝えているので、自分の誕生日を返す2「Mine is in April.（私のは4月だよ。）」が自然な応答です。
+1「It’s a big party.（大きなパーティーだね。）」や3「I like winter.（冬が好きだよ。）」は話の流れに合いません。
 
 ---
 
@@ -486,8 +552,10 @@ Question No.19:
 3. It’s next week.
 
 【解説19】
-会話の最後の発話に対する自然な応答は「It’s next week.」です。
-他の選択肢は質問や発話の内容と合いません。
+放送文：When is your birthday party?（誕生日パーティーはいつ？）
+
+「いつ」と’時’をたずねているので、3「It’s next week.（来週だよ。）」が正解です。
+1「I want a cake.（ケーキがほしいな。）」や2「Please buy some flowers.（花を買ってきて。）」は時を答えていません。
 
 ---
 
@@ -503,8 +571,10 @@ Question No.20:
 2. We can share them.
 
 【解説20】
-会話の最後の発話に対する自然な応答は「We can share them.」です。
-他の選択肢は質問や発話の内容と合いません。
+放送文：We have a lot of cookies.（クッキーがたくさんあるね。）
+
+たくさんあるという発言に対し、2「We can share them.（みんなで分けられるね。）」が自然な応答です。
+1「Yes, it is.（はい、そうです。）」は主語が合わず、3「I don’t like salad.（サラダは好きじゃない。）」は話題がずれています。
 
 ---
 
@@ -520,8 +590,11 @@ Question No.41:
 1. The apples are in the box.
 
 【解説41】
-放送された英文の内容に最も合うのは選択肢1「The apples are in the box.」です。
-イラストの動作・状況と英文の意味を照らし合わせて選びます。
+放送された3つの英文からイラストに合うものを選びます。
+1. The apples are in the box.（リンゴは箱の中にある。）
+2. The apples are under the box.（リンゴは箱の下にある。）
+3. The apples are on the box.（リンゴは箱の上にある。）
+位置の前置詞 in（中）/ under（下）/ on（上）の違いがポイントです。イラストに合うのは1です。
 
 ---
 
@@ -537,8 +610,11 @@ Question No.42:
 2. Tony is in the gym.
 
 【解説42】
-放送された英文の内容に最も合うのは選択肢2「Tony is in the gym.」です。
-イラストの動作・状況と英文の意味を照らし合わせて選びます。
+放送された3つの英文からイラストに合うものを選びます。
+1. Tony is in the library.（トニーは図書館にいる。）
+2. Tony is in the gym.（トニーは体育館にいる。）
+3. Tony is in the park.（トニーは公園にいる。）
+場所（library / gym / park）の違いがポイントです。イラストに合うのは2です。
 
 ---
 
@@ -554,8 +630,11 @@ Question No.43:
 2. It’s windy in Chicago.
 
 【解説43】
-放送された英文の内容に最も合うのは選択肢2「It’s windy in Chicago.」です。
-イラストの動作・状況と英文の意味を照らし合わせて選びます。
+放送された3つの英文からイラストに合うものを選びます。
+1. It’s snowing in Chicago.（シカゴでは雪が降っている。）
+2. It’s windy in Chicago.（シカゴでは風が強い。）
+3. It’s cloudy in Chicago.（シカゴはくもっている。）
+天気の表現（snowing / windy / cloudy）の違いがポイントです。イラストに合うのは2です。
 
 ---
 
@@ -571,8 +650,11 @@ Question No.44:
 3. It’s September 23rd.
 
 【解説44】
-放送された英文の内容に最も合うのは選択肢3「It’s September 23rd.」です。
-イラストの動作・状況と英文の意味を照らし合わせて選びます。
+放送された3つの英文からイラストに合うものを選びます。
+1. It’s September 3rd.（9月3日。）
+2. It’s September 13th.（9月13日。）
+3. It’s September 23rd.（9月23日。）
+日付（3rd / 13th / 23rd）の聞き取りがポイントです。イラスト（カレンダー）に合うのは3です。
 
 ---
 
@@ -588,8 +670,11 @@ Question No.45:
 3. Bill is standing on the train.
 
 【解説45】
-放送された英文の内容に最も合うのは選択肢3「Bill is standing on the train.」です。
-イラストの動作・状況と英文の意味を照らし合わせて選びます。
+放送された3つの英文からイラストに合うものを選びます。
+1. Bill is talking on the train.（ビルは電車で話している。）
+2. Bill is sitting on the train.（ビルは電車で座っている。）
+3. Bill is standing on the train.（ビルは電車で立っている。）
+動作（talking / sitting / standing）の違いがポイントです。イラストに合うのは3です。
 
 ---
 
@@ -605,8 +690,11 @@ Question No.46:
 1. Ron is riding a bike.
 
 【解説46】
-放送された英文の内容に最も合うのは選択肢1「Ron is riding a bike.」です。
-イラストの動作・状況と英文の意味を照らし合わせて選びます。
+放送された3つの英文からイラストに合うものを選びます。
+1. Ron is riding a bike.（ロンは自転車に乗っている。）
+2. Ron is cleaning a bike.（ロンは自転車をそうじしている。）
+3. Ron is painting a bike.（ロンは自転車をぬっている。）
+動作（riding / cleaning / painting）の違いがポイントです。イラストに合うのは1です。
 
 ---
 
@@ -622,8 +710,11 @@ Question No.47:
 3. Harry has a magazine in his hand.
 
 【解説47】
-放送された英文の内容に最も合うのは選択肢3「Harry has a magazine in his hand.」です。
-イラストの動作・状況と英文の意味を照らし合わせて選びます。
+放送された3つの英文からイラストに合うものを選びます。
+1. Harry has an apple in his hand.（ハリーは手にリンゴを持っている。）
+2. Harry has a hat in his hand.（ハリーは手に帽子を持っている。）
+3. Harry has a magazine in his hand.（ハリーは手に雑誌を持っている。）
+持っているもの（apple / hat / magazine）の違いがポイントです。イラストに合うのは3です。
 
 ---
 
@@ -639,8 +730,11 @@ Question No.48:
 2. Nanako is doing her homework.
 
 【解説48】
-放送された英文の内容に最も合うのは選択肢2「Nanako is doing her homework.」です。
-イラストの動作・状況と英文の意味を照らし合わせて選びます。
+放送された3つの英文からイラストに合うものを選びます。
+1. Nanako is singing a song.（ナナコは歌を歌っている。）
+2. Nanako is doing her homework.（ナナコは宿題をしている。）
+3. Nanako is playing a guitar.（ナナコはギターをひいている。）
+していること（singing / homework / guitar）の違いがポイントです。イラストに合うのは2です。
 
 ---
 
@@ -656,8 +750,11 @@ Question No.49:
 3. Alice is using the scissors.
 
 【解説49】
-放送された英文の内容に最も合うのは選択肢3「Alice is using the scissors.」です。
-イラストの動作・状況と英文の意味を照らし合わせて選びます。
+放送された3つの英文からイラストに合うものを選びます。
+1. Alice is using the computer.（アリスはコンピューターを使っている。）
+2. Alice is using the telephone.（アリスは電話を使っている。）
+3. Alice is using the scissors.（アリスははさみを使っている。）
+使っているもの（computer / telephone / scissors）の違いがポイントです。イラストに合うのは3です。
 
 ---
 
@@ -673,8 +770,11 @@ Question No.50:
 3. The bus comes at 9:25 a.m.
 
 【解説50】
-放送された英文の内容に最も合うのは選択肢3「The bus comes at 9:25 a.m.」です。
-イラストの動作・状況と英文の意味を照らし合わせて選びます。
+放送された3つの英文からイラストに合うものを選びます。
+1. The bus comes at 9:05 a.m.（バスは午前9時5分に来る。）
+2. The bus comes at 9:20 a.m.（バスは午前9時20分に来る。）
+3. The bus comes at 9:25 a.m.（バスは午前9時25分に来る。）
+時刻（9:05 / 9:20 / 9:25）の聞き取りがポイントです。イラスト（時計）に合うのは3です。
 
 ---
 
@@ -690,8 +790,10 @@ Question No.21:
 3. At eight.
 
 【解説21】
-会話の最後の発話に対する自然な応答は「At eight.」です。
-他の選択肢は質問や発話の内容と合いません。
+放送文：What time is the big soccer game?（大きなサッカーの試合は何時？）
+
+「何時」と’時刻’をたずねているので、3「At eight.（8時だよ。）」が正解です。
+1「In the house.（家の中で。）」は場所、2「It’s twelve dollars.（12ドルだよ。）」は値段で、時刻を答えていません。
 
 ---
 
@@ -707,8 +809,10 @@ Question No.22:
 1. On Wednesdays.
 
 【解説22】
-会話の最後の発話に対する自然な応答は「On Wednesdays.」です。
-他の選択肢は質問や発話の内容と合いません。
+放送文：When do you have your violin lesson?（バイオリンのレッスンはいつあるの？）
+
+「いつ」と’時’をたずねているので、1「On Wednesdays.（毎週水曜日だよ。）」が正解です。
+2「With my teacher.（先生と一緒に。）」は相手、3「I’m twelve.（12歳だよ。）」は年齢で、時を答えていません。
 
 ---
 
@@ -724,8 +828,10 @@ Question No.23:
 3. No, it’s in April.
 
 【解説23】
-会話の最後の発話に対する自然な応答は「No, it’s in April.」です。
-他の選択肢は質問や発話の内容と合いません。
+放送文：Is your birthday in March?（誕生日は3月？）
+
+Yes / No でたずねているので、3「No, it’s in April.（いいえ、4月だよ。）」が自然な応答です。
+1「Spring.（春。）」は季節、2「In the morning.（朝に。）」は時間帯で、質問に合いません。
 
 ---
 
@@ -741,8 +847,10 @@ Question No.24:
 1. This one.
 
 【解説24】
-会話の最後の発話に対する自然な応答は「This one.」です。
-他の選択肢は質問や発話の内容と合いません。
+放送文：Which one do you want?（どれがほしいの？）
+
+「どれ」と’もの’をたずねているので、1「This one.（これだよ。）」が正解です。
+2「At two.（2時に。）」は時刻、3「In the supermarket.（スーパーで。）」は場所で、質問に合いません。
 
 ---
 
@@ -758,8 +866,10 @@ Question No.25:
 2. By train.
 
 【解説25】
-会話の最後の発話に対する自然な応答は「By train.」です。
-他の選択肢は質問や発話の内容と合いません。
+放送文：How do you come to school?（どうやって学校に来るの？）
+
+「どうやって」と’手段’をたずねているので、2「By train.（電車で。）」が正解です。
+1「I like school.（学校が好きだよ。）」は感想、3「All right.（わかった。）」は返事で、手段を答えていません。
 
 ---
 
@@ -775,8 +885,10 @@ Question No.26:
 3. Yes, I am.
 
 【解説26】
-会話の最後の発話に対する自然な応答は「Yes, I am.」です。
-他の選択肢は質問や発話の内容と合いません。
+放送文：Are you 14 years old, David?（デイビッド、14歳なの？）
+
+be動詞でたずねているので、3「Yes, I am.（うん、そうだよ。）」が自然な応答です。
+1「Yes, it’s for you.（うん、きみのためだよ。）」や2「Yes, I like math.（うん、数学が好きだよ。）」は質問に合いません。
 
 ---
 
@@ -792,8 +904,10 @@ Question No.27:
 2. No, he isn’t.
 
 【解説27】
-会話の最後の発話に対する自然な応答は「No, he isn’t.」です。
-他の選択肢は質問や発話の内容と合いません。
+放送文：Is Mr. Edwards from the United States?（エドワーズ先生はアメリカ出身ですか？）
+
+be動詞・三人称でたずねているので、2「No, he isn’t.（いいえ、違います。）」が自然な応答です。
+1「Yes, I do.（はい、します。）」は主語・動詞が合わず、3「English class.（英語の授業。）」は質問に答えていません。
 
 ---
 
@@ -809,8 +923,10 @@ Question No.28:
 1. Chicken curry, please.
 
 【解説28】
-会話の最後の発話に対する自然な応答は「Chicken curry, please.」です。
-他の選択肢は質問や発話の内容と合いません。
+放送文：Which curry do you want, vegetable or chicken?（野菜とチキン、どっちのカレーがいい？）
+
+2つから選ぶ質問なので、1「Chicken curry, please.（チキンカレーをお願い。）」が正解です。
+2「This is curry.（これはカレーだよ。）」や3「Let’s cook it.（作ろうよ。）」は選ぶ答えになっていません。
 
 ---
 
@@ -826,8 +942,10 @@ Question No.29:
 3. She lives in Singapore.
 
 【解説29】
-会話の最後の発話に対する自然な応答は「She lives in Singapore.」です。
-他の選択肢は質問や発話の内容と合いません。
+放送文：Where does your sister live?（お姉さん〔妹〕はどこに住んでいるの？）
+
+「どこに住むか」と’場所’をたずねているので、3「She lives in Singapore.（シンガポールに住んでいるよ。）」が正解です。
+1「She is tall.（背が高いよ。）」は様子、2「We’re good friends.（仲良しだよ。）」は関係で、場所を答えていません。
 
 ---
 
@@ -843,8 +961,10 @@ Question No.30:
 3. Just one, please.
 
 【解説30】
-会話の最後の発話に対する自然な応答は「Just one, please.」です。
-他の選択肢は質問や発話の内容と合いません。
+放送文：How many strawberries do you want?（イチゴはいくつほしい？）
+
+「いくつ」と’数’をたずねているので、3「Just one, please.（1つだけお願い。）」が正解です。
+1「That’s all.（それで全部です。）」や2「I have nothing.（何も持っていない。）」は数を答えていません。
 
 ---
 
@@ -860,8 +980,11 @@ Question No.51:
 3. Louise doesn’t like rainy days.
 
 【解説51】
-放送された英文の内容に最も合うのは選択肢3「Louise doesn’t like rainy days.」です。
-イラストの動作・状況と英文の意味を照らし合わせて選びます。
+放送された3つの英文からイラストに合うものを選びます。
+1. Louise doesn’t like sunny days.（ルイーズは晴れの日が好きではない。）
+2. Louise doesn’t like cloudy days.（ルイーズはくもりの日が好きではない。）
+3. Louise doesn’t like rainy days.（ルイーズは雨の日が好きではない。）
+天気の表現（sunny / cloudy / rainy）の違いがポイントです。イラストに合うのは3です。
 
 ---
 
@@ -877,8 +1000,11 @@ Question No.52:
 2. Eric is looking at a phone.
 
 【解説52】
-放送された英文の内容に最も合うのは選択肢2「Eric is looking at a phone.」です。
-イラストの動作・状況と英文の意味を照らし合わせて選びます。
+放送された3つの英文からイラストに合うものを選びます。
+1. Eric is buying a phone.（エリックは電話を買っている。）
+2. Eric is looking at a phone.（エリックは電話を見ている。）
+3. Eric is cleaning a phone.（エリックは電話をそうじしている。）
+動作（buying / looking at / cleaning）の違いがポイントです。イラストに合うのは2です。
 
 ---
 
@@ -894,8 +1020,11 @@ Question No.53:
 3. The bird is on Miho’s arm.
 
 【解説53】
-放送された英文の内容に最も合うのは選択肢3「The bird is on Miho’s arm.」です。
-イラストの動作・状況と英文の意味を照らし合わせて選びます。
+放送された3つの英文からイラストに合うものを選びます。
+1. The bird is on Miho’s head.（鳥はミホの頭にとまっている。）
+2. The bird is on Miho’s leg.（鳥はミホの足にとまっている。）
+3. The bird is on Miho’s arm.（鳥はミホの腕にとまっている。）
+体の部分（head / leg / arm）の違いがポイントです。イラストに合うのは3です。
 
 ---
 
@@ -911,8 +1040,11 @@ Question No.54:
 3. Kathy goes to work at 6:50.
 
 【解説54】
-放送された英文の内容に最も合うのは選択肢3「Kathy goes to work at 6:50.」です。
-イラストの動作・状況と英文の意味を照らし合わせて選びます。
+放送された3つの英文からイラストに合うものを選びます。
+1. Kathy goes to work at 6:05.（キャシーは6時5分に仕事へ行く。）
+2. Kathy goes to work at 6:15.（キャシーは6時15分に仕事へ行く。）
+3. Kathy goes to work at 6:50.（キャシーは6時50分に仕事へ行く。）
+時刻（6:05 / 6:15 / 6:50）の聞き取りがポイントです。イラスト（時計）に合うのは3です。
 
 ---
 
@@ -928,8 +1060,11 @@ Question No.55:
 2. It’s October 21st.
 
 【解説55】
-放送された英文の内容に最も合うのは選択肢2「It’s October 21st.」です。
-イラストの動作・状況と英文の意味を照らし合わせて選びます。
+放送された3つの英文からイラストに合うものを選びます。
+1. It’s September 21st.（9月21日。）
+2. It’s October 21st.（10月21日。）
+3. It’s November 21st.（11月21日。）
+月（September / October / November）の聞き取りがポイントです。イラスト（カレンダー）に合うのは2です。
 
 ---
 
@@ -945,8 +1080,11 @@ Question No.56:
 3. Emi works at a restaurant.
 
 【解説56】
-放送された英文の内容に最も合うのは選択肢3「Emi works at a restaurant.」です。
-イラストの動作・状況と英文の意味を照らし合わせて選びます。
+放送された3つの英文からイラストに合うものを選びます。
+1. Emi works at a zoo.（エミは動物園で働いている。）
+2. Emi works at a hospital.（エミは病院で働いている。）
+3. Emi works at a restaurant.（エミはレストランで働いている。）
+働く場所（zoo / hospital / restaurant）の違いがポイントです。イラストに合うのは3です。
 
 ---
 
@@ -962,8 +1100,11 @@ Question No.57:
 1. Tom has a frying pan.
 
 【解説57】
-放送された英文の内容に最も合うのは選択肢1「Tom has a frying pan.」です。
-イラストの動作・状況と英文の意味を照らし合わせて選びます。
+放送された3つの英文からイラストに合うものを選びます。
+1. Tom has a frying pan.（トムはフライパンを持っている。）
+2. Tom has a knife.（トムはナイフを持っている。）
+3. Tom has a plate.（トムはお皿を持っている。）
+持っている調理道具（frying pan / knife / plate）の違いがポイントです。イラストに合うのは1です。
 
 ---
 
@@ -979,8 +1120,11 @@ Question No.58:
 2. Terry loves animals.
 
 【解説58】
-放送された英文の内容に最も合うのは選択肢2「Terry loves animals.」です。
-イラストの動作・状況と英文の意味を照らし合わせて選びます。
+放送された3つの英文からイラストに合うものを選びます。
+1. Terry loves chocolates.（テリーはチョコレートが大好き。）
+2. Terry loves animals.（テリーは動物が大好き。）
+3. Terry loves books.（テリーは本が大好き。）
+好きなもの（chocolates / animals / books）の違いがポイントです。イラストに合うのは2です。
 
 ---
 
@@ -996,8 +1140,11 @@ Question No.59:
 1. Mike is a piano teacher.
 
 【解説59】
-放送された英文の内容に最も合うのは選択肢1「Mike is a piano teacher.」です。
-イラストの動作・状況と英文の意味を照らし合わせて選びます。
+放送された3つの英文からイラストに合うものを選びます。
+1. Mike is a piano teacher.（マイクはピアノの先生。）
+2. Mike is an English teacher.（マイクは英語の先生。）
+3. Mike is a science teacher.（マイクは理科の先生。）
+教える科目（piano / English / science）の違いがポイントです。イラストに合うのは1です。
 
 ---
 
@@ -1013,5 +1160,8 @@ Question No.60:
 3. Kenta is studying in a library.
 
 【解説60】
-放送された英文の内容に最も合うのは選択肢3「Kenta is studying in a library.」です。
-イラストの動作・状況と英文の意味を照らし合わせて選びます。
+放送された3つの英文からイラストに合うものを選びます。
+1. Kenta is studying in a coffee shop.（ケンタは喫茶店で勉強している。）
+2. Kenta is studying in his room.（ケンタは自分の部屋で勉強している。）
+3. Kenta is studying in a library.（ケンタは図書館で勉強している。）
+勉強している場所（coffee shop / room / library）の違いがポイントです。イラストに合うのは3です。

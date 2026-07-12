@@ -185,14 +185,14 @@ Girl 1 : Is Ken in your class this year? Girl 2 : ( ) I like him a lot.
 1. Please come back.
 2. Yes, he is.
 3. Sit down.
-4. No, he isn’t.
+4. No, he does not.
 
 【正解11】
 2. Yes, he is.
 
 【解説11】
 「Is Ken in your class?」に対する肯定で、続く「I like him a lot.」ともつながるのは「Yes, he is.」です。
-「No, he isn’t.」は否定なので文脈と合いません。
+「No, he does not」は文法的に合わない。
 
 ---
 
@@ -290,7 +290,7 @@ Girl : Where is the library? Boy : ( )
 Boy : Can I use your pen, Yumi? Girl : ( )
 
 選択肢17:
-1. It’s on the desk.
+1. It’s not mine.
 2. I have two.
 3. Sure, here you are.
 4. After school.
@@ -300,7 +300,7 @@ Boy : Can I use your pen, Yumi? Girl : ( )
 
 【解説17】
 ペンを貸してほしいというお願いに対して、「Sure, here you are.（いいよ、はいどうぞ）」が適切です。
-場所や時間だけを答える選択肢は会話の流れと合いません。
+場所や所有だけを答える選択肢は会話の流れと合いません。
 
 ---
 
@@ -431,7 +431,7 @@ Teacher : Is this your bag, Anna? Girl : ( )
 ---
 
 問題25:
-Mother : What time do you get up, Tom? Boy : ( )
+Girl : What time do you get up, Tom? Boy : ( )
 
 選択肢25:
 1. In my room.
@@ -507,15 +507,15 @@ Girl : What does your father do? Boy : ( )
 
 選択肢29:
 1. At a hospital.
-2. He’s a teacher.
+2. He’s a soccer player.
 3. He is tall.
 4. He likes fishing.
 
 【正解29】
-2. He’s a teacher.
+2. He’s a soccer player.
 
 【解説29】
-父親の職業を聞かれているので、「He’s a teacher.」が自然です。
+父親の職業を聞かれているので、「He’s a soccer player.」が自然です。
 勤務場所・外見・趣味は職業の答えになりません。
 
 ---
@@ -525,7 +525,7 @@ Boy : It’s raining outside. Girl : ( )
 
 選択肢30:
 1. It’s sunny.
-2. I like rain.
+2. I like trains.
 3. Let’s take an umbrella.
 4. After lunch.
 
@@ -534,7 +534,7 @@ Boy : It’s raining outside. Girl : ( )
 
 【解説30】
 雨が降っているという情報に対して、傘を持っていこうと提案する「Let’s take an umbrella.」が会話として自然です。
-天気の感想や無関係な時間の話はつながりが弱いです。
+天気の感想や無関係な時間の話、乗り物の話はつながりが弱いです。
 
 ---
 
@@ -814,8 +814,8 @@ Boy : Let’s clean the classroom. Girl : ( )
 選択肢46:
 1. See you.
 2. OK, let’s start.
-3. I’m tired today.
-4. After dinner.
+3. It’s on the desk.
+4. Yes, it’s a dog.
 
 【正解46】
 2. OK, let’s start.

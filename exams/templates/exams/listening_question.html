@@ -99,8 +99,8 @@
                     </p>
                     {% if question_data.explanation %}
                     <p class="mb-1">
-                        <strong>解説:</strong> 
-                        {{ question_data.explanation }}
+                        <strong>解説:</strong><br>
+                        {{ question_data.explanation|linebreaksbr }}
                     </p>
                     {% endif %}
                 </div>
