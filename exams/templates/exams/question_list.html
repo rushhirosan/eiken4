@@ -97,8 +97,6 @@
                                         <label class="form-check-label" for="choice_{{ choice.id }}">
                                             {% if choice.choice_text|slice:"-4:" == ".png" or choice.choice_text|slice:"-4:" == ".jpg" %}
                                             <img src="{% static choice.choice_text %}" alt="選択肢{{ forloop.counter }}" class="listening-choice-img">
-                                            {% elif question.category == 'listening_illustration_part3' or question_type == 'listening_illustration_part3' %}
-                                            {{ forloop.counter }}. {{ choice.choice_text }}
                                             {% else %}
                                             {{ forloop.counter }}
                                             {% endif %}
