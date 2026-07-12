@@ -117,7 +117,7 @@ What color is the boy’s bag?
 1. Blue.
 2. Black.
 3. Red.
-4. White. 2025年度
+4. White.
 
 【正解5】
 2. Black.
@@ -252,7 +252,7 @@ What is the boy’s mother making for dinner?
 1. Soup.
 2. Salad.
 3. Fish.
-4. Pasta. 2025年度
+4. Pasta.
 
 【正解10】
 1. Soup.
@@ -387,7 +387,7 @@ What is Sara drawing now?
 1. Dogs.
 2. Cats.
 3. Cows.
-4. Rabbits. 2026年度
+4. Rabbits.
 
 【正解15】
 2. Cats.

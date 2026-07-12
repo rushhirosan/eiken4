@@ -45,6 +45,14 @@ def clean_japanese(text: str) -> str:
     return re.sub(r'(?<=[ぁ-んァ-ン一-龥])\s+(?=[ぁ-んァ-ン一-龥])', '', text)
 
 
+def sanitize_choice(text: str) -> str:
+    """問題冊子PDFのページヘッダ/フッタ由来のゴミ（例: '2025年度'）を選択肢末尾から除去する。"""
+    text = text.strip()
+    # 末尾に紛れ込む「20XX年度…」以降を落とす（英文選択肢＋フッタの混入対策）
+    text = re.sub(r'\s*20\d{2}\s*年度.*$', '', text)
+    return text.strip()
+
+
 def parse_answers(answer_pdf: str) -> tuple[dict[int, int], dict[int, int]]:
     text = pdf_text(_PDF / answer_pdf)
     reading: dict[int, int] = {}
@@ -105,7 +113,7 @@ def parse_grammar_blocks(exam_text: str) -> dict[int, dict]:
             continue
         results[n] = {
             'text': chosen_body,
-            'choices': [chosen.group(i) for i in range(2, 6)],
+            'choices': [sanitize_choice(chosen.group(i)) for i in range(2, 6)],
         }
     return results
 
@@ -121,7 +129,7 @@ def parse_conversation_blocks(exam_text: str) -> dict[int, dict]:
         if not mo:
             continue
         body = re.sub(r'\s+', ' ', mo.group(1)).strip()
-        choices = [re.sub(r'\s+', ' ', mo.group(i)).strip() for i in range(2, 6)]
+        choices = [sanitize_choice(re.sub(r'\s+', ' ', mo.group(i))) for i in range(2, 6)]
         results[n] = {'text': body, 'choices': choices}
     return results
 
@@ -183,7 +191,7 @@ def parse_listening_part2(script_text: str, exam_text: str) -> dict[int, dict]:
         )
         if not cm:
             continue
-        choices = [cm.group(i).strip() for i in range(1, 5)]
+        choices = [sanitize_choice(cm.group(i)) for i in range(1, 5)]
         sm = re.search(rf'☆☆\s*No\.\s*{n}\s*(.*?)(?=☆☆\s*No\.\s*\d+|$)', script_text, re.DOTALL)
         if not sm:
             continue
