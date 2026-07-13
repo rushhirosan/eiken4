@@ -400,3 +400,273 @@ Question: What is Sara drawing now?（サラは今何を描いていますか？
 
 サラが「ネコを描いている」と言っているので、2「Cats.（ネコ。）」が正解です。
 1「Dogs.（犬。）」、3「Cows.（牛。）」、4「Rabbits.（ウサギ。）」は会話に出てきません。
+
+---
+
+No.16:
+★Do you have any pets, Lisa?
+☆Yes.  I have two cats.
+☆☆
+
+Question No.16:
+How many cats does Lisa have?
+
+1. One.
+2. Two.
+3. Three.
+4. Four.
+
+【正解16】
+2. Two.
+
+【解説16】
+放送文
+★Do you have any pets, Lisa?（リサ、何かペットを飼っている？）
+☆Yes.  I have two cats.（うん。ネコを2匹飼っているよ。）
+Question: How many cats does Lisa have?（リサはネコを何匹飼っていますか？）
+
+リサが「ネコを2匹飼っている」と言っているので、2「Two.（2匹。）」が正解です。
+1「One.（1匹。）」、3「Three.（3匹。）」、4「Four.（4匹。）」は会話に合いません。
+
+---
+
+No.17:
+☆What time do you get up, Ken?
+★I get up at six thirty.
+☆☆
+
+Question No.17:
+What time does Ken get up?
+
+1. At six.
+2. At six thirty.
+3. At seven.
+4. At seven thirty.
+
+【正解17】
+2. At six thirty.
+
+【解説17】
+放送文
+☆What time do you get up, Ken?（ケン、何時に起きるの？）
+★I get up at six thirty.（ぼくは6時半に起きるよ。）
+Question: What time does Ken get up?（ケンは何時に起きますか？）
+
+ケンが「6時半に起きる」と言っているので、2「At six thirty.（6時半に。）」が正解です。
+1「At six.（6時に。）」、3「At seven.（7時に。）」、4「At seven thirty.（7時半に。）」は会話に合いません。
+
+---
+
+No.18:
+★What do you eat for breakfast?
+☆I eat rice and eggs.
+☆☆
+
+Question No.18:
+What does the girl eat for breakfast?
+
+1. Bread and milk.
+2. Rice and eggs.
+3. Toast and jam.
+4. Soup and salad.
+
+【正解18】
+2. Rice and eggs.
+
+【解説18】
+放送文
+★What do you eat for breakfast?（朝食に何を食べる？）
+☆I eat rice and eggs.（私はご飯と卵を食べるよ。）
+Question: What does the girl eat for breakfast?（女の子は朝食に何を食べますか？）
+
+女の子が「ご飯と卵を食べる」と言っているので、2「Rice and eggs.（ご飯と卵。）」が正解です。
+1「Bread and milk.（パンと牛乳。）」、3「Toast and jam.（トーストとジャム。）」、4「Soup and salad.（スープとサラダ。）」は会話に出てきません。
+
+---
+
+No.19:
+☆I want to play tennis this afternoon.
+★Sorry, I want to play baseball.
+☆☆
+
+Question No.19:
+What does the boy want to play?
+
+1. Tennis.
+2. Soccer.
+3. Baseball.
+4. Basketball.
+
+【正解19】
+3. Baseball.
+
+【解説19】
+放送文
+☆I want to play tennis this afternoon.（今日の午後はテニスがしたいな。）
+★Sorry, I want to play baseball.（ごめん、ぼくは野球がしたいんだ。）
+Question: What does the boy want to play?（男の子は何をしたいですか？）
+
+男の子が「野球がしたい」と言っているので、3「Baseball.（野球。）」が正解です。
+1「Tennis.（テニス。）」は女の子がしたい競技、2「Soccer.（サッカー。）」・4「Basketball.（バスケットボール。）」は会話に出てきません。
+
+---
+
+No.20:
+★Who is that woman?  Is she your teacher?
+☆No.  She’s my aunt.
+☆☆
+
+Question No.20:
+Who is the woman?
+
+1. The girl’s teacher.
+2. The girl’s mother.
+3. The girl’s aunt.
+4. The girl’s sister.
+
+【正解20】
+3. The girl’s aunt.
+
+【解説20】
+放送文
+★Who is that woman?  Is she your teacher?（あの女の人は誰？きみの先生？）
+☆No.  She’s my aunt.（ううん。私のおばだよ。）
+Question: Who is the woman?（女の人は誰ですか？）
+
+女の子が「私のおば」と言っているので、3「The girl’s aunt.（女の子のおば。）」が正解です。
+1「The girl’s teacher.（先生。）」は「違う」と言われた人、2「The girl’s mother.（母。）」・4「The girl’s sister.（姉妹。）」は会話に出てきません。
+
+---
+
+No.21:
+☆What’s your favorite subject, Tom?
+★I like science the best.
+☆☆
+
+Question No.21:
+What is Tom’s favorite subject?
+
+1. Math.
+2. Science.
+3. English.
+4. Music.
+
+【正解21】
+2. Science.
+
+【解説21】
+放送文
+☆What’s your favorite subject, Tom?（トム、好きな教科は何？）
+★I like science the best.（ぼくは理科が一番好きだよ。）
+Question: What is Tom’s favorite subject?（トムの好きな教科は何ですか？）
+
+トムが「理科が一番好き」と言っているので、2「Science.（理科。）」が正解です。
+1「Math.（数学。）」、3「English.（英語。）」、4「Music.（音楽。）」は会話に出てきません。
+
+---
+
+No.22:
+★It’s raining now.  Let’s stay home.
+☆OK.  Let’s watch a movie.
+☆☆
+
+Question No.22:
+What will they do?
+
+1. Go outside.
+2. Watch a movie.
+3. Play tennis.
+4. Go shopping.
+
+【正解22】
+2. Watch a movie.
+
+【解説22】
+放送文
+★It’s raining now.  Let’s stay home.（今雨が降っているよ。家にいよう。）
+☆OK.  Let’s watch a movie.（いいよ。映画を見よう。）
+Question: What will they do?（2人は何をしますか？）
+
+女の子が「映画を見よう」と言っているので、2「Watch a movie.（映画を見る。）」が正解です。
+1「Go outside.（外に出る。）」、3「Play tennis.（テニスをする。）」、4「Go shopping.（買い物に行く。）」は会話に合いません。
+
+---
+
+No.23:
+☆How do you go to school, Mike?
+★I go by bus.
+☆☆
+
+Question No.23:
+How does Mike go to school?
+
+1. By bike.
+2. By bus.
+3. By train.
+4. On foot.
+
+【正解23】
+2. By bus.
+
+【解説23】
+放送文
+☆How do you go to school, Mike?（マイク、どうやって学校に行くの？）
+★I go by bus.（ぼくはバスで行くよ。）
+Question: How does Mike go to school?（マイクはどうやって学校に行きますか？）
+
+マイクが「バスで行く」と言っているので、2「By bus.（バスで。）」が正解です。
+1「By bike.（自転車で。）」、3「By train.（電車で。）」、4「On foot.（徒歩で。）」は会話に出てきません。
+
+---
+
+No.24:
+★How much is this cap?
+☆It’s twelve dollars.
+☆☆
+
+Question No.24:
+How much is the cap?
+
+1. Two dollars.
+2. Ten dollars.
+3. Twelve dollars.
+4. Twenty dollars.
+
+【正解24】
+3. Twelve dollars.
+
+【解説24】
+放送文
+★How much is this cap?（この帽子はいくらですか？）
+☆It’s twelve dollars.（12ドルです。）
+Question: How much is the cap?（帽子はいくらですか？）
+
+店員が「12ドル」と言っているので、3「Twelve dollars.（12ドル。）」が正解です。
+1「Two dollars.（2ドル。）」、2「Ten dollars.（10ドル。）」、4「Twenty dollars.（20ドル。）」は会話に合いません。
+
+---
+
+No.25:
+☆Where is my umbrella, Dad?
+★It’s by the door.
+☆☆
+
+Question No.25:
+Where is the umbrella?
+
+1. By the door.
+2. In the car.
+3. On the bed.
+4. Under the table.
+
+【正解25】
+1. By the door.
+
+【解説25】
+放送文
+☆Where is my umbrella, Dad?（お父さん、私のかさはどこ？）
+★It’s by the door.（ドアのそばにあるよ。）
+Question: Where is the umbrella?（かさはどこにありますか？）
+
+お父さんが「ドアのそば」と言っているので、1「By the door.（ドアのそば。）」が正解です。
+2「In the car.（車の中。）」、3「On the bed.（ベッドの上。）」、4「Under the table.（テーブルの下。）」は会話に出てきません。
