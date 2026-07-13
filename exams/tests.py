@@ -338,16 +338,17 @@ class Level5ExamListTests(TestCase):
         self.assertNotIn('reading_comprehension', categories)
         self.assertIn('listening_illustration_part3', categories)
 
-    def test_listening_illustration_audio_uses_part3_for_no31_plus(self):
+    def test_listening_illustration_audio_uses_part3_for_no101_plus(self):
         from questions.level_paths import db_audio_path, listening_illustration_audio_part
 
-        self.assertEqual(listening_illustration_audio_part('5', 30), 'part1')
-        self.assertEqual(listening_illustration_audio_part('5', 31), 'part3')
+        # 第1部（会話応答）= No.1–100、第3部（イラスト一致）= No.101+
+        self.assertEqual(listening_illustration_audio_part('5', 100), 'part1')
+        self.assertEqual(listening_illustration_audio_part('5', 101), 'part3')
         self.assertEqual(
-            db_audio_path('5', 'part3', 'listening_illustration_question31.mp3'),
-            'audio/level5/part3/listening_illustration_question31.mp3',
+            db_audio_path('5', 'part3', 'listening_illustration_question101.mp3'),
+            'audio/level5/part3/listening_illustration_question101.mp3',
         )
-        self.assertEqual(listening_illustration_audio_part('4', 35), 'part1')
+        self.assertEqual(listening_illustration_audio_part('4', 105), 'part1')
 
     def test_clear_progress_only_clears_level5(self):
         q5 = Question.objects.create(
@@ -845,20 +846,20 @@ class ListeningIllustrationScoringTest(TestCase):
         """5級イラスト一致も question_list.html を使う（デグレ防止）"""
         part3_question = ListeningQuestion.objects.create(
             question_text='Which picture matches?',
-            image='images/level5/part1/listening_illustration_image31.png',
-            audio='audio/level5/part3/listening_illustration_question31.mp3',
+            image='images/level5/part1/listening_illustration_image101.png',
+            audio='audio/level5/part3/listening_illustration_question101.mp3',
             correct_answer='1',
             level='5',
         )
         ListeningChoice.objects.create(
             question=part3_question,
-            choice_text='images/level5/part1/listening_illustration_q31_choice1.png',
+            choice_text='The teacher is closing the door.',
             is_correct=True,
             order=1,
         )
         ListeningChoice.objects.create(
             question=part3_question,
-            choice_text='images/level5/part1/listening_illustration_q31_choice2.png',
+            choice_text='The teacher is making a door.',
             is_correct=False,
             order=2,
         )

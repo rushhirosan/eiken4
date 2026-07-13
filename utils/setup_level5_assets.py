@@ -14,7 +14,10 @@ _IMG_DIR = _REPO / 'static' / 'images' / 'level5' / 'part1'
 _AUDIO_PART1 = _REPO / 'static' / 'audio' / 'level5' / 'part1'
 _AUDIO_PART2 = _REPO / 'static' / 'audio' / 'level5' / 'part2'
 _AUDIO_PART3 = _REPO / 'static' / 'audio' / 'level5' / 'part3'
-_PART3_MIN = 31
+# 第1部（会話応答）= No.1–100、第3部（イラスト一致）= No.101+
+_PART1_MAX = 40
+_PART3_MIN = 101
+_PART3_MAX = 140
 
 
 def _draw_placeholder(draw: ImageDraw.ImageDraw, label: str) -> None:
@@ -22,9 +25,10 @@ def _draw_placeholder(draw: ImageDraw.ImageDraw, label: str) -> None:
     draw.text((20, 100), label, fill=(60, 60, 90))
 
 
-def create_placeholder_images(count: int = 60) -> None:
+def create_placeholder_images() -> None:
     _IMG_DIR.mkdir(parents=True, exist_ok=True)
-    for i in range(1, count + 1):
+    numbers = list(range(1, _PART1_MAX + 1)) + list(range(_PART3_MIN, _PART3_MAX + 1))
+    for i in numbers:
         path = _IMG_DIR / f'listening_illustration_image{i}.png'
         if path.exists():
             continue
@@ -35,9 +39,9 @@ def create_placeholder_images(count: int = 60) -> None:
 
 
 def create_part3_choice_images() -> None:
-    """Part3（No.31–60）の3肢イラスト用プレースホルダー。"""
+    """Part3（No.101+）の3肢イラスト用プレースホルダー。"""
     _IMG_DIR.mkdir(parents=True, exist_ok=True)
-    for q in range(_PART3_MIN, 61):
+    for q in range(_PART3_MIN, _PART3_MAX + 1):
         for c in range(1, 4):
             path = _IMG_DIR / f'listening_illustration_q{q}_choice{c}.png'
             if path.exists():
@@ -59,8 +63,8 @@ def create_placeholder_audio() -> None:
         return
 
     for out_dir, start, end, prefix in (
-        (_AUDIO_PART1, 1, 30, 'listening_illustration_question'),
-        (_AUDIO_PART3, 31, 60, 'listening_illustration_question'),
+        (_AUDIO_PART1, 1, _PART1_MAX, 'listening_illustration_question'),
+        (_AUDIO_PART3, _PART3_MIN, _PART3_MAX, 'listening_illustration_question'),
         (_AUDIO_PART2, 1, 15, 'listening_conversation_question'),
     ):
         out_dir.mkdir(parents=True, exist_ok=True)
@@ -84,12 +88,12 @@ def run_tts() -> None:
         py = sys.executable
         tts = str(_REPO / 'utils' / 'text_to_speech.py')
         subprocess.run(
-            [py, tts, '--level', '5', '--question-range', '1', '30'],
+            [py, tts, '--level', '5', '--question-range', '1', str(_PART1_MAX)],
             check=True,
         )
         subprocess.run(
             [py, tts, '--level', '5', '--output-dir', str(_AUDIO_PART3),
-             '--question-range', '31', '60'],
+             '--question-range', str(_PART3_MIN), str(_PART3_MAX)],
             check=True,
         )
         subprocess.run(

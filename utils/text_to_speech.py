@@ -16,7 +16,7 @@ if _REPO not in sys.path:
 
 from text_to_speech_conversation import generate_illustration_audio_from_file
 
-from utils.eiken_paths import questions_txt, static_audio_part
+from utils.eiken_paths import default_tts_rate, questions_txt, static_audio_part
 
 
 def generate_illustration_audio(input_file, output_dir, question_range=None, rate="+0%"):
@@ -58,12 +58,13 @@ def main():
     )
     parser.add_argument(
         '--rate',
-        default='+0%',
-        help='Edge TTS の話速（例: "-10%%" で少しゆっくり、既定は "+0%%"）',
+        default=None,
+        help='Edge TTS の話速（未指定時: 5級=-15%%, 他級=+0%%）',
     )
     args = parser.parse_args()
 
     lev = args.level
+    rate = args.rate or default_tts_rate(lev)
     input_file = args.input or questions_txt(lev, 'listening_illustration_questions.txt')
     output_dir = args.output_dir or static_audio_part(lev, 'part1')
     question_range = None
@@ -73,7 +74,7 @@ def main():
     if not os.path.exists(input_file):
         raise SystemExit(f'入力ファイルが見つかりません: {input_file}')
 
-    generate_illustration_audio(input_file, output_dir, question_range, rate=args.rate)
+    generate_illustration_audio(input_file, output_dir, question_range, rate=rate)
 
 
 if __name__ == '__main__':

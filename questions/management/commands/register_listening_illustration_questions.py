@@ -4,6 +4,7 @@ from django.core.management.base import BaseCommand
 from questions.models import ListeningQuestion, ListeningChoice
 
 from questions.level_paths import (
+    LISTENING_ILLUSTRATION_PART3_MIN,
     add_default_register_arguments,
     db_audio_path,
     db_image_path_part1,
@@ -139,8 +140,8 @@ class Command(BaseCommand):
             correct_order = int(correct_answer) if correct_answer.isdigit() else None
 
             for i, choice_text in enumerate(choices, 1):
-                # Part1（5級含む）: イラスト上の 1/2/3。Part3（5級 No.31+）: 英文選択肢をそのまま保存。
-                if level == '5' and number >= 31:
+                # Part1（5級含む）: イラスト上の 1/2/3。Part3（5級 No.101+）: 英文選択肢をそのまま保存。
+                if level == '5' and number >= LISTENING_ILLUSTRATION_PART3_MIN:
                     stored_text = choice_text
                 else:
                     stored_text = str(i)

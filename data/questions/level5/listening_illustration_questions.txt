@@ -188,18 +188,18 @@ Question No.10:
 
 ---
 
-No.31:
+No.101:
 (イラスト一致問題)
 
-Question No.31:
+Question No.101:
 1. The teacher is closing the door.
 2. The teacher is making a door.
 3. The teacher is cleaning the door.
 
-【正解31】
+【正解101】
 1. The teacher is closing the door.
 
-【解説31】
+【解説101】
 放送された3つの英文からイラストに合うものを選びます。
 1. The teacher is closing the door.（先生はドアを閉めている。）
 2. The teacher is making a door.（先生はドアを作っている。）
@@ -208,18 +208,18 @@ Question No.31:
 
 ---
 
-No.32:
+No.102:
 (イラスト一致問題)
 
-Question No.32:
+Question No.102:
 1. The flowers are by the basket.
 2. The flowers are in the basket.
 3. The flowers are on the basket.
 
-【正解32】
+【正解102】
 1. The flowers are by the basket.
 
-【解説32】
+【解説102】
 放送された3つの英文からイラストに合うものを選びます。
 1. The flowers are by the basket.（花はかごのそばにある。）
 2. The flowers are in the basket.（花はかごの中にある。）
@@ -228,18 +228,18 @@ Question No.32:
 
 ---
 
-No.33:
+No.103:
 (イラスト一致問題)
 
-Question No.33:
+Question No.103:
 1. Mike is buying a sandwich.
 2. Mike is eating a sandwich.
 3. Mike is making a sandwich.
 
-【正解33】
+【正解103】
 1. Mike is buying a sandwich.
 
-【解説33】
+【解説103】
 放送された3つの英文からイラストに合うものを選びます。
 1. Mike is buying a sandwich.（マイクはサンドイッチを買っている。）
 2. Mike is eating a sandwich.（マイクはサンドイッチを食べている。）
@@ -248,18 +248,18 @@ Question No.33:
 
 ---
 
-No.34:
+No.104:
 (イラスト一致問題)
 
-Question No.34:
+Question No.104:
 1. The cookie is 105 yen.
 2. The cookie is 150 yen.
 3. The cookie is 155 yen.
 
-【正解34】
+【正解104】
 2. The cookie is 150 yen.
 
-【解説34】
+【解説104】
 放送された3つの英文からイラストに合うものを選びます。
 1. The cookie is 105 yen.（クッキーは105円。）
 2. The cookie is 150 yen.（クッキーは150円。）
@@ -268,18 +268,18 @@ Question No.34:
 
 ---
 
-No.35:
+No.105:
 (イラスト一致問題)
 
-Question No.35:
+Question No.105:
 1. Helen is looking at a bird.
 2. Helen is looking at a phone.
 3. Helen is looking at a plane.
 
-【正解35】
+【正解105】
 3. Helen is looking at a plane.
 
-【解説35】
+【解説105】
 放送された3つの英文からイラストに合うものを選びます。
 1. Helen is looking at a bird.（ヘレンは鳥を見ている。）
 2. Helen is looking at a phone.（ヘレンは電話を見ている。）
@@ -288,18 +288,18 @@ Question No.35:
 
 ---
 
-No.36:
+No.106:
 (イラスト一致問題)
 
-Question No.36:
+Question No.106:
 1. It’s rainy.
 2. It’s snowy.
 3. It’s windy.
 
-【正解36】
+【正解106】
 3. It’s windy.
 
-【解説36】
+【解説106】
 放送された3つの英文からイラストに合うものを選びます。
 1. It’s rainy.（雨が降っている。）
 2. It’s snowy.（雪が降っている。）
@@ -308,18 +308,18 @@ Question No.36:
 
 ---
 
-No.37:
+No.107:
 (イラスト一致問題)
 
-Question No.37:
+Question No.107:
 1. A table is by the tree.
 2. A car is by the tree.
 3. An elephant is by the tree.
 
-【正解37】
+【正解107】
 3. An elephant is by the tree.
 
-【解説37】
+【解説107】
 放送された3つの英文からイラストに合うものを選びます。
 1. A table is by the tree.（木のそばにテーブルがある。）
 2. A car is by the tree.（木のそばに車がある。）
@@ -328,18 +328,18 @@ Question No.37:
 
 ---
 
-No.38:
+No.108:
 (イラスト一致問題)
 
-Question No.38:
+Question No.108:
 1. Karen likes her horse.
 2. Karen likes her hamster.
 3. Karen likes her sheep.
 
-【正解38】
+【正解108】
 2. Karen likes her hamster.
 
-【解説38】
+【解説108】
 放送された3つの英文からイラストに合うものを選びます。
 1. Karen likes her horse.（カレンは馬が好き。）
 2. Karen likes her hamster.（カレンはハムスターが好き。）
@@ -348,18 +348,18 @@ Question No.38:
 
 ---
 
-No.39:
+No.109:
 (イラスト一致問題)
 
-Question No.39:
+Question No.109:
 1. Naomi is painting her foot.
 2. Naomi is painting her face.
 3. Naomi is painting her hand.
 
-【正解39】
+【正解109】
 1. Naomi is painting her foot.
 
-【解説39】
+【解説109】
 放送された3つの英文からイラストに合うものを選びます。
 1. Naomi is painting her foot.（ナオミは足をぬっている。）
 2. Naomi is painting her face.（ナオミは顔をぬっている。）
@@ -368,18 +368,18 @@ Question No.39:
 
 ---
 
-No.40:
+No.110:
 (イラスト一致問題)
 
-Question No.40:
+Question No.110:
 1. Tom is using a towel.
 2. Tom is using a fork.
 3. Tom is using chopsticks.
 
-【正解40】
+【正解110】
 2. Tom is using a fork.
 
-【解説40】
+【解説110】
 放送された3つの英文からイラストに合うものを選びます。
 1. Tom is using a towel.（トムはタオルを使っている。）
 2. Tom is using a fork.（トムはフォークを使っている。）
@@ -578,18 +578,18 @@ Question No.20:
 
 ---
 
-No.41:
+No.111:
 (イラスト一致問題)
 
-Question No.41:
+Question No.111:
 1. The apples are in the box.
 2. The apples are under the box.
 3. The apples are on the box.
 
-【正解41】
+【正解111】
 1. The apples are in the box.
 
-【解説41】
+【解説111】
 放送された3つの英文からイラストに合うものを選びます。
 1. The apples are in the box.（リンゴは箱の中にある。）
 2. The apples are under the box.（リンゴは箱の下にある。）
@@ -598,18 +598,18 @@ Question No.41:
 
 ---
 
-No.42:
+No.112:
 (イラスト一致問題)
 
-Question No.42:
+Question No.112:
 1. Tony is in the library.
 2. Tony is in the gym.
 3. Tony is in the park.
 
-【正解42】
+【正解112】
 2. Tony is in the gym.
 
-【解説42】
+【解説112】
 放送された3つの英文からイラストに合うものを選びます。
 1. Tony is in the library.（トニーは図書館にいる。）
 2. Tony is in the gym.（トニーは体育館にいる。）
@@ -618,18 +618,18 @@ Question No.42:
 
 ---
 
-No.43:
+No.113:
 (イラスト一致問題)
 
-Question No.43:
+Question No.113:
 1. It’s snowing in Chicago.
 2. It’s windy in Chicago.
 3. It’s cloudy in Chicago.
 
-【正解43】
+【正解113】
 2. It’s windy in Chicago.
 
-【解説43】
+【解説113】
 放送された3つの英文からイラストに合うものを選びます。
 1. It’s snowing in Chicago.（シカゴでは雪が降っている。）
 2. It’s windy in Chicago.（シカゴでは風が強い。）
@@ -638,18 +638,18 @@ Question No.43:
 
 ---
 
-No.44:
+No.114:
 (イラスト一致問題)
 
-Question No.44:
+Question No.114:
 1. It’s September 3rd.
 2. It’s September 13th.
 3. It’s September 23rd.
 
-【正解44】
+【正解114】
 3. It’s September 23rd.
 
-【解説44】
+【解説114】
 放送された3つの英文からイラストに合うものを選びます。
 1. It’s September 3rd.（9月3日。）
 2. It’s September 13th.（9月13日。）
@@ -658,18 +658,18 @@ Question No.44:
 
 ---
 
-No.45:
+No.115:
 (イラスト一致問題)
 
-Question No.45:
+Question No.115:
 1. Bill is talking on the train.
 2. Bill is sitting on the train.
 3. Bill is standing on the train.
 
-【正解45】
+【正解115】
 3. Bill is standing on the train.
 
-【解説45】
+【解説115】
 放送された3つの英文からイラストに合うものを選びます。
 1. Bill is talking on the train.（ビルは電車で話している。）
 2. Bill is sitting on the train.（ビルは電車で座っている。）
@@ -678,18 +678,18 @@ Question No.45:
 
 ---
 
-No.46:
+No.116:
 (イラスト一致問題)
 
-Question No.46:
+Question No.116:
 1. Ron is riding a bike.
 2. Ron is cleaning a bike.
 3. Ron is painting a bike.
 
-【正解46】
+【正解116】
 1. Ron is riding a bike.
 
-【解説46】
+【解説116】
 放送された3つの英文からイラストに合うものを選びます。
 1. Ron is riding a bike.（ロンは自転車に乗っている。）
 2. Ron is cleaning a bike.（ロンは自転車をそうじしている。）
@@ -698,18 +698,18 @@ Question No.46:
 
 ---
 
-No.47:
+No.117:
 (イラスト一致問題)
 
-Question No.47:
+Question No.117:
 1. Harry has an apple in his hand.
 2. Harry has a hat in his hand.
 3. Harry has a magazine in his hand.
 
-【正解47】
+【正解117】
 3. Harry has a magazine in his hand.
 
-【解説47】
+【解説117】
 放送された3つの英文からイラストに合うものを選びます。
 1. Harry has an apple in his hand.（ハリーは手にリンゴを持っている。）
 2. Harry has a hat in his hand.（ハリーは手に帽子を持っている。）
@@ -718,18 +718,18 @@ Question No.47:
 
 ---
 
-No.48:
+No.118:
 (イラスト一致問題)
 
-Question No.48:
+Question No.118:
 1. Nanako is singing a song.
 2. Nanako is doing her homework.
 3. Nanako is playing a guitar.
 
-【正解48】
+【正解118】
 2. Nanako is doing her homework.
 
-【解説48】
+【解説118】
 放送された3つの英文からイラストに合うものを選びます。
 1. Nanako is singing a song.（ナナコは歌を歌っている。）
 2. Nanako is doing her homework.（ナナコは宿題をしている。）
@@ -738,18 +738,18 @@ Question No.48:
 
 ---
 
-No.49:
+No.119:
 (イラスト一致問題)
 
-Question No.49:
+Question No.119:
 1. Alice is using the computer.
 2. Alice is using the telephone.
 3. Alice is using the scissors.
 
-【正解49】
+【正解119】
 3. Alice is using the scissors.
 
-【解説49】
+【解説119】
 放送された3つの英文からイラストに合うものを選びます。
 1. Alice is using the computer.（アリスはコンピューターを使っている。）
 2. Alice is using the telephone.（アリスは電話を使っている。）
@@ -758,18 +758,18 @@ Question No.49:
 
 ---
 
-No.50:
+No.120:
 (イラスト一致問題)
 
-Question No.50:
+Question No.120:
 1. The bus comes at 9:05 a.m.
 2. The bus comes at 9:20 a.m.
 3. The bus comes at 9:25 a.m.
 
-【正解50】
+【正解120】
 3. The bus comes at 9:25 a.m.
 
-【解説50】
+【解説120】
 放送された3つの英文からイラストに合うものを選びます。
 1. The bus comes at 9:05 a.m.（バスは午前9時5分に来る。）
 2. The bus comes at 9:20 a.m.（バスは午前9時20分に来る。）
@@ -968,18 +968,18 @@ Question No.30:
 
 ---
 
-No.51:
+No.121:
 (イラスト一致問題)
 
-Question No.51:
+Question No.121:
 1. Louise doesn’t like sunny days.
 2. Louise doesn’t like cloudy days.
 3. Louise doesn’t like rainy days.
 
-【正解51】
+【正解121】
 3. Louise doesn’t like rainy days.
 
-【解説51】
+【解説121】
 放送された3つの英文からイラストに合うものを選びます。
 1. Louise doesn’t like sunny days.（ルイーズは晴れの日が好きではない。）
 2. Louise doesn’t like cloudy days.（ルイーズはくもりの日が好きではない。）
@@ -988,18 +988,18 @@ Question No.51:
 
 ---
 
-No.52:
+No.122:
 (イラスト一致問題)
 
-Question No.52:
+Question No.122:
 1. Eric is buying a phone.
 2. Eric is looking at a phone.
 3. Eric is cleaning a phone.
 
-【正解52】
+【正解122】
 2. Eric is looking at a phone.
 
-【解説52】
+【解説122】
 放送された3つの英文からイラストに合うものを選びます。
 1. Eric is buying a phone.（エリックは電話を買っている。）
 2. Eric is looking at a phone.（エリックは電話を見ている。）
@@ -1008,18 +1008,18 @@ Question No.52:
 
 ---
 
-No.53:
+No.123:
 (イラスト一致問題)
 
-Question No.53:
+Question No.123:
 1. The bird is on Miho’s head.
 2. The bird is on Miho’s leg.
 3. The bird is on Miho’s arm.
 
-【正解53】
+【正解123】
 3. The bird is on Miho’s arm.
 
-【解説53】
+【解説123】
 放送された3つの英文からイラストに合うものを選びます。
 1. The bird is on Miho’s head.（鳥はミホの頭にとまっている。）
 2. The bird is on Miho’s leg.（鳥はミホの足にとまっている。）
@@ -1028,18 +1028,18 @@ Question No.53:
 
 ---
 
-No.54:
+No.124:
 (イラスト一致問題)
 
-Question No.54:
+Question No.124:
 1. Kathy goes to work at 6:05.
 2. Kathy goes to work at 6:15.
 3. Kathy goes to work at 6:50.
 
-【正解54】
+【正解124】
 3. Kathy goes to work at 6:50.
 
-【解説54】
+【解説124】
 放送された3つの英文からイラストに合うものを選びます。
 1. Kathy goes to work at 6:05.（キャシーは6時5分に仕事へ行く。）
 2. Kathy goes to work at 6:15.（キャシーは6時15分に仕事へ行く。）
@@ -1048,18 +1048,18 @@ Question No.54:
 
 ---
 
-No.55:
+No.125:
 (イラスト一致問題)
 
-Question No.55:
+Question No.125:
 1. It’s September 21st.
 2. It’s October 21st.
 3. It’s November 21st.
 
-【正解55】
+【正解125】
 2. It’s October 21st.
 
-【解説55】
+【解説125】
 放送された3つの英文からイラストに合うものを選びます。
 1. It’s September 21st.（9月21日。）
 2. It’s October 21st.（10月21日。）
@@ -1068,18 +1068,18 @@ Question No.55:
 
 ---
 
-No.56:
+No.126:
 (イラスト一致問題)
 
-Question No.56:
+Question No.126:
 1. Emi works at a zoo.
 2. Emi works at a hospital.
 3. Emi works at a restaurant.
 
-【正解56】
+【正解126】
 3. Emi works at a restaurant.
 
-【解説56】
+【解説126】
 放送された3つの英文からイラストに合うものを選びます。
 1. Emi works at a zoo.（エミは動物園で働いている。）
 2. Emi works at a hospital.（エミは病院で働いている。）
@@ -1088,18 +1088,18 @@ Question No.56:
 
 ---
 
-No.57:
+No.127:
 (イラスト一致問題)
 
-Question No.57:
+Question No.127:
 1. Tom has a frying pan.
 2. Tom has a knife.
 3. Tom has a plate.
 
-【正解57】
+【正解127】
 1. Tom has a frying pan.
 
-【解説57】
+【解説127】
 放送された3つの英文からイラストに合うものを選びます。
 1. Tom has a frying pan.（トムはフライパンを持っている。）
 2. Tom has a knife.（トムはナイフを持っている。）
@@ -1108,18 +1108,18 @@ Question No.57:
 
 ---
 
-No.58:
+No.128:
 (イラスト一致問題)
 
-Question No.58:
+Question No.128:
 1. Terry loves chocolates.
 2. Terry loves animals.
 3. Terry loves books.
 
-【正解58】
+【正解128】
 2. Terry loves animals.
 
-【解説58】
+【解説128】
 放送された3つの英文からイラストに合うものを選びます。
 1. Terry loves chocolates.（テリーはチョコレートが大好き。）
 2. Terry loves animals.（テリーは動物が大好き。）
@@ -1128,18 +1128,18 @@ Question No.58:
 
 ---
 
-No.59:
+No.129:
 (イラスト一致問題)
 
-Question No.59:
+Question No.129:
 1. Mike is a piano teacher.
 2. Mike is an English teacher.
 3. Mike is a science teacher.
 
-【正解59】
+【正解129】
 1. Mike is a piano teacher.
 
-【解説59】
+【解説129】
 放送された3つの英文からイラストに合うものを選びます。
 1. Mike is a piano teacher.（マイクはピアノの先生。）
 2. Mike is an English teacher.（マイクは英語の先生。）
@@ -1148,20 +1148,410 @@ Question No.59:
 
 ---
 
-No.60:
+No.130:
 (イラスト一致問題)
 
-Question No.60:
+Question No.130:
 1. Kenta is studying in a coffee shop.
 2. Kenta is studying in his room.
 3. Kenta is studying in a library.
 
-【正解60】
+【正解130】
 3. Kenta is studying in a library.
 
-【解説60】
+【解説130】
 放送された3つの英文からイラストに合うものを選びます。
 1. Kenta is studying in a coffee shop.（ケンタは喫茶店で勉強している。）
 2. Kenta is studying in his room.（ケンタは自分の部屋で勉強している。）
 3. Kenta is studying in a library.（ケンタは図書館で勉強している。）
 勉強している場所（coffee shop / room / library）の違いがポイントです。イラストに合うのは3です。
+
+---
+
+No.131:
+(イラスト一致問題)
+
+Question No.131:
+1. Ken is eating a banana.
+2. Ken is drinking milk.
+3. Ken is washing a cup.
+
+【正解131】
+2. Ken is drinking milk.
+
+【解説131】
+放送された3つの英文からイラストに合うものを選びます。
+1. Ken is eating a banana.（ケンはバナナを食べている。）
+2. Ken is drinking milk.（ケンは牛乳を飲んでいる。）
+3. Ken is washing a cup.（ケンはコップを洗っている。）
+動作（eating / drinking / washing）の違いがポイントです。イラストに合うのは2です。
+
+---
+
+No.132:
+(イラスト一致問題)
+
+Question No.132:
+1. The cat is under the chair.
+2. The cat is on the chair.
+3. The cat is behind the chair.
+
+【正解132】
+1. The cat is under the chair.
+
+【解説132】
+放送された3つの英文からイラストに合うものを選びます。
+1. The cat is under the chair.（ネコはいすの下にいる。）
+2. The cat is on the chair.（ネコはいすの上にいる。）
+3. The cat is behind the chair.（ネコはいすの後ろにいる。）
+位置の前置詞 under（下）/ on（上）/ behind（後ろ）の違いがポイントです。イラストに合うのは1です。
+
+---
+
+No.133:
+(イラスト一致問題)
+
+Question No.133:
+1. Yuki is opening a book.
+2. Yuki is opening a box.
+3. Yuki is opening a window.
+
+【正解133】
+3. Yuki is opening a window.
+
+【解説133】
+放送された3つの英文からイラストに合うものを選びます。
+1. Yuki is opening a book.（ユキは本を開いている。）
+2. Yuki is opening a box.（ユキは箱を開けている。）
+3. Yuki is opening a window.（ユキは窓を開けている。）
+開けているもの（book / box / window）の違いがポイントです。イラストに合うのは3です。
+
+---
+
+No.134:
+(イラスト一致問題)
+
+Question No.134:
+1. The cap is 8 dollars.
+2. The cap is 18 dollars.
+3. The cap is 80 dollars.
+
+【正解134】
+2. The cap is 18 dollars.
+
+【解説134】
+放送された3つの英文からイラストに合うものを選びます。
+1. The cap is 8 dollars.（ぼうしは8ドル。）
+2. The cap is 18 dollars.（ぼうしは18ドル。）
+3. The cap is 80 dollars.（ぼうしは80ドル。）
+似た数字（8 / 18 / 80）の聞き取りがポイントです。イラストの値段に合うのは2です。
+
+---
+
+No.135:
+(イラスト一致問題)
+
+Question No.135:
+1. Emma is playing soccer.
+2. Emma is playing tennis.
+3. Emma is playing basketball.
+
+【正解135】
+1. Emma is playing soccer.
+
+【解説135】
+放送された3つの英文からイラストに合うものを選びます。
+1. Emma is playing soccer.（エマはサッカーをしている。）
+2. Emma is playing tennis.（エマはテニスをしている。）
+3. Emma is playing basketball.（エマはバスケットボールをしている。）
+スポーツ（soccer / tennis / basketball）の違いがポイントです。イラストに合うのは1です。
+
+---
+
+No.136:
+(イラスト一致問題)
+
+Question No.136:
+1. There are two dogs.
+2. There are three dogs.
+3. There are four dogs.
+
+【正解136】
+3. There are four dogs.
+
+【解説136】
+放送された3つの英文からイラストに合うものを選びます。
+1. There are two dogs.（イヌが2ひきいる。）
+2. There are three dogs.（イヌが3びきいる。）
+3. There are four dogs.（イヌが4ひきいる。）
+数（two / three / four）の聞き取りがポイントです。イラストに合うのは3です。
+
+---
+
+No.137:
+(イラスト一致問題)
+
+Question No.137:
+1. It's 7:30.
+2. It's 7:13.
+3. It's 3:30.
+
+【正解137】
+1. It's 7:30.
+
+【解説137】
+放送された3つの英文からイラストに合うものを選びます。
+1. It's 7:30.（7時30分。）
+2. It's 7:13.（7時13分。）
+3. It's 3:30.（3時30分。）
+時刻（7:30 / 7:13 / 3:30）の聞き取りがポイントです。イラスト（時計）に合うのは1です。
+
+---
+
+No.138:
+(イラスト一致問題)
+
+Question No.138:
+1. Ben has a hamburger.
+2. Ben has a hot dog.
+3. Ben has a pizza.
+
+【正解138】
+2. Ben has a hot dog.
+
+【解説138】
+放送された3つの英文からイラストに合うものを選びます。
+1. Ben has a hamburger.（ベンはハンバーガーを持っている。）
+2. Ben has a hot dog.（ベンはホットドッグを持っている。）
+3. Ben has a pizza.（ベンはピザを持っている。）
+持っている食べ物（hamburger / hot dog / pizza）の違いがポイントです。イラストに合うのは2です。
+
+---
+
+No.139:
+(イラスト一致問題)
+
+Question No.139:
+1. Mr. Green is a cook.
+2. Mr. Green is a doctor.
+3. Mr. Green is a bus driver.
+
+【正解139】
+3. Mr. Green is a bus driver.
+
+【解説139】
+放送された3つの英文からイラストに合うものを選びます。
+1. Mr. Green is a cook.（グリーンさんは料理人。）
+2. Mr. Green is a doctor.（グリーンさんは医者。）
+3. Mr. Green is a bus driver.（グリーンさんはバスの運転手。）
+職業（cook / doctor / bus driver）の違いがポイントです。イラストに合うのは3です。
+
+---
+
+No.140:
+(イラスト一致問題)
+
+Question No.140:
+1. Sam is wearing a hat.
+2. Sam is wearing glasses.
+3. Sam is wearing a scarf.
+
+【正解140】
+2. Sam is wearing glasses.
+
+【解説140】
+放送された3つの英文からイラストに合うものを選びます。
+1. Sam is wearing a hat.（サムはぼうしをかぶっている。）
+2. Sam is wearing glasses.（サムはめがねをかけている。）
+3. Sam is wearing a scarf.（サムはマフラーをしている。）
+身につけているもの（hat / glasses / scarf）の違いがポイントです。イラストに合うのは2です。
+
+---
+
+No.31:
+★Whose notebook is this?
+
+Question No.31:
+1. It’s Emma’s.
+2. It’s on the desk.
+3. I have three.
+
+【正解31】
+1. It’s Emma’s.
+
+【解説31】
+放送文：Whose notebook is this?（これはだれのノート？）
+
+「だれの」と持ち主をたずねているので、1「It’s Emma’s.（エマのだよ。）」が正解です。
+2「It’s on the desk.（机の上だよ。）」は場所、3「I have three.（3冊持っているよ。）」は数で、質問に合いません。
+
+---
+
+No.32:
+☆What color is your bike?
+
+Question No.32:
+1. It’s new.
+2. It’s red.
+3. It’s mine.
+
+【正解32】
+2. It’s red.
+
+【解説32】
+放送文：What color is your bike?（あなたの自転車は何色？）
+
+「何色」をたずねているので、2「It’s red.（赤だよ。）」が正解です。
+1「It’s new.（新しいよ。）」は状態、3「It’s mine.（私のだよ。）」は持ち主で、色を答えていません。
+
+---
+
+No.33:
+★Where are my glasses?
+
+Question No.33:
+1. They’re nice.
+2. At three.
+3. On the table.
+
+【正解33】
+3. On the table.
+
+【解説33】
+放送文：Where are my glasses?（私のめがねはどこ？）
+
+「どこ」と場所をたずねているので、3「On the table.（テーブルの上だよ。）」が正解です。
+1「They’re nice.（すてきだね。）」は感想、2「At three.（3時に。）」は時刻で、場所を答えていません。
+
+---
+
+No.34:
+☆Let’s play soccer after lunch.
+
+Question No.34:
+1. It’s a ball.
+2. Sounds good!
+3. You’re welcome.
+
+【正解34】
+2. Sounds good!
+
+【解説34】
+放送文：Let’s play soccer after lunch.（昼食後にサッカーをしよう。）
+
+さそいの表現なので、2「Sounds good!（いいね！）」が自然な応答です。
+1「It’s a ball.（ボールだよ。）」や3「You’re welcome.（どういたしまして。）」はさそいへの返事になっていません。
+
+---
+
+No.35:
+★What subject do you like?
+
+Question No.35:
+1. In the classroom.
+2. I like music.
+3. With my friends.
+
+【正解35】
+2. I like music.
+
+【解説35】
+放送文：What subject do you like?（どの教科が好き？）
+
+教科をたずねているので、2「I like music.（音楽が好きだよ。）」が正解です。
+1「In the classroom.（教室で。）」は場所、3「With my friends.（友達と。）」は相手で、教科を答えていません。
+
+---
+
+No.36:
+☆How’s the weather in Osaka?
+
+Question No.36:
+1. It’s Monday.
+2. It’s mine.
+3. It’s cloudy.
+
+【正解36】
+3. It’s cloudy.
+
+【解説36】
+放送文：How’s the weather in Osaka?（大阪の天気はどう？）
+
+天気をたずねているので、3「It’s cloudy.（くもりだよ。）」が正解です。
+1「It’s Monday.（月曜日だよ。）」は曜日、2「It’s mine.（私のだよ。）」は持ち主で、天気を答えていません。
+
+---
+
+No.37:
+★What do you want for your birthday?
+
+Question No.37:
+1. Next Sunday.
+2. Ten years old.
+3. A new watch.
+
+【正解37】
+3. A new watch.
+
+【解説37】
+放送文：What do you want for your birthday?（誕生日に何がほしい？）
+
+ほしいものをたずねているので、3「A new watch.（新しい腕時計。）」が正解です。
+1「Next Sunday.（次の日曜日。）」は時、2「Ten years old.（10歳。）」は年齢で、ものを答えていません。
+
+---
+
+No.38:
+☆Can you close the window?
+
+Question No.38:
+1. Sure.
+2. It’s a door.
+3. Me, too.
+
+【正解38】
+1. Sure.
+
+【解説38】
+放送文：Can you close the window?（窓を閉めてくれる？）
+
+依頼の表現なので、1「Sure.（いいよ。）」が自然な応答です。
+2「It’s a door.（ドアだよ。）」や3「Me, too.（私も。）」は依頼への返事になっていません。
+
+---
+
+No.39:
+★Whose umbrella is this?
+
+Question No.39:
+1. It’s rainy.
+2. It’s Tom’s.
+3. In the box.
+
+【正解39】
+2. It’s Tom’s.
+
+【解説39】
+放送文：Whose umbrella is this?（これはだれのかさ？）
+
+持ち主をたずねているので、2「It’s Tom’s.（トムのだよ。）」が正解です。
+1「It’s rainy.（雨だよ。）」は天気、3「In the box.（箱の中に。）」は場所で、質問に合いません。
+
+---
+
+No.40:
+☆What time do you go to bed?
+
+Question No.40:
+1. For an hour.
+2. Good night.
+3. At nine.
+
+【正解40】
+3. At nine.
+
+【解説40】
+放送文：What time do you go to bed?（何時に寝るの？）
+
+「何時」と時刻をたずねているので、3「At nine.（9時に。）」が正解です。
+1「For an hour.（1時間。）」は期間、2「Good night.（おやすみ。）」はあいさつで、時刻を答えていません。

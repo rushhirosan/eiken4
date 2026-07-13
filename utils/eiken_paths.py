@@ -10,7 +10,7 @@ def questions_txt(level: str, basename: str) -> str:
     return os.path.join(_ROOT, 'data', 'questions', f'level{level}', basename)
 
 
-LISTENING_ILLUSTRATION_PART3_MIN = 31
+LISTENING_ILLUSTRATION_PART3_MIN = 101
 
 
 def listening_illustration_audio_part(level: str, question_number: int) -> str:
@@ -29,3 +29,8 @@ def static_images_part1(level: str) -> str:
     if level == '4':
         return os.path.join(_ROOT, 'static', 'images', 'part1')
     return os.path.join(_ROOT, 'static', 'images', f'level{level}', 'part1')
+
+
+def default_tts_rate(level: str) -> str:
+    """Edge TTS 話速の級別既定。5級は初学者向けに少しゆっくり。"""
+    return '-15%' if level == '5' else '+0%'

@@ -1,8 +1,8 @@
 """リスニングイラスト問題の級別・部別フィルタ（5級 Part1/Part3 分割）。"""
 import re
 
-LISTENING_ILLUSTRATION_PART1_MAX = 30
-LISTENING_ILLUSTRATION_PART3_MIN = 31
+LISTENING_ILLUSTRATION_PART1_MAX = 100
+LISTENING_ILLUSTRATION_PART3_MIN = 101
 
 
 def listening_illustration_number(question):
