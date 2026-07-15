@@ -22,7 +22,7 @@ from django.conf.urls.static import static
 from django.http import HttpResponse
 
 from exams.views import sitemap_xml
-from eiken_project.views import about, landing, llms_txt, robots_txt
+from eiken_project.views import about, guides, landing, llms_txt, robots_txt
 
 def healthz(request):
     return HttpResponse("ok", status=200)
@@ -47,6 +47,7 @@ urlpatterns = [
     # Sitemap（exams.urls を二重 include しない — URL namespace 重複警告を防ぐ）
     path('sitemap.xml', sitemap_xml, name='sitemap_xml'),
     path('about/', about, name='about'),
+    path('guides/', guides, name='guides'),
     # Privacy Policy
     path('privacy-policy/', TemplateView.as_view(template_name='privacy_policy.html'), name='privacy_policy'),
 ]

@@ -2518,6 +2518,12 @@ def sitemap_xml(request):
             'priority': '0.8',
         },
         {
+            'loc': f"{base_url}/guides/",
+            'lastmod': today,
+            'changefreq': 'monthly',
+            'priority': '0.8',
+        },
+        {
             'loc': f"{base_url}/privacy-policy/",
             'lastmod': today,
             'changefreq': 'monthly',

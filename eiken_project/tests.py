@@ -15,6 +15,7 @@ class LandingPageTest(TestCase):
         self.assertEqual(response.status_code, 200)
         self.assertContains(response, '英検合格へ')
         self.assertContains(response, '無料アカウント作成')
+        self.assertContains(response, reverse('guides'))
 
     def test_authenticated_user_redirects_to_exam_list(self):
         self.client.login(username='landing_user', password='testpass123')
@@ -30,6 +31,7 @@ class RobotsTxtTest(TestCase):
         self.assertContains(response, 'Disallow: /accounts/')
         self.assertContains(response, 'Disallow: /exams/')
         self.assertContains(response, 'Allow: /about/')
+        self.assertContains(response, 'Allow: /guides/')
         self.assertContains(response, 'Allow: /llms.txt')
         self.assertContains(response, 'Sitemap: https://eiken-app.fly.dev/sitemap.xml')
 
@@ -41,6 +43,7 @@ class LlmsTxtTest(TestCase):
         self.assertContains(response, 'Eiken Practice')
         self.assertContains(response, '英検5級・4級・3級')
         self.assertContains(response, 'https://eiken-app.fly.dev/about/')
+        self.assertContains(response, 'https://eiken-app.fly.dev/guides/')
 
 
 class AboutPageTest(TestCase):
@@ -50,6 +53,21 @@ class AboutPageTest(TestCase):
         self.assertContains(response, 'サービス概要')
         self.assertContains(response, 'よくある質問')
         self.assertContains(response, 'FAQPage')
+        self.assertContains(response, reverse('guides'))
+
+
+class GuidesPageTest(TestCase):
+    def test_guides_page_is_public(self):
+        response = Client().get(reverse('guides'))
+        self.assertEqual(response.status_code, 200)
+        self.assertContains(response, '学習の進め方')
+        self.assertContains(response, '英検5級の進め方')
+        self.assertContains(response, '英検4級の進め方')
+        self.assertContains(response, '英検3級の進め方')
+        self.assertContains(response, 'フィードバックの送り方')
+        self.assertContains(response, 'FAQPage')
+        self.assertContains(response, 'index, follow')
+        self.assertContains(response, 'https://eiken-app.fly.dev/guides/')
 
 
 class SitemapXmlTest(TestCase):
@@ -58,6 +76,7 @@ class SitemapXmlTest(TestCase):
         self.assertEqual(response.status_code, 200)
         self.assertContains(response, 'https://eiken-app.fly.dev/')
         self.assertContains(response, 'https://eiken-app.fly.dev/about/')
+        self.assertContains(response, 'https://eiken-app.fly.dev/guides/')
         self.assertContains(response, 'https://eiken-app.fly.dev/privacy-policy/')
         self.assertNotContains(response, '/exams/')
         self.assertNotContains(response, '/accounts/')

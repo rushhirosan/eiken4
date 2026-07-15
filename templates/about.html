@@ -103,6 +103,8 @@
         }
         .content-card h2:first-child { margin-top: 0; }
         .content-card p, .content-card li { color: var(--muted); line-height: 1.7; }
+        .content-card a { color: #c5c8f0; }
+        .content-card a:hover { color: white; }
         .faq-item {
             border-top: 1px solid var(--border);
             padding-top: 1.25rem;
@@ -144,6 +146,11 @@
                         <li><strong>英検4級</strong> — 文法・語彙、語順選択、会話補充、長文読解、リスニング、模擬試験</li>
                         <li><strong>英検3級</strong> — 文法・語彙、ライティング、長文読解、リスニング、模擬試験</li>
                     </ul>
+                    <p>
+                        級ごとのおすすめ学習順は
+                        <a href="{% url 'guides' %}">学習の進め方</a>
+                        を参照してください。
+                    </p>
 
                     <h2>主な機能</h2>
                     <ul>
@@ -179,6 +186,7 @@
 
                     <div class="text-center mt-4 pt-2">
                         <a href="{% url 'signup' %}" class="btn btn-primary me-2">無料で始める</a>
+                        <a href="{% url 'guides' %}" class="btn btn-outline-light me-2">学習の進め方</a>
                         <a href="/" class="btn btn-outline-light">トップへ戻る</a>
                     </div>
                 </div>
@@ -191,6 +199,7 @@
             <p class="mb-0 small"><i class="fas fa-graduation-cap me-2"></i>Eiken Practice</p>
             <div class="d-flex gap-3 small">
                 <a href="/about/">サービス概要</a>
+                <a href="{% url 'guides' %}">学習の進め方</a>
                 <a href="/privacy-policy/">プライバシーポリシー</a>
             </div>
         </div>

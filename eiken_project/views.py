@@ -27,3 +27,8 @@ def llms_txt(request):
 def about(request):
     """公開のサービス概要・FAQページ"""
     return render(request, 'about.html')
+
+
+def guides(request):
+    """公開の級別学習ガイド（5級・4級・3級）"""
+    return render(request, 'guides.html')

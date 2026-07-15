@@ -494,6 +494,9 @@
             <div class="text-center mb-5">
                 <h2 class="section-title">対応している英検級</h2>
                 <p class="section-sub mt-2">級ごとに最適化された問題セットで効率的に対策できます。</p>
+                <p class="mt-3 mb-0">
+                    <a href="{% url 'guides' %}" class="btn btn-ghost btn-sm">級別の学習の進め方を見る</a>
+                </p>
             </div>
             <div class="row g-4 justify-content-center">
                 <div class="col-md-6 col-lg-4">
@@ -509,6 +512,7 @@
                             <span class="tag">リスニング</span>
                             <span class="tag">模擬試験</span>
                         </div>
+                        <a href="{% url 'guides' %}#level-5" class="small mt-3 d-inline-block text-decoration-none" style="color:#c5c8f0;">5級の進め方 →</a>
                     </div>
                 </div>
                 <div class="col-md-6 col-lg-4">
@@ -525,6 +529,7 @@
                             <span class="tag">リスニング</span>
                             <span class="tag">模擬試験</span>
                         </div>
+                        <a href="{% url 'guides' %}#level-4" class="small mt-3 d-inline-block text-decoration-none" style="color:#c5c8f0;">4級の進め方 →</a>
                     </div>
                 </div>
                 <div class="col-md-6 col-lg-4">
@@ -541,6 +546,7 @@
                             <span class="tag">リスニング</span>
                             <span class="tag">模擬試験</span>
                         </div>
+                        <a href="{% url 'guides' %}#level-3" class="small mt-3 d-inline-block text-decoration-none" style="color:#c5c8f0;">3級の進め方 →</a>
                     </div>
                 </div>
             </div>
@@ -572,6 +578,7 @@
             </p>
             <div class="d-flex gap-3 small">
                 <a href="/about/">サービス概要</a>
+                <a href="{% url 'guides' %}">学習の進め方</a>
                 <a href="/privacy-policy/">プライバシーポリシー</a>
                 <a href="{% url 'login' %}">ログイン</a>
                 <a href="{% url 'signup' %}">新規登録</a>
