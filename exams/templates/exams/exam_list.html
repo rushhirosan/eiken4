@@ -8,14 +8,14 @@
     <div class="row justify-content-center">
         <div class="col-lg-10">
             <div class="text-center mb-2 exam-list-hero">
-                <h1 class="fw-bold text-white mb-0 exam-list-title">
+                <h1 class="fw-bold mb-0 exam-list-title">
                     <i class="fas fa-graduation-cap me-2"></i>
                     英検試験対策
                 </h1>
             </div>
 
             <div class="text-center mb-1 px-2 exam-level-focus">
-                <p class="text-white-50 small mb-1">現在の試験級</p>
+                <p class="text-muted small mb-1">現在の試験級</p>
                 <p class="exam-level-focus-title mb-0">{{ active_section.level_name }}</p>
             </div>
 
@@ -302,11 +302,20 @@ function updateDailyMissionGoal(value) {
 
 <style>
 .exam-level-focus-title {
-    color: #fff;
+    color: var(--brand-text, #1a1f36);
     font-size: clamp(1.35rem, 3.5vw, 1.75rem);
     font-weight: 700;
     letter-spacing: 0.02em;
-    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.25);
+}
+
+.exam-list-title {
+    color: var(--brand-text, #1a1f36);
+}
+
+.exam-level-switch-label {
+    color: var(--brand-muted, #5c6578);
+    font-size: 0.85rem;
+    margin: 0;
 }
 
 .exam-level-switch-form {
@@ -316,19 +325,13 @@ function updateDailyMissionGoal(value) {
     gap: 0.5rem;
 }
 
-.exam-level-switch-label {
-    color: rgba(255, 255, 255, 0.85);
-    font-size: 0.85rem;
-    margin: 0;
-}
-
 .exam-level-select-wrap {
     min-width: 9rem;
 }
 
 .exam-level-select {
-    background-color: rgba(255, 255, 255, 0.95);
-    border: none;
+    background-color: #fff;
+    border: 1px solid var(--brand-border, rgba(26, 31, 54, 0.12));
     border-radius: 999px;
     font-size: 0.9rem;
     line-height: 1.2;
@@ -336,7 +339,7 @@ function updateDailyMissionGoal(value) {
 }
 
 .exam-level-select:focus {
-    box-shadow: 0 0 0 0.2rem rgba(255, 255, 255, 0.3);
+    box-shadow: 0 0 0 0.2rem rgba(var(--brand-primary-rgb, 124, 108, 255), 0.22);
 }
 
 @media (max-width: 576px) {
@@ -386,7 +389,7 @@ body main.container {
 }
 
 .exam-format-panel-header {
-    background: linear-gradient(165deg, #2a4a9e 0%, #355fc9 42%, #2e4fae 100%);
+    background: linear-gradient(165deg, var(--brand-primary-deep, #6355e0) 0%, var(--brand-primary, #7c6cff) 42%, var(--brand-primary-soft, #5b8cff) 100%);
     border-radius: 1rem 1rem 0 0;
 }
 
@@ -427,7 +430,7 @@ body main.container {
 
 .adventure-progress-card {
     background: linear-gradient(180deg, #f8f9ff 0%, #ffffff 100%);
-    border: 1px solid rgba(53, 95, 201, 0.12);
+    border: 1px solid rgba(var(--brand-primary-rgb, 124, 108, 255), 0.14);
 }
 
 .adventure-progress-bar {
@@ -438,7 +441,7 @@ body main.container {
 
 .daily-missions-card {
     background: linear-gradient(180deg, #fffef8 0%, #ffffff 100%);
-    border: 1px solid rgba(53, 95, 201, 0.14);
+    border: 1px solid rgba(var(--brand-primary-rgb, 124, 108, 255), 0.16);
     border-radius: 0.75rem;
 }
 
@@ -470,7 +473,7 @@ body main.container {
 }
 
 .daily-mission-link:hover {
-    color: #2a4a9e;
+    color: var(--brand-primary, #7c6cff);
 }
 
 .daily-mission-link:hover .daily-mission-label {
@@ -488,7 +491,7 @@ body main.container {
     justify-content: center;
     flex-wrap: wrap;
     gap: 0.75rem;
-    color: rgba(255, 255, 255, 0.92);
+    color: var(--brand-muted, #5c6578);
     line-height: 1.4;
 }
 
@@ -500,7 +503,7 @@ body main.container {
 
 .exam-habit-streak-btn,
 .exam-habit-badge-btn {
-    color: rgba(255, 255, 255, 0.92) !important;
+    color: var(--brand-text, #1a1f36) !important;
     text-decoration: none !important;
     font-weight: 600;
     line-height: 1.4;
@@ -508,7 +511,7 @@ body main.container {
 }
 
 .exam-habit-streak-btn-muted {
-    color: rgba(255, 255, 255, 0.65) !important;
+    color: var(--brand-muted, #5c6578) !important;
     font-weight: 500;
 }
 
@@ -516,7 +519,7 @@ body main.container {
 .exam-habit-streak-btn:focus,
 .exam-habit-badge-btn:hover,
 .exam-habit-badge-btn:focus {
-    color: #fff !important;
+    color: var(--brand-primary, #7c6cff) !important;
     text-decoration: underline !important;
 }
 
@@ -545,14 +548,6 @@ body main.container {
 
 .badge-collection-item-locked {
     opacity: 0.55;
-}
-
-.display-4 {
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
-}
-
-.lead {
-    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
 }
 
 .btn {

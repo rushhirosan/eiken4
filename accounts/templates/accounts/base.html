@@ -61,47 +61,73 @@
     }
     </script>
     
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
     {% block extra_css %}{% endblock %}
     <style>
+        /* LP と共通のブランドトークン（ライトな学習UI向け） */
+        :root {
+            --brand-primary: #7c6cff;
+            --brand-primary-deep: #6355e0;
+            --brand-primary-soft: #5b8cff;
+            --brand-accent-teal: #4fd1c5;
+            --brand-bg: #f4f5fb;
+            --brand-bg-soft: #eef0f8;
+            --brand-surface: #ffffff;
+            --brand-text: #1a1f36;
+            --brand-muted: #5c6578;
+            --brand-border: rgba(26, 31, 54, 0.08);
+            --brand-shadow: 0 16px 40px rgba(26, 31, 54, 0.08);
+            --brand-primary-rgb: 124, 108, 255;
+            --bs-primary: #7c6cff;
+            --bs-primary-rgb: 124, 108, 255;
+        }
+
         body {
-            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            background-color: var(--brand-bg);
+            background-image:
+                radial-gradient(ellipse 80% 50% at 0% 0%, rgba(124, 108, 255, 0.12), transparent 55%),
+                radial-gradient(ellipse 60% 40% at 100% 0%, rgba(79, 209, 197, 0.10), transparent 50%),
+                linear-gradient(180deg, var(--brand-bg) 0%, var(--brand-bg-soft) 100%);
+            background-attachment: fixed;
             min-height: 100vh;
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-family: 'Inter', system-ui, -apple-system, sans-serif;
+            color: var(--brand-text);
         }
-        
-        /* ナビゲーションバーの改善 */
+
         .navbar {
-            background: rgba(255, 255, 255, 0.95) !important;
-            backdrop-filter: blur(10px);
-            box-shadow: 0 2px 20px rgba(0, 0, 0, 0.1);
-            border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+            background: rgba(255, 255, 255, 0.92) !important;
+            backdrop-filter: blur(12px);
+            box-shadow: 0 1px 0 var(--brand-border);
+            border-bottom: 1px solid var(--brand-border);
         }
-        
+
         .navbar-brand {
             font-weight: 700;
             font-size: 1.5rem;
-            color: #007bff !important;
+            color: var(--brand-primary) !important;
         }
-        
+
         .navbar-brand:hover {
-            color: #0056b3 !important;
+            color: var(--brand-primary-deep) !important;
         }
-        
+
         .nav-link {
-            color: #495057 !important;
+            color: var(--brand-muted) !important;
             font-weight: 500;
-            transition: all 0.3s ease;
+            transition: color 0.2s ease, transform 0.2s ease;
             position: relative;
         }
-        
+
         .nav-link:hover {
-            color: #007bff !important;
+            color: var(--brand-primary) !important;
             transform: translateY(-1px);
         }
-        
+
         .nav-link::after {
             content: '';
             position: absolute;
@@ -109,160 +135,172 @@
             height: 2px;
             bottom: 0;
             left: 50%;
-            background: linear-gradient(135deg, #007bff 0%, #0056b3 100%);
-            transition: all 0.3s ease;
+            background: linear-gradient(135deg, var(--brand-primary), var(--brand-primary-soft));
+            transition: width 0.2s ease;
             transform: translateX(-50%);
         }
-        
+
         .nav-link:hover::after {
             width: 100%;
         }
-        
-        /* メインコンテンツエリア */
+
         main {
             padding: 2rem 0;
         }
-        
-        /* カードの統一スタイル */
+
         .card {
             border-radius: 20px;
             overflow: visible;
-            box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
-            border: none;
-            background: rgba(255, 255, 255, 0.95);
-            backdrop-filter: blur(10px);
+            box-shadow: var(--brand-shadow);
+            border: 1px solid var(--brand-border);
+            background: var(--brand-surface);
         }
-        
+
         .card-header {
-            background: linear-gradient(135deg, #007bff 0%, #0056b3 100%);
+            background: linear-gradient(135deg, var(--brand-primary), var(--brand-primary-soft));
             border: none;
             color: white;
             font-weight: 600;
         }
-        
+
         .card-body {
             border-radius: 20px;
             padding: 1.5rem;
         }
-        
-        /* ボタンの統一スタイル */
+
         .btn-primary {
-            background: linear-gradient(135deg, #007bff 0%, #0056b3 100%);
+            background: linear-gradient(135deg, var(--brand-primary), var(--brand-primary-soft));
             border: none;
             border-radius: 12px;
-            transition: all 0.3s ease;
+            transition: transform 0.2s ease, box-shadow 0.2s ease;
             font-weight: 600;
+            color: #fff;
         }
-        
-        .btn-primary:hover {
+
+        .btn-primary:hover,
+        .btn-primary:focus {
+            background: linear-gradient(135deg, var(--brand-primary-deep), var(--brand-primary));
+            color: #fff;
             transform: translateY(-2px);
-            box-shadow: 0 8px 25px rgba(0, 123, 255, 0.3);
+            box-shadow: 0 8px 24px rgba(var(--brand-primary-rgb), 0.32);
         }
-        
+
         .btn-outline-primary {
-            border: 2px solid #007bff;
-            color: #007bff;
+            border: 2px solid var(--brand-primary);
+            color: var(--brand-primary);
             border-radius: 12px;
-            transition: all 0.3s ease;
+            transition: transform 0.2s ease, box-shadow 0.2s ease, background 0.2s ease;
             font-weight: 500;
         }
-        
-        .btn-outline-primary:hover {
-            background: linear-gradient(135deg, #007bff 0%, #0056b3 100%);
-            border-color: #007bff;
+
+        .btn-outline-primary:hover,
+        .btn-outline-primary:focus {
+            background: linear-gradient(135deg, var(--brand-primary), var(--brand-primary-soft));
+            border-color: var(--brand-primary);
+            color: #fff;
             transform: translateY(-2px);
-            box-shadow: 0 8px 25px rgba(0, 123, 255, 0.3);
+            box-shadow: 0 8px 24px rgba(var(--brand-primary-rgb), 0.28);
         }
-        
+
         .btn-success {
-            background: linear-gradient(135deg, #28a745 0%, #20c997 100%);
+            background: linear-gradient(135deg, #2f9e6f 0%, var(--brand-accent-teal) 100%);
             border: none;
             border-radius: 12px;
-            transition: all 0.3s ease;
+            transition: transform 0.2s ease, box-shadow 0.2s ease;
             font-weight: 600;
         }
-        
+
         .btn-success:hover {
             transform: translateY(-2px);
-            box-shadow: 0 8px 25px rgba(40, 167, 69, 0.3);
+            box-shadow: 0 8px 24px rgba(47, 158, 111, 0.28);
         }
-        
-        /* テーブルの改善 */
+
+        .text-primary {
+            color: var(--brand-primary) !important;
+        }
+
+        .bg-primary {
+            background-color: var(--brand-primary) !important;
+        }
+
+        .badge.bg-primary {
+            background: linear-gradient(135deg, var(--brand-primary), var(--brand-primary-soft)) !important;
+        }
+
         .table {
             border-radius: 15px;
             overflow: hidden;
-            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+            box-shadow: var(--brand-shadow);
         }
-        
+
         .table thead th {
-            background: linear-gradient(135deg, #007bff 0%, #0056b3 100%);
+            background: linear-gradient(135deg, var(--brand-primary), var(--brand-primary-soft));
             color: white;
             border: none;
             font-weight: 600;
         }
-        
+
         .table tbody tr {
-            transition: all 0.3s ease;
+            transition: background 0.2s ease;
         }
-        
+
         .table tbody tr:hover {
-            background: rgba(0, 123, 255, 0.05);
-            transform: scale(1.01);
+            background: rgba(var(--brand-primary-rgb), 0.05);
         }
-        
-        /* アラートの改善 */
+
         .alert {
             border-radius: 15px;
             border: none;
-            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+            box-shadow: var(--brand-shadow);
         }
-        
-        /* 背景アニメーション */
-        body::before {
-            content: '';
-            position: fixed;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
-            background: 
-                radial-gradient(circle at 20% 80%, rgba(120, 119, 198, 0.2) 0%, transparent 50%),
-                radial-gradient(circle at 80% 20%, rgba(255, 119, 198, 0.2) 0%, transparent 50%),
-                radial-gradient(circle at 40% 40%, rgba(120, 219, 255, 0.2) 0%, transparent 50%);
-            z-index: -1;
-            animation: backgroundShift 30s ease-in-out infinite;
-        }
-        
-        @keyframes backgroundShift {
-            0%, 100% { transform: scale(1) rotate(0deg); }
-            50% { transform: scale(1.05) rotate(0.5deg); }
-        }
-        
-        /* モバイル用進捗カード */
+
         .progress-card {
             border-radius: 15px;
-            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+            box-shadow: var(--brand-shadow);
             transition: transform 0.2s ease, box-shadow 0.2s ease;
+            border: 1px solid var(--brand-border);
         }
-        
+
         .progress-card:hover {
             transform: translateY(-2px);
-            box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+            box-shadow: 0 12px 28px rgba(26, 31, 54, 0.12);
         }
-        
+
         .progress-card .card-header {
-            background: linear-gradient(135deg, #007bff 0%, #0056b3 100%);
+            background: linear-gradient(135deg, var(--brand-primary), var(--brand-primary-soft));
             border-radius: 15px 15px 0 0;
             padding: 1rem;
         }
-        
+
         .progress-card .card-body {
             padding: 1rem;
         }
-        
+
         .progress-card .badge {
             font-size: 0.9rem;
             padding: 0.5rem 0.8rem;
+        }
+
+        footer.bg-light {
+            background: rgba(255, 255, 255, 0.85) !important;
+            border-top: 1px solid var(--brand-border);
+        }
+
+        footer a:hover {
+            color: var(--brand-primary) !important;
+        }
+
+        .app-page-title {
+            color: var(--brand-text);
+            font-weight: 700;
+        }
+
+        .breadcrumb-item a {
+            color: var(--brand-primary);
+        }
+
+        .breadcrumb-item.active {
+            color: var(--brand-muted);
         }
         
         /* タッチ操作最適化 */

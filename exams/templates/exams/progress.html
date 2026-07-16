@@ -4,7 +4,7 @@
 {% block content %}
 <div class="container mt-5">
     <div class="d-flex justify-content-between align-items-center mb-4">
-        <h2 class="text-white">学習進捗</h2>
+        <h2 class="app-page-title">学習進捗</h2>
         <form id="clear-progress-form" action="{% url 'exams:clear_progress' %}" method="post">
             {% csrf_token %}
             <input type="hidden" name="level" id="clear-progress-level" value="{{ levels.0 }}">
@@ -26,7 +26,7 @@
 
     {% if level_entries|length > 1 %}
     <div class="text-center mb-3 progress-level-bar">
-        <p class="text-white-50 small mb-1">表示する級を選んでください</p>
+        <p class="text-muted small mb-1">表示する級を選んでください</p>
         <div class="d-flex flex-wrap justify-content-center gap-2 progress-level-switch" role="tablist" aria-label="表示する級">
             {% for code, name in level_entries %}
             <button type="button"
@@ -797,19 +797,19 @@ document.addEventListener('DOMContentLoaded', function() {
 
 <style>
 .progress-level-tab {
-    border: 2px solid rgba(255, 255, 255, 0.55);
-    color: rgba(255, 255, 255, 0.95);
-    background: transparent;
+    border: 2px solid rgba(var(--brand-primary-rgb, 124, 108, 255), 0.35);
+    color: var(--brand-primary, #7c6cff);
+    background: #fff;
     font-weight: 600;
 }
 .progress-level-tab:hover {
-    background: rgba(255, 255, 255, 0.12);
-    color: #fff;
+    background: rgba(var(--brand-primary-rgb, 124, 108, 255), 0.08);
+    color: var(--brand-primary-deep, #6355e0);
 }
 .progress-level-tab.active {
-    background: #fff;
-    color: #212529;
-    border-color: #fff;
+    background: linear-gradient(135deg, var(--brand-primary, #7c6cff), var(--brand-primary-soft, #5b8cff));
+    color: #fff;
+    border-color: transparent;
 }
 
 @media (max-width: 768px) {
