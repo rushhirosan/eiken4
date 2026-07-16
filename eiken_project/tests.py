@@ -46,16 +46,6 @@ class LlmsTxtTest(TestCase):
         self.assertContains(response, 'https://eiken-app.fly.dev/guides/')
 
 
-class AboutPageTest(TestCase):
-    def test_about_page_is_public(self):
-        response = Client().get(reverse('about'))
-        self.assertEqual(response.status_code, 200)
-        self.assertContains(response, 'サービス概要')
-        self.assertContains(response, 'よくある質問')
-        self.assertContains(response, 'FAQPage')
-        self.assertContains(response, reverse('guides'))
-
-
 class GuidesPageTest(TestCase):
     def test_guides_page_is_public(self):
         response = Client().get(reverse('guides'))
@@ -68,6 +58,41 @@ class GuidesPageTest(TestCase):
         self.assertContains(response, 'FAQPage')
         self.assertContains(response, 'index, follow')
         self.assertContains(response, 'https://eiken-app.fly.dev/guides/')
+        # 5級にも会話補充がある（4級固有ではない）
+        self.assertContains(response, 'id="level-5"')
+        self.assertRegex(
+            response.content.decode(),
+            r'id="level-5"[\s\S]*?会話補充[\s\S]*?id="level-4"',
+        )
+        self.assertContains(response, '5級に加えて<strong>長文読解</strong>があります')
+
+
+class AuthenticatedNavLinksTest(TestCase):
+    def setUp(self):
+        self.user = User.objects.create_user(username='nav_user', password='testpass123')
+        self.client = Client()
+        self.client.login(username='nav_user', password='testpass123')
+
+    def test_exam_list_footer_links_to_guides_and_about(self):
+        response = self.client.get(reverse('exams:exam_list'))
+        self.assertEqual(response.status_code, 200)
+        self.assertContains(response, reverse('guides'))
+        self.assertContains(response, reverse('about'))
+        self.assertContains(response, '学習の進め方')
+        self.assertContains(response, 'サービス概要')
+
+
+class AboutPageTest(TestCase):
+    def test_about_page_is_public(self):
+        response = Client().get(reverse('about'))
+        self.assertEqual(response.status_code, 200)
+        self.assertContains(response, 'サービス概要')
+        self.assertContains(response, 'よくある質問')
+        self.assertContains(response, 'FAQPage')
+        self.assertContains(response, reverse('guides'))
+        self.assertContains(response, '英検5級</strong> — 文法・語彙、会話補充')
+        self.assertContains(response, '英検4級</strong> — 文法・語彙、会話補充、語順選択、長文読解')
+        self.assertContains(response, '英検3級</strong> — 文法・語彙、会話補充、ライティング')
 
 
 class SitemapXmlTest(TestCase):
