@@ -302,20 +302,21 @@ function updateDailyMissionGoal(value) {
 
 <style>
 .exam-level-focus-title {
-    color: var(--brand-text, #1a1f36);
-    font-size: clamp(1.35rem, 3.5vw, 1.75rem);
-    font-weight: 700;
+    color: var(--brand-text, #161b2e);
+    font-size: clamp(1.45rem, 3.5vw, 1.85rem);
+    font-weight: 800;
     letter-spacing: 0.02em;
 }
 
 .exam-list-title {
-    color: var(--brand-text, #1a1f36);
+    color: var(--brand-text, #161b2e);
 }
 
 .exam-level-switch-label {
-    color: var(--brand-muted, #5c6578);
+    color: var(--brand-muted, #3f475c);
     font-size: 0.85rem;
     margin: 0;
+    font-weight: 500;
 }
 
 .exam-level-switch-form {
@@ -369,7 +370,8 @@ body main.container {
 
 .exam-list-title {
     font-size: clamp(1.45rem, 4vw, 2.15rem);
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+    color: var(--brand-text, #161b2e);
+    text-shadow: none;
 }
 
 .exam-list-hero .lead {
@@ -382,10 +384,11 @@ body main.container {
     }
 }
 
-/* 問題形式パネル: 見出しだけ青、本文は白（以前のボタン見た目に寄せる） */
+/* 問題形式パネル: 見出しはブランド色、本文は白 */
 .exam-format-panel {
     background: #fff;
     border-radius: 1rem;
+    border: 1px solid var(--brand-border, rgba(22, 27, 46, 0.12));
 }
 
 .exam-format-panel-header {
@@ -398,12 +401,20 @@ body main.container {
 }
 
 .exam-format-section-label {
-    color: #343a40;
+    color: var(--brand-text, #161b2e);
     letter-spacing: 0.02em;
 }
 
 .exam-format-item > .btn {
     margin-bottom: 0;
+    border: 1px solid rgba(22, 27, 46, 0.12) !important;
+    color: var(--brand-text, #161b2e) !important;
+    font-weight: 600;
+}
+
+.exam-format-item > .btn:hover {
+    border-color: rgba(var(--brand-primary-rgb, 124, 108, 255), 0.45) !important;
+    background: #f7f6ff !important;
 }
 
 .exam-foundation-progress {
@@ -415,33 +426,36 @@ body main.container {
 .exam-foundation-progress-note {
     line-height: 1.45;
     margin-bottom: 0.5rem;
+    color: var(--brand-muted, #3f475c) !important;
 }
 
 .exam-foundation-progress-bar {
-    height: 6px;
+    height: 8px;
     border-radius: 4px;
-    background-color: #e9ecef;
+    background-color: #d5dae6;
 }
 
 .exam-foundation-progress-label {
-    font-size: 0.75rem;
-    line-height: 1.3;
+    font-size: 0.8125rem;
+    line-height: 1.35;
+    color: var(--brand-muted, #3f475c) !important;
+    font-weight: 500;
 }
 
 .adventure-progress-card {
     background: linear-gradient(180deg, #f8f9ff 0%, #ffffff 100%);
-    border: 1px solid rgba(var(--brand-primary-rgb, 124, 108, 255), 0.14);
+    border: 1px solid rgba(var(--brand-primary-rgb, 124, 108, 255), 0.18);
 }
 
 .adventure-progress-bar {
     height: 8px;
     border-radius: 4px;
-    background-color: #e9ecef;
+    background-color: #d5dae6;
 }
 
 .daily-missions-card {
-    background: linear-gradient(180deg, #fffef8 0%, #ffffff 100%);
-    border: 1px solid rgba(var(--brand-primary-rgb, 124, 108, 255), 0.16);
+    background: #fff;
+    border: 1px solid var(--brand-border, rgba(22, 27, 46, 0.12)) !important;
     border-radius: 0.75rem;
 }
 
@@ -456,7 +470,12 @@ body main.container {
 }
 
 .daily-mission-item-complete {
-    opacity: 0.72;
+    opacity: 1;
+}
+
+.daily-mission-item-complete .daily-mission-label,
+.daily-mission-item-complete .daily-mission-progress {
+    color: var(--brand-muted, #3f475c);
 }
 
 .daily-mission-link,
@@ -466,10 +485,10 @@ body main.container {
     align-items: center;
     gap: 0.35rem 0.5rem;
     text-decoration: none;
-    color: inherit;
-    font-size: 0.875rem;
-    line-height: 1.35;
-    padding: 0.15rem 0;
+    color: var(--brand-text, #161b2e);
+    font-size: 0.9rem;
+    line-height: 1.4;
+    padding: 0.2rem 0;
 }
 
 .daily-mission-link:hover {
@@ -483,6 +502,12 @@ body main.container {
 .daily-mission-progress {
     font-size: 0.8125rem;
     white-space: nowrap;
+    color: var(--brand-muted, #3f475c) !important;
+    font-weight: 500;
+}
+
+.daily-mission-hint {
+    color: var(--brand-muted, #3f475c) !important;
 }
 
 .exam-habit-status-line {
@@ -491,7 +516,7 @@ body main.container {
     justify-content: center;
     flex-wrap: wrap;
     gap: 0.75rem;
-    color: var(--brand-muted, #5c6578);
+    color: var(--brand-muted, #3f475c);
     line-height: 1.4;
 }
 
@@ -503,7 +528,7 @@ body main.container {
 
 .exam-habit-streak-btn,
 .exam-habit-badge-btn {
-    color: var(--brand-text, #1a1f36) !important;
+    color: var(--brand-text, #161b2e) !important;
     text-decoration: none !important;
     font-weight: 600;
     line-height: 1.4;
@@ -511,7 +536,7 @@ body main.container {
 }
 
 .exam-habit-streak-btn-muted {
-    color: var(--brand-muted, #5c6578) !important;
+    color: var(--brand-muted, #3f475c) !important;
     font-weight: 500;
 }
 

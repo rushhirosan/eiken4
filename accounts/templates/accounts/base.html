@@ -75,13 +75,13 @@
             --brand-primary-deep: #6355e0;
             --brand-primary-soft: #5b8cff;
             --brand-accent-teal: #4fd1c5;
-            --brand-bg: #f4f5fb;
-            --brand-bg-soft: #eef0f8;
+            --brand-bg: #f7f8fc;
+            --brand-bg-soft: #eef1f8;
             --brand-surface: #ffffff;
-            --brand-text: #1a1f36;
-            --brand-muted: #5c6578;
-            --brand-border: rgba(26, 31, 54, 0.08);
-            --brand-shadow: 0 16px 40px rgba(26, 31, 54, 0.08);
+            --brand-text: #161b2e;
+            --brand-muted: #3f475c;
+            --brand-border: rgba(22, 27, 46, 0.12);
+            --brand-shadow: 0 12px 32px rgba(22, 27, 46, 0.08);
             --brand-primary-rgb: 124, 108, 255;
             --bs-primary: #7c6cff;
             --bs-primary-rgb: 124, 108, 255;
@@ -90,13 +90,17 @@
         body {
             background-color: var(--brand-bg);
             background-image:
-                radial-gradient(ellipse 80% 50% at 0% 0%, rgba(124, 108, 255, 0.12), transparent 55%),
-                radial-gradient(ellipse 60% 40% at 100% 0%, rgba(79, 209, 197, 0.10), transparent 50%),
+                radial-gradient(ellipse 70% 40% at 0% 0%, rgba(124, 108, 255, 0.06), transparent 55%),
+                radial-gradient(ellipse 50% 35% at 100% 0%, rgba(79, 209, 197, 0.05), transparent 50%),
                 linear-gradient(180deg, var(--brand-bg) 0%, var(--brand-bg-soft) 100%);
             background-attachment: fixed;
             min-height: 100vh;
             font-family: 'Inter', system-ui, -apple-system, sans-serif;
             color: var(--brand-text);
+        }
+
+        .text-muted {
+            color: var(--brand-muted) !important;
         }
 
         .navbar {
