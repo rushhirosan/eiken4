@@ -120,6 +120,7 @@
                             <td>{% if progress.word_order.last_attempted %}{{ progress.word_order.last_attempted }}{% else %}未回答{% endif %}</td>
                         </tr>
                         {% endif %}
+                        {% if level != '5' %}
                         <tr>
                             <td>長文読解問題</td>
                             <td>{{ progress.reading_comprehension.progress_rate|default:"0" }}%</td>
@@ -131,6 +132,7 @@
                             <td>{{ progress.reading_comprehension.incorrect_answers|default:"0" }}</td>
                             <td>{% if progress.reading_comprehension.last_attempted %}{{ progress.reading_comprehension.last_attempted }}{% else %}未回答{% endif %}</td>
                         </tr>
+                        {% endif %}
                         {% if level == '3' %}
                         <tr>
                             <td>ライティング問題</td>
@@ -166,6 +168,7 @@
                             <td>{{ progress.listening_conversation.incorrect_answers|default:"0" }}</td>
                             <td>{% if progress.listening_conversation.last_attempted %}{{ progress.listening_conversation.last_attempted }}{% else %}未回答{% endif %}</td>
                         </tr>
+                        {% if level != '5' %}
                         <tr>
                             <td>リスニング文章問題</td>
                             <td>{{ progress.listening_passage.progress_rate|default:"0" }}%</td>
@@ -177,6 +180,7 @@
                             <td>{{ progress.listening_passage.incorrect_answers|default:"0" }}</td>
                             <td>{% if progress.listening_passage.last_attempted %}{{ progress.listening_passage.last_attempted }}{% else %}未回答{% endif %}</td>
                         </tr>
+                        {% endif %}
                         {% endwith %}
                     </tbody>
                 </table>
@@ -284,6 +288,7 @@
                 </div>
                 {% endif %}
 
+                {% if level != '5' %}
                 <!-- 長文読解問題 -->
                 <div class="card mb-3 progress-card">
                     <div class="card-header d-flex justify-content-between align-items-center">
@@ -315,6 +320,7 @@
                         </div>
                     </div>
                 </div>
+                {% endif %}
 
                 {% if level == '3' %}
                 <!-- ライティング問題 -->
@@ -410,6 +416,7 @@
                     </div>
                 </div>
 
+                {% if level != '5' %}
                 <!-- リスニング文章問題 -->
                 <div class="card mb-3 progress-card">
                     <div class="card-header d-flex justify-content-between align-items-center">
@@ -441,6 +448,7 @@
                         </div>
                     </div>
                 </div>
+                {% endif %}
 
                 {% endwith %}
             </div>
@@ -480,6 +488,22 @@ document.addEventListener('DOMContentLoaded', function() {
         progress.listening_illustration.progress_rate,
         progress.listening_conversation.progress_rate,
         progress.listening_passage.progress_rate
+    ];
+    {% elif level == '5' %}
+    const labels = [
+        '文法・語彙問題',
+        '会話補充問題',
+        '語順選択問題',
+        'リスニングイラスト問題',
+        'リスニング会話問題'
+    ];
+    
+    const data = [
+        progress.grammar_fill.progress_rate,
+        progress.conversation_fill.progress_rate,
+        progress.word_order.progress_rate,
+        progress.listening_illustration.progress_rate,
+        progress.listening_conversation.progress_rate
     ];
     {% else %}
     const labels = [
@@ -531,6 +555,21 @@ document.addEventListener('DOMContentLoaded', function() {
                     'rgba(153, 102, 255, 1)',
                     'rgba(255, 159, 64, 1)',
                     'rgba(201, 203, 207, 1)'
+                ],
+                {% elif level == '5' %}
+                backgroundColor: [
+                    'rgba(54, 162, 235, 0.5)',
+                    'rgba(255, 99, 132, 0.5)',
+                    'rgba(255, 206, 86, 0.5)',
+                    'rgba(153, 102, 255, 0.5)',
+                    'rgba(255, 159, 64, 0.5)'
+                ],
+                borderColor: [
+                    'rgba(54, 162, 235, 1)',
+                    'rgba(255, 99, 132, 1)',
+                    'rgba(255, 206, 86, 1)',
+                    'rgba(153, 102, 255, 1)',
+                    'rgba(255, 159, 64, 1)'
                 ],
                 {% else %}
                 backgroundColor: [
@@ -607,9 +646,9 @@ document.addEventListener('DOMContentLoaded', function() {
     const questionTypes = [
         'grammar_fill', 'conversation_fill',
         {% if level != '3' %}'word_order', {% endif %}
-        'reading_comprehension',
+        {% if level != '5' %}'reading_comprehension', {% endif %}
         {% if level == '3' %}'writing', {% endif %}
-        'listening_illustration', 'listening_conversation', 'listening_passage'
+        'listening_illustration', 'listening_conversation'{% if level != '5' %}, 'listening_passage'{% endif %}
     ];
     
     // 過去7日間の日付を生成
