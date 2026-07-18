@@ -18,7 +18,7 @@ MOCK_EXAM_UNLOCK_MIN_RATE = 80
 RANDOM_UNLOCK_MIN_RATE = 20
 RANDOM_UNLOCK_REQUIRED_CATEGORIES = 3
 RANDOM_SCOPE_DESCRIPTIONS = {
-    '5': '文法・会話・語順・リスニングから出題。長文はランダム10問に含まれません',
+    '5': '文法・会話・語順・リスニングから出題されます',
     '4': '文法・会話・語順・リスニングから出題。長文はランダム10問に含まれません',
     '3': '文法・会話・リスニングから出題。長文・ライティングはランダム10問に含まれません',
 }

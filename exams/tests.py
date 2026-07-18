@@ -326,7 +326,8 @@ class Level5ExamListTests(TestCase):
 
     def test_exam_list_level5_random_scope_description(self):
         response = self.client.get(self.url, {'level': '5'})
-        self.assertContains(response, '長文はランダム10問に含まれません')
+        self.assertContains(response, '文法・会話・語順・リスニングから出題されます')
+        self.assertNotContains(response, '長文はランダム10問に含まれません')
 
     def test_mock_exam_structure_is_50_questions_without_reading(self):
         from exams.views import _get_mock_exam_structure
