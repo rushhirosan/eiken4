@@ -17,6 +17,21 @@ class LandingPageTest(TestCase):
         self.assertContains(response, '無料アカウント作成')
         self.assertContains(response, reverse('guides'))
 
+    def test_landing_avoids_render_blocking_third_party_assets(self):
+        """公開トップは LCP のため外部フォント/アイコンCDNに依存しない。"""
+        response = self.client.get(reverse('landing'))
+        self.assertEqual(response.status_code, 200)
+        content = response.content.decode()
+        self.assertIn('vendor/bootstrap/bootstrap.min.css', content)
+        self.assertNotIn('fonts.googleapis.com', content)
+        self.assertNotIn('fonts.gstatic.com', content)
+        self.assertNotIn('cdnjs.cloudflare.com', content)
+        self.assertNotIn('font-awesome', content)
+        self.assertNotIn('bootstrap.bundle.min.js', content)
+        # GTM は load 後に動的挿入（初期 HTML に同期 script タグを置かない）
+        self.assertNotIn('<script async src="https://www.googletagmanager.com/gtag/js', content)
+        self.assertIn("window.addEventListener('load'", content)
+        self.assertIn('<main>', content)
     def test_authenticated_user_redirects_to_exam_list(self):
         self.client.login(username='landing_user', password='testpass123')
         response = self.client.get(reverse('landing'))
@@ -40,10 +55,18 @@ class LlmsTxtTest(TestCase):
     def test_llms_txt_served_at_root(self):
         response = Client().get(reverse('llms_txt'))
         self.assertEqual(response.status_code, 200)
-        self.assertContains(response, 'Eiken Practice')
-        self.assertContains(response, '英検5級・4級・3級')
-        self.assertContains(response, 'https://eiken-app.fly.dev/about/')
-        self.assertContains(response, 'https://eiken-app.fly.dev/guides/')
+        self.assertEqual(response['Content-Type'], 'text/plain; charset=utf-8')
+        content = response.content.decode()
+        self.assertTrue(content.startswith('# Eiken Practice\n'))
+        self.assertIn('> 英検5級・4級・3級', content)
+        self.assertIn('- [トップ](https://eiken-app.fly.dev/):', content)
+        self.assertIn('- [サービス概要・FAQ](https://eiken-app.fly.dev/about/):', content)
+        self.assertIn('- [学習の進め方](https://eiken-app.fly.dev/guides/):', content)
+        self.assertIn('## Optional', content)
+        self.assertIn('- [プライバシーポリシー](https://eiken-app.fly.dev/privacy-policy/):', content)
+        # Docs セクションの公開ページは Markdown リンク形式
+        self.assertNotIn('- トップ:', content)
+        self.assertNotIn('- サービス概要・FAQ:', content)
 
 
 class GuidesPageTest(TestCase):
@@ -65,6 +88,10 @@ class GuidesPageTest(TestCase):
             r'id="level-5"[\s\S]*?会話補充[\s\S]*?id="level-4"',
         )
         self.assertContains(response, '5級に加えて<strong>長文読解</strong>があります')
+        content = response.content.decode()
+        self.assertIn('vendor/bootstrap/bootstrap.min.css', content)
+        self.assertNotIn('fonts.googleapis.com', content)
+        self.assertNotIn('font-awesome', content)
 
 
 class AuthenticatedNavLinksTest(TestCase):
