@@ -1,5 +1,5 @@
 from django.contrib.auth import get_user_model
-from django.test import Client, TestCase
+from django.test import Client, TestCase, override_settings
 from django.urls import reverse
 
 User = get_user_model()
@@ -152,3 +152,28 @@ class LoginSeoTest(TestCase):
         response = Client().get(reverse('signup'))
         self.assertEqual(response.status_code, 200)
         self.assertContains(response, 'noindex, follow')
+
+
+@override_settings(ALLOWED_HOSTS=['eiken-app.fly.dev', 'eiken-practice.com', 'testserver'])
+class CanonicalHostRedirectTest(TestCase):
+    def setUp(self):
+        self.client = Client()
+
+    def test_fly_dev_host_redirects_to_custom_domain(self):
+        response = self.client.get('/about/', HTTP_HOST='eiken-app.fly.dev')
+        self.assertEqual(response.status_code, 301)
+        self.assertEqual(response['Location'], 'https://eiken-practice.com/about/')
+
+    def test_fly_dev_preserves_query_string(self):
+        response = self.client.get('/guides/?from=old', HTTP_HOST='eiken-app.fly.dev')
+        self.assertEqual(response.status_code, 301)
+        self.assertEqual(response['Location'], 'https://eiken-practice.com/guides/?from=old')
+
+    def test_healthz_is_not_redirected(self):
+        response = self.client.get('/healthz/', HTTP_HOST='eiken-app.fly.dev')
+        self.assertEqual(response.status_code, 200)
+        self.assertEqual(response.content, b'ok')
+
+    def test_custom_domain_is_not_redirected(self):
+        response = self.client.get('/about/', HTTP_HOST='eiken-practice.com')
+        self.assertEqual(response.status_code, 200)
