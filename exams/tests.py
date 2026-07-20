@@ -824,6 +824,76 @@ class ListeningIllustrationScoringTest(TestCase):
         saved = ListeningUserAnswer.objects.get(user=self.user, question=question)
         self.assertTrue(saved.is_correct)
 
+    def test_random_submit_replaces_existing_listening_answer(self):
+        """ランダム10問で既答のイラスト問題を再提出しても UniqueViolation にならない"""
+        ListeningUserAnswer.objects.create(
+            user=self.user,
+            question=self.question,
+            selected_answer=self.choice2.choice_text,
+            is_correct=False,
+        )
+
+        response = self.client.post(
+            reverse('exams:submit_answers', kwargs={'level': '4'}),
+            {
+                'question_type': 'random',
+                'num_questions': '10',
+                f'answer_{self.question.id}': self.choice1.choice_text,
+            },
+        )
+
+        self.assertEqual(response.status_code, 302)
+        self.assertEqual(
+            ListeningUserAnswer.objects.filter(
+                user=self.user, question=self.question
+            ).count(),
+            1,
+        )
+        saved = ListeningUserAnswer.objects.get(user=self.user, question=self.question)
+        self.assertEqual(saved.selected_answer, self.choice1.choice_text)
+        self.assertTrue(saved.is_correct)
+
+    def test_random_submit_replaces_existing_listening_answer_level5(self):
+        """5級ランダムでも既答イラストの再提出で500にならない"""
+        level5_question = ListeningQuestion.objects.create(
+            question_text='What are you painting?',
+            image='images/level5/part1/listening_illustration_image1.png',
+            audio='audio/level5/part1/listening_illustration_question1.mp3',
+            correct_answer='1',
+            level='5',
+        )
+        correct = ListeningChoice.objects.create(
+            question=level5_question,
+            choice_text='A picture of a cat.',
+            is_correct=True,
+            order=1,
+        )
+        ListeningChoice.objects.create(
+            question=level5_question,
+            choice_text='Here’s your pencil.',
+            is_correct=False,
+            order=2,
+        )
+        ListeningUserAnswer.objects.create(
+            user=self.user,
+            question=level5_question,
+            selected_answer='Here’s your pencil.',
+            is_correct=False,
+        )
+
+        response = self.client.post(
+            reverse('exams:submit_answers', kwargs={'level': '5'}),
+            {
+                'question_type': 'random',
+                'num_questions': '10',
+                f'answer_{level5_question.id}': correct.choice_text,
+            },
+        )
+
+        self.assertEqual(response.status_code, 302)
+        saved = ListeningUserAnswer.objects.get(user=self.user, question=level5_question)
+        self.assertTrue(saved.is_correct)
+
     def test_listening_illustration_uses_shared_question_list_template(self):
         """イラスト問題は question_list.html を使い2列レイアウトを維持する（デグレ防止）"""
         response = self.client.get(

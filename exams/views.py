@@ -1268,6 +1268,16 @@ def submit_answers(request, level):
                 for key in request.POST.keys()
                 if key.startswith('answer_')
             ]
+
+            # 既存の回答を削除（再出題時の UniqueViolation 防止。他タイプと同じ）
+            ListeningUserAnswer.objects.filter(
+                user=request.user,
+                question_id__in=post_question_ids,
+            ).delete()
+            UserAnswer.objects.filter(
+                user=request.user,
+                question_id__in=post_question_ids,
+            ).delete()
             
             # 各問題のタイプを判定して適切な回答を保存
             for question_id in post_question_ids:
