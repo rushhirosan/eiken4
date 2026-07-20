@@ -23,7 +23,6 @@ CSRF_TRUSTED_ORIGINS = [
     'https://eiken-app.fly.dev',
     'https://*.fly.dev',
     'https://eiken-practice.com',
-    'https://www.eiken-practice.com',
 ]
 
 # Database

@@ -48,7 +48,7 @@ class RobotsTxtTest(TestCase):
         self.assertContains(response, 'Allow: /about/')
         self.assertContains(response, 'Allow: /guides/')
         self.assertContains(response, 'Allow: /llms.txt')
-        self.assertContains(response, 'Sitemap: https://eiken-app.fly.dev/sitemap.xml')
+        self.assertContains(response, 'Sitemap: https://eiken-practice.com/sitemap.xml')
 
 
 class LlmsTxtTest(TestCase):
@@ -59,11 +59,11 @@ class LlmsTxtTest(TestCase):
         content = response.content.decode()
         self.assertTrue(content.startswith('# Eiken Practice\n'))
         self.assertIn('> 英検5級・4級・3級', content)
-        self.assertIn('- [トップ](https://eiken-app.fly.dev/):', content)
-        self.assertIn('- [サービス概要・FAQ](https://eiken-app.fly.dev/about/):', content)
-        self.assertIn('- [学習の進め方](https://eiken-app.fly.dev/guides/):', content)
+        self.assertIn('- [トップ](https://eiken-practice.com/):', content)
+        self.assertIn('- [サービス概要・FAQ](https://eiken-practice.com/about/):', content)
+        self.assertIn('- [学習の進め方](https://eiken-practice.com/guides/):', content)
         self.assertIn('## Optional', content)
-        self.assertIn('- [プライバシーポリシー](https://eiken-app.fly.dev/privacy-policy/):', content)
+        self.assertIn('- [プライバシーポリシー](https://eiken-practice.com/privacy-policy/):', content)
         # Docs セクションの公開ページは Markdown リンク形式
         self.assertNotIn('- トップ:', content)
         self.assertNotIn('- サービス概要・FAQ:', content)
@@ -80,7 +80,7 @@ class GuidesPageTest(TestCase):
         self.assertContains(response, 'フィードバックの送り方')
         self.assertContains(response, 'FAQPage')
         self.assertContains(response, 'index, follow')
-        self.assertContains(response, 'https://eiken-app.fly.dev/guides/')
+        self.assertContains(response, 'https://eiken-practice.com/guides/')
         # 5級にも会話補充がある（4級固有ではない）
         self.assertContains(response, 'id="level-5"')
         self.assertRegex(
@@ -126,10 +126,10 @@ class SitemapXmlTest(TestCase):
     def test_sitemap_lists_only_public_pages(self):
         response = Client().get(reverse('sitemap_xml'))
         self.assertEqual(response.status_code, 200)
-        self.assertContains(response, 'https://eiken-app.fly.dev/')
-        self.assertContains(response, 'https://eiken-app.fly.dev/about/')
-        self.assertContains(response, 'https://eiken-app.fly.dev/guides/')
-        self.assertContains(response, 'https://eiken-app.fly.dev/privacy-policy/')
+        self.assertContains(response, 'https://eiken-practice.com/')
+        self.assertContains(response, 'https://eiken-practice.com/about/')
+        self.assertContains(response, 'https://eiken-practice.com/guides/')
+        self.assertContains(response, 'https://eiken-practice.com/privacy-policy/')
         self.assertNotContains(response, '/exams/')
         self.assertNotContains(response, '/accounts/')
 

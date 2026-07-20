@@ -9,4 +9,4 @@ Disallow: /exams/
 Disallow: /admin/
 Disallow: /static/admin/
 
-Sitemap: https://eiken-app.fly.dev/sitemap.xml
+Sitemap: https://eiken-practice.com/sitemap.xml

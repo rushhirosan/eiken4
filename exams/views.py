@@ -2501,7 +2501,7 @@ def feedback_success(request):
 @csrf_exempt
 def sitemap_xml(request):
     """公開ページのみを含む動的サイトマップ"""
-    base_url = "https://eiken-app.fly.dev"
+    base_url = "https://eiken-practice.com"
     today = datetime.now().strftime('%Y-%m-%d')
 
     urls = [
