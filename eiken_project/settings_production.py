@@ -18,10 +18,12 @@ DEBUG = False
 
 ALLOWED_HOSTS = ['*']
 
-# CSRF settings for Fly.io
+# CSRF settings for Fly.io / custom domain
 CSRF_TRUSTED_ORIGINS = [
     'https://eiken-app.fly.dev',
     'https://*.fly.dev',
+    'https://eiken-practice.com',
+    'https://www.eiken-practice.com',
 ]
 
 # Database
