@@ -1,8 +1,8 @@
-/* リスニングイラスト: 画像表示領域を固定してカード内の高さを揃える */
+/* リスニングイラスト: カード2列でも読めるサイズを確保しつつ高さを揃える */
 .listening-illustration-img-wrap {
     width: 100%;
-    max-width: 220px;
-    height: 160px;
+    max-width: 420px;
+    height: 300px;
     margin: 0 auto 1rem;
     display: flex;
     align-items: center;
@@ -53,12 +53,22 @@
     min-height: 48px;
 }
 
-/* ライティング: 2〜3文想定のコンパクトな入力欄（必要なら縦にリサイズ可） */
-.writing-answer-input {
-    resize: vertical;
-    min-height: 7rem;
-    max-height: 18rem;
+/* 模擬試験の大問・部見出し（空の card+header だと base のグラデと重なって二重に見える） */
+.mock-section-banner {
+    background: linear-gradient(135deg, var(--brand-primary, #5b6cff), var(--brand-primary-soft, #7b88ff));
+    color: #fff;
+    border-radius: 12px;
+    padding: 0.75rem 1rem;
+    margin-bottom: 1rem;
+    box-shadow: 0 4px 14px rgba(26, 31, 54, 0.12);
 }
+
+.mock-section-banner h5 {
+    margin: 0;
+    font-weight: 600;
+    color: #fff;
+}
+
 
 /* デフォルトスタイル */
 .card-body {
@@ -123,6 +133,11 @@
 
 /* モバイル最適化 */
 @media (max-width: 768px) {
+    .listening-illustration-img-wrap {
+        max-width: 100%;
+        height: 240px;
+    }
+
     .breadcrumb {
         font-size: 0.85rem;
         padding: 0.5rem 0;

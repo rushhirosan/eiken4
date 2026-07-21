@@ -51,9 +51,8 @@
         {% if category.grouper != 'listening_illustration' and category.grouper != 'listening_conversation' and category.grouper != 'listening_passage' %}
         <div class="row">
             <div class="col-12">
-                <div class="card border-primary mb-3">
-                    <div class="card-header bg-primary text-white">
-                        <h5 class="mb-0">
+                <div class="mock-section-banner">
+                    <h5>
                             {% if category.grouper == 'grammar_fill' %}
                                 大問1: 文法・語彙問題
                             {% elif category.grouper == 'conversation_fill' %}
@@ -61,8 +60,7 @@
                             {% elif category.grouper == 'word_order' %}
                                 大問3: 語順選択問題
                             {% endif %}
-                        </h5>
-                    </div>
+                    </h5>
                 </div>
             </div>
         </div>
@@ -114,10 +112,8 @@
         {% if passages %}
         <div class="row">
             <div class="col-12">
-                <div class="card border-primary mb-3">
-                    <div class="card-header bg-primary text-white">
-                        <h5 class="mb-0">大問4: 長文読解問題</h5>
-                    </div>
+                <div class="mock-section-banner">
+                    <h5>大問4: 長文読解問題</h5>
                 </div>
             </div>
         </div>
@@ -165,10 +161,8 @@
         {% if listening_illustration %}
         <div class="row">
             <div class="col-12">
-                <div class="card border-primary mb-3">
-                    <div class="card-header bg-primary text-white">
-                        <h5 class="mb-0">第1部: リスニングイラスト問題</h5>
-                    </div>
+                <div class="mock-section-banner">
+                    <h5>第1部: リスニングイラスト問題</h5>
                 </div>
             </div>
         </div>
@@ -213,10 +207,8 @@
         {% if listening_conversation %}
         <div class="row">
             <div class="col-12">
-                <div class="card border-primary mb-3">
-                    <div class="card-header bg-primary text-white">
-                        <h5 class="mb-0">第2部: リスニング会話問題</h5>
-                    </div>
+                <div class="mock-section-banner">
+                    <h5>第2部: リスニング会話問題</h5>
                 </div>
             </div>
         </div>
@@ -263,10 +255,8 @@
         {% if listening_passage %}
         <div class="row">
             <div class="col-12">
-                <div class="card border-primary mb-3">
-                    <div class="card-header bg-primary text-white">
-                        <h5 class="mb-0">第3部: リスニング文章問題</h5>
-                    </div>
+                <div class="mock-section-banner">
+                    <h5>第3部: リスニング文章問題</h5>
                 </div>
             </div>
         </div>

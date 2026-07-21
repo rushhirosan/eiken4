@@ -468,6 +468,13 @@ class Level3RandomAndMockTests(TestCase):
         self.assertTemplateUsed(response, 'exams/mock_exam.html')
         self.assertContains(response, '模擬試験問題（英検3級）')
         self.assertNotContains(response, '模擬試験問題（英検4級）')
+        self.assertContains(response, 'mock-section-banner')
+        self.assertContains(response, '第1部: リスニングイラスト問題')
+        # 空の card+header 見出しは使わない（base のグラデと重なるため）
+        self.assertNotContains(
+            response,
+            'card border-primary mb-3',
+        )
 
 
 class Level5ExamListTests(TestCase):
