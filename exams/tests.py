@@ -666,6 +666,7 @@ class Level5ExamListTests(TestCase):
         )
         self.assertEqual(response.status_code, 200)
         self.assertTemplateUsed(response, 'exams/question_list.html')
+        self.assertContains(response, '模擬試験問題（英検5級）')
         content = response.content.decode()
         self.assertIn('今日はとても暑いです。<br>', content)
         self.assertIn('① it ② is ③ very hot ④ today<br>', content)

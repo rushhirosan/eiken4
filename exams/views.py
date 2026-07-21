@@ -741,8 +741,9 @@ def question_list(request, level=None, exam_id=None):
             ]
             context = {
                 'level': level,
+                'level_display': _exam_level_display(level),
                 'question_type': question_type,
-                'question_type_display': question_types.get(question_type, ''),
+                'question_type_display': f'模擬試験問題（{_exam_level_display(level)}）',
                 'num_questions': len(all_questions),
                 'status': status,
                 'questions': all_questions,
