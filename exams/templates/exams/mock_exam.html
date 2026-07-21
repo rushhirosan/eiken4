@@ -75,7 +75,7 @@
                             問題 {{ question.question_number }}
                         </h5>
                         
-                        {% if question.question_type == 'word_order' %}
+                        {% if question.question_type == 'word_order' or question.category == 'word_order' or question.question.question_type == 'word_order' %}
                             {% with question_text=question.question.question_text %}
                                 {% if question_text|slice:":3" == "問題" %}
                                     <div class="card-text">{{ question_text|slice:"4:"|linebreaks }}</div>
@@ -83,7 +83,7 @@
                                     <div class="card-text">{{ question_text|linebreaks }}</div>
                                 {% endif %}
                             {% endwith %}
-                        {% elif question.question_type == 'conversation_fill' %}
+                        {% elif question.question_type == 'conversation_fill' or question.category == 'conversation_fill' or question.question.question_type == 'conversation_fill' %}
                             <p class="card-text">{{ question.question.question_text|linebreaks }}</p>
                         {% else %}
                             <p class="card-text">{{ question.question.question_text }}</p>

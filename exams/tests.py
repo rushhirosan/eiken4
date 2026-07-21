@@ -329,6 +329,168 @@ class Level5ExamListTests(TestCase):
         self.assertContains(response, '文法・会話・語順・リスニングから出題されます')
         self.assertNotContains(response, '長文はランダム10問に含まれません')
 
+    def test_word_order_dedicated_renders_newlines(self):
+        """語順選択メニューでは問題文の改行が <br> になる"""
+        Question.objects.create(
+            question_text=(
+                '私は朝，歩いて学校へ行きます。\n'
+                '① to ② school ③ walk ④ in\n'
+                'I [1番目] ( ) [3番目] ( ) the morning.'
+            ),
+            question_type='word_order',
+            level='5',
+            question_number=1,
+            explanation='test',
+        )
+        response = self.client.get(
+            reverse('exams:question_list_by_level', kwargs={'level': '5'}),
+            {'type': 'word_order', 'status': 'all', 'num_questions': 'all'},
+        )
+        self.assertEqual(response.status_code, 200)
+        content = response.content.decode()
+        self.assertIn('私は朝，歩いて学校へ行きます。<br>', content)
+        self.assertIn('① to ② school ③ walk ④ in<br>', content)
+
+    @patch('exams.views._build_exam_unlock_status')
+    def test_word_order_in_random_also_renders_newlines(self, mock_unlock):
+        """ランダム10問でも語順選択は専用メニューと同じく改行表示する"""
+        mock_unlock.return_value = {
+            'random': {
+                'is_unlocked': True,
+                'ready_count': 3,
+                'required_count': 3,
+                'required_rate': 20,
+            },
+            'mock_exam': {
+                'is_unlocked': False,
+                'remaining_categories': [],
+                'total_categories': 0,
+            },
+        }
+        Question.objects.create(
+            question_text=(
+                '今日はとても暑いです。\n'
+                '① it ② is ③ very hot ④ today\n'
+                '[1番目] ( ) [3番目] ( ).'
+            ),
+            question_type='word_order',
+            level='5',
+            question_number=1,
+            explanation='test',
+        )
+        # 合計10問以下にして sample で語順が落ちないようにする
+        for qtype in ('grammar_fill', 'conversation_fill', 'listening_conversation'):
+            Question.objects.create(
+                question_text=f'sample {qtype}',
+                question_type=qtype,
+                level='5',
+                question_number=1,
+                explanation='test',
+            )
+        from questions.models import ListeningChoice, ListeningQuestion
+
+        lq = ListeningQuestion.objects.create(
+            question_text='listening',
+            image='images/test.png',
+            audio='audio/test.mp3',
+            correct_answer='1',
+            level='5',
+        )
+        ListeningChoice.objects.create(
+            question=lq, choice_text='A', is_correct=True, order=1
+        )
+
+        response = self.client.get(
+            reverse('exams:question_list_by_level', kwargs={'level': '5'}),
+            {'type': 'random'},
+        )
+        self.assertEqual(response.status_code, 200)
+        content = response.content.decode()
+        self.assertIn('今日はとても暑いです。<br>', content)
+        self.assertIn('① it ② is ③ very hot ④ today<br>', content)
+
+    @patch('exams.views._build_exam_unlock_status')
+    def test_word_order_in_mock_exam_also_renders_newlines(self, mock_unlock):
+        """5級模擬試験（question_list.html）でも語順の改行を維持する"""
+        mock_unlock.return_value = {
+            'random': {
+                'is_unlocked': True,
+                'ready_count': 3,
+                'required_count': 3,
+                'required_rate': 20,
+            },
+            'mock_exam': {
+                'is_unlocked': True,
+                'remaining_categories': [],
+                'total_categories': 6,
+            },
+        }
+        # 模擬試験の構成数に合わせて最低限の問題を用意
+        for i in range(15):
+            q = Question.objects.create(
+                question_text=f'g{i}',
+                question_type='grammar_fill',
+                level='5',
+                question_number=i + 1,
+                explanation='test',
+            )
+            Choice.objects.create(question=q, choice_text='a', is_correct=True, order=1)
+        for i in range(5):
+            q = Question.objects.create(
+                question_text=f'c{i}',
+                question_type='conversation_fill',
+                level='5',
+                question_number=i + 1,
+                explanation='test',
+            )
+            Choice.objects.create(question=q, choice_text='a', is_correct=True, order=1)
+        for i in range(5):
+            text = (
+                '今日はとても暑いです。\n① it ② is ③ very hot ④ today\n[1番目] ( ) [3番目] ( ).'
+                if i == 0
+                else f'w{i}\n① a ② b ③ c ④ d\n[1番目] ( ) [3番目] ( ).'
+            )
+            q = Question.objects.create(
+                question_text=text,
+                question_type='word_order',
+                level='5',
+                question_number=i + 1,
+                explanation='test',
+            )
+            Choice.objects.create(question=q, choice_text='① — ②', is_correct=True, order=1)
+        for i in range(5):
+            q = Question.objects.create(
+                question_text=f'lc{i}',
+                question_type='listening_conversation',
+                level='5',
+                question_number=i + 1,
+                explanation='test',
+            )
+            Choice.objects.create(question=q, choice_text='a', is_correct=True, order=1)
+        from questions.models import ListeningChoice, ListeningQuestion
+
+        for i in range(20):
+            lq = ListeningQuestion.objects.create(
+                question_text=f'l{i}',
+                image=f'images/level5/part1/listening_illustration_image{i + 1}.png',
+                audio=f'audio/level5/part1/listening_illustration_question{i + 1}.mp3',
+                correct_answer='1',
+                level='5',
+            )
+            ListeningChoice.objects.create(
+                question=lq, choice_text='A', is_correct=True, order=1
+            )
+
+        response = self.client.get(
+            reverse('exams:question_list_by_level', kwargs={'level': '5'}),
+            {'type': 'mock_exam'},
+        )
+        self.assertEqual(response.status_code, 200)
+        self.assertTemplateUsed(response, 'exams/question_list.html')
+        content = response.content.decode()
+        self.assertIn('今日はとても暑いです。<br>', content)
+        self.assertIn('① it ② is ③ very hot ④ today<br>', content)
+
     def test_mock_exam_structure_is_50_questions_without_reading(self):
         from exams.views import _get_mock_exam_structure
 
