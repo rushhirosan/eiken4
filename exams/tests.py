@@ -300,6 +300,176 @@ class ExamListViewTest(TestCase):
         self.assertContains(response, '英検3級')
 
 
+class Level3RandomAndMockTests(TestCase):
+    """英検3級のランダム10問・模擬試験まわりのテスト"""
+
+    def setUp(self):
+        self.client = Client()
+        self.user = User.objects.create_user(
+            username='level3user',
+            email='level3@example.com',
+            password='testpass123',
+        )
+        self.client.login(username='level3user', password='testpass123')
+
+    def test_random_categories_and_per_category_count_for_level3(self):
+        from exams.views import (
+            RANDOM_QUESTION_COUNT,
+            _random_categories_for_level,
+            _random_per_category_count,
+        )
+
+        categories = _random_categories_for_level('3')
+        self.assertEqual(len(categories), 4)
+        self.assertNotIn('word_order', [name for name, _ in categories])
+        per = _random_per_category_count(len(categories))
+        self.assertGreaterEqual(per * len(categories), RANDOM_QUESTION_COUNT)
+        self.assertEqual(per, 3)
+
+    def test_mock_exam_structure_level3_excludes_word_order(self):
+        from exams.views import _get_mock_exam_structure
+
+        structure = _get_mock_exam_structure('3')
+        categories = [name for name, _, _ in structure]
+        self.assertNotIn('word_order', categories)
+        self.assertIn('reading_comprehension', categories)
+        self.assertIn('listening_passage', categories)
+
+    @patch('exams.views._build_exam_unlock_status')
+    def test_random_quiz_level3_returns_ten_questions(self, mock_unlock):
+        mock_unlock.return_value = {
+            'random': {
+                'is_unlocked': True,
+                'ready_count': 3,
+                'required_count': 3,
+                'required_rate': 20,
+            },
+            'mock_exam': {
+                'is_unlocked': False,
+                'remaining_categories': [],
+                'total_categories': 0,
+            },
+        }
+        for qtype in (
+            'grammar_fill',
+            'conversation_fill',
+            'listening_conversation',
+        ):
+            for i in range(3):
+                q = Question.objects.create(
+                    question_text=f'{qtype}-{i}',
+                    question_type=qtype,
+                    level='3',
+                    question_number=i + 1,
+                    explanation='test',
+                )
+                Choice.objects.create(
+                    question=q, choice_text='a', is_correct=True, order=1
+                )
+        for i in range(3):
+            lq = ListeningQuestion.objects.create(
+                question_text=f'li-{i}',
+                image='images/test.png',
+                audio='audio/test.mp3',
+                correct_answer='1',
+                level='3',
+            )
+            ListeningChoice.objects.create(
+                question=lq, choice_text='A', is_correct=True, order=1
+            )
+
+        response = self.client.get(
+            reverse('exams:question_list_by_level', kwargs={'level': '3'}),
+            {'type': 'random'},
+        )
+        self.assertEqual(response.status_code, 200)
+        self.assertEqual(len(response.context['questions']), 10)
+
+    @patch('exams.views._build_exam_unlock_status')
+    def test_mock_exam_level3_title_shows_grade3(self, mock_unlock):
+        mock_unlock.return_value = {
+            'random': {
+                'is_unlocked': True,
+                'ready_count': 3,
+                'required_count': 3,
+                'required_rate': 20,
+            },
+            'mock_exam': {
+                'is_unlocked': True,
+                'remaining_categories': [],
+                'total_categories': 6,
+            },
+        }
+        for i in range(15):
+            q = Question.objects.create(
+                question_text=f'g{i}',
+                question_type='grammar_fill',
+                level='3',
+                question_number=i + 1,
+                explanation='test',
+            )
+            Choice.objects.create(question=q, choice_text='a', is_correct=True, order=1)
+        for i in range(5):
+            q = Question.objects.create(
+                question_text=f'c{i}',
+                question_type='conversation_fill',
+                level='3',
+                question_number=i + 1,
+                explanation='test',
+            )
+            Choice.objects.create(question=q, choice_text='a', is_correct=True, order=1)
+        for i in range(10):
+            q = Question.objects.create(
+                question_text=f'lc{i}',
+                question_type='listening_conversation',
+                level='3',
+                question_number=i + 1,
+                explanation='test',
+            )
+            Choice.objects.create(question=q, choice_text='a', is_correct=True, order=1)
+        for i in range(10):
+            q = Question.objects.create(
+                question_text=f'lp{i}',
+                question_type='listening_passage',
+                level='3',
+                question_number=i + 1,
+                explanation='test',
+            )
+            Choice.objects.create(question=q, choice_text='a', is_correct=True, order=1)
+        for i in range(10):
+            lq = ListeningQuestion.objects.create(
+                question_text=f'li{i}',
+                image='images/test.png',
+                audio='audio/test.mp3',
+                correct_answer='1',
+                level='3',
+            )
+            ListeningChoice.objects.create(
+                question=lq, choice_text='A', is_correct=True, order=1
+            )
+        for ident in ('a', 'b', 'c'):
+            passage = ReadingPassage.objects.create(
+                level='3', identifier=ident, text=f'passage {ident}'
+            )
+            rq = ReadingQuestion.objects.create(
+                passage=passage,
+                question_text='Q?',
+                question_number=1,
+            )
+            ReadingChoice.objects.create(
+                question=rq, choice_text='A', is_correct=True, order=1
+            )
+
+        response = self.client.get(
+            reverse('exams:question_list_by_level', kwargs={'level': '3'}),
+            {'type': 'mock_exam'},
+        )
+        self.assertEqual(response.status_code, 200)
+        self.assertTemplateUsed(response, 'exams/mock_exam.html')
+        self.assertContains(response, '模擬試験問題（英検3級）')
+        self.assertNotContains(response, '模擬試験問題（英検4級）')
+
+
 class Level5ExamListTests(TestCase):
     """英検5級の試験一覧・模擬試験構成のテスト"""
 

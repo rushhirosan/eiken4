@@ -169,6 +169,9 @@ _filter_listening_illustrations = filter_listening_illustrations
 _listening_illustration_number = listening_illustration_number
 
 
+RANDOM_QUESTION_COUNT = 10
+
+
 def _random_categories_for_level(level):
     level = str(level)
     categories = [
@@ -184,6 +187,21 @@ def _random_categories_for_level(level):
     return categories
 
 
+def _random_per_category_count(category_count, total=RANDOM_QUESTION_COUNT):
+    """級によってカテゴリ数が違うので、合計 total 問に足りるよう各カテゴリから取る数を決める。"""
+    if category_count <= 0:
+        return 0
+    return max(2, (total + category_count - 1) // category_count)
+
+
+def _exam_level_display(level):
+    level = str(level)
+    for code, name in EXAM_LEVEL_ENTRIES:
+        if code == level:
+            return name
+    return f'英検{level}級'
+
+
 def _get_mock_exam_structure(level):
     level = str(level)
     if level == '5':
@@ -194,6 +212,16 @@ def _get_mock_exam_structure(level):
             ('listening_illustration_part1', ListeningQuestion, 10),
             ('listening_conversation', Question, 5),
             ('listening_illustration_part3', ListeningQuestion, 10),
+        ]
+    if level == '3':
+        # 3級に語順選択はない（ライティングは別メニュー）
+        return [
+            ('grammar_fill', Question, 15),
+            ('conversation_fill', Question, 5),
+            ('reading_comprehension', ReadingPassage, 3),
+            ('listening_illustration', ListeningQuestion, 10),
+            ('listening_conversation', Question, 10),
+            ('listening_passage', Question, 10),
         ]
     return [
         ('grammar_fill', Question, 15),
@@ -491,15 +519,17 @@ def question_list(request, level=None, exam_id=None):
             'listening_illustration': 'リスニングイラスト問題',
         }
         
-        # 各カテゴリーから問題を取得
+        # 各カテゴリーから問題を取得（級によってカテゴリ数が違うので、合計10問になるよう調整）
         categories = _random_categories_for_level(level)
-        
-        # 各カテゴリーから2問ずつ取得（合計12問、その後10問に絞る）
+        per_category = _random_per_category_count(len(categories))
+
         for category_type, model_class in categories:
             if model_class == ListeningQuestion:
-                questions = model_class.objects.filter(level=str(level)).order_by('?')[:2]
+                questions = model_class.objects.filter(level=str(level)).order_by('?')[:per_category]
             else:
-                questions = model_class.objects.filter(level=str(level), question_type=category_type).order_by('?')[:2]
+                questions = model_class.objects.filter(
+                    level=str(level), question_type=category_type
+                ).order_by('?')[:per_category]
             
             for question in questions:
                 if model_class == ListeningQuestion:
@@ -528,9 +558,8 @@ def question_list(request, level=None, exam_id=None):
                         'question_type': category_type
                     })
         
-        # 10問に絞る
-        if len(all_questions) > 10:
-            all_questions = random.sample(all_questions, 10)
+        if len(all_questions) > RANDOM_QUESTION_COUNT:
+            all_questions = random.sample(all_questions, RANDOM_QUESTION_COUNT)
 
         apply_choice_shuffle_to_items(request, level, all_questions)
         
@@ -539,7 +568,7 @@ def question_list(request, level=None, exam_id=None):
             'question_type': question_type,
             'question_type_display': question_types.get(question_type, ''),
             'random_scope_description': random_scope_description(level),
-            'num_questions': 10,
+            'num_questions': RANDOM_QUESTION_COUNT,
             'status': status,
             'questions': all_questions,
             'question_count_options': question_count_options,
@@ -691,6 +720,7 @@ def question_list(request, level=None, exam_id=None):
             
             context = {
                 'level': level,
+                'level_display': _exam_level_display(level),
                 'question_type': question_type,
                 'question_type_display': question_types.get(question_type, ''),
                 'num_questions': len(all_questions) + sum(len(p['questions']) for p in reading_passages),
