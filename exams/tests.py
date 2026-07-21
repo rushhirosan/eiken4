@@ -470,6 +470,8 @@ class Level3RandomAndMockTests(TestCase):
         self.assertNotContains(response, '模擬試験問題（英検4級）')
         self.assertContains(response, 'mock-section-banner')
         self.assertContains(response, '第1部: リスニングイラスト問題')
+        self.assertContains(response, 'listening-illustration-img-wrap')
+        self.assertContains(response, 'question-card')
         # 空の card+header 見出しは使わない（base のグラデと重なるため）
         self.assertNotContains(
             response,
