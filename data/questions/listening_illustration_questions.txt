@@ -12,9 +12,13 @@ Question No.1:
 1. Around ten.
 
 【解説1】
-男性が「What time shall we meet?（何時に会おうか？）」と聞いているので、時間に関する答えが正解です。
-選択肢1の「Around ten（10時ごろ）」が自然な返答になります。
-選択肢2（お金の額）や3（日数）は、時間に対する答えとして不適切です。
+放送文
+M: Let's play in the park tomorrow.（明日公園で遊ぼう。）
+W: OK.（いいよ。）
+M: What time shall we meet?（何時に会おうか？）
+
+最後に「何時に会おうか？」と時刻をたずねているので、1「Around ten.（10時ごろ。）」が自然な応答です。
+2「It's seven dollars.（7ドルだよ。）」は値段、3「For six days.（6日間。）」は期間で、時刻の質問に合いません。
 
 ---
 
@@ -32,10 +36,13 @@ Question No.2:
 1. Yes, over there.
 
 【解説2】
-男性が「Do you have any shirts on sale?（セールのシャツはありますか？）」と尋ねているので、場所を示して案内する返答が自然です。
-選択肢1の「Yes, over there（はい、あちらにあります）」が適切な答えです。
-選択肢2「Sure, that’s mine.（もちろん、それは私のです）」は意味が通じず不自然、
-選択肢3「Fine, thank you.（元気です、ありがとう）」も会話の流れと合いません。
+放送文
+M: Hi, how much is this shirt?（このシャツはいくらですか？）
+W: It's $50.（50ドルです。）
+M: Do you have any shirts on sale?（セール中のシャツはありますか？）
+
+「セール中のシャツはありますか？」と在庫・場所をたずねているので、案内する1「Yes, over there.（はい、あちらにあります。）」が自然です。
+2「Sure, that's mine.（もちろん、それは私のです。）」は所有、3「Fine, thank you.（元気です、ありがとう。）」は体調の返事で、質問に合いません。
 
 ---
 
@@ -53,8 +60,13 @@ Question No.3:
 1. No, I can do it.
 
 【解説3】
-「Shall I carry it for you?（持ってあげようか？）」という申し出に対し、
-「自分でできます」という1の返答が自然です。2と3は文脈に合いません。
+放送文
+M: Your bag looks heavy.（かばんが重そうだね。）
+W: It is.（そうなの。）
+M: Shall I carry it for you?（持ってあげようか？）
+
+「持ってあげようか？」という申し出に対し、1「No, I can do it.（ううん、自分でできるよ。）」と断る返答が自然です。
+2「No, it's in my pocket.（ううん、ポケットの中だよ。）」は場所、3「No, I didn't like it.（ううん、気に入らなかった。）」は感想で、場面に合いません。
 
 ---
 
@@ -72,8 +84,13 @@ Question No.4:
 2. Some rice and salad.
 
 【解説4】
-「魚に何を添える？」という質問に対して、
-ご飯とサラダという食べ物を挙げている2が適切です。1と3は文脈にそぐいません。
+放送文
+W: I caught a fish.（魚を釣ったよ。）
+M: Great. Let's cook it for dinner.（いいね。夕食に料理しよう。）
+W: What should we eat with it?（何と一緒に食べようか？）
+
+魚に添えるものをたずねているので、食べ物を挙げる2「Some rice and salad.（ご飯とサラダ。）」が自然です。
+1「I don't like fishing.（釣りは好きじゃない。）」は感想、3「After lunch.（昼食後に。）」は時で、質問に合いません。
 
 ---
 
@@ -91,8 +108,13 @@ Question No.5:
 3. When I was two years old.
 
 【解説5】
-「いつ箸を使い始めたのか？」という質問に、
-年齢で答える3が自然です。他の選択肢は的外れです。
+放送文
+M: You use chopsticks well.（はしを使うのが上手だね。）
+W: Thank you.（ありがとう。）
+M: When did you start using them?（いつ使い始めたの？）
+
+「いつ」と時をたずねているので、年齢で答える3「When I was two years old.（2歳のときだよ。）」が自然です。
+1「They were very old.（とても古かったよ。）」は状態、2「I want some more.（もっとほしいな。）」は要求で、質問に合いません。
 
 ---
 
@@ -110,8 +132,13 @@ Question No.6:
 3. With my uncle.
 
 【解説6】
-「誰とテニスをしますか？」という質問に対して、
-人を答える3が正解です。1と2は質問の内容に合いません。
+放送文
+W: Do you play tennis?（テニスをするの？）
+M: Yes, I do.（うん、するよ。）
+W: Who do you play with?（誰とするの？）
+
+「誰と」と人をたずねているので、3「With my uncle.（おじとだよ。）」が自然です。
+1「I saw him yesterday.（昨日彼に会ったよ。）」は過去の出来事、2「No, I can't do it.（いや、できないよ。）」は否定で、質問に合いません。
 
 ---
 
@@ -129,8 +156,13 @@ Question No.7:
 1. No, let’s walk.
 
 【解説7】
-「バスに乗る？」という提案に、「歩こう」と答える1が自然です。
-2と3は文脈がずれています。
+放送文
+M: Can we walk to the park?（公園まで歩ける？）
+W: Yes. But there's also a bus.（うん。でもバスもあるよ。）
+M: Do you want to take the bus?（バスに乗りたい？）
+
+バスに乗るか提案されて、1「No, let's walk.（ううん、歩こう。）」と答えるのが自然です。
+2「I have 10.（10個持ってるよ。）」は数、3「Yes, I did.（うん、したよ。）」は過去で、質問に合いません。
 
 ---
 
@@ -148,8 +180,13 @@ Question No.8:
 2. After her vacation.
 
 【解説8】
-「いつ彼女に会えますか？」という未来の質問には、
-「休暇のあと」と未来形の2が適切です。1は過去、3は会話の流れと合いません。
+放送文
+W: Will Ms. Jones come to our meeting?（ジョーンズさんは会議に来ますか？）
+M: No, she won't.（いいえ、来ません。）
+W: When can I see her?（いつ彼女に会えますか？）
+
+未来の「いつ会えるか」をたずねているので、2「After her vacation.（休暇のあとに。）」が自然です。
+1「Three days ago.（3日前。）」は過去、3「Nice to meet you.（はじめまして。）」は初対面のあいさつで、質問に合いません。
 
 ---
 
@@ -167,8 +204,13 @@ Question No.9:
 3. To take pictures of him.
 
 【解説9】
-「なぜカメラを持っていくのか？」という質問には、
-「写真を撮るため」と目的を答える3が自然です。1と2は不適切です。
+放送文
+M: Let's visit Grandpa tomorrow.（明日おじいちゃんを訪ねよう。）
+W: Can I bring my camera?（カメラを持っていっていい？）
+M: Why?（どうして？）
+
+「なぜ」と理由・目的をたずねているので、目的を答える3「To take pictures of him.（彼の写真を撮るためだよ。）」が自然です。
+1「It's not my phone.（私の電話じゃないよ。）」や2「Let's take a train.（電車で行こう。）」は理由になっていません。
 
 ---
 
@@ -186,8 +228,13 @@ Question No.10:
 1. Please take one.
 
 【解説10】
-「もらっていい？」に対して「どうぞ、一冊持っていって」が自然な返答です。
-2と3は質問に答えていません。
+放送文
+W: Are these books for sale?（これらの本は売り物ですか？）
+M: No, they're free.（いいえ、無料です。）
+W: Can I take some?（いくつかもらっていい？）
+
+「もらっていい？」に対して応じる1「Please take one.（1冊どうぞ。）」が自然です。
+2「We don't have it.（それはありません。）」は在庫、3「He writes stories.（彼は物語を書きます。）」は人物の説明で、質問に合いません。
 
 ---
 
@@ -205,8 +252,13 @@ Question No.11:
 3. I did.
 
 【解説11】
-女性が「Who made it?（誰が作ったの？）」と質問しているため、答えは「I did（私が作った）」が自然です。
-選択肢1「It’s hot（辛い／熱い）」や選択肢2「Twenty dollars（20ドル）」は、質問の内容と合っていないため不適切です。
+放送文
+W: Wow, is this chicken curry?（わあ、これはチキンカレー？）
+M: That's right.（その通り。）
+W: Who made it?（誰が作ったの？）
+
+「誰が作ったの？」と人をたずねているので、3「I did.（ぼくだよ。）」が自然です。
+1「It's hot.（辛い〔熱い〕よ。）」は味・温度、2「Twenty dollars.（20ドル。）」は値段で、質問に合いません。
 
 ---
 
@@ -223,8 +275,14 @@ Question No.12:
 【正解12】  
 1. Sorry, we only have orange juice.  
 
-【解説12】  
-「Do you have apple juice?（リンゴジュースはありますか？）」という質問には、飲み物の在庫に関する返答が自然です。選択肢1が適切です。他の選択肢は会話の内容に合いません。
+【解説12】
+放送文
+W: Excuse me.（すみません。）
+M: How can I help you?（どうされましたか？）
+W: Do you have apple juice?（リンゴジュースはありますか？）
+
+飲み物の在庫をたずねているので、1「Sorry, we only have orange juice.（すみません、オレンジジュースしかありません。）」が自然です。
+2「No, I just ate one.（いいえ、さっき1つ食べました。）」は食べ物、3「Thanks a lot for coming.（来てくれてありがとう。）」はあいさつで、質問に合いません。
 
 ---
 
@@ -241,8 +299,14 @@ Question No.13:
 【正解13】  
 2. I’m coming.  
 
-【解説13】  
-母親が急いでと言っているため、「今行きます」という意味の選択肢2が自然です。他の選択肢は場面と合っていません。
+【解説13】
+放送文
+M: Where are you, Andy?（アンディ、どこにいるの？）
+W: In my room, Mom.（部屋だよ、お母さん。）
+M: Hurry up, please. We have to go.（急いで。もう行かなきゃ。）
+
+急ぐよう促されて、2「I'm coming.（今行くよ。）」と答えるのが自然です。
+1「For an hour.（1時間。）」は期間、3「Over there.（あそこだよ。）」は場所で、場面に合いません。
 
 ---
 
@@ -259,8 +323,14 @@ Question No.14:
 【正解14】  
 3. That’s so early.  
 
-【解説14】  
-相手が自分より早く起きたことに対しての反応として「早いね」という選択肢3が自然です。他の選択肢は質問とつながりません。
+【解説14】
+放送文
+W: What time did you get up today?（今日は何時に起きたの？）
+M: Seven thirty. How about you?（7時半。きみは？）
+W: Six o'clock.（6時だよ。）
+
+女性が6時（男性より早い時刻）に起きたと聞いての反応として、3「That's so early.（すごく早いね。）」が自然です。
+1「It's on my bed.（ベッドの上だよ。）」は場所、2「I didn't have time.（時間がなかった。）」は理由で、流れに合いません。
 
 ---
 
@@ -277,8 +347,14 @@ Question No.15:
 【正解15】  
 2. He’ll go to university.  
 
-【解説15】  
-「高校を卒業した後何をするか」という質問に対する直接的な返答が選択肢2です。選択肢1と3は文脈に合いません。
+【解説15】
+放送文
+M: When will your brother finish high school?（お兄さんはいつ高校を卒業するの？）
+W: Next March.（来年の3月。）
+M: What will he do after that?（そのあと何をするの？）
+
+卒業後にすることをたずねているので、2「He'll go to university.（大学に行くよ。）」が自然です。
+1「I have an English test.（英語のテストがあるの。）」は自分の予定、3「My sister will, too.（妹〔姉〕もそうするよ。）」は主語がずれて合いません。
 
 ---
 
@@ -295,8 +371,14 @@ Question No.16:
 【正解16】  
 2. I have a piano lesson.  
 
-【解説16】  
-行けない理由として「ピアノのレッスンがある」が自然な返答です。他の選択肢は理由として不十分です。
+【解説16】
+放送文
+W: Let's go to the beach together.（一緒に海に行こう。）
+M: Sorry, I can't.（ごめん、行けないんだ。）
+W: Why?（どうして？）
+
+行けない理由をたずねているので、予定を答える2「I have a piano lesson.（ピアノのレッスンがあるんだ。）」が自然です。
+1「I love swimming.（泳ぐのが大好きだよ。）」は好み、3「With my friends.（友達とだよ。）」は相手で、理由になっていません。
 
 ---
 
@@ -313,8 +395,14 @@ Question No.17:
 【正解17】  
 1. We must hurry.  
 
-【解説17】  
-店が閉まることに対して「急がなきゃ」と言う選択肢1が適切です。他の選択肢は話の流れと合いません。
+【解説17】
+放送文
+M: What time is it now?（今何時？）
+W: It's 7:30.（7時半だよ。）
+M: The store will close soon.（お店がもうすぐ閉まるね。）
+
+店が閉まるという発言への反応として、1「We must hurry.（急がなきゃ。）」が自然です。
+2「I'll do it later.（あとでやるよ。）」は先延ばし、3「On Sundays.（毎週日曜日に。）」は時で、流れに合いません。
 
 ---
 
@@ -331,8 +419,14 @@ Question No.18:
 【正解18】  
 2. About 20 minutes.  
 
-【解説18】  
-「どれくらいかかる？」という時間に関する質問なので、「約20分」という選択肢2が正しいです。1と3は質問とずれています。
+【解説18】
+放送文
+W: Does this bus go to the train station?（このバスは駅に行きますか？）
+M: Yes, it does.（はい、行きます。）
+W: How long will it take?（どれくらいかかりますか？）
+
+所要時間をたずねているので、2「About 20 minutes.（約20分です。）」が自然です。
+1「It'll be five dollars.（5ドルです。）」は料金、3「I can take it.（それに乗れます。）」は内容がずれて合いません。
 
 ---
 
@@ -349,8 +443,14 @@ Question No.19:
 【正解19】  
 3. Thank you so much.  
 
-【解説19】  
-自分の物が見つかったときに感謝を述べるのが自然なので、選択肢3が最適です。
+【解説19】
+放送文
+M: Excuse me. Is this your phone?（すみません。これはあなたの電話ですか？）
+W: Yes! Where was it?（はい！どこにありましたか？）
+M: On the bench.（ベンチの上です。）
+
+なくした物が見つかった場面なので、感謝を述べる3「Thank you so much.（本当にありがとう。）」が自然です。
+1「That's not my number.（それは私の番号じゃない。）」や2「It's near the park.（公園の近くだよ。）」は場面に合いません。
 
 ---
 
@@ -367,8 +467,14 @@ Question No.20:
 【正解20】  
 1. Thanks, you’re so kind.  
 
-【解説20】  
-助けを申し出られての感謝を表す選択肢1が自然です。他の選択肢は場面と合いません。
+【解説20】
+放送文
+W: You look worried.（心配そうだね。）
+M: My homework is too hard.（宿題が難しすぎるんだ。）
+W: I can help you.（手伝ってあげるよ。）
+
+手伝いを申し出られて感謝する1「Thanks, you're so kind.（ありがとう、優しいね。）」が自然です。
+2「I saw her.（彼女に会ったよ。）」は無関係、3「I already did.（もうやったよ。）」は流れに合いません。
 
 ---
 
@@ -385,8 +491,14 @@ Question No.21:
 【正解21】  
 2. Visit my grandmother.
 
-【解説21】  
-「What are you going to do?」に対して予定を伝える2が適切です。
+【解説21】
+放送文
+M: Are you busy this weekend?（今週末は忙しい？）
+W: Yeah.（うん。）
+M: What are you going to do?（何をする予定？）
+
+予定をたずねているので、2「Visit my grandmother.（祖母を訪ねるの。）」が自然です。
+1「I'm fine, thanks.（元気だよ、ありがとう。）」は体調、3「It's time to start.（始める時間だよ。）」は無関係で、質問に合いません。
 
 ---
 
@@ -403,8 +515,14 @@ Question No.22:
 【正解22】  
 2. I think so, too.
 
-【解説22】  
-「It’s really cute!」に「I think so, too.」と返すのが自然です。
+【解説22】
+放送文
+M: This is my puppy.（これはぼくの子犬だよ。）
+W: Oh, it's really cute!（わあ、本当にかわいい！）
+M: I got him for my birthday.（誕生日にもらったんだ。）
+
+かわいいと言われた子犬について、飼い主も同意する2「I think so, too.（私もそう思う。）」が自然です。
+1「We're OK.（私たちは大丈夫。）」や3「You're lucky.（運がいいね。）」は自分の子犬への返答として合いません。
 
 ---
 
@@ -421,8 +539,14 @@ Question No.23:
 【正解23】  
 1. Every day.
 
-【解説23】  
-頻度を聞く質問には「Every day（毎日）」が適切です。
+【解説23】
+放送文
+M: You're a good tennis player, Julie.（テニスが上手だね、ジュリー。）
+W: Thanks.（ありがとう。）
+M: How often do you play?（どのくらいの頻度でするの？）
+
+頻度をたずねているので、1「Every day.（毎日。）」が自然です。
+2「With my friends.（友達と。）」は相手、3「When I was three.（3歳のとき。）」は過去の時点で、質問に合いません。
 
 ---
 
@@ -439,8 +563,14 @@ Question No.24:
 【正解24】  
 2. I hurt my finger.
 
-【解説24】  
-「What happened?」への返答として2が自然です。
+【解説24】
+放送文
+W: Hi, James. Are you OK?（こんにちはジェームズ。大丈夫？）
+M: Yes, Mom.（うん、お母さん。）
+W: What happened?（何があったの？）
+
+「何があったの？」と出来事をたずねているので、2「I hurt my finger.（指をけがしたんだ。）」が自然です。
+1「Not really.（そうでもないよ。）」はあいまいな返事、3「In the gym.（体育館で。）」は場所で、質問に合いません。
 
 ---
 
@@ -457,8 +587,14 @@ Question No.25:
 【正解25】  
 2. I’ll have that.
 
-【解説25】  
-メニューを聞いた後、注文する2が適切です。
+【解説25】
+放送文
+M: What would you like, ma'am?（何になさいますか？）
+W: What's today's lunch special?（今日のランチの特別メニューは何ですか？）
+M: Roast pork.（ローストポークです。）
+
+メニューを聞いたあと注文する2「I'll have that.（それにします。）」が自然です。
+1「This table is fine.（この席でいいです。）」は席、3「I'm still waiting.（まだ待っています。）」は無関係で、場面に合いません。
 
 ---
 
@@ -475,8 +611,14 @@ Question No.26:
 【正解26】  
 1. No, they were boring.
 
-【解説26】  
-授業について「退屈だった」と答える1が適切です。
+【解説26】
+放送文
+W: How was school?（学校はどうだった？）
+M: It wasn't very good.（あまりよくなかった。）
+W: Were your classes hard?（授業は難しかった？）
+
+授業が難しかったか聞かれ、1「No, they were boring.（いや、退屈だった。）」と答えるのが自然です。
+2「No, they had to go.（いや、彼らは行かなきゃならなかった。）」や3「No, they weren't mine.（いや、私のものじゃなかった。）」は意味が通らず合いません。
 
 ---
 
@@ -493,8 +635,14 @@ Question No.27:
 【正解27】  
 3. We need more sugar.
 
-【解説27】  
-「What should I get?」に対して「We need more sugar」が自然です。
+【解説27】
+放送文
+M: Let's make cookies!（クッキーを作ろう！）
+W: We need a few things first. Can you go to the store?（まず必要なものがあるの。お店に行ってくれる？）
+M: Sure. What should I get?（いいよ。何を買えばいい？）
+
+何を買うかをたずねているので、必要な物を答える3「We need more sugar.（砂糖がもっと必要なの。）」が自然です。
+1「They are in the kitchen.（台所にあるよ。）」は場所、2「It takes 30 minutes.（30分かかるよ。）」は所要時間で、質問に合いません。
 
 ---
 
@@ -511,8 +659,14 @@ Question No.28:
 【正解28】  
 1. OK. We can watch another one.
 
-【解説28】  
-「もう見た」と言われた後、別の映画を提案する1が適切です。
+【解説28】
+放送文
+W: Which movie should we see?（どの映画を見ようか？）
+M: The action movie looks good.（アクション映画がよさそう。）
+W: I already saw that one.（それはもう見たよ。）
+
+「もう見た」と言われて、別の映画を提案する1「OK. We can watch another one.（じゃあ、別のを見ようか。）」が自然です。
+2「Yes. I'll buy the tickets.（うん。チケットを買うよ。）」や3「Sure. That's a good idea.（もちろん。いい考えだね。）」はその映画を見る流れで合いません。
 
 ---
 
@@ -529,8 +683,14 @@ Question No.29:
 【正解29】  
 2. She works with my mother.
 
-【解説29】  
-「How do you know her?」に対して関係を説明する2が自然です。
+【解説29】
+放送文
+M: Who were you talking to?（誰と話していたの？）
+W: That was Ms. Miller.（ミラーさんだよ。）
+M: How do you know her?（どうやって知り合ったの？）
+
+知り合った関係をたずねているので、関係を説明する2「She works with my mother.（母と一緒に働いているの。）」が自然です。
+1「You should call her.（彼女に電話するといいよ。）」は助言、3「I'm going to school now.（今から学校に行くよ。）」は無関係で、質問に合いません。
 
 ---
 
@@ -547,8 +707,14 @@ Question No.30:
 【正解30】  
 1. I’ll get one for you.
 
-【解説30】  
-「緑のペンが必要」と言われて「取ってくるよ」と言う1が自然です。
+【解説30】
+放送文
+W: I'm drawing a picture of our house.（家の絵を描いているの。）
+M: It looks great!（すてきだね！）
+W: I need a green pen for the yard.（庭のために緑のペンが必要なの。）
+
+ペンが必要という発言に、1「I'll get one for you.（取ってきてあげるよ。）」と応じるのが自然です。
+2「That'll be fun.（楽しそうだね。）」は感想、3「It's for your class.（きみの授業のためだよ。）」は無関係で、流れに合いません。
 
 ---
 
@@ -565,8 +731,14 @@ Question No.31:
 【正解31】  
 1. Let’s go to another store.
 
-【解説31】  
-高いと話しているので「別の店に行こう」が自然な応答です。
+【解説31】
+放送文
+☆That watch is pretty.（あの腕時計はすてきね。）
+★Yes, but it's expensive.（うん、でも高いね。）
+☆You're right.（そうだね。）
+
+高くて買えないという流れなので、1「Let's go to another store.（別のお店に行こう。）」が自然です。
+2「It's in a box.（箱の中だよ。）」は場所・状態、3「At the mall.（モールで。）」は場所で、この場面に合いません。
 
 ---
 
@@ -583,8 +755,14 @@ Question No.32:
 【正解32】  
 1. I’m so excited.
 
-【解説32】  
-新しい仕事を得たので「とてもワクワクしている」が自然な応答です。
+【解説32】
+放送文
+☆You look happy.（うれしそうだね。）
+★I am. I got a new job at the library.（うん。図書館で新しい仕事を見つけたんだ。）
+☆That's great.（それはよかったね。）
+
+新しい仕事を喜んでいる場面なので、1「I'm so excited.（とてもワクワクしているよ。）」が自然です。
+2「Sure you can.（もちろんできるよ。）」は許可、3「I have that book.（その本を持っているよ。）」は本の話で、場面に合いません。
 
 ---
 
@@ -601,8 +779,14 @@ Question No.33:
 【正解33】  
 3. Here you are.
 
-【解説33】  
-「少し欲しい」に対して「はい、どうぞ」が適切です。
+【解説33】
+放送文
+☆I love this cake.（このケーキ大好き。）
+★Do you want some more?（もっとほしい？）
+☆Just a little.（少しだけ。）
+
+「少しほしい」に応じて渡す3「Here you are.（はい、どうぞ。）」が自然です。
+1「For a few minutes.（数分間。）」は時間、2「I'm not a good cook.（料理が得意じゃないんだ。）」は無関係で、場面に合いません。
 
 ---
 
@@ -619,8 +803,14 @@ Question No.34:
 【正解34】  
 1. Yes. It was delicious.
 
-【解説34】  
-「シーフードを食べましたか」に対して「はい、美味しかった」が自然です。
+【解説34】
+放送文
+★Where did you go on vacation?（休暇でどこに行ったの？）
+☆I went to Spain.（スペインに行ったよ。）
+★Did you eat seafood?（シーフードは食べた？）
+
+シーフードを食べたか聞かれ、1「Yes. It was delicious.（うん。おいしかったよ。）」と答えるのが自然です。
+2「I'm studying Spanish.（スペイン語を勉強しているよ。）」や3「Well, I have a meeting.（ええと、会議があるんだ。）」は質問に合いません。
 
 ---
 
@@ -637,8 +827,14 @@ Question No.35:
 【正解35】  
 3. It was exciting.
 
-【解説35】  
-「どうだった？」に対して感想を述べる「楽しかった」が適切です。
+【解説35】
+放送文
+☆Where did you go last weekend?（先週末はどこに行ったの？）
+★I went snowboarding at Mt. Baker.（ベイカー山にスノーボードに行ったよ。）
+☆How was it?（どうだった？）
+
+感想をたずねているので、3「It was exciting.（わくわくしたよ。）」が自然です。
+1「We went by car.（車で行ったよ。）」は手段、2「There were five.（5つあったよ。）」は数で、質問に合いません。
 
 ---
 
@@ -655,8 +851,14 @@ Question No.36:
 【正解36】  
 2. Let’s get four or five.
 
-【解説36】  
-「何個必要ですか？」に対して「4個か5個用意しよう」が適切です。
+【解説36】
+放送文
+☆I'd like an apple pie for dessert.（デザートにアップルパイがほしいな。）
+★I'll make some.（作ってあげるよ。）
+☆Great. How many apples do you need?（いいね。リンゴはいくつ必要？）
+
+リンゴの数をたずねているので、2「Let's get four or five.（4個か5個買おう。）」が自然です。
+1「It was so delicious.（とてもおいしかった。）」は感想、3「No, I'm full.（いや、おなかいっぱい。）」は無関係で、質問に合いません。
 
 ---
 
@@ -673,8 +875,14 @@ Question No.37:
 【正解37】  
 1. I’ll do my best.
 
-【解説37】  
-「頑張ってね」に対して「頑張るよ」が自然です。
+【解説37】
+放送文
+☆Is your math test today?（数学のテストは今日？）
+★Yes, it is.（うん、そうだよ。）
+☆Good luck!（がんばってね！）
+
+「がんばって」への返事として、1「I'll do my best.（ベストを尽くすよ。）」が自然です。
+2「It was difficult.（難しかった。）」は過去、3「You'll like it.（気に入るよ。）」は無関係で、場面に合いません。
 
 ---
 
@@ -691,8 +899,14 @@ Question No.38:
 【正解38】  
 3. My aunt and uncle.
 
-【解説38】  
-「一緒に写っている人は誰？」への答えとして「叔母と叔父」が適切です。
+【解説38】
+放送文
+☆Where did you take this photo?（この写真どこで撮ったの？）
+★In Toronto.（トロントだよ。）
+☆Who are the people with you?（一緒にいる人は誰？）
+
+一緒に写っている人をたずねているので、3「My aunt and uncle.（おばとおじだよ。）」が自然です。
+1「During the vacation.（休暇中に。）」は時、2「It was cold and rainy.（寒くて雨だった。）」は天気で、質問に合いません。
 
 ---
 
@@ -709,8 +923,14 @@ Question No.39:
 【正解39】  
 1. I had a good time.
 
-【解説39】  
-「どうだった？」に「楽しかった」が自然な返答です。
+【解説39】
+放送文
+☆Were you at Sam's birthday party?（サムの誕生日パーティーにいた？）
+★Yes.（うん。）
+☆How was it?（どうだった？）
+
+感想をたずねているので、1「I had a good time.（楽しかったよ。）」が自然です。
+2「That's a good idea.（いい考えだね。）」は提案への返事、3「I don't have a ticket.（チケットを持っていないよ。）」は無関係で、質問に合いません。
 
 ---
 
@@ -727,7 +947,13 @@ Question No.40:
 【正解40】  
 3. I’ll visit my cousins.
 
-【解説40】  
-「何をする予定？」に対して「いとこを訪ねる」が正しい返答です。
+【解説40】
+放送文
+☆Do you have any plans for summer vacation?（夏休みの予定はある？）
+★Yes. I'll go to Hawaii.（うん。ハワイに行くよ。）
+☆What will you do there?（そこで何をするの？）
+
+そこで何をするかをたずねているので、3「I'll visit my cousins.（いとこを訪ねるよ。）」が自然です。
+1「On the beach.（ビーチで。）」は場所、2「It will be hot.（暑くなるよ。）」は天気で、質問に合いません。
 
 ---

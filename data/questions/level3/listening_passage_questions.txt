@@ -13,9 +13,12 @@ What is Greg going to do this winter?
 4. Take skating lessons.
 
 【解説1】
-正解は「Take skating lessons.」です。
-設問（What is Greg going to do this winter?）に対して、放送文で述べられている内容と一致するのは「Take skating lessons.」です。
-他の選択肢（Buy a new winter jacket. / Learn how to ski. / Try snowboarding.）は、この設問の条件に当てはまりません。
+放送文
+★Greg likes winter sports.  He’s already good at skiing and snowboarding.（グレッグはウィンタースポーツが好きです。すでにスキーとスノーボードが得意です。）
+This winter, he wants to try something new, so he’ll take some skating lessons.（この冬は何か新しいことに挑戦したいので、スケートのレッスンを受けます。）
+Question: What is Greg going to do this winter?（グレッグはこの冬、何をするつもりですか？）
+
+グレッグは「何か新しいことに挑戦したいのでスケートのレッスンを受ける」と言っているので、4「Take skating lessons.（スケートのレッスンを受ける。）」が正解です。1「Buy a new winter jacket.（新しい冬用の上着を買う。）」は本文にありません。2「Learn how to ski.（スキーの仕方を習う。）」・3「Try snowboarding.（スノーボードに挑戦する。）」は、すでに得意なことなので合いません。
 
 ---
 
@@ -34,9 +37,12 @@ How many times has the man been to the art museum?
 2. Twice.
 
 【解説2】
-正解は「Twice.」です。
-設問（How many times has the man been to the art museum?）に対して、放送文で述べられている内容と一致するのは「Twice.」です。
-他の選択肢（Once. / Three times. / Four times.）は、この設問の条件に当てはまりません。
+放送文
+★Three weeks ago, a new art museum opened in my town.  I’ve already been there twice.（3週間前、私の町に新しい美術館ができました。私はもう2回そこへ行きました。）
+The museum has four floors, and there are paintings from all over the world.（その美術館は4階建てで、世界中の絵画があります。）
+Question: How many times has the man been to the art museum?（男性は美術館に何回行きましたか？）
+
+男性が「もう2回行った」と言っているので、2「Twice.（2回。）」が正解です。1「Once.（1回。）」は合いません。3「Three times.（3回。）」は「3週間前」、4「Four times.（4回。）」は「4階建て」の数字で、行った回数ではありません。
 
 ---
 
@@ -55,9 +61,12 @@ When does the museum close?
 3. In 20 minutes.
 
 【解説3】
-正解は「In 20 minutes.」です。
-設問（When does the museum close?）に対して、放送文で述べられている内容と一致するのは「In 20 minutes.」です。
-他の選択肢（In 5 minutes. / In 10 minutes. / In 40 minutes.）は、この設問の条件に当てはまりません。
+放送文
+★Good evening, everyone.  It’s 5:40 now, so the museum will close in 20 minutes.（皆さん、こんばんは。今は5時40分で、あと20分で美術館は閉館します。）
+The last bus from the museum to Riverhead Station will leave 10 minutes after the museum closes.（美術館からリバーヘッド駅への最終バスは、閉館の10分後に出発します。）
+Question: When does the museum close?（美術館はいつ閉館しますか？）
+
+「あと20分で閉館する」と言っているので、3「In 20 minutes.（20分後。）」が正解です。2「In 10 minutes.（10分後。）」は最終バスに関する数字です。1「In 5 minutes.（5分後。）」・4「In 40 minutes.（40分後。）」は本文にありません。
 
 ---
 
@@ -76,9 +85,12 @@ How will the woman go to the restaurant?
 4. On foot.
 
 【解説4】
-正解は「On foot.」です。
-設問（How will the woman go to the restaurant?）に対して、放送文で述べられている内容と一致するのは「On foot.」です。
-他の選択肢（By train. / By car. / By taxi.）は、この設問の条件に当てはまりません。
+放送文
+☆I’m going to an Italian restaurant tomorrow.  There aren’t any train stations near it, and I don’t have a car, so I’m going to walk there.（明日イタリアンレストランに行きます。近くに駅はなく、車も持っていないので、歩いて行きます。）
+I’ll probably come home by taxi.（帰りはたぶんタクシーで帰ります。）
+Question: How will the woman go to the restaurant?（女性はどうやってレストランへ行きますか？）
+
+女性は「歩いて行く」と言っているので、4「On foot.（徒歩で。）」が正解です。3「By taxi.（タクシーで。）」は帰りの手段です。1「By train.（電車で。）」は近くに駅がなく、2「By car.（車で。）」は車を持っていないので合いません。
 
 ---
 
@@ -97,9 +109,12 @@ What did Max get for his daughter?
 3. A watch.
 
 【解説5】
-正解は「A watch.」です。
-設問（What did Max get for his daughter?）に対して、放送文で述べられている内容と一致するのは「A watch.」です。
-他の選択肢（A cake. / A camera. / A smartphone.）は、この設問の条件に当てはまりません。
+放送文
+★Max went shopping to buy a birthday present for his daughter.（マックスは娘の誕生日プレゼントを買いに買い物へ行きました。）
+He wanted to give her a camera or a smartphone, but they were too expensive.  He found a nice watch, so he bought her that.（カメラかスマートフォンをあげたかったのですが、高すぎました。すてきな腕時計を見つけたので、それを買いました。）
+Question: What did Max get for his daughter?（マックスは娘に何を買いましたか？）
+
+「すてきな腕時計を買った」と言っているので、3「A watch.（腕時計。）」が正解です。2「A camera.（カメラ。）」・4「A smartphone.（スマートフォン。）」は高すぎて買っていません。1「A cake.（ケーキ。）」は本文にありません。
 
 ---
 
@@ -118,9 +133,12 @@ What kind of animal does Mary like the best?
 3. Pandas.
 
 【解説6】
-正解は「Pandas.」です。
-設問（What kind of animal does Mary like the best?）に対して、放送文で述べられている内容と一致するのは「Pandas.」です。
-他の選択肢（Cats. / Birds. / Dogs.）は、この設問の条件に当てはまりません。
+放送文
+★Mary loves animals.  She had birds when she was little.  Now she has a cat and a dog.（メアリーは動物が大好きです。小さいころは鳥を飼っていました。今はネコとイヌを飼っています。）
+But her favorite animal is a panda.  She often goes to see pandas at the zoo.（でも一番好きな動物はパンダです。よく動物園にパンダを見に行きます。）
+Question: What kind of animal does Mary like the best?（メアリーが一番好きな動物は何ですか？）
+
+「一番好きな動物はパンダ」と言っているので、3「Pandas.（パンダ。）」が正解です。2「Birds.（鳥。）」は昔飼っていた動物、1「Cats.（ネコ。）」・4「Dogs.（イヌ。）」は今飼っている動物で、一番好きな動物ではありません。
 
 ---
 
@@ -139,9 +157,12 @@ Where does Ben live now?
 3. In Tokyo.
 
 【解説7】
-正解は「In Tokyo.」です。
-設問（Where does Ben live now?）に対して、放送文で述べられている内容と一致するのは「In Tokyo.」です。
-他の選択肢（In London. / In Sydney. / In Boston.）は、この設問の条件に当てはまりません。
+放送文
+★Ben was born in London and lived there for six years.  He then moved to Sydney and lived there for twelve years.（ベンはロンドンで生まれ、そこに6年間住みました。その後シドニーに引っ越し、12年間住みました。）
+He then moved to Tokyo and has lived there for four years.  He hopes to work in Boston someday.（それから東京に引っ越し、4年間住んでいます。いつかボストンで働きたいと思っています。）
+Question: Where does Ben live now?（ベンは今どこに住んでいますか？）
+
+「東京に引っ越して4年間住んでいる」と言っているので、3「In Tokyo.（東京。）」が正解です。1「In London.（ロンドン。）」・2「In Sydney.（シドニー。）」は以前住んでいた場所、4「In Boston.（ボストン。）」はいつか働きたい場所で、今住んでいる場所ではありません。
 
 ---
 
@@ -160,9 +181,12 @@ Who helped the woman on the train?
 4. A tourist.
 
 【解説8】
-正解は「A tourist.」です。
-設問（Who helped the woman on the train?）に対して、放送文で述べられている内容と一致するのは「A tourist.」です。
-他の選択肢（A girl. / An elderly man. / A student.）は、この設問の条件に当てはまりません。
+放送文
+☆One day, I was on the train with my baby.  The train was full of students and elderly people.（ある日、私は赤ちゃんと一緒に電車に乗っていました。電車は学生やお年寄りでいっぱいでした。）
+Then, a kind tourist spoke to me and gave me his seat.（すると、親切な旅行者が話しかけてきて、席をゆずってくれました。）
+Question: Who helped the woman on the train?（電車で女性を助けたのは誰ですか？）
+
+「親切な旅行者が席をゆずってくれた」と言っているので、4「A tourist.（旅行者。）」が正解です。2「An elderly man.（お年寄りの男性。）」・3「A student.（学生。）」は電車に乗っていた人たちで、助けてはいません。1「A girl.（女の子。）」は本文にありません。
 
 ---
 
@@ -181,9 +205,12 @@ How was the weather on the second day of the boy’s trip?
 3. It was sunny.
 
 【解説9】
-正解は「It was sunny.」です。
-設問（How was the weather on the second day of the boy’s trip?）に対して、放送文で述べられている内容と一致するのは「It was sunny.」です。
-他の選択肢（It was rainy. / It was cloudy. / It was snowy.）は、この設問の条件に当てはまりません。
+放送文
+★Last weekend, our family traveled to Riverside Valley.  It was rainy when we left home, but it was cloudy when we arrived there.（先週末、家族でリバーサイド・バレーへ旅行に行きました。家を出たときは雨でしたが、着いたときは曇りでした。）
+We enjoyed hot springs that day.  The next day was sunny, so we went hiking.（その日は温泉を楽しみました。次の日は晴れたので、ハイキングに行きました。）
+Question: How was the weather on the second day of the boy’s trip?（少年の旅行2日目の天気はどうでしたか？）
+
+「次の日（2日目）は晴れた」と言っているので、3「It was sunny.（晴れだった。）」が正解です。1「It was rainy.（雨だった。）」は家を出たとき、2「It was cloudy.（曇りだった。）」は着いたときの天気です。4「It was snowy.（雪だった。）」は本文にありません。
 
 ---
 
@@ -202,9 +229,12 @@ What did Craig receive?
 3. An invitation to a wedding.
 
 【解説10】
-正解は「An invitation to a wedding.」です。
-設問（What did Craig receive?）に対して、放送文で述べられている内容と一致するのは「An invitation to a wedding.」です。
-他の選択肢（A ticket to a science museum. / A photo of his high school. / A book about science.）は、この設問の条件に当てはまりません。
+放送文
+☆Craig received a letter from his friend from his high school science club.（クレイグは高校の科学部の友達から手紙を受け取りました。）
+In the letter, she invited him to her wedding.  He was very happy about the invitation.（手紙の中で、彼女は彼を結婚式に招待していました。彼はその招待をとても喜びました。）
+Question: What did Craig receive?（クレイグは何を受け取りましたか？）
+
+手紙で「結婚式に招待された」ので、3「An invitation to a wedding.（結婚式への招待。）」が正解です。1「A ticket to a science museum.（科学館のチケット。）」・2「A photo of his high school.（高校の写真。）」・4「A book about science.（科学の本。）」は本文にありません。
 
 ---
 
@@ -223,9 +253,12 @@ What did the woman do in the morning?
 2. She went to the sports club.
 
 【解説11】
-正解は「She went to the sports club.」です。
-設問（What did the woman do in the morning?）に対して、放送文で述べられている内容と一致するのは「She went to the sports club.」です。
-他の選択肢（She met her friend. / She saw a musical. / She worked at the supermarket.）は、この設問の条件に当てはまりません。
+放送文
+☆I had a busy day today.  I went to the sports club from ten to noon, and I worked at the supermarket in the afternoon.（今日は忙しい一日でした。10時から正午までスポーツクラブに行き、午後はスーパーで働きました。）
+In the evening, I went to a musical with my friend.（夕方には友達とミュージカルを見に行きました。）
+Question: What did the woman do in the morning?（女性は午前中に何をしましたか？）
+
+「10時から正午までスポーツクラブに行った」と言っているので、2「She went to the sports club.（スポーツクラブに行った。）」が正解です。4「She worked at the supermarket.（スーパーで働いた。）」は午後、1「She met her friend.（友達に会った。）」・3「She saw a musical.（ミュージカルを見た。）」は夕方のことです。
 
 ---
 
@@ -244,9 +277,12 @@ What was the boy’s problem?
 3. The library wasn’t open.
 
 【解説12】
-正解は「The library wasn’t open.」です。
-設問（What was the boy’s problem?）に対して、放送文で述べられている内容と一致するのは「The library wasn’t open.」です。
-他の選択肢（He forgot to do his homework. / He left his book at school. / The teacher wasn’t home.）は、この設問の条件に当てはまりません。
+放送文
+★I have to write a report for history class.  I don’t have any good books at home, so I went to the library after school today.（歴史の授業のレポートを書かなければなりません。家にいい本がないので、今日は放課後に図書館へ行きました。）
+When I got there, it was closed.  I’ll go again on the weekend.（着いたら閉まっていました。週末にまた行きます。）
+Question: What was the boy’s problem?（少年の問題は何でしたか？）
+
+「図書館に着いたら閉まっていた」ので、3「The library wasn’t open.（図書館が開いていなかった。）」が正解です。1「He forgot to do his homework.（宿題をするのを忘れた。）」・2「He left his book at school.（本を学校に置き忘れた。）」・4「The teacher wasn’t home.（先生が家にいなかった。）」は本文にありません。
 
 ---
 
@@ -265,9 +301,12 @@ What does Sam Wilder do now?
 2. He is a baseball coach.
 
 【解説13】
-正解は「He is a baseball coach.」です。
-設問（What does Sam Wilder do now?）に対して、放送文で述べられている内容と一致するのは「He is a baseball coach.」です。
-他の選択肢（He is a baseball player. / He is a Japanese teacher. / He is a P.E. teacher.）は、この設問の条件に当てはまりません。
+放送文
+★When I was young, my favorite baseball player was Sam Wilder.  My friends at school liked him, too.（私が若かったころ、一番好きな野球選手はサム・ワイルダーでした。学校の友達も彼が好きでした。）
+Now, he is the coach of a baseball team in Japan.（今、彼は日本の野球チームのコーチをしています。）
+Question: What does Sam Wilder do now?（サム・ワイルダーは今、何をしていますか？）
+
+「今は日本の野球チームのコーチ」と言っているので、2「He is a baseball coach.（野球のコーチ。）」が正解です。1「He is a baseball player.（野球選手。）」は昔のことです。3「He is a Japanese teacher.（日本語の先生。）」・4「He is a P.E. teacher.（体育の先生。）」は本文にありません。
 
 ---
 
@@ -286,9 +325,12 @@ How old is the boy’s youngest sister now?
 2. Five years old.
 
 【解説14】
-正解は「Five years old.」です。
-設問（How old is the boy’s youngest sister now?）に対して、放送文で述べられている内容と一致するのは「Five years old.」です。
-他の選択肢（Three years old. / Nine years old. / Thirteen years old.）は、この設問の条件に当てはまりません。
+放送文
+★I have three sisters.  They are 13, 9, and 5 years old.（私には姉妹が3人います。13歳、9歳、5歳です。）
+My youngest sister’s birthday is next month.（一番下の妹の誕生日は来月です。）
+Question: How old is the boy’s youngest sister now?（少年の一番下の妹は今、何歳ですか？）
+
+姉妹は13歳・9歳・5歳で、一番下の妹は5歳なので、2「Five years old.（5歳。）」が正解です。3「Nine years old.（9歳。）」・4「Thirteen years old.（13歳。）」は上の姉妹の年齢です。1「Three years old.（3歳。）」は本文にありません。
 
 ---
 
@@ -307,9 +349,12 @@ How long will Mr. Kato be in London?
 3. For one year.
 
 【解説15】
-正解は「For one year.」です。
-設問（How long will Mr. Kato be in London?）に対して、放送文で述べられている内容と一致するのは「For one year.」です。
-他の選択肢（For one week. / For three weeks. / For three years.）は、この設問の条件に当てはまりません。
+放送文
+☆Mr. Kato studies English three times a week.  Next month, he’s moving to London.（カトウさんは週に3回英語を勉強しています。来月、ロンドンに引っ越します。）
+He’s going to work there for a year.  He is excited about living in London.（そこで1年間働く予定です。ロンドンでの生活を楽しみにしています。）
+Question: How long will Mr. Kato be in London?（カトウさんはどのくらいロンドンにいますか？）
+
+「そこで1年間働く」と言っているので、3「For one year.（1年間。）」が正解です。2「For three weeks.（3週間。）」は「週に3回」の数字と紛らわしいだけで合いません。1「For one week.（1週間。）」・4「For three years.（3年間。）」は本文にありません。
 
 ---
 
@@ -328,9 +373,12 @@ What did the man forget to buy?
 3. Milk.
 
 【解説16】
-正解は「Milk.」です。
-設問（What did the man forget to buy?）に対して、放送文で述べられている内容と一致するのは「Milk.」です。
-他の選択肢（Eggs. / Bread. / Apples.）は、この設問の条件に当てはまりません。
+放送文
+★I went to the supermarket on my way home from work.  I bought apples, eggs, and bread, but I forgot to buy milk.（仕事帰りにスーパーへ行きました。りんご、卵、パンを買いましたが、牛乳を買うのを忘れました。）
+I had to go again the next day.（次の日にまた行かなければなりませんでした。）
+Question: What did the man forget to buy?（男性は何を買い忘れましたか？）
+
+「牛乳を買うのを忘れた」と言っているので、3「Milk.（牛乳。）」が正解です。1「Eggs.（卵。）」・2「Bread.（パン。）」・4「Apples.（りんご。）」はすべて買ったもので、買い忘れてはいません。
 
 ---
 
@@ -349,9 +397,12 @@ Who caught four fish?
 4. The boy’s uncle.
 
 【解説17】
-正解は「The boy’s uncle.」です。
-設問（Who caught four fish?）に対して、放送文で述べられている内容と一致するのは「The boy’s uncle.」です。
-他の選択肢（The boy. / The boy’s brother. / The boy’s father.）は、この設問の条件に当てはまりません。
+放送文
+★I went fishing with my family on Saturday.  We enjoyed fishing at the lake for three hours.（土曜日に家族と釣りに行きました。湖で3時間釣りを楽しみました。）
+My dad caught two fish, my uncle caught four fish, and I caught five fish.（父は2匹、おじは4匹、私は5匹釣りました。）
+Question: Who caught four fish?（4匹釣ったのは誰ですか？）
+
+「おじは4匹釣った」と言っているので、4「The boy’s uncle.（少年のおじ。）」が正解です。3「The boy’s father.（少年の父。）」は2匹、1「The boy.（少年。）」は5匹です。2「The boy’s brother.（少年の兄弟。）」は本文にありません。
 
 ---
 
@@ -370,9 +421,12 @@ Where did the man go after work?
 3. To a restaurant.
 
 【解説18】
-正解は「To a restaurant.」です。
-設問（Where did the man go after work?）に対して、放送文で述べられている内容と一致するのは「To a restaurant.」です。
-他の選択肢（To a supermarket. / To a library. / To a friend’s house.）は、この設問の条件に当てはまりません。
+放送文
+★I was hungry after work today, but I didn’t feel like cooking.（今日は仕事のあとおなかがすいていましたが、料理をする気になれませんでした。）
+So, I called my friend and asked him to go to a restaurant with me.  We had a great time.（それで友達に電話して、一緒にレストランへ行こうと誘いました。楽しい時間を過ごしました。）
+Question: Where did the man go after work?（男性は仕事のあとどこへ行きましたか？）
+
+「友達を誘ってレストランへ行った」ので、3「To a restaurant.（レストラン。）」が正解です。1「To a supermarket.（スーパー。）」・2「To a library.（図書館。）」・4「To a friend’s house.（友達の家。）」は本文にありません。
 
 ---
 
@@ -391,9 +445,12 @@ When will it begin to rain?
 3. On Wednesday night.
 
 【解説19】
-正解は「On Wednesday night.」です。
-設問（When will it begin to rain?）に対して、放送文で述べられている内容と一致するのは「On Wednesday night.」です。
-他の選択肢（On Saturday morning. / On Monday morning. / On Thursday night.）は、この設問の条件に当てはまりません。
+放送文
+☆Good morning.  This is the Sunday morning news.  The weather will be cloudy all week.（おはようございます。日曜の朝のニュースです。今週はずっと曇りでしょう。）
+It will start raining on Wednesday night and stop on Thursday night.  The weather will get better next week.（水曜の夜に雨が降り始め、木曜の夜にやむでしょう。来週は天気がよくなるでしょう。）
+Question: When will it begin to rain?（いつ雨が降り始めますか？）
+
+「水曜の夜に雨が降り始める」と言っているので、3「On Wednesday night.（水曜の夜。）」が正解です。4「On Thursday night.（木曜の夜。）」は雨がやむときです。1「On Saturday morning.（土曜の朝。）」・2「On Monday morning.（月曜の朝。）」は本文にありません。
 
 ---
 
@@ -412,9 +469,12 @@ What did Kevin do last week?
 2. He read a science ﬁction book.
 
 【解説20】
-正解は「He read a science ﬁction book.」です。
-設問（What did Kevin do last week?）に対して、放送文で述べられている内容と一致するのは「He read a science ﬁction book.」です。
-他の選択肢（He sold a history book. / He watched an interesting movie. / He bought some textbooks.）は、この設問の条件に当てはまりません。
+放送文
+★Kevin likes to read books.  Last week, Kevin read a science fiction book about space.（ケビンは本を読むのが好きです。先週、ケビンは宇宙についてのSF小説を読みました。）
+Kevin thought the book was very interesting.  He wants to read a book about history next.（ケビンはその本をとてもおもしろいと思いました。次は歴史についての本を読みたいと思っています。）
+Question: What did Kevin do last week?（ケビンは先週何をしましたか？）
+
+「先週SF小説を読んだ」と言っているので、2「He read a science ﬁction book.（SF小説を読んだ。）」が正解です。1「He sold a history book.（歴史の本を売った。）」・3「He watched an interesting movie.（おもしろい映画を見た。）」・4「He bought some textbooks.（教科書を買った。）」は本文にありません。
 
 ---
 
@@ -433,9 +493,12 @@ What is the boy’s problem?
 3. He can’t ﬁnd the tickets.
 
 【解説21】
-正解は「He can’t ﬁnd the tickets.」です。
-設問（What is the boy’s problem?）に対して、放送文で述べられている内容と一致するのは「He can’t ﬁnd the tickets.」です。
-他の選択肢（He lost his soccer ball. / He forgot his mother’s birthday. / He isn’t good at soccer.）は、この設問の条件に当てはまりません。
+放送文
+★My mom gave me two tickets to a soccer game for my birthday, but now I can’t find them.（お母さんが誕生日にサッカーの試合のチケットを2枚くれましたが、今それが見つかりません。）
+The game is next Saturday, so I need to find them before then.（試合は次の土曜日なので、それまでに見つけないといけません。）
+Question: What is the boy’s problem?（少年の問題は何ですか？）
+
+「チケットが見つからない」と言っているので、3「He can’t ﬁnd the tickets.（チケットが見つからない。）」が正解です。1「He lost his soccer ball.（サッカーボールをなくした。）」・2「He forgot his mother’s birthday.（母の誕生日を忘れた。）」・4「He isn’t good at soccer.（サッカーが得意ではない。）」は本文にありません。
 
 ---
 
@@ -454,9 +517,12 @@ What is the girl talking about?
 3. Her hobby.
 
 【解説22】
-正解は「Her hobby.」です。
-設問（What is the girl talking about?）に対して、放送文で述べられている内容と一致するのは「Her hobby.」です。
-他の選択肢（Her favorite shop. / Her old dress. / Her family.）は、この設問の条件に当てはまりません。
+放送文
+☆I like to make clothes.  Last week, I made a red skirt.（私は服を作るのが好きです。先週は赤いスカートを作りました。）
+My mother helped me, and it took me four days.  Next time, I want to make a dress.（母が手伝ってくれて、4日かかりました。次はワンピースを作りたいです。）
+Question: What is the girl talking about?（女の子は何について話していますか？）
+
+服作りが好きだと自分の趣味について話しているので、3「Her hobby.（彼女の趣味。）」が正解です。4「Her family.（彼女の家族。）」は母を手伝いとして触れているだけ、2「Her old dress.（彼女の古いワンピース。）」は作りたいのは新しいワンピースで合いません。1「Her favorite shop.（お気に入りの店。）」は本文にありません。
 
 ---
 
@@ -475,9 +541,12 @@ When did the girl get the pencil case?
 1. When she was six.
 
 【解説23】
-正解は「When she was six.」です。
-設問（When did the girl get the pencil case?）に対して、放送文で述べられている内容と一致するのは「When she was six.」です。
-他の選択肢（When she was nine. / When she was ﬁfteen. / Last year.）は、この設問の条件に当てはまりません。
+放送文
+☆One of my favorite things is my yellow pencil case.  My grandfather gave it to me when I was six.（私のお気に入りの一つは黄色い筆箱です。祖父が6歳のときにくれました。）
+I’m 15 now, so I’ve used it for nine years.（今は15歳なので、9年間使っています。）
+Question: When did the girl get the pencil case?（女の子はいつ筆箱をもらいましたか？）
+
+「6歳のときに祖父がくれた」と言っているので、1「When she was six.（6歳のとき。）」が正解です。2「When she was nine.（9歳のとき。）」は使ってきた年数、3「When she was ﬁfteen.（15歳のとき。）」は今の年齢です。4「Last year.（去年。）」は本文にありません。
 
 ---
 
@@ -496,9 +565,12 @@ What did the woman do in Paris?
 3. She went to a church.
 
 【解説24】
-正解は「She went to a church.」です。
-設問（What did the woman do in Paris?）に対して、放送文で述べられている内容と一致するのは「She went to a church.」です。
-他の選択肢（She took a bus tour. / She made new friends. / She visited a museum.）は、この設問の条件に当てはまりません。
+放送文
+☆I had fun in Europe.  In London, I took a bus tour and made some new friends.（ヨーロッパで楽しく過ごしました。ロンドンではバスツアーに参加し、新しい友達もできました。）
+In Paris, I visited a beautiful church.  I hope to go back again soon.（パリでは美しい教会を訪れました。近いうちにまた行きたいです。）
+Question: What did the woman do in Paris?（女性はパリで何をしましたか？）
+
+「パリでは教会を訪れた」と言っているので、3「She went to a church.（教会へ行った。）」が正解です。1「She took a bus tour.（バスツアーに参加した。）」・2「She made new friends.（新しい友達ができた。）」はロンドンでのことです。4「She visited a museum.（美術館を訪れた。）」は本文にありません。
 
 ---
 
@@ -517,9 +589,12 @@ Why was the woman late?
 1. She got on the wrong train.
 
 【解説25】
-正解は「She got on the wrong train.」です。
-設問（Why was the woman late?）に対して、放送文で述べられている内容と一致するのは「She got on the wrong train.」です。
-他の選択肢（She couldn’t ﬁnd the train station. / She didn’t feel well. / She had to e­mail her friend.）は、この設問の条件に当てはまりません。
+放送文
+☆Today, I visited my friend in the hospital.  I wanted to arrive at ten, but I was late because I got on a Blue Line train.（今日、入院している友達をお見舞いしました。10時に着きたかったのですが、ブルーラインの電車に乗ってしまい遅れました。）
+Only Green Line trains go to the hospital.（病院へ行くのはグリーンラインの電車だけです。）
+Question: Why was the woman late?（女性はなぜ遅れましたか？）
+
+「間違ってブルーラインの電車に乗った」ので、1「She got on the wrong train.（間違った電車に乗った。）」が正解です。2「She couldn’t ﬁnd the train station.（駅が見つからなかった。）」・3「She didn’t feel well.（気分が悪かった。）」・4「She had to e­mail her friend.（友達にメールしなければならなかった。）」は本文にありません。
 
 ---
 
@@ -538,9 +613,12 @@ When does Mark go fishing?
 2. On Saturday mornings.
 
 【解説26】
-正解は「On Saturday mornings.」です。
-設問（When does Mark go fishing?）に対して、放送文で述べられている内容と一致するのは「On Saturday mornings.」です。
-他の選択肢（On weekday mornings. / On weekday afternoons. / On Saturday afternoons.）は、この設問の条件に当てはまりません。
+放送文
+☆Mark is very busy on weekdays.  He works until the late afternoon every day.（マークは平日はとても忙しいです。毎日、夕方遅くまで働いています。）
+He doesn’t have time to go fishing after work, so he goes on Saturday mornings.（仕事のあとは釣りに行く時間がないので、土曜の朝に行きます。）
+Question: When does Mark go fishing?（マークはいつ釣りに行きますか？）
+
+「土曜の朝に行く」と言っているので、2「On Saturday mornings.（土曜の朝。）」が正解です。1「On weekday mornings.（平日の朝。）」・3「On weekday afternoons.（平日の午後。）」は忙しく働いている時間、4「On Saturday afternoons.（土曜の午後。）」は本文にありません。
 
 ---
 
@@ -559,9 +637,12 @@ When will Laura have a party this year?
 2. On January 22.
 
 【解説27】
-正解は「On January 22.」です。
-設問（When will Laura have a party this year?）に対して、放送文で述べられている内容と一致するのは「On January 22.」です。
-他の選択肢（On January 21. / On January 23. / On January 24.）は、この設問の条件に当てはまりません。
+放送文
+☆Laura’s birthday is January 23.  This year, I’m going to buy a birthday present for her on January 21.（ローラの誕生日は1月23日です。今年は1月21日に彼女への誕生日プレゼントを買うつもりです。）
+We will have a party at Laura’s house on January 22.（1月22日にローラの家でパーティーをします。）
+Question: When will Laura have a party this year?（今年、ローラはいつパーティーをしますか？）
+
+「1月22日にパーティーをする」と言っているので、2「On January 22.（1月22日。）」が正解です。1「On January 21.（1月21日。）」はプレゼントを買う日、3「On January 23.（1月23日。）」は誕生日です。4「On January 24.（1月24日。）」は本文にありません。
 
 ---
 
@@ -580,9 +661,12 @@ What is today’s lunch special?
 2. A German lunch special.
 
 【解説28】
-正解は「A German lunch special.」です。
-設問（What is today’s lunch special?）に対して、放送文で述べられている内容と一致するのは「A German lunch special.」です。
-他の選択肢（An Italian lunch special. / A Spanish lunch special. / An American lunch special.）は、この設問の条件に当てはまりません。
+放送文
+★This restaurant is perfect for people who want to try new food.  We offer various kinds of food, like Italian, Spanish, and American.（このレストランは新しい食べ物を試したい人にぴったりです。イタリア料理、スペイン料理、アメリカ料理など、さまざまな料理をご用意しています。）
+We have a German lunch special today.  All meals come with a drink and salad.（本日はドイツ料理のランチ特別メニューがあります。すべての食事に飲み物とサラダが付きます。）
+Question: What is today’s lunch special?（今日のランチ特別メニューは何ですか？）
+
+「本日はドイツ料理のランチ特別メニュー」と言っているので、2「A German lunch special.（ドイツ料理のランチ特別メニュー。）」が正解です。1「An Italian lunch special.（イタリア料理。）」・3「A Spanish lunch special.（スペイン料理。）」・4「An American lunch special.（アメリカ料理。）」は提供している料理の例で、今日の特別メニューではありません。
 
 ---
 
@@ -601,9 +685,12 @@ What did Peter do with his cousin?
 4. They went to a museum.
 
 【解説29】
-正解は「They went to a museum.」です。
-設問（What did Peter do with his cousin?）に対して、放送文で述べられている内容と一致するのは「They went to a museum.」です。
-他の選択肢（They moved to a small town. / They traveled to New York. / They stayed at a hotel.）は、この設問の条件に当てはまりません。
+放送文
+☆Peter lives in a small town.  Last week, his cousin from New York visited him.（ピーターは小さな町に住んでいます。先週、ニューヨークに住むいとこが彼を訪ねてきました。）
+She was on vacation with her family.  Peter took her to the local museum.（彼女は家族と休暇中でした。ピーターは彼女を地元の博物館に連れて行きました。）
+Question: What did Peter do with his cousin?（ピーターはいとこと何をしましたか？）
+
+「いとこを地元の博物館に連れて行った」ので、4「They went to a museum.（博物館へ行った。）」が正解です。1「They moved to a small town.（小さな町へ引っ越した。）」・2「They traveled to New York.（ニューヨークへ旅行した。）」・3「They stayed at a hotel.（ホテルに泊まった。）」は本文にありません。
 
 ---
 
@@ -622,9 +709,12 @@ How many years has the boy lived in the town?
 3. Five years.
 
 【解説30】
-正解は「Five years.」です。
-設問（How many years has the boy lived in the town?）に対して、放送文で述べられている内容と一致するのは「Five years.」です。
-他の選択肢（One year. / Four years. / Ten years.）は、この設問の条件に当てはまりません。
+放送文
+★The town I live in is famous for its history.  It has many old buildings and four museums.（私が住んでいる町は歴史で有名です。古い建物がたくさんあり、博物館が4つあります。）
+I have lived here for five years and visit my favorite museum once a month.（私はここに5年間住んでいて、お気に入りの博物館に月に1回行きます。）
+Question: How many years has the boy lived in the town?（少年はその町に何年間住んでいますか？）
+
+「ここに5年間住んでいる」と言っているので、3「Five years.（5年。）」が正解です。2「Four years.（4年。）」は博物館の数と紛らわしいだけです。1「One year.（1年。）」・4「Ten years.（10年。）」は本文にありません。
 
 ---
 
@@ -643,9 +733,12 @@ How long does Sophie practice the guitar every day?
 3. For thirty minutes.
 
 【解説31】
-正解は「For thirty minutes.」です。
-設問（How long does Sophie practice the guitar every day?）に対して、放送文で述べられている内容と一致するのは「For thirty minutes.」です。
-他の選択肢（For ten minutes. / For twenty minutes. / For one hour.）は、この設問の条件に当てはまりません。
+放送文
+★Sophie started playing the guitar last month.  She takes lessons at a music school near her house.（ソフィーは先月ギターを始めました。家の近くの音楽教室でレッスンを受けています。）
+Her teacher says she is making good progress, so she practices for thirty minutes every day after school.（先生は彼女がよく上達していると言っていて、彼女は毎日放課後に30分練習します。）
+Question: How long does Sophie practice the guitar every day?（ソフィーは毎日どのくらいギターを練習しますか？）
+
+「毎日30分練習する」と言っているので、3「For thirty minutes.（30分間。）」が正解です。1「For ten minutes.（10分間。）」・2「For twenty minutes.（20分間。）」・4「For one hour.（1時間。）」は本文にありません。
 
 ---
 
@@ -664,9 +757,12 @@ When will the library open tomorrow?
 2. At 9:00 a.m.
 
 【解説32】
-正解は「At 9:00 a.m.」です。
-設問（When will the library open tomorrow?）に対して、放送文で述べられている内容と一致するのは「At 9:00 a.m.」です。
-他の選択肢（At 8:00 a.m. / At 10:00 a.m. / At 7:00 p.m.）は、この設問の条件に当てはまりません。
+放送文
+☆Attention, please.  The city library will open at 9:00 a.m. tomorrow because of a staff meeting.（お知らせします。市立図書館は、スタッフ会議のため明日は午前9時に開館します。）
+It will close at 7:00 p.m. as usual.  Thank you for your understanding.（閉館はいつもどおり午後7時です。ご理解ありがとうございます。）
+Question: When will the library open tomorrow?（図書館は明日いつ開きますか？）
+
+「明日は午前9時に開館する」と言っているので、2「At 9:00 a.m.（午前9時。）」が正解です。4「At 7:00 p.m.（午後7時。）」は閉館時刻です。1「At 8:00 a.m.（午前8時。）」・3「At 10:00 a.m.（午前10時。）」は本文にありません。
 
 ---
 
@@ -685,9 +781,12 @@ Where does Ryan work in the summer?
 2. At a flower shop.
 
 【解説33】
-正解は「At a flower shop.」です。
-設問（Where does Ryan work in the summer?）に対して、放送文で述べられている内容と一致するのは「At a flower shop.」です。
-他の選択肢（At a bakery. / At a hotel. / At a post office.）は、この設問の条件に当てはまりません。
+放送文
+★This summer, Ryan got a part-time job at a flower shop in his neighborhood.（この夏、ライアンは近所の花屋でアルバイトを始めました。）
+He works there three days a week and helps customers choose flowers for birthdays and weddings.（週に3日そこで働き、お客さんが誕生日や結婚式用の花を選ぶのを手伝います。）
+Question: Where does Ryan work in the summer?（ライアンは夏にどこで働いていますか？）
+
+「近所の花屋でアルバイトを始めた」と言っているので、2「At a flower shop.（花屋。）」が正解です。1「At a bakery.（パン屋。）」・3「At a hotel.（ホテル。）」・4「At a post office.（郵便局。）」は本文にありません。
 
 ---
 
@@ -706,9 +805,12 @@ Why is the girl taking a raincoat?
 2. Because it will rain on the first day.
 
 【解説34】
-正解は「Because it will rain on the first day.」です。
-設問（Why is the girl taking a raincoat?）に対して、放送文で述べられている内容と一致するのは「Because it will rain on the first day.」です。
-他の選択肢（Because she lost her umbrella. / Because her teacher told her to buy one. / Because she wants to go swimming.）は、この設問の条件に当てはまりません。
+放送文
+☆I’m packing for my school trip to the mountains.  The weather report says it will rain on the first day, so I’m putting a raincoat in my bag.（山への修学旅行の荷造りをしています。天気予報では初日に雨が降ると言っているので、かばんにレインコートを入れています。）
+I’m also taking a warm sweater and some snacks.（暖かいセーターとおやつも持っていきます。）
+Question: Why is the girl taking a raincoat?（女の子はなぜレインコートを持っていきますか？）
+
+「初日に雨が降ると言っているから」レインコートを入れているので、2「Because it will rain on the first day.（初日に雨が降るから。）」が正解です。1「Because she lost her umbrella.（傘をなくしたから。）」・3「Because her teacher told her to buy one.（先生に買うよう言われたから。）」・4「Because she wants to go swimming.（泳ぎに行きたいから。）」は本文にありません。
 
 ---
 
@@ -727,9 +829,12 @@ When is the swimming pool closed?
 2. On Mondays.
 
 【解説35】
-正解は「On Mondays.」です。
-設問（When is the swimming pool closed?）に対して、放送文で述べられている内容と一致するのは「On Mondays.」です。
-他の選択肢（On Sundays. / On Tuesdays. / On Saturdays.）は、この設問の条件に当てはまりません。
+放送文
+★The Green Park Community Center has a swimming pool that is open from Tuesday to Sunday.（グリーンパーク・コミュニティセンターには、火曜日から日曜日まで開いているプールがあります。）
+It is closed on Mondays for cleaning.  The pool opens at 10:00 a.m. and closes at 8:00 p.m.（月曜日は清掃のため閉まっています。プールは午前10時に開き、午後8時に閉まります。）
+Question: When is the swimming pool closed?（プールはいつ閉まっていますか？）
+
+「月曜日は清掃のため閉まっている」と言っているので、2「On Mondays.（月曜日。）」が正解です。1「On Sundays.（日曜日。）」・3「On Tuesdays.（火曜日。）」・4「On Saturdays.（土曜日。）」は開いている曜日です。
 
 ---
 
@@ -748,9 +853,12 @@ How many books does the boy still have to read?
 1. One book.
 
 【解説36】
-正解は「One book.」です。
-設問（How many books does the boy still have to read?）に対して、放送文で述べられている内容と一致するのは「One book.」です。
-他の選択肢（Two books. / Three books. / Four books.）は、この設問の条件に当てはまりません。
+放送文
+☆Our teacher asked us to read three books during the summer vacation.  I finished two books last month, but I still have one more to read.（先生は私たちに夏休み中に3冊の本を読むように言いました。私は先月2冊読み終えましたが、あと1冊読まなければなりません。）
+I plan to finish it before school starts again.（学校が始まる前に読み終えるつもりです。）
+Question: How many books does the boy still have to read?（少年はあと何冊読まなければなりませんか？）
+
+「あと1冊読まなければならない」と言っているので、1「One book.（1冊。）」が正解です。2「Two books.（2冊。）」は先月読み終えた冊数、3「Three books.（3冊。）」は全部で読むように言われた冊数です。4「Four books.（4冊。）」は本文にありません。
 
 ---
 
@@ -769,9 +877,12 @@ What is today’s main lunch dish?
 2. Chicken curry.
 
 【解説37】
-正解は「Chicken curry.」です。
-設問（What is today’s main lunch dish?）に対して、放送文で述べられている内容と一致するのは「Chicken curry.」です。
-他の選択肢（Beef stew. / Fish and chips. / Vegetable soup.）は、この設問の条件に当てはまりません。
+放送文
+★Welcome to Oakwood High School.  Today’s lunch in the cafeteria is chicken curry with rice and salad.（オークウッド高校へようこそ。今日の食堂のランチは、ライスとサラダ付きのチキンカレーです。）
+We also have vegetable soup and fresh fruit.  Please take your tray to the cashier before you sit down.（野菜スープと新鮮な果物もあります。席に着く前にトレイをレジまでお持ちください。）
+Question: What is today’s main lunch dish?（今日のランチのメイン料理は何ですか？）
+
+「今日のランチはチキンカレー」と言っているので、2「Chicken curry.（チキンカレー。）」が正解です。4「Vegetable soup.（野菜スープ。）」は一緒に出るもので、メイン料理ではありません。1「Beef stew.（ビーフシチュー。）」・3「Fish and chips.（フィッシュアンドチップス。）」は本文にありません。
 
 ---
 
@@ -790,9 +901,12 @@ Where is Daniel studying this year?
 2. In Canada.
 
 【解説38】
-正解は「In Canada.」です。
-設問（Where is Daniel studying this year?）に対して、放送文で述べられている内容と一致するのは「In Canada.」です。
-他の選択肢（In Australia. / In England. / In the United States.）は、この設問の条件に当てはまりません。
+放送文
+☆My older brother, Daniel, is studying abroad this year.  He left for Canada in September and will stay there until next August.（私の兄のダニエルは今年留学しています。9月にカナダへ発ち、来年の8月までそこに滞在します。）
+He sends us photos of his campus and his new friends every week.（毎週、キャンパスや新しい友達の写真を送ってくれます。）
+Question: Where is Daniel studying this year?（ダニエルは今年どこで勉強していますか？）
+
+「9月にカナダへ発った」と言っているので、2「In Canada.（カナダ。）」が正解です。1「In Australia.（オーストラリア。）」・3「In England.（イングランド。）」・4「In the United States.（アメリカ。）」は本文にありません。
 
 ---
 
@@ -811,9 +925,12 @@ Where will Bus Number 12 stop from next Monday?
 2. At Oak Street.
 
 【解説39】
-正解は「At Oak Street.」です。
-設問（Where will Bus Number 12 stop from next Monday?）に対して、放送文で述べられている内容と一致するのは「At Oak Street.」です。
-他の選択肢（At Main Street. / At River Road. / At the train station.）は、この設問の条件に当てはまりません。
+放送文
+★Attention, bus passengers.  Starting next Monday, Bus Number 12 will stop at Oak Street instead of Main Street.（バスをご利用の皆さまへお知らせします。来週の月曜日から、12番バスはメインストリートではなくオークストリートに停まります。）
+The bus time will not change.  Please check the new bus stop map on our website.（バスの時刻は変わりません。新しいバス停の地図はウェブサイトでご確認ください。）
+Question: Where will Bus Number 12 stop from next Monday?（12番バスは来週の月曜日からどこに停まりますか？）
+
+「オークストリートに停まる」と言っているので、2「At Oak Street.（オークストリート。）」が正解です。1「At Main Street.（メインストリート。）」は今まで停まっていた場所です。3「At River Road.（リバーロード。）」・4「At the train station.（駅。）」は本文にありません。
 
 ---
 
@@ -832,6 +949,9 @@ When does the girl volunteer at the animal shelter?
 3. On Saturday afternoons.
 
 【解説40】
-正解は「On Saturday afternoons.」です。
-設問（When does the girl volunteer at the animal shelter?）に対して、放送文で述べられている内容と一致するのは「On Saturday afternoons.」です。
-他の選択肢（On Friday afternoons. / On Saturday mornings. / On Sunday afternoons.）は、この設問の条件に当てはまりません。
+放送文
+☆I love animals, so I volunteer at a local animal shelter.  I go there every Saturday afternoon and help feed the dogs and clean their rooms.（私は動物が大好きなので、地元の動物保護施設でボランティアをしています。毎週土曜日の午後にそこへ行き、イヌにえさをあげたり部屋をそうじしたりするのを手伝います。）
+It is hard work, but it makes me happy.（大変な仕事ですが、私は幸せな気持ちになります。）
+Question: When does the girl volunteer at the animal shelter?（女の子はいつ動物保護施設でボランティアをしますか？）
+
+「毎週土曜日の午後に行く」と言っているので、3「On Saturday afternoons.（土曜日の午後。）」が正解です。2「On Saturday mornings.（土曜日の朝。）」は同じ曜日でも時間帯が違います。1「On Friday afternoons.（金曜日の午後。）」・4「On Sunday afternoons.（日曜日の午後。）」は本文にありません。

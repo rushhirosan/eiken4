@@ -12,8 +12,15 @@ What will Alice do next Sunday?
 【正解1】  
 2. Play in a concert.
 
-【解説1】  
-「Alice will play in a piano concert next Sunday（アリスは来週の日曜日にピアノのコンサートで演奏します）」とあるので、正解は「Play in a concert（コンサートで演奏する）」です。新しいドレスは母が買ったものであり、ピアノのレッスンや母を手伝う話は出てきません。
+【解説1】
+放送文
+M: Alice will play in a piano concert next Sunday.（アリスは次の日曜日にピアノのコンサートで演奏します。）
+Alice is happy because her mother bought her a new dress to wear on stage.（アリスは、お母さんが舞台で着る新しいドレスを買ってくれたので喜んでいます。）
+
+Question: What will Alice do next Sunday?（アリスは次の日曜日に何をしますか？）
+
+「Alice will play in a piano concert next Sunday」とあるので、2「Play in a concert.（コンサートで演奏する。）」が正解です。
+ドレスは母が買ったものなので1「Buy a new dress.（新しいドレスを買う。）」は誤り、3「Help her mother.（母を手伝う。）」・4「Have a piano lesson.（ピアノのレッスン。）」は本文に出てきません。
 
 ---
 
@@ -31,8 +38,15 @@ Why did Shelly stay at home yesterday?
 【正解2】  
 2. She had a headache.
 
-【解説2】  
-Shellyは「頭痛（headache）」があったため、昨日は家にいました。他の選択肢にはそのような理由はありません。
+【解説2】
+放送文
+W: Shelly had a bad headache yesterday, so she stayed at home.（シェリーは昨日ひどい頭痛があったので、家にいました。）
+This morning, she felt better, so she could go to work.（今朝は気分がよくなったので、仕事に行けました。）
+
+Question: Why did Shelly stay at home yesterday?（シェリーはなぜ昨日家にいたのですか？）
+
+「a bad headache（ひどい頭痛）」とあるので、2「She had a headache.（頭痛があった。）」が正解です。
+1「She had a stomachache.（腹痛。）」・3「Her office was closed.（会社が閉まっていた。）」・4「The weather was bad.（天気が悪かった。）」は本文に出てきません。
 
 ---
 
@@ -50,8 +64,16 @@ What did Anna do on the weekend?
 【正解3】  
 2. She went camping.
 
-【解説3】  
-Annaは「last weekend」に友達とキャンプに行ったと述べています。他の選択肢の内容は記述されていません。
+【解説3】
+放送文
+W: Anna likes camping.（アナはキャンプが好きです。）
+Last weekend, she went camping with some friends.（先週末、友達とキャンプに行きました。）
+She was sad because the weather was cloudy, and she couldn't see the moon or the stars.（天気がくもりで、月も星も見えなかったので、悲しかったです。）
+
+Question: What did Anna do on the weekend?（アナは週末に何をしましたか？）
+
+「she went camping with some friends（キャンプに行った）」とあるので、2「She went camping.（キャンプに行った。）」が正解です。
+くもりで月は見えなかったので1「She saw the moon.（月を見た。）」は誤り、3「She met a movie star.」・4「She went to her friend's house.」は本文に出てきません。
 
 ---
 
@@ -69,8 +91,16 @@ What is the man talking about?
 【正解4】  
 4. His trip.
 
-【解説4】  
-話し手はインドへの旅行について話しています。「I went to India」と過去の旅行を語っているため、正解は「His trip」です。
+【解説4】
+放送文
+M: Last summer, I went to India.（去年の夏、私はインドに行きました。）
+I liked the food very much, and I enjoyed learning about Indian culture.（食べ物がとても気に入り、インドの文化について学ぶのを楽しみました。）
+Now, I want to study about India in college.（今は大学でインドについて学びたいです。）
+
+Question: What is the man talking about?（男性は何について話していますか？）
+
+インドへの旅行について語っているので、4「His trip.（旅行。）」が正解です。
+1「His school.（学校。）」・2「His favorite food.（好きな食べ物。）」・3「His favorite subject.（好きな教科。）」は話の中心ではありません。
 
 ---
 
@@ -88,8 +118,16 @@ What is the girl talking about?
 【正解5】  
 1. Her favorite color.
 
-【解説5】  
-女の子は「赤」が好きで、赤い服や靴を持っていて、赤いバッグを買う予定と述べています。つまり「Her favorite color」が正解です。
+【解説5】
+放送文
+W: I like the color red.（私は赤色が好きです。）
+I have many red shirts and shoes.（赤いシャツや靴をたくさん持っています。）
+This weekend, I'll go shopping and get a red bag.（今週末は買い物に行って赤いバッグを買います。）
+
+Question: What is the girl talking about?（女の子は何について話していますか？）
+
+好きな色「赤」について話しているので、1「Her favorite color.（好きな色。）」が正解です。
+2「A new shopping mall.（ショッピングモール。）」・3「Her new shoes.（新しい靴。）」・4「Her vacation.（休暇。）」は話の中心ではありません。
 
 ---
 
@@ -107,8 +145,16 @@ How much is the ticket to Spain?
 【正解6】  
 3. $2,000.
 
-【解説6】  
-スペイン行きのチケットの価格は「$2,000」と明記されています。
+【解説6】
+放送文
+M: I want to fly to Spain this summer, but the ticket is $2,000.（今年の夏スペインに飛行機で行きたいのですが、チケットは2,000ドルです。）
+That's too expensive.（それは高すぎます。）
+I should fly to London. It's only $1,500.（ロンドンに行くべきかな。1,500ドルだけです。）
+
+Question: How much is the ticket to Spain?（スペイン行きのチケットはいくらですか？）
+
+「the ticket is $2,000」とあるので、3「$2,000.」が正解です。
+2「$1,500.」はロンドン行きの値段、1「$1,000.」・4「$2,500.」は本文に出てきません。
 
 ---
 
@@ -126,8 +172,16 @@ Why is the boy sad?
 【正解7】  
 2. His sister broke her arm.
 
-【解説7】  
-「I’m sad because my sister broke her arm」という発言から、妹が腕を骨折したことが理由であることが分かります。
+【解説7】
+放送文
+M: I'm sad because my sister broke her arm.（妹〔姉〕が腕を骨折したので、私は悲しいです。）
+She went to the doctor last week.（先週、彼女は医者に行きました。）
+She will stay home this weekend.（今週末は家にいます。）
+
+Question: Why is the boy sad?（男の子はなぜ悲しいのですか？）
+
+「my sister broke her arm（妹〔姉〕が腕を骨折した）」とあるので、2「His sister broke her arm.（妹〔姉〕が腕を骨折した。）」が正解です。
+1「He had to stay at home.（家にいなければならなかった。）」・3「He caught a cold.（風邪をひいた。）」・4「His sister lost a game.（試合に負けた。）」は本文に出てきません。
 
 ---
 
@@ -145,8 +199,16 @@ Where does the man want to eat next Saturday?
 【正解8】  
 1. At an American restaurant.
 
-【解説8】  
-次の土曜日は「American restaurant」に行きたいと明言しているため、それが正解です。
+【解説8】
+放送文
+M: I often eat Chinese food on the weekend.（週末はよく中華料理を食べます。）
+Last weekend, I went to a Mexican restaurant. It was delicious.（先週末はメキシコ料理店に行きました。おいしかったです。）
+Next Saturday, I want to eat at an American restaurant.（次の土曜日はアメリカ料理店で食べたいです。）
+
+Question: Where does the man want to eat next Saturday?（男性は次の土曜日にどこで食べたいですか？）
+
+「Next Saturday, I want to eat at an American restaurant」とあるので、1「At an American restaurant.（アメリカ料理店。）」が正解です。
+2「At a Chinese restaurant.（中華。）」は週末によく食べる料理、4「At a Mexican restaurant.（メキシコ。）」は先週末、3「At a Japanese restaurant.（日本料理。）」は本文に出てきません。
 
 ---
 
@@ -164,8 +226,17 @@ What does the girl play?
 【正解9】  
 2. The violin.
 
-【解説9】  
-彼女自身が「I play the violin」と言っているので正解は「The violin」です。ピアノは「学びたい」とあるだけで、まだ弾いていません。
+【解説9】
+放送文
+W: My family likes music.（私の家族は音楽が好きです。）
+I play the violin, and my brother plays the drums.（私はバイオリンを弾き、兄〔弟〕はドラムを演奏します。）
+Our parents both play the guitar.（両親は2人ともギターを弾きます。）
+I also want to learn the piano.（私はピアノも習いたいです。）
+
+Question: What does the girl play?（女の子は何を演奏しますか？）
+
+「I play the violin」とあるので、2「The violin.（バイオリン。）」が正解です。
+1「The guitar.（ギター。）」は両親、3「The drums.（ドラム。）」は兄〔弟〕、4「The piano.（ピアノ。）」は習いたいだけでまだ弾いていません。
 
 ---
 
@@ -183,8 +254,15 @@ What time did the man take the train?
 【正解10】  
 2. At 9:30 a.m.
 
-【解説10】  
-「I missed the 9:00 a.m. train... I had to take the 9:30 a.m. train」と述べているので、乗ったのは9:30の電車です。
+【解説10】
+放送文
+M: I missed the 9:00 a.m. train to Tokyo, so I had to take the 9:30 a.m. train.（午前9時の東京行きの電車に乗り遅れたので、午前9時半の電車に乗らなければなりませんでした。）
+However, I wasn't late for my soccer practice at 11:00 a.m.（でも、午前11時のサッカーの練習には遅れませんでした。）
+
+Question: What time did the man take the train?（男性は何時の電車に乗りましたか？）
+
+「I had to take the 9:30 a.m. train」とあるので、2「At 9:30 a.m.」が正解です。
+1「At 9:00 a.m.」は乗り遅れた電車、4「At 11:00 a.m.」は練習の時刻、3「At 10:30 a.m.」は本文に出てきません。
 
 ---
 
@@ -202,8 +280,16 @@ How long was the concert?
 【正解11】  
 4. Four hours.
 
-【解説11】  
-会話に「The concert was four hours long（コンサートは4時間でした）」とあるため、正解は「Four hours」です。他の選択肢は会話の内容と一致しません。
+【解説11】
+放送文
+M: Andy went to a concert with two friends.（アンディは友達2人とコンサートに行きました。）
+The concert was four hours long.（コンサートは4時間の長さでした。）
+Andy was tired, but he had fun.（アンディは疲れましたが、楽しみました。）
+
+Question: How long was the concert?（コンサートはどれくらいの長さでしたか？）
+
+「The concert was four hours long（4時間）」とあるので、4「Four hours.（4時間。）」が正解です。
+1「An hour.」・2「Two hours.」・3「Three hours.」は本文に出てきません。
 
 ---
 
@@ -221,8 +307,15 @@ What will Megan do tomorrow?
 【正解12】  
 2. Go on a trip.
 
-【解説12】  
-「She’ll go on a trip tomorrow（彼女は明日旅行に行きます）」とあるため、正解は「Go on a trip」です。買い物や掃除は今日する予定のことです。
+【解説12】
+放送文
+W: Megan is busy because she'll go on a trip tomorrow.（メーガンは明日旅行に行くので忙しいです。）
+Today, she has to go shopping after work and clean her house tonight.（今日は仕事のあと買い物に行き、夜は家を掃除しなければなりません。）
+
+Question: What will Megan do tomorrow?（メーガンは明日何をしますか？）
+
+「she'll go on a trip tomorrow（明日旅行に行く）」とあるので、2「Go on a trip.（旅行に行く。）」が正解です。
+1「Go shopping.（買い物。）」・3「Clean her house.（掃除。）」・4「Go to work.（仕事。）」は今日の予定です。
 
 ---
 
@@ -240,8 +333,15 @@ Who gives food to the dog every day?
 【正解13】  
 4. The boy’s father.
 
-【解説13】  
-「my dad gives him food every day（私の父が毎日餌をあげています）」とあるため、正解は「The boy’s father.」です。
+【解説13】
+放送文
+M: My family has a pet dog.（私の家族はペットの犬を飼っています。）
+My mom and I play with him a lot, and my dad gives him food every day.（母と私はよく一緒に遊び、父が毎日えさをあげます。）
+
+Question: Who gives food to the dog every day?（毎日犬にえさをあげるのは誰ですか？）
+
+「my dad gives him food every day（父が毎日えさをあげる）」とあるので、4「The boy's father.（父。）」が正解です。
+3「The boy's mother.（母。）」と1「The boy.（男の子。）」は遊ぶ役、2「The boy's sister.（姉妹。）」は本文に出てきません。
 
 ---
 
@@ -259,8 +359,15 @@ Where does Laura usually eat lunch?
 【正解14】  
 4. At a park.
 
-【解説14】  
-「eats it at a park near her office（オフィスの近くの公園で食べる）」とあるため、正解は「At a park」です。レストランで食べたのは昨日だけです。
+【解説14】
+放送文
+W: Laura usually makes her lunch and eats it at a park near her office.（ローラはたいてい昼食を作り、会社の近くの公園で食べます。）
+But yesterday was her friend's birthday, so they ate at a restaurant.（でも昨日は友達の誕生日だったので、レストランで食べました。）
+
+Question: Where does Laura usually eat lunch?（ローラはふだんどこで昼食を食べますか？）
+
+「eats it at a park（公園で食べる）」とあるので、4「At a park.（公園。）」が正解です。
+2「At a restaurant.（レストラン。）」は昨日だけ、1「At her friend's house.」・3「At her office.」は本文に出てきません。
 
 ---
 
@@ -279,8 +386,17 @@ Which shirt was too small?
 【正解15】  
 4. The red one.
 
-【解説15】  
-「a nice red shirt, but it was too small（赤いシャツは小さすぎた）」とあるため、正解は「The red one」です。
+【解説15】
+放送文
+W: Julie went shopping.（ジュリーは買い物に行きました。）
+She saw a nice red shirt, but it was too small.（すてきな赤いシャツを見つけましたが、小さすぎました。）
+The store also had blue and white shirts.（店には青と白のシャツもありました。）
+Julie bought a white one.（ジュリーは白いのを買いました。）
+
+Question: Which shirt was too small?（どのシャツが小さすぎましたか？）
+
+「a nice red shirt, but it was too small（赤いシャツは小さすぎた）」とあるので、4「The red one.（赤いの。）」が正解です。
+3「The white one.（白いの。）」は買ったもの、1「The blue one.（青いの。）」は店にあった色、2「The black one.（黒いの。）」は本文に出てきません。
 
 ---
 
@@ -298,8 +414,16 @@ What did Helen give to Ray?
 【正解16】  
 3. A comic book.
 
-【解説16】  
-「He got a comic book from Helen（ヘレンからはマンガ本をもらった）」とあるため、正解は「A comic book」です。
+【解説16】
+放送文
+M: Yesterday was Ray's birthday.（昨日はレイの誕生日でした。）
+His mother gave him a sweater, and his father gave him a bike.（母はセーターを、父は自転車をあげました。）
+He got a comic book from Helen.（ヘレンからはマンガ本をもらいました。）
+
+Question: What did Helen give to Ray?（ヘレンはレイに何をあげましたか？）
+
+「a comic book from Helen（ヘレンからマンガ本）」とあるので、3「A comic book.（マンガ本。）」が正解です。
+1「A sweater.（セーター。）」は母、2「A bicycle.（自転車。）」は父、4「A birthday card.（誕生日カード。）」は本文に出てきません。
 
 ---
 
@@ -317,8 +441,16 @@ What time does the boy eat breakfast?
 【正解17】  
 2. At 6:30.
 
-【解説17】  
-「I eat breakfast at 6:30（6時30分に朝ごはんを食べます）」とあるため、正解は「At 6:30」です。
+【解説17】
+放送文
+M: Every morning, I get up at 6:00.（毎朝、私は6時に起きます。）
+I get dressed, and then I eat breakfast at 6:30.（着替えて、それから6時半に朝食を食べます。）
+I leave for school at 7:15, and I get there at 7:30.（7時15分に学校へ出発し、7時半に着きます。）
+
+Question: What time does the boy eat breakfast?（男の子は何時に朝食を食べますか？）
+
+「I eat breakfast at 6:30」とあるので、2「At 6:30.」が正解です。
+1「At 6:00.」は起床、3「At 7:15.」は出発、4「At 7:30.」は到着の時刻です。
 
 ---
 
@@ -336,8 +468,15 @@ When will the students have an art class?
 【正解18】  
 2. On Wednesday.
 
-【解説18】  
-「They will have an art class on Wednesday afternoon（美術の授業は水曜の午後）」とあるため、正解は「On Wednesday」です。
+【解説18】
+放送文
+M: On Monday afternoon, Mr. Tanaka's students will study English.（月曜日の午後、田中先生の生徒たちは英語を勉強します。）
+They will have an art class on Wednesday afternoon, and on Friday afternoon, they will take a test.（水曜日の午後は美術の授業があり、金曜日の午後はテストを受けます。）
+
+Question: When will the students have an art class?（生徒たちはいつ美術の授業がありますか？）
+
+「an art class on Wednesday afternoon」とあるので、2「On Wednesday.（水曜。）」が正解です。
+1「On Monday.（月曜。）」は英語、4「On Friday.（金曜。）」はテスト、3「On Thursday.（木曜。）」は本文に出てきません。
 
 ---
 
@@ -355,8 +494,15 @@ Where did Ian go today?
 【正解19】  
 1. To the hospital.
 
-【解説19】  
-「he went to the hospital with his father today（父と一緒に病院へ行った）」とあるため、正解は「To the hospital」です。
+【解説19】
+放送文
+W: Ian didn't go to school today.（イアンは今日学校に行きませんでした。）
+His mother had a baby last night, so he went to the hospital with his father today.（昨夜お母さんが赤ちゃんを産んだので、今日は父と一緒に病院に行きました。）
+
+Question: Where did Ian go today?（イアンは今日どこへ行きましたか？）
+
+「he went to the hospital with his father（病院に行った）」とあるので、1「To the hospital.（病院へ。）」が正解です。
+2「To school.（学校へ。）」は行っておらず、3「To his father's office.」・4「To a park.」は本文に出てきません。
 
 ---
 
@@ -374,8 +520,15 @@ What will Marsha do this weekend?
 【正解20】  
 1. Play video games.
 
-【解説20】  
-「Marsha will play video games at home with her brother（ビデオゲームを兄と家で遊ぶ）」とあるため、正解は「Play video games」です。テニスは天気のためにできません。
+【解説20】
+放送文
+W: Marsha usually plays tennis on Saturdays.（マーシャはたいてい土曜日にテニスをします。）
+This weekend, it will rain, so Marsha will play video games at home with her brother.（今週末は雨なので、マーシャは家で兄〔弟〕とテレビゲームをします。）
+
+Question: What will Marsha do this weekend?（マーシャは今週末何をしますか？）
+
+「play video games at home（テレビゲームをする）」とあるので、1「Play video games.（テレビゲームをする。）」が正解です。
+テニスは雨のためできないので4「Watch tennis.」は誤り、2「Run with her brother.」・3「Go to a friend's home.」は本文に出てきません。
 
 ---
 
@@ -393,8 +546,17 @@ What is the boy talking about?
 【正解21】  
 4. His brother.
 
-【解説21】  
-「My brother is a musician」と兄について話しているので、正解は4です。
+【解説21】
+放送文
+M: My brother is a musician.（私の兄〔弟〕はミュージシャンです。）
+He plays the guitar.（ギターを弾きます。）
+He started to play the guitar when he was five.（5歳のときにギターを始めました。）
+Now, he's in a rock band.（今はロックバンドに入っています。）
+
+Question: What is the boy talking about?（男の子は何について話していますか？）
+
+「My brother is a musician」と兄〔弟〕について話しているので、4「His brother.（兄〔弟〕。）」が正解です。
+1「His band.（バンド。）」・2「His guitar.（ギター。）」は兄の説明の一部、3「His music teacher.（音楽の先生。）」は本文に出てきません。
 
 ---
 
@@ -412,8 +574,16 @@ Why is the boy excited?
 【正解22】  
 3. His host family will visit him.
 
-【解説22】  
-「they’ll visit me this winter」とあるので、正解は3です。
+【解説22】
+放送文
+M: I study Spanish at school.（学校でスペイン語を勉強しています。）
+Last summer, I went to Spain and stayed with a host family.（去年の夏、スペインに行ってホストファミリーの家に滞在しました。）
+I'm excited because they'll visit me this winter.（今年の冬に彼らが訪ねてくるので、わくわくしています。）
+
+Question: Why is the boy excited?（男の子はなぜわくわくしているのですか？）
+
+「they'll visit me this winter（冬に訪ねてくる）」とあるので、3「His host family will visit him.（ホストファミリーが訪ねてくる。）」が正解です。
+1「He will go to Spain.（スペインに行く。）」は去年のこと、2「He will make Spanish food.」・4「His school will start.」は本文に出てきません。
 
 ---
 
@@ -431,8 +601,16 @@ What will the girl buy for her mother?
 【正解23】  
 3. Some flowers.
 
-【解説23】  
-「She doesn’t like cakes or books, so I’ll get some flowers for her」と述べているため正解は3です。
+【解説23】
+放送文
+W: My mother's birthday is tomorrow.（母の誕生日は明日です。）
+I want to buy her something.（何か買ってあげたいです。）
+She doesn't like cakes or books, so I'll get some flowers for her.（母はケーキも本も好きではないので、花を買います。）
+
+Question: What will the girl buy for her mother?（女の子は母に何を買いますか？）
+
+「I'll get some flowers for her（花を買う）」とあるので、3「Some flowers.（花。）」が正解です。
+4「Some cakes.（ケーキ。）」・2「A book.（本。）」は好きではないもの、1「A card.（カード。）」は本文に出てきません。
 
 ---
 
@@ -450,8 +628,15 @@ When will David go to the doctor?
 【正解24】  
 2. This afternoon.
 
-【解説24】  
-「he’ll see the doctor in the afternoon」とあるので正解は2です。
+【解説24】
+放送文
+M: David has to see the doctor today.（デイビッドは今日医者に行かなければなりません。）
+He can't go in the morning, so he'll see the doctor in the afternoon, after lunch.（午前中は行けないので、昼食後の午後に医者に行きます。）
+
+Question: When will David go to the doctor?（デイビッドはいつ医者に行きますか？）
+
+「in the afternoon, after lunch（午後に）」とあるので、2「This afternoon.（今日の午後。）」が正解です。
+1「This morning.（今朝。）」は行けない時間、3「Tomorrow morning.」・4「Tomorrow afternoon.」は本文に出てきません。
 
 ---
 
@@ -469,8 +654,16 @@ What was the boy’s problem?
 【正解25】  
 1. He couldn’t see the parade.
 
-【解説25】  
-「I couldn’t see anything」と述べているので正解は1です。
+【解説25】
+放送文
+M: There was a parade in town yesterday.（昨日、町でパレードがありました。）
+My parents took me, but there were too many people.（両親が連れて行ってくれましたが、人が多すぎました。）
+I couldn't see anything.（何も見えませんでした。）
+
+Question: What was the boy's problem?（男の子の問題は何でしたか？）
+
+「I couldn't see anything（何も見えなかった）」とあるので、1「He couldn't see the parade.（パレードが見えなかった。）」が正解です。
+2「His parents were busy.」・3「His eyes hurt.」・4「He missed the bus.」は本文に出てきません。
 
 ---
 
@@ -488,8 +681,16 @@ How will the woman go to the bookstore?
 【正解26】  
 2. She will walk.
 
-【解説26】  
-「walk to the bookstore」とあるので正解は2です。
+【解説26】
+放送文
+W: I'm going to walk to the bookstore.（私は書店まで歩いて行きます。）
+It's near the bus stop and the train station.（バス停と駅の近くにあります。）
+I can walk there easily. It takes about 10 minutes.（簡単に歩いて行けます。約10分かかります。）
+
+Question: How will the woman go to the bookstore?（女性はどうやって書店に行きますか？）
+
+「walk to the bookstore（歩いて行く）」とあるので、2「She will walk.（歩く。）」が正解です。
+バス停や駅は近くにあるだけなので1「She will take a train.」・3「She will take a bus.」は誤り、4「She will drive a car.」は本文に出てきません。
 
 ---
 
@@ -507,8 +708,16 @@ How much is a tomato?
 【正解27】  
 1. $1.
 
-【解説27】  
-「A tomato is $1」と書かれているので正解は1です。
+【解説27】
+放送文
+M: I want vegetables for a salad.（サラダ用の野菜がほしいです。）
+A tomato is $1, and carrots are $2 for a kilogram.（トマトは1個1ドル、にんじんは1キロ2ドルです。）
+I'll buy three tomatoes and five carrots.（トマトを3個、にんじんを5本買います。）
+
+Question: How much is a tomato?（トマトは1個いくらですか？）
+
+「A tomato is $1」とあるので、1「$1.」が正解です。
+2「$2.」はにんじんの値段、3「$3.」・4「$5.」は本文に出てきません。
 
 ---
 
@@ -526,8 +735,15 @@ Why does the girl want to study Spanish?
 【正解28】  
 3. To talk to her friend.
 
-【解説28】  
-「I want to talk to her more」と述べているので正解は3です。
+【解説28】
+放送文
+W: My friend Jessie is from Mexico, and she speaks Spanish.（友達のジェシーはメキシコ出身で、スペイン語を話します。）
+I want to talk to her more, so I want to study Spanish.（もっと彼女と話したいので、スペイン語を勉強したいです。）
+
+Question: Why does the girl want to study Spanish?（女の子はなぜスペイン語を勉強したいのですか？）
+
+「I want to talk to her more（もっと話したい）」とあるので、3「To talk to her friend.（友達と話すため。）」が正解です。
+1「To pass a test.」・2「To travel to Mexico.」・4「To go to university.」は本文に出てきません。
 
 ---
 
@@ -545,8 +761,16 @@ When does the boy go snowboarding?
 【正解29】  
 1. On Tuesdays.
 
-【解説29】  
-「We like to snowboard on Tuesdays」とあるので正解は1です。
+【解説29】
+放送文
+M: In the winter, my brother and I snowboard.（冬は、兄〔弟〕と私はスノーボードをします。）
+We like to snowboard on Tuesdays.（私たちは火曜日にスノーボードをするのが好きです。）
+There are too many people at the mountain on Saturdays and Sundays.（土曜日と日曜日は山に人が多すぎます。）
+
+Question: When does the boy go snowboarding?（男の子はいつスノーボードに行きますか？）
+
+「We like to snowboard on Tuesdays（火曜日）」とあるので、1「On Tuesdays.（火曜。）」が正解です。
+3「On Saturdays.」・4「On Sundays.」は人が多い日、2「On Thursdays.」は本文に出てきません。
 
 ---
 
@@ -564,8 +788,16 @@ Where is the woman talking?
 【正解30】  
 2. At an airport.
 
-【解説30】  
-「The plane at Gate 5 is ready」とあるため空港が正解です。
+【解説30】
+放送文
+W: Thank you for waiting.（お待ちいただきありがとうございます。）
+The plane at Gate 5 is ready now.（5番ゲートの飛行機の準備ができました。）
+Please bring your tickets to the gate.（チケットをゲートまでお持ちください。）
+
+Question: Where is the woman talking?（女性はどこで話していますか？）
+
+「The plane at Gate 5（5番ゲートの飛行機）」とあるので、2「At an airport.（空港。）」が正解です。
+1「At a train station.（駅。）」・3「At a museum.（博物館。）」・4「At an office.（会社。）」は本文の内容に合いません。
 
 ---
 
@@ -583,7 +815,15 @@ What will the boy do next month?
 3. Join a sports club.
 
 【解説31】
-「I’m going to join a sports club next month」と言っているので Join a sports club が正解です。
+放送文
+M: I have an older brother.（私には兄がいます。）
+He plays rugby.（彼はラグビーをします。）
+I'm going to join a sports club next month because I want to be as strong as my brother.（兄と同じくらい強くなりたいので、来月スポーツクラブに入ります。）
+
+Question: What will the boy do next month?（男の子は来月何をしますか？）
+
+「I'm going to join a sports club next month（来月スポーツクラブに入る）」とあるので、3「Join a sports club.（スポーツクラブに入る。）」が正解です。
+1「Visit his brother.」・2「Call his brother.」・4「Watch a rugby game.」は本文に出てきません。
 
 ---
 
@@ -601,7 +841,15 @@ What is the woman talking about?
 4. A trip to the zoo.
 
 【解説32】
-「We’re going to go to the zoo tomorrow」とあるので A trip to the zoo が正解です。
+放送文
+W: Class, we're going to go to the zoo tomorrow.（みなさん、明日は動物園に行きます。）
+Please bring your lunch and don't forget to wear a hat.（お弁当を持ってきて、ぼうしを忘れずにかぶってください。）
+It'll be hot and sunny.（暑くて晴れるでしょう。）
+
+Question: What is the woman talking about?（女性は何について話していますか？）
+
+「we're going to go to the zoo tomorrow（動物園に行く）」とあるので、4「A trip to the zoo.（動物園への遠足。）」が正解です。
+1「Today's weather.（今日の天気。）」は付随情報、2「A new school uniform.」・3「A restaurant.」は本文に出てきません。
 
 ---
 
@@ -619,7 +867,15 @@ Where will the girl walk her dog today?
 2. To her friend’s house.
 
 【解説33】
-「today, we’re going to walk to my friend’s house」とあるので 2 が正解です。
+放送文
+W: I like to walk my dog every day.（私は毎日犬を散歩させるのが好きです。）
+Sometimes we walk to the river, and sometimes we walk to the bridge.（川まで歩くこともあれば、橋まで歩くこともあります。）
+But today, we're going to walk to my friend's house.（でも今日は、友達の家まで歩きます。）
+
+Question: Where will the girl walk her dog today?（女の子は今日どこへ犬を散歩させますか？）
+
+「today, we're going to walk to my friend's house（今日は友達の家）」とあるので、2「To her friend's house.（友達の家。）」が正解です。
+3「To the river.（川。）」・4「To the bridge.（橋。）」はいつもの場所、1「To the pet store.（ペットショップ。）」は本文に出てきません。
 
 ---
 
@@ -637,7 +893,15 @@ Where is the man talking?
 3. At a sports store.
 
 【解説34】
-「This week, we’re having a sale」と言っているので At a sports store が正解です。
+放送文
+M: Good afternoon, customers.（お客様、こんにちは。）
+This week, we're having a sale on basketballs and soccer balls.（今週はバスケットボールとサッカーボールのセールをしています。）
+On the weekend, tennis and badminton rackets will be on sale, too.（週末はテニスとバドミントンのラケットもセールになります。）
+
+Question: Where is the man talking?（男性はどこで話していますか？）
+
+スポーツ用品のセールを案内しているので、3「At a sports store.（スポーツ用品店。）」が正解です。
+1「At a baseball stadium.（野球場。）」・2「In a school gym.（体育館。）」・4「In the teachers' room.（職員室。）」は本文の内容に合いません。
 
 ---
 
@@ -655,7 +919,15 @@ What does the woman want to do next year?
 4. Go to London.
 
 【解説35】
-「Next year, I want to visit London」とあるので Go to London が正解です。
+放送文
+W: Last July, I went to Rome.（去年の7月、私はローマに行きました。）
+I went shopping, and I also went to some museums.（買い物をして、いくつか博物館にも行きました。）
+Next year, I want to visit London.（来年はロンドンを訪れたいです。）
+
+Question: What does the woman want to do next year?（女性は来年何をしたいですか？）
+
+「Next year, I want to visit London（来年ロンドン）」とあるので、4「Go to London.（ロンドンに行く。）」が正解です。
+3「Go to Rome.（ローマに行く。）」は去年のこと、1「Work at a department store.」・2「Work at a museum.」は本文に出てきません。
 
 ---
 
@@ -673,7 +945,15 @@ Whose pet is black?
 4. Tom’s.
 
 【解説36】
-「Tom’s black rabbit」と言っているので Tom’s が正解です。
+放送文
+W: Some of my friends have pets.（私の友達の何人かはペットを飼っています。）
+Lucy has a white dog, and Bob has two brown cats.（ルーシーは白い犬を、ボブは茶色い猫を2匹飼っています。）
+I like Tom's black rabbit. They are all cute.（私はトムの黒いウサギが好きです。みんなかわいいです。）
+
+Question: Whose pet is black?（黒いペットを飼っているのは誰ですか？）
+
+「Tom's black rabbit（トムの黒いウサギ）」とあるので、4「Tom's.（トムの。）」が正解です。
+2「Lucy's.」は白い犬、3「Bob's.」は茶色い猫、1「The girl's.」のペットは本文に出てきません。
 
 ---
 
@@ -691,7 +971,14 @@ Why does John always feel happy on his birthday?
 1. He can have a party at home.
 
 【解説37】
-「because he can have a birthday party at home」と言っているので 1 が正解です。
+放送文
+M: Every year, on John's birthday, his mother cooks dinner, and his father makes a cake.（毎年ジョンの誕生日には、母が夕食を作り、父がケーキを作ります。）
+He always feels happy on his birthday because he can have a birthday party at home.（家で誕生日パーティーができるので、彼はいつも誕生日にうれしく感じます。）
+
+Question: Why does John always feel happy on his birthday?（ジョンはなぜいつも誕生日にうれしく感じるのですか？）
+
+「because he can have a birthday party at home（家でパーティーができる）」とあるので、1「He can have a party at home.（家でパーティーができる。）」が正解です。
+ケーキは父が作るので2「His parents buy a cake.（ケーキを買う。）」は誤り、3「He gets money.」・4「The dinner is delicious.」は本文で理由として述べられていません。
 
 ---
 
@@ -709,7 +996,15 @@ Why did Tim go to the café?
 1. He was hungry.
 
 【解説38】
-「They got hungry, so they went to a café」とあるので 1 が正解です。
+放送文
+M: Tim and his friend were at the park.（ティムと友達は公園にいました。）
+They got hungry, so they went to a café near there.（おなかがすいたので、近くのカフェに行きました。）
+They stayed there for two hours because it started raining.（雨が降り始めたので、2時間そこにいました。）
+
+Question: Why did Tim go to the café?（ティムはなぜカフェに行ったのですか？）
+
+「They got hungry, so they went to a café（おなかがすいたので行った）」とあるので、1「He was hungry.（おなかがすいた。）」が正解です。
+2「It started raining.（雨が降り始めた。）」は長くいた理由、3「His friend worked there.」・4「The café was famous.」は本文に出てきません。
 
 ---
 
@@ -727,7 +1022,15 @@ When did Akira read a magazine?
 3. Before dinner.
 
 【解説39】
-「He enjoyed reading it before dinner」とあるので 3 が正解です。
+放送文
+W: Akira bought a magazine this morning.（アキラは今朝雑誌を買いました。）
+He enjoyed reading it before dinner.（夕食前に読んで楽しみました。）
+He didn't do this after dinner because he studied then.（夕食後は勉強したので、読みませんでした。）
+
+Question: When did Akira read a magazine?（アキラはいつ雑誌を読みましたか？）
+
+「He enjoyed reading it before dinner（夕食前に読んだ）」とあるので、3「Before dinner.（夕食前。）」が正解です。
+1「This morning.（今朝。）」は買った時、4「After dinner.（夕食後。）」は勉強していた時間、2「Before lunch.（昼食前。）」は本文に出てきません。
 
 ---
 
@@ -745,7 +1048,15 @@ What is the boy talking about?
 2. A bookstore.
 
 【解説40】
-「There is a new bookstore near my house」と言っているので Bookstore が正解です。
+放送文
+M: There is a new bookstore near my house.（家の近くに新しい書店があります。）
+There are many kinds of books in the store.（店にはいろいろな種類の本があります。）
+After school, I often go there to buy some comic books.（放課後、私はよくそこにマンガを買いに行きます。）
+
+Question: What is the boy talking about?（男の子は何について話していますか？）
+
+「There is a new bookstore near my house」と書店について話しているので、2「A bookstore.（書店。）」が正解です。
+1「A school library.（学校の図書館。）」・3「His house.（家。）」・4「His comic books.（マンガ本。）」は話の中心ではありません。
 
 ---
 

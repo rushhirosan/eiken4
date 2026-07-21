@@ -16,9 +16,15 @@ Who is the boy looking for?
 3. Anna.
 
 【解説1】
-正解は「Anna.」です。
-設問（Who is the boy looking for?）に対して、会話で述べられている内容と一致するのは「Anna.」です。
-他の選択肢（His science teacher. / His sister. / Anna’s sister.）は、この設問の条件に当てはまりません。
+放送文
+☆Where are you going?（どこへ行くの？）
+★To the cafeteria.  I need to find Anna.（食堂だよ。アナを探さなきゃ。）
+☆I just saw her outside the science room.  She was talking to her sister.（さっき理科室の外で見かけたよ。妹と話してた。）
+★Thanks.（ありがとう。）
+Question: Who is the boy looking for?（男の子は誰を探していますか？）
+
+男の子が「I need to find Anna（アナを探さなきゃ）」と言っているので、3「Anna.（アナ。）」が正解です。
+1「His science teacher.（理科の先生。）」・2「His sister.（自分の妹。）」・4「Anna’s sister.（アナの妹。）」は、いずれも男の子が探している相手ではありません（アナの妹は会話に出てくるが探しているのはアナ本人です）。
 ---
 
 No.2:
@@ -39,9 +45,15 @@ Who found Lucy’s grandfather’s glasses?
 4. Lucy’s mother.
 
 【解説2】
-正解は「Lucy’s mother.」です。
-設問（Who found Lucy’s grandfather’s glasses?）に対して、会話で述べられている内容と一致するのは「Lucy’s mother.」です。
-他の選択肢（Lucy. / Terry. / Lucy’s father.）は、この設問の条件に当てはまりません。
+放送文
+☆Dad, is Grandpa still looking for his glasses?（お父さん、おじいちゃんはまだメガネを探してるの？）
+★No, Lucy.  He has them now.  Your mother found them.（いや、ルーシー。もう持ってるよ。お母さんが見つけたんだ。）
+☆Where were they?（どこにあったの？）
+★Beside Terry’s schoolbooks.（テリーの教科書のそばだよ。）
+Question: Who found Lucy’s grandfather’s glasses?（ルーシーのおじいさんのメガネを見つけたのは誰ですか？）
+
+父親が「Your mother found them（お母さんが見つけた）」と言っているので、4「Lucy’s mother.（ルーシーの母。）」が正解です。
+1「Lucy.（ルーシー。）」・2「Terry.（テリー。）」・3「Lucy’s father.（ルーシーの父。）」は見つけていません（メガネはテリーの教科書のそばにあっただけです）。
 ---
 
 No.3:
@@ -62,9 +74,15 @@ What is the problem?
 1. Billy broke a glass.
 
 【解説3】
-正解は「Billy broke a glass.」です。
-設問（What is the problem?）に対して、会話で述べられている内容と一致するのは「Billy broke a glass.」です。
-他の選択肢（Billy cut his ﬁnger. / Billy’s mother can’t help him. / Billy’s mother can’t buy a glass.）は、この設問の条件に当てはまりません。
+放送文
+★Mom, I broke a glass in the kitchen.（お母さん、台所でコップを割っちゃった。）
+☆Are you OK?  Did you cut yourself?（大丈夫？切っていない？）
+★No, I didn’t.  I’m sorry about the glass.  I’ll go and clean it up now.（ううん、切ってないよ。コップごめんね。今片づけるね。）
+☆I’ll help you.  Don’t worry, Billy.（手伝うわ。心配しないで、ビリー。）
+Question: What is the problem?（何が問題ですか？）
+
+ビリーが「I broke a glass（コップを割った）」と言っているので、1「Billy broke a glass.（ビリーがコップを割った。）」が正解です。
+2「Billy cut his finger.（指を切った。）」は「切っていない」と矛盾し、3「Billy’s mother can’t help him.（母が手伝えない。）」は母が「手伝う」と言っているので矛盾、4「Billy’s mother can’t buy a glass.（母がコップを買えない。）」は会話に出てきません。
 ---
 
 No.4:
@@ -85,9 +103,15 @@ What does the boy ask his mother to do?
 4. Help him with his report.
 
 【解説4】
-正解は「Help him with his report.」です。
-設問（What does the boy ask his mother to do?）に対して、会話で述べられている内容と一致するのは「Help him with his report.」です。
-他の選択肢（Make lunch. / Wash the car. / Buy a book for him.）は、この設問の条件に当てはまりません。
+放送文
+★Mom, can you help me with my book report?（お母さん、読書感想文を手伝ってくれる？）
+☆I’m making lunch.  Ask Dad.（お昼を作ってるの。お父さんに頼んで。）
+★He’s washing the car now.（今、車を洗ってるよ。）
+☆OK, I’ll help you after we eat.（わかった、食べたあとに手伝うわ。）
+Question: What does the boy ask his mother to do?（男の子は母親に何を頼んでいますか？）
+
+男の子が「can you help me with my book report?（感想文を手伝って）」と頼んでいるので、4「Help him with his report.（感想文を手伝う。）」が正解です。
+1「Make lunch.（昼食を作る。）」は母が今していること、2「Wash the car.（車を洗う。）」は父がしていること、3「Buy a book for him.（本を買う。）」は会話に出てきません。
 ---
 
 No.5:
@@ -108,9 +132,15 @@ What kind of test did the girl have today?
 3. Math.
 
 【解説5】
-正解は「Math.」です。
-設問（What kind of test did the girl have today?）に対して、会話で述べられている内容と一致するのは「Math.」です。
-他の選択肢（Science. / P.E. / English.）は、この設問の条件に当てはまりません。
+放送文
+★How was school today?（今日の学校はどうだった？）
+☆It was fun!  We played an exciting game during P.E. class, and we read a story in English class.（楽しかった！体育でわくわくするゲームをして、英語の授業で物語を読んだの。）
+★Sounds great.（いいね。）
+☆But I had a math exam after P.E.（でも体育のあとに数学の試験があったの。）
+Question: What kind of test did the girl have today?（女の子は今日どんなテストを受けましたか？）
+
+女の子が「I had a math exam（数学の試験があった）」と言っているので、3「Math.（数学。）」が正解です。
+4「English.（英語。）」は物語を読んだ授業、2「P.E.（体育。）」はゲームをした授業で、どちらも試験ではありません。1「Science.（理科。）」は会話に出てきません。
 ---
 
 No.6:
@@ -131,9 +161,15 @@ What is the woman’s problem?
 3. She doesn’t feel well.
 
 【解説6】
-正解は「She doesn’t feel well.」です。
-設問（What is the woman’s problem?）に対して、会話で述べられている内容と一致するのは「She doesn’t feel well.」です。
-他の選択肢（She dropped her sandwich. / She forgot her lunch. / She can’t ﬁnd the man’s home.）は、この設問の条件に当てはまりません。
+放送文
+★Are you OK?（大丈夫？）
+☆No, I have a stomachache.（ううん、お腹が痛いの。）
+★Did you eat lunch?（昼食は食べた？）
+☆Yes, but I only had a sandwich.  I’m going to go home early today.（うん、でもサンドイッチだけ。今日は早く帰るつもり。）
+Question: What is the woman’s problem?（女性の問題は何ですか？）
+
+女性が「I have a stomachache（お腹が痛い）」と言っているので、3「She doesn’t feel well.（気分がよくない。）」が正解です。
+1「She dropped her sandwich.（サンドイッチを落とした。）」・2「She forgot her lunch.（昼食を忘れた。）」は「サンドイッチを食べた」と矛盾し、4「She can’t find the man’s home.（男性の家が見つからない。）」は会話に出てきません。
 ---
 
 No.7:
@@ -154,9 +190,15 @@ Why did the woman leave the picnic early?
 1. It was cold.
 
 【解説7】
-正解は「It was cold.」です。
-設問（Why did the woman leave the picnic early?）に対して、会話で述べられている内容と一致するのは「It was cold.」です。
-他の選択肢（She had to buy a jacket. / She was busy. / She was hungry.）は、この設問の条件に当てはまりません。
+放送文
+★Did you enjoy the picnic yesterday?（昨日のピクニックは楽しかった？）
+☆Yes, but I left early.（うん、でも早く帰ったの。）
+★Why?（どうして？）
+☆It was too cold.  I didn’t bring a jacket.（寒すぎたの。上着を持ってこなかったから。）
+Question: Why did the woman leave the picnic early?（女性はなぜピクニックを早く切り上げましたか？）
+
+女性が「It was too cold（寒すぎた）」と理由を述べているので、1「It was cold.（寒かった。）」が正解です。
+2「She had to buy a jacket.（上着を買わなければならなかった。）」は上着を持ってこなかっただけ、3「She was busy.（忙しかった。）」・4「She was hungry.（お腹が空いた。）」は会話に出てきません。
 ---
 
 No.8:
@@ -177,9 +219,15 @@ What does the girl like about the book?
 1. The class photo.
 
 【解説8】
-正解は「The class photo.」です。
-設問（What does the girl like about the book?）に対して、会話で述べられている内容と一致するのは「The class photo.」です。
-他の選択肢（The boy’s painting. / The poem about trees. / The story about her class.）は、この設問の条件に当てはまりません。
+放送文
+★I love the photos in this book.（この本の写真が大好き。）
+☆Me, too.  My favorite photo is on page six.（私も。お気に入りは6ページの写真なの。）
+★Is that a photo of the trees?（それは木の写真？）
+☆No, it’s the class photo.（ううん、クラス写真よ。）
+Question: What does the girl like about the book?（女の子は本の何が好きですか？）
+
+女の子がお気に入りとして「it’s the class photo（クラス写真）」を挙げているので、1「The class photo.（クラス写真。）」が正解です。
+2「The boy’s painting.（男の子の絵。）」・3「The poem about trees.（木についての詩。）」・4「The story about her class.（クラスの物語。）」は会話に出てきません（木は写真かどうか尋ねただけです）。
 ---
 
 No.9:
@@ -200,9 +248,15 @@ What is Emma’s problem?
 2. Her bike is broken.
 
 【解説9】
-正解は「Her bike is broken.」です。
-設問（What is Emma’s problem?）に対して、会話で述べられている内容と一致するのは「Her bike is broken.」です。
-他の選択肢（She lost her bike. / She can’t walk to school. / She doesn’t like her bike.）は、この設問の条件に当てはまりません。
+放送文
+★Hi, Emma.  Why are you walking to school?（やあ、エマ。なんで歩いて学校に来てるの？）
+☆My bike is broken.（自転車が壊れてるの。）
+★Oh, I see.  How long will it take to fix it?（そうか。直すのにどれくらいかかる？）
+☆I’ll get it back on Monday.（月曜に戻ってくるよ。）
+Question: What is Emma’s problem?（エマの問題は何ですか？）
+
+エマが「My bike is broken（自転車が壊れている）」と言っているので、2「Her bike is broken.（自転車が壊れている。）」が正解です。
+1「She lost her bike.（自転車をなくした。）」は壊れただけで矛盾、3「She can’t walk to school.（歩いて通えない。）」は実際に歩いているので矛盾、4「She doesn’t like her bike.（自転車が嫌い。）」は会話に出てきません。
 ---
 
 No.10:
@@ -223,9 +277,15 @@ What is the boy’s problem?
 3. He lost a book.
 
 【解説10】
-正解は「He lost a book.」です。
-設問（What is the boy’s problem?）に対して、会話で述べられている内容と一致するのは「He lost a book.」です。
-他の選択肢（He forgot to do his homework. / He didn’t call his teacher. / He left his bag at school.）は、この設問の条件に当てはまりません。
+放送文
+★Mom, I can’t find my library book.（お母さん、図書館の本が見つからない。）
+☆Did you look in your bag?（かばんの中を見た？）
+★Yes, but it wasn’t there.  I think I left it at school.（うん、でもなかった。学校に置いてきたと思う。）
+☆OK.  I’ll call your teacher.（わかった。先生に電話するわ。）
+Question: What is the boy’s problem?（男の子の問題は何ですか？）
+
+男の子が「I can’t find my library book（図書館の本が見つからない）」と言っているので、3「He lost a book.（本をなくした。）」が正解です。
+1「He forgot to do his homework.（宿題を忘れた。）」・2「He didn’t call his teacher.（先生に電話しなかった。）」は電話するのは母親、4「He left his bag at school.（かばんを学校に置いてきた。）」は置いてきたのは本であってかばんではありません。
 ---
 
 No.11:
@@ -246,9 +306,15 @@ What does the girl want to do this afternoon?
 4. Buy a racket.
 
 【解説11】
-正解は「Buy a racket.」です。
-設問（What does the girl want to do this afternoon?）に対して、会話で述べられている内容と一致するのは「Buy a racket.」です。
-他の選択肢（Talk to her coach. / Play tennis. / Study with Fred.）は、この設問の条件に当てはまりません。
+放送文
+☆Fred, let’s go shopping this afternoon.（フレッド、今日の午後買い物に行こう。）
+★OK.  What do you want to get?（いいよ。何を買いたいの？）
+☆A tennis racket.  I’m starting lessons next month.（テニスラケット。来月レッスンを始めるの。）
+★Great.（いいね。）
+Question: What does the girl want to do this afternoon?（女の子は今日の午後に何をしたいですか？）
+
+女の子は買い物で「A tennis racket（テニスラケット）」を買いたいと言っているので、4「Buy a racket.（ラケットを買う。）」が正解です。
+2「Play tennis.（テニスをする。）」はレッスンは来月から、1「Talk to her coach.（コーチと話す。）」・3「Study with Fred.（フレッドと勉強する。）」は会話に出てきません。
 ---
 
 No.12:
@@ -269,9 +335,15 @@ What does Ken’s mother ask him to do?
 3. Buy some carrots.
 
 【解説12】
-正解は「Buy some carrots.」です。
-設問（What does Ken’s mother ask him to do?）に対して、会話で述べられている内容と一致するのは「Buy some carrots.」です。
-他の選択肢（Make dinner. / Get some meat. / Wash the vegetables.）は、この設問の条件に当てはまりません。
+放送文
+☆Ken, can you go to the store for me?  I need some carrots.（ケン、お店に行ってくれる？ニンジンが必要なの。）
+★Sure, Mom.  What are you making for dinner?（いいよ、お母さん。夕食は何を作るの？）
+☆Beef and vegetable stew.（牛肉と野菜のシチューよ。）
+★Sounds good.（おいしそう。）
+Question: What does Ken’s mother ask him to do?（ケンの母親は彼に何を頼んでいますか？）
+
+母親が「I need some carrots（ニンジンが必要）」と言って店へ行くよう頼んでいるので、3「Buy some carrots.（ニンジンを買う。）」が正解です。
+1「Make dinner.（夕食を作る。）」は母親がすること、2「Get some meat.（肉を買う。）」は頼んでいない、4「Wash the vegetables.（野菜を洗う。）」は会話に出てきません。
 ---
 
 No.13:
@@ -292,9 +364,15 @@ When will the boy start writing his science report?
 1. Today.
 
 【解説13】
-正解は「Today.」です。
-設問（When will the boy start writing his science report?）に対して、会話で述べられている内容と一致するのは「Today.」です。
-他の選択肢（Tomorrow. / On Thursday. / On Friday.）は、この設問の条件に当てはまりません。
+放送文
+★We have a math test tomorrow, right?（明日は数学のテストだよね？）
+☆Yeah.  And we need to finish our science reports by Friday.（うん。それに金曜までに理科のレポートを終わらせなきゃ。）
+★I’ll start writing mine today.（ぼくは今日書き始めるよ。）
+☆Good idea.（いい考えね。）
+Question: When will the boy start writing his science report?（男の子はいつ理科のレポートを書き始めますか？）
+
+男の子が「I’ll start writing mine today（今日書き始める）」と言っているので、1「Today.（今日。）」が正解です。
+2「Tomorrow.（明日。）」は数学のテストの日、4「On Friday.（金曜。）」はレポートの提出期限、3「On Thursday.（木曜。）」は会話に出てきません。
 ---
 
 No.14:
@@ -315,9 +393,15 @@ How long is Edward borrowing the game?
 1. For one week.
 
 【解説14】
-正解は「For one week.」です。
-設問（How long is Edward borrowing the game?）に対して、会話で述べられている内容と一致するのは「For one week.」です。
-他の選択肢（For two weeks. / For one month. / For two months.）は、この設問の条件に当てはまりません。
+放送文
+☆I like this video game, Edward.  It’s exciting.（このゲーム好きよ、エドワード。わくわくする。）
+★Thanks, Lucy.  It’s my friend’s.  I’m borrowing it for a week.（ありがとう、ルーシー。友達のなんだ。1週間借りてるんだ。）
+☆Is it new?（新しいの？）
+★Yes, he got it last month.（うん、彼は先月手に入れたよ。）
+Question: How long is Edward borrowing the game?（エドワードはどれくらいゲームを借りていますか？）
+
+エドワードが「I’m borrowing it for a week（1週間借りている）」と言っているので、1「For one week.（1週間。）」が正解です。
+3「For one month.（1か月。）」は友達がゲームを買ってからの期間、2「For two weeks.（2週間。）」・4「For two months.（2か月。）」は会話に出てきません。
 ---
 
 No.15:
@@ -338,9 +422,15 @@ What is the woman’s problem?
 3. Her TV is broken.
 
 【解説15】
-正解は「Her TV is broken.」です。
-設問（What is the woman’s problem?）に対して、会話で述べられている内容と一致するのは「Her TV is broken.」です。
-他の選択肢（She has to work today. / She can’t ﬁnd her money. / Her TV is too loud.）は、この設問の条件に当てはまりません。
+放送文
+☆Excuse me.  I bought this TV last week, but it doesn’t work.（すみません。先週このテレビを買ったのですが、動かないんです。）
+★I’m sorry.（申し訳ありません。）
+☆Can you please give me my money back?（返金してもらえますか？）
+★I’ll ask my manager.（店長に聞いてみます。）
+Question: What is the woman’s problem?（女性の問題は何ですか？）
+
+女性が「it doesn’t work（テレビが動かない）」と言っているので、3「Her TV is broken.（テレビが壊れている。）」が正解です。
+2「She can’t find her money.（お金が見つからない。）」は返金を求めているだけ、1「She has to work today.（今日は働かなければならない。）」・4「Her TV is too loud.（テレビの音が大きすぎる。）」は会話に出てきません。
 ---
 
 No.16:
@@ -361,9 +451,15 @@ What will Emma do tonight?
 4. Call the boy.
 
 【解説16】
-正解は「Call the boy.」です。
-設問（What will Emma do tonight?）に対して、会話で述べられている内容と一致するのは「Call the boy.」です。
-他の選択肢（Buy a ticket. / Go to a concert. / Meet the boy.）は、この設問の条件に当てはまりません。
+放送文
+★Hi, Emma.  Are you going to the concert on Friday?（やあ、エマ。金曜のコンサートに行く？）
+☆I want to, but I don’t have a ticket.（行きたいけど、チケットがないの。）
+★My friend can’t go.  Do you want his ticket?（友達が行けないんだ。彼のチケットいる？）
+☆Yes, please.  I’ll call you tonight.（うん、お願い。今夜電話するね。）
+Question: What will Emma do tonight?（エマは今夜何をしますか？）
+
+エマが「I’ll call you tonight（今夜電話する）」と言っているので、4「Call the boy.（男の子に電話する。）」が正解です。
+1「Buy a ticket.（チケットを買う。）」はチケットをもらうので不要、2「Go to a concert.（コンサートに行く。）」は金曜のこと、3「Meet the boy.（男の子に会う。）」は会話に出てきません。
 ---
 
 No.17:
@@ -384,9 +480,16 @@ Where will the art club meeting be today?
 4. In the library.
 
 【解説17】
-正解は「In the library.」です。
-設問（Where will the art club meeting be today?）に対して、会話で述べられている内容と一致するのは「In the library.」です。
-他の選択肢（In the gym. / In Mr. Smith’s classroom. / In the music room.）は、この設問の条件に当てはまりません。
+放送文
+★Are you going to the art club meeting, Jenny?（ジェニー、美術部のミーティングに行く？）
+☆Yes.  It’s in Mr. Smith’s classroom, right?（うん。スミス先生の教室だよね？）
+★No.  It’s in the library today.（ううん。今日は図書館だよ。）
+☆Oh.  Thanks for telling me.（あ、教えてくれてありがとう。）
+Question: Where will the art club meeting be today?（今日の美術部のミーティングはどこですか？）
+
+男性が「今日は図書館だよ」と言っているので、4「In the library.（図書館で。）」が正解です。
+2「In Mr. Smith’s classroom.（スミス先生の教室で。）」はジェニーが思っていた場所で、実際は違います。1「In the gym.（体育館で。）」・3「In the music room.（音楽室で。）」は会話に出てきません。
+
 ---
 
 No.18:
@@ -407,9 +510,16 @@ What does Emma do on Fridays?
 4. She goes to the pool.
 
 【解説18】
-正解は「She goes to the pool.」です。
-設問（What does Emma do on Fridays?）に対して、会話で述べられている内容と一致するのは「She goes to the pool.」です。
-他の選択肢（She works at a sports store. / She plays video games. / She watches basketball.）は、この設問の条件に当てはまりません。
+放送文
+★Do you play any sports, Emma?（エマ、何かスポーツしてる？）
+☆Yes, I swim and play basketball.（うん、水泳とバスケットボールをしてるよ。）
+★When do you swim?（いつ泳ぐの？）
+☆On Fridays.  I go to the pool after school.（金曜日。放課後にプールに行くの。）
+Question: What does Emma do on Fridays?（エマは金曜日に何をしますか？）
+
+エマが「金曜日。放課後にプールに行く」と言っているので、4「She goes to the pool.（プールに行く。）」が正解です。
+1「She works at a sports store.（スポーツ店で働く。）」・2「She plays video games.（テレビゲームをする。）」・3「She watches basketball.（バスケットボールを見る。）」は会話に出てきません。
+
 ---
 
 No.19:
@@ -430,9 +540,16 @@ When will they practice next?
 2. Tomorrow evening.
 
 【解説19】
-正解は「Tomorrow evening.」です。
-設問（When will they practice next?）に対して、会話で述べられている内容と一致するのは「Tomorrow evening.」です。
-他の選択肢（This evening. / On Saturday morning. / On Monday afternoon.）は、この設問の条件に当てはまりません。
+放送文
+☆Are you ready for the soccer game on Saturday?（土曜のサッカーの試合の準備はできた？）
+★Yeah.  We practiced on Monday, and we have practice again tomorrow evening.（うん。月曜に練習したし、明日の夕方また練習があるよ。）
+☆Right.  See you then.（そうね。じゃあそのときに。）
+★Bye.（バイバイ。）
+Question: When will they practice next?（次の練習はいつですか？）
+
+男性が「明日の夕方また練習がある」と言っているので、2「Tomorrow evening.（明日の夕方。）」が正解です。
+月曜はすでに練習した日、土曜は試合の日です。1「This evening.（今夜。）」・3「On Saturday morning.（土曜の朝。）」・4「On Monday afternoon.（月曜の午後。）」は次の練習の答えではありません。
+
 ---
 
 No.20:
@@ -453,9 +570,16 @@ What will Emily do first?
 4. Go home.
 
 【解説20】
-正解は「Go home.」です。
-設問（What will Emily do first?）に対して、会話で述べられている内容と一致するのは「Go home.」です。
-他の選択肢（Get her lunch. / Meet her friend. / Go to the park.）は、この設問の条件に当てはまりません。
+放送文
+★Are you going to the park again, Emily?（エミリー、また公園に行くの？）
+☆Yes, but I have to go home first.（うん、でも先に家に帰らないと。）
+★Why?（どうして？）
+☆I left my water bottle there.（水筒を家に置いてきたの。）
+Question: What will Emily do first?（エミリーが最初にすることは何ですか？）
+
+エミリーが「先に家に帰らないと」と言っているので、4「Go home.（家に帰る。）」が正解です。
+公園に行くのはその後です。1「Get her lunch.（昼食を取る。）」・2「Meet her friend.（友達に会う。）」は会話に出てきません。
+
 ---
 
 No.21:
@@ -476,9 +600,16 @@ What are they looking forward to?
 1. A speech contest.
 
 【解説21】
-正解は「A speech contest.」です。
-設問（What are they looking forward to?）に対して、会話で述べられている内容と一致するのは「A speech contest.」です。
-他の選択肢（A trip to Japan. / A concert. / A Japanese food festival.）は、この設問の条件に当てはまりません。
+放送文
+★The Japanese speech contest is on Friday, right?（日本語のスピーチコンテストは金曜だよね？）
+☆Yeah.  I’m looking forward to it.（うん。楽しみにしてるよ。）
+★Me, too.  My speech is about Japanese food.（僕も。僕のスピーチは日本食についてだよ。）
+☆Mine is about Japanese music.（私のは日本の音楽についてよ。）
+Question: What are they looking forward to?（2人は何を楽しみにしていますか？）
+
+2人が金曜の日本語スピーチコンテストを楽しみにしているので、1「A speech contest.（スピーチコンテスト。）」が正解です。
+2「A trip to Japan.（日本への旅行。）」・3「A concert.（コンサート。）」・4「A Japanese food festival.（日本食の祭り。）」は会話に出てきません（日本食はスピーチの話題です）。
+
 ---
 
 No.22:
@@ -499,9 +630,16 @@ What will the girl recycle?
 2. The cans.
 
 【解説22】
-正解は「The cans.」です。
-設問（What will the girl recycle?）に対して、会話で述べられている内容と一致するのは「The cans.」です。
-他の選択肢（The glass bottles. / The paper. / The plastic bags.）は、この設問の条件に当てはまりません。
+放送文
+☆Let’s clean up the kitchen!（台所を片付けましょう！）
+★I’ll put the glass bottles in this plastic bag.（このビニール袋にガラス瓶を入れるよ。）
+☆Thanks.  I’ll recycle the orange juice cans.（ありがとう。私はオレンジジュースの缶をリサイクルするね。）
+★We’ll be finished soon!（すぐ終わるよ！）
+Question: What will the girl recycle?（女の子は何をリサイクルしますか？）
+
+女の子（☆）が「オレンジジュースの缶をリサイクルする」と言っているので、2「The cans.（缶。）」が正解です。
+1「The glass bottles.（ガラス瓶。）」は男の子が袋に入れるものです。3「The paper.（紙。）」・4「The plastic bags.（ビニール袋。）」は会話に出てきません。
+
 ---
 
 No.23:
@@ -522,9 +660,16 @@ What will the girl do after school today?
 3. Play her violin.
 
 【解説23】
-正解は「Play her violin.」です。
-設問（What will the girl do after school today?）に対して、会話で述べられている内容と一致するのは「Play her violin.」です。
-他の選択肢（Play chess. / Visit her cousin. / Eat ice cream.）は、この設問の条件に当てはまりません。
+放送文
+★I’m going to my cousin’s house to play chess after school.  Can you come?（放課後、いとこの家にチェスをしに行くんだ。一緒に来る？）
+☆No, I have a violin lesson this afternoon.（ううん、今日の午後はバイオリンのレッスンがあるの。）
+★Well, let’s get ice cream together this weekend, then.（じゃあ、今週末に一緒にアイスを食べよう。）
+☆OK.（いいよ。）
+Question: What will the girl do after school today?（女の子は今日の放課後、何をしますか？）
+
+女の子が「今日の午後はバイオリンのレッスンがある」と言っているので、3「Play her violin.（バイオリンを弾く。）」が正解です。
+1「Play chess.（チェスをする。）」・2「Visit her cousin.（いとこを訪れる。）」は男の子の予定、4「Eat ice cream.（アイスを食べる。）」は今週末の話です。
+
 ---
 
 No.24:
@@ -545,9 +690,16 @@ Which club will Janet join?
 2. The cooking club.
 
 【解説24】
-正解は「The cooking club.」です。
-設問（Which club will Janet join?）に対して、会話で述べられている内容と一致するのは「The cooking club.」です。
-他の選択肢（The tennis club. / The speech club. / The drama club.）は、この設問の条件に当てはまりません。
+放送文
+★Are you joining the tennis club, Janet?（ジャネット、テニス部に入るの？）
+☆Not this year.  I’m going to try the cooking club.（今年は入らない。料理部を試してみるつもり。）
+★Sounds fun.  I’ll join the speech club.（楽しそう。僕は弁論部に入るよ。）
+☆That’s nice.（いいね。）
+Question: Which club will Janet join?（ジャネットはどの部に入りますか？）
+
+ジャネットが「料理部を試してみる」と言っているので、2「The cooking club.（料理部。）」が正解です。
+1「The tennis club.（テニス部。）」は今年は入らない、3「The speech club.（弁論部。）」は相手の部、4「The drama club.（演劇部。）」は会話に出てきません。
+
 ---
 
 No.25:
@@ -568,9 +720,16 @@ When is the pool closed?
 4. On Sunday afternoons.
 
 【解説25】
-正解は「On Sunday afternoons.」です。
-設問（When is the pool closed?）に対して、会話で述べられている内容と一致するのは「On Sunday afternoons.」です。
-他の選択肢（On Saturday mornings. / On Saturday afternoons. / On Sunday mornings.）は、この設問の条件に当てはまりません。
+放送文
+★Mom, let’s go to the swimming pool on Sunday afternoon.（お母さん、日曜の午後にプールに行こう。）
+☆On Sundays, it’s only open in the morning.（日曜日は午前中だけ開いているのよ。）
+★Let’s go on Saturday, then.（じゃあ土曜に行こう。）
+☆OK.（いいよ。）
+Question: When is the pool closed?（プールが閉まっているのはいつですか？）
+
+母親が「日曜日は午前中だけ開いている」と言っているので、日曜の午後は閉まっています。よって4「On Sunday afternoons.（日曜の午後。）」が正解です。
+3「On Sunday mornings.（日曜の朝。）」は開いている時間、1・2の土曜については閉まるとは言っていません。
+
 ---
 
 No.26:
@@ -591,9 +750,16 @@ Where is Sarah going this weekend?
 1. To the science museum.
 
 【解説26】
-正解は「To the science museum.」です。
-設問（Where is Sarah going this weekend?）に対して、会話で述べられている内容と一致するのは「To the science museum.」です。
-他の選択肢（To her family’s house. / To her friend’s house. / To the art museum.）は、この設問の条件に当てはまりません。
+放送文
+★Do you want to go to the art museum this weekend, Sarah?（サラ、今週末美術館に行かない？）
+☆Sorry, Brian.  I’m going to the science museum with my family.（ごめん、ブライアン。家族と科学博物館に行くの。）
+★That sounds fun.（楽しそうだね。）
+☆Maybe we can go next weekend.（来週末に行けるかもね。）
+Question: Where is Sarah going this weekend?（サラは今週末どこへ行きますか？）
+
+サラが「家族と科学博物館に行く」と言っているので、1「To the science museum.（科学博物館へ。）」が正解です。
+4「To the art museum.（美術館へ。）」はブライアンの提案で、サラは行かないと断っています。2・3は会話に出てきません。
+
 ---
 
 No.27:
@@ -614,9 +780,16 @@ When is the girl’s piano concert?
 2. Next Saturday.
 
 【解説27】
-正解は「Next Saturday.」です。
-設問（When is the girl’s piano concert?）に対して、会話で述べられている内容と一致するのは「Next Saturday.」です。
-他の選択肢（Next Friday. / Next Sunday. / Next Monday.）は、この設問の条件に当てはまりません。
+放送文
+★Is your piano concert next Friday?（ピアノのコンサートは来週の金曜？）
+☆No.  It’s next Saturday.  I practice hard every Sunday.（ううん。来週の土曜よ。毎週日曜に一生懸命練習してるの。）
+★Can I come?（行ってもいい？）
+☆Of course.  It’ll start at 6:30 p.m. at the community center.（もちろん。コミュニティセンターで午後6時半開始よ。）
+Question: When is the girl’s piano concert?（女の子のピアノコンサートはいつですか？）
+
+女の子が「来週の土曜」と言っているので、2「Next Saturday.（来週の土曜。）」が正解です。
+1「Next Friday.（来週の金曜。）」は相手が聞いた日程で否定されています。日曜は練習の日、月曜は会話に出てきません。
+
 ---
 
 No.28:
@@ -637,9 +810,16 @@ How will they go to the park?
 1. By bike.
 
 【解説28】
-正解は「By bike.」です。
-設問（How will they go to the park?）に対して、会話で述べられている内容と一致するのは「By bike.」です。
-他の選択肢（By train. / By car. / On foot.）は、この設問の条件に当てはまりません。
+放送文
+★Let’s go to the park next to the train station.（駅のとなりの公園に行こう。）
+☆OK.  Let’s walk.（いいよ。歩いて行こう。）
+★It’s too far to walk.  How about riding our bikes?（歩くには遠すぎるよ。自転車で行かない？）
+☆Good idea.（いい考えだね。）
+Question: How will they go to the park?（2人はどうやって公園に行きますか？）
+
+男の子が自転車を提案し、女の子も賛成しているので、1「By bike.（自転車で。）」が正解です。
+4「On foot.（歩いて。）」は遠すぎると却下されています。2「By train.（電車で。）」・3「By car.（車で。）」は会話に出てきません。
+
 ---
 
 No.29:
@@ -660,9 +840,16 @@ When does Emily usually go to the library?
 3. On Saturday mornings.
 
 【解説29】
-正解は「On Saturday mornings.」です。
-設問（When does Emily usually go to the library?）に対して、会話で述べられている内容と一致するのは「On Saturday mornings.」です。
-他の選択肢（On Wednesday mornings. / On Wednesday afternoons. / On Saturday afternoons.）は、この設問の条件に当てはまりません。
+放送文
+★Emily, do you like reading books?（エミリー、本を読むの好き？）
+☆Yes, I usually go to the library on Saturday mornings.（うん、いつも土曜の午前中に図書館に行くの。）
+★Really?  I always go on Wednesday afternoons.（そうなんだ？僕はいつも水曜の午後に行くよ。）
+☆Maybe we can meet there sometime.（いつかそこで会えるかもね。）
+Question: When does Emily usually go to the library?（エミリーはいつもいつ図書館に行きますか？）
+
+エミリーが「いつも土曜の午前中に図書館に行く」と言っているので、3「On Saturday mornings.（土曜の午前中。）」が正解です。
+2「On Wednesday afternoons.（水曜の午後。）」は相手の習慣です。1・4は会話に出てきません。
+
 ---
 
 No.30:
@@ -683,9 +870,16 @@ How long was the boy’s summer camp?
 1. Five days.
 
 【解説30】
-正解は「Five days.」です。
-設問（How long was the boy’s summer camp?）に対して、会話で述べられている内容と一致するのは「Five days.」です。
-他の選択肢（One week. / Two weeks. / One month.）は、この設問の条件に当てはまりません。
+放送文
+☆How was your summer camp?（サマーキャンプはどうだった？）
+★Great.  I met many interesting people.（最高だった。面白い人にたくさん会ったよ。）
+☆How long was it?（どのくらいの期間だったの？）
+★Five days.  Next year, I’ll go to a two-week camp.（5日間。来年は2週間のキャンプに行くつもり。）
+Question: How long was the boy’s summer camp?（男の子のサマーキャンプはどのくらいの期間でしたか？）
+
+男の子が「5日間」と言っているので、1「Five days.（5日間。）」が正解です。
+3「Two weeks.（2週間。）」は来年行きたいキャンプの長さです。2「One week.（1週間。）」・4「One month.（1か月。）」は会話に出てきません。
+
 ---
 
 No.31:
@@ -706,9 +900,16 @@ What will the boy buy at the bookstore?
 3. A new notebook and some colored pencils.
 
 【解説31】
-正解は「A new notebook and some colored pencils.」です。
-設問（What will the boy buy at the bookstore?）に対して、会話で述べられている内容と一致するのは「A new notebook and some colored pencils.」です。
-ノートと色鉛筆の両方を買うと話しているため、1や2だけでは不十分です。4の school bag は会話に出てきません。
+放送文
+★Mom, I need a new notebook for school.（お母さん、学校用の新しいノートが必要だよ。）
+☆OK.  Let’s stop at the bookstore on the way home.（いいわ。帰りに本屋に寄ろう。）
+★Can we also get some colored pencils?（色鉛筆も買っていい？）
+☆Sure.  We’ll buy them together.（もちろん。一緒に買いましょう。）
+Question: What will the boy buy at the bookstore?（男の子は本屋で何を買いますか？）
+
+ノートと色鉛筆の両方を買うと言っているので、3「A new notebook and some colored pencils.（新しいノートと色鉛筆。）」が正解です。
+1や2だけでは不十分です。4「A school bag.（通学かばん。）」は会話に出てきません。
+
 ---
 
 No.32:
@@ -729,9 +930,16 @@ Why can’t the man speak to Mr. Green now?
 2. Mr. Green is in a meeting.
 
 【解説32】
-正解は「Mr. Green is in a meeting.」です。
-設問（Why can’t the man speak to Mr. Green now?）に対して、会話で述べられている内容と一致するのは「Mr. Green is in a meeting.」です。
-他の選択肢（Mr. Green is at lunch. / Mr. Green is on vacation. / Mr. Green left the office early.）は、この設問の条件に当てはまりません。
+放送文
+★Hello.  Is this Mr. Green’s office?（こんにちは。グリーンさんの事務所ですか？）
+☆Yes, it is.  Can I help you?（はい、そうです。どうされましたか？）
+★I’d like to speak to Mr. Green, please.（グリーンさんとお話ししたいのですが。）
+☆I’m sorry.  He’s in a meeting now.  Can I take a message?（申し訳ありません。ただいま会議中です。伝言をお預かりしましょうか？）
+Question: Why can’t the man speak to Mr. Green now?（男性が今グリーンさんと話せないのはなぜですか？）
+
+受付の人が「ただいま会議中です」と言っているので、2「Mr. Green is in a meeting.（グリーンさんは会議中です。）」が正解です。
+1「at lunch」・3「on vacation」・4「left early」は会話に出てきません。
+
 ---
 
 No.33:
@@ -752,9 +960,16 @@ Where will they meet?
 1. In front of the ticket counter.
 
 【解説33】
-正解は「In front of the ticket counter.」です。
-設問（Where will they meet?）に対して、会話で述べられている内容と一致するのは「In front of the ticket counter.」です。
-他の選択肢（Inside the movie theater. / At the bus stop near the station. / In the café next to the station.）は、この設問の条件に当てはまりません。
+放送文
+★Let’s meet before the movie starts.（映画が始まる前に会おう。）
+☆OK.  Where should we meet?（いいよ。どこで会う？）
+★How about in front of the ticket counter?（チケット売り場の前はどう？）
+☆Good idea.  I’ll be there at 6:15.（いいね。6時15分に行くよ。）
+Question: Where will they meet?（2人はどこで会いますか？）
+
+男の子が「チケット売り場の前」を提案し、女の子も賛成しているので、1「In front of the ticket counter.（チケット売り場の前で。）」が正解です。
+2・3・4は会話に出てきません。
+
 ---
 
 No.34:
@@ -775,9 +990,16 @@ Which subject does Tom like best?
 2. Science.
 
 【解説34】
-正解は「Science.」です。
-設問（Which subject does Tom like best?）に対して、会話で述べられている内容と一致するのは「Science.」です。
-Tom は science が一番好きだと述べており、English を好きなのは話し相手のほうです。History と Music は会話に出てきません。
+放送文
+☆Which subject do you like best, Tom?（トム、一番好きな教科は何？）
+★I like science best.  Our teacher shows us many interesting experiments.（理科が一番好き。先生が面白い実験をたくさん見せてくれるんだ。）
+☆That sounds fun.  I like English because I enjoy reading stories.（楽しそう。私は物語を読むのが好きだから英語が好き。）
+★Maybe we can study together sometime.（いつか一緒に勉強できるかもね。）
+Question: Which subject does Tom like best?（トムが一番好きな教科は何ですか？）
+
+トムが「理科が一番好き」と言っているので、2「Science.（理科。）」が正解です。
+1「English.（英語。）」は相手の好きな教科です。3「History.（歴史。）」・4「Music.（音楽。）」は会話に出てきません。
+
 ---
 
 No.35:
@@ -798,9 +1020,16 @@ Why can’t Lisa go to the movie tonight?
 2. She has to help her brother with his homework.
 
 【解説35】
-正解は「She has to help her brother with his homework.」です。
-設問（Why can’t Lisa go to the movie tonight?）に対して、会話で述べられている内容と一致するのは「She has to help her brother with his homework.」です。
-他の選択肢（She has to work at a café. / She already saw the movie last week. / She has to visit her grandmother.）は、この設問の条件に当てはまりません。
+放送文
+★Do you want to see the new action movie tonight, Lisa?（リサ、今夜新しいアクション映画を見ない？）
+☆Sorry, Kevin.  I have to help my brother with his homework.（ごめん、ケビン。弟の宿題を手伝わないといけないの。）
+★That’s OK.  Maybe we can go tomorrow.（大丈夫。明日行けるかもね。）
+☆Thanks.  I’ll call you in the morning.（ありがとう。朝電話するね。）
+Question: Why can’t Lisa go to the movie tonight?（リサが今夜映画に行けないのはなぜですか？）
+
+リサが「弟の宿題を手伝わないといけない」と言っているので、2が正解です。
+1「カフェで働く」・3「先週その映画を見た」・4「おばあちゃんを訪ねる」は会話に出てきません。
+
 ---
 
 No.36:
@@ -821,9 +1050,16 @@ How much is the cheaper T-shirt?
 2. Fifteen dollars.
 
 【解説36】
-正解は「Fifteen dollars.」です。
-設問（How much is the cheaper T-shirt?）に対して、会話で述べられている内容と一致するのは「Fifteen dollars.」です。
-Twenty dollars は最初の T シャツの値段であり、Ten dollars と Twenty-five dollars は会話に出てきません。
+放送文
+★How much is this T-shirt?（このTシャツはいくらですか？）
+☆It’s twenty dollars.（20ドルです。）
+★That’s a little expensive.  Do you have a cheaper one?（ちょっと高いな。もっと安いのはありますか？）
+☆Yes.  This blue one is fifteen dollars.（はい。この青いのは15ドルです。）
+Question: How much is the cheaper T-shirt?（安い方のTシャツはいくらですか？）
+
+店員が「青いのは15ドル」と言っているので、2「Fifteen dollars.（15ドル。）」が正解です。
+3「Twenty dollars.（20ドル。）」は最初のTシャツの値段です。1・4は会話に出てきません。
+
 ---
 
 No.37:
@@ -844,9 +1080,16 @@ Who will pick Mark up after soccer practice?
 2. His aunt Susan.
 
 【解説37】
-正解は「His aunt Susan.」です。
-設問（Who will pick Mark up after soccer practice?）に対して、会話で述べられている内容と一致するのは「His aunt Susan.」です。
-父は残業で来られないと述べており、coach や friend’s mother は会話に出てきません。
+放送文
+★Dad, can you pick me up after soccer practice today?（お父さん、今日のサッカーの練習のあと迎えに来てくれる？）
+☆Sorry, Mark.  I have to work late.（ごめん、マーク。残業があるんだ。）
+★Then who can come?（じゃあ誰が来られるの？）
+☆Your aunt Susan can.  She’ll be there at 5:30.（スーザンおばさんが行けるよ。5時半に着くよ。）
+Question: Who will pick Mark up after soccer practice?（サッカーの練習のあと、誰がマークを迎えますか？）
+
+父親が「スーザンおばさんが行ける」と言っているので、2「His aunt Susan.（スーザンおばさん。）」が正解です。
+1「His father.（父親。）」は残業で来られません。3・4は会話に出てきません。
+
 ---
 
 No.38:
@@ -867,9 +1110,16 @@ When does the next train to Tokyo leave?
 2. At 3:15 p.m.
 
 【解説38】
-正解は「At 3:15 p.m.」です。
-設問（When does the next train to Tokyo leave?）に対して、会話で述べられている内容と一致するのは「At 3:15 p.m.」です。
-他の選択肢（At 3:05 p.m. / At 3:25 p.m. / At 4:15 p.m.）は、この設問の条件に当てはまりません。
+放送文
+☆Excuse me.  When does the next train to Tokyo leave?（すみません。次の東京行きの電車はいつ出発しますか？）
+★At 3:15 p.m.  It leaves from Platform 4.（午後3時15分です。4番線から出ます。）
+☆Thank you.  I still have ten minutes.（ありがとうございます。まだ10分あります。）
+★You’d better hurry.（急いだ方がいいですよ。）
+Question: When does the next train to Tokyo leave?（次の東京行きの電車はいつ出発しますか？）
+
+駅員が「午後3時15分」と言っているので、2「At 3:15 p.m.（午後3時15分。）」が正解です。
+1・3・4の時刻は会話に出てきません。
+
 ---
 
 No.39:
@@ -890,9 +1140,16 @@ What will Amy do tonight?
 2. Study with Kate at the library.
 
 【解説39】
-正解は「Study with Kate at the library.」です。
-設問（What will Amy do tonight?）に対して、会話で述べられている内容と一致するのは「Study with Kate at the library.」です。
-テストは「明日」であり、teacher や本を買う話は会話に出てきません。
+放送文
+★Are you ready for the English test tomorrow, Amy?（エイミー、明日の英語のテストの準備はできた？）
+☆Not yet.  I’m going to study with Kate tonight.（まだ。今夜ケイトと勉強するつもり。）
+★Where will you study?（どこで勉強するの？）
+☆At the library near the station.（駅の近くの図書館で。）
+Question: What will Amy do tonight?（エイミーは今夜何をしますか？）
+
+エイミーが今夜ケイトと駅近くの図書館で勉強すると言っているので、2「Study with Kate at the library.（図書館でケイトと勉強する。）」が正解です。
+1のテストは明日です。3・4は会話に出てきません。
+
 ---
 
 No.40:
@@ -913,6 +1170,12 @@ What did Mr. Brown forget?
 2. His car keys.
 
 【解説40】
-正解は「His car keys.」です。
-設問（What did Mr. Brown forget?）に対して、会話で述べられている内容と一致するのは「His car keys.」です。
-鍵はコートのポケットにあり、wallet・ticket・coat そのものを忘れたわけではありません。
+放送文
+☆Mr. Brown, you look worried.（ブラウンさん、心配そうですね。）
+★I can’t find my car keys.  I need to drive to the airport soon.（車の鍵が見つからないんだ。すぐ空港まで運転しないといけない。）
+☆Did you check your coat pocket?（コートのポケットは見ましたか？）
+★Oh, you’re right.  They’re there.  Thank you.（あ、そうだ。ここにあった。ありがとう。）
+Question: What did Mr. Brown forget?（ブラウンさんは何を忘れましたか？）
+
+ブラウンさんが車の鍵を探していたので、2「His car keys.（車の鍵。）」が正解です。
+鍵はコートのポケットにあり、1財布・3切符・4コート自体を忘れたわけではありません。

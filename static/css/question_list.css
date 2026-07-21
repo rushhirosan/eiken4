@@ -1,4 +1,4 @@
-/* リスニングイラスト: カード幅いっぱいに表示（専用メニュー・模擬・ランダムで共通） */
+/* リスニングイラスト: 解答画面はカード幅いっぱい（専用メニュー・模擬・ランダムで共通） */
 .listening-illustration-img-wrap {
     width: 100%;
     min-height: 240px;
@@ -14,6 +14,22 @@
 .listening-illustration-img-wrap .listening-illustration-img {
     width: 100%;
     height: 100%;
+    object-fit: contain;
+}
+
+/* 回答結果・解説では参照用に小さく表示 */
+.listening-illustration-img-wrap--results {
+    width: 100%;
+    max-width: 320px;
+    min-height: 0;
+    aspect-ratio: auto;
+    margin: 0 auto 1rem;
+}
+
+.listening-illustration-img-wrap--results .listening-illustration-img {
+    width: 100%;
+    height: auto;
+    max-height: 240px;
     object-fit: contain;
 }
 
@@ -138,6 +154,16 @@
     .listening-illustration-img-wrap {
         min-height: 200px;
         aspect-ratio: 4 / 3;
+    }
+
+    .listening-illustration-img-wrap--results {
+        max-width: 260px;
+        min-height: 0;
+        aspect-ratio: auto;
+    }
+
+    .listening-illustration-img-wrap--results .listening-illustration-img {
+        max-height: 200px;
     }
 
     .breadcrumb {

@@ -60,7 +60,7 @@
                 <h5 class="card-title">問題 {{ forloop.counter }}</h5>
                 
                 {% if answer.question.image %}
-                <div class="listening-illustration-img-wrap">
+                <div class="listening-illustration-img-wrap listening-illustration-img-wrap--results">
                     <img src="{% static answer.question.image %}" alt="問題のイラスト" class="listening-illustration-img">
                 </div>
                 {% endif %}

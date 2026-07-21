@@ -36,7 +36,25 @@ python manage.py register_grammar_fill_questions --level 3
 # …他も同様に --level 3 を付与可能
 
 python manage.py update_audio_paths
+
+# 解説だけ差し替え（問題削除なし → 回答・進捗を保持）
+# 推奨エントリポイント
+python manage.py update_explanations --level 4 --category grammar_fill
+python manage.py update_explanations --level 4 --category conversation_fill
+python manage.py update_explanations --level 4 --category word_order
+python manage.py update_explanations --level 4 --category reading_comprehension
+python manage.py update_explanations --level 4 --category writing
+python manage.py update_explanations --level 4 --category listening_illustration
+python manage.py update_explanations --level 4 --category listening_conversation
+python manage.py update_explanations --level 4 --category listening_passage
+python manage.py update_explanations --level 4 --category listening   # リスニング3パート
+python manage.py update_explanations --level 3 --category all --dry-run
+
+# 互換: リスニング専用エイリアス（内部で --category listening と同じ）
+python manage.py update_listening_explanations --level 4
 ```
+
+**進捗を消したくないとき**は `register_*` / `create_*`（削除→再作成）を使わず、上の `update_explanations` を使う。
 
 ユーティリティ（PDF 抽出・TTS）の出力先は `utils/pdf_text_extractor.py` 等の引数・環境変数、または `utils/eiken_paths.py` と `--level` で 3級に切り替え可能。既定は 4級レイアウトのまま。
 

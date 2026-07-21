@@ -12,8 +12,13 @@ Question No.1:
 3. In front of the science room.
 
 【解説1】
-「Where was he?（彼はどこにいた？）」と場所を尋ねられているので、3「In front of the science room.」が正解です。
-1「During his homestay.」は期間の答え、2「At home in bed.」は「今日学校にいる」という前文と合わず、この質問への自然な返答にはなりません。
+放送文
+★Is James at school today?（今日、ジェームズは学校にいる？）
+☆Yes, I just saw him.（うん、ちょうど見かけたよ。）
+★Where was he?（彼はどこにいたの？）
+
+「Where was he?（彼はどこにいた？）」と場所を尋ねているので、3「In front of the science room.（理科室の前で。）」が正解です。
+1「During his homestay.（ホームステイの間に。）」は期間の答え、2「At home in bed.（家でベッドの中に。）」は「今日学校にいる」という話と合わず、質問への自然な返答になりません。
 
 ---
 
@@ -31,8 +36,13 @@ Question No.2:
 1. I hope you’re right.
 
 【解説2】
-「Don’t worry. You’ll pass.（心配しないで、合格するよ）」という励ましに対し、1「I hope you’re right.」が自然な返答です。
-2「It’s my first car.」は車の話題にずれ、3「It’s already finished.」は「明日が試験」という前文と矛盾します。
+放送文
+☆When is your driving test?（運転免許の試験はいつ？）
+★Tomorrow.  I’m getting nervous.（明日だよ。緊張してきた。）
+☆Don’t worry.  You’ll pass.（心配しないで。合格するよ。）
+
+「Don’t worry. You’ll pass.（心配しないで、合格するよ）」という励ましに対し、1「I hope you’re right.（そうだといいな。）」が自然な返答です。
+2「It’s my first car.（初めての車なんだ。）」は車の話題にずれ、3「It’s already finished.（もう終わったよ。）」は「明日が試験」という話と矛盾します。
 
 ---
 
@@ -50,8 +60,13 @@ Question No.3:
 2. Let’s find the elevator, then.
 
 【解説3】
-「I’m tired. I don’t want to take the stairs.（疲れた。階段は使いたくない）」と4階の靴売り場へ行く話なので、2「Let’s find the elevator, then.」が会話の流れに合います。
-1「I like those ones, too.」は好みの表明、3「It’s open until late.」は営業時間の話で、階段を避けたいという話題には答えていません。
+放送文
+★Where are the men’s shoes?（紳士靴はどこですか？）
+☆On the fourth floor.（4階です。）
+★I’m tired.  I don’t want to take the stairs.（疲れた。階段は使いたくない。）
+
+「I’m tired. I don’t want to take the stairs.（疲れた。階段は使いたくない）」と4階の靴売り場へ行く話なので、2「Let’s find the elevator, then.（じゃあエレベーターを探そう。）」が会話の流れに合います。
+1「I like those ones, too.（あれも好きだな。）」は好みの表明、3「It’s open until late.（遅くまで開いている。）」は営業時間の話で、階段を避けたいという話題には答えていません。
 
 ---
 
@@ -69,8 +84,13 @@ Question No.4:
 1. I’ve been there, too.
 
 【解説4】
-「How about Hawaii?（ハワイはどう？）」とカリフォルニア訪問の話から聞かれているので、1「I’ve been there, too.」が自然な返答です。
-2「See you there.」は別れの挨拶、3「Thanks for the postcard.」はハガキへの感謝で、ハワイに行ったかどうかの質問に答えていません。
+放送文
+★Have you visited California before?（前にカリフォルニアへ行ったことある？）
+☆Yes, twice.（うん、2回。）
+★How about Hawaii?（ハワイはどう？）
+
+「How about Hawaii?（ハワイはどう？）」とカリフォルニア訪問の話から聞かれているので、1「I’ve been there, too.（そこにも行ったことあるよ。）」が自然な返答です。
+2「See you there.（そこで会おう。）」は別れの挨拶、3「Thanks for the postcard.（ハガキありがとう。）」はハガキへの感謝で、ハワイに行ったかどうかの質問に答えていません。
 
 ---
 
@@ -88,8 +108,13 @@ Question No.5:
 3. I’ll come back to visit soon.
 
 【解説5】
-「We’ll really miss you.（とても寂しくなるよ）」という別れの言葉に対し、3「I’ll come back to visit soon.」が自然な返答です。
-1「It was in the library.」は場所の話、2「You got a good score.」は点数の話で、先生への別れの気持ちへの返答としては不適切です。
+放送文
+★Is today your last day at this school, Ms. Warner?（今日がこの学校での最終日ですか、ワーナー先生？）
+☆Yes, Billy.（そうよ、ビリー。）
+★We’ll really miss you.（本当に寂しくなります。）
+
+「We’ll really miss you.（とても寂しくなるよ）」という別れの言葉に対し、3「I’ll come back to visit soon.（また近いうちに会いに来るね。）」が自然な返答です。
+1「It was in the library.（図書館にあったよ。）」は場所の話、2「You got a good score.（いい点だったね。）」は点数の話で、先生への別れの気持ちへの返答としては不適切です。
 
 ---
 
@@ -107,8 +132,13 @@ Question No.6:
 1. He’s a college student.
 
 【解説6】
-「What does he do there?（彼はそこで何をしている？）」は職業や立場を尋ねる質問なので、1「He’s a college student.」が正解です。
-2「He is fine, thank you.」は体調の挨拶、3「He knows a lot about Hawaii.」はハワイの知識の話で、「何をしているか」への答えにはなりません。
+放送文
+☆Did you go anywhere during the summer vacation?（夏休みはどこかへ行った？）
+★Yes, I visited my brother in Hawaii.（うん、ハワイの兄を訪ねたよ。）
+☆What does he do there?（彼はそこで何をしているの？）
+
+「What does he do there?（彼はそこで何をしている？）」は職業や立場を尋ねる質問なので、1「He’s a college student.（大学生だよ。）」が正解です。
+2「He is fine, thank you.（元気だよ、ありがとう。）」は体調の挨拶、3「He knows a lot about Hawaii.（ハワイに詳しい。）」はハワイの知識の話で、「何をしているか」への答えにはなりません。
 
 ---
 
@@ -126,8 +156,13 @@ Question No.7:
 1. I’m glad you remember me.
 
 【解説7】
-「That’s right.（その通り）」と相手が去年のパーティーでの再会を認めたので、1「I’m glad you remember me.」が自然な返答です。
-2「I’m sorry to hear that.」は悪い知らせへの反応、3「I don’t think we’ve met.」は「会ったことがない」という否定で、直前の「That’s right」と矛盾します。
+放送文
+☆Have I seen you before?（前に会ったことある？）
+★We met at a party last year.（去年パーティーで会ったよ。）
+☆That’s right.（その通りだ。）
+
+「That’s right.（その通り）」と相手が去年のパーティーでの再会を認めたので、1「I’m glad you remember me.（覚えていてくれてうれしい。）」が自然な返答です。
+2「I’m sorry to hear that.（それは残念。）」は悪い知らせへの反応、3「I don’t think we’ve met.（会ったことないと思う。）」は「会ったことがない」という否定で、直前の「That’s right」と矛盾します。
 
 ---
 
@@ -145,8 +180,13 @@ Question No.8:
 1. Actually, I walked to school.
 
 【解説8】
-「Which bike is yours?（どの自転車があなたの？）」に対し、1「Actually, I walked to school.」が、この会話の流れで自然です。
-2「Finally, I found mine.」は「ついに見つけた」という別の場面の言い方、3「Usually, I have lunch there.」は昼食の場所の話で、自転車の有無への答えとしては不適切です。
+放送文
+☆Is that bike under the tree yours?（木の下のあの自転車はあなたの？）
+★No, it’s Tom’s.（いや、トムのだよ。）
+☆Which bike is yours?（どれがあなたの自転車？）
+
+「Which bike is yours?（どの自転車があなたの？）」に対し、1「Actually, I walked to school.（実は歩いて学校に来たんだ。）」が、この会話の流れで自然です（自分の自転車はない）。
+2「Finally, I found mine.（ついに自分のを見つけた。）」は別の場面の言い方、3「Usually, I have lunch there.（普段そこで昼食を食べる。）」は昼食の場所の話で、自転車の有無への答えとしては不適切です。
 
 ---
 
@@ -164,8 +204,13 @@ Question No.9:
 2. It’s just down the street.
 
 【解説9】
-「Is it far?（遠い？）」と距離を尋ねられているので、2「It’s just down the street.」が正解です。
-1「Go ahead and have some.」はコーヒーを勧める言い方、3「I’m afraid I can’t do it.」は断りの表現で、距離の質問には答えていません。
+放送文
+☆I need a cup of coffee.（コーヒーが1杯飲みたいな。）
+★How about going to Bobby’s Café?  It has good coffee.（ボビーズカフェに行かない？おいしいコーヒーがあるよ。）
+☆Is it far?（遠いの？）
+
+「Is it far?（遠い？）」と距離を尋ねられているので、2「It’s just down the street.（この道のすぐ先だよ。）」が正解です。
+1「Go ahead and have some.（どうぞ飲んで。）」はコーヒーを勧める言い方、3「I’m afraid I can’t do it.（残念だけどできない。）」は断りの表現で、距離の質問には答えていません。
 
 ---
 
@@ -183,8 +228,13 @@ Question No.10:
 1. I’d love to.
 
 【解説10】
-「Do you want to come and see my cats? They’re cute.（うちの猫を見に来ない？かわいいよ）」という誘いに対し、1「I’d love to.」が自然な返答です。
-2「Of course it is.」は「もちろんそうだ」という同意の言い方だが、誘いへの具体的な返答としては弱く、3「I don’t have pets.」はペットを飼っていないという別の話題です。
+放送文
+☆What’s your favorite animal?（好きな動物は何？）
+★I love cats.（猫が大好き。）
+☆Do you want to come and see my cats?  They’re cute.（うちの猫を見に来ない？かわいいよ。）
+
+「Do you want to come and see my cats? They’re cute.（うちの猫を見に来ない？かわいいよ）」という誘いに対し、1「I’d love to.（ぜひ行きたい。）」が自然な返答です。
+2「Of course it is.（もちろんそうだよ。）」は同意の言い方で誘いへの返答としては弱く、3「I don’t have pets.（ペットは飼っていない。）」はペットを飼っていないという別の話題です。
 
 ---
 
@@ -202,8 +252,13 @@ Question No.11:
 3. I enjoyed it a lot.
 
 【解説11】
-「Did you have a good experience there?（そこでの経験は良かった？）」という質問に対し、3「I enjoyed it a lot.」が自然な返答です。
-1「It’s next to the bridge.」は場所の説明、2「I’ll go tomorrow.」は未来の予定で、大学での経験についての質問には答えていません。
+放送文
+☆Which university did you go to?（どの大学に行ったの？）
+★Linwood.（リンウッドだよ。）
+☆Did you have a good experience there?（そこでいい経験ができた？）
+
+「Did you have a good experience there?（そこでの経験は良かった？）」という質問に対し、3「I enjoyed it a lot.（とても楽しかったよ。）」が自然な返答です。
+1「It’s next to the bridge.（橋の隣だよ。）」は場所の説明、2「I’ll go tomorrow.（明日行くよ。）」は未来の予定で、大学での経験についての質問には答えていません。
 
 ---
 
@@ -221,8 +276,13 @@ Question No.12:
 3. A garbage bag.
 
 【解説12】
-「Do you need anything?（何か必要？）」と部屋の掃除をしているので、3「A garbage bag.」が適切です。
-1「That’s near my house.」は場所、2「It takes an hour.」は所要時間の話で、「何が必要か」への答えにはなりません。
+放送文
+★What are you doing, Julie?（何をしているの、ジュリー？）
+☆I’m cleaning my room.（部屋を掃除しているの。）
+★Do you need anything?（何か必要？）
+
+「Do you need anything?（何か必要？）」と部屋の掃除をしている場面なので、3「A garbage bag.（ゴミ袋。）」が適切です。
+1「That’s near my house.（それは家の近く。）」は場所、2「It takes an hour.（1時間かかる。）」は所要時間の話で、「何が必要か」への答えにはなりません。
 
 ---
 
@@ -240,8 +300,13 @@ Question No.13:
 1. I’m going to buy one.
 
 【解説13】
-「Look! They’re selling posters over there.（ほら、あそこでポスターが売ってる）」と指摘されたので、1「I’m going to buy one.」が会話の流れに合います。
-2「I’ll practice that song tonight.」は曲の練習、3「I left it in a locker.」はロッカーに置き忘れたという別の話で、ポスター販売の話題への返答としては不自然です。
+放送文
+★That was a fantastic concert.（すばらしいコンサートだったね。）
+☆Yeah.  I love that band.（うん。あのバンド大好き。）
+★Look!  They’re selling posters over there.（見て！あそこでポスターを売ってるよ。）
+
+「Look! They’re selling posters over there.（ほら、あそこでポスターが売ってる）」と指摘されたので、1「I’m going to buy one.（1枚買うつもり。）」が会話の流れに合います。
+2「I’ll practice that song tonight.（今夜あの曲を練習する。）」は曲の練習、3「I left it in a locker.（ロッカーに置き忘れた。）」は別の話で、ポスター販売の話題への返答としては不自然です。
 
 ---
 
@@ -259,8 +324,13 @@ Question No.14:
 3. The topic was interesting.
 
 【解説14】
-「Why did you write so much?（なぜそんなに長く書いたの？）」という理由を尋ねられているので、3「The topic was interesting.」が自然な答えです。
-2「I left it at home.」は置き忘れの話、1「I like science better.」は理科の方が好きという別の話題で、レポートが長い理由には答えていません。
+放送文
+★How long is your history report?（歴史のレポートはどれくらいの長さ？）
+☆Five pages.（5ページ。）
+★Why did you write so much?（なぜそんなにたくさん書いたの？）
+
+「Why did you write so much?（なぜそんなに長く書いたの？）」という理由を尋ねられているので、3「The topic was interesting.（テーマが面白かったから。）」が自然な答えです。
+2「I left it at home.（家に置いてきた。）」は置き忘れの話、1「I like science better.（理科の方が好き。）」は別の話題で、レポートが長い理由には答えていません。
 
 ---
 
@@ -278,8 +348,13 @@ Question No.15:
 1. OK, I’m coming.
 
 【解説15】
-「You have a phone call. It’s Bob from the soccer team.（電話よ。サッカーチームのボブから）」と知らされたので、1「OK, I’m coming.」が自然な返答です。
-2「I like talking.」は電話が好きという一般論、3「He’s my friend.」はボブとの関係の説明で、電話に出に行くという場面への返答としては不適切です。
+放送文
+☆Billy!（ビリー！）
+★What is it?（何？）
+☆You have a phone call.  It’s Bob from the soccer team.（電話よ。サッカーチームのボブから。）
+
+「You have a phone call. It’s Bob from the soccer team.（電話よ。サッカーチームのボブから）」と知らされたので、1「OK, I’m coming.（わかった、今行く。）」が自然な返答です。
+2「I like talking.（話すのが好き。）」は一般論、3「He’s my friend.（彼は友達だ。）」はボブとの関係の説明で、電話に出に行くという場面への返答としては不適切です。
 
 ---
 
@@ -297,8 +372,13 @@ Question No.16:
 2. I drank some water.
 
 【解説16】
-「You should drink something.（何か飲んだ方がいい）」と暑そうなので言われたので、2「I drank some water.」が会話の流れに合います。
-1「I played at the park.」はまたサッカーをした場所の話、3「I found my glasses.」はメガネを見つけた話で、「飲む」という話題への返答ではありません。
+放送文
+☆You look very hot!（すごく暑そう！）
+★I just played soccer outside.（外でサッカーをしてきたんだ。）
+☆You should drink something.（何か飲んだ方がいいよ。）
+
+「You should drink something.（何か飲んだ方がいい）」と暑そうな相手に言っているので、2「I drank some water.（水を飲んだよ。）」が会話の流れに合います。
+1「I played at the park.（公園でやった。）」は場所の話、3「I found my glasses.（メガネを見つけた。）」は別の話で、「飲む」という話題への返答ではありません。
 
 ---
 
@@ -316,8 +396,13 @@ Question No.17:
 1. He gave me a ring.
 
 【解説17】
-「What happened after that?（その後どうなった？）」とレストランの後に続きを尋ねられているので、1「He gave me a ring.」が自然な答えです。
-2「I hope he did.」は「そうだといいな」という願い、3「It was someone else.」は別人だったという話で、デートの続きを説明する返答としては不適切です。
+放送文
+★How was your Friday night with Andy?（アンディとの金曜の夜はどうだった？）
+☆First, he took me to a nice restaurant.（まず、素敵なレストランに連れて行ってくれたの。）
+★What happened after that?（その後どうなった？）
+
+「What happened after that?（その後どうなった？）」とレストランの後に続きを尋ねられているので、1「He gave me a ring.（指輪をくれたの。）」が自然な答えです。
+2「I hope he did.（そうだといいな。）」は願い、3「It was someone else.（別の人だった。）」は別人の話で、デートの続きを説明する返答としては不適切です。
 
 ---
 
@@ -335,8 +420,13 @@ Question No.18:
 3. At the second stop.
 
 【解説18】
-「Where do we get off?（どこで降りる？）」と降車場所を尋ねられているので、3「At the second stop.」が正解です。
-1「It costs seven dollars.」は運賃、2「I live on that street.」は自分の住所の話で、バスを降りる場所の質問には答えていません。
+放送文
+★Can we take the bus from here to the park?（ここから公園までバスで行ける？）
+☆Yes, it takes ten minutes.（うん、10分かかるよ。）
+★Where do we get off?（どこで降りるの？）
+
+「Where do we get off?（どこで降りる？）」と降車場所を尋ねられているので、3「At the second stop.（2つ目の停留所で。）」が正解です。
+1「It costs seven dollars.（7ドルかかる。）」は運賃、2「I live on that street.（その通りに住んでる。）」は住所の話で、バスを降りる場所の質問には答えていません。
 
 ---
 
@@ -354,8 +444,13 @@ Question No.19:
 2. They are sleeping.
 
 【解説19】
-「What are they doing? I have something to show them.（何をしている？見せたいものがあるんだけど）」と行動を尋ねられているので、2「They are sleeping.」が正解です。
-1「I’m glad they like it.」は喜びの表明、3「Around 10 p.m.」は時刻の答えで、子どもたちが今何をしているかには答えていません。
+放送文
+★Where are the kids?（子どもたちはどこ？）
+☆In their rooms.（自分たちの部屋にいるよ。）
+★What are they doing?  I have something to show them.（何をしているの？見せたいものがあるんだ。）
+
+「What are they doing? I have something to show them.（何をしている？見せたいものがあるんだけど）」と行動を尋ねられているので、2「They are sleeping.（寝ているよ。）」が正解です。
+1「I’m glad they like it.（気に入ってくれてうれしい。）」は喜びの表明、3「Around 10 p.m.（午後10時ごろ。）」は時刻の答えで、子どもたちが今何をしているかには答えていません。
 
 ---
 
@@ -373,8 +468,13 @@ Question No.20:
 1. She has many books.
 
 【解説20】
-「No. Rachel gave it to me.（いいえ、レチェルがくれた）」という話の流れで、1「She has many books.」が自然な返答です。
-2「It’s a new bookstore.」は書店の話、3「From 10 a.m.」は時間の話で、本をくれたレチェルへの返答としては不適切です。
+放送文
+☆I can’t wait to read this book.（この本を読むのが待ちきれない。）
+★Did you buy it?（買ったの？）
+☆No.  Rachel gave it to me.（いいえ。レイチェルがくれたの。）
+
+「No. Rachel gave it to me.（いいえ、レイチェルがくれた）」という話の流れで、1「She has many books.（彼女はたくさん本を持っている。）」が自然な返答です。
+2「It’s a new bookstore.（新しい書店だ。）」は書店の話、3「From 10 a.m.（午前10時から。）」は時間の話で、本をくれたレイチェルへの返答としては不適切です。
 
 ---
 
@@ -392,8 +492,13 @@ Question No.21:
 2. I’m sure they will.
 
 【解説21】
-「I hope my classmates like it.（クラスメートが気に入ってくれるといいな）」という不安に対し、2「I’m sure they will.」が自然な返答です。
-1「I took one, too.」は「私も取った」という別の場面の言い方、3「You’re very early.」は早すぎるという時間の話で、スピーチへの励ましにはなりません。
+放送文
+☆I have to make a speech tomorrow.（明日スピーチをしなきゃ。）
+★Good luck.（頑張って。）
+☆I hope my classmates like it.（クラスメートが気に入ってくれるといいな。）
+
+「I hope my classmates like it.（クラスメートが気に入ってくれるといいな）」という不安に対し、2「I’m sure they will.（きっと気に入るよ。）」が自然な返答です。
+1「I took one, too.（私も1つ取った。）」は別の場面の言い方、3「You’re very early.（すごく早いね。）」は時間の話で、スピーチへの励ましにはなりません。
 
 ---
 
@@ -411,8 +516,13 @@ Question No.22:
 3. My pleasure.
 
 【解説22】
-「You’re so helpful. Thanks.（とても助かるわ。ありがとう）」という感謝に対し、3「My pleasure.」が定番の返答です。
-2「In the garden.」は庭の場所、1「Me, too.」は「私も」という同意で、感謝への返答としては不自然です。
+放送文
+☆Could you take this chair outside?（この椅子を外に持って行ってくれる？）
+★Sure.（いいよ。）
+☆You’re so helpful.  Thanks.（本当に助かるわ。ありがとう。）
+
+「You’re so helpful. Thanks.（とても助かるわ。ありがとう）」という感謝に対し、3「My pleasure.（どういたしまして。）」が定番の返答です。
+2「In the garden.（庭で。）」は場所、1「Me, too.（私も。）」は同意で、感謝への返答としては不自然です。
 
 ---
 
@@ -430,8 +540,13 @@ Question No.23:
 1. OK, I’ll get my wallet.
 
 【解説23】
-「Can I have $20 for new clothes?（新しい服のために20ドルちょうだい？）」と頼まれたので、1「OK, I’ll get my wallet.」が自然な返答です。
-2「Yes, I know that store.」は店を知っているという話、3「No, I don’t need any right now.」は父親自身が服を必要としないという話で、お金を渡す場面への返答としては不適切です。
+放送文
+☆Dad, I’m going shopping.（お父さん、買い物に行ってくる。）
+★Have fun.（楽しんでね。）
+☆Can I have $20 for new clothes?（新しい服のために20ドルくれる？）
+
+「Can I have $20 for new clothes?（新しい服のために20ドルちょうだい？）」と頼まれたので、1「OK, I’ll get my wallet.（わかった、財布を取ってくる。）」が自然な返答です。
+2「Yes, I know that store.（うん、その店知ってる。）」は店を知っているという話、3「No, I don’t need any right now.（今は必要ない。）」は父親自身が服を必要としないという話で、お金を渡す場面への返答としては不適切です。
 
 ---
 
@@ -449,8 +564,13 @@ Question No.24:
 3. Yours is over there.
 
 【解説24】
-「Oh, where’s mine?（あ、私のはどこ？）」と自分のコーヒーの場所を尋ねられているので、3「Yours is over there.」が正解です。
-1「I had tea.」は紅茶を飲んだ話、2「Sugar and milk.」は砂糖とミルクの話で、コーヒーの場所の質問には答えていません。
+放送文
+☆Is this coffee for me?（このコーヒーは私の？）
+★No, that’s Mom’s.（いや、それはお母さんのだよ。）
+☆Oh, where’s mine?（あ、私のはどこ？）
+
+「Oh, where’s mine?（あ、私のはどこ？）」と自分のコーヒーの場所を尋ねられているので、3「Yours is over there.（君のはあそこだよ。）」が正解です。
+1「I had tea.（紅茶を飲んだ。）」は別の話、2「Sugar and milk.（砂糖とミルク。）」は中身の話で、コーヒーの場所の質問には答えていません。
 
 ---
 
@@ -468,8 +588,13 @@ Question No.25:
 3. Sure, I’ll look on the Internet.
 
 【解説25】
-「Could you check, please?（調べてくれる？）」と開始時刻がわからないので頼まれているため、3「Sure, I’ll look on the Internet.」が自然な返答です。
-1「OK, maybe next time.」は次回にするという断り、2「Right, it’s the same band.」は同じバンドだという同意で、時刻を調べる依頼への答えにはなりません。
+放送文
+☆What time does the concert start tonight?（今夜のコンサートは何時に始まる？）
+★I’m not sure.（よくわからない。）
+☆Could you check, please?（調べてくれる？）
+
+「Could you check, please?（調べてくれる？）」と開始時刻がわからないので頼まれているため、3「Sure, I’ll look on the Internet.（いいよ、ネットで調べる。）」が自然な返答です。
+1「OK, maybe next time.（じゃあ次回にしよう。）」は断り、2「Right, it’s the same band.（そう、同じバンドだ。）」は同意で、時刻を調べる依頼への答えにはなりません。
 
 ---
 
@@ -487,8 +612,13 @@ Question No.26:
 2. I’ve been there twice.
 
 【解説26】
-「Have you ever been there?（行ったことはある？）」という経験の質問に対し、2「I’ve been there twice.」が正解です。
-1「No, I’ve already eaten lunch.」は昼食を済ませた話、3「I was there on time.」は時間通りに着いた話で、レストランに行ったことがあるかどうかには答えていません。
+放送文
+☆I want to go to the Italian restaurant for dinner.（夕食にイタリアンレストランに行きたい。）
+★Good idea.（いいね。）
+☆Have you ever been there?（そこに行ったことある？）
+
+「Have you ever been there?（行ったことはある？）」という経験の質問に対し、2「I’ve been there twice.（2回行ったことある。）」が正解です。
+1「No, I’ve already eaten lunch.（いや、もう昼食を食べた。）」は昼食を済ませた話、3「I was there on time.（時間通りに着いた。）」は別の話で、レストランに行ったことがあるかどうかには答えていません。
 
 ---
 
@@ -506,8 +636,13 @@ Question No.27:
 3. Three large ones.
 
 【解説27】
-「How many dogs do you have?（犬を何匹飼っている？）」と数を尋ねられているので、3「Three large ones.」が正解です。
-1「Five years.」は期間の答え、2「No. This is my first time.」は初めて飼うという話で、飼っている犬の数には答えていません。
+放送文
+★Oh, I want to have dogs, too!（ああ、ぼくも犬を飼いたい！）
+☆Life with dogs is really great.（犬との生活は本当に素晴らしいよ。）
+★How many dogs do you have?（犬を何匹飼っているの？）
+
+「How many dogs do you have?（犬を何匹飼っている？）」と数を尋ねられているので、3「Three large ones.（大きいのを3匹。）」が正解です。
+1「Five years.（5年間。）」は期間の答え、2「No. This is my first time.（いや、初めてだ。）」は別の話で、飼っている犬の数には答えていません。
 
 ---
 
@@ -525,8 +660,13 @@ Question No.28:
 1. She didn’t see it there.
 
 【解説28】
-「Did she look in the library?（図書館で探した？）」という質問に対し、1「She didn’t see it there.」が自然な返答です。
-2「I like that writer.」は作家の好み、3「I don’t know that book.」は本を知らないという話で、ジェシカが図書館で探した結果には答えていません。
+放送文
+★What is Jessica looking for?（ジェシカは何を探しているの？）
+☆She lost her notebook.（ノートをなくしたの。）
+★Did she look in the library?（図書館で探した？）
+
+「Did she look in the library?（図書館で探した？）」という質問に対し、1「She didn’t see it there.（そこでは見つからなかった。）」が自然な返答です。
+2「I like that writer.（あの作家が好き。）」は作家の好み、3「I don’t know that book.（その本は知らない。）」は別の話で、ジェシカが図書館で探した結果には答えていません。
 
 ---
 
@@ -544,8 +684,13 @@ Question No.29:
 1. Have a good time.
 
 【解説29】
-「Yes, we’re going to study together.（うん、一緒に勉強する予定）」とケイトと勉強する予定だと話したので、1「Have a good time.」が自然な返答です。
-2「About ten minutes.」は時間の長さ、3「It’s Friday.」は曜日の話で、勉強の予定への返答としては不適切です。
+放送文
+★I’m going to miss the train!（電車に乗り遅れそう！）
+☆You are meeting Kate, right?（ケイトに会うんだよね？）
+★Yes, we’re going to study together.（うん、一緒に勉強する予定だよ。）
+
+「Yes, we’re going to study together.（うん、一緒に勉強する予定）」とケイトと勉強する予定だと話したので、1「Have a good time.（楽しんできてね。）」が自然な返答です。
+2「About ten minutes.（10分くらい。）」は時間の長さ、3「It’s Friday.（金曜だよ。）」は曜日の話で、勉強の予定への返答としては不適切です。
 
 ---
 
@@ -563,8 +708,13 @@ Question No.30:
 3. I think they can.
 
 【解説30】
-「Can your friends come?（友達は来られる？）」と誘いへの可否を尋ねられているので、3「I think they can.」が正解です。
-1「I already have plans.」は別の予定があるという断り、2「I’ll ask the waiter.」はウェイターに聞くという話で、友達が来られるかどうかの質問には答えていません。
+放送文
+☆Let’s eat at the Japanese restaurant tomorrow.（明日、和食レストランで食べよう。）
+★Shall we invite some other people, too?（他の人も誘おうか？）
+☆Can your friends come?（あなたの友達は来られる？）
+
+「Can your friends come?（友達は来られる？）」と誘いへの可否を尋ねられているので、3「I think they can.（来られると思う。）」が正解です。
+1「I already have plans.（もう予定がある。）」は別の予定があるという断り、2「I’ll ask the waiter.（ウェイターに聞く。）」はウェイターに聞くという話で、友達が来られるかどうかの質問には答えていません。
 
 ---
 
@@ -582,8 +732,13 @@ Question No.31:
 2. You can share mine.
 
 【解説31】
-「I forgot my umbrella.（傘を忘れた）」と言われ、相手が「That's too bad.」と同情しているので、傘を一緒に使おうと提案する2「You can share mine.」が自然な返答です。
-1「The bus is late」はバスの遅れ、3「I like rainy days」は雨の好みの話で、傘を忘れたという話題には答えていません。
+放送文
+☆It's raining hard.（雨が激しく降ってる。）
+★I forgot my umbrella.（傘を忘れた。）
+☆That's too bad.（それは気の毒に。）
+
+「I forgot my umbrella.（傘を忘れた）」と言われ、相手が「That's too bad.」と同情しているので、傘を一緒に使おうと提案する2「You can share mine.（私のを一緒に使っていいよ。）」が自然な返答です。
+1「The bus is late.（バスが遅れてる。）」はバスの遅れ、3「I like rainy days.（雨の日が好き。）」は雨の好みの話で、傘を忘れたという話題には答えていません。
 
 ---
 
@@ -601,8 +756,13 @@ Question No.32:
 3. Let's look in your desk.
 
 【解説32】
-「Did you check your backpack?（リュックを確認した？）」のあと、カードがそこにないと言われているので、机の中を探そうと提案する3「Let's look in your desk.」が自然な返答です。
-2「I borrowed three books」は借りた本の数、1「The library closes early」は図書館の営業時間の話で、カード探しへの返答になっていません。
+放送文
+★I can't find my library card.（図書館のカードが見つからない。）
+☆Did you check your backpack?（リュックは確認した？）
+★Yes, but it isn't there.（うん、でもそこにはない。）
+
+「Did you check your backpack?（リュックを確認した？）」のあと、カードがそこにないと言われているので、机の中を探そうと提案する3「Let's look in your desk.（机の中を探そう。）」が自然な返答です。
+2「I borrowed three books.（本を3冊借りた。）」は借りた本の数、1「The library closes early.（図書館は早く閉まる。）」は図書館の営業時間の話で、カード探しへの返答になっていません。
 
 ---
 
@@ -620,8 +780,13 @@ Question No.33:
 2. The wind is very strong.
 
 【解説33】
-「Really? It looks sunny.（ほんと？晴れてるみたいだけど）」と、外は寒いのに晴れている理由を尋ねられているので、2「The wind is very strong.」が正解です。
-1「I bought it yesterday」はジャケットを買った時期、3「My brother likes jackets」は兄弟の好みの話で、寒さの理由にはなりません。
+放送文
+☆Why are you wearing a jacket?（なぜジャケットを着てるの？）
+★Because it's cold outside.（外が寒いからだよ。）
+☆Really? It looks sunny.（ほんと？晴れてるみたいだけど。）
+
+「Really? It looks sunny.（ほんと？晴れてるみたいだけど）」と、外は寒いのに晴れている理由を尋ねられているので、2「The wind is very strong.（風がとても強いんだ。）」が正解です。
+1「I bought it yesterday.（昨日買った。）」はジャケットを買った時期、3「My brother likes jackets.（兄はジャケットが好き。）」は兄弟の好みの話で、寒さの理由にはなりません。
 
 ---
 
@@ -639,8 +804,13 @@ Question No.34:
 3. Would you like to try one?
 
 【解説34】
-「They smell great.（いい香り）」と言われているので、1つ試してみるよう勧める3「Would you like to try one?」が自然な返答です。
-2「I bought them downtown」は購入した話、1「The festival was last week」はお祭りの日程の話で、会話の流れに合いません。
+放送文
+★What are you making?（何を作ってるの？）
+☆Cookies for the school festival.（学園祭のためのクッキー。）
+★They smell great.（いい香りだね。）
+
+「They smell great.（いい香り）」と言われているので、1つ試してみるよう勧める3「Would you like to try one?（1つ食べてみる？）」が自然な返答です。
+2「I bought them downtown.（繁華街で買った。）」は購入した話、1「The festival was last week.（お祭りは先週だった。）」はお祭りの日程の話で、会話の流れに合いません。
 
 ---
 
@@ -658,8 +828,13 @@ Question No.35:
 2. I watched TV instead.
 
 【解説35】
-「Did you study last night?（昨夜勉強した？）」と聞かれているので、代わりにテレビを見ていたと答える2「I watched TV instead.」が自然な返答です。
-1「It starts at nine」はテスト開始時刻、3「Math is my favorite subject」は数学の好みの話で、勉強したかどうかへの答えになっていません。
+放送文
+☆Are you ready for the math test?（数学のテストの準備はできてる？）
+★Not really.（あまり。）
+☆Did you study last night?（昨夜勉強した？）
+
+「Did you study last night?（昨夜勉強した？）」と聞かれているので、代わりにテレビを見ていたと答える2「I watched TV instead.（代わりにテレビを見ちゃった。）」が自然な返答です。
+1「It starts at nine.（9時に始まる。）」はテスト開始時刻、3「Math is my favorite subject.（数学は一番好きな科目。）」は数学の好みの話で、勉強したかどうかへの答えになっていません。
 
 ---
 
@@ -677,8 +852,13 @@ Question No.36:
 2. I'll buy something at the cafeteria.
 
 【解説36】
-「What are you going to do?（どうするの？）」と昼食を家に忘れたあと聞かれているので、2「I'll buy something at the cafeteria.」が自然な返答です。
-1「I had pasta yesterday」は昨日の昼食の話、3「My lunch box is blue」は弁当箱の色の話で、どうするかという質問への答えになっていません。
+放送文
+★Did you bring your lunch today?（今日は昼食を持ってきた？）
+☆No, I forgot it at home.（いや、家に忘れた。）
+★What are you going to do?（どうするの？）
+
+「What are you going to do?（どうするの？）」と昼食を家に忘れたあと聞かれているので、2「I'll buy something at the cafeteria.（食堂で何か買うよ。）」が自然な返答です。
+1「I had pasta yesterday.（昨日パスタを食べた。）」は昨日の昼食の話、3「My lunch box is blue.（弁当箱は青い。）」は弁当箱の色の話で、どうするかという質問への答えになっていません。
 
 ---
 
@@ -696,8 +876,13 @@ Question No.37:
 3. Would you like to see them later?
 
 【解説37】
-「That's interesting.（それはおもしろいね）」という反応のあとなので、あとで写真を見せるよう勧める3「Would you like to see them later?」が自然な返答です。
-2「It's next to the library」は場所の説明、1「I lost my notebook」はノートをなくした話で、会話がつながりません。
+放送文
+☆Why are you carrying that camera?（なぜそのカメラを持ってるの？）
+★I'm taking pictures for the school newspaper.（学校新聞のために写真を撮ってるんだ。）
+☆That's interesting.（それはおもしろいね。）
+
+「That's interesting.（それはおもしろいね）」という反応のあとなので、あとで写真を見せるよう勧める3「Would you like to see them later?（あとで見てみる？）」が自然な返答です。
+2「It's next to the library.（図書館の隣だよ。）」は場所の説明、1「I lost my notebook.（ノートをなくした。）」はノートをなくした話で、会話がつながりません。
 
 ---
 
@@ -715,8 +900,13 @@ Question No.38:
 3. It's behind the main building.
 
 【解説38】
-「Do you know where the gym is?（体育館がどこか知ってる？）」と場所を尋ねられているので、3「It's behind the main building.」が正解です。
-2「I like playing basketball」は好み、1「The game was exciting」は試合の感想で、場所の質問に答えていません。
+放送文
+★The basketball game starts in ten minutes.（バスケの試合が10分後に始まる。）
+☆Really? We should hurry.（ほんと？急がなきゃ。）
+★Do you know where the gym is?（体育館がどこか知ってる？）
+
+「Do you know where the gym is?（体育館がどこか知ってる？）」と場所を尋ねられているので、3「It's behind the main building.（本館の裏だよ。）」が正解です。
+2「I like playing basketball.（バスケをするのが好き。）」は好み、1「The game was exciting.（試合はわくわくした。）」は試合の感想で、場所の質問に答えていません。
 
 ---
 
@@ -734,8 +924,13 @@ Question No.39:
 2. He's five years old.
 
 【解説39】
-「How old is he?（何歳？）」と犬の年齢を尋ねられているので、2「He's five years old.」が正解です。
-1「He runs very fast」は走る速さ、3「I walk him every morning」は散歩の習慣で、年齢への答えではありません。
+放送文
+☆Your dog is very friendly.（あなたの犬はとても人懐っこいね。）
+★Thanks. He loves meeting new people.（ありがとう。新しい人に会うのが大好きなんだ。）
+☆How old is he?（何歳？）
+
+「How old is he?（何歳？）」と犬の年齢を尋ねられているので、2「He's five years old.（5歳だよ。）」が正解です。
+1「He runs very fast.（とても速く走る。）」は走る速さ、3「I walk him every morning.（毎朝散歩させる。）」は散歩の習慣で、年齢への答えではありません。
 
 ---
 
@@ -753,7 +948,12 @@ Question No.40:
 3. I really am.
 
 【解説40】
-「You must be happy.（うれしいでしょう）」とスピーチコンテストで優勝したあと言われているので、3「I really am.」が自然な返答です。
-2「It begins at noon」は開始時刻、1「I forgot my speech」はスピーチを忘れた話で、会話の流れに合いません。
+放送文
+★I heard you won the speech contest.（スピーチコンテストで優勝したんだって。）
+☆Yes, I was very surprised.（うん、とても驚いた。）
+★You must be happy.（うれしいでしょう。）
+
+「You must be happy.（うれしいでしょう）」とスピーチコンテストで優勝したあと言われているので、3「I really am.（本当にうれしい。）」が自然な返答です。
+2「It begins at noon.（正午に始まる。）」は開始時刻、1「I forgot my speech.（スピーチを忘れた。）」はスピーチを忘れた話で、会話の流れに合いません。
 
 ---
