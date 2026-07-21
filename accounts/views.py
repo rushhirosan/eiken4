@@ -5,6 +5,7 @@ from django.utils.decorators import method_decorator
 from django_ratelimit.decorators import ratelimit
 from django_ratelimit.exceptions import Ratelimited
 import logging
+from eiken_project.discord_notify import notify_user_registered
 from .forms import CustomUserCreationForm
 
 logger = logging.getLogger(__name__)
@@ -15,7 +16,9 @@ def signup(request):
         if form.is_valid():
             user = form.save()
             login(request, user)
-            logger.info(f'新規ユーザー登録成功: username={user.username}, ip={get_client_ip(request)}')
+            ip_address = get_client_ip(request)
+            logger.info(f'新規ユーザー登録成功: username={user.username}, ip={ip_address}')
+            notify_user_registered(username=user.username, ip=ip_address)
             return redirect('exams:exam_list')
         else:
             # デバッグ情報をログに出力

@@ -31,6 +31,9 @@ ALLOWED_HOSTS = []
 # Google Analytics 4
 GA_MEASUREMENT_ID = os.environ.get('GA_MEASUREMENT_ID', 'G-XXXXXXXXXX')
 
+# Discord webhook（ユーザー登録・フィードバック通知）。未設定なら通知しない。
+DISCORD_WEBHOOK_URL = os.environ.get('DISCORD_WEBHOOK_URL', '')
+
 
 # Application definition
 

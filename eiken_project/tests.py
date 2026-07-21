@@ -1,6 +1,15 @@
 from django.contrib.auth import get_user_model
 from django.test import Client, TestCase, override_settings
 from django.urls import reverse
+from unittest.mock import MagicMock, patch
+import json
+import urllib.error
+
+from eiken_project.discord_notify import (
+    notify_feedback_created,
+    notify_user_registered,
+    send_discord_message,
+)
 
 User = get_user_model()
 
@@ -177,3 +186,43 @@ class CanonicalHostRedirectTest(TestCase):
     def test_custom_domain_is_not_redirected(self):
         response = self.client.get('/about/', HTTP_HOST='eiken-practice.com')
         self.assertEqual(response.status_code, 200)
+
+
+class DiscordNotifyTest(TestCase):
+    @override_settings(DISCORD_WEBHOOK_URL='')
+    def test_skips_when_webhook_unset(self):
+        with patch('eiken_project.discord_notify.urllib.request.urlopen') as mock_open:
+            self.assertFalse(send_discord_message(content='hello'))
+            mock_open.assert_not_called()
+
+    @override_settings(DISCORD_WEBHOOK_URL='https://discord.example/webhook')
+    def test_posts_json_payload(self):
+        mock_response = MagicMock()
+        mock_response.status = 204
+        mock_response.__enter__.return_value = mock_response
+        mock_response.__exit__.return_value = False
+
+        with patch(
+            'eiken_project.discord_notify.urllib.request.urlopen',
+            return_value=mock_response,
+        ) as mock_open:
+            self.assertTrue(notify_user_registered(username='alice', ip='1.2.3.4'))
+            request = mock_open.call_args[0][0]
+            body = json.loads(request.data.decode('utf-8'))
+            self.assertEqual(body['embeds'][0]['title'], '新規ユーザー登録')
+            self.assertEqual(body['embeds'][0]['fields'][0]['value'], 'alice')
+
+    @override_settings(DISCORD_WEBHOOK_URL='https://discord.example/webhook')
+    def test_network_error_does_not_raise(self):
+        with patch(
+            'eiken_project.discord_notify.urllib.request.urlopen',
+            side_effect=urllib.error.URLError('down'),
+        ):
+            self.assertFalse(
+                notify_feedback_created(
+                    username='bob',
+                    feedback_type_label='バグ報告',
+                    title='落ちる',
+                    content='詳細',
+                )
+            )

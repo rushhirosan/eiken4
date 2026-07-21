@@ -57,6 +57,7 @@ from .gamification import (
     store_pre_submit_unlock_snapshot,
 )
 from .writing_feedback import analyze_writing_response, get_writing_rubric
+from eiken_project.discord_notify import notify_feedback_created
 from .choice_shuffle import (
     apply_choice_shuffle_to_items,
     apply_choice_shuffle_to_passages,
@@ -2490,6 +2491,13 @@ def feedback_form(request):
                 f'フィードバック送信: username={request.user.username}, ip={ip_address}, '
                 f'type={feedback.feedback_type}, title={feedback.title[:80]!r}, '
                 f'user_agent={request.META.get("HTTP_USER_AGENT", "Unknown")}'
+            )
+            notify_feedback_created(
+                username=request.user.username,
+                feedback_type_label=feedback.get_feedback_type_display(),
+                title=feedback.title,
+                content=feedback.content,
+                email=feedback.email or None,
             )
             return redirect('exams:feedback_success')
 

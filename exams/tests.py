@@ -1105,9 +1105,13 @@ class FeedbackViewTest(TestCase):
         }
 
     def test_submit_success(self):
-        response = self.client.post(self.url, self.payload)
-        self.assertRedirects(response, reverse('exams:feedback_success'))
-        self.assertEqual(Feedback.objects.filter(user=self.user).count(), 1)
+        with patch('exams.views.notify_feedback_created') as mock_notify:
+            response = self.client.post(self.url, self.payload)
+            self.assertRedirects(response, reverse('exams:feedback_success'))
+            self.assertEqual(Feedback.objects.filter(user=self.user).count(), 1)
+            mock_notify.assert_called_once()
+            self.assertEqual(mock_notify.call_args.kwargs['username'], 'feedback_user')
+            self.assertEqual(mock_notify.call_args.kwargs['title'], 'テスト')
 
     @patch('exams.views.get_client_ip', return_value='127.0.0.1')
     def test_rate_limit_blocks_excess_submissions(self, _mock_ip):

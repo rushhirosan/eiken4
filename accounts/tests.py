@@ -1,6 +1,7 @@
 from django.test import TestCase, Client
 from django.contrib.auth import get_user_model
 from django.urls import reverse
+from unittest.mock import patch
 
 User = get_user_model()
 
@@ -86,13 +87,16 @@ class SignupViewTest(TestCase):
     
     def test_signup_success(self):
         """新規登録が成功するかテスト"""
-        response = self.client.post(self.url, {
-            'username': 'newuser',
-            'email': 'newuser@example.com',
-            'password1': 'testpass123',
-            'password2': 'testpass123'
-        })
-        # 登録成功後はリダイレクト
-        self.assertEqual(response.status_code, 302)
-        # ユーザーが作成されたか確認
-        self.assertTrue(User.objects.filter(username='newuser').exists())
+        with patch('accounts.views.notify_user_registered') as mock_notify:
+            response = self.client.post(self.url, {
+                'username': 'newuser',
+                'email': 'newuser@example.com',
+                'password1': 'testpass123',
+                'password2': 'testpass123'
+            })
+            # 登録成功後はリダイレクト
+            self.assertEqual(response.status_code, 302)
+            # ユーザーが作成されたか確認
+            self.assertTrue(User.objects.filter(username='newuser').exists())
+            mock_notify.assert_called_once()
+            self.assertEqual(mock_notify.call_args.kwargs['username'], 'newuser')
