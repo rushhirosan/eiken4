@@ -1,0 +1,15 @@
+{# 回答結果で全選択肢を表示（復習用）。answer.choices / user_answer を想定 #}
+{% if answer.choices %}
+<div class="choices mb-3 result-choices">
+    <h6>選択肢:</h6>
+    {% for choice in answer.choices %}
+    <div class="result-choice{% if choice.is_correct %} result-choice--correct{% endif %}{% if answer.user_answer == choice or answer.user_answer.id == choice.id or answer.user_answer == choice.choice_text %} result-choice--selected{% endif %}">
+        <span class="result-choice-text">{{ forloop.counter }}. {{ choice.choice_text }}</span>
+        {% if choice.is_correct %}<span class="badge bg-success ms-2">正解</span>{% endif %}
+        {% if answer.user_answer == choice or answer.user_answer.id == choice.id or answer.user_answer == choice.choice_text %}
+        <span class="badge bg-secondary ms-1">あなたの回答</span>
+        {% endif %}
+    </div>
+    {% endfor %}
+</div>
+{% endif %}

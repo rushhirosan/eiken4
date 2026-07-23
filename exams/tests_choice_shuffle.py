@@ -200,6 +200,13 @@ class ChoiceShuffleIntegrationTest(TestCase):
         )
         self.assertEqual(results.status_code, 200)
         self.assertContains(results, '正解です！')
+        self.assertContains(results, '選択肢:')
+        self.assertContains(results, 'have')
+        self.assertContains(results, 'has')
+        self.assertContains(results, 'having')
+        self.assertContains(results, 'had')
+        self.assertContains(results, '正解')
+        self.assertContains(results, 'あなたの回答')
 
     def test_listening_illustration_keeps_database_order(self):
         from questions.models import ListeningChoice, ListeningQuestion

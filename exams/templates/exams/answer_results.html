@@ -138,6 +138,8 @@
                 <div class="mt-4">
                     <h6>問題 {{ forloop.counter }}</h6>
                     <p>{{ answer.question.question_text|linebreaks }}</p>
+
+                    {% include 'exams/_answer_result_choices.html' %}
                     
                 <div class="mt-3">
                         <p class="{% if answer.is_correct %}text-success{% else %}text-danger{% endif %}">
@@ -194,6 +196,8 @@
                 <div class="mb-3 small text-muted">{{ answer.question.listening_text|strip_question_no|linebreaks }}</div>
                 {% endif %}
                 <p class="card-text">{{ answer.question.question_text|strip_question_no|linebreaks }}</p>
+
+                {% include 'exams/_answer_result_choices.html' %}
                 
                 <div class="mt-3">
                     <p class="{% if answer.is_correct %}text-success{% else %}text-danger{% endif %}">
@@ -223,6 +227,30 @@
 </div>
 
 <style>
+.result-choices .result-choice {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 0.25rem 0;
+    padding: 0.5rem 0.75rem;
+    margin-bottom: 0.35rem;
+    border: 1px solid #e5e7eb;
+    border-radius: 0.375rem;
+    background: #fff;
+}
+.result-choices .result-choice--correct {
+    border-color: #86efac;
+    background: #f0fdf4;
+}
+.result-choices .result-choice--selected:not(.result-choice--correct) {
+    border-color: #fca5a5;
+    background: #fef2f2;
+}
+.result-choices .result-choice-text {
+    flex: 1 1 auto;
+    min-width: 0;
+}
+
 /* モバイル最適化 */
 @media (max-width: 768px) {
     h2 {
