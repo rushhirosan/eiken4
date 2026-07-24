@@ -1195,6 +1195,30 @@ class ListeningIllustrationScoringTest(TestCase):
         self.assertEqual(saved.selected_answer, self.choice1.choice_text)
         self.assertTrue(saved.is_correct)
 
+    def test_random_results_show_listening_illustration_media(self):
+        """ランダム結果でイラスト問題の画像・音声・正解が表示される"""
+        response = self.client.post(
+            reverse('exams:submit_answers', kwargs={'level': '4'}),
+            {
+                'question_type': 'random',
+                'num_questions': '10',
+                f'answer_{self.question.id}': self.choice2.choice_text,
+            },
+        )
+        self.assertEqual(response.status_code, 302)
+
+        results = self.client.get(
+            reverse('exams:answer_results', kwargs={'level': '4', 'question_type': 'random'})
+        )
+        self.assertEqual(results.status_code, 200)
+        self.assertContains(results, self.question.image)
+        self.assertContains(results, self.question.audio)
+        self.assertContains(results, '不正解です。')
+        self.assertContains(results, '選択肢1')
+        self.assertNotContains(results, '正解が見つかりませんでした')
+        self.assertContains(results, 'あなたの回答')
+        self.assertContains(results, self.choice2.choice_text)
+
     def test_random_submit_replaces_existing_listening_answer_level5(self):
         """5級ランダムでも既答イラストの再提出で500にならない"""
         level5_question = ListeningQuestion.objects.create(

@@ -240,6 +240,28 @@ def _is_level5_only_type(level, question_type):
     return question_type in ('reading_comprehension', 'writing', 'listening_passage')
 
 
+def _resolve_listening_illustration_correct_choice(question, choices):
+    """ListeningChoice 一覧から正解選択肢を解決する。"""
+    choice_list = list(choices)
+    for choice in choice_list:
+        if choice.is_correct:
+            return choice
+    correct_answer = str(getattr(question, 'correct_answer', '') or '').strip()
+    if not correct_answer:
+        return None
+    try:
+        correct_order = int(correct_answer)
+        for choice in choice_list:
+            if choice.order == correct_order:
+                return choice
+    except (ValueError, TypeError):
+        pass
+    for choice in choice_list:
+        if (choice.choice_text or '').strip() == correct_answer:
+            return choice
+    return None
+
+
 def _is_correct_listening_illustration_answer(question, selected_answer, request=None, level=None):
     """リスニング第1部の回答値（テキスト/番号）から正解判定を行う。"""
     normalized_answer = (selected_answer or '').strip()
@@ -1620,7 +1642,12 @@ def answer_results(request, level, question_type):
                     user=request.user,
                     question_id=question_id
                 )
-                choices = ListeningChoice.objects.filter(question=answer.question).order_by('order')
+                choices = list(
+                    ListeningChoice.objects.filter(question=answer.question).order_by('order')
+                )
+                correct_choice = _resolve_listening_illustration_correct_choice(
+                    answer.question, choices
+                )
                 answers_with_questions.append({
                     'question': answer.question,
                     'choices': choices,
@@ -1630,6 +1657,7 @@ def answer_results(request, level, question_type):
                         request=request, level=level,
                     ),
                     'correct_answer': answer.question.correct_answer,
+                    'correct_choice': correct_choice,
                     'explanation': getattr(answer.question, 'explanation', ''),
                     'category': 'listening_illustration',
                     'order': answered_question_ids.index(question_id)
@@ -1699,18 +1727,13 @@ def answer_results(request, level, question_type):
         # 問題と回答を組み合わせる（出題順序でソート）
         answers_with_questions = []
         for answer in user_answers:
-            choices = ListeningChoice.objects.filter(question=answer.question).order_by('order')
-            
-            # 正解の選択肢を見つける（correct_answerはorder番号として保存されている）
-            correct_choice = None
-            if answer.question.correct_answer:
-                try:
-                    correct_order = int(answer.question.correct_answer)
-                    correct_choice = choices.filter(order=correct_order).first()
-                except (ValueError, TypeError):
-                    # correct_answerが番号でない場合、テキストで検索
-                    correct_choice = choices.filter(choice_text=answer.question.correct_answer).first()
-            
+            choices = list(
+                ListeningChoice.objects.filter(question=answer.question).order_by('order')
+            )
+            correct_choice = _resolve_listening_illustration_correct_choice(
+                answer.question, choices
+            )
+
             answers_with_questions.append({
                 'question': answer.question,
                 'choices': choices,
@@ -1720,7 +1743,7 @@ def answer_results(request, level, question_type):
                     request=request, level=level,
                 ),
                 'correct_answer': answer.question.correct_answer,
-                'correct_choice': correct_choice,  # 正解の選択肢オブジェクトを追加
+                'correct_choice': correct_choice,
                 'explanation': getattr(answer.question, 'explanation', ''),
                 'order': order_dict.get(answer.question.id, 0)  # 出題順序を追加
             })
