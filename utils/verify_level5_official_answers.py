@@ -148,8 +148,9 @@ def main() -> int:
                 listen,
             )
         )
-        # Part3 は通し番号 31-60（round_idx*10 + 30 + offset）
-        part3_start = 31 + round_idx * 10
+        # Part3 は通し番号 101+（round_idx*10 + 101）
+        # ※ No.1–40 は第1部（会話応答）。No.31–40 を第3部と誤解しないこと。
+        part3_start = 101 + round_idx * 10
         part3_end = part3_start + 9
         text = (_LEVEL5 / 'listening_illustration_questions.txt').read_text(encoding='utf-8')
         for mo in re.finditer(r'【正解(\d+)】\s*(\d+)\.', text):

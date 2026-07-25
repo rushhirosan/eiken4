@@ -316,12 +316,12 @@ No.14:
 ★Why did you write so much?
 
 Question No.14:
-1. I like science better.
+1. The topic was interesting.
 2. I left it at home.
-3. The topic was interesting.
+3. I like science better.
 
 【正解14】
-3. The topic was interesting.
+1. The topic was interesting.
 
 【解説14】
 放送文
@@ -329,8 +329,8 @@ Question No.14:
 ☆Five pages.（5ページ。）
 ★Why did you write so much?（なぜそんなにたくさん書いたの？）
 
-「Why did you write so much?（なぜそんなに長く書いたの？）」という理由を尋ねられているので、3「The topic was interesting.（テーマが面白かったから。）」が自然な答えです。
-2「I left it at home.（家に置いてきた。）」は置き忘れの話、1「I like science better.（理科の方が好き。）」は別の話題で、レポートが長い理由には答えていません。
+「Why did you write so much?（なぜそんなに長く書いたの？）」という理由を尋ねられているので、1「The topic was interesting.（テーマが面白かったから。）」が自然な答えです。
+2「I left it at home.（家に置いてきた。）」は置き忘れの話、3「I like science better.（理科の方が好き。）」は別の話題で、レポートが長い理由には答えていません。
 
 ---
 
@@ -508,12 +508,12 @@ No.22:
 ☆You’re so helpful.  Thanks.
 
 Question No.22:
-1. Me, too.
+1. My pleasure.
 2. In the garden.
-3. My pleasure.
+3. Me, too.
 
 【正解22】
-3. My pleasure.
+1. My pleasure.
 
 【解説22】
 放送文
@@ -521,8 +521,8 @@ Question No.22:
 ★Sure.（いいよ。）
 ☆You’re so helpful.  Thanks.（本当に助かるわ。ありがとう。）
 
-「You’re so helpful. Thanks.（とても助かるわ。ありがとう）」という感謝に対し、3「My pleasure.（どういたしまして。）」が定番の返答です。
-2「In the garden.（庭で。）」は場所、1「Me, too.（私も。）」は同意で、感謝への返答としては不自然です。
+「You’re so helpful. Thanks.（とても助かるわ。ありがとう）」という感謝に対し、1「My pleasure.（どういたしまして。）」が定番の返答です。
+2「In the garden.（庭で。）」は場所、3「Me, too.（私も。）」は同意で、感謝への返答としては不自然です。
 
 ---
 

@@ -9,6 +9,7 @@ from questions.level_paths import add_default_register_arguments
 class Command(BaseCommand):
     help = (
         'data/questions の【解説】（ライティングは【参考解答】）だけを既存DBへ反映する。'
+        'リスニング第1部は【正解】番号と ListeningChoice.is_correct も同期する。'
         '問題行は削除しないので回答・進捗を保持する。'
     )
 

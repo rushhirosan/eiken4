@@ -1,6 +1,7 @@
 """Progress-safe explanation sync from data/questions txt into existing DB rows.
 
 Never deletes Question / ListeningQuestion / ReadingQuestion rows.
+For listening_illustration, also syncs correct_answer and ListeningChoice.is_correct.
 """
 
 from __future__ import annotations
@@ -111,6 +112,17 @@ def extract_no_explanation(block: str) -> tuple[int | None, str]:
     )
     explanation = explanation_match.group(1).strip() if explanation_match else ''
     return number, explanation
+
+
+def extract_no_correct_order(block: str) -> int | None:
+    """【正解N】行の先頭番号（1–3 など）を返す。"""
+    match = re.search(r'【正解\d+】\s*\n\s*(\d+)\.', block)
+    if not match:
+        return None
+    try:
+        return int(match.group(1))
+    except (TypeError, ValueError):
+        return None
 
 
 def extract_mondai_explanation(block: str) -> tuple[int | None, str]:
@@ -330,12 +342,15 @@ def update_reading_comprehension(level: str, dry_run: bool, log, warn) -> int:
 
 
 def update_listening_illustration(level: str, dry_run: bool, log, warn) -> int:
+    from questions.models import ListeningChoice
+
     content = _read_file(level, 'listening_illustration_questions.txt')
     updated = 0
     for block in split_no_blocks(content):
         number, explanation = extract_no_explanation(block)
         if number is None or not explanation:
             continue
+        correct_order = extract_no_correct_order(block)
         qs = ListeningQuestion.objects.filter(
             level=level,
             image__endswith=f'listening_illustration_image{number}.png',
@@ -345,9 +360,24 @@ def update_listening_illustration(level: str, dry_run: bool, log, warn) -> int:
             warn(f'listening_illustration No.{number}: DBに該当なし')
             continue
         if not dry_run:
-            qs.update(explanation=explanation)
+            update_fields = {'explanation': explanation}
+            if correct_order is not None:
+                update_fields['correct_answer'] = str(correct_order)
+            qs.update(**update_fields)
+            if correct_order is not None:
+                for question in qs:
+                    ListeningChoice.objects.filter(question=question).update(is_correct=False)
+                    matched = ListeningChoice.objects.filter(
+                        question=question, order=correct_order
+                    ).update(is_correct=True)
+                    if matched == 0:
+                        warn(
+                            f'listening_illustration No.{number}: '
+                            f'order={correct_order} の選択肢なし (pk={question.pk})'
+                        )
         updated += count
-        log(f'listening_illustration No.{number}: {count} row(s)')
+        extra = f', correct={correct_order}' if correct_order is not None else ''
+        log(f'listening_illustration No.{number}: {count} row(s){extra}')
     return updated
 
 

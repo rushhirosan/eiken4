@@ -55,6 +55,7 @@ python manage.py update_listening_explanations --level 4
 ```
 
 **進捗を消したくないとき**は `register_*` / `create_*`（削除→再作成）を使わず、上の `update_explanations` を使う。
+`listening_illustration` は【解説】に加え【正解】番号と `ListeningChoice.is_correct` も同期する。
 
 ユーティリティ（PDF 抽出・TTS）の出力先は `utils/pdf_text_extractor.py` 等の引数・環境変数、または `utils/eiken_paths.py` と `--level` で 3級に切り替え可能。既定は 4級レイアウトのまま。
 

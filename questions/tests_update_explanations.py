@@ -105,3 +105,44 @@ class UpdateExplanationsCommandTest(TestCase):
         call_command('update_listening_explanations', level='4')
         self.lq.refresh_from_db()
         self.assertTrue(self.lq.explanation.startswith('放送文'))
+
+    def test_listening_illustration_syncs_correct_answer_without_deleting(self):
+        q22 = ListeningQuestion.objects.create(
+            question_text='',
+            image='images/part1/listening_illustration_image22.png',
+            audio='audio/part1/listening_illustration_question22.mp3',
+            correct_answer='2',
+            explanation='古い解説',
+            level='4',
+        )
+        c1 = ListeningChoice.objects.create(
+            question=q22, choice_text='1', is_correct=False, order=1
+        )
+        c2 = ListeningChoice.objects.create(
+            question=q22, choice_text='2', is_correct=True, order=2
+        )
+        c3 = ListeningChoice.objects.create(
+            question=q22, choice_text='3', is_correct=False, order=3
+        )
+        ListeningUserAnswer.objects.create(
+            user=self.user, question=q22, selected_answer='2', is_correct=True
+        )
+
+        call_command(
+            'update_explanations', level='4', category='listening_illustration'
+        )
+        q22.refresh_from_db()
+        c1.refresh_from_db()
+        c2.refresh_from_db()
+        c3.refresh_from_db()
+
+        self.assertEqual(q22.correct_answer, '3')
+        self.assertIn('You\'re lucky', q22.explanation)
+        self.assertFalse(c1.is_correct)
+        self.assertFalse(c2.is_correct)
+        self.assertTrue(c3.is_correct)
+        self.assertEqual(
+            ListeningUserAnswer.objects.filter(user=self.user, question=q22).count(),
+            1,
+        )
+        self.assertEqual(ListeningQuestion.objects.filter(pk=q22.pk).count(), 1)

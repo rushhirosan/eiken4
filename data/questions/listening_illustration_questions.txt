@@ -513,7 +513,7 @@ Question No.22:
 3. You’re lucky.
 
 【正解22】  
-2. I think so, too.
+3. You’re lucky.
 
 【解説22】
 放送文
@@ -521,8 +521,8 @@ M: This is my puppy.（これはぼくの子犬だよ。）
 W: Oh, it's really cute!（わあ、本当にかわいい！）
 M: I got him for my birthday.（誕生日にもらったんだ。）
 
-かわいいと言われた子犬について、飼い主も同意する2「I think so, too.（私もそう思う。）」が自然です。
-1「We're OK.（私たちは大丈夫。）」や3「You're lucky.（運がいいね。）」は自分の子犬への返答として合いません。
+最後に「誕生日にもらった」と聞いているので、3「You're lucky.（運がいいね。）」と応じるのが自然です。
+1「We're OK.（私たちは大丈夫。）」は無関係、2「I think so, too.（私もそう思う。）」は「かわいい」への同意で、最後の発話への応答としては合いません。
 
 ---
 
