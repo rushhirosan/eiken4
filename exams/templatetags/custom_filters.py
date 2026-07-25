@@ -89,4 +89,20 @@ def divide(value, arg):
     try:
         return float(value) / float(arg)
     except (ValueError, TypeError, ZeroDivisionError):
-        return 0 
+        return 0
+
+
+@register.simple_tag
+def answer_field_name(question):
+    """Typed answer_* name so Question / ListeningQuestion / ReadingQuestion PKs never collide."""
+    from exams.answer_keys import answer_field_name as build_name, kind_for_model_instance
+
+    return build_name(kind_for_model_instance(question), question.id)
+
+
+@register.simple_tag
+def choice_input_id(question, choice):
+    """Typed choice_* HTML id paired with answer_field_name."""
+    from exams.answer_keys import choice_dom_id, kind_for_model_instance
+
+    return choice_dom_id(kind_for_model_instance(question), choice.id)

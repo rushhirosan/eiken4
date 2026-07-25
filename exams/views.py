@@ -94,6 +94,210 @@ def _has_submittable_answers(post):
     return False
 
 
+def _save_mixed_type_submissions(request, level, submissions):
+    """Save typed answers for random/mock. Returns session refs in submit order.
+
+    Only loads questions for ``level``; never guesses model from bare PK.
+    """
+    level_str = str(level)
+    session_refs = []
+
+    lq_ids = ids_for_kind(submissions, KIND_LISTENING)
+    q_ids = ids_for_kind(submissions, KIND_QUESTION)
+    rq_ids = ids_for_kind(submissions, KIND_READING)
+
+    if lq_ids:
+        ListeningUserAnswer.objects.filter(
+            user=request.user, question_id__in=lq_ids
+        ).delete()
+    if q_ids:
+        UserAnswer.objects.filter(user=request.user, question_id__in=q_ids).delete()
+    if rq_ids:
+        ReadingUserAnswer.objects.filter(
+            user=request.user, reading_question_id__in=rq_ids
+        ).delete()
+
+    for kind, question_id, selected_answer in submissions:
+        if kind == KIND_LISTENING:
+            try:
+                question = ListeningQuestion.objects.get(
+                    id=question_id, level=level_str
+                )
+            except ListeningQuestion.DoesNotExist:
+                logger.warning(
+                    'mixed submit: skip listening id=%s level=%s (missing or wrong level)',
+                    question_id,
+                    level_str,
+                )
+                continue
+            is_correct = _is_correct_listening_illustration_answer(
+                question, selected_answer, request=request, level=level_str
+            )
+            ListeningUserAnswer.objects.create(
+                user=request.user,
+                question=question,
+                selected_answer=selected_answer,
+                is_correct=is_correct,
+                answered_at=timezone.now(),
+            )
+            update_user_progress(
+                request.user, level_str, 'listening_illustration', is_correct
+            )
+            session_refs.append(encode_session_ref(KIND_LISTENING, question_id))
+        elif kind == KIND_QUESTION:
+            try:
+                question = Question.objects.get(id=question_id, level=level_str)
+                choice = Choice.objects.get(id=selected_answer, question=question)
+            except (Question.DoesNotExist, Choice.DoesNotExist, ValueError, TypeError):
+                logger.warning(
+                    'mixed submit: skip question id=%s level=%s choice=%s',
+                    question_id,
+                    level_str,
+                    selected_answer,
+                )
+                continue
+            UserAnswer.objects.create(
+                user=request.user,
+                question=question,
+                selected_choice=choice,
+                is_correct=choice.is_correct,
+                answered_at=timezone.now(),
+            )
+            update_user_progress(
+                request.user, level_str, question.question_type, choice.is_correct
+            )
+            session_refs.append(encode_session_ref(KIND_QUESTION, question_id))
+        elif kind == KIND_READING:
+            try:
+                question = ReadingQuestion.objects.select_related('passage').get(
+                    id=question_id, passage__level=level_str
+                )
+                choice = ReadingChoice.objects.get(
+                    id=selected_answer, question=question
+                )
+            except (ReadingQuestion.DoesNotExist, ReadingChoice.DoesNotExist):
+                logger.warning(
+                    'mixed submit: skip reading id=%s level=%s choice=%s',
+                    question_id,
+                    level_str,
+                    selected_answer,
+                )
+                continue
+            ReadingUserAnswer.objects.create(
+                user=request.user,
+                reading_question=question,
+                selected_reading_choice=choice,
+                is_correct=choice.is_correct,
+                answered_at=timezone.now(),
+            )
+            update_user_progress(
+                request.user, level_str, 'reading_comprehension', choice.is_correct
+            )
+            session_refs.append(encode_session_ref(KIND_READING, question_id))
+    return session_refs
+
+
+def _build_mixed_type_results(request, level, session_refs):
+    """Build results rows for random/mock from typed session refs."""
+    level_str = str(level)
+    answers_with_questions = []
+    for order, ref in enumerate(session_refs):
+        decoded = decode_session_ref(ref)
+        if not decoded:
+            continue
+        kind, question_id = decoded
+        if kind == KIND_LISTENING:
+            try:
+                answer = ListeningUserAnswer.objects.select_related('question').get(
+                    user=request.user,
+                    question_id=question_id,
+                    question__level=level_str,
+                )
+            except ListeningUserAnswer.DoesNotExist:
+                continue
+            choices = list(
+                ListeningChoice.objects.filter(question=answer.question).order_by(
+                    'order'
+                )
+            )
+            correct_choice = _resolve_listening_illustration_correct_choice(
+                answer.question, choices
+            )
+            answers_with_questions.append({
+                'question': answer.question,
+                'choices': choices,
+                'user_answer': answer.selected_answer,
+                'is_correct': _is_correct_listening_illustration_answer(
+                    answer.question,
+                    answer.selected_answer,
+                    request=request,
+                    level=level_str,
+                ),
+                'correct_answer': answer.question.correct_answer,
+                'correct_choice': correct_choice,
+                'explanation': getattr(answer.question, 'explanation', ''),
+                'category': 'listening_illustration',
+                'order': order,
+            })
+        elif kind == KIND_QUESTION:
+            try:
+                answer = UserAnswer.objects.select_related(
+                    'question', 'selected_choice'
+                ).get(
+                    user=request.user,
+                    question_id=question_id,
+                    question__level=level_str,
+                )
+            except UserAnswer.DoesNotExist:
+                continue
+            choices = Choice.objects.filter(question=answer.question).order_by('order')
+            correct_choice = choices.filter(is_correct=True).first()
+            answers_with_questions.append({
+                'question': answer.question,
+                'choices': choices,
+                'user_answer': answer.selected_choice,
+                'is_correct': _is_currently_correct_choice(answer.selected_choice),
+                'correct_choice': correct_choice,
+                'explanation': _format_objective_explanation(
+                    answer.question.explanation, correct_choice
+                ),
+                'category': answer.question.question_type,
+                'order': order,
+            })
+        elif kind == KIND_READING:
+            try:
+                answer = ReadingUserAnswer.objects.select_related(
+                    'reading_question',
+                    'reading_question__passage',
+                    'selected_reading_choice',
+                ).get(
+                    user=request.user,
+                    reading_question_id=question_id,
+                    reading_question__passage__level=level_str,
+                )
+            except ReadingUserAnswer.DoesNotExist:
+                continue
+            rq = answer.reading_question
+            choices = ReadingChoice.objects.filter(question=rq).order_by('order')
+            correct_choice = choices.filter(is_correct=True).first()
+            answers_with_questions.append({
+                'question': rq,
+                'choices': choices,
+                'user_answer': answer.selected_reading_choice,
+                'is_correct': _is_currently_correct_choice(
+                    answer.selected_reading_choice
+                ),
+                'correct_choice': correct_choice,
+                'explanation': _format_objective_explanation(
+                    getattr(rq, 'explanation', ''), correct_choice
+                ),
+                'category': 'reading_comprehension',
+                'order': order,
+            })
+    answers_with_questions.sort(key=lambda x: x['order'])
+    return answers_with_questions
+
+
 def _redirect_empty_submission(request, level, question_type):
     status = request.POST.get('status', 'unanswered')
     num_questions = request.POST.get('num_questions', '5')
@@ -114,6 +318,15 @@ FOUNDATION_QUESTION_TYPES = [
     'listening_passage',
 ]
 
+from .answer_keys import (
+    KIND_LISTENING,
+    KIND_QUESTION,
+    KIND_READING,
+    decode_session_ref,
+    encode_session_ref,
+    ids_for_kind,
+    iter_submitted_answers,
+)
 from .listening_utils import (
     LISTENING_ILLUSTRATION_PART1_MAX,
     LISTENING_ILLUSTRATION_PART3_MIN,
@@ -881,12 +1094,10 @@ def question_list(request, level=None, exam_id=None):
         # POSTリクエストがある場合のみ回答処理を実行
         if request.method == 'POST':
             _snapshot_unlock_before_submit(request, request.user, level)
-            # POSTされたquestion_idをすべて取得
-            post_question_ids = [
-                int(key.replace('answer_', ''))
-                for key in request.POST.keys()
-                if key.startswith('answer_')
-            ]
+            submissions = iter_submitted_answers(
+                request.POST, default_kind=KIND_QUESTION
+            )
+            post_question_ids = ids_for_kind(submissions, KIND_QUESTION)
             
             # 既存の回答を削除（POSTされたquestion_idのみ）
             UserAnswer.objects.filter(
@@ -895,22 +1106,28 @@ def question_list(request, level=None, exam_id=None):
             ).delete()
             
             # 回答を保存
-            for question_id in post_question_ids:
-                answer_key = f'answer_{question_id}'
-                selected_choice_id = request.POST.get(answer_key)
-                if selected_choice_id:
-                    choice = Choice.objects.get(id=selected_choice_id)
-                    is_correct = choice.is_correct
-                    question = Question.objects.get(id=question_id)
-                    UserAnswer.objects.create(
-                        user=request.user,
-                        question=question,
-                        selected_choice=choice,
-                        is_correct=is_correct,
-                        answered_at=timezone.now()
+            for kind, question_id, selected_choice_id in submissions:
+                if kind != KIND_QUESTION:
+                    continue
+                try:
+                    question = Question.objects.get(
+                        id=question_id, level=str(level), question_type=question_type
                     )
-                    # 進捗を更新
-                    update_user_progress(request.user, level, question_type, is_correct)
+                    choice = Choice.objects.get(
+                        id=selected_choice_id, question=question
+                    )
+                except (Question.DoesNotExist, Choice.DoesNotExist):
+                    continue
+                UserAnswer.objects.create(
+                    user=request.user,
+                    question=question,
+                    selected_choice=choice,
+                    is_correct=choice.is_correct,
+                    answered_at=timezone.now()
+                )
+                update_user_progress(
+                    request.user, level, question_type, choice.is_correct
+                )
 
             # 今回回答したquestion_idと出題順序をセッションに保存
             request.session[f'answered_questions_{question_type}_{level}'] = post_question_ids
@@ -1125,36 +1342,40 @@ def question_list(request, level=None, exam_id=None):
         # POSTリクエストがある場合のみ回答処理を実行
         if request.method == 'POST':
             _snapshot_unlock_before_submit(request, request.user, level)
-            # POSTされたquestion_idをすべて取得
-            post_question_ids = [
-                int(key.replace('answer_', ''))
-                for key in request.POST.keys()
-                if key.startswith('answer_')
-            ]
-            
+            submissions = iter_submitted_answers(
+                request.POST, default_kind=KIND_QUESTION
+            )
+            post_question_ids = ids_for_kind(submissions, KIND_QUESTION)
+
             # 既存の回答を削除（POSTされたquestion_idのみ）
             UserAnswer.objects.filter(
                 user=request.user,
                 question_id__in=post_question_ids
             ).delete()
-            
+
             # 回答を保存
-            for question_id in post_question_ids:
-                answer_key = f'answer_{question_id}'
-                selected_choice_id = request.POST.get(answer_key)
-                if selected_choice_id:
-                    choice = Choice.objects.get(id=selected_choice_id)
-                    is_correct = choice.is_correct
-                    question = Question.objects.get(id=question_id)
-                    UserAnswer.objects.create(
-                        user=request.user,
-                        question=question,
-                        selected_choice=choice,
-                        is_correct=is_correct,
-                        answered_at=timezone.now()
+            for kind, question_id, selected_choice_id in submissions:
+                if kind != KIND_QUESTION:
+                    continue
+                try:
+                    question = Question.objects.get(
+                        id=question_id, level=str(level), question_type=question_type
                     )
-                    # 進捗を更新
-                    update_user_progress(request.user, level, question_type, is_correct)
+                    choice = Choice.objects.get(
+                        id=selected_choice_id, question=question
+                    )
+                except (Question.DoesNotExist, Choice.DoesNotExist):
+                    continue
+                UserAnswer.objects.create(
+                    user=request.user,
+                    question=question,
+                    selected_choice=choice,
+                    is_correct=choice.is_correct,
+                    answered_at=timezone.now()
+                )
+                update_user_progress(
+                    request.user, level, question_type, choice.is_correct
+                )
 
             # 今回回答したquestion_idと出題順序をセッションに保存
             request.session[f'answered_questions_{question_type}_{level}'] = post_question_ids
@@ -1314,68 +1535,16 @@ def submit_answers(request, level):
         logger.debug(f"Debug - Submit Answers: question_type={question_type}, level={level}, num_questions={num_questions}")
         logger.debug(f"Debug - POST data: {request.POST}")
         
-        if question_type == 'random':
-            # ランダム10問の場合
-            # POSTされたquestion_idをすべて取得
-            post_question_ids = [
-                int(key.replace('answer_', ''))
-                for key in request.POST.keys()
-                if key.startswith('answer_')
-            ]
-
-            # 既存の回答を削除（再出題時の UniqueViolation 防止。他タイプと同じ）
-            ListeningUserAnswer.objects.filter(
-                user=request.user,
-                question_id__in=post_question_ids,
-            ).delete()
-            UserAnswer.objects.filter(
-                user=request.user,
-                question_id__in=post_question_ids,
-            ).delete()
-            
-            # 各問題のタイプを判定して適切な回答を保存
-            for question_id in post_question_ids:
-                answer_key = f'answer_{question_id}'
-                if answer_key in request.POST:
-                    selected_answer = request.POST.get(answer_key)
-                    
-                    # リスニングイラスト問題かどうかを判定
-                    try:
-                        question = ListeningQuestion.objects.get(id=question_id)
-                        # リスニング第1部は選択肢テキスト/番号の双方に対応して採点
-                        is_correct = _is_correct_listening_illustration_answer(
-                            question, selected_answer, request=request, level=level
-                        )
-                        ListeningUserAnswer.objects.create(
-                            user=request.user,
-                            question=question,
-                            selected_answer=selected_answer,
-                            is_correct=is_correct,
-                            answered_at=timezone.now()
-                        )
-                        # 進捗を更新
-                        update_user_progress(request.user, level, 'listening_illustration', is_correct)
-                    except ListeningQuestion.DoesNotExist:
-                        # 通常の問題の場合
-                        try:
-                            question = Question.objects.get(id=question_id)
-                            choice = Choice.objects.get(id=selected_answer)
-                            UserAnswer.objects.create(
-                                user=request.user,
-                                question=question,
-                                selected_choice=choice,
-                                is_correct=choice.is_correct,
-                                answered_at=timezone.now()
-                            )
-                            # 進捗を更新
-                            update_user_progress(request.user, level, question.question_type, choice.is_correct)
-                        except (Question.DoesNotExist, Choice.DoesNotExist):
-                            continue
-            
-            # 今回回答したquestion_idをセッションに保存
-            request.session[f'answered_questions_{question_type}_{level}'] = post_question_ids
-            
-            return redirect('exams:answer_results', level=level, question_type=question_type)
+        if question_type in ('random', 'mock_exam'):
+            # 型付き answer_q_ / answer_lq_ / answer_rq_ のみ受理（級混在・PK衝突防止）
+            submissions = iter_submitted_answers(request.POST)
+            session_refs = _save_mixed_type_submissions(
+                request, level, submissions
+            )
+            request.session[f'answered_questions_{question_type}_{level}'] = session_refs
+            return redirect(
+                'exams:answer_results', level=level, question_type=question_type
+            )
         
         elif question_type in ('listening_illustration', 'listening_illustration_part3'):
             illustration_part = 1 if question_type == 'listening_illustration' and str(level) == '5' else (
@@ -1389,12 +1558,10 @@ def submit_answers(request, level):
                 questions = random.sample(list(questions), num_questions)
                 questions.sort(key=lambda x: x.id)
             
-            # POSTされたquestion_idをすべて取得
-            post_question_ids = [
-                int(key.replace('answer_', ''))
-                for key in request.POST.keys()
-                if key.startswith('answer_')
-            ]
+            submissions = iter_submitted_answers(
+                request.POST, default_kind=KIND_LISTENING
+            )
+            post_question_ids = ids_for_kind(submissions, KIND_LISTENING)
             
             # 既存の回答を削除（POSTされたquestion_idのみ）
             ListeningUserAnswer.objects.filter(
@@ -1402,29 +1569,32 @@ def submit_answers(request, level):
                 question_id__in=post_question_ids
             ).delete()
                 
-            # 回答を保存
-            for question_id in post_question_ids:
-                answer_key = f'answer_{question_id}'
-                if answer_key in request.POST:
-                    selected_answer = request.POST.get(answer_key)
-                    question = ListeningQuestion.objects.get(id=question_id)
-                    # リスニング第1部は選択肢テキスト/番号の双方に対応して採点
-                    is_correct = _is_correct_listening_illustration_answer(
-                        question, selected_answer, request=request, level=level
+            # 回答を保存（当該級の ListeningQuestion のみ）
+            for kind, question_id, selected_answer in submissions:
+                if kind != KIND_LISTENING:
+                    continue
+                try:
+                    question = ListeningQuestion.objects.get(
+                        id=question_id, level=str(level)
                     )
-                    ListeningUserAnswer.objects.create(
-                        user=request.user,
-                        question=question,
-                        selected_answer=selected_answer,
-                        is_correct=is_correct,
-                        answered_at=timezone.now()
-                    )
-                    progress_type = question_type
-                    if question_type == 'listening_illustration' and str(level) == '5':
-                        progress_type = 'listening_illustration'
-                    elif question_type == 'listening_illustration_part3':
-                        progress_type = 'listening_illustration_part3'
-                    update_user_progress(request.user, level, progress_type, is_correct)
+                except ListeningQuestion.DoesNotExist:
+                    continue
+                is_correct = _is_correct_listening_illustration_answer(
+                    question, selected_answer, request=request, level=level
+                )
+                ListeningUserAnswer.objects.create(
+                    user=request.user,
+                    question=question,
+                    selected_answer=selected_answer,
+                    is_correct=is_correct,
+                    answered_at=timezone.now()
+                )
+                progress_type = question_type
+                if question_type == 'listening_illustration' and str(level) == '5':
+                    progress_type = 'listening_illustration'
+                elif question_type == 'listening_illustration_part3':
+                    progress_type = 'listening_illustration_part3'
+                update_user_progress(request.user, level, progress_type, is_correct)
 
             request.session[f'answered_questions_{question_type}_{level}'] = post_question_ids
             return redirect('exams:answer_results', level=level, question_type=question_type)
@@ -1437,12 +1607,10 @@ def submit_answers(request, level):
                 passages = random.sample(list(passages), num_questions)
                 passages.sort(key=lambda x: x.id)
             
-            # POSTされたquestion_idをすべて取得
-            post_question_ids = [
-                int(key.replace('answer_', ''))
-                for key in request.POST.keys()
-                if key.startswith('answer_')
-            ]
+            submissions = iter_submitted_answers(
+                request.POST, default_kind=KIND_READING
+            )
+            post_question_ids = ids_for_kind(submissions, KIND_READING)
 
             # 既存の回答を削除（POSTされたquestion_idのみ）
             ReadingUserAnswer.objects.filter(
@@ -1451,22 +1619,28 @@ def submit_answers(request, level):
             ).delete()
 
             # 回答を保存
-            for question_id in post_question_ids:
-                answer_key = f'answer_{question_id}'
-                selected_choice_id = request.POST.get(answer_key)
-                if selected_choice_id:
-                    choice = ReadingChoice.objects.get(id=selected_choice_id)
-                    is_correct = choice.is_correct
-                    question = ReadingQuestion.objects.get(id=question_id)
-                    ReadingUserAnswer.objects.create(
-                        user=request.user,
-                        reading_question=question,
-                        selected_reading_choice=choice,
-                        is_correct=is_correct,
-                        answered_at=timezone.now()
+            for kind, question_id, selected_answer in submissions:
+                if kind != KIND_READING:
+                    continue
+                try:
+                    question = ReadingQuestion.objects.select_related('passage').get(
+                        id=question_id, passage__level=str(level)
                     )
-                    # 進捗を更新
-                    update_user_progress(request.user, level, 'reading_comprehension', is_correct)
+                    choice = ReadingChoice.objects.get(
+                        id=selected_answer, question=question
+                    )
+                except (ReadingQuestion.DoesNotExist, ReadingChoice.DoesNotExist):
+                    continue
+                ReadingUserAnswer.objects.create(
+                    user=request.user,
+                    reading_question=question,
+                    selected_reading_choice=choice,
+                    is_correct=choice.is_correct,
+                    answered_at=timezone.now()
+                )
+                update_user_progress(
+                    request.user, level, 'reading_comprehension', choice.is_correct
+                )
 
             # 今回回答したquestion_idと出題順序をセッションに保存
             request.session[f'answered_questions_{question_type}_{level}'] = post_question_ids
@@ -1483,22 +1657,28 @@ def submit_answers(request, level):
                 questions = random.sample(questions, num_questions)
                 questions.sort(key=lambda x: x.question_number)
 
-            post_question_ids = [
-                int(key.replace('answer_', ''))
-                for key in request.POST.keys()
-                if key.startswith('answer_')
-            ]
+            submissions = iter_submitted_answers(
+                request.POST, default_kind=KIND_QUESTION
+            )
+            post_question_ids = ids_for_kind(submissions, KIND_QUESTION)
 
             WritingUserAnswer.objects.filter(
                 user=request.user,
                 question_id__in=post_question_ids,
             ).delete()
 
-            for question_id in post_question_ids:
-                text = (request.POST.get(f'answer_{question_id}', '') or '').strip()
+            for kind, question_id, selected_answer in submissions:
+                if kind != KIND_QUESTION:
+                    continue
+                text = (selected_answer or '').strip()
                 if not text:
                     continue
-                question = Question.objects.get(id=question_id)
+                try:
+                    question = Question.objects.get(
+                        id=question_id, level=str(level), question_type='writing'
+                    )
+                except Question.DoesNotExist:
+                    continue
                 rubric = get_writing_rubric(question)
                 feedback = analyze_writing_response(text, rubric)
                 WritingUserAnswer.objects.create(
@@ -1553,12 +1733,10 @@ def submit_answers(request, level):
             # POSTリクエストがある場合のみ回答処理を実行
             if request.method == 'POST':
                 _snapshot_unlock_before_submit(request, request.user, level)
-                # POSTされたquestion_idをすべて取得
-                post_question_ids = [
-                    int(key.replace('answer_', ''))
-                    for key in request.POST.keys()
-                    if key.startswith('answer_')
-                ]
+                submissions = iter_submitted_answers(
+                    request.POST, default_kind=KIND_QUESTION
+                )
+                post_question_ids = ids_for_kind(submissions, KIND_QUESTION)
                 
                 # 既存の回答を削除（POSTされたquestion_idのみ）
                 UserAnswer.objects.filter(
@@ -1567,22 +1745,28 @@ def submit_answers(request, level):
                 ).delete()
                 
                 # 回答を保存
-                for question_id in post_question_ids:
-                    answer_key = f'answer_{question_id}'
-                    selected_choice_id = request.POST.get(answer_key)
-                    if selected_choice_id:
-                        choice = Choice.objects.get(id=selected_choice_id)
-                        is_correct = choice.is_correct
-                        question = Question.objects.get(id=question_id)
-                        UserAnswer.objects.create(
-                            user=request.user,
-                            question=question,
-                            selected_choice=choice,
-                            is_correct=is_correct,
-                            answered_at=timezone.now()
+                for kind, question_id, selected_choice_id in submissions:
+                    if kind != KIND_QUESTION:
+                        continue
+                    try:
+                        question = Question.objects.get(
+                            id=question_id, level=str(level), question_type=question_type
                         )
-                        # 進捗を更新
-                        update_user_progress(request.user, level, question_type, is_correct)
+                        choice = Choice.objects.get(
+                            id=selected_choice_id, question=question
+                        )
+                    except (Question.DoesNotExist, Choice.DoesNotExist):
+                        continue
+                    UserAnswer.objects.create(
+                        user=request.user,
+                        question=question,
+                        selected_choice=choice,
+                        is_correct=choice.is_correct,
+                        answered_at=timezone.now()
+                    )
+                    update_user_progress(
+                        request.user, level, question_type, choice.is_correct
+                    )
 
                 # 今回回答したquestion_idと出題順序をセッションに保存
                 request.session[f'answered_questions_{question_type}_{level}'] = post_question_ids
@@ -1626,77 +1810,20 @@ def answer_results(request, level, question_type):
     if question_type == 'writing' and str(level) != '3':
         messages.info(request, 'ライティング問題は英検3級のみです。')
         return redirect('exams:exam_list')
-    if question_type == 'random':
-        # ランダム10問の場合
-        # セッションから今回回答したquestion_idを取得
+    if question_type in ('random', 'mock_exam'):
         session_key = f'answered_questions_{question_type}_{level}'
-        answered_question_ids = request.session.get(session_key, [])
-        
-        # 各問題のタイプを判定して適切な回答を取得
-        answers_with_questions = []
-        
-        for question_id in answered_question_ids:
-            # リスニングイラスト問題かどうかを判定
-            try:
-                answer = ListeningUserAnswer.objects.get(
-                    user=request.user,
-                    question_id=question_id
-                )
-                choices = list(
-                    ListeningChoice.objects.filter(question=answer.question).order_by('order')
-                )
-                correct_choice = _resolve_listening_illustration_correct_choice(
-                    answer.question, choices
-                )
-                answers_with_questions.append({
-                    'question': answer.question,
-                    'choices': choices,
-                    'user_answer': answer.selected_answer,
-                    'is_correct': _is_correct_listening_illustration_answer(
-                        answer.question, answer.selected_answer,
-                        request=request, level=level,
-                    ),
-                    'correct_answer': answer.question.correct_answer,
-                    'correct_choice': correct_choice,
-                    'explanation': getattr(answer.question, 'explanation', ''),
-                    'category': 'listening_illustration',
-                    'order': answered_question_ids.index(question_id)
-                })
-            except ListeningUserAnswer.DoesNotExist:
-                # 通常の問題の場合
-                try:
-                    answer = UserAnswer.objects.get(
-                        user=request.user,
-                        question_id=question_id
-                    )
-                    choices = Choice.objects.filter(question=answer.question).order_by('order')
-                    correct_choice = choices.filter(is_correct=True).first()
-                    answers_with_questions.append({
-                        'question': answer.question,
-                        'choices': choices,
-                        'user_answer': answer.selected_choice,
-                        'is_correct': _is_currently_correct_choice(answer.selected_choice),
-                        'correct_choice': correct_choice,
-                        'explanation': _format_objective_explanation(
-                            answer.question.explanation, correct_choice
-                        ),
-                        'category': answer.question.question_type,
-                        'order': answered_question_ids.index(question_id)
-                    })
-                except UserAnswer.DoesNotExist:
-                    continue
-        
-        # 出題順序でソート
-        answers_with_questions.sort(key=lambda x: x['order'])
-        
+        session_refs = request.session.get(session_key, [])
+        answers_with_questions = _build_mixed_type_results(
+            request, level, session_refs
+        )
+
         apply_choice_shuffle_to_items(
             request, level, answers_with_questions, create_if_missing=False
         )
-        
-        # 正解数を計算
+
         correct_count = sum(1 for answer in answers_with_questions if answer['is_correct'])
         total_count = len(answers_with_questions)
-        
+
         context = {
             'level': level,
             'question_type': question_type,
@@ -1714,10 +1841,11 @@ def answer_results(request, level, question_type):
         
         logger.debug(f"Debug - Listening Illustration answered_question_ids: {answered_question_ids}")
         
-        # 今回回答したquestion_idのListeningUserAnswerのみを取得
+        # 今回回答したquestion_idのListeningUserAnswerのみを取得（級も一致必須）
         user_answers = ListeningUserAnswer.objects.filter(
             user=request.user,
-            question_id__in=answered_question_ids
+            question_id__in=answered_question_ids,
+            question__level=str(level),
         ).select_related('question')
         
         # 出題順序に従ってソート

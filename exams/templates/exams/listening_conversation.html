@@ -78,8 +78,8 @@
                         <div class="form-group">
                             {% for choice in question.question.choices.all %}
                             <div class="form-check">
-                                <input class="form-check-input" type="radio" name="answer_{{ question.question.id }}" id="choice{{ choice.id }}" value="{{ choice.id }}" {% if question.answer and question.answer.selected_choice.id == choice.id %}checked{% endif %}>
-                                <label class="form-check-label" for="choice{{ choice.id }}">
+                                <input class="form-check-input" type="radio" name="{% answer_field_name question.question %}" id="{% choice_input_id question.question choice %}" value="{{ choice.id }}" {% if question.answer and question.answer.selected_choice.id == choice.id %}checked{% endif %}>
+                                <label class="form-check-label" for="{% choice_input_id question.question choice %}">
                                     {{ choice.choice_text }}
                                 </label>
                             </div>

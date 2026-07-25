@@ -1115,7 +1115,7 @@ class ListeningIllustrationScoringTest(TestCase):
             {
                 'question_type': 'listening_illustration',
                 'num_questions': '5',
-                f'answer_{self.question.id}': self.choice1.choice_text,
+                f'answer_lq_{self.question.id}': self.choice1.choice_text,
             }
         )
 
@@ -1158,7 +1158,7 @@ class ListeningIllustrationScoringTest(TestCase):
             {
                 'question_type': 'listening_illustration',
                 'num_questions': 'all',
-                f'answer_{question.id}': '2',
+                f'answer_lq_{question.id}': '2',
             }
         )
 
@@ -1180,7 +1180,7 @@ class ListeningIllustrationScoringTest(TestCase):
             {
                 'question_type': 'random',
                 'num_questions': '10',
-                f'answer_{self.question.id}': self.choice1.choice_text,
+                f'answer_lq_{self.question.id}': self.choice1.choice_text,
             },
         )
 
@@ -1202,7 +1202,7 @@ class ListeningIllustrationScoringTest(TestCase):
             {
                 'question_type': 'random',
                 'num_questions': '10',
-                f'answer_{self.question.id}': self.choice2.choice_text,
+                f'answer_lq_{self.question.id}': self.choice2.choice_text,
             },
         )
         self.assertEqual(response.status_code, 302)
@@ -1252,7 +1252,7 @@ class ListeningIllustrationScoringTest(TestCase):
             {
                 'question_type': 'random',
                 'num_questions': '10',
-                f'answer_{level5_question.id}': correct.choice_text,
+                f'answer_lq_{level5_question.id}': correct.choice_text,
             },
         )
 
@@ -1275,7 +1275,7 @@ class ListeningIllustrationScoringTest(TestCase):
         self.assertTemplateUsed(response, 'exams/question_list.html')
         content = response.content.decode()
         self.assertIn('question-list-row', content)
-        self.assertIn(f'name="answer_{self.question.id}"', content)
+        self.assertIn(f'name="answer_lq_{self.question.id}"', content)
         self.assertNotIn('type="radio" name="question_', content)
         self.assertLess(content.find('for="status"'), content.find('for="num_questions"'))
 
@@ -1314,8 +1314,122 @@ class ListeningIllustrationScoringTest(TestCase):
         self.assertTemplateUsed(response, 'exams/question_list.html')
         content = response.content.decode()
         self.assertIn('question-list-row', content)
-        self.assertIn(f'name="answer_{part3_question.id}"', content)
+        self.assertIn(f'name="answer_lq_{part3_question.id}"', content)
         self.assertLess(content.find('for="status"'), content.find('for="num_questions"'))
+
+    def test_random_rejects_cross_level_listening_answer(self):
+        """4級ランダム提出で5級 ListeningQuestion は保存されない"""
+        level5 = ListeningQuestion.objects.create(
+            question_text='What time is the big soccer game?',
+            image='images/level5/part1/listening_illustration_image21.png',
+            audio='audio/level5/part1/listening_illustration_question21.mp3',
+            correct_answer='3',
+            explanation='放送文：What time is the big soccer game?',
+            level='5',
+        )
+        ListeningChoice.objects.create(
+            question=level5, choice_text='1', is_correct=False, order=1
+        )
+        ListeningChoice.objects.create(
+            question=level5, choice_text='2', is_correct=False, order=2
+        )
+        ListeningChoice.objects.create(
+            question=level5, choice_text='3', is_correct=True, order=3
+        )
+
+        response = self.client.post(
+            reverse('exams:submit_answers', kwargs={'level': '4'}),
+            {
+                'question_type': 'random',
+                'num_questions': '10',
+                f'answer_lq_{level5.id}': '3',
+            },
+        )
+        self.assertEqual(response.status_code, 302)
+        self.assertFalse(
+            ListeningUserAnswer.objects.filter(
+                user=self.user, question=level5
+            ).exists()
+        )
+
+    def test_random_typed_keys_score_question_and_listening_independently(self):
+        """型付きキーなら Question / ListeningQuestion を同時提出しても正しく採点する"""
+        grammar = Question.objects.create(
+            question_text='She () to school.',
+            question_type='grammar_fill',
+            level='4',
+            question_number=9001,
+            explanation='goes',
+        )
+        # 別テーブルでも PK が一致しうる（本番で起きていた誤採点の前提）
+        self.assertEqual(grammar.id, self.question.id)
+        correct_choice = Choice.objects.create(
+            question=grammar, choice_text='goes', is_correct=True, order=1
+        )
+        Choice.objects.create(
+            question=grammar, choice_text='go', is_correct=False, order=2
+        )
+
+        response = self.client.post(
+            reverse('exams:submit_answers', kwargs={'level': '4'}),
+            {
+                'question_type': 'random',
+                'num_questions': '10',
+                f'answer_q_{grammar.id}': str(correct_choice.id),
+                f'answer_lq_{self.question.id}': self.choice1.choice_text,
+                # 旧形式の裸 id はランダムでは無視（誤採点の温床だった）
+                f'answer_{self.question.id}': str(correct_choice.id),
+            },
+        )
+        self.assertEqual(response.status_code, 302)
+
+        grammar_answer = UserAnswer.objects.get(user=self.user, question=grammar)
+        self.assertTrue(grammar_answer.is_correct)
+        self.assertEqual(grammar_answer.selected_choice_id, correct_choice.id)
+
+        listening_answer = ListeningUserAnswer.objects.get(
+            user=self.user, question=self.question
+        )
+        self.assertTrue(listening_answer.is_correct)
+        self.assertEqual(listening_answer.selected_answer, self.choice1.choice_text)
+
+        results = self.client.get(
+            reverse(
+                'exams:answer_results',
+                kwargs={'level': '4', 'question_type': 'random'},
+            )
+        )
+        self.assertEqual(results.status_code, 200)
+        self.assertContains(results, '正解です')
+        self.assertContains(results, self.choice1.choice_text)
+        self.assertNotContains(results, 'What time is the big soccer game?')
+
+    def test_random_quiz_only_includes_selected_level_questions(self):
+        """ランダム出題プールは選択級のみ（他級 ListeningQuestion を混ぜない）"""
+        from unittest.mock import patch
+
+        ListeningQuestion.objects.create(
+            question_text='level5 only',
+            image='images/level5/part1/listening_illustration_image99.png',
+            audio='audio/level5/part1/listening_illustration_question99.mp3',
+            correct_answer='1',
+            level='5',
+        )
+        unlock = {
+            'random': {'is_unlocked': True, 'remaining_categories': []},
+            'mock_exam': {'is_unlocked': False, 'remaining_categories': []},
+        }
+        with patch('exams.views._build_exam_unlock_status', return_value=unlock):
+            response = self.client.get(
+                reverse('exams:question_list_by_level', kwargs={'level': '4'}),
+                {'type': 'random'},
+            )
+        self.assertEqual(response.status_code, 200)
+        for item in response.context['questions']:
+            self.assertEqual(str(item['question'].level), '4')
+            if item.get('category') == 'listening_illustration':
+                self.assertNotIn('level5', item['question'].image or '')
+                self.assertNotIn('level5', item['question'].audio or '')
 
     def test_listening_illustration_unanswered_filter_excludes_answered_questions(self):
         """未回答フィルターで回答済み問題が再出題されない"""

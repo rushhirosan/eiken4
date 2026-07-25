@@ -91,10 +91,10 @@
                             <div class="choices listening-choices mt-auto">
                                 {% for choice in question.choices %}
                                     <div class="form-check">
-                                        <input class="form-check-input" type="radio" name="answer_{{ question.question.id }}"
-                                               id="choice_{{ choice.id }}" value="{{ choice.choice_text }}"
+                                        <input class="form-check-input" type="radio" name="{% answer_field_name question.question %}"
+                                               id="{% choice_input_id question.question choice %}" value="{{ choice.choice_text }}"
                                                {% if question.user_answer == choice.choice_text %}checked{% endif %}>
-                                        <label class="form-check-label" for="choice_{{ choice.id }}">
+                                        <label class="form-check-label" for="{% choice_input_id question.question choice %}">
                                             {% if choice.choice_text|slice:"-4:" == ".png" or choice.choice_text|slice:"-4:" == ".jpg" %}
                                             <img src="{% static choice.choice_text %}" alt="選択肢{{ forloop.counter }}" class="listening-choice-img">
                                             {% else %}
@@ -107,7 +107,7 @@
                         {% elif question_type == 'writing' %}
                             <div class="writing-prompt text-start">{{ question.question.question_text|writing_prompt_html }}</div>
                             <label class="form-label mt-3 mb-1" for="answer-{{ question.question.id }}">あなたの英文</label>
-                            <textarea class="form-control writing-answer-input" name="answer_{{ question.question.id }}" id="answer-{{ question.question.id }}" rows="5" placeholder="英文で入力してください">{{ question.user_answer }}</textarea>
+                            <textarea class="form-control writing-answer-input" name="{% answer_field_name question.question %}" id="answer-{{ question.question.id }}" rows="5" placeholder="英文で入力してください">{{ question.user_answer }}</textarea>
                             <p class="small text-muted mt-2 mb-0">自動採点はありません。提出後に参考解答と照らし合わせてください。意見問題は「2つの英文」が目安です（語数・文数は提出後にヒントが出ます）。</p>
                         {% elif question.question.question_type == 'listening_conversation' or question.question.question_type == 'listening_passage' or question_type == 'random' and question.category == 'listening_conversation' or question_type == 'random' and question.category == 'listening_passage' %}
                             <div class="text-center mb-3 listening-audio-wrap">
@@ -124,10 +124,10 @@
                             <div class="choices listening-choices">
                                 {% for choice in question.choices %}
                             <div class="form-check">
-                                        <input class="form-check-input" type="radio" name="answer_{{ question.question.id }}" 
-                                               id="choice_{{ choice.id }}" value="{{ choice.id }}"
+                                        <input class="form-check-input" type="radio" name="{% answer_field_name question.question %}" 
+                                               id="{% choice_input_id question.question choice %}" value="{{ choice.id }}"
                                                {% if question.user_answer == choice.id %}checked{% endif %}>
-                                        <label class="form-check-label" for="choice_{{ choice.id }}">
+                                        <label class="form-check-label" for="{% choice_input_id question.question choice %}">
                                     {{ choice.choice_text }}
                                 </label>
                             </div>
@@ -152,11 +152,11 @@
                                 <div class="choices-list">
                                     {% for choice in question.choices %}
                                         <div class="choice-item">
-                                            <input type="radio" name="answer_{{ question.question.id }}"
-                                                   id="choice_{{ choice.id }}" value="{{ choice.choice_text }}"
+                                            <input type="radio" name="{% answer_field_name question.question %}"
+                                                   id="{% choice_input_id question.question choice %}" value="{{ choice.choice_text }}"
                                                    class="choice-radio"
                                                    {% if question.user_answer == choice.choice_text %}checked{% endif %}>
-                                            <label for="choice_{{ choice.id }}" class="choice-label">
+                                            <label for="{% choice_input_id question.question choice %}" class="choice-label">
                                                 {{ forloop.counter }}
                                             </label>
                                         </div>
@@ -166,10 +166,10 @@
                                 <div class="choices">
                                     {% for choice in question.choices %}
                                         <div class="form-check">
-                                            <input class="form-check-input" type="radio" name="answer_{{ question.question.id }}"
-                                                   id="choice_{{ choice.id }}" value="{{ choice.id }}"
+                                            <input class="form-check-input" type="radio" name="{% answer_field_name question.question %}"
+                                                   id="{% choice_input_id question.question choice %}" value="{{ choice.id }}"
                                                    {% if question.user_answer == choice.id %}checked{% endif %}>
-                                            <label class="form-check-label" for="choice_{{ choice.id }}">
+                                            <label class="form-check-label" for="{% choice_input_id question.question choice %}">
                                                 {{ choice.choice_text }}
                                             </label>
                                         </div>
