@@ -173,8 +173,19 @@ class CanonicalHostRedirectTest(TestCase):
         self.assertEqual(response.status_code, 301)
         self.assertEqual(response['Location'], 'https://eiken-practice.com/about/')
 
+    def test_fly_dev_appends_trailing_slash_in_one_hop(self):
+        """Avoid fly.dev/about → apex/about → /about/ chains (GSC Redirect error)."""
+        response = self.client.get('/about', HTTP_HOST='eiken-app.fly.dev')
+        self.assertEqual(response.status_code, 301)
+        self.assertEqual(response['Location'], 'https://eiken-practice.com/about/')
+
     def test_fly_dev_preserves_query_string(self):
         response = self.client.get('/guides/?from=old', HTTP_HOST='eiken-app.fly.dev')
+        self.assertEqual(response.status_code, 301)
+        self.assertEqual(response['Location'], 'https://eiken-practice.com/guides/?from=old')
+
+    def test_fly_dev_preserves_query_string_when_appending_slash(self):
+        response = self.client.get('/guides?from=old', HTTP_HOST='eiken-app.fly.dev')
         self.assertEqual(response.status_code, 301)
         self.assertEqual(response['Location'], 'https://eiken-practice.com/guides/?from=old')
 
@@ -186,6 +197,17 @@ class CanonicalHostRedirectTest(TestCase):
     def test_custom_domain_is_not_redirected(self):
         response = self.client.get('/about/', HTTP_HOST='eiken-practice.com')
         self.assertEqual(response.status_code, 200)
+
+    def test_slashless_public_pages_use_absolute_301(self):
+        """Relative APPEND_SLASH Location can surface as GSC Redirect error."""
+        for path, dest in (
+            ('/about', 'https://eiken-practice.com/about/'),
+            ('/guides', 'https://eiken-practice.com/guides/'),
+            ('/privacy-policy', 'https://eiken-practice.com/privacy-policy/'),
+        ):
+            response = self.client.get(path, HTTP_HOST='eiken-practice.com')
+            self.assertEqual(response.status_code, 301, path)
+            self.assertEqual(response['Location'], dest, path)
 
 
 class DiscordNotifyTest(TestCase):

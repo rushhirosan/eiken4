@@ -1,8 +1,15 @@
 from pathlib import Path
 
 from django.conf import settings
-from django.http import HttpResponse
+from django.http import HttpResponse, HttpResponsePermanentRedirect
 from django.shortcuts import redirect, render
+
+CANONICAL_ORIGIN = 'https://eiken-practice.com'
+_CANONICAL_REDIRECT_HOSTS = frozenset({
+    'eiken-practice.com',
+    'www.eiken-practice.com',
+    'eiken-app.fly.dev',
+})
 
 
 def landing(request):
@@ -32,3 +39,19 @@ def about(request):
 def guides(request):
     """公開の級別学習ガイド（5級・4級・3級）"""
     return render(request, 'guides.html')
+
+
+def slashless_canonical_redirect(target_path: str):
+    """末尾スラッシュ無し → 正規 URL への 301。
+
+    本番ホストでは絶対 URL（GSC Redirect error 対策）。
+    ローカルは相対 Location のまま（本番ドメインへ飛ばさない）。
+    """
+
+    def _view(request):
+        host = request.META.get('HTTP_HOST', '').split(':')[0].lower()
+        if host in _CANONICAL_REDIRECT_HOSTS:
+            return HttpResponsePermanentRedirect(f'{CANONICAL_ORIGIN}{target_path}')
+        return HttpResponsePermanentRedirect(target_path)
+
+    return _view

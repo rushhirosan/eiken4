@@ -22,7 +22,14 @@ from django.conf.urls.static import static
 from django.http import HttpResponse
 
 from exams.views import sitemap_xml
-from eiken_project.views import about, guides, landing, llms_txt, robots_txt
+from eiken_project.views import (
+    about,
+    guides,
+    landing,
+    llms_txt,
+    robots_txt,
+    slashless_canonical_redirect,
+)
 
 def healthz(request):
     return HttpResponse("ok", status=200)
@@ -46,9 +53,13 @@ urlpatterns = [
     path('google41829dffd897ace8.html', google_verification),
     # Sitemap（exams.urls を二重 include しない — URL namespace 重複警告を防ぐ）
     path('sitemap.xml', sitemap_xml, name='sitemap_xml'),
+    # Slash-less → absolute 301 on production hosts (GSC Redirect error 対策)
+    path('about', slashless_canonical_redirect('/about/')),
     path('about/', about, name='about'),
+    path('guides', slashless_canonical_redirect('/guides/')),
     path('guides/', guides, name='guides'),
     # Privacy Policy
+    path('privacy-policy', slashless_canonical_redirect('/privacy-policy/')),
     path('privacy-policy/', TemplateView.as_view(template_name='privacy_policy.html'), name='privacy_policy'),
 ]
 
