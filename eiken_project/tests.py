@@ -71,6 +71,7 @@ class LlmsTxtTest(TestCase):
         self.assertIn('- [トップ](https://eiken-practice.com/):', content)
         self.assertIn('- [サービス概要・FAQ](https://eiken-practice.com/about/):', content)
         self.assertIn('- [学習の進め方](https://eiken-practice.com/guides/):', content)
+        self.assertIn('英検協会の公式サイト・公式アプリではない', content)
         self.assertIn('## Optional', content)
         self.assertIn('- [プライバシーポリシー](https://eiken-practice.com/privacy-policy/):', content)
         # Docs セクションの公開ページは Markdown リンク形式
@@ -149,6 +150,32 @@ class LandingFaqJsonLdTest(TestCase):
         self.assertEqual(response.status_code, 200)
         self.assertContains(response, '"@type": "FAQPage"')
         self.assertContains(response, '無料で使えますか')
+        self.assertContains(response, '"@type": "WebSite"')
+        self.assertContains(response, '"@type": "Organization"')
+        self.assertContains(response, 'eiken-og-image.png')
+
+
+class AppShellSeoTest(TestCase):
+    def setUp(self):
+        self.user = get_user_model().objects.create_user(
+            username='seo_user', password='testpass123'
+        )
+        self.client = Client()
+        self.client.login(username='seo_user', password='testpass123')
+
+    def test_exam_pages_are_noindex(self):
+        response = self.client.get(reverse('exams:exam_list'))
+        self.assertEqual(response.status_code, 200)
+        self.assertContains(response, 'noindex, follow')
+        self.assertContains(response, '英検5級・4級・3級')
+        self.assertContains(response, 'eiken-og-image.png')
+        self.assertNotContains(response, 'eiken-og-image.jpg')
+
+    def test_privacy_policy_remains_indexable(self):
+        response = Client().get(reverse('privacy_policy'))
+        self.assertEqual(response.status_code, 200)
+        self.assertContains(response, 'index, follow')
+        self.assertContains(response, 'プライバシーポリシー')
 
 
 class LoginSeoTest(TestCase):
