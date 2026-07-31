@@ -3047,7 +3047,7 @@
     "question_type": "grammar_fill",
     "question_text": "I have a lot of ( ) to do today.",
     "listening_text": null,
-    "explanation": "「a lot of work」で「たくさんの仕事」という数えられない名詞です。「works」は間違い。",
+    "explanation": "「a lot of work（多くの仕事）」は不可算なので work です。job / task は可算でここでは不自然です。works もこの意味では使いません。",
     "passage": null,
     "identifier": "",
     "audio_file": "",
@@ -3311,9 +3311,9 @@
   "fields": {
     "level": "4",
     "question_type": "grammar_fill",
-    "question_text": "This room is very ( ) than the other one.",
+    "question_text": "This room is much ( ) than the other one.",
     "listening_text": null,
-    "explanation": "「than」があるので比較級「cleaner」が必要です。",
+    "explanation": "「than」があるので比較級「cleaner」です。比較級の強調は very ではなく much を使います。",
     "passage": null,
     "identifier": "",
     "audio_file": "",
@@ -13441,7 +13441,7 @@
   "pk": 1828,
   "fields": {
     "question": 436,
-    "choice_text": "homework",
+    "choice_text": "task",
     "is_correct": false,
     "order": 4
   }

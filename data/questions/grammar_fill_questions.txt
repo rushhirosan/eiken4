@@ -2333,13 +2333,13 @@ I have a lot of ( ) to do today.
 1. job  
 2. works  
 3. work  
-4. homework
+4. task
 
 【正解133】  
 3. work
 
 【解説133】  
-「a lot of work」で「たくさんの仕事」という数えられない名詞です。「works」は間違い。
+「a lot of work（多くの仕事）」は不可算なので work です。job / task は可算でここでは不自然です。works もこの意味では使いません。
 
 ---
 
@@ -2571,7 +2571,7 @@ Please be ( ). This is a hospital.
 ---
 
 問題147:
-This room is very ( ) than the other one.
+This room is much ( ) than the other one.
 
 選択肢147:
 1. clean  
@@ -2583,7 +2583,7 @@ This room is very ( ) than the other one.
 2. cleaner
 
 【解説147】  
-「than」があるので比較級「cleaner」が必要です。
+「than」があるので比較級「cleaner」です。比較級の強調は very ではなく much を使います。
 
 ---
 
