@@ -161,6 +161,39 @@
             padding-left: 1rem;
             margin: 1rem 0;
         }
+        .next-learning {
+            border: 1px solid var(--border);
+            border-radius: 14px;
+            padding: 1rem 1.15rem;
+            margin: 1.25rem 0 0.5rem;
+            background: rgba(255, 255, 255, 0.03);
+        }
+        .next-learning-heading {
+            font-size: 0.95rem;
+            font-weight: 600;
+            color: var(--text);
+            margin: 0;
+        }
+        .next-learning-reason {
+            color: var(--muted);
+            line-height: 1.65;
+            margin: 0;
+        }
+        .next-learning-external {
+            color: #c5c8f0;
+            text-decoration: underline;
+            text-underline-offset: 0.15em;
+        }
+        .next-learning-external:hover {
+            color: white;
+        }
+        .next-learning-note {
+            opacity: 0.85;
+        }
+        .next-learning .btn-primary {
+            background: var(--accent);
+            border-color: var(--accent);
+        }
     </style>
 </head>
 <body>
@@ -194,6 +227,9 @@
                             <li><a href="#common">共通の使い方のコツ</a></li>
                             <li><a href="#feedback">フィードバックの送り方</a></li>
                             <li><a href="#faq">よくある質問</a></li>
+                            {% if show_next_learning %}
+                            <li><a href="{% url 'resources' %}">あわせて使える学習リソース</a></li>
+                            {% endif %}
                         </ul>
                     </nav>
 
@@ -224,6 +260,11 @@
                             ランダム10問は文法・会話・語順・リスニングから出題されます。
                         </p>
                     </div>
+                    {% if show_next_learning %}
+                    {% with item=next_learning_by_level.5 %}
+                    {% include 'partials/_next_learning.html' with reason=item.reason resource_title=item.resource_title resource_url=item.resource_url primary_internal_url=next_learning_primary_url primary_internal_label=next_learning_primary_label %}
+                    {% endwith %}
+                    {% endif %}
 
                     <h2 id="level-4">英検4級の進め方</h2>
                     <p>
@@ -254,6 +295,11 @@
                             模擬試験は本番形式の総合問題（長文込み）です。基本問題の各カテゴリで取り組み率が上がると解放されます。
                         </p>
                     </div>
+                    {% if show_next_learning %}
+                    {% with item=next_learning_by_level.4 %}
+                    {% include 'partials/_next_learning.html' with reason=item.reason resource_title=item.resource_title resource_url=item.resource_url primary_internal_url=next_learning_primary_url primary_internal_label=next_learning_primary_label %}
+                    {% endwith %}
+                    {% endif %}
 
                     <h2 id="level-3">英検3級の進め方</h2>
                     <p>
@@ -284,6 +330,11 @@
                             模擬試験もライティングは別メニュー扱いです。ライティングは専用メニューで提出し、解説・模範解答を確認してください。
                         </p>
                     </div>
+                    {% if show_next_learning %}
+                    {% with item=next_learning_by_level.3 %}
+                    {% include 'partials/_next_learning.html' with reason=item.reason resource_title=item.resource_title resource_url=item.resource_url primary_internal_url=next_learning_primary_url primary_internal_label=next_learning_primary_label %}
+                    {% endwith %}
+                    {% endif %}
 
                     <h2 id="common">共通の使い方のコツ</h2>
                     <ul>
@@ -340,6 +391,9 @@
 
                     <div class="text-center mt-4 pt-2">
                         <a href="{% url 'signup' %}" class="btn btn-primary me-2">無料で始める</a>
+                        {% if show_next_learning %}
+                        <a href="{% url 'resources' %}" class="btn btn-outline-light me-2">学習リソース</a>
+                        {% endif %}
                         <a href="{% url 'about' %}" class="btn btn-outline-light me-2">サービス概要</a>
                         <a href="/" class="btn btn-outline-light">トップへ戻る</a>
                     </div>
@@ -350,10 +404,18 @@
 
     <footer class="footer-landing">
         <div class="container d-flex flex-column flex-md-row justify-content-between align-items-center gap-3">
-            <p class="mb-0 small"><svg class="icon me-2" aria-hidden="true" viewBox="0 0 24 24"><path d="M12 3L1 9l4 2.18v6L12 21l7-3.82v-6l2-1.09V17h2V9L12 3zm6.82 6L12 12.72 5.18 9 12 5.28 18.82 9zM17 15.99l-5 2.73-5-2.73v-3.72L12 15l5-2.73v3.72z"/></svg>Eiken Practice</p>
-            <div class="d-flex gap-3 small">
+            <div>
+                <p class="mb-0 small"><svg class="icon me-2" aria-hidden="true" viewBox="0 0 24 24"><path d="M12 3L1 9l4 2.18v6L12 21l7-3.82v-6l2-1.09V17h2V9L12 3zm6.82 6L12 12.72 5.18 9 12 5.28 18.82 9zM17 15.99l-5 2.73-5-2.73v-3.72L12 15l5-2.73v3.72z"/></svg>Eiken Practice</p>
+                {% if show_next_learning %}
+                <p class="mb-0 small mt-1" style="opacity:0.85;">当ページの一部リンクにはアフィリエイトを含みます。</p>
+                {% endif %}
+            </div>
+            <div class="d-flex gap-3 small flex-wrap justify-content-center">
                 <a href="{% url 'about' %}">サービス概要</a>
                 <a href="{% url 'guides' %}">学習の進め方</a>
+                {% if show_next_learning %}
+                <a href="{% url 'resources' %}">学習リソース</a>
+                {% endif %}
                 <a href="{% url 'privacy_policy' %}">プライバシーポリシー</a>
             </div>
         </div>

@@ -26,6 +26,10 @@ SECRET_KEY = 'django-insecure-2ur(6(@gfj_21u@d@dtla5g0q7#i+kg2^j7$y6746wrgv4ieib
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
+# 「このあとの学習」アフィリエイト導線。ローカル確認用に DEBUG 連動。
+# 本番反映するときは settings_production で明示的に True にする。
+SHOW_NEXT_LEARNING = DEBUG
+
 ALLOWED_HOSTS = []
 
 # Google Analytics 4
@@ -34,6 +38,8 @@ GA_MEASUREMENT_ID = os.environ.get('GA_MEASUREMENT_ID', 'G-XXXXXXXXXX')
 # Discord webhook（ユーザー登録・フィードバック通知）。未設定なら通知しない。
 DISCORD_WEBHOOK_URL = os.environ.get('DISCORD_WEBHOOK_URL', '')
 
+# Amazon アソシエイト（未設定ならタグなし検索 URL のまま）
+AMAZON_ASSOCIATE_TAG = os.environ.get('AMAZON_ASSOCIATE_TAG', '').strip()
 
 # Application definition
 

@@ -2,6 +2,12 @@ from django.shortcuts import render, get_object_or_404, redirect
 from django.contrib.auth.decorators import login_required
 from django_ratelimit.decorators import ratelimit
 from accounts.views import get_client_ip
+from eiken_project.next_learning import (
+    mark_next_learning_tip_shown,
+    next_learning_weekly_cap_allows,
+    select_answer_result_tip,
+)
+from django.conf import settings
 from django.http import JsonResponse, HttpResponse
 from django.views.decorators.csrf import csrf_exempt
 from django.db.models import Q, Count
@@ -2375,6 +2381,25 @@ def _finalize_and_render_answer_results(request, context):
         streak_count=gamification_result['streak_count'],
     )
     context['new_badges'] = gamification_result['new_badges']
+
+    context['next_learning_tip'] = None
+    if getattr(settings, 'SHOW_NEXT_LEARNING', False) and next_learning_weekly_cap_allows(
+        request.session
+    ):
+        tip = select_answer_result_tip(
+            level=level,
+            question_type=context['question_type'],
+            correct_count=context.get('correct_count', 0),
+            total_count=context.get('total_count', 0),
+        )
+        if tip:
+            context['next_learning_tip'] = tip
+            context['next_learning_primary_url'] = (
+                f"{reverse('exams:exam_list')}?level={level}"
+            )
+            context['next_learning_primary_label'] = '問題一覧に戻る'
+            mark_next_learning_tip_shown(request.session)
+
     return render(request, 'exams/answer_results.html', context)
 
 
@@ -2730,6 +2755,16 @@ def sitemap_xml(request):
             'priority': '0.5',
         },
     ]
+    if getattr(settings, 'SHOW_NEXT_LEARNING', False):
+        urls.insert(
+            3,
+            {
+                'loc': f"{base_url}/resources/",
+                'lastmod': today,
+                'changefreq': 'monthly',
+                'priority': '0.7',
+            },
+        )
 
     response = HttpResponse(
         render_to_string('exams/sitemap.xml', {'urls': urls}),

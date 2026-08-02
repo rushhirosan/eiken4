@@ -56,6 +56,7 @@ class RobotsTxtTest(TestCase):
         self.assertContains(response, 'Disallow: /exams/')
         self.assertContains(response, 'Allow: /about/')
         self.assertContains(response, 'Allow: /guides/')
+        self.assertContains(response, 'Allow: /resources/')
         self.assertContains(response, 'Allow: /llms.txt')
         self.assertContains(response, 'Sitemap: https://eiken-practice.com/sitemap.xml')
 
@@ -71,6 +72,7 @@ class LlmsTxtTest(TestCase):
         self.assertIn('- [トップ](https://eiken-practice.com/):', content)
         self.assertIn('- [サービス概要・FAQ](https://eiken-practice.com/about/):', content)
         self.assertIn('- [学習の進め方](https://eiken-practice.com/guides/):', content)
+        self.assertIn('- [学習リソース](https://eiken-practice.com/resources/):', content)
         self.assertIn('英検協会の公式サイト・公式アプリではない', content)
         self.assertIn('## Optional', content)
         self.assertIn('- [プライバシーポリシー](https://eiken-practice.com/privacy-policy/):', content)
@@ -103,6 +105,81 @@ class GuidesPageTest(TestCase):
         self.assertNotIn('fonts.googleapis.com', content)
         self.assertNotIn('font-awesome', content)
 
+    def test_guides_shows_next_learning_when_enabled(self):
+        from django.test import override_settings
+
+        with override_settings(SHOW_NEXT_LEARNING=True):
+            response = Client().get(reverse('guides'))
+        self.assertEqual(response.status_code, 200)
+        self.assertContains(response, 'このあとの学習')
+        self.assertContains(response, '英検5級の過去問・問題集を見てみる')
+        self.assertContains(response, '英検4級の過去問・問題集を見てみる')
+        self.assertContains(response, '英検3級の過去問・問題集を見てみる')
+        self.assertContains(response, 'アフィリエイトを含みます')
+        self.assertContains(response, 'rel="noopener noreferrer sponsored"')
+        self.assertContains(response, reverse('resources'))
+        self.assertContains(response, '学習リソース')
+
+    def test_guides_hides_next_learning_when_disabled(self):
+        from django.test import override_settings
+
+        with override_settings(SHOW_NEXT_LEARNING=False):
+            response = Client().get(reverse('guides'))
+        self.assertEqual(response.status_code, 200)
+        self.assertNotContains(response, 'このあとの学習')
+        self.assertNotContains(response, '英検5級の過去問・問題集を見てみる')
+        self.assertNotContains(response, reverse('resources'))
+
+
+class ResourcesPageTest(TestCase):
+    def test_resources_page_when_enabled(self):
+        from django.test import override_settings
+
+        with override_settings(SHOW_NEXT_LEARNING=True):
+            response = Client().get(reverse('resources'))
+        self.assertEqual(response.status_code, 200)
+        self.assertContains(response, 'あわせて使える学習リソース')
+        self.assertContains(response, '英検5級')
+        self.assertContains(response, '英検4級')
+        self.assertContains(response, '英検3級')
+        self.assertContains(response, '英検5級の過去問・問題集')
+        self.assertContains(response, '英検4級の長文対策')
+        self.assertContains(response, '英検3級の長文対策')
+        self.assertContains(response, '英検3級の英作文・ライティング対策')
+        self.assertContains(response, '任意')
+        self.assertContains(response, 'アフィリエイト')
+        self.assertContains(response, '公式サイトではありません')
+        self.assertContains(response, 'https://eiken-practice.com/resources/')
+        self.assertContains(response, reverse('guides'))
+        content = response.content.decode()
+        self.assertIn('4%E7%B4%9A+%E9%95%B7%E6%96%87', content)
+        self.assertIn('3%E7%B4%9A+%E9%95%B7%E6%96%87', content)
+
+    def test_resources_page_404_when_disabled(self):
+        from django.test import override_settings
+
+        with override_settings(SHOW_NEXT_LEARNING=False):
+            response = Client().get(reverse('resources'))
+        self.assertEqual(response.status_code, 404)
+
+
+class PrivacyPolicyAffiliateTest(TestCase):
+    def test_privacy_shows_affiliate_section_when_enabled(self):
+        from django.test import override_settings
+
+        with override_settings(SHOW_NEXT_LEARNING=True):
+            response = Client().get(reverse('privacy_policy'))
+        self.assertEqual(response.status_code, 200)
+        self.assertContains(response, 'アフィリエイトリンクについて')
+
+    def test_privacy_hides_affiliate_section_when_disabled(self):
+        from django.test import override_settings
+
+        with override_settings(SHOW_NEXT_LEARNING=False):
+            response = Client().get(reverse('privacy_policy'))
+        self.assertEqual(response.status_code, 200)
+        self.assertNotContains(response, 'アフィリエイトリンクについて')
+
 
 class AuthenticatedNavLinksTest(TestCase):
     def setUp(self):
@@ -134,14 +211,26 @@ class AboutPageTest(TestCase):
 
 class SitemapXmlTest(TestCase):
     def test_sitemap_lists_only_public_pages(self):
-        response = Client().get(reverse('sitemap_xml'))
+        from django.test import override_settings
+
+        with override_settings(SHOW_NEXT_LEARNING=False):
+            response = Client().get(reverse('sitemap_xml'))
         self.assertEqual(response.status_code, 200)
         self.assertContains(response, 'https://eiken-practice.com/')
         self.assertContains(response, 'https://eiken-practice.com/about/')
         self.assertContains(response, 'https://eiken-practice.com/guides/')
         self.assertContains(response, 'https://eiken-practice.com/privacy-policy/')
+        self.assertNotContains(response, '/resources/')
         self.assertNotContains(response, '/exams/')
         self.assertNotContains(response, '/accounts/')
+
+    def test_sitemap_includes_resources_when_enabled(self):
+        from django.test import override_settings
+
+        with override_settings(SHOW_NEXT_LEARNING=True):
+            response = Client().get(reverse('sitemap_xml'))
+        self.assertEqual(response.status_code, 200)
+        self.assertContains(response, 'https://eiken-practice.com/resources/')
 
 
 class LandingFaqJsonLdTest(TestCase):
@@ -230,6 +319,7 @@ class CanonicalHostRedirectTest(TestCase):
         for path, dest in (
             ('/about', 'https://eiken-practice.com/about/'),
             ('/guides', 'https://eiken-practice.com/guides/'),
+            ('/resources', 'https://eiken-practice.com/resources/'),
             ('/privacy-policy', 'https://eiken-practice.com/privacy-policy/'),
         ):
             response = self.client.get(path, HTTP_HOST='eiken-practice.com')

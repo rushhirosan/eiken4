@@ -16,6 +16,12 @@ SECRET_KEY = os.environ.get('SECRET_KEY', 'django-insecure-2ur(6(@gfj_21u@d@dtla
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
+# アフィリエイト「このあとの学習」を本番公開
+SHOW_NEXT_LEARNING = True
+
+# Amazon アソシエイトタグ（fly secrets set AMAZON_ASSOCIATE_TAG=your-tag-22）
+AMAZON_ASSOCIATE_TAG = os.environ.get('AMAZON_ASSOCIATE_TAG', '').strip()
+
 ALLOWED_HOSTS = ['*']
 
 # CSRF settings for Fly.io / custom domain

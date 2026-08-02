@@ -37,6 +37,7 @@ Eiken Practice は、英検受験者向けの無料オンライン学習サイ�
 - [トップ](https://eiken-practice.com/): サービス紹介と無料登録・ログインへの入口
 - [サービス概要・FAQ](https://eiken-practice.com/about/): 対応級・機能・よくある質問
 - [学習の進め方](https://eiken-practice.com/guides/): 5級・4級・3級ごとのおすすめ学習順と使い方ガイド
+- [学習リソース](https://eiken-practice.com/resources/): 級別の過去問・教材などサイト外の学習のヒント
 
 ## Optional
 

@@ -230,12 +230,43 @@
         {% endfor %}
     {% endif %}
     
-    <div class="text-center mt-5 mb-5">
-        <a href="{% url 'exams:exam_list' %}" class="btn btn-primary">問題一覧に戻る</a>
+    {% if next_learning_tip %}
+    <div class="next-learning-wrap text-center mt-5 mb-4">
+        {% include 'partials/_next_learning.html' with reason=next_learning_tip.reason resource_title=next_learning_tip.resource_title resource_url=next_learning_tip.resource_url primary_internal_url=next_learning_primary_url primary_internal_label=next_learning_primary_label %}
     </div>
+    {% else %}
+    <div class="text-center mt-5 mb-5">
+        <a href="{% url 'exams:exam_list' %}?level={{ level }}" class="btn btn-primary">問題一覧に戻る</a>
+    </div>
+    {% endif %}
 </div>
 
 <style>
+.next-learning-wrap {
+    max-width: 32rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+.next-learning-wrap .next-learning {
+    border: 1px solid #e5e7eb;
+    border-radius: 0.5rem;
+    padding: 1rem 1.15rem;
+    text-align: left;
+    background: #f9fafb;
+}
+.next-learning-wrap .next-learning-heading {
+    font-weight: 600;
+    color: #111827;
+}
+.next-learning-wrap .next-learning-reason {
+    color: #4b5563;
+}
+.next-learning-wrap .next-learning-external {
+    color: #4f46e5;
+}
+.next-learning-wrap .next-learning-note {
+    color: #6b7280;
+}
 .result-choices .result-choice {
     display: flex;
     flex-wrap: wrap;

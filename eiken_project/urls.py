@@ -16,7 +16,6 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path, include
-from django.views.generic.base import TemplateView
 from django.conf import settings
 from django.conf.urls.static import static
 from django.http import HttpResponse
@@ -27,6 +26,8 @@ from eiken_project.views import (
     guides,
     landing,
     llms_txt,
+    privacy_policy,
+    resources,
     robots_txt,
     slashless_canonical_redirect,
 )
@@ -58,9 +59,11 @@ urlpatterns = [
     path('about/', about, name='about'),
     path('guides', slashless_canonical_redirect('/guides/')),
     path('guides/', guides, name='guides'),
+    path('resources', slashless_canonical_redirect('/resources/')),
+    path('resources/', resources, name='resources'),
     # Privacy Policy
     path('privacy-policy', slashless_canonical_redirect('/privacy-policy/')),
-    path('privacy-policy/', TemplateView.as_view(template_name='privacy_policy.html'), name='privacy_policy'),
+    path('privacy-policy/', privacy_policy, name='privacy_policy'),
 ]
 
 if settings.DEBUG:
