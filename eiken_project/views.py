@@ -12,6 +12,12 @@ from eiken_project.next_learning import (
     decorated_next_learning_by_level,
     resources_page_sections,
 )
+from eiken_project.try_samples import (
+    get_try_samples,
+    is_try_level,
+    level_label,
+    try_level_availability,
+)
 
 CANONICAL_ORIGIN = 'https://eiken-practice.com'
 _CANONICAL_REDIRECT_HOSTS = frozenset({
@@ -214,6 +220,84 @@ def slashless_canonical_redirect(target_path: str):
 def guide_topic_slashless_redirect(request, slug: str):
     """級×パートガイドの末尾スラッシュ無し URL を正規 URL へ 301。"""
     target_path = f'/guides/{slug}/'
+    host = request.META.get('HTTP_HOST', '').split(':')[0].lower()
+    if host in _CANONICAL_REDIRECT_HOSTS:
+        return HttpResponsePermanentRedirect(f'{CANONICAL_ORIGIN}{target_path}')
+    return HttpResponsePermanentRedirect(target_path)
+
+
+def try_index(request):
+    """ログイン前お試しハブ（級選択）。"""
+    return render(
+        request,
+        'try_index.html',
+        {
+            'levels': try_level_availability(),
+        },
+    )
+
+
+def try_level(request, level: str):
+    """級別お試し（文法 + リスニング）。回答は DB に保存しない。"""
+    level = str(level)
+    if not is_try_level(level):
+        raise Http404('対応していない級です。')
+
+    samples = get_try_samples(level)
+    results = None
+    score = None
+
+    if request.method == 'POST' and samples:
+        results = []
+        correct_count = 0
+        for sample in samples:
+            field = f'answer_{sample.key}'
+            raw = (request.POST.get(field) or '').strip()
+            selected = None
+            is_correct = False
+            if raw.isdigit():
+                selected_id = int(raw)
+                selected = next((c for c in sample.choices if c.pk == selected_id), None)
+                if selected is not None and sample.correct_choice_id is not None:
+                    is_correct = selected.pk == sample.correct_choice_id
+            if is_correct:
+                correct_count += 1
+            results.append({
+                'sample': sample,
+                'selected': selected,
+                'is_correct': is_correct,
+                'answered': selected is not None,
+            })
+        score = {
+            'correct': correct_count,
+            'total': len(samples),
+        }
+
+    if request.user.is_authenticated:
+        cta_url = f"{reverse('exams:exam_list')}?level={level}"
+        cta_label = f'{level_label(level)}の練習を続ける'
+    else:
+        cta_url = reverse('signup')
+        cta_label = '無料登録して続きを練習する'
+
+    return render(
+        request,
+        'try_level.html',
+        {
+            'level': level,
+            'level_label': level_label(level),
+            'samples': samples,
+            'results': results,
+            'score': score,
+            'cta_url': cta_url,
+            'cta_label': cta_label,
+            'show_form': results is None and bool(samples),
+        },
+    )
+
+
+def try_level_slashless_redirect(request, level: str):
+    target_path = f'/try/{level}/'
     host = request.META.get('HTTP_HOST', '').split(':')[0].lower()
     if host in _CANONICAL_REDIRECT_HOSTS:
         return HttpResponsePermanentRedirect(f'{CANONICAL_ORIGIN}{target_path}')

@@ -449,8 +449,11 @@
                         過去問形式の問題をブラウザで解けて、進捗やバッジで学習を継続しやすくします。
                     </p>
                     <div class="d-flex flex-wrap gap-3">
-                        <a href="{% url 'signup' %}" class="btn btn-glow">
-                            <svg class="icon me-2" aria-hidden="true" viewBox="0 0 24 24"><path d="M12 2.5c-1.1 0-2 .9-2 2v6.09l-1.29-1.3a1 1 0 10-1.42 1.42l3 3a1 1 0 001.42 0l3-3a1 1 0 10-1.42-1.42L14 10.59V4.5c0-1.1-.9-2-2-2zm-7 14a1 1 0 011-1h12a1 1 0 011 1v1a5 5 0 01-5 5h-4a5 5 0 01-5-5v-1z"/></svg>無料アカウント作成
+                        <a href="{% url 'try_index' %}" class="btn btn-glow">
+                            <svg class="icon me-2" aria-hidden="true" viewBox="0 0 24 24"><path d="M12 2.5c-1.1 0-2 .9-2 2v6.09l-1.29-1.3a1 1 0 10-1.42 1.42l3 3a1 1 0 001.42 0l3-3a1 1 0 10-1.42-1.42L14 10.59V4.5c0-1.1-.9-2-2-2zm-7 14a1 1 0 011-1h12a1 1 0 011 1v1a5 5 0 01-5 5h-4a5 5 0 01-5-5v-1z"/></svg>登録なしでお試し
+                        </a>
+                        <a href="{% url 'signup' %}" class="btn btn-ghost">
+                            無料アカウント作成
                         </a>
                         <a href="{% url 'login' %}" class="btn btn-ghost">
                             <svg class="icon me-2" aria-hidden="true" viewBox="0 0 24 24"><path d="M10 17l5-5-5-5v3H3v4h7v3zm9-14H9a2 2 0 00-2 2v3h2V5h10v14H9v-3H7v3a2 2 0 002 2h10a2 2 0 002-2V5a2 2 0 00-2-2z"/></svg>ログイン

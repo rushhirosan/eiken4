@@ -2754,6 +2754,19 @@ def sitemap_xml(request):
             'changefreq': 'monthly',
             'priority': '0.7',
         })
+    urls.append({
+        'loc': f"{base_url}/try/",
+        'lastmod': today,
+        'changefreq': 'weekly',
+        'priority': '0.8',
+    })
+    for level in ('5', '4', '3'):
+        urls.append({
+            'loc': f"{base_url}/try/{level}/",
+            'lastmod': today,
+            'changefreq': 'weekly',
+            'priority': '0.7',
+        })
     if getattr(settings, 'SHOW_NEXT_LEARNING', False):
         urls.append({
             'loc': f"{base_url}/resources/",

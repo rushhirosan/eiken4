@@ -24,6 +24,8 @@ class LandingPageTest(TestCase):
         self.assertEqual(response.status_code, 200)
         self.assertContains(response, '英検合格へ')
         self.assertContains(response, '無料アカウント作成')
+        self.assertContains(response, reverse('try_index'))
+        self.assertContains(response, '登録なしでお試し')
         self.assertContains(response, reverse('guides'))
 
     def test_landing_avoids_render_blocking_third_party_assets(self):
@@ -56,6 +58,7 @@ class RobotsTxtTest(TestCase):
         self.assertContains(response, 'Disallow: /exams/')
         self.assertContains(response, 'Allow: /about/')
         self.assertContains(response, 'Allow: /guides/')
+        self.assertContains(response, 'Allow: /try/')
         self.assertContains(response, 'Allow: /resources/')
         self.assertContains(response, 'Allow: /llms.txt')
         self.assertContains(response, 'Sitemap: https://eiken-practice.com/sitemap.xml')
@@ -72,6 +75,7 @@ class LlmsTxtTest(TestCase):
         self.assertIn('- [トップ](https://eiken-practice.com/):', content)
         self.assertIn('- [サービス概要・FAQ](https://eiken-practice.com/about/):', content)
         self.assertIn('- [学習の進め方](https://eiken-practice.com/guides/):', content)
+        self.assertIn('- [お試し問題](https://eiken-practice.com/try/):', content)
         self.assertIn('- [英検4級 リスニング](https://eiken-practice.com/guides/eiken-4-listening/):', content)
         self.assertIn('- [英検3級 ライティング](https://eiken-practice.com/guides/eiken-3-writing/):', content)
         self.assertIn('- [学習リソース](https://eiken-practice.com/resources/):', content)
@@ -267,6 +271,8 @@ class SitemapXmlTest(TestCase):
         self.assertContains(response, 'https://eiken-practice.com/guides/')
         self.assertContains(response, 'https://eiken-practice.com/guides/eiken-4-listening/')
         self.assertContains(response, 'https://eiken-practice.com/guides/eiken-3-writing/')
+        self.assertContains(response, 'https://eiken-practice.com/try/')
+        self.assertContains(response, 'https://eiken-practice.com/try/5/')
         self.assertContains(response, 'https://eiken-practice.com/privacy-policy/')
         self.assertNotContains(response, '/resources/')
         self.assertNotContains(response, '/exams/')
@@ -325,6 +331,114 @@ class LoginSeoTest(TestCase):
         response = Client().get(reverse('signup'))
         self.assertEqual(response.status_code, 200)
         self.assertContains(response, 'noindex, follow')
+
+
+class TrySamplePageTest(TestCase):
+    def setUp(self):
+        from exams.models import Choice, Question
+        from questions.models import (
+            ListeningChoice,
+            ListeningQuestion,
+            ReadingChoice,
+            ReadingPassage,
+            ReadingQuestion,
+        )
+
+        self.grammar = Question.objects.create(
+            level='4',
+            question_type='grammar_fill',
+            question_text='I ( ) a book.',
+            explanation='read が正解です。',
+            question_number=1,
+        )
+        self.grammar_correct = Choice.objects.create(
+            question=self.grammar, choice_text='read', is_correct=True, order=1
+        )
+        Choice.objects.create(
+            question=self.grammar, choice_text='reads', is_correct=False, order=2
+        )
+
+        self.listening = ListeningQuestion.objects.create(
+            level='4',
+            question_text='Choose the correct picture.',
+            image='images/part1/listening_illustration_image1.png',
+            audio='audio/part1/listening_illustration_question1.mp3',
+            correct_answer='1',
+            explanation='1が正解です。',
+        )
+        self.listening_correct = ListeningChoice.objects.create(
+            question=self.listening, choice_text='1', is_correct=True, order=1
+        )
+        ListeningChoice.objects.create(
+            question=self.listening, choice_text='2', is_correct=False, order=2
+        )
+
+        self.passage = ReadingPassage.objects.create(
+            level='4',
+            identifier='a',
+            text='Tom has a dog. The dog is brown.',
+        )
+        self.reading = ReadingQuestion.objects.create(
+            passage=self.passage,
+            question_text='What color is the dog?',
+            question_number=1,
+            explanation='本文に brown とあります。',
+        )
+        self.reading_correct = ReadingChoice.objects.create(
+            question=self.reading, choice_text='Brown.', is_correct=True, order=1
+        )
+        ReadingChoice.objects.create(
+            question=self.reading, choice_text='Black.', is_correct=False, order=2
+        )
+
+    def test_try_index_is_public(self):
+        response = Client().get(reverse('try_index'))
+        self.assertEqual(response.status_code, 200)
+        self.assertContains(response, 'お試し問題')
+        self.assertContains(response, '登録不要')
+        self.assertContains(response, reverse('try_level', kwargs={'level': '4'}))
+        self.assertContains(response, 'index, follow')
+
+    def test_try_level_shows_grammar_and_listening(self):
+        response = Client().get(reverse('try_level', kwargs={'level': '4'}))
+        self.assertEqual(response.status_code, 200)
+        self.assertContains(response, '英検4級のお試し問題')
+        self.assertContains(response, 'I ( ) a book.')
+        self.assertContains(response, 'Choose the correct picture.')
+        self.assertContains(response, 'audio/part1/listening_illustration_question1.mp3')
+        self.assertContains(response, 'images/part1/listening_illustration_image1.png')
+        self.assertContains(response, 'Tom has a dog.')
+        self.assertContains(response, 'What color is the dog?')
+        self.assertContains(response, '長文読解（お試し）')
+        self.assertContains(response, '回答する')
+
+    def test_try_level_grades_without_login(self):
+        from exams.models import ReadingUserAnswer, UserAnswer
+        from questions.models import ListeningUserAnswer
+
+        response = Client().post(
+            reverse('try_level', kwargs={'level': '4'}),
+            {
+                'answer_grammar': str(self.grammar_correct.id),
+                'answer_listening': str(self.listening_correct.id),
+                'answer_reading': str(self.reading_correct.id),
+            },
+        )
+        self.assertEqual(response.status_code, 200)
+        self.assertContains(response, '3 / 3')
+        self.assertContains(response, '無料登録して続きを練習する')
+        self.assertEqual(UserAnswer.objects.count(), 0)
+        self.assertEqual(ListeningUserAnswer.objects.count(), 0)
+        self.assertEqual(ReadingUserAnswer.objects.count(), 0)
+
+    def test_try_level_invalid_404(self):
+        response = Client().get(reverse('try_level', kwargs={'level': '2'}))
+        self.assertEqual(response.status_code, 404)
+
+    def test_try_level_slashless_redirect(self):
+        response = Client().get('/try/4')
+        self.assertEqual(response.status_code, 301)
+        self.assertEqual(response['Location'], '/try/4/')
 
 
 @override_settings(ALLOWED_HOSTS=['eiken-app.fly.dev', 'eiken-practice.com', 'testserver'])

@@ -1,0 +1,308 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ level_label }}のお試し問題 - Eiken Practice</title>
+    <meta name="description" content="{{ level_label }}の文法・リスニングをお試し。登録なしで無料体験できます。">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://eiken-practice.com/try/{{ level }}/">
+    <meta property="og:title" content="{{ level_label }}のお試し問題 - Eiken Practice">
+    <meta property="og:description" content="登録なしで{{ level_label }}の文法とリスニングを体験。">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://eiken-practice.com/try/{{ level }}/">
+    <meta property="og:locale" content="ja_JP">
+    <meta property="og:site_name" content="Eiken Practice">
+    <meta property="og:image" content="https://eiken-practice.com{% static 'eiken-og-image.png' %}">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="{% static 'css/question_list.css' %}" rel="stylesheet">
+    <style>
+        :root {
+            --brand-primary: #7c6cff;
+            --brand-primary-deep: #6355e0;
+            --brand-primary-soft: #5b8cff;
+            --brand-accent-teal: #4fd1c5;
+            --brand-bg: #f7f8fc;
+            --brand-bg-soft: #eef1f8;
+            --brand-surface: #ffffff;
+            --brand-text: #161b2e;
+            --brand-muted: #3f475c;
+            --brand-border: rgba(22, 27, 46, 0.12);
+            --brand-shadow: 0 12px 32px rgba(22, 27, 46, 0.08);
+            --brand-primary-rgb: 124, 108, 255;
+        }
+        body {
+            background-color: var(--brand-bg);
+            background-image:
+                radial-gradient(ellipse 70% 40% at 0% 0%, rgba(124, 108, 255, 0.06), transparent 55%),
+                radial-gradient(ellipse 50% 35% at 100% 0%, rgba(79, 209, 197, 0.05), transparent 50%),
+                linear-gradient(180deg, var(--brand-bg) 0%, var(--brand-bg-soft) 100%);
+            background-attachment: fixed;
+            min-height: 100vh;
+            font-family: 'Inter', system-ui, -apple-system, sans-serif;
+            color: var(--brand-text);
+        }
+        .navbar {
+            background: rgba(255, 255, 255, 0.92) !important;
+            backdrop-filter: blur(12px);
+            border-bottom: 1px solid var(--brand-border);
+        }
+        .navbar-brand {
+            font-weight: 700;
+            color: var(--brand-primary) !important;
+        }
+        .nav-link {
+            color: var(--brand-muted) !important;
+            font-weight: 500;
+        }
+        .nav-link:hover { color: var(--brand-primary) !important; }
+        .card {
+            border-radius: 20px;
+            border: 1px solid var(--brand-border);
+            box-shadow: var(--brand-shadow);
+            background: var(--brand-surface);
+        }
+        .card-header {
+            background: linear-gradient(135deg, var(--brand-primary), var(--brand-primary-soft));
+            border: none;
+            color: white;
+            font-weight: 600;
+            border-radius: 20px 20px 0 0 !important;
+        }
+        .app-page-title { font-weight: 700; }
+        .text-muted { color: var(--brand-muted) !important; }
+        .breadcrumb a { color: var(--brand-primary); text-decoration: none; }
+        .question-text {
+            white-space: pre-wrap;
+            line-height: 1.7;
+            margin-bottom: 1rem;
+        }
+        .passage-box {
+            background: rgba(var(--brand-primary-rgb), 0.04);
+            border: 1px solid var(--brand-border);
+            border-radius: 12px;
+            padding: 1rem 1.1rem;
+            margin-bottom: 1rem;
+            white-space: pre-wrap;
+            line-height: 1.75;
+            font-size: 0.98rem;
+        }
+        .passage-label {
+            font-size: 0.8rem;
+            font-weight: 600;
+            color: var(--brand-primary);
+            margin-bottom: 0.4rem;
+        }
+        .form-check {
+            padding-left: 1.5em;
+            margin-bottom: 0.65rem;
+        }
+        .form-check-input:checked {
+            background-color: var(--brand-primary);
+            border-color: var(--brand-primary);
+        }
+        .btn-primary {
+            background: linear-gradient(135deg, var(--brand-primary), var(--brand-primary-soft));
+            border: none;
+            border-radius: 12px;
+            font-weight: 600;
+        }
+        .btn-primary:hover {
+            background: linear-gradient(135deg, var(--brand-primary-deep), var(--brand-primary));
+        }
+        .btn-outline-primary {
+            border: 2px solid var(--brand-primary);
+            color: var(--brand-primary);
+            border-radius: 12px;
+            font-weight: 500;
+        }
+        .btn-outline-primary:hover {
+            background: linear-gradient(135deg, var(--brand-primary), var(--brand-primary-soft));
+            border-color: var(--brand-primary);
+            color: #fff;
+        }
+        .alert {
+            border-radius: 15px;
+            border: none;
+            box-shadow: var(--brand-shadow);
+        }
+        .result-ok { color: #2f9e6f; font-weight: 700; }
+        .result-ng { color: #d6455d; font-weight: 700; }
+        footer {
+            border-top: 1px solid var(--brand-border);
+            color: var(--brand-muted);
+            font-size: 0.9rem;
+        }
+        footer a { color: var(--brand-primary); text-decoration: none; }
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light">
+        <div class="container">
+            <a class="navbar-brand" href="/">Eiken Practice</a>
+            <div class="d-flex gap-3 align-items-center">
+                <a class="nav-link px-0" href="{% url 'try_index' %}">お試し一覧</a>
+                <a class="nav-link px-0" href="{% url 'login' %}">ログイン</a>
+                <a class="btn btn-primary btn-sm" href="{% url 'signup' %}">無料登録</a>
+            </div>
+        </div>
+    </nav>
+
+    <main class="container py-4">
+        <nav aria-label="breadcrumb" class="mb-3">
+            <ol class="breadcrumb mb-0">
+                <li class="breadcrumb-item"><a href="/">トップ</a></li>
+                <li class="breadcrumb-item"><a href="{% url 'try_index' %}">お試し</a></li>
+                <li class="breadcrumb-item active" aria-current="page">{{ level_label }}</li>
+            </ol>
+        </nav>
+
+        <h1 class="app-page-title mb-2">{{ level_label }}のお試し問題</h1>
+        <p class="text-muted mb-4">登録不要です。解いたあと、正解と解説をその場で確認できます（進捗には残りません）。</p>
+
+        {% if not samples %}
+        <div class="alert alert-info">
+            この級のお試し問題はまだ準備中です。ほかの級を試すか、無料登録して本番メニューをご利用ください。
+        </div>
+        <div class="d-flex flex-wrap gap-2">
+            <a href="{% url 'try_index' %}" class="btn btn-outline-primary">級を選び直す</a>
+            <a href="{{ cta_url }}" class="btn btn-primary">{{ cta_label }}</a>
+        </div>
+
+        {% elif show_form %}
+        <form method="post" action="">
+            {% csrf_token %}
+            <div class="row">
+                {% for sample in samples %}
+                <div class="col-12 {% if sample.passage_text %}{% elif samples|length > 1 %}col-lg-6{% endif %} mb-4">
+                    <div class="card question-card h-100">
+                        <div class="card-header">{{ sample.title }}</div>
+                        <div class="card-body{% if sample.image_path %} d-flex flex-column{% endif %}">
+                            {% if sample.image_path %}
+                            <div class="listening-illustration-img-wrap">
+                                <img src="{% static sample.image_path %}" alt="問題のイラスト" class="listening-illustration-img">
+                            </div>
+                            {% endif %}
+                            {% if sample.audio_path %}
+                            <div class="text-center listening-illustration-audio-wrap mb-3">
+                                <audio class="w-100 listening-native-audio" controls preload="auto" playsinline style="max-width: 420px;" src="{% static sample.audio_path %}">
+                                    お使いのブラウザは音声再生に対応していません。
+                                </audio>
+                            </div>
+                            {% endif %}
+                            {% if sample.passage_text %}
+                            <div class="passage-label">本文</div>
+                            <div class="passage-box">{{ sample.passage_text }}</div>
+                            {% endif %}
+                            <div class="question-text">{{ sample.question_text }}</div>
+                            <div class="choices{% if sample.image_path %} listening-choices mt-auto{% endif %}">
+                                {% for choice in sample.choices %}
+                                <div class="form-check">
+                                    <input class="form-check-input" type="radio"
+                                           name="answer_{{ sample.key }}"
+                                           id="answer-{{ sample.key }}-{{ choice.id }}"
+                                           value="{{ choice.id }}"
+                                           required>
+                                    <label class="form-check-label" for="answer-{{ sample.key }}-{{ choice.id }}">
+                                        {% if ".png" in choice.choice_text or ".jpg" in choice.choice_text or ".jpeg" in choice.choice_text or ".webp" in choice.choice_text %}
+                                        <img src="{% static choice.choice_text %}" alt="選択肢{{ forloop.counter }}" class="listening-choice-img">
+                                        {% elif sample.image_path and choice.choice_text|length <= 2 %}
+                                        {{ forloop.counter }}
+                                        {% else %}
+                                        {{ choice.choice_text }}
+                                        {% endif %}
+                                    </label>
+                                </div>
+                                {% endfor %}
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                {% endfor %}
+            </div>
+            <div class="alert alert-light border">
+                お試しは一部の問題だけです。全問・進捗・デイリーミッションは無料登録後に使えます。
+            </div>
+            <div class="text-center">
+                <button type="submit" class="btn btn-primary btn-lg px-5">回答する</button>
+            </div>
+        </form>
+
+        {% else %}
+        <div class="alert alert-success">
+            結果: <strong>{{ score.correct }} / {{ score.total }}</strong> 問正解
+        </div>
+        <div class="row">
+            {% for item in results %}
+            <div class="col-12 {% if results|length > 1 %}col-lg-6{% endif %} mb-4">
+                <div class="card h-100">
+                    <div class="card-header">{{ item.sample.title }}</div>
+                    <div class="card-body">
+                        {% if item.is_correct %}
+                        <p class="result-ok mb-2">正解</p>
+                        {% elif item.answered %}
+                        <p class="result-ng mb-2">不正解</p>
+                        {% else %}
+                        <p class="result-ng mb-2">未回答</p>
+                        {% endif %}
+
+                        {% if item.sample.image_path %}
+                        <div class="listening-illustration-img-wrap listening-illustration-img-wrap--results">
+                            <img src="{% static item.sample.image_path %}" alt="問題のイラスト" class="listening-illustration-img">
+                        </div>
+                        {% endif %}
+                        {% if item.sample.audio_path %}
+                        <div class="text-center listening-illustration-audio-wrap mb-3">
+                            <audio class="w-100 listening-native-audio" controls preload="auto" playsinline style="max-width: 420px;" src="{% static item.sample.audio_path %}">
+                                お使いのブラウザは音声再生に対応していません。
+                            </audio>
+                        </div>
+                        {% endif %}
+                        {% if item.sample.passage_text %}
+                        <div class="passage-label">本文</div>
+                        <div class="passage-box">{{ item.sample.passage_text }}</div>
+                        {% endif %}
+                        <div class="question-text">{{ item.sample.question_text }}</div>
+                        {% if item.selected %}
+                        <p class="mb-1">あなたの答え: <strong>{{ item.selected.choice_text }}</strong></p>
+                        {% endif %}
+                        {% for choice in item.sample.choices %}
+                            {% if choice.id == item.sample.correct_choice_id %}
+                            <p class="mb-2">正解: <strong class="result-ok">{{ choice.choice_text }}</strong></p>
+                            {% endif %}
+                        {% endfor %}
+                        {% if item.sample.explanation %}
+                        <p class="mb-0 text-muted"><strong class="text-dark">解説:</strong> {{ item.sample.explanation }}</p>
+                        {% endif %}
+                    </div>
+                </div>
+            </div>
+            {% endfor %}
+        </div>
+        <div class="alert alert-light border">
+            続きの問題・進捗保存・模擬試験は、無料アカウントで使えます。
+        </div>
+        <div class="d-flex flex-wrap gap-2 justify-content-center">
+            <a href="{{ cta_url }}" class="btn btn-primary">{{ cta_label }}</a>
+            <a href="{% url 'try_level' level=level %}" class="btn btn-outline-primary">もう一度解く</a>
+            <a href="{% url 'try_index' %}" class="btn btn-outline-primary">ほかの級</a>
+        </div>
+        {% endif %}
+    </main>
+
+    <footer class="py-4 mt-2">
+        <div class="container d-flex flex-column flex-md-row justify-content-between gap-2">
+            <span>Eiken Practice</span>
+            <div class="d-flex gap-3">
+                <a href="{% url 'try_index' %}">お試し</a>
+                <a href="{% url 'guides' %}">学習の進め方</a>
+                <a href="{% url 'signup' %}">新規登録</a>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

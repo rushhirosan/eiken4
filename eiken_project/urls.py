@@ -32,6 +32,9 @@ from eiken_project.views import (
     resources,
     robots_txt,
     slashless_canonical_redirect,
+    try_index,
+    try_level,
+    try_level_slashless_redirect,
 )
 
 def healthz(request):
@@ -63,6 +66,10 @@ urlpatterns = [
     path('guides/', guides, name='guides'),
     path('guides/<slug:slug>', guide_topic_slashless_redirect),
     path('guides/<slug:slug>/', guide_topic, name='guide_topic'),
+    path('try', slashless_canonical_redirect('/try/')),
+    path('try/', try_index, name='try_index'),
+    path('try/<str:level>', try_level_slashless_redirect),
+    path('try/<str:level>/', try_level, name='try_level'),
     path('resources', slashless_canonical_redirect('/resources/')),
     path('resources/', resources, name='resources'),
     # Privacy Policy
