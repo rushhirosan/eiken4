@@ -1010,7 +1010,7 @@ The quiz was very ( ). James only knew the answer to one of the questions.
 1. difficult
 
 【解説57】  
-「一問しか答えられなかった」ので、クイズは「difficult（難しかった）」とわかります。
+一問しか答えられなかったので、クイズは「difficult（難しかった）」が自然です。「comfortable」「exciting」「popular」では「ほとんど解けない」理由になりません。
 
 ---
 
@@ -1027,7 +1027,7 @@ When it’s sunny, Mia likes to take a ( ) by the river with her dog.
 3. walk
 
 【解説58】  
-「take a walk（散歩をする）」はよく使う表現です。犬と散歩するのにぴったりな言葉です。
+「take a walk（散歩をする）」が決まり文句で、犬と川沿いという場面にも合います。「note」「moon」「pair」では散歩の意味になりません。
 
 ---
 
@@ -1045,7 +1045,7 @@ B : Thanks. Wow, your house is so big!
 2. in
 
 【解説59】  
-「come in（中に入る）」が正しい表現です。「come to」などはここでは不自然になります。
+家に招く場面なので「come in（入って）」が自然です。「come to / from / at」はこの「中へ入る」意味では使いません。
 
 ---
 
@@ -1063,7 +1063,7 @@ B : I loved it! The story was very interesting.
 2. think
 
 【解説60】  
-「What did you think of ～?」は「～をどう思った？」という意味の定番フレーズです。
+「What did you think of ～?（どう思った？）」が定番で、「大好きだった」という答えにも合います。「draw / call / spend」では感想を聞く形になりません。
 
 ---
 
@@ -1257,7 +1257,7 @@ B : Yes, yesterday.
 1. write
 
 【解説71】  
-「write a letter（手紙を書く）」が自然な表現です。他の動詞は不自然です。
+「write a letter（手紙を書く）」が自然です。「cut」「paint」「catch」では手紙を書く動作になりません。
 
 ---
 
@@ -1310,7 +1310,7 @@ B : () a minute, please.
 1. Wait
 
 【解説74】  
-「Wait a minute.（ちょっと待って）」は定番表現です。他はこの場面に合いません。
+「Wait a minute.（ちょっと待って）」が定番です。「Make / Give / Take a minute」はこの意味では使いません。
 
 ---
 
@@ -1346,7 +1346,7 @@ B : Great idea!
 1. take
 
 【解説76】  
-「take a picture（写真を撮る）」という決まった表現です。
+「take a picture（写真を撮る）」が決まり文句です。「get」「hold」「stay」では「写真を撮る」意味になりません。
 
 ---
 
@@ -1363,7 +1363,7 @@ She is very () at swimming. She can swim fast.
 1. good
 
 【解説77】  
-「be good at ～（〜が得意）」の表現を使います。「bad（下手）」ではないので注意。
+「be good at ～（得意）」で、速く泳げるという続きにも合います。「bad」だと矛盾し、「big」「late」は得意さの表現になりません。
 
 ---
 
@@ -1380,7 +1380,7 @@ We always () soccer on Sundays.
 2. play
 
 【解説78】  
-「play soccer（サッカーをする）」が自然な表現です。
+「play soccer（サッカーをする）」が自然です。「go / make / meet soccer」は言いません。
 
 ---
 
@@ -1398,7 +1398,7 @@ B : I like chocolate cake.
 3. food
 
 【解説79】  
-チョコレートケーキは食べ物なので「food」が正しいです。
+答えがチョコレートケーキなので「food（食べ物）」が正解です。「color」「sport」「movie」とは種類が合いません。
 
 ---
 
@@ -1416,7 +1416,7 @@ B : Thank you. It was a () from my sister.
 1. present
 
 【解説80】  
-「present（プレゼント）」をもらった、という自然な流れです。
+姉からもらったものなので「present（プレゼント）」が自然です。「call」「trip」「letter」はこの流れに合いません。
 
 ---
 
@@ -1434,7 +1434,7 @@ B : On the internet.
 1. find
 
 【解説81】  
-「find the news」で「ニュースを見つける、知る」という意味です。他の動詞は不自然です。
+インターネットで「ニュースを知る／見つける」ので「find」が自然です。「tell」「bring」「carry」では同じ意味になりません。
 
 ---
 
@@ -1469,7 +1469,7 @@ B : Don’t worry, I’ll ( ) you.
 2. help
 
 【解説83】  
-「help 人」で「～を助ける」という意味。文脈的にぴったりの表現です。
+一人では終わらないと言っているので「help（助ける）」が自然です。「ask」「stop」「show」では励ましの返答になりません。
 
 ---
 
@@ -1486,7 +1486,7 @@ We ( ) to the zoo last weekend and saw a panda.
 2. went
 
 【解説84】  
-「last weekend」は過去なので、「go」の過去形「went」が正解です。
+「last weekend」があるので過去形「went」が正解です。「go / going / goes」では時制が合いません。
 
 ---
 
@@ -1521,7 +1521,7 @@ I have to ( ) my homework before I go out.
 1. finish
 
 【解説86】  
-「finish homework（宿題を終える）」が自然な表現です。
+出かける前に宿題を「終える」ので「finish」が自然です。「fix（直す）」「feed（えさをやる）」「forget（忘れる）」は文脈に合いません。
 
 ---
 
@@ -1539,7 +1539,7 @@ B : About 20 minutes.
 3. take
 
 【解説87】  
-「How long does it take ～?」で「〜するのにどれくらい時間がかかるか」をたずねる表現です。
+「How long does it take ～?（どれくらいかかる？）」が定番です。「have / get / ride」では所要時間を聞く形になりません。
 
 ---
 
@@ -1608,7 +1608,7 @@ The baby was ( ) because he was hungry.
 4. crying
 
 【解説91】  
-「was + -ing」で過去進行形。「泣いていた」という状態を表します。
+「was + -ing」の過去進行形で「泣いていた」状態を表します。「cry / cried / cries」では進行の形になりません。
 
 ---
 
@@ -1626,7 +1626,7 @@ B : Me too, but today I ( ) the bus.
 2. took
 
 【解説92】  
-「today」の具体的な行動は過去なので、「take」の過去形「took」が正解です。
+「today」の具体的な行動で、いつも歩くが今日はバス、なので過去形「took」が自然です。「take / takes / taking」では時制が合いません。
 
 ---
 
@@ -1644,7 +1644,7 @@ B : You should ( ) a rest.
 3. take
 
 【解説93】  
-「take a rest（休む）」は決まり文句。「get」などは文法的に合いません。
+体調が悪いので「take a rest（休む）」が決まり文句です。「get / do / go a rest」は普通言いません。
 
 ---
 
@@ -1661,7 +1661,7 @@ The movie was so ( ) that I cried.
 3. sad
 
 【解説94】  
-「cry（泣く）」の理由になるのは「sad（悲しい）」です。
+泣いた理由として「sad（悲しい）」が自然です。「boring」「exciting」「easy」では泣く理由として弱いか合いません。
 
 ---
 
@@ -1679,7 +1679,7 @@ B : Yes, it was ( ) than I expected.
 2. more fun
 
 【解説95】  
-「than」があるので比較級「more fun（より楽しい）」を使います。
+「than」があるので比較級「more fun」が必要です。「fun」はそのままでは比較にならず、「funniest」は最上級です。
 
 ---
 
@@ -1697,7 +1697,7 @@ B : To the library.
 1. did
 
 【解説96】  
-過去の行動をたずねるときは「did」を使います。「Where did you go ～?」の形。
+昨夜の行動を聞くので「Where did you go ～?」の「did」が必要です。「do / were / does」では過去の疑問文として合いません。
 
 ---
 
@@ -1714,7 +1714,7 @@ If it ( ) tomorrow, we will go to the beach.
 2. rains
 
 【解説97】  
-条件文のif節には現在形を使います。「If it rains tomorrow, ～」が正しい構文。
+if 節は現在形なので「If it rains tomorrow」が正しいです。「rain / will rain / raining」はこの条件文の形に合いません。
 
 ---
 
@@ -1731,7 +1731,7 @@ My father is very ( ). He makes dinner for us every day.
 1. kind
 
 【解説98】  
-「親切である＝kind」という意味です。毎日料理してくれる優しさに対して使います。
+毎日夕食を作ってくれるので「kind（親切）」が自然です。「strong」「high」「fast」は親切さの説明になりません。
 
 ---
 
@@ -1749,7 +1749,7 @@ B : That’s too ( ). Try again next time!
 2. bad
 
 【解説99】  
-残念なことに対して「That’s too bad.（それは残念だね）」という決まり表現になります。
+不合格への慰めは「That’s too bad.（残念だね）」が定番です。「well」「good」「nice」では残念の表現になりません。
 
 ---
 
@@ -1993,7 +1993,7 @@ It was Monica’s father’s birthday two days ago. So she () dinner for him, an
 3. made
 
 【解説113】  
-「two days ago（2日前）」は過去のことなので、「make」の過去形「made」が正解です。
+「two days ago」があるので過去形「made」が正解です。「makes / is making / will make」では時制が合いません。
 
 ---
 
@@ -2063,7 +2063,7 @@ I always eat lunch ( ) 12:30 at school.
 2. at
 
 【解説117】  
-時刻の前には「at」を使います。「at 12:30（12時半に）」が正しい表現です。
+時刻の前は「at」を使います。「on」「in」「to」は 12:30 のような時刻には使いません。
 
 ---
 
@@ -2080,7 +2080,7 @@ The children are ( ) a picture of a cat.
 1. drawing
 
 【解説118】  
-「draw a picture（絵を描く）」が自然です。他の選択肢は文の意味に合いません。
+「draw a picture（絵を描く）」が自然です。「cleaning」「buying」「playing」では絵を描く意味になりません。
 
 ---
 
@@ -2098,7 +2098,7 @@ B : I ( ) a soccer game with my family.
 2. watched
 
 【解説119】  
-「last Sunday（先週の日曜日）」があるので過去形「watched」が正解です。
+「last Sunday」があるので過去形「watched」が正解です。「watch / watches / watching」では時制が合いません。
 
 ---
 
@@ -2115,7 +2115,7 @@ That restaurant is always ( ). Let’s go somewhere else.
 2. full
 
 【解説120】  
-「full（いっぱい）」のレストランには入れないという意味です。文脈に合います。
+「ほかへ行こう」と続くので店が「full（いっぱい）」が自然です。「clean」「ready」「near」では席がない理由になりません。
 
 ---
 
@@ -2133,7 +2133,7 @@ B : Let’s ( ) for it together.
 1. look
 
 【解説121】  
-「look for ～」で「〜を探す」という意味の熟語です。
+「look for ～（〜を探す）」が正しい熟語です。「see / hear / stand for」では「探す」意味になりません。
 
 ---
 
@@ -2150,7 +2150,7 @@ My little sister always ( ) with her doll.
 1. plays
 
 【解説122】  
-「play with ～（～と遊ぶ）」という表現が正しいです。
+「play with ～（〜と遊ぶ）」が自然です。「eats / makes / goes with her doll」は意味が通じません。
 
 ---
 
@@ -2184,7 +2184,7 @@ I ( ) a new book at the library yesterday.
 3. borrowed
 
 【解説124】  
-「yesterday」があるので過去形の「borrowed（借りた）」が必要です。
+「yesterday」があるので過去形「borrowed」が必要です。「borrow / borrowing / borrows」では時制が合いません。
 
 ---
 
@@ -2202,7 +2202,7 @@ B : She is ( ) dinner in the kitchen.
 3. cooking
 
 【解説125】  
-現在進行形の「is + 動詞ing」で「料理しているところ」です。
+「is + 動詞ing」の現在進行形で「料理しているところ」です。「cook / cooked / cooks」では進行形になりません。
 
 ---
 
@@ -2219,7 +2219,7 @@ I want to be a ( ) in the future and help sick people.
 2. doctor
 
 【解説126】  
-「sick people（病気の人）」を助けるのは「doctor（医者）」です。
+病気の人を助ける職業なので「doctor（医者）」です。「teacher」「singer」「player」は文の後半と合いません。
 
 ---
 
@@ -2236,7 +2236,7 @@ My brother ( ) his homework before dinner every day.
 2. does
 
 【解説127】  
-「毎日」の習慣で主語が三人称単数（brother）なので「does」が正解です。
+毎日の習慣で主語が brother（三人称単数）なので「does」です。「doing / do / did」はこの形に合いません。
 
 ---
 
@@ -2253,7 +2253,7 @@ The movie was very ( ). I want to watch it again.
 3. exciting
 
 【解説128】  
-もう一度観たい＝「exciting（ワクワクする）」が自然です。
+もう一度観たいので「exciting（ワクワクする）」が自然です。「boring」「tired」「hungry」では再視聴したい理由になりません。
 
 ---
 
@@ -2271,7 +2271,7 @@ B : I’m ( ) to music.
 3. listening
 
 【解説129】  
-「am + listening」で現在進行形です。「listen」は原形なので使えません。
+「I’m listening」の現在進行形が必要です。「listen / listens / listened」では am のあとに合いません。
 
 ---
 
@@ -2288,7 +2288,7 @@ Let’s ( ) a cake for Mom’s birthday.
 2. make
 
 【解説130】  
-誕生日のためにケーキを「作る＝make」が自然です。
+誕生日のためにケーキを「作る」ので「make」が自然です。「eat」「cut」「take」は「作る」場面の第一選択ではありません。
 
 ---
 
@@ -2305,7 +2305,7 @@ My father often ( ) to work by car.
 3. goes
 
 【解説131】  
-三人称単数の現在形なので「goes」が正解です。
+主語が father（三人称単数）の現在の習慣なので「goes」です。「go / going / went」はこの文の時制・人称に合いません。
 
 ---
 
@@ -2322,7 +2322,7 @@ There ( ) many people at the festival last night.
 3. were
 
 【解説132】  
-「last night」があるので過去形、「many people」で複数なので「were」が正しいです。
+「last night」で過去、「many people」で複数なので「were」です。「is / are / was」では時制か数が合いません。
 
 ---
 
@@ -2375,7 +2375,7 @@ B : It’s ( ) o’clock.
 1. three
 
 【解説135】  
-時刻を言う時は「It’s three o’clock」のように数字だけでOKです。
+時刻は「It’s three o’clock」のように基数を使います。「third」「three’s」「the three」はこの言い方ではありません。
 
 ---
 
@@ -2392,7 +2392,7 @@ Yuka is a fast runner. She runs ( ) than any other student.
 2. faster
 
 【解説136】  
-「than」があるので比較級「faster」を使います。
+「than」があるので比較級「faster」です。「fast」は原級、「fastest」は最上級、「more fast」は形が正しくありません。
 
 ---
 
@@ -2409,7 +2409,7 @@ I like this song. Let’s ( ) to it again.
 3. listen
 
 【解説137】  
-「listen to ～」で「～を聞く」という意味の熟語です。
+「listen to ～（〜を聞く）」が正しい熟語です。「sing / hear / show to it」では同じ意味になりません。
 
 ---
 
@@ -2426,7 +2426,7 @@ Ken didn’t go to the party ( ) he was sick.
 2. because
 
 【解説138】  
-「～なので」という理由を表す「because」が自然です。
+病気だったという理由なので「because」が自然です。「but」「so」「or」では理由のつなぎ方として合いません。
 
 ---
 
@@ -2444,7 +2444,7 @@ B : ( ), please. I’d like juice.
 3. Neither
 
 【解説139】  
-どちらもいらないという意味で「Neither」が正しいです。
+紅茶もコーヒーもいらずジュースが欲しいので「Neither（どちらでもない）」です。「Both」「Either」「Each」は意味が違います。
 
 ---
 
@@ -2461,7 +2461,7 @@ My bag is ( ) than yours.
 2. heavier
 
 【解説140】  
-比較級を表す「than」があるので「heavier」が正解です。
+「than」があるので比較級「heavier」です。「heavy」は原級、「heaviest」は最上級、「heavily」は副詞です。
 
 ---
 
@@ -2479,7 +2479,7 @@ B : No, but I can ( ) the piano.
 2. play
 
 【解説141】  
-「play the piano」で「ピアノを弾く」という表現になります。
+楽器は「play the piano」と言います。「do / have / go the piano」は使いません。
 
 ---
 
@@ -2497,7 +2497,7 @@ B : Then, you should visit the ( ).
 2. zoo
 
 【解説142】  
-「animals（動物）」といえば「zoo（動物園）」が自然です。
+動物が好きなら「zoo（動物園）」が自然です。「pool」「museum」「store」は動物を見る場所として第一ではありません。
 
 ---
 
@@ -2514,7 +2514,7 @@ My mother ( ) me to clean my room every Saturday.
 1. tells
 
 【解説143】  
-「tell 人 to ～」で「〜するように言う」という表現です。
+「tell 人 to ～（〜するよう言う）」が正しい形です。「tells to」「say」「talk」ではこの文の形に合いません。
 
 ---
 
@@ -2532,7 +2532,7 @@ B : OK. ( ) you later!
 1. See
 
 【解説144】  
-「See you later（またね）」は別れ際の定番表現です。
+別れ際の定番は「See you later」です。「Meet / Watch / Show you later」は自然な決まり文句ではありません。
 
 ---
 
@@ -2549,7 +2549,7 @@ They are going to ( ) a movie after lunch.
 1. see
 
 【解説145】  
-「be going to + 動詞の原形」で「〜する予定」という未来表現です。
+「be going to + 原形」なので「see」です。「seeing / saw / seen」はこの構文のあとに置けません。
 
 ---
 
@@ -2566,7 +2566,7 @@ Please be ( ). This is a hospital.
 3. quiet
 
 【解説146】  
-病院では「quiet（静かに）」が求められるのでこれが適切です。
+病院なので「quiet（静か）」が適切です。「noisy」「loud」は逆の意味で、「fun」も場に合いません。
 
 ---
 
@@ -2583,7 +2583,7 @@ This room is much ( ) than the other one.
 2. cleaner
 
 【解説147】  
-「than」があるので比較級「cleaner」です。比較級の強調は very ではなく much を使います。
+「than」があるので比較級「cleaner」です。比較級の強調は very ではなく much を使います。「clean」は原級、「cleanest」は最上級、「clearly」は副詞です。
 
 ---
 
@@ -2600,7 +2600,7 @@ The girl ( ) is talking to the teacher is my sister.
 1. who
 
 【解説148】  
-関係代名詞「who」で「〜している女の子」を説明しています。
+人を説明する関係代名詞は「who」です。「what」「where」「why」では「話している女の子」をうまくつなげません。
 
 ---
 
@@ -2617,7 +2617,7 @@ We ( ) seen that movie before.
 1. have
 
 【解説149】  
-「have + 過去分詞」で現在完了。「We」は複数なので「have」を使います。
+現在完了は「have + 過去分詞」で、主語 We なので「have」です。「has」は三人称単数、「are / had」はこの形に合いません。
 
 ---
 
@@ -2634,7 +2634,7 @@ I want to buy a ( ) of shoes for my brother.
 3. pair
 
 【解説150】  
-「a pair of shoes（靴1足）」が正しい表現です。
+靴は「a pair of shoes（1足）」が正しい数え方です。「set / box / piece of shoes」は普通使いません。
 
 ---
 
@@ -2651,7 +2651,7 @@ Kentaro wants to be a ( ) baseball player in the future. He wants to play in the
 2. professional
 
 【解説151】  
-「professional baseball player（プロ野球選手）」が自然な表現です。
+将来アメリカでプレーしたいので「professional（プロの）」野球選手が自然です。「difficult」「thick」「strange」は選手の種類を表しません。
 
 ---
 
@@ -2669,7 +2669,7 @@ B: Thanks, Lisa.
 1. umbrella
 
 【解説152】  
-雨が降るので「umbrella（傘）」が適切です。
+雨が降るので「umbrella（傘）」が適切です。「dream」「mirror」「sandwich」は雨の場面に合いません。
 
 ---
 
@@ -2686,7 +2686,7 @@ Yuta loves flying. He often goes to the ( ) to watch the planes.
 3. airport
 
 【解説153】  
-飛行機を見る場所は「airport（空港）」です。
+飛行機を見る場所は「airport（空港）」です。「floor」「hospital」「mall」では飛行機は見られません。
 
 ---
 
@@ -2704,7 +2704,7 @@ B: Yes. This website is very ( ).
 4. useful
 
 【解説154】  
-良いウェブサイトについて話しているので「useful（役に立つ）」が正解です。
+役に立つスポーツサイトなので「useful」が正解です。「quiet」「thirsty」「tall」はウェブサイトの評価として不自然です。
 
 ---
 
@@ -2721,7 +2721,7 @@ Takeru’s bag has many large books in it. It is very ( ), so Takeru can’t car
 1. heavy
 
 【解説155】  
-大きな本が多く入って重いので「heavy（重い）」が正解です。
+大きな本がたくさん入って運べないので「heavy（重い）」です。「nervous」「late」「fast」は袋の重さの説明になりません。
 
 ---
 
@@ -2738,7 +2738,7 @@ Yumi visited a ( ) last weekend. She likes learning about history.
 3. castle
 
 【解説156】  
-歴史について学ぶ場所として「castle（城）」が適切です。
+歴史を学ぶ週末の外出先として「castle（城）」が適切です。「dictionary」「question」「cloud」は場所ではありません。
 
 ---
 
@@ -2755,7 +2755,7 @@ Peter grows potatoes in his ( ). He also has an apple tree.
 4. garden
 
 【解説157】  
-野菜や果物を育てる場所は「garden（庭）」です。
+ジャガイモやリンゴの木を育てる場所は「garden（庭）」です。「cake」「song」「meat」は場所を表しません。
 
 ---
 
@@ -2773,7 +2773,7 @@ B: Well, the first ( ) of the book was interesting, but the ending wasn’t very
 2. part
 
 【解説158】  
-「the first part（最初の部分）」が自然な表現です。
+本の「最初の部分」なので「part」が自然です。「country」「way」「road」は本の構成の話に合いません。
 
 ---
 
@@ -2790,7 +2790,7 @@ Last week, Brian ( ) a cold. He stayed in bed for two days.
 1. caught
 
 【解説159】  
-風邪をひく場合は「catch a cold」が正しい表現です。
+風邪をひくは「catch a cold」が決まり文句です。「told / forgot / played a cold」とは言いません。
 
 ---
 
@@ -2807,7 +2807,7 @@ It was very hot during soccer practice. After practice, Jeff drank a ( ) of wate
 1. glass
 
 【解説160】  
-水の量を表すとき「a glass of water」が自然です。
+水を飲む量の単位として「a glass of water」が自然です。「boat / country / floor of water」は使いません。
 
 ---
 
@@ -2825,7 +2825,7 @@ B: Yes, we do. That’s important.
 3. other
 
 【解説161】  
-「each other（お互い）」が正しい表現です。
+「each other（お互い）」が正しい表現です。「any / some / another」では「お互いに助け合う」意味になりません。
 
 ---
 
@@ -2842,7 +2842,7 @@ Last week, a new student came to Lucy’s school. Lucy became good friends ( ) h
 1. with
 
 【解説162】  
-「be friends with（～と友達になる）」が正しい表現です。
+「be/become friends with ～」が正しい前置詞です。「through / by / into」はこの決まり文句には使いません。
 
 ---
 
@@ -2859,7 +2859,7 @@ Kate can ( ) very well. She’s on the school swimming team.
 2. swim
 
 【解説163】  
-「can」の後には動詞の原形「swim」が続きます。
+助動詞「can」のあとは原形「swim」です。「swam / swims / to swim」はこの位置に置けません。
 
 ---
 
@@ -2877,7 +2877,7 @@ B: Yes, but you ( ) wash your hands first.
 1. must
 
 【解説164】  
-「must wash（～しなければならない）」が正しい表現です。
+手を洗う必要があるので「must」が自然です。「are / have / were」だけでは「〜しなければならない」になりません。
 
 ---
 
@@ -2894,7 +2894,7 @@ Last night, Taro was ( ) a movie about airplanes. He liked it very much.
 1. watching
 
 【解説165】  
-「was watching」で過去進行形を表します。
+「was + -ing」の過去進行形で「見ていた」です。「watches / watch / watched」ではこの進行の形になりません。
 
 ---
 

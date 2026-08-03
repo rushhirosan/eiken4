@@ -13,7 +13,7 @@ Son : Thanks!
 3. Good job.
 
 【解説1】
-子どもが掃除を終えたと言っているので、ほめる「Good job（よくやった）」が自然な返答です。他の表現は文脈に合いません。
+掃除を終えた子どもをほめるので「Good job.（よくやった）」が自然で、そのあとゲームを許可する流れにも合います。「Take care.（気をつけて）」「I don’t know.（わからない）」「You, too.（あなたも）」はほめ言葉になりません。
 
 ---
 
@@ -30,9 +30,8 @@ Girl : ( ) It was fun.
 【正解2】  
 3. About 10.
 
-【解説2】  
-人数を聞いているので「About 10（10人くらい）」が適切です。  
-「More than three hours（3時間以上）」は時間の長さの話で的外れです。
+【解説2】
+「How many people（何人）」と人数を聞いているので「About 10.（約10人）」が正解です。「See you there」「Welcome home」は人数の答えではなく、「More than three hours」は時間の長さで的外れです。
 
 ---
 
@@ -49,9 +48,8 @@ Teacher : There will be lots of food, but ( )
 【正解3】  
 1. bring some drinks.
 
-【解説3】  
-「食べ物はたくさんあるけど～」に続けて「飲み物を持ってきて」が自然です。  
-他の選択肢ではつながりが弱く、回答として不自然になります。
+【解説3】
+「食べ物はたくさんあるけど」のあとなので、足りないものを補う「bring some drinks.（飲み物を持ってきて）」が自然です。ゲームや時間帯、空腹の話は「but」のあとに必要な準備としては弱くなります。
 
 ---
 
@@ -69,9 +67,8 @@ Salesclerk : They’re on the 6th floor.
 【正解4】  
 3. Where are the men’s socks?
 
-【解説4】  
-「They’re on the 6th floor（6階にあります）」という答えがくるのは、「Where are ～?」の質問だけです。  
-場所をたずねているのが正しい流れです。
+【解説4】
+店員が「6階にあります」と場所で答えるので、空所は「Where are the men’s socks?（メンズの靴下はどこ？）」が自然です。試着や購入義務の質問では、階数の答えにつながりません。
 
 ---
 
@@ -88,9 +85,8 @@ Woman : Sorry, I need to work late. But ( )
 【正解5】  
 3. thanks for asking.
 
-【解説5】  
-断るときに丁寧に「誘ってくれてありがとう」というニュアンスを含むのが「Thanks for asking」です。  
-他の選択肢は返答として不自然です。
+【解説5】
+仕事で行けないと断ったあとなので、丁寧に誘いに感謝する「thanks for asking」が自然です。「近くに住んでいる」「知っている」「自分のチケットではない」は断りのあとに合いません。
 
 ---
 
@@ -108,9 +104,8 @@ Daughter : ( )
 【正解6】  
 4. About two hours.
 
-【解説6】  
-「How long is it?（どのくらいの長さですか？）」の質問なので、  
-時間の長さで答える「About two hours（約2時間）」が自然です。
+【解説6】
+「How long is it?（どれくらいの長さ？）」への答えなので「About two hours.（約2時間）」が自然です。値段・時刻・「1年」は映画の長さの答えになりません。
 
 ---
 
@@ -127,9 +122,8 @@ Woman 2 : ( ) He’s already as tall as me.
 【正解7】  
 1. He’ll be 10 next week.
 
-【解説7】  
-「How old（何歳）」と聞かれているので、年齢について「10歳になる予定」という答えが適切です。  
-他は年齢についての返答ではありません。
+【解説7】
+「How old（何歳）」と年齢を聞いているので「He’ll be 10 next week.（来週10歳）」が適切です。娘がいること・バスケ部・伝えた話は年齢の答えではありません。
 
 ---
 
@@ -146,9 +140,8 @@ Man : ( ) I have to call the station.
 【正解8】  
 3. I left my book on the train.
 
-【解説8】  
-「What’s wrong?（どうしたの？）」に対して「忘れ物をした」ことを伝える  
-「I left my book on the train（電車に本を忘れた）」が正しい流れです。
+【解説8】
+「What’s wrong?（どうしたの？）」に対し、駅に電話が必要な理由として「電車に本を忘れた」が自然です。到着が近い・近所に住む・電車が好き、は困りごとの説明になりません。
 
 ---
 
@@ -165,8 +158,8 @@ Student : ( )
 【正解9】  
 1. I can.
 
-【解説9】  
-「どちらが上手ですか？」という質問には「I can（私です）」と主語と動詞で答えるのが自然です。
+【解説9】
+「あなたと兄どちらが上手？」への答えなので「I can.（私です）」が自然です。場所・日時・別れの挨拶は比較の答えになりません。
 
 ---
 
@@ -184,8 +177,8 @@ Boy : In the park. I’ll meet you there.
 【正解10】  
 4. Where is it?
 
-【解説10】  
-次の発言「In the park.」からわかるように、場所をたずねる「Where is it?（どこですか？）」が適切です。
+【解説10】
+Boy が「公園で」と場所で答えるので、空所は「Where is it?（どこでやるの？）」が適切です。面白さ・頻度・時刻の質問では「In the park.」につながりません。
 
 ---
 
@@ -203,8 +196,8 @@ Boy : At about 5:00 p.m.
 【正解11】  
 2. When can you come?
 
-【解説11】  
-Boyが「遅れる」と言った後、「いつ来られるの？」と聞くのが自然です。「At about 5:00 p.m.」という返答も「When（いつ）」に対するものです。
+【解説11】
+遅れを伝えたあと、Girl が来る時刻を聞き、Boy が「5時ごろ」と答える流れなので「When can you come?」が自然です。場所・遅刻の習慣・人数の質問では時刻の答えになりません。
 
 ---
 
@@ -221,8 +214,8 @@ Salesclerk : They’re only fifty cents each.
 【正解12】  
 1. How much are these tomatoes?
 
-【解説12】  
-「fifty cents each（一つ50セント）」という答えから、「値段を聞かれた」とわかります。「How much（いくら）」が正解です。
+【解説12】
+「1個50セント」と値段で答えるので「How much are these tomatoes?（いくら？）」が正解です。個数・勤務頻度・距離の質問では値段の答えになりません。
 
 ---
 
@@ -239,8 +232,8 @@ Boy : ( ) Let’s ask Ms. Brown. She knows many languages.
 【正解13】  
 1. I have no idea.
 
-【解説13】  
-言語について聞かれてBoyが「知らない」と答えているので、「I have no idea（わからない）」が最も自然な返答です。
+【解説13】
+言語が何かと聞かれて「知らない」と答え、先生に聞こうと言うので「I have no idea.」が自然です。壁にある・時間がない・準備できた、は「何語か」への答えになりません。
 
 ---
 
@@ -257,8 +250,8 @@ Girl : No. He’s in the cafeteria.
 【正解14】  
 4. I’m looking for Jack.
 
-【解説14】  
-「Is he in the library?」と続くことから、「Jackを探している」という意味の「I’m looking for Jack.」が正しいです。
+【解説14】
+続けて「図書館にいる？」と尋ねるので、探している対象を示す「I’m looking for Jack.」が正しいです。一緒に行く・気に入る・あそこにある、では「he」の話につながりません。
 
 ---
 
@@ -275,8 +268,8 @@ Man : Just a minute. I’m almost finished.
 【正解15】  
 3. Can I borrow yours?
 
-【解説15】  
-自分のコンピュータが壊れたので、相手に「借りる」提案をする「Can I borrow yours?（あなたのを借りてもいい？）」が自然です。
+【解説15】
+自分のPCが壊れたあとなので「Can I borrow yours?（借りてもいい？）」が自然で、相手の「もう少しで終わる」とも合います。売っているか・難しいか・自分のPCか、はこの流れに合いません。
 
 ---
 
@@ -295,7 +288,7 @@ A : Maybe. I'll check.
 1. Did you leave it at school?
 
 【解説16】
-傘が見つからないと言われたあと、「学校に置いてきた？」と推測して聞くのが具体的で自然です。
+傘が見つからないあと、「学校に置いた？」と具体的に聞くと「Maybe. I’ll check.」につながります。「どこだろう」「残念」「新しい？」だけでは次の確認行動へのきっかけが弱いです。
 
 ---
 
@@ -314,7 +307,7 @@ A : That sounds fun! I love the mountains, too.
 1. I’m going camping with my family.
 
 【解説17】
-「That sounds fun!」や山が好きとリアクションに合った楽しそうな予定を答えています。
+「楽しそう！山も好き」と続くので、キャンプなど山の予定「I’m going camping with my family.」が自然です。家にいる・宿題・未定ではそのリアクションに合いません。
 
 ---
 
@@ -333,7 +326,7 @@ A : Good luck!
 4. I have a big test tomorrow.
 
 【解説18】
-心配に対して「明日大きなテストがある」と理由づけするのが自然です。
+心配そうなので理由を述べ、「Good luck!」につながるのは「I have a big test tomorrow.」です。「元気」「眠い」「宿題を忘れた」では励ましの流れが弱いかずれます。
 
 ---
 
@@ -352,7 +345,7 @@ A : OK, maybe next time.
 2. No, I can’t.
 
 【解説19】
-訪問を断る理由があるので、「No, I can’t」が明確で適切です。
+「じゃあ今度」と続くので、今は行けない「No, I can’t.」が適切です。「Yes」「Of course」「Sounds good」だと次の断り受け入れの文と矛盾します。
 
 ---
 
@@ -371,7 +364,7 @@ A : Oh, I see.
 4. It’s very cold outside.
 
 【解説20】
-「なぜコートを着ているの？」という質問に対し、「寒いから」と答えるのが最も自然です。
+コートを着ている理由なので「It’s very cold outside.（外が寒い）」が自然です。色の好み・暑い・買ったばかり、は理由として弱いか逆です。
 
 ---
 
@@ -390,7 +383,7 @@ A: That’s a good idea.
 1. Let’s play a game.
 
 【解説21】
-A が「退屈だ」と感じているので、B が「ゲームをしよう」と提案すると、A の「That’s a good idea.（いいね）」につながって自然です。他の選択肢は意味は通じても、会話の流れとしては適切でありません。
+A が退屈だと言っているので、B が「Let’s play a game.（ゲームしよう）」と提案すると「いいね」につながります。「Me too」「I’m hungry」「Maybe later」では提案→同意の流れになりません。
 
 ---
 
@@ -409,7 +402,7 @@ A : That’s not too bad.
 1. By bus. It takes about 20 minutes.
 
 【解説22】
-交通手段と所要時間をセットで答えることで、A の反応「それほど悪くないね」に自然につながります。
+通学手段を聞かれ、「それほど悪くないね」と続くので、手段＋所要時間の「By bus. It takes about 20 minutes.」が自然です。速さだけ・曜日・つまらない、では反応が合いません。
 
 ---
 
@@ -428,26 +421,26 @@ A : OK, another time.
 3. No, I’m not.
 
 【解説23】
-予定があることを伝えているので、「No, I’m not」が最適です。
+「じゃあ別の機会に」と続くので、都合が悪い「No, I’m not.」が最適です。「Yes」「Sure」「わからない」だと次の文と矛盾しやすいです。
 
 ---
 
 問題24:
 A : Do you want something to drink?
 B : (    )
-A : OK, let me know if you do.
+A : OK. I’ll just have water then.
 
 選択肢24:
 1. Yes, please.
 2. No, thanks.
-3. Maybe later.
+3. It’s three o’clock.
 4. I’m very hungry.
 
 【正解24】
 2. No, thanks.
 
 【解説24】
-飲み物を差し出された際に断る自然な表現です。
+飲み物を勧めたあとに「じゃあ私は水にするね」と続くので、断る「No, thanks.」が自然です。「Yes, please.」だと出す流れになり、「It’s three o’clock.」や「I’m very hungry.」は質問に合いません。
 
 ---
 
@@ -466,7 +459,7 @@ A : Oh no, that’s terrible.
 2. I lost my wallet.
 
 【解説25】
-どうしたの？に対する理由をシンプルに伝えています。
+「どうしたの？」に対し、「それはひどい」と続くので悪い知らせの「I lost my wallet.（財布をなくした）」が自然です。元気・お金を見つけた・うれしい、ではその反応になりません。
 
 ---
 
@@ -485,7 +478,7 @@ A : Thanks a lot.
 3. Sure, go ahead.
 
 【解説26】
-座ってよいかの質問に対し、丁寧に返答しています。
+座ってよいか聞き「ありがとう」と続くので、許可する「Sure, go ahead.」が自然です。「座っちゃダメ」「私が座ってる」「壊れてる」では感謝の流れになりません。
 
 ---
 
@@ -504,7 +497,7 @@ A : Please call next time.
 2. I forgot.
 
 【解説27】
-電話しなかった理由を簡潔に伝えています。
+電話しなかった理由を求められ「次はかけて」と続くので「I forgot.（忘れた）」が自然です。「かけた」「これからかける」「電話が嫌い」では注意の流れが合いません。
 
 ---
 
@@ -523,7 +516,7 @@ A : Great. Please return it for me.
 3. To the library.
 
 【解説28】
-「I need to return this book today.」という文脈があるため、行き先として自然なのは「To the library.」です。
+本を返したい相手への行き先なので「To the library.」が自然で、「代わりに返して」にもつながります。「わからない」「どこにも行かない」「家」では依頼の流れが弱くなります。
 
 ---
 
@@ -542,7 +535,7 @@ A : Let’s go together!
 1. That’s nice.
 
 【解説29】
-共感的な反応として「いいね」が最適です。
+新しい自転車を買う話に「一緒に行こう」と続くので、前向きな「That’s nice.」が自然です。「乗らない」「つまらない」「高い」では一緒に行く流れになりにくいです。
 
 ---
 
@@ -561,7 +554,7 @@ A : Yeah, I am.
 1. You seem tired.
 
 【解説30】
-A が「よく眠れなかった」と言っているため、B は「疲れているね」と共感・観察的返答をすることで、A の「Yeah, I am.（うん、そうだよ）」へ自然につながります。選択肢はすべて plausibly で、形式・長さも統一しています。
+よく眠れなかったあとに「うん、そうだよ」と続くので、様子を言う「You seem tired.（疲れてるみたい）」が自然です。「元気」「ひどいね」「早く寝て」では “Yeah, I am.” の受け答えになりません。
 
 ---
 
@@ -580,7 +573,7 @@ Girl: Please say hello to them for me.
 3. That sounds nice.
 
 【解説31】
-相手の楽しそうな予定に対して「それはいいね」と反応すると、その後の「ご挨拶してね」に自然につながります。
+祖父母を訪ねる話に「よろしく言って」と続くので、好意的な「That sounds nice.」が自然です。嫌い・どこに住む・行きたくない、ではその依頼につながりにくいです。
 
 ---
 
@@ -599,7 +592,7 @@ Boy: Great. I finished mine before dinner, too.
 2. Yes, I did.
 
 【解説32】
-宿題を終えたか尋ねられ、「はい、やりました」と答えるのが最適です。
+宿題をやったか聞き「よかった、私も」と続くので「Yes, I did.」が最適です。否定や「これからやる」ではお互い終えた話になりません。
 
 ---
 
@@ -618,8 +611,7 @@ Girl: Is this one yours?
 2. I think I saw one on the table.
 
 【解説33】
-Girl が「これあなたの？」と言う流れを作るためには、Boy が「そこにあったよ」と場所を示唆する形が自然です。  
-「机を確認した？」や「それは残念」も誤答ですが、Girl の次の発言とのつながりは薄くなります。
+Girl が「これあなたの？」と言うには、Boy がペンの場所を示す「I think I saw one on the table.」が自然です。「机を見た？」「残念」「貸そうか」でも会話はできますが、次の一文とのつながりは弱くなります。
 
 ---
 
@@ -638,7 +630,7 @@ Boy: Thanks. Do you want me to buy something for you?
 1. That sounds nice.
 
 【解説34】
-Boy が買い物に行くという発言に、Girl が「いいね」と返すのが自然です。その後BoyがGirlに買って欲しい物があるかの話に続きます。
+買い物に行く話に「何か買おうか？」と続くので、好意的な「That sounds nice.」が自然です。嫌い・どこへ・行けない、ではお礼＋買い物の申し出につながりにくいです。
 
 ---
 
@@ -657,7 +649,7 @@ Girl: Oh, I’ll check my bag again.
 2. Did you check your bag?
 
 【解説35】
-財布をなくしたGirlに対して、Boyが「カバンを確認した？」と促すのが自然です。その後Girlが確認する流れにつながります。
+財布をなくしたあと「カバンをもう一度見る」と続くので「Did you check your bag?」が自然です。「残念」「持ってるよ」「高い」では再確認の行動につながりません。
 
 ---
 
@@ -676,7 +668,7 @@ Boy: I’m going camping with my family.
 1. I’m not sure yet.
 
 【解説36】
-Boy の予定が続くので、Girl がまだ予定が決まっていないと返す流れが自然です。
+このあと Boy が自分のキャンプ予定を話すので、Girl は「まだ決まってない」が自然です。「私もキャンプ」「眠い」「15歳」では順番として不自然です。
 
 ---
 
@@ -695,7 +687,7 @@ Girl: Great! We can show it to the teacher tomorrow.
 2. Yes, I finished it yesterday.
 
 【解説37】
-Girl が完成を確認しており、Boy が「昨日終えた」と答えることで、提出の話につながります。
+「先生に見せられるね」と続くので、完成した「Yes, I finished it yesterday.」が正解です。未完成・嫌い・忘れた、では提出の話になりません。
 
 ---
 
@@ -714,7 +706,7 @@ Boy: That’s cool! I play the guitar.
 2. Yes, I started last month.
 
 【解説38】
-Boy の「かっこいいね！」という反応につながるのは、Girl がクラブ活動を始めた肯定的な答えです。
+「かっこいい！ギター弾くよ」と続くので、入部を認める「Yes, I started last month.」が自然です。やめた・嫌い・弾けない、ではその反応になりません。
 
 ---
 
@@ -733,7 +725,7 @@ Girl: Great! Let’s meet at the entrance.
 1. Yes, I’ll be there.
 
 【解説39】
-Girl の「じゃあ入り口で会おう」という約束につながるには、Boy の参加が確定している必要があります。
+「入り口で会おう」と約束するので、参加する「Yes, I’ll be there.」が必要です。嫌い・未定・忙しい、では約束の流れになりません。
 
 ---
 
@@ -752,14 +744,14 @@ Boy: Thanks! I’ll practice a lot.
 1. Good luck!
 
 【解説40】
-Boy の挑戦に対して、Girl が「頑張って！」と応援するのが自然です。
+挑戦への返答で「ありがとう、練習する」と続くので「Good luck!」が自然です。嫌い・無駄・忙しい、では感謝の流れになりません。
 
 ---
 
 問題41:
 Girl: My father will work overseas next year.
 Boy: (    )
-Girl: Yes, he’s going to Canada.
+Girl: He’s going to Canada.
 
 選択肢41:
 1. Which country will he go to?
@@ -771,7 +763,7 @@ Girl: Yes, he’s going to Canada.
 1. Which country will he go to?
 
 【解説41】
-海外勤務の話題では行き先を尋ねるのが自然です。
+海外勤務のあと行き先を尋ねる「Which country will he go to?」が自然で、「Canada」の答えとも合います。旅行嫌い・サッカー・買い物は文脈から外れます。
 
 ---
 
@@ -790,7 +782,7 @@ Boy: Thanks, I’ll save you a seat.
 2. I’d love to come.
 
 【解説42】
-Boyの招待にGirlが参加意欲を見せることで会話が自然になります。
+「席を取っておくね」と続くので、行きたい「I’d love to come.」が自然です。楽器が弾けない・音楽嫌い・なぜ行くの、では席取りの流れになりません。
 
 ---
 
@@ -809,7 +801,7 @@ Girl: Yes, but it was still a bit late.
 3. Did you take the next one?
 
 【解説43】
-バスを逃した話題からBoyが次の便を確認するのが自然です。
+「次のに乗った？」「うん、でも少し遅れた」と続くので「Did you take the next one?」が自然です。自分は遅れない・バス嫌い・車を買え、ではその Yes の答えになりません。
 
 ---
 
@@ -828,7 +820,7 @@ Boy: Near a lake.
 2. Where will you go?
 
 【解説44】
-Boyの予定を聞いたGirlが行き先を尋ねる流れが自然です。
+「湖の近く」と場所で答えるので「Where will you go?」が自然です。連れてって・嫌い・行けない、では場所の答えになりません。
 
 ---
 
@@ -847,7 +839,7 @@ Girl: Yes, I’m going there this afternoon.
 3. Will you take it to the repair shop?
 
 【解説45】
-Boyが修理について尋ねることでGirlの返答につながります。
+「午後に行くよ」と続くので、修理店に持っていくかの「Will you take it to the repair shop?」が自然です。電話嫌い・使わない・新品を買え、では “Yes, I’m going there” に合いません。
 
 ---
 
@@ -866,7 +858,7 @@ Boy: Thanks, I’ll try my best.
 2. Good luck with the race!
 
 【解説46】
-GirlがBoyを応援するのが自然な流れです。
+マラソン参加への「ベストを尽くす」につながるので「Good luck with the race!」が自然です。嫌い・なぜ参加・走れない、では感謝の流れになりません。
 
 ---
 
@@ -885,7 +877,7 @@ Girl: Thank you! I worked really hard.
 1. Congratulations!
 
 【解説47】
-Girlの受賞をBoyが祝福するのが自然です。
+受賞の報告に「ありがとう、頑張った」と続くので「Congratulations!」が自然です。なぜ勝った・嫌い・変だね、ではお礼の流れになりません。
 
 ---
 
@@ -904,7 +896,7 @@ Boy: Yes, he’ll stay for two weeks.
 3. How long will he stay?
 
 【解説48】
-滞在期間を尋ねることでBoyの返答につながります。
+「2週間滞在するよ」と続くので「How long will he stay?」が自然です。なぜ来る・嫌い・会えない、では期間の答えになりません。
 
 ---
 
@@ -923,7 +915,7 @@ Girl: Yes, I can make pasta now.
 1. Can you cook Italian food now?
 
 【解説49】
-Girlが料理を習っている話からBoyが成果を尋ねるのが自然です。
+「パスタが作れる」と続くので「Can you cook Italian food now?」が自然です。嫌い・なぜ入った・料理しない、では Yes の成果報告に合いません。
 
 ---
 
@@ -942,7 +934,7 @@ Boy: Yes, we’ll go snorkeling.
 4. Will you swim in the sea?
 
 【解説50】
-Boyの旅行の話題からGirlがアクティビティを尋ねるのが自然です。
+「シュノーケリングするよ」と続くので海での活動を聞く「Will you swim in the sea?」が自然です。泳げない・なぜ・嫌い、では Yes の答えになりません。
 
 ---
 
@@ -960,8 +952,8 @@ Woman 1: My new dress.
 【正解51】  
 2. What did you wear?
 
-【解説51】  
-「My new dress.」という返答から「何を着たの？」と聞くのが自然です。
+【解説51】
+「新しいドレス」と答えるので「What did you wear?（何を着たの？）」が自然です。開店時刻・人数・教えて、では服装の答えになりません。
 
 ---
 
@@ -978,8 +970,8 @@ Girl: ( ) but I'll bring it tomorrow.
 【正解52】  
 1. Not today,
 
-【解説52】  
-「でも明日持ってくる」という文脈に合うのは「Not today.（今日は持ってきていない）」です。
+【解説52】
+「でも明日持ってくる」と続くので「Not today,（今日は持ってきてない）」が自然です。体育が好き・待って・上手だった、では but のつながりが合いません。
 
 ---
 
@@ -996,8 +988,8 @@ Girl 2: ( ) I have to get my notebook from my locker first.
 【正解53】  
 2. Wait for me.
 
-【解説53】  
-「ロッカーからノートを取らないと」という文脈に対して「Wait for me.（待って）」が自然です。
+【解説53】
+先にロッカーへ行くので「Wait for me.（待って）」が自然です。明日持ってきて・机の中・先生のため、では待つ依頼になりません。
 
 ---
 
@@ -1014,8 +1006,8 @@ Woman: ( ) It’s about five minutes from here.
 【正解54】  
 4. There’s one by the stadium.
 
-【解説54】  
-「この近くに地下鉄駅はありますか？」に対する自然な答えは「スタジアムのそばにあります」です。
+【解説54】
+近くの地下鉄を尋ねられ「ここから5分」と続くので「There’s one by the stadium.」が自然です。時計がない・自転車・切符紛失は場所の案内になりません。
 
 ---
 
@@ -1032,8 +1024,8 @@ Sister: Sure. ( )
 【正解55】  
 1. Just a minute.
 
-【解説55】  
-「ちょっと待って」という意味の「Just a minute.」が自然な返答です。
+【解説55】
+本を取ってと言う依頼への返事なので「Just a minute.（ちょっと待って）」が自然です。買う・それで全部・自分のではない、はこの依頼応答として弱くなります。
 
 ---
 

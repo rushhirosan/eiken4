@@ -394,7 +394,8 @@ What time did Wendy and her parents wake up during their trip?
 3. At seven o'clock.
 
 【解説6c】
-旅行中は「they woke up at seven o'clock」と時刻が明示されています。
+旅行中は「they woke up at seven o’clock」とあり、起床は7時です。5時・6時・8時という記述はありません。
+
 
 問題6d:
 What did Wendy and her mother do every morning during their trip?
@@ -409,7 +410,8 @@ What did Wendy and her mother do every morning during their trip?
 2. They gave food to the sheep.
 
 【解説6d】
-母娘は「gave food to the sheep」、父は「cooked breakfast」と役割が分かれて書かれています。
+母娘は「gave food to the sheep」、父は「cooked breakfast」と役割が分かれています。店へ歩く・朝食を作る（母娘）・農家の子どもと話す、ではありません。
+
 
 問題6e:
 Why does Wendy like looking at the photos?
@@ -819,8 +821,9 @@ How long did the teachers need to choose the winner?
 【正解12d】
 4. Four weeks.
 
-【解説12d】  
-「The teachers needed four weeks to choose a winner」と数が明示されています。
+【解説12d】
+「The teachers needed four weeks to choose a winner」とあり、選考期間は4週間です。1〜3週間という記述はありません。
+
 
 問題12e:
 After the contest, Daniel was excited to
