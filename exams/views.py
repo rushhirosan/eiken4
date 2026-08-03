@@ -2722,6 +2722,8 @@ def feedback_success(request):
 @csrf_exempt
 def sitemap_xml(request):
     """公開ページのみを含む動的サイトマップ"""
+    from eiken_project.guide_topics import iter_guide_topics
+
     base_url = "https://eiken-practice.com"
     today = datetime.now().strftime('%Y-%m-%d')
 
@@ -2744,23 +2746,27 @@ def sitemap_xml(request):
             'changefreq': 'monthly',
             'priority': '0.8',
         },
-        {
-            'loc': f"{base_url}/privacy-policy/",
+    ]
+    for topic in iter_guide_topics():
+        urls.append({
+            'loc': f"{base_url}/guides/{topic['slug']}/",
             'lastmod': today,
             'changefreq': 'monthly',
-            'priority': '0.5',
-        },
-    ]
+            'priority': '0.7',
+        })
     if getattr(settings, 'SHOW_NEXT_LEARNING', False):
-        urls.insert(
-            3,
-            {
-                'loc': f"{base_url}/resources/",
-                'lastmod': today,
-                'changefreq': 'monthly',
-                'priority': '0.7',
-            },
-        )
+        urls.append({
+            'loc': f"{base_url}/resources/",
+            'lastmod': today,
+            'changefreq': 'monthly',
+            'priority': '0.7',
+        })
+    urls.append({
+        'loc': f"{base_url}/privacy-policy/",
+        'lastmod': today,
+        'changefreq': 'monthly',
+        'priority': '0.5',
+    })
 
     response = HttpResponse(
         render_to_string('exams/sitemap.xml', {'urls': urls}),

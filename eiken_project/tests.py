@@ -72,6 +72,8 @@ class LlmsTxtTest(TestCase):
         self.assertIn('- [トップ](https://eiken-practice.com/):', content)
         self.assertIn('- [サービス概要・FAQ](https://eiken-practice.com/about/):', content)
         self.assertIn('- [学習の進め方](https://eiken-practice.com/guides/):', content)
+        self.assertIn('- [英検4級 リスニング](https://eiken-practice.com/guides/eiken-4-listening/):', content)
+        self.assertIn('- [英検3級 ライティング](https://eiken-practice.com/guides/eiken-3-writing/):', content)
         self.assertIn('- [学習リソース](https://eiken-practice.com/resources/):', content)
         self.assertIn('英検協会の公式サイト・公式アプリではない', content)
         self.assertIn('## Optional', content)
@@ -100,6 +102,9 @@ class GuidesPageTest(TestCase):
             r'id="level-5"[\s\S]*?会話補充[\s\S]*?id="level-4"',
         )
         self.assertContains(response, '5級に加えて<strong>長文読解</strong>があります')
+        self.assertContains(response, '級×パート別ガイド')
+        self.assertContains(response, reverse('guide_topic', kwargs={'slug': 'eiken-4-listening'}))
+        self.assertContains(response, reverse('guide_topic', kwargs={'slug': 'eiken-3-writing'}))
         content = response.content.decode()
         self.assertIn('vendor/bootstrap/bootstrap.min.css', content)
         self.assertNotIn('fonts.googleapis.com', content)
@@ -129,6 +134,47 @@ class GuidesPageTest(TestCase):
         self.assertNotContains(response, 'このあとの学習')
         self.assertNotContains(response, '英検5級の過去問・問題集を見てみる')
         self.assertNotContains(response, reverse('resources'))
+
+
+class GuideTopicPageTest(TestCase):
+    def test_guide_topic_page_is_public(self):
+        response = Client().get(
+            reverse('guide_topic', kwargs={'slug': 'eiken-4-listening'})
+        )
+        self.assertEqual(response.status_code, 200)
+        self.assertContains(response, '英検4級のリスニングを無料で練習する')
+        self.assertContains(response, 'index, follow')
+        self.assertContains(response, 'https://eiken-practice.com/guides/eiken-4-listening/')
+        self.assertContains(response, 'FAQPage')
+        self.assertContains(response, 'BreadcrumbList')
+        self.assertContains(response, reverse('signup'))
+        self.assertContains(response, reverse('guides'))
+        content = response.content.decode()
+        self.assertIn('vendor/bootstrap/bootstrap.min.css', content)
+        self.assertNotIn('fonts.googleapis.com', content)
+        self.assertNotIn('font-awesome', content)
+
+    def test_guide_topic_unknown_slug_404(self):
+        response = Client().get(
+            reverse('guide_topic', kwargs={'slug': 'eiken-2-listening'})
+        )
+        self.assertEqual(response.status_code, 404)
+
+    def test_guide_topic_slashless_redirects(self):
+        response = Client().get('/guides/eiken-5-grammar')
+        self.assertEqual(response.status_code, 301)
+        self.assertEqual(response['Location'], '/guides/eiken-5-grammar/')
+
+    def test_all_guide_topics_render(self):
+        from eiken_project.guide_topics import iter_guide_topics
+
+        for topic in iter_guide_topics():
+            response = Client().get(
+                reverse('guide_topic', kwargs={'slug': topic['slug']})
+            )
+            self.assertEqual(response.status_code, 200, topic['slug'])
+            self.assertContains(response, topic['h1'])
+            self.assertContains(response, '無料で練習を始める')
 
 
 class ResourcesPageTest(TestCase):
@@ -219,6 +265,8 @@ class SitemapXmlTest(TestCase):
         self.assertContains(response, 'https://eiken-practice.com/')
         self.assertContains(response, 'https://eiken-practice.com/about/')
         self.assertContains(response, 'https://eiken-practice.com/guides/')
+        self.assertContains(response, 'https://eiken-practice.com/guides/eiken-4-listening/')
+        self.assertContains(response, 'https://eiken-practice.com/guides/eiken-3-writing/')
         self.assertContains(response, 'https://eiken-practice.com/privacy-policy/')
         self.assertNotContains(response, '/resources/')
         self.assertNotContains(response, '/exams/')

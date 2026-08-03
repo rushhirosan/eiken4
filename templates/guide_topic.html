@@ -1,0 +1,211 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ topic.title }}</title>
+    <meta name="description" content="{{ topic.meta_description }}">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://eiken-practice.com/guides/{{ topic.slug }}/">
+
+    <meta property="og:title" content="{{ topic.h1 }} - Eiken Practice">
+    <meta property="og:description" content="{{ topic.meta_description }}">
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="https://eiken-practice.com/guides/{{ topic.slug }}/">
+    <meta property="og:locale" content="ja_JP">
+    <meta property="og:site_name" content="Eiken Practice">
+    <meta property="og:image" content="https://eiken-practice.com{% static 'eiken-og-image.png' %}">
+
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="{{ topic.h1 }} - Eiken Practice">
+    <meta name="twitter:description" content="{{ topic.meta_description }}">
+    <meta name="twitter:image" content="https://eiken-practice.com{% static 'eiken-og-image.png' %}">
+
+    <script type="application/ld+json">{{ article_json_ld }}</script>
+    <script type="application/ld+json">{{ breadcrumb_json_ld }}</script>
+    <script type="application/ld+json">{{ faq_json_ld }}</script>
+
+    <link rel="stylesheet" href="{% static 'vendor/bootstrap/bootstrap.min.css' %}">
+
+    <style>
+        :root {
+            --bg-deep: #0b1020;
+            --border: rgba(255, 255, 255, 0.12);
+            --text: #f4f6fb;
+            --muted: #a8b3cf;
+            --accent: #7c6cff;
+        }
+        body {
+            margin: 0;
+            font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Hiragino Sans", "Noto Sans JP", "Helvetica Neue", Arial, sans-serif;
+            color: var(--text);
+            background: linear-gradient(180deg, #0b1020 0%, #121a33 100%);
+            min-height: 100vh;
+        }
+        .icon {
+            display: inline-block;
+            width: 1em;
+            height: 1em;
+            vertical-align: -0.125em;
+            fill: currentColor;
+        }
+        .navbar-landing {
+            backdrop-filter: blur(16px);
+            background: rgba(11, 16, 32, 0.72);
+            border-bottom: 1px solid var(--border);
+        }
+        .content-card {
+            background: rgba(255, 255, 255, 0.05);
+            border: 1px solid var(--border);
+            border-radius: 20px;
+            padding: 2rem;
+        }
+        .content-card p, .content-card li { color: var(--muted); line-height: 1.75; }
+        .content-card h1, .content-card h2, .content-card h3 { color: var(--text); }
+        .content-card h2 {
+            font-size: 1.25rem;
+            margin-top: 2rem;
+            padding-top: 1.25rem;
+            border-top: 1px solid var(--border);
+        }
+        .content-card h2:first-of-type { border-top: none; padding-top: 0; }
+        .tag {
+            display: inline-block;
+            padding: 0.25rem 0.7rem;
+            margin: 0.2rem 0.25rem 0.2rem 0;
+            border-radius: 999px;
+            border: 1px solid var(--border);
+            background: rgba(124, 108, 255, 0.12);
+            color: #c7d2fe;
+            font-size: 0.85rem;
+        }
+        .note {
+            border-left: 3px solid var(--accent);
+            padding: 0.75rem 1rem;
+            margin: 1rem 0;
+            background: rgba(124, 108, 255, 0.08);
+            border-radius: 0 12px 12px 0;
+        }
+        .faq-item {
+            border: 1px solid var(--border);
+            border-radius: 14px;
+            padding: 1rem 1.1rem;
+            margin-bottom: 0.75rem;
+            background: rgba(255, 255, 255, 0.03);
+        }
+        .faq-item h3 { font-size: 1rem; margin-bottom: 0.4rem; }
+        .breadcrumb-nav a { color: #c7d2fe; text-decoration: none; }
+        .breadcrumb-nav a:hover { text-decoration: underline; }
+        .breadcrumb-nav span { color: var(--muted); }
+        .related a { color: #c7d2fe; }
+        .btn-primary {
+            background: linear-gradient(135deg, var(--accent), #5b8cff);
+            border: none;
+        }
+        .btn-outline-light { border-color: var(--border); color: var(--text); }
+        .btn-outline-light:hover { background: rgba(255,255,255,0.08); color: white; border-color: var(--border); }
+        .footer-landing {
+            border-top: 1px solid var(--border);
+            padding: 1.5rem 0;
+            margin-top: 3rem;
+            color: var(--muted);
+        }
+        .footer-landing a { color: var(--muted); text-decoration: none; }
+        .footer-landing a:hover { color: white; }
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-dark navbar-landing">
+        <div class="container py-2">
+            <a class="navbar-brand fw-bold" href="/">
+                <svg class="icon me-2" aria-hidden="true" viewBox="0 0 24 24"><path d="M12 3L1 9l4 2.18v6L12 21l7-3.82v-6l2-1.09V17h2V9L12 3zm6.82 6L12 12.72 5.18 9 12 5.28 18.82 9zM17 15.99l-5 2.73-5-2.73v-3.72L12 15l5-2.73v3.72z"/></svg>Eiken Practice
+            </a>
+        </div>
+    </nav>
+
+    <main class="container py-5">
+        <div class="row justify-content-center">
+            <div class="col-lg-8">
+                <nav class="breadcrumb-nav small mb-3" aria-label="パンくず">
+                    <a href="/">トップ</a>
+                    <span class="mx-1">/</span>
+                    <a href="{% url 'guides' %}">学習の進め方</a>
+                    <span class="mx-1">/</span>
+                    <span>{{ topic.level_label }} {{ topic.topic_label }}</span>
+                </nav>
+
+                <div class="content-card">
+                    <div class="mb-3">
+                        <span class="tag">{{ topic.level_label }}</span>
+                        <span class="tag">{{ topic.topic_label }}</span>
+                        <span class="tag">無料</span>
+                    </div>
+                    <h1 class="h3 fw-bold mb-3">{{ topic.h1 }}</h1>
+                    <p>{{ topic.lead }}</p>
+                    {% for paragraph in topic.paragraphs %}
+                    <p>{{ paragraph }}</p>
+                    {% endfor %}
+
+                    <h2>このサイトで練習できること</h2>
+                    <div class="mb-3">
+                        {% for item in topic.practice_items %}
+                        <span class="tag">{{ item }}</span>
+                        {% endfor %}
+                    </div>
+
+                    <h2>おすすめの進め方</h2>
+                    <ol>
+                        {% for step in topic.steps %}
+                        <li>{{ step }}</li>
+                        {% endfor %}
+                    </ol>
+
+                    <div class="note">
+                        <p class="mb-0 small">{{ topic.note }}</p>
+                    </div>
+
+                    <h2>よくある質問</h2>
+                    {% for faq in topic.faqs %}
+                    <div class="faq-item">
+                        <h3>{{ faq.question }}</h3>
+                        <p class="mb-0">{{ faq.answer }}</p>
+                    </div>
+                    {% endfor %}
+
+                    {% if related_topics %}
+                    <h2>関連ガイド</h2>
+                    <ul class="related">
+                        {% for related in related_topics %}
+                        <li>
+                            <a href="{% url 'guide_topic' slug=related.slug %}">{{ related.h1 }}</a>
+                        </li>
+                        {% endfor %}
+                        <li><a href="{% url 'guides' %}#level-{{ topic.level }}">{{ topic.level_label }}の全体の進め方</a></li>
+                    </ul>
+                    {% endif %}
+
+                    <div class="text-center mt-4 pt-2">
+                        <a href="{{ cta_url }}" class="btn btn-primary me-2">{{ cta_label }}</a>
+                        <a href="{% url 'guides' %}" class="btn btn-outline-light me-2">学習ガイド一覧</a>
+                        <a href="{% url 'about' %}" class="btn btn-outline-light">サービス概要</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer class="footer-landing">
+        <div class="container d-flex flex-column flex-md-row justify-content-between align-items-center gap-3">
+            <div>
+                <p class="mb-0 small"><svg class="icon me-2" aria-hidden="true" viewBox="0 0 24 24"><path d="M12 3L1 9l4 2.18v6L12 21l7-3.82v-6l2-1.09V17h2V9L12 3zm6.82 6L12 12.72 5.18 9 12 5.28 18.82 9zM17 15.99l-5 2.73-5-2.73v-3.72L12 15l5-2.73v3.72z"/></svg>Eiken Practice</p>
+            </div>
+            <div class="d-flex gap-3 small flex-wrap justify-content-center">
+                <a href="{% url 'about' %}">サービス概要</a>
+                <a href="{% url 'guides' %}">学習の進め方</a>
+                <a href="{% url 'privacy_policy' %}">プライバシーポリシー</a>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

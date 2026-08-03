@@ -37,6 +37,15 @@ Eiken Practice は、英検受験者向けの無料オンライン学習サイ�
 - [トップ](https://eiken-practice.com/): サービス紹介と無料登録・ログインへの入口
 - [サービス概要・FAQ](https://eiken-practice.com/about/): 対応級・機能・よくある質問
 - [学習の進め方](https://eiken-practice.com/guides/): 5級・4級・3級ごとのおすすめ学習順と使い方ガイド
+- [英検5級 文法・語彙](https://eiken-practice.com/guides/eiken-5-grammar/): 5級の短文穴埋め対策
+- [英検5級 リスニング](https://eiken-practice.com/guides/eiken-5-listening/): 5級リスニング第1〜3部の進め方
+- [英検4級 文法・語彙](https://eiken-practice.com/guides/eiken-4-grammar/): 4級の短文系対策
+- [英検4級 リスニング](https://eiken-practice.com/guides/eiken-4-listening/): 4級リスニングの部ごとの練習
+- [英検4級 長文読解](https://eiken-practice.com/guides/eiken-4-reading/): 4級長文の読み方
+- [英検3級 文法・語彙](https://eiken-practice.com/guides/eiken-3-grammar/): 3級の選択問題ベース作り
+- [英検3級 リスニング](https://eiken-practice.com/guides/eiken-3-listening/): 3級リスニング対策
+- [英検3級 長文読解](https://eiken-practice.com/guides/eiken-3-reading/): 3級長文の読み方
+- [英検3級 ライティング](https://eiken-practice.com/guides/eiken-3-writing/): 3級英作文の練習の進め方
 - [学習リソース](https://eiken-practice.com/resources/): 級別の過去問・教材などサイト外の学習のヒント
 
 ## Optional

@@ -121,6 +121,8 @@
             margin-bottom: 0.75rem;
         }
         .content-card p, .content-card li { color: var(--muted); line-height: 1.7; }
+        .content-card a { color: #c5c8f0; }
+        .content-card a:hover { color: white; }
         .content-card strong { color: var(--text); }
         .toc {
             border: 1px solid var(--border);
@@ -224,6 +226,7 @@
                             <li><a href="#level-5">英検5級の進め方</a></li>
                             <li><a href="#level-4">英検4級の進め方</a></li>
                             <li><a href="#level-3">英検3級の進め方</a></li>
+                            <li><a href="#topic-guides">級×パート別ガイド</a></li>
                             <li><a href="#common">共通の使い方のコツ</a></li>
                             <li><a href="#feedback">フィードバックの送り方</a></li>
                             <li><a href="#faq">よくある質問</a></li>
@@ -335,6 +338,30 @@
                     {% include 'partials/_next_learning.html' with reason=item.reason resource_title=item.resource_title resource_url=item.resource_url primary_internal_url=next_learning_primary_url primary_internal_label=next_learning_primary_label %}
                     {% endwith %}
                     {% endif %}
+
+                    <h2 id="topic-guides">級×パート別ガイド</h2>
+                    <p>
+                        検索でよく見られるテーマごとに、短い対策ガイドを用意しています。
+                        気になる形式から読んで、そのまま無料演習へ進んでください。
+                    </p>
+                    <h3 class="h6 text-white-50 mt-3">英検5級</h3>
+                    <ul>
+                        {% for topic in guide_topics_by_level.5 %}
+                        <li><a href="{% url 'guide_topic' slug=topic.slug %}">{{ topic.h1 }}</a></li>
+                        {% endfor %}
+                    </ul>
+                    <h3 class="h6 text-white-50 mt-3">英検4級</h3>
+                    <ul>
+                        {% for topic in guide_topics_by_level.4 %}
+                        <li><a href="{% url 'guide_topic' slug=topic.slug %}">{{ topic.h1 }}</a></li>
+                        {% endfor %}
+                    </ul>
+                    <h3 class="h6 text-white-50 mt-3">英検3級</h3>
+                    <ul>
+                        {% for topic in guide_topics_by_level.3 %}
+                        <li><a href="{% url 'guide_topic' slug=topic.slug %}">{{ topic.h1 }}</a></li>
+                        {% endfor %}
+                    </ul>
 
                     <h2 id="common">共通の使い方のコツ</h2>
                     <ul>

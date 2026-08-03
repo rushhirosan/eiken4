@@ -23,6 +23,8 @@ from django.http import HttpResponse
 from exams.views import sitemap_xml
 from eiken_project.views import (
     about,
+    guide_topic,
+    guide_topic_slashless_redirect,
     guides,
     landing,
     llms_txt,
@@ -59,6 +61,8 @@ urlpatterns = [
     path('about/', about, name='about'),
     path('guides', slashless_canonical_redirect('/guides/')),
     path('guides/', guides, name='guides'),
+    path('guides/<slug:slug>', guide_topic_slashless_redirect),
+    path('guides/<slug:slug>/', guide_topic, name='guide_topic'),
     path('resources', slashless_canonical_redirect('/resources/')),
     path('resources/', resources, name='resources'),
     # Privacy Policy
