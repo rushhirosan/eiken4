@@ -231,14 +231,13 @@
     {% endif %}
     
     {% if next_learning_tip %}
-    <div class="next-learning-wrap text-center mt-5 mb-4">
-        {% include 'partials/_next_learning.html' with reason=next_learning_tip.reason resource_title=next_learning_tip.resource_title resource_url=next_learning_tip.resource_url primary_internal_url=next_learning_primary_url primary_internal_label=next_learning_primary_label %}
-    </div>
-    {% else %}
-    <div class="text-center mt-5 mb-5">
-        <a href="{% url 'exams:exam_list' %}?level={{ level }}" class="btn btn-primary">問題一覧に戻る</a>
+    <div class="next-learning-wrap mt-5 mb-3">
+        {% include 'partials/_next_learning.html' with reason=next_learning_tip.reason resource_title=next_learning_tip.resource_title resource_url=next_learning_tip.resource_url %}
     </div>
     {% endif %}
+    <div class="text-center mt-4 mb-5">
+        <a href="{% url 'exams:exam_list' %}?level={{ level }}" class="btn btn-primary">問題一覧に戻る</a>
+    </div>
 </div>
 
 <style>

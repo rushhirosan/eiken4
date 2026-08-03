@@ -99,8 +99,8 @@ Amazon URL は検索ベース。`affiliate_url()` が `tag=` を付与する。�
 
 結果画面（`exams/templates/exams/answer_results.html`）の最下部。ダイアログではない。
 
-- tip あり: `_next_learning`（主CTA「問題一覧に戻る」＋外部1本）
-- tip なし: 従来どおり「問題一覧に戻る」のみ
+- tip あり: `_next_learning`（外部リンク＋注記のみ。主CTAは含めない）
+- 「問題一覧に戻る」は tip の有無に関係なく、その下に独立ボタンとして常に表示
 
 ### 共通ルール
 

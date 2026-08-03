@@ -2394,10 +2394,6 @@ def _finalize_and_render_answer_results(request, context):
         )
         if tip:
             context['next_learning_tip'] = tip
-            context['next_learning_primary_url'] = (
-                f"{reverse('exams:exam_list')}?level={level}"
-            )
-            context['next_learning_primary_label'] = '問題一覧に戻る'
             mark_next_learning_tip_shown(request.session)
 
     return render(request, 'exams/answer_results.html', context)
