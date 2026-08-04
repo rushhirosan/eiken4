@@ -417,12 +417,12 @@
                         <p class="mb-0">ログイン後、画面上部メニューの「フィードバック」から送れます。バグ報告・機能要望・改善提案・その他を選べます。</p>
                     </div>
 
-                    <div class="text-center mt-4 pt-2">
-                        <a href="{% url 'signup' %}" class="btn btn-primary me-2">無料で始める</a>
+                    <div class="d-flex flex-wrap justify-content-center gap-2 mt-4 pt-2">
+                        <a href="{% url 'signup' %}" class="btn btn-primary">無料で始める</a>
                         {% if show_next_learning %}
-                        <a href="{% url 'resources' %}" class="btn btn-outline-light me-2">学習リソース</a>
+                        <a href="{% url 'resources' %}" class="btn btn-outline-light">学習リソース</a>
                         {% endif %}
-                        <a href="{% url 'about' %}" class="btn btn-outline-light me-2">サービス概要</a>
+                        <a href="{% url 'about' %}" class="btn btn-outline-light">サービス概要</a>
                         <a href="/" class="btn btn-outline-light">トップへ戻る</a>
                     </div>
                 </div>

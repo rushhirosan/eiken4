@@ -185,9 +185,9 @@
                     </ul>
                     {% endif %}
 
-                    <div class="text-center mt-4 pt-2">
-                        <a href="{{ cta_url }}" class="btn btn-primary me-2">{{ cta_label }}</a>
-                        <a href="{% url 'guides' %}" class="btn btn-outline-light me-2">学習ガイド一覧</a>
+                    <div class="d-flex flex-wrap justify-content-center gap-2 mt-4 pt-2">
+                        <a href="{{ cta_url }}" class="btn btn-primary">{{ cta_label }}</a>
+                        <a href="{% url 'guides' %}" class="btn btn-outline-light">学習ガイド一覧</a>
                         <a href="{% url 'about' %}" class="btn btn-outline-light">サービス概要</a>
                     </div>
                 </div>
