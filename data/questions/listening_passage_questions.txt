@@ -1060,3 +1060,242 @@ Question: What is the boy talking about?（男の子は何について話して�
 
 ---
 
+---
+
+No.41:
+W: Emma enjoys shopping. This weekend she will go to the new shopping center with her friend. She is going to buy a birthday present for her mother.
+
+Question No.41:
+What will Emma do this weekend?
+
+1. Visit her friend.
+2. Go shopping.
+3. Go to a party.
+4. Make a cake.
+
+【正解41】
+2. Go shopping.
+
+【解説41】
+放送文
+W: Emma enjoys shopping. This weekend she will go to the new shopping center with her friend. She is going to buy a birthday present for her mother.
+
+Question: What will Emma do this weekend?
+
+週末に新しいショッピングセンターへ行くので、2「Go shopping」が正解です。
+
+---
+
+No.42:
+W: My parents and I went to my favorite curry restaurant last night. It’s near our house. The vegetable curry is really good.
+
+Question No.42:
+What is the girl talking about?
+
+1. Her vegetable garden.
+2. A cooking class.
+3. A restaurant.
+4. Her new house.
+
+【正解42】
+3. A restaurant.
+
+【解説42】
+放送文
+W: My parents and I went to my favorite curry restaurant last night. It’s near our house. The vegetable curry is really good.
+
+Question: What is the girl talking about?
+
+好きなカレー店の話なので、3「A restaurant」が正解です。
+
+---
+
+No.43:
+M: Kathy and Mary play tennis together on Saturday mornings. Today, it rained, so they went to a shopping mall. They bought some books there.
+
+Question No.43:
+What did Kathy and Mary do today?
+
+1. They played tennis.
+2. They saw a movie.
+3. They went shopping.
+4. They went to the library.
+
+【正解43】
+3. They went shopping.
+
+【解説43】
+放送文
+M: Kathy and Mary play tennis together on Saturday mornings. Today, it rained, so they went to a shopping mall. They bought some books there.
+
+Question: What did Kathy and Mary do today?
+
+今日は雨でモールへ行き本を買ったので、3「They went shopping」が正解です。
+
+---
+
+No.44:
+M: After school, I often go to my friend Andrew’s house, and we study together. Sometimes we play computer games, too. Andrew has lots of great games.
+
+Question No.44:
+Where does the boy often go after school?
+
+1. To the library.
+2. To a big game.
+3. To the computer club.
+4. To his friend’s house.
+
+【正解44】
+4. To his friend’s house.
+
+【解説44】
+放送文
+M: After school, I often go to my friend Andrew’s house, and we study together. Sometimes we play computer games, too. Andrew has lots of great games.
+
+Question: Where does the boy often go after school?
+
+よく Andrew の家へ行くとあるので、4が正解です。
+
+---
+
+No.45:
+M: Wendy had a party at her house yesterday. She made pasta, and her husband made vegetable soup. Her friend Julie brought drinks and cake.
+
+Question No.45:
+Who made vegetable soup?
+
+1. Wendy.
+2. Wendy’s husband.
+3. Julie.
+4. Julie’s husband.
+
+【正解45】
+2. Wendy’s husband.
+
+【解説45】
+放送文
+M: Wendy had a party at her house yesterday. She made pasta, and her husband made vegetable soup. Her friend Julie brought drinks and cake.
+
+Question: Who made vegetable soup?
+
+「her husband made vegetable soup」なので、2が正解です。
+
+---
+
+No.46:
+M: Emi likes reading. She often goes to the library. Today, she will read a book at home after school.
+
+Question No.46:
+What will Emi do today?
+
+1. Go to the library.
+2. Help her mother.
+3. Call her friend.
+4. Read a book at home.
+
+【正解46】
+4. Read a book at home.
+
+【解説46】
+放送文
+M: Emi likes reading. She often goes to the library. Today, she will read a book at home after school.
+
+Question: What will Emi do today?
+
+今日は家で本を読むとあるので、4が正解です。図書館はよく行く場所です。
+
+---
+
+No.47:
+M: Jack usually plays soccer or rides his bike with his friends after school. But it rained yesterday, so he stayed at home and read books in the afternoon.
+
+Question No.47:
+What did Jack do yesterday afternoon?
+
+1. He read books.
+2. He rode his bike.
+3. He played soccer.
+4. He did his homework.
+
+【正解47】
+1. He read books.
+
+【解説47】
+放送文
+M: Jack usually plays soccer or rides his bike with his friends after school. But it rained yesterday, so he stayed at home and read books in the afternoon.
+
+Question: What did Jack do yesterday afternoon?
+
+昨日の午後は家で本を読んだので、1が正解です。
+
+---
+
+No.48:
+W: Yesterday, my father made lunch for Anna and me. My mother and brother were not home. My grandmother came to visit me, so I cleaned my house. Anna helped me.
+
+Question No.48:
+What did the girl do yesterday?
+
+1. She made lunch.
+2. She visited her grandmother.
+3. She cleaned her house.
+4. She met Anna’s father.
+
+【正解48】
+3. She cleaned her house.
+
+【解説48】
+放送文
+W: Yesterday, my father made lunch for Anna and me. My mother and brother were not home. My grandmother came to visit me, so I cleaned my house. Anna helped me.
+
+Question: What did the girl do yesterday?
+
+祖母が来るので家を掃除した、とあるので、3が正解です。昼食を作ったのは父親です。
+
+---
+
+No.49:
+M: Jack usually rides his bike to school when the weather is nice. When it is rainy, Jack’s father takes him to school by car.
+
+Question No.49:
+How does Jack usually go to school?
+
+1. By bike.
+2. By bus.
+3. By train.
+4. By car.
+
+【正解49】
+1. By bike.
+
+【解説49】
+放送文
+M: Jack usually rides his bike to school when the weather is nice. When it is rainy, Jack’s father takes him to school by car.
+
+Question: How does Jack usually go to school?
+
+天気がよいときは自転車、と「usually」があるので、1が正解です。車は雨のときです。
+
+---
+
+No.50:
+W: Welcome to the city art museum. The fees are three dollars for kids, five dollars for junior high school students, and ten dollars for adults.
+
+Question No.50:
+How much is the fee for adults?
+
+1. Three dollars.
+2. Five dollars.
+3. Eight dollars.
+4. Ten dollars.
+
+【正解50】
+4. Ten dollars.
+
+【解説50】
+放送文
+W: Welcome to the city art museum. The fees are three dollars for kids, five dollars for junior high school students, and ten dollars for adults.
+
+Question: How much is the fee for adults?
+
+大人は ten dollars なので、4が正解です。

@@ -842,3 +842,200 @@ After the contest, Daniel was excited to
 
 ---
 
+---
+
+本文13
+A Musician Will Visit Our School
+
+The famous piano player Mr. Stevens will visit the school on Friday afternoon for one hour.
+
+He will first give a speech in the gym and then play three songs in the music room. After this performance, students can eat snacks in the cafeteria.
+
+Date: February 12
+Time: 4:00 p.m. to 5:00 p.m.
+
+問題13a:
+What will happen in the gym?
+
+選択肢13a:
+1. A piano player will give a speech.
+2. Students will receive free snacks.
+3. A piano player will play songs.
+4. Students will dance.
+
+【正解13a】
+1. A piano player will give a speech.
+
+【解説13a】
+本文に「give a speech in the gym」とあります。演奏は music room、おやつは cafeteria です。
+
+問題13b:
+How many songs will Mr. Stevens play?
+
+選択肢13b:
+1. Two songs.
+2. Three songs.
+3. Four songs.
+4. Five songs.
+
+【正解13b】
+2. Three songs.
+
+【解説13b】
+「play three songs in the music room」と明記されています。2・4・5曲という記述はありません。
+
+---
+
+本文14
+From: Jimmy Cook
+To: Cathy Cook
+Date: July 7
+Subject: How are your cats?
+
+Dear Grandma,
+Last summer was so much fun! I enjoyed spending two weeks at your home. How is your cat, Lily? She had some babies, right? Dad told me about it. How many babies does she have? I really want to see them! Can I visit your home next month? I can stay for four days then!
+Write soon,
+Jimmy
+
+-
+
+From: Cathy Cook
+To: Jimmy Cook
+Date: July 7
+Subject: They are fine!
+
+Dear Jimmy,
+Of course, come and see my cat Lily and her babies next month! She has three babies, and they are very cute. Yesterday, one of my friends visited me and saw them, too! I’ll send you a picture of the babies by email tomorrow!
+Love,
+Grandma
+
+問題14a:
+When can Jimmy visit his grandmother’s home?
+
+選択肢14a:
+1. Tomorrow.
+2. Next week.
+3. Next month.
+4. Next summer.
+
+【正解14a】
+3. Next month.
+
+【解説14a】
+Jimmy が「next month」に訪れてよいか尋ね、祖母も「next month」と返事しています。
+
+問題14b:
+How many babies does Lily have?
+
+選択肢14b:
+1. One.
+2. Two.
+3. Three.
+4. Four.
+
+【正解14b】
+3. Three.
+
+【解説14b】
+祖母のメールに「She has three babies」とあります。
+
+問題14c:
+Who visited Jimmy’s grandmother yesterday?
+
+選択肢14c:
+1. Her friend.
+2. Her daughter.
+3. Jimmy.
+4. Jimmy’s father.
+
+【正解14c】
+1. Her friend.
+
+【解説14c】
+「Yesterday, one of my friends visited me」とあるので、訪問者は祖母の友人です。
+
+---
+
+本文15
+A Visit to a History Museum
+
+George is thirteen years old. Recently, his sister wanted to go to a history museum. So, his family went to the museum last Saturday. The museum was in an old building. It was eighty years old. In the museum, he saw many interesting things. The best part was an old classroom.
+
+George walked into the classroom and saw an old blackboard. The blackboard was forty years old. He was surprised because the blackboard was green. He also saw desks and chairs. They were dark brown. Then, George saw some old history textbooks. He saw a lot of interesting things in the classroom. He liked looking at the textbooks most because they were so old.
+
+The history museum was very fun. George’s favorite subjects in school were English and math before, but now his favorite is history. George wants to go to more museums with his sister.
+
+問題15a:
+Why did George’s family go to the museum last Saturday?
+
+選択肢15a:
+1. George’s father had four tickets.
+2. George’s mother works there.
+3. George’s sister wanted to go.
+4. George likes history.
+
+【正解15a】
+3. George’s sister wanted to go.
+
+【解説15a】
+「his sister wanted to go to a history museum. So, his family went…」と因果が書かれています。
+
+問題15b:
+How old was the blackboard?
+
+選択肢15b:
+1. Thirteen years old.
+2. Twenty years old.
+3. Forty years old.
+4. Eighty years old.
+
+【正解15b】
+3. Forty years old.
+
+【解説15b】
+「The blackboard was forty years old」とあります。建物の80年と混同しないようにします。
+
+問題15c:
+What color were the desks?
+
+選択肢15c:
+1. Black.
+2. Green.
+3. Light brown.
+4. Dark brown.
+
+【正解15c】
+4. Dark brown.
+
+【解説15c】
+机と椅子は「They were dark brown」とあります。黒板が緑なのは別情報です。
+
+問題15d:
+What did George like most in the classroom?
+
+選択肢15d:
+1. The textbooks.
+2. The desks.
+3. The map.
+4. The blackboard.
+
+【正解15d】
+1. The textbooks.
+
+【解説15d】
+「He liked looking at the textbooks most」と明記されています。
+
+問題15e:
+Now, George’s favorite subject is
+
+選択肢15e:
+1. math.
+2. English.
+3. history.
+4. music.
+
+【正解15e】
+3. history.
+
+【解説15e】
+以前は English and math が好きだったが、「now his favorite is history」とあります。

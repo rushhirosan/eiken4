@@ -2898,5 +2898,269 @@ Last night, Taro was ( ) a movie about airplanes. He liked it very much.
 
 ---
 
+---
 
+問題166:
+A : I want to make some pancakes for breakfast, but we don’t have any ( ).
+B : I’ll go to the store and get some.
 
+選択肢166:
+1. flowers
+2. eggs
+3. books
+4. sports
+
+【正解166】
+2. eggs
+
+【解説166】
+パンケーキを作るのに足りないのは「eggs（卵）」が自然です。「flowers / books / sports」は材料になりません。
+
+---
+
+問題167:
+A : I want to call my mother, but I don’t have a phone.
+B : You can ( ) my phone.
+
+選択肢167:
+1. climb
+2. leave
+3. use
+4. send
+
+【正解167】
+3. use
+
+【解説167】
+電話を貸す流れなので「use（使う）」が自然です。「climb / leave / send」では「私の電話を〜」の意味が合いません。
+
+---
+
+問題168:
+A : Mom, I want to make some cookies.
+B : All right, but please ( ) this carrot first.
+
+選択肢168:
+1. cut
+2. arrive
+3. hit
+4. run
+
+【正解168】
+1. cut
+
+【解説168】
+にんじんを先に処理する流れなので「cut（切る）」が自然です。「arrive / hit / run」はこの文脈に合いません。
+
+---
+
+問題169:
+A : Is it warm in your ( ) now?
+B : Yes, it’s spring.
+
+選択肢169:
+1. country
+2. ticket
+3. animal
+4. road
+
+【正解169】
+1. country
+
+【解説169】
+春で暖かい、という国・土地の話なので「country」が自然です。「ticket / animal / road」は暖かさの場所として不自然です。
+
+---
+
+問題170:
+Taro enjoyed the chorus ( ) on TV yesterday. He wants to join a chorus at school.
+
+選択肢170:
+1. wall
+2. hobby
+3. contest
+4. trip
+
+【正解170】
+3. contest
+
+【解説170】
+テレビの合唱コンクールを楽しんだ、という流れなので「contest」が自然です。「wall / hobby / trip」では意味が合いません。
+
+---
+
+問題171:
+A : Can I study in the library today?
+B : Yes, it’s ( ) now.
+
+選択肢171:
+1. cold
+2. open
+3. late
+4. favorite
+
+【正解171】
+2. open
+
+【解説171】
+今使える・空いている、という返事なので「open」が自然です。「cold / late / favorite」では図書館の利用可否になりません。
+
+---
+
+問題172:
+Sally went to eat Chinese food in a big ( ) last weekend.
+
+選択肢172:
+1. city
+2. word
+3. body
+4. point
+
+【正解172】
+1. city
+
+【解説172】
+大きな街で中華を食べた、という文なので「city」が自然です。「word / body / point」は場所になりません。
+
+---
+
+問題173:
+A : What do you want to do tomorrow afternoon?
+B : I have an ( ). Let’s go to the aquarium.
+
+選択肢173:
+1. end
+2. idea
+3. arm
+4. eraser
+
+【正解173】
+2. idea
+
+【解説173】
+提案の前置きなので「idea（考え）」が自然です。「end / arm / eraser」はこの会話に合いません。
+
+---
+
+問題174:
+A : These are my new glasses. What do you ( ) of them?
+B : They’re really nice, Grandma.
+
+選択肢174:
+1. watch
+2. think
+3. tell
+4. finish
+
+【正解174】
+2. think
+
+【解説174】
+「What do you think of …?（〜をどう思う？）」の決まり文句です。「watch / tell / finish」ではこの形になりません。
+
+---
+
+問題175:
+A : Mom, I’m going to play in the soccer game tomorrow.
+B : Good ( ) you. You practiced a lot.
+
+選択肢175:
+1. for
+2. with
+3. in
+4. after
+
+【正解175】
+1. for
+
+【解説175】
+「Good for you.（よかったね／えらいね）」が自然です。「with / in / after」では決まり文句になりません。
+
+---
+
+問題176:
+A : Did you ( ) about Dan?
+B : Yes. He’s going to move back to England.
+
+選択肢176:
+1. hear
+2. wait
+3. run
+4. want
+
+【正解176】
+1. hear
+
+【解説176】
+知らせを聞いたか、なので「hear」が自然です。「wait / run / want」では「〜について聞いた」になりません。
+
+---
+
+問題177:
+A : Here are four cookies, Bob. Please ( ) them with your sister.
+B : OK. I’ll give her two of them.
+
+選択肢177:
+1. share
+2. answer
+3. cry
+4. run
+
+【正解177】
+1. share
+
+【解説177】
+妹と分けるので「share」が自然です。「answer / cry / run」は分け与える意味になりません。
+
+---
+
+問題178:
+A : Today, apples are ( ) than bananas.
+B : OK. Let’s get some apples.
+
+選択肢178:
+1. cheap
+2. cheapest
+3. the cheapest
+4. cheaper
+
+【正解178】
+4. cheaper
+
+【解説178】
+than があるので比較級「cheaper」が必要です。「cheap / cheapest / the cheapest」では than と合いません。
+
+---
+
+問題179:
+The students ( ) 50 meters in the school pool yesterday.
+
+選択肢179:
+1. swim
+2. swam
+3. swimming
+4. to swim
+
+【正解179】
+2. swam
+
+【解説179】
+yesterday があるので過去形「swam」が自然です。「swim / swimming / to swim」では時制が合いません。
+
+---
+
+問題180:
+A : You ( ) read this book before the test next Monday.
+B : OK, Mr. Peterson.
+
+選択肢180:
+1. have
+2. be
+3. must
+4. were
+
+【正解180】
+3. must
+
+【解説180】
+テスト前に読む必要がある、という指示なので「must」が自然です。「have / be / were」だけでは義務の意味になりません。

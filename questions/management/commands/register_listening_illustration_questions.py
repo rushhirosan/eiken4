@@ -24,10 +24,8 @@ class Command(BaseCommand):
     def handle(self, *args, **options):
         level = options['level']
         if level == '4':
-            for i in range(1, 41):
-                ListeningQuestion.objects.filter(level='4').filter(
-                    image__endswith=f'listening_illustration_image{i}.png'
-                ).delete()
+            # 画像番号ベースで既存を消す（通し番号の増加に追随）
+            ListeningQuestion.objects.filter(level='4').delete()
         else:
             ListeningQuestion.objects.filter(level=level).delete()
         self.stdout.write(self.style.WARNING(f'既存のListeningQuestion（level={level}）を削除しました'))

@@ -957,3 +957,233 @@ Question No.40:
 1「On the beach.（ビーチで。）」は場所、2「It will be hot.（暑くなるよ。）」は天気で、質問に合いません。
 
 ---
+
+---
+
+No.41:
+W: Hi, Brian.
+M: Hi, Sally. Do you want to watch a soccer game this Saturday?
+W: Sure. What time does it start?
+
+Question No.41:
+1. At 1:30.
+2. On Saturday.
+3. Let’s go now.
+
+【正解41】
+1. At 1:30.
+
+【解説41】
+放送文
+W: Hi, Brian.
+M: Hi, Sally. Do you want to watch a soccer game this Saturday?
+W: Sure. What time does it start?
+
+最後に開始時刻を聞いているので、1「At 1:30.（1時半。）」が自然です。2は曜日、3は今すぐ行こう、で時刻の答えになりません。
+
+---
+
+No.42:
+M: Let’s have lunch today.
+W: Sure, but I have a meeting until noon.
+M: How about 12:30, then?
+
+Question No.42:
+1. It’s near here.
+2. With Mr. Wilson.
+3. That’s fine.
+
+【正解42】
+3. That’s fine.
+
+【解説42】
+放送文
+M: Let’s have lunch today.
+W: Sure, but I have a meeting until noon.
+M: How about 12:30, then?
+
+昼食の時間提案への返事なので、3「That’s fine.（それでいいよ。）」が自然です。場所や同席者の話はこの提案への応答として合いません。
+
+---
+
+No.43:
+W: Do we have any meetings today?
+M: Yes, we have one with Alan and Janet this afternoon.
+W: OK. Anything else?
+
+Question No.43:
+1. At twelve o’clock.
+2. No, that’s all.
+3. Yes, he did.
+
+【正解43】
+2. No, that’s all.
+
+【解説43】
+放送文
+W: Do we have any meetings today?
+M: Yes, we have one with Alan and Janet this afternoon.
+W: OK. Anything else?
+
+他にあるかと聞かれているので、2「No, that’s all.（いいえ、それだけです。）」が自然です。時刻や「彼がした」はこの質問に合いません。
+
+---
+
+No.44:
+W: Excuse me.
+M: How can I help you?
+W: Where are the women’s shoes?
+
+Question No.44:
+1. On the third floor.
+2. At six o’clock.
+3. I’ll buy them.
+
+【正解44】
+1. On the third floor.
+
+【解説44】
+放送文
+W: Excuse me.
+M: How can I help you?
+W: Where are the women’s shoes?
+
+場所を尋ねているので、1「On the third floor.（3階です。）」が自然です。時刻や買う意思は場所の答えになりません。
+
+---
+
+No.45:
+W: What time does your volleyball practice start on Saturday?
+M: At 9 a.m.
+W: Will you come home by noon?
+
+Question No.45:
+1. I think so.
+2. Twice a day.
+3. It’s my ball.
+
+【正解45】
+1. I think so.
+
+【解説45】
+放送文
+W: What time does your volleyball practice start on Saturday?
+M: At 9 a.m.
+W: Will you come home by noon?
+
+正午までに帰るかへの返事なので、1「I think so.（多分そうだよ。）」が自然です。回数やボールの所有はこの質問に合いません。
+
+---
+
+No.46:
+M: Are you hungry?
+W: Not really.
+M: Do you want some coffee?
+
+Question No.46:
+1. That sounds nice.
+2. Chicken, please.
+3. In cooking class.
+
+【正解46】
+1. That sounds nice.
+
+【解説46】
+放送文
+M: Are you hungry?
+W: Not really.
+M: Do you want some coffee?
+
+コーヒーを勧める提案への返事なので、1「That sounds nice.（いいね。）」が自然です。チキンや料理の授業はこの誘いへの答えになりません。
+
+---
+
+No.47:
+W: Is it raining outside?
+M: No, but the sky is dark.
+W: Take your umbrella with you.
+
+Question No.47:
+1. No, you won’t.
+2. Since this morning.
+3. All right, Mom.
+
+【正解47】
+3. All right, Mom.
+
+【解説47】
+放送文
+W: Is it raining outside?
+M: No, but the sky is dark.
+W: Take your umbrella with you.
+
+傘を持って行くよう言われての返事なので、3「All right, Mom.（わかった、お母さん。）」が自然です。否定や開始時刻はこの指示への返事として合いません。
+
+---
+
+No.48:
+M: I’m going to the beach with my brother.
+W: That sounds good!
+M: Do you have any brothers or sisters?
+
+Question No.48:
+1. I don’t have any.
+2. No. I can’t swim.
+3. Next week.
+
+【正解48】
+1. I don’t have any.
+
+【解説48】
+放送文
+M: I’m going to the beach with my brother.
+W: That sounds good!
+M: Do you have any brothers or sisters?
+
+兄弟姉妹がいるかへの答えなので、1「I don’t have any.（いないよ。）」が自然です。泳げない・来週は人数の質問に答えません。
+
+---
+
+No.49:
+W: Good morning, Mr. Lee.
+M: Hi. Where are you going?
+W: To the library.
+
+Question No.49:
+1. It’s late at night.
+2. I studied science.
+3. Have a nice day.
+
+【正解49】
+3. Have a nice day.
+
+【解説49】
+放送文
+W: Good morning, Mr. Lee.
+M: Hi. Where are you going?
+W: To the library.
+
+行き先を聞いたあとの自然な返答は、3「Have a nice day.（よい一日を。）」です。夜遅い・勉強した、はこの場面のあいさつとして弱くなります。
+
+---
+
+No.50:
+M: How was your sister’s birthday?
+W: We had a big party.
+M: Did she like it?
+
+Question No.50:
+1. I like chocolate cake.
+2. Yes. She got many presents.
+3. Thank you for coming.
+
+【正解50】
+2. Yes. She got many presents.
+
+【解説50】
+放送文
+M: How was your sister’s birthday?
+W: We had a big party.
+M: Did she like it?
+
+気に入ったかへの答えなので、2「Yes. She got many presents.（うん。たくさんプレゼントをもらったよ。）」が自然です。自分の好みや来てくれてありがとうはこの質問への直接の答えになりません。

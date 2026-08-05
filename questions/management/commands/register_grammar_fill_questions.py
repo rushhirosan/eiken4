@@ -9,7 +9,7 @@ from questions.level_paths import (
 
 
 class Command(BaseCommand):
-    help = 'Register all grammar fill questions (1-165) from text file'
+    help = 'Register all grammar fill questions from text file'
 
     def add_arguments(self, parser):
         add_default_register_arguments(parser)
@@ -40,8 +40,8 @@ class Command(BaseCommand):
                     continue
                 question_number = int(question_number_match.group(1))
                 
-                # Process all questions (1-165)
-                if question_number < 1 or question_number > 165:
+                # Process all positive question numbers
+                if question_number < 1:
                     continue
 
                 # Extract question text

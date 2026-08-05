@@ -9,7 +9,7 @@ from questions.level_paths import (
 
 
 class Command(BaseCommand):
-    help = 'Register all conversation fill questions (1-55) from text file'
+    help = 'Register all conversation fill questions from text file'
 
     def add_arguments(self, parser):
         add_default_register_arguments(parser)
@@ -40,8 +40,7 @@ class Command(BaseCommand):
                     continue
                 question_number = int(question_number_match.group(1))
                 
-                # Process questions 1-55
-                if question_number < 1 or question_number > 55:
+                if question_number < 1:
                     continue
 
                 # Extract question text (handle cases like "問題21（改善版）:")

@@ -1165,3 +1165,303 @@ Question: How is Jack feeling?（ジャックはどんな気分ですか？）
 
 ジャックが「I'm tired（疲れている）」と言っているので、2「He is tired.（疲れている。）」が正解です。
 1「He is cold.（寒い。）」は風邪(cold)と紛らわしいですが否定され、3「He is excited.」・4「He is good.」は会話に出てきません。
+
+---
+
+No.41:
+W: Did you finish your report, Max?
+M: Yes. I put it on your desk.
+W: Really? I can’t find it.
+M: Oh no.
+
+Question No.41:
+What is the woman’s problem?
+
+1. She can’t find the report.
+2. She forgot to call Max.
+3. The report is too long.
+4. Her desk is broken.
+
+【正解41】
+1. She can’t find the report.
+
+【解説41】
+放送文
+W: Did you finish your report, Max?
+M: Yes. I put it on your desk.
+W: Really? I can’t find it.
+M: Oh no.
+
+Question: What is the woman’s problem?
+
+女性が「I can’t find it」と言っているので、1が正解です。
+
+---
+
+No.42:
+W: How was your weekend, Ken?
+M: Not so good. My mom was sick, so my dad took her to the doctor.
+W: Is she OK now?
+M: Yes, she’s much better.
+
+Question No.42:
+Who was sick?
+
+1. Ken.
+2. Ken’s mother.
+3. Ken’s father.
+4. Ken’s friend.
+
+【正解42】
+2. Ken’s mother.
+
+【解説42】
+放送文
+W: How was your weekend, Ken?
+M: Not so good. My mom was sick, so my dad took her to the doctor.
+W: Is she OK now?
+M: Yes, she’s much better.
+
+Question: Who was sick?
+
+「My mom was sick」とあるので、2「Ken’s mother」が正解です。
+
+---
+
+No.43:
+W: Hi, Joe. Is that a new camera?
+M: Yes, Kim. My dad gave it to me.
+W: Do you like it?
+M: Yeah, it’s great. I just took some pictures of my friends.
+
+Question No.43:
+Who did Joe take pictures of?
+
+1. Kim’s friends.
+2. Kim’s father.
+3. His friends.
+4. His father.
+
+【正解43】
+3. His friends.
+
+【解説43】
+放送文
+W: Hi, Joe. Is that a new camera?
+M: Yes, Kim. My dad gave it to me.
+W: Do you like it?
+M: Yeah, it’s great. I just took some pictures of my friends.
+
+Question: Who did Joe take pictures of?
+
+「pictures of my friends」なので、3「His friends」が正解です。
+
+---
+
+No.44:
+W: Where are you going?
+M: I’m going to the hospital.
+W: Why? Are you sick?
+M: No. My grandmother broke her leg, so I’m going to visit her.
+
+Question No.44:
+Why is the man going to the hospital?
+
+1. Because he is sick.
+2. Because he broke his leg.
+3. To talk to his doctor.
+4. To visit his grandmother.
+
+【正解44】
+4. To visit his grandmother.
+
+【解説44】
+放送文
+W: Where are you going?
+M: I’m going to the hospital.
+W: Why? Are you sick?
+M: No. My grandmother broke her leg, so I’m going to visit her.
+
+Question: Why is the man going to the hospital?
+
+祖母のお見舞いだと明言しているので、4が正解です。
+
+---
+
+No.45:
+W: Did you start writing your history report today?
+M: No. How about you?
+W: No. We need to finish them by Friday.
+M: I’ll write mine before class tomorrow.
+
+Question No.45:
+What do they need to do by Friday?
+
+1. Take a test.
+2. Talk to their history teacher.
+3. Clean their classroom.
+4. Finish their reports.
+
+【正解45】
+4. Finish their reports.
+
+【解説45】
+放送文
+W: Did you start writing your history report today?
+M: No. How about you?
+W: No. We need to finish them by Friday.
+M: I’ll write mine before class tomorrow.
+
+Question: What do they need to do by Friday?
+
+「finish them by Friday」の them は history report なので、4が正解です。
+
+---
+
+No.46:
+W: You can pick one toy from here.
+M: I want a toy car.
+W: You already have one. How about another toy?
+M: No, I like cars.
+
+Question No.46:
+Which toy does the boy want?
+
+1. A toy dog.
+2. A robot.
+3. A toy car.
+4. A toy plane.
+
+【正解46】
+3. A toy car.
+
+【解説46】
+放送文
+W: You can pick one toy from here.
+M: I want a toy car.
+W: You already have one. How about another toy?
+M: No, I like cars.
+
+Question: Which toy does the boy want?
+
+何度も車のおもちゃを望んでいるので、3が正解です。
+
+---
+
+No.47:
+M: You have a baseball game today, right?
+W: Yes. I also have a soccer game on Wednesday.
+M: Is your tennis game on Friday?
+W: That’s right.
+
+Question No.47:
+Which game does the girl have today?
+
+1. A tennis game.
+2. A soccer game.
+3. A basketball game.
+4. A baseball game.
+
+【正解47】
+4. A baseball game.
+
+【解説47】
+放送文
+M: You have a baseball game today, right?
+W: Yes. I also have a soccer game on Wednesday.
+M: Is your tennis game on Friday?
+W: That’s right.
+
+Question: Which game does the girl have today?
+
+今日は baseball game だと確認しているので、4が正解です。
+
+---
+
+No.48:
+M: You have a dog, right, Mia?
+W: Yes, I do.
+M: What other pets do you have?
+W: A cat and a bird. So I have three pets.
+
+Question No.48:
+How many pets does Mia have?
+
+1. One.
+2. Two.
+3. Three.
+4. Four.
+
+【正解48】
+3. Three.
+
+【解説48】
+放送文
+M: You have a dog, right, Mia?
+W: Yes, I do.
+M: What other pets do you have?
+W: A cat and a bird. So I have three pets.
+
+Question: How many pets does Mia have?
+
+「I have three pets」とあるので、3が正解です。
+
+---
+
+No.49:
+M: Can we go to a Japanese restaurant for dinner?
+W: No, I had Japanese food for lunch.
+M: Where should we go?
+W: Let’s go to an Italian restaurant.
+
+Question No.49:
+Where will they go for dinner?
+
+1. To a Chinese restaurant.
+2. To a Japanese restaurant.
+3. To a Spanish restaurant.
+4. To an Italian restaurant.
+
+【正解49】
+4. To an Italian restaurant.
+
+【解説49】
+放送文
+M: Can we go to a Japanese restaurant for dinner?
+W: No, I had Japanese food for lunch.
+M: Where should we go?
+W: Let’s go to an Italian restaurant.
+
+Question: Where will they go for dinner?
+
+夕食は Italian restaurant に行くと決まっているので、4が正解です。
+
+---
+
+No.50:
+W: Can we study together today?
+M: I can’t. I have a meeting at the library.
+W: How about tomorrow? We can meet at school.
+M: OK. Let’s meet at two.
+
+Question No.50:
+Where will they meet tomorrow?
+
+1. At school.
+2. At the girl’s house.
+3. At the library.
+4. At the boy’s house.
+
+【正解50】
+1. At school.
+
+【解説50】
+放送文
+W: Can we study together today?
+M: I can’t. I have a meeting at the library.
+W: How about tomorrow? We can meet at school.
+M: OK. Let’s meet at two.
+
+Question: Where will they meet tomorrow?
+
+明日は「meet at school」なので、1が正解です。図書館は今日の予定です。
