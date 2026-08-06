@@ -1,21 +1,22 @@
-# 3級 過去問 PDF
+# 英検3級 過去問 PDF（インポート用）
 
-## 問題・リスニング原稿
+## 2026年度第1回
 
-[英検 3級の過去問](https://www.eiken.or.jp/eiken/exam/grade_3/) の「過去問」リンク（例: `2025-2-1ji-3kyu.pdf`）。
+| 種別 | ファイル |
+|------|---------|
+| 問題冊子 | `2026-1-1ji-3kyu.pdf` |
+| リスニング原稿 | `2026-1-1ji_3kyuscript.pdf` |
+| 解答（F日程） | `202601F3kyu_answers.pdf` |
+| 音源 Part1/2/3 | `3Q-part1.mp3` 等 |
 
-## 公式解答（正解照合に使うもの）
+テキスト生成・追記: `python utils/build_level3_202601.py`  
+追加登録（既存削除なし）: `python manage.py append_new_questions --level 3`
 
-**F日程** の解答PDFのみを正とする（過去問ページの「解答」と同じ）。
+アプリ通し番号（2026①）:
 
-| 回 | URL |
-|----|-----|
-| 2025第1回 | https://www.eiken.or.jp/eiken/result/pdf/202501F3kyu.pdf |
-| 2025第2回 | https://www.eiken.or.jp/eiken/result/pdf/202502F3kyu.pdf |
-| 2025第3回 | https://www.eiken.or.jp/eiken/result/pdf/202503F3kyu.pdf |
+- 文法 101–115 / 会話 51–55
+- 読解 本文16–18
+- ライティング 21–22（メール＋英作文の2題）
+- リスニング各部 No.41–50
 
-ローカルコピー: `202501F3kyu_answers.pdf` 等。
-
-## 使わないもの
-
-`202501D3kyu_answers.pdf` 等の **D日程（金曜実施）** は、上記過去問冊子と正解番号が一致しないことがある。`data/questions/level3/` の正解更新・照合に使用しない。
+正解照合の一次情報は **F日程** のみ（`202601F3kyu.pdf`）。D日程は使わない。

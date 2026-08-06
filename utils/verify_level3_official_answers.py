@@ -23,6 +23,18 @@ _LEVEL3 = _REPO / 'data' / 'questions' / 'level3'
 ROUND_CODES = ('202501', '202502', '202503')
 OFFICIAL_PDF_URL = 'https://www.eiken.or.jp/eiken/result/pdf/{code}F3kyu.pdf'
 
+# 通し番号が連続していない追記回（2026① など）
+EXTRA_ROUNDS = (
+    {
+        'code': '202601',
+        'grammar': range(101, 116),
+        'conversation': range(51, 56),
+        # 読解は本文16–18 のラベルを exam 21–30 に対応
+        'reading_passages': (16, 17, 18),
+        'listening': range(41, 51),
+    },
+)
+
 
 @dataclass
 class Mismatch:
@@ -204,6 +216,99 @@ def verify_listening_part(
     return mismatches
 
 
+def verify_extra_round(spec: dict) -> list[Mismatch]:
+    code = spec['code']
+    rw, listen = fetch_official_answers(code)
+    mismatches: list[Mismatch] = []
+
+    gtext = (_LEVEL3 / 'grammar_fill_questions.txt').read_text(encoding='utf-8')
+    for qnum in spec['grammar']:
+        mo = re.search(rf'問題{qnum}:.*?【正解{qnum}】\s*(\d+)\.', gtext, re.DOTALL)
+        if not mo:
+            continue
+        exam_no = qnum - spec['grammar'].start + 1
+        official = rw.get(exam_no)
+        repo = int(mo.group(1))
+        if official is not None and repo != official:
+            mismatches.append(
+                Mismatch('grammar_fill', f'問題{qnum}', code, exam_no, repo, official)
+            )
+
+    ctext = (_LEVEL3 / 'conversation_questions.txt').read_text(encoding='utf-8')
+    for qnum in spec['conversation']:
+        mo = re.search(rf'問題{qnum}:.*?【正解{qnum}】\s*(\d+)\.', ctext, re.DOTALL)
+        if not mo:
+            continue
+        exam_no = 15 + (qnum - spec['conversation'].start + 1)
+        official = rw.get(exam_no)
+        repo = int(mo.group(1))
+        if official is not None and repo != official:
+            mismatches.append(
+                Mismatch(
+                    'conversation_fill', f'問題{qnum}', code, exam_no, repo, official
+                )
+            )
+
+    rtext = (_LEVEL3 / 'reading_comprehesion_questions.txt').read_text(encoding='utf-8')
+    labels: list[str] = []
+    for pnum in spec['reading_passages']:
+        labels.extend(re.findall(rf'問題({pnum}[a-e]):', rtext))
+    for i, label in enumerate(labels[:10]):
+        exam_no = 21 + i
+        block_mo = re.search(
+            rf'問題{re.escape(label)}:.*?【正解{re.escape(label)}】\s*(\d+)\.',
+            rtext,
+            re.DOTALL,
+        )
+        if not block_mo:
+            continue
+        repo = int(block_mo.group(1))
+        official = rw.get(exam_no)
+        if official is not None and repo != official:
+            mismatches.append(
+                Mismatch(
+                    'reading_comprehension',
+                    f'問題{label}',
+                    code,
+                    exam_no,
+                    repo,
+                    official,
+                )
+            )
+
+    listen_files = (
+        ('listening_illustration_questions.txt', 'listening_illustration', 1),
+        ('listening_conversation_questions.txt', 'listening_conversation', 11),
+        ('listening_passage_questions.txt', 'listening_passage', 21),
+    )
+    for filename, section, exam_start in listen_files:
+        text = (_LEVEL3 / filename).read_text(encoding='utf-8')
+        for qnum in spec['listening']:
+            mo = re.search(
+                rf'Question No\.{qnum}:.*?【正解{qnum}】\s*(\d+)\.',
+                text,
+                re.DOTALL,
+            )
+            if not mo:
+                continue
+            exam_no = exam_start + (qnum - spec['listening'].start)
+            official = listen.get(exam_no)
+            repo = int(mo.group(1))
+            if official is not None and repo != official:
+                mismatches.append(
+                    Mismatch(
+                        section,
+                        f'Question No.{qnum}',
+                        code,
+                        exam_no,
+                        repo,
+                        official,
+                    )
+                )
+
+    return mismatches
+
+
 def main() -> int:
     all_mismatches: list[Mismatch] = []
     for round_idx, code in enumerate(ROUND_CODES):
@@ -238,6 +343,9 @@ def main() -> int:
                 listen,
             )
         )
+
+    for spec in EXTRA_ROUNDS:
+        all_mismatches.extend(verify_extra_round(spec))
 
     if not all_mismatches:
         print('OK: すべて公式 F 版解答と一致しました。')

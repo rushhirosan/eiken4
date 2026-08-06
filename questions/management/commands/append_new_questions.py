@@ -1,6 +1,6 @@
 """
 既存問題を消さず、テキストにある未登録番号だけ追加する。
-4級 2026年度第1回の追記登録用。
+4級 / 3級の新規回次追記登録用（進捗安全）。
 """
 from __future__ import annotations
 
@@ -11,6 +11,7 @@ from django.core.management.base import BaseCommand
 from django.db import transaction
 
 from exams.models import Choice, Question
+from exams.writing_feedback import parse_writing_rubric
 from questions.level_paths import (
     db_audio_path,
     db_image_path_part1,
@@ -24,6 +25,26 @@ from questions.models import (
     ReadingQuestion,
 )
 
+# 3級 2026① / 4級 2026① の既定下限（--min-* 未指定時）
+_DEFAULT_MINS = {
+    '3': {
+        'min_grammar': 101,
+        'min_conversation': 51,
+        'min_wordorder': 9999,  # 3級に語順なし
+        'min_reading_passage': 16,
+        'min_listening': 41,
+        'min_writing': 21,
+    },
+    '4': {
+        'min_grammar': 166,
+        'min_conversation': 56,
+        'min_wordorder': 26,
+        'min_reading_passage': 13,
+        'min_listening': 41,
+        'min_writing': 9999,  # 4級にライティングなし
+    },
+}
+
 
 class Command(BaseCommand):
     help = 'テキストの新規番号だけ追加登録（既存削除なし・進捗安全）'
@@ -33,60 +54,87 @@ class Command(BaseCommand):
         parser.add_argument(
             '--min-grammar',
             type=int,
-            default=166,
+            default=None,
             help='この番号以上の grammar_fill を追加',
         )
-        parser.add_argument('--min-conversation', type=int, default=56)
-        parser.add_argument('--min-wordorder', type=int, default=26)
-        parser.add_argument('--min-reading-passage', type=int, default=13)
-        parser.add_argument('--min-listening', type=int, default=41)
+        parser.add_argument('--min-conversation', type=int, default=None)
+        parser.add_argument('--min-wordorder', type=int, default=None)
+        parser.add_argument('--min-reading-passage', type=int, default=None)
+        parser.add_argument('--min-listening', type=int, default=None)
+        parser.add_argument('--min-writing', type=int, default=None)
         parser.add_argument('--dry-run', action='store_true')
 
     def handle(self, *args, **options):
-        level = options['level']
+        level = str(options['level'])
         dry = options['dry_run']
+        defaults = _DEFAULT_MINS.get(level, _DEFAULT_MINS['4'])
+
+        def pick(key: str) -> int:
+            val = options[key]
+            return defaults[key] if val is None else val
+
+        min_grammar = pick('min_grammar')
+        min_conversation = pick('min_conversation')
+        min_wordorder = pick('min_wordorder')
+        min_reading = pick('min_reading_passage')
+        min_listening = pick('min_listening')
+        min_writing = pick('min_writing')
+
         with transaction.atomic():
             self._append_choice_questions(
                 level,
                 'grammar_fill',
                 'grammar_fill_questions.txt',
-                options['min_grammar'],
+                min_grammar,
                 dry,
             )
             self._append_choice_questions(
                 level,
                 'conversation_fill',
                 'conversation_questions.txt',
-                options['min_conversation'],
+                min_conversation,
                 dry,
             )
-            self._append_choice_questions(
-                level,
-                'word_order',
-                'wordorder_questions.txt',
-                options['min_wordorder'],
-                dry,
-            )
-            self._append_reading(level, options['min_reading_passage'], dry)
-            self._append_listening_illustration(level, options['min_listening'], dry)
+            wordorder_path = Path(questions_file_abspath(level, 'wordorder_questions.txt'))
+            if wordorder_path.exists() and min_wordorder < 9000:
+                self._append_choice_questions(
+                    level,
+                    'word_order',
+                    'wordorder_questions.txt',
+                    min_wordorder,
+                    dry,
+                )
+            else:
+                self.stdout.write('word_order: skipped')
+            self._append_reading(level, min_reading, dry)
+            if min_writing < 9000:
+                self._append_writing(level, min_writing, dry)
+            else:
+                self.stdout.write('writing: skipped')
+            self._append_listening_illustration(level, min_listening, dry)
             self._append_listening_exam_type(
                 level,
                 'listening_conversation',
                 'listening_conversation_questions.txt',
                 'part2',
                 'listening_conversation_question',
-                options['min_listening'],
+                min_listening,
                 dry,
             )
-            self._append_listening_exam_type(
-                level,
-                'listening_passage',
-                'listening_passage_questions.txt',
-                'part3',
-                'listening_passage_question',
-                options['min_listening'],
-                dry,
+            # 5級の part3 はイラスト一致のため listening_passage ファイルが無い場合あり
+            passage_path = Path(
+                questions_file_abspath(level, 'listening_passage_questions.txt')
             )
+            if passage_path.exists():
+                self._append_listening_exam_type(
+                    level,
+                    'listening_passage',
+                    'listening_passage_questions.txt',
+                    'part3',
+                    'listening_passage_question',
+                    min_listening,
+                    dry,
+                )
             if dry:
                 transaction.set_rollback(True)
                 self.stdout.write(self.style.WARNING('dry-run: rollback'))
@@ -144,12 +192,62 @@ class Command(BaseCommand):
             added += 1
         self.stdout.write(self.style.SUCCESS(f'{qtype}: +{added}'))
 
+    def _append_writing(self, level, min_n, dry):
+        path = Path(questions_file_abspath(level, 'writing_questions.txt'))
+        if not path.exists():
+            self.stdout.write('writing: no file')
+            return
+        content = path.read_text(encoding='utf-8')
+        existing = set(
+            Question.objects.filter(level=level, question_type='writing').values_list(
+                'question_number', flat=True
+            )
+        )
+        added = 0
+        for block in content.split('---'):
+            if not block.strip():
+                continue
+            m = re.search(r'問題(\d+):', block)
+            if not m:
+                continue
+            n = int(m.group(1))
+            if n < min_n or n in existing:
+                continue
+            body_match = re.search(
+                rf'問題{n}:\s*(.*?)\s*【参考解答】\s*',
+                block,
+                re.DOTALL,
+            )
+            expl_match = re.search(
+                r'【参考解答】\s*(.*?)(?=\n※協会|\Z)',
+                block,
+                re.DOTALL,
+            )
+            if not body_match:
+                self.stdout.write(self.style.WARNING(f'skip parse writing #{n}'))
+                continue
+            q_text = body_match.group(1).strip()
+            expl = expl_match.group(1).strip() if expl_match else ''
+            if dry:
+                self.stdout.write(f'[dry] writing #{n}')
+            else:
+                Question.objects.create(
+                    level=level,
+                    question_type='writing',
+                    question_text=q_text,
+                    explanation=expl,
+                    question_number=n,
+                    writing_rubric=parse_writing_rubric(q_text),
+                )
+            added += 1
+        self.stdout.write(self.style.SUCCESS(f'writing: +{added}'))
+
     def _append_reading(self, level, min_passage, dry):
         path = Path(questions_file_abspath(level, 'reading_comprehesion_questions.txt'))
         content = path.read_text(encoding='utf-8')
+        # identifier は CharField(max_length=1) のため a–z のみ
         id_map = {
-            1: 'a', 2: 'b', 3: 'c', 4: 'd', 5: 'e', 6: 'f', 7: 'g', 8: 'h',
-            9: 'i', 10: 'j', 11: 'k', 12: 'l', 13: 'm', 14: 'n', 15: 'o',
+            i: chr(ord('a') + i - 1) for i in range(1, 27)
         }
         existing_ids = set(
             ReadingPassage.objects.filter(level=level).values_list('identifier', flat=True)

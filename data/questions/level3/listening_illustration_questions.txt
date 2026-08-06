@@ -957,3 +957,233 @@ Question No.40:
 2「It begins at noon.（正午に始まる。）」は開始時刻、1「I forgot my speech.（スピーチを忘れた。）」はスピーチを忘れた話で、会話の流れに合いません。
 
 ---
+
+---
+
+No.41:
+M: What is a popular book for young children?
+W: Here is a good one.
+M: What kind of book is it?
+
+Question No.41:
+1. It’s science fiction.
+2. I read it at school.
+3. They like animals.
+
+【正解41】
+1. It’s science fiction.
+
+【解説41】
+放送文
+M: What is a popular book for young children?
+W: Here is a good one.
+M: What kind of book is it?
+
+本の種類を聞いているので、1「It’s science fiction.（SFです。）」が自然です。2はいつ読んだか、3は好きなものの話で、種類の答えになりません。
+
+---
+
+No.42:
+M: Do you still have my history textbook?
+W: Yes, Scott.
+M: Well, I’ll need it next week.
+
+Question No.42:
+1. I can bring it tomorrow.
+2. I hope you can buy it.
+3. I’ll take a look.
+
+【正解42】
+1. I can bring it tomorrow.
+
+【解説42】
+放送文
+M: Do you still have my history textbook?
+W: Yes, Scott.
+M: Well, I’ll need it next week.
+
+来週必要、と言っているので、返す約束の1「I can bring it tomorrow.」が自然です。買ってほしい・探してみる、では「持っている」前提の流れに合いにくいです。
+
+---
+
+No.43:
+M: You need to clean your room, Jane.
+W: I’ll do it tomorrow.
+M: Why can’t you do it today?
+
+Question No.43:
+1. It’s in the living room.
+2. I have to study for a test.
+3. Thanks for helping me.
+
+【正解43】
+2. I have to study for a test.
+
+【解説43】
+放送文
+M: You need to clean your room, Jane.
+W: I’ll do it tomorrow.
+M: Why can’t you do it today?
+
+今日できない理由を聞いているので、2「I have to study for a test.」が自然です。場所やお礼では理由の答えになりません。
+
+---
+
+No.44:
+M: Here’s your steak. Would you like anything else?
+W: No, thanks.
+M: OK. Enjoy your meal.
+
+Question No.44:
+1. Yes, that’s fine.
+2. I’m sure I will.
+3. Just one, please.
+
+【正解44】
+2. I’m sure I will.
+
+【解説44】
+放送文
+M: Here’s your steak. Would you like anything else?
+W: No, thanks.
+M: OK. Enjoy your meal.
+
+「楽しんで」への返事なので、2「I’m sure I will.（きっとそうするよ。）」が自然です。1や3はこの締めのあいさつへの応答として弱くなります。
+
+---
+
+No.45:
+M: When are you going on vacation, Marge?
+W: In two weeks.
+M: Where will you go?
+
+Question No.45:
+1. To a beach in Thailand.
+2. Two or three of them, please.
+3. To my Spanish class.
+
+【正解45】
+1. To a beach in Thailand.
+
+【解説45】
+放送文
+M: When are you going on vacation, Marge?
+W: In two weeks.
+M: Where will you go?
+
+行き先を聞いているので、1「To a beach in Thailand.」が自然です。個数やクラスの話は場所の答えになりません。
+
+---
+
+No.46:
+W: What’s your favorite subject?
+M: I love studying English.
+W: How often do you study?
+
+Question No.46:
+1. After two months.
+2. For one hour every afternoon.
+3. I went to America last year.
+
+【正解46】
+2. For one hour every afternoon.
+
+【解説46】
+放送文
+W: What’s your favorite subject?
+M: I love studying English.
+W: How often do you study?
+
+頻度を聞いているので、2「For one hour every afternoon.」が自然です。「〜のあと」や過去の渡航は頻度の答えになりません。
+
+---
+
+No.47:
+M: Excuse me. Does this train stop at Green Hills?
+W: Yes. I get off there, too.
+M: That’s good to know. Thanks.
+
+Question No.47:
+1. I don’t take a train.
+2. It’s big.
+3. It’s my pleasure.
+
+【正解47】
+3. It’s my pleasure.
+
+【解説47】
+放送文
+M: Excuse me. Does this train stop at Green Hills?
+W: Yes. I get off there, too.
+M: That’s good to know. Thanks.
+
+お礼への定番の返事は、3「It’s my pleasure.（どういたしまして。）」です。電車に乗らない・大きい、はこのやりとりに合いません。
+
+---
+
+No.48:
+M: Has Naomi found her book?
+W: No, she still hasn’t.
+M: Did she check the classroom?
+
+Question No.48:
+1. She couldn’t find it there.
+2. It was in her bag.
+3. The teacher gave it to her.
+
+【正解48】
+1. She couldn’t find it there.
+
+【解説48】
+放送文
+M: Has Naomi found her book?
+W: No, she still hasn’t.
+M: Did she check the classroom?
+
+教室を調べたかへの答えなので、見つからなかった1が自然です。2や3は「まだ見つかっていない」という直前の話と矛盾しやすいです。
+
+---
+
+No.49:
+W: Tom, your shoes are old.
+M: I know. I’ve used them for two years.
+W: I can even see a hole.
+
+Question No.49:
+1. You went to the department store.
+2. Your socks are very pretty.
+3. Oh, I’ll get new ones.
+
+【正解49】
+3. Oh, I’ll get new ones.
+
+【解説49】
+放送文
+W: Tom, your shoes are old.
+M: I know. I’ve used them for two years.
+W: I can even see a hole.
+
+穴が空いている、と言われたあとの反応なので、3「新しいのを買う」が自然です。デパートに行った・靴下のほめ言葉では穴への応答になりません。
+
+---
+
+No.50:
+M: I want to go to the library.
+W: It’s going to rain soon.
+M: But I wanted to ride my bike there.
+
+Question No.50:
+1. Wait until it stops snowing.
+2. That’s not a good idea.
+3. I went for a walk.
+
+【正解50】
+2. That’s not a good idea.
+
+【解説50】
+放送文
+M: I want to go to the library.
+W: It’s going to rain soon.
+M: But I wanted to ride my bike there.
+
+雨なのに自転車で行こうとしているので、2「That’s not a good idea.」が自然です。雪の話や散歩した話は、この助言としてずれます。

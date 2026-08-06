@@ -1741,3 +1741,265 @@ B : ( ) of them. They all belong to my sister.
 `none of ～` で「～のどれも～ない」という意味です。10個すべてが妹のものなので、`None of them` で「どれも（私のものでは）ない」となります。Both（2つとも）/ Every（すべての）/ Another（もう一つの）は、10個の箱すべてが妹のものだという答えには合いません。
 
 ---
+
+---
+
+問題101:
+A : What do you like to do on weekends, Bob?
+B: I like to ( ) at home. I often watch a movie.
+
+選択肢101:
+1. move
+2. plan
+3. relax
+4. grow
+
+【正解101】
+3. relax
+
+【解説101】
+家で映画を見る、という流れなので「relax（くつろぐ）」が自然です。「move / plan / grow」では「家でくつろぐ」意味になりません。
+
+---
+
+問題102:
+A : Your shoes are so ( ), John.
+B: I know. I have to clean them.
+
+選択肢102:
+1. clever
+2. common
+3. dirty
+4. foolish
+
+【正解102】
+3. dirty
+
+【解説102】
+掃除が必要、と続くので「dirty（汚れている）」が自然です。「clever / common / foolish」は靴の汚れを表しません。
+
+---
+
+問題103:
+A : What happened to your leg, Bob?
+B: I had an ( ). I fell down the stairs this morning.
+
+選択肢103:
+1. accident
+2. advice
+3. adult
+4. addition
+
+【正解103】
+1. accident
+
+【解説103】
+階段から落ちた、という話なので「accident（事故）」が自然です。「advice / adult / addition」はけがの原因として合いません。
+
+---
+
+問題104:
+A : What is that building?
+B: It’s the library. It’s a ( ) of our city.
+
+選択肢104:
+1. sand
+2. symbol
+3. condition
+4. bottle
+
+【正解104】
+2. symbol
+
+【解説104】
+街の象徴、という説明なので「symbol」が自然です。「sand / condition / bottle」は建物の役割を表しません。
+
+---
+
+問題105:
+Mr. Jones went to a nice restaurant with his family. He ( ) some cake for dessert.
+
+選択肢105:
+1. arrived
+2. ordered
+3. taught
+4. believed
+
+【正解105】
+2. ordered
+
+【解説105】
+デザートを頼む、なので「ordered（注文した）」が自然です。「arrived / taught / believed」ではケーキを頼む意味になりません。
+
+---
+
+問題106:
+The tomato soup that Mike made didn’t ( ) good. It was too salty.
+
+選択肢106:
+1. taste
+2. carry
+3. find
+4. serve
+
+【正解106】
+1. taste
+
+【解説106】
+味がよくなかった、なので「taste」が自然です。「carry / find / serve」では「味がする」になりません。
+
+---
+
+問題107:
+A : It is a nice day today. Open the ( ), John.
+B: OK, Mom.
+
+選択肢107:
+1. sentence
+2. stadium
+3. florist
+4. curtain
+
+【正解107】
+4. curtain
+
+【解説107】
+開けて、と言っているので「curtain（カーテン）」が自然です。「sentence / stadium / florist」は開ける対象として不自然です。
+
+---
+
+問題108:
+I want a computer that is small ( ) to put in my backpack.
+
+選択肢108:
+1. again
+2. more
+3. never
+4. enough
+
+【正解108】
+4. enough
+
+【解説108】
+「small enough to …（〜するのに十分小さい）」の決まりの形です。「again / more / never」ではこの構文になりません。
+
+---
+
+問題109:
+A : Why did you ( ) away your green sweater?
+B: It was really old.
+
+選択肢109:
+1. fall
+2. throw
+3. hope
+4. shop
+
+【正解109】
+2. throw
+
+【解説109】
+古くて捨てた、なので「throw away（捨てる）」が自然です。「fall / hope / shop」では「捨てる」意味になりません。
+
+---
+
+問題110:
+On his way home from work, Jack gets ( ) the bus before his stop. He likes to walk for 30 minutes after sitting all day.
+
+選択肢110:
+1. again
+2. off
+3. up
+4. in
+
+【正解110】
+2. off
+
+【解説110】
+バス停より前で降りる、なので「get off（降りる）」が自然です。「again / up / in」では「バスを降りる」になりません。
+
+---
+
+問題111:
+A : Dad, can you give me a ( ) with my new TV? I need to bring it upstairs.
+B: Just a minute.
+
+選択肢111:
+1. hand
+2. face
+3. leg
+4. foot
+
+【正解111】
+1. hand
+
+【解説111】
+「give me a hand（手伝って）」の決まり文句です。「face / leg / foot」では手伝いの依頼になりません。
+
+---
+
+問題112:
+Ethan lives far ( ) school, so he has to take the bus.
+
+選択肢112:
+1. along
+2. below
+3. under
+4. from
+
+【正解112】
+4. from
+
+【解説112】
+「far from（〜から遠い）」が自然です。「along / below / under」では距離の表現として合いません。
+
+---
+
+問題113:
+Jack finished ( ) his room and then went to his friend’s house.
+
+選択肢113:
+1. clean
+2. cleaned
+3. cleaning
+4. cleans
+
+【正解113】
+3. cleaning
+
+【解説113】
+finish のあとは動名詞なので「cleaning」が正解です。「clean / cleaned / cleans」では finish の後ろの形として合いません。
+
+---
+
+問題114:
+Ken watched TV until twelve o’clock last night. His mother told him ( ) to bed earlier.
+
+選択肢114:
+1. going
+2. went
+3. to go
+4. goes
+
+【正解114】
+3. to go
+
+【解説114】
+tell A to do の形なので「to go」が正解です。「going / went / goes」では tell のあとの不定詞になりません。
+
+---
+
+問題115:
+Ellen is good at ( ). Her friends enjoy going to her house and eating her delicious food.
+
+選択肢115:
+1. cooking
+2. to cook
+3. cooked
+4. cooks
+
+【正解115】
+1. cooking
+
+【解説115】
+be good at のあとは動名詞なので「cooking」が正解です。「to cook / cooked / cooks」では at の後ろの形として合いません。

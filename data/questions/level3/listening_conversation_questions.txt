@@ -1179,3 +1179,303 @@ Question: What did Mr. Brown forget?（ブラウンさんは何を忘れまし�
 
 ブラウンさんが車の鍵を探していたので、2「His car keys.（車の鍵。）」が正解です。
 鍵はコートのポケットにあり、1財布・3切符・4コート自体を忘れたわけではありません。
+
+---
+
+No.41:
+M: Did you join the art club again this year, Kathy?
+W: No. I wanted to try something new, so I joined the dance club.
+M: I joined the swimming club.
+W: Sounds like fun.
+
+Question No.41:
+What club is Kathy in this year?
+
+1. The art club.
+2. The dance club.
+3. The music club.
+4. The swimming club.
+
+【正解41】
+2. The dance club.
+
+【解説41】
+放送文
+M: Did you join the art club again this year, Kathy?
+W: No. I wanted to try something new, so I joined the dance club.
+M: I joined the swimming club.
+W: Sounds like fun.
+
+Question: What club is Kathy in this year?
+
+Kathy は dance club に入った、と明言しているので 2 が正解です。art は今年はやめており、swimming は相手のクラブです。
+
+---
+
+No.42:
+M: I don’t want to go to the park. It’s too hot.
+W: But Sam, we planned to have a picnic!
+M: I’m sorry, but I hate this kind of weather.
+W: OK, let’s stay home.
+
+Question No.42:
+Why did they decide to stay home?
+
+1. Sam doesn’t like the park.
+2. Sam doesn’t like picnics.
+3. Sam doesn’t like hot days.
+4. Sam doesn’t like rainy days.
+
+【正解42】
+3. Sam doesn’t like hot days.
+
+【解説42】
+放送文
+M: I don’t want to go to the park. It’s too hot.
+W: But Sam, we planned to have a picnic!
+M: I’m sorry, but I hate this kind of weather.
+W: OK, let’s stay home.
+
+Question: Why did they decide to stay home?
+
+暑いのが嫌だ、と言って家にいることにしたので 3 が正解です。公園やピクニック自体が嫌い、雨の日の話ではありません。
+
+---
+
+No.43:
+M: Hey, Jane, let’s go and get something to eat.
+W: OK, Bob. Let’s go to the Chinese restaurant on 5th Street. It’s very popular.
+M: Sounds good, but isn’t it expensive?
+W: A little, but the food is really good.
+
+Question No.43:
+What does Jane think of the Chinese restaurant?
+
+1. It isn’t popular.
+2. It isn’t expensive.
+3. The food is good.
+4. The restaurant is small.
+
+【正解43】
+3. The food is good.
+
+【解説43】
+放送文
+M: Hey, Jane, let’s go and get something to eat.
+W: OK, Bob. Let’s go to the Chinese restaurant on 5th Street. It’s very popular.
+M: Sounds good, but isn’t it expensive?
+W: A little, but the food is really good.
+
+Question: What does Jane think of the Chinese restaurant?
+
+「the food is really good」と言っているので 3 が正解です。人気はある、少し高い、小ささの話はありません。
+
+---
+
+No.44:
+M: Let’s go shopping on Saturday afternoon, Betty.
+W: I’d love to, but I have to work.
+M: How about Sunday before lunch, then?
+W: Sure. Let’s meet at the station at ten.
+
+Question No.44:
+When will they meet?
+
+1. Saturday morning.
+2. Saturday afternoon.
+3. Sunday morning.
+4. Sunday afternoon.
+
+【正解44】
+3. Sunday morning.
+
+【解説44】
+放送文
+M: Let’s go shopping on Saturday afternoon, Betty.
+W: I’d love to, but I have to work.
+M: How about Sunday before lunch, then?
+W: Sure. Let’s meet at the station at ten.
+
+Question: When will they meet?
+
+日曜の昼食前・駅で10時、なので 3「Sunday morning」が正解です。土曜午後は仕事で行けません。
+
+---
+
+No.45:
+M: Where were you this morning? We had a science club meeting.
+W: Really?
+M: Yes. Mr. Burns told us about it yesterday.
+W: I wasn’t at school yesterday.
+
+Question No.45:
+What happened to the girl this morning?
+
+1. She missed a meeting.
+2. She couldn’t find Mr. Burns.
+3. She lost her science report.
+4. She was late for a test.
+
+【正解45】
+1. She missed a meeting.
+
+【解説45】
+放送文
+M: Where were you this morning? We had a science club meeting.
+W: Really?
+M: Yes. Mr. Burns told us about it yesterday.
+W: I wasn’t at school yesterday.
+
+Question: What happened to the girl this morning?
+
+今朝の科学クラブの会合にいなかった、ので 1 が正解です。
+
+---
+
+No.46:
+W: Ken, why aren’t you at school?
+M: Sorry, Mom. I woke up late this morning.
+W: I am very angry. Please go after breakfast.
+M: OK.
+
+Question No.46:
+Why is Ken’s mother angry?
+
+1. Ken did not make breakfast.
+2. Ken did not come home early.
+3. Ken has not cleaned his room.
+4. Ken has not left for school.
+
+【正解46】
+4. Ken has not left for school.
+
+【解説46】
+放送文
+W: Ken, why aren’t you at school?
+M: Sorry, Mom. I woke up late this morning.
+W: I am very angry. Please go after breakfast.
+M: OK.
+
+Question: Why is Ken’s mother angry?
+
+まだ学校へ行っていない（起き遅れた）ことに怒っているので 4 が正解です。
+
+---
+
+No.47:
+W: I’m reading a book about science.
+M: That sounds interesting. I want to read about history.
+W: You should read this mystery book.
+M: OK, I’ll borrow that instead.
+
+Question No.47:
+Which book will the boy borrow?
+
+1. A history book.
+2. A math book.
+3. A mystery book.
+4. A science book.
+
+【正解47】
+3. A mystery book.
+
+【解説47】
+放送文
+W: I’m reading a book about science.
+M: That sounds interesting. I want to read about history.
+W: You should read this mystery book.
+M: OK, I’ll borrow that instead.
+
+Question: Which book will the boy borrow?
+
+代わりに mystery book を借りる、と言っているので 3 が正解です。history は読みたいと思っていただけです。
+
+---
+
+No.48:
+W: Tom, do you want to play soccer after school?
+M: Sorry, I can’t. I’m going to the park with my cousin.
+W: Oh, I see. Well, have fun.
+M: Thanks.
+
+Question No.48:
+Who is Tom going to the park with?
+
+1. His friend.
+2. His parents.
+3. His cousin.
+4. His sister.
+
+【正解48】
+3. His cousin.
+
+【解説48】
+放送文
+W: Tom, do you want to play soccer after school?
+M: Sorry, I can’t. I’m going to the park with my cousin.
+W: Oh, I see. Well, have fun.
+M: Thanks.
+
+Question: Who is Tom going to the park with?
+
+「with my cousin」とあるので 3 が正解です。
+
+---
+
+No.49:
+M: Is this blue book yours, Sarah?
+W: No, mine has a green cover. I think it is Ken’s.
+M: No, his book is yellow.
+W: Then, it is probably Emily’s. Let’s ask her later.
+
+Question No.49:
+Which book is Sarah’s?
+
+1. The one with a green cover.
+2. The one with a red cover.
+3. The one with a blue cover.
+4. The one with a yellow cover.
+
+【正解49】
+1. The one with a green cover.
+
+【解説49】
+放送文
+M: Is this blue book yours, Sarah?
+W: No, mine has a green cover. I think it is Ken’s.
+M: No, his book is yellow.
+W: Then, it is probably Emily’s. Let’s ask her later.
+
+Question: Which book is Sarah’s?
+
+Sarah の本は green cover、と本人が言っているので 1 が正解です。青い本は今見ている本、黄色は Ken の本です。
+
+---
+
+No.50:
+W: What do you like to do in your free time, Mark?
+M: I love painting. How about you?
+W: I play the guitar and write songs.
+M: That’s cool.
+
+Question No.50:
+What does Mark do in his free time?
+
+1. He paints.
+2. He writes songs.
+3. He plays the guitar.
+4. He sings.
+
+【正解50】
+1. He paints.
+
+【解説50】
+放送文
+W: What do you like to do in your free time, Mark?
+M: I love painting. How about you?
+W: I play the guitar and write songs.
+M: That’s cool.
+
+Question: What does Mark do in his free time?
+
+Mark は painting が好き、と言っているので 1 が正解です。ギターや作曲は相手の趣味です。

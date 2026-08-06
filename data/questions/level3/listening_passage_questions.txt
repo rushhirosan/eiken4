@@ -955,3 +955,243 @@ It is hard work, but it makes me happy.（大変な仕事ですが、私は幸�
 Question: When does the girl volunteer at the animal shelter?（女の子はいつ動物保護施設でボランティアをしますか？）
 
 「毎週土曜日の午後に行く」と言っているので、3「On Saturday afternoons.（土曜日の午後。）」が正解です。2「On Saturday mornings.（土曜日の朝。）」は同じ曜日でも時間帯が違います。1「On Friday afternoons.（金曜日の午後。）」・4「On Sunday afternoons.（日曜日の午後。）」は本文にありません。
+
+---
+
+No.41:
+W: My mom is an elementary school teacher, and my dad teaches science at a high school. My friends think I’ll become a teacher, too, but I want to be a famous violinist.
+
+Question No.41:
+What does the girl want to be?
+
+1. A famous musician.
+2. A high school teacher.
+3. An elementary school teacher.
+4. A scientist.
+
+【正解41】
+1. A famous musician.
+
+【解説41】
+放送文
+W: My mom is an elementary school teacher, and my dad teaches science at a high school. My friends think I’ll become a teacher, too, but I want to be a famous violinist.
+
+Question: What does the girl want to be?
+
+有名なバイオリニストになりたい、なので 1「A famous musician」が正解です。教師は親の職業・友人の予想です。
+
+---
+
+No.42:
+M: Amy works five days a week, but next year, she’ll only work three. She wants to spend more time with her son. He’s only two years old.
+
+Question No.42:
+How many days a week does Amy work now?
+
+1. One.
+2. Two.
+3. Three.
+4. Five.
+
+【正解42】
+4. Five.
+
+【解説42】
+放送文
+M: Amy works five days a week, but next year, she’ll only work three. She wants to spend more time with her son. He’s only two years old.
+
+Question: How many days a week does Amy work now?
+
+今は週5日、来年は週3日、なので 4「Five」が正解です。Three は来年の予定です。
+
+---
+
+No.43:
+M: Rick wants money to buy a new bike. He wanted to work at his favorite restaurant, but the restaurant didn’t need any help. So he got a job at a supermarket. He’ll start next week.
+
+Question No.43:
+How will Rick get money to buy a bike?
+
+1. He’ll work at a supermarket.
+2. He’ll ask his parents.
+3. He’ll work at a restaurant.
+4. He’ll ask his grandparents.
+
+【正解43】
+1. He’ll work at a supermarket.
+
+【解説43】
+放送文
+M: Rick wants money to buy a new bike. He wanted to work at his favorite restaurant, but the restaurant didn’t need any help. So he got a job at a supermarket. He’ll start next week.
+
+Question: How will Rick get money to buy a bike?
+
+スーパーで働くことになった、ので 1 が正解です。レストランは採用されませんでした。
+
+---
+
+No.44:
+M: Mark wasn’t feeling well in school today and wanted to go home. His teacher called Mark’s mother. Mark’s mother came to school and took him to the doctor.
+
+Question No.44:
+What did Mark’s teacher do?
+
+1. She called Mark’s mother.
+2. She took Mark home.
+3. She took Mark to the doctor.
+4. She gave Mark some medicine.
+
+【正解44】
+1. She called Mark’s mother.
+
+【解説44】
+放送文
+M: Mark wasn’t feeling well in school today and wanted to go home. His teacher called Mark’s mother. Mark’s mother came to school and took him to the doctor.
+
+Question: What did Mark’s teacher do?
+
+先生がしたのは母親に電話することなので 1 が正解です。家や病院へ連れて行ったのは母親です。
+
+---
+
+No.45:
+W: I’m going to an important event, so I need some nice clothes. I already have nice shoes, but I need to get a new skirt. I’ll also wear the watch my brother gave me.
+
+Question No.45:
+What will the woman buy for the event?
+
+1. Gloves.
+2. Shoes.
+3. A watch.
+4. A skirt.
+
+【正解45】
+4. A skirt.
+
+【解説45】
+放送文
+W: I’m going to an important event, so I need some nice clothes. I already have nice shoes, but I need to get a new skirt. I’ll also wear the watch my brother gave me.
+
+Question: What will the woman buy for the event?
+
+新しく買う必要があるのはスカート、なので 4 が正解です。靴はすでにあり、時計は兄からもらったものです。
+
+---
+
+No.46:
+M: I usually make breakfast for my family. Today, I got up late, so my father made breakfast. He made pancakes for my brother and me. They were delicious.
+
+Question No.46:
+Who made breakfast today?
+
+1. The boy’s father.
+2. The boy’s mother.
+3. The boy’s brother.
+4. The boy.
+
+【正解46】
+1. The boy’s father.
+
+【解説46】
+放送文
+M: I usually make breakfast for my family. Today, I got up late, so my father made breakfast. He made pancakes for my brother and me. They were delicious.
+
+Question: Who made breakfast today?
+
+今日は父親が作った、ので 1 が正解です。普段作るのは少年本人です。
+
+---
+
+No.47:
+W: My brother is a college student. He gets up at seven, eats breakfast for half an hour, and leaves home at eight. He starts his classes at nine and studies until six.
+
+Question No.47:
+What time does the woman’s brother leave home?
+
+1. At 7:00.
+2. At 7:30.
+3. At 8:00.
+4. At 9:00.
+
+【正解47】
+3. At 8:00.
+
+【解説47】
+放送文
+W: My brother is a college student. He gets up at seven, eats breakfast for half an hour, and leaves home at eight. He starts his classes at nine and studies until six.
+
+Question: What time does the woman’s brother leave home?
+
+家を出るのは eight、なので 3 が正解です。7時は起床、9時は授業開始です。
+
+---
+
+No.48:
+W: Thank you for coming to our restaurant. Today’s special is chicken curry. It comes with fresh bread. The cook is making it in the kitchen now. Enjoy your meal.
+
+Question No.48:
+Where is the woman talking?
+
+1. In a supermarket.
+2. In a restaurant.
+3. In a library.
+4. In a train station.
+
+【正解48】
+2. In a restaurant.
+
+【解説48】
+放送文
+W: Thank you for coming to our restaurant. Today’s special is chicken curry. It comes with fresh bread. The cook is making it in the kitchen now. Enjoy your meal.
+
+Question: Where is the woman talking?
+
+レストランへの来店にお礼を言っているので 2 が正解です。
+
+---
+
+No.49:
+M: John went to the supermarket yesterday. He wanted to buy some chocolate, but the supermarket did not have any. He bought some apples and a bottle of orange juice instead.
+
+Question No.49:
+What did John want to buy?
+
+1. Some apples.
+2. Some chocolate.
+3. Some oranges.
+4. Some juice.
+
+【正解49】
+2. Some chocolate.
+
+【解説49】
+放送文
+M: John went to the supermarket yesterday. He wanted to buy some chocolate, but the supermarket did not have any. He bought some apples and a bottle of orange juice instead.
+
+Question: What did John want to buy?
+
+買いたかったのはチョコレート、なので 2 が正解です。りんごやジュースは代わりに買ったものです。
+
+---
+
+No.50:
+W: There was a big festival in my town last weekend. I went with my sister, and I met some of my friends there. I was happy to see them.
+
+Question No.50:
+Where did the woman go last weekend?
+
+1. To her sister’s house.
+2. To a museum.
+3. To her friend’s house.
+4. To a festival.
+
+【正解50】
+4. To a festival.
+
+【解説50】
+放送文
+W: There was a big festival in my town last weekend. I went with my sister, and I met some of my friends there. I was happy to see them.
+
+Question: Where did the woman go last weekend?
+
+町の大きなフェスティバルに行った、ので 4 が正解です。妹は同行者、友人はそこで会った相手です。
