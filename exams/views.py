@@ -23,6 +23,7 @@ from .models import (
     DailyProgress,
     Feedback,
     WritingUserAnswer,
+    SpeakingUserAnswer,
 )
 from django.db.models import Count, Q
 import random
@@ -97,6 +98,9 @@ def _has_submittable_answers(post):
     for key, value in post.items():
         if key.startswith('answer_') and (value or '').strip():
             return True
+    # スピーキングは「練習した」チェックで speaking_question_id を送る
+    if any((v or '').strip() for v in post.getlist('speaking_question_id')):
+        return True
     return False
 
 
@@ -351,6 +355,7 @@ QUESTION_TYPE_LABELS = {
     'word_order': '語順選択問題',
     'reading_comprehension': '長文読解問題',
     'writing': 'ライティング問題',
+    'speaking': 'スピーキング問題',
     'listening_illustration': 'リスニング第1部: イラスト問題',
     'listening_illustration_part3': 'リスニング第3部: イラスト一致問題',
     'listening_conversation': 'リスニング第2部: 会話問題',
@@ -542,21 +547,30 @@ def _exam_level_name(level_code):
 
 
 def _extra_display_progress(user, level_code, foundation_progress):
-    """UI-only progress rows (e.g. 3級ライティングは解放条件外だが進捗は表示)."""
-    if str(level_code) != '3':
-        return []
-    if any(item['question_type'] == 'writing' for item in foundation_progress):
-        return []
-    total_questions = _total_questions_for_type(level_code, 'writing')
-    if total_questions <= 0:
-        return []
-    return [{
-        'question_type': 'writing',
-        'display_name': QUESTION_TYPE_LABELS.get('writing', 'writing'),
-        'progress_rate': _progress_rate_for_type(user, level_code, 'writing'),
-        'total_questions': total_questions,
-        'counts_toward_mock': False,
-    }]
+    """UI-only progress rows（解放条件外だがメニューに進捗を出すカテゴリ）。"""
+    extras = []
+    existing = {item['question_type'] for item in foundation_progress}
+    level_code = str(level_code)
+
+    def _append(question_type):
+        if question_type in existing:
+            return
+        total_questions = _total_questions_for_type(level_code, question_type)
+        if total_questions <= 0:
+            return
+        extras.append({
+            'question_type': question_type,
+            'display_name': QUESTION_TYPE_LABELS.get(question_type, question_type),
+            'progress_rate': _progress_rate_for_type(user, level_code, question_type),
+            'total_questions': total_questions,
+            'counts_toward_mock': False,
+        })
+
+    if level_code == '3':
+        _append('writing')
+    if level_code == '5':
+        _append('speaking')
+    return extras
 
 
 def _build_exam_section(user, level_code, level_name, daily_goal=3):
@@ -566,6 +580,7 @@ def _build_exam_section(user, level_code, level_name, daily_goal=3):
         'word_order': '語順選択問題',
         'reading_comprehension': '長文読解問題',
         'writing': 'ライティング問題',
+        'speaking': 'スピーキング問題',
         'listening_conversation': 'リスニング第2部: 会話問題',
         'listening_illustration': 'リスニング第1部: イラスト問題',
         'listening_passage': 'リスニング第3部: 文章問題',
@@ -583,6 +598,7 @@ def _build_exam_section(user, level_code, level_name, daily_goal=3):
         question_counts['listening_illustration'] = _total_questions_for_type(
             level_code, 'listening_illustration'
         )
+        question_counts['speaking'] = _total_questions_for_type(level_code, 'speaking')
     unlock_status = _build_exam_unlock_status(user, level_code)
     foundation_rows = (
         unlock_status.get('foundation_progress', [])
@@ -685,6 +701,10 @@ def question_list(request, level=None, exam_id=None):
         messages.info(request, 'ライティング問題は英検3級のみです。')
         return redirect('exams:exam_list')
 
+    if question_type == 'speaking' and str(level) != '5':
+        messages.info(request, 'スピーキング問題は現在英検5級のみです。')
+        return redirect('exams:exam_list')
+
     if _is_level5_only_type(level, question_type):
         messages.info(request, 'この問題形式は英検5級にはありません。')
         return redirect('exams:exam_list')
@@ -698,6 +718,7 @@ def question_list(request, level=None, exam_id=None):
         'word_order': '語順選択問題',
         'reading_comprehension': '長文読解問題',
         'writing': 'ライティング問題',
+        'speaking': 'スピーキング問題',
         'listening_conversation': 'リスニング第2部: 会話問題',
         'listening_illustration': 'リスニング第1部: イラスト問題',
         'listening_illustration_part3': 'リスニング第3部: イラスト一致問題',
@@ -735,6 +756,14 @@ def question_list(request, level=None, exam_id=None):
             10: '10問',
             20: '20問',
             30: '30問',
+            'all': '全て',
+        }
+    elif question_type == 'speaking':
+        question_count_options = {
+            1: '1問',
+            3: '3問',
+            5: '5問',
+            8: '8問',
             'all': '全て',
         }
     
@@ -1303,6 +1332,55 @@ def question_list(request, level=None, exam_id=None):
         }
         return render(request, 'exams/question_list.html', context)
 
+    elif question_type == 'speaking':
+        questions = list(
+            Question.objects.filter(
+                level=str(level), question_type='speaking'
+            ).order_by('question_number')
+        )
+        sa_query = SpeakingUserAnswer.objects.filter(
+            user=request.user,
+            question__in=questions,
+        ).order_by('-answered_at')
+        sa_by_qid = {}
+        for sa in sa_query:
+            if sa.question_id not in sa_by_qid:
+                sa_by_qid[sa.question_id] = sa
+
+        if status == 'unanswered':
+            questions = [q for q in questions if q.id not in sa_by_qid]
+        elif status == 'correct':
+            questions = [q for q in questions if q.id in sa_by_qid]
+        elif status == 'incorrect':
+            questions = []
+
+        if num_questions != 'all' and len(questions) > num_questions:
+            questions = random.sample(questions, num_questions)
+            questions.sort(key=lambda x: x.question_number)
+
+        questions_with_answers = []
+        for question in questions:
+            sa = sa_by_qid.get(question.id)
+            data = question.speaking_data or {}
+            questions_with_answers.append({
+                'question': question,
+                'speaking_data': data,
+                'user_answers': (sa.response_json if sa else {}) or {},
+                'practiced': sa is not None,
+                'explanation': question.explanation,
+            })
+
+        context = {
+            'level': level,
+            'question_type': question_type,
+            'question_type_display': question_types.get(question_type, ''),
+            'num_questions': num_questions,
+            'status': status,
+            'questions': questions_with_answers,
+            'question_count_options': question_count_options,
+        }
+        return render(request, 'exams/speaking_practice.html', context)
+
     else:
         # 通常の問題の場合
         questions = Question.objects.filter(level=str(level), question_type=question_type).order_by('question_number')
@@ -1522,10 +1600,13 @@ def submit_reading_comprehension(request, level):
 @login_required
 def submit_answers(request, level):
     if request.method == 'POST':
-        question_type = request.POST.get('question_type')
+        question_type = request.POST.get('question_type') or request.GET.get('type')
         level = int(level)  # URLパラメータから取得したlevelを使用
         if question_type == 'writing' and str(level) != '3':
             messages.info(request, 'ライティング問題は英検3級のみです。')
+            return redirect('exams:exam_list')
+        if question_type == 'speaking' and str(level) != '5':
+            messages.info(request, 'スピーキング問題は現在英検5級のみです。')
             return redirect('exams:exam_list')
         if not _has_submittable_answers(request.POST):
             return _redirect_empty_submission(request, level, question_type)
@@ -1698,6 +1779,46 @@ def submit_answers(request, level):
             request.session[f'answered_questions_{question_type}_{level}'] = post_question_ids
 
             return redirect('exams:answer_results', level=level, question_type=question_type)
+
+        elif question_type == 'speaking':
+            if str(level) != '5':
+                messages.info(request, 'スピーキング問題は現在英検5級のみです。')
+                return redirect('exams:exam_list')
+
+            raw_ids = request.POST.getlist('speaking_question_id')
+            post_question_ids = []
+            for raw in raw_ids:
+                try:
+                    post_question_ids.append(int(raw))
+                except (TypeError, ValueError):
+                    continue
+
+            SpeakingUserAnswer.objects.filter(
+                user=request.user,
+                question_id__in=post_question_ids,
+            ).delete()
+
+            for question_id in post_question_ids:
+                try:
+                    question = Question.objects.get(
+                        id=question_id, level=str(level), question_type='speaking'
+                    )
+                except Question.DoesNotExist:
+                    continue
+                response_json = {
+                    'q1': (request.POST.get(f'speaking_answer_{question_id}_1') or '').strip(),
+                    'q2': (request.POST.get(f'speaking_answer_{question_id}_2') or '').strip(),
+                    'q3': (request.POST.get(f'speaking_answer_{question_id}_3') or '').strip(),
+                }
+                SpeakingUserAnswer.objects.create(
+                    user=request.user,
+                    question_id=question_id,
+                    response_json=response_json,
+                )
+                update_user_progress(request.user, str(level), 'speaking', True)
+
+            request.session[f'answered_questions_{question_type}_{level}'] = post_question_ids
+            return redirect('exams:answer_results', level=level, question_type=question_type)
         
         else:
             # 通常の問題の場合
@@ -1815,6 +1936,9 @@ def submit_answers(request, level):
 def answer_results(request, level, question_type):
     if question_type == 'writing' and str(level) != '3':
         messages.info(request, 'ライティング問題は英検3級のみです。')
+        return redirect('exams:exam_list')
+    if question_type == 'speaking' and str(level) != '5':
+        messages.info(request, 'スピーキング問題は現在英検5級のみです。')
         return redirect('exams:exam_list')
     if question_type in ('random', 'mock_exam'):
         session_key = f'answered_questions_{question_type}_{level}'
@@ -2069,6 +2193,39 @@ def answer_results(request, level, question_type):
             'question_type': question_type,
             'answers_with_questions': answers_with_questions,
             'correct_count': submitted,
+            'total_count': len(user_answers),
+        }
+        return _finalize_and_render_answer_results(request, context)
+
+    elif question_type == 'speaking':
+        session_key = f'answered_questions_{question_type}_{level}'
+        answered_question_ids = request.session.get(session_key, [])
+        order_dict = {
+            qid: idx for idx, qid in enumerate(answered_question_ids)
+        }
+        user_answers = SpeakingUserAnswer.objects.filter(
+            user=request.user,
+            question_id__in=answered_question_ids,
+        ).select_related('question')
+
+        answers_with_questions = []
+        for answer in user_answers:
+            data = answer.question.speaking_data or {}
+            answers_with_questions.append({
+                'question': answer.question,
+                'speaking_data': data,
+                'user_answers': answer.response_json or {},
+                'is_correct': None,
+                'explanation': answer.question.explanation,
+                'order': order_dict.get(answer.question.id, 0),
+            })
+        answers_with_questions.sort(key=lambda x: x['order'])
+
+        context = {
+            'level': level,
+            'question_type': question_type,
+            'answers_with_questions': answers_with_questions,
+            'correct_count': len(user_answers),
             'total_count': len(user_answers),
         }
         return _finalize_and_render_answer_results(request, context)
@@ -2437,6 +2594,12 @@ def _distinct_answered_question_count(user, level, question_type):
             question__level=str(level),
             question__question_type='writing',
         ).values('question_id').distinct().count()
+    if question_type == 'speaking':
+        return SpeakingUserAnswer.objects.filter(
+            user=user,
+            question__level=str(level),
+            question__question_type='speaking',
+        ).values('question_id').distinct().count()
     return UserAnswer.objects.filter(
         user=user,
         question__level=level,
@@ -2633,6 +2796,7 @@ def _clear_user_progress_for_level(user, level):
     UserProgress.objects.filter(user=user, level=level_str).delete()
     UserAnswer.objects.filter(user=user, question__level=level_str).delete()
     WritingUserAnswer.objects.filter(user=user, question__level=level_str).delete()
+    SpeakingUserAnswer.objects.filter(user=user, question__level=level_str).delete()
     ReadingUserAnswer.objects.filter(
         user=user,
         reading_question__passage__level=level_str,

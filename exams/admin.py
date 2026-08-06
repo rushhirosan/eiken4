@@ -6,6 +6,7 @@ from .models import (
     ReadingUserAnswer,
     Feedback,
     WritingUserAnswer,
+    SpeakingUserAnswer,
     UserStreak,
     UserBadge,
 )
@@ -45,6 +46,13 @@ class WritingUserAnswerAdmin(admin.ModelAdmin):
     list_display = ('user', 'question', 'answered_at')
     list_filter = ('user', 'answered_at')
     search_fields = ('user__username', 'response_text', 'question__question_text')
+
+
+@admin.register(SpeakingUserAnswer)
+class SpeakingUserAnswerAdmin(admin.ModelAdmin):
+    list_display = ('user', 'question', 'answered_at')
+    list_filter = ('user', 'answered_at')
+    search_fields = ('user__username', 'question__question_text')
 
 
 @admin.register(UserStreak)

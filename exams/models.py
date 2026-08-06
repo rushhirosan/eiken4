@@ -36,6 +36,7 @@ class Question(models.Model):
         ('word_order', '語順選択問題'),
         ('reading_comprehension', '長文読解問題'),
         ('writing', 'ライティング問題'),
+        ('speaking', 'スピーキング問題'),
         ('listening_conversation', 'リスニング第2部: 会話問題'),
         ('listening_illustration', 'リスニング第1部: イラスト問題'),
         ('listening_passage', 'リスニング第3部: 文章問題'),
@@ -50,6 +51,11 @@ class Question(models.Model):
         null=True,
         blank=True,
         help_text='ライティング自己チェック用ルーブリック（登録時に問題文から抽出）',
+    )
+    speaking_data = models.JSONField(
+        null=True,
+        blank=True,
+        help_text='スピーキング用（title / passage / questions）',
     )
     passage = models.ForeignKey('self', on_delete=models.CASCADE, null=True, blank=True, related_name='related_questions')
     identifier = models.CharField(max_length=10, blank=True, help_text='本文の識別子（a, bなど）または問題の識別子（a1, b1など）')
@@ -126,6 +132,25 @@ class WritingUserAnswer(models.Model):
 
     def __str__(self):
         return f"{self.user.username} - writing Q{self.question_id}"
+
+
+class SpeakingUserAnswer(models.Model):
+    """スピーキング練習の記録。採点はせず、参考解答と見比べる自己学習。"""
+
+    user = models.ForeignKey(CustomUser, on_delete=models.CASCADE)
+    question = models.ForeignKey(Question, on_delete=models.CASCADE)
+    response_json = models.JSONField(
+        null=True,
+        blank=True,
+        help_text='任意のテキスト回答 {"q1": "...", "q2": "...", "q3": "..."}',
+    )
+    answered_at = models.DateTimeField(auto_now_add=True)
+
+    class Meta:
+        ordering = ['-answered_at']
+
+    def __str__(self):
+        return f"{self.user.username} - speaking Q{self.question_id}"
 
 class ReadingUserAnswer(models.Model):
     user = models.ForeignKey(CustomUser, on_delete=models.CASCADE)

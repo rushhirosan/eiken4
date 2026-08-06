@@ -1,0 +1,306 @@
+{% extends 'accounts/base.html' %}
+{% load static %}
+
+{% block title %}スピーキング問題 - 英検対策 | Eiken Practice{% endblock %}
+
+{% block extra_css %}
+<link href="{% static 'css/question_list.css' %}" rel="stylesheet">
+{% endblock %}
+
+{% block content %}
+<div class="container mt-4 mb-5 speaking-practice">
+    <nav aria-label="breadcrumb" class="mb-3">
+        <ol class="breadcrumb">
+            <li class="breadcrumb-item"><a href="{% url 'exams:exam_list' %}" class="text-decoration-none">問題一覧</a></li>
+            <li class="breadcrumb-item active" aria-current="page">スピーキング問題</li>
+        </ol>
+    </nav>
+
+    <h1 class="mb-2 app-page-title">スピーキング問題</h1>
+    <p class="text-muted mb-4">
+        5級のスピーキングは任意受験です（級の合否には影響しません）。
+        公式と同じ流れで練習します（黙読 → 音読 → 内容質問2問 → 自分のこと1問）。
+        自動採点はありません。声に出して答え、参考解答と見比べてください。
+    </p>
+
+    <div class="card mb-4">
+        <div class="card-body">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="form-group">
+                        <label for="status">状態</label>
+                        <select class="form-control" id="status" onchange="updateSpeakingFilters()">
+                            <option value="all"{% if status == 'all' %} selected{% endif %}>全て</option>
+                            <option value="unanswered"{% if status == 'unanswered' %} selected{% endif %}>未練習</option>
+                            <option value="correct"{% if status == 'correct' %} selected{% endif %}>練習済み</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="form-group">
+                        <label for="num_questions">問題数</label>
+                        <select class="form-control" id="num_questions" onchange="updateSpeakingFilters()">
+                            {% for value, label in question_count_options.items %}
+                            <option value="{{ value }}"{% if num_questions|stringformat:"s" == value|stringformat:"s" %} selected{% endif %}>{{ label }}</option>
+                            {% endfor %}
+                        </select>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    {% if not questions %}
+    <div class="alert alert-light border">表示できるスピーキング問題がありません。状態を「全て」に変えてみてください。</div>
+    {% else %}
+    <form method="post" action="{% url 'exams:submit_answers' level=level %}?type=speaking" id="speakingForm">
+        {% csrf_token %}
+        <input type="hidden" name="question_type" value="speaking">
+        <input type="hidden" name="num_questions" value="{{ num_questions }}">
+        <input type="hidden" name="status" value="{{ status }}">
+
+        {% for item in questions %}
+        {% with q=item.question data=item.speaking_data %}
+        <div class="card mb-4 speaking-card shadow-sm" data-question-id="{{ q.id }}" data-silent-seconds="{{ data.silent_seconds|default:20 }}">
+            <div class="card-header bg-white d-flex justify-content-between align-items-center">
+                <div>
+                    <span class="fw-semibold">問題 {{ forloop.counter }}</span>
+                    {% if data.title %}<span class="text-muted">— {{ data.title }}</span>{% endif %}
+                </div>
+                {% if item.practiced %}
+                <span class="badge bg-success">練習済み</span>
+                {% else %}
+                <span class="badge bg-secondary">未練習</span>
+                {% endif %}
+            </div>
+            <div class="card-body">
+                <input type="hidden" name="speaking_question_id" value="{{ q.id }}" disabled class="speaking-id-input">
+
+                <div class="speaking-steps">
+                    <div class="speaking-step" data-step="0">
+                        <p class="mb-2 fw-semibold">準備</p>
+                        <ol class="small text-muted mb-3">
+                            <li>パッセージを黙読する（約20秒）</li>
+                            <li>声に出して音読する</li>
+                            <li>内容についての質問に答える（No.1・No.2）</li>
+                            <li>自分自身についての質問に答える（No.3）</li>
+                        </ol>
+                        <button type="button" class="btn btn-primary speaking-next">黙読をはじめる</button>
+                    </div>
+
+                    <div class="speaking-step d-none" data-step="1">
+                        <div class="d-flex justify-content-between align-items-center mb-2">
+                            <p class="mb-0 fw-semibold">Step 1: 黙読</p>
+                            <span class="badge bg-info speaking-timer">20</span>
+                        </div>
+                        <p class="small text-muted">声は出さず、カードを読んでください。</p>
+                        <div class="speaking-passage-box mb-3">
+                            <div class="speaking-title">{{ data.title }}</div>
+                            <div class="speaking-passage">{{ data.passage }}</div>
+                        </div>
+                        <button type="button" class="btn btn-primary speaking-next" disabled>音読へ</button>
+                    </div>
+
+                    <div class="speaking-step d-none" data-step="2">
+                        <p class="mb-2 fw-semibold">Step 2: 音読</p>
+                        <p class="small text-muted">声に出して、はっきり読んでください。</p>
+                        <div class="speaking-passage-box mb-3">
+                            <div class="speaking-title">{{ data.title }}</div>
+                            <div class="speaking-passage">{{ data.passage }}</div>
+                        </div>
+                        <button type="button" class="btn btn-primary speaking-next">音読した → 質問へ</button>
+                    </div>
+
+                    {% for sq in data.questions %}
+                    <div class="speaking-step d-none" data-step="{{ forloop.counter|add:2 }}">
+                        <p class="mb-2 fw-semibold">
+                            Step {{ forloop.counter|add:2 }}: No.{{ sq.number }}
+                            {% if sq.personal %}<span class="badge bg-warning text-dark ms-1">自分のこと</span>{% endif %}
+                        </p>
+                        <p class="fs-5 mb-3">{{ sq.prompt }}</p>
+                        <p class="small text-muted">まず声で答えてください。メモしたいときだけ下に書いてOKです（任意）。</p>
+                        <textarea
+                            class="form-control mb-3"
+                            name="speaking_answer_{{ q.id }}_{{ sq.number }}"
+                            rows="2"
+                            placeholder="任意：自分の答えをメモ"
+                        >{% if sq.number == 1 %}{{ item.user_answers.q1 }}{% elif sq.number == 2 %}{{ item.user_answers.q2 }}{% else %}{{ item.user_answers.q3 }}{% endif %}</textarea>
+                        <button type="button" class="btn btn-primary speaking-next">
+                            {% if forloop.last %}参考解答を見る{% else %}次の質問へ{% endif %}
+                        </button>
+                    </div>
+                    {% endfor %}
+
+                    <div class="speaking-step d-none" data-step="review">
+                        <p class="mb-2 fw-semibold">参考解答</p>
+                        <div class="speaking-passage-box mb-3">
+                            <div class="speaking-title">{{ data.title }}</div>
+                            <div class="speaking-passage">{{ data.passage }}</div>
+                        </div>
+                        {% for sq in data.questions %}
+                        <div class="mb-3">
+                            <div class="fw-semibold">No.{{ sq.number }} {{ sq.prompt }}</div>
+                            {% if sq.sample_answers %}
+                            <div class="text-success small">例: {{ sq.sample_answers|join:" / " }}</div>
+                            {% endif %}
+                        </div>
+                        {% endfor %}
+                        {% if item.explanation %}
+                        <div class="alert alert-info small">{{ item.explanation|linebreaks }}</div>
+                        {% endif %}
+                        <div class="form-check mb-3">
+                            <input class="form-check-input speaking-done-check" type="checkbox" id="done-{{ q.id }}">
+                            <label class="form-check-label" for="done-{{ q.id }}">このカードを練習した</label>
+                        </div>
+                        <button type="button" class="btn btn-outline-secondary btn-sm speaking-restart">最初からやり直す</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        {% endwith %}
+        {% endfor %}
+
+        <div class="sticky-bottom-actions border-top bg-white py-3 px-3">
+            <button type="submit" class="btn btn-success" id="speakingSubmit" disabled>練習完了として記録する</button>
+            <span class="small text-muted ms-2" id="speakingSubmitHint">カード下部の「このカードを練習した」にチェックを入れてください</span>
+        </div>
+    </form>
+    {% endif %}
+</div>
+
+<style>
+.speaking-passage-box {
+    background: #f8f9fc;
+    border: 1px solid rgba(26, 31, 54, 0.12);
+    border-radius: 0.75rem;
+    padding: 1rem 1.15rem;
+}
+.speaking-title {
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+    color: #1a1f36;
+}
+.speaking-passage {
+    white-space: pre-line;
+    line-height: 1.7;
+    font-size: 1.05rem;
+}
+.sticky-bottom-actions {
+    position: sticky;
+    bottom: 0;
+    z-index: 10;
+}
+.speaking-card.is-done {
+    border-color: rgba(25, 135, 84, 0.45);
+}
+</style>
+
+<script>
+function updateSpeakingFilters() {
+    const status = document.getElementById('status').value;
+    const numQuestions = document.getElementById('num_questions').value;
+    const url = new URL(window.location.href);
+    url.searchParams.set('type', 'speaking');
+    url.searchParams.set('status', status);
+    url.searchParams.set('num_questions', numQuestions);
+    window.location.href = url.toString();
+}
+
+(function () {
+    function showStep(card, stepKey) {
+        card.querySelectorAll('.speaking-step').forEach(function (el) {
+            el.classList.toggle('d-none', el.getAttribute('data-step') !== String(stepKey));
+        });
+    }
+
+    function startSilentTimer(card) {
+        const seconds = parseInt(card.getAttribute('data-silent-seconds') || '20', 10);
+        const step = card.querySelector('.speaking-step[data-step="1"]');
+        const timer = step.querySelector('.speaking-timer');
+        const nextBtn = step.querySelector('.speaking-next');
+        let remaining = seconds;
+        nextBtn.disabled = true;
+        timer.textContent = String(remaining);
+        if (card._silentTimer) {
+            clearInterval(card._silentTimer);
+        }
+        card._silentTimer = setInterval(function () {
+            remaining -= 1;
+            if (remaining <= 0) {
+                clearInterval(card._silentTimer);
+                timer.textContent = '0';
+                nextBtn.disabled = false;
+                return;
+            }
+            timer.textContent = String(remaining);
+        }, 1000);
+    }
+
+    function updateSubmitState() {
+        const checks = document.querySelectorAll('.speaking-done-check:checked');
+        const submit = document.getElementById('speakingSubmit');
+        const hint = document.getElementById('speakingSubmitHint');
+        if (!submit) return;
+        const ready = checks.length > 0;
+        submit.disabled = !ready;
+        if (hint) {
+            hint.textContent = ready
+                ? checks.length + ' カードを記録します'
+                : 'カード下部の「このカードを練習した」にチェックを入れてください';
+        }
+    }
+
+    document.querySelectorAll('.speaking-card').forEach(function (card) {
+        const numericSteps = Array.from(card.querySelectorAll('.speaking-step'))
+            .map(function (el) { return el.getAttribute('data-step'); })
+            .filter(function (s) { return s !== 'review' && /^\d+$/.test(s); })
+            .map(Number)
+            .sort(function (a, b) { return a - b; });
+
+        card.querySelectorAll('.speaking-next').forEach(function (btn) {
+            btn.addEventListener('click', function () {
+                const current = card.querySelector('.speaking-step:not(.d-none)');
+                const currentKey = current ? current.getAttribute('data-step') : '0';
+                if (currentKey === '0') {
+                    showStep(card, '1');
+                    startSilentTimer(card);
+                    return;
+                }
+                const currentNum = parseInt(currentKey, 10);
+                const idx = numericSteps.indexOf(currentNum);
+                if (idx >= 0 && idx < numericSteps.length - 1) {
+                    showStep(card, String(numericSteps[idx + 1]));
+                    return;
+                }
+                showStep(card, 'review');
+            });
+        });
+
+        const restart = card.querySelector('.speaking-restart');
+        if (restart) {
+            restart.addEventListener('click', function () {
+                const idInput = card.querySelector('.speaking-id-input');
+                const done = card.querySelector('.speaking-done-check');
+                if (idInput) idInput.disabled = true;
+                if (done) done.checked = false;
+                card.classList.remove('is-done');
+                showStep(card, '0');
+                updateSubmitState();
+            });
+        }
+
+        const done = card.querySelector('.speaking-done-check');
+        const idInput = card.querySelector('.speaking-id-input');
+        if (done) {
+            done.addEventListener('change', function () {
+                if (idInput) idInput.disabled = !done.checked;
+                card.classList.toggle('is-done', done.checked);
+                updateSubmitState();
+            });
+        }
+    });
+
+    updateSubmitState();
+})();
+</script>
+{% endblock %}

@@ -18,6 +18,12 @@
                 提出した問題: {{ correct_count }} / {{ total_count }}
                 <span class="text-muted small d-block mt-1">ライティングは自動採点しません。語数の目安と参考解答で自己チェックしてください（文数はピリオドで数えた目安です）。</span>
             </p>
+            {% elif question_type == 'speaking' %}
+            <h5 class="card-title">練習完了</h5>
+            <p class="card-text mb-0">
+                練習したカード: {{ correct_count }} / {{ total_count }}
+                <span class="text-muted small d-block mt-1">スピーキングは自動採点しません。声に出して練習し、参考解答と見比べてください。</span>
+            </p>
             {% else %}
             <h5 class="card-title">正解率</h5>
             <p class="card-text">
@@ -146,6 +152,36 @@
                 {% include 'exams/_writing_feedback.html' %}
                 {% if answer.explanation %}
                 <h6 class="mt-4">参考解答・ヒント（協会解答例など）</h6>
+                <div class="alert alert-info mb-0">{{ answer.explanation|linebreaks }}</div>
+                {% endif %}
+            </div>
+        </div>
+        {% endfor %}
+    {% elif question_type == 'speaking' %}
+        {% for answer in answers_with_questions %}
+        <div class="card mb-4">
+            <div class="card-body">
+                <h5 class="card-title">問題 {{ forloop.counter }}{% if answer.speaking_data.title %} — {{ answer.speaking_data.title }}{% endif %}</h5>
+                <div class="p-3 mb-3 border rounded bg-light">
+                    <div class="fw-semibold mb-2">{{ answer.speaking_data.title }}</div>
+                    <div style="white-space: pre-line;">{{ answer.speaking_data.passage }}</div>
+                </div>
+                {% for q in answer.speaking_data.questions %}
+                <div class="mb-3">
+                    <div class="fw-semibold">No.{{ q.number }} {{ q.prompt }}</div>
+                    <div class="small text-muted">あなたの答え（任意）:
+                        {% if q.number == 1 %}{{ answer.user_answers.q1|default:"（声で練習）" }}
+                        {% elif q.number == 2 %}{{ answer.user_answers.q2|default:"（声で練習）" }}
+                        {% else %}{{ answer.user_answers.q3|default:"（声で練習）" }}
+                        {% endif %}
+                    </div>
+                    {% if q.sample_answers %}
+                    <div class="small mt-1">参考: {{ q.sample_answers|join:" / " }}</div>
+                    {% endif %}
+                </div>
+                {% endfor %}
+                {% if answer.explanation %}
+                <h6 class="mt-3">参考解答・ヒント</h6>
                 <div class="alert alert-info mb-0">{{ answer.explanation|linebreaks }}</div>
                 {% endif %}
             </div>

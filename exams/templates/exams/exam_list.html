@@ -282,6 +282,31 @@
                             </div>
                             {% endif %}
                         </div>
+
+                        {% if section.level_code == '5' %}
+                        <!-- スピーキング（4・5級は任意・一次の合否に影響しない） -->
+                        <div class="row mt-4 g-3">
+                            <div class="col-12">
+                                <h5 class="exam-format-section-label mb-2 h6 fw-semibold">
+                                    <i class="fas fa-microphone-alt me-2"></i>
+                                    スピーキング（任意）
+                                </h5>
+                                <p class="small text-muted mb-2">
+                                    5級のスピーキングは任意受験です。級の合否には影響しません（ネット録音形式）。
+                                </p>
+                            </div>
+                            <div class="col-md-6 exam-format-item">
+                                <a href="{% url 'exams:question_list_by_level' level=section.level_code %}?type=speaking"
+                                   class="btn btn-light shadow-sm text-dark w-100 py-2">
+                                    <i class="fas fa-comments me-2"></i>
+                                    スピーキング問題（{{ section.question_counts.speaking }}問）
+                                </a>
+                                {% with progress_item=section.foundation_progress_by_type.speaking %}
+                                {% include 'exams/_foundation_progress.html' %}
+                                {% endwith %}
+                            </div>
+                        </div>
+                        {% endif %}
                     </div>
                 </div>
             </div>

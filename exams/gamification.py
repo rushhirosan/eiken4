@@ -46,6 +46,7 @@ MISSION_TYPE_LABELS = {
     'word_order': '語順選択問題',
     'reading_comprehension': '長文読解問題',
     'writing': 'ライティング問題',
+    'speaking': 'スピーキング問題',
     'listening_illustration': 'リスニング第1部',
     'listening_illustration_part3': 'リスニング第3部',
     'listening_conversation': 'リスニング第2部',
@@ -57,6 +58,7 @@ MISSION_SHORT_LABELS = {
     'word_order': '語順選択',
     'reading_comprehension': '長文読解',
     'writing': 'ライティング',
+    'speaking': 'スピーキング',
     'listening_illustration': 'リスニング第1部',
     'listening_illustration_part3': 'リスニング第3部',
     'listening_conversation': 'リスニング第2部',
@@ -118,9 +120,10 @@ BADGE_LEVELS = {
 
 
 def counts_toward_mock_unlock(level, question_type):
-    """3級ライティングは模擬試験の出題・解放条件の双方に含めない。"""
-    return not (str(level) == '3' and question_type == 'writing')
-
+    """ライティング・スピーキングは模擬試験の出題・解放条件に含めない。"""
+    if question_type in ('writing', 'speaking'):
+        return False
+    return True
 
 def random_scope_description(level):
     """ランダム10問の出題範囲（級別）をユーザー向けに返す。"""
@@ -313,7 +316,7 @@ def _count_today_attempts_for_type(user, level, question_type):
 
     from questions.models import ListeningUserAnswer
 
-    from .models import ReadingUserAnswer, UserAnswer, WritingUserAnswer
+    from .models import ReadingUserAnswer, SpeakingUserAnswer, UserAnswer, WritingUserAnswer
 
     today = timezone.localdate()
     level_str = str(level)
@@ -353,6 +356,11 @@ def _count_today_attempts_for_type(user, level, question_type):
         ).count()
     if question_type == 'writing':
         return WritingUserAnswer.objects.filter(
+            question__level=level_str,
+            **filters,
+        ).count()
+    if question_type == 'speaking':
+        return SpeakingUserAnswer.objects.filter(
             question__level=level_str,
             **filters,
         ).count()
@@ -463,7 +471,7 @@ def _count_today_attempts_for_level(user, level):
 
     from questions.models import ListeningUserAnswer
 
-    from .models import ReadingUserAnswer, UserAnswer, WritingUserAnswer
+    from .models import ReadingUserAnswer, SpeakingUserAnswer, UserAnswer, WritingUserAnswer
 
     today = timezone.localdate()
     level_str = str(level)
@@ -472,6 +480,7 @@ def _count_today_attempts_for_level(user, level):
     counts = [
         UserAnswer.objects.filter(question__level=level_str, **filters).count(),
         WritingUserAnswer.objects.filter(question__level=level_str, **filters).count(),
+        SpeakingUserAnswer.objects.filter(question__level=level_str, **filters).count(),
         ReadingUserAnswer.objects.filter(
             reading_question__passage__level=level_str,
             **filters,
@@ -734,11 +743,12 @@ def _count_total_attempts(user):
 
     from questions.models import ListeningUserAnswer
 
-    from .models import ReadingUserAnswer, UserAnswer, WritingUserAnswer
+    from .models import ReadingUserAnswer, SpeakingUserAnswer, UserAnswer, WritingUserAnswer
 
     return sum([
         UserAnswer.objects.filter(user=user).count(),
         WritingUserAnswer.objects.filter(user=user).count(),
+        SpeakingUserAnswer.objects.filter(user=user).count(),
         ReadingUserAnswer.objects.filter(user=user).count(),
         ListeningUserAnswer.objects.filter(user=user).count(),
     ])
@@ -750,7 +760,7 @@ def _collect_activity_dates(user, *, since=None):
 
     from questions.models import ListeningUserAnswer
 
-    from .models import ReadingUserAnswer, UserAnswer, WritingUserAnswer
+    from .models import ReadingUserAnswer, SpeakingUserAnswer, UserAnswer, WritingUserAnswer
 
     dates = set()
     filters = {'user': user}
@@ -760,6 +770,7 @@ def _collect_activity_dates(user, *, since=None):
     for model in (
         UserAnswer,
         WritingUserAnswer,
+        SpeakingUserAnswer,
         ReadingUserAnswer,
         ListeningUserAnswer,
     ):
