@@ -1187,14 +1187,14 @@ What is the woman’s problem?
 
 【解説41】
 放送文
-W: Did you finish your report, Max?
-M: Yes. I put it on your desk.
-W: Really? I can’t find it.
-M: Oh no.
+W: Did you finish your report, Max?（マックス、レポートは終わった？）
+M: Yes. I put it on your desk.（うん。君の机に置いたよ。）
+W: Really? I can’t find it.（本当？見つからないんだけど。）
+M: Oh no.（えっ、まずい。）
+Question: What is the woman’s problem?（女性の困りごとは何ですか？）
 
-Question: What is the woman’s problem?
-
-女性が「I can’t find it」と言っているので、1が正解です。
+女性が「I can’t find it（見つからない）」と言っているので、1「She can’t find the report.（レポートが見つからない。）」が正解です。
+2「She forgot to call Max.（マックスに電話するのを忘れた。）」・3「The report is too long.（レポートが長すぎる。）」・4「Her desk is broken.（机が壊れている。）」は会話に出ていません。
 
 ---
 
@@ -1217,14 +1217,14 @@ Who was sick?
 
 【解説42】
 放送文
-W: How was your weekend, Ken?
-M: Not so good. My mom was sick, so my dad took her to the doctor.
-W: Is she OK now?
-M: Yes, she’s much better.
+W: How was your weekend, Ken?（ケン、週末はどうだった？）
+M: Not so good. My mom was sick, so my dad took her to the doctor.（あまりよくなかった。お母さんが具合悪くて、お父さんが病院に連れていったんだ。）
+W: Is she OK now?（今は大丈夫？）
+M: Yes, she’s much better.（うん、かなりよくなったよ。）
+Question: Who was sick?（誰が具合悪かったですか？）
 
-Question: Who was sick?
-
-「My mom was sick」とあるので、2「Ken’s mother」が正解です。
+「My mom was sick（お母さんが具合悪かった）」とあるので、2「Ken’s mother.（ケンのお母さん。）」が正解です。
+1「Ken.」は話者自身ではなく、3「Ken’s father.」は病院へ連れていった人、4「Ken’s friend.」は会話に出てきません。
 
 ---
 
@@ -1247,14 +1247,14 @@ Who did Joe take pictures of?
 
 【解説43】
 放送文
-W: Hi, Joe. Is that a new camera?
-M: Yes, Kim. My dad gave it to me.
-W: Do you like it?
-M: Yeah, it’s great. I just took some pictures of my friends.
+W: Hi, Joe. Is that a new camera?（ジョー、それ新しいカメラ？）
+M: Yes, Kim. My dad gave it to me.（うん、キム。お父さんがくれたんだ。）
+W: Do you like it?（気に入った？）
+M: Yeah, it’s great. I just took some pictures of my friends.（うん、最高。さっき友達の写真を撮ったんだ。）
+Question: Who did Joe take pictures of?（ジョーは誰の写真を撮りましたか？）
 
-Question: Who did Joe take pictures of?
-
-「pictures of my friends」なので、3「His friends」が正解です。
+「pictures of my friends（友達の写真）」とあるので、3「His friends.（彼の友達。）」が正解です。
+1「Kim’s friends.」・2「Kim’s father.」・4「His father.」は撮った相手ではありません（父はカメラをくれた人です）。
 
 ---
 
@@ -1277,14 +1277,14 @@ Why is the man going to the hospital?
 
 【解説44】
 放送文
-W: Where are you going?
-M: I’m going to the hospital.
-W: Why? Are you sick?
-M: No. My grandmother broke her leg, so I’m going to visit her.
+W: Where are you going?（どこへ行くの？）
+M: I’m going to the hospital.（病院へ行くよ。）
+W: Why? Are you sick?（どうして？具合悪いの？）
+M: No. My grandmother broke her leg, so I’m going to visit her.（ううん。おばあちゃんが足を折ったから、お見舞いに行くんだ。）
+Question: Why is the man going to the hospital?（男性が病院へ行く理由は何ですか？）
 
-Question: Why is the man going to the hospital?
-
-祖母のお見舞いだと明言しているので、4が正解です。
+「I’m going to visit her（お見舞いに行く）」とあるので、4「To visit his grandmother.（祖母のお見舞い。）」が正解です。
+1「Because he is sick.」は否定され、2「Because he broke his leg.」は祖母のけが、3「To talk to his doctor.」は会話に出てきません。
 
 ---
 
@@ -1307,14 +1307,14 @@ What do they need to do by Friday?
 
 【解説45】
 放送文
-W: Did you start writing your history report today?
-M: No. How about you?
-W: No. We need to finish them by Friday.
-M: I’ll write mine before class tomorrow.
+W: Did you start writing your history report today?（今日、歴史のレポート書き始めた？）
+M: No. How about you?（ううん。君は？）
+W: No. We need to finish them by Friday.（私も。金曜日までに仕上げなきゃ。）
+M: I’ll write mine before class tomorrow.（明日の授業前に書くよ。）
+Question: What do they need to do by Friday?（2人は金曜日までに何をしなければなりませんか？）
 
-Question: What do they need to do by Friday?
-
-「finish them by Friday」の them は history report なので、4が正解です。
+「finish them by Friday」の them は history report なので、4「Finish their reports.（レポートを仕上げる。）」が正解です。
+1「Take a test.」・2「Talk to their history teacher.」・3「Clean their classroom.」は会話に出てきません。
 
 ---
 
@@ -1337,14 +1337,14 @@ Which toy does the boy want?
 
 【解説46】
 放送文
-W: You can pick one toy from here.
-M: I want a toy car.
-W: You already have one. How about another toy?
-M: No, I like cars.
+W: You can pick one toy from here.（ここからおもちゃを1つ選んでいいよ。）
+M: I want a toy car.（車のおもちゃがほしい。）
+W: You already have one. How about another toy?（もう持ってるでしょ。別のおもちゃは？）
+M: No, I like cars.（ううん、車が好きなんだ。）
+Question: Which toy does the boy want?（男の子はどのおもちゃがほしいですか？）
 
-Question: Which toy does the boy want?
-
-何度も車のおもちゃを望んでいるので、3が正解です。
+「I want a toy car」「I like cars」と車にこだわっているので、3「A toy car.（車のおもちゃ。）」が正解です。
+1「A toy dog.」・2「A robot.」・4「A toy plane.」は会話に出ていません。
 
 ---
 
@@ -1367,14 +1367,14 @@ Which game does the girl have today?
 
 【解説47】
 放送文
-M: You have a baseball game today, right?
-W: Yes. I also have a soccer game on Wednesday.
-M: Is your tennis game on Friday?
-W: That’s right.
+M: You have a baseball game today, right?（今日野球の試合だよね？）
+W: Yes. I also have a soccer game on Wednesday.（うん。水曜にはサッカーの試合もあるよ。）
+M: Is your tennis game on Friday?（テニスの試合は金曜？）
+W: That’s right.（そうだよ。）
+Question: Which game does the girl have today?（女の子の今日の試合はどれですか？）
 
-Question: Which game does the girl have today?
-
-今日は baseball game だと確認しているので、4が正解です。
+今日は「baseball game」だと確認しているので、4「A baseball game.（野球の試合。）」が正解です。
+2「A soccer game.」は水曜、1「A tennis game.」は金曜、3「A basketball game.」は会話に出てきません。
 
 ---
 
@@ -1397,14 +1397,14 @@ How many pets does Mia have?
 
 【解説48】
 放送文
-M: You have a dog, right, Mia?
-W: Yes, I do.
-M: What other pets do you have?
-W: A cat and a bird. So I have three pets.
+M: You have a dog, right, Mia?（ミア、犬を飼ってるよね？）
+W: Yes, I do.（うん。）
+M: What other pets do you have?（ほかにどんなペットがいるの？）
+W: A cat and a bird. So I have three pets.（猫と鳥。だから3匹いるよ。）
+Question: How many pets does Mia have?（ミアのペットは何匹ですか？）
 
-Question: How many pets does Mia have?
-
-「I have three pets」とあるので、3が正解です。
+「I have three pets（3匹いる）」とあるので、3「Three.（3匹。）」が正解です。
+犬だけなら1、猫と鳥を足し忘れると数が合わず、4「Four.」は多すぎます。
 
 ---
 
@@ -1427,14 +1427,14 @@ Where will they go for dinner?
 
 【解説49】
 放送文
-M: Can we go to a Japanese restaurant for dinner?
-W: No, I had Japanese food for lunch.
-M: Where should we go?
-W: Let’s go to an Italian restaurant.
+M: Can we go to a Japanese restaurant for dinner?（夕食は日本食の店に行こうか？）
+W: No, I had Japanese food for lunch.（ううん、お昼に日本食を食べたの。）
+M: Where should we go?（じゃあどこに行く？）
+W: Let’s go to an Italian restaurant.（イタリアンに行こう。）
+Question: Where will they go for dinner?（2人は夕食にどこへ行きますか？）
 
-Question: Where will they go for dinner?
-
-夕食は Italian restaurant に行くと決まっているので、4が正解です。
+夕食は「Italian restaurant」に行くと決まっているので、4「To an Italian restaurant.（イタリア料理店へ。）」が正解です。
+2「To a Japanese restaurant.」は昼食の話で否定され、1「Chinese」・3「Spanish」は会話に出てきません。
 
 ---
 
@@ -1457,11 +1457,11 @@ Where will they meet tomorrow?
 
 【解説50】
 放送文
-W: Can we study together today?
-M: I can’t. I have a meeting at the library.
-W: How about tomorrow? We can meet at school.
-M: OK. Let’s meet at two.
+W: Can we study together today?（今日いっしょに勉強できる？）
+M: I can’t. I have a meeting at the library.（無理。図書館で用事があるんだ。）
+W: How about tomorrow? We can meet at school.（じゃあ明日は？学校で会えるよ。）
+M: OK. Let’s meet at two.（いいよ。2時に会おう。）
+Question: Where will they meet tomorrow?（2人は明日どこで会いますか？）
 
-Question: Where will they meet tomorrow?
-
-明日は「meet at school」なので、1が正解です。図書館は今日の予定です。
+明日は「meet at school（学校で会う）」なので、1「At school.（学校で。）」が正解です。
+3「At the library.」は今日の予定、2・4の家は会話に出てきません。

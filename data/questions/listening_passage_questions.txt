@@ -1058,7 +1058,6 @@ Question: What is the boy talking about?（男の子は何について話して�
 「There is a new bookstore near my house」と書店について話しているので、2「A bookstore.（書店。）」が正解です。
 1「A school library.（学校の図書館。）」・3「His house.（家。）」・4「His comic books.（マンガ本。）」は話の中心ではありません。
 
----
 
 ---
 
@@ -1078,11 +1077,11 @@ What will Emma do this weekend?
 
 【解説41】
 放送文
-W: Emma enjoys shopping. This weekend she will go to the new shopping center with her friend. She is going to buy a birthday present for her mother.
+W: Emma enjoys shopping. This weekend she will go to the new shopping center with her friend. She is going to buy a birthday present for her mother.（エマは買い物が好きです。今週末、友達と新しいショッピングセンターへ行きます。お母さんの誕生日プレゼントを買う予定です。）
+Question: What will Emma do this weekend?（エマは今週末何をしますか？）
 
-Question: What will Emma do this weekend?
-
-週末に新しいショッピングセンターへ行くので、2「Go shopping」が正解です。
+週末にショッピングセンターへ行くので、2「Go shopping.（買い物に行く。）」が正解です。
+1「Visit her friend.」は一緒に行く相手の話で目的ではなく、3「Go to a party.」・4「Make a cake.」は話に出てきません。
 
 ---
 
@@ -1102,11 +1101,11 @@ What is the girl talking about?
 
 【解説42】
 放送文
-W: My parents and I went to my favorite curry restaurant last night. It’s near our house. The vegetable curry is really good.
+W: My parents and I went to my favorite curry restaurant last night. It’s near our house. The vegetable curry is really good.（昨夜、両親と好きなカレー店へ行きました。家の近くです。野菜カレーがとてもおいしいです。）
+Question: What is the girl talking about?（女の子は何について話していますか？）
 
-Question: What is the girl talking about?
-
-好きなカレー店の話なので、3「A restaurant」が正解です。
+好きなカレー店の話なので、3「A restaurant.（レストラン。）」が正解です。
+1「Her vegetable garden.」・2「A cooking class.」・4「Her new house.」は話題の中心ではありません。
 
 ---
 
@@ -1126,11 +1125,11 @@ What did Kathy and Mary do today?
 
 【解説43】
 放送文
-M: Kathy and Mary play tennis together on Saturday mornings. Today, it rained, so they went to a shopping mall. They bought some books there.
+M: Kathy and Mary play tennis together on Saturday mornings. Today, it rained, so they went to a shopping mall. They bought some books there.（キャシーとメアリーは土曜の朝にテニスをします。今日は雨だったのでショッピングモールへ行き、そこで本を買いました。）
+Question: What did Kathy and Mary do today?（キャシーとメアリーは今日何をしましたか？）
 
-Question: What did Kathy and Mary do today?
-
-今日は雨でモールへ行き本を買ったので、3「They went shopping」が正解です。
+今日は雨でモールへ行き本を買ったので、3「They went shopping.（買い物をした。）」が正解です。
+1「They played tennis.」はいつもの土曜の話、2「They saw a movie.」・4「They went to the library.」は出ていません。
 
 ---
 
@@ -1150,11 +1149,11 @@ Where does the boy often go after school?
 
 【解説44】
 放送文
-M: After school, I often go to my friend Andrew’s house, and we study together. Sometimes we play computer games, too. Andrew has lots of great games.
+M: After school, I often go to my friend Andrew’s house, and we study together. Sometimes we play computer games, too. Andrew has lots of great games.（放課後、よく友達のアンドリューの家へ行っていっしょに勉強します。ときどきコンピュータゲームもします。彼はすごいゲームをたくさん持っています。）
+Question: Where does the boy often go after school?（男の子は放課後よくどこへ行きますか？）
 
-Question: Where does the boy often go after school?
-
-よく Andrew の家へ行くとあるので、4が正解です。
+よく「Andrew’s house」へ行くとあるので、4「To his friend’s house.（友達の家へ。）」が正解です。
+1「To the library.」・2「To a big game.」・3「To the computer club.」は会話の中心ではありません。
 
 ---
 
@@ -1174,11 +1173,11 @@ Who made vegetable soup?
 
 【解説45】
 放送文
-M: Wendy had a party at her house yesterday. She made pasta, and her husband made vegetable soup. Her friend Julie brought drinks and cake.
+M: Wendy had a party at her house yesterday. She made pasta, and her husband made vegetable soup. Her friend Julie brought drinks and cake.（昨日ウェンディは家でパーティーをしました。彼女がパスタを作り、ご主人が野菜スープを作りました。友達のジュリーが飲み物とケーキを持ってきました。）
+Question: Who made vegetable soup?（野菜スープを作ったのは誰ですか？）
 
-Question: Who made vegetable soup?
-
-「her husband made vegetable soup」なので、2が正解です。
+「her husband made vegetable soup」なので、2「Wendy’s husband.（ウェンディの夫。）」が正解です。
+1「Wendy.」はパスタ、3「Julie.」は飲み物とケーキ、4「Julie’s husband.」は話に出てきません。
 
 ---
 
@@ -1198,11 +1197,11 @@ What will Emi do today?
 
 【解説46】
 放送文
-M: Emi likes reading. She often goes to the library. Today, she will read a book at home after school.
+M: Emi likes reading. She often goes to the library. Today, she will read a book at home after school.（エミは読書が好きです。よく図書館へ行きます。今日は放課後、家で本を読みます。）
+Question: What will Emi do today?（エミは今日何をしますか？）
 
-Question: What will Emi do today?
-
-今日は家で本を読むとあるので、4が正解です。図書館はよく行く場所です。
+今日は「read a book at home」とあるので、4「Read a book at home.（家で本を読む。）」が正解です。
+1「Go to the library.」はよく行く場所で今日の予定ではなく、2・3は会話に出てきません。
 
 ---
 
@@ -1222,11 +1221,11 @@ What did Jack do yesterday afternoon?
 
 【解説47】
 放送文
-M: Jack usually plays soccer or rides his bike with his friends after school. But it rained yesterday, so he stayed at home and read books in the afternoon.
+M: Jack usually plays soccer or rides his bike with his friends after school. But it rained yesterday, so he stayed at home and read books in the afternoon.（ジャックは放課後、いつも友達とサッカーをしたり自転車に乗ったりします。でも昨日は雨だったので、家にいて午後は本を読みました。）
+Question: What did Jack do yesterday afternoon?（ジャックは昨日の午後何をしましたか？）
 
-Question: What did Jack do yesterday afternoon?
-
-昨日の午後は家で本を読んだので、1が正解です。
+昨日の午後は家で本を読んだので、1「He read books.（本を読んだ。）」が正解です。
+2「He rode his bike.」・3「He played soccer.」はいつもの行動、4「He did his homework.」は話に出てきません。
 
 ---
 
@@ -1246,11 +1245,11 @@ What did the girl do yesterday?
 
 【解説48】
 放送文
-W: Yesterday, my father made lunch for Anna and me. My mother and brother were not home. My grandmother came to visit me, so I cleaned my house. Anna helped me.
+W: Yesterday, my father made lunch for Anna and me. My mother and brother were not home. My grandmother came to visit me, so I cleaned my house. Anna helped me.（昨日、お父さんがアンナと私の昼食を作りました。お母さんと弟はいませんでした。おばあちゃんが訪ねてくるので家を掃除しました。アンナが手伝ってくれました。）
+Question: What did the girl do yesterday?（女の子は昨日何をしましたか？）
 
-Question: What did the girl do yesterday?
-
-祖母が来るので家を掃除した、とあるので、3が正解です。昼食を作ったのは父親です。
+「I cleaned my house」とあるので、3「She cleaned her house.（家を掃除した。）」が正解です。
+1「She made lunch.」は父親、2「She visited her grandmother.」は祖母が来た話で逆、4「She met Anna’s father.」は出てきません。
 
 ---
 
@@ -1270,11 +1269,11 @@ How does Jack usually go to school?
 
 【解説49】
 放送文
-M: Jack usually rides his bike to school when the weather is nice. When it is rainy, Jack’s father takes him to school by car.
+M: Jack usually rides his bike to school when the weather is nice. When it is rainy, Jack’s father takes him to school by car.（ジャックは天気がよいとき、いつも自転車で学校へ行きます。雨のときはお父さんが車で送ってくれます。）
+Question: How does Jack usually go to school?（ジャックは普段どうやって学校へ行きますか？）
 
-Question: How does Jack usually go to school?
-
-天気がよいときは自転車、と「usually」があるので、1が正解です。車は雨のときです。
+「usually rides his bike」とあるので、1「By bike.（自転車で。）」が正解です。
+4「By car.」は雨のとき、2「By bus.」・3「By train.」は話に出てきません。
 
 ---
 
@@ -1294,8 +1293,8 @@ How much is the fee for adults?
 
 【解説50】
 放送文
-W: Welcome to the city art museum. The fees are three dollars for kids, five dollars for junior high school students, and ten dollars for adults.
+W: Welcome to the city art museum. The fees are three dollars for kids, five dollars for junior high school students, and ten dollars for adults.（市立美術館へようこそ。料金は子ども3ドル、中学生5ドル、大人10ドルです。）
+Question: How much is the fee for adults?（大人の料金はいくらですか？）
 
-Question: How much is the fee for adults?
-
-大人は ten dollars なので、4が正解です。
+大人は「ten dollars」なので、4「Ten dollars.（10ドル。）」が正解です。
+1「Three dollars.」は子ども、2「Five dollars.」は中学生、3「Eight dollars.」は話に出てきません。

@@ -956,7 +956,6 @@ Question No.40:
 そこで何をするかをたずねているので、3「I'll visit my cousins.（いとこを訪ねるよ。）」が自然です。
 1「On the beach.（ビーチで。）」は場所、2「It will be hot.（暑くなるよ。）」は天気で、質問に合いません。
 
----
 
 ---
 
@@ -975,11 +974,12 @@ Question No.41:
 
 【解説41】
 放送文
-W: Hi, Brian.
-M: Hi, Sally. Do you want to watch a soccer game this Saturday?
-W: Sure. What time does it start?
+W: Hi, Brian.（こんにちは、ブライアン。）
+M: Hi, Sally. Do you want to watch a soccer game this Saturday?（こんにちは、サリー。今週の土曜にサッカーの試合を見ない？）
+W: Sure. What time does it start?（いいよ。何時に始まるの？）
 
-最後に開始時刻を聞いているので、1「At 1:30.（1時半。）」が自然です。2は曜日、3は今すぐ行こう、で時刻の答えになりません。
+最後に開始時刻を聞いているので、1「At 1:30.（1時半。）」が自然です。
+2「On Saturday.（土曜日に。）」は曜日、3「Let’s go now.（今行こう。）」は今すぐで、時刻の答えになりません。
 
 ---
 
@@ -998,11 +998,12 @@ Question No.42:
 
 【解説42】
 放送文
-M: Let’s have lunch today.
-W: Sure, but I have a meeting until noon.
-M: How about 12:30, then?
+M: Let’s have lunch today.（今日ランチにしよう。）
+W: Sure, but I have a meeting until noon.（いいけど、正午まで会議があるの。）
+M: How about 12:30, then?（じゃあ12時半はどう？）
 
-昼食の時間提案への返事なので、3「That’s fine.（それでいいよ。）」が自然です。場所や同席者の話はこの提案への応答として合いません。
+昼食の時間提案への返事なので、3「That’s fine.（それでいいよ。）」が自然です。
+1「It’s near here.（ここから近いよ。）」は場所、2「With Mr. Wilson.（ウィルソンさんと。）」は同席者で、提案への応答として合いません。
 
 ---
 
@@ -1021,11 +1022,12 @@ Question No.43:
 
 【解説43】
 放送文
-W: Do we have any meetings today?
-M: Yes, we have one with Alan and Janet this afternoon.
-W: OK. Anything else?
+W: Do we have any meetings today?（今日会議はある？）
+M: Yes, we have one with Alan and Janet this afternoon.（うん、午後にアランとジャネットとあるよ。）
+W: OK. Anything else?（わかった。ほかには？）
 
-他にあるかと聞かれているので、2「No, that’s all.（いいえ、それだけです。）」が自然です。時刻や「彼がした」はこの質問に合いません。
+他にあるかと聞かれているので、2「No, that’s all.（いいえ、それだけです。）」が自然です。
+1「At twelve o’clock.（12時に。）」は時刻、3「Yes, he did.（はい、彼はしました。）」はこの質問に合いません。
 
 ---
 
@@ -1044,11 +1046,12 @@ Question No.44:
 
 【解説44】
 放送文
-W: Excuse me.
-M: How can I help you?
-W: Where are the women’s shoes?
+W: Excuse me.（すみません。）
+M: How can I help you?（どうされましたか？）
+W: Where are the women’s shoes?（婦人靴売り場はどこですか？）
 
-場所を尋ねているので、1「On the third floor.（3階です。）」が自然です。時刻や買う意思は場所の答えになりません。
+場所を尋ねているので、1「On the third floor.（3階です。）」が自然です。
+2「At six o’clock.（6時に。）」は時刻、3「I’ll buy them.（買います。）」は買う意思で、場所の答えになりません。
 
 ---
 
@@ -1067,11 +1070,12 @@ Question No.45:
 
 【解説45】
 放送文
-W: What time does your volleyball practice start on Saturday?
-M: At 9 a.m.
-W: Will you come home by noon?
+W: What time does your volleyball practice start on Saturday?（土曜のバレーの練習は何時に始まるの？）
+M: At 9 a.m.（午前9時だよ。）
+W: Will you come home by noon?（正午までに帰ってくる？）
 
-正午までに帰るかへの返事なので、1「I think so.（多分そうだよ。）」が自然です。回数やボールの所有はこの質問に合いません。
+正午までに帰るかへの返事なので、1「I think so.（多分そうだよ。）」が自然です。
+2「Twice a day.（1日2回。）」は回数、3「It’s my ball.（それは私のボールだよ。）」はこの質問に合いません。
 
 ---
 
@@ -1090,11 +1094,12 @@ Question No.46:
 
 【解説46】
 放送文
-M: Are you hungry?
-W: Not really.
-M: Do you want some coffee?
+M: Are you hungry?（お腹空いてる？）
+W: Not really.（あまり。）
+M: Do you want some coffee?（コーヒーはどう？）
 
-コーヒーを勧める提案への返事なので、1「That sounds nice.（いいね。）」が自然です。チキンや料理の授業はこの誘いへの答えになりません。
+コーヒーを勧める提案への返事なので、1「That sounds nice.（いいね。）」が自然です。
+2「Chicken, please.（チキンをお願い。）」・3「In cooking class.（料理の授業で。）」はこの誘いへの答えになりません。
 
 ---
 
@@ -1113,11 +1118,12 @@ Question No.47:
 
 【解説47】
 放送文
-W: Is it raining outside?
-M: No, but the sky is dark.
-W: Take your umbrella with you.
+W: Is it raining outside?（外は雨？）
+M: No, but the sky is dark.（ううん、でも空が暗いよ。）
+W: Take your umbrella with you.（傘を持って行きなさい。）
 
-傘を持って行くよう言われての返事なので、3「All right, Mom.（わかった、お母さん。）」が自然です。否定や開始時刻はこの指示への返事として合いません。
+傘を持って行くよう言われての返事なので、3「All right, Mom.（わかった、お母さん。）」が自然です。
+1「No, you won’t.（いいえ、そうはならないよ。）」・2「Since this morning.（今朝から。）」はこの指示への返事として合いません。
 
 ---
 
@@ -1136,11 +1142,12 @@ Question No.48:
 
 【解説48】
 放送文
-M: I’m going to the beach with my brother.
-W: That sounds good!
-M: Do you have any brothers or sisters?
+M: I’m going to the beach with my brother.（弟とビーチに行くよ。）
+W: That sounds good!（いいね！）
+M: Do you have any brothers or sisters?（兄弟姉妹はいる？）
 
-兄弟姉妹がいるかへの答えなので、1「I don’t have any.（いないよ。）」が自然です。泳げない・来週は人数の質問に答えません。
+兄弟姉妹がいるかへの答えなので、1「I don’t have any.（いないよ。）」が自然です。
+2「No. I can’t swim.（ううん、泳げないんだ。）」・3「Next week.（来週。）」は人数の質問に答えません。
 
 ---
 
@@ -1159,11 +1166,12 @@ Question No.49:
 
 【解説49】
 放送文
-W: Good morning, Mr. Lee.
-M: Hi. Where are you going?
-W: To the library.
+W: Good morning, Mr. Lee.（おはようございます、リーさん。）
+M: Hi. Where are you going?（こんにちは。どこへ行くの？）
+W: To the library.（図書館へ。）
 
-行き先を聞いたあとの自然な返答は、3「Have a nice day.（よい一日を。）」です。夜遅い・勉強した、はこの場面のあいさつとして弱くなります。
+行き先を聞いたあとの自然な返答は、3「Have a nice day.（よい一日を。）」です。
+1「It’s late at night.（夜遅いよ。）」・2「I studied science.（科学を勉強したよ。）」はこの場面のあいさつとして弱くなります。
 
 ---
 
@@ -1182,8 +1190,9 @@ Question No.50:
 
 【解説50】
 放送文
-M: How was your sister’s birthday?
-W: We had a big party.
-M: Did she like it?
+M: How was your sister’s birthday?（お姉さんの誕生日はどうだった？）
+W: We had a big party.（大きなパーティーをしたよ。）
+M: Did she like it?（気に入った？）
 
-気に入ったかへの答えなので、2「Yes. She got many presents.（うん。たくさんプレゼントをもらったよ。）」が自然です。自分の好みや来てくれてありがとうはこの質問への直接の答えになりません。
+気に入ったかへの答えなので、2「Yes. She got many presents.（うん。たくさんプレゼントをもらったよ。）」が自然です。
+1「I like chocolate cake.（チョコケーキが好き。）」・3「Thank you for coming.（来てくれてありがとう。）」はこの質問への直接の答えになりません。

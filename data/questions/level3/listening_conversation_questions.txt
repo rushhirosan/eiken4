@@ -1201,14 +1201,14 @@ What club is Kathy in this year?
 
 【解説41】
 放送文
-M: Did you join the art club again this year, Kathy?
-W: No. I wanted to try something new, so I joined the dance club.
-M: I joined the swimming club.
-W: Sounds like fun.
+M: Did you join the art club again this year, Kathy?（キャシー、今年も美術部に入った？）
+W: No. I wanted to try something new, so I joined the dance club.（ううん。新しいことをしたくて、ダンス部に入ったの。）
+M: I joined the swimming club.（僕は水泳部に入ったよ。）
+W: Sounds like fun.（楽しそう。）
+Question: What club is Kathy in this year?（キャシーは今年どの部に入っていますか？）
 
-Question: What club is Kathy in this year?
-
-Kathy は dance club に入った、と明言しているので 2 が正解です。art は今年はやめており、swimming は相手のクラブです。
+Kathy が「I joined the dance club（ダンス部に入った）」と明言しているので、2「The dance club.（ダンス部。）」が正解です。
+1「The art club.」は今年はやめており、4「The swimming club.」は相手（男性）のクラブ、3「The music club.」は会話に出てきません。
 
 ---
 
@@ -1231,14 +1231,14 @@ Why did they decide to stay home?
 
 【解説42】
 放送文
-M: I don’t want to go to the park. It’s too hot.
-W: But Sam, we planned to have a picnic!
-M: I’m sorry, but I hate this kind of weather.
-W: OK, let’s stay home.
+M: I don’t want to go to the park. It’s too hot.（公園には行きたくない。暑すぎるよ。）
+W: But Sam, we planned to have a picnic!（でもサム、ピクニックの予定だったじゃない！）
+M: I’m sorry, but I hate this kind of weather.（ごめん、こういう天気は嫌いなんだ。）
+W: OK, let’s stay home.（わかった、家にいよう。）
+Question: Why did they decide to stay home?（2人が家にいることにした理由は何ですか？）
 
-Question: Why did they decide to stay home?
-
-暑いのが嫌だ、と言って家にいることにしたので 3 が正解です。公園やピクニック自体が嫌い、雨の日の話ではありません。
+Sam が「It’s too hot」「I hate this kind of weather（暑い天気が嫌い）」と言って家にいることにしたので、3「Sam doesn’t like hot days.（サムは暑い日が嫌い。）」が正解です。
+1「公園が嫌い」・2「ピクニックが嫌い」ではなく、4「雨の日が嫌い」も会話にありません。
 
 ---
 
@@ -1261,14 +1261,14 @@ What does Jane think of the Chinese restaurant?
 
 【解説43】
 放送文
-M: Hey, Jane, let’s go and get something to eat.
-W: OK, Bob. Let’s go to the Chinese restaurant on 5th Street. It’s very popular.
-M: Sounds good, but isn’t it expensive?
-W: A little, but the food is really good.
+M: Hey, Jane, let’s go and get something to eat.（ジェーン、何か食べに行こう。）
+W: OK, Bob. Let’s go to the Chinese restaurant on 5th Street. It’s very popular.（いいよ、ボブ。5番街の中華料理店に行こう。とても人気があるの。）
+M: Sounds good, but isn’t it expensive?（いいね。でも高くない？）
+W: A little, but the food is really good.（少し高いけど、料理は本当においしいよ。）
+Question: What does Jane think of the Chinese restaurant?（ジェーンはその中華料理店をどう思っていますか？）
 
-Question: What does Jane think of the Chinese restaurant?
-
-「the food is really good」と言っているので 3 が正解です。人気はある、少し高い、小ささの話はありません。
+「the food is really good（料理は本当においしい）」と言っているので、3「The food is good.（料理がおいしい。）」が正解です。
+1「人気がない」は「very popular」と矛盾、2「高くない」は「A little（少し高い）」と矛盾、4「小さい」は会話に出てきません。
 
 ---
 
@@ -1291,14 +1291,14 @@ When will they meet?
 
 【解説44】
 放送文
-M: Let’s go shopping on Saturday afternoon, Betty.
-W: I’d love to, but I have to work.
-M: How about Sunday before lunch, then?
-W: Sure. Let’s meet at the station at ten.
+M: Let’s go shopping on Saturday afternoon, Betty.（ベティ、土曜の午後に買い物に行こう。）
+W: I’d love to, but I have to work.（行きたいけど、仕事があるの。）
+M: How about Sunday before lunch, then?（じゃあ日曜の昼食前はどう？）
+W: Sure. Let’s meet at the station at ten.（いいよ。駅で10時に会おう。）
+Question: When will they meet?（2人はいつ会いますか？）
 
-Question: When will they meet?
-
-日曜の昼食前・駅で10時、なので 3「Sunday morning」が正解です。土曜午後は仕事で行けません。
+日曜の昼食前・駅で10時に会うので、3「Sunday morning.（日曜の朝。）」が正解です。
+1・2の土曜は仕事で行けず、4「Sunday afternoon」は昼食前ではないので合いません。
 
 ---
 
@@ -1321,14 +1321,14 @@ What happened to the girl this morning?
 
 【解説45】
 放送文
-M: Where were you this morning? We had a science club meeting.
-W: Really?
-M: Yes. Mr. Burns told us about it yesterday.
-W: I wasn’t at school yesterday.
+M: Where were you this morning? We had a science club meeting.（今朝どこにいたの？科学クラブの会合があったよ。）
+W: Really?（え、そうなの？）
+M: Yes. Mr. Burns told us about it yesterday.（うん。バーンズ先生が昨日教えてくれたよ。）
+W: I wasn’t at school yesterday.（昨日は学校にいなかったの。）
+Question: What happened to the girl this morning?（女の子は今朝どうなりましたか？）
 
-Question: What happened to the girl this morning?
-
-今朝の科学クラブの会合にいなかった、ので 1 が正解です。
+今朝の科学クラブの会合にいなかったので、1「She missed a meeting.（会合を欠席した。）」が正解です。
+2「バーンズ先生を見つけられなかった」・3「レポートをなくした」・4「テストに遅れた」は会話に出てきません。
 
 ---
 
@@ -1351,14 +1351,14 @@ Why is Ken’s mother angry?
 
 【解説46】
 放送文
-W: Ken, why aren’t you at school?
-M: Sorry, Mom. I woke up late this morning.
-W: I am very angry. Please go after breakfast.
-M: OK.
+W: Ken, why aren’t you at school?（ケン、どうして学校にいないの？）
+M: Sorry, Mom. I woke up late this morning.（ごめん、お母さん。今朝起き遅れたんだ。）
+W: I am very angry. Please go after breakfast.（とても怒っているわ。朝食のあと行きなさい。）
+M: OK.（わかった。）
+Question: Why is Ken’s mother angry?（ケンのお母さんはなぜ怒っていますか？）
 
-Question: Why is Ken’s mother angry?
-
-まだ学校へ行っていない（起き遅れた）ことに怒っているので 4 が正解です。
+まだ学校へ行っていない（起き遅れた）ことに怒っているので、4「Ken has not left for school.（ケンがまだ学校へ出ていない。）」が正解です。
+1「朝食を作らなかった」・2「早く帰ってこなかった」・3「部屋を掃除していない」は会話の怒りの理由ではありません。
 
 ---
 
@@ -1381,14 +1381,14 @@ Which book will the boy borrow?
 
 【解説47】
 放送文
-W: I’m reading a book about science.
-M: That sounds interesting. I want to read about history.
-W: You should read this mystery book.
-M: OK, I’ll borrow that instead.
+W: I’m reading a book about science.（科学の本を読んでいるの。）
+M: That sounds interesting. I want to read about history.（おもしろそう。僕は歴史について読みたいな。）
+W: You should read this mystery book.（このミステリーの本を読むといいよ。）
+M: OK, I’ll borrow that instead.（わかった。じゃあそれを借りるよ。）
+Question: Which book will the boy borrow?（男の子はどの本を借りますか？）
 
-Question: Which book will the boy borrow?
-
-代わりに mystery book を借りる、と言っているので 3 が正解です。history は読みたいと思っていただけです。
+「I’ll borrow that instead」の that は mystery book なので、3「A mystery book.（ミステリーの本。）」が正解です。
+1「A history book.」は読みたいと思っていただけ、4「A science book.」は女性が読んでいる本、2「A math book.」は会話に出てきません。
 
 ---
 
@@ -1411,14 +1411,14 @@ Who is Tom going to the park with?
 
 【解説48】
 放送文
-W: Tom, do you want to play soccer after school?
-M: Sorry, I can’t. I’m going to the park with my cousin.
-W: Oh, I see. Well, have fun.
-M: Thanks.
+W: Tom, do you want to play soccer after school?（トム、放課後サッカーしない？）
+M: Sorry, I can’t. I’m going to the park with my cousin.（ごめん、できない。いとこといっしょに公園へ行くんだ。）
+W: Oh, I see. Well, have fun.（ああ、そうなんだ。じゃあ楽しんでね。）
+M: Thanks.（ありがとう。）
+Question: Who is Tom going to the park with?（トムは誰と公園へ行きますか？）
 
-Question: Who is Tom going to the park with?
-
-「with my cousin」とあるので 3 が正解です。
+「with my cousin（いとこと）」とあるので、3「His cousin.（彼のいとこ。）」が正解です。
+1「友達」・2「両親」・4「妹」は会話に出てきません。
 
 ---
 
@@ -1441,14 +1441,14 @@ Which book is Sarah’s?
 
 【解説49】
 放送文
-M: Is this blue book yours, Sarah?
-W: No, mine has a green cover. I think it is Ken’s.
-M: No, his book is yellow.
-W: Then, it is probably Emily’s. Let’s ask her later.
+M: Is this blue book yours, Sarah?（サラ、この青い本は君の？）
+W: No, mine has a green cover. I think it is Ken’s.（ううん、私のは緑の表紙。ケンの本だと思う。）
+M: No, his book is yellow.（いや、彼の本は黄色だよ。）
+W: Then, it is probably Emily’s. Let’s ask her later.（じゃあ、たぶんエミリーのね。あとで聞いてみよう。）
+Question: Which book is Sarah’s?（サラの本はどれですか？）
 
-Question: Which book is Sarah’s?
-
-Sarah の本は green cover、と本人が言っているので 1 が正解です。青い本は今見ている本、黄色は Ken の本です。
+Sarah 本人が「mine has a green cover（私のは緑の表紙）」と言っているので、1「The one with a green cover.（緑の表紙の本。）」が正解です。
+3の青い本は今見ている本、4の黄色は Ken の本、2の赤い表紙は会話に出てきません。
 
 ---
 
@@ -1471,11 +1471,11 @@ What does Mark do in his free time?
 
 【解説50】
 放送文
-W: What do you like to do in your free time, Mark?
-M: I love painting. How about you?
-W: I play the guitar and write songs.
-M: That’s cool.
+W: What do you like to do in your free time, Mark?（マーク、暇なときは何をするのが好き？）
+M: I love painting. How about you?（絵を描くのが大好き。君は？）
+W: I play the guitar and write songs.（ギターを弾いて曲を書くよ。）
+M: That’s cool.（かっこいいね。）
+Question: What does Mark do in his free time?（マークは暇なときに何をしますか？）
 
-Question: What does Mark do in his free time?
-
-Mark は painting が好き、と言っているので 1 が正解です。ギターや作曲は相手の趣味です。
+Mark が「I love painting（絵を描くのが大好き）」と言っているので、1「He paints.（絵を描く。）」が正解です。
+2「曲を書く」・3「ギターを弾く」は相手（女性）の趣味、4「歌う」は会話に出てきません。

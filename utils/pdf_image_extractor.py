@@ -62,8 +62,21 @@ def extract_images_from_pdf(pdf_path, output_dir=None, start_number=1):
                         total_pixels = img_array.shape[0] * img_array.shape[1] * img_array.shape[2]
                         dark_ratio = dark_pixels / total_pixels
 
-                        if dark_ratio > 0.5:
-                            print(f"画像が反転しているため、色を反転します（暗いピクセル割合: {dark_ratio:.2%}）")
+                        # 線画は四隅が白いはず。暗い四隅はネガ抽出の典型。
+                        h, w = img_array.shape[:2]
+                        corner = np.concatenate([
+                            img_array[0:3, 0:3].reshape(-1, 3),
+                            img_array[0:3, w - 3 : w].reshape(-1, 3),
+                            img_array[h - 3 : h, 0:3].reshape(-1, 3),
+                            img_array[h - 3 : h, w - 3 : w].reshape(-1, 3),
+                        ])
+                        corner_avg = float(corner.mean())
+
+                        if dark_ratio > 0.5 or corner_avg < 80:
+                            print(
+                                f"画像が反転しているため、色を反転します"
+                                f"（暗いピクセル割合: {dark_ratio:.2%}, 四隅平均: {corner_avg:.1f}）"
+                            )
                             img_array = 255 - img_array
                             image = Image.fromarray(img_array, mode='RGB')
 

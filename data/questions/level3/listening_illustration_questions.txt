@@ -956,7 +956,6 @@ Question No.40:
 「You must be happy.（うれしいでしょう）」とスピーチコンテストで優勝したあと言われているので、3「I really am.（本当にうれしい。）」が自然な返答です。
 2「It begins at noon.（正午に始まる。）」は開始時刻、1「I forgot my speech.（スピーチを忘れた。）」はスピーチを忘れた話で、会話の流れに合いません。
 
----
 
 ---
 
@@ -975,11 +974,12 @@ Question No.41:
 
 【解説41】
 放送文
-M: What is a popular book for young children?
-W: Here is a good one.
-M: What kind of book is it?
+M: What is a popular book for young children?（小さな子どもに人気の本は何？）
+W: Here is a good one.（これ、いい本よ。）
+M: What kind of book is it?（どんな種類の本？）
 
-本の種類を聞いているので、1「It’s science fiction.（SFです。）」が自然です。2はいつ読んだか、3は好きなものの話で、種類の答えになりません。
+本の種類を聞いているので、1「It’s science fiction.（SFです。）」が自然です。
+2「I read it at school.（学校で読んだよ。）」はいつ読んだか、3「They like animals.（彼らは動物が好き。）」は好きなものの話で、種類の答えになりません。
 
 ---
 
@@ -998,11 +998,12 @@ Question No.42:
 
 【解説42】
 放送文
-M: Do you still have my history textbook?
-W: Yes, Scott.
-M: Well, I’ll need it next week.
+M: Do you still have my history textbook?（まだ僕の歴史の教科書持ってる？）
+W: Yes, Scott.（うん、スコット。）
+M: Well, I’ll need it next week.（来週それが必要なんだ。）
 
-来週必要、と言っているので、返す約束の1「I can bring it tomorrow.」が自然です。買ってほしい・探してみる、では「持っている」前提の流れに合いにくいです。
+来週必要と言っているので、返す約束の1「I can bring it tomorrow.（明日持っていけるよ。）」が自然です。
+2「I hope you can buy it.（買ってくれるといいな。）」・3「I’ll take a look.（見てみるね。）」では「持っている」前提の流れに合いにくいです。
 
 ---
 
@@ -1021,11 +1022,12 @@ Question No.43:
 
 【解説43】
 放送文
-M: You need to clean your room, Jane.
-W: I’ll do it tomorrow.
-M: Why can’t you do it today?
+M: You need to clean your room, Jane.（ジェーン、部屋を掃除しなきゃ。）
+W: I’ll do it tomorrow.（明日やるよ。）
+M: Why can’t you do it today?（どうして今日はできないの？）
 
-今日できない理由を聞いているので、2「I have to study for a test.」が自然です。場所やお礼では理由の答えになりません。
+今日できない理由を聞いているので、2「I have to study for a test.（テスト勉強しなきゃ。）」が自然です。
+1「It’s in the living room.（リビングにあるよ。）」は場所、3「Thanks for helping me.（手伝ってくれてありがとう。）」はお礼で、理由の答えになりません。
 
 ---
 
@@ -1044,11 +1046,12 @@ Question No.44:
 
 【解説44】
 放送文
-M: Here’s your steak. Would you like anything else?
-W: No, thanks.
-M: OK. Enjoy your meal.
+M: Here’s your steak. Would you like anything else?（ステーキです。ほかにご注文は？）
+W: No, thanks.（いいえ、結構です。）
+M: OK. Enjoy your meal.（わかりました。どうぞお召し上がりください。）
 
-「楽しんで」への返事なので、2「I’m sure I will.（きっとそうするよ。）」が自然です。1や3はこの締めのあいさつへの応答として弱くなります。
+「楽しんで」への返事なので、2「I’m sure I will.（きっとそうするよ。）」が自然です。
+1「Yes, that’s fine.（ええ、それでいいよ。）」・3「Just one, please.（1つだけで。）」はこの締めのあいさつへの応答として弱くなります。
 
 ---
 
@@ -1067,11 +1070,12 @@ Question No.45:
 
 【解説45】
 放送文
-M: When are you going on vacation, Marge?
-W: In two weeks.
-M: Where will you go?
+M: When are you going on vacation, Marge?（マージ、いつ休暇に行くの？）
+W: In two weeks.（2週間後よ。）
+M: Where will you go?（どこへ行くの？）
 
-行き先を聞いているので、1「To a beach in Thailand.」が自然です。個数やクラスの話は場所の答えになりません。
+行き先を聞いているので、1「To a beach in Thailand.（タイのビーチへ。）」が自然です。
+2「Two or three of them, please.（2つか3つください。）」は個数、3「To my Spanish class.（スペイン語の授業へ。）」は行き先の答えとして合いません。
 
 ---
 
@@ -1090,11 +1094,12 @@ Question No.46:
 
 【解説46】
 放送文
-W: What’s your favorite subject?
-M: I love studying English.
-W: How often do you study?
+W: What’s your favorite subject?（好きな科目は何？）
+M: I love studying English.（英語の勉強が大好き。）
+W: How often do you study?（どのくらいの頻度で勉強するの？）
 
-頻度を聞いているので、2「For one hour every afternoon.」が自然です。「〜のあと」や過去の渡航は頻度の答えになりません。
+頻度を聞いているので、2「For one hour every afternoon.（毎午後1時間。）」が自然です。
+1「After two months.（2か月後。）」や 3「I went to America last year.（去年アメリカへ行った。）」は頻度の答えになりません。
 
 ---
 
@@ -1113,11 +1118,12 @@ Question No.47:
 
 【解説47】
 放送文
-M: Excuse me. Does this train stop at Green Hills?
-W: Yes. I get off there, too.
-M: That’s good to know. Thanks.
+M: Excuse me. Does this train stop at Green Hills?（すみません。この電車はグリーンヒルズに停まりますか？）
+W: Yes. I get off there, too.（はい。私もそこで降ります。）
+M: That’s good to know. Thanks.（そうですか、助かります。ありがとう。）
 
-お礼への定番の返事は、3「It’s my pleasure.（どういたしまして。）」です。電車に乗らない・大きい、はこのやりとりに合いません。
+お礼への定番の返事は、3「It’s my pleasure.（どういたしまして。）」です。
+1「I don’t take a train.（電車には乗らないよ。）」・2「It’s big.（大きいよ。）」はこのやりとりに合いません。
 
 ---
 
@@ -1136,11 +1142,12 @@ Question No.48:
 
 【解説48】
 放送文
-M: Has Naomi found her book?
-W: No, she still hasn’t.
-M: Did she check the classroom?
+M: Has Naomi found her book?（ナオミは本を見つけた？）
+W: No, she still hasn’t.（ううん、まだだよ。）
+M: Did she check the classroom?（教室は調べた？）
 
-教室を調べたかへの答えなので、見つからなかった1が自然です。2や3は「まだ見つかっていない」という直前の話と矛盾しやすいです。
+教室を調べたかへの答えなので、見つからなかった1「She couldn’t find it there.（そこでは見つからなかったよ。）」が自然です。
+2「It was in her bag.（かばんの中にあったよ。）」・3「The teacher gave it to her.（先生が渡したよ。）」は「まだ見つかっていない」という直前の話と矛盾しやすいです。
 
 ---
 
@@ -1159,11 +1166,12 @@ Question No.49:
 
 【解説49】
 放送文
-W: Tom, your shoes are old.
-M: I know. I’ve used them for two years.
-W: I can even see a hole.
+W: Tom, your shoes are old.（トム、その靴は古いわね。）
+M: I know. I’ve used them for two years.（わかってる。2年使ってるんだ。）
+W: I can even see a hole.（穴まで見えるわ。）
 
-穴が空いている、と言われたあとの反応なので、3「新しいのを買う」が自然です。デパートに行った・靴下のほめ言葉では穴への応答になりません。
+穴が空いていると言われたあとの反応なので、3「Oh, I’ll get new ones.（あ、新しいのを買うよ。）」が自然です。
+1「You went to the department store.（デパートに行ったね。）」・2「Your socks are very pretty.（その靴下、とてもきれいね。）」では穴への応答になりません。
 
 ---
 
@@ -1182,8 +1190,9 @@ Question No.50:
 
 【解説50】
 放送文
-M: I want to go to the library.
-W: It’s going to rain soon.
-M: But I wanted to ride my bike there.
+M: I want to go to the library.（図書館へ行きたいな。）
+W: It’s going to rain soon.（もうすぐ雨が降りそうよ。）
+M: But I wanted to ride my bike there.（でも自転車で行きたかったんだ。）
 
-雨なのに自転車で行こうとしているので、2「That’s not a good idea.」が自然です。雪の話や散歩した話は、この助言としてずれます。
+雨なのに自転車で行こうとしているので、2「That’s not a good idea.（それはいい考えじゃないよ。）」が自然です。
+1「Wait until it stops snowing.（雪がやむまで待ちなさい。）」は雪の話、3「I went for a walk.（散歩に行ったよ。）」はこの助言としてずれます。
