@@ -166,13 +166,21 @@
                     <div class="fw-semibold mb-2">{{ answer.speaking_data.title }}</div>
                     <div style="white-space: pre-line;">{{ answer.speaking_data.passage }}</div>
                 </div>
+                {% if answer.speaking_data.illustration %}
+                <div class="p-3 mb-3 border rounded" style="background:#fff8ef;">
+                    <div class="small fw-semibold mb-1">イラスト（内容の説明）</div>
+                    <div class="small">{{ answer.speaking_data.illustration }}</div>
+                </div>
+                {% endif %}
                 {% for q in answer.speaking_data.questions %}
                 <div class="mb-3">
                     <div class="fw-semibold">No.{{ q.number }} {{ q.prompt }}</div>
                     <div class="small text-muted">あなたの答え（任意）:
                         {% if q.number == 1 %}{{ answer.user_answers.q1|default:"（声で練習）" }}
                         {% elif q.number == 2 %}{{ answer.user_answers.q2|default:"（声で練習）" }}
-                        {% else %}{{ answer.user_answers.q3|default:"（声で練習）" }}
+                        {% elif q.number == 3 %}{{ answer.user_answers.q3|default:"（声で練習）" }}
+                        {% elif q.number == 4 %}{{ answer.user_answers.q4|default:"（声で練習）" }}
+                        {% else %}{{ answer.user_answers.q5|default:"（声で練習）" }}
                         {% endif %}
                     </div>
                     {% if q.sample_answers %}

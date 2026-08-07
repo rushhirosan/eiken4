@@ -568,7 +568,7 @@ def _extra_display_progress(user, level_code, foundation_progress):
 
     if level_code == '3':
         _append('writing')
-    if level_code == '5':
+    if level_code in ('3', '4', '5'):
         _append('speaking')
     return extras
 
@@ -598,6 +598,7 @@ def _build_exam_section(user, level_code, level_name, daily_goal=3):
         question_counts['listening_illustration'] = _total_questions_for_type(
             level_code, 'listening_illustration'
         )
+    if str(level_code) in ('3', '4', '5'):
         question_counts['speaking'] = _total_questions_for_type(level_code, 'speaking')
     unlock_status = _build_exam_unlock_status(user, level_code)
     foundation_rows = (
@@ -701,8 +702,8 @@ def question_list(request, level=None, exam_id=None):
         messages.info(request, 'ライティング問題は英検3級のみです。')
         return redirect('exams:exam_list')
 
-    if question_type == 'speaking' and str(level) != '5':
-        messages.info(request, 'スピーキング問題は現在英検5級のみです。')
+    if question_type == 'speaking' and str(level) not in ('3', '4', '5'):
+        messages.info(request, 'スピーキング問題は英検3級・4級・5級のみです。')
         return redirect('exams:exam_list')
 
     if _is_level5_only_type(level, question_type):
@@ -1362,13 +1363,63 @@ def question_list(request, level=None, exam_id=None):
         for question in questions:
             sa = sa_by_qid.get(question.id)
             data = question.speaking_data or {}
+            user_answers = (sa.response_json if sa else {}) or {}
+            # テンプレで qN を取りやすいよう質問ごとに回答を付与
+            enriched_questions = []
+            for sq in data.get('questions') or []:
+                num = sq.get('number')
+                enriched_questions.append({
+                    **sq,
+                    'user_answer': user_answers.get(f'q{num}', ''),
+                })
+            data_for_view = {**data, 'questions': enriched_questions}
             questions_with_answers.append({
                 'question': question,
-                'speaking_data': data,
-                'user_answers': (sa.response_json if sa else {}) or {},
+                'speaking_data': data_for_view,
+                'user_answers': user_answers,
                 'practiced': sa is not None,
                 'explanation': question.explanation,
             })
+
+        level_str = str(level)
+        if level_str == '3':
+            speaking_intro = (
+                '3級のスピーキングは二次試験（面接）形式です。'
+                '黙読 → 音読 → 内容1問 → イラスト2問 → カード裏返し → 自分のこと2問、の流れで練習します。'
+            )
+            speaking_prep_steps = [
+                'パッセージを黙読する（約20秒）',
+                '声に出して音読する',
+                '内容についての質問に答える（No.1）',
+                'イラストについての質問に答える（No.2・No.3）',
+                'カードを裏返し、自分自身についての質問に答える（No.4・No.5）',
+            ]
+            speaking_badge_label = '二次試験練習'
+        elif level_str == '4':
+            speaking_intro = (
+                '4級のスピーキングは任意受験です（級の合否には影響しません・ネット録音形式）。'
+                '黙読 → 音読 → 内容2問 → イラスト1問 → 自分のこと1問、の流れで練習します。'
+            )
+            speaking_prep_steps = [
+                'パッセージを黙読する（約20秒）',
+                '声に出して音読する',
+                '内容についての質問に答える（No.1・No.2）',
+                'イラストについての質問に答える（No.3）',
+                '自分自身についての質問に答える（No.4）',
+            ]
+            speaking_badge_label = '任意'
+        else:
+            speaking_intro = (
+                '5級のスピーキングは任意受験です（級の合否には影響しません・ネット録音形式）。'
+                '黙読 → 音読 → 内容2問 → 自分のこと1問、の流れで練習します。'
+            )
+            speaking_prep_steps = [
+                'パッセージを黙読する（約20秒）',
+                '声に出して音読する',
+                '内容についての質問に答える（No.1・No.2）',
+                '自分自身についての質問に答える（No.3）',
+            ]
+            speaking_badge_label = '任意'
 
         context = {
             'level': level,
@@ -1378,6 +1429,9 @@ def question_list(request, level=None, exam_id=None):
             'status': status,
             'questions': questions_with_answers,
             'question_count_options': question_count_options,
+            'speaking_intro': speaking_intro,
+            'speaking_prep_steps': speaking_prep_steps,
+            'speaking_badge_label': speaking_badge_label,
         }
         return render(request, 'exams/speaking_practice.html', context)
 
@@ -1605,8 +1659,8 @@ def submit_answers(request, level):
         if question_type == 'writing' and str(level) != '3':
             messages.info(request, 'ライティング問題は英検3級のみです。')
             return redirect('exams:exam_list')
-        if question_type == 'speaking' and str(level) != '5':
-            messages.info(request, 'スピーキング問題は現在英検5級のみです。')
+        if question_type == 'speaking' and str(level) not in ('3', '4', '5'):
+            messages.info(request, 'スピーキング問題は英検3級・4級・5級のみです。')
             return redirect('exams:exam_list')
         if not _has_submittable_answers(request.POST):
             return _redirect_empty_submission(request, level, question_type)
@@ -1781,8 +1835,8 @@ def submit_answers(request, level):
             return redirect('exams:answer_results', level=level, question_type=question_type)
 
         elif question_type == 'speaking':
-            if str(level) != '5':
-                messages.info(request, 'スピーキング問題は現在英検5級のみです。')
+            if str(level) not in ('3', '4', '5'):
+                messages.info(request, 'スピーキング問題は英検3級・4級・5級のみです。')
                 return redirect('exams:exam_list')
 
             raw_ids = request.POST.getlist('speaking_question_id')
@@ -1805,11 +1859,11 @@ def submit_answers(request, level):
                     )
                 except Question.DoesNotExist:
                     continue
-                response_json = {
-                    'q1': (request.POST.get(f'speaking_answer_{question_id}_1') or '').strip(),
-                    'q2': (request.POST.get(f'speaking_answer_{question_id}_2') or '').strip(),
-                    'q3': (request.POST.get(f'speaking_answer_{question_id}_3') or '').strip(),
-                }
+                response_json = {}
+                for n in range(1, 6):
+                    raw = request.POST.get(f'speaking_answer_{question_id}_{n}')
+                    if raw is not None:
+                        response_json[f'q{n}'] = (raw or '').strip()
                 SpeakingUserAnswer.objects.create(
                     user=request.user,
                     question_id=question_id,
@@ -1937,8 +1991,8 @@ def answer_results(request, level, question_type):
     if question_type == 'writing' and str(level) != '3':
         messages.info(request, 'ライティング問題は英検3級のみです。')
         return redirect('exams:exam_list')
-    if question_type == 'speaking' and str(level) != '5':
-        messages.info(request, 'スピーキング問題は現在英検5級のみです。')
+    if question_type == 'speaking' and str(level) not in ('3', '4', '5'):
+        messages.info(request, 'スピーキング問題は英検3級・4級・5級のみです。')
         return redirect('exams:exam_list')
     if question_type in ('random', 'mock_exam'):
         session_key = f'answered_questions_{question_type}_{level}'

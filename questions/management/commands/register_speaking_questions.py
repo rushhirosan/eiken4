@@ -8,16 +8,44 @@ from questions.level_paths import (
     questions_file_abspath,
 )
 
+_KIND_RE = re.compile(
+    r'^(\d+)\.\s*(?:\[(passage|illustration|personal)\]\s*)?(.+)$'
+)
 
-def _parse_speaking_block(block: str, qn: int):
-    """1ブロックから title / passage / questions / explanation を取り出す。"""
+
+def _infer_kind(level: str, number: int) -> str:
+    """級と番号から質問種別を推定（タグ省略時）。"""
+    level = str(level)
+    if level == '5':
+        return 'personal' if number >= 3 else 'passage'
+    if level == '4':
+        if number <= 2:
+            return 'passage'
+        if number == 3:
+            return 'illustration'
+        return 'personal'
+    # 3級二次
+    if number == 1:
+        return 'passage'
+    if number in (2, 3):
+        return 'illustration'
+    return 'personal'
+
+
+def _parse_speaking_block(block: str, qn: int, level: str):
+    """1ブロックから title / passage / illustration / questions / explanation を取り出す。"""
     title_m = re.search(
         r'【Title】\s*(.*?)\s*【Passage】',
         block,
         re.DOTALL,
     )
     passage_m = re.search(
-        r'【Passage】\s*(.*?)\s*【Questions】',
+        r'【Passage】\s*(.*?)\s*(?:【Illustration】|【Questions】)',
+        block,
+        re.DOTALL,
+    )
+    illustration_m = re.search(
+        r'【Illustration】\s*(.*?)\s*【Questions】',
         block,
         re.DOTALL,
     )
@@ -36,6 +64,7 @@ def _parse_speaking_block(block: str, qn: int):
 
     title = title_m.group(1).strip()
     passage = passage_m.group(1).strip()
+    illustration = illustration_m.group(1).strip() if illustration_m else ''
     explanation = explanation_m.group(1).strip() if explanation_m else ''
 
     prompts = []
@@ -43,13 +72,17 @@ def _parse_speaking_block(block: str, qn: int):
         line = line.strip()
         if not line:
             continue
-        qm = re.match(r'^(\d+)\.\s*(.+)$', line)
-        if qm:
-            prompts.append({
-                'number': int(qm.group(1)),
-                'prompt': qm.group(2).strip(),
-                'personal': int(qm.group(1)) >= 3,
-            })
+        qm = _KIND_RE.match(line)
+        if not qm:
+            continue
+        number = int(qm.group(1))
+        kind = qm.group(2) or _infer_kind(level, number)
+        prompts.append({
+            'number': number,
+            'prompt': qm.group(3).strip(),
+            'kind': kind,
+            'personal': kind == 'personal',
+        })
 
     sample_by_num = {}
     for line in explanation.splitlines():
@@ -63,14 +96,18 @@ def _parse_speaking_block(block: str, qn: int):
     for item in prompts:
         item['sample_answers'] = sample_by_num.get(item['number'], [])
 
+    turn_over_after = 3 if str(level) == '3' else None
     speaking_data = {
         'title': title,
         'passage': passage,
+        'illustration': illustration,
         'silent_seconds': 20,
+        'turn_over_after': turn_over_after,
         'questions': prompts,
     }
-    # 一覧表示用に title + passage を question_text に入れる
     question_text = f'{title}\n\n{passage}'
+    if illustration:
+        question_text += f'\n\n[Illustration]\n{illustration}'
     return question_text, explanation, speaking_data
 
 
@@ -82,12 +119,11 @@ class Command(BaseCommand):
 
     def handle(self, *args, **options):
         level = options['level']
-        if level != '5':
+        if level not in ('3', '4', '5'):
             self.stdout.write(
-                self.style.WARNING(
-                    f'現在スピーキング問題データは5級のみです（指定: level={level}）'
-                )
+                self.style.ERROR(f'スピーキングは level 3/4/5 のみ対応です: {level}')
             )
+            return
 
         Question.objects.filter(question_type='speaking', level=level).delete()
         self.stdout.write(
@@ -108,7 +144,7 @@ class Command(BaseCommand):
             if not m_num:
                 continue
             qn = int(m_num.group(1))
-            parsed = _parse_speaking_block(block, qn)
+            parsed = _parse_speaking_block(block, qn, level)
             if not parsed:
                 self.stdout.write(
                     self.style.WARNING(f'問題{qn}: 解析できませんでした')
@@ -126,4 +162,4 @@ class Command(BaseCommand):
             registered += 1
             self.stdout.write(self.style.SUCCESS(f'問題{qn}を登録しました'))
 
-        self.stdout.write(self.style.SUCCESS(f'\n登録完了: {registered}問'))
+        self.stdout.write(self.style.SUCCESS(f'\n登録完了: {registered}問（level={level}）'))
