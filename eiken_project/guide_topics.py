@@ -72,7 +72,7 @@ GUIDE_TOPICS: dict[str, GuideTopic] = {
         ],
         'note': (
             '5級には長文読解・ライティングはありません。'
-            '短文系とリスニングを中心に回すのがおすすめです。'
+            '短文系とリスニングを中心に回し、余裕があればスピーキングも声に出して練習するのがおすすめです。'
         ),
         'faqs': [
             {
@@ -89,7 +89,7 @@ GUIDE_TOPICS: dict[str, GuideTopic] = {
                 ),
             },
         ],
-        'related_slugs': ['eiken-5-listening', 'eiken-4-grammar'],
+        'related_slugs': ['eiken-5-listening', 'eiken-5-speaking', 'eiken-4-grammar'],
     },
     'eiken-5-listening': {
         'slug': 'eiken-5-listening',
@@ -148,7 +148,67 @@ GUIDE_TOPICS: dict[str, GuideTopic] = {
                 ),
             },
         ],
-        'related_slugs': ['eiken-5-grammar', 'eiken-4-listening'],
+        'related_slugs': ['eiken-5-grammar', 'eiken-5-speaking', 'eiken-4-listening'],
+    },
+    'eiken-5-speaking': {
+        'slug': 'eiken-5-speaking',
+        'level': '5',
+        'level_label': '英検5級',
+        'topic_key': 'speaking',
+        'topic_label': 'スピーキング',
+        'title': '英検5級スピーキングを無料で練習する方法 - Eiken Practice',
+        'meta_description': (
+            '英検5級スピーキング対策。任意の録音形式の流れをブラウザで声に出して練習。'
+            '合否に関係ない理由と、Eiken Practiceでの使い方を解説。'
+        ),
+        'h1': '英検5級のスピーキングを無料で練習する',
+        'lead': (
+            '英検5級のスピーキングは任意です。'
+            '面接官と会わず、家のパソコンやスマホで声を録音して出すテストで、級の合否には関係ありません。'
+        ),
+        'paragraphs': [
+            (
+                '本番は会場に行かず、好きなときにネット上で録音して提出します。'
+                'Eiken Practice では、その流れ（黙読→音読→質問）を声に出して練習できます。'
+                '自動採点はせず、参考解答と見比べる自己学習です。'
+            ),
+            (
+                'ランダム10問や模擬試験には含まれません。一次（リーディング・リスニング）の学習が一段落したら、'
+                '専用メニューで短時間でも声に出すと安心感が違います。'
+            ),
+        ],
+        'practice_items': [
+            'スピーキング（専用メニュー・任意）',
+            '文法・語彙（答えやすい表現のストック）',
+            'リスニング（英語の音に慣れる）',
+        ],
+        'steps': [
+            'パッセージを黙読する（約20秒）',
+            '声に出して音読する',
+            '内容についての質問に答える（No.1・No.2）',
+            '自分自身についての質問に答える（No.3）',
+            '参考解答と見比べて言い回しを確認する',
+        ],
+        'note': (
+            'スピーキングは合否に関係ない任意受験です。'
+            '会場に行かず、好きなときに受けられます。サイトでは録音提出そのものではなく、流れの練習が中心です。'
+        ),
+        'faqs': [
+            {
+                'question': '英検5級のスピーキングは必須ですか？',
+                'answer': (
+                    'いいえ、任意です。受けなくても級の合否には影響しません。'
+                    '面接官と会わず、家のパソコンやスマホで声を録音して出す形式です。'
+                ),
+            },
+            {
+                'question': 'オンラインでスピーキング練習できますか？',
+                'answer': (
+                    'はい。Eiken Practiceの5級スピーキングメニューで、流れに沿って声に出す練習ができます。'
+                ),
+            },
+        ],
+        'related_slugs': ['eiken-5-listening', 'eiken-5-grammar', 'eiken-4-speaking'],
     },
     'eiken-4-grammar': {
         'slug': 'eiken-4-grammar',
@@ -206,7 +266,7 @@ GUIDE_TOPICS: dict[str, GuideTopic] = {
                 'answer': 'はい。登録後すぐに無料で演習できます。',
             },
         ],
-        'related_slugs': ['eiken-4-listening', 'eiken-4-reading', 'eiken-5-grammar'],
+        'related_slugs': ['eiken-4-listening', 'eiken-4-reading', 'eiken-4-speaking', 'eiken-5-grammar'],
     },
     'eiken-4-listening': {
         'slug': 'eiken-4-listening',
@@ -266,7 +326,7 @@ GUIDE_TOPICS: dict[str, GuideTopic] = {
                 ),
             },
         ],
-        'related_slugs': ['eiken-4-grammar', 'eiken-4-reading', 'eiken-5-listening'],
+        'related_slugs': ['eiken-4-grammar', 'eiken-4-reading', 'eiken-4-speaking', 'eiken-5-listening'],
     },
     'eiken-4-reading': {
         'slug': 'eiken-4-reading',
@@ -324,7 +384,68 @@ GUIDE_TOPICS: dict[str, GuideTopic] = {
                 ),
             },
         ],
-        'related_slugs': ['eiken-4-grammar', 'eiken-4-listening', 'eiken-3-reading'],
+        'related_slugs': ['eiken-4-grammar', 'eiken-4-listening', 'eiken-4-speaking', 'eiken-3-reading'],
+    },
+    'eiken-4-speaking': {
+        'slug': 'eiken-4-speaking',
+        'level': '4',
+        'level_label': '英検4級',
+        'topic_key': 'speaking',
+        'topic_label': 'スピーキング',
+        'title': '英検4級スピーキングを無料で練習する方法 - Eiken Practice',
+        'meta_description': (
+            '英検4級スピーキング対策。任意の録音形式の流れをブラウザで声に出して練習。'
+            '合否に関係ない理由と、Eiken Practiceでの使い方を解説。'
+        ),
+        'h1': '英検4級のスピーキングを無料で練習する',
+        'lead': (
+            '英検4級のスピーキングは任意です。'
+            '面接官と会わず、家のパソコンやスマホで声を録音して出すテストで、級の合否には関係ありません。'
+        ),
+        'paragraphs': [
+            (
+                '本番は会場に行かず、好きなときにネット上で録音して提出します。'
+                'Eiken Practice では、黙読→音読→内容質問→イラスト質問→自分のこと、の流れを声に出して練習できます。'
+                '自動採点はせず、参考解答と見比べる自己学習です。'
+            ),
+            (
+                'ランダム10問や模擬試験には含まれません。'
+                '一次の学習が一段落してから、専用メニューで短時間でも声に出すと本番が楽になります。'
+            ),
+        ],
+        'practice_items': [
+            'スピーキング（専用メニュー・任意）',
+            '文法・語彙（答えやすい表現のストック）',
+            'リスニング（英語の音に慣れる）',
+        ],
+        'steps': [
+            'パッセージを黙読する（約20秒）',
+            '声に出して音読する',
+            '内容についての質問に答える（No.1・No.2）',
+            'イラストについての質問に答える（No.3）',
+            '自分自身についての質問に答える（No.4）',
+            '参考解答と見比べて言い回しを確認する',
+        ],
+        'note': (
+            'スピーキングは合否に関係ない任意受験です。'
+            '会場に行かず、好きなときに受けられます。サイトでは録音提出そのものではなく、流れの練習が中心です。'
+        ),
+        'faqs': [
+            {
+                'question': '英検4級のスピーキングは必須ですか？',
+                'answer': (
+                    'いいえ、任意です。受けなくても級の合否には影響しません。'
+                    '面接官と会わず、家のパソコンやスマホで声を録音して出す形式です。'
+                ),
+            },
+            {
+                'question': 'オンラインでスピーキング練習できますか？',
+                'answer': (
+                    'はい。Eiken Practiceの4級スピーキングメニューで、流れに沿って声に出す練習ができます。'
+                ),
+            },
+        ],
+        'related_slugs': ['eiken-4-listening', 'eiken-4-grammar', 'eiken-5-speaking', 'eiken-3-speaking'],
     },
     'eiken-3-grammar': {
         'slug': 'eiken-3-grammar',
@@ -378,7 +499,7 @@ GUIDE_TOPICS: dict[str, GuideTopic] = {
                 'answer': 'はい。Eiken Practiceは無料で利用できます。',
             },
         ],
-        'related_slugs': ['eiken-3-listening', 'eiken-3-reading', 'eiken-3-writing'],
+        'related_slugs': ['eiken-3-listening', 'eiken-3-reading', 'eiken-3-writing', 'eiken-3-speaking'],
     },
     'eiken-3-listening': {
         'slug': 'eiken-3-listening',
@@ -433,7 +554,7 @@ GUIDE_TOPICS: dict[str, GuideTopic] = {
                 ),
             },
         ],
-        'related_slugs': ['eiken-3-grammar', 'eiken-3-reading', 'eiken-4-listening'],
+        'related_slugs': ['eiken-3-grammar', 'eiken-3-reading', 'eiken-3-speaking', 'eiken-4-listening'],
     },
     'eiken-3-reading': {
         'slug': 'eiken-3-reading',
@@ -487,7 +608,7 @@ GUIDE_TOPICS: dict[str, GuideTopic] = {
                 'answer': 'はい。登録後、3級の長文読解から無料で練習できます。',
             },
         ],
-        'related_slugs': ['eiken-3-grammar', 'eiken-3-writing', 'eiken-4-reading'],
+        'related_slugs': ['eiken-3-grammar', 'eiken-3-writing', 'eiken-3-speaking', 'eiken-4-reading'],
     },
     'eiken-3-writing': {
         'slug': 'eiken-3-writing',
@@ -544,7 +665,67 @@ GUIDE_TOPICS: dict[str, GuideTopic] = {
                 ),
             },
         ],
-        'related_slugs': ['eiken-3-grammar', 'eiken-3-reading', 'eiken-3-listening'],
+        'related_slugs': ['eiken-3-grammar', 'eiken-3-reading', 'eiken-3-listening', 'eiken-3-speaking'],
+    },
+    'eiken-3-speaking': {
+        'slug': 'eiken-3-speaking',
+        'level': '3',
+        'level_label': '英検3級',
+        'topic_key': 'speaking',
+        'topic_label': 'スピーキング',
+        'title': '英検3級スピーキング（二次面接）を無料で練習する方法 - Eiken Practice',
+        'meta_description': (
+            '英検3級スピーキング対策。二次試験（面接）の流れをブラウザで声に出して練習。'
+            '黙読・音読・質問の進め方と、Eiken Practiceでの使い方を解説。'
+        ),
+        'h1': '英検3級のスピーキング（二次面接）を無料で練習する',
+        'lead': (
+            '英検3級のスピーキングは、一次試験合格後に進む二次試験（面接）です。'
+            '面接委員の前で、音読や質問に答える形式です。'
+        ),
+        'paragraphs': [
+            (
+                'Eiken Practice では、黙読→音読→内容質問→イラスト質問→カード裏返し→自分のこと、'
+                'という本番の流れを声に出して練習できます。自動採点はせず、参考解答と見比べる自己学習です。'
+            ),
+            (
+                'ランダム10問や模擬試験（選択）には含まれません。'
+                '一次の選択問題・読解・リスニング・ライティングと並行して、二次前に専用メニューで流れを確認すると安心です。'
+            ),
+        ],
+        'practice_items': [
+            'スピーキング（二次試験の流れ練習）',
+            '文法・語彙（答えやすい表現のストック）',
+            'ライティング（自分の考えを言葉にする練習）',
+        ],
+        'steps': [
+            'パッセージを黙読する（約20秒）',
+            '声に出して音読する',
+            '内容についての質問に答える（No.1）',
+            'イラストについての質問に答える（No.2・No.3）',
+            'カードを裏返し、自分自身についての質問に答える（No.4・No.5）',
+            '参考解答と見比べて言い回しを確認する',
+        ],
+        'note': (
+            '5級・4級の任意録音形式とは違い、3級は面接形式の二次試験です。'
+            'サイトでは面接官との対面そのものではなく、本番の手順を声に出す練習が中心です。'
+        ),
+        'faqs': [
+            {
+                'question': '英検3級のスピーキングはいつ受けますか？',
+                'answer': (
+                    '一次試験に合格したあと、二次試験（面接）として受けます。'
+                    '級の合否には二次も含まれます。'
+                ),
+            },
+            {
+                'question': 'オンラインで面接の練習ができますか？',
+                'answer': (
+                    'はい。Eiken Practiceの3級スピーキングメニューで、面接の流れに沿って声に出す練習ができます。'
+                ),
+            },
+        ],
+        'related_slugs': ['eiken-3-writing', 'eiken-3-listening', 'eiken-3-grammar', 'eiken-4-speaking'],
     },
 }
 

@@ -1397,7 +1397,8 @@ def question_list(request, level=None, exam_id=None):
             speaking_badge_label = '二次試験練習'
         elif level_str == '4':
             speaking_intro = (
-                '4級のスピーキングは任意受験です（級の合否には影響しません・ネット録音形式）。'
+                '面接官と会わず、家のパソコンやスマホで声を録音して出すテストです。'
+                '会場に行かず、好きなときに受けられ、合否には関係ありません（任意）。'
                 '黙読 → 音読 → 内容2問 → イラスト1問 → 自分のこと1問、の流れで練習します。'
             )
             speaking_prep_steps = [
@@ -1410,7 +1411,8 @@ def question_list(request, level=None, exam_id=None):
             speaking_badge_label = '任意'
         else:
             speaking_intro = (
-                '5級のスピーキングは任意受験です（級の合否には影響しません・ネット録音形式）。'
+                '面接官と会わず、家のパソコンやスマホで声を録音して出すテストです。'
+                '会場に行かず、好きなときに受けられ、合否には関係ありません（任意）。'
                 '黙読 → 音読 → 内容2問 → 自分のこと1問、の流れで練習します。'
             )
             speaking_prep_steps = [
