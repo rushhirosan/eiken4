@@ -578,7 +578,7 @@ What will Emily do first?
 Question: What will Emily do first?（エミリーが最初にすることは何ですか？）
 
 エミリーが「先に家に帰らないと」と言っているので、4「Go home.（家に帰る。）」が正解です。
-公園に行くのはその後です。1「Get her lunch.（昼食を取る。）」・2「Meet her friend.（友達に会う。）」は会話に出てきません。
+3「Go to the park.（公園に行く。）」はその後です。1「Get her lunch.（昼食を取る。）」・2「Meet her friend.（友達に会う。）」は会話に出てきません。
 
 ---
 
@@ -728,7 +728,7 @@ When is the pool closed?
 Question: When is the pool closed?（プールが閉まっているのはいつですか？）
 
 母親が「日曜日は午前中だけ開いている」と言っているので、日曜の午後は閉まっています。よって4「On Sunday afternoons.（日曜の午後。）」が正解です。
-3「On Sunday mornings.（日曜の朝。）」は開いている時間、1・2の土曜については閉まるとは言っていません。
+3「On Sunday mornings.（日曜の朝。）」は開いている時間、1「On Saturday mornings.（土曜の朝。）」・2「On Saturday afternoons.（土曜の午後。）」については閉まるとは言っていません。
 
 ---
 
@@ -758,7 +758,7 @@ Where is Sarah going this weekend?
 Question: Where is Sarah going this weekend?（サラは今週末どこへ行きますか？）
 
 サラが「家族と科学博物館に行く」と言っているので、1「To the science museum.（科学博物館へ。）」が正解です。
-4「To the art museum.（美術館へ。）」はブライアンの提案で、サラは行かないと断っています。2・3は会話に出てきません。
+4「To the art museum.（美術館へ。）」はブライアンの提案で、サラは行かないと断っています。2「To her family’s house.（家族の家へ。）」・3「To her friend’s house.（友達の家へ。）」は会話に出てきません。
 
 ---
 
@@ -788,7 +788,7 @@ When is the girl’s piano concert?
 Question: When is the girl’s piano concert?（女の子のピアノコンサートはいつですか？）
 
 女の子が「来週の土曜」と言っているので、2「Next Saturday.（来週の土曜。）」が正解です。
-1「Next Friday.（来週の金曜。）」は相手が聞いた日程で否定されています。日曜は練習の日、月曜は会話に出てきません。
+1「Next Friday.（来週の金曜。）」は相手が聞いた日程で否定されています。3「Next Sunday.（来週の日曜。）」は練習の日、4「Next Monday.（来週の月曜。）」は会話に出てきません。
 
 ---
 
@@ -848,7 +848,7 @@ When does Emily usually go to the library?
 Question: When does Emily usually go to the library?（エミリーはいつもいつ図書館に行きますか？）
 
 エミリーが「いつも土曜の午前中に図書館に行く」と言っているので、3「On Saturday mornings.（土曜の午前中。）」が正解です。
-2「On Wednesday afternoons.（水曜の午後。）」は相手の習慣です。1・4は会話に出てきません。
+2「On Wednesday afternoons.（水曜の午後。）」は相手の習慣です。1「On Wednesday mornings.（水曜の朝。）」・4「On Saturday afternoons.（土曜の午後。）」は会話に出てきません。
 
 ---
 
@@ -908,7 +908,7 @@ What will the boy buy at the bookstore?
 Question: What will the boy buy at the bookstore?（男の子は本屋で何を買いますか？）
 
 ノートと色鉛筆の両方を買うと言っているので、3「A new notebook and some colored pencils.（新しいノートと色鉛筆。）」が正解です。
-1や2だけでは不十分です。4「A school bag.（通学かばん。）」は会話に出てきません。
+1「A new notebook.（新しいノート。）」・2「Some colored pencils.（色鉛筆。）」だけでは不十分です。4「A school bag.（通学かばん。）」は会話に出てきません。
 
 ---
 
@@ -968,7 +968,7 @@ Where will they meet?
 Question: Where will they meet?（2人はどこで会いますか？）
 
 男の子が「チケット売り場の前」を提案し、女の子も賛成しているので、1「In front of the ticket counter.（チケット売り場の前で。）」が正解です。
-2・3・4は会話に出てきません。
+2「Inside the movie theater.（映画館の中。）」・3「At the bus stop near the station.（駅の近くのバス停。）」・4「In the café next to the station.（駅のとなりのカフェ。）」は会話に出てきません。
 
 ---
 
@@ -1027,8 +1027,8 @@ Why can’t Lisa go to the movie tonight?
 ☆Thanks.  I’ll call you in the morning.（ありがとう。朝電話するね。）
 Question: Why can’t Lisa go to the movie tonight?（リサが今夜映画に行けないのはなぜですか？）
 
-リサが「弟の宿題を手伝わないといけない」と言っているので、2が正解です。
-1「カフェで働く」・3「先週その映画を見た」・4「おばあちゃんを訪ねる」は会話に出てきません。
+リサが「弟の宿題を手伝わないといけない」と言っているので、2「She has to help her brother with his homework.（弟の宿題を手伝わないといけない。）」が正解です。
+1「She has to work at a café.（カフェで働く。）」・3「She already saw the movie last week.（先週その映画を見た。）」・4「She has to visit her grandmother.（おばあちゃんを訪ねる。）」は会話に出てきません。
 
 ---
 
@@ -1058,7 +1058,7 @@ How much is the cheaper T-shirt?
 Question: How much is the cheaper T-shirt?（安い方のTシャツはいくらですか？）
 
 店員が「青いのは15ドル」と言っているので、2「Fifteen dollars.（15ドル。）」が正解です。
-3「Twenty dollars.（20ドル。）」は最初のTシャツの値段です。1・4は会話に出てきません。
+3「Twenty dollars.（20ドル。）」は最初のTシャツの値段です。1「Ten dollars.（10ドル。）」・4「Twenty-five dollars.（25ドル。）」は会話に出てきません。
 
 ---
 
@@ -1088,7 +1088,7 @@ Who will pick Mark up after soccer practice?
 Question: Who will pick Mark up after soccer practice?（サッカーの練習のあと、誰がマークを迎えますか？）
 
 父親が「スーザンおばさんが行ける」と言っているので、2「His aunt Susan.（スーザンおばさん。）」が正解です。
-1「His father.（父親。）」は残業で来られません。3・4は会話に出てきません。
+1「His father.（父親。）」は残業で来られません。3「His soccer coach.（サッカーのコーチ。）」・4「His friend’s mother.（友達のお母さん。）」は会話に出てきません。
 
 ---
 
@@ -1118,7 +1118,7 @@ When does the next train to Tokyo leave?
 Question: When does the next train to Tokyo leave?（次の東京行きの電車はいつ出発しますか？）
 
 駅員が「午後3時15分」と言っているので、2「At 3:15 p.m.（午後3時15分。）」が正解です。
-1・3・4の時刻は会話に出てきません。
+1「At 3:05 p.m.（午後3時5分。）」・3「At 3:25 p.m.（午後3時25分。）」・4「At 4:15 p.m.（午後4時15分。）」は会話に出てきません。
 
 ---
 
@@ -1148,7 +1148,7 @@ What will Amy do tonight?
 Question: What will Amy do tonight?（エイミーは今夜何をしますか？）
 
 エイミーが今夜ケイトと駅近くの図書館で勉強すると言っているので、2「Study with Kate at the library.（図書館でケイトと勉強する。）」が正解です。
-1のテストは明日です。3・4は会話に出てきません。
+1「Take an English test.（英語のテストを受ける。）」のテストは明日です。3「Meet her teacher at school.（学校で先生に会う。）」・4「Go to the station to buy a book.（駅へ本を買いに行く。）」は会話に出てきません。
 
 ---
 
@@ -1178,7 +1178,7 @@ What did Mr. Brown forget?
 Question: What did Mr. Brown forget?（ブラウンさんは何を忘れましたか？）
 
 ブラウンさんが車の鍵を探していたので、2「His car keys.（車の鍵。）」が正解です。
-鍵はコートのポケットにあり、1財布・3切符・4コート自体を忘れたわけではありません。
+鍵はコートのポケットにあり、1「His wallet.（財布。）」・3「His airplane ticket.（飛行機の切符。）」・4「His coat.（コート。）」自体を忘れたわけではありません。
 
 ---
 
@@ -1298,7 +1298,7 @@ W: Sure. Let’s meet at the station at ten.（いいよ。駅で10時に会お�
 Question: When will they meet?（2人はいつ会いますか？）
 
 日曜の昼食前・駅で10時に会うので、3「Sunday morning.（日曜の朝。）」が正解です。
-1・2の土曜は仕事で行けず、4「Sunday afternoon」は昼食前ではないので合いません。
+1「Saturday morning.（土曜の朝。）」・2「Saturday afternoon.（土曜の午後。）」は仕事で行けず、4「Sunday afternoon.（日曜の午後。）」は昼食前ではないので合いません。
 
 ---
 
@@ -1448,7 +1448,7 @@ W: Then, it is probably Emily’s. Let’s ask her later.（じゃあ、たぶ�
 Question: Which book is Sarah’s?（サラの本はどれですか？）
 
 Sarah 本人が「mine has a green cover（私のは緑の表紙）」と言っているので、1「The one with a green cover.（緑の表紙の本。）」が正解です。
-3の青い本は今見ている本、4の黄色は Ken の本、2の赤い表紙は会話に出てきません。
+3「The one with a blue cover.（青い表紙の本。）」は今見ている本、4「The one with a yellow cover.（黄色い表紙の本。）」は Ken の本、2「The one with a red cover.（赤い表紙の本。）」は会話に出てきません。
 
 ---
 

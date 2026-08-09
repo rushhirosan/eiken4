@@ -7,6 +7,7 @@ from exams.choice_shuffle import (
     apply_choice_shuffle_to_items,
     choice_order_session_key,
     order_choices_for_display,
+    remap_explanation_choice_numbers,
     should_shuffle_choices,
 )
 from exams.models import Choice, Question
@@ -276,3 +277,83 @@ class ChoiceShuffleIntegrationTest(TestCase):
             [choice.id for choice in item['choices']],
             [choice.id for choice in choices],
         )
+
+    def test_remap_explanation_choice_numbers_follows_display_order(self):
+        question = Question.objects.create(
+            level='4',
+            question_type='listening_conversation',
+            question_text='Who was sick?',
+        )
+        choices = [
+            Choice.objects.create(
+                question=question,
+                choice_text=text,
+                is_correct=index == 2,
+                order=index,
+            )
+            for index, text in enumerate(
+                ['Ken.', "Ken’s mother.", "Ken’s father.", "Ken’s friend."],
+                start=1,
+            )
+        ]
+        # Display order: friend, father, mother, Ken (canonical 4,3,2,1)
+        display = [choices[3], choices[2], choices[1], choices[0]]
+        explanation = (
+            '「My mom was sick」とあるので、2「Ken’s mother.」が正解です。\n'
+            '1「Ken.」は話者自身ではなく、3「Ken’s father.」は病院へ連れていった人、'
+            '4「Ken’s friend.」は会話に出てきません。'
+        )
+        remapped = remap_explanation_choice_numbers(explanation, display)
+        self.assertIn('3「Ken’s mother.」が正解です', remapped)
+        self.assertIn('4「Ken.」は話者自身ではなく', remapped)
+        self.assertIn('2「Ken’s father.」は病院へ連れていった人', remapped)
+        self.assertIn('1「Ken’s friend.」は会話に出てきません', remapped)
+        # Do not rewrite multi-digit question numbers inside other contexts
+        self.assertEqual(
+            remap_explanation_choice_numbers('No.41 is ready. 2が正解です。', display),
+            'No.41 is ready. 3が正解です。',
+        )
+
+    def test_apply_choice_shuffle_remaps_listening_explanation_numbers(self):
+        question = Question.objects.create(
+            level='4',
+            question_type='listening_conversation',
+            question_text='Where will they meet tomorrow?',
+            explanation=(
+                '明日は「meet at school」なので、1「At school.」が正解です。\n'
+                '3「At the library.」は今日の予定、2・4の家は会話に出てきません。'
+            ),
+        )
+        choices = [
+            Choice.objects.create(
+                question=question,
+                choice_text=text,
+                is_correct=index == 1,
+                order=index,
+            )
+            for index, text in enumerate(
+                [
+                    'At school.',
+                    "At the girl’s house.",
+                    'At the library.',
+                    "At the boy’s house.",
+                ],
+                start=1,
+            )
+        ]
+        item = {
+            'question': question,
+            'choices': choices,
+            'explanation': question.explanation,
+        }
+        factory = RequestFactory()
+        request = factory.get('/')
+        request.session = self.client.session
+
+        with patch('exams.choice_shuffle.random.shuffle', side_effect=lambda items: items.reverse()):
+            apply_choice_shuffle_to_items(request, '4', [item])
+
+        # reverse → display: 4,3,2,1 so canonical 1→4, 3→2, 2→3, 4→1
+        self.assertIn('4「At school.」が正解です', item['explanation'])
+        self.assertIn('2「At the library.」は今日の予定', item['explanation'])
+        self.assertIn('3・1の家は会話に出てきません', item['explanation'])

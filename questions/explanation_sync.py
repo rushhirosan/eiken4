@@ -24,6 +24,7 @@ _LINE_KYOKAI_DISCLAIMER = re.compile(
 PASSAGE_IDENTIFIER_MAP = {
     1: 'a', 2: 'b', 3: 'c', 4: 'd', 5: 'e', 6: 'f', 7: 'g', 8: 'h',
     9: 'i', 10: 'j', 11: 'k', 12: 'l', 13: 'm', 14: 'n', 15: 'o',
+    16: 'p', 17: 'q', 18: 'r',
 }
 
 
@@ -302,10 +303,11 @@ def update_reading_comprehension(level: str, dry_run: bool, log, warn) -> int:
         if not passage_number_match:
             continue
         passage_number = int(passage_number_match.group(1))
-        if passage_number < 1 or passage_number > 15:
+        if passage_number < 1:
             continue
         identifier = PASSAGE_IDENTIFIER_MAP.get(passage_number)
         if not identifier:
+            warn(f'reading 本文{passage_number}: identifier map に未登録')
             continue
         passage = ReadingPassage.objects.filter(
             level=level, identifier=identifier

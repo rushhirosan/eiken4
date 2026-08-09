@@ -1201,7 +1201,7 @@ M: Emi likes reading. She often goes to the library. Today, she will read a book
 Question: What will Emi do today?（エミは今日何をしますか？）
 
 今日は「read a book at home」とあるので、4「Read a book at home.（家で本を読む。）」が正解です。
-1「Go to the library.」はよく行く場所で今日の予定ではなく、2・3は会話に出てきません。
+1「Go to the library.」はよく行く場所で今日の予定ではなく、2「Help her mother.」・3「Call her friend.」は会話に出てきません。
 
 ---
 

@@ -4,11 +4,16 @@ Choices are reordered per question for the user's session. Answer grading uses
 choice primary keys, so shuffling does not affect scoring. Reading comprehension
 and listening illustration are excluded: explanations reference fixed choice
 numbers, and illustration choices (1/2/3) refer to fixed positions in the image.
+
+Listening conversation/passage explanations also use fixed choice numbers in the
+source text; after shuffle those numbers are remapped to the display order so
+learners can match 「選択肢の文言」 with the on-screen 1–4 labels.
 """
 
 from __future__ import annotations
 
 import random
+import re
 from typing import Iterable, List, Optional, Sequence, TypeVar
 
 CHOICE_SHUFFLE_QUESTION_TYPES = frozenset({
@@ -18,7 +23,49 @@ CHOICE_SHUFFLE_QUESTION_TYPES = frozenset({
     'listening_passage',
 })
 
+# Canonical choice numbers in explanations (DB ``order``) → display labels.
+# Matches: 1「…」, 2が正解, 2・4の家 (both sides of ・). Skips multi-digit (e.g. No.41).
+_EXPLANATION_CHOICE_NUM_RE = re.compile(
+    r'(?<!\d)([1-4])(?=「|が正解|・)|(?<=・)([1-4])(?!\d)'
+)
+
 ChoiceT = TypeVar('ChoiceT')
+
+
+def build_order_to_display_map(display_choices: Sequence[ChoiceT]) -> dict[int, int]:
+    """Map Choice.order (explanation number) → 1-based display position."""
+    mapping: dict[int, int] = {}
+    for display_index, choice in enumerate(display_choices, start=1):
+        canonical = getattr(choice, 'order', None)
+        if canonical is None:
+            continue
+        try:
+            mapping[int(canonical)] = display_index
+        except (TypeError, ValueError):
+            continue
+    return mapping
+
+
+def remap_explanation_choice_numbers(
+    explanation: Optional[str],
+    display_choices: Sequence[ChoiceT],
+) -> str:
+    """Rewrite 1–4 choice refs in explanation to match shuffled display order."""
+    text = (explanation or '').strip()
+    if not text or not display_choices:
+        return explanation or ''
+
+    order_to_display = build_order_to_display_map(display_choices)
+    if not order_to_display:
+        return text
+    if all(order_to_display.get(n) == n for n in order_to_display):
+        return text
+
+    def _replace(match: re.Match) -> str:
+        canonical = int(match.group(1) or match.group(2))
+        return str(order_to_display.get(canonical, canonical))
+
+    return _EXPLANATION_CHOICE_NUM_RE.sub(_replace, text)
 
 
 def should_shuffle_choices(question_type: Optional[str]) -> bool:
@@ -135,6 +182,11 @@ def apply_choice_shuffle_to_items(
             raw_choices,
             create_if_missing=create_if_missing,
         )
+        if item.get('explanation'):
+            item['explanation'] = remap_explanation_choice_numbers(
+                item['explanation'],
+                item['choices'],
+            )
     return list(items)
 
 

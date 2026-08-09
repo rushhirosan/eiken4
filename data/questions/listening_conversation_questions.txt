@@ -1464,4 +1464,4 @@ M: OK. Let’s meet at two.（いいよ。2時に会おう。）
 Question: Where will they meet tomorrow?（2人は明日どこで会いますか？）
 
 明日は「meet at school（学校で会う）」なので、1「At school.（学校で。）」が正解です。
-3「At the library.」は今日の予定、2・4の家は会話に出てきません。
+3「At the library.」は今日の予定、2「At the girl’s house.」・4「At the boy’s house.」は会話に出てきません。

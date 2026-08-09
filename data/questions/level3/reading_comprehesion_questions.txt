@@ -22,8 +22,9 @@ Which trash can will the volunteers throw away paper in?
 
 【解説1a】
 設問は、紙（paper）を捨てるゴミ箱の色を聞いています。
-案内では、赤のゴミ箱＝ペットボトル、青＝その他のプラスチック、黄＝紙（paper）と書かれています。したがって正解は黄色のゴミ箱です。
-緑のゴミ箱は本文に出てこないので、選択肢2は本文と合いません。
+案内では、赤のゴミ箱＝ペットボトル、青＝その他のプラスチック、黄＝紙（paper）と書かれています。
+4「The yellow one.」が正解です。
+1「The red one.」・2「The green one.」・3「The blue one.」は本文に出てこないため誤りです。
 
 問題1b:
 What will the city staff do on September 19?
@@ -40,7 +41,8 @@ What will the city staff do on September 19?
 【解説1b】
 設問は、9月19日に市の職員（city staff）がすることを聞いています。
 本文では、掃除のあと職員がボランティア全員に昼食（lunch）を出す、とあります。これに対応するのが選択肢3です。
-飲み物はボランティアが自分で持参するため、職員が飲み物を売る・手袋を捨てる・ペットボトルを買う、という話は本文にありません。
+3「Bring something to eat for the volunteers.」が正解です。
+1「Sell cold drinks at a park.」・2「Throw away old gloves.」・4「Buy colorful plastic bottles.」は本文にありません。
 
 ---
 
@@ -156,8 +158,8 @@ When people use the “Three Sisters Method,” they can
 
 【解説3a】
 設問は、「Three Sisters Method」を使うと人々が何ができるかを聞いています。
-本文の前半で、この方法は狭い場所でも多くの野菜を育てられる、と説明されています。正解は選択肢4です。
-光や水がまったく不要、数百種類の食べ物を学ぶ、という内容は本文にありません。
+4「grow many vegetables in a small area.」が正解です。
+1「learn about hundreds of Native American foods.」・2「use plants to get clean water for drinking.」・3「grow vegetables without light or water.」は本文にありません。
 
 問題3b:
 What do people plant ﬁrst when they use the Three Sisters Method?
@@ -174,7 +176,8 @@ What do people plant ﬁrst when they use the Three Sisters Method?
 【解説3b】
 設問は、Three Sisters Method で最初に植える野菜を聞いています。
 植え順の説明で、まずトウモロコシ（corn）、次に豆（beans）、最後にかぼちゃ（pumpkins）とあります。
-ひまわり（sunflowers）は本文に出てこないため、選択肢2は誤りです。
+4「Corn.」が正解です。
+1「Pumpkins.」・2「Sunﬂowers.」・3「Beans.」は本文に出てこないため誤りです。
 
 問題3c:
 What do the pumpkins’ leaves do?
@@ -253,8 +256,9 @@ What must students do on October 18?
 
 【解説4a】
 設問は、10月18日に生徒がしなければならないこと（must）を聞いています。
-案内に「Please bring your own lunch（昼食は各自持参）」とあります。正解は選択肢3です。
-家の中の写真は禁止ですが、それは「してはいけないこと」であり、持参する昼食とは別の話です。庭の掃除や試験の話は本文にありません。
+案内に「Please bring your own lunch（昼食は各自持参）」とあります。
+3「Bring their own lunch.」が正解です。
+1「Clean the garden.」・2「Take pictures of the house.」・4「Take an exam at school.」は本文にありません。
 
 問題4b:
 Where can students take photos during the tour?
@@ -611,8 +615,9 @@ As a child, Ansel Adams
 
 【解説9a】
 設問は、幼少期の Ansel Adams について聞いています。
-本文では、学校に集中できず学校が好きではなかった一方、「自然の中を散歩するのを楽しみ、ピアノを弾いた。幼少期に十年以上ピアノを弾き、とても上手だった」とあります。正解は選択肢4です。
-選択肢2は「学校が好きだった」と本文の did not like school と矛盾し、選択肢3の都市での散歩や選択肢1の絵の習い事は本文にありません。
+本文では、学校に集中できず学校が好きではなかった一方、「自然の中を散歩するのを楽しみ、ピアノを弾いた。幼少期に十年以上ピアノを弾き、とても上手だった」とあります。
+4「played the piano.」が正解です。
+1「learned how to draw.」・2「liked to go to school.」・3「went for walks in cities.」は本文と合いません。
 
 問題9b:
 What did Adams do when he got his ﬁrst camera?
@@ -628,8 +633,9 @@ What did Adams do when he got his ﬁrst camera?
 
 【解説9b】
 設問は、初めてカメラを手に入れたあと Adams がしたことを聞いています。
-1910年代に最初のカメラを受け取ったあと、ヨセミテ国立公園でたくさん写真を撮り、「カメラを持って山にハイキングに行った」とあります。正解は選択肢2です。
-建物の写真を撮った、カメラ店で働いた、写真クラブに入った、という記述は本文にありません。クラブに入ったのは、もっと後の話です。
+1910年代に最初のカメラを受け取ったあと、ヨセミテ国立公園でたくさん写真を撮り、「カメラを持って山にハイキングに行った」とあります。
+2「He went on hikes in the mountains.」が正解です。
+1「He took pictures of buildings.」・3「He worked at a camera store.」・4「He joined a photography club.」は本文にありません。
 
 問題9c:
 Why were Adams’s photographs popular?
@@ -645,8 +651,9 @@ Why were Adams’s photographs popular?
 
 【解説9c】
 設問は、Adams の写真が人気だった理由を聞いています。
-本文では、美しい自然の写真が「とても芸術的で、まるで絵のようだ（like paintings）」と多くの人に思われ、人気になったとあります。正解は選択肢2です。
-古い商品の写真だった、新聞に載ったから、安かったから、という理由は本文に書かれていません。会社の新製品の写真は撮っていますが、人気の理由として述べられているのは自然写真の芸術性です。
+本文では、美しい自然の写真が「とても芸術的で、まるで絵のようだ（like paintings）」と多くの人に思われ、人気になったとあります。
+2「They looked like paintings.」が正解です。
+1「They were photos of old products.」・3「They were in many newspapers.」・4「They were not expensive.」は本文にありません。
 
 問題9d:
 What happened in 1980?
@@ -662,8 +669,9 @@ What happened in 1980?
 
 【解説9d】
 設問は、1980年に起きたことを聞いています。
-「1980年、Adams はアメリカ大統領から、彼の生涯をたたえる賞（an award）を受けた」とあります。正解は選択肢3です。
-博物館での展示、本の出版、政府での仕事は本文に出てきますが、それらが1980年に起きたとは書かれていません。
+「1980年、Adams はアメリカ大統領から、彼の生涯をたたえる賞（an award）を受けた」とあります。
+3「Adams won an award.」が正解です。
+1「Adams showed his photos in museums.」・2「Adams wrote a book.」・4「Adams worked for the government.」は本文にありません。
 
 問題9e:
 What is this story about?
@@ -679,8 +687,8 @@ What is this story about?
 
 【解説9e】
 設問は、本文全体の内容（What is this story about?）を聞いています。
-全文は、1902年生まれの写真家 Ansel Adams が、幼少期のピアノ、カメラ、ヨセミテでの撮影、プロ写真家としての活動、1980年の受賞に至るまでの経歴を述べています。正解は選択肢4です。
-選択肢1はピアノも出てきますが、本文の中心は写真家としての生涯です。選択肢2はカメラ1台の紹介にすぎず、選択肢3は撮り方の説明ではありません。
+4「A photographer in the 1900s.」が正解です。
+1「A professional piano player.」・2「A new camera from the 1900s.」・3「How to take photographs of nature.」は本文にありません。
 
 ---
 
@@ -708,8 +716,9 @@ What must students bring from home?
 
 【解説10a】
 設問は、生徒が家から持ってくる必要があるものを聞いています。
-案内に「Students should bring ingredients from home（材料は各自持参）」とあり、調理道具（cooking tools）は学校が提供すると書かれています。正解は選択肢3です。
-レストランのチケットは優勝チームへの賞品、机や椅子の持参の話は本文にありません。
+案内に「Students should bring ingredients from home（材料は各自持参）」とあり、調理道具（cooking tools）は学校が提供すると書かれています。
+3「Ingredients.」が正解です。
+1「Cooking tools.」・2「Tickets to a restaurant.」・4「Tables and chairs.」は本文にありません。
 
 問題10b:
 What will the winning team receive?
@@ -725,8 +734,9 @@ What will the winning team receive?
 
 【解説10b】
 設問は、優勝チームが受け取るものを聞いています。
-「The winning team will receive free tickets to a local restaurant（地元レストランの無料チケット）」とあります。正解は選択肢2です。
-無料の料理教室、新しい調理道具、別の都市への旅行、という内容は案内にありません。
+「The winning team will receive free tickets to a local restaurant（地元レストランの無料チケット）」とあります。
+2「Free restaurant tickets.」が正解です。
+1「Free cooking lessons.」・3「New cooking tools.」・4「A trip to another city.」は本文にありません。
 
 ---
 
@@ -759,8 +769,9 @@ When does the science club meet?
 
 【解説11a】
 設問は、科学クラブがいつ集まるかを聞いています。
-Emily のメールに「We meet every Tuesday after school（毎週火曜日の放課後に集まる）」とあります。正解は選択肢2です。
-月曜・水曜・金曜のいずれも本文に出てこないため、選択肢1・3・4は誤りです。
+Emily のメールに「We meet every Tuesday after school（毎週火曜日の放課後に集まる）」とあります。
+2「Every Tuesday.（毎週火曜日。）」が正解です。
+1「Every Monday.（毎週月曜日。）」・3「Every Wednesday.（毎週水曜日。）」・4「Every Friday.（毎週金曜日。）」は本文に出てこないため誤りです。
 
 問題11b:
 What did Emily do after the club activity?
@@ -776,8 +787,9 @@ What did Emily do after the club activity?
 
 【解説11b】
 設問は、クラブ活動のあと Emily がしたことを聞いています。
-「After the club activity, we studied together in the library for an hour（クラブのあと、図書館で1時間一緒に勉強した）」とあります。正解は選択肢3です。
-外でスポーツをした、一人で帰った、博物館を訪れた、という記述は本文にありません。博物館への訪問は来月の予定として触れられているだけです。
+「After the club activity, we studied together in the library for an hour（クラブのあと、図書館で1時間一緒に勉強した）」とあります。
+3「Studied in the library.」が正解です。
+1「Played sports outside.」・2「Went home alone.」・4「Visited a museum.」は本文にありません。
 
 問題11c:
 What may the science club do next month?
@@ -793,8 +805,9 @@ What may the science club do next month?
 
 【解説11c】
 設問は、科学クラブが来月にするかもしれないことを聞いています。
-「Our science teacher said we may visit a science museum next month（来月、科学博物館へ行くかもしれない）」とあります。正解は選択肢2です。
-料理コンテスト、スポーツ祭、海外旅行の話は、このメールにはありません。
+「Our science teacher said we may visit a science museum next month（来月、科学博物館へ行くかもしれない）」とあります。
+2「Visit a science museum.」が正解です。
+1「Have a cooking contest.」・3「Join a sports festival.」・4「Travel to another country.」は本文にありません。
 
 ---
 
@@ -821,8 +834,9 @@ What did people in Central America make from cacao beans?
 
 【解説12a】
 設問は、中央アメリカの人々がカカオ豆から何を作っていたかを聞いています。
-「Hundreds of years ago, people in Central America made a drink from cacao beans（飲み物を作っていた）」とあります。正解は選択肢3です。
-パン・スープ・アイスクリームを作っていた、という記述は本文にありません。
+「Hundreds of years ago, people in Central America made a drink from cacao beans（飲み物を作っていた）」とあります。
+3「A drink.」が正解です。
+1「Bread.」・2「Soup.」・4「Ice cream.」は本文にありません。
 
 問題12b:
 What did Europeans add to chocolate drinks?
@@ -838,8 +852,9 @@ What did Europeans add to chocolate drinks?
 
 【解説12b】
 設問は、ヨーロッパ人がチョコレート飲料に何を加えたかを聞いています。
-1500年代以降、「people started adding sugar to chocolate drinks（砂糖を加えるようになった）」とあります。正解は選択肢2です。
-塩・牛乳・バターを加えた、という記述は本文にありません。
+1500年代以降、「people started adding sugar to chocolate drinks（砂糖を加えるようになった）」とあります。
+2「Sugar.」が正解です。
+1「Salt.」・3「Milk.」・4「Butter.」は本文にありません。
 
 問題12c:
 What happened in the 1800s?
@@ -855,8 +870,9 @@ What happened in the 1800s?
 
 【解説12c】
 設問は、1800年代に起きたことを聞いています。
-「In the 1800s, companies learned how to make solid chocolate bars（固形のチョコレートバーを作れるようになった）」とあります。正解は選択肢2です。
-チョコレートを飲むのをやめた、高価になった、博物館が歴史展示をやめた、という話は本文にありません。
+「In the 1800s, companies learned how to make solid chocolate bars（固形のチョコレートバーを作れるようになった）」とあります。
+2「Companies made chocolate bars.」が正解です。
+1「People stopped drinking chocolate.」・3「Chocolate became very expensive.」・4「Museums stopped showing chocolate history.」は本文にありません。
 
 問題12d:
 Why could more people enjoy chocolate easily?
@@ -872,8 +888,9 @@ Why could more people enjoy chocolate easily?
 
 【解説12d】
 設問は、より多くの人がチョコレートを簡単に楽しめるようになった理由を聞いています。
-1800年代にバーが作られるようになったあと、「Because of this, more people could enjoy chocolate easily（その結果、より多くの人が簡単に楽しめるようになった）」と説明されています。正解は選択肢3です。
-チョコレートが無料になった、砂糖の生産が増えた、博物館が販売した、という理由は本文にありません。
+1800年代にバーが作られるようになったあと、「Because of this, more people could enjoy chocolate easily（その結果、より多くの人が簡単に楽しめるようになった）」と説明されています。
+3「Chocolate bars were made.」が正解です。
+1「Chocolate became free.」・2「People grew more sugar.」・4「Museums sold chocolate.」は本文にありません。
 
 問題12e:
 What is this story about?
@@ -889,8 +906,8 @@ What is this story about?
 
 【解説12e】
 設問は、本文全体の内容（What is this story about?）を聞いています。
-全文は、昔の苦い飲み物から、ヨーロッパでの砂糖の添加、1800年代の固形チョコレート、現代のデザートや博物館まで、チョコレートが時代とともにどう変わったかを述べています。正解は選択肢1です。
-カカオの木の育て方、ある博物館の紹介、さまざまな飲み物の種類だけを扱う内容ではありません。
+1「How chocolate changed over time.」が正解です。
+2「How to grow cacao trees.」・3「A famous chocolate museum.」・4「Different kinds of drinks.」は本文にありません。
 
 ---
 
@@ -917,8 +934,9 @@ Who will teach bicycle safety rules?
 
 【解説13a】
 設問は、自転車の安全ルールを誰が教えるかを聞いています。
-「Police officers will teach bicycle safety rules（警察官が安全ルールを教える）」とあります。正解は選択肢2です。
-先生、親、店のオーナーが教える、という記述は本文にありません。
+「Police officers will teach bicycle safety rules（警察官が安全ルールを教える）」とあります。
+2「Police officers.」が正解です。
+1「Teachers.」・3「Parents.」・4「Shop owners.」は本文にありません。
 
 問題13b:
 What will local bike shops do at the event?
@@ -934,8 +952,9 @@ What will local bike shops do at the event?
 
 【解説13b】
 設問は、地元の自転車店がイベントで何をするかを聞いています。
-「local bike shops will check bicycles for free（無料で自転車点検を行う）」とあります。正解は選択肢3です。
-ヘルメットを売る、レースを開く、乗り方を教える、という内容は案内にありません。子ども向けのレースは別項目として触れられていますが、店が行うのは点検です。
+「local bike shops will check bicycles for free（無料で自転車点検を行う）」とあります。
+3「Check bicycles for free.」が正解です。
+1「Sell helmets.」・2「Hold a race.」・4「Give riding lessons.」は本文にありません。
 
 ---
 
@@ -969,8 +988,9 @@ Where did David go yesterday?
 
 【解説14a】
 設問は、David が昨日どこへ行ったかを聞いています。
-「Our class went on a school trip to the science center yesterday（昨日、科学センターへ学校行事で行った）」とあります。正解は選択肢2です。
-動物園、美術館、図書館への訪問の話は本文にありません。
+「Our class went on a school trip to the science center yesterday（昨日、科学センターへ学校行事で行った）」とあります。
+2「A science center.」が正解です。
+1「A zoo.」・3「A museum of art.」・4「A library.」は本文にありません。
 
 問題14b:
 What did David build during the workshop?
@@ -986,8 +1006,9 @@ What did David build during the workshop?
 
 【解説14b】
 設問は、ワークショップで David が何を作ったかを聞いています。
-「we joined a workshop and built small rockets from paper（紙で小さなロケットを作った）」とあります。正解は選択肢3です。
-ロボット、模型の車、望遠鏡を作った、という記述は本文にありません。
+「we joined a workshop and built small rockets from paper（紙で小さなロケットを作った）」とあります。
+3「A paper rocket.」が正解です。
+1「A robot.」・2「A model car.」・4「A telescope.」は本文にありません。
 
 問題14c:
 What was David's favorite part of the trip?
@@ -1003,8 +1024,9 @@ What was David's favorite part of the trip?
 
 【解説14c】
 設問は、David が旅行で一番気に入った部分を聞いています。
-「My favorite part was seeing a model of a space station（宇宙ステーションの模型を見ること）」とあります。正解は選択肢3です。
-昼食、先生が写真を撮ること、ロケットに乗ることは、本文で「一番のお気に入り」とは述べられていません。
+「My favorite part was seeing a model of a space station（宇宙ステーションの模型を見ること）」とあります。
+3「Seeing a space station model.」が正解です。
+1「Eating lunch.」・2「Watching his teacher take pictures.」・4「Flying on a rocket.」は本文にありません。
 
 ---
 
@@ -1031,8 +1053,9 @@ Where do most giant pandas live?
 
 【解説15a】
 設問は、多くのジャイアントパンダがどこに住んでいるかを聞いています。
-「Most giant pandas live in the mountains of China（中国の山岳地帯）」とあります。正解は選択肢2です。
-インド、カナダ、オーストラリアに住む、という記述は本文にありません。
+「Most giant pandas live in the mountains of China（中国の山岳地帯）」とあります。
+2「China.」が正解です。
+1「India.」・3「Canada.」・4「Australia.」は本文にありません。
 
 問題15b:
 What is the main food of giant pandas?
@@ -1048,8 +1071,9 @@ What is the main food of giant pandas?
 
 【解説15b】
 設問は、ジャイアントパンダの主な食べ物を聞いています。
-「They spend many hours each day eating bamboo, which is their main food（竹が主な食べ物）」とあります。正解は選択肢3です。
-魚、果物、草が主な食べ物だ、という記述は本文にありません。
+「They spend many hours each day eating bamboo, which is their main food（竹が主な食べ物）」とあります。
+3「Bamboo.」が正解です。
+1「Fish.」・2「Fruit.」・4「Grass.」は本文にありません。
 
 問題15c:
 Why did the number of giant pandas become low?
@@ -1065,8 +1089,9 @@ Why did the number of giant pandas become low?
 
 【解説15c】
 設問は、ジャイアントパンダの数が少なくなった理由を聞いています。
-「the number of giant pandas became very low because people cut down forests（人々が森林を伐採したため）」とあります。正解は選択肢1です。
-竹を食べなくなった、都市へ移った、泳げなくなった、という理由は本文にありません。
+「the number of giant pandas became very low because people cut down forests（人々が森林を伐採したため）」とあります。
+1「People cut down forests.」が正解です。
+2「They stopped eating bamboo.」・3「They moved to cities.」・4「They could not swim.」は本文にありません。
 
 問題15d:
 Which is true about giant pandas?
@@ -1082,8 +1107,9 @@ Which is true about giant pandas?
 
 【解説15d】
 設問は、ジャイアントパンダについて正しい記述を選ぶ問題です。
-「Although they are large animals, they are usually quiet and peaceful（大きいが、通常は静かで穏やか）」とあります。正解は選択肢2です。
-木に登れない、動物園にしかいない、とても騒がしい、という記述は本文と矛盾します。本文では登るのが得意（good climbers）とも書かれています。
+「Although they are large animals, they are usually quiet and peaceful（大きいが、通常は静かで穏やか）」とあります。
+2「They are usually peaceful.」が正解です。
+1「They cannot climb trees.」・3「They only live in zoos.」・4「They are very noisy.」は本文と合いません。
 
 問題15e:
 What is this story mainly about?
@@ -1099,9 +1125,8 @@ What is this story mainly about?
 
 【解説15e】
 設問は、本文全体の内容（What is this story mainly about?）を聞いています。
-全文は、ジャイアントパンダの生息地、食べ物、体の特徴、森林伐採による減少、保護活動による回復について述べています。正解は選択肢1です。
-竹の育て方、海の動物、中国への旅行記、という内容ではありません。
-
+1「A famous animal and its life.」が正解です。
+2「How to grow bamboo.」・3「Animals that live in oceans.」・4「A trip to China.」は本文にありません。
 
 ---
 
@@ -1134,7 +1159,8 @@ What should the members of the classes do?
 1. Bring a notebook.
 
 【解説16a】
-掲示に「Remember to bring an apron and a notebook」とあるので、ノートを持参する 1 が正解です。皿洗い・レシピ本購入・中国語学習の指示はありません。
+掲示に「Remember to bring an apron and a notebook」とあるので、1「Bring a notebook.」が正解です。
+2「Wash the dishes after cooking.」・3「Buy Mr. Chen’s recipe book.」・4「Learn to speak Chinese.」は指示として書かれていません。
 
 問題16b:
 Mr. Chen is a chef who
@@ -1149,7 +1175,8 @@ Mr. Chen is a chef who
 4. won some cooking contests.
 
 【解説16b】
-「He has won some international cooking contests」とあるので 4 が正解です。オンライン授業・土曜朝・友人招待の記述はありません。
+「He has won some international cooking contests」とあるので、4「won some cooking contests.」が正解です。
+1「gave lessons to students online.」・2「taught teenagers on Saturday mornings.」・3「invited his friends to the cooking classes.」は本文にありません。
 
 ---
 
@@ -1203,7 +1230,8 @@ What did Judy do at the department store yesterday?
 1. She bought a coat and a scarf.
 
 【解説17a】
-茶色のセーターは見つからず、スカーフを祖母用に、コートを自分用に買った、とあるので 1 が正解です。財布は祖母からのプレゼントで、店員として働いた記述はありません。
+茶色のセーターは見つからず、スカーフを祖母用に、コートを自分用に買った、とあるので、1「She bought a coat and a scarf.」が正解です。
+2「She found a nice wallet.」は祖母からのプレゼント、3「She bought a brown sweater.」は見つからず、4「She worked as a staff member.」は本文にありません。
 
 問題17b:
 Judy’s grandmother bought the wallet
@@ -1218,7 +1246,8 @@ Judy’s grandmother bought the wallet
 2. at a shopping mall beside the museum.
 
 【解説17b】
-祖母のメールに「I found it at a shopping mall next to the museum」とあるので 2 が正解です。
+祖母のメールに「I found it at a shopping mall next to the museum」とあるので、2「at a shopping mall beside the museum.」が正解です。
+1「at a shop in the park.」・3「at a shop next to her house.」・4「at a department store in Linda’s city.」は本文にありません。
 
 問題17c:
 What did Judy often do when her grandmother was cooking?
@@ -1233,7 +1262,8 @@ What did Judy often do when her grandmother was cooking?
 3. She listened to Linda’s stories.
 
 【解説17c】
-「Linda often told me stories when you were cooking」とあるので、料理中にリンダの話を聞いていた 3 が正解です。
+「Linda often told me stories when you were cooking」とあるので、3「She listened to Linda’s stories.」が正解です。
+1「She shared a cake with Linda.」・2「She visited a park with her mother.」・4「She helped her grandmother in the kitchen.」は本文にありません。
 
 ---
 
@@ -1261,7 +1291,8 @@ What did Anna like when she was a child?
 1. Drawing on paper.
 
 【解説18a】
-「enjoyed drawing pictures on paper」とあるので 1 が正解です。写真・贈り物・室内ゲームの記述はありません。
+「enjoyed drawing pictures on paper」とあるので、1「Drawing on paper.」が正解です。
+2「Taking pictures.」・3「Buying gifts for her father.」・4「Playing games at home.」は本文にありません。
 
 問題18b:
 Why did Anna begin painting?
@@ -1276,7 +1307,8 @@ Why did Anna begin painting?
 2. She had a problem with her hands.
 
 【解説18b】
-手が痛くて農作業が難しくなり絵を始めた、とあるので 2 が正解です。
+手が痛くて農作業が難しくなり絵を始めた、とあるので、2「She had a problem with her hands.」が正解です。
+1「She had to teach art to her son.」・3「She did not want to look old.」・4「She did not enjoy living on her farm.」は本文にありません。
 
 問題18c:
 The paintings Anna created
@@ -1291,7 +1323,8 @@ The paintings Anna created
 4. had a lot of colors.
 
 【解説18c】
-「painted in a simple way with many colors」とあるので 4 が正解です。
+「painted in a simple way with many colors」とあるので、4「had a lot of colors.」が正解です。
+1「made her much poorer.」・2「made people free.」・3「were sold to farmers.」は本文にありません。
 
 問題18d:
 What did Anna do in her life?
@@ -1306,7 +1339,8 @@ What did Anna do in her life?
 3. She created many works of art.
 
 【解説18d】
-「created more than 1,500 works of art」とあるので 3 が正解です。
+「created more than 1,500 works of art」とあるので、3「She created many works of art.」が正解です。
+1「She tried to travel across America.」・2「She invented new colors.」・4「She built a famous museum.」は本文にありません。
 
 問題18e:
 What is this story about?
@@ -1321,4 +1355,5 @@ What is this story about?
 2. A popular artist in America.
 
 【解説18e】
-アメリカの人気画家 Grandma Moses の生涯が主題なので 2 が正解です。祖母を愛する話・農場の暮らし方・高齢者支援のハウツーではありません。
+アメリカの人気画家 Grandma Moses の生涯が主題なので、2「A popular artist in America.」が正解です。
+1「A woman who loved her grandmother.」・3「How to live on a farm.」・4「How to help older people.」は本文の主題ではありません。

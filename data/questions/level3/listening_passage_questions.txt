@@ -978,7 +978,7 @@ W: My mom is an elementary school teacher, and my dad teaches science at a high 
 Question: What does the girl want to be?（女の子は何になりたいですか？）
 
 「I want to be a famous violinist（有名なバイオリニストになりたい）」とあるので、1「A famous musician.（有名な音楽家。）」が正解です。
-2・3の教師は親の職業や友人の予想、4「科学者」は話に出てきません。
+2「A high school teacher.（高校の先生。）」は父の職業に近い話、3「An elementary school teacher.（小学校の先生。）」は母の職業や友人の予想、4「A scientist.（科学者。）」は話に出てきません。
 
 ---
 
@@ -1002,7 +1002,7 @@ M: Amy works five days a week, but next year, she’ll only work three. She want
 Question: How many days a week does Amy work now?（エイミーは今、週に何日働いていますか？）
 
 今は「five days a week」なので、4「Five.（5日。）」が正解です。
-3「Three.」は来年の予定、1・2は話に出てきません。
+3「Three.（3日。）」は来年の予定、1「One.（1日。）」・2「Two.（2日。）」は話に出てきません。
 
 ---
 
@@ -1026,7 +1026,7 @@ M: Rick wants money to buy a new bike. He wanted to work at his favorite restaur
 Question: How will Rick get money to buy a bike?（リックはどうやって自転車を買うお金を得ますか？）
 
 「he got a job at a supermarket（スーパーで仕事を得た）」ので、1「He’ll work at a supermarket.（スーパーで働く。）」が正解です。
-3「レストランで働く」は採用されず、2・4の親や祖父母に頼む話はありません。
+3「He’ll work at a restaurant.（レストランで働く。）」は採用されず、2「He’ll ask his parents.（親に頼む。）」・4「He’ll ask his grandparents.（祖父母に頼む。）」は話にありません。
 
 ---
 

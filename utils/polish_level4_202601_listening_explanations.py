@@ -114,7 +114,7 @@ M: OK. Let’s meet at two.（いいよ。2時に会おう。）
 Question: Where will they meet tomorrow?（2人は明日どこで会いますか？）
 
 明日は「meet at school（学校で会う）」なので、1「At school.（学校で。）」が正解です。
-3「At the library.」は今日の予定、2・4の家は会話に出てきません。
+3「At the library.」は今日の予定、2「At the girl’s house.」・4「At the boy’s house.」は会話に出てきません。
 """,
 }
 
@@ -159,7 +159,7 @@ M: Emi likes reading. She often goes to the library. Today, she will read a book
 Question: What will Emi do today?（エミは今日何をしますか？）
 
 今日は「read a book at home」とあるので、4「Read a book at home.（家で本を読む。）」が正解です。
-1「Go to the library.」はよく行く場所で今日の予定ではなく、2・3は会話に出てきません。
+1「Go to the library.」はよく行く場所で今日の予定ではなく、2「Help her mother.」・3「Call her friend.」は会話に出てきません。
 """,
     47: """放送文
 M: Jack usually plays soccer or rides his bike with his friends after school. But it rained yesterday, so he stayed at home and read books in the afternoon.（ジャックは放課後、いつも友達とサッカーをしたり自転車に乗ったりします。でも昨日は雨だったので、家にいて午後は本を読みました。）
