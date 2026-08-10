@@ -47,8 +47,8 @@ Girl : Allan, your pink T-shirt is nice. Boy : ( ) Brenda.
 1. Thanks,
 
 【解説3】
-服をほめられた場面なので、感謝の「Thanks,」が自然です。
-「You're welcome,」は感謝を受け取った側の返答なので使えません。「Good job,」はほめる言い方で、ほめられた側の返答として不自然です。
+服をほめられた場面なので、感謝の「Thanks,（ありがとう）」が自然です。
+「You're welcome,（どういたしまして）」は感謝を受け取った側の返答なので使えません。「Good job,（よくできた）」はほめる言い方、「They're interesting,（おもしろいね）」は they で別のものを指す表現で、ほめられた側の返答としては不自然です。
 
 ---
 
@@ -155,8 +155,8 @@ Girl : What class do you like? Boy : ( )
 3. Science.
 
 【解説9】
-「What class do you like?（どの教科が好き？）」なので、教科名の「Science.」が正解です。
-「I go to school.」「After lunch.」「It’s my homework.」は質問に合いません。
+「What class do you like?（どの教科が好き？）」と教科を聞いているので、教科名の「Science.（理科）」が正解です。
+「I go to school.（学校に行く）」は通学の話、「After lunch.（昼食後）」は時間、「It's my homework.（宿題です）」は宿題の話で、好きな教科を答える質問に合いません。
 
 ---
 
@@ -191,8 +191,8 @@ Girl 1 : Is Ken in your class this year? Girl 2 : ( ) I like him a lot.
 2. Yes, he is.
 
 【解説11】
-「Is Ken in your class?」に対する肯定で、続く「I like him a lot.」ともつながるのは「Yes, he is.」です。
-「No, he does not」は文法的に合わない。
+「Is Ken in your class this year?（ケンは今年あなたのクラス？）」は be動詞の Yes/No 疑問文なので、肯定の「Yes, he is.（はい、彼はいます）」が正解で、続く「I like him a lot.」ともつながります。
+「No, he does not.」は助動詞 do の答え方で、be動詞の質問には合いません。「Please come back.（戻ってきて）」や「Sit down.（座って）」は質問への答えになりません。
 
 ---
 
@@ -227,8 +227,8 @@ Teacher : Does your sister work at a hospital, Sally? Girl : Yes. ( )
 4. She’s a nurse.
 
 【解説13】
-病院で働いている姉の職業を補足するので、「She’s a nurse.」が自然です。
-趣味・外見・飼い物の話は職業の説明になりません。
+「Does your sister work at a hospital?（姉は病院で働いている？）」と聞かれ「Yes.」と答えたあとなので、職業を補足する「She's a nurse.（看護師です）」が自然です。
+「I like volleyball.（バレーが好き）」は趣味、「She is tall.（背が高い）」は外見、「She has a dog.（犬を飼っている）」はペットの話で、職業の説明にはなりません。
 
 ---
 
@@ -245,8 +245,8 @@ Man : Let’s go to that hamburger shop. Woman : ( ) I’m hungry.
 2. Good idea.
 
 【解説14】
-ハンバーガー店に行こうという提案に賛成する「Good idea.」が自然で、「I’m hungry.」ともつながります。
-別れの挨拶や無関係な話題は場面に合いません。
+「Let's go to that hamburger shop.（あのハンバーガー店に行こう）」という提案に賛成する「Good idea.（いい考えだね）」が自然で、続く「I'm hungry.（おなかがすいた）」ともつながります。
+「See you.（じゃあね）」は別れの挨拶、「That's all.（それで終わり）」は話題の終了、「It's sunny today.（今日は晴れ）」は天気の話で、店に行こうという提案への返答としては不自然です。
 
 ---
 
@@ -299,8 +299,8 @@ Boy : Can I use your pen, Yumi? Girl : ( )
 3. Sure, here you are.
 
 【解説17】
-ペンを貸してほしいというお願いに対して、「Sure, here you are.（いいよ、はいどうぞ）」が適切です。
-場所や所有だけを答える選択肢は会話の流れと合いません。
+「Can I use your pen?（ペンを使ってもいい？）」というお願いに対して、快く貸す「Sure, here you are.（いいよ、はいどうぞ）」が自然です。
+「It's not mine.（私のものじゃない）」は所有の説明だけ、「I have two.（2本持っている）」は本数の話、「After school.（放課後）」は時間の答えで、ペンを貸す返答としてはつながりません。
 
 ---
 
@@ -317,8 +317,8 @@ Mother : What do you want for breakfast? Boy : ( )
 1. Some bread and milk.
 
 【解説18】
-朝食に何が欲しいかを聞かれているので、食べ物を答える「Some bread and milk.」が正解です。
-場所・時間・行動の答えは質問に合いません。
+「What do you want for breakfast?（朝食に何が欲しい？）」と聞かれているので、食べ物を答える「Some bread and milk.（パンと牛乳）」が正解です。
+「In the kitchen.（キッチンで）」は場所、「At seven.（7時に）」は時間、「I go to school.（学校に行く）」は行動の話で、朝食の内容を聞く質問に合いません。
 
 ---
 
@@ -371,8 +371,8 @@ Boy : How was the movie? Girl : ( )
 3. It was very interesting.
 
 【解説21】
-映画がどうだったかを聞かれているので、感想を述べる「It was very interesting.」が正解です。
-場所・一緒に行った人・時間は感想の答えになりません。
+「How was the movie?（映画はどうだった？）」と感想を聞かれているので、「It was very interesting.（とてもおもしろかった）」が正解です。
+「At the cinema.（映画館で）」は場所、「With my brother.（兄と）」は一緒に行った人、「For two hours.（2時間）」は時間の長さで、映画の感想にはなりません。
 
 ---
 
@@ -407,8 +407,8 @@ Boy : Who is that man? Girl : ( )
 2. He’s my father.
 
 【解説23】
-「Who is that man?（あの男性は誰？）」なので、人物を示す「He’s my father.」が正解です。
-場所や能力・好みは「誰か」の答えになりません。
+「Who is that man?（あの男性は誰？）」と人物を聞いているので、「He's my father.（父です）」が正解です。
+「At the park.（公園で）」は場所、「He can swim.（泳げる）」は能力、「He likes dogs.（犬が好き）」は好みの話で、「誰か」を答える選択肢ではありません。
 
 ---
 
@@ -443,8 +443,8 @@ Girl : What time do you get up, Tom? Boy : ( )
 4. At six thirty.
 
 【解説25】
-起床時間を聞かれているので、「At six thirty.」が自然です。
-場所・期間・頻度だけでは時刻の質問に答えられません。
+「What time do you get up?（何時に起きる？）」と時刻を聞かれているので、「At six thirty.（6時30分に）」が正解です。
+「In my room.（自分の部屋で）」は場所、「For thirty minutes.（30分間）」は時間の長さ、「Every day.（毎日）」は頻度で、何時に起きるかには答えられません。
 
 ---
 
@@ -479,8 +479,8 @@ Boy : Where did you buy this book? Girl : ( )
 4. At the bookstore.
 
 【解説27】
-本をどこで買ったかを聞かれているので、場所を答える「At the bookstore.」が正解です。
-時期・一緒に行った人・値段は「どこで」の答えになりません。
+「Where did you buy this book?（この本はどこで買った？）」と場所を聞かれているので、「At the bookstore.（書店で）」が正解です。
+「Last week.（先週）」はいつ買ったか、「With my mom.（母と）」は誰と買ったか、「It was cheap.（安かった）」は値段の話で、「どこで」の答えになりません。
 
 ---
 
@@ -515,8 +515,8 @@ Girl : What does your father do? Boy : ( )
 2. He’s a soccer player.
 
 【解説29】
-父親の職業を聞かれているので、「He’s a soccer player.」が自然です。
-勤務場所・外見・趣味は職業の答えになりません。
+「What does your father do?（お父さんは何の仕事？）」と職業を聞かれているので、「He's a soccer player.（サッカー選手です）」が正解です。
+「At a hospital.（病院で）」は勤務場所、「He is tall.（背が高い）」は外見、「He likes fishing.（釣りが好き）」は趣味で、職業の答えにはなりません。
 
 ---
 
@@ -533,8 +533,8 @@ Boy : It’s raining outside. Girl : ( )
 3. Let’s take an umbrella.
 
 【解説30】
-雨が降っているという情報に対して、傘を持っていこうと提案する「Let’s take an umbrella.」が会話として自然です。
-天気の感想や無関係な時間の話、乗り物の話はつながりが弱いです。
+「It's raining outside.（外は雨が降っている）」という情報に対して、対策を提案する「Let's take an umbrella.（傘を持っていこう）」が会話として自然です。
+「It's sunny.（晴れている）」は雨の話と矛盾し、「I like trains.（電車が好き）」は好み、「After lunch.（昼食後）」は時間の話で、雨への返答としてはつながりません。
 
 ---
 
@@ -569,8 +569,8 @@ Mother : How many apples do you want? Girl : ( )
 2. Three, please.
 
 【解説32】
-りんごをいくつ欲しいかを聞かれているので、数を答える「Three, please.」が正解です。
-場所・色・好みは数量の答えになりません。
+「How many apples do you want?（りんごをいくつ欲しい？）」と数を聞かれているので、「Three, please.（3つください）」が正解です。
+「In the basket.（かごの中に）」は場所、「They are red.（赤い）」は色、「I like apples.（りんごが好き）」は好みの話で、数量の答えにはなりません。
 
 ---
 
@@ -587,8 +587,8 @@ Boy : I lost my key. Girl : ( )
 4. That’s too bad.
 
 【解説33】
-鍵をなくしたという困った話に対して、同情を示す「That’s too bad.」が自然です。
-賛成・物を渡す・感謝への返答は場面に合いません。
+「I lost my key.（鍵をなくした）」という困った話に対して、同情を示す「That's too bad.（それは残念だね）」が自然です。
+「Good idea.（いい考えだ）」は賛成、「Here you are.（はいどうぞ）」は物を渡すとき、「You're welcome.（どういたしまして）」は感謝への返答で、この場面に合いません。
 
 ---
 
@@ -623,8 +623,8 @@ Boy : When is your birthday? Girl : ( )
 3. In May.
 
 【解説35】
-誕生日がいつかを聞かれているので、月を答える「In May.」が自然です。
-場所・一緒に過ごす人・期間は「いつ」の答えになりません。
+「When is your birthday?（誕生日はいつ？）」といつかを聞かれているので、月を答える「In May.（5月に）」が正解です。
+「At school.（学校で）」は場所、「With my friends.（友だちと）」は一緒に過ごす人、「For one day.（1日間）」は期間で、「いつ」の答えにはなりません。
 
 ---
 
@@ -659,8 +659,8 @@ Mother : What are you doing, Ken? Boy : ( )
 1. I’m reading a book.
 
 【解説37】
-今何をしているかを聞かれているので、行動を答える「I’m reading a book.」が正解です。
-場所・時刻・期間だけでは「何をしているか」に答えられません。
+「What are you doing?（今何をしている？）」と行動を聞かれているので、「I'm reading a book.（本を読んでいる）」が正解です。
+「In my room.（自分の部屋で）」は場所、「At three o'clock.（3時に）」は時刻、「For one hour.（1時間）」は時間の長さで、何をしているかには答えられません。
 
 ---
 
@@ -713,8 +713,8 @@ Teacher : How do you go to school, Lisa? Girl : ( )
 2. By bus.
 
 【解説40】
-通学の手段を聞かれているので、「By bus.」が正解です。
-時刻・一緒に行く人・所要時間は「どうやって」の答えになりません。
+「How do you go to school?（学校へどうやって行く？）」と手段を聞かれているので、「By bus.（バスで）」が正解です。
+「At eight o'clock.（8時に）」は時刻、「With my sister.（妹と）」は一緒に行く人、「For twenty minutes.（20分間）」は所要時間で、「どうやって行くか」の答えにはなりません。
 
 ---
 
@@ -731,8 +731,8 @@ Boy : Whose jacket is this? Girl : ( )
 4. It’s mine.
 
 【解説41】
-「Whose ...?（誰の？）」なので、所有者を示す「It’s mine.」が正解です。
-色・新しさ・大きさは「誰のものか」の答えになりません。
+「Whose jacket is this?（このジャケットは誰の？）」と所有者を聞いているので、「It's mine.（私のものです）」が正解です。
+「It's red.（赤い）」は色、「It's new.（新しい）」は状態、「It's big.（大きい）」は大きさの話で、「誰のものか」の答えにはなりません。
 
 ---
 
@@ -803,8 +803,8 @@ Girl : How much is this pencil? Boy : ( )
 4. It’s fifty yen.
 
 【解説45】
-値段を聞かれているので、「It’s fifty yen.」が自然です。
-場所や大きさは「いくらか」の答えになりません。
+「How much is this pencil?（このえんぴつはいくら？）」と値段を聞かれているので、「It's fifty yen.（50円です）」が正解です。
+「In the shop.（お店で）」や「On the desk.（机の上）」は場所、「It's short.（短い）」は長さの話で、「いくらか」の答えにはなりません。
 
 ---
 
@@ -821,8 +821,8 @@ Boy : Let’s clean the classroom. Girl : ( )
 2. OK, let’s start.
 
 【解説46】
-教室を掃除しようという提案に賛成して始める「OK, let’s start.」が自然です。
-別れの挨拶や文脈のつながらない返答は不適切です。
+「Let's clean the classroom.（教室を掃除しよう）」という提案に賛成して始める「OK, let's start.（よし、始めよう）」が自然です。
+「See you.（じゃあね）」は別れの挨拶、「It's on the desk.（机の上にある）」は場所、「Yes, it's a dog.（はい、犬です）」は内容がずれており、掃除の提案への返答としては不適切です。
 
 ---
 
@@ -857,8 +857,8 @@ Mother : What color is your bike, Dan? Boy : ( )
 3. It’s red.
 
 【解説48】
-自転車の色を聞かれているので、「It’s red.」が正解です。
-速さ・新しさ・所有者は「何色か」の答えになりません。
+「What color is your bike?（自転車は何色？）」と色を聞かれているので、「It's red.（赤です）」が正解です。
+「It's fast.（速い）」は速さ、「It's new.（新しい）」は状態、「It's mine.（私のもの）」は所有者の話で、「何色か」の答えにはなりません。
 
 ---
 
@@ -875,8 +875,8 @@ Girl : I don’t understand this word. Boy : ( )
 4. I’ll help you.
 
 【解説49】
-単語が分からないという助けを求める発話に対して、「I’ll help you.」が自然です。
-賛成・別れの挨拶・感謝への返答は場面に合いません。
+「I don't understand this word.（この単語がわからない）」という助けを求める発話に対して、手伝う「I'll help you.（手伝うよ）」が自然です。
+「Good idea.（いい考えだ）」は賛成、「See you later.（またね）」は別れの挨拶、「You're welcome.（どういたしまして）」は感謝への返答で、この場面に合いません。
 
 ---
 

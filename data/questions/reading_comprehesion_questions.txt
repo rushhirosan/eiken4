@@ -39,7 +39,7 @@ Where will the students meet?
 1. In front of the school.
 
 【解説1b】
-集合場所は「We will meet in front of the school」と明記されています。Wilson先生への相談先や川・バス停は本文の集合地ではありません。
+集合場所は案内に「We will meet in front of the school and go to the camp by bus」と明記されています。Wilson先生の部屋は相談先、バス停や川は本文の集合地として書かれていません。
 
 ---
 
@@ -93,7 +93,7 @@ What will Amy do tomorrow afternoon?
 2. Take a test.
 
 【解説2a】
-Amyが「I’ll take a test」と翌午後の予定を書いており、明日の午後の行動として試験が本文どおりです。バスケ・時計購入・コーチとの面会は記載がありません。
+Amyが時計が必要な理由として「I need it tomorrow afternoon because I'll take a test」と書いており、明日の午後の予定は試験です。バスケ練習は今日、時計購入やコーチとの面会は記載がありません。
 
 問題2b:
 Where did Coach Harris find Amy’s watch?
@@ -108,7 +108,7 @@ Where did Coach Harris find Amy’s watch?
 1. In the gym.
 
 【解説2b】
-時計を見つけた場所は「on a bench in the gym」です。オフィスは預けた場所なので「見つかった場所」の質問には答えになりません。
+コーチの返信に「I found your watch on a bench in the gym」と見つけた場所が書かれています。school office は預けた場所であり、教室や自宅で見つかった、とは書かれていません。
 
 問題2c:
 Amy should go to the school office
@@ -123,7 +123,7 @@ Amy should go to the school office
 2. tomorrow morning.
 
 【解説2c】
-オフィスが開くのは翌朝8時で、昼は混むので「tomorrow morning に行く」と勧められています。午後に試験があるAmyにも朝の受け取りが無難です。
+コーチは「The office is always busy at lunchtime, so you should go there tomorrow morning」と朝の受け取りを勧めています。オフィスは翌朝8時開き、昼食時は混むため午後や昼食時は避けるべき、という流れです。
 
 ---
 
@@ -163,7 +163,7 @@ What does Jill do every summer?
 3. She goes to the beach.
 
 【解説3a】
-習慣として「Every summer, she visits the beach with her family」とあります。釣り・ボート・大学のプールレッスンは別の時期・出来事の話です。
+習慣として「Every summer, she visits the beach with her family. She enjoys swimming there」と毎年家族と海辺を訪れます。釣りはある夏の1日、プールのサーフィン練習やボート旅行は別の時期の話です。
 
 問題3b:
 What time did Jill and her father get on a boat? 
@@ -178,7 +178,7 @@ What time did Jill and her father get on a boat?
 3. At seven.
 
 【解説3b】
-「got up at six」「got on a boat at seven」と並べて書かれており、ボートに乗った時刻は7時です。6時は起床時刻なので混同しないようにします。
+釣りに行った日は「They got up at six in the morning and got on a boat at seven」とあり、ボートに乗ったのは7時です。6時は起床、正午は翌日の散歩の時刻なので混同しないようにします。
 
 問題3c:
 Who did Jill meet by the beach? 
@@ -193,7 +193,7 @@ Who did Jill meet by the beach?
 2. A woman with long hair.
 
 【解説3c】
-「She met a woman with long hair there.」と描写されています。男性や父の知人・コーチとは書かれていません。
+海辺の散歩で「She met a woman with long hair there」と長い髪の女性に出会った、と描写されています。大都市の男性・父の友人・水泳コーチが登場する、という記述は本文にありません。
 
 問題3d:
 What did Jill do at college? 
@@ -208,7 +208,7 @@ What did Jill do at college?
 3. She started taking surfing lessons.
 
 【解説3d】
-大学では「started taking surfing lessons」とあり、サーフィンレッスンが本文どおりです。プール掃除や釣りクラブ・水泳習得とは記載がありません。
+大学進学後「At college, she started taking surfing lessons」とサーフィンレッスンを始めました。釣りクラブ加入・水泳習得・プール掃除は、本文にない大学での活動です。
 
 問題3e:
 What will Jill do this summer? 
@@ -250,7 +250,7 @@ When will the students show their clothes?
 1. From 10:00 a.m.
 
 【解説4a】
-「From 10:00 a.m., the students will show their clothes」とあり、ショー開始は午前10時です。レストランの営業時間（11時〜）や午後とは別です。
+案内に「From 10:00 a.m., the students will show their clothes」とショー開始時刻が書かれています。Garden Restaurant が11時から営業する時間や午後2時終了とは、ファッションショーの開始時刻ではありません。
 
 問題4b:
 In the afternoon, people can
@@ -265,7 +265,7 @@ In the afternoon, people can
 2. talk to students from the Fairview Fashion School.
 
 【解説4b】
-「In the afternoon, you can talk to the students」とあり、午後の活動は学生との会話です。服を作る・料理・Arts Centerの歴史とは書かれていません。
+案内に「In the afternoon, you can talk to the students」と午後はFairview Fashion Schoolの学生と話せます。服を作る・Arts Centerの歴史学習・学生と一緒に料理、という午後の活動は書かれていません。
 
 ---
 
@@ -305,7 +305,7 @@ What did Ben do last week?
 2. He watched golf on TV.
 
 【解説5a】
-Benが「watched golf on TV last week」と書いており、先週したことはテレビ観戦です。祖父宅訪問やゴルフ実践・母との昼食は記載がありません。
+Benの手紙冒頭で「I watched golf on TV last week with Mom」と先週したことを述べています。ゴルフを実際にプレイした・祖父を訪れた・母と昼食、という記述はありません。
 
 問題5b:
 Every Sunday morning, Ben
@@ -320,7 +320,7 @@ Every Sunday morning, Ben
 2. has piano lessons.
 
 【解説5b】
-「piano lessons every Sunday morning」とあり、日曜の朝の予定はピアノです。サッカーは土曜、宿題は日曜夕方と本文で区別されています。
+Benは「I have soccer practice every Saturday and piano lessons every Sunday morning」とスケジュールを書いており、日曜の朝はピアノです。サッカーは土曜、宿題は日曜夕方、祖父への電話は本文にありません。
 
 問題5c:
 What should Ben bring next Sunday?
@@ -335,7 +335,7 @@ What should Ben bring next Sunday?
 3. An umbrella.
 
 【解説5c】
-Grandpaは「You should bring an umbrella.」と書いており、Benが持っていくべきものは傘です。サンドイッチと飲み物は祖父が用意します。
+祖父は「I'll bring some sandwiches and some drinks for lunch. You should bring an umbrella」と書いており、Benが持つのは傘です。サンドイッチと飲み物は祖父が用意し、レインコートの指示はありません。
 
 ---
 
@@ -364,7 +364,7 @@ What does Wendy do every day?
 2. She does her homework.
 
 【解説6a】
-「She does homework every day」と毎日の行動として書かれています。ピアノは水曜夜、野球は土曜など「every day」ではありません。
+冒頭に「She does homework every day」と毎日の行動として書かれています。ピアノは水曜夜、野球は土曜、親とスポーツを見る時間は休暇中の話で「every day」の行動ではありません。
 
 問題6b:
 Where did Wendy and her parents go last summer?
@@ -379,7 +379,7 @@ Where did Wendy and her parents go last summer?
 1. To the mountains.
 
 【解説6b】
-本文に「stayed on a farm in the mountains」とあり、目的地は山間部の農場です。大都市や祖父の家・レストランとは書かれていません。
+去年の夏「Wendy and her parents stayed on a farm in the mountains for eight days」と山間の農場に滞在しました。大都市・祖父の家・新しいレストランへ行った、という記述はありません。
 
 問題6c:
 What time did Wendy and her parents wake up during their trip?
@@ -394,8 +394,7 @@ What time did Wendy and her parents wake up during their trip?
 3. At seven o'clock.
 
 【解説6c】
-旅行中は「they woke up at seven o’clock」とあり、起床は7時です。5時・6時・8時という記述はありません。
-
+農場滞在中「During their trip, they woke up at seven o'clock」と起床時刻が書かれています。5時・6時・8時という選択肢の時刻は本文になく、7時が正解です。
 
 問題6d:
 What did Wendy and her mother do every morning during their trip?
@@ -410,7 +409,7 @@ What did Wendy and her mother do every morning during their trip?
 2. They gave food to the sheep.
 
 【解説6d】
-母娘は「gave food to the sheep」、父は「cooked breakfast」と役割が分かれています。店へ歩く・朝食を作る（母娘）・農家の子どもと話す、ではありません。
+毎朝「Wendy and her mother gave food to the sheep」と母娘が羊に餌をやり、父は「Wendy's father cooked breakfast for everyone」と朝食を作ります。母娘が朝食を作る・店へ歩く・農家の子と話す、とは書かれていません。
 
 
 問題6e:
@@ -426,7 +425,7 @@ Why does Wendy like looking at the photos?
 3. She really enjoyed her trip.
 
 【解説6e】
-理由は「because she really enjoyed her trip to the farm」と因果が述べられています。祖父が撮ったわけでもなく、プレゼントだからという理由ではありません。
+Wendyは写真を見るのが好きな理由として「because she really enjoyed her trip to the farm」と農場旅行を楽しんだから、と述べています。祖父が撮影したから・プレゼントだから・両親が写っているから、という理由ではありません。
 
 ---
 
@@ -455,7 +454,7 @@ Where will the dance lesson be?
 4. At City Sports Center.
 
 【解説7a】  
-本文冒頭に開催場所として「at City Sports Center」と明記されています。ダンスセンター・体育館・市役所という記載はありません。
+案内冒頭に「There will be a dance lesson at City Sports Center」と開催場所が書かれています。ダンスセンター・学校体育館・市役所という場所の記述は本文にありません。
 
 問題7b:  
 What should the students do to take the dance lesson?
@@ -470,7 +469,7 @@ What should the students do to take the dance lesson?
 1. Bring lunch and gym shoes.
 
 【解説7b】  
-参加条件として「Students must bring lunch and gym shoes」と書かれています。パーティーを友人に伝える・教科書購入・学校の掃除とは本文にありません。
+参加要件として「Students must bring lunch and gym shoes」と書かれています。レッスン末尾のパーティー告知・教科書購入・学校清掃は、参加のための持ち物条件として案内されていません。
 
 ---
 
@@ -516,7 +515,7 @@ What will Beth and Cathy do on Saturday evening?
 4. Have a barbecue.
 
 【解説8a】  
-Bethが「having a barbecue on Saturday evening」と予定を書いており、土曜夕方はバーベキューです。ハイキングは土曜午後、映画は日曜の話なので該当しません。
+Bethが「I'm excited about going hiking on Saturday afternoon and having a barbecue on Saturday evening」と予定を書いており、土曜夕方はバーベキューです。ハイキングは土曜午後、映画は日曜夕方の話なので該当しません。
 
 問題8b:  
 What will happen in Cathy’s town this Sunday?
@@ -531,7 +530,7 @@ What will happen in Cathy’s town this Sunday?
 1. There will be a festival.
 
 【解説8b】  
-Cathyが日曜の予定として「go to the festival in my town」と書いています。天気は「hot and sunny」とあり雨の多さや映画館開店とは書かれていません。
+Cathyは日曜に「We can go to the festival in my town on Sunday」と祭りがあると書いています。天気は「hot and sunny all weekend」で雨が多いわけではなく、映画館開店やセールの記述もありません。
 
 問題8c:  
 What should Beth bring this weekend?
@@ -585,7 +584,7 @@ What does Gerald’s father play?
 1. The guitar.
 
 【解説9a】  
-本文に「His father plays the guitar in a band」とあります。トランペットはGerald、ヴァイオリンとピアノはバンドの別メンバーです。
+「His father plays the guitar in a band with a violin player and a pianist」と父はギターを演奏します。トランペットはGerald自身、ヴァイオリンとピアノはバンドの別メンバーが担当です。
 
 問題9b:  
 What does Gerald want to do?
@@ -600,7 +599,7 @@ What does Gerald want to do?
 3. Become a musician.
 
 【解説9b】  
-「Gerald wants to become a musician like his father」と書かれています。バンドを見に行く・スポーツ・レストランでの仕事とは本文にありません。
+「Gerald wants to become a musician like his father」と Gerald は父のように音楽家になりたいと述べています。バンド鑑賞・放課後のスポーツ・レストラン勤務が目標、とは書かれていません。
 
 問題9c:  
 When did Gerald see the poster?
@@ -615,7 +614,7 @@ When did Gerald see the poster?
 1. In May.
 
 【解説9c】  
-「In May, Gerald saw a poster about...」とあります。厳しい練習は6月、フェスティバル開催は7月なので時期が異なります。
+「In May, Gerald saw a poster about a music performance for a school festival」とポスターを見たのは5月です。6月は練習、7月はフェスティバル開催の時期なので、ポスターを見た月とは異なります。
 
 問題9d:  
 During the performance at the festival, Gerald was
@@ -630,7 +629,7 @@ During the performance at the festival, Gerald was
 1. nervous.
 
 【解説9d】  
-演奏直後は「He was nervous」と述べられています。観客の反応を見て後から驚きや喜びが書かれるので、その時点では「nervous」が本文どおりです。
+フェスティバル演奏中「He was nervous, and he played the song too quickly」と緊張していたと述べられています。surprised や happy は観客の反応を見た後の変化で、演奏の最中は nervous が本文どおりです。
 
 問題9e:  
 What did Gerald do after the performance?
@@ -645,7 +644,7 @@ What did Gerald do after the performance?
 4. He went to a restaurant.
 
 【解説9e】  
-本文末尾に「went to a pizza restaurant ... to celebrate」とあります。先生への礼・Jessicaの家・電話とは書かれていません。
+演奏後「he went to a pizza restaurant with Jessica and his parents to celebrate」とピザレストランで祝いました。先生への礼・Jessicaの家への訪問・電話は本文にありません。
 
 ---
 
@@ -671,7 +670,7 @@ What can people do at the festival?
 1. Drink hot chocolate.
 
 【解説10a】
-本文に「People can drink hot chocolate and watch skating」とあり、アイスホッケー・映画・料理という記載はありません。
+案内に「People can drink hot chocolate and watch skating」と参加できる活動が書かれています。アイスホッケー・映画鑑賞・料理をする、という記述はフェスティバルの案内にありません。
 
 問題10b:
 When will the festival close on weekends?
@@ -686,7 +685,7 @@ When will the festival close on weekends?
 3. At 8:00 p.m.
 
 【解説10b】
-週末の営業は「10:00 a.m. to 8:00 p.m. on weekends」とあり、閉場は8:00 p.m.です。平日は9:00 p.m.までなので混同しないよう時刻を照合します。
+営業時間は「10:00 a.m. to 8:00 p.m. on weekends」と週末は午前10時から午後8時までです。閉場は8:00 p.m. で、平日の9:00 p.m. や午後3時・5時とは区別してください。
 
 ---
 
@@ -739,7 +738,7 @@ Why does Misaki need to be home early on Thursday?
 4. To have dinner with her family.
 
 【解説11b】
-Misakiが「I need to be home early because my family will have dinner together」と書いており、早帰りの理由は家族との夕食です。
+Misakiは「I need to be home early because my family will have dinner together that evening」と書いており、木曜の早帰り理由は家族との夕食です。試験勉強・歴史レポート・母との買い物とは本文にありません。
 
 問題11c:
 Where does Misaki want to study?
@@ -754,7 +753,7 @@ Where does Misaki want to study?
 3. At a coffee shop.
 
 【解説11c】
-MisakiがPaulinaの図書館案に続けて「Can we study at the coffee shop near my house?」と変更を提案しています。理科教室や自宅ではなくコーヒーショップです。
+Paulinaが図書館を提案したあと、Misakiは「Can we study at the coffee shop near my house? It's really quiet」とコーヒーショップへの変更を提案しています。理科教室・学校図書館・自宅での勉強ではありません。
 
 ---
 
@@ -777,7 +776,7 @@ What did Daniel do every day after school?
 4. He studied in his room.
 
 【解説12a】  
-本文に「studied every day in his room after school」とあります。画家になるまで絵を描くのは後の話で、毎日のルーティンは勉強です。
+父の助言を受け「he studied every day in his room after school to get good grades」と放課後は部屋で勉強していました。絵を描くのはコンテスト用で、毎日のルーティンは勉強です。
 
 問題12b:
 Why was Daniel nervous about the contest?
@@ -792,7 +791,7 @@ Why was Daniel nervous about the contest?
 2. Many people took part in it.
 
 【解説12b】  
-「Many people took part in the contest, so Daniel was nervous」と因果が書かれています。開催場所や年齢・選考者は不安の理由として本文に挙げられていません。
+Danielは「Many people took part in the contest, so Daniel was nervous」と書かれており、参加者が多いことが不安の理由です。高校開催・最年少・有名画家による選考が理由、とは本文に挙げられていません。
 
 問題12c:
 What did Daniel paint for the contest?
@@ -807,7 +806,7 @@ What did Daniel paint for the contest?
 1. A picture of his house.
 
 【解説12c】  
-「He painted a picture of his house for the contest」と明記されています。家族・学校・クラスメイトの絵とは書かれていません。
+コンテストに「He painted a picture of his house for the contest」と自宅の絵を描いて出展しました。家族・学校・クラスメイトの絵を描いた、という記述はありません。
 
 問題12d:
 How long did the teachers need to choose the winner?
@@ -822,7 +821,7 @@ How long did the teachers need to choose the winner?
 4. Four weeks.
 
 【解説12d】
-「The teachers needed four weeks to choose a winner」とあり、選考期間は4週間です。1〜3週間という記述はありません。
+結果発表まで「The teachers needed four weeks to choose a winner」と選考に4週間かかったと書かれています。1週間・2週間・3週間という記述は本文にありません。
 
 
 問題12e:
@@ -866,7 +865,7 @@ What will happen in the gym?
 1. A piano player will give a speech.
 
 【解説13a】
-本文に「give a speech in the gym」とあります。演奏は music room、おやつは cafeteria です。
+スケジュールに「He will first give a speech in the gym and then play three songs in the music room」とあり、体育館ではスピーチが行われます。演奏は music room、おやつは cafeteria です。
 
 問題13b:
 How many songs will Mr. Stevens play?
@@ -922,7 +921,7 @@ When can Jimmy visit his grandmother’s home?
 3. Next month.
 
 【解説14a】
-Jimmy が「next month」に訪れてよいか尋ね、祖母も「next month」と返事しています。
+Jimmyが「Can I visit your home next month?」と尋ね、祖母も「come and see my cat Lily and her babies next month!」と返信しています。来週・来夏ではなく来月が本文どおりです。
 
 問題14b:
 How many babies does Lily have?
@@ -937,7 +936,7 @@ How many babies does Lily have?
 3. Three.
 
 【解説14b】
-祖母のメールに「She has three babies」とあります。
+祖母の返信で「She has three babies, and they are very cute」と Lily の子猫は3匹と書かれています。1匹・2匹・4匹という数字の記述は本文にありません。
 
 問題14c:
 Who visited Jimmy’s grandmother yesterday?
@@ -952,7 +951,7 @@ Who visited Jimmy’s grandmother yesterday?
 1. Her friend.
 
 【解説14c】
-「Yesterday, one of my friends visited me」とあるので、訪問者は祖母の友人です。
+祖母が「Yesterday, one of my friends visited me and saw them, too!」と書いており、昨日訪れたのは祖母の友人です。Jimmyや父が昨日訪れた、という記述はありません。
 
 ---
 
@@ -978,7 +977,7 @@ Why did George’s family go to the museum last Saturday?
 3. George’s sister wanted to go.
 
 【解説15a】
-「his sister wanted to go to a history museum. So, his family went…」と因果が書かれています。
+「his sister wanted to go to a history museum. So, his family went to the museum」とあり、妹が行きたがったのが理由です。父のチケット・母の勤務先・George自身の好みが理由、とは書かれていません。
 
 問題15b:
 How old was the blackboard?
@@ -993,7 +992,7 @@ How old was the blackboard?
 3. Forty years old.
 
 【解説15b】
-「The blackboard was forty years old」とあります。建物の80年と混同しないようにします。
+教室の黒板について「The blackboard was forty years old」と40年物と書かれています。George は13歳、建物全体は80年なので、これらの数字と混同しないようにします。
 
 問題15c:
 What color were the desks?
@@ -1008,7 +1007,7 @@ What color were the desks?
 4. Dark brown.
 
 【解説15c】
-机と椅子は「They were dark brown」とあります。黒板が緑なのは別情報です。
+George が見た机と椅子は「They were dark brown」と暗い茶色と描写されています。黒板が green だった、という別の情報であり、机と椅子の色は黒・緑・薄茶ではなく dark brown です。
 
 問題15d:
 What did George like most in the classroom?
@@ -1023,7 +1022,7 @@ What did George like most in the classroom?
 1. The textbooks.
 
 【解説15d】
-「He liked looking at the textbooks most」と明記されています。
+教室では教科書・机・黒板などを見ましたが、「He liked looking at the textbooks most because they were so old」と一番好きだったのは教科書です。地図の記述はありません。
 
 問題15e:
 Now, George’s favorite subject is
@@ -1038,4 +1037,4 @@ Now, George’s favorite subject is
 3. history.
 
 【解説15e】
-以前は English and math が好きだったが、「now his favorite is history」とあります。
+博物館訪問前は「George's favorite subjects in school were English and math before, but now his favorite is history」とあり、今の好きな科目は歴史です。音楽は本文に出てきません。

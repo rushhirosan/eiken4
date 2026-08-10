@@ -21,10 +21,7 @@ Which trash can will the volunteers throw away paper in?
 4. The yellow one.
 
 【解説1a】
-設問は、紙（paper）を捨てるゴミ箱の色を聞いています。
-案内では、赤のゴミ箱＝ペットボトル、青＝その他のプラスチック、黄＝紙（paper）と書かれています。
-4「The yellow one.」が正解です。
-1「The red one.」・2「The green one.」・3「The blue one.」は本文に出てこないため誤りです。
+案内に「the red can will be for plastic bottles, the blue can will be for other plastic, and the yellow can will be for paper」とあり、紙は黄色のゴミ箱です。赤・青は別用途で、緑のゴミ箱の記述はありません。
 
 問題1b:
 What will the city staff do on September 19?
@@ -39,10 +36,7 @@ What will the city staff do on September 19?
 3. Bring something to eat for the volunteers.
 
 【解説1b】
-設問は、9月19日に市の職員（city staff）がすることを聞いています。
-本文では、掃除のあと職員がボランティア全員に昼食（lunch）を出す、とあります。これに対応するのが選択肢3です。
-3「Bring something to eat for the volunteers.」が正解です。
-1「Sell cold drinks at a park.」・2「Throw away old gloves.」・4「Buy colorful plastic bottles.」は本文にありません。
+本文に「The city staff will give lunch to all volunteers after cleaning」とあり、職員は掃除後に昼食を用意します。飲み物の販売・手袋の処分・ペットボトル購入とは書かれていません。
 
 ---
 
@@ -96,8 +90,7 @@ What language does Bryan study at high school?
 1. Spanish.
 
 【解説2a】
-設問は、Bryan が高校で実際に勉強している言語を聞いています。
-Bryan の最初のメールで「I'm studying Spanish」と述べています。日本語はこれから習いたいと言っているだけで、学校の科目として取っているわけではありません。
+Bryanの最初のメールで「I'm studying Spanish, but I actually want to study a different language」とあり、高校で取っているのはスペイン語です。日本語は将来学びたいと述べているだけで、学校の科目ではありません。
 
 問題2b:
 How long did Jill’s aunt live in Tokyo?
@@ -112,9 +105,7 @@ How long did Jill’s aunt live in Tokyo?
 3. For seven years.
 
 【解説2b】
-設問は、Jill のおばさんが東京に住んだ期間を聞いています。
-Jill のメールでは、北海道に3年、そのあと東京に移り「そこに7年住んだ（lived there for seven years）」とあります。東京での期間が答えです。
-日本全体で10年、という数字と取り違えないようにしましょう。
+Jillのメールに「she moved to Tokyo, and she lived there for seven years」とあり、東京での居住期間は7年です。北海道3年・日本全体10年・1年前の帰国と混同しないようにします。
 
 問題2c:
 What does Bryan want Jill to do on Wednesday evening?
@@ -129,9 +120,7 @@ What does Bryan want Jill to do on Wednesday evening?
 1. Have a lesson with him at a café.
 
 【解説2c】
-設問は、水曜の夕方に Bryan が Jill に何をしてほしいかを聞いています。
-Bryan の返信で、駅近くのカフェで日本語のレッスンがあり、「一緒に勉強するのはいい考えだから、来られたらぜひ」と Jill を誘っています。
-図書館や駅で会うだけの話ではなく、カフェでのレッスンに参加してほしい、という内容が正解です。
+Bryanの返信で「She'll teach me Japanese on Wednesday evenings at the café near the station」とレッスンがあり、「please come if you can」とJillを誘っています。図書館や駅での待ち合わせだけの話ではありません。
 
 ---
 
@@ -157,9 +146,7 @@ When people use the “Three Sisters Method,” they can
 4. grow many vegetables in a small area.
 
 【解説3a】
-設問は、「Three Sisters Method」を使うと人々が何ができるかを聞いています。
-4「grow many vegetables in a small area.」が正解です。
-1「learn about hundreds of Native American foods.」・2「use plants to get clean water for drinking.」・3「grow vegetables without light or water.」は本文にありません。
+冒頭に「The Three Sisters Method helps people to grow many vegetables in a small area」とあり、狭い場所で多くの野菜を育てられます。光や水なしで育てる・飲料水を得る、という記述はありません。
 
 問題3b:
 What do people plant ﬁrst when they use the Three Sisters Method?
@@ -174,10 +161,7 @@ What do people plant ﬁrst when they use the Three Sisters Method?
 4. Corn.
 
 【解説3b】
-設問は、Three Sisters Method で最初に植える野菜を聞いています。
-植え順の説明で、まずトウモロコシ（corn）、次に豆（beans）、最後にかぼちゃ（pumpkins）とあります。
-4「Corn.」が正解です。
-1「Pumpkins.」・2「Sunﬂowers.」・3「Beans.」は本文に出てこないため誤りです。
+「they plant corn first. Next, they plant beans, and they plant pumpkins last」と植え順が述べられており、最初はトウモロコシ（corn）です。かぼちゃ・豆は後から、ひまわりの記述はありません。
 
 問題3c:
 What do the pumpkins’ leaves do?
@@ -192,9 +176,7 @@ What do the pumpkins’ leaves do?
 1. They protect the soil from the sun.
 
 【解説3c】
-設問は、かぼちゃの葉（pumpkins' leaves）の役割を聞いています。
-本文では、大きな葉が野菜のまわりを日差しから守り、地面が乾きすぎないようにする、と書かれています。
-「土を日差しから守る」がこれに最も近い表現です。豆やトウモロコシを守る・動物を近づける、という説明とは異なります。
+「They are important because they protect the area around the vegetables from the sun」とあり、大きな葉が日差しから土を守り乾燥を防ぎます。豆やトウモロコシを葉で守る・動物を近づける、という説明ではありません。
 
 問題3d:
 What happened after Europeans went to North America?
@@ -209,9 +191,7 @@ What happened after Europeans went to North America?
 1. Native Americans began to eat different foods.
 
 【解説3d】
-設問は、ヨーロッパ人が北米に来たあとに起きたことを聞いています。
-本文では、新しい動植物を持ち込んだあと「それ以来ネイティブアメリカ人が食べる食べ物は変わった」とあります。
-メソッドをやめた、ハロウィンや果物の指示、という話は本文にありません。
+「Since then, the food that Native Americans eat has changed」とあり、ヨーロッパ人が新しい動植物を持ち込んだあと食生活が変わりました。Three Sisters Methodをやめた、ハロウィンや果物の指示、とは書かれていません。
 
 問題3e:
 What is this story about?
@@ -226,9 +206,7 @@ What is this story about?
 2. A special way to grow vegetables.
 
 【解説3e】
-設問は、本文全体の内容（What is this story about?）を聞いています。
-全文は、トウモロコシ・豆・かぼちゃを一緒に育てる伝統的な「Three Sisters Method」について述べています。
-料理の新しい方法や、実在の三姉妹の農家・会社の話ではなく、「野菜を育てる特別なやり方」が要約としてふさわしいです。
+全文はトウモロコシ・豆・かぼちゃを一緒に育てる「Three Sisters Method」について述べており、「野菜を育てる特別なやり方」が要約としてふさわしいです。料理法・実在の三姉妹農家・食品会社の話ではありません。
 
 ---
 
@@ -255,10 +233,7 @@ What must students do on October 18?
 3. Bring their own lunch.
 
 【解説4a】
-設問は、10月18日に生徒がしなければならないこと（must）を聞いています。
-案内に「Please bring your own lunch（昼食は各自持参）」とあります。
-3「Bring their own lunch.」が正解です。
-1「Clean the garden.」・2「Take pictures of the house.」・4「Take an exam at school.」は本文にありません。
+案内に「Please bring your own lunch. We will have lunch together in the garden after the tour」とあり、10月18日は昼食を各自持参する必要があります。庭の清掃・屋内写真・学校での試験の記述はありません。
 
 問題4b:
 Where can students take photos during the tour?
@@ -273,9 +248,7 @@ Where can students take photos during the tour?
 2. In the garden.
 
 【解説4b】
-設問は、見学中に写真を撮ってよい場所を聞いています。
-「家の中では写真を撮らないでくださいが、庭の写真は撮ってよい」と明記されています。
-キッチン・寝室・リビングなど屋内は不可で、庭だけが正解です。
+「do not take pictures inside the house」と屋内は不可ですが、「You can bring a camera to take pictures of the garden」と庭では撮影できます。キッチン・寝室・リビングは屋内なので該当しません。
 
 ---
 
@@ -317,9 +290,7 @@ When did Sophia meet Mia in her class at college?
 2. Last Monday.
 
 【解説5a】
-設問は、Sophia が大学の授業で Mia に会った日を聞いています。
-Sophia は「先週の月曜日（last Monday）に美術の授業で Mia に会った」と書いています。
-4年前は Mia が引っ越した時期、金・土は一緒に食事した日で、授業で会った日ではありません。
+Sophiaが「I had a surprising experience last Monday! ... I met my old friend Mia in an art class」とあり、大学の授業で会ったのは先週の月曜日です。4年前の引っ越し・金土の食事とは別の日です。
 
 問題5b:
 What did Sophia and Mia often do together when they were junior high school students?
@@ -334,9 +305,7 @@ What did Sophia and Mia often do together when they were junior high school stud
 3. They studied math at the library.
 
 【解説5b】
-設問は、中学校時代に Sophia と Mia がよく一緒にしていたことを聞いています。
-母のメールに、「よく図書館に行き、そこでいつも数学を勉強していた。Mia は数学が得意だった」とあります。
-Sophia が絵やスポーツを好きだったことは別の話で、図書館で数学を勉強していた、が正解です。
+母のメールに「you often went to the library together. You always studied math with her there」とあり、中学校時代は図書館で数学を勉強していました。絵やスポーツを好きだったことは別の文脈です。
 
 問題5c:
 What will Sophia’s mother do on October 20?
@@ -351,9 +320,7 @@ What will Sophia’s mother do on October 20?
 2. Work at the hospital.
 
 【解説5c】
-設問は、10月20日に Sophia の母がすることを聞いています。
-母は「病院の仕事が早く終わらず、駅には迎えに行けない」と書いています。迎えに行くのは父です。
-母の予定として本文に書かれているのは病院での勤務（Work at the hospital）です。
+母は「my work at the hospital won't finish early, so I can't pick you up」と書いており、10月20日は病院で仕事です。迎えに行くのは4時に会議が終わる父で、母が駅へ行く、とは書かれていません。
 
 ---
 
@@ -379,9 +346,7 @@ How many people live in Buñol?
 1. About 10,000 people.
 
 【解説6a】
-設問は、Buñol に住む人の数を聞いています。
-「Only around 10,000 people live in Buñol」とあります。正解は約1万人です。
-祭りの日に町に来る人は2万人以上増える、という別の数字と混同しないようにしましょう。
+「Only around 10,000 people live in Buñol」と常住者は約1万人と書かれています。祭りの日は「the number of people in the town increases by over 20,000」と来場者が増える別の数字なので混同しないようにします。
 
 問題6b:
 What happened during the parade in 1945?
@@ -396,9 +361,7 @@ What happened during the parade in 1945?
 4. A musician got angry at some children.
 
 【解説6b】
-設問は、1945年のパレード中に起きたことを聞いています。
-子どもたちが音楽家にぶつかりパレードが止まり、音楽家は子どもたちに腹を立て、そのあと誰かがトマトを投げた、とあります。
-子どもが演奏した・踊った・市場でトマトを買った、という話は本文にありません。
+1945年のパレードで「Some kids pushed a musician ... The musician got angry at the kids」とあり、音楽家が子どもたちに腹を立てました。その後トマト投げが始まります。子どもが演奏・踊った、市場で買った、という話はありません。
 
 問題6c:
 What do a lot of people do at La Tomatina?
@@ -413,9 +376,7 @@ What do a lot of people do at La Tomatina?
 3. Wear white clothes.
 
 【解説6c】
-設問は、La Tomatina で多くの人がすることを聞いています。
-「Many people wear white clothes」とあり、トマトで服の色が変わる、とも続いています。
-トマトを食べる・農場に行く・踊る、が祭りの主な描写として書かれているわけではありません。
+「Many people wear white clothes. The color of their clothes changes because of the tomatoes」とあり、多くの人が白い服を着ます。トマトを食べる・農場へ行く・踊る、が祭りの主な描写としては書かれていません。
 
 問題6d:
 Some people do not like La Tomatina because
@@ -430,9 +391,7 @@ Some people do not like La Tomatina because
 2. cleaning up after the festival is difﬁcult.
 
 【解説6d】
-設問は、La Tomatina を好まない人の理由を聞いています。
-本文では「祭りのあとの片付け（cleaning up）が大変だからよいと思えない人もいる」とあります。
-人が多すぎる・高い・トマトがまずい、という理由は本文にありません。
+「some people do not think it is good because it is hard to clean up after the festival」とあり、片付けが大変なことが不評の理由です。人が多すぎる・高い・トマトが不味い、という理由は本文にありません。
 
 問題6e:
 What is this story about?
@@ -447,9 +406,7 @@ What is this story about?
 3. A famous festival.
 
 【解説6e】
-設問は、本文全体の主題を聞いています。
-Buñol のトマト祭り La Tomatina の始まり・現在・賛否が中心です。
-1945年のパレードだけの話や、新しい都市・農業イベントの紹介ではなく、「有名な祭り」が最もふさわしい要約です。
+Buñolのトマト祭りLa Tomatinaの始まり（1945年）・現在の様子・賛否が本文の中心で、「有名な祭り」が要約としてふさわしいです。1945年のパレードだけの話・新しい都市の紹介・農業イベントではありません。
 
 ---
 
@@ -479,9 +436,7 @@ How long did Ms. Wilson work at the local university’s library?
 1. For ﬁve years.
 
 【解説7a】
-設問は、Ms. Wilson が地元大学の図書館で働いた年数を聞いています。
-「at the library at the local university for five years（5年）」と紹介されています。
-書店では8年働いていますが、設問は大学図書館の期間なので、8年や10年は誤りです。
+「worked at a bookstore for eight years and at the library at the local university for five years」とあり、大学図書館では5年働いています。8年は書店での期間なので混同しないようにします。
 
 問題7b:
 At the welcome party, students can
@@ -496,9 +451,7 @@ At the welcome party, students can
 2. enjoy drinks and food for free.
 
 【解説7b】
-設問は、歓迎会で生徒ができることを聞いています。
-「You can enjoy free drinks and snacks（無料の飲み物と軽食）」とあります。
-外国の大学の人に会う・映画を見る・体育をする、という内容は案内にありません。
+歓迎会の案内に「You can enjoy free drinks and snacks」とあり、無料の飲み物と軽食を楽しめます。自己紹介や質問のあとに交流時間がある一方、外国大学の訪問者・映画鑑賞・体育での運動は案内にありません。
 
 ---
 
@@ -552,9 +505,7 @@ Why did Lucas write to his grandfather?
 2. To ask about interviewing his grandfather.
 
 【解説8a】
-設問は、Lucas がおじいちゃんに手紙を書いた理由を聞いています。
-社会のレポートのため別の都市について書く必要があり、「土曜日におじいちゃんの街についてインタビューしてもいいか」と頼んでいます。
-自分の街のニュースを伝える・サッカーに誘う・パイの作り方を聞く、という目的ではありません。
+Lucasの最初のメールで社会のレポートのため「Can I interview you about your city this Saturday?」とインタビューを頼んでいます。自分の街のニュース・サッカーへの誘い・パイ作りの相談が目的ではありません。
 
 問題8b:
 When will Lucas’s grandfather be able to meet Lucas?
@@ -569,9 +520,7 @@ When will Lucas’s grandfather be able to meet Lucas?
 4. On Sunday afternoon.
 
 【解説8b】
-設問は、おじいちゃんが Lucas と会える日時を聞いています。
-おじいちゃんは土曜と日曜午前は忙しく、日曜午後なら会えると返信しています。Lucas も日曜午後なら行けると答えています。
-金曜午後・土曜午前・日曜午前は、双方のメールの内容と合いません。
+祖父は「I have a lot of work ... this Saturday and Sunday morning. How about on Sunday afternoon?」と返し、Lucasも日曜午後なら行けると答えています。金曜・土曜午前・日曜午前は双方の予定と合いません。
 
 問題8c:
 What did Lucas choose to write about for his report?
@@ -586,9 +535,7 @@ What did Lucas choose to write about for his report?
 1. The spring festival in his grandfather’s city.
 
 【解説8c】
-設問は、Lucas がレポートのテーマに選んだ祭りを聞いています。
-友人がすでに夏祭りを書いているため、「おじいちゃんの街の春祭り（spring festival）について書くことにした」と書いています。
-夏祭り・かぼちゃ祭り・自分の街の冬のパレードをテーマにした、という内容ではありません。
+Lucasが「I decided to write my report about your city's spring festival」と書いており、春祭りをテーマに選びました。友人が夏祭りを書いているため、夏・かぼちゃ祭り・自分の街の冬パレードではありません。
 
 ---
 
@@ -614,10 +561,7 @@ As a child, Ansel Adams
 4. played the piano.
 
 【解説9a】
-設問は、幼少期の Ansel Adams について聞いています。
-本文では、学校に集中できず学校が好きではなかった一方、「自然の中を散歩するのを楽しみ、ピアノを弾いた。幼少期に十年以上ピアノを弾き、とても上手だった」とあります。
-4「played the piano.」が正解です。
-1「learned how to draw.」・2「liked to go to school.」・3「went for walks in cities.」は本文と合いません。
+幼少期は学校が好きではなかった一方、「Adams played the piano for over ten years in his childhood and was very good」とピアノを弾いていました。絵の習得・都市散歩・学校が好き、とは書かれていません。
 
 問題9b:
 What did Adams do when he got his ﬁrst camera?
@@ -632,10 +576,7 @@ What did Adams do when he got his ﬁrst camera?
 2. He went on hikes in the mountains.
 
 【解説9b】
-設問は、初めてカメラを手に入れたあと Adams がしたことを聞いています。
-1910年代に最初のカメラを受け取ったあと、ヨセミテ国立公園でたくさん写真を撮り、「カメラを持って山にハイキングに行った」とあります。
-2「He went on hikes in the mountains.」が正解です。
-1「He took pictures of buildings.」・3「He worked at a camera store.」・4「He joined a photography club.」は本文にありません。
+1910年代に最初のカメラを受け取ったあと、「Adams often went hiking in the mountains there with his camera」と山でハイキングして撮影していました。建物の写真・カメラ店勤務・写真クラブ加入の記述はありません。
 
 問題9c:
 Why were Adams’s photographs popular?
@@ -650,10 +591,7 @@ Why were Adams’s photographs popular?
 2. They looked like paintings.
 
 【解説9c】
-設問は、Adams の写真が人気だった理由を聞いています。
-本文では、美しい自然の写真が「とても芸術的で、まるで絵のようだ（like paintings）」と多くの人に思われ、人気になったとあります。
-2「They looked like paintings.」が正解です。
-1「They were photos of old products.」・3「They were in many newspapers.」・4「They were not expensive.」は本文にありません。
+「Many people thought the photos were very artistic and were like paintings, so they became popular」とあり、絵のように見える芸術性が人気の理由です。古い製品の写真・新聞掲載・安さとは書かれていません。
 
 問題9d:
 What happened in 1980?
@@ -668,10 +606,7 @@ What happened in 1980?
 3. Adams won an award.
 
 【解説9d】
-設問は、1980年に起きたことを聞いています。
-「1980年、Adams はアメリカ大統領から、彼の生涯をたたえる賞（an award）を受けた」とあります。
-3「Adams won an award.」が正解です。
-1「Adams showed his photos in museums.」・2「Adams wrote a book.」・4「Adams worked for the government.」は本文にありません。
+「In 1980, Adams received an award from the president of the United States to celebrate his life」と1980年に大統領から生涯をたたえる賞を受けました。博物館展示・著書・政府勤務はこの年の出来事としては書かれていません。
 
 問題9e:
 What is this story about?
@@ -686,9 +621,7 @@ What is this story about?
 4. A photographer in the 1900s.
 
 【解説9e】
-設問は、本文全体の内容（What is this story about?）を聞いています。
-4「A photographer in the 1900s.」が正解です。
-1「A professional piano player.」・2「A new camera from the 1900s.」・3「How to take photographs of nature.」は本文にありません。
+Ansel Adamsの生涯（ピアノから写真家への転向、自然写真、1980年の表彰まで）が述べられており、「1900年代の写真家」が本文の要約としてふさわしいです。プロのピアニスト・カメラの新製品・撮影方法の指南本ではありません。
 
 ---
 
@@ -715,10 +648,7 @@ What must students bring from home?
 3. Ingredients.
 
 【解説10a】
-設問は、生徒が家から持ってくる必要があるものを聞いています。
-案内に「Students should bring ingredients from home（材料は各自持参）」とあり、調理道具（cooking tools）は学校が提供すると書かれています。
-3「Ingredients.」が正解です。
-1「Cooking tools.」・2「Tickets to a restaurant.」・4「Tables and chairs.」は本文にありません。
+「Students should bring ingredients from home, but the school will provide cooking tools」とあり、家から持参するのは材料（ingredients）です。調理道具・レストランのチケット・机と椅子は学校側が用意するか、本文にありません。
 
 問題10b:
 What will the winning team receive?
@@ -733,10 +663,7 @@ What will the winning team receive?
 2. Free restaurant tickets.
 
 【解説10b】
-設問は、優勝チームが受け取るものを聞いています。
-「The winning team will receive free tickets to a local restaurant（地元レストランの無料チケット）」とあります。
-2「Free restaurant tickets.」が正解です。
-1「Free cooking lessons.」・3「New cooking tools.」・4「A trip to another city.」は本文にありません。
+「The winning team will receive free tickets to a local restaurant」と優勝チームには地元レストランの無料チケットが贈られます。料理教室・新しい調理道具・他都市旅行の記述はありません。
 
 ---
 
@@ -768,10 +695,7 @@ When does the science club meet?
 2. Every Tuesday.
 
 【解説11a】
-設問は、科学クラブがいつ集まるかを聞いています。
-Emily のメールに「We meet every Tuesday after school（毎週火曜日の放課後に集まる）」とあります。
-2「Every Tuesday.（毎週火曜日。）」が正解です。
-1「Every Monday.（毎週月曜日。）」・3「Every Wednesday.（毎週水曜日。）」・4「Every Friday.（毎週金曜日。）」は本文に出てこないため誤りです。
+Emilyのメールに「I joined the school science club last week. We meet every Tuesday after school」とあり、科学クラブは毎週火曜の放課後に集まります。月・水・金曜の記述はありません。
 
 問題11b:
 What did Emily do after the club activity?
@@ -786,10 +710,7 @@ What did Emily do after the club activity?
 3. Studied in the library.
 
 【解説11b】
-設問は、クラブ活動のあと Emily がしたことを聞いています。
-「After the club activity, we studied together in the library for an hour（クラブのあと、図書館で1時間一緒に勉強した）」とあります。
-3「Studied in the library.」が正解です。
-1「Played sports outside.」・2「Went home alone.」・4「Visited a museum.」は本文にありません。
+「After the club activity, we studied together in the library for an hour」とクラブのあと図書館で1時間勉強しました。外でスポーツ・一人で帰宅・博物館見学はこの日の記述ではありません。
 
 問題11c:
 What may the science club do next month?
@@ -804,10 +725,7 @@ What may the science club do next month?
 2. Visit a science museum.
 
 【解説11c】
-設問は、科学クラブが来月にするかもしれないことを聞いています。
-「Our science teacher said we may visit a science museum next month（来月、科学博物館へ行くかもしれない）」とあります。
-2「Visit a science museum.」が正解です。
-1「Have a cooking contest.」・3「Join a sports festival.」・4「Travel to another country.」は本文にありません。
+「Our science teacher said we may visit a science museum next month」とあり、来月は科学博物館へ行く可能性があります。料理コンテスト・スポーツ祭・海外旅行とは書かれていません。
 
 ---
 
@@ -833,10 +751,7 @@ What did people in Central America make from cacao beans?
 3. A drink.
 
 【解説12a】
-設問は、中央アメリカの人々がカカオ豆から何を作っていたかを聞いています。
-「Hundreds of years ago, people in Central America made a drink from cacao beans（飲み物を作っていた）」とあります。
-3「A drink.」が正解です。
-1「Bread.」・2「Soup.」・4「Ice cream.」は本文にありません。
+「people in Central America made a drink from cacao beans. The drink was bitter」と中央アメリカではカカオ豆から苦い飲み物を作っていました。パン・スープ・アイスクリームの記述はありません。
 
 問題12b:
 What did Europeans add to chocolate drinks?
@@ -851,10 +766,7 @@ What did Europeans add to chocolate drinks?
 2. Sugar.
 
 【解説12b】
-設問は、ヨーロッパ人がチョコレート飲料に何を加えたかを聞いています。
-1500年代以降、「people started adding sugar to chocolate drinks（砂糖を加えるようになった）」とあります。
-2「Sugar.」が正解です。
-1「Salt.」・3「Milk.」・4「Butter.」は本文にありません。
+1500年代以降「people started adding sugar to chocolate drinks」とヨーロッパ人はチョコレート飲料に砂糖を加えるようになりました。塩・牛乳・バターの記述はありません。
 
 問題12c:
 What happened in the 1800s?
@@ -869,10 +781,7 @@ What happened in the 1800s?
 2. Companies made chocolate bars.
 
 【解説12c】
-設問は、1800年代に起きたことを聞いています。
-「In the 1800s, companies learned how to make solid chocolate bars（固形のチョコレートバーを作れるようになった）」とあります。
-2「Companies made chocolate bars.」が正解です。
-1「People stopped drinking chocolate.」・3「Chocolate became very expensive.」・4「Museums stopped showing chocolate history.」は本文にありません。
+「In the 1800s, companies learned how to make solid chocolate bars」と1800年代に固形のチョコレートバーを作れるようになりました。飲料の廃止・値上げ・博物館閉鎖とは書かれていません。
 
 問題12d:
 Why could more people enjoy chocolate easily?
@@ -887,10 +796,7 @@ Why could more people enjoy chocolate easily?
 3. Chocolate bars were made.
 
 【解説12d】
-設問は、より多くの人がチョコレートを簡単に楽しめるようになった理由を聞いています。
-1800年代にバーが作られるようになったあと、「Because of this, more people could enjoy chocolate easily（その結果、より多くの人が簡単に楽しめるようになった）」と説明されています。
-3「Chocolate bars were made.」が正解です。
-1「Chocolate became free.」・2「People grew more sugar.」・4「Museums sold chocolate.」は本文にありません。
+バーが作られるようになったあと「Because of this, more people could enjoy chocolate easily」と説明されており、固形化が手軽に楽しめる理由です。無料化・砂糖栽培・博物館販売とは書かれていません。
 
 問題12e:
 What is this story about?
@@ -905,9 +811,7 @@ What is this story about?
 1. How chocolate changed over time.
 
 【解説12e】
-設問は、本文全体の内容（What is this story about?）を聞いています。
-1「How chocolate changed over time.」が正解です。
-2「How to grow cacao trees.」・3「A famous chocolate museum.」・4「Different kinds of drinks.」は本文にありません。
+中央アメリカの飲み物からヨーロッパでの砂糖添加、1800年代のバー誕生まで時系列で述べており、「チョコレートが時代とともにどう変わったか」が本文の要約です。カカオの栽培法・特定博物館・各種飲料の比較ではありません。
 
 ---
 
@@ -933,10 +837,7 @@ Who will teach bicycle safety rules?
 2. Police officers.
 
 【解説13a】
-設問は、自転車の安全ルールを誰が教えるかを聞いています。
-「Police officers will teach bicycle safety rules（警察官が安全ルールを教える）」とあります。
-2「Police officers.」が正解です。
-1「Teachers.」・3「Parents.」・4「Shop owners.」は本文にありません。
+イベント案内に「Police officers will teach bicycle safety rules, and local bike shops will check bicycles for free」とあり、安全ルールを教えるのは警察官です。教師・保護者・店主が教える、という記述はありません。
 
 問題13b:
 What will local bike shops do at the event?
@@ -951,10 +852,7 @@ What will local bike shops do at the event?
 3. Check bicycles for free.
 
 【解説13b】
-設問は、地元の自転車店がイベントで何をするかを聞いています。
-「local bike shops will check bicycles for free（無料で自転車点検を行う）」とあります。
-3「Check bicycles for free.」が正解です。
-1「Sell helmets.」・2「Hold a race.」・4「Give riding lessons.」は本文にありません。
+案内に「local bike shops will check bicycles for free」と地元の自転車店が無料点検を行います。ヘルメット販売・15歳未満向けレースの開催・乗り方レッスンを店が行う、とは書かれていません。
 
 ---
 
@@ -987,10 +885,7 @@ Where did David go yesterday?
 2. A science center.
 
 【解説14a】
-設問は、David が昨日どこへ行ったかを聞いています。
-「Our class went on a school trip to the science center yesterday（昨日、科学センターへ学校行事で行った）」とあります。
-2「A science center.」が正解です。
-1「A zoo.」・3「A museum of art.」・4「A library.」は本文にありません。
+Davidが「Our class went on a school trip to the science center yesterday」と書いており、昨日行ったのは科学センターです。動物園・美術館・図書館の記述はありません。
 
 問題14b:
 What did David build during the workshop?
@@ -1005,10 +900,7 @@ What did David build during the workshop?
 3. A paper rocket.
 
 【解説14b】
-設問は、ワークショップで David が何を作ったかを聞いています。
-「we joined a workshop and built small rockets from paper（紙で小さなロケットを作った）」とあります。
-3「A paper rocket.」が正解です。
-1「A robot.」・2「A model car.」・4「A telescope.」は本文にありません。
+「we joined a workshop and built small rockets from paper」とワークショップでは紙で小さなロケットを作りました。ロボット・模型車・望遠鏡とは書かれていません。
 
 問題14c:
 What was David's favorite part of the trip?
@@ -1023,10 +915,7 @@ What was David's favorite part of the trip?
 3. Seeing a space station model.
 
 【解説14c】
-設問は、David が旅行で一番気に入った部分を聞いています。
-「My favorite part was seeing a model of a space station（宇宙ステーションの模型を見ること）」とあります。
-3「Seeing a space station model.」が正解です。
-1「Eating lunch.」・2「Watching his teacher take pictures.」・4「Flying on a rocket.」は本文にありません。
+「My favorite part was seeing a model of a space station」と一番楽しかったのは宇宙ステーションの模型を見ることです。昼食・先生の写真・ロケットに乗る、とは書かれていません。
 
 ---
 
@@ -1052,10 +941,7 @@ Where do most giant pandas live?
 2. China.
 
 【解説15a】
-設問は、多くのジャイアントパンダがどこに住んでいるかを聞いています。
-「Most giant pandas live in the mountains of China（中国の山岳地帯）」とあります。
-2「China.」が正解です。
-1「India.」・3「Canada.」・4「Australia.」は本文にありません。
+「Most giant pandas live in the mountains of China」と多くのジャイアントパンダは中国の山岳に住んでいます。インド・カナダ・オーストラリアの記述はありません。
 
 問題15b:
 What is the main food of giant pandas?
@@ -1070,10 +956,7 @@ What is the main food of giant pandas?
 3. Bamboo.
 
 【解説15b】
-設問は、ジャイアントパンダの主な食べ物を聞いています。
-「They spend many hours each day eating bamboo, which is their main food（竹が主な食べ物）」とあります。
-3「Bamboo.」が正解です。
-1「Fish.」・2「Fruit.」・4「Grass.」は本文にありません。
+「They spend many hours each day eating bamboo, which is their main food」と1日の多くを竹を食べることに費やしており、主食は竹です。魚・果物・草が主な食べ物、という記述はありません。
 
 問題15c:
 Why did the number of giant pandas become low?
@@ -1088,10 +971,7 @@ Why did the number of giant pandas become low?
 1. People cut down forests.
 
 【解説15c】
-設問は、ジャイアントパンダの数が少なくなった理由を聞いています。
-「the number of giant pandas became very low because people cut down forests（人々が森林を伐採したため）」とあります。
-1「People cut down forests.」が正解です。
-2「They stopped eating bamboo.」・3「They moved to cities.」・4「They could not swim.」は本文にありません。
+「the number of giant pandas became very low because people cut down forests」と森林伐採が数減少の原因です。竹を食べなくなった・都市移住・泳げない、という理由は本文にありません。
 
 問題15d:
 Which is true about giant pandas?
@@ -1106,10 +986,7 @@ Which is true about giant pandas?
 2. They are usually peaceful.
 
 【解説15d】
-設問は、ジャイアントパンダについて正しい記述を選ぶ問題です。
-「Although they are large animals, they are usually quiet and peaceful（大きいが、通常は静かで穏やか）」とあります。
-2「They are usually peaceful.」が正解です。
-1「They cannot climb trees.」・3「They only live in zoos.」・4「They are very noisy.」は本文と合いません。
+「Although they are large animals, they are usually quiet and peaceful」と大きいが通常は静かで穏やかです。「Pandas are good climbers」と登ることもできるので、木に登れない・動物園だけ・騒がしい、は本文と合いません。
 
 問題15e:
 What is this story mainly about?
@@ -1124,9 +1001,7 @@ What is this story mainly about?
 1. A famous animal and its life.
 
 【解説15e】
-設問は、本文全体の内容（What is this story mainly about?）を聞いています。
-1「A famous animal and its life.」が正解です。
-2「How to grow bamboo.」・3「Animals that live in oceans.」・4「A trip to China.」は本文にありません。
+生息地（中国の山岳）・食事（竹）・保護活動まで述べたジャイアントパンダの生活が本文の中心で、「有名な動物とその生活（A famous animal and its life）」が要約としてふさわしいです。竹の育て方・海洋動物・中国旅行の記述ではありません。
 
 ---
 

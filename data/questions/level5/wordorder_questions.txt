@@ -14,7 +14,7 @@
 
 【解説1】
 This is my sister's piano.
-「this + is + my + sister's + 名詞」の順になるので、1番目は this、3番目は my です。
+「this + is + my + sister's + 名詞」の順になるので、1番目は this、3番目は my です。全文は「これは私の姉のピアノです」という意味になります。
 
 ---
 
@@ -54,7 +54,7 @@ Is [1番目] ( ) [3番目] ( ) the living room?
 
 【解説3】
 Is Kim watching TV in the living room?
-「Kim + is watching + TV + in the living room」の順になるので、1番目は Kim、3番目は TV です。
+「Kim + is watching + TV + in the living room」の順になるので、1番目は Kim、3番目は TV です。全文は「キムは居間でテレビを見ていますか」という意味になります。
 
 ---
 
@@ -74,7 +74,7 @@ Is Kim watching TV in the living room?
 
 【解説4】
 Who can speak English well in your class, Nancy?
-「Who + can + speak」の疑問文になるので、1番目は who、3番目は speak です。
+「Who + can + speak」の疑問文になるので、1番目は who、3番目は speak です。全文は「ナンシー、あなたのクラスで誰が英語を上手に話せますか」という意味になります。
 
 ---
 
@@ -94,7 +94,7 @@ Who can speak English well in your class, Nancy?
 
 【解説5】
 My father runs three kilometers every morning.
-「my father + runs + three kilometers」の順になるので、1番目は my father、3番目は three kilometers です。
+「my father + runs + three kilometers」の順になるので、1番目は my father、3番目は three kilometers です。全文は「私の父は毎朝3キロ走ります」という意味になります。
 
 ---
 
@@ -114,7 +114,7 @@ My father runs three kilometers every morning.
 
 【解説6】
 How much are these shoes?
-「How much + are」の順で「いくらですか」の疑問文になるので、1番目は how、3番目は are です。
+「How much + are」の順で「いくらですか」の疑問文になるので、1番目は how、3番目は are です。全文は「これらの靴はいくらですか」という意味になります。
 
 ---
 
@@ -134,7 +134,7 @@ How much are these shoes?
 
 【解説7】
 Who is the girl in this photo?
-「Who + is + the girl」の疑問文になるので、1番目は who、3番目は the girl です。
+「Who + is + the girl」の疑問文になるので、1番目は who、3番目は the girl です。全文は「この写真の中の女の子はだれですか」という意味になります。
 
 ---
 
@@ -154,7 +154,7 @@ What [1番目] ( ) [3番目] ( ) the picnic tomorrow?
 
 【解説8】
 What do we need for the picnic tomorrow?
-「What + do + need」の疑問文になるので、1番目は do、3番目は need です。
+「What + do + need」の疑問文になるので、1番目は do、3番目は need です。全文は「明日のピクニックに、私たちは何が必要ですか」という意味になります。
 
 ---
 
@@ -174,7 +174,7 @@ What do we need for the picnic tomorrow?
 
 【解説9】
 What does Tom's father teach at college?
-「What + does + Tom's father」の疑問文になるので、1番目は what、3番目は Tom's father です。
+「What + does + Tom's father」の疑問文になるので、1番目は what、3番目は Tom's father です。全文は「トムのお父さんは大学で何を教えていますか」という意味になります。
 
 ---
 
@@ -194,7 +194,7 @@ I [1番目] ( ) [3番目] ( ) Hiroshi.
 
 【解説10】
 I am cooking breakfast for Hiroshi.
-「I + am + cooking + breakfast」の順になるので、1番目は am、3番目は breakfast です。
+「I + am + cooking + breakfast」の順になるので、1番目は am、3番目は breakfast です。全文は「私は浩のために朝食を作っています」という意味になります。
 
 ---
 
@@ -214,7 +214,7 @@ I am cooking breakfast for Hiroshi.
 
 【解説11】
 When is your English test?
-「When + is + your」の疑問文になるので、1番目は when、3番目は your です。
+「When + is + your」の疑問文になるので、1番目は when、3番目は your です。全文は「あなたの英語のテストはいつですか」という意味になります。
 
 ---
 
@@ -234,7 +234,7 @@ What [1番目] ( ) [3番目] ( ) London?
 
 【解説12】
 What time is it in London?
-「What time + is + it」の疑問文になるので、1番目は time、3番目は it です。
+「What time + is + it」の疑問文になるので、1番目は time、3番目は it です。全文は「ロンドンは何時ですか」という意味になります。
 
 ---
 
@@ -254,7 +254,7 @@ What time is it in London?
 
 【解説13】
 Our homeroom teacher is Mr. Endo.
-「Our + homeroom + teacher」の順になるので、1番目は our、3番目は teacher です。
+「Our + homeroom + teacher」の順になるので、1番目は our、3番目は teacher です。全文は「私たちの担任は遠藤先生です」という意味になります。
 
 ---
 
@@ -274,7 +274,7 @@ Our homeroom teacher is Mr. Endo.
 
 【解説14】
 Kazuki wants some pizza for dinner.
-「Kazuki + wants + some pizza」の順になるので、1番目は Kazuki、3番目は some pizza です。
+「Kazuki + wants + some pizza」の順になるので、1番目は Kazuki、3番目は some pizza です。全文は「一樹は夕食にピザが欲しいです」という意味になります。
 
 ---
 
@@ -294,7 +294,7 @@ Kazuki wants some pizza for dinner.
 
 【解説15】
 What are you making for lunch?
-「What + are + you」の疑問文になるので、1番目は what、3番目は you です。
+「What + are + you」の疑問文になるので、1番目は what、3番目は you です。全文は「あなたは昼食に何を作っていますか」という意味になります。
 
 ---
 
@@ -314,7 +314,7 @@ What are you making for lunch?
 
 【解説16】
 Sarah gets up at six every day.
-「Sarah + gets up + at six」の順になるので、1番目は Sarah、3番目は at six です。
+「Sarah + gets up + at six」の順になるので、1番目は Sarah、3番目は at six です。全文は「サラは毎日6時に起きます」という意味になります。
 
 ---
 
@@ -334,7 +334,7 @@ Sarah gets up at six every day.
 
 【解説17】
 This apple is very big.
-「this apple + is + very + big」の順になるので、1番目は this apple、3番目は very です。
+「this apple + is + very + big」の順になるので、1番目は this apple、3番目は very です。全文は「このりんごはとても大きいです」という意味になります。
 
 ---
 
@@ -354,7 +354,7 @@ This apple is very big.
 
 【解説18】
 That boy can run fast.
-「that boy + can + run」の順になるので、1番目は that boy、3番目は run です。
+「that boy + can + run」の順になるので、1番目は that boy、3番目は run です。全文は「あの男の子は速く走れます」という意味になります。
 
 ---
 
@@ -374,7 +374,7 @@ That boy can run fast.
 
 【解説19】
 She plays the piano well.
-「She + plays + the piano」の順になるので、1番目は she、3番目は the piano です。
+「She + plays + the piano」の順になるので、1番目は she、3番目は the piano です。全文は「彼女はピアノを上手にひきます」という意味になります。
 
 ---
 
@@ -394,7 +394,7 @@ She plays the piano well.
 
 【解説20】
 The dog is playing in the garden.
-「the dog + is playing + in」の順になるので、1番目は the dog、3番目は in です。
+「the dog + is playing + in」の順になるので、1番目は the dog、3番目は in です。全文は「犬はにわで遊んでいます」という意味になります。
 
 ---
 
@@ -414,7 +414,7 @@ The dog is playing in the garden.
 
 【解説21】
 What does he drink every morning?
-「what + does + he」の疑問文になるので、1番目は what、3番目は he です。
+「what + does + he」の疑問文になるので、1番目は what、3番目は he です。全文は「彼は毎朝何を飲みますか」という意味になります。
 
 ---
 
@@ -434,7 +434,7 @@ What does he drink every morning?
 
 【解説22】
 Is your brother very tall?
-「is + your brother + very」の疑問文になるので、1番目は is、3番目は very です。
+「is + your brother + very」の疑問文になるので、1番目は is、3番目は very です。全文は「あなたのお兄さんはとても背が高いですか」という意味になります。
 
 ---
 
@@ -454,7 +454,7 @@ Is your brother very tall?
 
 【解説23】
 Ken likes math very much.
-「Ken + likes + math」の順になるので、1番目は Ken、3番目は math です。
+「Ken + likes + math」の順になるので、1番目は Ken、3番目は math です。全文は「ケンは数学がとても好きです」という意味になります。
 
 ---
 
@@ -474,7 +474,7 @@ Ken likes math very much.
 
 【解説24】
 That book is on the desk.
-「that book + is + on」の順になるので、1番目は that book、3番目は on です。
+「that book + is + on」の順になるので、1番目は that book、3番目は on です。全文は「その本は机の上にあります」という意味になります。
 
 ---
 
@@ -494,7 +494,7 @@ That book is on the desk.
 
 【解説25】
 Emi can sing songs well.
-「Emi + can sing + songs」の順になるので、1番目は Emi、3番目は songs です。
+「Emi + can sing + songs」の順になるので、1番目は Emi、3番目は songs です。全文は「エミは歌を上手に歌えます」という意味になります。
 
 ---
 
@@ -514,7 +514,7 @@ Emi can sing songs well.
 
 【解説26】
 It is very hot today.
-「it + is + very hot」の順になるので、1番目は it、3番目は very hot です。
+「it + is + very hot」の順になるので、1番目は it、3番目は very hot です。全文は「今日はとても暑いです」という意味になります。
 
 ---
 
@@ -534,7 +534,7 @@ It is very hot today.
 
 【解説27】
 The cat is sleeping on the sofa.
-「the cat + is sleeping + on」の順になるので、1番目は the cat、3番目は on です。
+「the cat + is sleeping + on」の順になるので、1番目は the cat、3番目は on です。全文は「その猫はソファの上で寝ています」という意味になります。
 
 ---
 
@@ -554,7 +554,7 @@ The cat is sleeping on the sofa.
 
 【解説28】
 Can she speak English?
-「can + she + speak」の疑問文になるので、1番目は can、3番目は speak です。
+「can + she + speak」の疑問文になるので、1番目は can、3番目は speak です。全文は「彼女は英語を話せますか」という意味になります。
 
 ---
 
@@ -574,7 +574,7 @@ Can she speak English?
 
 【解説29】
 The cat is in the room.
-「the cat + is + in」の順になるので、1番目は the cat、3番目は in です。
+「the cat + is + in」の順になるので、1番目は the cat、3番目は in です。全文は「猫は部屋の中にいます」という意味になります。
 
 ---
 
@@ -594,4 +594,4 @@ The cat is in the room.
 
 【解説30】
 We play tennis in the afternoon.
-「we + play + tennis」の順になるので、1番目は we、3番目は tennis です。
+「we + play + tennis」の順になるので、1番目は we、3番目は tennis です。全文は「私たちは午後テニスをします」という意味になります。

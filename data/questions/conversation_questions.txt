@@ -68,7 +68,7 @@ Salesclerk : They’re on the 6th floor.
 3. Where are the men’s socks?
 
 【解説4】
-店員が「6階にあります」と場所で答えるので、空所は「Where are the men’s socks?（メンズの靴下はどこ？）」が自然です。試着や購入義務の質問では、階数の答えにつながりません。
+店員が「6階にあります」と場所を教えるので、「Where are the men's socks?（メンズの靴下はどこ？）」が自然です。「Are these my socks?（これ私の靴下？）」「Do I have to buy these socks?（買わないといけない？）」「Can I try on these socks?（試着できる？）」では、階数の答えは返ってきません。
 
 ---
 
@@ -86,7 +86,7 @@ Woman : Sorry, I need to work late. But ( )
 3. thanks for asking.
 
 【解説5】
-仕事で行けないと断ったあとなので、丁寧に誘いに感謝する「thanks for asking」が自然です。「近くに住んでいる」「知っている」「自分のチケットではない」は断りのあとに合いません。
+仕事で行けないと断ったあと、誘ってくれたことへの礼を言う流れなので「thanks for asking.（誘ってくれてありがとう）」が自然です。「I live near here.（近くに住んでいる）」「I know you.（知ってる）」「this isn't my ticket.（これは私のチケットじゃない）」は、断った直後の返事として不自然です。
 
 ---
 
@@ -105,7 +105,7 @@ Daughter : ( )
 4. About two hours.
 
 【解説6】
-「How long is it?（どれくらいの長さ？）」への答えなので「About two hours.（約2時間）」が自然です。値段・時刻・「1年」は映画の長さの答えになりません。
+「How long is it?（どのくらい長い？）」と映画の上映時間を聞いているので「About two hours.（約2時間）」が自然です。「It's 3,000 yen.（3000円）」「It's eight o'clock.（8時）」「For one year.（1年間）」は、時間の長さの答えになりません。
 
 ---
 
@@ -123,7 +123,7 @@ Woman 2 : ( ) He’s already as tall as me.
 1. He’ll be 10 next week.
 
 【解説7】
-「How old（何歳）」と年齢を聞いているので「He’ll be 10 next week.（来週10歳）」が適切です。娘がいること・バスケ部・伝えた話は年齢の答えではありません。
+「How old is your son?（息子さんは何歳？）」と年齢を聞いているので「He'll be 10 next week.（来週10歳になる）」が適切です。「I also have a daughter.（娘もいる）」「He's on the basketball team.（バスケ部）」「I told him about it.（伝えた）」は、年齢の答えにはなりません。
 
 ---
 
@@ -141,7 +141,7 @@ Man : ( ) I have to call the station.
 3. I left my book on the train.
 
 【解説8】
-「What’s wrong?（どうしたの？）」に対し、駅に電話が必要な理由として「電車に本を忘れた」が自然です。到着が近い・近所に住む・電車が好き、は困りごとの説明になりません。
+「What's wrong?（どうしたの？）」と困りごとを聞いているので、駅に電話する理由として「I left my book on the train.（電車に本を忘れた）」が自然です。「We'll be there soon.（もうすぐ着く）」「We live near here.（近くに住んでいる）」「I enjoy riding on the train.（電車に乗るのが好き）」は、困っている説明になりません。
 
 ---
 
@@ -159,7 +159,7 @@ Student : ( )
 1. I can.
 
 【解説9】
-「あなたと兄どちらが上手？」への答えなので「I can.（私です）」が自然です。場所・日時・別れの挨拶は比較の答えになりません。
+「Who can play soccer better, you or your brother?（サッカーはあなたと兄、どちらが上手？）」と聞いているので「I can.（私の方です）」が自然です。「At the game.（試合で）」は場所、「Next weekend.（来週末）」は日時、「See you soon.（またね）」は別れの挨拶で、比較の答えになりません。
 
 ---
 
@@ -178,7 +178,7 @@ Boy : In the park. I’ll meet you there.
 4. Where is it?
 
 【解説10】
-Boy が「公園で」と場所で答えるので、空所は「Where is it?（どこでやるの？）」が適切です。面白さ・頻度・時刻の質問では「In the park.」につながりません。
+Boy が「In the park.（公園で）」と場所で答えるので、「Where is it?（どこでやるの？）」が適切です。「Is it interesting?（おもしろい？）」「Do you often go there?（よく行く？）」「What time is it?（何時？）」では、この場所の答えにつながりません。
 
 ---
 
@@ -197,7 +197,7 @@ Boy : At about 5:00 p.m.
 2. When can you come?
 
 【解説11】
-遅れを伝えたあと、Girl が来る時刻を聞き、Boy が「5時ごろ」と答える流れなので「When can you come?」が自然です。場所・遅刻の習慣・人数の質問では時刻の答えになりません。
+Boy が遅れると伝えたあと、Girl が来る時刻を聞き、Boy が「5時ごろ」と答える流れなので「When can you come?（いつ来られる？）」が自然です。「Where is the party?（どこで？）」「Are you always late?（いつも遅れる？）」「How many people are there?（何人？）」では、時刻の答えになりません。
 
 ---
 
@@ -215,7 +215,7 @@ Salesclerk : They’re only fifty cents each.
 1. How much are these tomatoes?
 
 【解説12】
-「1個50セント」と値段で答えるので「How much are these tomatoes?（いくら？）」が正解です。個数・勤務頻度・距離の質問では値段の答えになりません。
+店員が「1個50セント」と値段で答えるので、「How much are these tomatoes?（このトマトはいくら？）」が正解です。「How many vegetables do you have?（野菜はいくつ？）」は個数、「How often do you work?（どのくらいの頻度で働く？）」は頻度、「How far is the supermarket?（スーパーまでどのくらい？）」は距離の質問で、値段の答えにはなりません。
 
 ---
 
@@ -233,7 +233,7 @@ Boy : ( ) Let’s ask Ms. Brown. She knows many languages.
 1. I have no idea.
 
 【解説13】
-言語が何かと聞かれて「知らない」と答え、先生に聞こうと言うので「I have no idea.」が自然です。壁にある・時間がない・準備できた、は「何語か」への答えになりません。
+「What language is that?（何語？）」と聞かれ、Boy が分からないと言って先生に聞こうとするので「I have no idea.（全く分からない）」が自然です。「It's on the wall.（壁にある）」は場所、「I don't have time.（時間がない）」は都合、「It's ready.（準備できた）」は状態の話で、言語名の答えになりません。
 
 ---
 
@@ -251,7 +251,7 @@ Girl : No. He’s in the cafeteria.
 4. I’m looking for Jack.
 
 【解説14】
-続けて「図書館にいる？」と尋ねるので、探している対象を示す「I’m looking for Jack.」が正しいです。一緒に行く・気に入る・あそこにある、では「he」の話につながりません。
+Girl が「No. He's in the cafeteria.（ううん、食堂にいる）」と答えるので、探している人を示す「I'm looking for Jack.（ジャックを探している）」が正しいです。「I'll go with you.（一緒に行く）」「You'll love it.（気に入るよ）」「It's over there.（あそこにある）」では、「he」が誰かという話につながりません。
 
 ---
 
@@ -288,7 +288,7 @@ A : Maybe. I'll check.
 1. Did you leave it at school?
 
 【解説16】
-傘が見つからないあと、「学校に置いた？」と具体的に聞くと「Maybe. I’ll check.」につながります。「どこだろう」「残念」「新しい？」だけでは次の確認行動へのきっかけが弱いです。
+傘が見つからないあと、具体的な場所をたずねる「Did you leave it at school?（学校に置き忘れた？）」が自然で、「Maybe. I'll check.（たぶん。確認する）」につながります。「Where might it be?（どこかな？）」は漠然としすぎ、「That's too bad.（残念）」は共感だけ、「Is it new?（新しい？）」は原因の確認になりません。
 
 ---
 
@@ -307,7 +307,7 @@ A : That sounds fun! I love the mountains, too.
 1. I’m going camping with my family.
 
 【解説17】
-「楽しそう！山も好き」と続くので、キャンプなど山の予定「I’m going camping with my family.」が自然です。家にいる・宿題・未定ではそのリアクションに合いません。
+A が「That sounds fun! I love the mountains, too.（楽しそう！私も山が好き）」と続くので、山へ行く予定の「I'm going camping with my family.（家族とキャンプに行く）」が自然です。「I'm staying home all day.（一日中家にいる）」「I'm doing homework.（宿題をする）」「I'm not sure yet.（まだ決めてない）」では、そのうれしそうな反応に合いません。
 
 ---
 
@@ -326,7 +326,7 @@ A : Good luck!
 4. I have a big test tomorrow.
 
 【解説18】
-心配そうなので理由を述べ、「Good luck!」につながるのは「I have a big test tomorrow.」です。「元気」「眠い」「宿題を忘れた」では励ましの流れが弱いかずれます。
+A が心配そうに様子を聞いているので、試験の不安を述べる「I have a big test tomorrow.（明日大きなテストがある）」が自然で、「Good luck!（がんばって）」につながります。「I'm fine.（大丈夫）」は心配の原因にならず、「I'm very sleepy.（とても眠い）」「I forgot my homework.（宿題を忘れた）」では、試験への励ましの流れが弱くなります。
 
 ---
 
@@ -345,7 +345,7 @@ A : OK, maybe next time.
 2. No, I can’t.
 
 【解説19】
-「じゃあ今度」と続くので、今は行けない「No, I can’t.」が適切です。「Yes」「Of course」「Sounds good」だと次の断り受け入れの文と矛盾します。
+A が「OK, maybe next time.（じゃあ今度ね）」と断りを受け入れるので、今は行けない「No, I can't.（いけない）」が適切です。「Yes, I can.（行ける）」「Of course.（もちろん）」「Sounds good.（いいね）」だと、行けない前提の次の文と矛盾します。
 
 ---
 
@@ -364,7 +364,7 @@ A : Oh, I see.
 4. It’s very cold outside.
 
 【解説20】
-コートを着ている理由なので「It’s very cold outside.（外が寒い）」が自然です。色の好み・暑い・買ったばかり、は理由として弱いか逆です。
+「Why are you wearing a coat?（なぜコートを着ている？）」と理由を聞いているので「It's very cold outside.（外はとても寒い）」が自然です。「I like blue.（青が好き）」は色の好み、「It's hot.（暑い）」はコートと矛盾、「I just bought it.（買ったばかり）」は着ている理由として弱いです。
 
 ---
 
@@ -421,7 +421,7 @@ A : OK, another time.
 3. No, I’m not.
 
 【解説23】
-「じゃあ別の機会に」と続くので、都合が悪い「No, I’m not.」が最適です。「Yes」「Sure」「わからない」だと次の文と矛盾しやすいです。
+A が「OK, another time.（じゃあ別の機会に）」と続くので、都合が悪い「No, I'm not.（都合が悪い）」が最適です。「Yes, I am.（都合がいい）」「Sure.（もちろん）」だと次の文と矛盾し、「I don't know.（分からない）」もこの流れには合いません。
 
 ---
 
@@ -459,7 +459,7 @@ A : Oh no, that’s terrible.
 2. I lost my wallet.
 
 【解説25】
-「どうしたの？」に対し、「それはひどい」と続くので悪い知らせの「I lost my wallet.（財布をなくした）」が自然です。元気・お金を見つけた・うれしい、ではその反応になりません。
+A が「What's the matter?（どうしたの？）」と聞き、「Oh no, that's terrible.（それはひどい）」と続くので、悪い知らせの「I lost my wallet.（財布をなくした）」が自然です。「I feel great.（気分最高）」「I found some money.（お金を見つけた）」「I'm happy.（うれしい）」では、ひどいと言われる反応になりません。
 
 ---
 
@@ -478,7 +478,7 @@ A : Thanks a lot.
 3. Sure, go ahead.
 
 【解説26】
-座ってよいか聞き「ありがとう」と続くので、許可する「Sure, go ahead.」が自然です。「座っちゃダメ」「私が座ってる」「壊れてる」では感謝の流れになりません。
+A が座っていいか聞き、「Thanks a lot.（ありがとう）」と続くので、許可する「Sure, go ahead.（どうぞ）」が自然です。「No, you can't.（ダメ）」「I'm sitting here.（ここに座ってる）」「It's broken.（壊れてる）」では、感謝する流れになりません。
 
 ---
 
@@ -497,7 +497,7 @@ A : Please call next time.
 2. I forgot.
 
 【解説27】
-電話しなかった理由を求められ「次はかけて」と続くので「I forgot.（忘れた）」が自然です。「かけた」「これからかける」「電話が嫌い」では注意の流れが合いません。
+A が「Why didn't you call me last night?（昨夜なぜ電話しなかった？）」と理由を聞き、「Please call next time.（今度はかけて）」と続くので「I forgot.（忘れた）」が自然です。「I did.（かけた）」は事実と合わず、「I will.（これからかける）」は約束、「I don't like phones.（電話が嫌い）」は注意の流れに合いません。
 
 ---
 
@@ -516,7 +516,7 @@ A : Great. Please return it for me.
 3. To the library.
 
 【解説28】
-本を返したい相手への行き先なので「To the library.」が自然で、「代わりに返して」にもつながります。「わからない」「どこにも行かない」「家」では依頼の流れが弱くなります。
+A が本を今日返したいと言い、「Great. Please return it for me.（代わりに返して）」と続くので、図書館へ行く「To the library.（図書館へ）」が自然です。「I don't know.（分からない）」「Nowhere.（どこにも行かない）」「Home.（家へ）」では、本を返してもらう依頼につながりません。
 
 ---
 
@@ -535,7 +535,7 @@ A : Let’s go together!
 1. That’s nice.
 
 【解説29】
-新しい自転車を買う話に「一緒に行こう」と続くので、前向きな「That’s nice.」が自然です。「乗らない」「つまらない」「高い」では一緒に行く流れになりにくいです。
+A が新しい自転車を買うと言い、「Let's go together!（一緒に行こう）」と続くので、前向きな「That's nice.（いいね）」が自然です。「I don't ride bikes.（自転車に乗らない）」「That's boring.（つまらない）」「It's expensive.（高い）」では、一緒に買い物へ行く流れになりにくいです。
 
 ---
 
@@ -573,7 +573,7 @@ Girl: Please say hello to them for me.
 3. That sounds nice.
 
 【解説31】
-祖父母を訪ねる話に「よろしく言って」と続くので、好意的な「That sounds nice.」が自然です。嫌い・どこに住む・行きたくない、ではその依頼につながりにくいです。
+Girl が祖父母を訪ねると言い、「Please say hello to them for me.（よろしくね）」と続くので、好意的な「That sounds nice.（いいね）」が自然です。「I don't like them.（好きじゃない）」「Where do they live?（どこに住んでる？）」「I don't want to.（行きたくない）」では、そのお願いにつながりにくいです。
 
 ---
 
@@ -592,7 +592,7 @@ Boy: Great. I finished mine before dinner, too.
 2. Yes, I did.
 
 【解説32】
-宿題をやったか聞き「よかった、私も」と続くので「Yes, I did.」が最適です。否定や「これからやる」ではお互い終えた話になりません。
+Boy が宿題を終えたか聞き、「Great. I finished mine before dinner, too.（よかった、私も）」と続くので「Yes, I did.（うん、終えた）」が最適です。「Not mine.（私のじゃない）」「I can't do it.（できない）」「I will.（これからやる）」では、二人とも終えたという会話になりません。
 
 ---
 
@@ -630,7 +630,7 @@ Boy: Thanks. Do you want me to buy something for you?
 1. That sounds nice.
 
 【解説34】
-買い物に行く話に「何か買おうか？」と続くので、好意的な「That sounds nice.」が自然です。嫌い・どこへ・行けない、ではお礼＋買い物の申し出につながりにくいです。
+Boy が買い物に行くと言い、「Thanks. Do you want me to buy something for you?（何か買おうか？）」と続くので、好意的な「That sounds nice.（いいね）」が自然です。「I don't like shopping.（買い物が嫌い）」「Where are you going?（どこへ？）」「I can't go today.（今日は行けない）」では、お礼と買い物の申し出につながりにくいです。
 
 ---
 
@@ -649,7 +649,7 @@ Girl: Oh, I’ll check my bag again.
 2. Did you check your bag?
 
 【解説35】
-財布をなくしたあと「カバンをもう一度見る」と続くので「Did you check your bag?」が自然です。「残念」「持ってるよ」「高い」では再確認の行動につながりません。
+Girl が財布をなくしたあと、「Oh, I'll check my bag again.（もう一度カバンを見る）」と続くので「Did you check your bag?（カバンは見た？）」が自然です。「That's too bad.（残念）」は共感だけ、「I have it.（持ってるよ）」「It's expensive.（高い）」は、もう一度確認する行動につながりません。
 
 ---
 
@@ -668,7 +668,7 @@ Boy: I’m going camping with my family.
 1. I’m not sure yet.
 
 【解説36】
-このあと Boy が自分のキャンプ予定を話すので、Girl は「まだ決まってない」が自然です。「私もキャンプ」「眠い」「15歳」では順番として不自然です。
+このあと Boy が自分の週末の予定を話すので、Girl はまだ決まっていない「I'm not sure yet.（まだ決めてない）」が自然です。「I'm going camping too.（私もキャンプ）」だと Boy の続きと重なり、「I'm sleepy.（眠い）」「I'm 15 years old.（15歳）」は質問への答えとして不自然です。
 
 ---
 
@@ -687,7 +687,7 @@ Girl: Great! We can show it to the teacher tomorrow.
 2. Yes, I finished it yesterday.
 
 【解説37】
-「先生に見せられるね」と続くので、完成した「Yes, I finished it yesterday.」が正解です。未完成・嫌い・忘れた、では提出の話になりません。
+Girl が「Great! We can show it to the teacher tomorrow.（先生に見せられるね）」と続くので、完成した「Yes, I finished it yesterday.（昨日終えた）」が正解です。「Not yet, I'll do it next week.（まだ、来週やる）」「I don't like history.（歴史が嫌い）」「I forgot about it.（忘れてた）」では、明日見せる話になりません。
 
 ---
 
@@ -706,7 +706,7 @@ Boy: That’s cool! I play the guitar.
 2. Yes, I started last month.
 
 【解説38】
-「かっこいい！ギター弾くよ」と続くので、入部を認める「Yes, I started last month.」が自然です。やめた・嫌い・弾けない、ではその反応になりません。
+Boy が「That's cool! I play the guitar.（かっこいい！ギター弾くよ）」と続くので、入部を認める「Yes, I started last month.（先月始めた）」が自然です。「No, I quit it.（やめた）」「I don't like music.（音楽が嫌い）」「I can't play any instrument.（楽器が弾けない）」では、そのうれしそうな反応になりません。
 
 ---
 
@@ -725,7 +725,7 @@ Girl: Great! Let’s meet at the entrance.
 1. Yes, I’ll be there.
 
 【解説39】
-「入り口で会おう」と約束するので、参加する「Yes, I’ll be there.」が必要です。嫌い・未定・忙しい、では約束の流れになりません。
+Girl が「Great! Let's meet at the entrance.（入り口で会おう）」と約束するので、参加する「Yes, I'll be there.（行くよ）」が必要です。「No, I hate festivals.（祭りが嫌い）」「I haven't decided yet.（まだ決めてない）」「I'll be busy cleaning my room.（部屋の掃除で忙しい）」では、待ち合わせの約束になりません。
 
 ---
 
@@ -744,7 +744,7 @@ Boy: Thanks! I’ll practice a lot.
 1. Good luck!
 
 【解説40】
-挑戦への返答で「ありがとう、練習する」と続くので「Good luck!」が自然です。嫌い・無駄・忙しい、では感謝の流れになりません。
+Boy がサッカー部の試験を考えているので、Girl が「Good luck!（がんばって）」と励ますと、「Thanks! I'll practice a lot.（ありがとう、練習する）」につながります。「I don't like soccer.（サッカーが嫌い）」「Why bother?（なぜわざわざ）」「I'm busy that day.（その日忙しい）」では、感謝する流れになりません。
 
 ---
 
@@ -763,7 +763,7 @@ Girl: He’s going to Canada.
 1. Which country will he go to?
 
 【解説41】
-海外勤務のあと行き先を尋ねる「Which country will he go to?」が自然で、「Canada」の答えとも合います。旅行嫌い・サッカー・買い物は文脈から外れます。
+Girl が「He's going to Canada.（カナダに行く）」と国名で答えるので、「Which country will he go to?（どの国へ行く？）」が自然です。「I don't like traveling.（旅行が嫌い）」「Does he play soccer?（サッカーする？）」「Why not go shopping?（買い物に行かない？）」は、国の答えにつながりません。
 
 ---
 
@@ -782,7 +782,7 @@ Boy: Thanks, I’ll save you a seat.
 2. I’d love to come.
 
 【解説42】
-「席を取っておくね」と続くので、行きたい「I’d love to come.」が自然です。楽器が弾けない・音楽嫌い・なぜ行くの、では席取りの流れになりません。
+Boy が「Thanks, I'll save you a seat.（席を取っておくね）」と続くので、参加したい「I'd love to come.（ぜひ行きたい）」が自然です。「I can't play any instruments.（楽器が弾けない）」「I don't like music.（音楽が嫌い）」「Why are you going?（なぜ行く？）」では、席を取る申し出につながりません。
 
 ---
 
@@ -801,7 +801,7 @@ Girl: Yes, but it was still a bit late.
 3. Did you take the next one?
 
 【解説43】
-「次のに乗った？」「うん、でも少し遅れた」と続くので「Did you take the next one?」が自然です。自分は遅れない・バス嫌い・車を買え、ではその Yes の答えになりません。
+Girl が「Yes, but it was still a bit late.（うん、でも少し遅れた）」と答えるので、「Did you take the next one?（次のバスに乗った？）」が自然です。「I never miss the bus.（私は遅れない）」「I don't like buses.（バスが嫌い）」「Why don't you buy a car?（車を買えば？）」では、Yes で答える流れになりません。
 
 ---
 
@@ -820,7 +820,7 @@ Boy: Near a lake.
 2. Where will you go?
 
 【解説44】
-「湖の近く」と場所で答えるので「Where will you go?」が自然です。連れてって・嫌い・行けない、では場所の答えになりません。
+Boy が「Near a lake.（湖の近く）」と場所で答えるので、「Where will you go?（どこへ行く？）」が自然です。「Will you take me?（連れて行って）」「I don't like camping.（キャンプが嫌い）」「I can't go.（行けない）」では、場所の答えになりません。
 
 ---
 
@@ -858,7 +858,7 @@ Boy: Thanks, I’ll try my best.
 2. Good luck with the race!
 
 【解説46】
-マラソン参加への「ベストを尽くす」につながるので「Good luck with the race!」が自然です。嫌い・なぜ参加・走れない、では感謝の流れになりません。
+Boy がマラソンに出る話をして、「Thanks, I'll try my best.（ありがとう、ベストを尽くす）」と続くので「Good luck with the race!（レース、がんばって）」が自然です。「I don't like running.（走るのが嫌い）」「Why are you joining?（なぜ出る？）」「I can't run.（走れない）」では、感謝する流れになりません。
 
 ---
 
@@ -877,7 +877,7 @@ Girl: Thank you! I worked really hard.
 1. Congratulations!
 
 【解説47】
-受賞の報告に「ありがとう、頑張った」と続くので「Congratulations!」が自然です。なぜ勝った・嫌い・変だね、ではお礼の流れになりません。
+Girl が美術コンクールで1位になったと報告し、「Thank you! I worked really hard.（ありがとう、頑張った）」と続くので「Congratulations!（おめでとう）」が自然です。「Why did you win?（なぜ勝った？）」「I don't like art.（美術が嫌い）」「That's strange.（変だね）」では、お礼の返事になりません。
 
 ---
 
@@ -896,7 +896,7 @@ Boy: Yes, he’ll stay for two weeks.
 3. How long will he stay?
 
 【解説48】
-「2週間滞在するよ」と続くので「How long will he stay?」が自然です。なぜ来る・嫌い・会えない、では期間の答えになりません。
+Boy が「Yes, he’ll stay for two weeks.（2週間滞在する）」と続くので、「How long will he stay?（どのくらい滞在する？）」が自然です。「Why is he coming?（なぜ来る？）」「I don't like Australia.（オーストラリアが嫌い）」「I can't visit him.（会えない）」では、期間の答えになりません。
 
 ---
 
@@ -915,7 +915,7 @@ Girl: Yes, I can make pasta now.
 1. Can you cook Italian food now?
 
 【解説49】
-「パスタが作れる」と続くので「Can you cook Italian food now?」が自然です。嫌い・なぜ入った・料理しない、では Yes の成果報告に合いません。
+Girl が「Yes, I can make pasta now.（うん、今パスタが作れる）」と続くので、「Can you cook Italian food now?（今イタリア料理が作れる？）」が自然です。「I don't like cooking.（料理が嫌い）」「Why did you join?（なぜ入った？）」「I never cook.（料理しない）」では、成果を Yes で答える流れに合いません。
 
 ---
 
@@ -934,7 +934,7 @@ Boy: Yes, we’ll go snorkeling.
 4. Will you swim in the sea?
 
 【解説50】
-「シュノーケリングするよ」と続くので海での活動を聞く「Will you swim in the sea?」が自然です。泳げない・なぜ・嫌い、では Yes の答えになりません。
+Boy が「Yes, we'll go snorkeling.（うん、シュノーケリングする）」と続くので、海での活動を聞く「Will you swim in the sea?（海で泳ぐ？）」が自然です。「I can't swim.（泳げない）」「Why are you going there?（なぜそこへ？）」「I don't like Okinawa.（沖縄が嫌い）」では、Yes の答えになりません。
 
 ---
 
@@ -953,7 +953,7 @@ Woman 1: My new dress.
 2. What did you wear?
 
 【解説51】
-「新しいドレス」と答えるので「What did you wear?（何を着たの？）」が自然です。開店時刻・人数・教えて、では服装の答えになりません。
+Woman 1 が「My new dress.（新しいドレス）」と答えるので、「What did you wear?（何を着ていた？）」が自然です。「What time does it open?（何時に開く？）」「How many people were there?（何人いた？）」「Can you teach me?（教えてくれる？）」は、服装の答えになりません。
 
 ---
 
@@ -971,7 +971,7 @@ Girl: ( ) but I'll bring it tomorrow.
 1. Not today,
 
 【解説52】
-「でも明日持ってくる」と続くので「Not today,（今日は持ってきてない）」が自然です。体育が好き・待って・上手だった、では but のつながりが合いません。
+Girl が「but I'll bring it tomorrow.（でも明日持ってくる）」と続くので、「Not today,（今日は持ってきてない）」が自然です。「I like P.E.（体育が好き）」「Wait a minute.（ちょっと待って）」「You played well.（上手だった）」では、but で逆接する流れに合いません。
 
 ---
 
@@ -989,7 +989,7 @@ Girl 2: ( ) I have to get my notebook from my locker first.
 2. Wait for me.
 
 【解説53】
-先にロッカーへ行くので「Wait for me.（待って）」が自然です。明日持ってきて・机の中・先生のため、では待つ依頼になりません。
+Girl 2 がロッカーにノートを取りに行くので、先に待ってほしい「Wait for me.（待って）」が自然です。「Bring it tomorrow.（明日持ってきて）」「In my desk.（机の中）」「For my teacher.（先生のため）」は、待つ依頼になりません。
 
 ---
 
@@ -1007,7 +1007,7 @@ Woman: ( ) It’s about five minutes from here.
 4. There’s one by the stadium.
 
 【解説54】
-近くの地下鉄を尋ねられ「ここから5分」と続くので「There’s one by the stadium.」が自然です。時計がない・自転車・切符紛失は場所の案内になりません。
+Man が地下鉄の場所を聞き、Woman が「It's about five minutes from here.（ここから5分）」と続くので「There's one by the stadium.（スタジアムのそばにある）」が自然です。「I don't have a watch.（時計がない）」「I bought a new bicycle.（自転車を買った）」「I lost my ticket.（切符をなくした）」は、場所の案内になりません。
 
 ---
 
@@ -1025,8 +1025,7 @@ Sister: Sure. ( )
 1. Just a minute.
 
 【解説55】
-本を取ってと言う依頼への返事なので「Just a minute.（ちょっと待って）」が自然です。買う・それで全部・自分のではない、はこの依頼応答として弱くなります。
-
+Brother がテーブルの本を取ってほしいと言うので、すぐ取りに行く「Just a minute.（ちょっと待って）」が自然です。「I'll buy it.（買うよ）」「That's all.（それだけ）」「It's not mine.（私のじゃない）」は、この依頼への返事として不自然です。
 
 ---
 
@@ -1044,7 +1043,7 @@ Boy: Of course you can. Here you are.
 4. Can I borrow yours?
 
 【解説56】
-相手が「もちろんいいよ。はいどうぞ」と返すので、借りる依頼「Can I borrow yours?」が自然です。帰宅・色・好みの質問ではこの返事と合いません。
+Boy が「Of course you can. Here you are.（もちろんいいよ。はいどうぞ）」と返すので、借りる依頼「Can I borrow yours?（借りてもいい？）」が自然です。「Will you go home soon?（もうすぐ帰る？）」「Is the color OK?（色は大丈夫？）」「Do you like writing?（書くのが好き？）」では、この返事と合いません。
 
 ---
 
@@ -1063,7 +1062,7 @@ Girl 1: OK.
 2. It’s too tall.
 
 【解説57】
-別の木を提案しているので、今の木が「It’s too tall.（高すぎる）」が自然です。花・庭・家のほめ言葉では別の木へ移す理由になりません。
+Girl 2 が別の木を提案しているので、今の木が「It's too tall.（高すぎる）」が自然です。「These flowers are pretty.（花がきれい）」「My garden is big.（庭が広い）」「Your house is very nice.（家が素敵）」は、別の木へ移す理由になりません。
 
 ---
 
@@ -1081,7 +1080,7 @@ Clerk: Two dollars.
 4. How much are they?
 
 【解説58】
-店員が値段を答えるので「How much are they?」が自然です。あいさつ・個数・身長の質問では「2ドル」の答えと合いません。
+Clerk が「Two dollars.（2ドル）」と値段で答えるので、「How much are they?（いくら？）」が自然です。「How are you doing?（調子は？）」「How many do you have?（いくつ持ってる？）」「How tall are you?（身長は？）」では、値段の答えと合いません。
 
 ---
 
@@ -1100,7 +1099,7 @@ Daughter: Thanks.
 3. It’s on the kitchen table.
 
 【解説59】
-見つからない教科書の場所を教える「It’s on the kitchen table.」が自然です。科目の感想や持ち主の話では「Thanks」への助けになりにくいです。
+Daughter が教科書を見つけられないので、場所を教える「It's on the kitchen table.（キッチンのテーブルの上）」が自然で、「Thanks.（ありがとう）」につながります。「It's a difficult subject.（難しい科目）」「It was very interesting.（とてもおもしろかった）」「It's for your brother.（弟のため）」は、探している場所の助けになりません。
 
 ---
 
@@ -1118,4 +1117,4 @@ Girl 2: I’m fine. I’m just a little tired.
 3. Are you OK?
 
 【解説60】
-顔色を心配したあとに「大丈夫？」と聞く「Are you OK?」が自然です。帰宅許可・電話・母親の職業はこの返事とつながりません。
+Girl 1 が顔色が悪いと言っているので、様子をたずねる「Are you OK?（大丈夫？）」が自然で、「I'm fine. I'm just a little tired.（大丈夫、少し疲れてるだけ）」につながります。「Can I go home?（帰っていい？）」「Did you call me?（電話した？）」「Is your mother a doctor?（お母さんは医者？）」は、この返事とつながりません。

@@ -33,8 +33,8 @@ The classroom was very quiet during the math test.
 4. ④ ─ ⑤
 
 【解説2】  
-The pancake was as big as the plate.  
-同等比較は「as + 形容詞 + as」の形を使うため、2番目は was、4番目は big になります。
+The pancake was as big as the plate.
+「〜と同じくらい大きい」は同等比較の「as + 形容詞 + as」で表すので、2番目は was、4番目は big になります。
 
 ---
 
@@ -133,8 +133,8 @@ Are ① good ② at ③ English ④ you ⑤ speaking
 3. ① ─ ⑤
 
 【解説7】  
-Are you good at speaking English?  
-「be good at + 動詞ing」の語法を使うので、2番目は good、4番目は speaking になります。
+Are you good at speaking English?
+「〜が得意だ」は「be good at + 動詞ing」の形なので、2番目は good、4番目は speaking になります。
 
 ---
 
@@ -153,8 +153,8 @@ I ① to ② started ③ at ④ lunch ⑤ make
 1. ① ─ ④
 
 【解説8】  
-I started to make lunch at noon.  
-「start to + 動詞原形」の形を使うため、2番目は to、4番目は lunch になります。
+I started to make lunch at noon.
+「〜し始める」は「start to + 動詞原形」、目的語は lunch なので、2番目は to、4番目は lunch です。
 
 ---
 
@@ -173,8 +173,8 @@ We're ( ) [2番目] ( ) [4番目] ( ) tomorrow.
 3. ⑤ ─ ②
 
 【解説9】  
-We're not going to have a test tomorrow.  
-未来予定は「be going to + 動詞原形」で表すので、2番目は going、4番目は have です。
+We're not going to have a test tomorrow.
+未来の予定の否定は「be going to + 動詞原形」になるので、2番目は going、4番目は have です。
 
 ---
 
@@ -193,8 +193,8 @@ This ① is ② it's pizza ③ for ④ restaurant ⑤ famous
 2. ① ─ ③
 
 【解説10】  
-This restaurant is famous for pizza.  
-「be famous for 〜（〜で有名）」の固定表現なので、2番目は is、4番目は for になります。
+This restaurant is famous for pizza.
+「〜で有名だ」は固定表現「be famous for 〜」なので、2番目は is、4番目は for になります。
 
 ---
 
@@ -213,8 +213,8 @@ This restaurant is famous for pizza.
 3. ① ─ ④  
 
 【解説11】  
-How can I get to the station?  
-疑問文は「How + 助動詞 + 主語 + 動詞」の語順なので、2番目は can、4番目は get です。
+How can I get to the station?
+「どうやって〜に行く？」は「How + can + 主語 + 動詞」の語順なので、2番目は can、4番目は get です。
 
 ---
 
@@ -293,8 +293,8 @@ I enjoyed swimming in the pool near my house yesterday.
 2. ② ─ ①
 
 【解説15】  
-May I use this computer, please?  
-依頼表現は「May I + 動詞原形」で、名詞前は「this + 名詞」になるため、2番目は may、4番目は this です。
+May I use this computer, please?
+許可を求める文は「May I + 動詞原形」、名詞の前は this なので、2番目は may、4番目は this です。
 
 ---
 
@@ -333,8 +333,8 @@ Where did your brother study English?
 1. ③ ─ ④  
 
 【解説17】  
-He has just arrived home.  
-現在完了は「主語 + have/has + 過去分詞」の形なので、2番目は has、4番目は arrived になります。
+He has just arrived home.
+現在完了は「主語 + has/have + 過去分詞」の形なので、2番目は has、4番目は arrived になります。
 
 ---
 
@@ -353,8 +353,8 @@ He has just arrived home.
 3. ③ ─ ①  
 
 【解説18】  
-He has not solved the problem.  
-否定の現在完了は「has not + 過去分詞」となるため、2番目は has、4番目は solved です。
+He has not solved the problem.
+現在完了の否定は「has not + 過去分詞」になるので、2番目は has、4番目は solved です。
 
 ---
 
@@ -413,8 +413,8 @@ I ( ) [2番目] ( ) [4番目] ( ).
 3. ② ─ ⑤
 
 【解説21】  
-I asked Mr. Kent about his hobbies.  
-「ask 人 about 〜」の語法を使うため、2番目は Mr. Kent、4番目は his になります。
+I asked Mr. Kent about his hobbies.
+「人に〜について聞く」は「ask 人 about 〜」の語法なので、2番目は Mr. Kent、4番目は his になります。
 
 ---
 
@@ -493,9 +493,8 @@ Can your father speak both Chinese and French?
 3. ⑤ ─ ④  
 
 【解説25】  
-Did you see the lions at that zoo?  
-過去の疑問文は「Did + 主語 + 動詞原形」の語順なので、2番目は you、4番目は the lions になります。
-
+Did you see the lions at that zoo?
+過去の疑問文は「Did + 主語 + 動詞原形」の語順なので、2番目は you、4番目は the lions です。
 
 ---
 
@@ -515,7 +514,7 @@ Did you see the lions at that zoo?
 
 【解説26】
 Why did you get up so early this morning?
-疑問詞＋did＋主語＋動詞原形の語順なので、2番目は did、4番目は get です。
+「なぜ〜した？」は「疑問詞 + did + 主語 + 動詞原形」の語順なので、2番目は did、4番目は get です。
 
 ---
 
@@ -535,7 +534,7 @@ Why did you get up so early this morning?
 
 【解説27】
 May I call you this afternoon?
-許可の依頼は May + I + 動詞原形 なので、2番目は I、4番目は you です。
+許可を求める文は「May I + 動詞」の語順になり、call の相手は you なので、2番目は I、4番目は you です。
 
 ---
 
@@ -555,7 +554,7 @@ May I call you this afternoon?
 
 【解説28】
 You can see lots of high mountains in Nepal.
-can + 動詞原形の語順なので、2番目は can、4番目は lots of です。
+「can + 動詞原形」で能力・可能を表し、lots of は名詞の前に置くので、2番目は can、4番目は lots of です。
 
 ---
 
@@ -595,4 +594,4 @@ leave home for school の語順なので、2番目は home、4番目は school �
 
 【解説30】
 Could you wash these coffee cups, please?
-Could you + 動詞原形 の語順なので、2番目は you、4番目は these です。
+依頼は「Could you + 動詞原形」の語順になり、these は cups の前に置くので、2番目は you、4番目は these です。

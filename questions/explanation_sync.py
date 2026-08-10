@@ -218,7 +218,6 @@ def update_grammar_fill(level: str, dry_run: bool, log, warn) -> int:
         dry_run=dry_run,
         log=log,
         warn=warn,
-        number_max=165,
     )
 
 
@@ -231,7 +230,6 @@ def update_conversation_fill(level: str, dry_run: bool, log, warn) -> int:
         dry_run=dry_run,
         log=log,
         warn=warn,
-        number_max=55,
     )
 
 

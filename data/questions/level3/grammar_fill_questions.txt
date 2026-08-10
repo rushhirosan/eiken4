@@ -147,7 +147,8 @@ A : Where do you want to meet, Kate? B: Let’s meet ( ) front of the ﬂower sh
 3. in
 
 【解説9】
-「in front of ～」で「～の前で」という意味の決まった表現です。場所を表すこの熟語では前置詞は in を使います。on / for / to を入れても自然な熟語にはなりません。
+「in front of ～」で「～の前で」という意味の決まった表現です。花屋の前で待ち合わせする場面なので in が正解です。
+「on / for / to」を入れても「～の前で」という自然な熟語にはなりません。
 
 ---
 
@@ -164,7 +165,8 @@ Mr. Ford often buys a newspaper at the station in the morning ( ) his way to wor
 3. on
 
 【解説10】
-「on one’s way to ～」で「～へ行く途中で」という意味の決まった表現です。「通勤の途中で新聞を買う」という自然な流れになります。at / by / to はこの熟語では使いません。
+「on one's way to ～」で「～へ行く途中で」という意味の決まった表現です。「通勤の途中で新聞を買う」という流れになります。
+「at / by / to」はこの熟語では使わず、意味もつながりません。
 
 ---
 
@@ -402,7 +404,8 @@ Jenny saw her grandparents ( ) the ﬁrst time in years. She missed them very mu
 1. for
 
 【解説24】
-「for the first time」で「初めて」という意味の決まった表現です。「数年ぶりに祖父母に会った」という流れになります。from / out / over はこの熟語では使いません。
+「for the first time」で「初めて」という意味の決まった表現です。「数年ぶりに祖父母に会った」という流れになります。
+「from / out / over」はこの位置に入れても「初めて」という意味にはなりません。
 
 ---
 
@@ -657,7 +660,8 @@ A : I haven’t seen Karen for a while. B: Well, I saw her the ( ) day. She just
 2. other
 
 【解説39】
-「the other day」で「先日、この前」という意味の熟語です。「最近彼女に会ったよ」と知らせる場面で自然です。high / large / each は、この熟語にはなりません。
+「the other day」で「先日、この前」という意味の熟語です。「最近彼女に会ったよ」と知らせる場面で自然です。
+「high / large / each」は day を修飾しても「先日」という意味の熟語にはなりません。
 
 ---
 
@@ -691,7 +695,8 @@ A : Do you have time now, Doug? B: No, I’m sorry. ( ) fact, I have to leave fo
 1. In
 
 【解説41】
-「in fact」で「実は、実際のところ」という意味の熟語です。前の発言に補足や事情を付け加えるときに使います。at fact / by fact / on fact という言い方はありません。
+「in fact」で「実は、実際のところ」という意味の熟語です。前の発言に事情を付け加えるときに使います。
+「at fact / by fact / on fact」という言い方はなく、意味も成立しません。
 
 ---
 
@@ -848,7 +853,8 @@ B : No, not yet. I’m still working ( ) it.
 1. on
 
 【解説50】
-「work on ～」で「～に取り組む」という意味です。ここでは「まだ理科の宿題を進めている途中」という意味になります。with / by / from を入れると、この意味の定型表現になりません。
+「work on ～」で「～に取り組む、～を進める」という意味です。ここでは「まだ理科の宿題を進めている途中」という意味になります。
+「with / by / from」を入れると、この意味の定型表現にはなりません。
 
 ---
 
@@ -1172,7 +1178,8 @@ B : Thank you. I practice speaking it every ( ).
 1. day
 
 【解説68】
-`every day` で「毎日」です。「毎日英語を話す練習をしているので上達した」という流れに合います。color / place は意味が合わず、year だと頻度が低すぎて文脈に合いません。
+「every day」で「毎日」という意味です。「毎日英語を話す練習をしているので上達した」という流れに合います。
+「color（色）/ place（場所）」は意味が合わず、「year（年）」だと頻度が低すぎて文脈に合いません。
 
 ---
 
@@ -1757,7 +1764,8 @@ B: I like to ( ) at home. I often watch a movie.
 3. relax
 
 【解説101】
-家で映画を見る、という流れなので「relax（くつろぐ）」が自然です。「move / plan / grow」では「家でくつろぐ」意味になりません。
+「relax」は「くつろぐ、リラックスする」という意味です。「I often watch a movie.（よく映画を見る）」と続くので、家でくつろぐ「relax」が自然です。
+「move（引っ越す）/ plan（計画する）/ grow（育つ）」は、家でくつろぐ場面を表しません。
 
 ---
 
@@ -1775,7 +1783,8 @@ B: I know. I have to clean them.
 3. dirty
 
 【解説102】
-掃除が必要、と続くので「dirty（汚れている）」が自然です。「clever / common / foolish」は靴の汚れを表しません。
+「dirty」は「汚れている」という意味です。「I have to clean them.（掃除しなければ）」と続くので、靴が「汚れている」と説明する dirty が正解です。
+「clever（かしこい）/ common（普通の）/ foolish（ばかな）」は、靴の汚れを表せません。
 
 ---
 
@@ -1793,7 +1802,8 @@ B: I had an ( ). I fell down the stairs this morning.
 1. accident
 
 【解説103】
-階段から落ちた、という話なので「accident（事故）」が自然です。「advice / adult / addition」はけがの原因として合いません。
+「accident」は「事故」という意味です。「I fell down the stairs.（階段から落ちた）」と続くので、けがの原因として accident が自然です。
+「advice（助言）/ adult（大人）/ addition（追加）」は、けがや事故の原因としては合いません。
 
 ---
 
@@ -1811,7 +1821,8 @@ B: It’s the library. It’s a ( ) of our city.
 2. symbol
 
 【解説104】
-街の象徴、という説明なので「symbol」が自然です。「sand / condition / bottle」は建物の役割を表しません。
+「symbol」は「象徴、シンボル」という意味です。図書館が「街の象徴」と説明する文脈で natural です。
+「sand（砂）/ condition（状態）/ bottle（びん）」は、建物の役割や意味を表しません。
 
 ---
 
@@ -1828,7 +1839,8 @@ Mr. Jones went to a nice restaurant with his family. He ( ) some cake for desser
 2. ordered
 
 【解説105】
-デザートを頼む、なので「ordered（注文した）」が自然です。「arrived / taught / believed」ではケーキを頼む意味になりません。
+「order」は「（料理などを）注文する」という意味です。レストランでデザートのケーキを「ordered（注文した）」という流れが自然です。
+「arrived（到着した）/ taught（教えた）/ believed（信じた）」は、ケーキを頼む動作としては不自然です。
 
 ---
 
@@ -1845,7 +1857,8 @@ The tomato soup that Mike made didn’t ( ) good. It was too salty.
 1. taste
 
 【解説106】
-味がよくなかった、なので「taste」が自然です。「carry / find / serve」では「味がする」になりません。
+「taste」は「（食べ物が）～の味がする」という意味です。「It was too salty.（塩っぱすぎた）」と続くので、味について述べる taste が正解です。
+「carry（運ぶ）/ find（見つける）/ serve（出す）」では「味がよくなかった」という意味になりません。
 
 ---
 
@@ -1863,7 +1876,8 @@ B: OK, Mom.
 4. curtain
 
 【解説107】
-開けて、と言っているので「curtain（カーテン）」が自然です。「sentence / stadium / florist」は開ける対象として不自然です。
+「curtain」は「カーテン」という意味です。「Open the ..., John.（～を開けて）」と言われ、晴れた日の場面なので curtain が自然です。
+「sentence（文）/ stadium（競技場）/ florist（花屋）」は、開ける対象として不自然です。
 
 ---
 
@@ -1880,7 +1894,8 @@ I want a computer that is small ( ) to put in my backpack.
 4. enough
 
 【解説108】
-「small enough to …（〜するのに十分小さい）」の決まりの形です。「again / more / never」ではこの構文になりません。
+「enough」は「十分（に）」という意味で、「small enough to ...」で「～するのに十分小さい」という決まった形になります。
+「again（また）/ more（もっと）/ never（決して～ない）」では、この構文も意味も成立しません。
 
 ---
 
@@ -1898,7 +1913,8 @@ B: It was really old.
 2. throw
 
 【解説109】
-古くて捨てた、なので「throw away（捨てる）」が自然です。「fall / hope / shop」では「捨てる」意味になりません。
+「throw away」で「捨てる」という意味の熟語です。「It was really old.（とても古かった）」と続くので throw が正解です。
+「fall（落ちる）/ hope（希望する）/ shop（買い物をする）」では「捨てた」という意味になりません。
 
 ---
 
@@ -1915,7 +1931,8 @@ On his way home from work, Jack gets ( ) the bus before his stop. He likes to wa
 2. off
 
 【解説110】
-バス停より前で降りる、なので「get off（降りる）」が自然です。「again / up / in」では「バスを降りる」になりません。
+「get off」で「（バス・電車から）降りる」という意味の熟語です。バス停より前で降りて歩く場面なので off が正解です。
+「again（また）/ up（上に）/ in（中に）」では「バスを降りる」という意味になりません。
 
 ---
 
@@ -1933,7 +1950,8 @@ B: Just a minute.
 1. hand
 
 【解説111】
-「give me a hand（手伝って）」の決まり文句です。「face / leg / foot」では手伝いの依頼になりません。
+「give someone a hand」で「（人を）手伝う」という意味の決まり文句です。重いテレビを上へ運ぶ依頼なので hand が正解です。
+「face（顔）/ leg（足）/ foot（足）」では、手伝いを頼む表現にはなりません。
 
 ---
 
@@ -1950,7 +1968,8 @@ Ethan lives far ( ) school, so he has to take the bus.
 4. from
 
 【解説112】
-「far from（〜から遠い）」が自然です。「along / below / under」では距離の表現として合いません。
+「far from ～」で「～から遠い」という意味の決まった表現です。学校が遠いのでバスに乗る、という流れに合います。
+「along（～に沿って）/ below（～の下に）/ under（～の下に）」は、距離の表現としては合いません。
 
 ---
 
@@ -1967,7 +1986,8 @@ Jack finished ( ) his room and then went to his friend’s house.
 3. cleaning
 
 【解説113】
-finish のあとは動名詞なので「cleaning」が正解です。「clean / cleaned / cleans」では finish の後ろの形として合いません。
+「finish ～ing」で「～を終える」という形です。部屋の掃除を終えてから出かけた、という流れなので動名詞 cleaning が正解です。
+「clean / cleaned / cleans」は finish の後ろに続ける形として文法的に合いません。
 
 ---
 
@@ -1984,7 +2004,8 @@ Ken watched TV until twelve o’clock last night. His mother told him ( ) to bed
 3. to go
 
 【解説114】
-tell A to do の形なので「to go」が正解です。「going / went / goes」では tell のあとの不定詞になりません。
+「tell 人 to do」で「人に～するように言う」という形です。早く寝なさいと言われた場面なので to go が正解です。
+「going / went / goes」では tell と人をつなぐ不定詞の形になりません。
 
 ---
 
@@ -2001,4 +2022,5 @@ Ellen is good at ( ). Her friends enjoy going to her house and eating her delici
 1. cooking
 
 【解説115】
-be good at のあとは動名詞なので「cooking」が正解です。「to cook / cooked / cooks」では at の後ろの形として合いません。
+「be good at ～ing」で「～が得意だ」という形です。料理が得意で友だちが食べに来る、という流れなので cooking が正解です。
+「to cook / cooked / cooks」は be good at の後ろに続ける動名詞の形として合いません。

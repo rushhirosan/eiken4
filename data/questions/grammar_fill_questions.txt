@@ -118,8 +118,7 @@ Yumi is a high school teacher in Japan. Her ( ) is a college student in America.
 1. daughter
 
 【解説7】  
-「daughter」は「娘」という意味です。「彼女の娘がアメリカの大学生」という文脈です。他の選択肢「cloud（雲）」「pie（パイ）」「money（お金）」は人を表さないので不自然です。
-
+「daughter」は「娘」という意味です。Yumiは高校の先生で、主語の「Her（彼女の）」は家族を指すので「娘がアメリカの大学生」という文脈が自然です。他の選択肢「cloud（雲）」「pie（パイ）」「money（お金）」は人を表さないので不自然です。
 ---
 
 問題8:
@@ -153,8 +152,7 @@ Tony loves to travel. In the future, he wants to travel all over the ( ).
 4. world
 
 【解説9】  
-「world」は「世界」という意味です。「将来、世界中を旅行したい」と言っているので「world」が正解です。「ear（耳）」「box（箱）」「arm（腕）」では意味が通じません。
-
+「world」は「世界」という意味です。「travel all over the world（世界中を旅行する）」という決まり文句で、Tonyが将来やりたいこととぴったり合います。他の選択肢「ear（耳）」「box（箱）」「arm（腕）」は体の部分や物で、旅行の範囲を表せません。
 ---
 
 問題10: 
@@ -170,8 +168,7 @@ Luke is good ( ) playing tennis. He is on the school team.
 2. at
 
 【解説10】  
-「be good at ～」は「～が得意」という意味の決まった表現です。テニスが得意だから学校のチームに入っている、という流れになります。前置詞を正しく覚えましょう！
-
+「be good at ～」は「～が得意だ」という決まった表現で、後ろには「at」が続きます。Lukeはテニスが得意だから学校のチームに入っている、という流れです。他の選択肢「of（～の）」「up（上に）」「to（～へ）」はこの表現のあとに来ません。
 ---
 
 問題11:
@@ -188,8 +185,7 @@ B : ( ) a minute. I need to read an e-mail first.
 2. Wait
 
 【解説11】  
-「Wait a minute.」は「ちょっと待って」という定番表現です。「Fall（落ちる）」「Cut（切る）」「Put（置く）」はこの場面では使いません。
-
+「Wait a minute.」は「ちょっと待ってください」という定番表現です。メールを読む時間が必要なので、相手に待ってもらう場面に合います。他の選択肢「Fall（落ちる）」「Cut（切る）」「Put（置く）」は「a minute」と組み合わせてもこの意味になりません。
 ---
 
 問題12:
@@ -224,8 +220,7 @@ B : Yes. I want to come here again.
 2. are
 
 【解説13】  
-「animals」と複数形なので、「are」を使います。「There are ～」で「～がある、いる」という意味になります。「is」は単数形に使うので、ここでは不正解です。
-
+「animals」は複数形なので、be動詞は「are」を使います。「There are ～」で「～がいる・ある」という意味になります。他の選択肢「is（単数形）」「am（I専用）」「be（原形）」はこの文の形に合いません。
 ---
 
 問題14:
@@ -260,8 +255,7 @@ B : Yes. I ( ) two hot dogs. They were delicious.
 4. ate
 
 【解説15】  
-「did」という過去形の質問なので、答えも過去形で答える必要があります。「ate」は「eat（食べる）」の過去形です。他の選択肢は形が合わないので不正解です。
-
+「Did you ～?」という過去形の質問なので、答えも過去形「ate（食べた）」が必要です。「ate」は「eat（食べる）」の過去形で、hot dogsを食べたという流れに合います。他の選択肢「eat（原形）」「eating（進行形）」「eats（三人称単数現在）」は時制が合いません。
 ---
 
 問題16:
@@ -296,8 +290,7 @@ B : Thank you. It was a () from my mother.
 2. gift
 
 【解説17】  
-「gift」は「贈り物、プレゼント」という意味です。母からもらったものなので「gift」がぴったりです。「call（呼ぶ）」「store（店）」「game（ゲーム）」はここでは意味が通じません。
-
+「gift」は「贈り物・プレゼント」という意味です。母からもらったジャケットなので「a gift from my mother（母からのプレゼント）」が自然です。他の選択肢「call（呼び出し）」「store（店）」「game（ゲーム）」はもらったものとして意味が通じません。
 ---
 
 問題18:
@@ -314,8 +307,7 @@ B : Yes, I am.
 2. on
 
 【解説18】  
-曜日（Saturday）の前には「on」を使います。英語では、日や曜日の前には「on」、月や年の前には「in」を使うのが基本ルールです。「at」は場所や時刻、「to」は方向なのでここでは使いません。
-
+曜日の前には前置詞「on」を使います。「on Saturday（土曜日に）」が正しい言い方です。他の選択肢「in（月・年など）」「at（時刻・場所）」「to（方向）」は曜日の前には使いません。
 ---
 
 問題19:
@@ -368,8 +360,7 @@ B : He’s () dinner in the kitchen.
 1. making
 
 【解説21】  
-「make dinner」で「夕食を作る」という意味になります。料理をする場面なので「make」が自然です。「walk（歩く）」「play（遊ぶ）」「cut（切る）」は合いません。
-
+「make dinner」で「夕食を作る」という意味になります。Dadがキッチンで夕食を作っている場面なので「making」が自然です。他の選択肢「walking（歩いている）」「playing（遊んでいる）」「cutting（切っている）」は夕食を作る動作になりません。
 ---
 
 問題22:
@@ -404,8 +395,7 @@ B : Good idea!
 2. go
 
 【解説23】  
-「Let's go to ～」は「～へ行こう」という誘い文句でよく使います。「take（持っていく）」「make（作る）」「run（走る）」はここでは意味が通じません。
-
+「Let's go to ～」は「～へ行こう」という誘いの定番表現です。午後に公園へ行こう、という提案にぴったり合います。他の選択肢「take（持っていく）」「make（作る）」「run（走る）」は「to the park」と組み合わせても同じ意味になりません。
 ---
 
 問題24:
@@ -440,8 +430,7 @@ B : It’s going to () soon.
 1. rain
 
 【解説25】  
-雲がたくさんある→天気の変化→「rain（雨が降る）」を予想している流れです。「swim（泳ぐ）」「teach（教える）」「cook（料理する）」では天気の話に合いません。
-
+雲がたくさん見えるので、これから「rain（雨が降る）」だろうと予想しています。「It's going to rain.」は天気予想の定番表現です。他の選択肢「swim（泳ぐ）」「teach（教える）」「cook（料理する）」は天気の変化を表せません。
 ---
 
 問題26:
@@ -458,8 +447,7 @@ B : Five.
 2. many
 
 【解説26】  
-数えられるもの（oranges：オレンジ）には「many」を使います。「How many ～?（いくつの～？）」が正しい聞き方です。「much」は数えられないもの（水や砂など）に使うので不正解です。
-
+「oranges」は数えられる名詞なので「many」を使います。「How many ～?（いくつの～？）」が正しい聞き方です。他の選択肢「much（不可算名詞用）」「long（長さ）」「big（大きさ）」は数をたずねる形になりません。
 ---
 
 問題27:
@@ -494,8 +482,7 @@ B : Sure, here you are.
 1. show
 
 【解説28】  
-「show」は「見せる」という意味です。ノートを見せてほしいというお願いなので「show」が正しいです。「clean（掃除する）」「take（取る）」「jump（跳ぶ）」は不自然です。
-
+「show」は「見せる」という意味です。「show me your notebook（ノートを見せて）」というお願いに、相手が「here you are（はい、どうぞ）」と答えているので自然です。他の選択肢「clean（掃除する）」「take（取る）」「jump（跳ぶ）」はノートを見せる場面に合いません。
 ---
 
 問題29:
@@ -530,8 +517,7 @@ B : Around seven.
 4. get
 
 【解説30】  
-「get up」は「起きる」という意味の決まり文句です。ここは「get up」を使うのが自然です。「bring（持ってくる）」「give（与える）」では意味が通じません。
-
+「get up」は「起きる」という決まり文句です。「What time do you get up?（何時に起きる？）」と学校の日の起床時間をたずねています。他の選択肢「bring（持ってくる）」「heat（加熱する）」「give（与える）」は「up」と組み合わせてもこの意味になりません。
 ---
 
 問題31:
@@ -548,8 +534,7 @@ B : Yes, I borrowed some books.
 1. visit
 
 【解説31】  
-「visit」は「訪れる」という意味です。図書館に行って本を借りた、という流れなので「visit」が正解です。「play（遊ぶ）」「cook（料理する）」「open（開ける）」では合いません。
-
+「visit」は「訪れる」という意味です。図書館に行って本を借りた、という流れなので「visit the library（図書館を訪れる）」が自然です。他の選択肢「play（遊ぶ）」「cook（料理する）」「open（開ける）」は図書館への行為として不自然です。
 ---
 
 問題32:
@@ -566,8 +551,7 @@ B : He works in a big () .
 2. office
 
 【解説32】  
-「office（オフィス）」は働く場所を表します。「sea（海）」「moon（月）」も場所ですが、「big office」が一番自然な流れです。
-
+「office」は「オフィス・事務所」という意味で、働く場所を表します。「He works in a big office（大きなオフィスで働く）」が自然な文です。他の選択肢「sea（海）」「moon（月）」は場所ですが仕事場として不自然で、「take（取る）」は名詞ではありません。
 ---
 
 問題33:
@@ -584,8 +568,7 @@ B : About ten minutes on foot.
 4. far
 
 【解説33】  
-距離をたずねるときは「How far（どれくらい遠い）」を使います。「long」は時間の長さ、「much」「many」は量や数に使うので違います。
-
+距離をたずねるときは「How far（どれくらい遠い？）」を使います。答えの「About ten minutes on foot（歩いて約10分）」も距離・道のりの話です。他の選択肢「many（数）」「long（時間の長さ）」「much（量）」は距離を聞く形になりません。
 ---
 
 問題34:
@@ -602,8 +585,7 @@ B : Let’s ask the teacher.
 1. find
 
 【解説34】  
-「find」は「見つける」という意味です。「答えが見つからない」という話なので「find」がぴったりです。「listen（聞く）」「hold（持つ）」「clean（掃除する）」は意味が合いません。
-
+「find」は「見つける」という意味です。答えが見つからないので先生に聞こう、という流れに合います。他の選択肢「listen（聞く）」「hold（持つ）」「clean（掃除する）」は「答えを～する」という意味になりません。
 ---
 
 問題35:
@@ -656,8 +638,7 @@ B : Look () your bag again.
 2. for
 
 【解説37】  
-「look for」は「探す」という意味の熟語です。鍵が見つからないので「探して」という意味になります。「look at（見る）」では意味が違います。
-
+「look for」は「探す」という熟語です。鍵が見つからないので、かばんの中をもう一度探して、という意味になります。他の選択肢「look at（～を見る）」「look on（～の上を見る）」「look in（～の中を見る）」だけでは「探す」意味になりません。
 ---
 
 問題38:
@@ -674,8 +655,7 @@ B : Sure!
 1. open
 
 【解説38】  
-「open the door」で「ドアを開ける」という意味です。「drink（飲む）」「paint（塗る）」「grow（育てる）」はドアに使う動詞ではありません。
-
+「open the door」で「ドアを開ける」という意味です。手がふさがっているのでドアを開けてほしい、というお願いに合います。他の選択肢「drink（飲む）」「paint（塗る）」「grow（育てる）」はドアに対する動作として不自然です。
 ---
 
 問題39:
@@ -692,8 +672,7 @@ B : It was () than I thought.
 2. better
 
 【解説39】  
-「than（～より）」があるので比較級を使います。「better」は「good」の比較級です。「good（原形）」「best（最上級）」「well（上手に）」は文法的に合いません。
-
+「than（～より）」があるので比較級が必要です。「better」は「good（良い）」の比較級で「予想より良かった」という意味になります。他の選択肢「good（原級）」「best（最上級）」「well（上手に・副詞）」は比較の形になりません。
 ---
 
 問題40:
@@ -710,8 +689,7 @@ B : Of () . Here you are.
 2. course
 
 【解説40】  
-「Of course.（もちろん）」は、お願いを快く受け入れるときによく使う表現です。「self（自己）」「way（道）」「sure（確信して）」は文脈に合いません。
-
+「Of course.（もちろん）」はお願いを快く受け入れるときの定番表現です。辞書を貸してもらいたいという場面にぴったり合います。他の選択肢「self（自己）」「way（道）」「sure（確かに）」は「Of ～」と組み合わせてもこの意味になりません。
 ---
 
 問題41:
@@ -728,8 +706,7 @@ B : I stayed up () last night to finish my homework.
 1. late
 
 【解説41】  
-「stay up late」で「夜遅くまで起きている」という意味です。「slowly（ゆっくり）」「strongly（強く）」「badly（ひどく）」は違います。
-
+「stay up late」で「夜遅くまで起きている」という意味です。宿題を終えるために遅くまで起きていた、という疲れた様子と合います。他の選択肢「slowly（ゆっくり）」「strongly（強く）」「badly（ひどく）」は「stay up」と組み合わせても自然ではありません。
 ---
 
 問題42:
@@ -746,8 +723,7 @@ B : Wow, sounds exciting!
 2. went
 
 【解説42】  
-「last summer（去年の夏）」とあるので、過去形「went」を使います。「go（原形）」「goes（三人称単数現在）」「going（進行形）」はここでは使えません。
-
+「last summer（去年の夏）」とあるので過去形「went（行った）」が必要です。イタリアへ行ったという過去の出来事を述べています。他の選択肢「goes（三人称単数現在）」「go（原形）」「going（進行形）」は時制が合いません。
 ---
 
 問題43:
@@ -764,8 +740,7 @@ B : Two years ago.
 1. begin
 
 【解説43】  
-「did」があるので後ろは動詞の原形を使います。「begin（始める）」が正解です。「began（過去形）」「begins（三人称単数現在）」「beginning（進行形）」はダメです。
-
+「When did you ～?」の疑問文では、助動詞「did」のあとに動詞の原形を置きます。「begin（始める）」が正解です。他の選択肢「began（過去形）」「begins（三人称単数現在）」「beginning（進行形）」は「did」のあとに来ません。
 ---
 
 問題44:
@@ -818,8 +793,7 @@ B : I hope you can go someday!
 3. traveled
 
 【解説46】  
-「have never＋過去分詞」で「一度も～したことがない」という現在完了形です。「traveled（travelの過去分詞）」を使うのが正しいです。
-
+「have never ～」は現在完了形で「今まで一度も～したことがない」という意味です。後ろには過去分詞「traveled（旅行した）」が必要です。他の選択肢「travel（原形）」「traveling（進行形）」「travels（三人称単数現在）」はこの形に合いません。
 ---
 
 問題47:
@@ -836,8 +810,7 @@ B : I like spring.
 1. better
 
 【解説47】  
-二つを比べてどちらが好きか聞くときは「better」を使います。「best（最も良い）」は三つ以上の比較で使います。
-
+春と夏の二つを比べてどちらが好きか聞いているので、比較級「better（より好き）」を使います。「Which do you like better?（どちらがより好き？）」が自然です。他の選択肢「best（最上級・三つ以上）」「good（原級）」「well（副詞）」は二択の比較に使いません。
 ---
 
 問題48:
@@ -872,8 +845,7 @@ B : I agree. We can () a movie at home.
 3. watch
 
 【解説49】  
-「watch a movie」で「映画を見る」という自然な英語表現です。「see」は「見る」ですが、映画をじっくり見る場合は「watch」を使います。
-
+「watch a movie」で「映画を見る」という自然な表現です。家の中にいて映画を見る、という場面に合います。「see」も「見る」ですが、じっくり映画を見るときは「watch」がよく使われます。他の選択肢「look（見る・方向）」「view（眺める）」は「a movie」との組み合わせが不自然です。
 ---
 
 問題50:
@@ -890,8 +862,7 @@ B : Why don’t you ask the () ?
 1. teacher
 
 【解説50】  
-「わからない質問」があるときは、当然「teacher（先生）」に聞くのが自然です。「weather（天気）」「puppy（子犬）」「doctor（医者）」ではおかしいです。
-
+「teacher（先生）」に質問を聞くのが自然です。問題がわからないときは先生にたずねる、という流れです。他の選択肢「weather（天気）」「puppy（子犬）」「doctor（医者）」は質問の相手として不自然です。
 ---
 
 問題51:
@@ -907,8 +878,7 @@ John didn’t have a train ( ), so he went to the station 10 minutes early to bu
 2. ticket
 
 【解説51】  
-「ticket（切符）」を買うために駅に行ったという流れなので正解は「ticket」です。他の選択肢は意味が合いません。
-
+「ticket（切符）」を買うために駅に早めに行った、という流れです。「train ticket（電車の切符）」が自然な言い方です。他の選択肢「coat（コート）」「wallet（財布）」「brush（ブラシ）」は駅で買うものとして文脈に合いません。
 ---
 
 問題52:
@@ -924,8 +894,7 @@ Sarah wants to ( ) around the world. She hopes to visit many different countries
 4. travel
 
 【解説52】  
-「travel（旅行する）」が「世界中を巡る」に自然に合います。「stand（立つ）」「leave（去る）」「fall（落ちる）」では意味が通りません。
-
+「travel around the world（世界中を旅行する）」が自然な表現です。多くの国を訪れたい、という希望と合います。他の選択肢「stand（立つ）」「leave（去る）」「fall（落ちる）」は「around the world」と組み合わせても意味が通じません。
 ---
 
 問題53:
@@ -941,8 +910,7 @@ Kyoko loves dancing. She is a ( ) of the dance club at her school.
 2. member
 
 【解説53】  
-クラブ活動の一員は「member（メンバー）」と呼びます。「game（試合）」「bench（ベンチ）」「festival（お祭り）」は意味が違います。
-
+クラブの一員は「member（メンバー）」と呼びます。「a member of the dance club（ダンス部のメンバー）」が正しい言い方です。他の選択肢「game（試合）」「bench（ベンチ）」「festival（お祭り）」は部活の所属を表せません。
 ---
 
 問題54:
@@ -959,8 +927,7 @@ B : OK, Mom. I will.
 4. wear
 
 【解説54】  
-寒いときに「wear（着る）」のは当然なので「帽子と手袋を着る」が自然です。他の動詞は文脈に合いません。
-
+寒い外に出るので「wear（着る）」が自然です。「wear a hat and gloves（帽子と手袋を着ける）」という意味になります。他の選択肢「cook（料理する）」「give（与える）」「lose（失う）」は帽子や手袋に対する動作として不自然です。
 ---
 
 問題55:
@@ -976,8 +943,7 @@ George used a ( ) to cut the vegetables into small pieces.
 3. knife
 
 【解説55】  
-野菜を小さく切るには「knife（ナイフ）」を使うのでこれが正解です。お皿やボウル、ラジオは切る道具ではありません。
-
+野菜を小さく切る道具は「knife（ナイフ）」です。Georgeが野菜を切った、という文脈に合います。他の選択肢「plate（お皿）」「radio（ラジオ）」「bowl（ボウル）」は切る道具ではありません。
 ---
 
 問題56:
@@ -993,8 +959,7 @@ Mary got wet in the rain, so she ( ) her clothes when she got home.
 3. changed
 
 【解説56】  
-雨で濡れたあと、家に帰って「change clothes（着替える）」のが自然です。他の動詞は違います。
-
+雨で濡れたので、家に帰って「changed her clothes（着替えた）」のが自然です。「change clothes」は「着替える」という決まり文句です。他の選択肢「looked（見た）」「practiced（練習した）」「arrived（到着した）」は服に対する動作として不自然です。
 ---
 
 問題57:
@@ -1010,8 +975,7 @@ The quiz was very ( ). James only knew the answer to one of the questions.
 1. difficult
 
 【解説57】  
-一問しか答えられなかったので、クイズは「difficult（難しかった）」が自然です。「comfortable」「exciting」「popular」では「ほとんど解けない」理由になりません。
-
+一問しか答えられなかったので、クイズは「difficult（難しかった）」と考えるのが自然です。Jamesの様子とぴったり合います。他の選択肢「comfortable（快適な）」「exciting（ワクワクする）」「popular（人気がある）」では「一問しか解けない」理由になりません。
 ---
 
 問題58:
@@ -1027,8 +991,7 @@ When it’s sunny, Mia likes to take a ( ) by the river with her dog.
 3. walk
 
 【解説58】  
-「take a walk（散歩をする）」が決まり文句で、犬と川沿いという場面にも合います。「note」「moon」「pair」では散歩の意味になりません。
-
+「take a walk（散歩をする）」が決まり文句です。晴れた日に犬と川沿いを散歩する、という場面に合います。他の選択肢「note（メモ）」「moon（月）」「pair（一組）」は「take a ～」と組み合わせても散歩の意味になりません。
 ---
 
 問題59:
@@ -1045,8 +1008,7 @@ B : Thanks. Wow, your house is so big!
 2. in
 
 【解説59】  
-家に招く場面なので「come in（入って）」が自然です。「come to / from / at」はこの「中へ入る」意味では使いません。
-
+家に招く場面なので「come in（入って）」が自然です。Jimを中に入れてあげる、という意味です。他の選択肢「come to（～へ来る）」「come from（～から来る）」「come at（～に来る）」は「中へ入る」という意味になりません。
 ---
 
 問題60:
@@ -1063,8 +1025,7 @@ B : I loved it! The story was very interesting.
 2. think
 
 【解説60】  
-「What did you think of ～?（どう思った？）」が定番で、「大好きだった」という答えにも合います。「draw / call / spend」では感想を聞く形になりません。
-
+「What did you think of ～?（～をどう思った？）」は映画の感想を聞く定番表現です。「I loved it!（大好きだった）」という答えにも合います。他の選択肢「draw（描く）」「call（呼ぶ）」「spend（費やす）」は「of the movie」と組み合わせても感想を聞く形になりません。
 ---
 
 問題61:
@@ -1081,8 +1042,7 @@ B : OK, Mom.
 3. with
 
 【解説61】  
-「talk with 人」で「人と話す」という意味になります。「on」「by」「against」はこの文脈では使いません。
-
+「talk with ～（～と話す）」が正しい表現です。Frankに話したいことがある、という場面に合います。他の選択肢「talk on（～について話す）」「talk by（～のそばで話す）」「talk against（～に反対して話す）」はこの文脈では使いません。
 ---
 
 問題62:
@@ -1098,8 +1058,7 @@ Bill ( ) for school at 8:20 every morning. It takes 10 minutes to walk there fro
 3. leaves
 
 【解説62】  
-「leave for school（学校へ出発する）」という流れなので「leaves」が正解です。他は意味が合いません。
-
+「leave for school（学校へ出発する）」という決まり文句です。毎朝8:20に学校へ向かう、という習慣の話です。他の選択肢「wants for（～を欲しがる）」「stays for（～のために滞在する）」「tells for（～のために言う）」は意味が通じません。
 ---
 
 問題63:
@@ -1116,8 +1075,7 @@ B : No, it isn’t ( ). It’s Kelly’s.
 4. mine
 
 【解説63】  
-所有代名詞「mine（私のもの）」を使います。「It isn’t mine.（それは私のではありません）」となります。
-
+所有代名詞「mine（私のもの）」を使います。「It isn't mine.（それは私のものではありません）」という形が自然です。他の選択肢「I（私は・主語）」「me（私を・目的語）」「my（私の・形容詞）」は「isn't」のあとに来ません。
 ---
 
 問題64:
@@ -1133,8 +1091,7 @@ Liam was ( ) to music in his room, so he couldn’t hear his mother when she cal
 3. listening
 
 【解説64】  
-進行中の動作を表すため、「was + 動詞-ing」（過去進行形）を使います。「listening（聞いているところ）」が正しいです。
-
+「was + 動詞-ing」で過去進行形を作ります。Liamが音楽を聞いていたので、母の声が聞こえなかった、という流れです。他の選択肢「listen（原形）」「listens（三人称単数現在）」「listened（過去形）」は「was」のあとに来ません。
 ---
 
 問題65:
@@ -1150,8 +1107,7 @@ Every Thursday, Jenny gets up ( ) than her parents because she has volleyball pr
 3. earlier
 
 【解説65】  
-「than」があるので比較級「earlier（より早く）」を使います。「early（早く）」ではなく比較級に注意！
-
+「than（～より）」があるので比較級「earlier（より早く）」を使います。バレーボールの練習があるので両親より早く起きる、という意味です。他の選択肢「early（原級）」「as early（同じくらい早く）」「earliest（最上級）」は比較の形になりません。
 ---
 
 問題66:
@@ -1168,8 +1124,7 @@ B: Good idea. I already made sandwiches.
 3. eat
 
 【解説66】  
-お腹が空いたので「eat（食べる）」が自然な流れです。「take（取る）」「make（作る）」も文法によってありえますが、ここでは「食べる」が正解です。
-
+「I'm hungry.（お腹が空いた）」と言っているので「eat lunch（昼食を食べる）」が自然です。サンドイッチも用意済み、という流れです。他の選択肢「take lunch（昼食を取る）」「make lunch（昼食を作る）」「sleep lunch（意味不明）」はこの場面の第一選択ではありません。
 ---
 
 問題67:
@@ -1186,8 +1141,7 @@ B : Yes, I play it very () .
 1. well
 
 【解説67】  
-動詞「play」を修飾するのは副詞「well（上手に）」です。「good」は形容詞なのでダメです。
-
+動詞「play」を修飾するのは副詞「well（上手に）」です。「I play it very well.（とても上手にする）」が正しい形です。他の選択肢「good（良い・形容詞）」「bad（下手な）」「slow（遅い）」は動詞を修飾する副詞として使えません。
 ---
 
 問題68:
@@ -1203,8 +1157,7 @@ My dog loves to () around the park track every morning with me.
 2. run
 
 【解説68】
-「私と一緒に公園のトラックを毎朝走る」という文脈により、唯一自然な答えは「run」となります。digやbarkも犬の行動としては可能ですが、この文脈では習慣的に行うのは run です。
-
+「run around the park track（公園のトラックを走る）」が自然です。毎朝犬と一緒に走る習慣、という文脈に合います。他の選択肢「dig holes（穴を掘る）」「bark at birds（鳥に吠える）」「watch TV（テレビを見る）」はトラックを走る場面として不自然です。
 ---
 
 問題69:
@@ -1221,8 +1174,7 @@ B : It’s ( ) .
 3. red
 
 【解説69】  
-色を答えるので「red（赤）」が正解です。「big（大きい）」「long（長い）」などはサイズや長さなので違います。
-
+「What color is ～?（～は何色？）」という質問なので、色を表す「red（赤）」が正解です。他の選択肢「big（大きい）」「long（長い）」「slow（遅い）」は色ではなく大きさや速度を表します。
 ---
 
 問題70:
@@ -1257,8 +1209,7 @@ B : Yes, yesterday.
 1. write
 
 【解説71】  
-「write a letter（手紙を書く）」が自然です。「cut」「paint」「catch」では手紙を書く動作になりません。
-
+「write a letter（手紙を書く）」が自然な表現です。友だちに手紙を書いた、という過去の行為です。他の選択肢「cut a letter（手紙を切る）」「paint a letter（手紙を塗る）」「catch a letter（手紙を捕まえる）」は意味が通じません。
 ---
 
 問題72:
@@ -1275,8 +1226,7 @@ B : Sure!
 2. hold
 
 【解説72】  
-「靴ひもを結んでいる間、このカバンを持ってくれる？」という文脈により、自然な答えは「hold」です。「talk」や「walk」は文脈に合いません。
-
+「hold this bag（このカバンを持っていて）」が自然です。靴ひもを結んでいる間、カバンを持ってほしい、というお願いです。他の選択肢「talk this bag（カバンと話す）」「play this bag（カバンで遊ぶ）」「walk this bag（カバンを歩かせる）」は意味が通じません。
 ---
 
 問題73:
@@ -1292,8 +1242,7 @@ Lisa ( ) a new dress for her birthday party.
 2. wears
 
 【解説73】  
-「wear a dress（ドレスを着る）」が自然な表現です。「drink（飲む）」や「eat（食べる）」は不自然です。
-
+「wear a dress（ドレスを着る）」が自然な表現です。誕生日パーティーに新しいドレスを着る、という場面です。他の選択肢「drinks a dress（ドレスを飲む）」「eats a dress（ドレスを食べる）」「sleeps a dress（ドレスを眠る）」は意味が通じません。
 ---
 
 問題74:
@@ -1310,8 +1259,7 @@ B : () a minute, please.
 1. Wait
 
 【解説74】  
-「Wait a minute.（ちょっと待って）」が定番です。「Make / Give / Take a minute」はこの意味では使いません。
-
+「Wait a minute.（ちょっと待って）」は準備ができていないときの定番表現です。少し時間をください、という意味です。他の選択肢「Make a minute（意味不明）」「Give a minute（意味不明）」「Take a minute（1分かかる）」はこの場面の決まり文句ではありません。
 ---
 
 問題75:
@@ -1328,8 +1276,7 @@ B : At 3:30.
 4. leave
 
 【解説75】  
-「授業が終わった後に学校を出る時間」を聞いているので「leave」が唯一自然な答えになります。「start/begin」は授業の開始に使われ、ここでは文脈に合いません。
-
+「leave school（学校を出る・下校する）」が自然です。授業が終わった後に何時に学校を出るか、という質問です。他の選択肢「meet school（学校に会う）」「start school（学校が始まる）」「begin school（学校を始める）」は下校の時間を聞く文脈に合いません。
 ---
 
 問題76:
@@ -1346,8 +1293,7 @@ B : Great idea!
 1. take
 
 【解説76】  
-「take a picture（写真を撮る）」が決まり文句です。「get」「hold」「stay」では「写真を撮る」意味になりません。
-
+「take a picture（写真を撮る）」が決まり文句です。夕日の写真を撮ろう、という提案に合います。他の選択肢「get a picture（写真を手に入れる）」「hold a picture（写真を持つ）」「stay a picture（意味不明）」は撮影の意味になりません。
 ---
 
 問題77:
@@ -1363,8 +1309,7 @@ She is very () at swimming. She can swim fast.
 1. good
 
 【解説77】  
-「be good at ～（得意）」で、速く泳げるという続きにも合います。「bad」だと矛盾し、「big」「late」は得意さの表現になりません。
-
+「be good at ～（～が得意だ）」という決まった表現です。速く泳げる、という続きとも合います。他の選択肢「bad at（下手）」だと矛盾し、「big（大きい）」「late（遅い）」は得意さを表せません。
 ---
 
 問題78:
@@ -1380,8 +1325,7 @@ We always () soccer on Sundays.
 2. play
 
 【解説78】  
-「play soccer（サッカーをする）」が自然です。「go / make / meet soccer」は言いません。
-
+「play soccer（サッカーをする）」が自然な表現です。日曜日にサッカーをする習慣、という意味です。他の選択肢「go soccer（言いにくい）」「make soccer（サッカーを作る）」「meet soccer（サッカーに会う）」は普通使いません。
 ---
 
 問題79:
@@ -1398,8 +1342,7 @@ B : I like chocolate cake.
 3. food
 
 【解説79】  
-答えがチョコレートケーキなので「food（食べ物）」が正解です。「color」「sport」「movie」とは種類が合いません。
-
+答えが「chocolate cake（チョコレートケーキ）」なので「favorite food（好きな食べ物）」が正解です。他の選択肢「color（色）」「sport（スポーツ）」「movie（映画）」はケーキの種類と合いません。
 ---
 
 問題80:
@@ -1416,8 +1359,7 @@ B : Thank you. It was a () from my sister.
 1. present
 
 【解説80】  
-姉からもらったものなので「present（プレゼント）」が自然です。「call」「trip」「letter」はこの流れに合いません。
-
+姉からもらったものなので「present（プレゼント）」が自然です。「a present from my sister（姉からのプレゼント）」という言い方です。他の選択肢「call（呼び出し）」「trip（旅行）」「letter（手紙）」はかばんをもらった文脈として不自然です。
 ---
 
 問題81:
@@ -1434,8 +1376,7 @@ B : On the internet.
 1. find
 
 【解説81】  
-インターネットで「ニュースを知る／見つける」ので「find」が自然です。「tell」「bring」「carry」では同じ意味になりません。
-
+インターネットで「find the news（ニュースを見つける・知る）」が自然です。ニュースをどこで知ったか、という質問です。他の選択肢「tell the news（ニュースを伝える）」「bring the news（ニュースを持ってくる）」「carry the news（ニュースを運ぶ）」は情報源を答える形になりません。
 ---
 
 問題82:
@@ -1451,8 +1392,7 @@ Yesterday, Kevin () his lunch before going to the library.
 2. ate
 
 【解説82】  
-「Yesterday」が加わり、過去の出来事であることが明確になったため、「ate」が唯一の正解になります。「eats」は習慣に用います。
-
+「Yesterday（昨日）」とあるので過去形「ate（食べた）」が必要です。図書館に行く前に昼食を食べた、という流れです。他の選択肢「eats（三人称単数現在）」「eat（原形）」「eating（進行形）」は時制が合いません。
 ---
 
 問題83:
@@ -1469,8 +1409,7 @@ B : Don’t worry, I’ll ( ) you.
 2. help
 
 【解説83】  
-一人では終わらないと言っているので「help（助ける）」が自然です。「ask」「stop」「show」では励ましの返答になりません。
-
+一人では終わらないと言っているので「help you（あなたを助ける）」が自然です。心配しないで、手伝うよ、という励ましです。他の選択肢「ask you（たずねる）」「stop you（止める）」「show you（見せる）」は助けの申し出になりません。
 ---
 
 問題84:
@@ -1486,8 +1425,7 @@ We ( ) to the zoo last weekend and saw a panda.
 2. went
 
 【解説84】  
-「last weekend」があるので過去形「went」が正解です。「go / going / goes」では時制が合いません。
-
+「last weekend（先週末）」とあるので過去形「went（行った）」が必要です。動物園に行ってパンダを見た、という過去の出来事です。他の選択肢「go（原形）」「going（進行形）」「goes（三人称単数現在）」は時制が合いません。
 ---
 
 問題85:
@@ -1521,8 +1459,7 @@ I have to ( ) my homework before I go out.
 1. finish
 
 【解説86】  
-出かける前に宿題を「終える」ので「finish」が自然です。「fix（直す）」「feed（えさをやる）」「forget（忘れる）」は文脈に合いません。
-
+出かける前に宿題を「finish（終える）」必要がある、という意味です。宿題を終えてから出かける、という流れです。他の選択肢「fix（直す）」「forget（忘れる）」「feed（えさをやる）」は宿題に対する動作として不自然です。
 ---
 
 問題87:
@@ -1539,8 +1476,7 @@ B : About 20 minutes.
 3. take
 
 【解説87】  
-「How long does it take ～?（どれくらいかかる？）」が定番です。「have / get / ride」では所要時間を聞く形になりません。
-
+「How long does it take ～?（どれくらい時間がかかる？）」が定番表現です。学校まで20分かかる、という答えにも合います。他の選択肢「have（持つ）」「get（得る）」「ride（乗る）」は所要時間を聞く形になりません。
 ---
 
 問題88:
@@ -1556,8 +1492,7 @@ Yesterday was a very ( ) day.
 1. rainy
 
 【解説88】  
-「rainy」は「雨の」という形容詞。「a very ( ) day」の形では形容詞が必要なので rainy が正解です。  
-
+「a very ～ day」の形では形容詞が必要です。「rainy（雨の）」は天気を表す形容詞で正しいです。他の選択肢「rain（雨・名詞）」「rained（雨が降った・動詞）」「raining（雨が降っている・進行形）」は「day」を修飾できません。
 ---
 
 問題89:
@@ -1573,8 +1508,7 @@ This book is () than the one I read last week.
 2. more interesting
 
 【解説89】  
-「than」があるので比較級を使います。「interesting」の比較級は「more interesting」です。
-
+「than（～より）」があるので比較級が必要です。「more interesting（よりおもしろい）」が「interesting」の比較級です。他の選択肢「interest（名詞）」「most interesting（最上級）」「interested（～に興味がある）」は比較の形になりません。
 ---
 
 問題90:
@@ -1591,8 +1525,7 @@ B: French. I can't speak it yet.
 2. learn
 
 【解説90】  
-「来年学校で」という文脈により、新たに学習する意図が明確なので「learn」が唯一の正解です。「speak」は既に話せる言語について尋ねる場合に使います。
-
+「I can't speak it yet.（まだ話せない）」とあるので、これから「learn（学ぶ）」言語、という意味です。学校で新しく学ぶ、という文脈です。他の選択肢「speak（話す）」はすでに話せる場合、「talk（話す）」「say（言う）」はこの文脈では不自然です。
 ---
 
 問題91:
@@ -1608,8 +1541,7 @@ The baby was ( ) because he was hungry.
 4. crying
 
 【解説91】  
-「was + -ing」の過去進行形で「泣いていた」状態を表します。「cry / cried / cries」では進行の形になりません。
-
+「was + 動詞-ing」で過去進行形を作ります。赤ちゃんがお腹を空かせて「泣いていた（crying）」状態です。他の選択肢「cry（原形）」「cried（過去形）」「cries（三人称単数現在）」は「was」のあとに来ません。
 ---
 
 問題92:
@@ -1626,8 +1558,7 @@ B : Me too, but today I ( ) the bus.
 2. took
 
 【解説92】  
-「today」の具体的な行動で、いつも歩くが今日はバス、なので過去形「took」が自然です。「take / takes / taking」では時制が合いません。
-
+「today（今日）」の具体的な行動なので過去形「took the bus（バスに乗った）」が自然です。いつもは歩くが今日はバス、という対比です。他の選択肢「take（原形）」「takes（三人称単数現在）」「taking（進行形）」は時制が合いません。
 ---
 
 問題93:
@@ -1644,8 +1575,7 @@ B : You should ( ) a rest.
 3. take
 
 【解説93】  
-体調が悪いので「take a rest（休む）」が決まり文句です。「get / do / go a rest」は普通言いません。
-
+体調が悪いので「take a rest（休む）」が決まり文句です。休むことを勧める場面に合います。他の選択肢「get a rest（あまり使わない）」「do a rest（使わない）」「go a rest（使わない）」は普通言いません。
 ---
 
 問題94:
@@ -1661,8 +1591,7 @@ The movie was so ( ) that I cried.
 3. sad
 
 【解説94】  
-泣いた理由として「sad（悲しい）」が自然です。「boring」「exciting」「easy」では泣く理由として弱いか合いません。
-
+「so ～ that（とても～なので…）」の形で、泣いた理由として「sad（悲しい）」が自然です。映画が悲しくて泣いた、という流れです。他の選択肢「boring（退屈な）」「exciting（ワクワクする）」「easy（簡単な）」では泣く理由として弱いか合いません。
 ---
 
 問題95:
@@ -1679,8 +1608,7 @@ B : Yes, it was ( ) than I expected.
 2. more fun
 
 【解説95】  
-「than」があるので比較級「more fun」が必要です。「fun」はそのままでは比較にならず、「funniest」は最上級です。
-
+「than（～より）」があるので比較級「more fun（より楽しい）」が必要です。予想より楽しかった、という意味です。他の選択肢「fun（原級）」「funniest（最上級）」「funny（おもしろい）」は比較の形になりません。
 ---
 
 問題96:
@@ -1697,8 +1625,7 @@ B : To the library.
 1. did
 
 【解説96】  
-昨夜の行動を聞くので「Where did you go ～?」の「did」が必要です。「do / were / does」では過去の疑問文として合いません。
-
+「last night（昨夜）」の行動を聞くので「Where did you go?（どこへ行った？）」の「did」が必要です。他の選択肢「do（現在形）」「were（be動詞）」「does（三人称単数現在）」は過去の疑問文として合いません。
 ---
 
 問題97:
@@ -1714,8 +1641,7 @@ If it ( ) tomorrow, we will go to the beach.
 2. rains
 
 【解説97】  
-if 節は現在形なので「If it rains tomorrow」が正しいです。「rain / will rain / raining」はこの条件文の形に合いません。
-
+if節では未来のことも現在形で表します。「If it rains tomorrow（もし明日雨が降れば）」が正しい形です。他の選択肢「rain（原形・主語なし）」「will rain（未来形・if節では不自然）」「raining（進行形）」は条件文の形に合いません。
 ---
 
 問題98:
@@ -1731,8 +1657,7 @@ My father is very ( ). He makes dinner for us every day.
 1. kind
 
 【解説98】  
-毎日夕食を作ってくれるので「kind（親切）」が自然です。「strong」「high」「fast」は親切さの説明になりません。
-
+毎日夕食を作ってくれるので「kind（親切な）」が自然です。父親の優しさを表しています。他の選択肢「strong（強い）」「high（高い）」「fast（速い）」は親切さを表す形容詞として不自然です。
 ---
 
 問題99:
@@ -1749,8 +1674,7 @@ B : That’s too ( ). Try again next time!
 2. bad
 
 【解説99】  
-不合格への慰めは「That’s too bad.（残念だね）」が定番です。「well」「good」「nice」では残念の表現になりません。
-
+テストに落ちた相手への慰めは「That's too bad.（残念だね）」が定番です。「bad」が「残念」という意味で使われています。他の選択肢「well（上手に）」「good（良い）」「nice（素敵な）」では残念を表す決まり文句になりません。
 ---
 
 問題100:
@@ -1767,8 +1691,7 @@ B : Oh, no! I forgot it!
 1. bring
 
 【解説100】  
-「学校に傘を持ってきたか」という文脈なので「bring」が唯一自然です。「take」は学校から別の場所へ持って行く場合に使われます。
-
+「学校に傘を持ってきたか」という文脈なので「bring（持ってくる）」が自然です。話し手の側（学校）に傘を持ってきたか、という意味です。他の選択肢「take（持っていく）」は別の場所へ持っていく場合、「carry（運ぶ）」「lose（失う）」はこの質問の形になりません。
 ---
 
 問題101:
@@ -1802,8 +1725,7 @@ B : Yes. He’ll arrive at the ( ) soon.
 4. airport
 
 【解説102】  
-飛行機で来るなら、到着する場所は「airport（空港）」が正解です。「radio（ラジオ）」「sky（空）」「computer（コンピュータ）」では意味が通じません。
-
+飛行機で来るなら到着する場所は「airport（空港）」です。「arrive at the airport（空港に到着する）」が自然です。他の選択肢「radio（ラジオ）」「sky（空）」「computer（コンピュータ）」は到着場所として不自然です。
 ---
 
 問題103:
@@ -1819,8 +1741,7 @@ Lucy’s uncle has a large ( ). Her cousins take care of chickens and pigs there
 1. farm
 
 【解説103】  
-「chickens and pigs（ニワトリとブタ）」がいる場所は「farm（農場）」です。「eraser（消しゴム）」「boat（ボート）」「mirror（鏡）」は全く文脈に合いません。
-
+「chickens and pigs（ニワトリとブタ）」がいる場所は「farm（農場）」です。従兄弟たちが動物の世話をしている、という流れです。他の選択肢「eraser（消しゴム）」「boat（ボート）」「mirror（鏡）」は動物を飼う場所として不自然です。
 ---
 
 問題104:
@@ -1837,8 +1758,7 @@ B : Thanks, Becky. Please ( ) the vegetables and cut them.
 3. wash
 
 【解説104】  
-野菜を切る前にするべきことは「wash（洗う）」ですね。「meet（会う）」「eat（食べる）」「lose（失う）」はすべて不適切です。
-
+野菜を切る前に「wash（洗う）」のが自然です。Beckyが夕食の準備を手伝う場面です。他の選択肢「meet the vegetables（野菜に会う）」「eat the vegetables（野菜を食べる）」「lose the vegetables（野菜を失う）」は意味が通じません。
 ---
 
 問題105:
@@ -1854,8 +1774,7 @@ Emma likes reading music ( ) when she has free time.
 2. magazines
 
 【解説105】  
-「music magazines（音楽雑誌）」は実際にある表現で自然です。「tickets（チケット）」や「shows（ショー）」は読むものではありません。
-
+「music magazines（音楽雑誌）」は実際にある表現で、読むものとして自然です。空き時間に読む、という流れです。他の選択肢「tickets（チケット）」「rooms（部屋）」「shows（ショー）」は「reading（読む）」の目的語として不自然です。
 ---
 
 問題106:
@@ -1871,8 +1790,7 @@ Lucy loves the ( ) flowers in her garden. Her friends often come to see them, to
 4. beautiful
 
 【解説106】  
-「flowers（花）」を説明する形容詞は「beautiful（美しい）」が一番適切です。「angry（怒った）」「fast（速い）」「excited（興奮した）」は花には不自然です。
-
+花を説明する形容詞として「beautiful（美しい）」が最も自然です。友だちも見に来る、という流れです。他の選択肢「angry（怒った）」「fast（速い）」「excited（興奮した）」は花の性質として不自然です。
 ---
 
 問題107:
@@ -1888,8 +1806,7 @@ The library is always ( ). I like to study there after school.
 4. quiet
 
 【解説107】  
-「図書館＝静かな場所」という定番のイメージに合うのは「quiet（静かな）」です。「cloudy（くもりの）」「angry（怒っている）」「late（遅い）」は不適切です。
-
+図書館は「quiet（静かな）」場所、という定番のイメージです。放課後に勉強する、という流れと合います。他の選択肢「cloudy（くもりの）」「angry（怒っている）」「late（遅い）」は図書館の特徴として不自然です。
 ---
 
 問題108:
@@ -1905,8 +1822,7 @@ Eating healthy foods is very important. For ( ), people should eat a lot of frui
 1. example
 
 【解説108】  
-「For example（たとえば）」という決まり文句で、「健康のために果物と野菜を食べる」という例を示しています。
-
+「For example（たとえば）」は例を示す定番表現です。健康のために果物や野菜を食べる、という具体例を示しています。他の選択肢「action（行動）」「kitchen（台所）」「answer（答え）」は「For ～」と組み合わせてもこの意味になりません。
 ---
 
 問題109:
@@ -1923,8 +1839,7 @@ B : It’s about one and a half hours.
 2. long
 
 【解説109】  
-時間の長さを聞いているので、「long（長い）」がぴったりです。「cheap（安い）」「big（大きい）」「early（早い）」は時間の長さには使いません。
-
+答えが「one and a half hours（1時間半）」なので、時間の長さを聞いています。「How long is the movie?（映画はどれくらい長い？）」が正しい形です。他の選択肢「cheap（安い）」「big（大きい）」「early（早い）」は時間の長さを聞く形になりません。
 ---
 
 問題110:
@@ -1941,8 +1856,7 @@ B : Sorry, but she’s not here right now.
 2. to
 
 【解説110】  
-電話で「〜と話す」は「speak to ～」を使います。「speak with」でも可能ですが、選択肢にないため「to」が正解です。
-
+電話で「Can I speak to Kate?（Kateと話せますか？）」が定番表現です。Kateに代わってほしい、という意味です。他の選択肢「speak under（～の下で話す）」「speak of（～について話す）」「speak in（～の中で話す）」は電話の場面で使いません。
 ---
 
 問題111:
@@ -1958,8 +1872,7 @@ Frank was thirsty, so he drank a () of water.
 1. cup
 
 【解説111】  
-水を飲む単位として自然なのは「a cup of water（コップ一杯の水）」です。「piece（かけら）」「menu（メニュー）」「group（グループ）」は水には使いません。
-
+水を飲む量の単位として「a cup of water（コップ一杯の水）」が自然です。のどが渇いて水を飲んだ、という流れです。他の選択肢「a piece of water（意味不明）」「a menu of water（意味不明）」「a group of water（意味不明）」は使いません。
 ---
 
 問題112:
@@ -1976,8 +1889,7 @@ B : Yes, let’s sit ( ) on this bench.
 2. down
 
 【解説112】  
-「sit down（座る）」が自然な表現。「early（早く）」「as」「away（離れて）」は文法的にも意味的にも不適切です。
-
+「sit down（座る）」が自然な表現です。ベンチに座って休もう、という提案です。他の選択肢「sit early（早く座る）」「sit as（意味不明）」「sit away（離れて座る）」は休憩の場面として不自然です。
 ---
 
 問題113:
@@ -1993,8 +1905,7 @@ It was Monica’s father’s birthday two days ago. So she () dinner for him, an
 3. made
 
 【解説113】  
-「two days ago」があるので過去形「made」が正解です。「makes / is making / will make」では時制が合いません。
-
+「two days ago（2日前）」とあるので過去形「made（作った）」が必要です。父の誕生日に夕食を作った、という過去の出来事です。他の選択肢「makes（三人称単数現在）」「is making（現在進行形）」「will make（未来形）」は時制が合いません。
 ---
 
 問題114:
@@ -2010,8 +1921,7 @@ There are two museums in the city. The new one is () interesting than the old on
 3. more
 
 【解説114】  
-比較には「more + 形容詞（長い形）」を使います。「more interesting（よりおもしろい）」が自然です。
-
+「than（～より）」があるので比較級が必要です。「more interesting（よりおもしろい）」が長い形容詞の比較級です。他の選択肢「many（数）」「much（量）」「most（最上級）」は比較の形になりません。
 ---
 
 問題115:
@@ -2028,8 +1938,7 @@ B : Yes, good idea. It’s hot.
 2. Shall
 
 【解説115】  
-「Shall I ～?」は「～しましょうか？」と申し出る丁寧な表現です。「Have」「Were」「Are」はこの形では使えません。
-
+「Shall I ～?（～しましょうか？）」は相手に提案・申し出をするときの丁寧な表現です。窓を開けましょうか、という申し出です。他の選択肢「Have I（意味不明）」「Were I（意味不明）」「Are I（文法的に誤り）」はこの形になりません。
 ---
 
 問題116:
@@ -2046,8 +1955,7 @@ B : I () my bike.
 3. ride
 
 【解説116】  
-「ride my bike（自転車に乗る）」が自然な表現です。「wash（洗う）」「use（使う）」「take（取る）」は使えそうですが、「乗る」には「ride」を使います。
-
+「ride my bike（自転車に乗る）」が自然な表現です。学校への行き方を答えています。他の選択肢「wash my bike（自転車を洗う）」「use my bike（自転車を使う）」も可能ですが、ここでは「乗る」が最も自然で、「take my bike（自転車を取る）」は不自然です。
 ---
 
 問題117:
@@ -2063,8 +1971,7 @@ I always eat lunch ( ) 12:30 at school.
 2. at
 
 【解説117】  
-時刻の前は「at」を使います。「on」「in」「to」は 12:30 のような時刻には使いません。
-
+時刻の前には前置詞「at」を使います。「at 12:30（12時30分に）」が正しい言い方です。他の選択肢「on（曜日・日）」「in（月・年）」「to（方向）」は時刻の前には使いません。
 ---
 
 問題118:
@@ -2080,8 +1987,7 @@ The children are ( ) a picture of a cat.
 1. drawing
 
 【解説118】  
-「draw a picture（絵を描く）」が自然です。「cleaning」「buying」「playing」では絵を描く意味になりません。
-
+「draw a picture（絵を描く）」が自然な表現です。子どもたちが猫の絵を描いている、という場面です。他の選択肢「cleaning a picture（絵を掃除する）」「buying a picture（絵を買う）」「playing a picture（意味不明）」は意味が通じません。
 ---
 
 問題119:
@@ -2098,8 +2004,7 @@ B : I ( ) a soccer game with my family.
 2. watched
 
 【解説119】  
-「last Sunday」があるので過去形「watched」が正解です。「watch / watches / watching」では時制が合いません。
-
+「last Sunday（先週の日曜日）」とあるので過去形「watched（見た）」が必要です。家族とサッカーの試合を見た、という過去の出来事です。他の選択肢「watch（原形）」「watches（三人称単数現在）」「watching（進行形）」は時制が合いません。
 ---
 
 問題120:
@@ -2115,8 +2020,7 @@ That restaurant is always ( ). Let’s go somewhere else.
 2. full
 
 【解説120】  
-「ほかへ行こう」と続くので店が「full（いっぱい）」が自然です。「clean」「ready」「near」では席がない理由になりません。
-
+「Let's go somewhere else.（ほかの場所へ行こう）」と続くので、店が「full（いっぱい）」だから行けない、という流れです。他の選択肢「clean（きれいな）」「ready（準備ができた）」「near（近い）」では席がない理由になりません。
 ---
 
 問題121:
@@ -2133,8 +2037,7 @@ B : Let’s ( ) for it together.
 1. look
 
 【解説121】  
-「look for ～（〜を探す）」が正しい熟語です。「see / hear / stand for」では「探す」意味になりません。
-
+「look for ～（～を探す）」が正しい熟語です。本を一緒に探そう、という提案です。他の選択肢「see for（使わない）」「hear for（使わない）」「stand for（～を代表する）」は「探す」意味になりません。
 ---
 
 問題122:
@@ -2150,8 +2053,7 @@ My little sister always ( ) with her doll.
 1. plays
 
 【解説122】  
-「play with ～（〜と遊ぶ）」が自然です。「eats / makes / goes with her doll」は意味が通じません。
-
+「play with ～（～と遊ぶ）」が自然な表現です。妹が人形と遊ぶ、という習慣です。他の選択肢「eats with her doll（人形と食べる）」「makes with her doll（意味不明）」「goes with her doll（人形と行く）」は意味が通じません。
 ---
 
 問題123:
@@ -2167,8 +2069,7 @@ There is a big supermarket () the station, on the opposite side from the main en
 2. behind
 
 【解説123】  
-「駅の正面入口の反対側」という位置関係が加わることで、behind が唯一自然な答えになります。in（駅構内）やunder（駅の下）はこの説明と矛盾します。
-
+「on the opposite side from the main entrance（正面入口の反対側）」という説明から、駅の「behind（後ろ）」にスーパーがある、という位置関係が自然です。他の選択肢「under（下）」「between（間）」「in（中）」はこの説明と合いにくいです。
 ---
 
 問題124:
@@ -2184,8 +2085,7 @@ I ( ) a new book at the library yesterday.
 3. borrowed
 
 【解説124】  
-「yesterday」があるので過去形「borrowed」が必要です。「borrow / borrowing / borrows」では時制が合いません。
-
+「yesterday（昨日）」とあるので過去形「borrowed（借りた）」が必要です。図書館で本を借りた、という過去の出来事です。他の選択肢「borrow（原形）」「borrowing（進行形）」「borrows（三人称単数現在）」は時制が合いません。
 ---
 
 問題125:
@@ -2202,8 +2102,7 @@ B : She is ( ) dinner in the kitchen.
 3. cooking
 
 【解説125】  
-「is + 動詞ing」の現在進行形で「料理しているところ」です。「cook / cooked / cooks」では進行形になりません。
-
+「is + 動詞-ing」で現在進行形を作ります。Momが今キッチンで「cooking dinner（夕食を作っている）」状態です。他の選択肢「cook（原形）」「cooked（過去形）」「cooks（三人称単数現在）」は「is」のあとに来ません。
 ---
 
 問題126:
@@ -2219,8 +2118,7 @@ I want to be a ( ) in the future and help sick people.
 2. doctor
 
 【解説126】  
-病気の人を助ける職業なので「doctor（医者）」です。「teacher」「singer」「player」は文の後半と合いません。
-
+「help sick people（病気の人を助ける）」という希望から、将来「doctor（医者）」になりたい、という流れです。他の選択肢「teacher（先生）」「singer（歌手）」「player（選手）」は病気の人を助ける職業として合いません。
 ---
 
 問題127:
@@ -2236,8 +2134,7 @@ My brother ( ) his homework before dinner every day.
 2. does
 
 【解説127】  
-毎日の習慣で主語が brother（三人称単数）なので「does」です。「doing / do / did」はこの形に合いません。
-
+主語が「My brother（三人称単数）」で毎日の習慣なので「does（する）」を使います。「does his homework（宿題をする）」が正しい形です。他の選択肢「doing（進行形）」「do（原形）」「did（過去形）」はこの文の時制・人称に合いません。
 ---
 
 問題128:
@@ -2253,8 +2150,7 @@ The movie was very ( ). I want to watch it again.
 3. exciting
 
 【解説128】  
-もう一度観たいので「exciting（ワクワクする）」が自然です。「boring」「tired」「hungry」では再視聴したい理由になりません。
-
+もう一度観たいので「exciting（ワクワクする・おもしろい）」が自然です。映画を気に入った、という流れです。他の選択肢「boring（退屈な）」「tired（疲れた）」「hungry（お腹が空いた）」では再視聴したい理由になりません。
 ---
 
 問題129:
@@ -2271,8 +2167,7 @@ B : I’m ( ) to music.
 3. listening
 
 【解説129】  
-「I’m listening」の現在進行形が必要です。「listen / listens / listened」では am のあとに合いません。
-
+「I'm + 動詞-ing」で現在進行形を作ります。今まさに「listening to music（音楽を聞いている）」状態です。他の選択肢「listen（原形）」「listens（三人称単数現在）」「listened（過去形）」は「I'm」のあとに来ません。
 ---
 
 問題130:
@@ -2288,8 +2183,7 @@ Let’s ( ) a cake for Mom’s birthday.
 2. make
 
 【解説130】  
-誕生日のためにケーキを「作る」ので「make」が自然です。「eat」「cut」「take」は「作る」場面の第一選択ではありません。
-
+お母さんの誕生日のためにケーキを「make（作る）」のが自然です。作ろう、という提案です。他の選択肢「eat a cake（食べる）」「cut a cake（切る）」「take a cake（取る）」は誕生日の準備として第一選択ではありません。
 ---
 
 問題131:
@@ -2305,8 +2199,7 @@ My father often ( ) to work by car.
 3. goes
 
 【解説131】  
-主語が father（三人称単数）の現在の習慣なので「goes」です。「go / going / went」はこの文の時制・人称に合いません。
-
+主語が「My father（三人称単数）」で現在の習慣なので「goes（行く）」を使います。車で通勤する、という意味です。他の選択肢「go（原形）」「going（進行形）」「went（過去形）」はこの文の時制・人称に合いません。
 ---
 
 問題132:
@@ -2322,8 +2215,7 @@ There ( ) many people at the festival last night.
 3. were
 
 【解説132】  
-「last night」で過去、「many people」で複数なので「were」です。「is / are / was」では時制か数が合いません。
-
+「last night（昨夜）」で過去、「many people（多数）」で複数なので「were」が正解です。「There were many people（たくさんの人がいた）」という形です。他の選択肢「is（現在・単数）」「are（現在・複数）」「was（過去・単数）」は時制か数が合いません。
 ---
 
 問題133:
@@ -2339,8 +2231,7 @@ I have a lot of ( ) to do today.
 3. work
 
 【解説133】  
-「a lot of work（多くの仕事）」は不可算なので work です。job / task は可算でここでは不自然です。works もこの意味では使いません。
-
+「a lot of work（たくさんの仕事）」は不可算名詞の work を使う決まり文句です。今日やることが多い、という意味です。他の選択肢「job / task（可算名詞）」「works（動詞・作品）」はこの文脈では不自然です。
 ---
 
 問題134:
@@ -2357,8 +2248,7 @@ B : No, I completely () to pack it this morning.
 1. forgot
 
 【解説134】  
-「今朝ランチを詰めるのを完全に忘れた」という文脈で、記憶の欠如を表す forgot が唯一自然な答えになります。left は「置いてきた」という物理的動作に焦点を当てるため、この文脈では不自然です。
-
+「今朝ランチを詰めるのを忘れた」という記憶の欠如を表すので「forgot（忘れた）」が自然です。「completely forgot to pack（完全に詰めるのを忘れた）」という形です。他の選択肢「forget（原形）」「leave（置いてくる）」「left（置いてきた）」は「忘れた」より物理的な動作のニュアンスになります。
 ---
 
 問題135:
@@ -2375,8 +2265,7 @@ B : It’s ( ) o’clock.
 1. three
 
 【解説135】  
-時刻は「It’s three o’clock」のように基数を使います。「third」「three’s」「the three」はこの言い方ではありません。
-
+時刻を言うときは基数「three（3）」を使います。「It's three o'clock.（3時です）」が正しい言い方です。他の選択肢「third（3番目）」「three's（3の）」「the three（その3）」は時刻の言い方ではありません。
 ---
 
 問題136:
@@ -2392,8 +2281,7 @@ Yuka is a fast runner. She runs ( ) than any other student.
 2. faster
 
 【解説136】  
-「than」があるので比較級「faster」です。「fast」は原級、「fastest」は最上級、「more fast」は形が正しくありません。
-
+「than（～より）」があるので比較級「faster（より速く）」が必要です。Yukaは速いランナーで、他の生徒より速く走る、という意味です。他の選択肢「fast（原級）」「fastest（最上級）」「more fast（形が誤り）」は比較の形になりません。
 ---
 
 問題137:
@@ -2409,8 +2297,7 @@ I like this song. Let’s ( ) to it again.
 3. listen
 
 【解説137】  
-「listen to ～（〜を聞く）」が正しい熟語です。「sing / hear / show to it」では同じ意味になりません。
-
+「listen to ～（～を聞く）」が正しい熟語です。もう一度この歌を聞こう、という提案です。他の選択肢「sing to it（歌う）」「hear to it（文法的に不自然）」「show to it（見せる）」は同じ意味になりません。
 ---
 
 問題138:
@@ -2426,8 +2313,7 @@ Ken didn’t go to the party ( ) he was sick.
 2. because
 
 【解説138】  
-病気だったという理由なので「because」が自然です。「but」「so」「or」では理由のつなぎ方として合いません。
-
+パーティーに行かなかった理由は「because（なぜなら）」で説明します。病気だったから、という因果関係です。他の選択肢「but（しかし）」「so（だから）」「or（または）」は理由をつなぐ接続詞として合いません。
 ---
 
 問題139:
@@ -2444,8 +2330,7 @@ B : ( ), please. I’d like juice.
 3. Neither
 
 【解説139】  
-紅茶もコーヒーもいらずジュースが欲しいので「Neither（どちらでもない）」です。「Both」「Either」「Each」は意味が違います。
-
+紅茶もコーヒーも要らずジュースが欲しいので「Neither（どちらも～ない）」が正解です。「Neither, please.（どちらも結構です）」という返答です。他の選択肢「Each（それぞれ）」「Both（両方）」「Either（どちらか）」は意味が違います。
 ---
 
 問題140:
@@ -2461,8 +2346,7 @@ My bag is ( ) than yours.
 2. heavier
 
 【解説140】  
-「than」があるので比較級「heavier」です。「heavy」は原級、「heaviest」は最上級、「heavily」は副詞です。
-
+「than（～より）」があるので比較級「heavier（より重い）」が必要です。相手のかばんより重い、という比較です。他の選択肢「heavy（原級）」「heaviest（最上級）」「heavily（重く・副詞）」は比較の形になりません。
 ---
 
 問題141:
@@ -2479,8 +2363,7 @@ B : No, but I can ( ) the piano.
 2. play
 
 【解説141】  
-楽器は「play the piano」と言います。「do / have / go the piano」は使いません。
-
+楽器を演奏するときは「play the piano（ピアノを弾く）」と言います。ギターは弾けないがピアノは弾ける、という意味です。他の選択肢「do the piano（使わない）」「have the piano（持つ）」「go the piano（意味不明）」は使いません。
 ---
 
 問題142:
@@ -2497,8 +2380,7 @@ B : Then, you should visit the ( ).
 2. zoo
 
 【解説142】  
-動物が好きなら「zoo（動物園）」が自然です。「pool」「museum」「store」は動物を見る場所として第一ではありません。
-
+動物が好きなら「zoo（動物園）」を訪れるのが自然です。動物を見られる場所、という流れです。他の選択肢「pool（プール）」「museum（博物館）」「store（店）」は動物を見る場所として第一ではありません。
 ---
 
 問題143:
@@ -2514,8 +2396,7 @@ My mother ( ) me to clean my room every Saturday.
 1. tells
 
 【解説143】  
-「tell 人 to ～（〜するよう言う）」が正しい形です。「tells to」「say」「talk」ではこの文の形に合いません。
-
+「tell 人 to ～（人に～するよう言う）」が正しい形です。母が毎週土曜日に部屋を片付けるよう言う、という意味です。他の選択肢「tells to（toが余分）」「say me to（sayの形が違う）」「talk me to（talkの形が違う）」は文法的に誤りです。
 ---
 
 問題144:
@@ -2532,8 +2413,7 @@ B : OK. ( ) you later!
 1. See
 
 【解説144】  
-別れ際の定番は「See you later」です。「Meet / Watch / Show you later」は自然な決まり文句ではありません。
-
+別れ際の定番は「See you later.（またあとで）」です。買い物に行く、という流れです。他の選択肢「Meet you later（会う約束のニュアンス）」「Watch you later（見守る）」「Show you later（見せる）」は決まり文句ではありません。
 ---
 
 問題145:
@@ -2549,8 +2429,7 @@ They are going to ( ) a movie after lunch.
 1. see
 
 【解説145】  
-「be going to + 原形」なので「see」です。「seeing / saw / seen」はこの構文のあとに置けません。
-
+「be going to + 動詞の原形」なので「see（見る）」が正解です。昼食後に映画を見に行く、という未来の予定です。他の選択肢「seeing（-ing形）」「saw（過去形）」「seen（過去分詞）」は「going to」のあとに来ません。
 ---
 
 問題146:
@@ -2566,8 +2445,7 @@ Please be ( ). This is a hospital.
 3. quiet
 
 【解説146】  
-病院なので「quiet（静か）」が適切です。「noisy」「loud」は逆の意味で、「fun」も場に合いません。
-
+病院なので「quiet（静かに）」が適切です。「Please be quiet.（静かにしてください）」というお願いです。他の選択肢「noisy（うるさい）」「loud（大きな声の）」は逆の意味で、「fun（楽しい）」も場に合いません。
 ---
 
 問題147:
@@ -2583,8 +2461,7 @@ This room is much ( ) than the other one.
 2. cleaner
 
 【解説147】  
-「than」があるので比較級「cleaner」です。比較級の強調は very ではなく much を使います。「clean」は原級、「cleanest」は最上級、「clearly」は副詞です。
-
+「than（～より）」があるので比較級「cleaner（よりきれいな）」が必要です。「much cleaner（ずっときれいな）」で強調されています。他の選択肢「clean（原級）」「cleanest（最上級）」「clearly（はっきり・副詞）」は比較の形になりません。
 ---
 
 問題148:
@@ -2600,8 +2477,7 @@ The girl ( ) is talking to the teacher is my sister.
 1. who
 
 【解説148】  
-人を説明する関係代名詞は「who」です。「what」「where」「why」では「話している女の子」をうまくつなげません。
-
+人を説明する関係代名詞は「who（～する人）」です。「The girl who is talking（話している女の子）」という形です。他の選択肢「what（物）」「where（場所）」「why（理由）」では人をうまく説明できません。
 ---
 
 問題149:
@@ -2617,8 +2493,7 @@ We ( ) seen that movie before.
 1. have
 
 【解説149】  
-現在完了は「have + 過去分詞」で、主語 We なので「have」です。「has」は三人称単数、「are / had」はこの形に合いません。
-
+現在完了形は「have + 過去分詞」で、主語が We なので「have」が正解です。「We have seen that movie before.（以前その映画を見たことがある）」という形です。他の選択肢「has（三人称単数）」「are（be動詞）」「had（過去完了）」はこの形に合いません。
 ---
 
 問題150:
@@ -2634,8 +2509,7 @@ I want to buy a ( ) of shoes for my brother.
 3. pair
 
 【解説150】  
-靴は「a pair of shoes（1足）」が正しい数え方です。「set / box / piece of shoes」は普通使いません。
-
+靴は「a pair of shoes（1足）」が正しい数え方です。弟のために靴を買いたい、という意味です。他の選択肢「a set of shoes（使わない）」「a box of shoes（箱入り）」「a piece of shoes（意味不明）」は普通使いません。
 ---
 
 問題151:
@@ -2651,8 +2525,7 @@ Kentaro wants to be a ( ) baseball player in the future. He wants to play in the
 2. professional
 
 【解説151】  
-将来アメリカでプレーしたいので「professional（プロの）」野球選手が自然です。「difficult」「thick」「strange」は選手の種類を表しません。
-
+将来アメリカでプレーしたいので「professional（プロの）」野球選手になりたい、という流れです。他の選択肢「difficult（難しい）」「strange（変な）」「thick（厚い）」は選手の種類を表しません。
 ---
 
 問題152:
@@ -2669,8 +2542,7 @@ B: Thanks, Lisa.
 1. umbrella
 
 【解説152】  
-雨が降るので「umbrella（傘）」が適切です。「dream」「mirror」「sandwich」は雨の場面に合いません。
-
+「It'll rain this evening.（今夜雨が降る）」とあるので「umbrella（傘）」を忘れないで、という注意です。他の選択肢「dream（夢）」「mirror（鏡）」「sandwich（サンドイッチ）」は雨の場面に合いません。
 ---
 
 問題153:
@@ -2686,8 +2558,7 @@ Yuta loves flying. He often goes to the ( ) to watch the planes.
 3. airport
 
 【解説153】  
-飛行機を見る場所は「airport（空港）」です。「floor」「hospital」「mall」では飛行機は見られません。
-
+飛行機を見る場所は「airport（空港）」です。Yutaは飛行が好きで、飛行機を見に行く、という流れです。他の選択肢「floor（床）」「hospital（病院）」「mall（ショッピングモール）」では飛行機は見られません。
 ---
 
 問題154:
@@ -2704,8 +2575,7 @@ B: Yes. This website is very ( ).
 4. useful
 
 【解説154】  
-役に立つスポーツサイトなので「useful」が正解です。「quiet」「thirsty」「tall」はウェブサイトの評価として不自然です。
-
+スポーツのウェブサイトとして「useful（役に立つ）」が自然な評価です。おすすめのサイト、という流れです。他の選択肢「quiet（静かな）」「thirsty（のどが渇いた）」「tall（背が高い）」はサイトの評価として不自然です。
 ---
 
 問題155:
@@ -2721,8 +2591,7 @@ Takeru’s bag has many large books in it. It is very ( ), so Takeru can’t car
 1. heavy
 
 【解説155】  
-大きな本がたくさん入って運べないので「heavy（重い）」です。「nervous」「late」「fast」は袋の重さの説明になりません。
-
+大きな本がたくさん入っているので「heavy（重い）」くて運べない、という流れです。Takeruが運べない理由と合います。他の選択肢「nervous（緊張した）」「late（遅い）」「fast（速い）」は重さの説明になりません。
 ---
 
 問題156:
@@ -2738,8 +2607,7 @@ Yumi visited a ( ) last weekend. She likes learning about history.
 3. castle
 
 【解説156】  
-歴史を学ぶ週末の外出先として「castle（城）」が適切です。「dictionary」「question」「cloud」は場所ではありません。
-
+歴史を学ぶ週末の外出先として「castle（城）」が適切です。Yumiは歴史が好き、という流れです。他の選択肢「dictionary（辞書）」「question（質問）」「cloud（雲）」は訪問する場所として不自然です。
 ---
 
 問題157:
@@ -2755,8 +2623,7 @@ Peter grows potatoes in his ( ). He also has an apple tree.
 4. garden
 
 【解説157】  
-ジャガイモやリンゴの木を育てる場所は「garden（庭）」です。「cake」「song」「meat」は場所を表しません。
-
+ジャガイモやリンゴの木を育てる場所は「garden（庭）」です。Peterが庭で作物を育てている、という意味です。他の選択肢「cake（ケーキ）」「song（歌）」「meat（肉）」は場所を表しません。
 ---
 
 問題158:
@@ -2773,8 +2640,7 @@ B: Well, the first ( ) of the book was interesting, but the ending wasn’t very
 2. part
 
 【解説158】  
-本の「最初の部分」なので「part」が自然です。「country」「way」「road」は本の構成の話に合いません。
-
+本の「最初の部分」なので「part（部分）」が自然です。the first part of the book（本の最初の部分）という言い方です。他の選択肢「country（国）」「way（方法）」「road（道）」は本の構成の話に合いません。
 ---
 
 問題159:
@@ -2790,8 +2656,7 @@ Last week, Brian ( ) a cold. He stayed in bed for two days.
 1. caught
 
 【解説159】  
-風邪をひくは「catch a cold」が決まり文句です。「told / forgot / played a cold」とは言いません。
-
+風邪をひくは「catch a cold（風邪をひく）」が決まり文句です。過去形は「caught」です。2日間寝ていた、という流れです。他の選択肢「told a cold（意味不明）」「forgot a cold（意味不明）」「played a cold（意味不明）」は使いません。
 ---
 
 問題160:
@@ -2807,8 +2672,7 @@ It was very hot during soccer practice. After practice, Jeff drank a ( ) of wate
 1. glass
 
 【解説160】  
-水を飲む量の単位として「a glass of water」が自然です。「boat / country / floor of water」は使いません。
-
+水を飲む量の単位として「a glass of water（グラス一杯の水）」が自然です。暑くて水を飲んだ、という流れです。他の選択肢「a boat of water（意味不明）」「a country of water（意味不明）」「a floor of water（意味不明）」は使いません。
 ---
 
 問題161:
@@ -2825,8 +2689,7 @@ B: Yes, we do. That’s important.
 3. other
 
 【解説161】  
-「each other（お互い）」が正しい表現です。「any / some / another」では「お互いに助け合う」意味になりません。
-
+「each other（お互い）」が正しい表現です。料理のときお互いに助け合う、という意味です。他の選択肢「each any（意味不明）」「each some（意味不明）」「each another（意味不明）」は「お互い」の意味になりません。
 ---
 
 問題162:
@@ -2842,8 +2705,7 @@ Last week, a new student came to Lucy’s school. Lucy became good friends ( ) h
 1. with
 
 【解説162】  
-「be/become friends with ～」が正しい前置詞です。「through / by / into」はこの決まり文句には使いません。
-
+「become friends with ～（～と友だちになる）」が正しい前置詞です。Lucyは新しい生徒と友だちになった、という流れです。他の選択肢「friends through / by / into」はこの決まり文句には使いません。
 ---
 
 問題163:
@@ -2859,8 +2721,7 @@ Kate can ( ) very well. She’s on the school swimming team.
 2. swim
 
 【解説163】  
-助動詞「can」のあとは原形「swim」です。「swam / swims / to swim」はこの位置に置けません。
-
+助動詞「can」のあとには動詞の原形「swim（泳ぐ）」が来ます。Kateは泳ぎが上手で水泳部に入っている、という流れです。他の選択肢「swam（過去形）」「swims（三人称単数現在）」「to swim（不定詞）」は「can」のあとに来ません。
 ---
 
 問題164:
@@ -2877,8 +2738,7 @@ B: Yes, but you ( ) wash your hands first.
 1. must
 
 【解説164】  
-手を洗う必要があるので「must」が自然です。「are / have / were」だけでは「〜しなければならない」になりません。
-
+食べる前に手を洗う必要があるので「must（～しなければならない）」が自然です。you must wash your hands first（まず手を洗わなければならない）という意味です。他の選択肢「are / have / were」だけでは義務を表せません。
 ---
 
 問題165:
@@ -2894,7 +2754,7 @@ Last night, Taro was ( ) a movie about airplanes. He liked it very much.
 1. watching
 
 【解説165】  
-「was + -ing」の過去進行形で「見ていた」です。「watches / watch / watched」ではこの進行の形になりません。
+「was + 動詞-ing」で過去進行形を作ります。Taroが昨夜「watching a movie（映画を見ていた）」状態です。他の選択肢「watches（三人称単数現在）」「watch（原形）」「watched（過去形）」は「was」のあとに来ません。
 
 
 ---
@@ -2913,8 +2773,7 @@ B : I’ll go to the store and get some.
 2. eggs
 
 【解説166】
-パンケーキを作るのに足りないのは「eggs（卵）」が自然です。「flowers / books / sports」は材料になりません。
-
+パンケーキを作る材料として「eggs（卵）」が自然です。卵がないので買いに行く、という流れです。他の選択肢「flowers（花）」「books（本）」「sports（スポーツ）」は材料になりません。
 ---
 
 問題167:
@@ -2931,8 +2790,7 @@ B : You can ( ) my phone.
 3. use
 
 【解説167】
-電話を貸す流れなので「use（使う）」が自然です。「climb / leave / send」では「私の電話を〜」の意味が合いません。
-
+電話がないので「use my phone（私の電話を使って）」が自然です。電話を貸す、という流れです。他の選択肢「climb my phone（登る）」「leave my phone（置く）」「send my phone（送る）」は意味が通じません。
 ---
 
 問題168:
@@ -2949,8 +2807,7 @@ B : All right, but please ( ) this carrot first.
 1. cut
 
 【解説168】
-にんじんを先に処理する流れなので「cut（切る）」が自然です。「arrive / hit / run」はこの文脈に合いません。
-
+クッキーを作る前ににんじんを「cut（切る）」のが自然です。まずにんじんを切って、というお願いです。他の選択肢「arrive this carrot（到着する）」「hit this carrot（打つ）」「run this carrot（走る）」は意味が通じません。
 ---
 
 問題169:
@@ -2967,8 +2824,7 @@ B : Yes, it’s spring.
 1. country
 
 【解説169】
-春で暖かい、という国・土地の話なので「country」が自然です。「ticket / animal / road」は暖かさの場所として不自然です。
-
+「It's spring.（春です）」と答えているので、今暖かい「country（国）」の話です。国の気候についてたずねています。他の選択肢「ticket（切符）」「animal（動物）」「road（道）」は暖かさの場所として不自然です。
 ---
 
 問題170:
@@ -2984,8 +2840,7 @@ Taro enjoyed the chorus ( ) on TV yesterday. He wants to join a chorus at school
 3. contest
 
 【解説170】
-テレビの合唱コンクールを楽しんだ、という流れなので「contest」が自然です。「wall / hobby / trip」では意味が合いません。
-
+テレビの「chorus contest（合唱コンテスト）」を楽しんだ、という流れです。学校の合唱部に入りたい、という続きとも合います。他の選択肢「wall（壁）」「hobby（趣味）」「trip（旅行）」はテレビ番組の種類として不自然です。
 ---
 
 問題171:
@@ -3002,8 +2857,7 @@ B : Yes, it’s ( ) now.
 2. open
 
 【解説171】
-今使える・空いている、という返事なので「open」が自然です。「cold / late / favorite」では図書館の利用可否になりません。
-
+図書館で勉強できるか聞いていて、「it's open now（今開いている）」と答えるのが自然です。今利用できる、という意味です。他の選択肢「cold（寒い）」「late（遅い）」「favorite（お気に入りの）」では利用可否の返答になりません。
 ---
 
 問題172:
@@ -3019,8 +2873,7 @@ Sally went to eat Chinese food in a big ( ) last weekend.
 1. city
 
 【解説172】
-大きな街で中華を食べた、という文なので「city」が自然です。「word / body / point」は場所になりません。
-
+大きな「city（街）」で中華料理を食べに行った、という流れです。Sallyが週末に外出した場所です。他の選択肢「word（単語）」「body（体）」「point（点）」は場所になりません。
 ---
 
 問題173:
@@ -3037,8 +2890,7 @@ B : I have an ( ). Let’s go to the aquarium.
 2. idea
 
 【解説173】
-提案の前置きなので「idea（考え）」が自然です。「end / arm / eraser」はこの会話に合いません。
-
+水族館へ行こう、という提案の前置きなので「I have an idea（いい考えがある）」が自然です。他の選択肢「I have an end（終わりがある）」「I have an arm（腕がある）」「I have an eraser（消しゴムがある）」は提案の前置きになりません。
 ---
 
 問題174:
@@ -3055,8 +2907,7 @@ B : They’re really nice, Grandma.
 2. think
 
 【解説174】
-「What do you think of …?（〜をどう思う？）」の決まり文句です。「watch / tell / finish」ではこの形になりません。
-
+「What do you think of ～?（～をどう思う？）」が定番表現です。新しいメガネについて意見を聞いています。他の選択肢「watch of them（見る）」「tell of them（言う）」「finish of them（終える）」はこの形になりません。
 ---
 
 問題175:
@@ -3073,8 +2924,7 @@ B : Good ( ) you. You practiced a lot.
 1. for
 
 【解説175】
-「Good for you.（よかったね／えらいね）」が自然です。「with / in / after」では決まり文句になりません。
-
+「Good for you.（よかったね・がんばったね）」が定番表現です。サッカーの試合に出る、という良いニュースへの返答です。他の選択肢「Good with / in / after you」は決まり文句になりません。
 ---
 
 問題176:
@@ -3091,8 +2941,7 @@ B : Yes. He’s going to move back to England.
 1. hear
 
 【解説176】
-知らせを聞いたか、なので「hear」が自然です。「wait / run / want」では「〜について聞いた」になりません。
-
+「Did you hear about Dan?（Danのことを聞いた？）」が自然な表現です。Danがイギリスに戻る、という知らせです。他の選択肢「wait about（待つ）」「run about（走る）」「want about（欲しがる）」は「～について聞いた」意味になりません。
 ---
 
 問題177:
@@ -3109,8 +2958,7 @@ B : OK. I’ll give her two of them.
 1. share
 
 【解説177】
-妹と分けるので「share」が自然です。「answer / cry / run」は分け与える意味になりません。
-
+妹とクッキーを「share（分ける・共有する）」のが自然です。4つあるクッキーを分けて、というお願いです。他の選択肢「answer them（答える）」「cry them（泣く）」「run them（走る）」は分け与える意味になりません。
 ---
 
 問題178:
@@ -3127,8 +2975,7 @@ B : OK. Let’s get some apples.
 4. cheaper
 
 【解説178】
-than があるので比較級「cheaper」が必要です。「cheap / cheapest / the cheapest」では than と合いません。
-
+「than（～より）」があるので比較級「cheaper（より安い）」が必要です。今日はリンゴのほうが安い、という比較です。他の選択肢「cheap（原級）」「cheapest（最上級）」「the cheapest（最上級）」は比較の形になりません。
 ---
 
 問題179:
@@ -3144,8 +2991,7 @@ The students ( ) 50 meters in the school pool yesterday.
 2. swam
 
 【解説179】
-yesterday があるので過去形「swam」が自然です。「swim / swimming / to swim」では時制が合いません。
-
+「yesterday（昨日）」とあるので過去形「swam（泳いだ）」が必要です。学校のプールで50メートル泳いだ、という過去の出来事です。他の選択肢「swim（原形）」「swimming（進行形）」「to swim（不定詞）」は時制が合いません。
 ---
 
 問題180:
@@ -3162,4 +3008,4 @@ B : OK, Mr. Peterson.
 3. must
 
 【解説180】
-テスト前に読む必要がある、という指示なので「must」が自然です。「have / be / were」だけでは義務の意味になりません。
+テスト前に読む必要があるので「must（～しなければならない）」が自然です。Mr. Petersonからの指示です。他の選択肢「have read（所有ではない）」「be read（受動態）」「were read（過去形）」は義務を表す形になりません。
