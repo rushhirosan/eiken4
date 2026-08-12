@@ -3,6 +3,7 @@ from exams.models import Question, Choice
 import re
 
 from exams.provenance import PROVENANCE_BLOCKED
+from questions.legacy_import import assert_legacy_question_import_allowed
 from questions.level_paths import (
     add_default_register_arguments,
     questions_file_abspath,
@@ -16,6 +17,7 @@ class Command(BaseCommand):
         add_default_register_arguments(parser)
 
     def handle(self, *args, **options):
+        assert_legacy_question_import_allowed(allow_flag=options.get('allow_legacy_blocked_import', False))
         level = options['level']
         Question.objects.filter(question_type='word_order', level=level).delete()
         self.stdout.write(self.style.WARNING(f'既存の語順穴埋め問題（level={level}）を削除しました'))

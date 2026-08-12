@@ -4,6 +4,7 @@ from django.core.management.base import BaseCommand
 
 from exams.models import Question
 from exams.provenance import PROVENANCE_BLOCKED
+from questions.legacy_import import assert_legacy_question_import_allowed
 from questions.level_paths import (
     add_default_register_arguments,
     questions_file_abspath,
@@ -119,6 +120,7 @@ class Command(BaseCommand):
         add_default_register_arguments(parser)
 
     def handle(self, *args, **options):
+        assert_legacy_question_import_allowed(allow_flag=options.get('allow_legacy_blocked_import', False))
         level = options['level']
         if level not in ('3', '4', '5'):
             self.stdout.write(

@@ -3,6 +3,7 @@ from exams.models import Question, Choice
 import re
 
 from exams.provenance import PROVENANCE_BLOCKED
+from questions.legacy_import import assert_legacy_question_import_allowed
 from questions.level_paths import (
     add_default_register_arguments,
     db_audio_path,
@@ -17,6 +18,7 @@ class Command(BaseCommand):
         add_default_register_arguments(parser)
 
     def handle(self, *args, **options):
+        assert_legacy_question_import_allowed(allow_flag=options.get('allow_legacy_blocked_import', False))
         level = options['level']
         Question.objects.filter(question_type='listening_passage', level=level).delete()
         self.stdout.write(self.style.WARNING(f'既存のリスニング文章問題（level={level}）を削除しました'))

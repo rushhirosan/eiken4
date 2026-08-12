@@ -12,6 +12,7 @@ from django.db import transaction
 
 from exams.models import Choice, Question
 from exams.provenance import PROVENANCE_BLOCKED
+from questions.legacy_import import assert_legacy_question_import_allowed
 from exams.writing_feedback import parse_writing_rubric
 from questions.level_paths import (
     db_audio_path,
@@ -64,8 +65,14 @@ class Command(BaseCommand):
         parser.add_argument('--min-listening', type=int, default=None)
         parser.add_argument('--min-writing', type=int, default=None)
         parser.add_argument('--dry-run', action='store_true')
+        parser.add_argument(
+            '--allow-legacy-blocked-import',
+            action='store_true',
+            help='レガシー取り込み禁止を一時解除（blocked 登録のみ）',
+        )
 
     def handle(self, *args, **options):
+        assert_legacy_question_import_allowed(allow_flag=options.get('allow_legacy_blocked_import', False))
         level = str(options['level'])
         dry = options['dry_run']
         defaults = _DEFAULT_MINS.get(level, _DEFAULT_MINS['4'])

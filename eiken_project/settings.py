@@ -40,6 +40,10 @@ MAINTENANCE_NOTICE_BODY = (
 MAINTENANCE_OFFICIAL_EXAMS_URL = 'https://www.eiken.or.jp/eiken/exam/'
 MAINTENANCE_OFFICIAL_EXAMS_LABEL = '公式の過去問・試験内容はこちら（英検協会）'
 
+# レガシー（公式PDF由来）問題の再登録。既定 False = 配信パイプラインから切り離し。
+# True または --allow-legacy-blocked-import のときのみ blocked 登録を許可。
+LEGACY_QUESTION_IMPORT_ENABLED = False
+
 ALLOWED_HOSTS = []
 
 # Google Analytics 4

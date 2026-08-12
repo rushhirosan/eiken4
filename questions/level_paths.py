@@ -53,9 +53,28 @@ def static_audio_dir(level: str, part: str) -> str:
 
 
 def static_images_part1_dir(level: str) -> str:
+    """公開用 static。公式由来アーカイブは archived_images_part1_dir。"""
     if level == '4':
         return os.path.join(settings.BASE_DIR, 'static', 'images', 'part1')
     return os.path.join(settings.BASE_DIR, 'static', 'images', f'level{level}', 'part1')
+
+
+def archived_audio_dir(level: str, part: str) -> str:
+    """公式由来音声の保管先（配信対象外）。"""
+    if level == '4':
+        return os.path.join(settings.BASE_DIR, 'data', 'archived_media', 'audio', part)
+    return os.path.join(
+        settings.BASE_DIR, 'data', 'archived_media', 'audio', f'level{level}', part
+    )
+
+
+def archived_images_part1_dir(level: str) -> str:
+    """公式由来画像の保管先（配信対象外）。"""
+    if level == '4':
+        return os.path.join(settings.BASE_DIR, 'data', 'archived_media', 'images', 'part1')
+    return os.path.join(
+        settings.BASE_DIR, 'data', 'archived_media', 'images', f'level{level}', 'part1'
+    )
 
 
 def add_default_register_arguments(parser):
@@ -66,4 +85,12 @@ def add_default_register_arguments(parser):
         default='4',
         choices=['3', '4', '5'],
         help='試験級（既定: 4）。3/5 のとき data/questions/level{N}/ と DB の level=N を使用。',
+    )
+    parser.add_argument(
+        '--allow-legacy-blocked-import',
+        action='store_true',
+        help=(
+            'レガシー取り込み禁止を一時解除し、provenance=blocked として再登録する。'
+            '公開には出ない。通常は使わない。'
+        ),
     )

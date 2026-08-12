@@ -7,6 +7,12 @@
 """
 from __future__ import annotations
 
+from legacy_pdf_guard import require_legacy_pdf_tools_allowed
+
+# 重い依存の import より先に止める（未インストール環境でもガードが効く）
+if __name__ == "__main__":
+    require_legacy_pdf_tools_allowed()
+
 from pathlib import Path
 
 _REPO = Path(__file__).resolve().parents[1]
@@ -914,6 +920,7 @@ def _append(path: Path, block: str) -> None:
 
 
 def main() -> None:
+    require_legacy_pdf_tools_allowed()
     _append(_Q / 'grammar_fill_questions.txt', grammar_blocks(101))
     _append(_Q / 'conversation_questions.txt', conversation_blocks(51))
     _append(_Q / 'reading_comprehesion_questions.txt', reading_blocks(16))

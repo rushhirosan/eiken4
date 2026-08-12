@@ -7,6 +7,12 @@
 """
 from __future__ import annotations
 
+from legacy_pdf_guard import require_legacy_pdf_tools_allowed
+
+# 重い依存の import より先に止める（未インストール環境でもガードが効く）
+if __name__ == "__main__":
+    require_legacy_pdf_tools_allowed()
+
 from pathlib import Path
 
 import fitz
@@ -132,6 +138,7 @@ def extract_all() -> int:
 
 
 def main() -> int:
+    require_legacy_pdf_tools_allowed()
     extract_all()
     return 0
 

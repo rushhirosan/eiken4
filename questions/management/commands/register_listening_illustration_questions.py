@@ -4,15 +4,15 @@ from django.core.management.base import BaseCommand
 from questions.models import ListeningQuestion, ListeningChoice
 
 from exams.provenance import PROVENANCE_BLOCKED
+from questions.legacy_import import assert_legacy_question_import_allowed
 from questions.level_paths import (
     LISTENING_ILLUSTRATION_PART3_MIN,
     add_default_register_arguments,
+    archived_images_part1_dir,
     db_audio_path,
     db_image_path_part1,
     listening_illustration_audio_part,
     questions_file_abspath,
-    static_audio_dir,
-    static_images_part1_dir,
 )
 
 
@@ -23,6 +23,7 @@ class Command(BaseCommand):
         add_default_register_arguments(parser)
 
     def handle(self, *args, **options):
+        assert_legacy_question_import_allowed(allow_flag=options.get('allow_legacy_blocked_import', False))
         level = options['level']
         if level == '4':
             # 画像番号ベースで既存を消す（通し番号の増加に追随）
@@ -32,7 +33,7 @@ class Command(BaseCommand):
         self.stdout.write(self.style.WARNING(f'既存のListeningQuestion（level={level}）を削除しました'))
 
         txt_path = questions_file_abspath(level, 'listening_illustration_questions.txt')
-        image_dir = static_images_part1_dir(level)
+        image_dir = archived_images_part1_dir(level)
 
         self.stdout.write(f'テキストファイルパス: {txt_path}')
         self.stdout.write(f'画像ディレクトリ: {image_dir}')

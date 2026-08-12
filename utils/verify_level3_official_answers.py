@@ -9,6 +9,12 @@
 """
 from __future__ import annotations
 
+from legacy_pdf_guard import require_legacy_pdf_tools_allowed
+
+# 重い依存の import より先に止める（未インストール環境でもガードが効く）
+if __name__ == "__main__":
+    require_legacy_pdf_tools_allowed()
+
 import re
 import sys
 import urllib.request
@@ -310,6 +316,7 @@ def verify_extra_round(spec: dict) -> list[Mismatch]:
 
 
 def main() -> int:
+    require_legacy_pdf_tools_allowed()
     all_mismatches: list[Mismatch] = []
     for round_idx, code in enumerate(ROUND_CODES):
         rw, listen = fetch_official_answers(code)

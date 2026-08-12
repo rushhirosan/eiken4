@@ -13,7 +13,11 @@ from __future__ import annotations
 
 import argparse
 import re
+import sys
 from pathlib import Path
+
+sys.path.insert(0, str(Path(__file__).resolve().parents[1] / "utils"))
+from legacy_pdf_guard import require_legacy_pdf_tools_allowed
 
 BASE_DIR = Path(__file__).resolve().parent.parent
 IMPORT_DIR = BASE_DIR / "data/pdf_import/level3_kakomon"
@@ -334,6 +338,7 @@ def run(out_dir: Path, dry_run: bool) -> None:
 
 
 def main():
+    require_legacy_pdf_tools_allowed()
     ap = argparse.ArgumentParser()
     ap.add_argument(
         "--out-dir",
