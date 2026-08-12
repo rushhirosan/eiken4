@@ -3,6 +3,7 @@ import os
 from django.core.management.base import BaseCommand
 from questions.models import ListeningQuestion, ListeningChoice
 
+from exams.provenance import PROVENANCE_BLOCKED
 from questions.level_paths import (
     LISTENING_ILLUSTRATION_PART3_MIN,
     add_default_register_arguments,
@@ -125,6 +126,7 @@ class Command(BaseCommand):
 
             # モデル登録
             q = ListeningQuestion.objects.create(
+                    provenance=PROVENANCE_BLOCKED,
                 question_text='',
                 image=image_path,
                 audio=audio_path,

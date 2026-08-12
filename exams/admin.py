@@ -17,8 +17,8 @@ class ChoiceInline(admin.TabularInline):
 
 @admin.register(Question)
 class QuestionAdmin(admin.ModelAdmin):
-    list_display = ('question_text', 'level', 'question_type', 'created_at')
-    list_filter = ('level', 'question_type', 'created_at')
+    list_display = ('question_text', 'level', 'question_type', 'provenance', 'created_at')
+    list_filter = ('level', 'question_type', 'provenance', 'created_at')
     search_fields = ('question_text',)
     inlines = [ChoiceInline]
 

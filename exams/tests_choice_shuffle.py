@@ -12,6 +12,7 @@ from exams.choice_shuffle import (
 )
 from exams.models import Choice, Question
 from questions.models import ReadingChoice, ReadingPassage, ReadingQuestion
+from exams.provenance import PROVENANCE_ORIGINAL
 
 User = get_user_model()
 
@@ -31,6 +32,7 @@ class ChoiceShuffleHelpersTest(TestCase):
         request.session = self.client.session
 
         question = Question.objects.create(
+            provenance=PROVENANCE_ORIGINAL,
             level='3',
             question_type='grammar_fill',
             question_text='Shuffle test',
@@ -64,7 +66,8 @@ class ChoiceShuffleHelpersTest(TestCase):
         request = factory.get('/')
         request.session = self.client.session
 
-        passage = ReadingPassage.objects.create(level='3', identifier='a', text='本文')
+        passage = ReadingPassage.objects.create(
+            provenance=PROVENANCE_ORIGINAL,level='3', identifier='a', text='本文')
         reading_question = ReadingQuestion.objects.create(
             passage=passage,
             question_text='Q1',
@@ -100,6 +103,7 @@ class ChoiceShuffleHelpersTest(TestCase):
         request.session = self.client.session
 
         question = Question.objects.create(
+            provenance=PROVENANCE_ORIGINAL,
             level='3',
             question_type='grammar_fill',
             question_text='No create',
@@ -142,6 +146,7 @@ class ChoiceShuffleIntegrationTest(TestCase):
         self.client.login(username='shuffle_user', password='testpass123')
 
         self.question = Question.objects.create(
+            provenance=PROVENANCE_ORIGINAL,
             level='3',
             question_type='grammar_fill',
             question_text='Visitors ( ) to show their tickets.',
@@ -213,6 +218,7 @@ class ChoiceShuffleIntegrationTest(TestCase):
         from questions.models import ListeningChoice, ListeningQuestion
 
         question = ListeningQuestion.objects.create(
+            provenance=PROVENANCE_ORIGINAL,
             question_text='Test listening',
             image='images/test.png',
             audio='audio/test.mp3',
@@ -252,6 +258,7 @@ class ChoiceShuffleIntegrationTest(TestCase):
 
     def test_apply_choice_shuffle_skips_word_order_items(self):
         question = Question.objects.create(
+            provenance=PROVENANCE_ORIGINAL,
             level='3',
             question_type='word_order',
             question_text='並べ替え',
@@ -280,6 +287,7 @@ class ChoiceShuffleIntegrationTest(TestCase):
 
     def test_remap_explanation_choice_numbers_follows_display_order(self):
         question = Question.objects.create(
+            provenance=PROVENANCE_ORIGINAL,
             level='4',
             question_type='listening_conversation',
             question_text='Who was sick?',
@@ -316,6 +324,7 @@ class ChoiceShuffleIntegrationTest(TestCase):
 
     def test_apply_choice_shuffle_remaps_listening_explanation_numbers(self):
         question = Question.objects.create(
+            provenance=PROVENANCE_ORIGINAL,
             level='4',
             question_type='listening_conversation',
             question_text='Where will they meet tomorrow?',

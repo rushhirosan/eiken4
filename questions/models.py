@@ -2,6 +2,13 @@ from django.db import models
 from django.contrib.auth.models import User
 from django.conf import settings
 
+from exams.provenance import (
+    PROVENANCE_BLOCKED,
+    PROVENANCE_CHOICES,
+    PROVENANCE_ORIGINAL,
+    ProvenanceManager,
+)
+
 class ReadingPassage(models.Model):
     LEVELS = [
         ('5', 'Grade 5'),
@@ -15,7 +22,16 @@ class ReadingPassage(models.Model):
     text = models.TextField()
     level = models.CharField(max_length=10, choices=LEVELS, default='4')
     identifier = models.CharField(max_length=1, default='a', help_text='Passage identifier (a, b, c)')
+    provenance = models.CharField(
+        max_length=20,
+        choices=PROVENANCE_CHOICES,
+        default=PROVENANCE_BLOCKED,
+        db_index=True,
+        help_text='公開は original のみ。既定は blocked（明示した新規自作だけ original）',
+    )
     created_at = models.DateTimeField(auto_now_add=True)
+
+    objects = ProvenanceManager()
 
     def __str__(self):
         return f"Passage {self.identifier}"
@@ -83,7 +99,16 @@ class ListeningQuestion(models.Model):
     correct_answer = models.CharField(max_length=200)
     explanation = models.TextField(blank=True, default='')
     level = models.CharField(max_length=10, choices=LEVELS, default='4')
+    provenance = models.CharField(
+        max_length=20,
+        choices=PROVENANCE_CHOICES,
+        default=PROVENANCE_BLOCKED,
+        db_index=True,
+        help_text='公開は original のみ。既定は blocked（明示した新規自作だけ original）',
+    )
     created_at = models.DateTimeField(auto_now_add=True)
+
+    objects = ProvenanceManager()
 
     def __str__(self):
         return self.question_text

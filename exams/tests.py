@@ -25,6 +25,7 @@ from questions.models import (
     ListeningUserAnswer,
 )
 from django.utils import timezone
+from exams.provenance import PROVENANCE_ORIGINAL
 
 User = get_user_model()
 
@@ -35,6 +36,7 @@ class QuestionModelTest(TestCase):
     def setUp(self):
         """テストデータの準備"""
         self.question = Question.objects.create(
+            provenance=PROVENANCE_ORIGINAL,
             level='4',
             question_type='grammar_fill',
             question_text='テスト問題文',
@@ -44,6 +46,7 @@ class QuestionModelTest(TestCase):
     def test_resolved_audio_file_listening_conversation_fallback(self):
         """audio_file が空でも会話リスニングは規約パスを返す"""
         q = Question.objects.create(
+            provenance=PROVENANCE_ORIGINAL,
             level='4',
             question_type='listening_conversation',
             question_text='Q1',
@@ -56,6 +59,7 @@ class QuestionModelTest(TestCase):
         """audio_file があればその値を優先する"""
         custom = 'audio/custom/foo.mp3'
         q = Question.objects.create(
+            provenance=PROVENANCE_ORIGINAL,
             level='4',
             question_type='listening_conversation',
             question_text='Q',
@@ -67,6 +71,7 @@ class QuestionModelTest(TestCase):
     def test_resolved_audio_file_strips_whitespace_empty_means_fallback(self):
         """空白のみの audio_file は未設定とみなしてフォールバックする"""
         q = Question.objects.create(
+            provenance=PROVENANCE_ORIGINAL,
             level='4',
             question_type='listening_passage',
             question_text='P1',
@@ -78,6 +83,7 @@ class QuestionModelTest(TestCase):
     def test_resolved_audio_file_listening_illustration_on_question_model(self):
         """共通 Question でイラスト型のとき part1 の規約パスを返す"""
         q = Question.objects.create(
+            provenance=PROVENANCE_ORIGINAL,
             level='4',
             question_type='listening_illustration',
             question_text='Ill',
@@ -109,6 +115,7 @@ class ChoiceModelTest(TestCase):
     def setUp(self):
         """テストデータの準備"""
         self.question = Question.objects.create(
+            provenance=PROVENANCE_ORIGINAL,
             level='4',
             question_type='grammar_fill',
             question_text='テスト問題'
@@ -357,6 +364,7 @@ class Level3RandomAndMockTests(TestCase):
         ):
             for i in range(3):
                 q = Question.objects.create(
+            provenance=PROVENANCE_ORIGINAL,
                     question_text=f'{qtype}-{i}',
                     question_type=qtype,
                     level='3',
@@ -368,6 +376,7 @@ class Level3RandomAndMockTests(TestCase):
                 )
         for i in range(3):
             lq = ListeningQuestion.objects.create(
+            provenance=PROVENANCE_ORIGINAL,
                 question_text=f'li-{i}',
                 image='images/test.png',
                 audio='audio/test.mp3',
@@ -402,6 +411,7 @@ class Level3RandomAndMockTests(TestCase):
         }
         for i in range(15):
             q = Question.objects.create(
+            provenance=PROVENANCE_ORIGINAL,
                 question_text=f'g{i}',
                 question_type='grammar_fill',
                 level='3',
@@ -411,6 +421,7 @@ class Level3RandomAndMockTests(TestCase):
             Choice.objects.create(question=q, choice_text='a', is_correct=True, order=1)
         for i in range(5):
             q = Question.objects.create(
+            provenance=PROVENANCE_ORIGINAL,
                 question_text=f'c{i}',
                 question_type='conversation_fill',
                 level='3',
@@ -420,6 +431,7 @@ class Level3RandomAndMockTests(TestCase):
             Choice.objects.create(question=q, choice_text='a', is_correct=True, order=1)
         for i in range(10):
             q = Question.objects.create(
+            provenance=PROVENANCE_ORIGINAL,
                 question_text=f'lc{i}',
                 question_type='listening_conversation',
                 level='3',
@@ -429,6 +441,7 @@ class Level3RandomAndMockTests(TestCase):
             Choice.objects.create(question=q, choice_text='a', is_correct=True, order=1)
         for i in range(10):
             q = Question.objects.create(
+            provenance=PROVENANCE_ORIGINAL,
                 question_text=f'lp{i}',
                 question_type='listening_passage',
                 level='3',
@@ -438,6 +451,7 @@ class Level3RandomAndMockTests(TestCase):
             Choice.objects.create(question=q, choice_text='a', is_correct=True, order=1)
         for i in range(10):
             lq = ListeningQuestion.objects.create(
+            provenance=PROVENANCE_ORIGINAL,
                 question_text=f'li{i}',
                 image='images/test.png',
                 audio='audio/test.mp3',
@@ -449,6 +463,7 @@ class Level3RandomAndMockTests(TestCase):
             )
         for ident in ('a', 'b', 'c'):
             passage = ReadingPassage.objects.create(
+            provenance=PROVENANCE_ORIGINAL,
                 level='3', identifier=ident, text=f'passage {ident}'
             )
             rq = ReadingQuestion.objects.create(
@@ -506,6 +521,7 @@ class Level5ExamListTests(TestCase):
 
     def test_speaking_practice_shows_level5_questions(self):
         Question.objects.create(
+            provenance=PROVENANCE_ORIGINAL,
             question_text="Sam's Pet\n\nSam is 10 years old.",
             question_type='speaking',
             level='5',
@@ -544,6 +560,7 @@ class Level5ExamListTests(TestCase):
     def test_word_order_dedicated_renders_newlines(self):
         """語順選択メニューでは問題文の改行が <br> になる"""
         Question.objects.create(
+            provenance=PROVENANCE_ORIGINAL,
             question_text=(
                 '私は朝，歩いて学校へ行きます。\n'
                 '① to ② school ③ walk ④ in\n'
@@ -580,6 +597,7 @@ class Level5ExamListTests(TestCase):
             },
         }
         Question.objects.create(
+            provenance=PROVENANCE_ORIGINAL,
             question_text=(
                 '今日はとても暑いです。\n'
                 '① it ② is ③ very hot ④ today\n'
@@ -593,6 +611,7 @@ class Level5ExamListTests(TestCase):
         # 合計10問以下にして sample で語順が落ちないようにする
         for qtype in ('grammar_fill', 'conversation_fill', 'listening_conversation'):
             Question.objects.create(
+            provenance=PROVENANCE_ORIGINAL,
                 question_text=f'sample {qtype}',
                 question_type=qtype,
                 level='5',
@@ -602,6 +621,7 @@ class Level5ExamListTests(TestCase):
         from questions.models import ListeningChoice, ListeningQuestion
 
         lq = ListeningQuestion.objects.create(
+            provenance=PROVENANCE_ORIGINAL,
             question_text='listening',
             image='images/test.png',
             audio='audio/test.mp3',
@@ -640,6 +660,7 @@ class Level5ExamListTests(TestCase):
         # 模擬試験の構成数に合わせて最低限の問題を用意
         for i in range(15):
             q = Question.objects.create(
+            provenance=PROVENANCE_ORIGINAL,
                 question_text=f'g{i}',
                 question_type='grammar_fill',
                 level='5',
@@ -649,6 +670,7 @@ class Level5ExamListTests(TestCase):
             Choice.objects.create(question=q, choice_text='a', is_correct=True, order=1)
         for i in range(5):
             q = Question.objects.create(
+            provenance=PROVENANCE_ORIGINAL,
                 question_text=f'c{i}',
                 question_type='conversation_fill',
                 level='5',
@@ -663,6 +685,7 @@ class Level5ExamListTests(TestCase):
                 else f'w{i}\n① a ② b ③ c ④ d\n[1番目] ( ) [3番目] ( ).'
             )
             q = Question.objects.create(
+            provenance=PROVENANCE_ORIGINAL,
                 question_text=text,
                 question_type='word_order',
                 level='5',
@@ -672,6 +695,7 @@ class Level5ExamListTests(TestCase):
             Choice.objects.create(question=q, choice_text='① — ②', is_correct=True, order=1)
         for i in range(5):
             q = Question.objects.create(
+            provenance=PROVENANCE_ORIGINAL,
                 question_text=f'lc{i}',
                 question_type='listening_conversation',
                 level='5',
@@ -683,6 +707,7 @@ class Level5ExamListTests(TestCase):
 
         for i in range(20):
             lq = ListeningQuestion.objects.create(
+            provenance=PROVENANCE_ORIGINAL,
                 question_text=f'l{i}',
                 image=f'images/level5/part1/listening_illustration_image{i + 1}.png',
                 audio=f'audio/level5/part1/listening_illustration_question{i + 1}.mp3',
@@ -728,11 +753,13 @@ class Level5ExamListTests(TestCase):
 
     def test_clear_progress_only_clears_level5(self):
         q5 = Question.objects.create(
+            provenance=PROVENANCE_ORIGINAL,
             level='5',
             question_type='grammar_fill',
             question_text='5級',
         )
         q4 = Question.objects.create(
+            provenance=PROVENANCE_ORIGINAL,
             level='4',
             question_type='grammar_fill',
             question_text='4級',
@@ -804,6 +831,7 @@ class ProgressViewTest(TestCase):
         """3級の進捗表示に語順選択問題を含めない"""
         self.client.login(username='testuser', password='testpass123')
         Question.objects.create(
+            provenance=PROVENANCE_ORIGINAL,
             level='3',
             question_type='grammar_fill',
             question_text='3級テスト',
@@ -817,11 +845,13 @@ class ProgressViewTest(TestCase):
         """進捗クリアは指定級のみ削除し、他級とリスニング回答は残さない/残す"""
         self.client.login(username='testuser', password='testpass123')
         q4 = Question.objects.create(
+            provenance=PROVENANCE_ORIGINAL,
             level='4',
             question_type='grammar_fill',
             question_text='4級',
         )
         q3 = Question.objects.create(
+            provenance=PROVENANCE_ORIGINAL,
             level='3',
             question_type='grammar_fill',
             question_text='3級',
@@ -864,6 +894,7 @@ class ProgressViewTest(TestCase):
             is_correct=True,
         )
         listening_q3 = ListeningQuestion.objects.create(
+            provenance=PROVENANCE_ORIGINAL,
             question_text='Level3 listening',
             image='images/l3.png',
             audio='audio/l3.mp3',
@@ -909,6 +940,7 @@ class ProgressViewTest(TestCase):
         """不正な級指定では進捗を削除しない"""
         self.client.login(username='testuser', password='testpass123')
         Question.objects.create(
+            provenance=PROVENANCE_ORIGINAL,
             level='4',
             question_type='grammar_fill',
             question_text='4級',
@@ -942,6 +974,7 @@ class UserAnswerModelTest(TestCase):
             password='testpass123'
         )
         self.question = Question.objects.create(
+            provenance=PROVENANCE_ORIGINAL,
             level='4',
             question_type='grammar_fill',
             question_text='テスト問題'
@@ -985,6 +1018,7 @@ class QuestionListViewTest(TestCase):
             password='testpass123'
         )
         self.question = Question.objects.create(
+            provenance=PROVENANCE_ORIGINAL,
             level='4',
             question_type='grammar_fill',
             question_text='テスト問題'
@@ -1018,10 +1052,13 @@ class ReadingComprehensionBehaviorTest(TestCase):
         self.client.login(username='reading_user', password='testpass123')
 
         # progress_view の level 一覧は Question モデル由来のため、最低1件作成しておく
-        Question.objects.create(level='4', question_type='grammar_fill', question_text='dummy')
+        Question.objects.create(
+            provenance=PROVENANCE_ORIGINAL,level='4', question_type='grammar_fill', question_text='dummy')
 
-        self.passage_a = ReadingPassage.objects.create(level='4', identifier='a', text='本文A')
-        self.passage_b = ReadingPassage.objects.create(level='4', identifier='b', text='本文B')
+        self.passage_a = ReadingPassage.objects.create(
+            provenance=PROVENANCE_ORIGINAL,level='4', identifier='a', text='本文A')
+        self.passage_b = ReadingPassage.objects.create(
+            provenance=PROVENANCE_ORIGINAL,level='4', identifier='b', text='本文B')
 
         self.a_q1 = ReadingQuestion.objects.create(passage=self.passage_a, question_text='A-1', question_number=1)
         self.a_q2 = ReadingQuestion.objects.create(passage=self.passage_a, question_text='A-2', question_number=2)
@@ -1121,6 +1158,7 @@ class ListeningIllustrationScoringTest(TestCase):
         self.client.login(username='listening_user', password='testpass123')
 
         self.question = ListeningQuestion.objects.create(
+            provenance=PROVENANCE_ORIGINAL,
             question_text='Do you have apple juice?',
             image='images/test.png',
             audio='audio/test.mp3',
@@ -1160,6 +1198,7 @@ class ListeningIllustrationScoringTest(TestCase):
     def test_submit_answers_scores_by_display_index_even_when_order_is_non_sequential(self):
         """表示番号(1,2,3)が送信されても正しく採点される"""
         question = ListeningQuestion.objects.create(
+            provenance=PROVENANCE_ORIGINAL,
             question_text='Where are you going?',
             image='images/test2.png',
             audio='audio/test2.mp3',
@@ -1255,6 +1294,7 @@ class ListeningIllustrationScoringTest(TestCase):
     def test_random_submit_replaces_existing_listening_answer_level5(self):
         """5級ランダムでも既答イラストの再提出で500にならない"""
         level5_question = ListeningQuestion.objects.create(
+            provenance=PROVENANCE_ORIGINAL,
             question_text='What are you painting?',
             image='images/level5/part1/listening_illustration_image1.png',
             audio='audio/level5/part1/listening_illustration_question1.mp3',
@@ -1315,6 +1355,7 @@ class ListeningIllustrationScoringTest(TestCase):
     def test_listening_illustration_part3_uses_shared_question_list_template(self):
         """5級イラスト一致も question_list.html を使う（デグレ防止）"""
         part3_question = ListeningQuestion.objects.create(
+            provenance=PROVENANCE_ORIGINAL,
             question_text='Which picture matches?',
             image='images/level5/part1/listening_illustration_image101.png',
             audio='audio/level5/part3/listening_illustration_question101.mp3',
@@ -1353,6 +1394,7 @@ class ListeningIllustrationScoringTest(TestCase):
     def test_random_rejects_cross_level_listening_answer(self):
         """4級ランダム提出で5級 ListeningQuestion は保存されない"""
         level5 = ListeningQuestion.objects.create(
+            provenance=PROVENANCE_ORIGINAL,
             question_text='What time is the big soccer game?',
             image='images/level5/part1/listening_illustration_image21.png',
             audio='audio/level5/part1/listening_illustration_question21.mp3',
@@ -1388,6 +1430,7 @@ class ListeningIllustrationScoringTest(TestCase):
     def test_random_typed_keys_score_question_and_listening_independently(self):
         """型付きキーなら Question / ListeningQuestion を同時提出しても正しく採点する"""
         grammar = Question.objects.create(
+            provenance=PROVENANCE_ORIGINAL,
             question_text='She () to school.',
             question_type='grammar_fill',
             level='4',
@@ -1442,6 +1485,7 @@ class ListeningIllustrationScoringTest(TestCase):
         from unittest.mock import patch
 
         ListeningQuestion.objects.create(
+            provenance=PROVENANCE_ORIGINAL,
             question_text='level5 only',
             image='images/level5/part1/listening_illustration_image99.png',
             audio='audio/level5/part1/listening_illustration_question99.mp3',
@@ -1467,6 +1511,7 @@ class ListeningIllustrationScoringTest(TestCase):
     def test_listening_illustration_unanswered_filter_excludes_answered_questions(self):
         """未回答フィルターで回答済み問題が再出題されない"""
         unanswered_question = ListeningQuestion.objects.create(
+            provenance=PROVENANCE_ORIGINAL,
             question_text='How is the weather?',
             image='images/test3.png',
             audio='audio/test3.mp3',
@@ -1514,6 +1559,7 @@ class EmptySubmissionTest(TestCase):
         self.client.login(username='empty_submit_user', password='testpass123')
 
         self.question = Question.objects.create(
+            provenance=PROVENANCE_ORIGINAL,
             level='4',
             question_type='conversation_fill',
             question_text='A: Hello.\nB: (  )',
@@ -2074,6 +2120,7 @@ class GamificationTest(TestCase):
 
         user = User.objects.create_user(username='missionuser', password='pass')
         question = Question.objects.create(
+            provenance=PROVENANCE_ORIGINAL,
             level='4',
             question_type='grammar_fill',
             question_text='Mission test',
@@ -2326,6 +2373,7 @@ class WritingFeedbackTests(TestCase):
         from exams.views import _build_exam_unlock_status
 
         Question.objects.create(
+            provenance=PROVENANCE_ORIGINAL,
             question_text='2 つの英文で書きなさい。語数の目安は 25～35語。',
             level='3',
             question_type='writing',

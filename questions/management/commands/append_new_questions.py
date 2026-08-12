@@ -11,6 +11,7 @@ from django.core.management.base import BaseCommand
 from django.db import transaction
 
 from exams.models import Choice, Question
+from exams.provenance import PROVENANCE_BLOCKED
 from exams.writing_feedback import parse_writing_rubric
 from questions.level_paths import (
     db_audio_path,
@@ -176,6 +177,7 @@ class Command(BaseCommand):
                 self.stdout.write(f'[dry] {qtype} #{n}')
             else:
                 q = Question.objects.create(
+                    provenance=PROVENANCE_BLOCKED,
                     level=level,
                     question_type=qtype,
                     question_text=q_match.group(1).strip(),
@@ -232,6 +234,7 @@ class Command(BaseCommand):
                 self.stdout.write(f'[dry] writing #{n}')
             else:
                 Question.objects.create(
+                    provenance=PROVENANCE_BLOCKED,
                     level=level,
                     question_type='writing',
                     question_text=q_text,
@@ -273,6 +276,7 @@ class Command(BaseCommand):
                 passage = None
             else:
                 passage = ReadingPassage.objects.create(
+                    provenance=PROVENANCE_BLOCKED,
                     text=p_match.group(1).strip(),
                     level=level,
                     identifier=ident,
@@ -294,6 +298,7 @@ class Command(BaseCommand):
                     added_q += 1
                     continue
                 rq = ReadingQuestion.objects.create(
+                    provenance=PROVENANCE_BLOCKED,
                     passage=passage,
                     question_text=q_text,
                     question_number=i,
@@ -373,6 +378,7 @@ class Command(BaseCommand):
             else:
                 # register_listening_illustration_questions と同じ: 本文空、選択肢は番号文字
                 lq = ListeningQuestion.objects.create(
+                    provenance=PROVENANCE_BLOCKED,
                     level=level,
                     question_text='',
                     explanation=expl,
@@ -440,6 +446,7 @@ class Command(BaseCommand):
                 self.stdout.write(f'[dry] {qtype} #{n}')
             else:
                 q = Question.objects.create(
+                    provenance=PROVENANCE_BLOCKED,
                     level=level,
                     question_type=qtype,
                     question_text=q_text,

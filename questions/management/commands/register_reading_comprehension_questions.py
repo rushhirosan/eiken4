@@ -2,6 +2,7 @@ from django.core.management.base import BaseCommand
 from questions.models import ReadingPassage, ReadingQuestion, ReadingChoice
 import re
 
+from exams.provenance import PROVENANCE_BLOCKED
 from questions.level_paths import (
     add_default_register_arguments,
     questions_file_abspath,
@@ -55,6 +56,7 @@ class Command(BaseCommand):
             identifier = identifier_map.get(passage_number, 'a')
             
             passage = ReadingPassage.objects.create(
+                    provenance=PROVENANCE_BLOCKED,
                 text=passage_text,
                 level=level,
                 identifier=identifier
@@ -76,6 +78,7 @@ class Command(BaseCommand):
 
                 # Create question
                 question = ReadingQuestion.objects.create(
+                    provenance=PROVENANCE_BLOCKED,
                     passage=passage,
                     question_text=question_text,
                     question_number=i,

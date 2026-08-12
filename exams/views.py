@@ -130,7 +130,7 @@ def _save_mixed_type_submissions(request, level, submissions):
     for kind, question_id, selected_answer in submissions:
         if kind == KIND_LISTENING:
             try:
-                question = ListeningQuestion.objects.get(
+                question = ListeningQuestion.objects.published().get(
                     id=question_id, level=level_str
                 )
             except ListeningQuestion.DoesNotExist:
@@ -156,7 +156,7 @@ def _save_mixed_type_submissions(request, level, submissions):
             session_refs.append(encode_session_ref(KIND_LISTENING, question_id))
         elif kind == KIND_QUESTION:
             try:
-                question = Question.objects.get(id=question_id, level=level_str)
+                question = Question.objects.published().get(id=question_id, level=level_str)
                 choice = Choice.objects.get(id=selected_answer, question=question)
             except (Question.DoesNotExist, Choice.DoesNotExist, ValueError, TypeError):
                 logger.warning(
@@ -180,7 +180,7 @@ def _save_mixed_type_submissions(request, level, submissions):
         elif kind == KIND_READING:
             try:
                 question = ReadingQuestion.objects.select_related('passage').get(
-                    id=question_id, passage__level=level_str
+                    id=question_id, passage__level=level_str, passage__provenance='original'
                 )
                 choice = ReadingChoice.objects.get(
                     id=selected_answer, question=question
@@ -796,9 +796,9 @@ def question_list(request, level=None, exam_id=None):
 
         for category_type, model_class in categories:
             if model_class == ListeningQuestion:
-                questions = model_class.objects.filter(level=str(level)).order_by('?')[:per_category]
+                questions = model_class.objects.published().filter(level=str(level)).order_by('?')[:per_category]
             else:
-                questions = model_class.objects.filter(
+                questions = model_class.objects.published().filter(
                     level=str(level), question_type=category_type
                 ).order_by('?')[:per_category]
             
@@ -879,7 +879,7 @@ def question_list(request, level=None, exam_id=None):
         
         for category_type, model_class, num_questions in exam_structure:
             if model_class == ListeningQuestion:
-                pool = list(model_class.objects.filter(level=str(level)).order_by('?'))
+                pool = list(model_class.objects.published().filter(level=str(level)).order_by('?'))
                 if category_type == 'listening_illustration_part1':
                     pool = _filter_listening_illustrations(pool, part=1)
                     display_category = 'listening_illustration'
@@ -905,7 +905,7 @@ def question_list(request, level=None, exam_id=None):
                     })
                     question_counter += 1
             elif model_class == ReadingPassage:
-                passages = model_class.objects.filter(level=str(level)).order_by('?')[:num_questions]
+                passages = model_class.objects.published().filter(level=str(level)).order_by('?')[:num_questions]
                 # パッセージから問題を取得
                 for passage in passages:
                     passage_questions = ReadingQuestion.objects.filter(passage=passage).order_by('question_number')
@@ -928,7 +928,7 @@ def question_list(request, level=None, exam_id=None):
                         'category_order': exam_structure.index((category_type, model_class, num_questions))
                     })
             else:
-                questions = model_class.objects.filter(level=str(level), question_type=category_type).order_by('?')[:num_questions]
+                questions = model_class.objects.published().filter(level=str(level), question_type=category_type).order_by('?')[:num_questions]
                 for question in questions:
                     choices = Choice.objects.filter(question=question).order_by('order')
                     correct_choice = choices.filter(is_correct=True).first()
@@ -1027,7 +1027,7 @@ def question_list(request, level=None, exam_id=None):
         illustration_part = 1 if question_type == 'listening_illustration' and str(level) == '5' else (
             3 if question_type == 'listening_illustration_part3' else None
         )
-        questions = ListeningQuestion.objects.filter(level=str(level)).order_by('id')
+        questions = ListeningQuestion.objects.published().filter(level=str(level)).order_by('id')
         if illustration_part is not None:
             questions = _filter_listening_illustrations(questions, part=illustration_part)
         logger.debug(f"Debug - Listening Illustration Questions: {len(questions)}")
@@ -1092,7 +1092,7 @@ def question_list(request, level=None, exam_id=None):
     
     elif question_type in ['listening_conversation', 'listening_passage']:
         # リスニング会話問題とリスニング文章問題の場合
-        questions = Question.objects.filter(level=str(level), question_type=question_type).order_by('question_number')
+        questions = Question.objects.published().filter(level=str(level), question_type=question_type).order_by('question_number')
         logger.debug(f"Debug - Regular Questions: {questions.count()}")  # デバッグ出力
         questions = list(questions)
         
@@ -1146,7 +1146,7 @@ def question_list(request, level=None, exam_id=None):
                 if kind != KIND_QUESTION:
                     continue
                 try:
-                    question = Question.objects.get(
+                    question = Question.objects.published().get(
                         id=question_id, level=str(level), question_type=question_type
                     )
                     choice = Choice.objects.get(
@@ -1204,7 +1204,7 @@ def question_list(request, level=None, exam_id=None):
 
     elif question_type == 'reading_comprehension':
         # 長文読解問題の場合
-        passages = list(ReadingPassage.objects.filter(level=str(level)).order_by('id'))
+        passages = list(ReadingPassage.objects.published().filter(level=str(level)).order_by('id'))
         logger.debug(f"Debug - Reading Passages: {len(passages)}")  # デバッグ出力
 
         all_questions = ReadingQuestion.objects.filter(
@@ -1286,7 +1286,7 @@ def question_list(request, level=None, exam_id=None):
 
     elif question_type == 'writing':
         questions = list(
-            Question.objects.filter(
+            Question.objects.published().filter(
                 level=str(level), question_type='writing'
             ).order_by('question_number')
         )
@@ -1335,7 +1335,7 @@ def question_list(request, level=None, exam_id=None):
 
     elif question_type == 'speaking':
         all_speaking = list(
-            Question.objects.filter(
+            Question.objects.published().filter(
                 level=str(level), question_type='speaking'
             ).order_by('question_number')
         )
@@ -1442,7 +1442,7 @@ def question_list(request, level=None, exam_id=None):
 
     else:
         # 通常の問題の場合
-        questions = Question.objects.filter(level=str(level), question_type=question_type).order_by('question_number')
+        questions = Question.objects.published().filter(level=str(level), question_type=question_type).order_by('question_number')
         logger.debug(f"Debug - Regular Questions: {questions.count()}")  # デバッグ出力
         logger.debug(f"Debug - Level: {level}, Question Type: {question_type}")  # デバッグ出力
         questions = list(questions)
@@ -1501,7 +1501,7 @@ def question_list(request, level=None, exam_id=None):
                 if kind != KIND_QUESTION:
                     continue
                 try:
-                    question = Question.objects.get(
+                    question = Question.objects.published().get(
                         id=question_id, level=str(level), question_type=question_type
                     )
                     choice = Choice.objects.get(
@@ -1632,7 +1632,9 @@ def submit_reading_comprehension(request, level):
         # 回答を保存（順序を保持）
         for question_id, choice_id in answers:
             try:
-                question = ReadingQuestion.objects.get(id=question_id)
+                question = ReadingQuestion.objects.get(
+                    id=question_id, passage__provenance='original'
+                )
                 choice = ReadingChoice.objects.get(id=choice_id)
                 
                 # 回答を保存
@@ -1696,7 +1698,7 @@ def submit_answers(request, level):
             illustration_part = 1 if question_type == 'listening_illustration' and str(level) == '5' else (
                 3 if question_type == 'listening_illustration_part3' else None
             )
-            questions = ListeningQuestion.objects.filter(level=str(level)).order_by('id')
+            questions = ListeningQuestion.objects.published().filter(level=str(level)).order_by('id')
             if illustration_part is not None:
                 questions = _filter_listening_illustrations(questions, part=illustration_part)
             # 「全て」が選択された場合は制限しない
@@ -1720,7 +1722,7 @@ def submit_answers(request, level):
                 if kind != KIND_LISTENING:
                     continue
                 try:
-                    question = ListeningQuestion.objects.get(
+                    question = ListeningQuestion.objects.published().get(
                         id=question_id, level=str(level)
                     )
                 except ListeningQuestion.DoesNotExist:
@@ -1747,7 +1749,7 @@ def submit_answers(request, level):
 
         elif question_type == 'reading_comprehension':
             # 長文読解問題の場合
-            passages = ReadingPassage.objects.filter(level=level).order_by('id')
+            passages = ReadingPassage.objects.published().filter(level=level).order_by('id')
             # 「全て」が選択された場合は制限しない
             if num_questions != 'all' and len(passages) > num_questions:
                 passages = random.sample(list(passages), num_questions)
@@ -1770,7 +1772,7 @@ def submit_answers(request, level):
                     continue
                 try:
                     question = ReadingQuestion.objects.select_related('passage').get(
-                        id=question_id, passage__level=str(level)
+                        id=question_id, passage__level=str(level), passage__provenance='original'
                     )
                     choice = ReadingChoice.objects.get(
                         id=selected_answer, question=question
@@ -1795,7 +1797,7 @@ def submit_answers(request, level):
 
         elif question_type == 'writing':
             questions = list(
-                Question.objects.filter(
+                Question.objects.published().filter(
                     level=str(level), question_type='writing'
                 ).order_by('question_number')
             )
@@ -1820,7 +1822,7 @@ def submit_answers(request, level):
                 if not text:
                     continue
                 try:
-                    question = Question.objects.get(
+                    question = Question.objects.published().get(
                         id=question_id, level=str(level), question_type='writing'
                     )
                 except Question.DoesNotExist:
@@ -1859,7 +1861,7 @@ def submit_answers(request, level):
 
             for question_id in post_question_ids:
                 try:
-                    question = Question.objects.get(
+                    question = Question.objects.published().get(
                         id=question_id, level=str(level), question_type='speaking'
                     )
                 except Question.DoesNotExist:
@@ -1881,7 +1883,7 @@ def submit_answers(request, level):
         
         else:
             # 通常の問題の場合
-            questions = Question.objects.filter(level=level, question_type=question_type).order_by('question_number')
+            questions = Question.objects.published().filter(level=level, question_type=question_type).order_by('question_number')
             logger.debug(f"Debug - Regular Questions: {questions.count()}")  # デバッグ出力
             questions = list(questions)
             
@@ -1935,7 +1937,7 @@ def submit_answers(request, level):
                     if kind != KIND_QUESTION:
                         continue
                     try:
-                        question = Question.objects.get(
+                        question = Question.objects.published().get(
                             id=question_id, level=str(level), question_type=question_type
                         )
                         choice = Choice.objects.get(
@@ -2362,7 +2364,7 @@ def progress_view(request):
     user = request.user
     level_order = ['5', '4', '3', '2', '1', 'pre1']
     available_levels = list(
-        Question.objects.values_list('level', flat=True).distinct()
+        Question.objects.published().values_list('level', flat=True).distinct()
     )
     ordered = [lv for lv in level_order if lv in available_levels]
     leftover = [lv for lv in available_levels if lv not in level_order]
@@ -2449,7 +2451,8 @@ def _reading_passage_progress_counts(user, level):
 
     question_rows = list(
         ReadingQuestion.objects.filter(
-            passage__level=str(level)
+            passage__level=str(level),
+            passage__provenance='original',
         ).values('id', 'passage_id')
     )
     if not question_rows:
@@ -2484,17 +2487,17 @@ def _total_questions_for_type(level, question_type):
     if not level or not question_type:
         return 0
     if question_type == 'listening_illustration':
-        qs = ListeningQuestion.objects.filter(level=str(level))
+        qs = ListeningQuestion.objects.published().filter(level=str(level))
         if str(level) == '5':
             return len(_filter_listening_illustrations(qs, part=1))
         return qs.count()
     if question_type == 'listening_illustration_part3':
-        qs = ListeningQuestion.objects.filter(level=str(level))
+        qs = ListeningQuestion.objects.published().filter(level=str(level))
         return len(_filter_listening_illustrations(qs, part=3))
     if question_type == 'reading_comprehension':
         _, total_passages = _reading_passage_progress_counts(None, level)
         return total_passages
-    return Question.objects.filter(level=level, question_type=question_type).count()
+    return Question.objects.published().filter(level=level, question_type=question_type).count()
 
 
 def _progress_rate_for_type(user, level, question_type):
@@ -2628,7 +2631,7 @@ def _distinct_answered_question_count(user, level, question_type):
             part1_ids = {
                 question.id
                 for question in _filter_listening_illustrations(
-                    ListeningQuestion.objects.filter(level=str(level)), part=1
+                    ListeningQuestion.objects.published().filter(level=str(level)), part=1
                 )
             }
             return answers.filter(question_id__in=part1_ids).count()
@@ -2637,7 +2640,7 @@ def _distinct_answered_question_count(user, level, question_type):
         part3_ids = {
             question.id
             for question in _filter_listening_illustrations(
-                ListeningQuestion.objects.filter(level=str(level)), part=3
+                ListeningQuestion.objects.published().filter(level=str(level)), part=3
             )
         }
         return ListeningUserAnswer.objects.filter(
@@ -2842,7 +2845,7 @@ def progress_to_dict(progress, level=None, question_type=None, user=None):
 def _allowed_progress_levels():
     level_order = ['5', '4', '3', '2', '1', 'pre1']
     available_levels = list(
-        Question.objects.values_list('level', flat=True).distinct()
+        Question.objects.published().values_list('level', flat=True).distinct()
     )
     ordered = [lv for lv in level_order if lv in available_levels]
     leftover = [lv for lv in available_levels if lv not in level_order]

@@ -4,6 +4,13 @@ from django.contrib.auth.models import User
 from django.utils import timezone
 from django.conf import settings
 
+from exams.provenance import (
+    PROVENANCE_BLOCKED,
+    PROVENANCE_CHOICES,
+    PROVENANCE_ORIGINAL,
+    ProvenanceManager,
+)
+
 class Exam(models.Model):
     """試験モデル"""
     title = models.CharField(max_length=200, verbose_name='試験タイトル')
@@ -62,9 +69,18 @@ class Question(models.Model):
     audio_file = models.CharField(max_length=255, blank=True)  # 音声ファイルのパス
     image_file = models.CharField(max_length=255, blank=True)  # 画像ファイルのパス
     question_number = models.IntegerField(default=1)  # 問題番号
+    provenance = models.CharField(
+        max_length=20,
+        choices=PROVENANCE_CHOICES,
+        default=PROVENANCE_BLOCKED,
+        db_index=True,
+        help_text='公開は original のみ。既定は blocked（明示した新規自作だけ original）',
+    )
     created_at = models.DateTimeField(auto_now_add=True)
     updated_at = models.DateTimeField(auto_now=True)
     image = models.ImageField(upload_to='question_images/', null=True, blank=True)
+
+    objects = ProvenanceManager()
 
     def __str__(self):
         return f"{self.get_question_type_display()} - {self.get_level_display()}"

@@ -58,7 +58,7 @@ def level_label(level: str) -> str:
 
 def _grammar_sample(level: str) -> TrySample | None:
     question = (
-        Question.objects.filter(level=str(level), question_type='grammar_fill')
+        Question.objects.published().filter(level=str(level), question_type='grammar_fill')
         .prefetch_related(
             Prefetch('choices', queryset=Choice.objects.order_by('order', 'id'))
         )
@@ -84,7 +84,7 @@ def _grammar_sample(level: str) -> TrySample | None:
 
 
 def _listening_illustration_sample(level: str) -> TrySample | None:
-    qs = ListeningQuestion.objects.filter(level=str(level)).order_by('id')
+    qs = ListeningQuestion.objects.published().filter(level=str(level)).order_by('id')
     if str(level) == '5':
         candidates = filter_listening_illustrations(qs, part=1)
     else:
@@ -118,7 +118,7 @@ def _listening_illustration_sample(level: str) -> TrySample | None:
 
 def _listening_conversation_sample(level: str) -> TrySample | None:
     question = (
-        Question.objects.filter(level=str(level), question_type='listening_conversation')
+        Question.objects.published().filter(level=str(level), question_type='listening_conversation')
         .prefetch_related(
             Prefetch('choices', queryset=Choice.objects.order_by('order', 'id'))
         )
@@ -153,7 +153,7 @@ def _reading_sample(level: str) -> TrySample | None:
     if str(level) not in READING_TRY_LEVELS:
         return None
     passage = (
-        ReadingPassage.objects.filter(level=str(level))
+        ReadingPassage.objects.published().filter(level=str(level))
         .order_by('identifier', 'id')
         .first()
     )

@@ -2,6 +2,7 @@ from django.core.management.base import BaseCommand
 from exams.models import Question, Choice
 import re
 
+from exams.provenance import PROVENANCE_BLOCKED
 from questions.level_paths import (
     add_default_register_arguments,
     db_audio_path,
@@ -34,6 +35,7 @@ class Command(BaseCommand):
                 f'listening_passage_question{q_data["question_number"]}.mp3',
             )
             question = Question.objects.create(
+                    provenance=PROVENANCE_BLOCKED,
                 question_type='listening_passage',
                 level=level,
                 question_number=q_data['question_number'],

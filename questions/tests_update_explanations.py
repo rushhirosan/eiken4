@@ -3,6 +3,7 @@ from django.core.management import call_command
 from django.test import TestCase
 
 from exams.models import Choice, Question, UserAnswer, UserProgress
+from exams.provenance import PROVENANCE_ORIGINAL
 from questions.models import (
     ListeningChoice,
     ListeningQuestion,
@@ -20,6 +21,7 @@ class UpdateExplanationsCommandTest(TestCase):
         self.user = User.objects.create_user(username='exp_user', password='x')
 
         self.grammar = Question.objects.create(
+            provenance=PROVENANCE_ORIGINAL,
             level='4',
             question_type='grammar_fill',
             question_text='old',
@@ -44,6 +46,7 @@ class UpdateExplanationsCommandTest(TestCase):
         )
 
         self.lq = ListeningQuestion.objects.create(
+            provenance=PROVENANCE_ORIGINAL,
             question_text='',
             image='images/part1/listening_illustration_image1.png',
             audio='audio/part1/listening_illustration_question1.mp3',
@@ -59,6 +62,7 @@ class UpdateExplanationsCommandTest(TestCase):
         )
 
         self.passage = ReadingPassage.objects.create(
+            provenance=PROVENANCE_ORIGINAL,
             text='Summer Camp',
             level='4',
             identifier='a',
@@ -108,6 +112,7 @@ class UpdateExplanationsCommandTest(TestCase):
 
     def test_listening_illustration_syncs_correct_answer_without_deleting(self):
         q22 = ListeningQuestion.objects.create(
+            provenance=PROVENANCE_ORIGINAL,
             question_text='',
             image='images/part1/listening_illustration_image22.png',
             audio='audio/part1/listening_illustration_question22.mp3',

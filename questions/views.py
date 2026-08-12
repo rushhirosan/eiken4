@@ -4,8 +4,8 @@ from django.utils import timezone
 from .models import Question, Choice, ReadingPassage, ReadingQuestion, ReadingChoice, ListeningQuestion, ListeningUserAnswer
 
 def reading_comprehension_list_view(request):
-    # すべてのパッセージを取得
-    passages = ReadingPassage.objects.all().order_by('id')
+    # 公開可のパッセージのみ
+    passages = ReadingPassage.objects.published().order_by('id')
     
     return render(request, 'questions/reading_comprehension_list.html', {
         'passages': passages
@@ -13,7 +13,7 @@ def reading_comprehension_list_view(request):
 
 def reading_comprehension_view(request, passage_id):
     # パッセージ（本文）を取得
-    passage = ReadingPassage.objects.get(id=passage_id)
+    passage = get_object_or_404(ReadingPassage.objects.published(), id=passage_id)
     
     # そのパッセージに紐付いた設問（a1, a2, ...）を取得
     questions = ReadingQuestion.objects.filter(passage=passage).order_by('question_number')
@@ -55,11 +55,11 @@ def reading_comprehension_view(request, passage_id):
     })
 
 def listening_question_list(request):
-    questions = ListeningQuestion.objects.all().order_by('id')
+    questions = ListeningQuestion.objects.published().order_by('id')
     return render(request, 'questions/listening_question_list.html', {'questions': questions})
 
 def listening_question_detail(request, question_id):
-    question = get_object_or_404(ListeningQuestion, pk=question_id)
+    question = get_object_or_404(ListeningQuestion.objects.published(), pk=question_id)
     user_answer = None
     if request.user.is_authenticated:
         user_answer = ListeningUserAnswer.objects.filter(

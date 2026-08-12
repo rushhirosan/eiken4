@@ -328,7 +328,7 @@ def _count_today_attempts_for_type(user, level, question_type):
 
         if level_str == '5':
             part1 = filter_listening_illustrations(
-                ListeningQuestion.objects.filter(level=level_str), part=1
+                ListeningQuestion.objects.published().filter(level=level_str), part=1
             )
             return ListeningUserAnswer.objects.filter(
                 question_id__in=[q.id for q in part1],
@@ -343,7 +343,7 @@ def _count_today_attempts_for_type(user, level, question_type):
         from questions.models import ListeningQuestion
 
         part3 = filter_listening_illustrations(
-            ListeningQuestion.objects.filter(level=level_str), part=3
+            ListeningQuestion.objects.published().filter(level=level_str), part=3
         )
         return ListeningUserAnswer.objects.filter(
             question_id__in=[q.id for q in part3],

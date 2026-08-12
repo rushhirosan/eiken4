@@ -5,6 +5,7 @@ from django.core.management.base import BaseCommand
 from exams.models import Question
 
 from exams.writing_feedback import parse_writing_rubric
+from exams.provenance import PROVENANCE_BLOCKED
 from questions.level_paths import (
     add_default_register_arguments,
     questions_file_abspath,
@@ -100,6 +101,7 @@ class Command(BaseCommand):
             writing_rubric = parse_writing_rubric(question_text)
 
             Question.objects.create(
+                    provenance=PROVENANCE_BLOCKED,
                 question_text=question_text,
                 level=level,
                 question_type='writing',

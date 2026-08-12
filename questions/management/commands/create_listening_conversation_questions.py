@@ -3,6 +3,7 @@ from exams.models import Question, Choice
 import re
 import os
 
+from exams.provenance import PROVENANCE_BLOCKED
 from questions.level_paths import (
     add_default_register_arguments,
     db_audio_path,
@@ -93,6 +94,7 @@ class Command(BaseCommand):
                 level, 'part2', f'listening_conversation_question{question_number}.mp3'
             )
             question = Question.objects.create(
+                    provenance=PROVENANCE_BLOCKED,
                 level=level,
                 question_type='listening_conversation',
                 question_text=data['question_text'],

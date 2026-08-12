@@ -3,6 +3,7 @@ import re
 from django.core.management.base import BaseCommand
 
 from exams.models import Question
+from exams.provenance import PROVENANCE_BLOCKED
 from questions.level_paths import (
     add_default_register_arguments,
     questions_file_abspath,
@@ -152,6 +153,7 @@ class Command(BaseCommand):
                 continue
             question_text, explanation, speaking_data = parsed
             Question.objects.create(
+                    provenance=PROVENANCE_BLOCKED,
                 question_text=question_text,
                 level=level,
                 question_type='speaking',

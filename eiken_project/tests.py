@@ -10,6 +10,7 @@ from eiken_project.discord_notify import (
     notify_user_registered,
     send_discord_message,
 )
+from exams.provenance import PROVENANCE_ORIGINAL
 
 User = get_user_model()
 
@@ -370,6 +371,7 @@ class TrySamplePageTest(TestCase):
         )
 
         self.grammar = Question.objects.create(
+            provenance=PROVENANCE_ORIGINAL,
             level='4',
             question_type='grammar_fill',
             question_text='I ( ) a book.',
@@ -384,6 +386,7 @@ class TrySamplePageTest(TestCase):
         )
 
         self.listening = ListeningQuestion.objects.create(
+            provenance=PROVENANCE_ORIGINAL,
             level='4',
             question_text='Choose the correct picture.',
             image='images/part1/listening_illustration_image1.png',
@@ -399,6 +402,7 @@ class TrySamplePageTest(TestCase):
         )
 
         self.passage = ReadingPassage.objects.create(
+            provenance=PROVENANCE_ORIGINAL,
             level='4',
             identifier='a',
             text='Tom has a dog. The dog is brown.',

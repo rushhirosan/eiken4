@@ -3,7 +3,8 @@ from .models import ReadingPassage, ReadingQuestion, ReadingChoice
 
 @admin.register(ReadingPassage)
 class ReadingPassageAdmin(admin.ModelAdmin):
-    list_display = ('id', 'created_at')
+    list_display = ('id', 'level', 'identifier', 'provenance', 'created_at')
+    list_filter = ('level', 'provenance')
     search_fields = ('text',)
 
 @admin.register(ReadingQuestion)
