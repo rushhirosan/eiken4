@@ -499,9 +499,42 @@ class Level5ExamListTests(TestCase):
         self.assertContains(response, '英検5級')
         self.assertContains(response, 'type=word_order')
         self.assertContains(response, 'type=listening_illustration_part3')
+        self.assertContains(response, 'type=speaking')
         self.assertNotContains(response, 'type=reading_comprehension')
         self.assertNotContains(response, 'type=writing')
         self.assertEqual(self.client.session.get('preferred_exam_level'), '5')
+
+    def test_speaking_practice_shows_level5_questions(self):
+        Question.objects.create(
+            question_text="Sam's Pet\n\nSam is 10 years old.",
+            question_type='speaking',
+            level='5',
+            question_number=1,
+            explanation='ref',
+            speaking_data={
+                'title': "Sam's Pet",
+                'passage': 'Sam is 10 years old.',
+                'illustration': '',
+                'silent_seconds': 20,
+                'turn_over_after': None,
+                'questions': [
+                    {'number': 1, 'prompt': 'How old is Sam?', 'kind': 'passage'},
+                    {'number': 2, 'prompt': 'What color is Lisa?', 'kind': 'passage'},
+                    {'number': 3, 'prompt': 'What animal do you like?', 'kind': 'personal'},
+                ],
+            },
+        )
+        response = self.client.get(
+            reverse('exams:question_list_by_level', kwargs={'level': '5'}),
+            {'type': 'speaking', 'status': 'unanswered', 'num_questions': '5'},
+        )
+        self.assertEqual(response.status_code, 200)
+        self.assertContains(response, '黙読をはじめる')
+        self.assertContains(response, 'How old is Sam?')
+        self.assertEqual(response.context['speaking_total_count'], 1)
+        self.assertEqual(len(response.context['questions']), 1)
+        self.assertNotContains(response, '表示できるスピーキング問題がありません')
+        self.assertNotContains(response, 'この級のスピーキング問題はまだ登録されていません')
 
     def test_exam_list_level5_random_scope_description(self):
         response = self.client.get(self.url, {'level': '5'})

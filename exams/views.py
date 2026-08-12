@@ -1334,20 +1334,22 @@ def question_list(request, level=None, exam_id=None):
         return render(request, 'exams/question_list.html', context)
 
     elif question_type == 'speaking':
-        questions = list(
+        all_speaking = list(
             Question.objects.filter(
                 level=str(level), question_type='speaking'
             ).order_by('question_number')
         )
+        speaking_total_count = len(all_speaking)
         sa_query = SpeakingUserAnswer.objects.filter(
             user=request.user,
-            question__in=questions,
+            question__in=all_speaking,
         ).order_by('-answered_at')
         sa_by_qid = {}
         for sa in sa_query:
             if sa.question_id not in sa_by_qid:
                 sa_by_qid[sa.question_id] = sa
 
+        questions = all_speaking
         if status == 'unanswered':
             questions = [q for q in questions if q.id not in sa_by_qid]
         elif status == 'correct':
@@ -1434,6 +1436,7 @@ def question_list(request, level=None, exam_id=None):
             'speaking_intro': speaking_intro,
             'speaking_prep_steps': speaking_prep_steps,
             'speaking_badge_label': speaking_badge_label,
+            'speaking_total_count': speaking_total_count,
         }
         return render(request, 'exams/speaking_practice.html', context)
 

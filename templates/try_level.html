@@ -4,12 +4,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>{{ level_label }}のお試し問題 - Eiken Practice</title>
-    <meta name="description" content="{{ level_label }}の文法・リスニングをお試し。登録なしで無料体験できます。">
+    <title>{{ level_label }}のお試し問題（登録なし・無料） - Eiken Practice</title>
+    <meta name="description" content="{{ try_meta_description }}">
     <meta name="robots" content="index, follow">
     <link rel="canonical" href="https://eiken-practice.com/try/{{ level }}/">
-    <meta property="og:title" content="{{ level_label }}のお試し問題 - Eiken Practice">
-    <meta property="og:description" content="登録なしで{{ level_label }}の文法とリスニングを体験。">
+    <meta property="og:title" content="{{ level_label }}のお試し問題（登録なし・無料） - Eiken Practice">
+    <meta property="og:description" content="{{ try_og_description }}">
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://eiken-practice.com/try/{{ level }}/">
     <meta property="og:locale" content="ja_JP">
@@ -291,6 +291,21 @@
             <a href="{% url 'try_level' level=level %}" class="btn btn-outline-primary">もう一度解く</a>
             <a href="{% url 'try_index' %}" class="btn btn-outline-primary">ほかの級</a>
         </div>
+        {% endif %}
+
+        {% if related_guides %}
+        <section class="mt-5 pt-3 border-top">
+            <h2 class="h5 mb-3">{{ level_label }}の学習ガイド</h2>
+            <p class="text-muted small mb-3">進め方や対策のコツは、級別ガイドもあわせてどうぞ。</p>
+            <ul class="mb-0">
+                {% for guide in related_guides %}
+                <li class="mb-1">
+                    <a href="{% url 'guide_topic' slug=guide.slug %}">{{ guide.h1 }}</a>
+                </li>
+                {% endfor %}
+                <li class="mb-1"><a href="{% url 'guides' %}#level-{{ level }}">{{ level_label }}の全体の進め方</a></li>
+            </ul>
+        </section>
         {% endif %}
     </main>
 

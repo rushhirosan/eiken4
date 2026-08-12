@@ -96,6 +96,9 @@ def guide_topic(request, slug: str):
         cta_url = reverse('signup')
         cta_label = '無料で練習を始める'
 
+    try_url = reverse('try_level', kwargs={'level': topic['level']})
+    try_label = f"{topic['level_label']}をお試し（登録なし）"
+
     page_url = f"{CANONICAL_ORIGIN}/guides/{topic['slug']}/"
     article_json_ld = {
         '@context': 'https://schema.org',
@@ -159,6 +162,8 @@ def guide_topic(request, slug: str):
             'related_topics': related_topics,
             'cta_url': cta_url,
             'cta_label': cta_label,
+            'try_url': try_url,
+            'try_label': try_label,
             'article_json_ld': mark_safe(json.dumps(article_json_ld, ensure_ascii=False)),
             'breadcrumb_json_ld': mark_safe(json.dumps(breadcrumb_json_ld, ensure_ascii=False)),
             'faq_json_ld': mark_safe(json.dumps(faq_json_ld, ensure_ascii=False)),
@@ -280,18 +285,34 @@ def try_level(request, level: str):
         cta_url = reverse('signup')
         cta_label = '無料登録して続きを練習する'
 
+    related_guides = [t for t in iter_guide_topics() if t['level'] == level]
+    label = level_label(level)
+    if level in ('4', '3'):
+        try_meta_description = (
+            f'{label}の文法・リスニング・長文をお試し。登録なしで無料の練習問題を体験できます。'
+        )
+        try_og_description = f'登録なしで{label}の文法・リスニング・長文を体験。'
+    else:
+        try_meta_description = (
+            f'{label}の文法・リスニングをお試し。登録なしで無料体験できます。'
+        )
+        try_og_description = f'登録なしで{label}の文法とリスニングを体験。'
+
     return render(
         request,
         'try_level.html',
         {
             'level': level,
-            'level_label': level_label(level),
+            'level_label': label,
             'samples': samples,
             'results': results,
             'score': score,
             'cta_url': cta_url,
             'cta_label': cta_label,
             'show_form': results is None and bool(samples),
+            'related_guides': related_guides,
+            'try_meta_description': try_meta_description,
+            'try_og_description': try_og_description,
         },
     )
 

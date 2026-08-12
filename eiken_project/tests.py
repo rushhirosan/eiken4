@@ -77,6 +77,8 @@ class LlmsTxtTest(TestCase):
         self.assertIn('- [学習の進め方](https://eiken-practice.com/guides/):', content)
         self.assertIn('- [お試し問題](https://eiken-practice.com/try/):', content)
         self.assertIn('- [英検4級 リスニング](https://eiken-practice.com/guides/eiken-4-listening/):', content)
+        self.assertIn('- [英検4級 長文読解](https://eiken-practice.com/guides/eiken-4-reading/):', content)
+        self.assertIn('長文練習問題を無料で解く進め方', content)
         self.assertIn('- [英検3級 ライティング](https://eiken-practice.com/guides/eiken-3-writing/):', content)
         self.assertIn('- [英検5級 スピーキング](https://eiken-practice.com/guides/eiken-5-speaking/):', content)
         self.assertIn('- [英検3級 スピーキング](https://eiken-practice.com/guides/eiken-3-speaking/):', content)
@@ -159,10 +161,22 @@ class GuideTopicPageTest(TestCase):
         self.assertContains(response, 'BreadcrumbList')
         self.assertContains(response, reverse('signup'))
         self.assertContains(response, reverse('guides'))
+        self.assertContains(response, reverse('try_level', kwargs={'level': '4'}))
+        self.assertContains(response, '英検4級をお試し（登録なし）')
         content = response.content.decode()
         self.assertIn('vendor/bootstrap/bootstrap.min.css', content)
         self.assertNotIn('fonts.googleapis.com', content)
         self.assertNotIn('font-awesome', content)
+
+    def test_guide_topic_reading_matches_search_intent(self):
+        response = Client().get(
+            reverse('guide_topic', kwargs={'slug': 'eiken-4-reading'})
+        )
+        self.assertEqual(response.status_code, 200)
+        self.assertContains(response, '英検4級の長文練習問題を無料で解く')
+        self.assertContains(response, '英検4級の長文練習問題をブラウザで無料練習')
+        self.assertContains(response, reverse('try_level', kwargs={'level': '4'}))
+        self.assertContains(response, '英検4級の長文練習問題は無料で解けますか？')
 
     def test_guide_topic_unknown_slug_404(self):
         response = Client().get(
@@ -414,6 +428,8 @@ class TrySamplePageTest(TestCase):
         response = Client().get(reverse('try_level', kwargs={'level': '4'}))
         self.assertEqual(response.status_code, 200)
         self.assertContains(response, '英検4級のお試し問題')
+        self.assertContains(response, '登録なし・無料')
+        self.assertContains(response, '文法・リスニング・長文をお試し')
         self.assertContains(response, 'I ( ) a book.')
         self.assertContains(response, 'Choose the correct picture.')
         self.assertContains(response, 'audio/part1/listening_illustration_question1.mp3')
@@ -422,6 +438,11 @@ class TrySamplePageTest(TestCase):
         self.assertContains(response, 'What color is the dog?')
         self.assertContains(response, '長文読解（お試し）')
         self.assertContains(response, '回答する')
+        self.assertContains(response, '英検4級の学習ガイド')
+        self.assertContains(
+            response, reverse('guide_topic', kwargs={'slug': 'eiken-4-reading'})
+        )
+        self.assertContains(response, '英検4級の長文練習問題を無料で解く')
 
     def test_try_level_grades_without_login(self):
         from exams.models import ReadingUserAnswer, UserAnswer

@@ -50,7 +50,13 @@
     </div>
 
     {% if not questions %}
-    <div class="alert alert-light border">表示できるスピーキング問題がありません。状態を「全て」に変えてみてください。</div>
+    <div class="alert alert-light border">
+        {% if speaking_total_count == 0 %}
+        この級のスピーキング問題はまだ登録されていません。しばらくしてからもう一度お試しください。
+        {% else %}
+        表示できるスピーキング問題がありません。状態を「全て」に変えてみてください。
+        {% endif %}
+    </div>
     {% else %}
     <form method="post" action="{% url 'exams:submit_answers' level=level %}?type=speaking" id="speakingForm">
         {% csrf_token %}

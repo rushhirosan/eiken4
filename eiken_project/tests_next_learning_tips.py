@@ -35,6 +35,18 @@ class SelectAnswerResultTipTest(SimpleTestCase):
         )
         self.assertIsNotNone(tip)
         self.assertIn('過去問', tip['resource_title'])
+        self.assertIn('必須ではありません', tip['reason'])
+
+    def test_mock_exam_level5_copy_is_optional(self):
+        tip = select_answer_result_tip(
+            level='5',
+            question_type='mock_exam',
+            correct_count=8,
+            total_count=8,
+        )
+        self.assertIsNotNone(tip)
+        self.assertIn('必須ではありません', tip['reason'])
+        self.assertIn('このままサイトで復習', tip['reason'])
 
     def test_reading_when_accuracy_low(self):
         tip = select_answer_result_tip(

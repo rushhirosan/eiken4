@@ -62,8 +62,9 @@ NEXT_LEARNING_BY_LEVEL: dict[str, NextLearningResource] = {
         'level': '5',
         'level_label': '英検5級',
         'reason': (
-            'このサイトで基礎の演習をしたあと、本番前は紙の過去問で'
-            '「時間配分」と「マークの感覚」を確認する人も多いです。'
+            'このサイトの演習だけでも十分進められます。'
+            '紙の過去問・問題集は必須ではありませんが、時間配分やマークの感覚を'
+            '一度確かめたいときの参考になります。'
         ),
         'resource_title': '英検5級の過去問・問題集を見てみる',
         'resource_url': 'https://www.amazon.co.jp/s?k=%E8%8B%B1%E6%A4%9C+5%E7%B4%9A+%E9%81%8E%E5%8E%BB%E5%95%8F',
@@ -72,8 +73,9 @@ NEXT_LEARNING_BY_LEVEL: dict[str, NextLearningResource] = {
         'level': '4',
         'level_label': '英検4級',
         'reason': (
-            '長文やリスニングをサイトで練習したあと、本番に近い紙の過去問で'
-            '通しのペースを一度確かめておくと安心です。'
+            'このサイトの練習を続けて大丈夫です。'
+            '紙の過去問・問題集は必須ではありませんが、長文込みの通しペースを'
+            '一度確かめたいときの参考になります。'
         ),
         'resource_title': '英検4級の過去問・問題集を見てみる',
         'resource_url': 'https://www.amazon.co.jp/s?k=%E8%8B%B1%E6%A4%9C+4%E7%B4%9A+%E9%81%8E%E5%8E%BB%E5%95%8F',
@@ -82,8 +84,8 @@ NEXT_LEARNING_BY_LEVEL: dict[str, NextLearningResource] = {
         'level': '3',
         'level_label': '英検3級',
         'reason': (
-            '選択問題とライティングをサイトで分けて練習したあと、'
-            '本番前は過去問で全体の流れを一度通しておくと効果的です。'
+            'このサイトで選択とライティングを分けて練習するだけで十分進められます。'
+            '紙の過去問・問題集は必須ではありませんが、全体の流れを一度通したいときの参考になります。'
         ),
         'resource_title': '英検3級の過去問・問題集を見てみる',
         'resource_url': 'https://www.amazon.co.jp/s?k=%E8%8B%B1%E6%A4%9C+3%E7%B4%9A+%E9%81%8E%E5%8E%BB%E5%95%8F',
@@ -114,11 +116,14 @@ def resources_page_sections() -> list[ResourcesPageSection]:
         {
             'level': '5',
             'level_label': '英検5級',
-            'intro': '入門級です。サイトで文法・会話・リスニングを固めたあと、紙の教材で本番感覚を足す使い方が多いです。',
+            'intro': (
+                '入門級です。サイトで文法・会話・リスニングを固めるだけで十分進められます。'
+                '紙の過去問・問題集は必須ではありません。'
+            ),
             'tips': [
                 {
                     'title': '英検5級の過去問・問題集',
-                    'reason': '本番前の時間配分とマークの感覚を確認するのに向いています。',
+                    'reason': '時間配分やマークの感覚を一度確かめたいときの参考です。購入の義務はありません。',
                     'url': NEXT_LEARNING_BY_LEVEL['5']['resource_url'],
                     'optional': False,
                 },
@@ -133,11 +138,14 @@ def resources_page_sections() -> list[ResourcesPageSection]:
         {
             'level': '4',
             'level_label': '英検4級',
-            'intro': '長文が加わる級です。サイトで形式別に練習し、通しは過去問で確認する流れがおすすめです。',
+            'intro': (
+                '長文が加わる級です。サイトで形式別に練習するだけで十分進められます。'
+                '紙の過去問・問題集は必須ではありません。'
+            ),
             'tips': [
                 {
                     'title': '英検4級の過去問・問題集',
-                    'reason': '長文込みのペース配分を、本番に近い紙で一度通すのに向いています。',
+                    'reason': '長文込みのペース配分を一度通したいときの参考です。購入の義務はありません。',
                     'url': NEXT_LEARNING_BY_LEVEL['4']['resource_url'],
                     'optional': False,
                 },
@@ -158,11 +166,14 @@ def resources_page_sections() -> list[ResourcesPageSection]:
         {
             'level': '3',
             'level_label': '英検3級',
-            'intro': 'ライティングがある級です。選択問題と英作文を分けて練習したあと、全体の流れは過去問で確認します。',
+            'intro': (
+                'ライティングがある級です。選択問題と英作文をサイトで分けて練習するだけで十分進められます。'
+                '紙の過去問・問題集は必須ではありません。'
+            ),
             'tips': [
                 {
                     'title': '英検3級の過去問・問題集',
-                    'reason': '選択・読解・リスニングの通し練習に。ライティングは別枠で見直すと迷いが減ります。',
+                    'reason': '選択・読解・リスニングの通しを一度確かめたいときの参考です。購入の義務はありません。',
                     'url': NEXT_LEARNING_BY_LEVEL['3']['resource_url'],
                     'optional': False,
                 },
@@ -251,8 +262,9 @@ def _past_papers_tip(level: str) -> AnswerResultTip | None:
         return None
     return {
         'reason': (
-            '演習を一通り終えたあと、紙の過去問で時間配分や本番の流れを'
-            '確認する人も多いです。'
+            'このサイトの練習を続けて大丈夫です。'
+            '紙の過去問・問題集は必須ではありませんが、時間配分や本番の流れを'
+            '一度確かめたいときの参考になります。'
         ),
         'resource_title': base['resource_title'],
         'resource_url': affiliate_url(base['resource_url']),
@@ -288,8 +300,8 @@ def select_answer_result_tip(
             tip = {
                 **tip,
                 'reason': (
-                    '模擬試験を一通り終えたあと、紙の過去問で時間配分を'
-                    '確認する人も多いです。'
+                    '模擬試験まで終えたら、このままサイトで復習するだけで十分です。'
+                    '紙の過去問・問題集は必須ではありませんが、時間配分を一度確かめたいときの参考になります。'
                 ),
             }
         return tip

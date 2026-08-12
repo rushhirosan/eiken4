@@ -40,8 +40,10 @@
   python manage.py register_wordorder_fill_questions --level 5
   python manage.py register_listening_illustration_questions --level 5
   python manage.py create_listening_conversation_questions --level 5
+  python manage.py register_speaking_questions --level 5
   ```
 - アセット準備: `python utils/setup_level5_assets.py`（プレースホルダー画像・音声。TTS 不可時は ffmpeg で無音 MP3）
+- スピーキング: `data/questions/level5/speaking_questions.txt`（任意・録音形式の流れ練習。長文・ライティングなし）
 
 ## プロジェクト構造とディレクトリ役割
 
@@ -119,6 +121,7 @@
 - `register_wordorder_fill_questions.py` - 語順選択問題登録
 - `register_reading_comprehension_questions.py` - 長文読解問題登録
 - `register_listening_illustration_questions.py` - リスニング第1部登録
+- `register_speaking_questions.py` - スピーキング問題登録（3/4/5級）
 - `create_listening_conversation_questions.py` - リスニング第2部作成
 - `create_listening_passage_questions.py` - リスニング第3部作成
 

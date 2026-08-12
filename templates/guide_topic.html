@@ -173,6 +173,15 @@
                     </div>
                     {% endfor %}
 
+                    <h2>まずは登録なしで試す</h2>
+                    <p>
+                        {{ topic.level_label }}のお試し問題を、アカウント登録なしで解けます。
+                        雰囲気を確かめてから本番メニューに進むのがおすすめです。
+                    </p>
+                    <p class="mb-0">
+                        <a href="{{ try_url }}">{{ try_label }}</a>
+                    </p>
+
                     {% if related_topics %}
                     <h2>関連ガイド</h2>
                     <ul class="related">
@@ -182,11 +191,18 @@
                         </li>
                         {% endfor %}
                         <li><a href="{% url 'guides' %}#level-{{ topic.level }}">{{ topic.level_label }}の全体の進め方</a></li>
+                        <li><a href="{{ try_url }}">{{ try_label }}</a></li>
                     </ul>
                     {% endif %}
 
                     <div class="d-flex flex-wrap justify-content-center gap-2 mt-4 pt-2">
+                        {% if user.is_authenticated %}
                         <a href="{{ cta_url }}" class="btn btn-primary">{{ cta_label }}</a>
+                        <a href="{{ try_url }}" class="btn btn-outline-light">{{ try_label }}</a>
+                        {% else %}
+                        <a href="{{ try_url }}" class="btn btn-primary">{{ try_label }}</a>
+                        <a href="{{ cta_url }}" class="btn btn-outline-light">{{ cta_label }}</a>
+                        {% endif %}
                         <a href="{% url 'guides' %}" class="btn btn-outline-light">学習ガイド一覧</a>
                         <a href="{% url 'about' %}" class="btn btn-outline-light">サービス概要</a>
                     </div>
