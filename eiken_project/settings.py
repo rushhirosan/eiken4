@@ -30,6 +30,16 @@ DEBUG = True
 # 本番反映するときは settings_production で明示的に True にする。
 SHOW_NEXT_LEARNING = DEBUG
 
+# 問題ゼロ公開中の案内バナー（既存ユーザー向け）。不要になったら False。
+MAINTENANCE_NOTICE_ENABLED = True
+MAINTENANCE_NOTICE_TITLE = 'ただいまメンテナンス中です'
+MAINTENANCE_NOTICE_BODY = (
+    'より安心して使える学習サイトにするため、練習問題を作り直しています。'
+    'いまは問題を一時的に公開していません。再開までしばらくお待ちください。'
+)
+MAINTENANCE_OFFICIAL_EXAMS_URL = 'https://www.eiken.or.jp/eiken/exam/'
+MAINTENANCE_OFFICIAL_EXAMS_LABEL = '公式の過去問・試験内容はこちら（英検協会）'
+
 ALLOWED_HOSTS = []
 
 # Google Analytics 4
@@ -86,6 +96,7 @@ TEMPLATES = [
                 'django.contrib.auth.context_processors.auth',
                 'django.contrib.messages.context_processors.messages',
                 'eiken_project.context_processors.google_analytics',
+                'eiken_project.context_processors.maintenance_notice',
             ],
         },
     },

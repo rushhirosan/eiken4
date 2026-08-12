@@ -1,0 +1,15 @@
+{% if maintenance_notice_enabled %}
+<div class="alert alert-warning border-0 shadow-sm mb-3 maintenance-notice" role="status">
+    <div class="fw-bold mb-1">{{ maintenance_notice_title }}</div>
+    {% if maintenance_notice_body %}
+    <p class="mb-2 small">{{ maintenance_notice_body }}</p>
+    {% endif %}
+    {% if maintenance_official_exams_url %}
+    <p class="mb-0 small">
+        <a href="{{ maintenance_official_exams_url }}" target="_blank" rel="noopener noreferrer">
+            {{ maintenance_official_exams_label }}
+        </a>
+    </p>
+    {% endif %}
+</div>
+{% endif %}

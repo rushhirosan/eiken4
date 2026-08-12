@@ -212,6 +212,7 @@
                 <p class="mb-0 mt-2">ログイン</p>
             </div>
             <div class="card-body">
+                {% include 'partials/_maintenance_notice.html' %}
                 {% if form.errors %}
                     <div class="alert alert-danger alert-dismissible fade show" role="alert">
                         <i class="fas fa-exclamation-triangle me-2"></i>
