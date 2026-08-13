@@ -4,16 +4,16 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>お試し問題（登録不要） - Eiken Practice</title>
+    <title>お試し問題（登録不要） - 級ドリ</title>
     <meta name="description" content="英検5級・4級・3級のお試し問題。登録なしで文法とリスニングを1問ずつ体験できます。">
     <meta name="robots" content="index, follow">
     <link rel="canonical" href="https://eiken-practice.com/try/">
-    <meta property="og:title" content="お試し問題（登録不要） - Eiken Practice">
+    <meta property="og:title" content="お試し問題（登録不要） - 級ドリ">
     <meta property="og:description" content="登録なしで英検の文法・リスニングを体験。級を選んですぐ解けます。">
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://eiken-practice.com/try/">
     <meta property="og:locale" content="ja_JP">
-    <meta property="og:site_name" content="Eiken Practice">
+    <meta property="og:site_name" content="級ドリ">
     <meta property="og:image" content="https://eiken-practice.com{% static 'eiken-og-image.png' %}">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -124,7 +124,7 @@
 <body>
     <nav class="navbar navbar-expand-lg navbar-light">
         <div class="container">
-            <a class="navbar-brand" href="/">Eiken Practice</a>
+            <a class="navbar-brand" href="/">級ドリ</a>
             <div class="d-flex gap-3 align-items-center">
                 <a class="nav-link px-0" href="{% url 'login' %}">ログイン</a>
                 <a class="btn btn-primary btn-sm" href="{% url 'signup' %}">無料登録</a>
@@ -181,11 +181,14 @@
 
     <footer class="py-4 mt-4">
         <div class="container d-flex flex-column flex-md-row justify-content-between gap-2">
-            <span>Eiken Practice</span>
+            <span>級ドリ</span>
             <div class="d-flex gap-3">
                 <a href="{% url 'about' %}">サービス概要</a>
                 <a href="{% url 'guides' %}">学習の進め方</a>
                 <a href="{% url 'privacy_policy' %}">プライバシー</a>
+            </div>
+            <div class="mt-3">
+                {% include 'partials/_trademark_notice.html' %}
             </div>
         </div>
     </footer>

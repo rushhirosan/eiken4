@@ -101,6 +101,7 @@ TEMPLATES = [
                 'django.contrib.messages.context_processors.messages',
                 'eiken_project.context_processors.google_analytics',
                 'eiken_project.context_processors.maintenance_notice',
+                'eiken_project.context_processors.site_brand',
             ],
         },
     },
@@ -168,6 +169,12 @@ MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
 # https://docs.djangoproject.com/en/4.2/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
+
+# 公開ブランド（Phase 1）。ドメイン移行までは PUBLIC_BASE_URL は既存のまま。
+SITE_BRAND_NAME = os.environ.get('SITE_BRAND_NAME', '級ドリ')
+SITE_BRAND_FULL_NAME = os.environ.get('SITE_BRAND_FULL_NAME', '英語級ドリル')
+PUBLIC_BASE_URL = os.environ.get('PUBLIC_BASE_URL', 'https://eiken-practice.com').rstrip('/')
+# TOEIC 等は将来の別枠／別名。本ブランドは子供の級練習向け。
 
 # 警告を無効化
 import warnings

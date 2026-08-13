@@ -107,10 +107,10 @@ def guide_topic(request, slug: str):
         'description': topic['meta_description'],
         'inLanguage': 'ja',
         'mainEntityOfPage': page_url,
-        'author': {'@type': 'Organization', 'name': 'Eiken Practice'},
+        'author': {'@type': 'Organization', 'name': '級ドリ'},
         'publisher': {
             '@type': 'Organization',
-            'name': 'Eiken Practice',
+            'name': '級ドリ',
             'url': CANONICAL_ORIGIN,
         },
     }

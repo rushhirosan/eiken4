@@ -14,38 +14,39 @@
     
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>{% block title %}Eiken Practice{% endblock %}</title>
+    <title>{% block title %}{{ SITE_BRAND_NAME }}{% endblock %}</title>
     
     <!-- SEO Meta Tags -->
-    <meta name="description" content="{% block meta_description %}英検5級・4級・3級の対策問題を無料で練習できるサイト。文法・語彙、会話補充、語順選択、長文読解、リスニング、模擬試験に対応。{% endblock %}">
-    <meta name="keywords" content="英検,英検5級,英検4級,英検3級,英語,英語学習,英検対策,英検問題,英検練習,英語文法,リスニング,長文読解">
-    <meta name="author" content="Eiken Practice">
+    <meta name="description" content="{% block meta_description %}5級・4級・3級向けの試験形式オリジナル練習を無料で。文法・語彙、会話補充、語順選択、長文読解、リスニング、模擬試験に対応。{% endblock %}">
+    <meta name="keywords" content="級ドリ,英語級ドリル,英語学習,5級,4級,3級,英検,文法,リスニング,長文読解">
+    <meta name="author" content="{{ SITE_BRAND_NAME }}">
     <meta name="robots" content="{% block robots %}noindex, follow{% endblock %}">
-    <link rel="canonical" href="https://eiken-practice.com{{ request.path }}">
+    <link rel="canonical" href="{{ PUBLIC_BASE_URL }}{{ request.path }}">
     
     <!-- Open Graph Meta Tags -->
-    <meta property="og:title" content="{% block og_title %}Eiken Practice - 英検5級・4級・3級対策{% endblock %}">
-    <meta property="og:description" content="{% block og_description %}英検5級・4級・3級の対策問題を無料で練習できるサイト。文法・語彙、長文読解、リスニング、模擬試験に対応。{% endblock %}">
+    <meta property="og:title" content="{% block og_title %}{{ SITE_BRAND_NAME }} - 5級・4級・3級の無料練習{% endblock %}">
+    <meta property="og:description" content="{% block og_description %}5級・4級・3級向けの試験形式オリジナル練習を無料で。文法・語彙、長文読解、リスニング、模擬試験に対応。{% endblock %}">
     <meta property="og:type" content="website">
-    <meta property="og:url" content="https://eiken-practice.com{{ request.path }}">
+    <meta property="og:url" content="{{ PUBLIC_BASE_URL }}{{ request.path }}">
     <meta property="og:locale" content="ja_JP">
-    <meta property="og:site_name" content="Eiken Practice">
-    <meta property="og:image" content="https://eiken-practice.com{% static 'eiken-og-image.png' %}">
+    <meta property="og:site_name" content="{{ SITE_BRAND_NAME }}">
+    <meta property="og:image" content="{{ PUBLIC_BASE_URL }}{% static 'eiken-og-image.png' %}">
     
     <!-- Twitter Card Meta Tags -->
     <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="{% block twitter_title %}Eiken Practice - 英検5級・4級・3級対策{% endblock %}">
-    <meta name="twitter:description" content="{% block twitter_description %}英検5級・4級・3級の対策問題を無料で練習できるサイト。{% endblock %}">
-    <meta name="twitter:image" content="https://eiken-practice.com{% static 'eiken-og-image.png' %}">
+    <meta name="twitter:title" content="{% block twitter_title %}{{ SITE_BRAND_NAME }} - 5級・4級・3級の無料練習{% endblock %}">
+    <meta name="twitter:description" content="{% block twitter_description %}5級・4級・3級向けの試験形式オリジナル練習を無料で。{% endblock %}">
+    <meta name="twitter:image" content="{{ PUBLIC_BASE_URL }}{% static 'eiken-og-image.png' %}">
     
     <!-- Structured Data (JSON-LD) -->
     <script type="application/ld+json">
     {
       "@context": "https://schema.org",
       "@type": "WebApplication",
-      "name": "Eiken Practice",
-      "description": "英検5級・4級・3級の対策問題を無料で練習できるサイト。文法・語彙、長文読解、リスニング、模擬試験に対応。",
-      "url": "https://eiken-practice.com",
+      "name": "{{ SITE_BRAND_NAME }}",
+      "alternateName": "{{ SITE_BRAND_FULL_NAME }}",
+      "description": "5級・4級・3級向けの試験形式オリジナル練習を無料でできる学習サイト。",
+      "url": "{{ PUBLIC_BASE_URL }}",
       "applicationCategory": "EducationalApplication",
       "operatingSystem": "Web Browser",
       "inLanguage": "ja",
@@ -57,13 +58,13 @@
       },
       "provider": {
         "@type": "Organization",
-        "name": "Eiken Practice",
-        "url": "https://eiken-practice.com"
+        "name": "{{ SITE_BRAND_NAME }}",
+        "url": "{{ PUBLIC_BASE_URL }}"
       },
       "audience": {
         "@type": "EducationalAudience",
         "educationalRole": "student",
-        "audienceType": "Students preparing for Eiken Grades 5, 4, and 3"
+        "audienceType": "Students practicing English grade exams"
       }
     }
     </script>
@@ -439,7 +440,7 @@
         <div class="container">
             <a class="navbar-brand" href="{% url 'exams:exam_list' %}">
                 <i class="fas fa-graduation-cap me-2"></i>
-                Eiken Practice
+                {{ SITE_BRAND_NAME }}
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
                 <span class="navbar-toggler-icon"></span>
@@ -502,10 +503,12 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-6">
-                    <p class="mb-0 text-muted">
+                    <p class="mb-1 text-muted">
                         <i class="fas fa-graduation-cap me-2"></i>
-                        Eiken Practice - 英検対策
+                        <strong>{{ SITE_BRAND_NAME }}</strong>
+                        <span class="ms-1">（{{ SITE_BRAND_FULL_NAME }}）</span>
                     </p>
+                    <p class="mb-2 small text-muted">子供向け・英語級のオリジナル練習</p>
                 </div>
                 <div class="col-md-6 text-md-end">
                     <a href="{% url 'guides' %}" class="text-muted text-decoration-none me-3">
@@ -520,6 +523,11 @@
                     <a href="{% url 'exams:feedback_form' %}" class="text-muted text-decoration-none">
                         <i class="fas fa-comment-dots me-1"></i>お問い合わせ
                     </a>
+                </div>
+            </div>
+            <div class="row mt-3">
+                <div class="col-12">
+                    {% include 'partials/_trademark_notice.html' %}
                 </div>
             </div>
         </div>

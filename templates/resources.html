@@ -4,21 +4,21 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>あわせて使える学習リソース - Eiken Practice</title>
-    <meta name="description" content="英検5級・4級・3級の無料練習とあわせて使える過去問・単語帳などの学習リソース案内。Eiken Practiceはブラウザで無料演習できる非公式の学習サイトです。">
+    <title>あわせて使える学習リソース - 級ドリ</title>
+    <meta name="description" content="英検5級・4級・3級の無料練習とあわせて使える過去問・単語帳などの学習リソース案内。級ドリはブラウザで無料演習できる非公式の学習サイトです。">
     <meta name="robots" content="index, follow">
     <link rel="canonical" href="https://eiken-practice.com/resources/">
 
-    <meta property="og:title" content="あわせて使える学習リソース - Eiken Practice">
+    <meta property="og:title" content="あわせて使える学習リソース - 級ドリ">
     <meta property="og:description" content="無料のブラウザ練習とあわせて使える、級別の過去問・教材のヒント。">
     <meta property="og:type" content="article">
     <meta property="og:url" content="https://eiken-practice.com/resources/">
     <meta property="og:locale" content="ja_JP">
-    <meta property="og:site_name" content="Eiken Practice">
+    <meta property="og:site_name" content="級ドリ">
     <meta property="og:image" content="https://eiken-practice.com{% static 'eiken-og-image.png' %}">
 
     <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="あわせて使える学習リソース - Eiken Practice">
+    <meta name="twitter:title" content="あわせて使える学習リソース - 級ドリ">
     <meta name="twitter:description" content="無料のブラウザ練習とあわせて使える、級別の過去問・教材のヒント。">
     <meta name="twitter:image" content="https://eiken-practice.com{% static 'eiken-og-image.png' %}">
 
@@ -135,7 +135,7 @@
     <nav class="navbar navbar-dark navbar-landing">
         <div class="container py-2">
             <a class="navbar-brand fw-bold" href="/">
-                <svg class="icon me-2" aria-hidden="true" viewBox="0 0 24 24"><path d="M12 3L1 9l4 2.18v6L12 21l7-3.82v-6l2-1.09V17h2V9L12 3zm6.82 6L12 12.72 5.18 9 12 5.28 18.82 9zM17 15.99l-5 2.73-5-2.73v-3.72L12 15l5-2.73v3.72z"/></svg>Eiken Practice
+                <svg class="icon me-2" aria-hidden="true" viewBox="0 0 24 24"><path d="M12 3L1 9l4 2.18v6L12 21l7-3.82v-6l2-1.09V17h2V9L12 3zm6.82 6L12 12.72 5.18 9 12 5.28 18.82 9zM17 15.99l-5 2.73-5-2.73v-3.72L12 15l5-2.73v3.72z"/></svg>級ドリ
             </a>
         </div>
     </nav>
@@ -146,7 +146,7 @@
                 <div class="content-card">
                     <h1 class="h3 fw-bold mb-3">あわせて使える学習リソース</h1>
                     <p>
-                        Eiken Practice は、<strong>ブラウザで無料で試せる</strong>英検5級・4級・3級の練習サイトです。
+                        級ドリ は、<strong>ブラウザで無料で試せる</strong>英検5級・4級・3級の練習サイトです。
                         公式試験そのものではなく、試験形式の演習をウェブ上で解くための入口です。
                     </p>
                     <p class="mb-0">
@@ -208,7 +208,7 @@
     <footer class="footer-landing">
         <div class="container d-flex flex-column flex-md-row justify-content-between align-items-center gap-3">
             <div>
-                <p class="mb-0 small"><svg class="icon me-2" aria-hidden="true" viewBox="0 0 24 24"><path d="M12 3L1 9l4 2.18v6L12 21l7-3.82v-6l2-1.09V17h2V9L12 3zm6.82 6L12 12.72 5.18 9 12 5.28 18.82 9zM17 15.99l-5 2.73-5-2.73v-3.72L12 15l5-2.73v3.72z"/></svg>Eiken Practice</p>
+                <p class="mb-0 small"><svg class="icon me-2" aria-hidden="true" viewBox="0 0 24 24"><path d="M12 3L1 9l4 2.18v6L12 21l7-3.82v-6l2-1.09V17h2V9L12 3zm6.82 6L12 12.72 5.18 9 12 5.28 18.82 9zM17 15.99l-5 2.73-5-2.73v-3.72L12 15l5-2.73v3.72z"/></svg>級ドリ</p>
                 <p class="mb-0 small mt-1" style="opacity:0.85;">当ページの一部リンクにはアフィリエイトを含みます。</p>
             </div>
             <div class="d-flex gap-3 small flex-wrap justify-content-center">
@@ -216,6 +216,9 @@
                 <a href="{% url 'guides' %}">学習の進め方</a>
                 <a href="{% url 'resources' %}">学習リソース</a>
                 <a href="{% url 'privacy_policy' %}">プライバシーポリシー</a>
+            </div>
+            <div class="mt-3">
+                {% include 'partials/_trademark_notice.html' %}
             </div>
         </div>
     </footer>
