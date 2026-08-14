@@ -207,10 +207,10 @@ class ExamListViewTest(TestCase):
         self.client.login(username='testuser', password='testpass123')
         response = self.client.get(self.url)
         self.assertContains(response, '現在の試験級')
-        self.assertContains(response, '英検4級')
+        self.assertContains(response, '4級')
         self.assertContains(response, '級を変更')
         self.assertContains(response, 'name="level"')
-        self.assertContains(response, '<option value="4" selected>英検4級</option>', html=True)
+        self.assertContains(response, '<option value="4" selected>4級</option>', html=True)
         self.assertNotContains(response, 'exam-level-tab')
         self.assertContains(response, '長文はランダム10問に含まれません')
         self.assertNotContains(response, 'ライティングはランダム10問に含まれません')
@@ -220,7 +220,7 @@ class ExamListViewTest(TestCase):
         self.client.login(username='testuser', password='testpass123')
         response = self.client.get(self.url, {'level': '3'})
         self.assertContains(response, 'id="level-panel-3"')
-        self.assertContains(response, '<option value="3" selected>英検3級</option>', html=True)
+        self.assertContains(response, '<option value="3" selected>3級</option>', html=True)
         self.assertContains(response, 'ライティング問題')
         self.assertContains(response, '長文・ライティングはランダム10問に含まれません')
         self.assertEqual(self.client.session.get('preferred_exam_level'), '3')
@@ -304,11 +304,11 @@ class ExamListViewTest(TestCase):
         self.assertEqual(self.client.session.get('preferred_exam_level'), '3')
 
         response = self.client.get(self.url)
-        self.assertContains(response, '英検3級')
+        self.assertContains(response, '3級')
 
 
 class Level3RandomAndMockTests(TestCase):
-    """英検3級のランダム10問・模擬試験まわりのテスト"""
+    """3級のランダム10問・模擬試験まわりのテスト"""
 
     def setUp(self):
         self.client = Client()
@@ -481,8 +481,8 @@ class Level3RandomAndMockTests(TestCase):
         )
         self.assertEqual(response.status_code, 200)
         self.assertTemplateUsed(response, 'exams/mock_exam.html')
-        self.assertContains(response, '模擬試験問題（英検3級）')
-        self.assertNotContains(response, '模擬試験問題（英検4級）')
+        self.assertContains(response, '模擬試験問題（3級）')
+        self.assertNotContains(response, '模擬試験問題（4級）')
         self.assertContains(response, 'mock-section-banner')
         self.assertContains(response, '第1部: リスニングイラスト問題')
         self.assertContains(response, 'listening-illustration-img-wrap')
@@ -495,7 +495,7 @@ class Level3RandomAndMockTests(TestCase):
 
 
 class Level5ExamListTests(TestCase):
-    """英検5級の試験一覧・模擬試験構成のテスト"""
+    """5級の試験一覧・模擬試験構成のテスト"""
 
     def setUp(self):
         self.client = Client()
@@ -511,7 +511,7 @@ class Level5ExamListTests(TestCase):
         response = self.client.get(self.url, {'level': '5'})
         self.assertEqual(response.status_code, 200)
         self.assertContains(response, 'id="level-panel-5"')
-        self.assertContains(response, '英検5級')
+        self.assertContains(response, '5級')
         self.assertContains(response, 'type=word_order')
         self.assertContains(response, 'type=listening_illustration_part3')
         self.assertContains(response, 'type=speaking')
@@ -724,7 +724,7 @@ class Level5ExamListTests(TestCase):
         )
         self.assertEqual(response.status_code, 200)
         self.assertTemplateUsed(response, 'exams/question_list.html')
-        self.assertContains(response, '模擬試験問題（英検5級）')
+        self.assertContains(response, '模擬試験問題（5級）')
         content = response.content.decode()
         self.assertIn('今日はとても暑いです。<br>', content)
         self.assertIn('① it ② is ③ very hot ④ today<br>', content)
@@ -837,7 +837,7 @@ class ProgressViewTest(TestCase):
             question_text='3級テスト',
         )
         response = self.client.get(self.url)
-        self.assertContains(response, '英検3級')
+        self.assertContains(response, '3級')
         self.assertNotContains(response, '<td>語順選択問題</td>')
         self.assertNotContains(response, '<i class="fas fa-sort me-2"></i>語順選択問題')
 
@@ -934,7 +934,7 @@ class ProgressViewTest(TestCase):
         )
 
         follow = self.client.get(response.url)
-        self.assertContains(follow, '英検3級の学習進捗をクリアしました')
+        self.assertContains(follow, '3級の学習進捗をクリアしました')
 
     def test_clear_progress_rejects_invalid_level(self):
         """不正な級指定では進捗を削除しない"""

@@ -209,7 +209,7 @@ def make_explain_01() -> Path:
     d = ImageDraw.Draw(img)
     brand_chip(d, 110, 110)
 
-    title = "ブラウザだけで、英検対策。"
+    title = "ブラウザだけで、英語の練習を。"
     d.text((110, 175), title, font=f_bold(46), fill=TEXT)
 
     body = (
@@ -299,13 +299,13 @@ def make_explain_03() -> Path:
     img = make_base(w, h)
     d = ImageDraw.Draw(img)
     brand_chip(d, 70, 48)
-    d.text((70, 110), "英検5級・4級・3級に対応", font=f_bold(40), fill=TEXT)
+    d.text((70, 110), "5級・4級・3級に対応", font=f_bold(40), fill=TEXT)
     d.text((70, 170), "級ごとに最適化された問題セットで効率的に対策", font=f_reg(22), fill=MUTED)
 
     levels = [
-        ("英検5級", "Level 5", "入門", ["文法・語彙", "会話補充", "語順選択", "リスニング", "模擬試験"], PRIMARY),
-        ("英検4級", "Level 4", "初級", ["文法・語彙", "会話補充", "長文読解", "リスニング", "模擬試験"], PRIMARY_SOFT),
-        ("英検3級", "Level 3", "中級", ["文法・語彙", "ライティング", "長文読解", "リスニング", "模擬試験"], TEAL),
+        ("5級", "Level 5", "入門", ["文法・語彙", "会話補充", "語順選択", "リスニング", "模擬試験"], PRIMARY),
+        ("4級", "Level 4", "初級", ["文法・語彙", "会話補充", "長文読解", "リスニング", "模擬試験"], PRIMARY_SOFT),
+        ("3級", "Level 3", "中級", ["文法・語彙", "ライティング", "長文読解", "リスニング", "模擬試験"], TEAL),
     ]
     card_w, card_h = 340, 360
     gap = 28
@@ -345,7 +345,7 @@ def make_explain_04() -> Path:
     body = (
         "アカウントを作って学習記録を残せます。"
         "正答率・連続学習・バッジでモチベーションを保ち、"
-        "友達と同じペースで英検に取り組めます。"
+        "友達と同じペースで英語の練習に取り組めます。"
     )
     draw_wrapped(d, body, (110, 245), f_reg(24), MUTED, 520, line_gap=10)
 
@@ -392,7 +392,7 @@ def make_explain_05() -> Path:
     d = ImageDraw.Draw(img)
     brand_chip(d, 110, 110)
 
-    d.text((110, 175), "子どもの英検対策から生まれた", font=f_bold(38), fill=TEXT)
+    d.text((110, 175), "子どもの英語練習から生まれた", font=f_bold(38), fill=TEXT)
     body = (
         "手軽に練習できるWebサービスが少なく、"
         "スマホを持たない子でもアプリなしで使える場が欲しかった。"

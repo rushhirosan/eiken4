@@ -4,12 +4,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>学習の進め方（英検5級・4級・3級） - えいごごはん</title>
-    <meta name="description" content="英検5級・4級・3級それぞれで、えいごごはんのどのメニューをどの順で進めるかをまとめた使い方ガイド。無料登録後すぐに演習できます。">
+    <title>学習の進め方（5級・4級・3級） - えいごごはん</title>
+    <meta name="description" content="5級・4級・3級それぞれで、えいごごはんのどのメニューをどの順で進めるかをまとめた使い方ガイド。無料登録後すぐに演習できます。">
     <meta name="robots" content="index, follow">
     <link rel="canonical" href="https://eiken-practice.com/guides/">
 
-    <meta property="og:title" content="学習の進め方（英検5級・4級・3級） - えいごごはん">
+    <meta property="og:title" content="学習の進め方（5級・4級・3級） - えいごごはん">
     <meta property="og:description" content="級ごとのメニュー対応とおすすめ学習順。5級・4級・3級の違いが分かる使い方ガイド。">
     <meta property="og:type" content="article">
     <meta property="og:url" content="https://eiken-practice.com/guides/">
@@ -18,7 +18,7 @@
     <meta property="og:image" content="https://eiken-practice.com{% static 'eiken-og-image.png' %}">
 
     <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="学習の進め方（英検5級・4級・3級） - えいごごはん">
+    <meta name="twitter:title" content="学習の進め方（5級・4級・3級） - えいごごはん">
     <meta name="twitter:description" content="級ごとのメニュー対応とおすすめ学習順。5級・4級・3級の違いが分かる使い方ガイド。">
     <meta name="twitter:image" content="https://eiken-practice.com{% static 'eiken-og-image.png' %}">
 
@@ -219,7 +219,7 @@
         <div class="row justify-content-center">
             <div class="col-lg-8">
                 <div class="content-card">
-                    <h1 class="h3 fw-bold mb-3">学習の進め方（英検5級・4級・3級）</h1>
+                    <h1 class="h3 fw-bold mb-3">学習の進め方（5級・4級・3級）</h1>
                     <p>
                         えいごごはん で、受験級ごとに「どのメニューを・どの順で」進めるかをまとめたガイドです。
                         公式の本試そのものではなく、<strong>試験形式の練習</strong>をブラウザで解くためのサイトです。
@@ -231,9 +231,9 @@
                     <nav class="toc" aria-label="目次">
                         <p class="mb-2 small text-white-50">目次</p>
                         <ul class="mb-0 ps-3">
-                            <li><a href="#level-5">英検5級の進め方</a></li>
-                            <li><a href="#level-4">英検4級の進め方</a></li>
-                            <li><a href="#level-3">英検3級の進め方</a></li>
+                            <li><a href="#level-5">5級の進め方</a></li>
+                            <li><a href="#level-4">4級の進め方</a></li>
+                            <li><a href="#level-3">3級の進め方</a></li>
                             <li><a href="#topic-guides">級×パート別ガイド</a></li>
                             <li><a href="{% url 'try_index' %}">登録なしのお試し問題</a></li>
                             <li><a href="#common">共通の使い方のコツ</a></li>
@@ -245,7 +245,7 @@
                         </ul>
                     </nav>
 
-                    <h2 id="level-5">英検5級の進め方</h2>
+                    <h2 id="level-5">5級の進め方</h2>
                     <p>
                         入門レベル向けです。<strong>長文読解・ライティングはありません。</strong>
                         語彙・文法、会話補充、語順、リスニングの基礎固めが中心になります。
@@ -282,7 +282,7 @@
                     {% endwith %}
                     {% endif %}
 
-                    <h2 id="level-4">英検4級の進め方</h2>
+                    <h2 id="level-4">4級の進め方</h2>
                     <p>
                         初級〜標準向けです。5級に加えて<strong>長文読解</strong>があります。
                         形式が増えるので、最初から全部をこなそうとせず、カテゴリを分けて回すのがおすすめです。
@@ -321,7 +321,7 @@
                     {% endwith %}
                     {% endif %}
 
-                    <h2 id="level-3">英検3級の進め方</h2>
+                    <h2 id="level-3">3級の進め方</h2>
                     <p>
                         中級向けです。<strong>ライティング</strong>があり、読解・リスニングも実践寄りの内容になります。
                         選択問題とライティングは別メニューなので、役割を分けて使うと迷いが減ります。
@@ -365,19 +365,19 @@
                         検索でよく見られるテーマごとに、短い対策ガイドを用意しています。
                         気になる形式から読んで、そのまま無料演習へ進んでください。
                     </p>
-                    <h3 class="h6 text-white-50 mt-3">英検5級</h3>
+                    <h3 class="h6 text-white-50 mt-3">5級</h3>
                     <ul>
                         {% for topic in guide_topics_by_level.5 %}
                         <li><a href="{% url 'guide_topic' slug=topic.slug %}">{{ topic.h1 }}</a></li>
                         {% endfor %}
                     </ul>
-                    <h3 class="h6 text-white-50 mt-3">英検4級</h3>
+                    <h3 class="h6 text-white-50 mt-3">4級</h3>
                     <ul>
                         {% for topic in guide_topics_by_level.4 %}
                         <li><a href="{% url 'guide_topic' slug=topic.slug %}">{{ topic.h1 }}</a></li>
                         {% endfor %}
                     </ul>
-                    <h3 class="h6 text-white-50 mt-3">英検3級</h3>
+                    <h3 class="h6 text-white-50 mt-3">3級</h3>
                     <ul>
                         {% for topic in guide_topics_by_level.3 %}
                         <li><a href="{% url 'guide_topic' slug=topic.slug %}">{{ topic.h1 }}</a></li>

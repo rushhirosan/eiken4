@@ -60,34 +60,34 @@ class ResourcesPageSection(TypedDict):
 NEXT_LEARNING_BY_LEVEL: dict[str, NextLearningResource] = {
     '5': {
         'level': '5',
-        'level_label': '英検5級',
+        'level_label': '5級',
         'reason': (
             'このサイトの演習だけでも十分進められます。'
             '紙の過去問・問題集は必須ではありませんが、時間配分やマークの感覚を'
             '一度確かめたいときの参考になります。'
         ),
-        'resource_title': '英検5級の過去問・問題集を見てみる',
+        'resource_title': '5級の過去問・問題集を見てみる',
         'resource_url': 'https://www.amazon.co.jp/s?k=%E8%8B%B1%E6%A4%9C+5%E7%B4%9A+%E9%81%8E%E5%8E%BB%E5%95%8F',
     },
     '4': {
         'level': '4',
-        'level_label': '英検4級',
+        'level_label': '4級',
         'reason': (
             'このサイトの練習を続けて大丈夫です。'
             '紙の過去問・問題集は必須ではありませんが、長文込みの通しペースを'
             '一度確かめたいときの参考になります。'
         ),
-        'resource_title': '英検4級の過去問・問題集を見てみる',
+        'resource_title': '4級の過去問・問題集を見てみる',
         'resource_url': 'https://www.amazon.co.jp/s?k=%E8%8B%B1%E6%A4%9C+4%E7%B4%9A+%E9%81%8E%E5%8E%BB%E5%95%8F',
     },
     '3': {
         'level': '3',
-        'level_label': '英検3級',
+        'level_label': '3級',
         'reason': (
             'このサイトで選択とライティングを分けて練習するだけで十分進められます。'
             '紙の過去問・問題集は必須ではありませんが、全体の流れを一度通したいときの参考になります。'
         ),
-        'resource_title': '英検3級の過去問・問題集を見てみる',
+        'resource_title': '3級の過去問・問題集を見てみる',
         'resource_url': 'https://www.amazon.co.jp/s?k=%E8%8B%B1%E6%A4%9C+3%E7%B4%9A+%E9%81%8E%E5%8E%BB%E5%95%8F',
     },
 }
@@ -115,20 +115,20 @@ def resources_page_sections() -> list[ResourcesPageSection]:
     raw: list[ResourcesPageSection] = [
         {
             'level': '5',
-            'level_label': '英検5級',
+            'level_label': '5級',
             'intro': (
                 '入門級です。サイトで文法・会話・リスニングを固めるだけで十分進められます。'
                 '紙の過去問・問題集は必須ではありません。'
             ),
             'tips': [
                 {
-                    'title': '英検5級の過去問・問題集',
+                    'title': '5級の過去問・問題集',
                     'reason': '時間配分やマークの感覚を一度確かめたいときの参考です。購入の義務はありません。',
                     'url': NEXT_LEARNING_BY_LEVEL['5']['resource_url'],
                     'optional': False,
                 },
                 {
-                    'title': '英検5級向けの単語帳',
+                    'title': '5級向けの単語帳',
                     'reason': '文法演習と並行して、短い単語学習を足したいときの選択肢です。',
                     'url': 'https://www.amazon.co.jp/s?k=%E8%8B%B1%E6%A4%9C+5%E7%B4%9A+%E5%8D%98%E8%AA%9E',
                     'optional': True,
@@ -137,26 +137,26 @@ def resources_page_sections() -> list[ResourcesPageSection]:
         },
         {
             'level': '4',
-            'level_label': '英検4級',
+            'level_label': '4級',
             'intro': (
                 '長文が加わる級です。サイトで形式別に練習するだけで十分進められます。'
                 '紙の過去問・問題集は必須ではありません。'
             ),
             'tips': [
                 {
-                    'title': '英検4級の過去問・問題集',
+                    'title': '4級の過去問・問題集',
                     'reason': '長文込みのペース配分を一度通したいときの参考です。購入の義務はありません。',
                     'url': NEXT_LEARNING_BY_LEVEL['4']['resource_url'],
                     'optional': False,
                 },
                 {
-                    'title': '英検4級の長文対策',
+                    'title': '4級の長文対策',
                     'reason': 'サイトの長文読解メニューで慣れたあと、解説付きの長文問題集で読み方の型を固めたいときの選択肢です。',
                     'url': 'https://www.amazon.co.jp/s?k=%E8%8B%B1%E6%A4%9C+4%E7%B4%9A+%E9%95%B7%E6%96%87',
                     'optional': True,
                 },
                 {
-                    'title': '英検4級向けの単語帳',
+                    'title': '4級向けの単語帳',
                     'reason': '正答率が伸び悩むときの語彙補強として併用する人もいます。',
                     'url': 'https://www.amazon.co.jp/s?k=%E8%8B%B1%E6%A4%9C+4%E7%B4%9A+%E5%8D%98%E8%AA%9E',
                     'optional': True,
@@ -165,32 +165,32 @@ def resources_page_sections() -> list[ResourcesPageSection]:
         },
         {
             'level': '3',
-            'level_label': '英検3級',
+            'level_label': '3級',
             'intro': (
                 'ライティングがある級です。選択問題と英作文をサイトで分けて練習するだけで十分進められます。'
                 '紙の過去問・問題集は必須ではありません。'
             ),
             'tips': [
                 {
-                    'title': '英検3級の過去問・問題集',
+                    'title': '3級の過去問・問題集',
                     'reason': '選択・読解・リスニングの通しを一度確かめたいときの参考です。購入の義務はありません。',
                     'url': NEXT_LEARNING_BY_LEVEL['3']['resource_url'],
                     'optional': False,
                 },
                 {
-                    'title': '英検3級の長文対策',
+                    'title': '3級の長文対策',
                     'reason': 'サイトの読解演習のあとに、長めの文章の読み方・設問の解き方を本で補強したいときの選択肢です。',
                     'url': 'https://www.amazon.co.jp/s?k=%E8%8B%B1%E6%A4%9C+3%E7%B4%9A+%E9%95%B7%E6%96%87',
                     'optional': True,
                 },
                 {
-                    'title': '英検3級向けの単語帳',
+                    'title': '3級向けの単語帳',
                     'reason': '文法・語彙の正答率が伸び悩むときの補強として併用する人もいます。',
                     'url': 'https://www.amazon.co.jp/s?k=%E8%8B%B1%E6%A4%9C+3%E7%B4%9A+%E5%8D%98%E8%AA%9E',
                     'optional': True,
                 },
                 {
-                    'title': '英検3級の英作文・ライティング対策',
+                    'title': '3級の英作文・ライティング対策',
                     'reason': 'サイトの自己チェックのあとに、書き方の型を本で確認したいときの選択肢です。',
                     'url': 'https://www.amazon.co.jp/s?k=%E8%8B%B1%E6%A4%9C+3%E7%B4%9A+%E3%83%A9%E3%82%A4%E3%83%86%E3%82%A3%E3%83%B3%E3%82%B0',
                     'optional': True,

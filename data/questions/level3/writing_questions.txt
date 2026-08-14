@@ -48,7 +48,7 @@ Which subject is more interesting for you, English or math?
 
 【参考解答】
 ■ この問題で求められること
-QUESTION に対して、あなたの意見（どちらがより面白いか）と、その理由を英文2文で書きます。英検3級の英作文では、意見＋理由2つを短くまとめる書き方がよく使われます。
+QUESTION に対して、あなたの意見（どちらがより面白いか）と、その理由を英文2文で書きます。3級の英作文では、意見＋理由2つを短くまとめる書き方がよく使われます。
 
 ■ 書き方のポイント
 ・1文目：English is more interesting for me. または Math is more interesting for me. のように、はっきり選ぶ。

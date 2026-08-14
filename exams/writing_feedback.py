@@ -187,7 +187,7 @@ def _sentence_count_message(sentence_count: int, sentence_min: int, sentence_max
             'level': 'info',
             'message': (
                 f'文数: {sentence_count}文（問題文は「2つの英文」）。'
-                '英検では「意見1文＋理由1文」の2文型がよく使われます。'
+                'この級では「意見1文＋理由1文」の2文型がよく使われます。'
                 '参考解答の書き方と見比べてみましょう。'
             ),
         }

@@ -25,9 +25,9 @@ TRY_LEVELS = ('5', '4', '3')
 READING_TRY_LEVELS = frozenset({'4', '3'})
 
 LEVEL_LABELS = {
-    '5': '英検5級',
-    '4': '英検4級',
-    '3': '英検3級',
+    '5': '5級',
+    '4': '4級',
+    '3': '3級',
 }
 
 
@@ -53,7 +53,7 @@ def is_try_level(level: str) -> bool:
 
 
 def level_label(level: str) -> str:
-    return LEVEL_LABELS.get(str(level), f'英検{level}級')
+    return LEVEL_LABELS.get(str(level), f'{level}級')
 
 
 def _grammar_sample(level: str) -> TrySample | None:

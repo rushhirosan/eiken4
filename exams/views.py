@@ -344,9 +344,9 @@ from .listening_utils import (
     listening_illustration_number,
 )
 EXAM_LEVEL_ENTRIES = [
-    ('5', '英検5級'),
-    ('4', '英検4級'),
-    ('3', '英検3級'),
+    ('5', '5級'),
+    ('4', '4級'),
+    ('3', '3級'),
 ]
 VALID_EXAM_LEVELS = {code for code, _ in EXAM_LEVEL_ENTRIES}
 QUESTION_TYPE_LABELS = {
@@ -423,7 +423,7 @@ def _exam_level_display(level):
     for code, name in EXAM_LEVEL_ENTRIES:
         if code == level:
             return name
-    return f'英検{level}級'
+    return f'{level}級'
 
 
 def _get_mock_exam_structure(level):
@@ -543,7 +543,7 @@ def _get_preferred_exam_level(request):
 
 
 def _exam_level_name(level_code):
-    return dict(EXAM_LEVEL_ENTRIES).get(level_code, f'英検{level_code}級')
+    return dict(EXAM_LEVEL_ENTRIES).get(level_code, f'{level_code}級')
 
 
 def _extra_display_progress(user, level_code, foundation_progress):
@@ -699,15 +699,15 @@ def question_list(request, level=None, exam_id=None):
     status = request.GET.get('status', 'unanswered')
 
     if question_type == 'writing' and str(level) != '3':
-        messages.info(request, 'ライティング問題は英検3級のみです。')
+        messages.info(request, 'ライティング問題は3級のみです。')
         return redirect('exams:exam_list')
 
     if question_type == 'speaking' and str(level) not in ('3', '4', '5'):
-        messages.info(request, 'スピーキング問題は英検3級・4級・5級のみです。')
+        messages.info(request, 'スピーキング問題は3級・4級・5級のみです。')
         return redirect('exams:exam_list')
 
     if _is_level5_only_type(level, question_type):
-        messages.info(request, 'この問題形式は英検5級にはありません。')
+        messages.info(request, 'この問題形式は5級にはありません。')
         return redirect('exams:exam_list')
     
     logger.debug(f"Debug - Level: {level}, Question Type: {question_type}")  # デバッグ出力
@@ -852,7 +852,7 @@ def question_list(request, level=None, exam_id=None):
             messages.warning(request, '模擬試験は、基本問題の各カテゴリで取り組み率80%以上になると解放されます。')
             return redirect('exams:exam_list')
 
-        # 模擬試験問題の場合（英検4級の実際の問題構成）
+        # 模擬試験問題の場合（4級の実際の問題構成）
         all_questions = []
         reading_passages = []
         
@@ -966,7 +966,7 @@ def question_list(request, level=None, exam_id=None):
         regular_questions.sort(key=lambda x: x['category_order'])
         listening_questions.sort(key=lambda x: x['category_order'])
         
-        # 英検4級の実際の順序で結合（リスニング問題は順序通り）
+        # 4級の実際の順序で結合（リスニング問題は順序通り）
         all_questions = regular_questions + listening_questions
         
         # 長文読解問題がある場合は専用テンプレートを使用
@@ -1664,10 +1664,10 @@ def submit_answers(request, level):
         question_type = request.POST.get('question_type') or request.GET.get('type')
         level = int(level)  # URLパラメータから取得したlevelを使用
         if question_type == 'writing' and str(level) != '3':
-            messages.info(request, 'ライティング問題は英検3級のみです。')
+            messages.info(request, 'ライティング問題は3級のみです。')
             return redirect('exams:exam_list')
         if question_type == 'speaking' and str(level) not in ('3', '4', '5'):
-            messages.info(request, 'スピーキング問題は英検3級・4級・5級のみです。')
+            messages.info(request, 'スピーキング問題は3級・4級・5級のみです。')
             return redirect('exams:exam_list')
         if not _has_submittable_answers(request.POST):
             return _redirect_empty_submission(request, level, question_type)
@@ -1843,7 +1843,7 @@ def submit_answers(request, level):
 
         elif question_type == 'speaking':
             if str(level) not in ('3', '4', '5'):
-                messages.info(request, 'スピーキング問題は英検3級・4級・5級のみです。')
+                messages.info(request, 'スピーキング問題は3級・4級・5級のみです。')
                 return redirect('exams:exam_list')
 
             raw_ids = request.POST.getlist('speaking_question_id')
@@ -1996,10 +1996,10 @@ def submit_answers(request, level):
 @login_required
 def answer_results(request, level, question_type):
     if question_type == 'writing' and str(level) != '3':
-        messages.info(request, 'ライティング問題は英検3級のみです。')
+        messages.info(request, 'ライティング問題は3級のみです。')
         return redirect('exams:exam_list')
     if question_type == 'speaking' and str(level) not in ('3', '4', '5'):
-        messages.info(request, 'スピーキング問題は英検3級・4級・5級のみです。')
+        messages.info(request, 'スピーキング問題は3級・4級・5級のみです。')
         return redirect('exams:exam_list')
     if question_type in ('random', 'mock_exam'):
         session_key = f'answered_questions_{question_type}_{level}'
@@ -2371,14 +2371,14 @@ def progress_view(request):
     levels = ordered + sorted(leftover)
 
     level_labels = {
-        '4': '英検4級',
-        '3': '英検3級',
-        '2': '英検2級',
-        '1': '英検1級',
-        'pre1': '英検準1級',
+        '4': '4級',
+        '3': '3級',
+        '2': '2級',
+        '1': '1級',
+        'pre1': '準1級',
     }
     level_entries = [
-        (lv, level_labels.get(lv, f'英検{lv}級')) for lv in levels
+        (lv, level_labels.get(lv, f'{lv}級')) for lv in levels
     ]
 
     # 各級の進捗を取得
@@ -2876,17 +2876,17 @@ def clear_progress(request):
         level = request.POST.get('level', '').strip()
         allowed_levels = _allowed_progress_levels()
         level_labels = {
-            '4': '英検4級',
-            '3': '英検3級',
-            '2': '英検2級',
-            '1': '英検1級',
-            'pre1': '英検準1級',
+            '4': '4級',
+            '3': '3級',
+            '2': '2級',
+            '1': '1級',
+            'pre1': '準1級',
         }
         if level not in allowed_levels:
             messages.error(request, 'クリア対象の級が不正です。')
             return redirect('exams:progress')
         _clear_user_progress_for_level(request.user, level)
-        label = level_labels.get(level, f'英検{level}級')
+        label = level_labels.get(level, f'{level}級')
         messages.success(request, f'{label}の学習進捗をクリアしました。')
     return redirect('exams:progress')
 

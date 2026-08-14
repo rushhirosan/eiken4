@@ -46,7 +46,7 @@
          class="card mb-4 progress-level-panel{% if not forloop.first %} d-none{% endif %}"
          data-level="{{ level }}">
         <div class="card-header">
-            <h3>英検{{ level }}級</h3>
+            <h3>{{ level }}級</h3>
         </div>
         <div class="card-body">
             <!-- 取り組み率グラフを追加 -->
@@ -626,7 +626,7 @@ document.addEventListener('DOMContentLoaded', function() {
             plugins: {
                 title: {
                     display: true,
-                    text: '英検{{ level }}級 取り組み率',
+                    text: '{{ level }}級 取り組み率',
                     font: {
                         size: window.innerWidth < 768 ? 12 : 16
                     }
@@ -730,7 +730,7 @@ document.addEventListener('DOMContentLoaded', function() {
             plugins: {
                 title: {
                     display: true,
-                    text: '英検{{ level }}級 過去7日間の取り組み数',
+                    text: '{{ level }}級 過去7日間の取り組み数',
                     font: {
                         size: window.innerWidth < 768 ? 12 : 16
                     }
@@ -770,7 +770,7 @@ document.addEventListener('DOMContentLoaded', function() {
     if (clearForm) {
         clearForm.addEventListener('submit', function (e) {
             const level = clearLevelInput ? clearLevelInput.value : '';
-            const label = levelLabels[level] || ('英検' + level + '級');
+            const label = levelLabels[level] || (level + '級');
             const ok = confirm(
                 label + 'の学習進捗をクリアしますか？\n'
                 + '他の級の進捗は残ります。この操作は取り消せません。'

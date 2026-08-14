@@ -28,7 +28,9 @@ class LandingPageTest(TestCase):
         self.assertContains(response, reverse('try_index'))
         self.assertContains(response, '登録なしでお試し')
         self.assertContains(response, reverse('guides'))
-        self.assertContains(response, '英検®は、公益財団法人 日本英語検定協会の登録商標です。')
+        self.assertContains(response, '本サイトは公益財団法人 日本英語検定協会の公式サイトではありません。')
+        self.assertContains(response, '級の目安は、一般的な英語検定の5・4・3級レベルです。')
+        self.assertNotContains(response, '英検')
 
     def test_landing_avoids_render_blocking_third_party_assets(self):
         """公開トップは LCP のため外部フォント/アイコンCDNに依存しない。"""
@@ -78,14 +80,15 @@ class LlmsTxtTest(TestCase):
         self.assertIn('- [サービス概要・FAQ](https://eiken-practice.com/about/):', content)
         self.assertIn('- [学習の進め方](https://eiken-practice.com/guides/):', content)
         self.assertIn('- [お試し問題](https://eiken-practice.com/try/):', content)
-        self.assertIn('- [英検4級 リスニング](https://eiken-practice.com/guides/eiken-4-listening/):', content)
-        self.assertIn('- [英検4級 長文読解](https://eiken-practice.com/guides/eiken-4-reading/):', content)
+        self.assertIn('- [4級 リスニング](https://eiken-practice.com/guides/eiken-4-listening/):', content)
+        self.assertIn('- [4級 長文読解](https://eiken-practice.com/guides/eiken-4-reading/):', content)
         self.assertIn('長文練習問題を無料で解く進め方', content)
-        self.assertIn('- [英検3級 ライティング](https://eiken-practice.com/guides/eiken-3-writing/):', content)
-        self.assertIn('- [英検5級 スピーキング](https://eiken-practice.com/guides/eiken-5-speaking/):', content)
-        self.assertIn('- [英検3級 スピーキング](https://eiken-practice.com/guides/eiken-3-speaking/):', content)
+        self.assertIn('- [3級 ライティング](https://eiken-practice.com/guides/eiken-3-writing/):', content)
+        self.assertIn('- [5級 スピーキング](https://eiken-practice.com/guides/eiken-5-speaking/):', content)
+        self.assertIn('- [3級 スピーキング](https://eiken-practice.com/guides/eiken-3-speaking/):', content)
         self.assertIn('- [学習リソース](https://eiken-practice.com/resources/):', content)
-        self.assertIn('英検®協会の公式サイト・公式アプリではない', content)
+        self.assertIn('日本英語検定協会の公式サイト・公式アプリではない', content)
+        self.assertNotIn('英検', content)
         self.assertIn('## Optional', content)
         self.assertIn('- [プライバシーポリシー](https://eiken-practice.com/privacy-policy/):', content)
         # Docs セクションの公開ページは Markdown リンク形式
@@ -98,9 +101,9 @@ class GuidesPageTest(TestCase):
         response = Client().get(reverse('guides'))
         self.assertEqual(response.status_code, 200)
         self.assertContains(response, '学習の進め方')
-        self.assertContains(response, '英検5級の進め方')
-        self.assertContains(response, '英検4級の進め方')
-        self.assertContains(response, '英検3級の進め方')
+        self.assertContains(response, '5級の進め方')
+        self.assertContains(response, '4級の進め方')
+        self.assertContains(response, '3級の進め方')
         self.assertContains(response, 'フィードバックの送り方')
         self.assertContains(response, 'FAQPage')
         self.assertContains(response, 'index, follow')
@@ -131,9 +134,9 @@ class GuidesPageTest(TestCase):
             response = Client().get(reverse('guides'))
         self.assertEqual(response.status_code, 200)
         self.assertContains(response, 'このあとの学習')
-        self.assertContains(response, '英検5級の過去問・問題集を見てみる')
-        self.assertContains(response, '英検4級の過去問・問題集を見てみる')
-        self.assertContains(response, '英検3級の過去問・問題集を見てみる')
+        self.assertContains(response, '5級の過去問・問題集を見てみる')
+        self.assertContains(response, '4級の過去問・問題集を見てみる')
+        self.assertContains(response, '3級の過去問・問題集を見てみる')
         self.assertContains(response, 'アフィリエイトを含みます')
         self.assertContains(response, 'rel="noopener noreferrer sponsored"')
         self.assertContains(response, reverse('resources'))
@@ -146,7 +149,7 @@ class GuidesPageTest(TestCase):
             response = Client().get(reverse('guides'))
         self.assertEqual(response.status_code, 200)
         self.assertNotContains(response, 'このあとの学習')
-        self.assertNotContains(response, '英検5級の過去問・問題集を見てみる')
+        self.assertNotContains(response, '5級の過去問・問題集を見てみる')
         self.assertNotContains(response, reverse('resources'))
 
 
@@ -156,7 +159,7 @@ class GuideTopicPageTest(TestCase):
             reverse('guide_topic', kwargs={'slug': 'eiken-4-listening'})
         )
         self.assertEqual(response.status_code, 200)
-        self.assertContains(response, '英検4級のリスニングを無料で練習する')
+        self.assertContains(response, '4級のリスニングを無料で練習する')
         self.assertContains(response, 'index, follow')
         self.assertContains(response, 'https://eiken-practice.com/guides/eiken-4-listening/')
         self.assertContains(response, 'FAQPage')
@@ -164,7 +167,7 @@ class GuideTopicPageTest(TestCase):
         self.assertContains(response, reverse('signup'))
         self.assertContains(response, reverse('guides'))
         self.assertContains(response, reverse('try_level', kwargs={'level': '4'}))
-        self.assertContains(response, '英検4級をお試し（登録なし）')
+        self.assertContains(response, '4級をお試し（登録なし）')
         content = response.content.decode()
         self.assertIn('vendor/bootstrap/bootstrap.min.css', content)
         self.assertNotIn('fonts.googleapis.com', content)
@@ -175,10 +178,10 @@ class GuideTopicPageTest(TestCase):
             reverse('guide_topic', kwargs={'slug': 'eiken-4-reading'})
         )
         self.assertEqual(response.status_code, 200)
-        self.assertContains(response, '英検4級の長文練習問題を無料で解く')
-        self.assertContains(response, '英検4級の長文練習問題をブラウザで無料練習')
+        self.assertContains(response, '4級の長文練習問題を無料で解く')
+        self.assertContains(response, '4級の長文練習問題をブラウザで無料練習')
         self.assertContains(response, reverse('try_level', kwargs={'level': '4'}))
-        self.assertContains(response, '英検4級の長文練習問題は無料で解けますか？')
+        self.assertContains(response, '4級の長文練習問題は無料で解けますか？')
 
     def test_guide_topic_unknown_slug_404(self):
         response = Client().get(
@@ -211,13 +214,13 @@ class ResourcesPageTest(TestCase):
             response = Client().get(reverse('resources'))
         self.assertEqual(response.status_code, 200)
         self.assertContains(response, 'あわせて使える学習リソース')
-        self.assertContains(response, '英検5級')
-        self.assertContains(response, '英検4級')
-        self.assertContains(response, '英検3級')
-        self.assertContains(response, '英検5級の過去問・問題集')
-        self.assertContains(response, '英検4級の長文対策')
-        self.assertContains(response, '英検3級の長文対策')
-        self.assertContains(response, '英検3級の英作文・ライティング対策')
+        self.assertContains(response, '5級')
+        self.assertContains(response, '4級')
+        self.assertContains(response, '3級')
+        self.assertContains(response, '5級の過去問・問題集')
+        self.assertContains(response, '4級の長文対策')
+        self.assertContains(response, '3級の長文対策')
+        self.assertContains(response, '3級の英作文・ライティング対策')
         self.assertContains(response, '任意')
         self.assertContains(response, 'アフィリエイト')
         self.assertContains(response, '公式サイトではありません')
@@ -283,11 +286,12 @@ class AboutPageTest(TestCase):
         self.assertContains(response, '3級</strong> — 文法・語彙、会話補充、ライティング')
         self.assertContains(response, 'スピーキング（二次面接の流れ）')
         self.assertContains(response, 'スピーキング問題はありますか？')
-        self.assertContains(response, '英検®は、公益財団法人 日本英語検定協会の登録商標です。')
+        self.assertContains(response, '本サイトは公益財団法人 日本英語検定協会の公式サイトではありません。')
         self.assertContains(
             response,
-            'このコンテンツは、公益財団法人 日本英語検定協会の承認や推奨、その他の検討を受けたものではありません。',
+            '協会の承認や推奨、その他の検討を受けたものではありません。',
         )
+        self.assertNotContains(response, '英検')
 
 
 class SitemapXmlTest(TestCase):
@@ -347,7 +351,7 @@ class AppShellSeoTest(TestCase):
         self.assertContains(response, '5級・4級・3級')
         self.assertContains(response, 'eiken-og-image.png')
         self.assertNotContains(response, 'eiken-og-image.jpg')
-        self.assertContains(response, '英検®は、公益財団法人 日本英語検定協会の登録商標です。')
+        self.assertContains(response, '本サイトは公益財団法人 日本英語検定協会の公式サイトではありません。')
 
     def test_privacy_policy_remains_indexable(self):
         response = Client().get(reverse('privacy_policy'))
@@ -440,7 +444,7 @@ class TrySamplePageTest(TestCase):
     def test_try_level_shows_grammar_and_listening(self):
         response = Client().get(reverse('try_level', kwargs={'level': '4'}))
         self.assertEqual(response.status_code, 200)
-        self.assertContains(response, '英検4級のお試し問題')
+        self.assertContains(response, '4級のお試し問題')
         self.assertContains(response, '登録なし・無料')
         self.assertContains(response, '文法・リスニング・長文をお試し')
         self.assertContains(response, 'I ( ) a book.')
@@ -451,11 +455,11 @@ class TrySamplePageTest(TestCase):
         self.assertContains(response, 'What color is the dog?')
         self.assertContains(response, '長文読解（お試し）')
         self.assertContains(response, '回答する')
-        self.assertContains(response, '英検4級の学習ガイド')
+        self.assertContains(response, '4級の学習ガイド')
         self.assertContains(
             response, reverse('guide_topic', kwargs={'slug': 'eiken-4-reading'})
         )
-        self.assertContains(response, '英検4級の長文練習問題を無料で解く')
+        self.assertContains(response, '4級の長文練習問題を無料で解く')
 
     def test_try_level_grades_without_login(self):
         from exams.models import ReadingUserAnswer, UserAnswer
