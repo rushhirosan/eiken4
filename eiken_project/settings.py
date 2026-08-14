@@ -171,8 +171,8 @@ MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 # 公開ブランド（Phase 1）。ドメイン移行までは PUBLIC_BASE_URL は既存のまま。
-SITE_BRAND_NAME = os.environ.get('SITE_BRAND_NAME', '級ドリ')
-SITE_BRAND_FULL_NAME = os.environ.get('SITE_BRAND_FULL_NAME', '英語級ドリル')
+SITE_BRAND_NAME = os.environ.get('SITE_BRAND_NAME', 'えいごごはん')
+SITE_BRAND_FULL_NAME = os.environ.get('SITE_BRAND_FULL_NAME', 'EigoGohan')
 PUBLIC_BASE_URL = os.environ.get('PUBLIC_BASE_URL', 'https://eiken-practice.com').rstrip('/')
 # TOEIC 等は将来の別枠／別名。本ブランドは子供の級練習向け。
 

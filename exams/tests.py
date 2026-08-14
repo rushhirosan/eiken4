@@ -200,7 +200,7 @@ class ExamListViewTest(TestCase):
         """試験一覧ページにタイトルが含まれているかテスト"""
         self.client.login(username='testuser', password='testpass123')
         response = self.client.get(self.url)
-        self.assertContains(response, '英検試験対策')
+        self.assertContains(response, 'えいごごはん')
 
     def test_exam_list_defaults_to_level_4(self):
         """初回は4級にフォーカスする"""

@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Generate Solomaker product icon + 5 explanation images for 級ドリ."""
+"""Generate Solomaker product icon + 5 explanation images for えいごごはん."""
 
 from __future__ import annotations
 
@@ -145,7 +145,7 @@ def make_base(w: int = 1200, h: int = 675) -> Image.Image:
 def brand_chip(draw: ImageDraw.ImageDraw, x: int, y: int) -> None:
     draw.rounded_rectangle([x, y, x + 210, y + 36], radius=18, fill=PRIMARY)
     f = f_med(18)
-    label = "級ドリ"
+    label = "えいごごはん"
     tw = text_width(draw, label, f)
     draw.text((x + (210 - tw) / 2, y + 7), label, font=f, fill=WHITE)
 
@@ -192,7 +192,7 @@ def make_icon() -> Path:
     d.text(((size - tw) / 2, 352), label, font=f, fill=WHITE)
 
     f2 = f_med(22)
-    sub = "級ドリ"
+    sub = "えいごごはん"
     tw = text_width(d, sub, f2)
     d.text(((size - tw) / 2, 438), sub, font=f2, fill=(235, 237, 255, 255))
 

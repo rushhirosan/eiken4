@@ -13,8 +13,8 @@ def google_analytics(request):
 def site_brand(request):
     """公開ブランド名・ベースURL・商標注記。"""
     return {
-        'SITE_BRAND_NAME': getattr(settings, 'SITE_BRAND_NAME', '級ドリ'),
-        'SITE_BRAND_FULL_NAME': getattr(settings, 'SITE_BRAND_FULL_NAME', '英語級ドリル'),
+        'SITE_BRAND_NAME': getattr(settings, 'SITE_BRAND_NAME', 'えいごごはん'),
+        'SITE_BRAND_FULL_NAME': getattr(settings, 'SITE_BRAND_FULL_NAME', 'EigoGohan'),
         'PUBLIC_BASE_URL': getattr(settings, 'PUBLIC_BASE_URL', 'https://eiken-practice.com'),
     }
 

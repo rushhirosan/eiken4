@@ -107,10 +107,10 @@ def guide_topic(request, slug: str):
         'description': topic['meta_description'],
         'inLanguage': 'ja',
         'mainEntityOfPage': page_url,
-        'author': {'@type': 'Organization', 'name': '級ドリ'},
+        'author': {'@type': 'Organization', 'name': 'えいごごはん'},
         'publisher': {
             '@type': 'Organization',
-            'name': '級ドリ',
+            'name': 'えいごごはん',
             'url': CANONICAL_ORIGIN,
         },
     }
