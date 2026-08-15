@@ -187,7 +187,7 @@ def make_icon() -> Path:
     d.polygon([(cx + 72, cy - 8), (cx + 98, cy - 52), (cx + 98, cy + 38), (cx + 72, cy + 58)], fill=(*TEAL, 255))
 
     f = f_bold(78)
-    label = "EP"
+    label = "EG"
     tw = text_width(d, label, f)
     d.text(((size - tw) / 2, 352), label, font=f, fill=WHITE)
 
@@ -419,6 +419,55 @@ def make_explain_05() -> Path:
     return out
 
 
+def make_og_image() -> Path:
+    """SNS / OG 用 1200x630。協会ロゴや赤地に白の「英検」風は使わない。"""
+    w, h = 1200, 630
+    # サイト本体に合わせたダーク＋紫（協会の赤×白とは別系統）
+    img = vertical_gradient((w, h), (11, 16, 32), (22, 28, 48))
+    img = soft_blob(img, (220, 120), 320, PRIMARY, 55)
+    img = soft_blob(img, (980, 480), 340, TEAL, 40)
+    img = soft_blob(img, (700, 80), 260, PRIMARY_SOFT, 35)
+
+    # カード枠
+    card = Image.new("RGBA", (w, h), (0, 0, 0, 0))
+    cd = ImageDraw.Draw(card)
+    margin = 48
+    cd.rounded_rectangle(
+        [margin, margin, w - margin, h - margin],
+        radius=28,
+        fill=(18, 24, 44, 230),
+        outline=(124, 108, 255, 90),
+        width=2,
+    )
+    # 上部アクセント（紫→ティール。赤帯にしない）
+    cd.rounded_rectangle(
+        [margin, margin, w - margin, margin + 10],
+        radius=6,
+        fill=(*PRIMARY, 255),
+    )
+    img = Image.alpha_composite(img.convert("RGBA"), card).convert("RGB")
+    d = ImageDraw.Draw(img)
+
+    title = "えいごごはん"
+    d.text((100, 150), title, font=f_bold(72), fill=WHITE)
+
+    sub = "EigoGohan"
+    d.text((105, 240), sub, font=f_med(28), fill=TEAL)
+
+    line = "5級・4級・3級の無料オンライン練習"
+    d.text((100, 310), line, font=f_med(32), fill=(210, 216, 235))
+
+    features = "文法・語彙 / 長文読解 / リスニング / 模擬試験"
+    d.text((100, 370), features, font=f_reg(24), fill=(150, 160, 185))
+
+    url = "eigogohan.com"
+    d.text((100, 500), url, font=f_med(26), fill=TEAL)
+
+    repo_static = Path(__file__).resolve().parents[2] / "static" / "eigogohan-og-image.png"
+    img.save(repo_static, "PNG", optimize=True)
+    return repo_static
+
+
 def main() -> None:
     paths = [
         make_icon(),
@@ -427,6 +476,7 @@ def main() -> None:
         make_explain_03(),
         make_explain_04(),
         make_explain_05(),
+        make_og_image(),
     ]
     for p in paths:
         size_kb = p.stat().st_size / 1024

@@ -29,8 +29,12 @@ class LandingPageTest(TestCase):
         self.assertContains(response, '登録なしでお試し')
         self.assertContains(response, reverse('guides'))
         self.assertContains(response, '本サイトは公益財団法人 日本英語検定協会の公式サイトではありません。')
+        self.assertContains(response, '英検®は、公益財団法人 日本英語検定協会の登録商標です。')
         self.assertContains(response, '級の目安は、一般的な英語検定の5・4・3級レベルです。')
-        self.assertNotContains(response, '英検')
+        # マーケ文言では「英検」を使わず、フッターの®表記のみ
+        body = response.content.decode()
+        body_without_notice = body.replace('英検®は、公益財団法人 日本英語検定協会の登録商標です。', '')
+        self.assertNotIn('英検', body_without_notice)
 
     def test_landing_avoids_render_blocking_third_party_assets(self):
         """公開トップは LCP のため外部フォント/アイコンCDNに依存しない。"""
@@ -287,11 +291,16 @@ class AboutPageTest(TestCase):
         self.assertContains(response, 'スピーキング（二次面接の流れ）')
         self.assertContains(response, 'スピーキング問題はありますか？')
         self.assertContains(response, '本サイトは公益財団法人 日本英語検定協会の公式サイトではありません。')
+        self.assertContains(response, '英検®は、公益財団法人 日本英語検定協会の登録商標です。')
         self.assertContains(
             response,
-            '協会の承認や推奨、その他の検討を受けたものではありません。',
+            'このコンテンツは、公益財団法人 日本英語検定協会の承認や推奨、その他の検討を受けたものではありません。',
         )
-        self.assertNotContains(response, '英検')
+        body_without_notice = response.content.decode().replace(
+            '英検®は、公益財団法人 日本英語検定協会の登録商標です。',
+            '',
+        )
+        self.assertNotIn('英検', body_without_notice)
 
 
 class SitemapXmlTest(TestCase):
@@ -332,7 +341,7 @@ class LandingFaqJsonLdTest(TestCase):
         self.assertContains(response, '無料で使えますか')
         self.assertContains(response, '"@type": "WebSite"')
         self.assertContains(response, '"@type": "Organization"')
-        self.assertContains(response, 'eiken-og-image.png')
+        self.assertContains(response, 'eigogohan-og-image.png')
 
 
 class AppShellSeoTest(TestCase):
@@ -349,8 +358,10 @@ class AppShellSeoTest(TestCase):
         self.assertContains(response, 'noindex, follow')
         self.assertContains(response, 'えいごごはん')
         self.assertContains(response, '5級・4級・3級')
-        self.assertContains(response, 'eiken-og-image.png')
+        self.assertContains(response, 'eigogohan-og-image.png')
+        self.assertNotContains(response, 'eiken-og-image.png')
         self.assertNotContains(response, 'eiken-og-image.jpg')
+        self.assertContains(response, '英検®は、公益財団法人 日本英語検定協会の登録商標です。')
         self.assertContains(response, '本サイトは公益財団法人 日本英語検定協会の公式サイトではありません。')
 
     def test_privacy_policy_remains_indexable(self):
