@@ -65,7 +65,7 @@ class RobotsTxtTest(TestCase):
         self.assertContains(response, 'Allow: /try/')
         self.assertContains(response, 'Allow: /resources/')
         self.assertContains(response, 'Allow: /llms.txt')
-        self.assertContains(response, 'Sitemap: https://eiken-practice.com/sitemap.xml')
+        self.assertContains(response, 'Sitemap: https://eigogohan.com/sitemap.xml')
 
 
 class LlmsTxtTest(TestCase):
@@ -76,21 +76,21 @@ class LlmsTxtTest(TestCase):
         content = response.content.decode()
         self.assertTrue(content.startswith('# えいごごはん\n'))
         self.assertIn('> 5級・4級・3級向け', content)
-        self.assertIn('- [トップ](https://eiken-practice.com/):', content)
-        self.assertIn('- [サービス概要・FAQ](https://eiken-practice.com/about/):', content)
-        self.assertIn('- [学習の進め方](https://eiken-practice.com/guides/):', content)
-        self.assertIn('- [お試し問題](https://eiken-practice.com/try/):', content)
-        self.assertIn('- [4級 リスニング](https://eiken-practice.com/guides/eiken-4-listening/):', content)
-        self.assertIn('- [4級 長文読解](https://eiken-practice.com/guides/eiken-4-reading/):', content)
+        self.assertIn('- [トップ](https://eigogohan.com/):', content)
+        self.assertIn('- [サービス概要・FAQ](https://eigogohan.com/about/):', content)
+        self.assertIn('- [学習の進め方](https://eigogohan.com/guides/):', content)
+        self.assertIn('- [お試し問題](https://eigogohan.com/try/):', content)
+        self.assertIn('- [4級 リスニング](https://eigogohan.com/guides/eiken-4-listening/):', content)
+        self.assertIn('- [4級 長文読解](https://eigogohan.com/guides/eiken-4-reading/):', content)
         self.assertIn('長文練習問題を無料で解く進め方', content)
-        self.assertIn('- [3級 ライティング](https://eiken-practice.com/guides/eiken-3-writing/):', content)
-        self.assertIn('- [5級 スピーキング](https://eiken-practice.com/guides/eiken-5-speaking/):', content)
-        self.assertIn('- [3級 スピーキング](https://eiken-practice.com/guides/eiken-3-speaking/):', content)
-        self.assertIn('- [学習リソース](https://eiken-practice.com/resources/):', content)
+        self.assertIn('- [3級 ライティング](https://eigogohan.com/guides/eiken-3-writing/):', content)
+        self.assertIn('- [5級 スピーキング](https://eigogohan.com/guides/eiken-5-speaking/):', content)
+        self.assertIn('- [3級 スピーキング](https://eigogohan.com/guides/eiken-3-speaking/):', content)
+        self.assertIn('- [学習リソース](https://eigogohan.com/resources/):', content)
         self.assertIn('日本英語検定協会の公式サイト・公式アプリではない', content)
         self.assertNotIn('英検', content)
         self.assertIn('## Optional', content)
-        self.assertIn('- [プライバシーポリシー](https://eiken-practice.com/privacy-policy/):', content)
+        self.assertIn('- [プライバシーポリシー](https://eigogohan.com/privacy-policy/):', content)
         # Docs セクションの公開ページは Markdown リンク形式
         self.assertNotIn('- トップ:', content)
         self.assertNotIn('- サービス概要・FAQ:', content)
@@ -107,7 +107,7 @@ class GuidesPageTest(TestCase):
         self.assertContains(response, 'フィードバックの送り方')
         self.assertContains(response, 'FAQPage')
         self.assertContains(response, 'index, follow')
-        self.assertContains(response, 'https://eiken-practice.com/guides/')
+        self.assertContains(response, 'https://eigogohan.com/guides/')
         # 5級にも会話補充がある（4級固有ではない）
         self.assertContains(response, 'id="level-5"')
         self.assertRegex(
@@ -161,7 +161,7 @@ class GuideTopicPageTest(TestCase):
         self.assertEqual(response.status_code, 200)
         self.assertContains(response, '4級のリスニングを無料で練習する')
         self.assertContains(response, 'index, follow')
-        self.assertContains(response, 'https://eiken-practice.com/guides/eiken-4-listening/')
+        self.assertContains(response, 'https://eigogohan.com/guides/eiken-4-listening/')
         self.assertContains(response, 'FAQPage')
         self.assertContains(response, 'BreadcrumbList')
         self.assertContains(response, reverse('signup'))
@@ -224,7 +224,7 @@ class ResourcesPageTest(TestCase):
         self.assertContains(response, '任意')
         self.assertContains(response, 'アフィリエイト')
         self.assertContains(response, '公式サイトではありません')
-        self.assertContains(response, 'https://eiken-practice.com/resources/')
+        self.assertContains(response, 'https://eigogohan.com/resources/')
         self.assertContains(response, reverse('guides'))
         content = response.content.decode()
         self.assertIn('4%E7%B4%9A+%E9%95%B7%E6%96%87', content)
@@ -301,16 +301,16 @@ class SitemapXmlTest(TestCase):
         with override_settings(SHOW_NEXT_LEARNING=False):
             response = Client().get(reverse('sitemap_xml'))
         self.assertEqual(response.status_code, 200)
-        self.assertContains(response, 'https://eiken-practice.com/')
-        self.assertContains(response, 'https://eiken-practice.com/about/')
-        self.assertContains(response, 'https://eiken-practice.com/guides/')
-        self.assertContains(response, 'https://eiken-practice.com/guides/eiken-4-listening/')
-        self.assertContains(response, 'https://eiken-practice.com/guides/eiken-3-writing/')
-        self.assertContains(response, 'https://eiken-practice.com/guides/eiken-5-speaking/')
-        self.assertContains(response, 'https://eiken-practice.com/guides/eiken-3-speaking/')
-        self.assertContains(response, 'https://eiken-practice.com/try/')
-        self.assertContains(response, 'https://eiken-practice.com/try/5/')
-        self.assertContains(response, 'https://eiken-practice.com/privacy-policy/')
+        self.assertContains(response, 'https://eigogohan.com/')
+        self.assertContains(response, 'https://eigogohan.com/about/')
+        self.assertContains(response, 'https://eigogohan.com/guides/')
+        self.assertContains(response, 'https://eigogohan.com/guides/eiken-4-listening/')
+        self.assertContains(response, 'https://eigogohan.com/guides/eiken-3-writing/')
+        self.assertContains(response, 'https://eigogohan.com/guides/eiken-5-speaking/')
+        self.assertContains(response, 'https://eigogohan.com/guides/eiken-3-speaking/')
+        self.assertContains(response, 'https://eigogohan.com/try/')
+        self.assertContains(response, 'https://eigogohan.com/try/5/')
+        self.assertContains(response, 'https://eigogohan.com/privacy-policy/')
         self.assertNotContains(response, '/resources/')
         self.assertNotContains(response, '/exams/')
         self.assertNotContains(response, '/accounts/')
@@ -321,7 +321,7 @@ class SitemapXmlTest(TestCase):
         with override_settings(SHOW_NEXT_LEARNING=True):
             response = Client().get(reverse('sitemap_xml'))
         self.assertEqual(response.status_code, 200)
-        self.assertContains(response, 'https://eiken-practice.com/resources/')
+        self.assertContains(response, 'https://eigogohan.com/resources/')
 
 
 class LandingFaqJsonLdTest(TestCase):
@@ -490,7 +490,14 @@ class TrySamplePageTest(TestCase):
         self.assertEqual(response['Location'], '/try/4/')
 
 
-@override_settings(ALLOWED_HOSTS=['eiken-app.fly.dev', 'eiken-practice.com', 'testserver'])
+@override_settings(ALLOWED_HOSTS=[
+    'eiken-app.fly.dev',
+    'eigogohan.com',
+    'www.eigogohan.com',
+    'eiken-practice.com',
+    'www.eiken-practice.com',
+    'testserver',
+])
 class CanonicalHostRedirectTest(TestCase):
     def setUp(self):
         self.client = Client()
@@ -498,23 +505,23 @@ class CanonicalHostRedirectTest(TestCase):
     def test_fly_dev_host_redirects_to_custom_domain(self):
         response = self.client.get('/about/', HTTP_HOST='eiken-app.fly.dev')
         self.assertEqual(response.status_code, 301)
-        self.assertEqual(response['Location'], 'https://eiken-practice.com/about/')
+        self.assertEqual(response['Location'], 'https://eigogohan.com/about/')
 
     def test_fly_dev_appends_trailing_slash_in_one_hop(self):
         """Avoid fly.dev/about → apex/about → /about/ chains (GSC Redirect error)."""
         response = self.client.get('/about', HTTP_HOST='eiken-app.fly.dev')
         self.assertEqual(response.status_code, 301)
-        self.assertEqual(response['Location'], 'https://eiken-practice.com/about/')
+        self.assertEqual(response['Location'], 'https://eigogohan.com/about/')
 
     def test_fly_dev_preserves_query_string(self):
         response = self.client.get('/guides/?from=old', HTTP_HOST='eiken-app.fly.dev')
         self.assertEqual(response.status_code, 301)
-        self.assertEqual(response['Location'], 'https://eiken-practice.com/guides/?from=old')
+        self.assertEqual(response['Location'], 'https://eigogohan.com/guides/?from=old')
 
     def test_fly_dev_preserves_query_string_when_appending_slash(self):
         response = self.client.get('/guides?from=old', HTTP_HOST='eiken-app.fly.dev')
         self.assertEqual(response.status_code, 301)
-        self.assertEqual(response['Location'], 'https://eiken-practice.com/guides/?from=old')
+        self.assertEqual(response['Location'], 'https://eigogohan.com/guides/?from=old')
 
     def test_healthz_is_not_redirected(self):
         response = self.client.get('/healthz/', HTTP_HOST='eiken-app.fly.dev')
@@ -522,18 +529,28 @@ class CanonicalHostRedirectTest(TestCase):
         self.assertEqual(response.content, b'ok')
 
     def test_custom_domain_is_not_redirected(self):
-        response = self.client.get('/about/', HTTP_HOST='eiken-practice.com')
+        response = self.client.get('/about/', HTTP_HOST='eigogohan.com')
         self.assertEqual(response.status_code, 200)
+
+    def test_legacy_domain_redirects_to_canonical(self):
+        response = self.client.get('/about/', HTTP_HOST='eiken-practice.com')
+        self.assertEqual(response.status_code, 301)
+        self.assertEqual(response['Location'], 'https://eigogohan.com/about/')
+
+    def test_www_redirects_to_apex(self):
+        response = self.client.get('/guides/', HTTP_HOST='www.eigogohan.com')
+        self.assertEqual(response.status_code, 301)
+        self.assertEqual(response['Location'], 'https://eigogohan.com/guides/')
 
     def test_slashless_public_pages_use_absolute_301(self):
         """Relative APPEND_SLASH Location can surface as GSC Redirect error."""
         for path, dest in (
-            ('/about', 'https://eiken-practice.com/about/'),
-            ('/guides', 'https://eiken-practice.com/guides/'),
-            ('/resources', 'https://eiken-practice.com/resources/'),
-            ('/privacy-policy', 'https://eiken-practice.com/privacy-policy/'),
+            ('/about', 'https://eigogohan.com/about/'),
+            ('/guides', 'https://eigogohan.com/guides/'),
+            ('/resources', 'https://eigogohan.com/resources/'),
+            ('/privacy-policy', 'https://eigogohan.com/privacy-policy/'),
         ):
-            response = self.client.get(path, HTTP_HOST='eiken-practice.com')
+            response = self.client.get(path, HTTP_HOST='eigogohan.com')
             self.assertEqual(response.status_code, 301, path)
             self.assertEqual(response['Location'], dest, path)
 

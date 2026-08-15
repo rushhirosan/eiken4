@@ -11,4 +11,4 @@ Disallow: /exams/
 Disallow: /admin/
 Disallow: /static/admin/
 
-Sitemap: https://eiken-practice.com/sitemap.xml
+Sitemap: https://eigogohan.com/sitemap.xml

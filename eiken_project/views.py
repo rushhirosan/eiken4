@@ -19,8 +19,10 @@ from eiken_project.try_samples import (
     try_level_availability,
 )
 
-CANONICAL_ORIGIN = 'https://eiken-practice.com'
+CANONICAL_ORIGIN = 'https://eigogohan.com'
 _CANONICAL_REDIRECT_HOSTS = frozenset({
+    'eigogohan.com',
+    'www.eigogohan.com',
     'eiken-practice.com',
     'www.eiken-practice.com',
     'eiken-app.fly.dev',

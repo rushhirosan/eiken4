@@ -2950,7 +2950,7 @@ def sitemap_xml(request):
     """公開ページのみを含む動的サイトマップ"""
     from eiken_project.guide_topics import iter_guide_topics
 
-    base_url = "https://eiken-practice.com"
+    base_url = "https://eigogohan.com"
     today = datetime.now().strftime('%Y-%m-%d')
 
     urls = [

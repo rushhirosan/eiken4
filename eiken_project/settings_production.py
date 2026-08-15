@@ -28,7 +28,10 @@ ALLOWED_HOSTS = ['*']
 CSRF_TRUSTED_ORIGINS = [
     'https://eiken-app.fly.dev',
     'https://*.fly.dev',
+    'https://eigogohan.com',
+    'https://www.eigogohan.com',
     'https://eiken-practice.com',
+    'https://www.eiken-practice.com',
 ]
 
 # Database

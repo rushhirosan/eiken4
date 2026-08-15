@@ -4,15 +4,20 @@ from django.http import HttpResponsePermanentRedirect
 
 
 class CanonicalHostRedirectMiddleware:
-    """Redirect legacy Fly hostname to the custom domain (301).
+    """Redirect legacy / www hosts to the canonical apex domain (301).
 
     Keeps /healthz/ on the Fly hostname so platform health checks stay local.
     Appends a trailing slash for extension-less paths so Googlebot gets a single
     hop to the canonical URL (avoids fly.dev → apex → APPEND_SLASH chains).
     """
 
-    CANONICAL_HOST = 'eiken-practice.com'
-    LEGACY_HOSTS = frozenset({'eiken-app.fly.dev'})
+    CANONICAL_HOST = 'eigogohan.com'
+    LEGACY_HOSTS = frozenset({
+        'eiken-app.fly.dev',
+        'eiken-practice.com',
+        'www.eiken-practice.com',
+        'www.eigogohan.com',
+    })
     EXEMPT_PATH_PREFIXES = ('/healthz',)
 
     def __init__(self, get_response):

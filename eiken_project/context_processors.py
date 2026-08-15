@@ -15,7 +15,7 @@ def site_brand(request):
     return {
         'SITE_BRAND_NAME': getattr(settings, 'SITE_BRAND_NAME', 'えいごごはん'),
         'SITE_BRAND_FULL_NAME': getattr(settings, 'SITE_BRAND_FULL_NAME', 'EigoGohan'),
-        'PUBLIC_BASE_URL': getattr(settings, 'PUBLIC_BASE_URL', 'https://eiken-practice.com'),
+        'PUBLIC_BASE_URL': getattr(settings, 'PUBLIC_BASE_URL', 'https://eigogohan.com'),
     }
 
 

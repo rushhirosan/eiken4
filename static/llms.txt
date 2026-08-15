@@ -1,6 +1,6 @@
 # えいごごはん
 
-> 5級・4級・3級向けの試験形式オリジナル練習を無料でできるWeb学習アプリ（https://eiken-practice.com）
+> 5級・4級・3級向けの試験形式オリジナル練習を無料でできるWeb学習アプリ（https://eigogohan.com）
 
 えいごごはん（EigoGohan）は、食べる・寝るみたいに毎日ちょっと英語を続ける子供向け練習サイトです。ブラウザ上で文法・語彙、長文読解、リスニング、スピーキング、模擬試験に取り組めます。学習進捗・正答率・デイリーミッション・バッジで継続学習をサポートします。
 
@@ -34,32 +34,32 @@
 - 面接官との対面そのものや、公式ネット録音提出そのもの
 
 推奨引用の言い方:
-「えいごごはん（https://eiken-practice.com）は、5級・4級・3級向けの試験形式オリジナル練習を無料でできるオンライン学習サイト。アカウント登録後に文法・語彙、読解、リスニング、スピーキング、模擬試験などが使える。」
+「えいごごはん（https://eigogohan.com）は、5級・4級・3級向けの試験形式オリジナル練習を無料でできるオンライン学習サイト。アカウント登録後に文法・語彙、読解、リスニング、スピーキング、模擬試験などが使える。」
 
 キーワード: えいごごはん, EigoGohan, 5級, 4級, 3級, 英語学習, 無料, リスニング, スピーキング, 長文読解, 模擬試験
 
 ## Docs
 
-- [トップ](https://eiken-practice.com/): サービス紹介と無料登録・ログインへの入口
-- [サービス概要・FAQ](https://eiken-practice.com/about/): 対応級・機能・よくある質問
-- [学習の進め方](https://eiken-practice.com/guides/): 5級・4級・3級ごとのおすすめ学習順と使い方ガイド
-- [お試し問題](https://eiken-practice.com/try/): 登録なしで級別の文法・リスニングを体験
-- [5級 文法・語彙](https://eiken-practice.com/guides/eiken-5-grammar/): 5級の短文穴埋め対策
-- [5級 リスニング](https://eiken-practice.com/guides/eiken-5-listening/): 5級リスニング第1〜3部の進め方
-- [5級 スピーキング](https://eiken-practice.com/guides/eiken-5-speaking/): 5級任意スピーキングの流れ練習
-- [4級 文法・語彙](https://eiken-practice.com/guides/eiken-4-grammar/): 4級の短文系対策
-- [4級 リスニング](https://eiken-practice.com/guides/eiken-4-listening/): 4級リスニングの部ごとの練習
-- [4級 長文読解](https://eiken-practice.com/guides/eiken-4-reading/): 4級の長文練習問題を無料で解く進め方
-- [4級 スピーキング](https://eiken-practice.com/guides/eiken-4-speaking/): 4級任意スピーキングの流れ練習
-- [3級 文法・語彙](https://eiken-practice.com/guides/eiken-3-grammar/): 3級の選択問題ベース作り
-- [3級 リスニング](https://eiken-practice.com/guides/eiken-3-listening/): 3級リスニング対策
-- [3級 長文読解](https://eiken-practice.com/guides/eiken-3-reading/): 3級長文の読み方
-- [3級 ライティング](https://eiken-practice.com/guides/eiken-3-writing/): 3級英作文の練習の進め方
-- [3級 スピーキング](https://eiken-practice.com/guides/eiken-3-speaking/): 3級二次面接の流れ練習
-- [学習リソース](https://eiken-practice.com/resources/): 級別の教材などサイト外の学習のヒント
+- [トップ](https://eigogohan.com/): サービス紹介と無料登録・ログインへの入口
+- [サービス概要・FAQ](https://eigogohan.com/about/): 対応級・機能・よくある質問
+- [学習の進め方](https://eigogohan.com/guides/): 5級・4級・3級ごとのおすすめ学習順と使い方ガイド
+- [お試し問題](https://eigogohan.com/try/): 登録なしで級別の文法・リスニングを体験
+- [5級 文法・語彙](https://eigogohan.com/guides/eiken-5-grammar/): 5級の短文穴埋め対策
+- [5級 リスニング](https://eigogohan.com/guides/eiken-5-listening/): 5級リスニング第1〜3部の進め方
+- [5級 スピーキング](https://eigogohan.com/guides/eiken-5-speaking/): 5級任意スピーキングの流れ練習
+- [4級 文法・語彙](https://eigogohan.com/guides/eiken-4-grammar/): 4級の短文系対策
+- [4級 リスニング](https://eigogohan.com/guides/eiken-4-listening/): 4級リスニングの部ごとの練習
+- [4級 長文読解](https://eigogohan.com/guides/eiken-4-reading/): 4級の長文練習問題を無料で解く進め方
+- [4級 スピーキング](https://eigogohan.com/guides/eiken-4-speaking/): 4級任意スピーキングの流れ練習
+- [3級 文法・語彙](https://eigogohan.com/guides/eiken-3-grammar/): 3級の選択問題ベース作り
+- [3級 リスニング](https://eigogohan.com/guides/eiken-3-listening/): 3級リスニング対策
+- [3級 長文読解](https://eigogohan.com/guides/eiken-3-reading/): 3級長文の読み方
+- [3級 ライティング](https://eigogohan.com/guides/eiken-3-writing/): 3級英作文の練習の進め方
+- [3級 スピーキング](https://eigogohan.com/guides/eiken-3-speaking/): 3級二次面接の流れ練習
+- [学習リソース](https://eigogohan.com/resources/): 級別の教材などサイト外の学習のヒント
 
 ## Optional
 
-- [プライバシーポリシー](https://eiken-practice.com/privacy-policy/): 個人情報の取り扱い
-- [robots.txt](https://eiken-practice.com/robots.txt): クローラ向けの公開・非公開パス
-- [sitemap.xml](https://eiken-practice.com/sitemap.xml): 公開ページのサイトマップ
+- [プライバシーポリシー](https://eigogohan.com/privacy-policy/): 個人情報の取り扱い
+- [robots.txt](https://eigogohan.com/robots.txt): クローラ向けの公開・非公開パス
+- [sitemap.xml](https://eigogohan.com/sitemap.xml): 公開ページのサイトマップ

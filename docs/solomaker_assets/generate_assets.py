@@ -152,7 +152,7 @@ def brand_chip(draw: ImageDraw.ImageDraw, x: int, y: int) -> None:
 
 def footer_url(draw: ImageDraw.ImageDraw, w: int, h: int) -> None:
     f = f_reg(18)
-    url = "eiken-practice.com"
+    url = "eigogohan.com"
     tw = text_width(draw, url, f)
     draw.text(((w - tw) / 2, h - 42), url, font=f, fill=MUTED)
 
@@ -237,7 +237,7 @@ def make_explain_01() -> Path:
     for i, c in enumerate([(255, 95, 86), (255, 189, 46), (39, 201, 63)]):
         d.ellipse([bx0 + 22 + i * 18, by0 + 20, bx0 + 34 + i * 18, by0 + 32], fill=c)
     d.rounded_rectangle([bx0 + 90, by0 + 18, bx1 - 24, by0 + 34], radius=6, fill=(50, 60, 95))
-    d.text((bx0 + 100, by0 + 18), "eiken-practice.com", font=f_reg(12), fill=(180, 190, 220))
+    d.text((bx0 + 100, by0 + 18), "eigogohan.com", font=f_reg(12), fill=(180, 190, 220))
 
     # content area
     d.rounded_rectangle([bx0 + 18, by0 + 56, bx1 - 18, by1 - 18], radius=12, fill=BG)
