@@ -246,8 +246,8 @@ python manage.py register_speaking_questions --level 5 --original
 
 **5級の残り（本番前）**
 
-- [ ] 人の目視で公式公開過去問と並べて酷似最終確認（スキル通過後の人間チェック）
-- [ ] 「公式の過去問はこちら」リンク（級ページ／試験一覧）
+- [x] 人の目視で公式公開過去問と並べて酷似最終確認（スキル通過後の人間チェック）
+- [x] 「公式の過去問はこちら」リンク（級ページ／試験一覧）
 - [ ] 本番（Fly）へ original テキスト・静的アセット・DB 登録の反映
 - [ ] 本番で `published` のみ見えること・公式メディアが出ないことの確認
 
@@ -268,7 +268,7 @@ python manage.py register_speaking_questions --level 5 --original
 - [ ] リスニング文章（`listening_passage_questions.txt`）＋TTS（4級にある形式）
 - [ ] スピーキング（`speaking_questions.txt`）
 - [ ] （任意）ライティングは3級優先でも可。4級に出すなら original で
-- [ ] 公式過去問リンク
+- [x] 公式過去問リンク
 - [ ] `--level 4 --original` で登録・ローカル確認
 
 **4級の注意**
@@ -301,8 +301,8 @@ python manage.py register_speaking_questions --level 5 --original
 - [x] TTS・イラスト画像などのアセット（目視前）
 - [x] `--level 3 --original` ローカル登録
 - [ ] 酷似再確認・解説/品質レビューの仕上げ（任意）
-- [ ] 人の目視（`VISUAL_CHECK.md`）・画面テスト
-- [ ] 公式過去問リンク
+- [x] 人の目視（`VISUAL_CHECK.md`）・画面テスト
+- [x] 公式過去問リンク
 - [ ] 本番反映
 
 ---

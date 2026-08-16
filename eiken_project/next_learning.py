@@ -54,9 +54,25 @@ class ResourcesPageSection(TypedDict):
     level_label: str
     intro: str
     tips: list[LearningTip]
+    official_past_questions_url: str
+    official_past_questions_label: str
 
 
-# Amazon 検索ベース URL（tag は affiliate_url で付与）
+# 協会の級別過去問ページ（アフィリエイト対象外）
+OFFICIAL_GRADE_PAST_QUESTION_URLS: dict[str, str] = {
+    '5': 'https://www.eiken.or.jp/eiken/exam/grade_5/',
+    '4': 'https://www.eiken.or.jp/eiken/exam/grade_4/',
+    '3': 'https://www.eiken.or.jp/eiken/exam/grade_3/',
+}
+
+
+def official_past_questions_url(level: str) -> str:
+    """級の協会公式過去問ページ URL。未知の級は試験一覧へ。"""
+    return OFFICIAL_GRADE_PAST_QUESTION_URLS.get(
+        str(level),
+        'https://www.eiken.or.jp/eiken/exam/',
+    )
+
 NEXT_LEARNING_BY_LEVEL: dict[str, NextLearningResource] = {
     '5': {
         'level': '5',
@@ -120,6 +136,8 @@ def resources_page_sections() -> list[ResourcesPageSection]:
                 '入門級です。サイトで文法・会話・リスニングを固めるだけで十分進められます。'
                 '紙の過去問・問題集は必須ではありません。'
             ),
+            'official_past_questions_url': OFFICIAL_GRADE_PAST_QUESTION_URLS['5'],
+            'official_past_questions_label': '協会の5級過去問・試験内容ページ（公式）',
             'tips': [
                 {
                     'title': '5級の過去問・問題集',
@@ -142,6 +160,8 @@ def resources_page_sections() -> list[ResourcesPageSection]:
                 '長文が加わる級です。サイトで形式別に練習するだけで十分進められます。'
                 '紙の過去問・問題集は必須ではありません。'
             ),
+            'official_past_questions_url': OFFICIAL_GRADE_PAST_QUESTION_URLS['4'],
+            'official_past_questions_label': '協会の4級過去問・試験内容ページ（公式）',
             'tips': [
                 {
                     'title': '4級の過去問・問題集',
@@ -170,6 +190,8 @@ def resources_page_sections() -> list[ResourcesPageSection]:
                 'ライティングがある級です。選択問題と英作文をサイトで分けて練習するだけで十分進められます。'
                 '紙の過去問・問題集は必須ではありません。'
             ),
+            'official_past_questions_url': OFFICIAL_GRADE_PAST_QUESTION_URLS['3'],
+            'official_past_questions_label': '協会の3級過去問・試験内容ページ（公式）',
             'tips': [
                 {
                     'title': '3級の過去問・問題集',

@@ -167,6 +167,16 @@
                     {% for section in sections %}
                     <h2 id="level-{{ section.level }}">{{ section.level_label }}</h2>
                     <p>{{ section.intro }}</p>
+                    {% if section.official_past_questions_url %}
+                    <p class="small mb-3">
+                        本物の過去問は協会サイトへ:
+                        <a href="{{ section.official_past_questions_url }}"
+                           target="_blank"
+                           rel="noopener noreferrer">
+                            {{ section.official_past_questions_label }}
+                        </a>
+                    </p>
+                    {% endif %}
                     {% for tip in section.tips %}
                     <div class="resource-tip">
                         <p class="resource-tip-title">
@@ -192,6 +202,9 @@
                         <p class="small mb-0">
                             本サイトは公益財団法人 日本英語検定協会の公式サイトではありません。学習の進め方は
                             <a href="{% url 'guides' %}">級別ガイド</a>もあわせてご覧ください。
+                            本物の過去問は
+                            <a href="https://www.eiken.or.jp/eiken/exam/" target="_blank" rel="noopener noreferrer">協会の試験・過去問ページ</a>
+                            をご覧ください。
                         </p>
                     </div>
 

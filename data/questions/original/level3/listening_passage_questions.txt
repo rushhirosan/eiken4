@@ -1,52 +1,52 @@
 No.1:
-W: Next Sunday, Nao will help at her aunt's bookstore. She will put new books on the shelves and talk to customers. She wants to buy a guidebook with her pay.
+W: Next Sunday, Nao will work at the community garden near her house. She will water the tomato plants and pick weeds. She wants to take home some fresh herbs.
 
 Question No.1:
-Where will Nao help next Sunday?
+Where will Nao work next Sunday?
 
 1. At a bakery.
-2. At a bookstore.
+2. At a community garden.
 3. At a museum.
 4. At a library.
 
 【正解1】
-2. At a bookstore.
+2. At a community garden.
 
 【解説1】
 放送文
-W: Next Sunday, Nao will help at her aunt's bookstore.（次の日曜日、ナオはおばの本屋を手伝います。）
-She will put new books on the shelves and talk to customers.（新しい本を棚に並べたり、お客さんと話したりします。）
-She wants to buy a guidebook with her pay.（お給料でガイドブックを買いたいと思っています。）
-Question: Where will Nao help next Sunday?（ナオは次の日曜日、どこを手伝いますか？）
+W: Next Sunday, Nao will work at the community garden near her house.（次の日曜日、ナオは家の近くのコミュニティガーデンで働きます。）
+She will water the tomato plants and pick weeds.（トマトに水をやり、雑草を抜きます。）
+She wants to take home some fresh herbs.（新鮮なハーブを家に持ち帰りたいと思っています。）
+Question: Where will Nao work next Sunday?（ナオは次の日曜日、どこで働きますか？）
 
-「bookstore（本屋）」とあるので、2が正解です。
-ガイドブックを買う話はお給料の使い道で、手伝う場所ではありません。
+「community garden（コミュニティガーデン）」とあるので、2が正解です。
+ハーブを持ち帰る話はあとでしたいことで、働く場所ではありません。
 
 ---
 
 No.2:
-M: Yesterday, Hina found a lost scarf on the train. She took it to the station office. A staff member said the owner came in the evening.
+M: Yesterday, Hina taught her neighbor how to use a new tablet. They practiced sending photos and writing short messages. In the evening, her neighbor cooked dinner to say thank you.
 
 Question No.2:
-What did Hina find on the train?
+What did Hina teach her neighbor?
 
-1. A lost bag.
-2. A lost ticket.
-3. A lost scarf.
-4. A lost phone.
+1. How to bake bread.
+2. How to ride a bike.
+3. How to use a new tablet.
+4. How to play the piano.
 
 【正解2】
-3. A lost scarf.
+3. How to use a new tablet.
 
 【解説2】
 放送文
-M: Yesterday, Hina found a lost scarf on the train.（きのう、ヒナは電車で迷子のマフラーを見つけました。）
-She took it to the station office.（駅の事務所へ持って行きました。）
-A staff member said the owner came in the evening.（夕方に持ち主が来た、と駅員が言いました。）
-Question: What did Hina find on the train?（ヒナは電車で何を見つけましたか？）
+M: Yesterday, Hina taught her neighbor how to use a new tablet.（きのう、ヒナは隣人に新しいタブレットの使い方を教えました。）
+They practiced sending photos and writing short messages.（写真の送り方や短いメッセージの書き方を練習しました。）
+In the evening, her neighbor cooked dinner to say thank you.（夕方、隣人はお礼に夕食を作りました。）
+Question: What did Hina teach her neighbor?（ヒナは隣人に何を教えましたか？）
 
-「lost scarf（迷子のマフラー）」とあるので、3が正解です。
-事務所へ持って行った、はあとでした行動です。
+「how to use a new tablet」とあるので、3が正解です。
+夕食はお礼で、教えた内容ではありません。
 
 ---
 

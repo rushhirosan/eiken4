@@ -10,6 +10,17 @@
             <div class="text-center mb-1 px-2 exam-level-focus">
                 <p class="text-muted small mb-1">現在の試験級</p>
                 <p class="exam-level-focus-title mb-0">{{ active_section.level_name }}</p>
+                {% if active_section.official_past_questions_url %}
+                <p class="small text-muted mb-0 mt-1">
+                    本物の過去問は
+                    <a href="{{ active_section.official_past_questions_url }}"
+                       target="_blank"
+                       rel="noopener noreferrer">
+                        協会の公式ページ
+                    </a>
+                    へ
+                </p>
+                {% endif %}
             </div>
 
             {% include 'exams/_habit_status.html' with habit_summary=active_section.habit_summary %}

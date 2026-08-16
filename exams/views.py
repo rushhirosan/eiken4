@@ -5,6 +5,7 @@ from accounts.views import get_client_ip
 from eiken_project.next_learning import (
     mark_next_learning_tip_shown,
     next_learning_weekly_cap_allows,
+    official_past_questions_url,
     select_answer_result_tip,
 )
 from django.conf import settings
@@ -630,6 +631,7 @@ def _build_exam_section(user, level_code, level_name, daily_goal=3):
         'random_unlock_help_text': random_unlock_help_text(),
         'mock_exam_scope_description': mock_exam_scope_description(level_code),
         'mock_unlock_help_text': mock_unlock_help_text(level_code),
+        'official_past_questions_url': official_past_questions_url(level_code),
     }
 
 
