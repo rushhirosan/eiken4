@@ -4,7 +4,12 @@ from django.db import models
 # Create your models here.
 
 class CustomUser(AbstractUser):
-    # 追加のフィールドが必要な場合はここに追加
+    preferred_exam_level = models.CharField(
+        max_length=10,
+        blank=True,
+        default='',
+        help_text='問題一覧で最後に選んだ級（5 / 4 / 3）。ログイン後の表示に使う。',
+    )
     groups = models.ManyToManyField(
         'auth.Group',
         verbose_name='groups',

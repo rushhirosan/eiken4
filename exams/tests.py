@@ -211,7 +211,7 @@ class ExamListViewTest(TestCase):
         self.assertNotContains(response, 'ライティングはランダム10問に含まれません')
 
     def test_exam_list_level_query_switches_focus(self):
-        """?level= で級を切り替え、セッションに保存する"""
+        """?level= で級を切り替え、セッションとユーザーに保存する"""
         self.client.login(username='testuser', password='testpass123')
         response = self.client.get(self.url, {'level': '3'})
         self.assertContains(response, 'id="level-panel-3"')
@@ -219,11 +219,42 @@ class ExamListViewTest(TestCase):
         self.assertContains(response, 'ライティング問題')
         self.assertContains(response, '長文・ライティングはランダム10問に含まれません')
         self.assertEqual(self.client.session.get('preferred_exam_level'), '3')
+        self.user.refresh_from_db()
+        self.assertEqual(self.user.preferred_exam_level, '3')
 
         response = self.client.get(self.url)
         self.assertContains(response, 'id="level-panel-3"')
         self.assertContains(response, 'ライティング問題')
         self.assertNotContains(response, 'type=word_order')
+
+    def test_exam_list_restores_preferred_level_after_relogin(self):
+        """ログアウト後も、前回選んだ級を問題一覧に復元する"""
+        self.client.login(username='testuser', password='testpass123')
+        self.client.get(self.url, {'level': '5'})
+        self.user.refresh_from_db()
+        self.assertEqual(self.user.preferred_exam_level, '5')
+
+        self.client.logout()
+        self.client.login(username='testuser', password='testpass123')
+        response = self.client.get(self.url)
+        self.assertContains(response, 'id="level-panel-5"')
+        self.assertContains(response, '<option value="5" selected>5級</option>', html=True)
+        self.assertEqual(self.client.session.get('preferred_exam_level'), '5')
+
+    def test_exam_list_falls_back_to_recent_progress_level(self):
+        """ユーザー設定が空でも、直近の学習級を問題一覧に使う"""
+        UserProgress.objects.create(
+            user=self.user,
+            level='3',
+            question_type='grammar_fill',
+            total_attempts=1,
+            correct_answers=1,
+            last_attempted=timezone.now(),
+        )
+        self.client.login(username='testuser', password='testpass123')
+        response = self.client.get(self.url)
+        self.assertContains(response, 'id="level-panel-3"')
+        self.assertEqual(self.client.session.get('preferred_exam_level'), '3')
 
     def test_exam_list_shows_daily_missions(self):
         """問題一覧に今日のミッションカードが表示される"""

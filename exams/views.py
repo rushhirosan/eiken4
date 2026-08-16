@@ -534,13 +534,43 @@ def _is_correct_listening_illustration_answer(question, selected_answer, request
 
 def _set_preferred_exam_level(request, level):
     level = str(level)
-    if level in VALID_EXAM_LEVELS:
-        request.session[PREFERRED_LEVEL_SESSION_KEY] = level
+    if level not in VALID_EXAM_LEVELS:
+        return
+    request.session[PREFERRED_LEVEL_SESSION_KEY] = level
+    user = getattr(request, 'user', None)
+    if user is not None and user.is_authenticated and user.preferred_exam_level != level:
+        user.preferred_exam_level = level
+        user.save(update_fields=['preferred_exam_level'])
+
+
+def _preferred_level_from_progress(user):
+    """直近の学習級を返す（ユーザー設定が空のときのフォールバック）。"""
+    latest = (
+        UserProgress.objects.filter(user=user, level__in=VALID_EXAM_LEVELS)
+        .order_by('-last_attempted')
+        .values_list('level', flat=True)
+        .first()
+    )
+    return latest if latest in VALID_EXAM_LEVELS else None
 
 
 def _get_preferred_exam_level(request):
-    level = request.session.get(PREFERRED_LEVEL_SESSION_KEY, '4')
-    return level if level in VALID_EXAM_LEVELS else '4'
+    level = request.session.get(PREFERRED_LEVEL_SESSION_KEY)
+    if level in VALID_EXAM_LEVELS:
+        return level
+
+    user = getattr(request, 'user', None)
+    if user is not None and user.is_authenticated:
+        user_level = (user.preferred_exam_level or '').strip()
+        if user_level in VALID_EXAM_LEVELS:
+            request.session[PREFERRED_LEVEL_SESSION_KEY] = user_level
+            return user_level
+        progress_level = _preferred_level_from_progress(user)
+        if progress_level:
+            request.session[PREFERRED_LEVEL_SESSION_KEY] = progress_level
+            return progress_level
+
+    return '4'
 
 
 def _exam_level_name(level_code):
