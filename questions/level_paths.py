@@ -1,26 +1,28 @@
 """
 級別の問題テキスト・静的ファイル（DB に保存する相対パス）の規約。
 
-- level=='4': 従来どおり data/questions/*.txt、audio/part*、images/part1（変更しない）。
-- level=='3': data/questions/level3/*.txt、audio/level3/part*、images/level3/part1。
-- level=='5': data/questions/level5/*.txt、audio/level5/part1|2|3、images/level5/part1。
-  イラスト系リスニングは No.1–100→part1（会話応答）、No.101+→part3（イラスト一致）。
-  第1部・第3部を番号帯で分離し、双方を増やせるようにしている。part3 は文章問題ではなくイラスト一致。
+- 音声・画像: 全級とも `static/audio/level{N}/part*`・`static/images/level{N}/part1`
+  （DB 相対パスは `audio/level{N}/part*`・`images/level{N}/part1`）。
+- レガシー問題 txt: level=='4' は `data/questions/*.txt`、3/5 は `data/questions/level{N}/`。
+- 公開用 original: `data/questions/original/level{N}/`。
+- 5級イラスト系: No.1–100→part1（会話応答）、No.101+→part3（イラスト一致）。
 """
 import os
 
 from django.conf import settings
 
 
-def questions_file_relpath(level: str, filename: str) -> str:
+def questions_file_relpath(level: str, filename: str, *, original: bool = False) -> str:
     """プロジェクトルートからの相対パス（manage.py と同じ cwd を想定）。"""
+    if original:
+        return os.path.join('data', 'questions', 'original', f'level{level}', filename)
     if level == '4':
         return os.path.join('data', 'questions', filename)
     return os.path.join('data', 'questions', f'level{level}', filename)
 
 
-def questions_file_abspath(level: str, filename: str) -> str:
-    return os.path.join(settings.BASE_DIR, questions_file_relpath(level, filename))
+def questions_file_abspath(level: str, filename: str, *, original: bool = False) -> str:
+    return os.path.join(settings.BASE_DIR, questions_file_relpath(level, filename, original=original))
 
 
 LISTENING_ILLUSTRATION_PART3_MIN = 101
@@ -35,34 +37,24 @@ def listening_illustration_audio_part(level: str, question_number: int) -> str:
 
 def db_audio_path(level: str, part: str, basename: str) -> str:
     """part: part1 | part2 | part3"""
-    if level == '4':
-        return f'audio/{part}/{basename}'
     return f'audio/level{level}/{part}/{basename}'
 
 
 def db_image_path_part1(level: str, basename: str) -> str:
-    if level == '4':
-        return f'images/part1/{basename}'
     return f'images/level{level}/part1/{basename}'
 
 
 def static_audio_dir(level: str, part: str) -> str:
-    if level == '4':
-        return os.path.join(settings.BASE_DIR, 'static', 'audio', part)
     return os.path.join(settings.BASE_DIR, 'static', 'audio', f'level{level}', part)
 
 
 def static_images_part1_dir(level: str) -> str:
     """公開用 static。公式由来アーカイブは archived_images_part1_dir。"""
-    if level == '4':
-        return os.path.join(settings.BASE_DIR, 'static', 'images', 'part1')
     return os.path.join(settings.BASE_DIR, 'static', 'images', f'level{level}', 'part1')
 
 
 def archived_audio_dir(level: str, part: str) -> str:
     """公式由来音声の保管先（配信対象外）。"""
-    if level == '4':
-        return os.path.join(settings.BASE_DIR, 'data', 'archived_media', 'audio', part)
     return os.path.join(
         settings.BASE_DIR, 'data', 'archived_media', 'audio', f'level{level}', part
     )
@@ -70,8 +62,6 @@ def archived_audio_dir(level: str, part: str) -> str:
 
 def archived_images_part1_dir(level: str) -> str:
     """公式由来画像の保管先（配信対象外）。"""
-    if level == '4':
-        return os.path.join(settings.BASE_DIR, 'data', 'archived_media', 'images', 'part1')
     return os.path.join(
         settings.BASE_DIR, 'data', 'archived_media', 'images', f'level{level}', 'part1'
     )
@@ -85,6 +75,14 @@ def add_default_register_arguments(parser):
         default='4',
         choices=['3', '4', '5'],
         help='試験級（既定: 4）。3/5 のとき data/questions/level{N}/ と DB の level=N を使用。',
+    )
+    parser.add_argument(
+        '--original',
+        action='store_true',
+        help=(
+            'data/questions/original/level{N}/ から読み、provenance=original で登録する。'
+            '既存の original のみ削除して差し替える（blocked は残す）。'
+        ),
     )
     parser.add_argument(
         '--allow-legacy-blocked-import',

@@ -413,8 +413,8 @@ class TrySamplePageTest(TestCase):
             provenance=PROVENANCE_ORIGINAL,
             level='4',
             question_text='Choose the correct picture.',
-            image='images/part1/listening_illustration_image1.png',
-            audio='audio/part1/listening_illustration_question1.mp3',
+            image='images/level4/part1/listening_illustration_image1.png',
+            audio='audio/level4/part1/listening_illustration_question1.mp3',
             correct_answer='1',
             explanation='1が正解です。',
         )
@@ -460,8 +460,8 @@ class TrySamplePageTest(TestCase):
         self.assertContains(response, '文法・リスニング・長文をお試し')
         self.assertContains(response, 'I ( ) a book.')
         self.assertContains(response, 'Choose the correct picture.')
-        self.assertContains(response, 'audio/part1/listening_illustration_question1.mp3')
-        self.assertContains(response, 'images/part1/listening_illustration_image1.png')
+        self.assertContains(response, 'audio/level4/part1/listening_illustration_question1.mp3')
+        self.assertContains(response, 'images/level4/part1/listening_illustration_image1.png')
         self.assertContains(response, 'Tom has a dog.')
         self.assertContains(response, 'What color is the dog?')
         self.assertContains(response, '長文読解（お試し）')

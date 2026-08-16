@@ -9,6 +9,30 @@
 
 ---
 
+## いまの位置（2026-08-15 時点）
+
+| 項目 | 状態 |
+|------|------|
+| Phase 0〜2 | **完了**（公開は `original` のみ。既存は `blocked`） |
+| Phase 3・5級 | **ローカル最小セット作成・登録・画面確認まで完了**（本番デプロイは未） |
+| Phase 3・4級 | **ローカル最小セット作成・目視・テスト完了**（本番デプロイは未） |
+| Phase 3・3級 | **ローカル登録済み**（目視・画面テストはこれから） |
+| Phase 4 | 運用ルール一部整備。公開前チェックの必須化は未 |
+
+**リスクの言い方（社内メモ）**
+
+- 「公式転載を公開している」E型からは脱出済み（設計上）。
+- 「著作権リスクがゼロ」とは言わない。酷似の最終目視・本番配信確認・商標文言が残る。
+- 公開クエリは `original` のみでも、リポジトリに公式由来 txt / PDF / `archived_media` は保管として残る。誤登録・誤配信に注意。
+
+```text
+[完了] Phase0 停止 → Phase1 ブランド → Phase2 出所
+[いま] Phase3: 5級・4級ローカル完了 → 次は3級（テキスト着手）
+[継続] Phase4 運用・本番公開前チェック
+```
+
+---
+
 ## 世の中の正攻法（このロードマップの手本）
 
 出回っている対策物は、だいたい次のどれか。**見た目は似ていても、権利の土台が違う。**
@@ -70,20 +94,13 @@ B は協会・出版社との契約が前提なので、個人開発では狙わ
 
 ## フェーズ概要
 
-| Phase | 目的 | 手本との対応 | 目安 |
+| Phase | 目的 | 手本との対応 | 状態 |
 |-------|------|--------------|------|
-| 0 | E型の露出を止める | 危険ゾーンから脱出 | 今すぐ〜数日 |
-| 1 | 商標・ブランドを市販並みに | 大手の ®・非承認・自社名 | 1〜2週 |
-| 2 | 出所管理を仕組み化 | 「すべてオリジナル」を技術で担保 | Phase 0 と並行可 |
-| 3 | C型コンテンツを積み上げる | ゼミ本・予想ドリルと同じ作り | 数週〜数ヶ月（5→4→3） |
-| 4 | 運用で再発防止 | 公開前チェックを習慣化 | 継続 |
-
-```text
-[いま: E寄り] → Phase0 停止 → Phase1 ブランド
-                      ↘ Phase2 出所
-                            → Phase3 オリジナル再公開 → Phase4 運用
-                              （完成形: C型）
-```
+| 0 | E型の露出を止める | 危険ゾーンから脱出 | **完了** |
+| 1 | 商標・ブランドを市販並みに | 大手の ®・非承認・自社名 | **完了** |
+| 2 | 出所管理を仕組み化 | 「すべてオリジナル」を技術で担保 | **完了**（任意の出所メモのみ残） |
+| 3 | C型コンテンツを積み上げる | ゼミ本・予想ドリルと同じ作り | **5級ローカル完了 → 次4級** |
+| 4 | 運用で再発防止 | 公開前チェックを習慣化 | **一部完了・継続** |
 
 ---
 
@@ -97,11 +114,11 @@ B は協会・出版社との契約が前提なので、個人開発では狙わ
 - [x] 「過去問」「公式に近い」と誤解されるコピーを見直し
 - [x] （任意）メンテ中も「公式過去問は協会サイトへ」リンクだけ残す（Aへの誘導）
 
-**完了条件:** 外部ユーザーが公式由来の問題・音声・画像に到達できない。
+**完了条件:** 外部ユーザーが公式由来の問題・音声・画像に到達できない。 → **達成**
 
 > 実装メモ（シンプル方針）:
 > - 既存は公式/AI を**分類しない**（誤ラベル自体がリスク）
-> - すべて `blocked` のまま残し、公開クエリは `original` のみ（問題ゼロ公開）
+> - すべて `blocked` のまま残し、公開クエリは `original` のみ
 > - 公開してよいのは、公式・既存文面を見ずに新規作成し `original` を明示したものだけ
 > - `data/pdf_import` は保管・形式参考用に残す。再取り込みは既定禁止（`LEGACY_QUESTION_IMPORT_ENABLED` / `ALLOW_LEGACY_PDF_IMPORT`）
 > - 公式由来メディアは `data/archived_media/`（`static/` から移設）
@@ -126,8 +143,6 @@ B は協会・出版社との契約が前提なので、個人開発では狙わ
 - [x] （任意）商標の説明的利用の範囲で迷う場合は `chitekizaisan@eiken.or.jp` に確認  
   → **スキップ**（現状迷っていない。必要になったら送る）
 
-**候補名の例（要選定）:** ~~EigoGohan、Grade Drill、Kids Grade Practice など~~ → **えいごごはん** に決定
-
 **完了条件:** 公開面のブランドが自社名中心。試験名は説明＋®・非承認のみ。 → **達成（Phase 1 完了）**
 
 ---
@@ -140,13 +155,30 @@ B は協会・出版社との契約が前提なので、個人開発では狙わ
 `original` は「これから明示的に自作したもの」だけ。誤って `original` を付けるのが最大リスクなので、出所の精密ラベリングはしない。
 
 - [x] `Question` に `provenance`（`original` / `blocked` 等）を追加
-- [x] 公開クエリは `provenance=original` のみ
+- [x] 公開クエリは `provenance=original` のみ（`Question.objects.published()` 等）
 - [x] 既存問題を一括 `blocked`（または削除）
 - [x] 新規作成の既定値を `blocked`（公開は明示的な `original` のみ）
 - [x] 公式PDFインポート用コマンド／utils を無効化または削除
+- [x] 登録コマンドに `--original` を追加（`questions/register_source.py` + `level_paths.questions_file_abspath(..., original=True)`）
+  - 読み先: `data/questions/original/level{N}/`
+  - `--original` 時は当該 type/level の **original のみ**削除して差し替え（blocked は残す）
+  - `--original` と `--allow-legacy-blocked-import` は同時不可
 - [ ] 登録フローに「出所メモ」（誰が・いつ・どう作ったか）を残せるようにする（任意・後回し可）
 
-**完了条件:** コード上、既存・取り込みは公開できない。`original` を付けた新規だけ出る。
+**完了条件:** コード上、既存・取り込みは公開できない。`original` を付けた新規だけ出る。 → **達成**
+
+### 登録コマンド（original）
+
+```bash
+# 例: 5級
+python manage.py register_grammar_fill_questions --level 5 --original
+python manage.py register_conversation_fill_questions --level 5 --original
+python manage.py register_wordorder_fill_questions --level 5 --original
+python manage.py register_listening_illustration_questions --level 5 --original
+python manage.py create_listening_conversation_questions --level 5 --original
+python manage.py register_speaking_questions --level 5 --original
+# 4級では読解・文章リスニング等も同様に --level 4 --original
+```
 
 ---
 
@@ -161,36 +193,127 @@ B は協会・出版社との契約が前提なので、個人開発では狙わ
 - 難易度・出題形式・時間感は「級の傾向」として参考にしてよい
 - **文言・場面・選択肢・イラスト・音源は新規**（丸写し・並べ替え禁止）
 - 公式PDFを開いたまま AI に「同じ問題を」と依頼しない
-- 作成後、公式公開過去問と並べて酷似がないか目視
+- 作成後、公式公開過去問と並べて酷似がないか目視（スキル `eiken-originality-review` のあとに人の目）
 - 音声は TTS／自作、画像は自作またはライセンス済みのみ
 - 級ごとに「最小セットで一通り練習できる」ことを再公開条件にする
+- 置き場: `data/questions/original/level{N}/` のみ（`data/questions/level5/` 等の級別 txt は公式由来保管・公開登録しない）
 
-### 5級（最初の再公開単位）
+### 作業スキル入口
 
-- [ ] 文法・語彙
-- [ ] 会話補充
-- [ ] 語順
-- [ ] リスニング（自作／TTS）
-- [ ] イラスト（自作／ライセンス済み）
-- [ ] 「公式の過去問はこちら」リンク（級ページ）
+| 用途 | スキル |
+|------|--------|
+| 作問 | `eiken-original-authoring`（`references/*.md`） |
+| 酷似 | `eiken-originality-review`（公式由来は txt 比較。PDF は開かない） |
+| 級フィット・ダミー | `eiken-question-quality-review` |
+| 解説 | `eiken-explanation-quality-review` |
+| イラスト生成 | `eiken-listening-illustration-images` |
+| 登録・パス | `eiken-question-operations` / `eiken-question-pipeline` |
+| Cursor rule | `.cursor/rules/original-questions.mdc` |
 
-### 4級
+---
 
-- [ ] 上記＋読解のオリジナル
+### 5級（最初の再公開単位）— ローカル最小セット完了
+
+テキスト: `data/questions/original/level5/`
+
+| カテゴリ | ファイル | 件数（目安） | 状態 |
+|----------|----------|--------------|------|
+| 文法・語彙 | `grammar_fill_questions.txt` | 10 | [x] 作問・酷似・解説・登録・ローカル確認 |
+| 会話補充 | `conversation_questions.txt` | 10 | [x] 同上 |
+| 語順 | `wordorder_questions.txt` | 10 | [x] 同上 |
+| リスニング第1部 | `listening_illustration_questions.txt` No.1–10 | 10 | [x] TTS・画像・登録 |
+| リスニング第2部 | `listening_conversation_questions.txt` | 5 | [x] TTS・登録 |
+| リスニング第3部 | 同 txt No.101–105 | 5 | [x] TTS・本問画像・登録 |
+| スピーキング | `speaking_questions.txt` | 5 | [x] 作問・登録・ローカル確認 |
+
+**アセット（5級 original）**
+
+| 種類 | 配置 |
+|------|------|
+| 音声 Part1 | `static/audio/level5/part1/listening_illustration_question{1–10}.mp3` |
+| 音声 Part2 | `static/audio/level5/part2/listening_conversation_question{1–5}.mp3` |
+| 音声 Part3 | `static/audio/level5/part3/listening_illustration_question{101–105}.mp3` |
+| 本問画像 | `static/images/level5/part1/listening_illustration_image{1–10,101–105}.png` |
+| Part3 参考用選択肢画像（任意） | `.../listening_illustration_q{101–105}_choice{1–3}.png`（**UI には出さない**） |
+
+**実装・運用メモ（5級で決めたこと）**
+
+- TTS 話速: 5級は Edge TTS **`-15%`**（`utils/eiken_paths.default_tts_rate`）。他級は `+0%`。
+- Part3（イラスト一致）の UI 選択肢は **`1` / `2` / `3` のみ**。放送3文から本問イラストに合うものを選ぶ。`choice_text` に画像パスや英文を入れない（spoil・誤表示防止）。
+- 文法 Q1 正解は `food`（`give it some food`）。`fish` から差し替え済み。
+- スピーキングは自動採点しない。達成カードは「練習おつかれさま！…」（「ぜんぶ正解」は出さない）。模擬までの % 案内は解放対象カテゴリ向けに残る。
+- ローカル DB: 5級公開は original のみ（例: Question original 40 + Listening 15）。blocked は大量に残存してよい。
+
+**5級の残り（本番前）**
+
+- [ ] 人の目視で公式公開過去問と並べて酷似最終確認（スキル通過後の人間チェック）
+- [ ] 「公式の過去問はこちら」リンク（級ページ／試験一覧）
+- [ ] 本番（Fly）へ original テキスト・静的アセット・DB 登録の反映
+- [ ] 本番で `published` のみ見えること・公式メディアが出ないことの確認
+
+---
+
+### 4級（次: 明日から）
+
+5級と同じパイプライン。置き場は `data/questions/original/level4/`（なければ作成）。
+
+**4級で作るもの（最小セット案）**
+
+- [ ] 文法・語彙（`grammar_fill_questions.txt`）
+- [ ] 会話補充（`conversation_questions.txt`）
+- [ ] 語順（`wordorder_questions.txt`）
+- [ ] 読解（`reading_comprehesion_questions.txt` ※ファイル名は既存コマンドの typo に合わせる）
+- [ ] リスニングイラスト（`listening_illustration_questions.txt`）＋自作画像＋TTS
+- [ ] リスニング会話（`listening_conversation_questions.txt`）＋TTS
+- [ ] リスニング文章（`listening_passage_questions.txt`）＋TTS（4級にある形式）
+- [ ] スピーキング（`speaking_questions.txt`）
+- [ ] （任意）ライティングは3級優先でも可。4級に出すなら original で
 - [ ] 公式過去問リンク
+- [ ] `--level 4 --original` で登録・ローカル確認
+
+**4級の注意**
+
+- 4級のレガシー txt は `data/questions/*.txt`（`level4/` サブディレクトリではない）。**original は必ず `original/level4/`**。
+- 作問中に公式 PDF / レガシー txt を読んで類題にしない（傾向把握は級の一般知識レベルまで）。
+- 酷似チェック時だけ `data/questions/*.txt`（4級保管）と比較する。
+- 音声・画像: `static/audio/level4/part1|2|3/` と `static/images/level4/part1/`（他級と同様に `level{N}/` 配下。`questions/level_paths.py` / `utils/eiken_paths.py`）。
+- TTS 既定は `+0%`（5級より速め）。必要なら `--rate` で調整。
+
+**明日の進め方（推奨順）**
+
+1. `eiken-original-authoring` で文法 → 会話 → 語順（各10問前後のミニセットで可）
+2. 酷似・品質・解説スキル
+3. 読解ミニセット
+4. リスニング3種（テキスト → TTS → イラスト画像 → 登録）
+5. スピーキング
+6. `python manage.py … --level 4 --original` 一括登録 → ローカル画面確認
+
+---
 
 ### 3級
 
-- [ ] 読解・ライティング・スピーキング流れ練習（オリジナル）
+テキスト: `data/questions/original/level3/`（最小セット草稿）
+
+- [x] 文法・語彙 10 / 会話 10 / 語順 10（語順検算 OK）
+- [x] 読解 本文5×2
+- [x] リスニング3種（イラスト10・会話5・文章5）テキスト
+- [x] スピーキング 5 / ライティング 5
+- [x] TTS・イラスト画像などのアセット（目視前）
+- [x] `--level 3 --original` ローカル登録
+- [ ] 酷似再確認・解説/品質レビューの仕上げ（任意）
+- [ ] 人の目視（`VISUAL_CHECK.md`）・画面テスト
 - [ ] 公式過去問リンク
+- [ ] 本番反映
+
+---
 
 ### 学習体験（大手連動アプリから借りる機能価値）
 
 問題を合法にしたうえで、サイトの強みとして残す／伸ばす:
 
-- [ ] 進捗・間違えた問題の復習
-- [ ] デイリー／習慣
-- [ ] 解説
+- [x] 進捗・間違えた問題の復習（既存機能）
+- [x] デイリー／習慣（既存機能）
+- [x] 解説（original 作問時に品質レビュー済みのものを載せる）
 - [ ] （任意）級別の進め方ガイド（勉強法は D型として安全）
 
 **完了条件:** 級ごとにオリジナルのみで学習が一通りできる。本物の過去問は外部リンク。
@@ -199,20 +322,24 @@ B は協会・出版社との契約が前提なので、個人開発では狙わ
 
 ## Phase 4 — 運用で再発防止
 
-- [ ] Cursor rule / 本ドキュメントを作業の入口にする
+- [x] Cursor rule / 本ドキュメントを作業の入口にする  
+  → `.cursor/rules/original-questions.mdc`。作問 `eiken-original-authoring`、酷似 `eiken-originality-review`、解説 `eiken-explanation-quality-review`
 - [ ] 公開前チェックを PR・登録前に必須化
 - [ ] 公式過去問・市販過去問集はリンク誘導のみ（転載しない）
 - [ ] （任意）協会知財へ「オリジナル問題の練習サイト」方針を一文で確認
 - [ ] （任意）将来、許諾が取れるなら B型（過去問連動）は別プロジェクトとして検討。現サイトの既定にはしない
+- [ ] 5級→本番デプロイ後、4級・3級も同じ公開前チェックを通す
 
 ### 公開前チェックリスト（毎回）
 
-1. 出所は `original` か？
-2. 音声・画像は自前または許可済みか？
+1. 出所は `original` か？（`--original` 登録）
+2. 音声・画像は自前または許可済みか？（`archived_media` / 公式切り出しを使っていないか）
 3. サービス名・ドメイン・目立つロゴに英検/Eiken がないか？
 4. 試験名を出す箇所に ® と非承認文言があるか？
 5. 「過去問そのもの」「公式」と誤解される文言がないか？
 6. 本物の過去問が必要なら公式／市販へのリンクになっているか？
+7. 酷似チェック（スキル）＋人の目視を通したか？
+8. 本番で `published()` 以外が出ていないか？
 
 ---
 
@@ -220,13 +347,24 @@ B は協会・出版社との契約が前提なので、個人開発では狙わ
 
 1. **このファイル**のチェックボックスを正とする。
 2. Canvas `ip-risk-elimination-roadmap` でフェーズ単位の進捗を見る。
-3. 実装は「Phase 0 から」「5級の文法だけ」など小さく指示して進める。
+3. 実装は「4級の文法だけ」など小さく指示して進める。
+4. コミットはユーザー指示があるまで作らない（作業ルール）。
 
-## すぐ決めること（ブロッカー）
+## 決定済み事項
 
-1. Phase 0 の止め方: **問題ゼロ公開（既存は blocked）** ← 採用
+1. Phase 0 の止め方: **問題ゼロ公開（既存は blocked）** ← 採用・完了
 2. 新サービス名: **えいごごはん**（補助: EigoGohan）。TOEIC は将来の別枠／別名 ← 決定
-3. 最初に作り直す級: 推奨 **5級**（C型の最小セットで子供にすぐ戻す）
+3. 最初に作り直す級: **5級** ← ローカル最小セット完了
 4. 新ドメイン: **`eigogohan.com`** ← 取得・Fly 接続・コード切替済み（旧 `eiken-practice.com` は 301）
+5. 出所の精密分類（公式 vs AI）は**しない**
+6. **次の作業: 4級の original 最小セット**（上記「4級」節）
 
-出所の精密分類（公式 vs AI）は**しない**。ドメイン切替は完了。次は5級の新規自作（Phase 3）。
+## 残リスク（忘れない用）
+
+| リスク | 対策 |
+|--------|------|
+| 公式文面との偶然の酷似 | originality-review ＋人の目視 |
+| レガシー誤登録 | `--original` 以外の register は既定禁止。本番でも確認 |
+| リポジトリ内の公式保管物の再露出 | `static` / 公開クエリから切り離したまま。archived を戻さない |
+| 「リスクゼロ」と誤解 | C型の正攻法に乗った、と説明する。法律意見は別 |
+| 本番未反映 | 5級ローカル完了 ≠ 本番公開。デプロイ前にチェックリスト |

@@ -1,0 +1,14 @@
+---
+description: オリジナル問題（Phase 3）の作業入口。公式由来ファイルを公開用にしない。
+globs: data/questions/original/**
+alwaysApply: false
+---
+
+# オリジナル問題
+
+- 公開用テキストは **`data/questions/original/level{5|4|3}/` のみ**。
+- 既存の `data/questions/*.txt`・`level3/`・`level5/` や `data/pdf_import/` をコピーしない。
+- 作業順（正本は `eiken-original-authoring` の After writing）:
+  1. 作問 → 2. 酷似 → 3. 解説丁寧さ → 4. 品質 → 5. **人の目視** → 6. 登録
+- **登録は目視の前にしない。**
+- 登録の既定は `blocked`。`original` は明示した新規だけ。

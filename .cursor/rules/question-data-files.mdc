@@ -1,14 +1,14 @@
 ---
-description: data/questions のテキスト問題データの編集ルール
-globs: "data/questions/**"
+description: レガシー（公式由来）問題テキストの編集ルール。original/ には適用しない。
+globs: data/questions/*.txt,data/questions/level3/**,data/questions/level5/**
 alwaysApply: false
 ---
 
-# 問題テキストデータ
+# 問題テキストデータ（レガシー保管）
 
-- **4級**のマスタは従来どおり **このディレクトリ直下**の `*.txt`。**3級**は **`level3/` 配下**に同じファイル名で置く（中身の区切り・見出し規則は 4級と揃える）。3級登録は `python manage.py <command> --level 3`。
-- 各ファイルは対応する `register_*` / `create_*` 管理コマンドの **パース形式に依存**する（区切り `---`、`問題n:`、`選択肢`、`【正解】` 等）。形式を変える場合は **必ず該当コマンドの正規表現を同時に更新**する。
-- 文字コードは UTF-8。編集後は登録コマンドを dry-run できない場合が多いので、小さく差分を出して試す。
-- ファイル名の typo（例: `reading_comprehesion`）は既存データ・スクリプトが依存している可能性がある。**リネームは参照元を全検索してから**。
-- **3級の正解照合**は [3級の過去問・試験内容](https://www.eiken.or.jp/eiken/exam/grade_3/) に対応する **F日程** の解答PDFのみを使う: `https://www.eiken.or.jp/eiken/result/pdf/{YYYYMM}F3kyu.pdf`（例: `202502F3kyu.pdf`）。`202502D3kyu` 等の **D日程（金曜）** は過去問冊子（`2025-*-1ji-3kyu.pdf`）と正解が一致しないことがある。**D版を正としない。**
-- 照合スクリプト: `python utils/verify_level3_official_answers.py`（ネットワーク要）。
+公開用オリジナルは `data/questions/original/`（`original-questions` ルール / `eiken-original-authoring`）。このルールは保管用の級別 txt 向け。
+
+- **4級**はディレクトリ直下の `*.txt`。**3級**は `level3/`、**5級**は `level5/`。4級ファイルを他級用に上書きしない。
+- 各ファイルは対応する `register_*` / `create_*` のパース形式に依存する。形式を変える場合は正規表現を同じ変更で直す。再登録は既定禁止（`blocked`）。
+- 文字コードは UTF-8。ファイル名の typo（例: `reading_comprehesion`）は参照元を全検索してから。
+- 保管データの正解照合（公開作問では使わない）: 3級は F日程解答PDFのみ。D日程は使わない。`python utils/verify_level3_official_answers.py`

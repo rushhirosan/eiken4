@@ -9,6 +9,8 @@ description: Guides safe updates for Eiken question data files, registration man
 
 問題データ更新を、壊さず・戻せる形で実行する。
 
+**公開用の新規作問**はここではなく `eiken-original-authoring`（出力先 `data/questions/original/`）。下の `register_*` はレガシー取り込み用で、既定では禁止・入っても `blocked`。
+
 ## Standard workflow
 
 1. バックアップを作成する。

@@ -99,12 +99,21 @@ class Question(models.Model):
         qn = self.question_number
         if qn < 1:
             return ''
+        from questions.level_paths import db_audio_path, listening_illustration_audio_part
+
         if self.question_type == 'listening_conversation':
-            return f'audio/part2/listening_conversation_question{qn}.mp3'
+            return db_audio_path(
+                self.level, 'part2', f'listening_conversation_question{qn}.mp3'
+            )
         if self.question_type == 'listening_passage':
-            return f'audio/part3/listening_passage_question{qn}.mp3'
+            return db_audio_path(
+                self.level, 'part3', f'listening_passage_question{qn}.mp3'
+            )
         if self.question_type == 'listening_illustration':
-            return f'audio/part1/listening_illustration_question{qn}.mp3'
+            part = listening_illustration_audio_part(self.level, qn)
+            return db_audio_path(
+                self.level, part, f'listening_illustration_question{qn}.mp3'
+            )
         return ''
 
 class Choice(models.Model):

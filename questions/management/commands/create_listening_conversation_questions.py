@@ -1,15 +1,12 @@
 from django.core.management.base import BaseCommand
 from exams.models import Question, Choice
 import re
-import os
 
-from exams.provenance import PROVENANCE_BLOCKED
-from questions.legacy_import import assert_legacy_question_import_allowed
 from questions.level_paths import (
     add_default_register_arguments,
     db_audio_path,
-    questions_file_abspath,
 )
+from questions.register_source import resolve_register_io
 
 def parse_questions_from_file(file_path):
     with open(file_path, 'r', encoding='utf-8') as f:
@@ -35,9 +32,9 @@ def parse_questions_from_file(file_path):
         question_match = re.search(r'Question No\.\d+:\s*(.*?)\n', block)
         question_text = question_match.group(1).strip() if question_match else ''
         
-        # 選択肢を抽出
+        # 選択肢を抽出（【正解】/【正解N】の手前まで）
         choices = []
-        choices_section = block.split('【正解】')[0]
+        choices_section = re.split(r'【正解\d*】', block, maxsplit=1)[0]
         after_question = False
         for line in choices_section.split('\n'):
             if after_question and re.match(r'^\d+\.', line.strip()):
@@ -50,11 +47,11 @@ def parse_questions_from_file(file_path):
                 after_question = True
         
         # 正解を抽出
-        correct_match = re.search(r'【正解\d+】\s*(\d+)\.', block)
+        correct_match = re.search(r'【正解\d*】\s*(\d+)\.', block)
         correct_answer_number = int(correct_match.group(1)) if correct_match else 0
         
         # 解説を抽出
-        explanation_match = re.search(r'【解説\d+】\s*(.*?)(?=\n---|$)', block, re.DOTALL)
+        explanation_match = re.search(r'【解説\d*】\s*(.*?)(?=\n---|$)', block, re.DOTALL)
         explanation = explanation_match.group(1).strip() if explanation_match else ''
         
         if question_text and len(choices) == 4 and question_number is not None:
@@ -76,14 +73,18 @@ class Command(BaseCommand):
         add_default_register_arguments(parser)
 
     def handle(self, *args, **options):
-        assert_legacy_question_import_allowed(allow_flag=options.get('allow_legacy_blocked_import', False))
-        level = options['level']
-        Question.objects.filter(
+        level, txt_path, provenance, is_original = resolve_register_io(
+            options, 'listening_conversation_questions.txt'
+        )
+        qs = Question.objects.filter(
             question_type='listening_conversation', level=level
-        ).delete()
-        print(f'既存のリスニング会話問題（level={level}）を削除しました')
-        
-        txt_path = questions_file_abspath(level, 'listening_conversation_questions.txt')
+        )
+        if is_original:
+            qs = qs.filter(provenance=provenance)
+        qs.delete()
+        scope = 'original' if is_original else '全件'
+        print(f'既存のリスニング会話問題（level={level}, {scope}）を削除しました')
+
         questions_data = parse_questions_from_file(txt_path)
         print(f'parse_questions_from_fileで抽出された問題数: {len(questions_data)}')
         
@@ -96,7 +97,7 @@ class Command(BaseCommand):
                 level, 'part2', f'listening_conversation_question{question_number}.mp3'
             )
             question = Question.objects.create(
-                    provenance=PROVENANCE_BLOCKED,
+                provenance=provenance,
                 level=level,
                 question_type='listening_conversation',
                 question_text=data['question_text'],
@@ -204,7 +205,7 @@ async def main():
     input_file = 'data/questions/listening_illustration_questions.txt'
     
     # 出力ディレクトリ
-    output_dir = 'static/audio/part1'
+    output_dir = 'static/audio/level4/part1'
     os.makedirs(output_dir, exist_ok=True)
     
     # ファイルを読み込み

@@ -7,14 +7,6 @@
 <div class="container exam-list-compact">
     <div class="row justify-content-center">
         <div class="col-lg-10">
-            <div class="text-center mb-2 exam-list-hero">
-                <h1 class="fw-bold mb-0 exam-list-title">
-                    <i class="fas fa-graduation-cap me-2"></i>
-                    えいごごはん
-                </h1>
-                <p class="text-muted small mb-0 mt-1">試験形式のオリジナル練習</p>
-            </div>
-
             <div class="text-center mb-1 px-2 exam-level-focus">
                 <p class="text-muted small mb-1">現在の試験級</p>
                 <p class="exam-level-focus-title mb-0">{{ active_section.level_name }}</p>
@@ -209,11 +201,15 @@
                                         <div class="progress adventure-progress-bar mb-2">
                                             <div class="progress-bar bg-warning" style="width: {% if summary.mock_total_count %}{% widthratio summary.mock_cleared_count summary.mock_total_count 100 %}{% else %}0{% endif %}%;"></div>
                                         </div>
-                                        {% if summary.nearest_remaining_items %}
-                                        <p class="small text-muted mb-0">
-                                            いちばん近いのは<strong>{% for item in summary.nearest_remaining_items %}{{ item.display_name }}{% if not forloop.last %}・{% endif %}{% endfor %}</strong>
-                                            （あと{{ summary.nearest_remaining.remaining_rate|floatformat:0 }}%）
-                                        </p>
+                                        {% if summary.remaining_categories %}
+                                        <p class="small text-muted mb-1">まだ足りないカテゴリ:</p>
+                                        <ul class="small text-muted mb-0 ps-3">
+                                            {% for item in summary.remaining_categories %}
+                                            <li>
+                                                {{ item.display_name }}: あと{{ item.remaining_rate|floatformat:0 }}%
+                                            </li>
+                                            {% endfor %}
+                                        </ul>
                                         {% endif %}
                                         {% endif %}
                                     </div>
@@ -261,27 +257,6 @@
                                     {% endif %}
                                     </a>
                                 </div>
-                            {% if not section.unlock_status.mock_exam.is_unlocked and section.unlock_status.mock_exam.remaining_categories %}
-                            <div class="col-12">
-                                <div class="alert alert-light border-0 mb-0 py-2 px-3 small shadow-sm">
-                                    <div class="fw-semibold mb-1">
-                                        {% if section.level_code == '3' %}
-                                        模擬試験の解放まで（ライティングを除く各カテゴリ80%以上が必要）
-                                        {% else %}
-                                        模擬試験の解放まで（各カテゴリ80%以上が必要）
-                                        {% endif %}
-                                    </div>
-                                    <ul class="mb-0 ps-3">
-                                        {% for item in section.unlock_status.mock_exam.remaining_categories %}
-                                        <li>
-                                            {{ item.display_name }}: あと{{ item.remaining_rate|floatformat:0 }}%
-                                            （現在 {{ item.progress_rate|floatformat:0 }}%）
-                                        </li>
-                                        {% endfor %}
-                                    </ul>
-                                </div>
-                            </div>
-                            {% endif %}
                         </div>
 
                         {% if section.level_code == '5' or section.level_code == '4' or section.level_code == '3' %}
@@ -344,10 +319,6 @@ function updateDailyMissionGoal(value) {
     letter-spacing: 0.02em;
 }
 
-.exam-list-title {
-    color: var(--brand-text, #161b2e);
-}
-
 .exam-level-switch-label {
     color: var(--brand-muted, #3f475c);
     font-size: 0.85rem;
@@ -402,22 +373,6 @@ body main.container {
 
 .exam-list-compact {
     margin-top: -0.35rem;
-}
-
-.exam-list-title {
-    font-size: clamp(1.45rem, 4vw, 2.15rem);
-    color: var(--brand-text, #161b2e);
-    text-shadow: none;
-}
-
-.exam-list-hero .lead {
-    font-size: 1rem;
-}
-
-@media (min-width: 576px) {
-    .exam-list-hero .lead {
-        font-size: 1.1rem;
-    }
 }
 
 /* 問題形式パネル: 見出しはブランド色、本文は白 */
@@ -660,10 +615,6 @@ body main.container {
         font-size: 1rem;
     }
 
-    .exam-list-hero .lead.small-md-lead {
-        font-size: 0.92rem;
-    }
-    
     .btn {
         min-height: 44px;
         padding: 0.75rem 1rem;

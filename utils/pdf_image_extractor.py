@@ -104,12 +104,12 @@ def extract_images_from_pdf(pdf_path, output_dir=None, start_number=1):
 
 def main():
     parser = argparse.ArgumentParser(
-        description='PDF から画像を抽出する（既定は 4級の static/images/part1）'
+        description='PDF から画像を抽出する（既定は 4級の static/images/level4/part1）'
     )
     parser.add_argument('--pdf', default=os.environ.get('EIKEN_PDF_PATH'), help='入力 PDF')
     parser.add_argument(
         '--output-dir', '-o',
-        default=os.environ.get('EIKEN_IMAGE_OUTPUT_DIR', 'static/images/part1'),
+        default=os.environ.get('EIKEN_IMAGE_OUTPUT_DIR', 'static/images/level4/part1'),
         help='出力ディレクトリ（例: static/images/level3/part1）',
     )
     parser.add_argument(

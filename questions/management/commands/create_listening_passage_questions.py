@@ -2,13 +2,11 @@ from django.core.management.base import BaseCommand
 from exams.models import Question, Choice
 import re
 
-from exams.provenance import PROVENANCE_BLOCKED
-from questions.legacy_import import assert_legacy_question_import_allowed
 from questions.level_paths import (
     add_default_register_arguments,
     db_audio_path,
-    questions_file_abspath,
 )
+from questions.register_source import resolve_register_io
 
 
 class Command(BaseCommand):
@@ -18,12 +16,18 @@ class Command(BaseCommand):
         add_default_register_arguments(parser)
 
     def handle(self, *args, **options):
-        assert_legacy_question_import_allowed(allow_flag=options.get('allow_legacy_blocked_import', False))
-        level = options['level']
-        Question.objects.filter(question_type='listening_passage', level=level).delete()
-        self.stdout.write(self.style.WARNING(f'既存のリスニング文章問題（level={level}）を削除しました'))
-        
-        file_path = questions_file_abspath(level, 'listening_passage_questions.txt')
+        level, file_path, provenance, is_original = resolve_register_io(
+            options, 'listening_passage_questions.txt'
+        )
+        qs = Question.objects.filter(question_type='listening_passage', level=level)
+        if is_original:
+            qs = qs.filter(provenance=provenance)
+        qs.delete()
+        scope = 'original' if is_original else '全件'
+        self.stdout.write(
+            self.style.WARNING(f'既存のリスニング文章問題（level={level}, {scope}）を削除しました')
+        )
+
         questions_data = self.extract_questions_from_file(file_path)
         
         self.stdout.write(f'抽出された問題数: {len(questions_data)}')
@@ -37,7 +41,7 @@ class Command(BaseCommand):
                 f'listening_passage_question{q_data["question_number"]}.mp3',
             )
             question = Question.objects.create(
-                    provenance=PROVENANCE_BLOCKED,
+                provenance=provenance,
                 question_type='listening_passage',
                 level=level,
                 question_number=q_data['question_number'],

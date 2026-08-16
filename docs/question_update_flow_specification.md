@@ -3,7 +3,7 @@
 ## 概要
 英検4級の全問題タイプの更新・管理フローを統合的に定義します。
 
-**データ置き場（級別）**: 4級は従来どおり `data/questions/*.txt` および `static/audio/part*` / `static/images/part1` 等。3級は `data/questions/level3/` と `static/audio/level3/part*` / `static/images/level3/part1`（登録コマンドは `--level 3`）。5級は `data/questions/level5/` と `static/audio/level5/part*` / `static/images/level5/part1`（登録コマンドは `--level 5`）。過去問PDFから問題を取得するフローから、データベースへの登録まで、すべての工程を網羅しています。
+**データ置き場（級別）**: レガシー問題 txt の 4級は `data/questions/*.txt`、3/5 は `data/questions/level{N}/`。音声・画像は全級 `static/audio/level{N}/part*` / `static/images/level{N}/part1`（登録コマンドは `--level`）。公開用 original は `data/questions/original/level{N}/`。
 
 ### 3級の公式解答（正解照合の一次情報）
 
@@ -174,10 +174,10 @@
 ### 1. 過去問PDF取得フロー
 1. **過去問PDFダウンロード**: [英検公式サイト](https://www.eiken.or.jp/eiken/exam/grade_4/)から過去問PDFを取得
 2. **PDF解析**: `utils/pdf_text_extractor.py`でテキスト抽出
-3. **画像抽出**: `utils/pdf_image_extractor.py`でリスニング問題の画像を`static/images/part1/`に抽出
+3. **画像抽出**: `utils/pdf_image_extractor.py`でリスニング問題の画像を`static/images/level{N}/part1/`に抽出
 4. **問題分類**: 各カテゴリごとに問題を分類・整理
 5. **テキストファイル保存**: 各問題タイプのテキストファイルに保存
-6. **音声生成**: `utils/text_to_speech*.py`でリスニング問題の音声を`static/audio/part*/`に生成
+6. **音声生成**: `utils/text_to_speech*.py`でリスニング問題の音声を`static/audio/level{N}/part*/`に生成
 7. **ファイルパス更新**: `python manage.py update_audio_paths`でデータベースのファイルパスを更新
 8. **データベース登録**: 管理コマンドでデータベースに登録
 9. **追加問題作成**: 生成AIを利用して類似問題をフォーマットに合わせて作成
@@ -363,7 +363,7 @@ python utils/pdf_image_extractor.py
 **設定例:**
 ```python
 pdf_path = "/path/to/eiken/2025-1-1ji-4kyu.pdf"
-output_dir = "static/images/part1/"
+output_dir = "static/images/level4/part1/"
 start_number = 1
 ```
 
@@ -381,7 +381,7 @@ python utils/text_to_speech.py
 - MP3形式で保存
 
 **出力先:**
-- `static/audio/part1/listening_illustration_question{番号}.mp3`
+- `static/audio/level4/part1/listening_illustration_question{番号}.mp3`
 
 #### 3.2 リスニング第2部（会話問題）
 ```bash
@@ -396,7 +396,7 @@ python utils/text_to_speech_conversation.py
 - 音声ファイルの結合
 
 **出力先:**
-- `static/audio/part2/listening_conversation_question{番号}.mp3`
+- `static/audio/level4/part2/listening_conversation_question{番号}.mp3`
 
 #### 3.3 リスニング第3部（文章問題）
 ```bash
@@ -405,7 +405,7 @@ python utils/text_to_speech_conversation.py
 ```
 
 **出力先:**
-- `static/audio/part3/listening_passage_question{番号}.mp3`
+- `static/audio/level4/part3/listening_passage_question{番号}.mp3`
 
 #### 3.4 画像ファイル抽出
 ```bash
@@ -419,7 +419,7 @@ python utils/pdf_image_extractor.py
 - PNG形式で保存
 
 **出力先:**
-- `static/images/part1/listening_illustration_image{番号}.png`
+- `static/images/level4/part1/listening_illustration_image{番号}.png`
 
 ### 4. 問題分類・整理
 
@@ -575,12 +575,12 @@ static/
 ### ファイル配置ルール
 
 #### 音声ファイル
-- **配置先**: `static/audio/part{番号}/`
+- **配置先**: `static/audio/level{N}/part{番号}/`
 - **命名規則**: `listening_{タイプ}_question{番号}.mp3`
 - **例**: `listening_illustration_question1.mp3`
 
 #### 画像ファイル
-- **配置先**: `static/images/part1/`
+- **配置先**: `static/images/level{N}/part1/`
 - **命名規則**: `listening_illustration_image{番号}.png`
 - **例**: `listening_illustration_image1.png`
 

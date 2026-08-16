@@ -8,6 +8,7 @@ description: 英検の問題データ更新フロー（PDF→テキスト→DB�
 ## 一次情報
 
 - 統合仕様: リポジトリの `docs/question_update_flow_specification.md` を開き、該当セクション（問題タイプ・コマンド名・パス）を確認する。
+- **公開用オリジナル作問**は `eiken-original-authoring`（`data/questions/original/`）。このスキルの register はレガシー経路。
 
 ## アプリの役割
 

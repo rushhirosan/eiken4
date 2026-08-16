@@ -53,7 +53,7 @@ class QuestionModelTest(TestCase):
             question_number=7,
             audio_file='',
         )
-        self.assertEqual(q.resolved_audio_file(), 'audio/part2/listening_conversation_question7.mp3')
+        self.assertEqual(q.resolved_audio_file(), 'audio/level4/part2/listening_conversation_question7.mp3')
 
     def test_resolved_audio_file_prefers_db_when_set(self):
         """audio_file があればその値を優先する"""
@@ -78,7 +78,7 @@ class QuestionModelTest(TestCase):
             question_number=3,
             audio_file='   ',
         )
-        self.assertEqual(q.resolved_audio_file(), 'audio/part3/listening_passage_question3.mp3')
+        self.assertEqual(q.resolved_audio_file(), 'audio/level4/part3/listening_passage_question3.mp3')
 
     def test_resolved_audio_file_listening_illustration_on_question_model(self):
         """共通 Question でイラスト型のとき part1 の規約パスを返す"""
@@ -90,7 +90,7 @@ class QuestionModelTest(TestCase):
             question_number=12,
             audio_file='',
         )
-        self.assertEqual(q.resolved_audio_file(), 'audio/part1/listening_illustration_question12.mp3')
+        self.assertEqual(q.resolved_audio_file(), 'audio/level4/part1/listening_illustration_question12.mp3')
 
     def test_question_creation(self):
         """Questionが正しく作成されるかテスト"""
@@ -196,12 +196,6 @@ class ExamListViewTest(TestCase):
         self.assertEqual(response.status_code, 200)
         self.assertTemplateUsed(response, 'exams/exam_list.html')
     
-    def test_exam_list_view_contains_title(self):
-        """試験一覧ページにタイトルが含まれているかテスト"""
-        self.client.login(username='testuser', password='testpass123')
-        response = self.client.get(self.url)
-        self.assertContains(response, 'えいごごはん')
-
     def test_exam_list_defaults_to_level_4(self):
         """初回は4級にフォーカスする"""
         self.client.login(username='testuser', password='testpass123')
@@ -212,6 +206,7 @@ class ExamListViewTest(TestCase):
         self.assertContains(response, 'name="level"')
         self.assertContains(response, '<option value="4" selected>4級</option>', html=True)
         self.assertNotContains(response, 'exam-level-tab')
+        self.assertNotContains(response, 'exam-list-hero')
         self.assertContains(response, '長文はランダム10問に含まれません')
         self.assertNotContains(response, 'ライティングはランダム10問に含まれません')
 
@@ -1727,6 +1722,36 @@ class GamificationTest(TestCase):
         )
         self.assertTrue(any('ぜんぶ正解' in m['text'] for m in messages))
         self.assertLessEqual(len(messages), 3)
+
+    def test_build_session_achievements_speaking_not_scored(self):
+        from exams.gamification import ACHIEVEMENT_COPY, build_session_achievements
+
+        unlock_status = {
+            'random': {'is_unlocked': False},
+            'mock_exam': {
+                'is_unlocked': False,
+                'remaining_categories': [
+                    {
+                        'question_type': 'grammar_fill',
+                        'display_name': '文法・語彙問題',
+                        'remaining_rate': 30,
+                    },
+                ],
+            },
+        }
+        messages = build_session_achievements(
+            user=None,
+            level='5',
+            question_type='speaking',
+            correct_count=5,
+            total_count=5,
+            unlock_status=unlock_status,
+            session_count=5,
+        )
+        texts = [m['text'] for m in messages]
+        self.assertIn(ACHIEVEMENT_COPY['speaking_done'], texts)
+        self.assertFalse(any('ぜんぶ正解' in t for t in texts))
+        self.assertTrue(any('模擬試験まであと30%' in t for t in texts))
 
     def test_build_session_achievements_low_score_still_encourages(self):
         from exams.gamification import ACHIEVEMENT_COPY, build_session_achievements

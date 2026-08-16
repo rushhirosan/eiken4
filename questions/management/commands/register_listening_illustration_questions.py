@@ -3,17 +3,15 @@ import os
 from django.core.management.base import BaseCommand
 from questions.models import ListeningQuestion, ListeningChoice
 
-from exams.provenance import PROVENANCE_BLOCKED
-from questions.legacy_import import assert_legacy_question_import_allowed
 from questions.level_paths import (
-    LISTENING_ILLUSTRATION_PART3_MIN,
     add_default_register_arguments,
     archived_images_part1_dir,
     db_audio_path,
     db_image_path_part1,
     listening_illustration_audio_part,
-    questions_file_abspath,
+    static_images_part1_dir,
 )
+from questions.register_source import resolve_register_io
 
 
 class Command(BaseCommand):
@@ -23,17 +21,23 @@ class Command(BaseCommand):
         add_default_register_arguments(parser)
 
     def handle(self, *args, **options):
-        assert_legacy_question_import_allowed(allow_flag=options.get('allow_legacy_blocked_import', False))
-        level = options['level']
-        if level == '4':
-            # 画像番号ベースで既存を消す（通し番号の増加に追随）
-            ListeningQuestion.objects.filter(level='4').delete()
-        else:
-            ListeningQuestion.objects.filter(level=level).delete()
-        self.stdout.write(self.style.WARNING(f'既存のListeningQuestion（level={level}）を削除しました'))
+        level, txt_path, provenance, is_original = resolve_register_io(
+            options, 'listening_illustration_questions.txt'
+        )
+        qs = ListeningQuestion.objects.filter(level=level)
+        if is_original:
+            qs = qs.filter(provenance=provenance)
+        qs.delete()
+        scope = 'original' if is_original else '全件'
+        self.stdout.write(
+            self.style.WARNING(f'既存のListeningQuestion（level={level}, {scope}）を削除しました')
+        )
 
-        txt_path = questions_file_abspath(level, 'listening_illustration_questions.txt')
-        image_dir = archived_images_part1_dir(level)
+        image_dir = (
+            static_images_part1_dir(level)
+            if is_original
+            else archived_images_part1_dir(level)
+        )
 
         self.stdout.write(f'テキストファイルパス: {txt_path}')
         self.stdout.write(f'画像ディレクトリ: {image_dir}')
@@ -91,7 +95,7 @@ class Command(BaseCommand):
             explanation = ''
             in_choices = False
             in_explanation = False
-            
+
             for line in lines[1:]:
                 if line.strip().startswith('Question No.'):
                     in_choices = True
@@ -118,16 +122,15 @@ class Command(BaseCommand):
                     if len(stripped) >= 2 and stripped[0].isdigit() and stripped[1] == '.':
                         # 番号を抽出（例：「2. I have a piano lesson.」→「2」）
                         correct_answer_order = int(line.strip()[0])
-                        correct_answer_text = line.strip()[3:].strip()
                         correct_answer = str(correct_answer_order)  # order番号を文字列で保存
                     else:
                         correct_answer = line.strip()
-            
+
             explanation = explanation.strip()
 
             # モデル登録
             q = ListeningQuestion.objects.create(
-                    provenance=PROVENANCE_BLOCKED,
+                provenance=provenance,
                 question_text='',
                 image=image_path,
                 audio=audio_path,
@@ -141,11 +144,9 @@ class Command(BaseCommand):
             correct_order = int(correct_answer) if correct_answer.isdigit() else None
 
             for i, choice_text in enumerate(choices, 1):
-                # Part1（5級含む）: イラスト上の 1/2/3。Part3（5級 No.101+）: 英文選択肢をそのまま保存。
-                if level == '5' and number >= LISTENING_ILLUSTRATION_PART3_MIN:
-                    stored_text = choice_text
-                else:
-                    stored_text = str(i)
+                # UI は Part1 / Part3 とも番号選択（1/2/3）。
+                # 英文は txt・音声・解説用。選択肢画像パスは choice_text に入れない。
+                stored_text = str(i)
                 ListeningChoice.objects.create(
                     question=q,
                     choice_text=stored_text,
@@ -153,8 +154,10 @@ class Command(BaseCommand):
                     order=i,
                 )
 
-            self.stdout.write(self.style.SUCCESS(f'問題 No.{number} を登録（選択肢{len(choices)}個, 正解: {correct_answer}）'))
+            self.stdout.write(self.style.SUCCESS(
+                f'問題 No.{number} を登録（選択肢{len(choices)}個, 正解: {correct_answer}）'
+            ))
 
         self.stdout.write(self.style.SUCCESS(
             f'イラストリスニング問題の登録が完了しました（level={level}）'
-        )) 
+        ))

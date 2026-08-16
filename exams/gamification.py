@@ -170,6 +170,7 @@ def badge_ids_for_level(level):
 # 回答結果の達成バナー文言（小学生・中学生向け。正答率より「続けた・見直す」を優先）
 ACHIEVEMENT_COPY = {
     'writing_done': '提出おつかれさま！模範解答と見比べてみよう',
+    'speaking_done': '練習おつかれさま！参考解答と見比べてみよう',
     'score_perfect': 'ぜんぶ正解！とてもよくできたね',
     'score_high': 'よくできた！解説であと一歩を確認しよう',
     'score_mid': 'ちゃんと取り組めたね。間違えたところを見直そう',
@@ -542,6 +543,12 @@ def build_session_achievements(
         if total_count > 0:
             messages.append({
                 'text': ACHIEVEMENT_COPY['writing_done'],
+                'variant': 'info',
+            })
+    elif question_type == 'speaking':
+        if total_count > 0:
+            messages.append({
+                'text': ACHIEVEMENT_COPY['speaking_done'],
                 'variant': 'info',
             })
     elif total_count > 0:

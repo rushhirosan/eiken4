@@ -2,12 +2,8 @@ from django.core.management.base import BaseCommand
 from exams.models import Question, Choice
 import re
 
-from exams.provenance import PROVENANCE_BLOCKED
-from questions.legacy_import import assert_legacy_question_import_allowed
-from questions.level_paths import (
-    add_default_register_arguments,
-    questions_file_abspath,
-)
+from questions.level_paths import add_default_register_arguments
+from questions.register_source import resolve_register_io
 
 
 class Command(BaseCommand):
@@ -17,12 +13,18 @@ class Command(BaseCommand):
         add_default_register_arguments(parser)
 
     def handle(self, *args, **options):
-        assert_legacy_question_import_allowed(allow_flag=options.get('allow_legacy_blocked_import', False))
-        level = options['level']
-        Question.objects.filter(question_type='word_order', level=level).delete()
-        self.stdout.write(self.style.WARNING(f'既存の語順穴埋め問題（level={level}）を削除しました'))
-        
-        txt_path = questions_file_abspath(level, 'wordorder_questions.txt')
+        level, txt_path, provenance, is_original = resolve_register_io(
+            options, 'wordorder_questions.txt'
+        )
+        qs = Question.objects.filter(question_type='word_order', level=level)
+        if is_original:
+            qs = qs.filter(provenance=provenance)
+        qs.delete()
+        scope = 'original' if is_original else '全件'
+        self.stdout.write(
+            self.style.WARNING(f'既存の語順穴埋め問題（level={level}, {scope}）を削除しました')
+        )
+
         with open(txt_path, 'r', encoding='utf-8') as file:
             content = file.read()
 
@@ -69,7 +71,7 @@ class Command(BaseCommand):
 
                 # Create question
                 question = Question.objects.create(
-                    provenance=PROVENANCE_BLOCKED,
+                    provenance=provenance,
                     question_text=question_text,
                     level=level,
                     question_type='word_order',

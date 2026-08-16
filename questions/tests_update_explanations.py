@@ -48,8 +48,8 @@ class UpdateExplanationsCommandTest(TestCase):
         self.lq = ListeningQuestion.objects.create(
             provenance=PROVENANCE_ORIGINAL,
             question_text='',
-            image='images/part1/listening_illustration_image1.png',
-            audio='audio/part1/listening_illustration_question1.mp3',
+            image='images/level4/part1/listening_illustration_image1.png',
+            audio='audio/level4/part1/listening_illustration_question1.mp3',
             correct_answer='1',
             explanation='古いイラスト解説',
             level='4',
@@ -114,8 +114,8 @@ class UpdateExplanationsCommandTest(TestCase):
         q22 = ListeningQuestion.objects.create(
             provenance=PROVENANCE_ORIGINAL,
             question_text='',
-            image='images/part1/listening_illustration_image22.png',
-            audio='audio/part1/listening_illustration_question22.mp3',
+            image='images/level4/part1/listening_illustration_image22.png',
+            audio='audio/level4/part1/listening_illustration_question22.mp3',
             correct_answer='2',
             explanation='古い解説',
             level='4',

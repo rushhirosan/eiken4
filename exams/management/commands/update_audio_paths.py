@@ -1,48 +1,79 @@
 from django.core.management.base import BaseCommand
 from exams.models import Question
 from questions.models import ListeningQuestion
+from questions.level_paths import (
+    db_audio_path,
+    db_image_path_part1,
+    listening_illustration_audio_part,
+)
+import re
+
 
 class Command(BaseCommand):
-    help = 'Update audio file paths for listening questions'
+    help = 'Update audio/image file paths for listening questions (level-aware)'
+
+    def add_arguments(self, parser):
+        parser.add_argument(
+            '--level',
+            type=str,
+            default='4',
+            choices=['3', '4', '5'],
+            help='対象級（既定: 4）',
+        )
 
     def handle(self, *args, **options):
-        # リスニング会話問題の音声ファイルパスを更新（question_number を優先、未設定は出題順で補完）
+        level = options['level']
+
         conversation_questions = Question.objects.filter(
             question_type='listening_conversation',
-            level='4'
+            level=level,
         ).order_by('question_number', 'id')
 
         for idx, question in enumerate(conversation_questions, start=1):
             n = question.question_number if question.question_number >= 1 else idx
-            question.audio_file = f'audio/part2/listening_conversation_question{n}.mp3'
+            question.audio_file = db_audio_path(
+                level, 'part2', f'listening_conversation_question{n}.mp3'
+            )
             question.save()
             self.stdout.write(
                 self.style.SUCCESS(f'Updated audio path (No.{n}): {question.audio_file}')
             )
 
-        # リスニング文章問題の音声ファイルパスを更新
         passage_questions = Question.objects.filter(
             question_type='listening_passage',
-            level='4'
+            level=level,
         ).order_by('question_number', 'id')
 
         for idx, question in enumerate(passage_questions, start=1):
             n = question.question_number if question.question_number >= 1 else idx
-            question.audio_file = f'audio/part3/listening_passage_question{n}.mp3'
+            question.audio_file = db_audio_path(
+                level, 'part3', f'listening_passage_question{n}.mp3'
+            )
             question.save()
             self.stdout.write(
                 self.style.SUCCESS(f'Updated audio path (No.{n}): {question.audio_file}')
             )
 
-        # リスニングイラスト問題の音声ファイルパスを更新（ListeningQuestionモデルを使用）
         illustration_questions = ListeningQuestion.objects.filter(
-            level='4'
+            level=level
         ).order_by('id')
 
-        for i, question in enumerate(illustration_questions, 1):
-            question.audio = f'audio/part1/listening_illustration_question{i}.mp3'
-            question.image = f'images/part1/listening_illustration_image{i}.png'
+        for idx, question in enumerate(illustration_questions, start=1):
+            n = idx
+            # 既存パスに番号があればそれを優先
+            m = re.search(r'listening_illustration_question(\d+)', question.audio or '')
+            if m:
+                n = int(m.group(1))
+            part = listening_illustration_audio_part(level, n)
+            question.audio = db_audio_path(
+                level, part, f'listening_illustration_question{n}.mp3'
+            )
+            question.image = db_image_path_part1(
+                level, f'listening_illustration_image{n}.png'
+            )
             question.save()
             self.stdout.write(
-                self.style.SUCCESS(f'Updated audio and image paths for question {i}: {question.audio}, {question.image}')
-            ) 
+                self.style.SUCCESS(
+                    f'Updated paths for No.{n}: {question.audio}, {question.image}'
+                )
+            )
