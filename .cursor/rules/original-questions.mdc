@@ -1,5 +1,5 @@
 ---
-description: オリジナル問題（Phase 3）の作業入口。公式由来ファイルを公開用にしない。
+description: オリジナル問題の作業入口と公開前チェック。公式由来ファイルを公開用にしない。
 globs: data/questions/original/**
 alwaysApply: false
 ---
@@ -9,6 +9,19 @@ alwaysApply: false
 - 公開用テキストは **`data/questions/original/level{5|4|3}/` のみ**。
 - 既存の `data/questions/*.txt`・`level3/`・`level5/` や `data/pdf_import/` をコピーしない。
 - 作業順（正本は `eiken-original-authoring` の After writing）:
-  1. 作問 → 2. 酷似 → 3. 解説丁寧さ → 4. 品質 → 5. **人の目視** → 6. 登録
-- **登録は目視の前にしない。**
+  1. 作問 → 2. 酷似 → 3. 解説丁寧さ → 4. 品質 → 5. **人の目視** → 6. 公開前チェック → 7. 登録
+- **登録は目視と公開前チェックの前にしない。**
 - 登録の既定は `blocked`。`original` は明示した新規だけ。
+
+## 公開前チェック（登録・本番反映の前に必須）
+
+`--original` 登録、公開文言の本番反映、問題アセットのデプロイの前にすべて通す。1つでも未なら登録・デプロイしない。リストの正本は `docs/ip_risk_elimination_roadmap.md` Phase 4。
+
+1. 出所は `original` か？（`--original` 登録）
+2. 音声・画像は自前または許可済みか？（`archived_media` / 公式切り出しを使っていないか）
+3. サービス名・ドメイン・目立つロゴに英検/Eiken がないか？
+4. 試験名を出す箇所に ® と非承認文言があるか？
+5. 「過去問そのもの」「公式」と誤解される文言がないか？
+6. 本物の過去問が必要なら公式／市販へのリンクになっているか？
+7. 酷似チェック（`eiken-originality-review`）＋人の目視を通したか？
+8. 本番で `published()` 以外が出ていないか？

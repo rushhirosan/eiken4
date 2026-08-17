@@ -20,14 +20,14 @@ def site_brand(request):
 
 
 def maintenance_notice(request):
-    """問題ゼロ公開中など、既存ユーザー向けのメンテ案内。"""
+    """試験運用など、公開面の案内バナー。"""
     enabled = getattr(settings, 'MAINTENANCE_NOTICE_ENABLED', False)
     if not enabled:
         return {'maintenance_notice_enabled': False}
     return {
         'maintenance_notice_enabled': True,
         'maintenance_notice_title': getattr(
-            settings, 'MAINTENANCE_NOTICE_TITLE', 'ただいまメンテナンス中です'
+            settings, 'MAINTENANCE_NOTICE_TITLE', 'ただいま試験運用中です'
         ),
         'maintenance_notice_body': getattr(settings, 'MAINTENANCE_NOTICE_BODY', ''),
         'maintenance_official_exams_url': getattr(

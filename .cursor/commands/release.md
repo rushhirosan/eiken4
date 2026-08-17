@@ -52,4 +52,5 @@ description: >-
 ## エージェント向けメモ
 
 - 「コミットしてプッシュしてデプロイ」→ `./scripts/release.sh --ship`（メッセージ自動）。
+- original 問題・公開文言・リスニングアセットを含むリリースでは、先に `.cursor/rules/original-questions.mdc` の公開前チェックを通す。未なら `--ship` / `--deploy` しない。
 - `memo.txt` 等にトークンが残っているとシークレットチェックで失敗する。

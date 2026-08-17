@@ -9,6 +9,7 @@ alwaysApply: true
 - **アプリ**: `accounts`（認証、`[SECURITY]` ログ）、`exams`（試験 UI・進捗、共通 `Question` / `Choice`）、`questions`（マスタと登録コマンド）、`eiken_project/`（URL・設定）。
 - 小さな変更を既存パターンに合わせる。秘密情報はコミットしない。
 - 仕上げ前に可能なら `python manage.py check` と影響範囲の `python manage.py test`。本番起動は `scripts/start.sh`（`collectstatic` → `migrate` → gunicorn）。
+- original の登録・本番反映の前に `.cursor/rules/original-questions.mdc` の公開前チェックを通す。未なら登録・デプロイしない。
 
 ## 問題データ
 

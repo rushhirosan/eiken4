@@ -9,6 +9,7 @@ description: 英検の問題データ更新フロー（PDF→テキスト→DB�
 
 - 統合仕様: リポジトリの `docs/question_update_flow_specification.md` を開き、該当セクション（問題タイプ・コマンド名・パス）を確認する。
 - **公開用オリジナル作問**は `eiken-original-authoring`（`data/questions/original/`）。このスキルの register はレガシー経路。
+- `--original` で公開登録するときは、先に `.cursor/rules/original-questions.mdc` の公開前チェックを通す。未なら登録しない。
 
 ## アプリの役割
 

@@ -29,7 +29,9 @@ fly postgres connect -a eiken-app-db
 
 1. 先に `python manage.py check` / `python manage.py test` を通す。
 2. 変更に秘密情報が含まれないことを確認する。
-3. デプロイ後にログを確認し、500系エラー有無をチェックする。
+3. original 問題・公開文言・リスニングアセットを含むデプロイでは、`.cursor/rules/original-questions.mdc` の公開前チェックをすべて通す。未なら `fly deploy` しない。
+4. デプロイ後にログを確認し、500系エラー有無をチェックする。
+5. 問題公開のデプロイ後は、本番で `published()` 以外と公式メディアが出ていないことを確認する。
 
 ## Troubleshooting focus
 

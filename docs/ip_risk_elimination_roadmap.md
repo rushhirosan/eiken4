@@ -9,26 +9,25 @@
 
 ---
 
-## いまの位置（2026-08-15 時点）
+## いまの位置（2026-08-18 時点）
 
 | 項目 | 状態 |
 |------|------|
 | Phase 0〜2 | **完了**（公開は `original` のみ。既存は `blocked`） |
-| Phase 3・5級 | **ローカル最小セット作成・登録・画面確認まで完了**（本番デプロイは未） |
-| Phase 3・4級 | **ローカル最小セット作成・目視・テスト完了**（本番デプロイは未） |
-| Phase 3・3級 | **ローカル登録済み**（目視・画面テストはこれから） |
-| Phase 4 | 運用ルール一部整備。公開前チェックの必須化は未 |
+| Phase 3・5級 | **本番公開済み**（`https://eigogohan.com/exams/?level=5`） |
+| Phase 3・4級 | **本番公開済み**（`https://eigogohan.com/exams/?level=4`） |
+| Phase 3・3級 | **本番公開済み**（`https://eigogohan.com/exams/?level=3`。酷似・解説の仕上げも完了） |
+| Phase 4 | **継続**（公開前チェックはスキル／ルールに必須化済み。協会確認は任意・後回し） |
 
 **リスクの言い方（社内メモ）**
 
 - 「公式転載を公開している」E型からは脱出済み（設計上）。
-- 「著作権リスクがゼロ」とは言わない。酷似の最終目視・本番配信確認・商標文言が残る。
+- 「著作権リスクがゼロ」とは言わない。酷似の最終目視・商標文言・誤登録防止は続ける。
 - 公開クエリは `original` のみでも、リポジトリに公式由来 txt / PDF / `archived_media` は保管として残る。誤登録・誤配信に注意。
 
 ```text
-[完了] Phase0 停止 → Phase1 ブランド → Phase2 出所
-[いま] Phase3: 5級・4級ローカル完了 → 次は3級（テキスト着手）
-[継続] Phase4 運用・本番公開前チェック
+[完了] Phase0 停止 → Phase1 ブランド → Phase2 出所 → Phase3 5・4・3級 original 本番公開
+[いま] Phase4: 試験運用中。協会確認は任意・後回し
 ```
 
 ---
@@ -99,8 +98,8 @@ B は協会・出版社との契約が前提なので、個人開発では狙わ
 | 0 | E型の露出を止める | 危険ゾーンから脱出 | **完了** |
 | 1 | 商標・ブランドを市販並みに | 大手の ®・非承認・自社名 | **完了** |
 | 2 | 出所管理を仕組み化 | 「すべてオリジナル」を技術で担保 | **完了**（任意の出所メモのみ残） |
-| 3 | C型コンテンツを積み上げる | ゼミ本・予想ドリルと同じ作り | **5級ローカル完了 → 次4級** |
-| 4 | 運用で再発防止 | 公開前チェックを習慣化 | **一部完了・継続** |
+| 3 | C型コンテンツを積み上げる | ゼミ本・予想ドリルと同じ作り | **完了**（5・4・3級 original を本番公開） |
+| 4 | 運用で再発防止 | 公開前チェックを習慣化 | **必須化済み**（協会確認は任意） |
 
 ---
 
@@ -212,7 +211,7 @@ python manage.py register_speaking_questions --level 5 --original
 
 ---
 
-### 5級（最初の再公開単位）— ローカル最小セット完了
+### 5級 — 本番公開済み
 
 テキスト: `data/questions/original/level5/`
 
@@ -244,32 +243,33 @@ python manage.py register_speaking_questions --level 5 --original
 - スピーキングは自動採点しない。達成カードは「練習おつかれさま！…」（「ぜんぶ正解」は出さない）。模擬までの % 案内は解放対象カテゴリ向けに残る。
 - ローカル DB: 5級公開は original のみ（例: Question original 40 + Listening 15）。blocked は大量に残存してよい。
 
-**5級の残り（本番前）**
+**5級の残り（本番前）** → **完了（本番公開済み）**
 
 - [x] 人の目視で公式公開過去問と並べて酷似最終確認（スキル通過後の人間チェック）
 - [x] 「公式の過去問はこちら」リンク（級ページ／試験一覧）
-- [ ] 本番（Fly）へ original テキスト・静的アセット・DB 登録の反映
-- [ ] 本番で `published` のみ見えること・公式メディアが出ないことの確認
+- [x] 本番（Fly）へ original テキスト・静的アセット・DB 登録の反映
+- [x] 本番で `published` のみ見えること・公式メディアが出ないことの確認
 
 ---
 
-### 4級（次: 明日から）
+### 4級 — 本番公開済み
 
-5級と同じパイプライン。置き場は `data/questions/original/level4/`（なければ作成）。
+5級と同じパイプライン。置き場は `data/questions/original/level4/`。
 
-**4級で作るもの（最小セット案）**
+**4級で作るもの（最小セット）**
 
-- [ ] 文法・語彙（`grammar_fill_questions.txt`）
-- [ ] 会話補充（`conversation_questions.txt`）
-- [ ] 語順（`wordorder_questions.txt`）
-- [ ] 読解（`reading_comprehesion_questions.txt` ※ファイル名は既存コマンドの typo に合わせる）
-- [ ] リスニングイラスト（`listening_illustration_questions.txt`）＋自作画像＋TTS
-- [ ] リスニング会話（`listening_conversation_questions.txt`）＋TTS
-- [ ] リスニング文章（`listening_passage_questions.txt`）＋TTS（4級にある形式）
-- [ ] スピーキング（`speaking_questions.txt`）
-- [ ] （任意）ライティングは3級優先でも可。4級に出すなら original で
+- [x] 文法・語彙（`grammar_fill_questions.txt`）
+- [x] 会話補充（`conversation_questions.txt`）
+- [x] 語順（`wordorder_questions.txt`）
+- [x] 読解（`reading_comprehesion_questions.txt` ※ファイル名は既存コマンドの typo に合わせる）
+- [x] リスニングイラスト（`listening_illustration_questions.txt`）＋自作画像＋TTS
+- [x] リスニング会話（`listening_conversation_questions.txt`）＋TTS
+- [x] リスニング文章（`listening_passage_questions.txt`）＋TTS（4級にある形式）
+- [x] スピーキング（`speaking_questions.txt`）
+- [ ] （任意）ライティングは3級優先。4級に出すなら original で
 - [x] 公式過去問リンク
-- [ ] `--level 4 --original` で登録・ローカル確認
+- [x] `--level 4 --original` で登録・ローカル確認
+- [x] 本番公開（`?level=4`）
 
 **4級の注意**
 
@@ -279,20 +279,20 @@ python manage.py register_speaking_questions --level 5 --original
 - 音声・画像: `static/audio/level4/part1|2|3/` と `static/images/level4/part1/`（他級と同様に `level{N}/` 配下。`questions/level_paths.py` / `utils/eiken_paths.py`）。
 - TTS 既定は `+0%`（5級より速め）。必要なら `--rate` で調整。
 
-**明日の進め方（推奨順）**
+**当時の進め方（記録）**
 
-1. `eiken-original-authoring` で文法 → 会話 → 語順（各10問前後のミニセットで可）
+1. `eiken-original-authoring` で文法 → 会話 → 語順
 2. 酷似・品質・解説スキル
 3. 読解ミニセット
 4. リスニング3種（テキスト → TTS → イラスト画像 → 登録）
 5. スピーキング
-6. `python manage.py … --level 4 --original` 一括登録 → ローカル画面確認
+6. `python manage.py … --level 4 --original` 一括登録 → ローカル画面確認 → 本番反映
 
 ---
 
-### 3級
+### 3級 — 本番公開済み
 
-テキスト: `data/questions/original/level3/`（最小セット草稿）
+テキスト: `data/questions/original/level3/`
 
 - [x] 文法・語彙 10 / 会話 10 / 語順 10（語順検算 OK）
 - [x] 読解 本文5×2
@@ -300,10 +300,10 @@ python manage.py register_speaking_questions --level 5 --original
 - [x] スピーキング 5 / ライティング 5
 - [x] TTS・イラスト画像などのアセット（目視前）
 - [x] `--level 3 --original` ローカル登録
-- [ ] 酷似再確認・解説/品質レビューの仕上げ（任意）
+- [x] 酷似再確認・解説/品質レビューの仕上げ
 - [x] 人の目視（`VISUAL_CHECK.md`）・画面テスト
 - [x] 公式過去問リンク
-- [ ] 本番反映
+- [x] 本番公開（`?level=3`）
 
 ---
 
@@ -314,7 +314,7 @@ python manage.py register_speaking_questions --level 5 --original
 - [x] 進捗・間違えた問題の復習（既存機能）
 - [x] デイリー／習慣（既存機能）
 - [x] 解説（original 作問時に品質レビュー済みのものを載せる）
-- [ ] （任意）級別の進め方ガイド（勉強法は D型として安全）
+- [x] 級別の進め方ガイド（`/guides/`。勉強法は D型として安全）
 
 **完了条件:** 級ごとにオリジナルのみで学習が一通りできる。本物の過去問は外部リンク。
 
@@ -324,11 +324,13 @@ python manage.py register_speaking_questions --level 5 --original
 
 - [x] Cursor rule / 本ドキュメントを作業の入口にする  
   → `.cursor/rules/original-questions.mdc`。作問 `eiken-original-authoring`、酷似 `eiken-originality-review`、解説 `eiken-explanation-quality-review`
-- [ ] 公開前チェックを PR・登録前に必須化
-- [ ] 公式過去問・市販過去問集はリンク誘導のみ（転載しない）
+- [x] 公開面の案内を試験運用に変更（`MAINTENANCE_NOTICE_*`。問題ゼロ公開の文言は廃止）
+- [x] 公開前チェックを PR・登録前に必須化  
+  → `.cursor/rules/original-questions.mdc`。作問 `eiken-original-authoring`、デプロイ `eiken-fly-operations` / `release`。未なら登録・デプロイしない。
+- [x] 公式過去問・市販過去問集はリンク誘導のみ（転載しない）
 - [ ] （任意）協会知財へ「オリジナル問題の練習サイト」方針を一文で確認
 - [ ] （任意）将来、許諾が取れるなら B型（過去問連動）は別プロジェクトとして検討。現サイトの既定にはしない
-- [ ] 5級→本番デプロイ後、4級・3級も同じ公開前チェックを通す
+- [x] 5級→本番デプロイ後、4級・3級も同じ公開前チェックを通す
 
 ### 公開前チェックリスト（毎回）
 
@@ -352,12 +354,12 @@ python manage.py register_speaking_questions --level 5 --original
 
 ## 決定済み事項
 
-1. Phase 0 の止め方: **問題ゼロ公開（既存は blocked）** ← 採用・完了
+1. Phase 0 の止め方: **問題ゼロ公開（既存は blocked）** ← 採用・完了。案内文言は 2026-08-18 に試験運用へ変更
 2. 新サービス名: **えいごごはん**（補助: EigoGohan）。TOEIC は将来の別枠／別名 ← 決定
-3. 最初に作り直す級: **5級** ← ローカル最小セット完了
+3. 最初に作り直す級: **5級** ← ローカル最小セット完了 → 5・4・3級とも本番公開済み
 4. 新ドメイン: **`eigogohan.com`** ← 取得・Fly 接続・コード切替済み（旧 `eiken-practice.com` は 301）
 5. 出所の精密分類（公式 vs AI）は**しない**
-6. **次の作業: 4級の original 最小セット**（上記「4級」節）
+6. **次の作業: なし（本線は完了）。任意は協会知財への一文確認**
 
 ## 残リスク（忘れない用）
 
@@ -367,4 +369,4 @@ python manage.py register_speaking_questions --level 5 --original
 | レガシー誤登録 | `--original` 以外の register は既定禁止。本番でも確認 |
 | リポジトリ内の公式保管物の再露出 | `static` / 公開クエリから切り離したまま。archived を戻さない |
 | 「リスクゼロ」と誤解 | C型の正攻法に乗った、と説明する。法律意見は別 |
-| 本番未反映 | 5級ローカル完了 ≠ 本番公開。デプロイ前にチェックリスト |
+| 公開前チェックの形骸化 | 登録・デプロイ前に `original-questions.mdc` を必須（飛ばしたら止める） |
