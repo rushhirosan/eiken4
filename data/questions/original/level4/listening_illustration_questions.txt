@@ -113,8 +113,8 @@ M: Excuse me. Is this seat free?（すみません。この席あいてますか
 W: Yes. Please sit down.（はい。どうぞお座りください。）
 M: Thank you. Is the next stop City Hall?（ありがとう。次は市役所ですか？）
 
-次の停留所を確認しているので、1「No. It's the museum stop.（いいえ。博物館の停留所です）」が自然です。
-2は建物の大きさ、3は席の好みで、停留所の答えではありません。
+次の停留所を確認しているので、3「No. It's the museum stop.（いいえ。博物館の停留所です）」が自然です。
+1は建物の大きさ、2は席の好みで、停留所の答えではありません。
 
 ---
 
@@ -186,8 +186,8 @@ W: I made cookies yesterday.（きのうクッキーを作ったの。）
 M: Really? How do they taste?（へえ。どんな味？）
 W: Sweet. Would you like one?（甘いよ。一ついる？）
 
-すすめへの返事なので、2「Yes, please. They look good.（はい、お願いします。おいしそう）」が自然です。
-1は曜日、3は料理が好きかどうかで、クッキーを受ける返事ではありません。
+すすめへの返事なので、3「Yes, please. They look good.（はい、お願いします。おいしそう）」が自然です。
+1は曜日、2は料理が好きかどうかで、クッキーを受ける返事ではありません。
 
 ---
 
@@ -234,5 +234,5 @@ W: Tom looks happy today.（トムは今日うれしそう。）
 M: Yes. He found his lost watch.（うん。なくした腕時計を見つけたんだ。）
 W: Where did he find it?（どこで見つけたの？）
 
-場所を聞いているので、1「Under his desk in the classroom.（教室の自分の机の下）」が自然です。
-2は一般論、3は学年で、見つけた場所ではありません。
+場所を聞いているので、2「Under his desk in the classroom.（教室の自分の机の下）」が自然です。
+1は一般論、3は学年で、見つけた場所ではありません。

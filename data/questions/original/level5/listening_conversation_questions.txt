@@ -139,3 +139,293 @@ Question: What does the boy have?（男の子はなにを持っていますか�
 
 男の子が「おおきいかばんはある」と言っているので、2「A big bag.（おおきいかばん）」が正解です。
 レインコートはない、と答えています。
+
+---
+
+No.6:
+☆I'm going to walk my dog in the park.
+★Good idea.  What time will you go?
+☆At three this afternoon.
+☆☆
+
+Question No.6:
+Where will the girl walk her dog?
+
+1. In the park.
+2. At school.
+3. At the store.
+4. In the library.
+
+【正解6】
+1. In the park.
+
+【解説6】
+放送文
+☆I'm going to walk my dog in the park.（こうえんで犬の散歩をするの。）
+★Good idea.  What time will you go?（いいね。何時に行くの？）
+☆At three this afternoon.（きょうの午後3時に。）
+Question: Where will the girl walk her dog?（女の子はどこで犬を散歩させますか？）
+
+最初の ☆ が「in the park（公園で）」と言っているので、1「In the park.（公園で）」が正解です。
+「At three this afternoon.（午後3時）」は時刻の話で、ばしょの答えではありません。
+
+---
+
+No.7:
+★Did you enjoy the birthday party?
+☆Yes.  We ate cake and sang songs.
+★Who came to the party?
+☆☆
+
+Question No.7:
+What did they do at the party?
+
+1. They ate cake and sang songs.
+2. They played soccer.
+3. They went shopping.
+4. They watched a movie.
+
+【正解7】
+1. They ate cake and sang songs.
+
+【解説7】
+放送文
+★Did you enjoy the birthday party?（誕生日パーティーはたのしかった？）
+☆Yes.  We ate cake and sang songs.（うん。ケーキを食べて歌を歌ったよ。）
+★Who came to the party?（だれが来たの？）
+Question: What did they do at the party?（パーティーで何をしましたか？）
+
+☆ が「We ate cake and sang songs.（ケーキを食べて歌を歌った）」と言っているので、1が正解です。
+2・3・4は会話に出てきません。最後の「Who came...?」はだれが来たかの質問で、ここでの答えではありません。
+
+---
+
+No.8:
+☆I can't find my math homework.
+★Did you leave it at school?
+☆No.  I think it's in my room.
+☆☆
+
+Question No.8:
+Where does the boy think his homework is?
+
+1. At school.
+2. In the kitchen.
+3. At the park.
+4. In his room.
+
+【正解8】
+4. In his room.
+
+【解説8】
+放送文
+☆I can't find my math homework.（算数のしゅくだいが見つからない。）
+★Did you leave it at school?（がっこうに置いてきた？）
+☆No.  I think it's in my room.（ううん。へやにあると思う。）
+Question: Where does the boy think his homework is?（男の子はしゅくだいがどこにあると思っていますか？）
+
+☆ が「in my room（へや）」にあると思う、と言っているので、4「In his room.（へや）」が正解です。
+1「At school.（がっこう）」は ★ の質問で、☆ は「No（ううん）」と否定しています。
+
+---
+
+No.9:
+★These shoes are too small for me.
+☆Let's try a bigger size.
+★OK.  Where are they?
+☆☆
+
+Question No.9:
+What is the problem with the shoes?
+
+1. They are too big.
+2. They are too small.
+3. They are too old.
+4. They are too dirty.
+
+【正解9】
+2. They are too small.
+
+【解説9】
+放送文
+★These shoes are too small for me.（このくつはわたしには小さい。）
+☆Let's try a bigger size.（もっと大きいサイズを試そう。）
+★OK.  Where are they?（わかった。どこにある？）
+Question: What is the problem with the shoes?（くつはどんな問題がありますか？）
+
+女の子が「too small（小さい）」と言っているので、2「They are too small.（小さい）」が正解です。
+1「too big（大きい）」は反対の意味です。3・4は会話に出てきません。
+
+---
+
+No.10:
+☆It's raining hard.  I forgot my umbrella.
+★Don't worry.  You can use mine.
+☆Thanks.  You're kind.
+☆☆
+
+Question No.10:
+What did the girl forget?
+
+1. Her hat.
+2. Her bag.
+3. Her umbrella.
+4. Her lunch.
+
+【正解10】
+3. Her umbrella.
+
+【解説10】
+放送文
+☆It's raining hard.  I forgot my umbrella.（あめが強い。かさを忘れた。）
+★Don't worry.  You can use mine.（心配しないで。わたしのを使っていいよ。）
+☆Thanks.  You're kind.（ありがとう。やさしいね。）
+Question: What did the girl forget?（女の子は何を忘れましたか？）
+
+☆ が「I forgot my umbrella（かさを忘れた）」と言っているので、3「Her umbrella.（かさ）」が正解です。
+★ が自分のかさを貸す、と言っているので、かさの話だとわかります。
+
+---
+
+No.11:
+★Our school has a new music club.
+☆Really?  What can we do there?
+★We can play the guitar and sing.
+☆☆
+
+Question No.11:
+What can they do in the club?
+
+1. Play soccer.
+2. Cook lunch.
+3. Read books.
+4. Play the guitar and sing.
+
+【正解11】
+4. Play the guitar and sing.
+
+【解説11】
+放送文
+★Our school has a new music club.（がっこうに新しい音楽クラブができたよ。）
+☆Really?  What can we do there?（ほんと？ そこで何ができるの？）
+★We can play the guitar and sing.（ギターをひいたり歌ったりできるよ。）
+Question: What can they do in the club?（クラブで何ができますか？）
+
+★ が「play the guitar and sing（ギターをひいたり歌ったりできる）」と言っているので、4が正解です。
+1・2・3は会話に出てきません。
+
+---
+
+No.12:
+☆Grandma, I brought you some flowers.
+★Thank you.  They're beautiful.
+☆I'll put them in a vase.
+☆☆
+
+Question No.12:
+What did the boy bring?
+
+1. Some flowers.
+2. Some fruit.
+3. A book.
+4. A cake.
+
+【正解12】
+1. Some flowers.
+
+【解説12】
+放送文
+☆Grandma, I brought you some flowers.（おばあちゃん、花を持ってきたよ。）
+★Thank you.  They're beautiful.（ありがとう。きれいね。）
+☆I'll put them in a vase.（花瓶に入れるね。）
+Question: What did the boy bring?（男の子は何を持ってきましたか？）
+
+☆ が「some flowers（花）」を持ってきた、と言っているので、1「Some flowers.（花）」が正解です。
+「put them in a vase（花瓶に入れる）」の them は花のことです。
+
+---
+
+No.13:
+★I can't find my wallet.
+☆Where did you last use it?
+★At the bookstore this morning.
+☆☆
+
+Question No.13:
+Where did the boy last use his wallet?
+
+1. At the bookstore.
+2. At school.
+3. At the park.
+4. At the library.
+
+【正解13】
+1. At the bookstore.
+
+【解説13】
+放送文
+★I can't find my wallet.（さいふが見つからない。）
+☆Where did you last use it?（最後にどこで使った？）
+★At the bookstore this morning.（きょうの朝、本屋で。）
+Question: Where did the boy last use his wallet?（男の子は最後にどこでさいふを使いましたか？）
+
+★ が「At the bookstore（本屋）」で使った、と答えているので、1「At the bookstore.（本屋）」が正解です。
+2・3・4は会話に出てきません。
+
+---
+
+No.14:
+☆What are you and your mom doing?
+★We're making sandwiches for lunch.
+☆Do you want one?
+☆☆
+
+Question No.14:
+What are they making?
+
+1. Soup.
+2. Cookies.
+3. Sandwiches.
+4. Salad.
+
+【正解14】
+3. Sandwiches.
+
+【解説14】
+放送文
+☆What are you and your mom doing?（お母さんと何をしているの？）
+★We're making sandwiches for lunch.（ひるごはん用のサンドイッチを作っているよ。）
+☆Do you want one?（一つほしい？）
+Question: What are they making?（2人は何を作っていますか？）
+
+★ が「making sandwiches（サンドイッチを作っている）」と言っているので、3「Sandwiches.（サンドイッチ）」が正解です。
+「for lunch（ひるごはん用）」も手がかりになります。
+
+---
+
+No.15:
+★Where do you want to go this summer?
+☆I want to go to the beach with my family.
+★That sounds fun.
+☆☆
+
+Question No.15:
+Where does the girl want to go?
+
+1. To the mountains.
+2. To the zoo.
+3. To the museum.
+4. To the beach.
+
+【正解15】
+4. To the beach.
+
+【解説15】
+放送文
+★Where do you want to go this summer?（この夏、どこに行きたい？）
+☆I want to go to the beach with my family.（家族と海に行きたい。）
+★That sounds fun.（たのしそうだね。）
+Question: Where does the girl want to go?（女の子はどこに行きたいですか？）
+
+☆ が「go to the beach（海に行きたい）」と言っているので、4「To the beach.（海）」が正解です。
+1・2・3は会話に出てきません。

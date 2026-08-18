@@ -45,7 +45,7 @@ He took it to the animal center.（動物センターへ連れて行きました
 The staff said the owner called them in the afternoon.（午後に飼い主から連絡があった、とスタッフが言いました。）
 Question: What did Riku find near the station?（リクは駅の近くで何を見つけましたか？）
 
-「a lost kitten」とあるので、2が正解です。
+「a lost kitten」とあるので、4が正解です。
 動物センターや飼い主は、そのあとの話です。
 
 ---
@@ -97,7 +97,7 @@ Students should bring old gloves.（生徒は古い手袋を持ってきてく�
 The work will finish before lunch.（作業はお昼の前に終わります。）
 Question: What should students bring?（生徒は何を持ってくるべきですか？）
 
-「bring old gloves」とあるので、2が正解です。
+「bring old gloves」とあるので、4が正解です。
 木を植える場所や終了時間は別の情報です。
 
 ---
@@ -125,3 +125,133 @@ Question: What color did they paint the birdhouse?（彼らは巣箱を何色に
 
 「painted it light blue」とあるので、1が正解です。
 庭や鳥はあとの話で、色の答えではありません。
+
+---
+
+No.6:
+M: Next Friday, Yuto's class will visit a bread factory. They will see how bakers make rolls. Students should wear a hat from home.
+
+Question No.6:
+What should students wear?
+
+1. New shoes.
+2. A hat from home.
+3. A blue jacket.
+4. Gloves for cooking.
+
+【正解6】
+2. A hat from home.
+
+【解説6】
+放送文
+M: Next Friday, Yuto's class will visit a bread factory.（今度の金曜日、ユトのクラスはパン工場を見学します。）
+They will see how bakers make rolls.（パン屋さんがロールパンを作る様子を見ます。）
+Students should wear a hat from home.（生徒は家から帽子をかぶってきてください。）
+Question: What should students wear?（生徒は何をかぶる／着るべきですか？）
+
+「wear a hat from home」とあるので、2が正解です。
+ロールパンは見学の内容で、持ち物ではありません。
+
+---
+
+No.7:
+W: Last night, Emi cooked soup with her grandmother. They used carrots from the garden. Emi said it tasted better than the soup from the shop.
+
+Question No.7:
+What did Emi and her grandmother cook?
+
+1. Cake.
+2. Salad.
+3. Soup.
+4. Eggs.
+
+【正解7】
+3. Soup.
+
+【解説7】
+放送文
+W: Last night, Emi cooked soup with her grandmother.（昨夜、エミはおばあちゃんとスープを作りました。）
+They used carrots from the garden.（庭のにんじんを使いました。）
+Emi said it tasted better than the soup from the shop.（店のスープよりおいしい、とエミは言いました。）
+Question: What did Emi and her grandmother cook?（エミとおばあちゃんは何を作りましたか？）
+
+「cooked soup」とあるので、3が正解です。
+にんじんは材料、店のスープは比べた相手です。
+
+---
+
+No.8:
+M: Every Saturday morning, Haru takes a bus to the pool. He swims for forty minutes. Then he drinks milk at a small shop near the gate.
+
+Question No.8:
+How does Haru go to the pool?
+
+1. By bike.
+2. On foot.
+3. By train.
+4. By bus.
+
+【正解8】
+4. By bus.
+
+【解説8】
+放送文
+M: Every Saturday morning, Haru takes a bus to the pool.（毎週土曜の朝、ハルはバスでプールへ行きます。）
+He swims for forty minutes.（40分泳ぎます。）
+Then he drinks milk at a small shop near the gate.（そのあと、門の近くの小さな店で牛乳を飲みます。）
+Question: How does Haru go to the pool?（ハルはどうやってプールへ行きますか？）
+
+「takes a bus」とあるので、4が正解です。
+40分は泳ぐ時間、牛乳はそのあとの話です。
+
+---
+
+No.9:
+W: Tomorrow after school, Niko will take her little brother to the dentist. They will leave at four. Her mother will meet them in the waiting room.
+
+Question No.9:
+When will Niko and her brother leave?
+
+1. At four.
+2. In the morning.
+3. After dinner.
+4. On Saturday.
+
+【正解9】
+1. At four.
+
+【解説9】
+放送文
+W: Tomorrow after school, Niko will take her little brother to the dentist.（明日の放課後、ニコは弟を歯医者へ連れて行きます。）
+They will leave at four.（4時に出発します。）
+Her mother will meet them in the waiting room.（お母さんは待合室で会います。）
+Question: When will Niko and her brother leave?（ニコと弟はいつ出発しますか？）
+
+「leave at four」とあるので、1が正解です。
+待合室はお母さんが待つ場所です。
+
+---
+
+No.10:
+M: Last Sunday, Kota's class cleaned the river. They picked up bottles and plastic bags. After that, they ate rice balls in the park.
+
+Question No.10:
+What did they do after cleaning the river?
+
+1. They went home at once.
+2. They swam in the river.
+3. They ate rice balls in the park.
+4. They bought new bottles.
+
+【正解10】
+3. They ate rice balls in the park.
+
+【解説10】
+放送文
+M: Last Sunday, Kota's class cleaned the river.（先週の日曜日、コタのクラスは川をそうじしました。）
+They picked up bottles and plastic bags.（びんやビニール袋を拾いました。）
+After that, they ate rice balls in the park.（そのあと、公園でおにぎりを食べました。）
+Question: What did they do after cleaning the river?（川のそうじのあと、彼らは何をしましたか？）
+
+「After that, they ate rice balls in the park」とあるので、3が正解です。
+びんは拾ったもので、買ったのではありません。

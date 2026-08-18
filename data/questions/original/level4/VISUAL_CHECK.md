@@ -12,10 +12,10 @@
 | 文法・語彙 | `grammar_fill_questions.txt` | 10 |
 | 会話補充 | `conversation_questions.txt` | 10 |
 | 語順 | `wordorder_questions.txt` | 10（`validate_wordorder_questions.py` 済） |
-| 読解 | `reading_comprehesion_questions.txt` | 本文5×2問 |
+| 読解 | `reading_comprehesion_questions.txt` | 本文6（掲示2問・メール3問・物語5問を2セット） |
 | Lイラスト | `listening_illustration_questions.txt` | 10 |
-| L会話 | `listening_conversation_questions.txt` | 5 |
-| L文章 | `listening_passage_questions.txt` | 5 |
+| L会話 | `listening_conversation_questions.txt` | 10 |
+| L文章 | `listening_passage_questions.txt` | 10 |
 | スピーキング | `speaking_questions.txt` | 5 |
 
 ## アセット
@@ -23,8 +23,8 @@
 | 種類 | 配置 | 状態メモ |
 |------|------|----------|
 | 音声 Part1 | `static/audio/level4/part1/listening_illustration_question{1–10}.mp3` | TTS 済 |
-| 音声 Part2 | `static/audio/level4/part2/listening_conversation_question{1–5}.mp3` | TTS 済 |
-| 音声 Part3 | `static/audio/level4/part3/listening_passage_question{1–5}.mp3` | TTS 済 |
+| 音声 Part2 | `static/audio/level4/part2/listening_conversation_question{1–10}.mp3` | テキスト10問。登録時に TTS（既存は1–5） |
+| 音声 Part3 | `static/audio/level4/part3/listening_passage_question{1–10}.mp3` | テキスト10問。登録時に TTS（既存は1–5） |
 | 画像 | `static/images/level4/part1/listening_illustration_image{1–10}.png` | 生成済・要目視 |
 
 画像の注意:
@@ -50,7 +50,7 @@
 
 ### 語順
 
-- [ ] 解説の全文と枠・①〜④が一致（スクリプト再実行可）
+- [ ] 解説の全文と枠・①〜⑤が一致（2番目・4番目。スクリプト再実行可）
 
 ```bash
 python utils/validate_wordorder_questions.py data/questions/original/level4/wordorder_questions.txt
@@ -58,8 +58,10 @@ python utils/validate_wordorder_questions.py data/questions/original/level4/word
 
 ### 読解
 
-- [ ] 案内・メールの設定（行事名・日程骨格）が公式と被っていない
-- [ ] 設問が本文に根拠がある
+- [ ] 1セットが掲示2問・メール3問・物語5問（12 / 123 / 12345）
+- [ ] 語数が4級目安（掲示約55・メール約130・物語約160）
+- [ ] 案内・メール・物語の設定（行事名・日程骨格）が公式と被っていない
+- [ ] 設問が本文に根拠がある。ダミーは本文の別情報になっている
 
 ### リスニング
 
@@ -70,7 +72,7 @@ python utils/validate_wordorder_questions.py data/questions/original/level4/word
 ### スピーキング
 
 - [ ] パッセージが公式面接台本に近くない
-- [ ] 内容2＋自分1のバランスが取れている
+- [ ] 内容2＋イラスト1＋自分1のバランスが取れている
 
 ## 完了後
 

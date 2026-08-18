@@ -1,108 +1,127 @@
 問題1:
 【Title】
-Hana's Bike
+Park Picnic
 
 【Passage】
-Hana is 10 years old. She rides her bike to the park every Saturday. Her bike is light green. She often meets her friend Aya there.
+Hana is 10 years old. She rides to the park every Saturday. She takes a small lunch and meets her friend Aya there. They sit under a tree.
+
+【Illustration】
+公園。女の子が木の下でおにぎりを食べている。もう一人の女の子が水筒の水を飲んでいる。自転車が木のそばに置いてある。
 
 【Questions】
-1. How old is Hana?
-2. What color is Hana's bike?
-3. Do you like riding a bike?
+1. [passage] When does Hana go to the park?
+2. [passage] Who does she meet there?
+3. [illustration] What is the girl under the tree eating?
+4. [personal] Do you like going to the park?
 
 【参考解答】
 ■ この問題で求められること
-短いパッセージを黙読→音読したあと、内容についての質問2問と、自分自身についての質問1問に答えます。
+約25語を黙読→音読したあと、内容2問・イラスト1問・自分のこと1問に答えます。
 
 ■ 音読のポイント
 ・一文ずつ区切ってはっきり読む
-・Hana / Aya / Saturday などの名前や曜日も丁寧に
+・Hana / Aya / Saturday も丁寧に
 
 ■ 参考解答の例
-1. She is 10 years old.
-2. It is light green. / Her bike is light green.
-3. Yes, I do. / No, I don't. / I like riding a bike.
+1. Every Saturday. / She goes every Saturday.
+2. Her friend Aya. / She meets Aya.
+3. She is eating a rice ball. / A rice ball.
+4. Yes, I do. / No, I don't.
 
 ■ 表現のメモ
-内容質問は He / She / It に置き換えて答えると自然です。No.3 は自分の答えを短く言えばOKです。
+イラストは進行形（is -ing）で答えると自然です。No.4 は自分の答えでOKです。
 
 ---
 
 問題2:
 【Title】
-Kenta's Lunch
+Cafeteria Lunch
 
 【Passage】
-Kenta usually eats lunch at school. Today his mother made rice balls and orange juice. He sits with his friends and talks about soccer.
+Kenta usually eats lunch in the school cafeteria. Today his mother made rice balls and orange juice. He sits with his friends and talks about soccer.
+
+【Illustration】
+食堂。男の子がおにぎりを持っている。女の子がオレンジジュースを飲んでいる。もう一人の男の子がトレイを運んでいる。
 
 【Questions】
-1. Where does Kenta usually eat lunch?
-2. What did his mother make today?
-3. What do you often eat for lunch?
+1. [passage] Where does Kenta usually eat lunch?
+2. [passage] What did his mother make today?
+3. [illustration] What is the girl drinking?
+4. [personal] What do you often eat for lunch?
 
 【参考解答】
 ■ この問題で求められること
-パッセージを黙読・音読し、内容質問2問と自分についての質問1問に答えます。
+パッセージを黙読・音読し、内容2問・イラスト1問・自分のこと1問に答えます。
 
 ■ 音読のポイント
-・usually / rice balls / soccer をはっきり読む
+・usually / cafeteria / rice balls をはっきり読む
 ・文末まで落とさずに読む
 
 ■ 参考解答の例
-1. He eats lunch at school. / At school.
+1. In the school cafeteria. / At school.
 2. She made rice balls and orange juice.
-3. I eat a sandwich. / I eat rice. / I eat bread.
+3. She is drinking orange juice. / Orange juice.
+4. I eat a sandwich. / I eat rice. / I eat bread.
 
 ■ 表現のメモ
-No.2 は today の情報に答えます。usually の文と混ぜないようにしましょう。
+No.2 は today の情報です。usually の文と混ぜないようにしましょう。
 
 ---
 
 問題3:
 【Title】
-Library Afternoon
+Thursday Reading
 
 【Passage】
 Sora goes to the city library after school on Thursdays. She reads comics and studies English there. The library is quiet and cool in summer.
 
+【Illustration】
+図書館。女の子が漫画を読んでいる。男の子が英語のノートに書いている。司書が棚に本を戻している。
+
 【Questions】
-1. When does Sora go to the library?
-2. What does she do there?
-3. Where do you like to study?
+1. [passage] When does Sora go to the library?
+2. [passage] What does she do there?
+3. [illustration] What is the boy doing?
+4. [personal] Where do you like to study?
 
 【参考解答】
 ■ この問題で求められること
-パッセージを黙読・音読し、内容2問と自分のこと1問に答えます。
+約25語を音読し、内容2・イラスト1・自分のこと1に答えます。
 
 ■ 音読のポイント
 ・Thursdays / comics / English をはっきり
 ・quiet and cool も丁寧に
 
 ■ 参考解答の例
-1. She goes there on Thursdays. / After school on Thursdays.
+1. On Thursdays. / After school on Thursdays.
 2. She reads comics and studies English.
-3. I study at home. / I study at school. / I study in the library.
+3. He is writing in a notebook. / Studying English.
+4. I study at home. / I study at school.
 
 ■ 表現のメモ
-No.1 は曜日、No.2 は行動です。質問の疑問詞に合わせて答えましょう。
+No.1 は曜日、No.2 は行動です。イラストは本文と同じ漫画でなくても、絵に見えることを言います。
 
 ---
 
 問題4:
 【Title】
-Rainy Morning
+Wet Bus Stop
 
 【Passage】
 It was rainy this morning. Leo took an umbrella and wore boots. He waited for the bus with his father at the corner.
 
+【Illustration】
+バス停。男の子が傘をさしている。お父さんが時刻表を見ている。水たまりに長靴が映っている。
+
 【Questions】
-1. How was the weather this morning?
-2. Who waited for the bus with Leo?
-3. What do you take on rainy days?
+1. [passage] How was the weather this morning?
+2. [passage] Who waited for the bus with Leo?
+3. [illustration] What is the man looking at?
+4. [personal] What do you take on rainy days?
 
 【参考解答】
 ■ この問題で求められること
-パッセージを黙読・音読し、内容2問と自分のこと1問に答えます。
+パッセージを黙読・音読し、内容2問・イラスト1問・自分のこと1問に答えます。
 
 ■ 音読のポイント
 ・rainy / umbrella / boots をはっきり読む
@@ -111,7 +130,8 @@ It was rainy this morning. Leo took an umbrella and wore boots. He waited for th
 ■ 参考解答の例
 1. It was rainy. / It was rainy this morning.
 2. His father. / He waited with his father.
-3. I take an umbrella. / I wear a raincoat.
+3. He is looking at the timetable. / A bus timetable.
+4. I take an umbrella. / I wear a raincoat.
 
 ■ 表現のメモ
 No.1 は天気、No.2 はだれと、です。boots は持ち物で、一緒に待った人ではありません。
@@ -120,28 +140,33 @@ No.1 は天気、No.2 はだれと、です。boots は持ち物で、一緒に�
 
 問題5:
 【Title】
-Art Club
+Poster Club
 
 【Passage】
-Miki joined the art club this year. The club meets in Room 5 after school. Members draw pictures and sometimes make posters for school events.
+Miki joined the poster club this year. The club meets in Room 5 after school. Members draw pictures and sometimes make signs for school events.
+
+【Illustration】
+教室。女の子が大きな紙に絵を描いている。男の子が色ペンを持っている。壁に学校行事のポスターが貼ってある。
 
 【Questions】
-1. Which club did Miki join?
-2. Where does the club meet?
-3. What club do you want to join?
+1. [passage] Which club did Miki join?
+2. [passage] Where does the club meet?
+3. [illustration] What is the girl doing?
+4. [personal] What club do you want to join?
 
 【参考解答】
 ■ この問題で求められること
-パッセージを黙読・音読し、内容2問と自分のこと1問に答えます。
+約25語を音読し、内容2・イラスト1・自分のこと1に答えます。
 
 ■ 音読のポイント
-・joined / Room 5 / posters をはっきり
-・events も丁寧に
+・joined / Room 5 / events をはっきり
+・sometimes も丁寧に
 
 ■ 参考解答の例
-1. She joined the art club. / The art club.
+1. She joined the poster club. / The poster club.
 2. In Room 5. / It meets in Room 5.
-3. I want to join the music club. / I want to join the soccer club.
+3. She is drawing on a big paper. / Drawing a poster.
+4. I want to join the music club. / I want to join the soccer club.
 
 ■ 表現のメモ
-No.3 は自分の希望なので、本文の art club と同じでなくても大丈夫です。
+No.4 は自分の希望なので、本文の poster club と同じでなくても大丈夫です。

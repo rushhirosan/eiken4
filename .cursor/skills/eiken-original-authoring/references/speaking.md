@@ -40,6 +40,28 @@ Mika is 9 years old. She has a cat. The cat's name is Mochi. Mochi is white. Mik
 ---
 ```
 
+## 4級
+
+パッセージ＋イラスト。内容2・イラスト1・自分のこと1。
+
+```
+問題1:
+【Title】
+Park Picnic
+
+【Passage】
+Hana is 10 years old. She rides to the park every Saturday. She takes a small lunch and meets her friend Aya there.
+
+【Illustration】
+公園。女の子が木の下でおにぎりを食べている。もう一人の女の子が水筒の水を飲んでいる。
+
+【Questions】
+1. [passage] When does Hana go to the park?
+2. [passage] Who does she meet there?
+3. [illustration] What is the girl under the tree eating?
+4. [personal] Do you like going to the park?
+```
+
 ## 3級
 
 パッセージ＋イラスト説明。内容1・イラスト2・自分のこと2。
@@ -79,5 +101,5 @@ Many families stay home on Saturday morning. Some people cook breakfast. Others 
 ## Rules
 
 - 公式面接の設問文・パッセージを転用しない
-- 5級パッセージはおおよそ 15〜25 語、3級はおおよそ 25〜40 語
-- 4級は依頼があれば5級と3級の中間（短いパッセージ＋内容2＋自分1）でよい
+- 5級パッセージはおおよそ 15〜25 語、4級はおおよそ 20〜30 語、3級はおおよそ 25〜40 語
+- 4級は内容2＋イラスト1＋自分1。3級は内容1＋イラスト2＋自分2

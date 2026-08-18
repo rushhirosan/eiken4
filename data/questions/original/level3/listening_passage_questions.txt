@@ -4,13 +4,13 @@ W: Next Sunday, Nao will work at the community garden near her house. She will w
 Question No.1:
 Where will Nao work next Sunday?
 
-1. At a bakery.
-2. At a community garden.
+1. At a community garden.
+2. At a bakery.
 3. At a museum.
 4. At a library.
 
 【正解1】
-2. At a community garden.
+1. At a community garden.
 
 【解説1】
 放送文
@@ -19,7 +19,7 @@ She will water the tomato plants and pick weeds.（トマトに水をやり、�
 She wants to take home some fresh herbs.（新鮮なハーブを家に持ち帰りたいと思っています。）
 Question: Where will Nao work next Sunday?（ナオは次の日曜日、どこで働きますか？）
 
-「community garden（コミュニティガーデン）」とあるので、2が正解です。
+「community garden」とあるので、1が正解です。
 ハーブを持ち帰る話はあとでしたいことで、働く場所ではありません。
 
 ---
@@ -56,13 +56,13 @@ W: This morning, Kenta woke up early to make rice balls for the sports day. He p
 Question No.3:
 Why did Kenta wake up early?
 
-1. To wash fruit with his sister.
-2. To make rice balls for sports day.
+1. To make rice balls for sports day.
+2. To wash fruit with his sister.
 3. To study hard for a big test.
 4. To walk his dog in the park.
 
 【正解3】
-2. To make rice balls for sports day.
+1. To make rice balls for sports day.
 
 【解説3】
 放送文
@@ -71,9 +71,8 @@ He put pickled plum in them.（梅干しを入れました。）
 His sister helped him wash the fruit.（妹が果物を洗うのを手伝いました。）
 Question: Why did Kenta wake up early?（ケンタが早く起きた理由は何ですか？）
 
-「to make rice balls for the sports day」とあるので、2が正解です。
-1は妹がした手伝いの内容で、ケンタが早く起きた理由ではありません。
-3・4は放送に出てこない理由です。
+「to make rice balls for the sports day」とあるので、1が正解です。
+1は妹がした手伝いで、ケンタが早く起きた理由ではありません。
 
 ---
 
@@ -99,13 +98,12 @@ Yui wants to write a report about it for the school newspaper.（ユイはそれ
 Question: What does Yui want to write about?（ユイは何について書きたいですか？）
 
 「a report about it」の it はリサイクルセンター見学のことなので、3が正解です。
-2のガラスびんは見学で学ぶ内容の一部で、レポートの題そのものとして放送では言っていません。
-1・4は放送にない話題です。
+ガラスびんは見学で学ぶ内容の一部です。
 
 ---
 
 No.5:
-W: Last Saturday, Ren practiced the guitar for two hours. Then he played a song for his grandparents online. They smiled and clapped at the end.
+W: Last Saturday, Ren practiced the guitar for two hours. Then he played a song for his grandparents online. They smiled and clapped at the end. His little sister sat beside him and listened.
 
 Question No.5:
 What did Ren do after practicing?
@@ -123,7 +121,140 @@ What did Ren do after practicing?
 W: Last Saturday, Ren practiced the guitar for two hours.（先週の土曜日、レンは2時間ギターを練習しました。）
 Then he played a song for his grandparents online.（そのあと、オンラインでおじいちゃん・おばあちゃんに曲を演奏しました。）
 They smiled and clapped at the end.（最後に二人は笑って拍手しました。）
+His little sister sat beside him and listened.（妹が横に座って聞いていました。）
 Question: What did Ren do after practicing?（レンは練習のあと何をしましたか？）
 
-練習のあとはオンラインで grandparents に演奏した、なので 4 が正解です。
-2時間練習した、は前の行動です。1・2・3は放送にない行動です。
+練習のあとはオンラインで演奏した、なので 4 が正解です。
+2時間練習した、は前の行動です。
+
+---
+
+No.6:
+M: Saki has lived near the sea for three years. She has never tried surfing, but she watches the waves after school. Next summer she wants to take a lesson.
+
+Question No.6:
+How long has Saki lived near the sea?
+
+1. For three weeks.
+2. All her life.
+3. Since last summer.
+4. For three years.
+
+【正解6】
+4. For three years.
+
+【解説6】
+放送文
+M: Saki has lived near the sea for three years.（サキは3年間、海の近くに住んでいます。）
+She has never tried surfing, but she watches the waves after school.（サーフィンはしたことがありませんが、放課後に波を見ます。）
+Next summer she wants to take a lesson.（来年の夏にレッスンを受けたいと思っています。）
+Question: How long has Saki lived near the sea?（サキはどのくらい海の近くに住んでいますか？）
+
+「for three years」とあるので、4が正解です。
+サーフィンをしたことがない、は別の現在完了です。
+
+---
+
+No.7:
+W: This morning the train was late, so Kosei walked to the museum. He has visited that museum twice before. He wanted to see a new robot show.
+
+Question No.7:
+How many times has Kosei visited the museum before today?
+
+1. Once.
+2. Twice.
+3. Three times.
+4. Never.
+
+【正解7】
+2. Twice.
+
+【解説7】
+放送文
+W: This morning the train was late, so Kosei walked to the museum.（けさ電車が遅れたので、コウセイは歩いて博物館へ行きました。）
+He has visited that museum twice before.（以前にその博物館へ2回行ったことがあります。）
+He wanted to see a new robot show.（新しいロボットの展示を見たかったのです。）
+Question: How many times has Kosei visited the museum before today?（コウセイは今日より前に、その博物館へ何回行ったことがありますか？）
+
+「twice before」とあるので、2が正解です。
+歩いて行った、は今日の行き方です。
+
+---
+
+No.8:
+M: Ayaka has already finished her science report. She wrote about rain water at school. She has already printed the pages at the library. Her teacher asked her to add one photo before Friday.
+
+Question No.8:
+What does Ayaka still need to do before Friday?
+
+1. Add one photo.
+2. Start a new report.
+3. Change her teacher.
+4. Study for a music test.
+
+【正解8】
+1. Add one photo.
+
+【解説8】
+放送文
+M: Ayaka has already finished her science report.（アヤカは理科のレポートをもう書き終えています。）
+She wrote about rain water at school.（学校の雨水について書きました。）
+She has already printed the pages at the library.（ページは図書館でもう印刷してあります。）
+Her teacher asked her to add one photo before Friday.（先生は金曜までに写真を1枚足すように言いました。）
+Question: What does Ayaka still need to do before Friday?（アヤカが金曜までにまだやらなければならないことは何ですか？）
+
+「add one photo before Friday」とあるので、1が正解です。
+レポート本文はすでに終わっています。
+
+---
+
+No.9:
+W: If it snows on Sunday, Daiki's family will stay home and make hot soup. They have already bought bread and milk. Daiki hopes he can still see his friends online.
+
+Question No.9:
+What will Daiki's family do if it snows on Sunday?
+
+1. Go skiing in the mountains.
+2. Stay home and make hot soup.
+3. Buy bread at the shop.
+4. Visit friends by bus.
+
+【正解9】
+2. Stay home and make hot soup.
+
+【解説9】
+放送文
+W: If it snows on Sunday, Daiki's family will stay home and make hot soup.（日曜に雪なら、ダイキの家族は家にいて温かいスープを作ります。）
+They have already bought bread and milk.（パンと牛乳はもう買ってあります。）
+Daiki hopes he can still see his friends online.（ダイキは、それでもオンラインで友達に会えるといいなと思っています。）
+Question: What will Daiki's family do if it snows on Sunday?（日曜に雪なら、ダイキの家族は何をしますか？）
+
+「stay home and make hot soup」とあるので、2が正解です。
+パンはすでに買ってあるもので、その日の予定ではありません。
+
+---
+
+No.10:
+M: Last month Mio joined a volunteer group. They have cleaned the station stairs three times. Mio has never missed a Saturday meeting. Next week they will collect old books for a small library.
+
+Question No.10:
+How many times have they cleaned the station stairs?
+
+1. Once.
+2. Twice.
+3. Three times.
+4. Every day.
+
+【正解10】
+3. Three times.
+
+【解説10】
+放送文
+M: Last month Mio joined a volunteer group.（先月、ミオはボランティアのグループに入りました。）
+They have cleaned the station stairs three times.（駅の階段を3回そうじしています。）
+Mio has never missed a Saturday meeting.（土曜の集まりを欠かしたことはありません。）
+Next week they will collect old books for a small library.（来週は小さな図書館のために古い本を集めます。）
+Question: How many times have they cleaned the station stairs?（彼らは駅の階段を何回そうじしましたか？）
+
+「three times」とあるので、3が正解です。
+古い本は来週の予定です。

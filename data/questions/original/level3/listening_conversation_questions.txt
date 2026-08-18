@@ -1,37 +1,38 @@
 No.1:
-☆I need to buy a birthday cake for Dad.
-★The bakery near the station makes good cakes.
-☆Great. Let's go there after school.
-☆☆
+W: My bicycle is ready at the shop by the river.
+M: Great. Let's pick it up after club.
+W: If it's closed, we can go on Sunday morning.
+M: OK. I'll meet you at four.
 
 Question No.1:
-Where will they go after school?
+Where will they go after club?
 
-1. To the gym.
-2. To the bakery near the station.
+1. To the bicycle shop by the river.
+2. To the gym.
 3. To Dad's office.
 4. To a flower shop.
 
 【正解1】
-2. To the bakery near the station.
+1. To the bicycle shop by the river.
 
 【解説1】
 放送文
-☆I need to buy a birthday cake for Dad.（お父さんに誕生日ケーキを買わないと。）
-★The bakery near the station makes good cakes.（駅の近くのパン屋さんのケーキがおいしいよ。）
-☆Great. Let's go there after school.（いいね。放課後に行こう。）
-Question: Where will they go after school?（2人は放課後どこへ行きますか？）
+W: My bicycle is ready at the shop by the river.（自転車が、川のそばの店で直ってるよ。）
+M: Great. Let's pick it up after club.（いいね。部活のあと取りに行こう。）
+W: If it's closed, we can go on Sunday morning.（閉まっていたら、日曜の朝でも行けるよ。）
+M: OK. I'll meet you at four.（うん。4時に会おう。）
+Question: Where will they go after club?（2人は部活のあとどこへ行きますか？）
 
-女の子が「there（そのパン屋）」へ行こうと言っているので、2が正解です。
-お父さんへのケーキ、という話は目的で、会社へ行くとは言っていません。
+女の子が「the shop by the river（川のそばの店）」へ行こうと言っているので、1が正解です。
+日曜は店が閉まっていたときの予定です。4時は集合時刻です。
 
 ---
 
 No.2:
-★Can I use your dictionary for a minute?
-☆Sure, but please bring it back before lunch.
-★OK. I'll finish my homework quickly.
-☆☆
+M: Can I use your dictionary for a minute?
+W: Sure, but please bring it back before lunch.
+M: OK. I'll finish this English homework quickly.
+W: Thanks. I need it for my report this afternoon.
 
 Question No.2:
 When should the boy return the dictionary?
@@ -46,50 +47,52 @@ When should the boy return the dictionary?
 
 【解説2】
 放送文
-★Can I use your dictionary for a minute?（ちょっと辞書、借りてもいい？）
-☆Sure, but please bring it back before lunch.（いいよ。でもお昼の前に返してね。）
-★OK. I'll finish my homework quickly.（わかった。宿題を早く終わらせるよ。）
+M: Can I use your dictionary for a minute?（ちょっと辞書、借りてもいい？）
+W: Sure, but please bring it back before lunch.（いいよ。でもお昼の前に返してね。）
+M: OK. I'll finish this English homework quickly.（わかった。この英語の宿題を早く終わらせるよ。）
+W: Thanks. I need it for my report this afternoon.（ありがとう。午後のレポートで使うから。）
 Question: When should the boy return the dictionary?（男の子はいつ辞書を返すべきですか？）
 
-女の子が「before lunch（お昼の前）」と言っているので、3が正解です。
-宿題を早くやる、は返すための行動で、返す時刻そのものではありません。
+女の子が「before lunch」と言っているので、3が正解です。
+宿題を早くやる、は返すための行動です。午後は女の子が使う時間です。
 
 ---
 
 No.3:
-☆Why are you wearing boots today?
-★Because we'll walk through the wet grass in the park.
-☆Oh, right. The nature club meeting is there.
-☆☆
+W: Why are you wearing boots today?
+M: Because we'll walk through the wet grass in the park.
+W: Oh, right. The nature club meeting is there.
+M: Yes. If it rains harder, we'll move to the science room.
 
 Question No.3:
 Why is the boy wearing boots?
 
-1. Because it is snowing at school.
-2. Because he will walk through wet grass.
+1. Because he will walk through wet grass.
+2. Because it is snowing at school.
 3. Because his shoes are broken.
 4. Because he has a P.E. class.
 
 【正解3】
-2. Because he will walk through wet grass.
+1. Because he will walk through wet grass.
 
 【解説3】
 放送文
-☆Why are you wearing boots today?（きょう、どうしてブーツをはいてるの？）
-★Because we'll walk through the wet grass in the park.（公園のぬれた草の中を歩くから。）
-☆Oh, right. The nature club meeting is there.（そうか。自然部の集まりがそこだね。）
+W: Why are you wearing boots today?（きょう、どうしてブーツをはいてるの？）
+M: Because we'll walk through the wet grass in the park.（公園のぬれた草の中を歩くから。）
+W: Oh, right. The nature club meeting is there.（そうか。自然部の集まりがそこだね。）
+M: Yes. If it rains harder, we'll move to the science room.（うん。雨が強くなったら理科室に移るよ。）
 Question: Why is the boy wearing boots?（男の子がブーツをはいている理由は何ですか？）
 
-男の子が「wet grass（ぬれた草）」を歩くと言っているので、2が正解です。
-自然部の集まりは場所の説明で、雪や体育の話ではありません。
+男の子が「wet grass」を歩くと言っているので、1が正解です。
+理科室は雨が強くなったときの変更で、いまブーツをはく理由ではありません。
 
 ---
 
 No.4:
-★Mom, may I invite two friends to dinner on Friday?
-☆Yes, but help me cook the pasta.
-★No problem. I'll grate the cheese.
-☆☆
+M: Mom, may I invite two friends to dinner on Friday?
+W: Yes, but help me cook the pasta.
+M: No problem. I'll grate the cheese.
+W: Thanks. Please wash your hands before you start.
 
 Question No.4:
 What will the boy do to help?
@@ -104,41 +107,191 @@ What will the boy do to help?
 
 【解説4】
 放送文
-★Mom, may I invite two friends to dinner on Friday?（金曜の夕ごはんに友達を2人呼んでもいい？）
-☆Yes, but help me cook the pasta.（いいわ。でもパスタ作りを手伝って。）
-★No problem. I'll grate the cheese.（もちろん。チーズをおろすよ。）
+M: Mom, may I invite two friends to dinner on Friday?（金曜の夕ごはんに友達を2人呼んでもいい？）
+W: Yes, but help me cook the pasta.（いいわ。でもパスタ作りを手伝って。）
+M: No problem. I'll grate the cheese.（もちろん。チーズをおろすよ。）
+W: Thanks. Please wash your hands before you start.（ありがとう。始める前に手を洗ってね。）
 Question: What will the boy do to help?（男の子は手伝いで何をしますか？）
 
-男の子が「grate the cheese（チーズをおろす）」と言っているので、4が正解です。
-パスタを作る、はお母さんからのお願いで、彼が買うとは言っていません。
+男の子が「grate the cheese」と言っているので、4が正解です。
+手を洗うのは準備で、質問の「手伝い」の中身はチーズです。
 
 ---
 
 No.5:
-☆The school festival is next week. Are you ready?
-★Almost. I still need to finish my poster tonight.
-☆If you want, I can bring markers to your house.
-☆☆
+W: The school festival is next week. Are you ready?
+M: Almost. I still need to finish my poster tonight.
+W: If you want, I can bring markers to your house.
+M: That would help. I have already drawn the pictures.
 
 Question No.5:
 What does the boy still need to do?
 
 1. Buy tickets for the festival.
-2. Finish his poster tonight.
-3. Clean the classroom.
+2. Clean the classroom.
+3. Finish his poster tonight.
 4. Practice a dance.
 
 【正解5】
-2. Finish his poster tonight.
+3. Finish his poster tonight.
 
 【解説5】
 放送文
-☆The school festival is next week. Are you ready?（来週が文化祭ね。準備できた？）
-★Almost. I still need to finish my poster tonight.（ほぼ。今夜ポスターを仕上げないといけない。）
-☆If you want, I can bring markers to your house.（よかったら、マーカーを家に持って行くよ。）
+W: The school festival is next week. Are you ready?（来週が文化祭ね。準備できた？）
+M: Almost. I still need to finish my poster tonight.（ほぼ。今夜ポスターを仕上げないといけない。）
+W: If you want, I can bring markers to your house.（よかったら、マーカーを家に持って行くよ。）
+M: That would help. I have already drawn the pictures.（助かる。絵はもう描いてあるんだ。）
 Question: What does the boy still need to do?（男の子がまだやらなければならないことは何ですか？）
 
-男の子が「finish my poster tonight」と言っているので、2が正解です。
-マーカーは手伝いの申し出で、彼の必須の仕事ではありません。
+男の子が「finish my poster tonight」と言っているので、3が正解です。
+絵はすでに終わっています。マーカーは手伝いの申し出です。
 
 ---
+
+No.6:
+M: How long have you played the violin?
+W: Since I was eight years old.
+M: That's a long time. Do you still take lessons?
+W: Yes. I have a lesson every Saturday morning.
+
+Question No.6:
+How long has the girl played the violin?
+
+1. Since she was eight years old.
+2. For eight minutes.
+3. Only on Saturday morning.
+4. Until last year.
+
+【正解6】
+1. Since she was eight years old.
+
+【解説6】
+放送文
+M: How long have you played the violin?（バイオリンはどのくらい弾いているの？）
+W: Since I was eight years old.（8歳のときから。）
+M: That's a long time. Do you still take lessons?（長いね。いまでもレッスンある？）
+W: Yes. I have a lesson every Saturday morning.（うん。毎週土曜の朝。）
+Question: How long has the girl played the violin?（女の子はどのくらいバイオリンを弾いていますか？）
+
+「How long」に対して開始時点の「Since I was eight」が正解です。1が正解です。
+土曜の朝はレッスンの曜日で、期間の長さそのものではありません。
+
+---
+
+No.7:
+W: What should we do if it rains on Sunday?
+M: We can visit the indoor swimming pool.
+W: Good idea. I have never been there.
+M: Then let's meet in front of the library at nine.
+
+Question No.7:
+What will they do if it rains on Sunday?
+
+1. Stay home and sleep.
+2. Visit the indoor swimming pool.
+3. Play soccer in the park.
+4. Go to the beach.
+
+【正解7】
+2. Visit the indoor swimming pool.
+
+【解説7】
+放送文
+W: What should we do if it rains on Sunday?（日曜に雨なら、どうする？）
+M: We can visit the indoor swimming pool.（屋内プールに行けるよ。）
+W: Good idea. I have never been there.（いいね。行ったことないんだ。）
+M: Then let's meet in front of the library at nine.（じゃあ9時に図書館の前で会おう。）
+Question: What will they do if it rains on Sunday?（日曜に雨なら、2人は何をしますか？）
+
+男の子が「indoor swimming pool」と言っているので、2が正解です。
+図書館の前は集合場所で、雨のときの行き先ではありません。
+
+---
+
+No.8:
+M: I'm nervous about my speech tomorrow.
+W: Don't worry. You've practiced a lot.
+M: Still, I keep thinking about mistakes.
+W: If you speak slowly, you'll be fine.
+
+Question No.8:
+Why does the girl tell him not to worry?
+
+1. Because the speech is about animals.
+2. Because he has practiced a lot.
+3. Because tomorrow is Tuesday.
+4. Because she bought a new notebook.
+
+【正解8】
+2. Because he has practiced a lot.
+
+【解説8】
+放送文
+M: I'm nervous about my speech tomorrow.（あしたのスピーチが不安だよ。）
+W: Don't worry. You've practiced a lot.（心配しないで。たくさん練習したでしょ。）
+M: Still, I keep thinking about mistakes.（でも、まちがいばかり考えちゃう。）
+W: If you speak slowly, you'll be fine.（ゆっくり話せば大丈夫だよ。）
+Question: Why does the girl tell him not to worry?（女の子が「心配しないで」と言う理由は何ですか？）
+
+「You've practiced a lot」が理由なので、2が正解です。
+ゆっくり話す、は追加のアドバイスです。スピーチの題や曜日の話はありません。
+
+---
+
+No.9:
+W: Could you tell me where the gym is?
+M: Go past the cafeteria and turn right at the science lab.
+W: Is it far from the front gate?
+M: No. You can walk there in about three minutes.
+
+Question No.9:
+How can the girl get to the gym?
+
+1. She should play basketball after school.
+2. It is open until five.
+3. Because she likes sports.
+4. Go past the cafeteria and turn right at the science lab.
+
+【正解9】
+4. Go past the cafeteria and turn right at the science lab.
+
+【解説9】
+放送文
+W: Could you tell me where the gym is?（体育館はどこか教えてくれる？）
+M: Go past the cafeteria and turn right at the science lab.（食堂をすぎて、理科室のところで右に曲がって。）
+W: Is it far from the front gate?（正門から遠い？）
+M: No. You can walk there in about three minutes.（ううん。歩いてだいたい3分だよ。）
+Question: How can the girl get to the gym?（女の子は体育館へどうやって行きますか？）
+
+道順の「Go past the cafeteria and turn right at the science lab」が正解です。
+3分は距離の目安で、曲がり方ではありません。
+
+---
+
+No.10:
+M: Do you mind if I open the window?
+W: Not at all. It's a little hot in here.
+M: Thanks. I'll close it if it gets windy.
+W: OK. I have already finished my test, so it's fine.
+
+Question No.10:
+What does the girl say about opening the window?
+
+1. The window is blue.
+2. She opened it yesterday.
+3. Please close your book.
+4. Not at all. It is a little hot.
+
+【正解10】
+4. Not at all. It is a little hot.
+
+【解説10】
+放送文
+M: Do you mind if I open the window?（窓を開けてもいい？）
+W: Not at all. It's a little hot in here.（ぜんぜん大丈夫。ここ、ちょっと暑いし。）
+M: Thanks. I'll close it if it gets windy.（ありがとう。風が強くなったら閉めるよ。）
+W: OK. I have already finished my test, so it's fine.（うん。テストはもう終わったから大丈夫。）
+Question: What does the girl say about opening the window?（窓を開けることについて、女の子はどう言っていますか？）
+
+「Not at all. It's a little hot」が許可の返事なので、4が正解です。
+テストが終わった、は追加の理由です。

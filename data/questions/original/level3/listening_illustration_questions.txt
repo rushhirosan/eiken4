@@ -1,48 +1,48 @@
 No.1:
-M: I left my umbrella somewhere.
-W: Did you check the classroom?
-M: Yes. Where is it?
+M: I think I left my train pass at the ticket gate.
+W: Have you checked your pocket?
+M: Yes. Where could it be?
 
 Question No.1:
-1. It's raining hard now.
-2. Behind the door near the blackboard.
+1. On the machine by the gate.
+2. It's raining hard now.
 3. I bought a new one.
 
 【正解1】
-2. Behind the door near the blackboard.
+1. On the machine by the gate.
 
 【解説1】
 放送文
-M: I left my umbrella somewhere.（傘をどこかに置き忘れた。）
-W: Did you check the classroom?（教室を見た？）
-M: Yes. Where is it?（うん。どこにあるの？）
+M: I think I left my train pass at the ticket gate.（定期券を改札に置き忘れたみたい。）
+W: Have you checked your pocket?（ポケットは見た？）
+M: Yes. Where could it be?（うん。どこだろう？）
 
-最後に場所を聞いているので、2「Behind the door near the blackboard.（黒板のそばのドアのうら）」が自然です。
-1は天気、3は新しい傘の話で、場所の答えではありません。
+最後に場所を聞いているので、1「On the machine by the gate.（改札の機械のうえ）」が自然です。
+2は天気、3は新しい定期の話で、場所の答えではありません。
 
 ---
 
 No.2:
-W: Are you free after school tomorrow?
-M: Yes. Why?
-W: Can you help me put up posters for the festival?
+W: These bottles are heavy. Could you help me take them to the recycling box?
+M: Sure. Where should I put them?
+W: Next to the gym door, please.
 
 Question No.2:
 1. The festival is in May.
-2. Sure. Let's meet at the art room.
-3. Posters are colorful.
+2. OK. I'll carry them there.
+3. Bottles are colorful.
 
 【正解2】
-2. Sure. Let's meet at the art room.
+2. OK. I'll carry them there.
 
 【解説2】
 放送文
-W: Are you free after school tomorrow?（あした放課後ひま？）
-M: Yes. Why?（うん。どうして？）
-W: Can you help me put up posters for the festival?（文化祭のポスター貼り、手伝ってくれる？）
+W: These bottles are heavy. Could you help me take them to the recycling box?（このびん、重いの。リサイクルの箱まで手伝ってくれる？）
+M: Sure. Where should I put them?（いいよ。どこに置けばいい？）
+W: Next to the gym door, please.（体育館のドアのとなり、お願い。）
 
-手伝いの申し出への返事なので、2「Sure. Let's meet at the art room.（いいよ。美術室で会おう）」が自然です。
-1は時期、3はポスターの説明で、返事になっていません。
+手伝いと場所が決まったあとの返事なので、2「OK. I'll carry them there.（わかった。そこまで運ぶよ）」が自然です。
+1は時期、3はびんの説明で、返事になっていません。
 
 ---
 
