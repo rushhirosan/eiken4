@@ -25,7 +25,7 @@ from questions.models import (
     ListeningUserAnswer,
 )
 from django.utils import timezone
-from exams.provenance import PROVENANCE_ORIGINAL
+from exams.provenance import PROVENANCE_BLOCKED, PROVENANCE_ORIGINAL
 
 User = get_user_model()
 
@@ -852,6 +852,53 @@ class ProgressViewTest(TestCase):
         response = self.client.get(self.url)
         self.assertEqual(response.status_code, 200)
         self.assertTemplateUsed(response, 'exams/progress.html')
+
+    def test_progress_rate_ignores_blocked_answers(self):
+        """取り組み率の分子は公開中 original のみ。blocked への回答は数えない。"""
+        self.client.login(username='testuser', password='testpass123')
+        original = Question.objects.create(
+            provenance=PROVENANCE_ORIGINAL,
+            level='5',
+            question_type='grammar_fill',
+            question_text='original',
+        )
+        blocked = Question.objects.create(
+            provenance=PROVENANCE_BLOCKED,
+            level='5',
+            question_type='grammar_fill',
+            question_text='blocked',
+        )
+        original_choice = Choice.objects.create(
+            question=original, choice_text='A', is_correct=True, order=1,
+        )
+        blocked_choice = Choice.objects.create(
+            question=blocked, choice_text='B', is_correct=True, order=1,
+        )
+        UserAnswer.objects.create(
+            user=self.user,
+            question=blocked,
+            selected_choice=blocked_choice,
+            is_correct=True,
+        )
+
+        response = self.client.get(self.url)
+        self.assertEqual(response.status_code, 200)
+        grammar = response.context['progress_data']['5']['grammar_fill']
+        self.assertEqual(grammar['answered_questions'], 0)
+        self.assertEqual(grammar['total_questions'], 1)
+        self.assertEqual(grammar['progress_rate'], 0)
+
+        UserAnswer.objects.create(
+            user=self.user,
+            question=original,
+            selected_choice=original_choice,
+            is_correct=True,
+        )
+        response = self.client.get(self.url)
+        grammar = response.context['progress_data']['5']['grammar_fill']
+        self.assertEqual(grammar['answered_questions'], 1)
+        self.assertEqual(grammar['total_questions'], 1)
+        self.assertEqual(grammar['progress_rate'], 100)
 
     def test_progress_level3_hides_word_order(self):
         """3級の進捗表示に語順選択問題を含めない"""

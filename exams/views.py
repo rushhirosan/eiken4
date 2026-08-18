@@ -33,6 +33,7 @@ from django.http import JsonResponse
 from django.contrib import messages
 import json
 from questions.models import ReadingPassage, ReadingQuestion, ReadingChoice, ListeningQuestion, ListeningUserAnswer, ListeningChoice
+from exams.provenance import PROVENANCE_ORIGINAL
 from django.urls import reverse
 from django.utils import timezone
 import logging
@@ -2651,13 +2652,14 @@ def _finalize_and_render_answer_results(request, context):
 
 
 def _distinct_answered_question_count(user, level, question_type):
-    """そのレベル・タイプで進捗率の分子となる件数。"""
+    """そのレベル・タイプで進捗率の分子となる件数（公開中 original のみ）。"""
     if user is None or level is None or question_type is None:
         return 0
     if question_type == 'listening_illustration':
         answers = ListeningUserAnswer.objects.filter(
             user=user,
             question__level=str(level),
+            question__provenance=PROVENANCE_ORIGINAL,
         )
         if str(level) == '5':
             part1_ids = {
@@ -2666,8 +2668,8 @@ def _distinct_answered_question_count(user, level, question_type):
                     ListeningQuestion.objects.published().filter(level=str(level)), part=1
                 )
             }
-            return answers.filter(question_id__in=part1_ids).count()
-        return answers.count()
+            return answers.filter(question_id__in=part1_ids).values('question_id').distinct().count()
+        return answers.values('question_id').distinct().count()
     if question_type == 'listening_illustration_part3':
         part3_ids = {
             question.id
@@ -2678,7 +2680,8 @@ def _distinct_answered_question_count(user, level, question_type):
         return ListeningUserAnswer.objects.filter(
             user=user,
             question_id__in=part3_ids,
-        ).count()
+            question__provenance=PROVENANCE_ORIGINAL,
+        ).values('question_id').distinct().count()
     if question_type == 'reading_comprehension':
         completed_passages, _ = _reading_passage_progress_counts(user, level)
         return completed_passages
@@ -2687,17 +2690,20 @@ def _distinct_answered_question_count(user, level, question_type):
             user=user,
             question__level=str(level),
             question__question_type='writing',
+            question__provenance=PROVENANCE_ORIGINAL,
         ).values('question_id').distinct().count()
     if question_type == 'speaking':
         return SpeakingUserAnswer.objects.filter(
             user=user,
             question__level=str(level),
             question__question_type='speaking',
+            question__provenance=PROVENANCE_ORIGINAL,
         ).values('question_id').distinct().count()
     return UserAnswer.objects.filter(
         user=user,
         question__level=level,
         question__question_type=question_type,
+        question__provenance=PROVENANCE_ORIGINAL,
     ).values('question_id').distinct().count()
 
 
