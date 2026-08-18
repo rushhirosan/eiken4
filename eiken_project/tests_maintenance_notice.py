@@ -9,6 +9,7 @@ class MaintenanceNoticeTest(TestCase):
         self.assertEqual(response.status_code, 200)
         self.assertContains(response, 'ただいま試験運用中です')
         self.assertContains(response, 'オリジナルの練習問題')
+        self.assertContains(response, '進捗がリセットされることがあります')
         self.assertContains(response, '公式の過去問・試験内容はこちら')
 
     @override_settings(MAINTENANCE_NOTICE_ENABLED=False)

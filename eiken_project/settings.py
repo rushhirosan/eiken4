@@ -35,8 +35,8 @@ MAINTENANCE_NOTICE_ENABLED = True
 MAINTENANCE_NOTICE_TITLE = 'ただいま試験運用中です'
 MAINTENANCE_NOTICE_BODY = (
     'オリジナルの練習問題で、5級・4級・3級の学習ができます。'
-    '問題の追加や改善を続けている途中ですので、不具合や分かりにくいところがあれば'
-    'ログイン後の「フィードバック」からお知らせください。'
+    '問題の追加や改善を続けている途中ですので、そのときに学習の進捗がリセットされることがあります。'
+    '不具合や分かりにくいところがあれば、ログイン後の「フィードバック」からお知らせください。'
 )
 MAINTENANCE_OFFICIAL_EXAMS_URL = 'https://www.eiken.or.jp/eiken/exam/'
 MAINTENANCE_OFFICIAL_EXAMS_LABEL = '公式の過去問・試験内容はこちら（日本英語検定協会）'
