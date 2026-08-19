@@ -26,11 +26,35 @@ description: Creates original (provenance=original) practice questions for え�
 | `listening_illustration` リスニングイラスト | ○（Part1＋Part3） | ○ | ○ | [listening_illustration.md](references/listening_illustration.md) |
 | `listening_conversation` リスニング会話 | ○ | ○ | ○ | [listening_conversation.md](references/listening_conversation.md) |
 | `listening_passage` リスニング文章 | × | ○ | ○ | [listening_passage.md](references/listening_passage.md) |
-| `speaking` スピーキング | ○（流れ練習） | △ | ○ | [speaking.md](references/speaking.md) |
+| `speaking` スピーキング | ○（流れ練習） | ○ | ○ | [speaking.md](references/speaking.md) |
 | `reading_comprehension` 読解 | × | ○ | ○ | [reading_comprehension.md](references/reading_comprehension.md) |
 | `writing` ライティング | × | × | ○ | [writing.md](references/writing.md) |
 
 5級に読解・ライティング・`listening_passage` は作らない。5級リスニング第3部は文章問題ではなく **イラスト一致**（`listening_illustration` の No.101+）。
+
+## 公式形式（必須）
+
+新規も追記も、級の公式1回分に近い型を崩さない。件数は依頼に従うが、**枠・話者・セット構成は変えない。** 詳細とテンプレは各 `references/*.md`。
+
+| カテゴリ | 5級 | 4級 | 3級 |
+|----------|-----|-----|-----|
+| 文法・語彙 | 短文／短い2人会話。身近な名詞・be/一般動詞 | 前置詞・時制の基本・簡単な助動詞 | 接続詞・比較・不定詞・現在完了・受動態のやさしい用法 |
+| 会話補充 | 短いやりとり。誤答は別の疑問詞への答え | 4級らしい長さ。誤答は聞き違い | 理由・経験・予定まで。4級の焼き直しにしない |
+| 語順 | ①〜④、空所は **1番目と3番目** | ①〜⑤、空所は **2番目と4番目** | 4級と同じ5語枠。不定詞・現在完了など |
+| 読解 | 作らない | **1セット＝掲示2＋メール3＋物語5**。公開は2セット（本文6・設問20）。掲示約55／メール約130／物語約160語 | 同じセット構成。掲示約100／メール約280–300／物語約250語。メールは用件をまたぐ |
+| Lイラスト | Part1（No.1–）会話応答3択（★／☆）。Part3（No.101+）イラスト一致3英文 | 会話＋イラスト、応答3択。話者 **M: / W:**。画像は会話と矛盾させない | 4級と同じ型。3級らしい理由・条件。画像と会話を一致 |
+| L会話 | ☆／★、末尾 `☆☆`。一問一答で取れる情報。現行セット15問 | **M: / W:**、`☆☆` なし。4ターン前後。現行セット10問 | 同じ話者。理由・条件・現在完了を混ぜる。現行セット10問 |
+| L文章 | 作らない | 1人モノローグ（M: または W:）。現行セット10問 | 同じ型。やや長め。現行セット10問 |
+| スピーキング | 内容2＋自分1。**イラストなし** | **内容2＋イラスト1＋自分1** | **内容1＋イラスト2＋自分2** |
+| ライティング | 作らない | 作らない | メール返信。下線部2問。参考解答15〜25語 |
+
+現行の公開セット件数（目安。追記依頼があれば同じ型で足す）:
+
+- 5級: 文法20・会話20・語順20・L第1部15・L会話15・L第3部10・スピーキング5
+- 4級: 文法10・会話10・語順10・読解本文6/設問20・L各部10・スピーキング5
+- 3級: 4級に同じ ＋ ライティング5
+
+5級リスニング TTS は既定 **-15%**（`utils/text_to_speech.py`）。画像はプレースホルダー禁止。白黒線画で会話／正解シーンと一致させる。
 
 ## Output paths
 
@@ -65,7 +89,7 @@ data/questions/original/level{N}/writing_questions.txt
 1. 級・カテゴリ・件数を確定する。級に無いカテゴリなら止める。
 2. 該当の `references/*.md` だけ読む。
 3. 既存の **original** ファイルがあれば末尾番号を確認する（公式由来ファイルは見ない）。
-4. 級の傾向（4択、会話補充、部構成、語彙の粗さ）だけ頭に入れて、場面・文言・選択肢を新規に書く。
+4. 級の **公式形式表** と該当 `references/*.md` を守って書く。枠・話者・セット構成を独自に変えない。
 5. 解説も同時に書く（詳細は `eiken-explanation-quality-review`）。
 6. `---` 区切り・連番・選択肢数を崩さない。
 7. 追加分の正解番号が極端に偏らないようにする。

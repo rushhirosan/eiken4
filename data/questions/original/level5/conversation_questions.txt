@@ -263,27 +263,27 @@ A : What are you doing? B : ( )
 
 選択肢14:
 1. At home.
-2. I'm reading.
+2. I'm reading a book.
 3. With my sister.
 4. Every day.
 
 【正解14】
-2. I'm reading.
+2. I'm reading a book.
 
 【解説14】
-正解は「I'm reading.」です。意味は「（本などを）読んでいます」です。
-「What are you doing?（なにをしている？）」と今していることを聞いているので、「I'm reading.（読んでいる）」が合います。
+正解は「I'm reading a book.」です。意味は「本を読んでいます」です。
+「What are you doing?（なにをしている？）」と今していることを聞いているので、「I'm reading a book.（本を読んでいる）」が合います。
 ほかの選択肢：「At home.（うちで）」はばしょ、「With my sister.（妹と）」はだれと、「Every day.（まいにち）」はいつで、今していることではありません。
 「What are you doing?」と来たら、I'm ＋ 〜ing の文を探しましょう。
 
 ---
 
 問題15:
-Girl : Can you swim? Boy : ( )
+Girl : Can you cook? Boy : ( )
 
 選択肢15:
 1. Yes, a little.
-2. In the pool.
+2. In the kitchen.
 3. At three.
 4. With my dad.
 
@@ -292,8 +292,8 @@ Girl : Can you swim? Boy : ( )
 
 【解説15】
 正解は「Yes, a little.」です。意味は「うん、少しできます」です。
-「Can you swim?（泳げる？）」という能力を聞く質問なので、「Yes, a little.（少しできる）」が自然です。
-ほかの選択肢：「In the pool.（プールで）」はばしょ、「At three.（3時に）」は時刻、「With my dad.（お父さんと）」はだれと、で、泳げるかには答えていません。
+「Can you cook?（料理できる？）」という能力を聞く質問なので、「Yes, a little.（少しできる）」が自然です。
+ほかの選択肢：「In the kitchen.（だいどころで）」はばしょ、「At three.（3時に）」は時刻、「With my dad.（お父さんと）」はだれと、で、できるかには答えていません。
 「Can you 〜?」と来たら、できる・できないの答えを選びましょう。
 
 ---
