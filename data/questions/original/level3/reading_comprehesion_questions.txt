@@ -29,7 +29,7 @@ What should students bring to drink?
 【解説1a】
 正解は「A warm drink in a plastic bottle.」です。
 本文に「Please bring a warm drink in a plastic bottle. Do not bring glass bottles.」とあります。
-ガラス瓶は禁止です。理科準備室は名簿に名前を書く場所で、飲み物を配る場所ではありません。金属カップのスープは書かれていません。
+1「A glass bottle of tea.（お茶のガラス瓶）」は禁止です。3「Water from the science prep room.（理科準備室の水）」ではありません。理科準備室は名簿に名前を書く場所です。4「Hot soup in a metal cup.（金属カップの温かいスープ）」は書かれていません。
 ヒント：bring と Do not bring が対になっているときは、両方を読んで「持ってよい入れ物」を決めます。
 
 問題1b:
@@ -47,7 +47,7 @@ Where will students go if the sky is cloudy?
 【解説1b】
 正解は「To the gym to watch slides.」です。
 「If the sky is cloudy, we will watch slides in the gym.」とあります。開始時刻は変わりませんが、場所は体育館に変わります。
-屋上は晴れたときの会場、玄関ホールは保護者の待機場所です。保護者は屋上へは上がれません。
+1「To the school roof as planned.（予定どおり学校の屋上へ）」は晴れたときの会場です。2「To Stair C only.（C階段だけへ）」は入口の話で、曇りのときの行き先ではありません。3「To the entrance hall with their parents.（保護者と玄関ホールへ）」も違います。玄関ホールは保護者の待機場所で、保護者は屋上へは上がれません。
 ヒント：If の文は天気が悪いときの変更です。保護者の場所と生徒の場所を混ぜないようにしましょう。
 
 ---
@@ -90,7 +90,7 @@ Why can Chika not come to Sunday morning practice?
 【解説2a】
 正解は「Because she will help at her cousin's wedding.」です。
 First の段落に、従姉妹の結婚式で朝8時から式場を手伝う、とあります。
-チーム名簿を作るのはレン、電池を替えたのは先週の試合のあとです。兄が体育館のドアを必要としているわけではありません。
+2「Because she has to make the team list.（チーム名簿を作らなければならないから）」ではありません。名簿を作るのはソーマです。1「Because she must change the stopwatch battery.（ストップウォッチの電池を替えなければならないから）」も違います。電池を替えたのは先週の試合のあとです。4「Because her brother needs the gym door.（兄が体育館のドアを必要としているから）」も出ていません。
 ヒント：First / Second / Third で用件が分かれているメールは、質問の話題がどの段にあるかを先に探すと速いです。
 
 問題2b:
@@ -108,7 +108,7 @@ Where will Chika leave the club stopwatch?
 【解説2b】
 正解は「In Soma's shoe box in the club room.」です。
 Second の段落に「I will put it in your shoe box in the club room tomorrow after school.」とあります。
-青い袋はカラーコーン用、白いバンは兄の車です。式場に置きっぱなしにはしません。
+2「At the gym door in a blue bag.（体育館のドアで、青い袋の中）」ではありません。青い袋はカラーコーン用です。4「In her brother's white van.（兄の白いバンの中）」も違います。白いバンは兄の車です。3「At the wedding hall after lunch.（昼食後の式場）」に置きっぱなしにはしません。
 ヒント：it が何を指すか（stopwatch）を戻してから、put の場所を読むと取り違えません。
 
 問題2c:
@@ -126,7 +126,7 @@ If Sunday practice moves to the gym, when will Chika's brother drop off the cone
 【解説2c】
 正解は「At 8:45 a.m. at the gym door.」です。
 Third の段落に、雨で体育館練習になったとき、兄が仕事の途中で 8:45 に体育館のドアへコーンを置く、とあります。待ってはくれないので、少し早く着く必要があります。
-金曜夜はチカ自身の練習、午後1時は結婚式の昼食の目安です。ストップウォッチとは別の話です。
+1「On Friday evening, during practice.（金曜の夜、練習中）」はチカ自身の練習です。2「At 1:00 p.m., after the wedding lunch.（午後1時、結婚式の昼食のあと）」は昼食の目安です。3「Tomorrow after school, with the stopwatch.（明日の放課後、ストップウォッチと一緒に）」はストップウォッチの話で、コーンとは別です。
 ヒント：If Sunday practice moves to the gym のように条件が付いた文は、その条件のときだけ正しい時刻・場所です。
 
 ---
@@ -159,7 +159,7 @@ Why did Nao first want to buy a new radio?
 【解説3a】
 正解は「Because she thought it was too old and the sound was small.」です。
 最初の会話でナオは「This radio is too old, and the sound is small.」と言っています。この時点ではまだ壊れていません。
-梅田さんが直せないと言ったわけではなく、祖母は毎朝使っています。店が閉まる記述もありません。
+1「Because Mr. Umeda said it could not be fixed.（梅田さんが直せないと言ったから）」ではありません。3「Because her grandmother never used it.（祖母が一度も使わなかったから）」も違います。祖母は毎朝使っています。4「Because the shop near the market was closing.（市場の近くの店が閉まるから）」の記述もありません。
 ヒント：first / at first の質問は、あとから気持ちが変わる前の発言を見ます。
 
 問題3b:
@@ -177,7 +177,7 @@ What did Mr. Umeda show Nao inside the radio?
 【解説3b】
 正解は「A loose wire.」です。
 「He opened the back and showed Nao a loose wire.」とあります。緩んだ線が止まってしまった原因です。
-天気予報は祖母が聞く番組、歌は修理のあとにもう一度流れたものです。電池の話はこの物語にはありません。
+1「A weather report card.（天気予報のカード）」ではありません。天気予報は祖母が聞く番組です。3「A short song list.（短い歌のリスト）」も違います。歌は修理のあとにもう一度流れたものです。2「A new battery from the market.（市場で買った新しい電池）」の話はこの物語にはありません。
 ヒント：opened the back / showed のあとに、修理の現場で見えたものがあります。
 
 問題3c:
@@ -195,7 +195,7 @@ Why does Nao's grandmother listen to the weather report before shopping?
 【解説3c】
 正解は「Because she does not want to carry a heavy bag on rainy days.」です。
 「She listens to the weather report before she goes shopping, so she never carries a heavy bag on rainy days.」とあります。so のあとが、聞く目的です。
-梅田さんが買い物を指示するわけではありません。日記に書くのはナオで、内容も天気ではありません。
+2「Because Mr. Umeda tells her what to buy.（梅田さんが何を買うか教えるから）」ではありません。3「Because Nao writes the report in her diary.（ナオが日記に天気予報を書くから）」も違います。日記に書くのはナオで、内容も天気ではありません。4「Because the market is closed on windy days.（風の強い日は市場が閉まるから）」も出ていません。
 ヒント：so（だから）の前が行動、あとが目的や結果です。贈り物だったことは別の理由です。
 
 問題3d:
@@ -213,7 +213,7 @@ When did Mr. Umeda give the radio back?
 【解説3d】
 正解は「At five o'clock on the same day.」です。
 「I can fix this today」のあと、「At five o'clock, Mr. Umeda gave the radio back.」とあります。その日のうちに直して返しています。
-朝のキッチンはまだ壊れる前、日記はその夜です。
+2「Last Saturday morning, in the kitchen.（先週の土曜の朝、キッチンで）」ではありません。朝のキッチンはまだ壊れる前です。4「After Nao wrote in her diary.（ナオが日記を書いたあと）」も違います。日記はその夜です。1「The next morning, before shopping.（翌朝、買い物の前）」も出ていません。
 ヒント：today / at five o'clock のように、修理の約束と実際の返却時刻が対になっています。
 
 問題3e:
@@ -231,7 +231,7 @@ What did Nao write in her diary?
 【解説3e】
 正解は「Old things can still help us if we look after them.」です。
 物語の最後で、ナオが日記にそう書いています。大事にすれば古いものでもまだ役に立つ、という気づきです。
-新しいものを買えばよい、梅田さんがもう働けない、音楽のほうが天気より大切、といった内容は書いていません。
+1「We should always buy new things.（いつも新しいものを買うべきだ）」も、3「Mr. Umeda is too old to work.（梅田さんはもう働けないほど年をとっている）」も、4「Music is better than weather reports.（音楽は天気予報より大切だ）」も書いていません。
 ヒント：日記や最後の文は、話全体のまとめになっていることが多いです。最初の「捨てたい」気持ちと対比して読むと分かります。
 
 ---
@@ -267,7 +267,7 @@ Which stairs should students use during Quiet Floor Week?
 【解説4a】
 正解は「Stair A or Stair B.」です。
 「Do not use the third-floor stairs. Use Stair A or Stair B.」とあります。3階の階段は使わない指示です。
-職員室は質問先で、図書館の階段という名前の場所は出ていません。8:30以降ならどれでもよい、わけでもありません。
+2「The third-floor stairs only.（3階の階段だけ）」は禁止です。3「Any stairs after 8:30 a.m.（8:30以降ならどの階段でも）」でもありません。4「The library stairs near the staff room.（職員室の近くの図書館の階段）」という名前の場所は出ていません。職員室は質問先です。
 ヒント：Do not ... Use ... が続くときは、禁止と代わりのルートがセットです。
 
 問題4b:
@@ -285,7 +285,7 @@ Where can students study while the third-floor library is closed?
 【解説4b】
 正解は「In the first-floor reading corner.」です。
 「The library on the third floor will be closed. You can study in the first-floor reading corner instead.」とあります。instead が「代わりの場所」を示しています。
-3階の教室はテスト会場、職員室は質問先です。部室は3時以降にどう入るかの話で、自習場所ではありません。
+1「In a third-floor classroom during tests.（テスト中の3階の教室）」ではありません。3階の教室はテスト会場です。2「In the staff room with Ms. Niwa.（丹羽先生と職員室）」も違います。職員室は質問先です。4「In a third-floor club room before 3:00 p.m.（3時前の3階の部室）」も自習場所ではありません。部室は3時以降にどう入るかの話です。
 ヒント：closed の次の文に、代わりの場所が来ることが多いです。
 
 ---
@@ -327,7 +327,7 @@ Where does Hikari want Uncle Gaku to meet her?
 【解説5a】
 正解は「At the bus rotary.」です。
 「Could you meet me at the bus rotary, not at the ticket gate?」とあります。改札は混んでいて、人を見失いやすいからです。
-川のそばはもともと提案されていた昼食場所、ホームは遅延のときに電話する場所です。外で待たないでほしい、とも書いてあります。
+1「At the ticket gate.（改札で）」は避ける場所です。2「Near the river restaurant.（川のそばのレストランで）」はもともと提案されていた昼食場所です。3「On the train platform in the cold.（寒いホームで）」ではありません。ホームは遅延のときに電話する場所で、外で待たないでほしい、とも書いてあります。
 ヒント：meet me at A, not at B は、Aが集合場所、Bが避ける場所です。
 
 問題5b:
@@ -345,7 +345,7 @@ Why does Hikari need to be home by 3:30 p.m.?
 【解説5b】
 正解は「Because relatives are visiting her family.」です。
 「My mother asked me to come home by 3:30 p.m. because we have relatives visiting.」とあります。because のあとが理由です。
-部活の試合はすでに終わって暇になった、という話です。スタジオの閉店時刻ではなく、10:05は到着時刻です。
+1「Because her club match starts at that time.（その時刻に部活の試合が始まるから）」ではありません。部活の試合はすでに終わって暇になった、という話です。3「Because the pottery studio closes at 3:30.（陶芸スタジオが3:30に閉まるから）」も違います。4「Because her train arrives at East Station then.（そのとき東駅に電車が着くから）」も違います。10:05は到着時刻です。
 ヒント：by 3:30 のような期限の直後の because が、帰宅理由です。
 
 問題5c:
@@ -363,7 +363,7 @@ What will Hikari try first at the turning table?
 【解説5c】
 正解は「A small bowl.」です。
 「You said beginners can start with a small bowl, so I will try that first.」とあります。初めて回る台を使うので、小さな鉢から始める予定です。
-親戚のための大皿は書かれていません。針金カッターは借りる道具、古いシャツは汚れ防止の服装です。
+1「A large plate for the relatives.（親戚のための大皿）」は書かれていません。2「A wire cutter she will buy there.（そこで買う針金カッター）」も違います。針金カッターは借りる道具です。4「An old shirt on the wheel.（ろくろの上の古いシャツ）」も違います。古いシャツは汚れ防止の服装です。
 ヒント：try that first の that は、直前の a small bowl を指します。
 
 ---
@@ -394,7 +394,7 @@ Why did Yuto want to ride without training wheels?
 【解説6a】
 正解は「Because he had to ride to the camping meeting point with his class.」です。
 書き出しに、キャンプの集合場所が小さな丘で、クラスのみんなと自転車で行く必要がある、とあります。補助輪なしで乗れるようになりたかった理由です。
-岡さんが公園で助けてくれたのは手段で、目的ではありません。写真はあとから父が撮ったものです。
+2「Because Mr. Oka needed a helper in the park.（岡さんが公園で手伝いが必要だったから）」ではありません。岡さんが公園で助けてくれたのは手段で、目的ではありません。3「Because his mother wanted a photo for the kitchen.（母が台所用の写真をほしがったから）」も違います。写真はあとから父が撮ったものです。4「Because his father had to work on Sunday.（父が日曜に仕事だったから）」も、練習のきっかけではあっても、補助輪を外したい本命の理由ではありません。
 ヒント：before the school camping trip のように、期限と目的が最初の段落にまとまっていることが多いです。
 
 問題6b:
@@ -412,7 +412,7 @@ What did Mr. Oka tell Yuto to look at?
 【解説6b】
 正解は「The tree at the end of the path.」です。
 岡さんは「Look at the tree at the end of the path. Do not look at the wheels.」と言いました。足や補助輪を見ていたから転んだ、という流れです。
-台所の窓は母が見ていた場所、丘はキャンプ当日の集合場所です。
+1「His feet and the wheels.（足と補助輪）」は見ないように言われたものです。2「The kitchen window.（台所の窓）」は母が見ていた場所、4「The hill near the camping gate.（キャンプの門の近くの丘）」はキャンプ当日の集合場所です。
 ヒント：Do not look at ... と Look at ... が対になっているときは、見るべきものが正解です。
 
 問題6c:
@@ -430,7 +430,7 @@ How long did Yuto practice each evening during the week?
 【解説6c】
 正解は「Fifteen minutes.」です。
 「Yuto practiced every evening for fifteen minutes.」とあります。
-金曜に公園を2周した、というのは練習の成果であって、毎日2時間ではありません。15秒でもありません。
+1「Two hours without stopping.（止まらずに2時間）」ではありません。金曜に公園を2周した、というのは練習の成果です。2「All morning, until his knee was better.（膝がよくなるまで午前中ずっと）」も、3「Fifteen seconds near the hill.（丘の近くで15秒）」も違います。
 ヒント：for + 時間 が、1回の練習の長さです。twice（2回）は別の日の話です。
 
 問題6d:
@@ -448,7 +448,7 @@ Who took a photo near the hill?
 【解説6d】
 正解は「Yuto's father.」です。
 「His father was surprised and took a photo near the hill.」とあります。
-岡さんは最初の日曜に公園で教え、母は台所の窓から見ていましたが、写真を撮った記述はありません。先生は出てきません。
+1「Mr. Oka.（岡さん）」ではありません。岡さんは最初の日曜に公園で教えました。3「Yuto's mother.（ユウトの母）」も違います。母は台所の窓から見ていましたが、写真を撮った記述はありません。4「Yuto's teacher.（ユウトの先生）」も出てきません。
 ヒント：took a photo の主語を、その文だけで確認しましょう。近くにいる大人と混ぜやすいです。
 
 問題6e:
@@ -466,5 +466,5 @@ What does Yuto do when he is afraid to start something new?
 【解説6e】
 正解は「He looks at the photo and remembers the tree.」です。
 最後の文に「When he is afraid to start something new, he looks at it and remembers the tree.」とあります。it は机にしまってある写真です。
-補助輪を戻す、岡さんに電話する、母に支えてもらう、といった今の習慣は書かれていません。母は練習中も自転車を持っていません。
+2「He puts the training wheels back on.（補助輪をつけ直す）」も、3「He calls Mr. Oka from the hill.（丘から岡さんに電話する）」も、4「He waits for his mother to hold the bike.（母が自転車を支えてくれるのを待つ）」も、今の習慣としては書かれていません。母は練習中も自転車を持っていません。
 ヒント：When he is afraid ... のような文は、物語の教訓や今も続く行動です。it が何を指すかを直前の文で確かめます。

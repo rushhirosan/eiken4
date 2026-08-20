@@ -19,8 +19,8 @@ She will put flowers in water and talk to customers.（花に水をあげたり�
 She wants to buy a small plant with her pay.（お給料で小さな植物を買いたいと思っています。）
 Question: Where will Sora help next Saturday?（ソラは次の土曜日、どこを手伝いますか？）
 
-「flower shop（花屋）」とあるので、2が正解です。
-植物を買う話はお給料の使い道で、手伝う場所ではありません。
+「flower shop（花屋）」とあるので、2「At a flower shop.（花屋で）」が正解です。
+1「At a bookshop.（本屋で）」・3「At a bakery.（パン屋で）」・4「At a library.（図書館で）」は手伝う場所として出ていません。植物を買う話はお給料の使い道です。
 
 ---
 
@@ -45,8 +45,8 @@ He took it to the animal center.（動物センターへ連れて行きました
 The staff said the owner called them in the afternoon.（午後に飼い主から連絡があった、とスタッフが言いました。）
 Question: What did Riku find near the station?（リクは駅の近くで何を見つけましたか？）
 
-「a lost kitten」とあるので、4が正解です。
-動物センターや飼い主は、そのあとの話です。
+「a lost kitten（迷子の子猫）」とあるので、4「A lost kitten.（迷子の子猫）」が正解です。
+1「A lost bag.（なくしたかばん）」・2「A lost ticket.（なくした切符）」・3「A lost hat.（なくした帽子）」は見つけたものではありません。動物センターや飼い主は、そのあとの話です。
 
 ---
 
@@ -71,8 +71,8 @@ Students choose a book from the class shelf.（生徒はクラスの本棚から
 Mia often chooses science books about the stars.（ミアはよく星の科学の本を選びます。）
 Question: When does Mia's class have reading time?（ミアのクラスの読書の時間はいつですか？）
 
-「Every Wednesday ... after lunch」とあるので、2が正解です。
-星の本はミアが選ぶ本の種類で、日時ではありません。
+「Every Wednesday ... after lunch（毎週水曜のお昼のあと）」とあるので、2「Every Wednesday after lunch.（毎週水曜のお昼のあと）」が正解です。
+1「Every Monday morning.（毎週月曜の朝）」・3「Every Friday evening.（毎週金曜の夜）」・4「Every Sunday.（毎週日曜）」は読書の時間ではありません。星の本はミアが選ぶ本の種類です。
 
 ---
 
@@ -97,8 +97,8 @@ Students should bring old gloves.（生徒は古い手袋を持ってきてく�
 The work will finish before lunch.（作業はお昼の前に終わります。）
 Question: What should students bring?（生徒は何を持ってくるべきですか？）
 
-「bring old gloves」とあるので、4が正解です。
-木を植える場所や終了時間は別の情報です。
+「bring old gloves（古い手袋を持ってくる）」とあるので、4「Old gloves.（古い手袋）」が正解です。
+1「New shoes.（新しいくつ）」・2「Paint brushes.（絵筆）」・3「Lunch boxes only.（お弁当箱だけ）」は持ってくるものとして言っていません。木を植える場所や終了時間は別の情報です。
 
 ---
 
@@ -123,8 +123,8 @@ They painted it light blue and put it in the garden.（薄い青で塗って、�
 This morning, a small bird sat on it.（今朝、小さな鳥がとまりました。）
 Question: What color did they paint the birdhouse?（彼らは巣箱を何色に塗りましたか？）
 
-「painted it light blue」とあるので、1が正解です。
-庭や鳥はあとの話で、色の答えではありません。
+「painted it light blue（薄い青で塗った）」とあるので、1「Light blue.（薄い青）」が正解です。
+2「Dark green.（濃い緑）」・3「Bright red.（明るい赤）」・4「Yellow.（黄色）」は塗った色ではありません。庭や鳥はあとの話です。
 
 ---
 
@@ -149,8 +149,8 @@ They will see how bakers make rolls.（パン屋さんがロールパンを作�
 Students should wear a hat from home.（生徒は家から帽子をかぶってきてください。）
 Question: What should students wear?（生徒は何をかぶる／着るべきですか？）
 
-「wear a hat from home」とあるので、2が正解です。
-ロールパンは見学の内容で、持ち物ではありません。
+「wear a hat from home（家から帽子をかぶる）」とあるので、2「A hat from home.（家から持ってきた帽子）」が正解です。
+1「New shoes.（新しいくつ）」・3「A blue jacket.（青いジャケット）」・4「Gloves for cooking.（料理用の手袋）」は着る／かぶるものとして言っていません。ロールパンは見学の内容です。
 
 ---
 
@@ -175,8 +175,8 @@ They used carrots from the garden.（庭のにんじんを使いました。）
 Emi said it tasted better than the soup from the shop.（店のスープよりおいしい、とエミは言いました。）
 Question: What did Emi and her grandmother cook?（エミとおばあちゃんは何を作りましたか？）
 
-「cooked soup」とあるので、3が正解です。
-にんじんは材料、店のスープは比べた相手です。
+「cooked soup（スープを作った）」とあるので、3「Soup.（スープ）」が正解です。
+1「Cake.（ケーキ）」・2「Salad.（サラダ）」・4「Eggs.（卵）」は作ったものではありません。にんじんは材料、店のスープは比べた相手です。
 
 ---
 
@@ -201,8 +201,8 @@ He swims for forty minutes.（40分泳ぎます。）
 Then he drinks milk at a small shop near the gate.（そのあと、門の近くの小さな店で牛乳を飲みます。）
 Question: How does Haru go to the pool?（ハルはどうやってプールへ行きますか？）
 
-「takes a bus」とあるので、4が正解です。
-40分は泳ぐ時間、牛乳はそのあとの話です。
+「takes a bus（バスに乗る）」とあるので、4「By bus.（バスで）」が正解です。
+1「By bike.（自転車で）」・2「On foot.（歩いて）」・3「By train.（電車で）」は行き方として出ていません。40分は泳ぐ時間、牛乳はそのあとの話です。
 
 ---
 
@@ -227,8 +227,8 @@ They will leave at four.（4時に出発します。）
 Her mother will meet them in the waiting room.（お母さんは待合室で会います。）
 Question: When will Niko and her brother leave?（ニコと弟はいつ出発しますか？）
 
-「leave at four」とあるので、1が正解です。
-待合室はお母さんが待つ場所です。
+「leave at four（4時に出発する）」とあるので、1「At four.（4時に）」が正解です。
+2「In the morning.（朝に）」・3「After dinner.（夕食のあと）」・4「On Saturday.（土曜日に）」は出発時刻ではありません。待合室はお母さんが待つ場所です。
 
 ---
 
@@ -253,5 +253,5 @@ They picked up bottles and plastic bags.（びんやビニール袋を拾いま�
 After that, they ate rice balls in the park.（そのあと、公園でおにぎりを食べました。）
 Question: What did they do after cleaning the river?（川のそうじのあと、彼らは何をしましたか？）
 
-「After that, they ate rice balls in the park」とあるので、3が正解です。
-びんは拾ったもので、買ったのではありません。
+「After that, they ate rice balls in the park（そのあと公園でおにぎりを食べた）」とあるので、3「They ate rice balls in the park.（公園でおにぎりを食べた）」が正解です。
+1「They went home at once.（すぐに帰宅した）」・2「They swam in the river.（川で泳いだ）」・4「They bought new bottles.（新しいびんを買った）」はそのあとの行動ではありません。びんは拾ったものです。

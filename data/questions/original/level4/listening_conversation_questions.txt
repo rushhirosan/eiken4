@@ -23,8 +23,8 @@ M: Good idea. Let's go to the bookstore after lunch.（いいね。お昼のあ�
 W: OK. I can meet you at one.（うん。1時に会えるよ。）
 Question: Where will they go after lunch?（2人はお昼のあとどこへ行きますか？）
 
-男の子が「bookstore（本屋）」へ行こうと言っているので、1が正解です。
-動物が好き、はプレゼント選びの理由で、動物園へ行くとは言っていません。1時は集合時刻です。
+男の子が「bookstore（本屋）」へ行こうと言っているので、1「To the bookstore.（本屋へ）」が正解です。
+「She likes animals.（動物が好き）」はプレゼント選びの理由で、2「To a zoo.（動物園へ）」とは言っていません。3「To a bakery.（パン屋へ）」も4「To the gym.（体育館へ）」も出ていません。「at one（1時）」は集合時刻です。
 
 ---
 
@@ -53,8 +53,8 @@ W: OK. I'll do it at the desk now.（わかった。いま机でやるよ。）
 M: Good. Then we can start the movie at eight.（いい子だね。じゃあ映画は8時に始められるよ。）
 Question: What should the girl do first?（女の子はまず何をしなければなりませんか？）
 
-お父さんが「finish your homework first」と言っているので、4が正解です。
-映画は宿題のあとの話です。8時は開始時刻です。
+お父さんが「finish your homework first（まず宿題を終わらせて）」と言っているので、4「Finish her homework.（宿題を終わらせる）」が正解です。
+1「Watch a movie.（映画を見る）」は宿題のあとの話です。「at eight（8時）」は開始時刻で、2「Call her friend.（友だちと電話する）」も3「Eat dinner.（夕ごはんを食べる）」も出ていません。
 
 ---
 
@@ -83,8 +83,8 @@ M: Oh. Then I'll take mine too.（そっか。じゃあ僕のも持っていく�
 W: Yes. It's darker after six.（うん。6時すぎはもっと暗いよ。）
 Question: Why does the girl have a flashlight?（女の子はなぜ懐中電灯を持っていますか？）
 
-女の子が「the path ... is dark（道が暗い）」と言っているので、2が正解です。
-雨の話は出ていません。男の子が自分のも持っていく、は別の話です。
+女の子が「the path ... is dark（道が暗い）」と言っているので、2「Because the path is dark.（道が暗いから）」が正解です。
+1「Because it is raining.（雨が降っているから）」は出ていません。3「Because she is cold at home.（家で寒いから）」も4「Because she has a science class.（理科の授業があるから）」も会話にありません。男の子が自分のも持っていく、は別の話です。
 
 ---
 
@@ -113,8 +113,8 @@ W: Thanks. We'll go on Tuesday then.（ありがとう。じゃあ火曜日に�
 M: Good. It opens at ten that day.（いいね。その日は10時にあくよ。）
 Question: When will they go to the museum?（2人はいつ博物館へ行きますか？）
 
-女の子が「on Tuesday」と言っているので、2が正解です。
-月曜日は閉まっている日で、行く日ではありません。10時は開館時刻です。
+女の子が「on Tuesday（火曜日に）」と言っているので、2「On Tuesday.（火曜日）」が正解です。
+1「On Monday.（月曜日）」は閉まっている日で、行く日ではありません。3「On Sunday.（日曜日）」も4「On Friday.（金曜日）」も出ていません。「at ten（10時）」は開館時刻です。
 
 ---
 
@@ -143,8 +143,8 @@ M: Yes, please. I have club practice now.（お願い。いま部活があるん
 W: OK. I'll bring it to the gym later.（わかった。あとで体育館に持っていくね。）
 Question: Where is the boy's lunch box?（男の子のお弁当はどこにありますか？）
 
-男の子が「in the classroom」と言っているので、3が正解です。
-体育館はあとで届ける場所で、お弁当がある場所ではありません。
+男の子が「in the classroom（教室に）」と言っているので、3「In the classroom.（教室に）」が正解です。
+「to the gym（体育館へ）」はあとで届ける場所で、お弁当がある場所ではありません。1「In his bag.（かばんの中）」も2「At the club room.（部室）」も4「At the shop.（店）」も出ていません。
 
 ---
 
@@ -173,8 +173,8 @@ W: How long does it take to walk there?（歩いてどのくらいかかる？�
 M: About fifteen minutes from our house.（家からだいたい15分。）
 Question: How long does it take to walk to the pool?（プールまで歩いてどのくらいかかりますか？）
 
-男の子が「About fifteen minutes」と言っているので、2が正解です。
-9時は開く時刻で、所要時間ではありません。
+男の子が「About fifteen minutes（だいたい15分）」と言っているので、2「About fifteen minutes.（だいたい15分）」が正解です。
+「at nine（9時）」は開く時刻で、1「Nine minutes.（9分）」のような所要時間ではありません。3「One hour.（1時間）」も4「Thirty seconds.（30秒）」も出ていません。
 
 ---
 
@@ -203,8 +203,8 @@ M: Great. Let's start in the art room after school.（じゃあ放課後、美�
 W: OK. I'll bring some large paper.（うん。大きな紙を持っていくね。）
 Question: Where will they make the poster?（2人はどこでポスターを作りますか？）
 
-男の子が「in the art room」と言っているので、3が正解です。
-色ペンや紙は道具で、場所ではありません。
+男の子が「in the art room（美術室で）」と言っているので、3「In the art room.（美術室で）」が正解です。
+「colored pens（色ペン）」や「large paper（大きな紙）」は道具で、場所ではありません。1「In the gym.（体育館で）」も2「At the girl's house.（女の子の家で）」も4「At the station.（駅で）」も出ていません。
 
 ---
 
@@ -233,8 +233,8 @@ W: Why? Was the homework long?（どうして？宿題が長かったの？）
 M: I finished my science project at midnight.（夜中に理科の課題を終わらせたから。）
 Question: Why does the boy look tired?（男の子が疲れて見えるのはなぜですか？）
 
-男の子が「I slept late last night」と言っているので、4が正解です。
-理科の課題はおそくまで起きていた理由で、質問の直接の答えは睡眠です。
+男の子が「I slept late last night（昨夜おそくまで起きていた）」と言っているので、4「Because he slept late last night.（昨夜おそくまで起きていたから）」が正解です。
+理科の課題はおそくまで起きていた理由のひとつですが、質問の直接の答えは睡眠です。1「Because the bag is heavy.（かばんが重いから）」も2「Because it is Monday.（月曜日だから）」も3「Because he wants to open a window.（窓を開けたいから）」も出ていません。
 
 ---
 
@@ -263,8 +263,8 @@ M: Thanks. I'll return them after art class.（ありがとう。美術のあと
 W: No problem. I don't need them until Friday.（大丈夫。金曜まで使わないから。）
 Question: When will the boy return the pencils?（男の子はいつ色鉛筆を返しますか？）
 
-男の子が「after art class」と言っているので、2が正解です。
-金曜は女の子が次に使う日で、返す約束ではありません。
+男の子が「after art class（美術のあと）」と言っているので、2「After art class.（美術のあと）」が正解です。
+「until Friday（金曜まで）」は女の子が次に使う日で、3「On Friday morning.（金曜の朝）」のように返す約束ではありません。1「Before lunch.（昼ごはんの前）」も4「Next Monday.（来週の月曜）」も出ていません。
 
 ---
 
@@ -293,5 +293,5 @@ W: For how long?（1回どのくらい？）
 M: About thirty minutes each time, after dinner.（毎回だいたい30分。夕ごはんのあと。）
 Question: How often does the boy practice the piano?（男の子はどのくらいの頻度でピアノを練習しますか？）
 
-「How often」なので回数の「Twice a week」が正解です。
-30分は長さで、頻度ではありません。
+「How often（どのくらいの頻度で）」なので回数の3「Twice a week.（週に2回）」が正解です。
+「thirty minutes（30分）」は長さで、2「For thirty minutes only.（30分だけ）」のような頻度ではありません。1「Every morning.（毎朝）」も4「With his sister.（妹と）」も出ていません。

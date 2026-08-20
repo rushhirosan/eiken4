@@ -27,6 +27,7 @@ class Command(BaseCommand):
             level=level,
             category='listening',
             dry_run=dry_run,
+            original=options['original'],
             log=self.stdout.write,
             warn=lambda msg: self.stdout.write(self.style.WARNING(msg)),
         )

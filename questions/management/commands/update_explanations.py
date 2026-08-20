@@ -11,6 +11,7 @@ class Command(BaseCommand):
         'data/questions の【解説】（ライティングは【参考解答】）だけを既存DBへ反映する。'
         'リスニング第1部は【正解】番号と ListeningChoice.is_correct も同期する。'
         '問題行は削除しないので回答・進捗を保持する。'
+        '--original で data/questions/original/ を読み、provenance=original のみ更新。'
     )
 
     def add_arguments(self, parser):
@@ -39,7 +40,7 @@ class Command(BaseCommand):
 
         self.stdout.write(
             f'explanation sync: level={level}, category={category}, '
-            f'dry_run={dry_run}'
+            f'original={options["original"]}, dry_run={dry_run}'
         )
 
         try:
@@ -47,6 +48,7 @@ class Command(BaseCommand):
                 level=level,
                 category=category,
                 dry_run=dry_run,
+                original=options['original'],
                 log=self.stdout.write,
                 warn=lambda msg: self.stdout.write(self.style.WARNING(msg)),
             )

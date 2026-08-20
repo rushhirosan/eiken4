@@ -23,8 +23,8 @@ W: If it's closed, we can go on Sunday morning.（閉まっていたら、日曜
 M: OK. I'll meet you at four.（うん。4時に会おう。）
 Question: Where will they go after club?（2人は部活のあとどこへ行きますか？）
 
-女の子が「the shop by the river（川のそばの店）」へ行こうと言っているので、1が正解です。
-日曜は店が閉まっていたときの予定です。4時は集合時刻です。
+女の子が「the shop by the river（川のそばの店）」へ行こうと言っているので、1「To the bicycle shop by the river.（川のそばの自転車屋へ）」が正解です。
+2「To the gym.（体育館へ）」・3「To Dad's office.（お父さんの会社へ）」・4「To a flower shop.（花屋へ）」は放送に出てこない行き先です。日曜は店が閉まっていたときの予定、4時は集合時刻です。
 
 ---
 
@@ -53,8 +53,8 @@ M: OK. I'll finish this English homework quickly.（わかった。この英語�
 W: Thanks. I need it for my report this afternoon.（ありがとう。午後のレポートで使うから。）
 Question: When should the boy return the dictionary?（男の子はいつ辞書を返すべきですか？）
 
-女の子が「before lunch」と言っているので、3が正解です。
-宿題を早くやる、は返すための行動です。午後は女の子が使う時間です。
+女の子が「before lunch（お昼の前に）」と言っているので、3「Before lunch.（お昼の前）」が正解です。
+1「After school.（放課後）」・2「Tomorrow morning.（あしたの朝）」・4「Next Monday.（来週の月曜日）」は返す時刻ではありません。宿題を早くやる、は返すための行動です。午後は女の子が使う時間です。
 
 ---
 
@@ -83,8 +83,8 @@ W: Oh, right. The nature club meeting is there.（そうか。自然部の集ま
 M: Yes. If it rains harder, we'll move to the science room.（うん。雨が強くなったら理科室に移るよ。）
 Question: Why is the boy wearing boots?（男の子がブーツをはいている理由は何ですか？）
 
-男の子が「wet grass」を歩くと言っているので、1が正解です。
-理科室は雨が強くなったときの変更で、いまブーツをはく理由ではありません。
+男の子が「wet grass（ぬれた草）」を歩くと言っているので、1「Because he will walk through wet grass.（ぬれた草の中を歩くから）」が正解です。
+2「Because it is snowing at school.（学校で雪が降っているから）」・3「Because his shoes are broken.（くつが壊れているから）」・4「Because he has a P.E. class.（体育があるから）」は放送にありません。理科室は雨が強くなったときの変更で、いまブーツをはく理由ではありません。
 
 ---
 
@@ -113,8 +113,8 @@ M: No problem. I'll grate the cheese.（もちろん。チーズをおろすよ�
 W: Thanks. Please wash your hands before you start.（ありがとう。始める前に手を洗ってね。）
 Question: What will the boy do to help?（男の子は手伝いで何をしますか？）
 
-男の子が「grate the cheese」と言っているので、4が正解です。
-手を洗うのは準備で、質問の「手伝い」の中身はチーズです。
+男の子が「grate the cheese（チーズをおろす）」と言っているので、4「Grate the cheese.（チーズをおろす）」が正解です。
+1「Buy the pasta.（パスタを買う）」・2「Set the table only.（テーブルを並べるだけ）」・3「Call his friends again.（友達にもう一度電話する）」は手伝いの中身として言っていません。手を洗うのは準備です。
 
 ---
 
@@ -143,8 +143,8 @@ W: If you want, I can bring markers to your house.（よかったら、マーカ
 M: That would help. I have already drawn the pictures.（助かる。絵はもう描いてあるんだ。）
 Question: What does the boy still need to do?（男の子がまだやらなければならないことは何ですか？）
 
-男の子が「finish my poster tonight」と言っているので、3が正解です。
-絵はすでに終わっています。マーカーは手伝いの申し出です。
+男の子が「finish my poster tonight（今夜ポスターを仕上げる）」と言っているので、3「Finish his poster tonight.（今夜ポスターを仕上げる）」が正解です。
+1「Buy tickets for the festival.（文化祭のチケットを買う）」・2「Clean the classroom.（教室をそうじする）」・4「Practice a dance.（ダンスの練習をする）」は放送にありません。絵はすでに終わっています。マーカーは手伝いの申し出です。
 
 ---
 
@@ -173,8 +173,8 @@ M: That's a long time. Do you still take lessons?（長いね。いまでもレ�
 W: Yes. I have a lesson every Saturday morning.（うん。毎週土曜の朝。）
 Question: How long has the girl played the violin?（女の子はどのくらいバイオリンを弾いていますか？）
 
-「How long」に対して開始時点の「Since I was eight」が正解です。1が正解です。
-土曜の朝はレッスンの曜日で、期間の長さそのものではありません。
+「How long」に対して開始時点の「Since I was eight」が答えなので、1「Since she was eight years old.（8歳のときから）」が正解です。
+2「For eight minutes.（8分間）」は短すぎる長さ、3「Only on Saturday morning.（土曜の朝だけ）」はレッスンの曜日、4「Until last year.（去年まで）」は終了時点で、弾き続けている期間ではありません。
 
 ---
 
@@ -203,8 +203,8 @@ W: Good idea. I have never been there.（いいね。行ったことないんだ
 M: Then let's meet in front of the library at nine.（じゃあ9時に図書館の前で会おう。）
 Question: What will they do if it rains on Sunday?（日曜に雨なら、2人は何をしますか？）
 
-男の子が「indoor swimming pool」と言っているので、2が正解です。
-図書館の前は集合場所で、雨のときの行き先ではありません。
+男の子が「indoor swimming pool（屋内プール）」と言っているので、2「Visit the indoor swimming pool.（屋内プールに行く）」が正解です。
+1「Stay home and sleep.（家で寝る）」・3「Play soccer in the park.（公園でサッカーをする）」・4「Go to the beach.（海へ行く）」は雨のときの予定として出ていません。図書館の前は集合場所です。
 
 ---
 
@@ -233,8 +233,8 @@ M: Still, I keep thinking about mistakes.（でも、まちがいばかり考え
 W: If you speak slowly, you'll be fine.（ゆっくり話せば大丈夫だよ。）
 Question: Why does the girl tell him not to worry?（女の子が「心配しないで」と言う理由は何ですか？）
 
-「You've practiced a lot」が理由なので、2が正解です。
-ゆっくり話す、は追加のアドバイスです。スピーチの題や曜日の話はありません。
+「You've practiced a lot（たくさん練習した）」が理由なので、2「Because he has practiced a lot.（たくさん練習したから）」が正解です。
+1「Because the speech is about animals.（スピーチは動物についてだから）」・3「Because tomorrow is Tuesday.（あしたは火曜日だから）」・4「Because she bought a new notebook.（新しいノートを買ったから）」は放送にありません。ゆっくり話す、は追加のアドバイスです。
 
 ---
 
@@ -263,8 +263,8 @@ W: Is it far from the front gate?（正門から遠い？）
 M: No. You can walk there in about three minutes.（ううん。歩いてだいたい3分だよ。）
 Question: How can the girl get to the gym?（女の子は体育館へどうやって行きますか？）
 
-道順の「Go past the cafeteria and turn right at the science lab」が正解です。
-3分は距離の目安で、曲がり方ではありません。
+道順の「Go past the cafeteria and turn right at the science lab」が答えなので、4「Go past the cafeteria and turn right at the science lab.（食堂をすぎて理科室で右へ）」が正解です。
+1「She should play basketball after school.（放課後にバスケをすべき）」は習慣、2「It is open until five.（5時まで開いている）」は閉店時間、3「Because she likes sports.（スポーツが好きだから）」は理由で、行き方ではありません。3分は距離の目安です。
 
 ---
 
@@ -293,5 +293,5 @@ M: Thanks. I'll close it if it gets windy.（ありがとう。風が強くな�
 W: OK. I have already finished my test, so it's fine.（うん。テストはもう終わったから大丈夫。）
 Question: What does the girl say about opening the window?（窓を開けることについて、女の子はどう言っていますか？）
 
-「Not at all. It's a little hot」が許可の返事なので、4が正解です。
-テストが終わった、は追加の理由です。
+「Not at all. It's a little hot」が許可の返事なので、4「Not at all. It is a little hot.（ぜんぜん大丈夫。ちょっと暑い）」が正解です。
+1「The window is blue.（窓は青い）」は色、2「She opened it yesterday.（きのう開けた）」は過去、3「Please close your book.（本を閉じて）」は別のお願いで、開けてもよいかの返事ではありません。テストが終わった、は追加の理由です。

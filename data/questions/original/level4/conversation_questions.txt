@@ -13,7 +13,7 @@ A : How long does it take to walk to the library? B : ( )
 【解説1】
 正解は「About ten minutes.」です。意味は「だいたい10分です」です。
 「How long does it take（どのくらいかかりますか）」と所要時間を聞いているので、時間の長さで答えるのが自然です。
-ほかの選択肢：「It's next to the park.」は場所、「I like reading books.」は好きなもの、「At three o'clock.」は時刻で、所要時間の答えではありません。
+ほかの選択肢：「It's next to the park.（公園のとなり）」は場所、「I like reading books.（本を読むのが好き）」は好きなもの、「At three o'clock.（3時に）」は時刻で、所要時間の答えではありません。
 ヒント：「How long does it take」と見たら、minutes / hours などの長さを探しましょう。
 
 ---
@@ -33,7 +33,7 @@ Girl : Would you like some hot chocolate? Boy : ( )
 【解説2】
 正解は「Yes, please. I'm cold.」です。意味は「はい、お願いします。寒いので」です。
 「Would you like 〜?」は「〜はいりますか／いかがですか」というすすめです。受けるときは「Yes, please.」がよく使われます。
-ほかの選択肢：場所・過去の行動・人の説明で、すすめへの返事になっていません。
+ほかの選択肢：1「It's under the chair.（いすの下）」は場所、2「I went there yesterday.（きのうそこに行った）」は過去の行動、4「She is my teacher.（彼女は私の先生）」は人の説明で、すすめへの返事になっていません。
 ヒント：「Would you like 〜?」には Yes, please. / No, thank you. の型で答えることが多いです。
 
 ---
@@ -53,7 +53,7 @@ A : Whose blue umbrella is this? B : ( )
 【解説3】
 正解は「It's Rina's.」です。意味は「リナのです」です。
 「Whose（だれの）」と持ち主を聞いているので、「〜's」で持ち主を答えるのが自然です。
-ほかの選択肢：天気・すすめ・場所で、持ち主の答えではありません。
+ほかの選択肢：2「It's raining hard.（雨がひどい）」は天気、3「Buy a new one.（新しいのを買って）」はすすめ、4「In the classroom.（教室で）」は場所で、持ち主の答えではありません。
 ヒント：「Whose」と見たら、人の名前＋'s を探しましょう。
 
 ---
@@ -73,7 +73,7 @@ Boy : How often do you practice the piano? Girl : ( )
 【解説4】
 正解は「Twice a week.」です。意味は「週に2回です」です。
 「How often（どのくらいの頻度で）」と回数・頻度を聞いているので、「twice a week」のような答えが合います。
-ほかの選択肢：「For thirty minutes.」は長さ、「In the living room.」は場所、「With my sister.」はだれと、で頻度ではありません。
+ほかの選択肢：「For thirty minutes.（30分間）」は長さ、「In the living room.（居間で）」は場所、「With my sister.（妹と）」はだれと、で頻度ではありません。
 ヒント：「How often」には once / twice / every day などの頻度語が答えになります。
 
 ---
@@ -93,7 +93,7 @@ A : What did you do after school yesterday? B : ( )
 【解説5】
 正解は「I cleaned my room.」です。意味は「部屋を掃除しました」です。
 「What did you do ... yesterday?」は過去の行動を聞いているので、過去形「cleaned」で答えます。
-ほかの選択肢：「will play」は未来、「clean」は現在の習慣、「I'm cleaning」はいま進行中で、「yesterday」とは合いません。
+ほかの選択肢：1「I will play soccer.（サッカーをするつもり）」の will は未来、3「I clean my room.（部屋を掃除する）」は現在の習慣、4「I'm cleaning my room.（いま部屋を掃除している）」はいま進行中で、「yesterday」とは合いません。
 ヒント：疑問文に did / yesterday があったら、答えも過去形にそろえましょう。
 
 ---
@@ -113,7 +113,7 @@ A : May I borrow your colored pencils? B : ( )
 【解説6】
 正解は「Sure. Here you are.」です。意味は「もちろん。はい、どうぞ」です。
 「May I borrow 〜?」は「借りてもいい？」という許可のお願いです。貸すときは「Sure.」「Here you are.」が自然です。
-ほかの選択肢：重さ・過去の絵・年齢で、貸す／断る返事になっていません。
+ほかの選択肢：1「They are very heavy.（とても重い）」は重さ、2「I drew a mountain.（山を描いた）」は過去の絵、3「No, I'm twelve.（いいえ、12歳です）」は年齢で、貸す／断る返事になっていません。
 ヒント：「May I 〜?」には Sure. / Of course. / Sorry, ... などの許可の返事を選びましょう。
 
 ---
@@ -133,7 +133,7 @@ Girl : Excuse me. How do I get to the post office? Boy : ( )
 【解説7】
 正解は「Go straight and turn left.」です。意味は「まっすぐ行って、左に曲がってください」です。
 「How do I get to 〜?」は「〜への行き方」を聞いているので、道順の説明が答えになります。
-ほかの選択肢：開く時刻・過去の行動・好きな場所で、行き方の説明ではありません。
+ほかの選択肢：1「It opens at nine.（9時に開く）」は開く時刻、3「I sent a letter yesterday.（きのう手紙を送った）」は過去の行動、4「It's my favorite place.（いちばん好きな場所）」は好きな場所で、行き方の説明ではありません。
 ヒント：「How do I get to」と見たら、go / turn / across などの道順を探しましょう。
 
 ---
@@ -153,7 +153,7 @@ A : What's wrong? You look tired. B : ( )
 【解説8】
 正解は「I slept late last night.」です。意味は「昨夜おそくまで起きていた（おそく寝た）」です。
 「What's wrong?」と「疲れて見える」に対して、疲れの理由を答えるのが自然です。
-ほかの選択肢：場所・提案・曜日で、「疲れて見える」理由の説明になっていません。
+ほかの選択肢：1「The bag is on the floor.（かばんは床のうえ）」は場所、2「Let's open the window.（窓を開けよう）」は提案、3「It's Monday today.（きょうは月曜日）」は曜日で、「疲れて見える」理由の説明になっていません。
 ヒント：「What's wrong?」には、体調や困っている理由を答える文を選びましょう。
 
 ---
@@ -173,7 +173,7 @@ Boy : Shall we make a poster for the school festival? Girl : ( )
 【解説9】
 正解は「Good idea. Let's start now.」です。意味は「いいね。いま始めよう」です。
 「Shall we 〜?」は「〜しようか」という提案です。賛成するときは「Good idea.」「Let's ...」がよく使われます。
-ほかの選択肢：過去の事実・場所の説明・不自然な文で、提案への返事になっていません。
+ほかの選択肢：1「The festival was last month.（文化祭は先月だった）」は過去の事実、2「Posters are on the wall.（ポスターは壁にある）」は場所の説明、4「I don't have a festival.（文化祭を持っていない）」は不自然な文で、提案への返事になっていません。
 ヒント：「Shall we 〜?」には賛成（Good idea.）か、ていねいな断りを選ぶことが多いです。
 
 ---
@@ -193,5 +193,5 @@ A : Why don't we walk through the park? B : ( )
 【解説10】
 正解は「No, thanks. It's dark today.」です。意味は「ううん、いいよ。今日は暗いから」です。
 「Why don't we 〜?」は「〜しない？」という提案です。断るときは「No, thanks.」に理由を添えると自然です。
-ほかの選択肢：「公園には木がたくさんある」は当たり前の説明、「駅のとなり」は場所、「先週バスに乗った」は過去の話で、今回の提案への返事になっていません。
+ほかの選択肢：1「The park has many trees.（公園には木がたくさんある）」は当たり前の説明、2「It's next to the station.（駅のとなり）」は場所、3「We took a bus last week.（先週バスに乗った）」は過去の話で、今回の提案への返事になっていません。
 ヒント：提案への返事は、賛成だけでなく No, thanks. / Sorry, ... で断ることもあります。
