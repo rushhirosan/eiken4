@@ -26,7 +26,7 @@ What will students plant at Herb Pot Morning?
 【解説1a】
 正解は「Basil and mint.」です。
 本文に「We will plant basil and mint in small pots.」とあります。植えるのはバジルとミントの両方です。
-「Only mint」はミントだけになってしまうので違います。「Old clothes」は着るもの、「Apple trees」はこの案内にはありません。
+1「Only mint.（ミントだけ）」はミントだけになってしまうので違います。4「Old clothes.（古い服）」は着るもの、3「Apple trees.（りんごの木）」はこの案内にはありません。
 ヒント：plant（植える）のあとに、作るもの・植えるものが続きます。wear（着る）と mix しないようにしましょう。
 
 問題1b:
@@ -44,7 +44,7 @@ When should students talk to Mr. Nomiya to join?
 【解説1b】
 正解は「By May 12.」です。
 参加したい人は「talk to Mr. Nomiya by May 12」と書いてあります。by は「その日まで」という意味です。
-5月16日は当日、毎週土曜という指定はありません。終わってからでは申し込みに間に合いません。
+1「On May 16 only.（5月16日だけ）」はイベント当日です。4「Every Saturday in May.（5月の毎週土曜）」という指定はありません。2「After Herb Pot Morning.（Herb Pot Morning のあと）」では申し込みに間に合いません。
 ヒント：申し込みの期限は by / before のあとの日付です。When: の行はイベント当日です。
 
 ---
@@ -88,7 +88,7 @@ What will Mei's class sell at the festival?
 【解説2a】
 正解は「Baked potatoes.」です。
 本文に「Our class will sell baked potatoes at the school festival on Sunday.」とあります。
-赤い名札は机の印、折りたたみテーブルは借りる道具です。売るものではありません。アップルジュースの記述はありません。
+2「Red name cards.（赤い名札）」は机の印、3「Folding tables.（折りたたみテーブル）」は借りる道具です。売るものではありません。4「Apple juice.（りんごジュース）」の記述はありません。
 ヒント：sell（売る）の直後が、模擬店の商品です。borrow（借りる）の目的語と混ぜないようにしましょう。
 
 問題2b:
@@ -106,7 +106,7 @@ When will Mei bring the table back to Sho?
 【解説2b】
 正解は「On Monday morning.」です。
 本文に「bring it back to you on Monday morning」とあります。
-金曜の放課後4時は受け取り、日曜の夜はメイが家へ持って帰る時です。返す日ではありません。
+1「On Friday after school.（金曜の放課後）」は受け取る時です。2「At 4:00 p.m. on Sunday.（日曜の午後4時）」は、金曜の午後4時と日曜を混ぜたひっかけです。3「On Sunday night.（日曜の夜）」はメイが家へ持って帰る時で、返す日ではありません。
 ヒント：pick it up（受け取る）と bring it back（返す）の日付を並べて読むとまちがいません。
 
 問題2c:
@@ -124,7 +124,7 @@ What can Sho's brother do if Sho cannot come on Friday?
 【解説2c】
 正解は「Leave the table by the art room window.」です。
 「If you cannot come on Friday, your brother can leave it by the art room window.」とあります。
-兄ができるのは、美術室の窓のそばにテーブルを置くことです。模擬店の手伝いや名札作りの話ではありません。
+兄ができるのは、美術室の窓のそばにテーブルを置くことです。1「Sell potatoes at the festival.（祭りでじゃがいもを売る）」も、4「Make a red name card at school.（学校で赤い名札を作る）」も兄の仕事ではありません。3「Take the table to Mei's house.（テーブルをメイの家へ持っていく）」も出ていません。
 ヒント：If you cannot ... の文は、予定がだめなときの別のやり方です。
 
 ---
@@ -159,7 +159,7 @@ What did Yui have to draw for science class?
 【解説3a】
 正解は「The morning moon.」です。
 最初の文に「Yui had to draw the morning moon for science class.」とあります。
-雲は見えなかった理由、図書館はあとから行った場所です。兄を描く課題ではありません。
+1「Gray clouds.（灰色の雲）」は見えなかった理由、4「The school library.（学校の図書館）」はあとから行った場所です。2「Her older brother.（兄）」を描く課題ではありません。
 ヒント：物語の最初の文に、やらなければいけない宿題が書いてあることが多いです。
 
 問題3b:
@@ -177,7 +177,7 @@ Why could Yui not see the moon?
 【解説3b】
 正解は「Because the sky was full of gray clouds.」です。
 「the sky was full of gray clouds」「she could not see the moon」と続いています。
-時計は五時にセットできています。図書館はあとで開いていて、本も見つかります。
+3「Because her clock did not work.（時計が動かなかったから）」ではありません。時計は五時にセットできています。2「Because the library was closed.（図書館が閉まっていたから）」も違います。図書館はあとで開いていて、本も見つかります。4「Because Ms. Kibe took the book.（キベ先生が本を持っていったから）」も出ていません。
 ヒント：but の前（空が曇っていた）が、見えなかった理由です。
 
 問題3c:
@@ -195,7 +195,7 @@ Where did Yui and Kaito find the moon book?
 【解説3c】
 正解は「Near the window in the library.」です。
 「found the book near the window」は、二人で図書館へ行ったあとの文です。
-家の机はユイが泣きそうになった場所、理科の教室は提出する場所です。
+1「On Yui's desk at home.（家のユイの机の上）」はユイが泣きそうになった場所、2「In the science classroom.（理科の教室）」は提出する場所です。3「Under a shop roof.（店のひさしの下）」はこの物語にはありません。
 ヒント：同じ window でも、家の窓と図書館の窓は別です。前後の文で場所を確かめましょう。
 
 問題3d:
@@ -212,7 +212,7 @@ What did Yui write under the picture?
 
 【解説3d】
 正解は「I could not see the moon, so I used a book.」です。
-本文に、絵の下にそう書いたとあります。兄が描いたわけでも、図書館が閉まっていたわけでもありません。
+本文に、絵の下にそう書いたとあります。3「Kaito drew this picture for me.（カイトがこの絵を描いてくれた）」ではありません。1「The library is closed today.（今日図書館は閉まっている）」も違います。4「Please look at the gray clouds.（灰色の雲を見てください）」も書いていません。
 ヒント：引用符 " " の中は、登場人物が書いた・言った言葉そのものです。
 
 問題3e:
@@ -230,7 +230,7 @@ Why did Ms. Kibe smile?
 【解説3e】
 正解は「Because Yui did not stop.」です。
 先生は「You did not stop. That is good science.」と言ってほほえみました。途中であきらめなかったことがほめられています。
-五時に月は見えていません。兄は本の場所を教えただけで、宿題を代わりにしてはいません。
+1「Because Yui saw the moon at five o'clock.（ユイが五時に月を見たから）」ではありません。五時に月は見えていません。2「Because Kaito did the homework for Yui.（カイトがユイの代わりに宿題をしたから）」も違います。兄は本の場所を教えただけです。4「Because the picture was from a TV show.（絵がテレビ番組のものだったから）」も出ていません。
 ヒント：先生の発言の直後に、なぜほめたかが書いてあることが多いです。
 
 ---
@@ -263,7 +263,7 @@ Where is the Seed Share Table?
 【解説4a】
 正解は「By the science room door.」です。
 Where の行に「By the science room door」とあります。
-花の種は庭から持ってきてもよい、という話であって、テーブルの場所が庭だとは書いてありません。図書館・体育館は出てきません。
+1「In the school garden.（学校の庭）」ではありません。花の種は庭から持ってきてもよい、という話であって、テーブルの場所が庭だとは書いてありません。2「In the library.（図書館）」も、3「In the gym.（体育館）」も出てきません。
 ヒント：場所は Where: の行を先に見ると早いです。本文の garden は種の出所です。
 
 問題4b:
@@ -281,7 +281,7 @@ What should students write on a small card?
 【解説4b】
 正解は「Their name.」です。
 「Write your name on a small card.」とあります。
-原田先生は質問があるときの相手で、電話番号は書かれていません。授業の時刻や花の色をカードに書く指示もありません。
+2「Ms. Hara's phone number.（原田先生の電話番号）」ではありません。原田先生は質問があるときの相手です。3「The time of science class.（理科の授業の時刻）」も、4「The color of the flowers.（花の色）」もカードに書く指示はありません。
 ヒント：Write のあとに、カードへ書く内容が続きます。
 
 ---
@@ -323,7 +323,7 @@ What will Riku's class make next week?
 【解説5a】
 正解は「Postcards.」です。
 「My class will make postcards next week」とあります。
-鳥かごは来月お手伝いするときの話、クッキーはリクが持っていくおやつです。地図の記述はありません。
+1「A bird cage.（鳥かご）」は来月お手伝いするときの話、3「Pink cookies.（ピンクのクッキー）」はリクが持っていくおやつです。4「A garden map.（庭の地図）」の記述はありません。
 ヒント：class will make のあとが、クラスの作業です。I can の手伝いは別の段落です。
 
 問題5b:
@@ -340,8 +340,8 @@ Which stamps does Riku want Grandma Fumi to send?
 
 【解説5b】
 正解は「More of the pink stamps.」です。
-「Can you send me more of the pink stamps? I still have the yellow ones」とあります。黄色い切手はもう持っています。
-鳥の切手や駅の店の切手は書かれていません。
+「Can you send me more of the pink stamps? I still have the yellow ones」とあります。
+1「Only the yellow stamps.（黄色い切手だけ）」ではありません。黄色い切手はもう持っています。2「Stamps with birds on them.（鳥の切手）」も、4「Stamps from the station shop.（駅の店の切手）」も書かれていません。
 ヒント：still have（まだ持っている）と more（もっとほしい）を対で読むと、色をまちがえません。
 
 問題5c:
@@ -359,7 +359,7 @@ When will Riku visit if it rains on Saturday?
 【解説5c】
 正解は「On Sunday morning.」です。
 「If it rains on Saturday, I will come on Sunday morning.」とあります。
-金曜はお父さんが切手を受け取りに行く日、yesterday は切手が届いた日です。
+2「On Friday with Dad.（金曜にお父さんと）」ではありません。金曜はお父さんが切手を受け取りに行く日です。3「Yesterday afternoon.（昨日の午後）」は切手が届いた日、4「Next week before class.（来週の授業の前）」はこの条件の答えではありません。
 ヒント：If it rains の文は、雨のときの予定変更です。ほかの日付と役割を分けましょう。
 
 ---
@@ -391,8 +391,8 @@ When was Kota walking home?
 
 【解説6a】
 正解は「After buying bread at the bakery.」です。
-最初の文に「walking home in the rain after buying bread at the bakery」とあります。パンを買う前ではありません。
-日曜の朝や理科の授業はこの物語に出てこない時間です。
+最初の文に「walking home in the rain after buying bread at the bakery」とあります。
+1「Before he bought bread.（パンを買う前）」ではありません。2「On Sunday morning.（日曜の朝）」も、3「After science class.（理科の授業のあと）」もこの物語に出てこない時間です。
 ヒント：物語の書き出しに、いつ・どこで・何のあとかがまとまっていることが多いです。
 
 問題6b:
@@ -410,7 +410,7 @@ What did Kota give the first-grader?
 【解説6b】
 正解は「His new blue umbrella.」です。
 「He gave her his umbrella」とあります。新しい青い傘は父からもらったものです。
-ホットミルクと濡れた靴は家での話、クッキーは次の朝に女の子が持ってくるものです。
+1「A cup of hot milk.（ホットミルク一杯）」と 3「His wet shoes.（ぬれた靴）」は家での話、4「A small cookie.（小さいクッキー）」は次の朝に女の子が持ってくるものです。
 ヒント：gave her / gave him の目的語と、あとから別の人が渡すものを区別しましょう。
 
 問題6c:
@@ -428,7 +428,7 @@ What did Kota's mother say about his action?
 【解説6c】
 正解は「It was kind.」です。
 お母さんは怒らず、「You helped her. That was kind.」と言いました。
-新しい傘を買え、サッカーをするな、女の子が怒っている、といった記述はありません。
+2「He should buy a new umbrella.（新しい傘を買うべきだ）」も、3「He must not walk home in the rain.（雨の中を歩いて帰るな）」も、4「The first-grader was angry.（一年生が怒っていた）」も記述はありません。
 ヒント：looked surprised（驚いた顔）でも、次の文で怒っていないことが分かります。発言の中身を読みましょう。
 
 問題6d:
@@ -446,7 +446,7 @@ What did the girl bring to school the next morning?
 【解説6d】
 正解は「Kota's umbrella and a small cookie.」です。
 「the girl came to school with Kota's umbrella and a small cookie」とあります。
-シャツとミルクはお母さんがコタに出した夜の話です。サッカーバッグや切手は出ていません。
+1「Hot milk and a dry shirt.（ホットミルクと乾いたシャツ）」はお母さんがコタに出した夜の話です。2「Kota's bakery bag.（コタのパン屋の袋）」も、4「Flower stamps in an envelope.（封筒の花の切手）」も出ていません。
 ヒント：the next morning の段落に、翌日の出来事がまとまっています。
 
 問題6e:
@@ -464,5 +464,5 @@ What did Kota do with the cookie?
 【解説6e】
 正解は「He gave it to his mother after school.」です。
 最後の文に「He gave the cookie to his mother after school.」とあります。
-駅で食べたり、靴に入れたり、女の子に返し直したりはしていません。
+1「He ate it at the station.（駅で食べた）」も、3「He put it in his wet shoes.（ぬれた靴に入れた）」も、2「He gave it to the first-grader again.（一年生にまたあげた）」もしていません。
 ヒント：物語の最後の文に、その人の気持ちや次の行動が書いてあることが多いです。

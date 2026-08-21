@@ -202,7 +202,7 @@ Question No.101:
 【解説101】
 放送された3つの英文から、イラストの内容に合うものを選びます。
 2「The girl is watering the flowers.（女の子は花にみずをやっている）」が正解です。
-1は花をつむ、3は花をえにかく、でイラストと合いません。
+1「The girl is picking the flowers.（女の子は花をつんでいる）」も、3「The girl is drawing the flowers.（女の子は花をえにかいている）」も、イラストと合いません。
 動詞（picking / watering / drawing）の違いがポイントです。
 
 ---
@@ -221,7 +221,7 @@ Question No.102:
 【解説102】
 放送された3つの英文から、イラストの内容に合うものを選びます。
 2「The books are on the desk.（本はつくえのうえにある）」が正解です。
-1は下、3は中、でイラストと合いません。
+1「The books are under the desk.（本はつくえの下にある）」も、3「The books are in the desk.（本はつくえの中にある）」も、イラストと合いません。
 前置詞（under / on / in）の違いがポイントです。
 
 ---
@@ -240,7 +240,7 @@ Question No.103:
 【解説103】
 放送された3つの英文から、イラストの内容に合うものを選びます。
 1「The boy is putting on his coat.（男の子はコートをきている）」が正解です。
-2はぬいでいる、3はあらっている、でイラストと合いません。
+2「The boy is taking off his coat.（男の子はコートをぬいでいる）」も、3「The boy is washing his coat.（男の子はコートをあらっている）」も、イラストと合いません。
 動作（putting on / taking off / washing）の違いがポイントです。
 
 ---
@@ -259,7 +259,7 @@ Question No.104:
 【解説104】
 放送された3つの英文から、イラストの内容に合うものを選びます。
 3「The dog is sitting by the door.（いぬはドアのそばにすわっている）」が正解です。
-1はねている、2は走っている、でイラストと合いません。
+1「The dog is sleeping by the door.（いぬはドアのそばでねている）」も、2「The dog is running to the door.（いぬはドアへ走っている）」も、イラストと合いません。
 動詞（sleeping / running / sitting）の違いがポイントです。
 
 ---
@@ -278,7 +278,7 @@ Question No.105:
 【解説105】
 放送された3つの英文から、イラストの内容に合うものを選びます。
 1「Mom is cutting the bread.（お母さんはパンを切っている）」が正解です。
-2は買っている、3は食べている、でイラストと合いません。
+2「Mom is buying the bread.（お母さんはパンを買っている）」も、3「Mom is eating the bread.（お母さんはパンを食べている）」も、イラストと合いません。
 動詞（cutting / buying / eating）の違いがポイントです。
 
 ---
@@ -392,7 +392,7 @@ Question No.106:
 【解説106】
 放送された3つの英文から、イラストの内容に合うものを選びます。
 1「The girl is brushing her teeth.（女の子は歯をみがいている）」が正解です。
-2は顔を洗っている、3はキャンディを食べている、でイラストと合いません。
+2「The girl is washing her face.（女の子は顔を洗っている）」も、3「The girl is eating candy.（女の子はキャンディを食べている）」も、イラストと合いません。
 動詞（brushing / washing / eating）の違いがポイントです。
 
 ---
@@ -411,7 +411,7 @@ Question No.107:
 【解説107】
 放送された3つの英文から、イラストの内容に合うものを選びます。
 1「The children are building a snowman.（子どもたちは雪だるまを作っている）」が正解です。
-2は雪玉を投げている、3はスキーをしている、でイラストと合いません。
+2「The children are throwing snowballs.（子どもたちは雪玉を投げている）」も、3「The children are skiing.（子どもたちはスキーをしている）」も、イラストと合いません。
 動詞（building / throwing / skiing）の違いがポイントです。
 
 ---
@@ -430,7 +430,7 @@ Question No.108:
 【解説108】
 放送された3つの英文から、イラストの内容に合うものを選びます。
 1「The man is fixing the bike.（男性は自転車を直している）」が正解です。
-2は乗っている、3は売っている、でイラストと合いません。
+2「The man is riding the bike.（男性は自転車に乗っている）」も、3「The man is selling the bike.（男性は自転車を売っている）」も、イラストと合いません。
 動詞（fixing / riding / selling）の違いがポイントです。
 
 ---
@@ -449,7 +449,7 @@ Question No.109:
 【解説109】
 放送された3つの英文から、イラストの内容に合うものを選びます。
 1「The shoes are by the door.（くつはドアのそばにある）」が正解です。
-2はテーブルのうえ、3は川のなか、でイラストと合いません。
+2「The shoes are on the table.（くつはテーブルのうえにある）」も、3「The shoes are in the river.（くつは川のなかにある）」も、イラストと合いません。
 前置詞（by / on / in）と場所のちがいがポイントです。
 
 ---
@@ -468,5 +468,5 @@ Question No.110:
 【解説110】
 放送された3つの英文から、イラストの内容に合うものを選びます。
 1「The woman is reading a magazine.（女性は雑誌を読んでいる）」が正解です。
-2は手紙を書いている、3は服をたたんでいる、でイラストと合いません。
+2「The woman is writing a letter.（女性は手紙を書いている）」も、3「The woman is folding clothes.（女性は服をたたんでいる）」も、イラストと合いません。
 動詞（reading / writing / folding）の違いがポイントです。

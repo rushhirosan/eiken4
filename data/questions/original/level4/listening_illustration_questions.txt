@@ -18,7 +18,7 @@ W: Did you look in your bag?（かばんの中を見た？）
 M: Yes. Where are they?（うん。どこにあるの？）
 
 最後に場所を聞いているので、1「On the shelf by the door.（ドアのそばの棚のうえ）」が自然です。
-2は曜日、3は好きなもので、場所の答えではありません。
+2「It's Monday today.（きょうは月曜日）」は曜日、3「I like winter.（冬が好き）」は好きなもので、場所の答えではありません。
 
 ---
 
@@ -42,7 +42,7 @@ M: Yes. Why?（うん。どうして？）
 W: Shall we make a birthday card for Grandma?（おばあちゃんに誕生日カードを作らない？）
 
 提案への返事なので、2「Sure. Let's start at three.（いいよ。3時に始めよう）」が自然です。
-1は持ち物、3はおばあちゃんの話で、提案への賛成になっていません。
+1「I have a red pen.（赤いペンを持っている）」は持ち物、3「Grandma lives far away.（おばあちゃんは遠くに住んでいる）」はおばあちゃんの話で、提案への賛成になっていません。
 
 ---
 
@@ -66,7 +66,7 @@ W: It was OK, but a little hard.（まあよかったけど、ちょっとむず
 M: Which part was hard?（どのところがむずかしかったの？）
 
 「どの部分？」と聞いているので、1「The last question about plants.（植物についての最後の問題）」が自然です。
-2は通学、3は曜日で、むずかしかった部分の答えではありません。
+2「I walk to school.（歩いて学校へ行く）」は通学、3「Science is on Friday.（理科は金曜日）」は曜日で、むずかしかった部分の答えではありません。
 
 ---
 
@@ -90,7 +90,7 @@ M: There's juice in the fridge.（冷蔵庫にジュースがあるよ。）
 W: Thanks. Do you want some, too?（ありがとう。あなたもいる？）
 
 「いる？」と聞いているので、2「No, thanks. I already drank water.（ううん、いいよ。もう水を飲んだから）」が自然です。
-1は開始時刻、3は冷蔵庫の色で、返事になっていません。
+1「Practice starts at five.（練習は5時に始まる）」は開始時刻、3「The fridge is white.（冷蔵庫は白い）」は冷蔵庫の色で、返事になっていません。
 
 ---
 
@@ -114,7 +114,7 @@ W: Yes. Please sit down.（はい。どうぞお座りください。）
 M: Thank you. Is the next stop City Hall?（ありがとう。次は市役所ですか？）
 
 次の停留所を確認しているので、3「No. It's the museum stop.（いいえ。博物館の停留所です）」が自然です。
-1は建物の大きさ、2は席の好みで、停留所の答えではありません。
+1「City Hall is big.（市役所は大きい）」は建物の大きさ、2「I like this seat.（この席が好き）」は席の好みで、停留所の答えではありません。
 
 ---
 
@@ -138,7 +138,7 @@ M: I opened it because the room was hot.（部屋が暑かったから開けた�
 W: Oh. Can you close it now? It's getting windy.（そっか。いま閉めてくれる？風が強くなってきた。）
 
 お願いへの返事なので、2「OK. I'll close it.（うん。閉めるよ）」が自然です。
-1は色、3は感想で、閉じる返事ではありません。
+1「The room is blue.（部屋は青い）」は色、3「Windy days are fun.（風の強い日は楽しい）」は感想で、閉じる返事ではありません。
 
 ---
 
@@ -162,7 +162,7 @@ W: It opens at nine on Sundays.（日曜日は9時です。）
 M: Great. How long does it take to walk there?（いいね。歩いてどのくらいかかる？）
 
 所要時間を聞いているので、1「About fifteen minutes.（だいたい15分）」が自然です。
-2は泳げること、3はきれいさで、時間の長さではありません。
+2「I can swim well.（うまく泳げる）」は泳げること、3「The pool is clean.（プールはきれい）」はきれいさで、時間の長さではありません。
 開く時刻は前の文の情報です。
 
 ---
@@ -187,7 +187,7 @@ M: Really? How do they taste?（へえ。どんな味？）
 W: Sweet. Would you like one?（甘いよ。一ついる？）
 
 すすめへの返事なので、3「Yes, please. They look good.（はい、お願いします。おいしそう）」が自然です。
-1は曜日、2は料理が好きかどうかで、クッキーを受ける返事ではありません。
+1「Yesterday was Tuesday.（きのうは火曜日）」は曜日、2「I don't like cooking.（料理が好きではない）」は料理が好きかどうかで、クッキーを受ける返事ではありません。
 
 ---
 
@@ -211,7 +211,7 @@ W: Nice. What should we bring?（いいね。何を持っていけばいい？�
 M: Please bring old gloves and a small bag.（古い手袋と小さなかばんを持ってきて。）
 
 持ち物を伝えられたあとの返事なので、3「OK. I'll bring both.（わかった。どっちも持っていく）」が自然です。
-1は場所、2は感想で、持っていく返事ではありません。
+1「The park is near the school.（公園は学校の近く）」は場所、2「Cleaning is hard.（そうじは大変）」は感想で、持っていく返事ではありません。
 
 ---
 
@@ -235,4 +235,4 @@ M: Yes. He found his lost watch.（うん。なくした腕時計を見つけた
 W: Where did he find it?（どこで見つけたの？）
 
 場所を聞いているので、2「Under his desk in the classroom.（教室の自分の机の下）」が自然です。
-1は一般論、3は学年で、見つけた場所ではありません。
+1「Watches are useful.（腕時計は役に立つ）」は一般論、3「He is in Grade 4.（彼は4年生）」は学年で、見つけた場所ではありません。

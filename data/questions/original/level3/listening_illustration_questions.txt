@@ -18,7 +18,7 @@ W: Have you checked your pocket?（ポケットは見た？）
 M: Yes. Where could it be?（うん。どこだろう？）
 
 最後に場所を聞いているので、1「On the machine by the gate.（改札の機械のうえ）」が自然です。
-2は天気、3は新しい定期の話で、場所の答えではありません。
+2「It's raining hard now.（いま雨がひどい）」は天気、3「I bought a new one.（新しいのを買った）」は新しい定期の話で、場所の答えではありません。
 
 ---
 
@@ -42,7 +42,7 @@ M: Sure. Where should I put them?（いいよ。どこに置けばいい？）
 W: Next to the gym door, please.（体育館のドアのとなり、お願い。）
 
 手伝いと場所が決まったあとの返事なので、2「OK. I'll carry them there.（わかった。そこまで運ぶよ）」が自然です。
-1は時期、3はびんの説明で、返事になっていません。
+1「The festival is in May.（文化祭は5月）」は時期、3「Bottles are colorful.（びんは色とりどり）」はびんの説明で、返事になっていません。
 
 ---
 
@@ -66,7 +66,7 @@ W: It was hard, but I finished my speech.（むずかしかったけど、最後
 M: How did you feel after that?（そのあと、どう感じた？）
 
 気持ちを聞いているので、1「I felt happy and relaxed.（うれしくて安心した）」が自然です。
-2は日程、3は先生の話で、気持ちの答えではありません。
+2「The contest was on Friday.（コンテストは金曜日だった）」は日程、3「My teacher was busy.（先生は忙しかった）」は先生の話で、気持ちの答えではありません。
 
 ---
 
@@ -90,7 +90,7 @@ M: How many do we need?（何個いる？）
 W: About thirty. Can you buy them?（だいたい30個。買ってきてくれる？）
 
 買い物のお願いへの返事なので、3「OK. I'll go to the supermarket.（いいよ。スーパーに行くね）」が自然です。
-1は開始時刻、2は色で、お願いへの返事になっていません。
+1「The party starts at six.（パーティーは6時に始まる）」は開始時刻、2「Paper cups are white.（紙コップは白い）」は色で、お願いへの返事になっていません。
 
 ---
 
@@ -114,7 +114,7 @@ W: They're fixing the floor.（床を直しているの。）
 M: So where can we practice basketball?（じゃあ、どこでバスケの練習ができる？）
 
 代わりの場所を聞いているので、3「We can use the park court outside.（外の公園のコートが使えるよ）」が自然です。
-1は床の話、2は感想で、場所の答えではありません。
+1「The floor looks new.（床は新しそう）」は床の話、2「Basketball is fun.（バスケは楽しい）」は感想で、場所の答えではありません。
 
 ---
 
@@ -138,7 +138,7 @@ M: What does she like?（何が好きなの？）
 W: She likes flowers. Any ideas?（お花が好き。何か案ある？）
 
 アイデアを求めているので、2「How about a small flower pot?（小さな植木鉢はどう？）」が自然です。
-1は誕生日、3は花の世話で、提案になっていません。
+1「Mom's birthday is next week.（お母さんの誕生日は来週）」は誕生日、3「Flowers need water.（花には水が必要）」は花の世話で、提案になっていません。
 
 ---
 
@@ -162,7 +162,7 @@ W: How long have we been waiting?（どのくらい待ってる？）
 M: Almost twenty minutes. What should we do?（もう20分近い。どうしよう？）
 
 どうするか聞いているので、2「Let's call the school office.（学校の事務室に電話しよう）」が自然です。
-1は色、3は好みで、次の行動の提案になっていません。
+1「The bus is yellow.（バスは黄色い）」は色、3「I like waiting.（待つのは好き）」は好みで、次の行動の提案になっていません。
 
 ---
 
@@ -186,7 +186,7 @@ M: Not yet. The photos are amazing.（まだ。写真がすごいんだ。）
 W: When will you finish it?（いつ終わる予定？）
 
 いつ終わるかを聞いているので、3「Maybe by this weekend.（今週末までには、かな）」が自然です。
-1は厚さ、2は借りた相手で、時期の答えではありません。
+1「Magazines are thick.（雑誌は厚い）」は厚さ、2「I borrowed it from my cousin.（いとこから借りた）」は借りた相手で、時期の答えではありません。
 
 ---
 
@@ -210,7 +210,7 @@ W: Me too. Shall we get something to eat?（わたしも。何か食べない？
 M: Good idea. What do you want?（いいね。何がいい？）
 
 食べたいものを聞いているので、2「Some hot noodles, please.（あったかい麺がいいな）」が自然です。
-1は部活の感想、3は閉店時間で、ほしいものの答えではありません。
+1「Club practice was hard.（部活は大変だった）」は部活の感想、3「The shop closes at eight.（店は8時に閉まる）」は閉店時間で、ほしいものの答えではありません。
 
 ---
 
@@ -234,6 +234,6 @@ M: Sure. Where should I stand?（いいよ。どこに立てばいい？）
 W: Over there, by the cherry tree.（あそこの桜の木のそば。）
 
 場所が決まったあとの撮影の流れなので、3「OK. Smile, everyone!（了解。みんな、笑って！）」が自然です。
-1は桜の説明、2は試合結果で、いま撮る場面の返事になっていません。
+1「Cherry blossoms are pink.（桜はピンク）」は桜の説明、2「Our team won yesterday.（チームはきのう勝った）」は試合結果で、いま撮る場面の返事になっていません。
 
 ---

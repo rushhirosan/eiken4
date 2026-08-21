@@ -151,3 +151,49 @@ class UpdateExplanationsCommandTest(TestCase):
             1,
         )
         self.assertEqual(ListeningQuestion.objects.filter(pk=q22.pk).count(), 1)
+
+    def test_original_flag_updates_only_original_and_keeps_progress(self):
+        """--original は original 行だけを original txt から更新する。"""
+        blocked = Question.objects.create(
+            provenance='blocked',
+            level='4',
+            question_type='listening_conversation',
+            question_text='blocked old',
+            question_number=1,
+            explanation='blocked解説のまま',
+        )
+        original = Question.objects.create(
+            provenance=PROVENANCE_ORIGINAL,
+            level='4',
+            question_type='listening_conversation',
+            question_text='original old',
+            question_number=1,
+            explanation='古いoriginal解説',
+        )
+        Choice.objects.create(
+            question=original, choice_text='To the bookstore.', is_correct=True, order=1
+        )
+        UserAnswer.objects.create(
+            user=self.user,
+            question=original,
+            selected_choice=original.choices.first(),
+            is_correct=True,
+        )
+
+        call_command(
+            'update_explanations',
+            level='4',
+            category='listening_conversation',
+            original=True,
+        )
+        blocked.refresh_from_db()
+        original.refresh_from_db()
+
+        self.assertEqual(blocked.explanation, 'blocked解説のまま')
+        self.assertIn('To the bookstore', original.explanation)
+        self.assertIn('To a zoo', original.explanation)
+        self.assertEqual(
+            UserAnswer.objects.filter(user=self.user, question=original).count(),
+            1,
+        )
+        self.assertEqual(Question.objects.filter(pk=original.pk).count(), 1)

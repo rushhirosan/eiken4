@@ -13,7 +13,7 @@ A : Why are you packing so many bottles? B : ( )
 【解説1】
 正解は「Because we will sell juice at the festival.」です。意味は「文化祭でジュースを売るから」です。
 「Why（なぜ）」と理由を聞いているので、「Because 〜」で答えるのが自然です。
-ほかの選択肢：場所・値段・行き方で、理由の答えになっていません。
+ほかの選択肢：1「At the school library.（学校の図書館で）」は場所、3「They cost five hundred yen.（500円です）」は値段、4「I'm going by bus.（バスで行く）」は行き方で、理由の答えになっていません。
 ヒント：Why には Because で返す、とまず考えましょう。
 
 ---
@@ -33,7 +33,7 @@ Girl : Have you ever been to the new aquarium? Boy : ( )
 【解説2】
 正解は「Yes, I went there with my family last spring.」です。意味は「うん、去年の春に家族と行ったよ」です。
 「Have you ever 〜?」は経験を聞く質問なので、行ったことがあるかどうかを答えるのが自然です。
-ほかの選択肢：場所の説明・ほしいもの・乗り物で、経験の答えになっていません。
+ほかの選択肢：1「It's near the harbor.（港の近くです）」は場所の説明、2「I want some ice cream.（アイスクリームがほしい）」はほしいもの、4「By bus.（バスで）」は乗り物で、経験の答えになっていません。
 ヒント：Have you ever 〜? には Yes, I have. / No, I haven't. や、いつ行ったかを足す答えがよく来ます。
 
 ---
@@ -53,7 +53,7 @@ A : What should we do if it rains on Sunday? B : ( )
 【解説3】
 正解は「We can visit the indoor swimming pool.」です。意味は「屋内プールに行けるよ」です。
 「What should we do if 〜?」は「もし〜なら、どうする？」と相談しているので、別の計画を出す答えが合います。
-ほかの選択肢：過去の天気・好きな曜日・いますぐの注意で、日曜の計画の答えになっていません。
+ほかの選択肢：1「It rained a lot yesterday.（きのうたくさん雨が降った）」は過去の天気、3「Sunday is my favorite day.（日曜日がいちばん好き）」は好きな曜日、4「Take an umbrella with you now.（いま傘を持っていって）」はいますぐの注意で、日曜の計画の答えになっていません。
 ヒント：if（もし）の相談には、「〜できる／〜しよう」の提案がよく来ます。
 
 ---
@@ -73,7 +73,7 @@ Boy : Could you tell me where the gym is? Girl : ( )
 【解説4】
 正解は「Go straight and turn left at the music room.」です。意味は「まっすぐ行って、音楽室のところで左に曲がって」です。
 「where（どこ）」と場所を聞いているので、道順や位置で答えるのが自然です。
-ほかの選択肢：自分の習慣・閉店時間・理由で、いまの場所の答えになっていません。
+ほかの選択肢：1「I play basketball after school.（放課後にバスケをする）」は自分の習慣、2「It's open until five.（5時まで開いている）」は閉店時間、3「Because I like sports.（スポーツが好きだから）」は理由で、いまの場所の答えになっていません。
 ヒント：where の質問には、道順や「It's next to 〜」などの位置が答えになります。
 
 ---
@@ -93,7 +93,7 @@ A : I'm nervous about my speech tomorrow. B : ( )
 【解説5】
 正解は「Don't worry. You've practiced a lot.」です。意味は「心配しないで。たくさん練習したでしょ」です。
 相手が不安を話しているので、励ます返事が自然です。
-ほかの選択肢：スピーチの内容・曜日・買い物の話で、気持ちへの返事になっていません。
+ほかの選択肢：1「The speech is about animals.（スピーチは動物について）」はスピーチの内容、3「Tomorrow is Tuesday.（あしたは火曜日）」は曜日、4「I bought a new notebook.（新しいノートを買った）」は買い物の話で、気持ちへの返事になっていません。
 ヒント：相手が困る・不安なときは、Don't worry. / You'll be fine. などがよく使われます。
 
 ---
@@ -113,7 +113,7 @@ Girl : How much is this scarf? Boy : ( )
 【解説6】
 正解は「It's eight hundred yen.」です。意味は「800円です」です。
 「How much（いくら）」と値段を聞いているので、金額で答えるのが自然です。
-ほかの選択肢：素材・だれのため・色で、値段の答えではありません。
+ほかの選択肢：1「It's made of wool.（ウールでできている）」は素材、2「I got it for my mother.（お母さんのために買った）」はだれのため、4「The color is blue.（色は青）」は色で、値段の答えではありません。
 ヒント：How much には yen / dollars などの金額が答えになります。
 
 ---
@@ -133,7 +133,7 @@ A : Do you mind if I open the window? B : ( )
 【解説7】
 正解は「Not at all. It's a little hot in here.」です。意味は「ぜんぜん大丈夫。ここ、ちょっと暑いし」です。
 「Do you mind if 〜?」は「〜してもいい？」というていねいな許しの求めです。OKのときは「Not at all. / Of course not.」などがよく使われます。
-ほかの選択肢：色・過去・別のお願いで、許しへの返事になっていません。
+ほかの選択肢：1「The window is blue.（窓は青い）」は色、2「I opened it yesterday.（きのう開けた）」は過去、3「Please close your book.（本を閉じてください）」は別のお願いで、許しへの返事になっていません。
 ヒント：Do you mind if 〜? に Yes だけ返すと「いやだ」に聞こえることがあるので、Not at all. を覚えておくと安心です。
 
 ---
@@ -153,7 +153,7 @@ Boy : Which club are you going to join? Girl : ( )
 【解説8】
 正解は「I'm thinking about the art club.」です。意味は「美術部に入ろうかなと思ってる」です。
 「Which club（どの部）」と選択を聞いているので、部の名前で答えるのが自然です。
-ほかの選択肢：場所・開始時期・頻度で、「どの部か」の答えになっていません。
+ほかの選択肢：2「The club room is on the second floor.（部室は2階）」は場所、3「Club activities start in April.（部活は4月に始まる）」は開始時期、4「I join clubs every day.（毎日部に入る）」は頻度で、「どの部か」の答えになっていません。
 ヒント：Which 〜? には、選択肢の中のひとつ（またはその名前）で答えます。
 
 ---
@@ -173,7 +173,7 @@ A : What did you do during the summer vacation? B : ( )
 【解説9】
 正解は「I helped my grandparents on their farm.」です。意味は「おじいちゃん・おばあちゃんの農場を手伝ったよ」です。
 「What did you do（何をした）」と過去の行動を聞いているので、したことを答えるのが自然です。
-ほかの選択肢：感想・期間の説明・好き嫌い比較で、「何をしたか」の答えになっていません。
+ほかの選択肢：1「Summer vacation is too short.（夏休みは短すぎる）」は感想、2「It starts in July.（7月に始まる）」は期間の説明、4「I like swimming better than running.（走るより泳ぐほうが好き）」は好き嫌い比較で、「何をしたか」の答えになっていません。
 ヒント：What did you do 〜? には過去形の文で答えましょう。
 
 ---
@@ -193,7 +193,7 @@ Girl : Shall I carry your bag for you? Boy : ( )
 【解説10】
 正解は「Thank you. That would be a great help.」です。意味は「ありがとう。とても助かるよ」です。
 「Shall I 〜?」は「〜しましょうか？」という申し出です。受けるときは感謝の返事が自然です。
-ほかの選択肢：かばんが重い理由・購入時期・毎日の依頼で、いまの申し出への返事になっていません。
+ほかの選択肢：1「My bag is heavy because of my books.（本でかばんが重い）」はかばんが重い理由、2「I bought this bag last month.（先月このかばんを買った）」は購入時期、3「Carry it to the station, please, every day.（毎日駅まで運んで）」は毎日の依頼で、いまの申し出への返事になっていません。
 ヒント：Shall I 〜? には Yes, please. / Thank you. などがよく使われます。
 
 ---

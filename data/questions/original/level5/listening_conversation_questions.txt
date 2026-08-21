@@ -23,7 +23,7 @@ What is the girl making?
 Question: What is the girl making?（女の子はなにをつくっていますか？）
 
 女の子が「カードをつくっている」と言っているので、3「A card.（カード）」が正解です。
-かみの色の話は出てきますが、つくっているものはカードです。
+1「A cake.（ケーキ）」も、2「A poster.（ポスター）」も、4「A photo.（しゃしん）」も出ていません。かみの色の話は出ますが、つくっているものはカードです。
 
 ---
 
@@ -52,7 +52,7 @@ Where is the boy's umbrella?
 Question: Where is the boy's umbrella?（男の子のかさはどこにありますか？）
 
 男の子が「みせにわすれた」と言っているので、3「At the store.（みせ）」が正解です。
-がっこうはあとで行く場所で、今かさがある場所ではありません。
+1「At school.（がっこう）」はあとで取りに行く場所で、いまかさがある場所ではありません。2「At home.（うち）」も、4「At the station.（えき）」も出ていません。
 
 ---
 
@@ -81,6 +81,7 @@ When does her brother practice?
 Question: When does her brother practice?（お兄ちゃんのれんしゅうはいつですか？）
 
 女の子が「きんようびにれんしゅう」と言っているので、4「On Fridays.（きんようび）」が正解です。
+1「On Mondays.（げつようび）」も、2「On Saturdays.（どようび）」も、3「Every day.（まいにち）」も出ていません。
 
 ---
 
@@ -109,7 +110,7 @@ What does the girl want?
 Question: What does the girl want?（女の子はなにがほしいですか？）
 
 女の子が「いちご」と言っているので、4「Strawberries.（いちご）」が正解です。
-バナナは男の子がほしいものです。
+2「Bananas.（バナナ）」は男の子がほしいものです。1「Apples.（りんご）」も、3「Oranges.（オレンジ）」も出ていません。
 
 ---
 
@@ -138,7 +139,7 @@ What does the boy have?
 Question: What does the boy have?（男の子はなにを持っていますか？）
 
 男の子が「おおきいかばんはある」と言っているので、2「A big bag.（おおきいかばん）」が正解です。
-レインコートはない、と答えています。
+1「A raincoat.（レインコート）」はない、と答えています。3「An umbrella.（かさ）」も、4「New shoes.（あたらしいくつ）」も出ていません。
 
 ---
 
@@ -167,7 +168,7 @@ Where will the girl walk her dog?
 Question: Where will the girl walk her dog?（女の子はどこで犬を散歩させますか？）
 
 最初の ☆ が「in the park（公園で）」と言っているので、1「In the park.（公園で）」が正解です。
-「At three this afternoon.（午後3時）」は時刻の話で、ばしょの答えではありません。
+「At three this afternoon.（午後3時）」は時刻の話で、ばしょの答えではありません。2「At school.（がっこう）」も、3「At the store.（みせ）」も、4「In the library.（としょかん）」も出ていません。
 
 ---
 
@@ -195,8 +196,8 @@ What did they do at the party?
 ★Who came to the party?（だれが来たの？）
 Question: What did they do at the party?（パーティーで何をしましたか？）
 
-☆ が「We ate cake and sang songs.（ケーキを食べて歌を歌った）」と言っているので、1が正解です。
-2・3・4は会話に出てきません。最後の「Who came...?」はだれが来たかの質問で、ここでの答えではありません。
+☆ が「We ate cake and sang songs.（ケーキを食べて歌を歌った）」と言っているので、1「They ate cake and sang songs.（ケーキを食べて歌を歌った）」が正解です。
+2「They played soccer.（サッカーをした）」も、3「They went shopping.（かいものに行った）」も、4「They watched a movie.（えいがを見た）」も会話に出てきません。最後の「Who came...?」はだれが来たかの質問で、ここでの答えではありません。
 
 ---
 
@@ -225,7 +226,7 @@ Where does the boy think his homework is?
 Question: Where does the boy think his homework is?（男の子はしゅくだいがどこにあると思っていますか？）
 
 ☆ が「in my room（へや）」にあると思う、と言っているので、4「In his room.（へや）」が正解です。
-1「At school.（がっこう）」は ★ の質問で、☆ は「No（ううん）」と否定しています。
+1「At school.（がっこう）」は ★ の質問で、☆ は「No（ううん）」と否定しています。2「In the kitchen.（だいどころ）」も、3「At the park.（こうえん）」も出ていません。
 
 ---
 
@@ -254,7 +255,7 @@ What is the problem with the shoes?
 Question: What is the problem with the shoes?（くつはどんな問題がありますか？）
 
 女の子が「too small（小さい）」と言っているので、2「They are too small.（小さい）」が正解です。
-1「too big（大きい）」は反対の意味です。3・4は会話に出てきません。
+1「They are too big.（大きい）」は反対の意味です。3「They are too old.（ふるい）」も、4「They are too dirty.（きたない）」も会話に出てきません。
 
 ---
 
@@ -283,7 +284,7 @@ What did the girl forget?
 Question: What did the girl forget?（女の子は何を忘れましたか？）
 
 ☆ が「I forgot my umbrella（かさを忘れた）」と言っているので、3「Her umbrella.（かさ）」が正解です。
-★ が自分のかさを貸す、と言っているので、かさの話だとわかります。
+1「Her hat.（ぼうし）」も、2「Her bag.（かばん）」も、4「Her lunch.（おべんとう）」も出ていません。★ が自分のかさを貸す、と言っているので、かさの話だとわかります。
 
 ---
 
@@ -311,8 +312,8 @@ What can they do in the club?
 ★We can play the guitar and sing.（ギターをひいたり歌ったりできるよ。）
 Question: What can they do in the club?（クラブで何ができますか？）
 
-★ が「play the guitar and sing（ギターをひいたり歌ったりできる）」と言っているので、4が正解です。
-1・2・3は会話に出てきません。
+★ が「play the guitar and sing（ギターをひいたり歌ったりできる）」と言っているので、4「Play the guitar and sing.（ギターをひいたり歌ったりする）」が正解です。
+1「Play soccer.（サッカーをする）」も、2「Cook lunch.（ひるごはんをつくる）」も、3「Read books.（ほんを読む）」も会話に出てきません。
 
 ---
 
@@ -341,7 +342,7 @@ What did the boy bring?
 Question: What did the boy bring?（男の子は何を持ってきましたか？）
 
 ☆ が「some flowers（花）」を持ってきた、と言っているので、1「Some flowers.（花）」が正解です。
-「put them in a vase（花瓶に入れる）」の them は花のことです。
+2「Some fruit.（くだもの）」も、3「A book.（ほん）」も、4「A cake.（ケーキ）」も出ていません。「put them in a vase（花瓶に入れる）」の them は花のことです。
 
 ---
 
@@ -370,7 +371,7 @@ Where did the boy last use his wallet?
 Question: Where did the boy last use his wallet?（男の子は最後にどこでさいふを使いましたか？）
 
 ★ が「At the bookstore（本屋）」で使った、と答えているので、1「At the bookstore.（本屋）」が正解です。
-2・3・4は会話に出てきません。
+2「At school.（がっこう）」も、3「At the park.（こうえん）」も、4「At the library.（としょかん）」も会話に出てきません。
 
 ---
 
@@ -399,7 +400,7 @@ What are they making?
 Question: What are they making?（2人は何を作っていますか？）
 
 ★ が「making sandwiches（サンドイッチを作っている）」と言っているので、3「Sandwiches.（サンドイッチ）」が正解です。
-「for lunch（ひるごはん用）」も手がかりになります。
+1「Soup.（スープ）」も、2「Cookies.（クッキー）」も、4「Salad.（サラダ）」も出ていません。「for lunch（ひるごはん用）」も手がかりになります。
 
 ---
 
@@ -428,4 +429,4 @@ Where does the girl want to go?
 Question: Where does the girl want to go?（女の子はどこに行きたいですか？）
 
 ☆ が「go to the beach（海に行きたい）」と言っているので、4「To the beach.（海）」が正解です。
-1・2・3は会話に出てきません。
+1「To the mountains.（山）」も、2「To the zoo.（どうぶつえん）」も、3「To the museum.（はくぶつかん）」も会話に出てきません。

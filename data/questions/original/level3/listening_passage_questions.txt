@@ -19,8 +19,8 @@ She will water the tomato plants and pick weeds.（トマトに水をやり、�
 She wants to take home some fresh herbs.（新鮮なハーブを家に持ち帰りたいと思っています。）
 Question: Where will Nao work next Sunday?（ナオは次の日曜日、どこで働きますか？）
 
-「community garden」とあるので、1が正解です。
-ハーブを持ち帰る話はあとでしたいことで、働く場所ではありません。
+「community garden（コミュニティガーデン）」とあるので、1「At a community garden.（コミュニティガーデンで）」が正解です。
+2「At a bakery.（パン屋で）」・3「At a museum.（博物館で）」・4「At a library.（図書館で）」は働く場所として出ていません。ハーブを持ち帰る話はあとでしたいことです。
 
 ---
 
@@ -45,8 +45,8 @@ They practiced sending photos and writing short messages.（写真の送り方�
 In the evening, her neighbor cooked dinner to say thank you.（夕方、隣人はお礼に夕食を作りました。）
 Question: What did Hina teach her neighbor?（ヒナは隣人に何を教えましたか？）
 
-「how to use a new tablet」とあるので、3が正解です。
-夕食はお礼で、教えた内容ではありません。
+「how to use a new tablet（新しいタブレットの使い方）」とあるので、3「How to use a new tablet.（新しいタブレットの使い方）」が正解です。
+1「How to bake bread.（パンの焼き方）」・2「How to ride a bike.（自転車の乗り方）」・4「How to play the piano.（ピアノの弾き方）」は教えた内容ではありません。夕食はお礼です。
 
 ---
 
@@ -71,8 +71,8 @@ He put pickled plum in them.（梅干しを入れました。）
 His sister helped him wash the fruit.（妹が果物を洗うのを手伝いました。）
 Question: Why did Kenta wake up early?（ケンタが早く起きた理由は何ですか？）
 
-「to make rice balls for the sports day」とあるので、1が正解です。
-1は妹がした手伝いで、ケンタが早く起きた理由ではありません。
+「to make rice balls for the sports day（運動会用のおにぎりを作るため）」とあるので、1「To make rice balls for sports day.（運動会用のおにぎりを作るため）」が正解です。
+2「To wash fruit with his sister.（妹と果物を洗うため）」は妹がした手伝い、3「To study hard for a big test.（大きなテストのため勉強する）」・4「To walk his dog in the park.（公園で犬の散歩）」は早く起きた理由ではありません。
 
 ---
 
@@ -97,8 +97,8 @@ They will learn how glass bottles are reused.（ガラスびんがどう再利�
 Yui wants to write a report about it for the school newspaper.（ユイはそれについて学校新聞のレポートを書きたいと思っています。）
 Question: What does Yui want to write about?（ユイは何について書きたいですか？）
 
-「a report about it」の it はリサイクルセンター見学のことなので、3が正解です。
-ガラスびんは見学で学ぶ内容の一部です。
+「a report about it」の it はリサイクルセンター見学のことなので、3「A recycling center visit.（リサイクルセンター見学）」が正解です。
+1「A school play next month.（来月の学園劇）」・2「Glass bottles at her home.（家のガラスびん）」・4「A cooking class at school.（学校の料理教室）」は書くテーマではありません。ガラスびんは見学で学ぶ内容の一部です。
 
 ---
 
@@ -124,8 +124,8 @@ They smiled and clapped at the end.（最後に二人は笑って拍手しまし
 His little sister sat beside him and listened.（妹が横に座って聞いていました。）
 Question: What did Ren do after practicing?（レンは練習のあと何をしましたか？）
 
-練習のあとはオンラインで演奏した、なので 4 が正解です。
-2時間練習した、は前の行動です。
+練習のあとはオンラインで演奏した、なので 4「He played online for his grandparents.（おじいちゃん・おばあちゃんにオンラインで演奏した）」が正解です。
+1「He went to a nearby concert hall.（近くのホールへ行った）」・2「He bought a new guitar downtown.（街で新しいギターを買った）」・3「He slept in his room all day.（一日中部屋で寝た）」はそのあとの行動ではありません。2時間練習した、は前の行動です。
 
 ---
 
@@ -150,8 +150,8 @@ She has never tried surfing, but she watches the waves after school.（サーフ
 Next summer she wants to take a lesson.（来年の夏にレッスンを受けたいと思っています。）
 Question: How long has Saki lived near the sea?（サキはどのくらい海の近くに住んでいますか？）
 
-「for three years」とあるので、4が正解です。
-サーフィンをしたことがない、は別の現在完了です。
+「for three years（3年間）」とあるので、4「For three years.（3年間）」が正解です。
+1「For three weeks.（3週間）」・2「All her life.（生まれてからずっと）」・3「Since last summer.（去年の夏から）」は住んでいる期間ではありません。サーフィンをしたことがない、は別の現在完了です。
 
 ---
 
@@ -176,8 +176,8 @@ He has visited that museum twice before.（以前にその博物館へ2回行っ
 He wanted to see a new robot show.（新しいロボットの展示を見たかったのです。）
 Question: How many times has Kosei visited the museum before today?（コウセイは今日より前に、その博物館へ何回行ったことがありますか？）
 
-「twice before」とあるので、2が正解です。
-歩いて行った、は今日の行き方です。
+「twice before（以前に2回）」とあるので、2「Twice.（2回）」が正解です。
+1「Once.（1回）」・3「Three times.（3回）」・4「Never.（一度もない）」は回数として合っていません。歩いて行った、は今日の行き方です。
 
 ---
 
@@ -203,8 +203,8 @@ She has already printed the pages at the library.（ページは図書館でも�
 Her teacher asked her to add one photo before Friday.（先生は金曜までに写真を1枚足すように言いました。）
 Question: What does Ayaka still need to do before Friday?（アヤカが金曜までにまだやらなければならないことは何ですか？）
 
-「add one photo before Friday」とあるので、1が正解です。
-レポート本文はすでに終わっています。
+「add one photo before Friday（金曜までに写真を1枚足す）」とあるので、1「Add one photo.（写真を1枚足す）」が正解です。
+2「Start a new report.（新しいレポートを始める）」・3「Change her teacher.（先生を変える）」・4「Study for a music test.（音楽のテストの勉強）」はまだやるべきこととして言っていません。レポート本文はすでに終わっています。
 
 ---
 
@@ -229,8 +229,8 @@ They have already bought bread and milk.（パンと牛乳はもう買ってあ�
 Daiki hopes he can still see his friends online.（ダイキは、それでもオンラインで友達に会えるといいなと思っています。）
 Question: What will Daiki's family do if it snows on Sunday?（日曜に雪なら、ダイキの家族は何をしますか？）
 
-「stay home and make hot soup」とあるので、2が正解です。
-パンはすでに買ってあるもので、その日の予定ではありません。
+「stay home and make hot soup（家にいて温かいスープを作る）」とあるので、2「Stay home and make hot soup.（家にいて温かいスープを作る）」が正解です。
+1「Go skiing in the mountains.（山でスキーに行く）」・3「Buy bread at the shop.（店でパンを買う）」・4「Visit friends by bus.（バスで友達を訪ねる）」は雪の日の予定ではありません。パンはすでに買ってあるものです。
 
 ---
 
@@ -256,5 +256,5 @@ Mio has never missed a Saturday meeting.（土曜の集まりを欠かしたこ�
 Next week they will collect old books for a small library.（来週は小さな図書館のために古い本を集めます。）
 Question: How many times have they cleaned the station stairs?（彼らは駅の階段を何回そうじしましたか？）
 
-「three times」とあるので、3が正解です。
-古い本は来週の予定です。
+「three times（3回）」とあるので、3「Three times.（3回）」が正解です。
+1「Once.（1回）」・2「Twice.（2回）」・4「Every day.（毎日）」はそうじの回数ではありません。古い本は来週の予定です。

@@ -12,8 +12,16 @@ from dataclasses import dataclass
 from typing import Callable
 
 from exams.models import Question
+from exams.provenance import PROVENANCE_ORIGINAL
 from questions.level_paths import questions_file_abspath
 from questions.models import ListeningQuestion, ReadingPassage, ReadingQuestion
+
+
+def _provenance_kwargs(original: bool) -> dict:
+    """--original 時は公開用 original 行だけ更新する。"""
+    if original:
+        return {'provenance': PROVENANCE_ORIGINAL}
+    return {}
 
 # writing の参考解答は explanation カラムに入る
 _LINE_FULLWIDTH_BRACKETS = re.compile(r'^【[^】]*】\s*$')
@@ -163,8 +171,8 @@ def _strip_block_leader_metadata(block: str) -> str:
     return '\n'.join(lines[i:]).strip()
 
 
-def _read_file(level: str, filename: str) -> str:
-    path = questions_file_abspath(level, filename)
+def _read_file(level: str, filename: str, *, original: bool = False) -> str:
+    path = questions_file_abspath(level, filename, original=original)
     if not os.path.exists(path):
         raise FileNotFoundError(path)
     with open(path, encoding='utf-8') as f:
@@ -180,10 +188,11 @@ def _update_exam_by_question_number(
     dry_run: bool,
     log: Callable[[str], None],
     warn: Callable[[str], None],
+    original: bool = False,
     number_min: int = 1,
     number_max: int = 999,
 ) -> int:
-    content = _read_file(level, filename)
+    content = _read_file(level, filename, original=original)
     updated = 0
     for block in content.split('---'):
         if not block.strip():
@@ -197,6 +206,7 @@ def _update_exam_by_question_number(
             level=level,
             question_type=question_type,
             question_number=number,
+            **_provenance_kwargs(original),
         )
         count = qs.count()
         if count == 0:
@@ -209,7 +219,7 @@ def _update_exam_by_question_number(
     return updated
 
 
-def update_grammar_fill(level: str, dry_run: bool, log, warn) -> int:
+def update_grammar_fill(level: str, dry_run: bool, log, warn, *, original: bool = False) -> int:
     return _update_exam_by_question_number(
         level=level,
         question_type='grammar_fill',
@@ -218,10 +228,11 @@ def update_grammar_fill(level: str, dry_run: bool, log, warn) -> int:
         dry_run=dry_run,
         log=log,
         warn=warn,
+        original=original,
     )
 
 
-def update_conversation_fill(level: str, dry_run: bool, log, warn) -> int:
+def update_conversation_fill(level: str, dry_run: bool, log, warn, *, original: bool = False) -> int:
     return _update_exam_by_question_number(
         level=level,
         question_type='conversation_fill',
@@ -230,10 +241,11 @@ def update_conversation_fill(level: str, dry_run: bool, log, warn) -> int:
         dry_run=dry_run,
         log=log,
         warn=warn,
+        original=original,
     )
 
 
-def update_word_order(level: str, dry_run: bool, log, warn) -> int:
+def update_word_order(level: str, dry_run: bool, log, warn, *, original: bool = False) -> int:
     return _update_exam_by_question_number(
         level=level,
         question_type='word_order',
@@ -242,13 +254,14 @@ def update_word_order(level: str, dry_run: bool, log, warn) -> int:
         dry_run=dry_run,
         log=log,
         warn=warn,
+        original=original,
     )
 
 
-def update_writing(level: str, dry_run: bool, log, warn) -> int:
+def update_writing(level: str, dry_run: bool, log, warn, *, original: bool = False) -> int:
     """Update writing reference answers stored in Question.explanation."""
     try:
-        content = _read_file(level, 'writing_questions.txt')
+        content = _read_file(level, 'writing_questions.txt', original=original)
     except FileNotFoundError:
         warn(f'writing: ファイルなし（level={level}）')
         return 0
@@ -279,6 +292,7 @@ def update_writing(level: str, dry_run: bool, log, warn) -> int:
             level=level,
             question_type='writing',
             question_number=number,
+            **_provenance_kwargs(original),
         )
         count = qs.count()
         if count == 0:
@@ -291,8 +305,8 @@ def update_writing(level: str, dry_run: bool, log, warn) -> int:
     return updated
 
 
-def update_reading_comprehension(level: str, dry_run: bool, log, warn) -> int:
-    content = _read_file(level, 'reading_comprehesion_questions.txt')
+def update_reading_comprehension(level: str, dry_run: bool, log, warn, *, original: bool = False) -> int:
+    content = _read_file(level, 'reading_comprehesion_questions.txt', original=original)
     updated = 0
     for passage_block in content.split('---'):
         if not passage_block.strip():
@@ -308,7 +322,9 @@ def update_reading_comprehension(level: str, dry_run: bool, log, warn) -> int:
             warn(f'reading 本文{passage_number}: identifier map に未登録')
             continue
         passage = ReadingPassage.objects.filter(
-            level=level, identifier=identifier
+            level=level,
+            identifier=identifier,
+            **_provenance_kwargs(original),
         ).first()
         if not passage:
             warn(f'reading 本文{passage_number}: DBに該当なし')
@@ -341,10 +357,10 @@ def update_reading_comprehension(level: str, dry_run: bool, log, warn) -> int:
     return updated
 
 
-def update_listening_illustration(level: str, dry_run: bool, log, warn) -> int:
+def update_listening_illustration(level: str, dry_run: bool, log, warn, *, original: bool = False) -> int:
     from questions.models import ListeningChoice
 
-    content = _read_file(level, 'listening_illustration_questions.txt')
+    content = _read_file(level, 'listening_illustration_questions.txt', original=original)
     updated = 0
     for block in split_no_blocks(content):
         number, explanation = extract_no_explanation(block)
@@ -354,6 +370,7 @@ def update_listening_illustration(level: str, dry_run: bool, log, warn) -> int:
         qs = ListeningQuestion.objects.filter(
             level=level,
             image__endswith=f'listening_illustration_image{number}.png',
+            **_provenance_kwargs(original),
         )
         count = qs.count()
         if count == 0:
@@ -381,8 +398,8 @@ def update_listening_illustration(level: str, dry_run: bool, log, warn) -> int:
     return updated
 
 
-def update_listening_conversation(level: str, dry_run: bool, log, warn) -> int:
-    content = _read_file(level, 'listening_conversation_questions.txt')
+def update_listening_conversation(level: str, dry_run: bool, log, warn, *, original: bool = False) -> int:
+    content = _read_file(level, 'listening_conversation_questions.txt', original=original)
     updated = 0
     for block in split_no_blocks(content):
         number, explanation = extract_no_explanation(block)
@@ -392,6 +409,7 @@ def update_listening_conversation(level: str, dry_run: bool, log, warn) -> int:
             level=level,
             question_type='listening_conversation',
             question_number=number,
+            **_provenance_kwargs(original),
         )
         count = qs.count()
         if count == 0:
@@ -404,9 +422,9 @@ def update_listening_conversation(level: str, dry_run: bool, log, warn) -> int:
     return updated
 
 
-def update_listening_passage(level: str, dry_run: bool, log, warn) -> int:
+def update_listening_passage(level: str, dry_run: bool, log, warn, *, original: bool = False) -> int:
     try:
-        content = _read_file(level, 'listening_passage_questions.txt')
+        content = _read_file(level, 'listening_passage_questions.txt', original=original)
     except FileNotFoundError:
         warn(f'listening_passage: ファイルなし（level={level}）')
         return 0
@@ -419,6 +437,7 @@ def update_listening_passage(level: str, dry_run: bool, log, warn) -> int:
             level=level,
             question_type='listening_passage',
             question_number=number,
+            **_provenance_kwargs(original),
         )
         count = qs.count()
         if count == 0:
@@ -450,12 +469,13 @@ def sync_explanations(
     dry_run: bool,
     log: Callable[[str], None],
     warn: Callable[[str], None],
+    original: bool = False,
 ) -> dict[str, int]:
     results: dict[str, int] = {}
     for key in expand_categories(category):
         updater = UPDATERS[key]
         try:
-            results[key] = updater(level, dry_run, log, warn)
+            results[key] = updater(level, dry_run, log, warn, original=original)
         except FileNotFoundError as exc:
             warn(f'{key}: ファイルなし ({exc})')
             results[key] = 0
