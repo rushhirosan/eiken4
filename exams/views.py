@@ -460,6 +460,13 @@ def _get_mock_exam_structure(level):
     ]
 
 
+def _mock_exam_time_limits(level):
+    """模擬試験の制限時間（分）。公式の目安に近い値。"""
+    if str(level) == '5':
+        return 25, 20  # 筆記 / リスニング
+    return 35, 30
+
+
 def _is_level5_only_type(level, question_type):
     if str(level) != '5':
         return False
@@ -1002,59 +1009,53 @@ def question_list(request, level=None, exam_id=None):
         # 4級の実際の順序で結合（リスニング問題は順序通り）
         all_questions = regular_questions + listening_questions
         
-        # 長文読解問題がある場合は専用テンプレートを使用
-        if reading_passages:
-            # リスニング問題を正しい順序で分離
-            listening_illustration = [
-                q for q in listening_questions
-                if q['category'] in ('listening_illustration', 'listening_illustration_part1')
-            ]
-            listening_illustration_part3 = [
-                q for q in listening_questions if q['category'] == 'listening_illustration_part3'
-            ]
-            listening_conversation = [q for q in listening_questions if q['category'] == 'listening_conversation']
-            listening_passage = [q for q in listening_questions if q['category'] == 'listening_passage']
+        # リスニング問題を正しい順序で分離（5級は長文なしでも mock_exam.html）
+        listening_illustration = [
+            q for q in listening_questions
+            if q['category'] in ('listening_illustration', 'listening_illustration_part1')
+        ]
+        listening_illustration_part3 = [
+            q for q in listening_questions if q['category'] == 'listening_illustration_part3'
+        ]
+        listening_conversation = [
+            q for q in listening_questions if q['category'] == 'listening_conversation'
+        ]
+        listening_passage = [
+            q for q in listening_questions if q['category'] == 'listening_passage'
+        ]
 
-            apply_choice_shuffle_to_items(request, level, all_questions)
-            apply_choice_shuffle_to_items(request, level, listening_illustration)
-            apply_choice_shuffle_to_items(request, level, listening_illustration_part3)
-            apply_choice_shuffle_to_items(request, level, listening_conversation)
-            apply_choice_shuffle_to_items(request, level, listening_passage)
+        apply_choice_shuffle_to_items(request, level, all_questions)
+        apply_choice_shuffle_to_items(request, level, listening_illustration)
+        apply_choice_shuffle_to_items(request, level, listening_illustration_part3)
+        apply_choice_shuffle_to_items(request, level, listening_conversation)
+        apply_choice_shuffle_to_items(request, level, listening_passage)
+        if reading_passages:
             apply_choice_shuffle_to_passages(request, level, reading_passages)
-            
-            context = {
-                'level': level,
-                'level_display': _exam_level_display(level),
-                'question_type': question_type,
-                'question_type_display': question_types.get(question_type, ''),
-                'num_questions': len(all_questions) + sum(len(p['questions']) for p in reading_passages),
-                'status': status,
-                'questions': all_questions,
-                'passages': reading_passages,
-                'listening_illustration': listening_illustration,
-                'listening_illustration_part3': listening_illustration_part3,
-                'listening_conversation': listening_conversation,
-                'listening_passage': listening_passage,
-                'question_count_options': question_count_options,
-            }
-            return render(request, 'exams/mock_exam.html', context)
-        else:
-            apply_choice_shuffle_to_items(request, level, all_questions)
-            listening_illustration_part3 = [
-                q for q in listening_questions if q['category'] == 'listening_illustration_part3'
-            ]
-            context = {
-                'level': level,
-                'level_display': _exam_level_display(level),
-                'question_type': question_type,
-                'question_type_display': f'模擬試験問題（{_exam_level_display(level)}）',
-                'num_questions': len(all_questions),
-                'status': status,
-                'questions': all_questions,
-                'listening_illustration_part3': listening_illustration_part3,
-                'question_count_options': question_count_options,
-            }
-            return render(request, 'exams/question_list.html', context)
+
+        writing_minutes, listening_minutes = _mock_exam_time_limits(level)
+        writing_section_label = (
+            '筆記（大問1-3）' if str(level) == '5' else '筆記（大問1-4）'
+        )
+
+        context = {
+            'level': level,
+            'level_display': _exam_level_display(level),
+            'question_type': question_type,
+            'question_type_display': f'模擬試験問題（{_exam_level_display(level)}）',
+            'num_questions': len(all_questions) + sum(len(p['questions']) for p in reading_passages),
+            'status': status,
+            'questions': all_questions,
+            'passages': reading_passages,
+            'listening_illustration': listening_illustration,
+            'listening_illustration_part3': listening_illustration_part3,
+            'listening_conversation': listening_conversation,
+            'listening_passage': listening_passage,
+            'question_count_options': question_count_options,
+            'writing_time_minutes': writing_minutes,
+            'listening_time_minutes': listening_minutes,
+            'writing_section_label': writing_section_label,
+        }
+        return render(request, 'exams/mock_exam.html', context)
     
     elif question_type in ('listening_illustration', 'listening_illustration_part3'):
         illustration_part = 1 if question_type == 'listening_illustration' and str(level) == '5' else (

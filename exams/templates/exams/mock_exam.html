@@ -6,6 +6,13 @@
 
 {% block extra_css %}
 <link href="{% static 'css/question_list.css' %}" rel="stylesheet">
+<style>
+    /* fade-in の transform があると sticky が効かないため、模擬試験では無効化 */
+    main.fade-in {
+        animation: none;
+        transform: none;
+    }
+</style>
 {% endblock %}
 
 {% block content %}
@@ -13,26 +20,27 @@
     {% if level == '3' %}
     <p class="text-muted small mb-3">この模擬試験は選択式・読解・リスニングが中心です。ライティング・スピーキングは専用メニューで別に練習してください。</p>
     {% endif %}
-    <h1 class="mb-4">模擬試験問題（{{ level_display }}）</h1>
-    
-    <!-- 時間制限表示 -->
-    <div class="row mb-4">
-        <div class="col-12">
-            <div class="row">
-                <div class="col-12 col-md-6 mb-3">
-                    <h6>筆記試験（大問1-4）</h6>
-                    <div class="progress mb-2" style="height: 25px;">
-                        <div id="writingProgress" class="progress-bar bg-primary" role="progressbar" style="width: 100%"></div>
-                    </div>
-                    <small id="writingTime" class="text-muted d-block">残り時間: 35:00</small>
-                </div>
-                <div class="col-12 col-md-6 mb-3">
-                    <h6>リスニング試験（第1-3部）</h6>
-                    <div class="progress mb-2" style="height: 25px;">
-                        <div id="listeningProgress" class="progress-bar bg-success" role="progressbar" style="width: 100%"></div>
-                    </div>
-                    <small id="listeningTime" class="text-muted d-block">残り時間: 30:00</small>
-                </div>
+    <h1 class="mb-3">模擬試験問題（{{ level_display }}）</h1>
+
+    <div class="mock-timer-bar" role="timer" aria-live="polite"
+         data-writing-minutes="{{ writing_time_minutes|default:35 }}"
+         data-listening-minutes="{{ listening_time_minutes|default:30 }}">
+        <div class="mock-timer-item is-active" id="writingTimerBlock">
+            <div class="mock-timer-heading">
+                <span class="mock-timer-label">{{ writing_section_label|default:'筆記（大問1-4）' }}</span>
+                <span id="writingTime" class="mock-timer-remaining">残り時間: {{ writing_time_minutes|default:35 }}:00</span>
+            </div>
+            <div class="progress mock-timer-progress">
+                <div id="writingProgress" class="progress-bar bg-primary" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+            </div>
+        </div>
+        <div class="mock-timer-item" id="listeningTimerBlock">
+            <div class="mock-timer-heading">
+                <span class="mock-timer-label">リスニング（第1-3部）</span>
+                <span id="listeningTime" class="mock-timer-remaining">残り時間: {{ listening_time_minutes|default:30 }}:00</span>
+            </div>
+            <div class="progress mock-timer-progress">
+                <div id="listeningProgress" class="progress-bar bg-success" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
             </div>
         </div>
     </div>
@@ -49,7 +57,7 @@
         {% if questions %}
         {% regroup questions by category as category_list %}
         {% for category in category_list %}
-        {% if category.grouper != 'listening_illustration' and category.grouper != 'listening_conversation' and category.grouper != 'listening_passage' %}
+        {% if category.grouper != 'listening_illustration' and category.grouper != 'listening_illustration_part1' and category.grouper != 'listening_illustration_part3' and category.grouper != 'listening_conversation' and category.grouper != 'listening_passage' %}
         <div class="row">
             <div class="col-12">
                 <div class="mock-section-banner">
@@ -155,7 +163,7 @@
         {% endif %}
 
         <!-- リスニング問題（第1-3部） -->
-        {% if listening_illustration or listening_conversation or listening_passage %}
+        {% if listening_illustration or listening_illustration_part3 or listening_conversation or listening_passage %}
         <div data-section="listening">
         
         <!-- 第1部: リスニングイラスト問題 -->
@@ -252,7 +260,56 @@
         </div>
         {% endif %}
 
-        <!-- 第3部: リスニング文章問題 -->
+        <!-- 第3部: 5級イラスト一致 / 4・3級文章問題 -->
+        {% if listening_illustration_part3 %}
+        <div class="row">
+            <div class="col-12">
+                <div class="mock-section-banner">
+                    <h5>第3部: リスニングイラスト一致問題</h5>
+                </div>
+            </div>
+        </div>
+        <div class="row question-list-row">
+            {% for question in listening_illustration_part3 %}
+            <div class="col-12 col-md-6 mb-4 question-list-col">
+                <div class="card question-card h-100">
+                    <div class="card-body d-flex flex-column">
+                        <h5 class="card-title">
+                            問題 {{ question.question_number }}
+                        </h5>
+                        
+                        <div class="listening-illustration-img-wrap">
+                            <img src="{% static question.question.image %}" alt="問題のイラスト" class="listening-illustration-img">
+                        </div>
+                        <div class="text-center listening-illustration-audio-wrap">
+                            <audio controls>
+                                <source src="{% static question.question.audio %}" type="audio/mpeg">
+                                お使いのブラウザは音声再生に対応していません。
+                            </audio>
+                        </div>
+                        <div class="choices listening-choices mt-auto">
+                            {% for choice in question.choices %}
+                                <div class="form-check">
+                                    <input class="form-check-input" type="radio" name="{% answer_field_name question.question %}"
+                                           id="{% choice_input_id question.question choice %}" value="{{ choice.choice_text }}"
+                                           {% if question.user_answer == choice.choice_text %}checked{% endif %}>
+                                    <label class="form-check-label" for="{% choice_input_id question.question choice %}">
+                                        {% if choice.choice_text|slice:"-4:" == ".png" or choice.choice_text|slice:"-4:" == ".jpg" %}
+                                        <img src="{% static choice.choice_text %}" alt="選択肢{{ forloop.counter }}" class="listening-choice-img">
+                                        {% else %}
+                                        {{ forloop.counter }}
+                                        {% endif %}
+                                    </label>
+                                </div>
+                            {% endfor %}
+                        </div>
+                    </div>
+                </div>
+            </div>
+            {% endfor %}
+        </div>
+        {% endif %}
+
         {% if listening_passage %}
         <div class="row">
             <div class="col-12">
@@ -309,6 +366,55 @@
 </div>
 
 <style>
+.mock-timer-bar {
+    position: sticky;
+    top: 0;
+    z-index: 1020;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 0.75rem 1rem;
+    margin: 0 0 1.25rem;
+    padding: 0.75rem 1rem;
+    background: rgba(255, 255, 255, 0.96);
+    backdrop-filter: blur(12px);
+    border: 1px solid var(--brand-border, rgba(22, 27, 46, 0.12));
+    border-radius: 14px;
+    box-shadow: 0 8px 24px rgba(22, 27, 46, 0.08);
+}
+.mock-timer-item {
+    min-width: 0;
+    opacity: 0.62;
+    transition: opacity 0.2s ease;
+}
+.mock-timer-item.is-active {
+    opacity: 1;
+}
+.mock-timer-heading {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    gap: 0.5rem;
+    margin-bottom: 0.35rem;
+}
+.mock-timer-label {
+    font-size: 0.8rem;
+    font-weight: 600;
+    color: var(--brand-text, #161b2e);
+}
+.mock-timer-remaining {
+    font-size: 0.85rem;
+    font-weight: 700;
+    font-variant-numeric: tabular-nums;
+    color: var(--brand-muted, #3f475c);
+    white-space: nowrap;
+}
+.mock-timer-item.is-active .mock-timer-remaining {
+    color: var(--brand-primary, #7c6cff);
+}
+.mock-timer-progress {
+    height: 8px;
+}
+
 /* リスニング問題のみ、ラジオとテキストの間隔を他カテゴリ相当に調整 */
 [data-section="listening"] .form-check {
     display: flex;
@@ -372,8 +478,20 @@
         font-size: 1.1rem;
     }
     
+    .mock-timer-bar {
+        grid-template-columns: 1fr;
+        gap: 0.6rem;
+        padding: 0.65rem 0.75rem;
+        border-radius: 0;
+        margin-left: -12px;
+        margin-right: -12px;
+        width: calc(100% + 24px);
+    }
     .progress {
         height: 20px !important;
+    }
+    .mock-timer-progress {
+        height: 8px !important;
     }
     
     audio {
@@ -417,29 +535,46 @@
     .progress {
         height: 18px !important;
     }
+    .mock-timer-progress {
+        height: 8px !important;
+    }
 }
 </style>
 
 <script>
-// 時間制限機能
-let writingTimeRemaining = 35 * 60; // 35分（秒）
-let listeningTimeRemaining = 30 * 60; // 30分（秒）
+// 時間制限機能（級別の分は data 属性から）
+const timerBar = document.querySelector('.mock-timer-bar');
+const writingMinutes = Number(timerBar && timerBar.dataset.writingMinutes) || 35;
+const listeningMinutes = Number(timerBar && timerBar.dataset.listeningMinutes) || 30;
+let writingTimeRemaining = writingMinutes * 60;
+let listeningTimeRemaining = listeningMinutes * 60;
 let currentPhase = 'writing'; // 'writing' または 'listening'
 let timer;
 
 function updateTimeDisplay() {
+    const el = document.getElementById('timeDisplay');
+    if (!el) return;
     const now = new Date();
     const timeString = now.toLocaleTimeString('ja-JP', { 
         hour: '2-digit', 
         minute: '2-digit', 
         second: '2-digit' 
     });
-    document.getElementById('timeDisplay').textContent = timeString;
+    el.textContent = timeString;
+}
+
+function setActiveTimerPhase() {
+    const writing = document.getElementById('writingTimerBlock');
+    const listening = document.getElementById('listeningTimerBlock');
+    if (!writing || !listening) return;
+    writing.classList.toggle('is-active', currentPhase === 'writing');
+    listening.classList.toggle('is-active', currentPhase === 'listening');
 }
 
 function updateProgress() {
+    setActiveTimerPhase();
     if (currentPhase === 'writing') {
-        const writingProgress = (writingTimeRemaining / (35 * 60)) * 100;
+        const writingProgress = (writingTimeRemaining / (writingMinutes * 60)) * 100;
         document.getElementById('writingProgress').style.width = writingProgress + '%';
         
         const minutes = Math.floor(writingTimeRemaining / 60);
@@ -449,10 +584,11 @@ function updateProgress() {
         if (writingTimeRemaining <= 0) {
             // 筆記時間終了、リスニング開始
             currentPhase = 'listening';
+            setActiveTimerPhase();
             alert('筆記試験時間が終了しました。リスニング試験を開始してください。');
         }
     } else {
-        const listeningProgress = (listeningTimeRemaining / (30 * 60)) * 100;
+        const listeningProgress = (listeningTimeRemaining / (listeningMinutes * 60)) * 100;
         document.getElementById('listeningProgress').style.width = listeningProgress + '%';
         
         const minutes = Math.floor(listeningTimeRemaining / 60);

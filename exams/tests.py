@@ -510,6 +510,12 @@ class Level3RandomAndMockTests(TestCase):
         self.assertContains(response, '模擬試験問題（3級）')
         self.assertNotContains(response, '模擬試験問題（4級）')
         self.assertContains(response, 'mock-section-banner')
+        self.assertContains(response, 'mock-timer-bar')
+        self.assertContains(response, 'id="writingTime"')
+        self.assertContains(response, 'id="listeningTime"')
+        self.assertContains(response, 'data-writing-minutes="35"')
+        self.assertContains(response, 'data-listening-minutes="30"')
+        self.assertContains(response, '筆記（大問1-4）')
         self.assertContains(response, '第1部: リスニングイラスト問題')
         self.assertContains(response, 'listening-illustration-img-wrap')
         self.assertContains(response, 'question-card')
@@ -749,11 +755,22 @@ class Level5ExamListTests(TestCase):
             {'type': 'mock_exam'},
         )
         self.assertEqual(response.status_code, 200)
-        self.assertTemplateUsed(response, 'exams/question_list.html')
+        self.assertTemplateUsed(response, 'exams/mock_exam.html')
         self.assertContains(response, '模擬試験問題（5級）')
+        self.assertContains(response, 'mock-timer-bar')
+        self.assertContains(response, 'data-writing-minutes="25"')
+        self.assertContains(response, 'data-listening-minutes="20"')
+        self.assertContains(response, '筆記（大問1-3）')
         content = response.content.decode()
         self.assertIn('今日はとても暑いです。<br>', content)
         self.assertIn('① it ② is ③ very hot ④ today<br>', content)
+
+    def test_mock_exam_time_limits_by_level(self):
+        from exams.views import _mock_exam_time_limits
+
+        self.assertEqual(_mock_exam_time_limits('5'), (25, 20))
+        self.assertEqual(_mock_exam_time_limits('4'), (35, 30))
+        self.assertEqual(_mock_exam_time_limits('3'), (35, 30))
 
     def test_mock_exam_structure_is_50_questions_without_reading(self):
         from exams.views import _get_mock_exam_structure
