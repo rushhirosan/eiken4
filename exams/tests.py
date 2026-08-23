@@ -303,7 +303,7 @@ class ExamListViewTest(TestCase):
         self.assertContains(response, '1日1問で連続記録')
 
     def test_exam_list_shows_grace_notice_during_streak_grace(self):
-        """1日お休みした翌々日は維持チャンスの案内を表示する"""
+        """1日お休みした翌々日は連続キープの案内を表示する"""
         UserStreak.objects.create(
             user=self.user,
             current_streak=7,
@@ -312,7 +312,7 @@ class ExamListViewTest(TestCase):
         )
         self.client.login(username='testuser', password='testpass123')
         response = self.client.get(self.url)
-        self.assertContains(response, '今週の維持チャンスが残り1回')
+        self.assertContains(response, '今週あと1回、連続をキープできます')
         self.assertContains(response, '7日連続をキープ')
 
     def test_exam_list_badge_modal_shows_unlock_hint_for_unearned(self):
@@ -2308,7 +2308,7 @@ class GamificationTest(TestCase):
         self.assertIn('7日連続をキープ', summary['hint'])
         self.assertFalse(summary['studied_today'])
         self.assertTrue(summary['grace_available'])
-        self.assertEqual(summary['grace_notice'], '今週の維持チャンスが残り1回')
+        self.assertEqual(summary['grace_notice'], '今週あと1回、連続をキープできます')
         self.assertIn('お休み', summary['rule_tooltip'])
 
     def test_build_streak_summary_grace_unavailable_after_weekly_use(self):

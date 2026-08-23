@@ -25,7 +25,7 @@ RANDOM_SCOPE_DESCRIPTIONS = {
 STREAK_RULE_TOOLTIP = (
     '1日1問で連続記録。週1回まで1日お休みしても、今日1問で続けられます。'
 )
-STREAK_GRACE_NOTICE = '今週の維持チャンスが残り1回'
+STREAK_GRACE_NOTICE = '今週あと1回、連続をキープできます'
 DAILY_MISSION_GOAL_OPTIONS = (3, 5, 10)
 DEFAULT_DAILY_MISSION_GOAL = 3
 DAILY_MISSION_GOAL_SESSION_KEY = 'daily_mission_goal'
@@ -726,7 +726,7 @@ def build_streak_summary(user):
         hint = '今日1問で続けよう'
         effective_streak = streak.current_streak
     elif grace_available:
-        # 1日空きは維持チャンス中。連続達成扱いにせず、今日の学習を促す。
+        # 1日空きは連続キープ中。連続達成扱いにせず、今日の学習を促す。
         effective_streak = 0
         hint = f'今日1問で{streak.current_streak}日連続をキープ'
     else:

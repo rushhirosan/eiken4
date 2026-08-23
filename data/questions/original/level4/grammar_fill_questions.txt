@@ -195,3 +195,203 @@ We ( ) a board game if we finish our homework early.
 文全体は「宿題を早く終わらせたら、ボードゲームをします」という意味です。「if + 現在形（finish）」のあとで、これからすることを言うときによく「will」を使います。
 ほかの選択肢：「played」は過去形で、これからする話には合いません。「plays」は三人称単数の現在形で、主語が「We」なので合いません。「playing」だけでは文として足りません（「are playing」なら別）。
 ヒント：if の節が現在形なら、あとの節は will + 原形、という型を覚えておくとよいです。
+
+---
+
+問題11:
+A : Where should I keep the markers? B : Please put them ( ) the box.
+
+選択肢11:
+1. at
+2. in
+3. on
+4. to
+
+【正解11】
+2. in
+
+【解説11】
+正解は「in」です。意味は「〜の中に」です。
+文全体は「マーカーはどこにしまえばいい？」「箱の中に入れてね」という会話です。「in the box」で「箱の中」になります。
+ほかの選択肢：「at」は地点（at the station など）に使い、箱の中には合いません。「on」は「〜のうえ」なので、箱のフタのうえに置く意味になり、しまう動作とずれます。「to」は方向（〜へ）なので、「箱の中に入れる」意味にはなりません。
+ヒント：箱・引き出し・かばんの「中」なら in、「表面のうえ」なら on をまず比べましょう。
+
+---
+
+問題12:
+Sota ( ) eat breakfast yesterday because he woke up late.
+
+選択肢12:
+1. didn't
+2. don't
+3. doesn't
+4. isn't
+
+【正解12】
+1. didn't
+
+【解説12】
+正解は「didn't」です。意味は「〜しなかった」です。
+文全体は「ソータはきのう、おそく起きたので朝ごはんを食べませんでした」という意味です。「yesterday（きのう）」があるので過去の否定で、「didn't + 動詞の原形（eat）」になります。
+ほかの選択肢：「don't」は現在の否定（I / you / we / they）、「doesn't」は現在の否定（he / she）で、どちらも「yesterday」と合いません。「isn't」は be動詞の否定で、あとに「eat」は続きません。
+ヒント：yesterday / last 〜 の否定は didn't + 原形、とそろえましょう。
+
+---
+
+問題13:
+You ( ) take off your shoes at the front door.
+
+選択肢13:
+1. are
+2. has to
+3. have to
+4. having
+
+【正解13】
+3. have to
+
+【解説13】
+正解は「have to」です。意味は「〜しなければならない」です。
+文全体は「玄関では、くつをぬがなければなりません」という意味です。「have to + 動詞の原形（take）」で、必要なことを表します。主語が You なので have to を使います。
+ほかの選択肢：「are」のあとに「take」は続きません（「are taking」なら進行形）。「has to」は主語が he / she のときに使い、You には合いません。「having」だけでは「しなければならない」の形になりません。
+ヒント：しなければならない、は have to + 原形。主語が he / she なら has to に変わる、と覚えましょう。
+
+---
+
+問題14:
+Can you ( ) my grandmother this afternoon? I have a club meeting.
+
+選択肢14:
+1. look for
+2. put on
+3. throw away
+4. look after
+
+【正解14】
+4. look after
+
+【解説14】
+正解は「look after」です。意味は「（人や動物の）世話をする」です。
+文全体は「今日の午後、おばあちゃんの世話をしてくれる？部活のミーティングがあるんだ」という意味です。短いあいだ人を見てもらうときは「look after」が自然です。
+ほかの選択肢：「look for」は「探す」なので、いま見失っているわけではない文には合いません。「put on」は服を「着る／履く」ときに使います。「throw away」は「捨てる」で、人には使えません。
+ヒント：look after は世話、look for は探す、とセットで覚えるとまちがいが減ります。
+
+---
+
+問題15:
+Please keep quiet ( ) the concert.
+
+選択肢15:
+1. during
+2. between
+3. along
+4. without
+
+【正解15】
+1. during
+
+【解説15】
+正解は「during」です。意味は「（ある期間の）あいだずっと」です。
+文全体は「コンサートのあいだは、静かにしてください」という意味です。「during + 名詞」で、その出来事の時間のあいだ、を表します。
+ほかの選択肢：「between」は二つのもののあいだ（between A and B）に使います。「along」は「〜にそって」で、道などに使います。「without」は「〜なしで」で、時間のあいだ、という意味にはなりません。
+ヒント：時間の「あいだ」なら during、「二つのもののあいだ」なら between、と分けましょう。
+
+---
+
+問題16:
+The science room ( ) open last night. The lights were off.
+
+選択肢16:
+1. isn't
+2. aren't
+3. wasn't
+4. weren't
+
+【正解16】
+3. wasn't
+
+【解説16】
+正解は「wasn't」です。意味は「〜ではありませんでした」（is not の過去）です。
+文全体は「理科室は昨夜、開いていませんでした。電気が消えていました」という意味です。「last night」があるので過去です。主語の The science room は一つなので、単数の「wasn't」を使います。
+ほかの選択肢：「isn't」と「aren't」はいまの話で、「last night」と合いません。「weren't」は過去ですが、主語が複数（they / the rooms など）のときに使います。
+ヒント：be動詞の過去は was / were。一つなら was / wasn't、二つ以上なら were / weren't です。
+
+---
+
+問題17:
+I collected sea shells ( ) I was little.
+
+選択肢17:
+1. if
+2. when
+3. after
+4. until
+
+【正解17】
+2. when
+
+【解説17】
+正解は「when」です。意味は「〜のとき」です。
+文全体は「小さいころ、私は貝がらを集めていました」という意味です。「I was little」は時期を示すので、「when（〜のとき）」が自然です。
+ほかの選択肢：「if（もし〜なら）」は条件です。「after（〜のあと）」は「小さくなったあと」になり、子どものころの意味とずれます。「until（〜まで）」は終わりの時点で、「小さくなるまで」となり意味が合いません。
+ヒント：子どものころ／そのとき、という時期なら when を選びましょう。
+
+---
+
+問題18:
+A : What do you want to do on Sunday? B : I ( ) visit the new city farm.
+
+選択肢18:
+1. would like
+2. am wanting
+3. wants to
+4. would like to
+
+【正解18】
+4. would like to
+
+【解説18】
+正解は「would like to」です。意味は「〜したい」です（want to よりていねい）。
+文全体は「日曜日は何がしたい？」「新しい市民農園へ行きたいな」という会話です。「would like to + 動詞の原形（visit）」で希望を表します。
+ほかの選択肢：「would like」のあとに to がないと、visit に続きません。「am wanting」は普通使いません（want は進行形にしません）。「wants to」は主語が he / she の形で、I には合いません。
+ヒント：「〜したい」は want to / would like to + 原形。I のあとは wants にしない、と覚えましょう。
+
+---
+
+問題19:
+There ( ) three red apples in the basket.
+
+選択肢19:
+1. are
+2. is
+3. was
+4. be
+
+【正解19】
+1. are
+
+【解説19】
+正解は「are」です。意味は「〜があります／います」（複数）です。
+文全体は「かごの中に赤いりんごが3つあります」という意味です。「There is / are」は「〜がある」の型です。three apples と複数なので、「There are」になります。
+ほかの選択肢：「is」は一つ（There is an apple）のときです。「was」は過去で、しかも単数用です。「be」は原形なので、この文の動詞としては使えません。
+ヒント：There のあとは、うしろの名詞が一つなら is、二つ以上なら are、と数えましょう。
+
+---
+
+問題20:
+My uncle ( ) a used bicycle last week.
+
+選択肢20:
+1. buys
+2. buying
+3. bought
+4. buy
+
+【正解20】
+3. bought
+
+【解説20】
+正解は「bought」です。意味は「買った」です（buy の過去形）。
+文全体は「おじは先週、中古の自転車を買いました」という意味です。「last week（先週）」があるので過去形「bought」を使います。
+ほかの選択肢：「buys」はいまの習慣、「buy」は原形、「buying」は -ing 形で、どれも「last week」とは合いません。
+ヒント：last week / last month / yesterday を見たら、動詞を過去形にしましょう。

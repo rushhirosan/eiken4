@@ -10,8 +10,10 @@ from pathlib import Path
 from django.core.management.base import BaseCommand
 from django.db import transaction
 
+from django.core.management.base import CommandError
+
 from exams.models import Choice, Question
-from exams.provenance import PROVENANCE_BLOCKED
+from exams.provenance import PROVENANCE_BLOCKED, PROVENANCE_ORIGINAL
 from questions.legacy_import import assert_legacy_question_import_allowed
 from exams.writing_feedback import parse_writing_rubric
 from questions.level_paths import (
@@ -49,10 +51,21 @@ _DEFAULT_MINS = {
 
 
 class Command(BaseCommand):
-    help = 'テキストの新規番号だけ追加登録（既存削除なし・進捗安全）'
+    help = (
+        'テキストの新規番号だけ追加登録（既存削除なし・進捗安全）。'
+        '--original で data/questions/original/ から provenance=original を追記。'
+    )
 
     def add_arguments(self, parser):
         parser.add_argument('--level', default='4')
+        parser.add_argument(
+            '--original',
+            action='store_true',
+            help=(
+                'data/questions/original/level{N}/ から読み、provenance=original で追記する。'
+                '既存行は削除しない。'
+            ),
+        )
         parser.add_argument(
             '--min-grammar',
             type=int,
@@ -72,10 +85,27 @@ class Command(BaseCommand):
         )
 
     def handle(self, *args, **options):
-        assert_legacy_question_import_allowed(allow_flag=options.get('allow_legacy_blocked_import', False))
+        is_original = bool(options.get('original'))
+        if is_original and options.get('allow_legacy_blocked_import'):
+            raise CommandError('--original と --allow-legacy-blocked-import は同時に使えません。')
+        if not is_original:
+            assert_legacy_question_import_allowed(
+                allow_flag=options.get('allow_legacy_blocked_import', False)
+            )
         level = str(options['level'])
         dry = options['dry_run']
+        provenance = PROVENANCE_ORIGINAL if is_original else PROVENANCE_BLOCKED
         defaults = _DEFAULT_MINS.get(level, _DEFAULT_MINS['4'])
+        if is_original:
+            # original 追記は番号が小さいことが多いので、明示しない項目はスキップ寄り
+            defaults = {
+                'min_grammar': 1,
+                'min_conversation': 9999,
+                'min_wordorder': 9999,
+                'min_reading_passage': 9999,
+                'min_listening': 9999,
+                'min_writing': 9999,
+            }
 
         def pick(key: str) -> int:
             val = options[key]
@@ -88,6 +118,11 @@ class Command(BaseCommand):
         min_listening = pick('min_listening')
         min_writing = pick('min_writing')
 
+        self.stdout.write(
+            f'append: level={level}, original={is_original}, '
+            f'provenance={provenance}, dry_run={dry}'
+        )
+
         with transaction.atomic():
             self._append_choice_questions(
                 level,
@@ -95,6 +130,8 @@ class Command(BaseCommand):
                 'grammar_fill_questions.txt',
                 min_grammar,
                 dry,
+                provenance=provenance,
+                original=is_original,
             )
             self._append_choice_questions(
                 level,
@@ -102,8 +139,12 @@ class Command(BaseCommand):
                 'conversation_questions.txt',
                 min_conversation,
                 dry,
+                provenance=provenance,
+                original=is_original,
             )
-            wordorder_path = Path(questions_file_abspath(level, 'wordorder_questions.txt'))
+            wordorder_path = Path(
+                questions_file_abspath(level, 'wordorder_questions.txt', original=is_original)
+            )
             if wordorder_path.exists() and min_wordorder < 9000:
                 self._append_choice_questions(
                     level,
@@ -111,51 +152,64 @@ class Command(BaseCommand):
                     'wordorder_questions.txt',
                     min_wordorder,
                     dry,
+                    provenance=provenance,
+                    original=is_original,
                 )
             else:
                 self.stdout.write('word_order: skipped')
-            self._append_reading(level, min_reading, dry)
-            if min_writing < 9000:
-                self._append_writing(level, min_writing, dry)
+            if is_original:
+                # 読解・リスニング・ライティングの original 追記は別途。ここでは choice 系のみ。
+                self.stdout.write('reading/listening/writing: skipped (--original は choice 系のみ)')
             else:
-                self.stdout.write('writing: skipped')
-            self._append_listening_illustration(level, min_listening, dry)
-            self._append_listening_exam_type(
-                level,
-                'listening_conversation',
-                'listening_conversation_questions.txt',
-                'part2',
-                'listening_conversation_question',
-                min_listening,
-                dry,
-            )
-            # 5級の part3 はイラスト一致のため listening_passage ファイルが無い場合あり
-            passage_path = Path(
-                questions_file_abspath(level, 'listening_passage_questions.txt')
-            )
-            if passage_path.exists():
+                self._append_reading(level, min_reading, dry)
+                if min_writing < 9000:
+                    self._append_writing(level, min_writing, dry)
+                else:
+                    self.stdout.write('writing: skipped')
+                self._append_listening_illustration(level, min_listening, dry)
                 self._append_listening_exam_type(
                     level,
-                    'listening_passage',
-                    'listening_passage_questions.txt',
-                    'part3',
-                    'listening_passage_question',
+                    'listening_conversation',
+                    'listening_conversation_questions.txt',
+                    'part2',
+                    'listening_conversation_question',
                     min_listening,
                     dry,
                 )
+                # 5級の part3 はイラスト一致のため listening_passage ファイルが無い場合あり
+                passage_path = Path(
+                    questions_file_abspath(level, 'listening_passage_questions.txt')
+                )
+                if passage_path.exists():
+                    self._append_listening_exam_type(
+                        level,
+                        'listening_passage',
+                        'listening_passage_questions.txt',
+                        'part3',
+                        'listening_passage_question',
+                        min_listening,
+                        dry,
+                    )
             if dry:
                 transaction.set_rollback(True)
                 self.stdout.write(self.style.WARNING('dry-run: rollback'))
                 return
 
-    def _append_choice_questions(self, level, qtype, filename, min_n, dry):
-        path = Path(questions_file_abspath(level, filename))
+    def _append_choice_questions(
+        self, level, qtype, filename, min_n, dry, *, provenance, original
+    ):
+        if min_n >= 9000:
+            self.stdout.write(f'{qtype}: skipped')
+            return
+        path = Path(questions_file_abspath(level, filename, original=original))
+        if not path.exists():
+            self.stdout.write(self.style.WARNING(f'{qtype}: no file {path}'))
+            return
         content = path.read_text(encoding='utf-8')
-        existing = set(
-            Question.objects.filter(level=level, question_type=qtype).values_list(
-                'question_number', flat=True
-            )
-        )
+        existing_qs = Question.objects.filter(level=level, question_type=qtype)
+        if original:
+            existing_qs = existing_qs.filter(provenance=provenance)
+        existing = set(existing_qs.values_list('question_number', flat=True))
         added = 0
         for block in content.split('---'):
             if not block.strip():
@@ -181,10 +235,10 @@ class Command(BaseCommand):
             ans = int(a_match.group(1))
             expl = e_match.group(1).strip() if e_match else ''
             if dry:
-                self.stdout.write(f'[dry] {qtype} #{n}')
+                self.stdout.write(f'[dry] {qtype} #{n} ({provenance})')
             else:
                 q = Question.objects.create(
-                    provenance=PROVENANCE_BLOCKED,
+                    provenance=provenance,
                     level=level,
                     question_type=qtype,
                     question_text=q_match.group(1).strip(),
