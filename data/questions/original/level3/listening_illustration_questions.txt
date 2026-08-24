@@ -237,3 +237,253 @@ W: Over there, by the cherry tree.（あそこの桜の木のそば。）
 1「Cherry blossoms are pink.（桜はピンク）」は桜の説明、2「Our team won yesterday.（チームはきのう勝った）」は試合結果で、いま撮る場面の返事になっていません。
 
 ---
+
+No.11:
+M: I can't use the school microwave today.
+W: Why not? Have you lost your lunch ticket?
+M: No. I have left my lunch ticket in the art room. What should I do?
+
+Question No.11:
+1. Ask the art teacher to check the drying rack.
+2. The art room is on the third floor.
+3. Lunch starts at twelve.
+
+【正解11】
+1. Ask the art teacher to check the drying rack.
+
+【解説11】
+放送文
+M: I can't use the school microwave today.（きょう、学校の電子レンジは使えないんだ。）
+W: Why not? Have you lost your lunch ticket?（どうして？食券をなくしたの？）
+M: No. I have left my lunch ticket in the art room. What should I do?（ちがう。食券を美術室に置き忘れたんだ。どうしたらいい？）
+
+理由のあと、次の行動を聞いているので、1「Ask the art teacher to check the drying rack.（美術の先生に、作品を乾かす棚を見てもらう）」が自然です。
+2「The art room is on the third floor.（美術室は3階）」は場所、3「Lunch starts at twelve.（昼食は12時）」は時刻で、どうするかの答えではありません。
+ヒント：なくした？と聞かれたあとの No. の文が、本当に起きたことです。ひっかけは時刻や食券の中身です。
+
+---
+
+No.12:
+W: We'll put up the tent after school.
+M: If the wind gets stronger, what should we do?
+W: Then let's move the meeting to the music room.
+
+Question No.12:
+1. The tent is in the gym.
+2. OK. I'll tell the other members.
+3. I like windy days.
+
+【正解12】
+2. OK. I'll tell the other members.
+
+【解説12】
+放送文
+W: We'll put up the tent after school.（放課後、テントを張るよ。）
+M: If the wind gets stronger, what should we do?（風が強くなったら、どうする？）
+W: Then let's move the meeting to the music room.（そのときは、集まりを音楽室に移そう。）
+
+条件つきの予定が決まったあとの返事なので、2「OK. I'll tell the other members.（わかった。ほかのメンバーに伝えるね）」が自然です。
+1「The tent is in the gym.（テントは体育館にある）」は場所、3「I like windy days.（風の日が好き）」は好みで、返事になっていません。
+ヒント：If のあとに決めた予定を受けて、OK. で返す形です。ひっかけはテントの場所や好みです。
+
+---
+
+No.13:
+M: Have you ever been to the stamp shop downtown?
+W: Yes. I've been there three times this year.
+M: What did you buy last time?
+
+Question No.13:
+1. A set of old train stamps.
+2. The shop opens at ten.
+3. I go there every Sunday.
+
+【正解13】
+1. A set of old train stamps.
+
+【解説13】
+放送文
+M: Have you ever been to the stamp shop downtown?（街の切手屋へ行ったことある？）
+W: Yes. I've been there three times this year.（うん。ことし3回行ったよ。）
+M: What did you buy last time?（このまえ、何を買った？）
+
+買ったものを聞いているので、1「A set of old train stamps.（古い電車の切手セット）」が自然です。
+2「The shop opens at ten.（店は10時にあく）」は開店時刻、3「I go there every Sunday.（毎週日曜に行く）」は頻度で、買い物の答えではありません。
+ヒント：最後の What did you buy に答えます。3回行った、は経験の回数で、買ったものではありません。
+
+---
+
+No.14:
+W: Why are you carrying that large tea bottle?
+M: Because the tea club meeting is outdoors today.
+W: How long will the meeting last?
+
+Question No.14:
+1. Because I like hot tea.
+2. Until four o'clock.
+3. I washed the cups yesterday.
+
+【正解14】
+2. Until four o'clock.
+
+【解説14】
+放送文
+W: Why are you carrying that large tea bottle?（どうしてその大きな茶びんを持っているの？）
+M: Because the tea club meeting is outdoors today.（きょうお茶のクラブが外で集まるから。）
+W: How long will the meeting last?（集まりはどのくらい続く？）
+
+長さ・終了の目安を聞いているので、2「Until four o'clock.（4時まで）」が自然です。
+1「Because I like hot tea.（熱いお茶が好きだから）」は理由、3「I washed the cups yesterday.（きのうカップを洗った）」は過去のそうじで、時間の答えではありません。
+ヒント：最後の How long に答えます。外で集まる、は茶びんを持ってきた理由で、長さではありません。
+
+---
+
+No.15:
+M: The classroom printer isn't working.
+W: Have you tried turning it off and on?
+M: Yes. What should I do if it still doesn't work?
+
+Question No.15:
+1. The printer is in the science room.
+2. It broke before lunch.
+3. Use the one in the teachers' room.
+
+【正解15】
+3. Use the one in the teachers' room.
+
+【解説15】
+放送文
+M: The classroom printer isn't working.（教室のプリンターが動かない。）
+W: Have you tried turning it off and on?（一度切って、また入れてみた？）
+M: Yes. What should I do if it still doesn't work?（うん。それでも動かなかったら、どうする？）
+
+条件つきの次の行動を聞いているので、3「Use the one in the teachers' room.（先生の部屋のプリンターを使う）」が自然です。
+1「The printer is in the science room.（プリンターは理科室にある）」は場所、2「It broke before lunch.（昼の前に壊れた）」はいつ壊れたかで、代案になっていません。
+ヒント：What should I do if 〜? には、次にすることを答えます。ひっかけは場所や壊れた時刻です。
+
+---
+
+No.16:
+W: This old song is beautiful.
+M: I've known it since last spring.
+W: Who taught it to you?
+
+Question No.16:
+1. I learned it last spring.
+2. The song is three minutes long.
+3. My cousin in Hokkaido.
+
+【正解16】
+3. My cousin in Hokkaido.
+
+【解説16】
+放送文
+W: This old song is beautiful.（この古い歌、きれいね。）
+M: I've known it since last spring.（去年の春から知っているよ。）
+W: Who taught it to you?（だれが教えてくれたの？）
+
+人を聞いているので、3「My cousin in Hokkaido.（北海道のいとこ）」が自然です。
+1「I learned it last spring.（去年の春に覚えた）」はいつ、2「The song is three minutes long.（歌は3分）」は長さで、だれかの答えではありません。
+ヒント：Who には人名を答えます。去年の春から、は知っている期間です。
+
+---
+
+No.17:
+M: Why are you wearing those thick gloves?
+W: Because I'll take the hot pan out of the oven.
+M: What if the gloves are too big?
+
+Question No.17:
+1. The oven is in the kitchen.
+2. Use a dry towel instead.
+3. I baked a cake yesterday.
+
+【正解17】
+2. Use a dry towel instead.
+
+【解説17】
+放送文
+M: Why are you wearing those thick gloves?（どうしてその厚い手袋をしているの？）
+W: Because I'll take the hot pan out of the oven.（オーブンから熱いフライパンを出すから。）
+M: What if the gloves are too big?（手袋が大きすぎたら、どうする？）
+
+条件つきの代案を聞いているので、2「Use a dry towel instead.（かわりに乾いたタオルを使う）」が自然です。
+1「The oven is in the kitchen.（オーブンは台所にある）」は場所、3「I baked a cake yesterday.（きのうケーキを焼いた）」は過去で、代案になっていません。
+ヒント：What if 〜? には、そのときの別のやり方を答えます。熱いフライパン、は手袋の理由です。
+
+---
+
+No.18:
+W: You look sleepy.
+M: I've been up since five to print the class newspaper.
+W: When will you rest?
+
+Question No.18:
+1. The newspaper is for our class.
+2. Five o'clock is early.
+3. After I take this stack to the office.
+
+【正解18】
+3. After I take this stack to the office.
+
+【解説18】
+放送文
+W: You look sleepy.（眠そうだね。）
+M: I've been up since five to print the class newspaper.（クラス新聞を刷るため、5時から起きているんだ。）
+W: When will you rest?（いつ休むの？）
+
+休む時期を聞いているので、3「After I take this stack to the office.（この束を事務室に届けたあと）」が自然です。
+1「The newspaper is for our class.（新聞はクラス用だ）」は何の新聞か、2「Five o'clock is early.（5時は早い）」は起床時刻の感想で、いつ休むかの答えではありません。
+ヒント：When will you rest? に答えます。5時から起きている、はいま眠い理由です。
+
+---
+
+No.19:
+M: Shall we study on the balcony tonight?
+W: If the mosquitoes come out, we'll go inside.
+M: What should we bring just in case?
+
+Question No.19:
+1. A small light and some spray.
+2. The balcony is made of wood.
+3. Summer vacation starts soon.
+
+【正解19】
+1. A small light and some spray.
+
+【解説19】
+放送文
+M: Shall we study on the balcony tonight?（今夜、ベランダで勉強しない？）
+W: If the mosquitoes come out, we'll go inside.（蚊が出たら、中に入ろう。）
+M: What should we bring just in case?（万一に備えて、何を持っていく？）
+
+持ち物を聞いているので、1「A small light and some spray.（小さな明かりとスプレー）」が自然です。
+2「The balcony is made of wood.（ベランダは木製）」は材質、3「Summer vacation starts soon.（夏休みがもうすぐ）」は時期で、持ち物の答えではありません。
+ヒント：What should we bring に答えます。中に入る、は蚊が出たときの条件で、持ち物ではありません。
+
+---
+
+No.20:
+W: Why were you late to art club?
+M: Because I helped a first-year find the nurse's room.
+W: How is he now?
+
+Question No.20:
+1. Art club is on the second floor.
+2. He's fine. He only needed a bandage.
+3. The nurse was busy yesterday.
+
+【正解20】
+2. He's fine. He only needed a bandage.
+
+【解説20】
+放送文
+W: Why were you late to art club?（美術部に遅れたのはなぜ？）
+M: Because I helped a first-year find the nurse's room.（1年生が保健室を探すのを手伝ったから。）
+W: How is he now?（その子は、いまどう？）
+
+様子を聞いているので、2「He's fine. He only needed a bandage.（大丈夫。包帯がいるだけだった）」が自然です。
+1「Art club is on the second floor.（美術部は2階）」は場所、3「The nurse was busy yesterday.（看護師さんはきのう忙しかった）」は昨日の話で、いまの様子ではありません。
+ヒント：How is he now? はいまの様子です。遅れた理由は保健室まで案内したことで、How の答えではありません。
+
+---

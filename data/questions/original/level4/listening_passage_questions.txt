@@ -255,3 +255,283 @@ Question: What did they do after cleaning the river?（川のそうじのあと�
 
 「After that, they ate rice balls in the park（そのあと公園でおにぎりを食べた）」とあるので、3「They ate rice balls in the park.（公園でおにぎりを食べた）」が正解です。
 1「They went home at once.（すぐに帰宅した）」・2「They swam in the river.（川で泳いだ）」・4「They bought new bottles.（新しいびんを買った）」はそのあとの行動ではありません。びんは拾ったものです。
+
+---
+
+No.11:
+W: This Sunday, Aya will help her father paint the garden fence. They will use yellow paint. After that, they will drink tea on the steps. She will wear old clothes.
+
+Question No.11:
+What will Aya do this Sunday?
+
+1. Paint the garden fence.
+2. Buy yellow paint.
+3. Drink tea only.
+4. Wash the car.
+
+【正解11】
+1. Paint the garden fence.
+
+【解説11】
+放送文
+W: This Sunday, Aya will help her father paint the garden fence.（今度の日曜日、アヤはお父さんと庭のへいを塗ります。）
+They will use yellow paint.（黄色いペンキを使います。）
+After that, they will drink tea on the steps.（そのあと、階段でお茶を飲みます。）
+She will wear old clothes.（古い服を着ます。）
+Question: What will Aya do this Sunday?（アヤは今度の日曜日、何をしますか？）
+
+「paint the garden fence（庭のへいを塗る）」とあるので、1「Paint the garden fence.（庭のへいを塗る）」が正解です。
+2「Buy yellow paint.（黄色いペンキを買う）」は色の話で、買うとは言っていません。3「Drink tea only.（お茶を飲むだけ）」はそのあとの話です。4「Wash the car.（車を洗う）」は出ていません。
+ヒント：質問は「何をするか」なので、あとからのお茶や服は別情報です。
+
+---
+
+No.12:
+M: Next Tuesday, Jun's camera club will take photos in the park. They will meet at the pond. Jun wants to take pictures of the old bridge. They will leave school at two.
+
+Question No.12:
+Where will the camera club meet?
+
+1. At the old bridge.
+2. At the station.
+3. At the pond.
+4. In the classroom.
+
+【正解12】
+3. At the pond.
+
+【解説12】
+放送文
+M: Next Tuesday, Jun's camera club will take photos in the park.（今度の火曜日、ジュンの写真部は公園で写真を撮ります。）
+They will meet at the pond.（池のところで集まります。）
+Jun wants to take pictures of the old bridge.（ジュンは古い橋の写真を撮りたいと思っています。）
+They will leave school at two.（学校は2時に出発します。）
+Question: Where will the camera club meet?（写真部はどこで集まりますか？）
+
+「meet at the pond（池で集まる）」とあるので、3「At the pond.（池で）」が正解です。
+1「At the old bridge.（古い橋で）」は撮る場所の希望で、集合場所ではありません。2「At the station.（駅で）」も4「In the classroom.（教室で）」も出ていません。
+ヒント：「meet（集まる）」と「take pictures（撮る）」の場所を分けて聞きましょう。
+
+---
+
+No.13:
+W: On Saturday, Rina's family will walk in the hills. They should bring extra socks. They will eat sandwiches on a bench. The walk will start at nine.
+
+Question No.13:
+What should Rina's family bring?
+
+1. New shoes.
+2. A map of the city.
+3. Sandwiches only.
+4. Extra socks.
+
+【正解13】
+4. Extra socks.
+
+【解説13】
+放送文
+W: On Saturday, Rina's family will walk in the hills.（土曜日、リナの家族は丘を歩きます。）
+They should bring extra socks.（予備のくつ下を持ってきてください。）
+They will eat sandwiches on a bench.（ベンチでサンドイッチを食べます。）
+The walk will start at nine.（歩きは9時に始まります。）
+Question: What should Rina's family bring?（リナの家族は何を持ってくるべきですか？）
+
+「bring extra socks（予備のくつ下を持ってくる）」とあるので、4「Extra socks.（予備のくつ下）」が正解です。
+3「Sandwiches only.（サンドイッチだけ）」は食べるもので、持ってくると言っていません。1「New shoes.（新しいくつ）」も2「A map of the city.（市の地図）」も出ていません。
+ヒント：9時は出発の時刻で、持ち物ではありません。eat のものと bring のものを分けましょう。
+
+---
+
+No.14:
+M: Yesterday, Sota made a paper airplane in science class. It flew across the room. His teacher put it on the wall. His friends clapped when it landed.
+
+Question No.14:
+What did Sota make yesterday?
+
+1. A wall picture.
+2. A paper airplane.
+3. A paper boat.
+4. A small kite.
+
+【正解14】
+2. A paper airplane.
+
+【解説14】
+放送文
+M: Yesterday, Sota made a paper airplane in science class.（きのう、ソタは理科の授業で紙飛行機を作りました。）
+It flew across the room.（部屋を横切って飛びました。）
+His teacher put it on the wall.（先生はそれを壁に置きました。）
+His friends clapped when it landed.（着いたとき、友だちは拍手しました。）
+Question: What did Sota make yesterday?（ソタはきのう何を作りましたか？）
+
+「made a paper airplane（紙飛行機を作った）」とあるので、2「A paper airplane.（紙飛行機）」が正解です。
+1「A wall picture.（壁の絵）」は先生が壁に置いたことから連想しやすい別情報です。3「A paper boat.（紙の船）」も4「A small kite.（小さなたこ）」も作ったものではありません。
+ヒント：壁や拍手は、作ったあとの話です。ひっかけは、あとの動作から作ったものを想像してしまうことです。
+
+---
+
+No.15:
+W: Every Thursday morning, Kana has singing club before class. She sings with twelve friends. They will sing at the autumn festival. They practice in the music room.
+
+Question No.15:
+When does Kana have singing club?
+
+1. Every Friday after school.
+2. On Sunday evening.
+3. Every Thursday morning.
+4. At the autumn festival.
+
+【正解15】
+3. Every Thursday morning.
+
+【解説15】
+放送文
+W: Every Thursday morning, Kana has singing club before class.（毎週木曜の朝、カナは授業の前に合唱部があります。）
+She sings with twelve friends.（12人の友だちと歌います。）
+They will sing at the autumn festival.（秋の祭りで歌います。）
+They practice in the music room.（音楽室で練習します。）
+Question: When does Kana have singing club?（カナの合唱部はいつですか？）
+
+「Every Thursday morning（毎週木曜の朝）」とあるので、3「Every Thursday morning.（毎週木曜の朝）」が正解です。
+4「At the autumn festival.（秋の祭りに）」は本番の日で、いつ練習するかではありません。1「Every Friday after school.（毎週金曜の放課後）」も2「On Sunday evening.（日曜の夜）」も出ていません。
+ヒント：音楽室は場所、12人は人数で、曜日の答えではありません。ひっかけは本番の祭りです。
+
+---
+
+No.16:
+M: This afternoon, Koki will visit his aunt. He will go by bicycle. She lives near the post office. He wants to show her his new stamp book.
+
+Question No.16:
+How will Koki go to his aunt's house?
+
+1. By bicycle.
+2. By bus.
+3. On foot.
+4. By train.
+
+【正解16】
+1. By bicycle.
+
+【解説16】
+放送文
+M: This afternoon, Koki will visit his aunt.（今日の午後、コキはおばさんを訪ねます。）
+He will go by bicycle.（自転車で行きます。）
+She lives near the post office.（おばさんは郵便局の近くに住んでいます。）
+He wants to show her his new stamp book.（新しい切手帳を見せたいと思っています。）
+Question: How will Koki go to his aunt's house?（コキはおばさんの家へどうやって行きますか？）
+
+「go by bicycle（自転車で行く）」とあるので、1「By bicycle.（自転車で）」が正解です。
+2「By bus.（バスで）」・3「On foot.（歩いて）」・4「By train.（電車で）」は行き方として出ていません。
+ヒント：郵便局はおばさんの家の場所、切手帳は持っていくもので、行き方ではありません。How と Where を分けましょう。
+
+---
+
+No.17:
+W: Next month, Mei will go to a summer camp in the forest. She should take a raincoat. They will sleep in tents near a lake. The camp starts on Monday.
+
+Question No.17:
+What should Mei take?
+
+1. A swimsuit.
+2. New shoes.
+3. A tent.
+4. A raincoat.
+
+【正解17】
+4. A raincoat.
+
+【解説17】
+放送文
+W: Next month, Mei will go to a summer camp in the forest.（来月、メイは森の夏キャンプに行きます。）
+She should take a raincoat.（レインコートを持っていくべきです。）
+They will sleep in tents near a lake.（湖のそばのテントで寝ます。）
+The camp starts on Monday.（キャンプは月曜日に始まります。）
+Question: What should Mei take?（メイは何を持っていくべきですか？）
+
+「take a raincoat（レインコートを持っていく）」とあるので、4「A raincoat.（レインコート）」が正解です。
+3「A tent.（テント）」は寝る場所として出てきますが、持っていくものとしては言っていません。1「A swimsuit.（水着）」も2「New shoes.（新しいくつ）」も出ていません。
+ヒント：月曜日は始まりの日で、持ち物ではありません。sleep in tents と take を分けましょう。
+
+---
+
+No.18:
+M: Last Friday, Hiro stayed home because he had a cold. He drank hot tea and slept. His sister brought his notebook from school. He did not go to soccer practice.
+
+Question No.18:
+Why did Hiro stay home last Friday?
+
+1. Because he lost his notebook.
+2. Because he had a cold.
+3. Because it was a holiday.
+4. Because he visited his sister.
+
+【正解18】
+2. Because he had a cold.
+
+【解説18】
+放送文
+M: Last Friday, Hiro stayed home because he had a cold.（先週の金曜日、ヒロはかぜをひいて家にいました。）
+He drank hot tea and slept.（熱いお茶を飲んで寝ました。）
+His sister brought his notebook from school.（お姉さんが学校からノートを持ってきてくれました。）
+He did not go to soccer practice.（サッカーの練習には行きませんでした。）
+Question: Why did Hiro stay home last Friday?（ヒロが先週の金曜日に家にいたのはなぜですか？）
+
+「because he had a cold（かぜをひいていたから）」とあるので、2「Because he had a cold.（かぜをひいていたから）」が正解です。
+1「Because he lost his notebook.（ノートをなくしたから）」はお姉さんがノートを持ってきた話からのひっかけです。3「Because it was a holiday.（休みの日だったから）」も4「Because he visited his sister.（お姉さんを訪ねたから）」も出ていません。
+ヒント：お茶やサッカーは、家にいたあとの話・行かなかったことで、理由ではありません。because の直後を見ましょう。
+
+---
+
+No.19:
+W: Next Monday, Yuki's class will see a show about the moon. They will sit in a dark room. Students should sit in the front row. The show starts after lunch.
+
+Question No.19:
+What will Yuki's class see?
+
+1. A show about the moon.
+2. A movie about trains.
+3. A play at school.
+4. The front row only.
+
+【正解19】
+1. A show about the moon.
+
+【解説19】
+放送文
+W: Next Monday, Yuki's class will see a show about the moon.（今度の月曜日、ユキのクラスは月のショーを見ます。）
+They will sit in a dark room.（暗い部屋に座ります。）
+Students should sit in the front row.（生徒は前の列に座るべきです。）
+The show starts after lunch.（ショーは昼ごはんのあとに始まります。）
+Question: What will Yuki's class see?（ユキのクラスは何を見ますか？）
+
+「a show about the moon（月のショー）」とあるので、1「A show about the moon.（月のショー）」が正解です。
+4「The front row only.（前の列だけ）」は座る場所の指示です。2「A movie about trains.（電車の映画）」も3「A play at school.（学校の劇）」も出ていません。
+ヒント：暗い部屋や昼ごはんのあとは、見るものではなく場所・時刻です。see の直後を拾いましょう。
+
+---
+
+No.20:
+M: Last Saturday, Taku's soccer team practiced on the field. They ran for twenty minutes. After practice, they washed the dirty balls. Their coach watched from a bench.
+
+Question No.20:
+What did they do after practice?
+
+1. They ran home at once.
+2. They bought new balls.
+3. They washed the dirty balls.
+4. They sat on the bench with the coach.
+
+【正解20】
+3. They washed the dirty balls.
+
+【解説20】
+放送文
+M: Last Saturday, Taku's soccer team practiced on the field.（先週の土曜日、タクのサッカーチームはグラウンドで練習しました。）
+They ran for twenty minutes.（20分走りました。）
+After practice, they washed the dirty balls.（練習のあと、よごれたボールを洗いました。）
+Their coach watched from a bench.（コーチはベンチから見ていました。）
+Question: What did they do after practice?（練習のあと、彼らは何をしましたか？）
+
+「After practice, they washed the dirty balls（練習のあと、よごれたボールを洗った）」とあるので、3「They washed the dirty balls.（よごれたボールを洗った）」が正解です。
+1「They ran home at once.（すぐに走って帰った）」の走ったは練習中の話です。2「They bought new balls.（新しいボールを買った）」は出てきません。4「They sat on the bench with the coach.（コーチとベンチに座った）」はコーチがベンチにいた話です。
+ヒント：「After practice」のあとの文だけを答えにしましょう。ひっかけは練習中のランニングとコーチの位置です。

@@ -258,3 +258,280 @@ Question: How many times have they cleaned the station stairs?（彼らは駅の
 
 「three times（3回）」とあるので、3「Three times.（3回）」が正解です。
 1「Once.（1回）」・2「Twice.（2回）」・4「Every day.（毎日）」はそうじの回数ではありません。古い本は来週の予定です。
+
+---
+
+No.11:
+W: This afternoon, Haruto will leave school early because his grandfather is giving a talk at the town hall. He has already finished his math homework. His sister will save him a seat near the front.
+
+Question No.11:
+Why will Haruto leave school early?
+
+1. Because his grandfather is giving a talk.
+2. Because he has finished his homework.
+3. Because he will sit near the front.
+4. Because the town hall is new.
+
+【正解11】
+1. Because his grandfather is giving a talk.
+
+【解説11】
+放送文
+W: This afternoon, Haruto will leave school early because his grandfather is giving a talk at the town hall.（きょうの午後、ハルトはおじいちゃんが町役場で話をするので、学校を早めに出ます。）
+He has already finished his math homework.（数学の宿題はもう終わっています。）
+His sister will save him a seat near the front.（妹が前方の席を取っておきます。）
+Question: Why will Haruto leave school early?（ハルトが学校を早めに出る理由は何ですか？）
+
+「because his grandfather is giving a talk」が理由なので、1「Because his grandfather is giving a talk.（おじいちゃんが話をするから）」が正解です。
+2「Because he has finished his homework.（宿題が終わったから）」はすでに済んだことで、早退の理由ではありません。
+3「Because he will sit near the front.（前方に座るから）」は妹の手助け、4「Because the town hall is new.（町役場が新しいから）」は放送にありません。
+ヒント：because の直後が早退の理由です。ひっかけは、もう終わった宿題や席の話です。
+
+---
+
+No.12:
+M: Kana has visited the city clock museum four times this year. She goes because she wants to study old clocks. Last week she borrowed a guidebook and has already learned the names of the tallest towers.
+
+Question No.12:
+How many times has Kana visited the clock museum this year?
+
+1. Once.
+2. Twice.
+3. Four times.
+4. Every day.
+
+【正解12】
+3. Four times.
+
+【解説12】
+放送文
+M: Kana has visited the city clock museum four times this year.（カナはことし、市の時計博物館へ4回行っています。）
+She goes because she wants to study old clocks.（古い時計を勉強したいので通っています。）
+Last week she borrowed a guidebook and has already learned the names of the tallest towers.（先週案内の本を借り、いちばん高い塔の名前はもう覚えています。）
+Question: How many times has Kana visited the clock museum this year?（カナはことし、時計博物館へ何回行きましたか？）
+
+「four times this year（ことし4回）」とあるので、3「Four times.（4回）」が正解です。
+1「Once.（1回）」・2「Twice.（2回）」・4「Every day.（毎日）」は回数として合っていません。
+ヒント：How many times の数字を拾いましょう。古い時計を勉強したい、は通う理由で、回数ではありません。
+
+---
+
+No.13:
+W: Sho has checked the class rain gauge for six months. He writes the numbers because the other students are busy with club. Next Monday he will teach a first-year how to read it.
+
+Question No.13:
+How long has Sho checked the class rain gauge?
+
+1. For six weeks.
+2. For six months.
+3. Since next Monday.
+4. For two days.
+
+【正解13】
+2. For six months.
+
+【解説13】
+放送文
+W: Sho has checked the class rain gauge for six months.（ショウは6か月間、クラスの雨量計を見ています。）
+He writes the numbers because the other students are busy with club.（ほかの生徒が部活で忙しいので、数字を書きます。）
+Next Monday he will teach a first-year how to read it.（来週の月曜、1年生に読み方を教えます。）
+Question: How long has Sho checked the class rain gauge?（ショウはどのくらいクラスの雨量計を見ていますか？）
+
+「for six months（6か月間）」とあるので、2「For six months.（6か月間）」が正解です。
+1「For six weeks.（6週間）」・4「For two days.（2日間）」は長さが違います。3「Since next Monday.（来週の月曜から）」はこれから教える日で、記録の期間ではありません。
+ヒント：How long には for + 期間を選びます。ひっかけは来週教える日や weeks と months の取り違えです。
+
+---
+
+No.14:
+M: Last Friday, Mei stayed after school because she wanted to interview the school cook. She has asked him questions twice before. She will give a short talk in homeroom about school lunches.
+
+Question No.14:
+Why did Mei stay after school last Friday?
+
+1. To clean the kitchen.
+2. To cook dinner for her family.
+3. To ask him questions twice.
+4. To interview the school cook.
+
+【正解14】
+4. To interview the school cook.
+
+【解説14】
+放送文
+M: Last Friday, Mei stayed after school because she wanted to interview the school cook.（先週の金曜、メイは学校の調理員さんにインタビューしたくて、放課後残りました。）
+She has asked him questions twice before.（以前に2回、質問したことがあります。）
+She will give a short talk in homeroom about school lunches.（ホームルームで、給食について短い発表をします。）
+Question: Why did Mei stay after school last Friday?（メイが先週の金曜、放課後残った理由は何ですか？）
+
+「because she wanted to interview the school cook」が理由なので、4「To interview the school cook.（調理員さんにインタビューするため）」が正解です。
+3「To ask him questions twice.（2回質問するため）」は以前の回数を、残った理由にすり替えています。
+1「To clean the kitchen.（台所をそうじするため）」・2「To cook dinner for her family.（家族の夕食を作るため）」は放送にありません。
+ヒント：because の直後が残った理由です。ひっかけは以前の2回です。ホームルームの発表はあとからの予定です。
+
+---
+
+No.15:
+W: Toma has already wiped the music stands five times this month. He does it because dusty stands make the instruments smell. Tomorrow he will check the piano cover before homeroom.
+
+Question No.15:
+How many times has Toma wiped the music stands this month?
+
+1. Five times.
+2. Once before homeroom.
+3. Every day in winter.
+4. Twice last year.
+
+【正解15】
+1. Five times.
+
+【解説15】
+放送文
+W: Toma has already wiped the music stands five times this month.（トマは今月、譜面台をすでに5回ふいています。）
+He does it because dusty stands make the instruments smell.（ほこりがつくと楽器がにおうので、ふきます。）
+Tomorrow he will check the piano cover before homeroom.（明日は朝のホームルームの前に、ピアノのカバーを見ます。）
+Question: How many times has Toma wiped the music stands this month?（トマは今月、譜面台を何回ふきましたか？）
+
+「five times this month（今月5回）」とあるので、1「Five times.（5回）」が正解です。
+2「Once before homeroom.（ホームルームの前に1回）」は明日の予定を回数にしたものです。
+3「Every day in winter.（冬は毎日）」・4「Twice last year.（去年2回）」は放送にありません。
+ヒント：How many times this month の数字を拾いましょう。ひっかけは明日のピアノカバーです。ほこりとにおい、はふく理由です。
+
+---
+
+No.16:
+M: If the river path is muddy, Aoi will ride her bike on the main road. She has used that road for two years. She leaves early because the morning traffic is lighter then.
+
+Question No.16:
+Why does Aoi leave early?
+
+1. Because the river path is muddy.
+2. Because she has a new bike.
+3. Because she has used the road for two years.
+4. Because the morning traffic is lighter then.
+
+【正解16】
+4. Because the morning traffic is lighter then.
+
+【解説16】
+放送文
+M: If the river path is muddy, Aoi will ride her bike on the main road.（川沿いの道がぬかるんでいたら、アオイは大通りを自転車で行きます。）
+She has used that road for two years.（その道は2年間使っています。）
+She leaves early because the morning traffic is lighter then.（朝の車が少ないので、早めに出ます。）
+Question: Why does Aoi leave early?（アオイが早めに出る理由は何ですか？）
+
+「because the morning traffic is lighter then（その時間は朝の車が少ないから）」が理由なので、4「Because the morning traffic is lighter then.（その時間は朝の車が少ないから）」が正解です。
+1「Because the river path is muddy.（川沿いの道がぬかるえてるから）」は別ルートを使う条件で、早出の理由ではありません。
+3「Because she has used the road for two years.（その道を2年使っているから）」は期間です。2「Because she has a new bike.（新しい自転車があるから）」は放送にありません。
+ヒント：If the river path is muddy は行き方の条件、because は早出の理由です。二つを混ぜないようにしましょう。
+
+---
+
+No.17:
+W: Ryo has studied German for a year and a half because his pen pal lives in Berlin. He has already sent eight letters. This weekend he will record a short voice message.
+
+Question No.17:
+How long has Ryo studied German?
+
+1. For eight weeks.
+2. Since this weekend.
+3. For a year and a half.
+4. For two days.
+
+【正解17】
+3. For a year and a half.
+
+【解説17】
+放送文
+W: Ryo has studied German for a year and a half because his pen pal lives in Berlin.（リョウはペンパルがベルリンに住んでいるので、1年半ドイツ語を勉強しています。）
+He has already sent eight letters.（手紙はもう8通送っています。）
+This weekend he will record a short voice message.（今週末、短い音声メッセージを録ります。）
+Question: How long has Ryo studied German?（リョウはどのくらいドイツ語を勉強していますか？）
+
+「for a year and a half（1年半）」とあるので、3「For a year and a half.（1年半）」が正解です。
+1「For eight weeks.（8週間）」は手紙の通数と混ざりやすい長さです。2「Since this weekend.（今週末から）」はこれから録る日、4「For two days.（2日間）」は短すぎます。
+ヒント：How long には for + 期間です。ひっかけは手紙の8通を週にすることと、今週末の録音です。
+
+---
+
+No.18:
+M: Nami has sung in the station choir three times this spring. She joined because the songs make tired workers smile. She has already learned the new chorus for this Saturday evening.
+
+Question No.18:
+How many times has Nami sung in the station choir this spring?
+
+1. Once.
+2. Every Saturday.
+3. Eight times.
+4. Three times.
+
+【正解18】
+4. Three times.
+
+【解説18】
+放送文
+M: Nami has sung in the station choir three times this spring.（ナミは今春、駅の合唱団で3回歌っています。）
+She joined because the songs make tired workers smile.（疲れた人を笑顔にしたいので入りました。）
+She has already learned the new chorus for this Saturday evening.（土曜の夕方用の新しい合唱は、もう覚えています。）
+Question: How many times has Nami sung in the station choir this spring?（ナミは今春、駅の合唱団で何回歌いましたか？）
+
+「three times this spring（今春3回）」とあるので、4「Three times.（3回）」が正解です。
+1「Once.（1回）」・3「Eight times.（8回）」は回数として合っていません。2「Every Saturday.（毎週土曜）」はこれから歌う土曜と混ぜやすい言い方です。
+ヒント：How many times this spring の数字を拾いましょう。笑顔にしたい、は入った理由で、回数ではありません。
+
+---
+
+No.19:
+W: Sota will skip soccer this Saturday because he has promised to help at his aunt's bookstore. He has worked there twice during holidays. He hopes to finish before the evening game on TV.
+
+Question No.19:
+Why will Sota skip soccer this Saturday?
+
+1. Because he promised to help at his aunt's bookstore.
+2. Because he has worked there twice.
+3. Because the evening game is on TV.
+4. Because his aunt is sick.
+
+【正解19】
+1. Because he promised to help at his aunt's bookstore.
+
+【解説19】
+放送文
+W: Sota will skip soccer this Saturday because he has promised to help at his aunt's bookstore.（ソウタは叔母の本屋を手伝うと約束したので、今週の土曜はサッカーを休みます。）
+He has worked there twice during holidays.（休みのあいだに、そこで2回働いたことがあります。）
+He hopes to finish before the evening game on TV.（夜の試合中継の前に終わればいいなと思っています。）
+Question: Why will Sota skip soccer this Saturday?（ソウタが今週の土曜、サッカーを休む理由は何ですか？）
+
+「because he has promised to help at his aunt's bookstore」が理由なので、1「Because he promised to help at his aunt's bookstore.（叔母の本屋を手伝うと約束したから）」が正解です。
+2「Because he has worked there twice.（そこで2回働いたから）」は以前の回数で、今週休む理由ではありません。
+3「Because the evening game is on TV.（夜の試合がテレビだから）」はあとで見たい希望です。4「Because his aunt is sick.（叔母が病気だから）」は放送にありません。
+ヒント：because の直後が今週休む理由です。2回働いた経験やテレビの話と混ぜないようにしましょう。
+
+---
+
+No.20:
+M: Hana has lived in this apartment building for four years. She knows many neighbors because she walks her dog every morning. If it rains hard, she will use the indoor hallway.
+
+Question No.20:
+How long has Hana lived in the apartment building?
+
+1. For four weeks.
+2. For four years.
+3. Since it started raining.
+4. All morning.
+
+【正解20】
+2. For four years.
+
+【解説20】
+放送文
+M: Hana has lived in this apartment building for four years.（ハナはこのアパートに4年間住んでいます。）
+She knows many neighbors because she walks her dog every morning.（毎朝犬の散歩をするので、近所の人をたくさん知っています。）
+If it rains hard, she will use the indoor hallway.（雨がひどければ、建物の中の廊下を使います。）
+Question: How long has Hana lived in the apartment building?（ハナはどのくらいそのアパートに住んでいますか？）
+
+「for four years（4年間）」とあるので、2「For four years.（4年間）」が正解です。
+1「For four weeks.（4週間）」は長さが違います。3「Since it started raining.（雨が降り始めてから）」は条件の話、4「All morning.（朝ずっと）」は散歩の時間帯で、住んでいる期間ではありません。
+ヒント：How long には for + 期間です。ひっかけは雨のときの廊下と、毎朝の散歩です。
+
+---

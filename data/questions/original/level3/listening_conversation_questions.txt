@@ -295,3 +295,325 @@ Question: What does the girl say about opening the window?（窓を開けるこ�
 
 「Not at all. It's a little hot」が許可の返事なので、4「Not at all. It is a little hot.（ぜんぜん大丈夫。ちょっと暑い）」が正解です。
 1「The window is blue.（窓は青い）」は色、2「She opened it yesterday.（きのう開けた）」は過去、3「Please close your book.（本を閉じて）」は別のお願いで、開けてもよいかの返事ではありません。テストが終わった、は追加の理由です。
+
+---
+
+No.11:
+W: Why are you bringing a compass to the woods walk?
+M: Because the path isn't marked after the old well.
+W: I've already packed extra water.
+M: Good. If we get thirsty, we can share it.
+
+Question No.11:
+Why is the boy bringing a compass?
+
+1. Because the path isn't marked after the old well.
+2. Because she has already packed extra water.
+3. Because the woods are famous for flowers.
+4. Because he lost his map at school.
+
+【正解11】
+1. Because the path isn't marked after the old well.
+
+【解説11】
+放送文
+W: Why are you bringing a compass to the woods walk?（森歩きに、どうしてコンパスを持っていくの？）
+M: Because the path isn't marked after the old well.（古い井戸の先は、道しるべがないから。）
+W: I've already packed extra water.（水はもう多めに入れてあるよ。）
+M: Good. If we get thirsty, we can share it.（いいね。のどがかわいたら分け合える。）
+Question: Why is the boy bringing a compass?（男の子がコンパスを持っていく理由は何ですか？）
+
+男の子が「the path isn't marked after the old well（古い井戸の先に道しるべがない）」と言っているので、1「Because the path isn't marked after the old well.（古い井戸の先に道しるべがないから）」が正解です。
+2「Because she has already packed extra water.（水はもう多めに入れてあったから）」は女の子が言った持ち物で、コンパスの理由ではありません。
+3「Because the woods are famous for flowers.（森は花で有名だから）」・4「Because he lost his map at school.（学校で地図をなくしたから）」は放送にありません。
+ヒント：水を分け合う、はのどがかわいたときの条件です。ひっかけは、もう一人の持ち物を理由にすることです。
+
+---
+
+No.12:
+M: Can we join the pottery class after school?
+W: Yes, if we finish the math worksheet first.
+M: I've already done mine in the library.
+W: Then let's meet at the art room at four.
+
+Question No.12:
+What must they do before the pottery class?
+
+1. Buy clay at a shop.
+2. Finish the math worksheet.
+3. Clean the library.
+4. Call the music teacher.
+
+【正解12】
+2. Finish the math worksheet.
+
+【解説12】
+放送文
+M: Can we join the pottery class after school?（放課後、陶芸の授業に入っていい？）
+W: Yes, if we finish the math worksheet first.（いいよ。先に数学のプリントを終わらせれば。）
+M: I've already done mine in the library.（ぼくのは、図書館でもう終わらせたよ。）
+W: Then let's meet at the art room at four.（じゃあ4時に美術室で会おう。）
+Question: What must they do before the pottery class?（陶芸の授業の前に、2人は何をしなければなりませんか？）
+
+女の子が「if we finish the math worksheet first（先に数学のプリントを終わらせれば）」と言っているので、2「Finish the math worksheet.（数学のプリントを終わらせる）」が正解です。
+3「Clean the library.（図書館をそうじする）」は男の子が宿題をした場所をそうじする話にすり替えています。
+1「Buy clay at a shop.（店で粘土を買う）」・4「Call the music teacher.（音楽の先生に電話する）」は放送にありません。
+ヒント：4時の美術室は集合の話です。ひっかけは、宿題をした場所（図書館）をそうじする話にすることです。
+
+---
+
+No.13:
+W: How many times have you used this camping stove?
+M: I've used it twice, once with Dad.
+W: If it rains, we'll cook under the roof.
+M: OK. I have already packed the matches.
+
+Question No.13:
+How many times has the boy used the camping stove?
+
+1. Once with his mother.
+2. Every weekend this year.
+3. Twice.
+4. Once with his father.
+
+【正解13】
+3. Twice.
+
+【解説13】
+放送文
+W: How many times have you used this camping stove?（このキャンプ用コンロ、何回使った？）
+M: I've used it twice, once with Dad.（2回だよ。1回はお父さんと。）
+W: If it rains, we'll cook under the roof.（雨なら、屋根の下で料理しよう。）
+M: OK. I have already packed the matches.（うん。マッチはもう入れておいた。）
+Question: How many times has the boy used the camping stove?（男の子はこのキャンプ用コンロを何回使いましたか？）
+
+男の子が「twice（2回）」と言っているので、3「Twice.（2回）」が正解です。
+4「Once with his father.（お父さんと1回）」は「1回はお父さんと」だけ拾った回数で、全部で2回です。
+1「Once with his mother.（お母さんと1回）」は相手が違います。2「Every weekend this year.（ことし毎週末）」は放送にありません。
+ヒント：How many times の合計が twice です。ひっかけは「1回はお父さんと」だけを答えにすることです。マッチは準備です。
+
+---
+
+No.14:
+M: Why is your backpack so heavy today?
+W: Because I brought extra batteries for radio club.
+M: I've never joined radio club before.
+W: If the signal is weak, we'll need them.
+
+Question No.14:
+Why is the girl's backpack heavy?
+
+1. Because he has never joined radio club.
+2. Because she bought a new backpack.
+3. Because the sky is cloudy tonight.
+4. Because she brought extra batteries.
+
+【正解14】
+4. Because she brought extra batteries.
+
+【解説14】
+放送文
+M: Why is your backpack so heavy today?（きょう、どうしてリュックサックがそんなに重いの？）
+W: Because I brought extra batteries for radio club.（無線部用に、予備の電池を入れたから。）
+M: I've never joined radio club before.（無線部には、入ったことがないんだ。）
+W: If the signal is weak, we'll need them.（電波が弱かったら、それがいるよ。）
+Question: Why is the girl's backpack heavy?（女の子のリュックサックが重い理由は何ですか？）
+
+女の子が「extra batteries for radio club（無線部用の予備電池）」と言っているので、4「Because she brought extra batteries.（予備の電池を持ってきたから）」が正解です。
+1「Because he has never joined radio club.（彼は無線部に入ったことがないから）」は男の子の経験で、重さの理由ではありません。
+2「Because she bought a new backpack.（新しいリュックサックを買ったから）」・3「Because the sky is cloudy tonight.（今夜は曇りだから）」は放送にありません。
+ヒント：電波が弱いとき、は電池が必要な条件です。ひっかけは、もう一人の経験を理由にすることです。
+
+---
+
+No.15:
+W: May I use the school kitchen this evening?
+M: Yes, if you wash every dish afterward.
+W: No problem. I'll make vegetable soup.
+M: I've already put the pot on the shelf.
+
+Question No.15:
+Under what condition may the girl use the kitchen?
+
+1. If she washes every dish afterward.
+2. If she puts the pot on the shelf.
+3. If she buys vegetables first.
+4. If a teacher stays with her.
+
+【正解15】
+1. If she washes every dish afterward.
+
+【解説15】
+放送文
+W: May I use the school kitchen this evening?（今夜、学校の調理室を使ってもいい？）
+M: Yes, if you wash every dish afterward.（いいよ。あとでお皿を全部洗えば。）
+W: No problem. I'll make vegetable soup.（もちろん。野菜スープを作るね。）
+M: I've already put the pot on the shelf.（鍋はもう棚に出してあるよ。）
+Question: Under what condition may the girl use the kitchen?（女の子が調理室を使ってよい条件は何ですか？）
+
+男の子が「if you wash every dish afterward（あとでお皿を全部洗えば）」と言っているので、1「If she washes every dish afterward.（あとでお皿を全部洗えば）」が正解です。
+2「If she puts the pot on the shelf.（鍋を棚に出せば）」は男の子がもう済ませた準備で、使う条件ではありません。
+3「If she buys vegetables first.（先に野菜を買えば）」・4「If a teacher stays with her.（先生が一緒にいれば）」は放送にありません。
+ヒント：スープは作るメニューです。ひっかけは、もう一人がすでにした準備を条件にすることです。
+
+---
+
+No.16:
+M: How long have you collected old postcards?
+W: For about two years, since I visited Kyoto.
+M: That's cool. I started last month.
+W: If you want, I can show you my album.
+
+Question No.16:
+How long has the girl collected old postcards?
+
+1. Since last month.
+2. For about two years.
+3. For two weeks only.
+4. Until she visited Kyoto.
+
+【正解16】
+2. For about two years.
+
+【解説16】
+放送文
+M: How long have you collected old postcards?（古い絵はがきは、どのくらい集めているの？）
+W: For about two years, since I visited Kyoto.（京都に行ったときから、だいたい2年だよ。）
+M: That's cool. I started last month.（すごいね。ぼくは先月始めたんだ。）
+W: If you want, I can show you my album.（よかったら、アルバムを見せるよ。）
+Question: How long has the girl collected old postcards?（女の子は古い絵はがきをどのくらい集めていますか？）
+
+女の子が「For about two years（だいたい2年）」と言っているので、2「For about two years.（だいたい2年）」が正解です。
+1「Since last month.（先月からの）」は男の子が始めた時期です。
+3「For two weeks only.（2週間だけ）」は短すぎます。4「Until she visited Kyoto.（京都に行くまで）」は終わりの時点で、集め続けている期間ではありません。
+ヒント：アルバムは見せる提案です。ひっかけは、もう一人が始めた「先月」です。How long には for + 期間を選びましょう。
+
+---
+
+No.17:
+W: The drama club needs extra chairs.
+M: We can borrow some from the English room if it's empty.
+W: I've already asked the teacher.
+M: Good. Let's carry them after lunch.
+
+Question No.17:
+When can they borrow chairs from the English room?
+
+1. After they ask the teacher.
+2. Before lunch only.
+3. If the drama club is closed.
+4. If the English room is empty.
+
+【正解17】
+4. If the English room is empty.
+
+【解説17】
+放送文
+W: The drama club needs extra chairs.（演劇部に、いすがもう少しいるの。）
+M: We can borrow some from the English room if it's empty.（英語室があいていれば、そこから借りられるよ。）
+W: I've already asked the teacher.（先生には、もう聞いてあるよ。）
+M: Good. Let's carry them after lunch.（いいね。お昼のあとに運ぼう。）
+Question: When can they borrow chairs from the English room?（2人はどんなとき、英語室からいすを借りられますか？）
+
+男の子が「if it's empty（あいていれば）」と言っているので、4「If the English room is empty.（英語室があいていれば）」が正解です。
+1「After they ask the teacher.（先生に聞いたあと）」は女の子がもう済ませたことです。
+2「Before lunch only.（お昼の前だけ）」は運ぶ時間が逆です。3「If the drama club is closed.（演劇部が閉まっていれば）」は放送にありません。
+ヒント：借りられる条件は if it's empty です。先生に聞いたことや運ぶ時間と混ぜないようにしましょう。
+
+---
+
+No.18:
+M: Why did you bring those empty jars?
+W: Because we'll paint them for the charity sale.
+M: I've already mixed the blue paint.
+W: Great. If it dries quickly, we can add stars.
+
+Question No.18:
+Why did the girl bring empty jars?
+
+1. Because he mixed the blue paint.
+2. Because she will cook jam in them.
+3. Because they will paint them for the charity sale.
+4. Because the sale starts tomorrow morning.
+
+【正解18】
+3. Because they will paint them for the charity sale.
+
+【解説18】
+放送文
+M: Why did you bring those empty jars?（どうしてその空きびんを持ってきたの？）
+W: Because we'll paint them for the charity sale.（チャリティーのバザー用に、色を塗るから。）
+M: I've already mixed the blue paint.（青い絵の具は、もう混ぜてあるよ。）
+W: Great. If it dries quickly, we can add stars.（いいね。早く乾いたら、星を足せるよ。）
+Question: Why did the girl bring empty jars?（女の子が空きびんを持ってきた理由は何ですか？）
+
+女の子が「paint them for the charity sale（チャリティーのバザー用に色を塗る）」と言っているので、3「Because they will paint them for the charity sale.（バザー用に色を塗るから）」が正解です。
+1「Because he mixed the blue paint.（彼が青い絵の具を混ぜたから）」は男の子の準備で、持ってきた理由ではありません。
+2「Because she will cook jam in them.（ジャムを煮て入れるから）」・4「Because the sale starts tomorrow morning.（バザーは明日の朝だから）」は放送にありません。
+ヒント：星を足す、は早く乾いたときの条件です。ひっかけは、もう一人がした準備を理由にすることです。
+
+---
+
+No.19:
+W: Have you taken the night bus to Nagano?
+M: Yes. I've taken it three times with my uncle.
+W: If the last train is gone, we might use it.
+M: I've already checked the timetable.
+
+Question No.19:
+How many times has the boy taken the night bus?
+
+1. Twice with his uncle.
+2. Three times.
+3. Never in his life.
+4. Once last winter.
+
+【正解19】
+2. Three times.
+
+【解説19】
+放送文
+W: Have you taken the night bus to Nagano?（長野行きの夜行バスに乗ったことある？）
+M: Yes. I've taken it three times with my uncle.（うん。おじさんと3回乗ったよ。）
+W: If the last train is gone, we might use it.（最終電車がなくなっていたら、それを使うかも。）
+M: I've already checked the timetable.（時刻表はもう見ておいたよ。）
+Question: How many times has the boy taken the night bus?（男の子は夜行バスに何回乗ったことがありますか？）
+
+男の子が「three times（3回）」と言っているので、2「Three times.（3回）」が正解です。
+1「Twice with his uncle.（おじさんと2回）」は相手は合っていますが、回数は3回です。
+3「Never in his life.（一度もない）」・4「Once last winter.（去年の冬に1回）」は回数として合っていません。
+ヒント：How many times の合計が three times です。ひっかけは「おじさんと」だけ拾って回数を2回にすることです。時刻表は準備です。
+
+---
+
+No.20:
+M: Can we practice the recorder on the roof?
+W: Only if no one is taking photos there.
+M: I've already seen the photo club downstairs.
+W: Then let's go up now, before dark.
+
+Question No.20:
+When can they practice the recorder on the roof?
+
+1. If the photo club is downstairs.
+2. After it gets dark.
+3. Only on Sunday morning.
+4. Only if no one is taking photos there.
+
+【正解20】
+4. Only if no one is taking photos there.
+
+【解説20】
+放送文
+M: Can we practice the recorder on the roof?（屋上でリコーダーの練習、していい？）
+W: Only if no one is taking photos there.（そこで写真を撮っている人がいなければ、ね。）
+M: I've already seen the photo club downstairs.（写真部は、下の階にいたよ。）
+W: Then let's go up now, before dark.（じゃあ暗くなる前に、いま上がろう。）
+Question: When can they practice the recorder on the roof?（2人はどんなとき、屋上でリコーダーの練習ができますか？）
+
+女の子が「Only if no one is taking photos there（写真を撮っている人がいなければ）」と言っているので、4「Only if no one is taking photos there.（写真を撮っている人がいなければ）」が正解です。
+1「If the photo club is downstairs.（写真部が下の階にいれば）」は男の子が見た場所を条件にすり替えています。
+2「After it gets dark.（暗くなってから）」は逆です。3「Only on Sunday morning.（日曜の朝だけ）」は放送にありません。
+ヒント：写真部が下にいた、はいま屋上に人がいないことの手がかりで、条件そのものではありません。Only if のあとを答えにしましょう。
+
+---

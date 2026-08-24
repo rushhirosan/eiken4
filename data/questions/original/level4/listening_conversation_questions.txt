@@ -295,3 +295,313 @@ Question: How often does the boy practice the piano?（男の子はどのくら�
 
 「How often（どのくらいの頻度で）」なので回数の3「Twice a week.（週に2回）」が正解です。
 「thirty minutes（30分）」は長さで、2「For thirty minutes only.（30分だけ）」のような頻度ではありません。1「Every morning.（毎朝）」も4「With his sister.（妹と）」も出ていません。
+
+---
+
+No.11:
+M: I have soccer club after school.
+W: In the gym or on the field?
+M: On the field. Can you watch me?
+W: Sorry. I have to go to the music room.
+
+Question No.11:
+Where will the boy practice soccer?
+
+1. On the field.
+2. In the gym.
+3. In the music room.
+4. At the station.
+
+【正解11】
+1. On the field.
+
+【解説11】
+放送文
+M: I have soccer club after school.（放課後にサッカー部があるんだ。）
+W: In the gym or on the field?（体育館？それともグラウンド？）
+M: On the field. Can you watch me?（グラウンドだよ。見に来てくれる？）
+W: Sorry. I have to go to the music room.（ごめん。音楽室に行かないと。）
+Question: Where will the boy practice soccer?（男の子はどこでサッカーの練習をしますか？）
+
+男の子が「On the field.（グラウンドで）」と言っているので、1「On the field.（グラウンドで）」が正解です。
+2「In the gym.（体育館で）」は女の子が聞いた場所、3「In the music room.（音楽室で）」は女の子が行く場所で、練習する場所ではありません。4「At the station.（駅で）」は出ていません。
+ヒント：場所を聞かれたら、練習すると言った人の言葉を拾いましょう。ひっかけは、相手が言った体育館・音楽室です。
+
+---
+
+No.12:
+W: Mom asked me to buy some apples.
+M: Let's go to the supermarket together.
+W: OK. After that I need a stamp.
+M: Fine. I'll wait at the fruit stand.
+
+Question No.12:
+What will the girl do after they buy apples?
+
+1. Wait at the fruit stand.
+2. Go to the gym.
+3. Make apple pie.
+4. Buy a stamp.
+
+【正解12】
+4. Buy a stamp.
+
+【解説12】
+放送文
+W: Mom asked me to buy some apples.（お母さんにりんごを買ってきて、と言われたの。）
+M: Let's go to the supermarket together.（一緒にスーパーへ行こう。）
+W: OK. After that I need a stamp.（うん。そのあと切手がいるの。）
+M: Fine. I'll wait at the fruit stand.（いいよ。僕は果物売り場で待ってる。）
+Question: What will the girl do after they buy apples?（りんごを買ったあと、女の子は何をしますか？）
+
+女の子が「After that I need a stamp.（そのあと切手がいる）」と言っているので、4「Buy a stamp.（切手を買う）」が正解です。
+1「Wait at the fruit stand.（果物売り場で待つ）」は男の子がすることです。2「Go to the gym.（体育館へ行く）」も3「Make apple pie.（アップルパイを作る）」も出ていません。
+ヒント：「After that」のあとの行動と、もう一人が待つ場所を混ぜないようにしましょう。
+
+---
+
+No.13:
+M: Why are you wearing that thick coat today?
+W: Because this morning is very cold outside.
+M: I only have a thin jacket.
+W: Then please take my extra scarf.
+
+Question No.13:
+Why is the girl wearing a thick coat?
+
+1. Because she has a thin jacket.
+2. Because it is raining.
+3. Because the morning is cold.
+4. Because she likes red coats.
+
+【正解13】
+3. Because the morning is cold.
+
+【解説13】
+放送文
+M: Why are you wearing that thick coat today?（きょう、どうしてその厚いコートを着ているの？）
+W: Because this morning is very cold outside.（けさ、外がとても寒いから。）
+M: I only have a thin jacket.（僕は薄いジャケットしかないよ。）
+W: Then please take my extra scarf.（じゃあ、予備のマフラー使って。）
+Question: Why is the girl wearing a thick coat?（女の子が厚いコートを着ているのはなぜですか？）
+
+女の子が「this morning is very cold（けさとても寒い）」と言っているので、3「Because the morning is cold.（朝が寒いから）」が正解です。
+1「Because she has a thin jacket.（薄いジャケットを持っているから）」は男の子の服の話です。2「Because it is raining.（雨が降っているから）」も4「Because she likes red coats.（赤いコートが好きだから）」も出ていません。
+ヒント：マフラーはあとから貸すもので、コートを着た理由ではありません。ひっかけは、もう一人の服の話です。
+
+---
+
+No.14:
+W: What time should we leave for the station?
+M: At seven. The train is at seven twenty.
+W: Then I'll finish breakfast at six forty.
+M: Good. Don't forget your ticket.
+
+Question No.14:
+When should they leave for the station?
+
+1. At seven.
+2. At six forty.
+3. At seven twenty.
+4. At noon.
+
+【正解14】
+1. At seven.
+
+【解説14】
+放送文
+W: What time should we leave for the station?（駅には何時に出発すればいい？）
+M: At seven. The train is at seven twenty.（7時。電車は7時20分だよ。）
+W: Then I'll finish breakfast at six forty.（じゃあ朝ごはんは6時40分に終わらせる。）
+M: Good. Don't forget your ticket.（いいね。切符を忘れないで。）
+Question: When should they leave for the station?（2人はいつ駅へ出発しますか？）
+
+男の子が「At seven.（7時に）」と言っているので、1「At seven.（7時に）」が正解です。
+2「At six forty.（6時40分）」は女の子が朝ごはんを終える時刻、3「At seven twenty.（7時20分）」は電車の時刻です。4「At noon.（正午）」は出ていません。
+ヒント：出発・電車・朝ごはんの時刻が並ぶので、質問が「leave（出発）」かどうか見ましょう。
+
+---
+
+No.15:
+M: Can you feed my goldfish this weekend?
+W: Sure. How much food should I give?
+M: Just a little. I'll be at my uncle's house.
+W: OK. I'll come on Saturday morning.
+
+Question No.15:
+What will the girl do this weekend?
+
+1. Stay at the boy's uncle's house.
+2. Buy a new goldfish.
+3. Visit her grandmother.
+4. Feed the boy's goldfish.
+
+【正解15】
+4. Feed the boy's goldfish.
+
+【解説15】
+放送文
+M: Can you feed my goldfish this weekend?（今週末、僕の金魚にえさをあげてくれる？）
+W: Sure. How much food should I give?（いいよ。どのくらいあげればいい？）
+M: Just a little. I'll be at my uncle's house.（少しでいいよ。僕はおじさんの家にいるから。）
+W: OK. I'll come on Saturday morning.（わかった。土曜の朝に来るね。）
+Question: What will the girl do this weekend?（女の子は今週末何をしますか？）
+
+男の子が金魚の世話を頼み、女の子が「Sure」と受けているので、4「Feed the boy's goldfish.（男の子の金魚にえさをあげる）」が正解です。
+1「Stay at the boy's uncle's house.（男の子のおじさんの家に泊まる）」は男の子の予定です。2「Buy a new goldfish.（新しい金魚を買う）」も3「Visit her grandmother.（おばあちゃんを訪ねる）」も出ていません。
+ヒント：頼まれたことと、もう一人がどこへ行くかを分けて聞きましょう。おじさんの家は男の子の予定です。
+
+---
+
+No.16:
+W: How will you go to your grandmother's house?
+M: I'll take the train with my sister.
+W: Does your grandmother live near the sea?
+M: No. She lives near the mountains.
+
+Question No.16:
+Where does the boy's grandmother live?
+
+1. Near the sea.
+2. Near the station.
+3. Near the mountains.
+4. Near the river.
+
+【正解16】
+3. Near the mountains.
+
+【解説16】
+放送文
+W: How will you go to your grandmother's house?（おばあちゃんの家にはどうやって行くの？）
+M: I'll take the train with my sister.（妹と電車で行くよ。）
+W: Does your grandmother live near the sea?（おばあちゃんは海の近くに住んでいるの？）
+M: No. She lives near the mountains.（ううん。山の近くだよ。）
+Question: Where does the boy's grandmother live?（男の子のおばあちゃんはどこに住んでいますか？）
+
+男の子が「near the mountains（山の近く）」と言っているので、3「Near the mountains.（山の近く）」が正解です。
+1「Near the sea.（海の近く）」は女の子が確認した場所で、男の子は「No」と否定しています。2「Near the station.（駅の近く）」も4「Near the river.（川の近く）」も出ていません。
+ヒント：相手が聞いた場所と、答えた場所を取りちがえないようにしましょう。No のあとの文が本当の答えです。
+
+---
+
+No.17:
+M: I want fresh bread tomorrow morning.
+W: The new bakery opens at eight.
+M: Let's go before school then.
+W: OK. I'll meet you at the corner at seven forty.
+
+Question No.17:
+What time does the bakery open?
+
+1. At eight.
+2. At seven forty.
+3. Before school.
+4. At noon.
+
+【正解17】
+1. At eight.
+
+【解説17】
+放送文
+M: I want fresh bread tomorrow morning.（明日の朝、焼きたてのパンがほしいな。）
+W: The new bakery opens at eight.（新しいパン屋は8時にあくよ。）
+M: Let's go before school then.（じゃあ登校前に行こう。）
+W: OK. I'll meet you at the corner at seven forty.（うん。7時40分に角で会おう。）
+Question: What time does the bakery open?（パン屋は何時にあきますか？）
+
+女の子が「opens at eight（8時にあく）」と言っているので、1「At eight.（8時に）」が正解です。
+2「At seven forty.（7時40分）」は2人が会う時刻、3「Before school.（登校前）」は男の子が行こうと言った時間帯です。4「At noon.（正午）」は出ていません。
+ヒント：開く時刻と、待ち合わせの時刻を分けて聞きましょう。
+
+---
+
+No.18:
+W: I can't find my library card.
+M: Did you look in your pencil case?
+W: Yes. It isn't there. I used it yesterday.
+M: Let's ask the teacher after class.
+
+Question No.18:
+What can't the girl find?
+
+1. Her textbook.
+2. Her pencil case.
+3. Her bus pass.
+4. Her library card.
+
+【正解18】
+4. Her library card.
+
+【解説18】
+放送文
+W: I can't find my library card.（図書カードが見つからないの。）
+M: Did you look in your pencil case?（筆箱の中は見た？）
+W: Yes. It isn't there. I used it yesterday.（うん。そこにない。きのう使ったのに。）
+M: Let's ask the teacher after class.（授業のあと先生に聞こう。）
+Question: What can't the girl find?（女の子は何が見つかりませんか？）
+
+女の子が「my library card（図書カード）」と言っているので、4「Her library card.（図書カード）」が正解です。
+2「Her pencil case.（筆箱）」は男の子が探した場所として言ったものです。1「Her textbook.（教科書）」も3「Her bus pass.（バスの定期）」も出ていません。
+ヒント：なくしたものと、探した場所の名前を混ぜないようにしましょう。
+
+---
+
+No.19:
+M: Shall we study English together today?
+W: Yes. Let's meet in the library.
+M: After club? I finish at five.
+W: That's fine. I'll save two seats by the window.
+
+Question No.19:
+Where will they study?
+
+1. In the club room.
+2. In the library.
+3. In the classroom.
+4. At the boy's house.
+
+【正解19】
+2. In the library.
+
+【解説19】
+放送文
+M: Shall we study English together today?（今日、一緒に英語を勉強しない？）
+W: Yes. Let's meet in the library.（いいよ。図書館で会おう。）
+M: After club? I finish at five.（部活のあと？僕は5時に終わるよ。）
+W: That's fine. I'll save two seats by the window.（それでいい。窓のそばに2席とっておくね。）
+Question: Where will they study?（2人はどこで勉強しますか？）
+
+女の子が「in the library（図書館で）」と言っているので、2「In the library.（図書館で）」が正解です。
+1「In the club room.（部室で）」は男の子が言った部活の話から連想しやすい場所です。3「In the classroom.（教室で）」も4「At the boy's house.（男の子の家で）」も出ていません。
+ヒント：「at five（5時）」は部活が終わる時刻で、場所ではありません。ひっかけは部室です。
+
+---
+
+No.20:
+W: You look very wet. What happened?
+M: I washed my bike with a hose, and the water went up.
+W: Did you walk from the station?
+M: No. I washed it in the school yard.
+
+Question No.20:
+Why does the boy look wet?
+
+1. Because he washed his hair.
+2. Because he walked from the station.
+3. Because he washed his bike with a hose.
+4. Because he swam in the pool.
+
+【正解20】
+3. Because he washed his bike with a hose.
+
+【解説20】
+放送文
+W: You look very wet. What happened?（すごくぬれてるね。どうしたの？）
+M: I washed my bike with a hose, and the water went up.（ホースで自転車を洗ったら、水が上がってきたんだ。）
+W: Did you walk from the station?（駅から歩いてきたの？）
+M: No. I washed it in the school yard.（ううん。学校の庭で洗ったんだ。）
+Question: Why does the boy look wet?（男の子がぬれているのはなぜですか？）
+
+男の子が「I washed my bike with a hose（ホースで自転車を洗った）」と言っているので、3「Because he washed his bike with a hose.（ホースで自転車を洗ったから）」が正解です。
+2「Because he walked from the station.（駅から歩いてきたから）」は女の子が聞いたことで、男の子は「No」と否定しています。1「Because he washed his hair.（髪を洗ったから）」も4「Because he swam in the pool.（プールで泳いだから）」も出ていません。
+ヒント：相手の予想と、本人が言った理由を取りちがえないようにしましょう。No のあとも洗った場所の話です。

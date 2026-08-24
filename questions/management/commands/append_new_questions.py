@@ -34,10 +34,11 @@ _DEFAULT_MINS = {
     '3': {
         'min_grammar': 101,
         'min_conversation': 51,
-        'min_wordorder': 9999,  # 3級に語順なし
+        'min_wordorder': 9999,  # 3級模試メニューに語順なし
         'min_reading_passage': 16,
         'min_listening': 41,
         'min_writing': 21,
+        'min_speaking': 9999,
     },
     '4': {
         'min_grammar': 166,
@@ -46,7 +47,17 @@ _DEFAULT_MINS = {
         'min_reading_passage': 13,
         'min_listening': 41,
         'min_writing': 9999,  # 4級にライティングなし
+        'min_speaking': 9999,
     },
+}
+_ORIGINAL_DEFAULT_MINS = {
+    'min_grammar': 1,
+    'min_conversation': 1,
+    'min_wordorder': 1,
+    'min_reading_passage': 1,
+    'min_listening': 1,
+    'min_writing': 1,
+    'min_speaking': 1,
 }
 
 
@@ -77,6 +88,7 @@ class Command(BaseCommand):
         parser.add_argument('--min-reading-passage', type=int, default=None)
         parser.add_argument('--min-listening', type=int, default=None)
         parser.add_argument('--min-writing', type=int, default=None)
+        parser.add_argument('--min-speaking', type=int, default=None)
         parser.add_argument('--dry-run', action='store_true')
         parser.add_argument(
             '--allow-legacy-blocked-import',
@@ -95,17 +107,11 @@ class Command(BaseCommand):
         level = str(options['level'])
         dry = options['dry_run']
         provenance = PROVENANCE_ORIGINAL if is_original else PROVENANCE_BLOCKED
-        defaults = _DEFAULT_MINS.get(level, _DEFAULT_MINS['4'])
-        if is_original:
-            # original 追記は番号が小さいことが多いので、明示しない項目はスキップ寄り
-            defaults = {
-                'min_grammar': 1,
-                'min_conversation': 9999,
-                'min_wordorder': 9999,
-                'min_reading_passage': 9999,
-                'min_listening': 9999,
-                'min_writing': 9999,
-            }
+        defaults = (
+            _ORIGINAL_DEFAULT_MINS
+            if is_original
+            else _DEFAULT_MINS.get(level, _DEFAULT_MINS['4'])
+        )
 
         def pick(key: str) -> int:
             val = options[key]
@@ -117,6 +123,7 @@ class Command(BaseCommand):
         min_reading = pick('min_reading_passage')
         min_listening = pick('min_listening')
         min_writing = pick('min_writing')
+        min_speaking = pick('min_speaking')
 
         self.stdout.write(
             f'append: level={level}, original={is_original}, '
@@ -157,39 +164,53 @@ class Command(BaseCommand):
                 )
             else:
                 self.stdout.write('word_order: skipped')
-            if is_original:
-                # 読解・リスニング・ライティングの original 追記は別途。ここでは choice 系のみ。
-                self.stdout.write('reading/listening/writing: skipped (--original は choice 系のみ)')
+            self._append_reading(
+                level, min_reading, dry, provenance=provenance, original=is_original
+            )
+            if min_writing < 9000:
+                self._append_writing(
+                    level, min_writing, dry, provenance=provenance, original=is_original
+                )
             else:
-                self._append_reading(level, min_reading, dry)
-                if min_writing < 9000:
-                    self._append_writing(level, min_writing, dry)
-                else:
-                    self.stdout.write('writing: skipped')
-                self._append_listening_illustration(level, min_listening, dry)
+                self.stdout.write('writing: skipped')
+            if min_speaking < 9000:
+                self._append_speaking(
+                    level, min_speaking, dry, provenance=provenance, original=is_original
+                )
+            else:
+                self.stdout.write('speaking: skipped')
+            self._append_listening_illustration(
+                level, min_listening, dry, provenance=provenance, original=is_original
+            )
+            self._append_listening_exam_type(
+                level,
+                'listening_conversation',
+                'listening_conversation_questions.txt',
+                'part2',
+                'listening_conversation_question',
+                min_listening,
+                dry,
+                provenance=provenance,
+                original=is_original,
+            )
+            # 5級の part3 はイラスト一致のため listening_passage ファイルが無い場合あり
+            passage_path = Path(
+                questions_file_abspath(
+                    level, 'listening_passage_questions.txt', original=is_original
+                )
+            )
+            if passage_path.exists():
                 self._append_listening_exam_type(
                     level,
-                    'listening_conversation',
-                    'listening_conversation_questions.txt',
-                    'part2',
-                    'listening_conversation_question',
+                    'listening_passage',
+                    'listening_passage_questions.txt',
+                    'part3',
+                    'listening_passage_question',
                     min_listening,
                     dry,
+                    provenance=provenance,
+                    original=is_original,
                 )
-                # 5級の part3 はイラスト一致のため listening_passage ファイルが無い場合あり
-                passage_path = Path(
-                    questions_file_abspath(level, 'listening_passage_questions.txt')
-                )
-                if passage_path.exists():
-                    self._append_listening_exam_type(
-                        level,
-                        'listening_passage',
-                        'listening_passage_questions.txt',
-                        'part3',
-                        'listening_passage_question',
-                        min_listening,
-                        dry,
-                    )
             if dry:
                 transaction.set_rollback(True)
                 self.stdout.write(self.style.WARNING('dry-run: rollback'))
@@ -255,17 +276,19 @@ class Command(BaseCommand):
             added += 1
         self.stdout.write(self.style.SUCCESS(f'{qtype}: +{added}'))
 
-    def _append_writing(self, level, min_n, dry):
-        path = Path(questions_file_abspath(level, 'writing_questions.txt'))
+    def _append_writing(self, level, min_n, dry, *, provenance, original):
+        if min_n >= 9000:
+            self.stdout.write('writing: skipped')
+            return
+        path = Path(questions_file_abspath(level, 'writing_questions.txt', original=original))
         if not path.exists():
             self.stdout.write('writing: no file')
             return
         content = path.read_text(encoding='utf-8')
-        existing = set(
-            Question.objects.filter(level=level, question_type='writing').values_list(
-                'question_number', flat=True
-            )
-        )
+        existing_qs = Question.objects.filter(level=level, question_type='writing')
+        if original:
+            existing_qs = existing_qs.filter(provenance=provenance)
+        existing = set(existing_qs.values_list('question_number', flat=True))
         added = 0
         for block in content.split('---'):
             if not block.strip():
@@ -292,10 +315,10 @@ class Command(BaseCommand):
             q_text = body_match.group(1).strip()
             expl = expl_match.group(1).strip() if expl_match else ''
             if dry:
-                self.stdout.write(f'[dry] writing #{n}')
+                self.stdout.write(f'[dry] writing #{n} ({provenance})')
             else:
                 Question.objects.create(
-                    provenance=PROVENANCE_BLOCKED,
+                    provenance=provenance,
                     level=level,
                     question_type='writing',
                     question_text=q_text,
@@ -306,16 +329,75 @@ class Command(BaseCommand):
             added += 1
         self.stdout.write(self.style.SUCCESS(f'writing: +{added}'))
 
-    def _append_reading(self, level, min_passage, dry):
-        path = Path(questions_file_abspath(level, 'reading_comprehesion_questions.txt'))
+    def _append_speaking(self, level, min_n, dry, *, provenance, original):
+        if min_n >= 9000:
+            self.stdout.write('speaking: skipped')
+            return
+        from questions.management.commands.register_speaking_questions import (
+            _parse_speaking_block,
+        )
+
+        path = Path(questions_file_abspath(level, 'speaking_questions.txt', original=original))
+        if not path.exists():
+            self.stdout.write('speaking: no file')
+            return
+        content = path.read_text(encoding='utf-8')
+        existing_qs = Question.objects.filter(level=level, question_type='speaking')
+        if original:
+            existing_qs = existing_qs.filter(provenance=provenance)
+        existing = set(existing_qs.values_list('question_number', flat=True))
+        added = 0
+        for block in content.split('---'):
+            block = block.strip()
+            if not block:
+                continue
+            m = re.search(r'問題(\d+):', block)
+            if not m:
+                continue
+            n = int(m.group(1))
+            if n < min_n or n in existing:
+                continue
+            parsed = _parse_speaking_block(block, n, level)
+            if not parsed:
+                self.stdout.write(self.style.WARNING(f'skip parse speaking #{n}'))
+                continue
+            question_text, explanation, speaking_data = parsed
+            if dry:
+                self.stdout.write(f'[dry] speaking #{n} ({provenance})')
+            else:
+                Question.objects.create(
+                    provenance=provenance,
+                    question_text=question_text,
+                    level=level,
+                    question_type='speaking',
+                    question_number=n,
+                    explanation=explanation,
+                    speaking_data=speaking_data,
+                )
+            added += 1
+        self.stdout.write(self.style.SUCCESS(f'speaking: +{added}'))
+
+    def _append_reading(self, level, min_passage, dry, *, provenance, original):
+        if min_passage >= 9000:
+            self.stdout.write('reading: skipped')
+            return
+        path = Path(
+            questions_file_abspath(
+                level, 'reading_comprehesion_questions.txt', original=original
+            )
+        )
+        if not path.exists():
+            self.stdout.write('reading: no file')
+            return
         content = path.read_text(encoding='utf-8')
         # identifier は CharField(max_length=1) のため a–z のみ
         id_map = {
             i: chr(ord('a') + i - 1) for i in range(1, 27)
         }
-        existing_ids = set(
-            ReadingPassage.objects.filter(level=level).values_list('identifier', flat=True)
-        )
+        existing_qs = ReadingPassage.objects.filter(level=level)
+        if original:
+            existing_qs = existing_qs.filter(provenance=provenance)
+        existing_ids = set(existing_qs.values_list('identifier', flat=True))
         added_p = added_q = 0
         for block in content.split('---'):
             if not block.strip():
@@ -333,11 +415,11 @@ class Command(BaseCommand):
             if not p_match:
                 continue
             if dry:
-                self.stdout.write(f'[dry] reading passage {pnum}')
+                self.stdout.write(f'[dry] reading passage {pnum} ({provenance})')
                 passage = None
             else:
                 passage = ReadingPassage.objects.create(
-                    provenance=PROVENANCE_BLOCKED,
+                    provenance=provenance,
                     text=p_match.group(1).strip(),
                     level=level,
                     identifier=ident,
@@ -359,7 +441,6 @@ class Command(BaseCommand):
                     added_q += 1
                     continue
                 rq = ReadingQuestion.objects.create(
-                    provenance=PROVENANCE_BLOCKED,
                     passage=passage,
                     question_text=q_text,
                     question_number=i,
@@ -378,8 +459,20 @@ class Command(BaseCommand):
                 added_q += 1
         self.stdout.write(self.style.SUCCESS(f'reading: +{added_p} passages / +{added_q} qs'))
 
-    def _append_listening_illustration(self, level, min_n, dry):
-        path = Path(questions_file_abspath(level, 'listening_illustration_questions.txt'))
+    def _append_listening_illustration(
+        self, level, min_n, dry, *, provenance, original
+    ):
+        if min_n >= 9000:
+            self.stdout.write('listening_illustration: skipped')
+            return
+        path = Path(
+            questions_file_abspath(
+                level, 'listening_illustration_questions.txt', original=original
+            )
+        )
+        if not path.exists():
+            self.stdout.write('listening_illustration: no file')
+            return
         content = path.read_text(encoding='utf-8')
         blocks = []
         cur = []
@@ -394,7 +487,10 @@ class Command(BaseCommand):
             blocks.append('\n'.join(cur))
 
         existing = set()
-        for lq in ListeningQuestion.objects.filter(level=level):
+        lq_qs = ListeningQuestion.objects.filter(level=level)
+        if original:
+            lq_qs = lq_qs.filter(provenance=provenance)
+        for lq in lq_qs:
             m = re.search(r'listening_illustration_image(\d+)\.png', lq.image or '')
             if m:
                 existing.add(int(m.group(1)))
@@ -411,7 +507,6 @@ class Command(BaseCommand):
             if n < min_n or n in existing:
                 continue
             # dialogue until Question No.
-            dialog_lines = []
             choices = []
             mode = 'dialog'
             for line in lines[1:]:
@@ -421,9 +516,7 @@ class Command(BaseCommand):
                     continue
                 if s.startswith('【正解'):
                     break
-                if mode == 'dialog':
-                    dialog_lines.append(s)
-                elif re.match(r'^\d+\.', s):
+                if mode == 'choices' and re.match(r'^\d+\.', s):
                     choices.append(re.sub(r'^\d+\.\s*', '', s))
             a_match = re.search(r'【正解\d+】\s*(\d+)\.', block)
             e_match = re.search(r'【解説\d+】\s*(.*?)(?=\n---|$)', block, re.DOTALL)
@@ -435,11 +528,11 @@ class Command(BaseCommand):
             image = db_image_path_part1(level, f'listening_illustration_image{n}.png')
             audio = db_audio_path(level, 'part1', f'listening_illustration_question{n}.mp3')
             if dry:
-                self.stdout.write(f'[dry] listening_illustration #{n}')
+                self.stdout.write(f'[dry] listening_illustration #{n} ({provenance})')
             else:
                 # register_listening_illustration_questions と同じ: 本文空、選択肢は番号文字
                 lq = ListeningQuestion.objects.create(
-                    provenance=PROVENANCE_BLOCKED,
+                    provenance=provenance,
                     level=level,
                     question_text='',
                     explanation=expl,
@@ -458,15 +551,30 @@ class Command(BaseCommand):
         self.stdout.write(self.style.SUCCESS(f'listening_illustration: +{added}'))
 
     def _append_listening_exam_type(
-        self, level, qtype, filename, part, audio_prefix, min_n, dry
+        self,
+        level,
+        qtype,
+        filename,
+        part,
+        audio_prefix,
+        min_n,
+        dry,
+        *,
+        provenance,
+        original,
     ):
-        path = Path(questions_file_abspath(level, filename))
+        if min_n >= 9000:
+            self.stdout.write(f'{qtype}: skipped')
+            return
+        path = Path(questions_file_abspath(level, filename, original=original))
+        if not path.exists():
+            self.stdout.write(f'{qtype}: no file')
+            return
         content = path.read_text(encoding='utf-8')
-        existing = set(
-            Question.objects.filter(level=level, question_type=qtype).values_list(
-                'question_number', flat=True
-            )
-        )
+        existing_qs = Question.objects.filter(level=level, question_type=qtype)
+        if original:
+            existing_qs = existing_qs.filter(provenance=provenance)
+        existing = set(existing_qs.values_list('question_number', flat=True))
         added = 0
         for block in content.split('---'):
             if not block.strip():
@@ -504,10 +612,10 @@ class Command(BaseCommand):
             expl = em.group(1).strip() if em else ''
             af = db_audio_path(level, part, f'{audio_prefix}{n}.mp3')
             if dry:
-                self.stdout.write(f'[dry] {qtype} #{n}')
+                self.stdout.write(f'[dry] {qtype} #{n} ({provenance})')
             else:
                 q = Question.objects.create(
-                    provenance=PROVENANCE_BLOCKED,
+                    provenance=provenance,
                     level=level,
                     question_type=qtype,
                     question_text=q_text,

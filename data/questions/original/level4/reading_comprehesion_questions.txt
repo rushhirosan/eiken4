@@ -466,3 +466,241 @@ What did Kota do with the cookie?
 最後の文に「He gave the cookie to his mother after school.」とあります。
 1「He ate it at the station.（駅で食べた）」も、3「He put it in his wet shoes.（ぬれた靴に入れた）」も、2「He gave it to the first-grader again.（一年生にまたあげた）」もしていません。
 ヒント：物語の最後の文に、その人の気持ちや次の行動が書いてあることが多いです。
+
+---
+
+本文7
+Lost-and-Found Scarf Box
+The music club found a red scarf last Tuesday.
+
+When: April 14 – April 18, after school
+Where: Music room, on the piano
+
+You can look in the box after school.
+If it is yours, tell Ms. Aoki and take it home.
+
+Talk to Ms. Aoki by April 17 if you lost a scarf.
+
+問題7a:
+Where is the lost-and-found box?
+
+選択肢7a:
+1. At home, after you take the scarf.
+2. On the piano in the music room.
+3. In Ms. Aoki's bag until April 17.
+4. In the music room only on April 18.
+
+【正解7a】
+2. On the piano in the music room.
+
+【解説7a】
+正解は「On the piano in the music room.」です。
+Where の行に「Music room, on the piano」とあります。箱は音楽室のピアノの上です。
+1「At home, after you take the scarf.（スカーフを持って帰ったあとの家）」は、自分のスカーフだったときの行き先です。3「In Ms. Aoki's bag until April 17.（4月17日まで青木先生のかばんの中）」ではありません。青木先生は声をかける相手で、期限は申し込みの日付です。4「In the music room only on April 18.（音楽室で4月18日だけ）」は、見られる最終日と場所を混ぜています。
+ヒント：場所は Where: の行です。When: の日付や先生の名前と mix しないようにしましょう。
+
+問題7b:
+When should students talk to Ms. Aoki if they lost a scarf?
+
+選択肢7b:
+1. On April 18 only.
+2. Last Tuesday only.
+3. By April 17.
+4. From April 14 with no end.
+
+【正解7b】
+3. By April 17.
+
+【解説7b】
+正解は「By April 17.」です。
+「Talk to Ms. Aoki by April 17 if you lost a scarf.」とあります。by は「その日まで」という意味です。
+1「On April 18 only.（4月18日だけ）」は箱を見られる最終日です。2「Last Tuesday only.（先週の火曜日だけ）」は赤いスカーフが見つかった日です。4「From April 14 with no end.（4月14日から終わりなし）」ではありません。When: の行は箱を見られる期間です。
+ヒント：申し込みや相談の期限は by のあとの日付です。When: の行はイベントや公開の期間です。
+
+---
+
+本文8
+From: Sora
+To: Haru
+Subject: Saturday library duty
+
+Hi Haru,
+
+I have library duty this Saturday from 10:00 a.m. to 12:00, but my cousin will visit my house that morning.
+Can you take my duty? You will stamp returned books and put them on the cart by the window.
+The work is easy, but please be quiet because some students study there.
+
+Please meet Ms. Kato in the library at 9:50 a.m. She will give you the stamp and a short list.
+Do not wait at the school gate. The library door by the garden is open on Saturday.
+
+If you cannot come, please tell Kenta tonight. He can work from 10:00 to 11:00, and I can finish after lunch.
+I will do your Tuesday hallway sweep next week.
+
+I will send you a message on Friday night to check.
+
+Thanks,
+Sora
+
+問題8a:
+What does Sora want Haru to do?
+
+選択肢8a:
+1. Take her Saturday library duty.
+2. Visit Sora's cousin on Saturday morning.
+3. Sweep the hallway on Tuesday.
+4. Wait at the school gate at 9:50.
+
+【正解8a】
+1. Take her Saturday library duty.
+
+【解説8a】
+正解は「Take her Saturday library duty.」です。
+本文に「Can you take my duty?」とあり、土曜の図書当番を代わってほしい、と書いてあります。
+2「Visit Sora's cousin on Saturday morning.（土曜の朝にソラのいとこを訪ねる）」はソラの都合です。3「Sweep the hallway on Tuesday.（火曜に廊下をそうじする）」は、あとでソラがハルの当番をする話です。4「Wait at the school gate at 9:50.（9時50分に校門で待つ）」はしないでほしいことです。
+ヒント：Can you の直後が、相手にお願いしていることです。I will do your の文は、お返しの仕事です。
+
+問題8b:
+Where should Haru meet Ms. Kato?
+
+選択肢8b:
+1. At Sora's house at 10:00 a.m.
+2. At the school gate.
+3. At the cart by the window after lunch.
+4. In the library at 9:50 a.m.
+
+【正解8b】
+4. In the library at 9:50 a.m.
+
+【解説8b】
+正解は「In the library at 9:50 a.m.」です。
+「Please meet Ms. Kato in the library at 9:50 a.m.」とあります。
+2「At the school gate.（校門で）」は待たないでほしい場所です。1「At Sora's house at 10:00 a.m.（午前10時にソラの家で）」は当番の開始時刻といとこの訪問を混ぜています。3「At the cart by the window after lunch.（昼のあと、窓のそばのカートで）」は本を置く場所と、ソラが残りの仕事をする時間です。
+ヒント：meet の文と Do not wait の文を対で読むと、待ち合わせ場所をまちがえません。
+
+問題8c:
+What should Haru do if he cannot come?
+
+選択肢8c:
+1. Finish the duty after lunch by himself.
+2. Tell Kenta tonight.
+3. Wait at the school gate on Sunday.
+4. Sweep the hallway on Friday night.
+
+【正解8c】
+2. Tell Kenta tonight.
+
+【解説8c】
+正解は「Tell Kenta tonight.」です。
+「If you cannot come, please tell Kenta tonight.」とあります。ケンタが10時から11時まで入り、ソラが昼のあとに残ります。
+1「Finish the duty after lunch by himself.（自分だけで昼のあとに当番を終える）」はソラの予定です。3「Wait at the school gate on Sunday.（日曜に校門で待つ）」は出ていません。4「Sweep the hallway on Friday night.（金曜の夜に廊下をそうじする）」は、火曜のそうじと金曜のメッセージを混ぜたひっかけです。
+ヒント：If you cannot の文は、来られないときの別のやり方です。お返しのそうじの文と分けて読みましょう。
+
+---
+
+本文9
+Last week, Ren had to skip rope thirty times without stopping for sports day.
+He tried in the hallway, but his long rope hit his feet, so he stopped after ten jumps.
+
+His mother said, "The hallway is too small. Please try outside."
+Ren went to the courtyard. His next-door neighbor, Hana, was hanging shirts on a line.
+She saw him and came over with tape.
+
+Hana said, "Your rope is too long, so I can make it shorter."
+She taped the extra part. Then she clapped slowly, because Ren jumped too fast.
+Ren counted out loud, and he reached twenty jumps.
+
+On Friday, sports day came. The ground was a little wet, and many children fell.
+Ren jumped slowly and finished thirty times. He did not win a prize, but his teacher smiled.
+
+After school, Ren took small cookies to Hana. He said, "The tape helped me."
+Hana laughed and told him to keep the tape on the rope.
+
+問題9a:
+What did Ren have to do for sports day?
+
+選択肢9a:
+1. Hang shirts on a line.
+2. Buy a prize for his teacher.
+3. Skip rope thirty times without stopping.
+4. Clap slowly in the courtyard.
+
+【正解9a】
+3. Skip rope thirty times without stopping.
+
+【解説9a】
+正解は「Skip rope thirty times without stopping.」です。
+最初の文に「Ren had to skip rope thirty times without stopping for sports day.」とあります。
+1「Hang shirts on a line.（シャツを干して並べる）」はハナがしていたことです。4「Clap slowly in the courtyard.（中庭でゆっくり手拍子する）」はハナの助け方です。2「Buy a prize for his teacher.（先生に賞品を買う）」は出ていません。レンは賞品をもらっていません。
+ヒント：物語の最初の文に、やらなければいけないことが書いてあることが多いです。
+
+問題9b:
+Why did Ren stop after ten jumps in the hallway?
+
+選択肢9b:
+1. Because his long rope hit his feet.
+2. Because Hana took the rope away.
+3. Because the ground was a little wet.
+4. Because he already won a prize.
+
+【正解9b】
+1. Because his long rope hit his feet.
+
+【解説9b】
+正解は「Because his long rope hit his feet.」です。
+「He tried in the hallway, but his long rope hit his feet, so he stopped after ten jumps.」とあります。so の前が、止まった理由です。
+3「Because the ground was a little wet.（地面が少しぬれていたから）」は運動会当日の話です。2「Because Hana took the rope away.（ハナが縄を持っていったから）」ではありません。ハナはあとからテープで短くしてくれます。4「Because he already won a prize.（もう賞品をもらっていたから）」も違います。
+ヒント：but と so の近くに、うまくいかなかった理由があります。別の段落の天気と混ぜないようにしましょう。
+
+問題9c:
+What did Hana do to Ren's rope?
+
+選択肢9c:
+1. She hung it on the shirt line.
+2. She put it in the hallway.
+3. She gave it to the teacher.
+4. She taped the extra part.
+
+【正解9c】
+4. She taped the extra part.
+
+【解説9c】
+正解は「She taped the extra part.」です。
+ハナは「Your rope is too long, so I can make it shorter.」と言って、「She taped the extra part.」とあります。長すぎる部分をテープで止めました。
+1「She hung it on the shirt line.（シャツの干し綱にかけた）」ではありません。干していたのはシャツです。2「She put it in the hallway.（廊下に置いた）」も、3「She gave it to the teacher.（先生にあげた）」もしていません。手拍子はジャンプの速さを助けるためで、縄そのものへの作業ではありません。
+ヒント：make it shorter の次の文に、縄へしたことが書いてあります。
+
+問題9d:
+What happened on sports day?
+
+選択肢9d:
+1. Ren stopped after ten jumps again.
+2. Ren finished thirty times.
+3. Hana ran in the race for Ren.
+4. The teacher was angry about the tape.
+
+【正解9d】
+2. Ren finished thirty times.
+
+【解説9d】
+正解は「Ren finished thirty times.」です。
+「Ren jumped slowly and finished thirty times.」とあります。地面は少しぬれていて、多くの子が転びましたが、レンはゆっくり跳んで30回できました。
+1「Ren stopped after ten jumps again.（また10回で止まった）」は最初の廊下の話です。3「Hana ran in the race for Ren.（ハナがレンの代わりに走った）」も、4「The teacher was angry about the tape.（先生がテープに怒った）」もありません。先生はほほえんでいます。賞品はもらっていません。
+ヒント：On Friday, sports day came. の段落に、本番の結果がまとまっています。
+
+問題9e:
+What did Ren do after school?
+
+選択肢9e:
+1. He practiced in the hallway again.
+2. He asked his mother for a prize.
+3. He took small cookies to Hana.
+4. He gave the tape back to the teacher.
+
+【正解9e】
+3. He took small cookies to Hana.
+
+【解説9e】
+正解は「He took small cookies to Hana.」です。
+最後の段落に「After school, Ren took small cookies to Hana.」とあります。テープが助かった、と伝えています。
+1「He practiced in the hallway again.（また廊下で練習した）」も、2「He asked his mother for a prize.（母に賞品をもとめた）」もしていません。4「He gave the tape back to the teacher.（テープを先生に返した）」も違います。ハナはテープを縄につけたままにしておくように言いました。
+ヒント：After school の段落に、お礼の行動が書いてあります。

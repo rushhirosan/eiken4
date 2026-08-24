@@ -58,8 +58,8 @@ python manage.py update_listening_explanations --level 4
 
 **進捗を消したくないとき**は `register_*` / `create_*`（削除→再作成）を使わず、次を使う。
 - 解説だけ: `update_explanations`
-- original の番号追記: `append_new_questions --level 4 --original --min-grammar 11`
-  （`--original` 時の既定は grammar のみ追記。既存 original は消さない）
+- original の番号追記: `append_new_questions --level 4 --original`
+  （既存 original は消さず、未登録番号だけ追加。文法・会話・語順・読解・L・speaking・writing 対応）
 `listening_illustration` は【解説】に加え【正解】番号と `ListeningChoice.is_correct` も同期する。
 
 ユーティリティ（PDF 抽出・TTS）の出力先は `utils/pdf_text_extractor.py` 等の引数・環境変数、または `utils/eiken_paths.py` と `--level` で 3級に切り替え可能。既定は 4級レイアウトのまま。

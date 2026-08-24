@@ -205,3 +205,233 @@ We ( ) [2番目] ( ) [4番目] ( ) if we finish early.
 We will go to the park if we finish early.
 2番目は go、4番目は the です。全文は「私たちは宿題を早く終わらせたら公園へ行きます」という意味です。
 will go to the park の順を押さえましょう。
+
+---
+
+問題11:
+彼らはきのう新しい博物館を見学しました。
+① a ② visited ③ new ④ museum ⑤ yesterday
+They ( ) [2番目] ( ) [4番目] ( ).
+
+選択肢11:
+1. ② ─ ③
+2. ① ─ ④
+3. ② ─ ①
+4. ① ─ ③
+
+【正解11】
+2. ① ─ ④
+
+【解説11】
+They visited a new museum yesterday.
+2番目は a、4番目は museum です。全文は「彼らはきのう新しい博物館を見学しました」という意味です。
+正しい順は visited → a → new → museum → yesterday です。yesterday があるので動詞は過去形 visited になります。
+ほかの並び：1は2番目が visited で a new museum が崩れます。3も2番目が visited です。4は4番目が new で、museum の位置がずれます。
+ヒント：last / yesterday の文は、主語のあとすぐ過去形、とそのあとの名詞の順を確かめましょう。
+
+---
+
+問題12:
+私たちは放課後にクッキーを焼きます。
+① will ② bake ③ cookies ④ after ⑤ school
+We ( ) [2番目] ( ) [4番目] ( ).
+
+選択肢12:
+1. ② ─ ④
+2. ① ─ ③
+3. ② ─ ③
+4. ① ─ ④
+
+【正解12】
+1. ② ─ ④
+
+【解説12】
+We will bake cookies after school.
+2番目は bake、4番目は after です。全文は「私たちは放課後にクッキーを焼きます」という意味です。
+正しい順は will → bake → cookies → after → school です。will のあとは動詞の原形 bake です。
+ほかの並び：2と4は2番目が will になり、原形 bake が2番目に来ません。3は4番目が cookies で、after school の位置が崩れます。
+ヒント：will の直後は原形、そのあと目的語、最後に after school などの時を置きましょう。
+
+---
+
+問題13:
+妹はとても高く跳べます。
+① jump ② My sister ③ very ④ can ⑤ high
+( ) [2番目] ( ) [4番目] ( ).
+
+選択肢13:
+1. ② ─ ①
+2. ④ ─ ①
+3. ④ ─ ③
+4. ② ─ ④
+
+【正解13】
+3. ④ ─ ③
+
+【解説13】
+My sister can jump very high.
+2番目は can、4番目は very です。全文は「妹はとても高く跳べます」という意味です。
+正しい順は My sister → can → jump → very → high です。can のあとは動詞の原形 jump です。
+ほかの並び：1と4は2番目が My sister になり、can が2番目に来ません。2は4番目が jump で、very high の位置がずれます。
+ヒント：can の文は「だれが + can + 原形 + 様子」の順で組み立てましょう。
+
+---
+
+問題14:
+あなたは私のゴーグルをどこに置きましたか。
+① did ② you ③ put ④ Where ⑤ my
+( ) [2番目] ( ) [4番目] ( ) goggles?
+
+選択肢14:
+1. ④ ─ ②
+2. ① ─ ②
+3. ④ ─ ③
+4. ① ─ ③
+
+【正解14】
+4. ① ─ ③
+
+【解説14】
+Where did you put my goggles?
+2番目は did、4番目は put です。全文は「あなたは私のゴーグルをどこに置きましたか」という意味です。
+正しい順は Where → did → you → put → my です。過去の疑問文では Where + did + 人 + 動詞の原形 になります。
+ほかの並び：1と3は2番目が Where になり、did が2番目に来ません。2は4番目が you で、動詞 put の位置がずれます。
+ヒント：Where / What の過去の疑問は did のあと原形、と覚えましょう。
+
+---
+
+問題15:
+ケンは池の近くでカエルを見つけました。
+① a ② found ③ frog ④ near ⑤ the
+Ken ( ) [2番目] ( ) [4番目] ( ) pond.
+
+選択肢15:
+1. ① ─ ④
+2. ② ─ ③
+3. ① ─ ③
+4. ② ─ ④
+
+【正解15】
+1. ① ─ ④
+
+【解説15】
+Ken found a frog near the pond.
+2番目は a、4番目は near です。全文は「ケンは池の近くでカエルを見つけました」という意味です。
+正しい順は found → a → frog → near → the です。found は find の過去形です。
+ほかの並び：2と4は2番目が found になり、a frog の順がずれます。3は4番目が frog で、near the pond が崩れます。
+ヒント：見つけたもの（a frog）のあと、場所（near the pond）を続ける型です。
+
+---
+
+問題16:
+鳥は山の上を飛ぶことができます。
+① can ② fly ③ over ④ the ⑤ Birds
+( ) [2番目] ( ) [4番目] ( ) mountain.
+
+選択肢16:
+1. ⑤ ─ ②
+2. ① ─ ③
+3. ① ─ ②
+4. ⑤ ─ ①
+
+【正解16】
+2. ① ─ ③
+
+【解説16】
+Birds can fly over the mountain.
+2番目は can、4番目は over です。全文は「鳥は山の上を飛ぶことができます」という意味です。
+正しい順は Birds → can → fly → over → the です。can のあとは原形 fly です。
+ほかの並び：1と4は2番目が Birds になり、can が2番目に来ません。3は4番目が fly で、over the mountain の位置がずれます。
+ヒント：can + 原形のあと、over / in / on などの場所を続けましょう。
+
+---
+
+問題17:
+私はあした母を手伝います。
+① help ② will ③ mother ④ my ⑤ tomorrow
+I ( ) [2番目] ( ) [4番目] ( ).
+
+選択肢17:
+1. ② ─ ④
+2. ① ─ ④
+3. ① ─ ③
+4. ② ─ ①
+
+【正解17】
+3. ① ─ ③
+
+【解説17】
+I will help my mother tomorrow.
+2番目は help、4番目は mother です。全文は「私はあした母を手伝います」という意味です。
+正しい順は will → help → my → mother → tomorrow です。will のあとは原形 help です。
+ほかの並び：1と4は2番目が will になり、原形 help が2番目に来ません。2は4番目が my で、mother の位置がずれます。
+ヒント：will + 原形 + 人、のあと tomorrow などの時を置きましょう。
+
+---
+
+問題18:
+あなたのお兄さんはサッカーが好きですか。
+① Does ② your ③ like ④ brother ⑤ soccer
+( ) [2番目] ( ) [4番目] ( )?
+
+選択肢18:
+1. ② ─ ③
+2. ① ─ ④
+3. ② ─ ④
+4. ① ─ ③
+
+【正解18】
+1. ② ─ ③
+
+【解説18】
+Does your brother like soccer?
+2番目は your、4番目は like です。全文は「あなたのお兄さんはサッカーが好きですか」という意味です。
+正しい順は Does → your → brother → like → soccer です。Does のあとは人、そのあと動詞の原形 like です。
+ほかの並び：2と4は2番目が Does になり、your が2番目に来ません。3は4番目が brother で、like の位置がずれます。
+ヒント：Does + 人 + 原形、で「〜しますか／好きですか」を作ります。
+
+---
+
+問題19:
+私たちは庭で昼ごはんを食べました。
+① lunch ② ate ③ the ④ in ⑤ garden
+We ( ) [2番目] ( ) [4番目] ( ).
+
+選択肢19:
+1. ② ─ ④
+2. ① ─ ④
+3. ② ─ ①
+4. ① ─ ③
+
+【正解19】
+4. ① ─ ③
+
+【解説19】
+We ate lunch in the garden.
+2番目は lunch、4番目は the です。全文は「私たちは庭で昼ごはんを食べました」という意味です。
+正しい順は ate → lunch → in → the → garden です。ate は eat の過去形です。
+ほかの並び：1と3は2番目が ate になり、lunch が2番目に来ません。2は4番目が in で、the garden の位置がずれます。
+ヒント：過去の「食べた」は ate。目的語のあと in / at で場所を続けましょう。
+
+---
+
+問題20:
+あなたはこの窓を開けられますか。
+① you ② Can ③ open ④ this ⑤ window
+( ) [2番目] ( ) [4番目] ( )?
+
+選択肢20:
+1. ② ─ ③
+2. ① ─ ③
+3. ① ─ ④
+4. ② ─ ①
+
+【正解20】
+3. ① ─ ④
+
+【解説20】
+Can you open this window?
+2番目は you、4番目は this です。全文は「あなたはこの窓を開けられますか」という意味です。
+正しい順は Can → you → open → this → window です。Can のあとは人、そのあと原形 open です。
+ほかの並び：1と4は2番目が Can になり、you が2番目に来ません。2は4番目が open で、this window の位置がずれます。
+ヒント：Can you + 原形 〜? で「〜できますか／〜してくれますか」になります。
