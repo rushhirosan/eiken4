@@ -390,28 +390,35 @@ async def main_async(args):
     pass_txt = args.passage_txt or questions_txt(lev, 'listening_passage_questions.txt')
     part2_dir = args.part2_dir or static_audio_part(lev, 'part2')
     part3_dir = args.part3_dir or static_audio_part(lev, 'part3')
-
-    if not os.path.exists(conv_txt):
-        raise SystemExit(f'入力ファイルが見つかりません: {conv_txt}')
+    question_range = tuple(args.question_range) if args.question_range else None
+    part = getattr(args, 'part', 'both')
 
     rate = getattr(args, 'rate', None) or default_tts_rate(lev)
-    await generate_audio_from_file(
-        conv_txt,
-        part2_dir,
-        question_range=None,
-        output_prefix='listening_conversation_question',
-        rate=rate,
-    )
-    print('--- 第2部 完了 ---')
-    if os.path.exists(pass_txt):
+
+    if part in ('2', 'both'):
+        if not os.path.exists(conv_txt):
+            raise SystemExit(f'入力ファイルが見つかりません: {conv_txt}')
+        await generate_audio_from_file(
+            conv_txt,
+            part2_dir,
+            question_range=question_range,
+            output_prefix='listening_conversation_question',
+            rate=rate,
+        )
+        print('--- 第2部 完了 ---')
+
+    if part in ('3', 'both'):
+        if not os.path.exists(pass_txt):
+            raise SystemExit(f'入力ファイルが見つかりません: {pass_txt}')
         await generate_audio_from_file(
             pass_txt,
             part3_dir,
-            question_range=None,
+            question_range=question_range,
             output_prefix='listening_passage_question',
             rate=rate,
         )
         print('--- 第3部 完了 ---')
+
     print('音声生成が完了しました。')
 
 
@@ -436,6 +443,20 @@ def main():
         '--rate',
         default=None,
         help='Edge TTS の話速（未指定時: 5級=-15%%, 他級=+0%%）',
+    )
+    parser.add_argument(
+        '--question-range',
+        nargs=2,
+        type=int,
+        metavar=('START', 'END'),
+        default=None,
+        help='問題番号の範囲（オプション）',
+    )
+    parser.add_argument(
+        '--part',
+        choices=['2', '3', 'both'],
+        default='both',
+        help='生成するパート（既定: 第2・第3部両方）',
     )
     args = parser.parse_args()
     asyncio.run(main_async(args))
