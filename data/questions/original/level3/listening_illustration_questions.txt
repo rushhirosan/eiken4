@@ -244,12 +244,12 @@ W: Why not? Have you lost your lunch ticket?
 M: No. I have left my lunch ticket in the art room. What should I do?
 
 Question No.11:
-1. Ask the art teacher to check the drying rack.
+1. Ask the art teacher if anyone found it.
 2. The art room is on the third floor.
 3. Lunch starts at twelve.
 
 【正解11】
-1. Ask the art teacher to check the drying rack.
+1. Ask the art teacher if anyone found it.
 
 【解説11】
 放送文
@@ -257,9 +257,9 @@ M: I can't use the school microwave today.（きょう、学校の電子レン�
 W: Why not? Have you lost your lunch ticket?（どうして？食券をなくしたの？）
 M: No. I have left my lunch ticket in the art room. What should I do?（ちがう。食券を美術室に置き忘れたんだ。どうしたらいい？）
 
-理由のあと、次の行動を聞いているので、1「Ask the art teacher to check the drying rack.（美術の先生に、作品を乾かす棚を見てもらう）」が自然です。
+置き忘れた場所が美術室なので、次の行動は 1「Ask the art teacher if anyone found it.（美術の先生に、だれか見つけていないか聞く）」が自然です。
 2「The art room is on the third floor.（美術室は3階）」は場所、3「Lunch starts at twelve.（昼食は12時）」は時刻で、どうするかの答えではありません。
-ヒント：なくした？と聞かれたあとの No. の文が、本当に起きたことです。ひっかけは時刻や食券の中身です。
+ヒント：なくした？と聞かれたあとの No. の文が、本当に起きたことです。ひっかけは場所や時刻です。
 
 ---
 
