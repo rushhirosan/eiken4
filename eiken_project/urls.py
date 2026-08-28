@@ -26,6 +26,7 @@ from eiken_project.views import (
     guide_topic,
     guide_topic_slashless_redirect,
     guides,
+    favicon_ico,
     landing,
     llms_txt,
     privacy_policy,
@@ -54,6 +55,7 @@ urlpatterns = [
     path('exams/', include('exams.urls')),
     path('', landing, name='landing'),
     path('robots.txt', robots_txt, name='robots_txt'),
+    path('favicon.ico', favicon_ico, name='favicon_ico'),
     path('llms.txt', llms_txt, name='llms_txt'),
     # Google Search Console verification file
     path('google41829dffd897ace8.html', google_verification),

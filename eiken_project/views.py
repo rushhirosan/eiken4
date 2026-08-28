@@ -2,7 +2,7 @@ import json
 from pathlib import Path
 
 from django.conf import settings
-from django.http import Http404, HttpResponse, HttpResponsePermanentRedirect
+from django.http import FileResponse, Http404, HttpResponse, HttpResponsePermanentRedirect
 from django.shortcuts import redirect, render
 from django.urls import reverse
 from django.utils.safestring import mark_safe
@@ -40,6 +40,16 @@ def robots_txt(request):
     """ルートで robots.txt を配信"""
     path = Path(settings.BASE_DIR) / 'static' / 'robots.txt'
     return HttpResponse(path.read_text(encoding='utf-8'), content_type='text/plain')
+
+
+def favicon_ico(request):
+    """ブラウザが自動で取りに来る /favicon.ico を配信"""
+    path = Path(settings.BASE_DIR) / 'static' / 'favicon.ico'
+    if not path.exists():
+        raise Http404()
+    response = FileResponse(path.open('rb'), content_type='image/x-icon')
+    response['Cache-Control'] = 'public, max-age=604800'
+    return response
 
 
 def llms_txt(request):

@@ -57,6 +57,27 @@ class LandingPageTest(TestCase):
         self.assertRedirects(response, reverse('exams:exam_list'))
 
 
+class FaviconTest(TestCase):
+    def test_favicon_ico_served_at_root(self):
+        response = Client().get(reverse('favicon_ico'))
+        self.assertEqual(response.status_code, 200)
+        self.assertEqual(response['Content-Type'], 'image/x-icon')
+        body = b''.join(response.streaming_content)
+        self.assertGreater(len(body), 100)
+
+    def test_landing_links_favicon(self):
+        response = Client().get(reverse('landing'))
+        self.assertEqual(response.status_code, 200)
+        self.assertContains(response, 'favicon.svg')
+        self.assertContains(response, 'favicon.ico')
+        self.assertContains(response, 'apple-touch-icon.png')
+
+    def test_login_links_favicon(self):
+        response = Client().get(reverse('login'))
+        self.assertEqual(response.status_code, 200)
+        self.assertContains(response, 'favicon.svg')
+
+
 class RobotsTxtTest(TestCase):
     def test_robots_txt_served_at_root(self):
         response = Client().get(reverse('robots_txt'))
@@ -363,6 +384,7 @@ class AppShellSeoTest(TestCase):
         self.assertContains(response, 'えいごごはん')
         self.assertContains(response, '5級・4級・3級')
         self.assertContains(response, 'eigogohan-og-image.png')
+        self.assertContains(response, 'favicon.svg')
         self.assertNotContains(response, 'eiken-og-image.png')
         self.assertNotContains(response, 'eiken-og-image.jpg')
         self.assertContains(response, '英検®は、公益財団法人 日本英語検定協会の登録商標です。')
