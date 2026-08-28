@@ -314,6 +314,10 @@ class ExamListViewTest(TestCase):
         response = self.client.get(self.url)
         self.assertContains(response, '今週あと1回、連続をキープできます')
         self.assertContains(response, '7日連続をキープ')
+        html = response.content.decode()
+        status_line = html.split('exam-habit-status-line', 1)[1].split('</div>', 1)[0]
+        self.assertIn('exam-habit-grace-notice', status_line)
+        self.assertNotIn('<p class="exam-habit-grace-notice', html)
 
     def test_exam_list_badge_modal_shows_unlock_hint_for_unearned(self):
         """未獲得バッジにも獲得条件を表示する"""

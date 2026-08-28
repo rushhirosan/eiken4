@@ -36,10 +36,10 @@
             </button>
         </span>
         {% endif %}
+        {% if streak.grace_notice %}
+        <span class="exam-habit-grace-notice text-muted">{{ streak.grace_notice }}</span>
+        {% endif %}
         {% endwith %}
     </div>
-    {% if habit_summary.streak.grace_notice %}
-    <p class="exam-habit-grace-notice mb-0 small text-muted">{{ habit_summary.streak.grace_notice }}</p>
-    {% endif %}
 </div>
 {% endif %}
