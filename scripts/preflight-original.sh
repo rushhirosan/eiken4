@@ -27,7 +27,7 @@ usage() {
 Usage: $0 [options]
 
   (no args)   manage.py check + 語順(5/4/3) + 公開面テスト
-  --quick     check を省略し、語順 + 公開面テストのみ
+  --quick     check を省略し、語順 + 公開面テスト + original 全件検証
   -h, --help  このヘルプ
 
 Phase 2 完成後: validate_original_questions.py をここに追加予定。
@@ -72,7 +72,10 @@ done
 
 run_step "$PYTHON manage.py test exams.tests_provenance questions.tests_legacy_import_guard -v 1"
 
-# Phase 2: validate_original_questions.py をここに追加
+# Phase 2: original 全件スキャン（語順の詳細検算は上記 wordorder スクリプト）
+run_step "$PYTHON utils/validate_original_questions.py"
+
+# Phase 2 以降: 追加チェックはここに
 
 echo ""
 echo "OK: preflight-original 完了"

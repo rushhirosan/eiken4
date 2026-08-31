@@ -51,7 +51,15 @@ description: Reviews original practice questions for level fit, dummy-choice qua
 python utils/validate_wordorder_questions.py data/questions/original/level{N}/wordorder_questions.txt
 ```
 
-FAIL なら直す。通るまで「品質 OK」にしない。
+**original 全カテゴリ**（語順以外も含む）は Phase 2 バリデータを必ず通す:
+
+```bash
+python utils/validate_original_questions.py --level {N}
+# または全級
+python utils/validate_original_questions.py
+```
+
+`./scripts/preflight-original.sh` も内部で実行する。ERROR 0 でない限り「品質 OK」にしない。WARN（正解偏り）は内容を確認する。
 
 ## Workflow
 

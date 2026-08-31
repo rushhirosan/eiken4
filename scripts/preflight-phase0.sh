@@ -212,6 +212,7 @@ plan_steps() {
   add_step "$PYTHON manage.py check"
 
   if has_kind original || has_kind explanations; then
+    add_step "$PYTHON utils/validate_original_questions.py"
     for lv in $(affected_original_levels); do
       add_step "$PYTHON utils/validate_wordorder_questions.py --original --level $lv"
     done

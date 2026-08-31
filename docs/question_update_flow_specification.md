@@ -5,11 +5,12 @@
 
 **データ置き場（級別）**: レガシー問題 txt の 4級は `data/questions/*.txt`、3/5 は `data/questions/level{N}/`。音声・画像は全級 `static/audio/level{N}/part*` / `static/images/level{N}/part1`（登録コマンドは `--level`）。公開用 original は `data/questions/original/level{N}/`。
 
-**original 登録前の preflight**（[Phase 1](testing_automation_roadmap.md#phase-1-preflight-スクリプト統合)）:
+**original 登録前の preflight**（[Phase 1–2](testing_automation_roadmap.md#phase-1-preflight-スクリプト統合)）:
 
 ```bash
-./scripts/preflight-original.sh          # check + 語順(5/4/3) + 公開面テスト
-./scripts/preflight-original.sh --quick  # 日常用（check 省略）
+./scripts/preflight-original.sh          # check + 語順(5/4/3) + 公開面テスト + original 全件検証
+./scripts/preflight-original.sh --quick  # 語順 + 公開面テスト + original 全件（check 省略）
+python utils/validate_original_questions.py --level 4   # 級・カテゴリ単位
 ```
 
 `--original` 登録・本番反映の前に通す。`scripts/release.sh` も内部で同 preflight を実行する。
