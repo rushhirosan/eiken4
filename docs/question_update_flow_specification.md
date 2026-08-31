@@ -508,8 +508,24 @@ B : Yes, I did. I'm happy.
 
 【解説1】
 「win」は「勝つ」という意味です。Mikaはスピーチコンテストに出て...
+
+【ポイント1】
+種別: 単語
+見出し: コンテストに「勝つ」は win
+・win the contest / win the game
+・「勝つ相手」は beat（beat the team）
 ---
 ```
+
+#### 【ポイントN】ブロック（任意）
+
+`【解説N】` のあとに置ける学習ポイント。`Question.study_points`（JSON）に入り、回答結果画面の解説の手前と、ページ下部の「今回のまとめ」表に出る。ノート・振り返り用。
+
+- `種別:` … 単語 / 熟語 / 文法 / 会話 / 読解 / リスニング（`Question.STUDY_POINT_BADGE_CLASSES` のキー）
+- `見出し:` … 1行で言い切る
+- `・` 行 … 覚える要点。3つ程度まで
+- 省略した問題は `study_points` が `None` になり、画面には何も出ない
+- パースは `questions/study_points.py` の `extract_explanation` / `extract_study_points`
 
 #### 更新コマンド
 ```bash

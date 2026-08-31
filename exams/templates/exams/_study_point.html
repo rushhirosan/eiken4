@@ -1,0 +1,24 @@
+{% comment %}
+この問題で押さえるポイント。answer.question / question のどちらでも使えるよう
+呼び出し側で {% include 'exams/_study_point.html' with sp_question=answer.question %} と渡す。
+{% endcomment %}
+{% if sp_question.study_points %}
+<div class="study-point mt-3">
+    <div class="study-point-head">
+        <span class="study-point-label">⭐ この問題のポイント</span>
+        {% if sp_question.study_points.category %}
+        <span class="badge {{ sp_question.study_point_badge_class }}">{{ sp_question.study_points.category }}</span>
+        {% endif %}
+    </div>
+    {% if sp_question.study_points.title %}
+    <div class="study-point-title">{{ sp_question.study_points.title }}</div>
+    {% endif %}
+    {% if sp_question.study_points.keys %}
+    <ul class="study-point-keys">
+        {% for key in sp_question.study_points.keys %}
+        <li>{{ key }}</li>
+        {% endfor %}
+    </ul>
+    {% endif %}
+</div>
+{% endif %}

@@ -16,6 +16,13 @@ A : Why did you stay home yesterday? B : ( ) I had a headache.
 ほかの選択肢：「Although（〜だけれども）」は逆の内容をつなぎます。「Before（〜の前に）」「Until（〜まで）」は時間のつなぎで、理由の答えになりません。
 ヒント：Why のあとにくる答えは、だいたい Because から始まります。
 
+【ポイント1】
+種別: 文法
+見出し: Why の答えは Because（理由を表すつなぎ言葉）
+・Because のあとは「主語 + 動詞」の文が続く
+・Although は逆接、Before / Until は時を表す
+・理由が名詞ひとつなら because of を使う
+
 ---
 
 問題2:
@@ -35,6 +42,13 @@ This bag is ( ) than that one, so I can carry it easily.
 文全体は「このかばんはあれより軽いので、かんたんに持てる」という意味です。「than」があるので比較級が必要です。短い形容詞は「-er」をつけます。
 ほかの選択肢：「light」は原級で、「than」と合いません。「lightest」は最上級で、「than」とは使いません。「more light」は形がまちがいです（light は lighter）。
 ヒント：than が見えたら比較級（-er / more 〜）を探しましょう。
+
+【ポイント2】
+種別: 文法
+見出し: than があれば比較級（短い形容詞は -er）
+・light → lighter → lightest
+・最上級は than ではなく in / of と使う
+・more light のように more と -er を混ぜない
 
 ---
 
@@ -56,6 +70,13 @@ A : Do you want ( ) with us after school? B : Sure. I'd love to.
 ほかの選択肢：「go」だけだと want のあとに続きません。「want going」はふつう使いません。「went」は過去形なので、いまの希望には合いません。
 ヒント：want / hope / decide のあとは to + 原形、とセットで覚えましょう。
 
+【ポイント3】
+種別: 文法
+見出し: want to + 動詞の原形（〜したい）
+・to のあとは必ず原形（to go / to eat）
+・同じ形をとる動詞: hope / decide / need / would like
+・答えの I'd love to. は「ぜひ」の決まり文句
+
 ---
 
 問題4:
@@ -75,6 +96,13 @@ I have already ( ) my homework, so I can watch TV now.
 文全体は「もう宿題を終わらせたから、いまテレビを見ていい」という意味です。「already（もう）」も、いままでの完了を示すサインです。
 ほかの選択肢：「finish / finishes」は現在形で、have のあとに続きません。「finishing」は進行の形で、ここには合いません。
 ヒント：have / has のあとにくる動詞は、過去分詞（多くは -ed）です。
+
+【ポイント4】
+種別: 文法
+見出し: 現在完了「have + 過去分詞」（完了・結果）
+・already / just / yet は現在完了と相性がよい目印
+・yet は否定文・疑問文で「まだ／もう」
+・yesterday など過去の一点を表す語とは一緒に使わない
 
 ---
 
@@ -96,6 +124,13 @@ The window ( ) by my brother this morning.
 ほかの選択肢：「broke」は能動態で、「by 〜」と並べると意味がぎこちなくなります。「is breaking」は進行形で、けさのできごとには合いにくいです。「broken」だけだと文の動詞が足りません。
 ヒント：by 〜（〜によって）が見えたら、受動態を疑いましょう。
 
+【ポイント5】
+種別: 文法
+見出し: 受動態「be動詞 + 過去分詞」（〜される／された）
+・時制は be動詞で表す（was broken = 壊された）
+・動作をした人は by 〜 で表す
+・break - broke - broken の変化を覚える
+
 ---
 
 問題6:
@@ -115,6 +150,13 @@ A : Is this the book ( ) you bought last week? B : Yes, it is.
 文全体は「これが、きみが先週買った本？」「うん」という会話です。物を指すので that / which が使えます。
 ほかの選択肢：「what」は「〜するもの」の意味で、前に名詞がある形にはふつう使いません。「who」は人用です。「where」は場所の関係詞で、ここでは合いません。
 ヒント：人→who、物→that / which、と分けると迷いにくいです。
+
+【ポイント6】
+種別: 文法
+見出し: 関係代名詞 that / which（物を説明する）
+・前の名詞（book）を後ろから説明する
+・人なら who、物なら that / which
+・what は前に名詞を置かない（〜するもの）
 
 ---
 
@@ -136,6 +178,13 @@ If it ( ) tomorrow, we will cancel the picnic.
 ほかの選択肢：「will rain」は if 節ではふつう使いません。「raining」だけでは動詞の形が足りません。「rained」は過去で、あしたの話に合いません。
 ヒント：If の中は現在形、あとの文は will、とセットで覚えましょう。
 
+【ポイント7】
+種別: 文法
+見出し: 条件の if は現在形、主節は will（時・条件の副詞節）
+・If it rains tomorrow, we will 〜 の形
+・if の中では will を使わない
+・when（〜するとき）も同じルール
+
 ---
 
 問題8:
@@ -155,6 +204,13 @@ A : How long have you lived in this town? B : ( ) last April.
 文全体は「この町にどのくらい住んでいるの？」「去年の4月から」という会話です。「How long」に対して、開始時点を言うときは since、期間の長さを言うときは for を使います。
 ほかの選択肢：「For」のあとは「for three years」のように長さが来ます。「During」は「during the summer」のように期間の名詞と使います。「Until」は「〜まで」で、継続の開始を言う形ではありません。
 ヒント：since + 時点、for + 期間、と覚えると答えやすいです。
+
+【ポイント8】
+種別: 熟語
+見出し: since + 時点 / for + 期間（現在完了の継続）
+・since last April（去年の4月から）
+・for three years（3年間）
+・How long 〜? には since か for で答える
 
 ---
 
@@ -176,6 +232,13 @@ It is important ( ) breakfast every morning.
 ほかの選択肢：「eat / ate」だけではこの形に続きません。「eating」を使うなら「Eating breakfast is important」のように主語にする別の文になります。
 ヒント：It is fun / easy / important to 〜 の型をそのまま覚えましょう。
 
+【ポイント9】
+種別: 文法
+見出し: It is + 形容詞 + to + 原形（〜することは…だ）
+・この It は「それ」と訳さない形式主語
+・for me を入れて It is easy for me to 〜 も作れる
+・動名詞にするなら Eating breakfast is important.
+
 ---
 
 問題10:
@@ -195,6 +258,13 @@ My sister speaks English as ( ) as her teacher.
 文全体は「姉は先生と同じくらいうまく英語を話します」という意味です。
 ほかの選択肢：「good」は形容詞で、speak の様子にはふつう使いません。「better / best」は比較・最上級で、as 〜 as の間には原級が入ります。
 ヒント：as 〜 as の間は原級。うまく〜する、なら well です。
+
+【ポイント10】
+種別: 文法
+見出し: as + 原級 + as（〜と同じくらい…）
+・間に入るのは比較級ではなく原級
+・動詞を説明するときは副詞（good → well）
+・否定は not as 〜 as（〜ほど…ではない）
 
 ---
 
@@ -216,6 +286,13 @@ My sister speaks English as ( ) as her teacher.
 ひっかけ：「Because（〜なので）」を入れると「寒かったからサッカーをした」になり、理由になって意味が逆です。「If（もし〜なら）」は条件、「Until（〜まで）」は時間の終わりで、この文のつなぎではありません。
 ヒント：前後が「反対なのに」つながるときは Although を疑いましょう。
 
+【ポイント11】
+種別: 文法
+見出し: Although（〜だけれども）は逆接のつなぎ言葉
+・前後が反対の内容ならこれ
+・Because は理由、If は条件、Until は時
+・but と同じ意味だが、文頭に置いて2文をつなげる
+
 ---
 
 問題12:
@@ -235,6 +312,13 @@ This puzzle is ( ) than the last one.
 文全体は「このパズルは、前のものよりむずかしい」という意味です。「than」があるので比較級が必要です。difficult のような長い形容詞は more をつけます。
 ひっかけ：「difficult」は原級で、than と合いません。「most difficult」は最上級で、than ではなく in / of などの範囲と使うことが多いです。「difficulty」は名詞で、ここには入りません。
 ヒント：than が見えたら比較級。長い語は more 〜、短い語は -er です。
+
+【ポイント12】
+種別: 文法
+見出し: 長い形容詞の比較級は more + 原級
+・difficult / popular / important などは more をつける
+・最上級は the most + 原級
+・difficulty は名詞。品詞のちがいに注意
 
 ---
 
@@ -256,6 +340,13 @@ Ken forgot ( ) the fridge, so the juice was warm.
 ひっかけ：「closing」は「閉めたこと自体を覚えていない」のような別の意味になりやすく、この文の「閉めるのを忘れた」には合いません。「closed」は過去形、「close」だけだと forget のあとに続きません。
 ヒント：forget / remember / decide のあとは to + 原形、とセットで覚えましょう。
 
+【ポイント13】
+種別: 文法
+見出し: forget to + 原形（これからすることを忘れる）
+・forget to close = 閉めるのを忘れた（閉めていない）
+・forget closing = 閉めたことを忘れた（閉めた）
+・remember も同じ使い分けをする
+
 ---
 
 問題14:
@@ -275,6 +366,13 @@ My grandmother has never ( ) the ocean.
 文全体は「祖母は海を見たことがありません」という意味です。「never（一度も〜ない）」が、いままでの経験の話であるサインです。
 ひっかけ：「saw」は過去形で、has のあとには使いません。「see / seeing」も has never のあとの形ではありません。
 ヒント：have / has のあとは過去分詞。see の過去分詞は seen です。
+
+【ポイント14】
+種別: 文法
+見出し: 現在完了の経験「have never + 過去分詞」
+・never = 一度も〜ない。ever は疑問文で「今までに」
+・see - saw - seen（不規則変化）
+・Have you ever 〜? への答えにも使う
 
 ---
 
@@ -296,6 +394,13 @@ This table is ( ) wood.
 ひっかけ：「made by」の by は「〜によって（人）」で、材料の前には使いません。「making of」は進行の形でここには合いません。「made」だけだと of がなく、材料とつながりません。
 ヒント：材料→ made of、人→ made by、と分けると迷いにくいです。
 
+【ポイント15】
+種別: 熟語
+見出し: be made of + 材料（〜でできている）
+・made of wood / glass など見て分かる材料
+・made by + 人（作った人）
+・made from + 見た目が変わる原料（cheese is made from milk）
+
 ---
 
 問題16:
@@ -315,6 +420,13 @@ The boy ( ) sits next to me is from Canada.
 文全体は「私のとなりに座っている男の子は、カナダから来ています」という意味です。説明する相手が人なので who が合います。
 ひっかけ：「which」は物用です。「where」は場所、「what」は前に名詞があるこの形にはふつう使いません。
 ヒント：人→ who、物→ which / that、場所→ where、と分けると迷いにくいです。
+
+【ポイント16】
+種別: 文法
+見出し: 関係代名詞 who（人を説明する）
+・The boy who sits next to me = となりに座っている男の子
+・who のあとの動詞は、説明する名詞に合わせる
+・物なら which / that、場所なら where
 
 ---
 
@@ -336,6 +448,13 @@ Let's stay in the library ( ) the rain stops.
 ひっかけ：「because」は理由、「although」は逆接で、終わりの時点を表しません。「if（もし雨がやむなら）」は条件になり、「やむまで待つ」という意味ではなくなります。
 ヒント：「〜まで待つ／いる」のときは until を疑いましょう。
 
+【ポイント17】
+種別: 熟語
+見出し: until（〜までずっと）は動作が続く終わりの時点
+・until のあとは文も名詞も置ける
+・by 〜 は「〜までに（期限）」で意味がちがう
+・時を表す節なので中は現在形（the rain stops）
+
 ---
 
 問題18:
@@ -355,6 +474,13 @@ They have been friends ( ) three years.
 文全体は「彼らは3年間、友だちです」という意味です。「three years」は長さ（期間）なので for が合います。
 ひっかけ：「since」のあとは last April のように開始の時点が来ます。期間の長さの前に since は使いません。「during」は during the summer のように期間を表す名詞と使います。「from」だけでは現在完了の継続を表しにくいです。
 ヒント：for + 期間、since + 時点、と覚えると答えやすいです。
+
+【ポイント18】
+種別: 熟語
+見出し: have been 〜 for + 期間（ずっと〜である）
+・for three years / for a week のように長さが続く
+・during は during the summer など期間の名詞と使う
+・時点なら since（since 2020）
 
 ---
 
@@ -376,6 +502,13 @@ She left home early ( ) she could catch the first bus.
 ひっかけ：「because of」は because of the rain のように名詞の前で使い、後ろに she could 〜 のような文は続きません。「although」は逆接、「until」は時間の終わりで、目的ではありません。
 ヒント：「〜するために」で後ろに主語＋動詞が続くときは so that を疑いましょう。
 
+【ポイント19】
+種別: 熟語
+見出し: so that + 主語 + can 〜（〜できるように）
+・目的を表す。後ろには文が続く
+・because of + 名詞（後ろに文は続かない）
+・to + 原形でも目的を表せる（to catch the first bus）
+
 ---
 
 問題20:
@@ -395,5 +528,12 @@ This game is ( ) popular in our school.
 文全体は「このゲームは、私たちの学校でいちばん人気です」という意味です。「in our school」のように比べる範囲があるので、最上級が自然です。
 ひっかけ：「more」は比較級で、than が必要です。「most」だけだと the が足りません。「the more」は「よりいっそう」などの別の形で、この最上級の文には合いません。
 ヒント：in / of で範囲が見えたら最上級。長い語は the most 〜 です。
+
+【ポイント20】
+種別: 文法
+見出し: 最上級 the most + 形容詞（いちばん〜）
+・範囲は in our school / of the three で表す
+・the を落とさない
+・than があるときは比較級 more（最上級ではない）
 
 ---

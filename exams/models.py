@@ -64,6 +64,11 @@ class Question(models.Model):
         blank=True,
         help_text='スピーキング用（title / passage / questions）',
     )
+    study_points = models.JSONField(
+        null=True,
+        blank=True,
+        help_text='学習ポイント（category / title / keys のdict）。ノート・振り返り用',
+    )
     passage = models.ForeignKey('self', on_delete=models.CASCADE, null=True, blank=True, related_name='related_questions')
     identifier = models.CharField(max_length=10, blank=True, help_text='本文の識別子（a, bなど）または問題の識別子（a1, b1など）')
     audio_file = models.CharField(max_length=255, blank=True)  # 音声ファイルのパス
@@ -90,6 +95,19 @@ class Question(models.Model):
 
     def get_level_display(self):
         return dict(self.LEVELS).get(self.level, self.level)
+
+    STUDY_POINT_BADGE_CLASSES = {
+        '単語': 'bg-success',
+        '熟語': 'bg-info text-dark',
+        '文法': 'bg-primary',
+        '会話': 'bg-secondary',
+        '読解': 'bg-dark',
+        'リスニング': 'bg-danger',
+    }
+
+    def study_point_badge_class(self):
+        category = (self.study_points or {}).get('category', '')
+        return self.STUDY_POINT_BADGE_CLASSES.get(category, 'bg-secondary')
 
     def resolved_audio_file(self):
         """静的ファイル用の相対パス。DB の audio_file が空のときは問題種別・番号から既定パスを返す。"""

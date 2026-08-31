@@ -2,6 +2,10 @@
 {% load static %}
 {% load custom_filters %}
 
+{% block extra_css %}
+<link href="{% static 'css/study_point.css' %}" rel="stylesheet">
+{% endblock %}
+
 {% block content %}
 <div class="container mt-5">
     <h2 class="mb-4">{{ question.level }}級 問題</h2>
@@ -113,7 +117,8 @@
     {% if user_answer %}
     <div class="card mt-4">
         <div class="card-body">
-            <h5 class="card-title">解説</h5>
+            {% include 'exams/_study_point.html' with sp_question=question %}
+            <h5 class="card-title mt-3">解説</h5>
             <p class="card-text">{{ question.explanation|linebreaks }}</p>
         </div>
     </div>

@@ -2610,6 +2610,28 @@ def _snapshot_unlock_before_submit(request, user, level):
     )
 
 
+def _build_study_point_summary(context):
+    """結果画面の「今回のまとめ」用。study_points を持つ問題だけを並べる。"""
+    answers = list(context.get('answers_with_questions') or [])
+    for passage_answers in (context.get('passages_with_answers') or {}).values():
+        answers.extend(passage_answers)
+
+    summary = []
+    for answer in answers:
+        question = answer.get('question') if isinstance(answer, dict) else None
+        points = getattr(question, 'study_points', None)
+        if not points:
+            continue
+        summary.append({
+            'category': points.get('category', ''),
+            'title': points.get('title', ''),
+            'keys': points.get('keys', []),
+            'badge_class': question.study_point_badge_class(),
+            'is_correct': bool(answer.get('is_correct')),
+        })
+    return summary
+
+
 def _finalize_and_render_answer_results(request, context):
     """Attach session achievement messages and render answer results."""
     level = str(context['level'])
@@ -2634,6 +2656,8 @@ def _finalize_and_render_answer_results(request, context):
         streak_count=gamification_result['streak_count'],
     )
     context['new_badges'] = gamification_result['new_badges']
+
+    context['study_point_summary'] = _build_study_point_summary(context)
 
     context['next_learning_tip'] = None
     if getattr(settings, 'SHOW_NEXT_LEARNING', False) and next_learning_weekly_cap_allows(

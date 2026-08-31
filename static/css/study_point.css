@@ -1,0 +1,43 @@
+/* 問題ごとの学習ポイント（解説の手前に出す黄色いカード）と、結果画面のまとめ表 */
+.study-point {
+    border: 1px solid #fcd34d;
+    border-left: 4px solid #f59e0b;
+    border-radius: 0.375rem;
+    background: #fffbeb;
+    padding: 0.75rem 0.9rem;
+}
+
+.study-point-head {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 0.5rem;
+    margin-bottom: 0.35rem;
+}
+
+.study-point-label {
+    font-weight: 600;
+    color: #92400e;
+}
+
+.study-point-title {
+    font-weight: 600;
+    color: #111827;
+}
+
+.study-point-keys {
+    margin: 0.35rem 0 0;
+    padding-left: 1.2rem;
+    font-size: 0.9rem;
+    color: #374151;
+}
+
+.study-point-summary {
+    border-left: 4px solid #f59e0b;
+}
+
+@media print {
+    .study-point-summary {
+        page-break-inside: avoid;
+    }
+}

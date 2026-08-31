@@ -4,6 +4,7 @@ import re
 
 from questions.level_paths import add_default_register_arguments
 from questions.register_source import resolve_register_io
+from questions.study_points import extract_explanation, extract_study_points
 
 
 class Command(BaseCommand):
@@ -76,8 +77,10 @@ class Command(BaseCommand):
                 correct_answer_text = correct_match.group(2).strip()
 
                 # Extract explanation
-                explanation_match = re.search(r'【解説\d+】\s*(.*?)(?=\n\n|$)', question_block, re.DOTALL)
-                explanation = explanation_match.group(1).strip() if explanation_match else ''
+                explanation = extract_explanation(question_block)
+
+                # Extract study points (optional)
+                study_points = extract_study_points(question_block)
 
                 # Create question
                 question = Question.objects.create(
@@ -86,7 +89,8 @@ class Command(BaseCommand):
                     level=level,
                     question_type='grammar_fill',
                     question_number=question_number,
-                    explanation=explanation
+                    explanation=explanation,
+                    study_points=study_points
                 )
 
                 # Create choices
