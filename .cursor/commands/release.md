@@ -19,6 +19,8 @@ description: >-
 1. `python manage.py test`（`.venv` / `venv` があればその Python を優先）
 2. 追跡ファイルの簡易シークレット検出（GitHub PAT、秘密鍵、Google API キー風パターンなど）
 
+**内部で先に** `./scripts/preflight-original.sh`（語順 5/4/3 + 公開面テスト）を実行する。
+
 ## 一発リリース（おすすめ）：自動コミット文 + push main + Fly.io
 
 変更内容から英語の1行メッセージを自動生成（例: `chore: update 3 file(s) (exams, questions)`）。`*/tests.py` や `tests/*` のみなら `test:`、`.md` のみなら `docs:`。

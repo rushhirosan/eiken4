@@ -52,7 +52,7 @@ while [[ $# -gt 0 ]]; do
       cat <<EOF
 Usage: $0 [options]
 
-  (no args)     Django test, secret scan のみ
+  (no args)     preflight-original, Django test, secret scan のみ
   --ship        上記のあと、変更から自動コミット → origin main へ push → fly deploy
   --commit MSG  手動メッセージでコミット（チェック通過後）
   --push        --commit または --ship と併用。origin main へ push（ローカルブランチは main 必須）
@@ -124,10 +124,13 @@ assert_on_main_branch() {
   fi
 }
 
-echo "==> 1/2 Django tests ($PYTHON)"
+echo "==> 1/3 preflight-original"
+"${ROOT}/scripts/preflight-original.sh"
+
+echo "==> 2/3 Django tests ($PYTHON)"
 "$PYTHON" manage.py test -v 1
 
-echo "==> 2/2 秘密情報チェック（ヒューリスティック）"
+echo "==> 3/3 秘密情報チェック（ヒューリスティック）"
 FOUND=0
 while IFS= read -r -d '' f; do
   case "$f" in

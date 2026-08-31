@@ -5,6 +5,8 @@
     border-radius: 0.375rem;
     background: #fffbeb;
     padding: 0.75rem 0.9rem;
+    /* 直後の解説ボックスと隣り合うので、詰まって見えないよう下だけ空ける */
+    margin-bottom: 0.75rem;
 }
 
 .study-point-head {
@@ -34,6 +36,11 @@
 
 .study-point-summary {
     border-left: 4px solid #f59e0b;
+}
+
+.study-point-summary .table thead th {
+    padding-top: 0.65rem;
+    padding-bottom: 0.5rem;
 }
 
 @media print {

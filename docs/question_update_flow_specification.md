@@ -5,6 +5,15 @@
 
 **データ置き場（級別）**: レガシー問題 txt の 4級は `data/questions/*.txt`、3/5 は `data/questions/level{N}/`。音声・画像は全級 `static/audio/level{N}/part*` / `static/images/level{N}/part1`（登録コマンドは `--level`）。公開用 original は `data/questions/original/level{N}/`。
 
+**original 登録前の preflight**（[Phase 1](testing_automation_roadmap.md#phase-1-preflight-スクリプト統合)）:
+
+```bash
+./scripts/preflight-original.sh          # check + 語順(5/4/3) + 公開面テスト
+./scripts/preflight-original.sh --quick  # 日常用（check 省略）
+```
+
+`--original` 登録・本番反映の前に通す。`scripts/release.sh` も内部で同 preflight を実行する。
+
 ### 3級の公式解答（正解照合の一次情報）
 
 - 問題冊子・リスニング原稿: [3級の過去問・試験内容](https://www.eiken.or.jp/eiken/exam/grade_3/)（`2025-{1,2,3}-1ji-3kyu.pdf` 等）
