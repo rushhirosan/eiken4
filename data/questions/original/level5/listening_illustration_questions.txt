@@ -98,17 +98,17 @@ No.6:
 
 Question No.6:
 1. In March.
-2. It's spring.
-3. It's warm.
+2. It's warm.
+3. It's spring.
 
 【正解6】
-2. It's spring.
+3. It's spring.
 
 【解説6】
 放送文：What's your favorite season?（すきなきせつはなに？）
 
-「すきなきせつ」をたずねているので、2「It's spring.（はるです）」が自然です。
-1「In March.（3がつに）」は月、3「It's warm.（あたたかい）」は天気・きもちで、きせつのなまえではありません。
+「すきなきせつ」をたずねているので、3「It's spring.（はるです）」が自然です。
+1「In March.（3がつに）」は月、2「It's warm.（あたたかい）」は天気・きもちで、きせつのなまえではありません。
 
 ---
 
@@ -135,18 +135,18 @@ No.8:
 ☆How do you go to the pool?
 
 Question No.8:
-1. By bike.
-2. At my house.
+1. At my house.
+2. By bike.
 3. With my sister.
 
 【正解8】
-1. By bike.
+2. By bike.
 
 【解説8】
 放送文：How do you go to the pool?（プールにはどうやって行くの？）
 
-「どうやって」とのりかたをたずねているので、1「By bike.（じてんしゃで）」が自然です。
-2「At my house.（うちで）」はばしょ、3「With my sister.（いもうとと）」はだれと、でのりかたではありません。
+「どうやって」とのりかたをたずねているので、2「By bike.（じてんしゃで）」が自然です。
+1「At my house.（うちで）」はばしょ、3「With my sister.（いもうとと）」はだれと、でのりかたではありません。
 
 ---
 
@@ -155,17 +155,17 @@ No.9:
 
 Question No.9:
 1. Under the desk.
-2. My eraser.
-3. It's new.
+2. It's new.
+3. My eraser.
 
 【正解9】
-2. My eraser.
+3. My eraser.
 
 【解説9】
 放送文：What are you looking for?（なにをさがしているの？）
 
-「なにを」とものをたずねているので、2「My eraser.（けしゴム）」が自然です。
-1「Under the desk.（つくえの下）」はばしょ、3「It's new.（あたらしい）」はじょうたいで、さがしているものではありません。
+「なにを」とものをたずねているので、3「My eraser.（けしゴム）」が自然です。
+1「Under the desk.（つくえの下）」はばしょ、2「It's new.（あたらしい）」はじょうたいで、さがしているものではありません。
 
 ---
 
@@ -173,18 +173,18 @@ No.10:
 ☆How's your new school?
 
 Question No.10:
-1. On Monday.
-2. By bus.
-3. It's fun.
+1. It's fun.
+2. On Monday.
+3. By bus.
 
 【正解10】
-3. It's fun.
+1. It's fun.
 
 【解説10】
 放送文：How's your new school?（あたらしいがっこうはどう？）
 
-「どう？」とようすをたずねているので、3「It's fun.（たのしいよ）」が自然です。
-1「On Monday.（げつようびに）」は曜日、2「By bus.（バスで）」はのりかたで、ようすではありません。
+「どう？」とようすをたずねているので、1「It's fun.（たのしいよ）」が自然です。
+2「On Monday.（げつようびに）」は曜日、3「By bus.（バスで）」はのりかたで、ようすではありません。
 
 ---
 
@@ -192,17 +192,17 @@ No.101:
 (イラスト一致問題)
 
 Question No.101:
-1. The girl is picking the flowers.
-2. The girl is watering the flowers.
+1. The girl is watering the flowers.
+2. The girl is picking the flowers.
 3. The girl is drawing the flowers.
 
 【正解101】
-2. The girl is watering the flowers.
+1. The girl is watering the flowers.
 
 【解説101】
 放送された3つの英文から、イラストの内容に合うものを選びます。
-2「The girl is watering the flowers.（女の子は花にみずをやっている）」が正解です。
-1「The girl is picking the flowers.（女の子は花をつんでいる）」も、3「The girl is drawing the flowers.（女の子は花をえにかいている）」も、イラストと合いません。
+1「The girl is watering the flowers.（女の子は花にみずをやっている）」が正解です。
+2「The girl is picking the flowers.（女の子は花をつんでいる）」も、3「The girl is drawing the flowers.（女の子は花をえにかいている）」も、イラストと合いません。
 動詞（picking / watering / drawing）の違いがポイントです。
 
 ---
@@ -230,17 +230,17 @@ No.103:
 (イラスト一致問題)
 
 Question No.103:
-1. The boy is putting on his coat.
-2. The boy is taking off his coat.
-3. The boy is washing his coat.
+1. The boy is taking off his coat.
+2. The boy is washing his coat.
+3. The boy is putting on his coat.
 
 【正解103】
-1. The boy is putting on his coat.
+3. The boy is putting on his coat.
 
 【解説103】
 放送された3つの英文から、イラストの内容に合うものを選びます。
-1「The boy is putting on his coat.（男の子はコートをきている）」が正解です。
-2「The boy is taking off his coat.（男の子はコートをぬいでいる）」も、3「The boy is washing his coat.（男の子はコートをあらっている）」も、イラストと合いません。
+3「The boy is putting on his coat.（男の子はコートをきている）」が正解です。
+1「The boy is taking off his coat.（男の子はコートをぬいでいる）」も、2「The boy is washing his coat.（男の子はコートをあらっている）」も、イラストと合いません。
 動作（putting on / taking off / washing）の違いがポイントです。
 
 ---
@@ -249,17 +249,17 @@ No.104:
 (イラスト一致問題)
 
 Question No.104:
-1. The dog is sleeping by the door.
-2. The dog is running to the door.
-3. The dog is sitting by the door.
+1. The dog is sitting by the door.
+2. The dog is sleeping by the door.
+3. The dog is running to the door.
 
 【正解104】
-3. The dog is sitting by the door.
+1. The dog is sitting by the door.
 
 【解説104】
 放送された3つの英文から、イラストの内容に合うものを選びます。
-3「The dog is sitting by the door.（いぬはドアのそばにすわっている）」が正解です。
-1「The dog is sleeping by the door.（いぬはドアのそばでねている）」も、2「The dog is running to the door.（いぬはドアへ走っている）」も、イラストと合いません。
+1「The dog is sitting by the door.（いぬはドアのそばにすわっている）」が正解です。
+2「The dog is sleeping by the door.（いぬはドアのそばでねている）」も、3「The dog is running to the door.（いぬはドアへ走っている）」も、イラストと合いません。
 動詞（sleeping / running / sitting）の違いがポイントです。
 
 ---
@@ -268,17 +268,17 @@ No.105:
 (イラスト一致問題)
 
 Question No.105:
-1. Mom is cutting the bread.
-2. Mom is buying the bread.
+1. Mom is buying the bread.
+2. Mom is cutting the bread.
 3. Mom is eating the bread.
 
 【正解105】
-1. Mom is cutting the bread.
+2. Mom is cutting the bread.
 
 【解説105】
 放送された3つの英文から、イラストの内容に合うものを選びます。
-1「Mom is cutting the bread.（お母さんはパンを切っている）」が正解です。
-2「Mom is buying the bread.（お母さんはパンを買っている）」も、3「Mom is eating the bread.（お母さんはパンを食べている）」も、イラストと合いません。
+2「Mom is cutting the bread.（お母さんはパンを切っている）」が正解です。
+1「Mom is buying the bread.（お母さんはパンを買っている）」も、3「Mom is eating the bread.（お母さんはパンを食べている）」も、イラストと合いません。
 動詞（cutting / buying / eating）の違いがポイントです。
 
 ---
@@ -287,18 +287,18 @@ No.11:
 ★How old is your sister?
 
 Question No.11:
-1. She's eight.
-2. In my room.
+1. In my room.
+2. She's eight.
 3. At school.
 
 【正解11】
-1. She's eight.
+2. She's eight.
 
 【解説11】
 放送文：How old is your sister?（おねえちゃんは何さい？）
 
-「How old（何さい）」と年をたずねているので、1「She's eight.（8さいです）」が自然です。
-2「In my room.（へや）」はばしょ、3「At school.（がっこう）」もばしょで、年ではありません。
+「How old（何さい）」と年をたずねているので、2「She's eight.（8さいです）」が自然です。
+1「In my room.（へや）」はばしょ、3「At school.（がっこう）」もばしょで、年ではありません。
 
 ---
 
@@ -306,18 +306,18 @@ No.12:
 ☆Do you want tea or juice?
 
 Question No.12:
-1. Juice, please.
-2. On the table.
-3. It's cold today.
+1. On the table.
+2. It's cold today.
+3. Juice, please.
 
 【正解12】
-1. Juice, please.
+3. Juice, please.
 
 【解説12】
 放送文：Do you want tea or juice?（おちゃとジュース、どっちがいい？）
 
-「どっちがいい？」と選ばせているので、1「Juice, please.（ジュースお願い）」が自然です。
-2「On the table.（テーブルのうえ）」はばしょ、3「It's cold today.（きょうはさむい）」は天気で、選びの答えではありません。
+「どっちがいい？」と選ばせているので、3「Juice, please.（ジュースお願い）」が自然です。
+1「On the table.（テーブルのうえ）」はばしょ、2「It's cold today.（きょうはさむい）」は天気で、選びの答えではありません。
 
 ---
 
@@ -344,18 +344,18 @@ No.14:
 ☆Can you help me carry this box?
 
 Question No.14:
-1. Sure.
-2. It's heavy.
+1. It's heavy.
+2. Sure.
 3. In the box.
 
 【正解14】
-1. Sure.
+2. Sure.
 
 【解説14】
 放送文：Can you help me carry this box?（このはこを運ぶの、手伝ってくれる？）
 
-「手伝ってくれる？」とたのんでいるので、1「Sure.（もちろん）」が自然です。
-2「It's heavy.（おもい）」ははこの説明、3「In the box.（はこのなか）」はばしょで、手伝うかどうかの返事ではありません。
+「手伝ってくれる？」とたのんでいるので、2「Sure.（もちろん）」が自然です。
+1「It's heavy.（おもい）」ははこの説明、3「In the box.（はこのなか）」はばしょで、手伝うかどうかの返事ではありません。
 
 ---
 
@@ -363,18 +363,18 @@ No.15:
 ★When does the movie start?
 
 Question No.15:
-1. At seven.
-2. At the cinema.
-3. It's fun.
+1. At the cinema.
+2. It's fun.
+3. At seven.
 
 【正解15】
-1. At seven.
+3. At seven.
 
 【解説15】
 放送文：When does the movie start?（えいがは何時に始まる？）
 
-「When（いつ）」と時刻をたずねているので、1「At seven.（7時に）」が自然です。
-2「At the cinema.（えいがかん）」はばしょ、3「It's fun.（たのしい）」は感想で、時刻ではありません。
+「When（いつ）」と時刻をたずねているので、3「At seven.（7時に）」が自然です。
+1「At the cinema.（えいがかん）」はばしょ、2「It's fun.（たのしい）」は感想で、時刻ではありません。
 
 ---
 
@@ -382,17 +382,17 @@ No.106:
 (イラスト一致問題)
 
 Question No.106:
-1. The girl is brushing her teeth.
-2. The girl is washing her face.
-3. The girl is eating candy.
+1. The girl is washing her face.
+2. The girl is eating candy.
+3. The girl is brushing her teeth.
 
 【正解106】
-1. The girl is brushing her teeth.
+3. The girl is brushing her teeth.
 
 【解説106】
 放送された3つの英文から、イラストの内容に合うものを選びます。
-1「The girl is brushing her teeth.（女の子は歯をみがいている）」が正解です。
-2「The girl is washing her face.（女の子は顔を洗っている）」も、3「The girl is eating candy.（女の子はキャンディを食べている）」も、イラストと合いません。
+3「The girl is brushing her teeth.（女の子は歯をみがいている）」が正解です。
+1「The girl is washing her face.（女の子は顔を洗っている）」も、2「The girl is eating candy.（女の子はキャンディを食べている）」も、イラストと合いません。
 動詞（brushing / washing / eating）の違いがポイントです。
 
 ---
@@ -420,17 +420,17 @@ No.108:
 (イラスト一致問題)
 
 Question No.108:
-1. The man is fixing the bike.
-2. The man is riding the bike.
+1. The man is riding the bike.
+2. The man is fixing the bike.
 3. The man is selling the bike.
 
 【正解108】
-1. The man is fixing the bike.
+2. The man is fixing the bike.
 
 【解説108】
 放送された3つの英文から、イラストの内容に合うものを選びます。
-1「The man is fixing the bike.（男性は自転車を直している）」が正解です。
-2「The man is riding the bike.（男性は自転車に乗っている）」も、3「The man is selling the bike.（男性は自転車を売っている）」も、イラストと合いません。
+2「The man is fixing the bike.（男性は自転車を直している）」が正解です。
+1「The man is riding the bike.（男性は自転車に乗っている）」も、3「The man is selling the bike.（男性は自転車を売っている）」も、イラストと合いません。
 動詞（fixing / riding / selling）の違いがポイントです。
 
 ---
@@ -439,17 +439,17 @@ No.109:
 (イラスト一致問題)
 
 Question No.109:
-1. The shoes are by the door.
-2. The shoes are on the table.
-3. The shoes are in the river.
+1. The shoes are on the table.
+2. The shoes are in the river.
+3. The shoes are by the door.
 
 【正解109】
-1. The shoes are by the door.
+3. The shoes are by the door.
 
 【解説109】
 放送された3つの英文から、イラストの内容に合うものを選びます。
-1「The shoes are by the door.（くつはドアのそばにある）」が正解です。
-2「The shoes are on the table.（くつはテーブルのうえにある）」も、3「The shoes are in the river.（くつは川のなかにある）」も、イラストと合いません。
+3「The shoes are by the door.（くつはドアのそばにある）」が正解です。
+1「The shoes are on the table.（くつはテーブルのうえにある）」も、2「The shoes are in the river.（くつは川のなかにある）」も、イラストと合いません。
 前置詞（by / on / in）と場所のちがいがポイントです。
 
 ---
