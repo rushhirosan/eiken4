@@ -28,6 +28,7 @@ from questions.models import (
     ReadingPassage,
     ReadingQuestion,
 )
+from questions.study_points import extract_explanation, extract_study_points
 
 # 3級 2026① / 4級 2026① の既定下限（--min-* 未指定時）
 _DEFAULT_MINS = {
@@ -305,7 +306,7 @@ class Command(BaseCommand):
                 re.DOTALL,
             )
             expl_match = re.search(
-                r'【参考解答】\s*(.*?)(?=\n※協会|\Z)',
+                r'【参考解答】\s*(.*?)(?=\n※協会|\n*【ポイント|\Z)',
                 block,
                 re.DOTALL,
             )
@@ -314,6 +315,7 @@ class Command(BaseCommand):
                 continue
             q_text = body_match.group(1).strip()
             expl = expl_match.group(1).strip() if expl_match else ''
+            study_points = extract_study_points(block)
             if dry:
                 self.stdout.write(f'[dry] writing #{n} ({provenance})')
             else:
@@ -325,6 +327,7 @@ class Command(BaseCommand):
                     explanation=expl,
                     question_number=n,
                     writing_rubric=parse_writing_rubric(q_text),
+                    study_points=study_points,
                 )
             added += 1
         self.stdout.write(self.style.SUCCESS(f'writing: +{added}'))
@@ -426,15 +429,35 @@ class Command(BaseCommand):
                 )
             added_p += 1
             q_iter = re.finditer(
-                r'問題\d+[a-z]:\s*(.*?)\n選択肢\d+[a-z]:\s*(.*?)\n【正解\d+[a-z]】\s*(.*?)\n【解説\d+[a-z]】\s*(.*?)(?=\n問題\d+[a-z]:|\n---|$)',
+                r'(問題(\d+[a-z]):.*?)(?=\n問題\d+[a-z]:|\Z)',
                 block,
                 re.DOTALL,
             )
             for i, qm in enumerate(q_iter, 1):
-                q_text = qm.group(1).strip()
-                choices_text = qm.group(2).strip()
-                correct = qm.group(3).strip()
-                expl = qm.group(4).strip()
+                q_block = qm.group(1)
+                suffix = qm.group(2)
+                q_text_m = re.search(
+                    rf'問題{re.escape(suffix)}:\s*(.*?)\s*選択肢{re.escape(suffix)}:',
+                    q_block,
+                    re.DOTALL,
+                )
+                choices_m = re.search(
+                    rf'選択肢{re.escape(suffix)}:\s*(.*?)\s*【正解{re.escape(suffix)}】',
+                    q_block,
+                    re.DOTALL,
+                )
+                correct_m = re.search(
+                    rf'【正解{re.escape(suffix)}】\s*(.*?)\s*【解説{re.escape(suffix)}】',
+                    q_block,
+                    re.DOTALL,
+                )
+                if not (q_text_m and choices_m and correct_m):
+                    continue
+                q_text = q_text_m.group(1).strip()
+                choices_text = choices_m.group(1).strip()
+                correct = correct_m.group(1).strip()
+                expl = extract_explanation(q_block, suffix=re.escape(suffix))
+                study_points = extract_study_points(q_block, suffix=re.escape(suffix))
                 if correct.startswith(('1.', '2.', '3.', '4.')):
                     correct = correct[2:].strip()
                 if dry:
@@ -445,6 +468,7 @@ class Command(BaseCommand):
                     question_text=q_text,
                     question_number=i,
                     explanation=expl,
+                    study_points=study_points,
                 )
                 for order, line in enumerate(
                     [c.strip() for c in choices_text.split('\n') if c.strip()], 1

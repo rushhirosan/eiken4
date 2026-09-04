@@ -7,6 +7,7 @@ from exams.models import Question
 from exams.writing_feedback import parse_writing_rubric
 from questions.level_paths import add_default_register_arguments
 from questions.register_source import resolve_register_io
+from questions.study_points import extract_study_points
 
 # 本文・参考解答から除く行（テキストに残っていても登録時に落とす）
 # 例: 【2025年度第1回・問題4・メール返信】、【出典】のみの行 など
@@ -91,9 +92,9 @@ class Command(BaseCommand):
                 continue
             question_text = _strip_writing_noise_lines(body_match.group(1).strip())
 
-            # 参考解答は「※協会…」の手前まで（ブロック結合ミスで次問が混入するのを防ぐ）
+            # 参考解答は「※協会…」や【ポイント】の手前まで
             ref_match = re.search(
-                r'【参考解答】\s*(.*?)(?=\n※協会|\Z)',
+                r'【参考解答】\s*(.*?)(?=\n※協会|\n*【ポイント|\Z)',
                 block,
                 re.DOTALL,
             )
@@ -101,6 +102,7 @@ class Command(BaseCommand):
                 ref_match.group(1).strip() if ref_match else ''
             )
             writing_rubric = parse_writing_rubric(question_text)
+            study_points = extract_study_points(block)
 
             Question.objects.create(
                 provenance=provenance,
@@ -110,6 +112,7 @@ class Command(BaseCommand):
                 question_number=qn,
                 explanation=explanation,
                 writing_rubric=writing_rubric,
+                study_points=study_points,
             )
             registered += 1
             self.stdout.write(

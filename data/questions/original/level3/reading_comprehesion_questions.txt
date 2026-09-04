@@ -32,6 +32,13 @@ What should students bring to drink?
 1「A glass bottle of tea.（お茶のガラス瓶）」は禁止です。3「Water from the science prep room.（理科準備室の水）」ではありません。理科準備室は名簿に名前を書く場所です。4「Hot soup in a metal cup.（金属カップの温かいスープ）」は書かれていません。
 ヒント：bring と Do not bring が対になっているときは、両方を読んで「持ってよい入れ物」を決めます。
 
+【ポイント1a】
+種別: 読解
+見出し: bring と Do not bring はセットで読む
+・持ってよいものと禁止が対になっている
+・場所の説明（名簿を書く部屋）と持参物を混ぜない
+・入れ物の種類（plastic / glass）まで見る
+
 問題1b:
 Where will students go if the sky is cloudy?
 
@@ -49,6 +56,13 @@ Where will students go if the sky is cloudy?
 「If the sky is cloudy, we will watch slides in the gym.」とあります。開始時刻は変わりませんが、場所は体育館に変わります。
 1「To the school roof as planned.（予定どおり学校の屋上へ）」は晴れたときの会場です。2「To Stair C only.（C階段だけへ）」は入口の話で、曇りのときの行き先ではありません。3「To the entrance hall with their parents.（保護者と玄関ホールへ）」も違います。玄関ホールは保護者の待機場所で、保護者は屋上へは上がれません。
 ヒント：If の文は天気が悪いときの変更です。保護者の場所と生徒の場所を混ぜないようにしましょう。
+
+【ポイント1b】
+種別: 読解
+見出し: If の文は悪いときの変更プラン
+・If the sky is cloudy, we will 〜 が行き先の変更
+・開始時刻は変わらないこともある
+・保護者の待機場所と生徒の会場を分けて読む
 
 ---
 
@@ -93,6 +107,13 @@ First の段落に、従姉妹の結婚式で朝8時から式場を手伝う、�
 2「Because she has to make the team list.（チーム名簿を作らなければならないから）」ではありません。名簿を作るのはソーマです。1「Because she must change the stopwatch battery.（ストップウォッチの電池を替えなければならないから）」も違います。電池を替えたのは先週の試合のあとです。4「Because her brother needs the gym door.（兄が体育館のドアを必要としているから）」も出ていません。
 ヒント：First / Second / Third で用件が分かれているメールは、質問の話題がどの段にあるかを先に探すと速いです。
 
+【ポイント2a】
+種別: 読解
+見出し: First / Second / Third のメールは段で探す
+・質問の話題が First ならその段だけを読む
+・名簿を作る人・電池を替えた人など役割を取り違えない
+・Why の答えは Because + その段の理由
+
 問題2b:
 Where will Chika leave the club stopwatch?
 
@@ -111,6 +132,13 @@ Second の段落に「I will put it in your shoe box in the club room tomorrow a
 2「At the gym door in a blue bag.（体育館のドアで、青い袋の中）」ではありません。青い袋はカラーコーン用です。4「In her brother's white van.（兄の白いバンの中）」も違います。白いバンは兄の車です。3「At the wedding hall after lunch.（昼食後の式場）」に置きっぱなしにはしません。
 ヒント：it が何を指すか（stopwatch）を戻してから、put の場所を読むと取り違えません。
 
+【ポイント2b】
+種別: 読解
+見出し: put / leave の場所は it の指すものを戻す
+・stopwatch / cones など別の品の置き場と混ぜない
+・in your shoe box in the club room のように場所は二重に書かれる
+・車や袋は別の用件の道具
+
 問題2c:
 If Sunday practice moves to the gym, when will Chika's brother drop off the cones?
 
@@ -128,6 +156,13 @@ If Sunday practice moves to the gym, when will Chika's brother drop off the cone
 Third の段落に、雨で体育館練習になったとき、兄が仕事の途中で 8:45 に体育館のドアへコーンを置く、とあります。待ってはくれないので、少し早く着く必要があります。
 1「On Friday evening, during practice.（金曜の夜、練習中）」はチカ自身の練習です。2「At 1:00 p.m., after the wedding lunch.（午後1時、結婚式の昼食のあと）」は昼食の目安です。3「Tomorrow after school, with the stopwatch.（明日の放課後、ストップウォッチと一緒に）」はストップウォッチの話で、コーンとは別です。
 ヒント：If Sunday practice moves to the gym のように条件が付いた文は、その条件のときだけ正しい時刻・場所です。
+
+【ポイント2c】
+種別: 読解
+見出し: If 条件つきの時刻・場所だけが正解
+・If practice moves to the gym のときだけの予定
+・ほかの段の時刻（練習・昼食）と混ぜない
+・at 〜 / at the 〜 door までセットで確認
 
 ---
 
@@ -162,6 +197,13 @@ Why did Nao first want to buy a new radio?
 1「Because Mr. Umeda said it could not be fixed.（梅田さんが直せないと言ったから）」ではありません。3「Because her grandmother never used it.（祖母が一度も使わなかったから）」も違います。祖母は毎朝使っています。4「Because the shop near the market was closing.（市場の近くの店が閉まるから）」の記述もありません。
 ヒント：first / at first の質問は、あとから気持ちが変わる前の発言を見ます。
 
+【ポイント3a】
+種別: 読解
+見出し: first / at first は気持ちが変わる前を見る
+・最初の発言と、あとで壊れたあとの気持ちを分けて読む
+・修理屋の言葉は「最初の理由」ではない
+・会話の引用符の中が答えになることが多い
+
 問題3b:
 What did Mr. Umeda show Nao inside the radio?
 
@@ -179,6 +221,13 @@ What did Mr. Umeda show Nao inside the radio?
 「He opened the back and showed Nao a loose wire.」とあります。緩んだ線が止まってしまった原因です。
 1「A weather report card.（天気予報のカード）」ではありません。天気予報は祖母が聞く番組です。3「A short song list.（短い歌のリスト）」も違います。歌は修理のあとにもう一度流れたものです。2「A new battery from the market.（市場で買った新しい電池）」の話はこの物語にはありません。
 ヒント：opened the back / showed のあとに、修理の現場で見えたものがあります。
+
+【ポイント3b】
+種別: 読解
+見出し: opened / showed のあとに現場で見えたもの
+・修理・調査の段で実際に見せた物を取る
+・番組や歌など別の話と取り違えない
+・原因（loose wire）と結果（止まっていた）をセットで
 
 問題3c:
 Why does Nao's grandmother listen to the weather report before shopping?
@@ -198,6 +247,13 @@ Why does Nao's grandmother listen to the weather report before shopping?
 2「Because Mr. Umeda tells her what to buy.（梅田さんが何を買うか教えるから）」ではありません。3「Because Nao writes the report in her diary.（ナオが日記に天気予報を書くから）」も違います。日記に書くのはナオで、内容も天気ではありません。4「Because the market is closed on windy days.（風の強い日は市場が閉まるから）」も出ていません。
 ヒント：so（だから）の前が行動、あとが目的や結果です。贈り物だったことは別の理由です。
 
+【ポイント3c】
+種別: 読解
+見出し: so のあとは目的や結果
+・行動 + so + 目的、の形を探す
+・because / so の前後を入れ替えない
+・贈り物だった話など別の理由と混ぜない
+
 問題3d:
 When did Mr. Umeda give the radio back?
 
@@ -216,6 +272,13 @@ When did Mr. Umeda give the radio back?
 2「Last Saturday morning, in the kitchen.（先週の土曜の朝、キッチンで）」ではありません。朝のキッチンはまだ壊れる前です。4「After Nao wrote in her diary.（ナオが日記を書いたあと）」も違います。日記はその夜です。1「The next morning, before shopping.（翌朝、買い物の前）」も出ていません。
 ヒント：today / at five o'clock のように、修理の約束と実際の返却時刻が対になっています。
 
+【ポイント3d】
+種別: 読解
+見出し: 約束の today と実際の時刻を対で確認
+・I can fix this today → At five o'clock が返却
+・朝の場面や夜の日記と時刻を混ぜない
+・same day / next morning のちがいに注意
+
 問題3e:
 What did Nao write in her diary?
 
@@ -233,6 +296,13 @@ What did Nao write in her diary?
 物語の最後で、ナオが日記にそう書いています。大事にすれば古いものでもまだ役に立つ、という気づきです。
 1「We should always buy new things.（いつも新しいものを買うべきだ）」も、3「Mr. Umeda is too old to work.（梅田さんはもう働けないほど年をとっている）」も、4「Music is better than weather reports.（音楽は天気予報より大切だ）」も書いていません。
 ヒント：日記や最後の文は、話全体のまとめになっていることが多いです。最初の「捨てたい」気持ちと対比して読むと分かります。
+
+【ポイント3e】
+種別: 読解
+見出し: 日記や最後の文は話全体のまとめ
+・最初の気持ち（捨てたい）と対比して読む
+・先生や店主の言葉ではなく、書いた人の気づき
+・物語の教訓型の選択肢を疑う
 
 ---
 
@@ -270,6 +340,13 @@ Which stairs should students use during Quiet Floor Week?
 2「The third-floor stairs only.（3階の階段だけ）」は禁止です。3「Any stairs after 8:30 a.m.（8:30以降ならどの階段でも）」でもありません。4「The library stairs near the staff room.（職員室の近くの図書館の階段）」という名前の場所は出ていません。職員室は質問先です。
 ヒント：Do not ... Use ... が続くときは、禁止と代わりのルートがセットです。
 
+【ポイント4a】
+種別: 読解
+見出し: Do not ... Use ... は禁止と代わりのセット
+・使ってはいけないものと使えるルートを両方読む
+・時間帯の条件と階段の指示を混ぜない
+・質問先（職員室）と移動ルートは別
+
 問題4b:
 Where can students study while the third-floor library is closed?
 
@@ -287,6 +364,13 @@ Where can students study while the third-floor library is closed?
 「The library on the third floor will be closed. You can study in the first-floor reading corner instead.」とあります。instead が「代わりの場所」を示しています。
 1「In a third-floor classroom during tests.（テスト中の3階の教室）」ではありません。3階の教室はテスト会場です。2「In the staff room with Ms. Niwa.（丹羽先生と職員室）」も違います。職員室は質問先です。4「In a third-floor club room before 3:00 p.m.（3時前の3階の部室）」も自習場所ではありません。部室は3時以降にどう入るかの話です。
 ヒント：closed の次の文に、代わりの場所が来ることが多いです。
+
+【ポイント4b】
+種別: 読解
+見出し: closed の次の文に代わりの場所
+・instead が見えたら代替場所
+・テスト会場や質問先と自習場所を分けて読む
+・部室の入り方は自習場所ではない
 
 ---
 
@@ -330,6 +414,13 @@ Where does Hikari want Uncle Gaku to meet her?
 1「At the ticket gate.（改札で）」は避ける場所です。2「Near the river restaurant.（川のそばのレストランで）」はもともと提案されていた昼食場所です。3「On the train platform in the cold.（寒いホームで）」ではありません。ホームは遅延のときに電話する場所で、外で待たないでほしい、とも書いてあります。
 ヒント：meet me at A, not at B は、Aが集合場所、Bが避ける場所です。
 
+【ポイント5a】
+種別: 読解
+見出し: meet me at A, not at B は A が集合場所
+・not at のあとは避ける場所
+・昼食や遅延のときの場所と混ぜない
+・理由（混んでいる）も同じ段にある
+
 問題5b:
 Why does Hikari need to be home by 3:30 p.m.?
 
@@ -348,6 +439,13 @@ Why does Hikari need to be home by 3:30 p.m.?
 1「Because her club match starts at that time.（その時刻に部活の試合が始まるから）」ではありません。部活の試合はすでに終わって暇になった、という話です。3「Because the pottery studio closes at 3:30.（陶芸スタジオが3:30に閉まるから）」も違います。4「Because her train arrives at East Station then.（そのとき東駅に電車が着くから）」も違います。10:05は到着時刻です。
 ヒント：by 3:30 のような期限の直後の because が、帰宅理由です。
 
+【ポイント5b】
+種別: 読解
+見出し: by 〜 の期限の直後の because が理由
+・帰宅期限と、その理由をセットで読む
+・到着時刻や部活の話と取り違えない
+・Why の答えは because のあとの内容
+
 問題5c:
 What will Hikari try first at the turning table?
 
@@ -365,6 +463,13 @@ What will Hikari try first at the turning table?
 「You said beginners can start with a small bowl, so I will try that first.」とあります。初めて回る台を使うので、小さな鉢から始める予定です。
 1「A large plate for the relatives.（親戚のための大皿）」は書かれていません。2「A wire cutter she will buy there.（そこで買う針金カッター）」も違います。針金カッターは借りる道具です。4「An old shirt on the wheel.（ろくろの上の古いシャツ）」も違います。古いシャツは汚れ防止の服装です。
 ヒント：try that first の that は、直前の a small bowl を指します。
+
+【ポイント5c】
+種別: 読解
+見出し: try that first の that は直前の名詞
+・beginners can start with a small bowl → that = bowl
+・借りる道具や服装と「最初に作るもの」を分けて読む
+・first は順番の話
 
 ---
 
@@ -397,6 +502,13 @@ Why did Yuto want to ride without training wheels?
 2「Because Mr. Oka needed a helper in the park.（岡さんが公園で手伝いが必要だったから）」ではありません。岡さんが公園で助けてくれたのは手段で、目的ではありません。3「Because his mother wanted a photo for the kitchen.（母が台所用の写真をほしがったから）」も違います。写真はあとから父が撮ったものです。4「Because his father had to work on Sunday.（父が日曜に仕事だったから）」も、練習のきっかけではあっても、補助輪を外したい本命の理由ではありません。
 ヒント：before the school camping trip のように、期限と目的が最初の段落にまとまっていることが多いです。
 
+【ポイント6a】
+種別: 読解
+見出し: before 〜 の目的は最初の段落にまとまる
+・期限（キャンプ前）とやらねばならないこと
+・手伝ってくれた人は手段で、目的ではない
+・Why did he want to 〜? は目的を取る
+
 問題6b:
 What did Mr. Oka tell Yuto to look at?
 
@@ -414,6 +526,13 @@ What did Mr. Oka tell Yuto to look at?
 岡さんは「Look at the tree at the end of the path. Do not look at the wheels.」と言いました。足や補助輪を見ていたから転んだ、という流れです。
 1「His feet and the wheels.（足と補助輪）」は見ないように言われたものです。2「The kitchen window.（台所の窓）」は母が見ていた場所、4「The hill near the camping gate.（キャンプの門の近くの丘）」はキャンプ当日の集合場所です。
 ヒント：Do not look at ... と Look at ... が対になっているときは、見るべきものが正解です。
+
+【ポイント6b】
+種別: 読解
+見出し: Look at ... / Do not look at ... は対で読む
+・見るべきものが正解、見ないものがひっかけ
+・助言の段と、母が見ていた場所を混ぜない
+・命令文の目的語に注目
 
 問題6c:
 How long did Yuto practice each evening during the week?
@@ -433,6 +552,13 @@ How long did Yuto practice each evening during the week?
 1「Two hours without stopping.（止まらずに2時間）」ではありません。金曜に公園を2周した、というのは練習の成果です。2「All morning, until his knee was better.（膝がよくなるまで午前中ずっと）」も、3「Fifteen seconds near the hill.（丘の近くで15秒）」も違います。
 ヒント：for + 時間 が、1回の練習の長さです。twice（2回）は別の日の話です。
 
+【ポイント6c】
+種別: 読解
+見出し: for + 時間 が1回の練習の長さ
+・every evening for fifteen minutes
+・twice（回数）や別の日の話と混ぜない
+・How long には時間の長さで答える
+
 問題6d:
 Who took a photo near the hill?
 
@@ -451,6 +577,13 @@ Who took a photo near the hill?
 1「Mr. Oka.（岡さん）」ではありません。岡さんは最初の日曜に公園で教えました。3「Yuto's mother.（ユウトの母）」も違います。母は台所の窓から見ていましたが、写真を撮った記述はありません。4「Yuto's teacher.（ユウトの先生）」も出てきません。
 ヒント：took a photo の主語を、その文だけで確認しましょう。近くにいる大人と混ぜやすいです。
 
+【ポイント6d】
+種別: 読解
+見出し: took a photo の主語をその文だけで確認
+・近くにいる大人と混ぜやすい
+・教え役・見守る役・撮る役を分けて読む
+・Who の答えは人名
+
 問題6e:
 What does Yuto do when he is afraid to start something new?
 
@@ -468,6 +601,13 @@ What does Yuto do when he is afraid to start something new?
 最後の文に「When he is afraid to start something new, he looks at it and remembers the tree.」とあります。it は机にしまってある写真です。
 2「He puts the training wheels back on.（補助輪をつけ直す）」も、3「He calls Mr. Oka from the hill.（丘から岡さんに電話する）」も、4「He waits for his mother to hold the bike.（母が自転車を支えてくれるのを待つ）」も、今の習慣としては書かれていません。母は練習中も自転車を持っていません。
 ヒント：When he is afraid ... のような文は、物語の教訓や今も続く行動です。it が何を指すかを直前の文で確かめます。
+
+【ポイント6e】
+種別: 読解
+見出し: When he is afraid ... は今も続く習慣
+・物語の終わりの行動・教訓を取る
+・it が何を指すか直前の文で確かめる
+・昔の失敗の行動と今の習慣を混ぜない
 
 ---
 
@@ -504,6 +644,13 @@ What should students put the rental textbooks in?
 2「A plastic bag from the stairs.（階段のビニール袋）」は使わない指示です。3「The science workbook cover.（理科ワークの表紙）」はひっかけです。理科ワークは貸し出し本ではないので家に置きます。4「A box in the office.（事務室の箱）」も違います。事務室は、一週間欠席したときの保護者の提出先です。
 ヒント：Put ... in と Do not use が対になっているときは、両方を読んで「入れてよい袋」を決めます。
 
+【ポイント7a】
+種別: 読解
+見出し: Put ... in と Do not use で入れ物を決める
+・paper bag / plastic bag の対
+・貸し出しでない物（workbook）の置き場と混ぜない
+・提出先（事務室）と袋の種類は別
+
 問題7b:
 What should students do if a page is missing?
 
@@ -521,6 +668,13 @@ What should students do if a page is missing?
 「If a page is missing, tell Ms. Kabe at the counter.」とあります。カウンターは16時に閉まります。
 1「Wait until Friday afternoon.（金曜の午後まで待つ）」はひっかけです。金曜の午後はカウンターが閉まる時間帯と重なりやすいです。2「Send the book with a friend.（友達に本を預ける）」は禁止です。4「Keep the book at home with the science workbooks.（理科ワークと一緒に家に置く）」も違います。家に置くのは理科ワークだけで、欠けページの貸し出し本ではありません。
 ヒント：If a page is missing の文が、欠けているときの次の行動です。欠席のときの保護者と混ぜないようにしましょう。
+
+【ポイント7b】
+種別: 読解
+見出し: If a page is missing の次が取る行動
+・欠けているときの手続きをその文で取る
+・欠席時の保護者提出と混ぜない
+・友達に預けるは禁止のことが多い
 
 ---
 
@@ -564,6 +718,13 @@ First の段落に「I have a flute lesson at 4:30 p.m. at the community hall」
 1「Because she must buy extra paper bags.（紙袋を余分に買わなければならないから）」はひっかけです。袋を買うのはヒロおじさんです。2「Because she has to wash the pans at noon.（正午にフライパンを洗わなければならないから）」も違います。洗うのは土曜の夕方です。4「Because Mrs. Kanda needs a family breakfast.（神田さんが家族の朝食に必要だから）」は別の用件です。
 ヒント：First / Second で用件が分かれているメールは、質問の話題がどの段にあるかを先に探します。
 
+【ポイント8a】
+種別: 読解
+見出し: First の段の予定が早退の理由
+・I have a 〜 lesson at 〜 が Why の答え
+・袋を買う人・洗う日など別用件と混ぜない
+・First / Second で話題を切り分ける
+
 問題8b:
 What should Uncle Hiro keep for Mrs. Kanda?
 
@@ -582,6 +743,13 @@ Second の段落に「could you keep three boxes of honey jars for my neighbor, 
 1「Forty paper bags in a blue cloth sack.（青い布袋に入った紙袋40枚）」はアヤが持ってくるものです。3「A small red car behind the stall.（屋台のうしろの赤い車）」は神田さんの車で、取っておく品ではありません。4「The card on the community hall door.（公民館のドアのカード）」も出ていません。カードは「予約済み」と書くメモです。
 ヒント：keep ... for の目的語が、取り置きする品です。持参物や車と混ぜないようにしましょう。
 
+【ポイント8b】
+種別: 読解
+見出し: keep ... for の目的語が取り置きの品
+・誰のための何箱かをセットで読む
+・自分が持ってくる物や車と混ぜない
+・予約カードは品そのものではない
+
 問題8c:
 If the wind gets stronger, what should they do with the paper cups?
 
@@ -599,6 +767,13 @@ If the wind gets stronger, what should they do with the paper cups?
 「If the wind gets stronger, we should put the cups under the table and keep the jars in the boxes.」とあります。先週は風で紙コップが落ちたので、ひもを持っていく話も同じ段にあります。
 2「Sell them to the first-year students.（1年生に売る）」はひっかけです。1年生が欲しいと言ったのは取り置きの蜂蜜で、アヤは断っています。3「Keep them in Mrs. Kanda's red car.（神田さんの赤い車に入れる）」も違います。4「Take them to the community hall at 4:30.（4時半に公民館へ持っていく）」はフルートのレッスン時刻で、紙コップの話ではありません。
 ヒント：If the wind gets stronger のように条件が付いた文は、その条件のときだけの行動です。ほかの用件の時刻・人と混ぜないようにしましょう。
+
+【ポイント8c】
+種別: 読解
+見出し: If the wind gets stronger はその条件だけの行動
+・条件のときの cups / jars の置き方
+・ほかの用件の時刻・人と混ぜない
+・先週の失敗談がヒントになることもある
 
 ---
 
@@ -633,6 +808,13 @@ What did Ms. Ide ask Saki to record at first?
 1「Kitchen sounds from the start.（最初から台所の音）」はひっかけです。台所の音は、あとから道がうるさいと分かって使ったものです。3「The shop scale in the fruit shop.（果物屋の秤）」も違います。秤は店主が電池を置いてある理由です。2「A song about apples.（りんごの歌）」は出てきません。
 ヒント：at first の質問は、あとから計画が変わる前の指示を見ます。最初の発言と最後のメモを混ぜないようにしましょう。
 
+【ポイント9a】
+種別: 読解
+見出し: at first は計画が変わる前の指示
+・最初の先生の言葉と、あとで使った音を分けて読む
+・because のあとは課題の目的
+・メモの最終案と最初の課題を取り違えない
+
 問題9b:
 Why did the recorder stop on Pine Street?
 
@@ -650,6 +832,13 @@ Why did the recorder stop on Pine Street?
 Pine Street の段落でレコーダーが短い音を出して止まり、赤いランプが消えます。次の段落で堀さんは「The battery is dead.」と説明しています。
 4「Because workers were already cutting the road.（もう作業員が道を削っていたから）」はひっかけです。工事の音は、電池を入れたあとに街へ戻った段落の話です。止まった直接の理由ではありません。1「Because Saki dropped it into a box of apples.（りんごの箱に落としたから）」も、2「Because Ms. Ide took the battery home.（井出先生が電池を家へ持っていったから）」も書かれていません。
 ヒント：止まった場面の段と、原因を話す段は隣どうしです。あとから出てくるうるさい工事と原因を取り違えないようにしましょう。
+
+【ポイント9b】
+種別: 読解
+見出し: 止まった場面の次の段に原因がある
+・dead battery など直接の理由を取る
+・あとから出てくるうるさい工事と原因を混ぜない
+・赤いランプが消えた＝電源のサイン
 
 問題9c:
 How did Mr. Hori help Saki?
@@ -669,6 +858,13 @@ How did Mr. Hori help Saki?
 1「He recorded the street sounds for her.（街の音を代わりに録った）」はしていません。3「He asked the workers to stop the machines.（作業員に機械を止めてと頼んだ）」も違います。工事は次の段落で、堀さんは出ていません。4「He played her recording in music class.（音楽の授業で彼女の録音を流した）」はひっかけです。録音を流したのは井出先生で、店主ではありません。
 ヒント：opened / gave のあとに、店で実際に渡したものがあります。授業の段の先生と混ぜないようにしましょう。
 
+【ポイント9c】
+種別: 読解
+見出し: opened / gave のあとに店で渡したもの
+・drawer から出した物が助けの内容
+・授業で録音を流した先生と混ぜない
+・How did A help B? は実際の行動
+
 問題9d:
 What sounds did Saki use in the end?
 
@@ -687,6 +883,13 @@ What sounds did Saki use in the end?
 2「Only a bicycle bell and a bus door.（自転車のベルとバスのドアだけ）」はひっかけです。最初に少し録れましたが、提出の中心ではありません。3「Birds and shop bells from Pine Street.（松通りの鳥や店のベル）」は録りたかったのに、工事で聞こえなかった音です。4「The shop scale in Mr. Hori's store.（堀さんの店の秤）」も録っていません。
 ヒント：in the end / メモの so I used が、最終的に使った音です。最初に録れた短い音と取り違えないようにしましょう。
 
+【ポイント9d】
+種別: 読解
+見出し: in the end / so I used が最終的に使ったもの
+・録りたかった音と、提出に使った音を分ける
+・最初に少し録れた音だけ、ではない
+・メモの so のあとを見る
+
 問題9e:
 Why did Ms. Ide say Saki's work was real collecting?
 
@@ -704,3 +907,11 @@ Why did Ms. Ide say Saki's work was real collecting?
 最後の段落で井出先生は「You did not give up, and you explained the change. That is real collecting.」と言っています。計画を変えた理由をメモに書いたことも、その説明になっています。
 1「Because Saki recorded only street sounds.（街の音だけを録ったから）」はひっかけです。最初の課題どおりではありません。2「Because the other students laughed at the kettle.（ほかの生徒がやかんの音を笑ったから）」も違います。笑ったのは生徒で、先生がほめた理由ではありません。3「Because Mr. Hori came to the music room.（堀さんが音楽室へ来たから）」も出ていません。サキがりんごの絵を店へ持っていったのは放課後です。
 ヒント：先生の発言の直後に、なぜほめたかが書いてあることが多いです。生徒の反応や最初の課題文と混ぜないようにしましょう。
+
+【ポイント9e】
+種別: 読解
+見出し: ほめた直後の文が理由
+・did not give up / explained the change
+・生徒が笑ったことや最初の課題どおりかは理由ではない
+・先生の発言の引用をそのまま取る
+

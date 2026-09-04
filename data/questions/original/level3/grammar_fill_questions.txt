@@ -19,7 +19,7 @@ A : Why did you stay home yesterday? B : ( ) I had a headache.
 【ポイント1】
 種別: 文法
 見出し: Why の答えは Because（理由を表すつなぎ言葉）
-・Because のあとは「主語 + 動詞」の文が続く
+・Because I was sick. のように Because + 主語 + 動詞
 ・Although は逆接、Before / Until は時を表す
 ・理由が名詞ひとつなら because of を使う
 
@@ -75,7 +75,7 @@ A : Do you want ( ) with us after school? B : Sure. I'd love to.
 見出し: want to + 動詞の原形（〜したい）
 ・to のあとは必ず原形（to go / to eat）
 ・同じ形をとる動詞: hope / decide / need / would like
-・答えの I'd love to. は「ぜひ」の決まり文句
+・enjoy / finish のあとは 〜ing（enjoy playing）
 
 ---
 
@@ -100,9 +100,9 @@ I have already ( ) my homework, so I can watch TV now.
 【ポイント4】
 種別: 文法
 見出し: 現在完了「have + 過去分詞」（完了・結果）
-・already / just / yet は現在完了と相性がよい目印
-・yet は否定文・疑問文で「まだ／もう」
-・yesterday など過去の一点を表す語とは一緒に使わない
+・finish - finished - finished（have のあとは過去分詞）
+・already / just / yet は現在完了の目印
+・yesterday など過去の一点とは一緒に使わない
 
 ---
 
@@ -154,7 +154,7 @@ A : Is this the book ( ) you bought last week? B : Yes, it is.
 【ポイント6】
 種別: 文法
 見出し: 関係代名詞 that / which（物を説明する）
-・前の名詞（book）を後ろから説明する
+・the book that you bought = あなたが買った本
 ・人なら who、物なら that / which
 ・what は前に名詞を置かない（〜するもの）
 
@@ -206,7 +206,7 @@ A : How long have you lived in this town? B : ( ) last April.
 ヒント：since + 時点、for + 期間、と覚えると答えやすいです。
 
 【ポイント8】
-種別: 熟語
+種別: 文法
 見出し: since + 時点 / for + 期間（現在完了の継続）
 ・since last April（去年の4月から）
 ・for three years（3年間）
@@ -318,7 +318,7 @@ This puzzle is ( ) than the last one.
 見出し: 長い形容詞の比較級は more + 原級
 ・difficult / popular / important などは more をつける
 ・最上級は the most + 原級
-・difficulty は名詞。品詞のちがいに注意
+・短い語は -er（light → lighter）
 
 ---
 
@@ -449,7 +449,7 @@ Let's stay in the library ( ) the rain stops.
 ヒント：「〜まで待つ／いる」のときは until を疑いましょう。
 
 【ポイント17】
-種別: 熟語
+種別: 文法
 見出し: until（〜までずっと）は動作が続く終わりの時点
 ・until のあとは文も名詞も置ける
 ・by 〜 は「〜までに（期限）」で意味がちがう

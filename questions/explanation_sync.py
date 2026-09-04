@@ -15,6 +15,7 @@ from exams.models import Question
 from exams.provenance import PROVENANCE_ORIGINAL
 from questions.level_paths import questions_file_abspath
 from questions.models import ListeningQuestion, ReadingPassage, ReadingQuestion
+from questions.study_points import extract_explanation, extract_study_points
 
 
 def _provenance_kwargs(original: bool) -> dict:
@@ -139,10 +140,7 @@ def extract_mondai_explanation(block: str) -> tuple[int | None, str]:
     if not number_match:
         return None, ''
     number = int(number_match.group(1))
-    explanation_match = re.search(
-        r'【解説\d+】\s*(.*?)(?=\n---|$)', block, re.DOTALL
-    )
-    explanation = explanation_match.group(1).strip() if explanation_match else ''
+    explanation = extract_explanation(block)
     return number, explanation
 
 
@@ -213,7 +211,12 @@ def _update_exam_by_question_number(
             warn(f'{question_type} 問題{number}: DBに該当なし')
             continue
         if not dry_run:
-            qs.update(explanation=explanation)
+            fields = {'explanation': explanation}
+            study_points = extract_study_points(block)
+            # original txt が正本。レガシー txt にポイントが無いときは既存を消さない
+            if study_points is not None or original:
+                fields['study_points'] = study_points
+            qs.update(**fields)
         updated += count
         log(f'{question_type} 問題{number}: {count} row(s)')
     return updated
@@ -278,7 +281,7 @@ def update_writing(level: str, dry_run: bool, log, warn, *, original: bool = Fal
         if number < 1 or number > 99:
             continue
         ref_match = re.search(
-            r'【参考解答】\s*(.*?)(?=\n※協会|\Z)',
+            r'【参考解答】\s*(.*?)(?=\n※協会|\n*【ポイント|\Z)',
             block,
             re.DOTALL,
         )
@@ -299,7 +302,11 @@ def update_writing(level: str, dry_run: bool, log, warn, *, original: bool = Fal
             warn(f'writing 問題{number}: DBに該当なし')
             continue
         if not dry_run:
-            qs.update(explanation=explanation)
+            fields = {'explanation': explanation}
+            study_points = extract_study_points(block)
+            if study_points is not None or original:
+                fields['study_points'] = study_points
+            qs.update(**fields)
         updated += count
         log(f'writing 問題{number}: {count} row(s)')
     return updated
@@ -330,15 +337,15 @@ def update_reading_comprehension(level: str, dry_run: bool, log, warn, *, origin
             warn(f'reading 本文{passage_number}: DBに該当なし')
             continue
 
-        matches = list(
-            re.finditer(
-                r'【解説\d+[a-z]】\s*(.*?)(?=\n問題\d+[a-z]:|\n---|$)',
-                passage_block,
-                re.DOTALL,
-            )
+        question_iter = re.finditer(
+            r'(問題(\d+[a-z]):.*?)(?=\n問題\d+[a-z]:|\Z)',
+            passage_block,
+            re.DOTALL,
         )
-        for i, m in enumerate(matches, 1):
-            explanation = m.group(1).strip()
+        for i, question_match in enumerate(question_iter, 1):
+            question_block = question_match.group(1)
+            suffix = question_match.group(2)
+            explanation = extract_explanation(question_block, suffix=re.escape(suffix))
             if not explanation:
                 continue
             qs = ReadingQuestion.objects.filter(
@@ -351,7 +358,13 @@ def update_reading_comprehension(level: str, dry_run: bool, log, warn, *, origin
                 )
                 continue
             if not dry_run:
-                qs.update(explanation=explanation)
+                fields = {'explanation': explanation}
+                study_points = extract_study_points(
+                    question_block, suffix=re.escape(suffix)
+                )
+                if study_points is not None or original:
+                    fields['study_points'] = study_points
+                qs.update(**fields)
             updated += count
             log(f'reading 本文{passage_number} 問{i}: {count} row(s)')
     return updated

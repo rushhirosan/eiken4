@@ -29,7 +29,7 @@ description: Reviews and improves the 【ポイント】 study-point blocks atta
 ```
 
 - 置き場所: `【解説N】` の直後、`---` の前
-- `種別:` は 単語 / 熟語 / 文法 / 会話 / 読解 / リスニング のいずれか（`Question.STUDY_POINT_BADGE_CLASSES` のキー。増やすならモデルも直す）
+- `種別:` は 単語 / 熟語 / 文法 / 会話 / 読解 / リスニング / ライティング のいずれか（`Question.STUDY_POINT_BADGE_CLASSES` のキー。増やすならモデルも直す）
 - `見出し:` は1行。`・` 行は2〜4本
 - 読解など識別子つき（`【ポイント1a】`）は登録コマンドの suffix 対応が要る
 

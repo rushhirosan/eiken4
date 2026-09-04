@@ -41,10 +41,21 @@ class ReadingQuestion(models.Model):
     question_text = models.TextField()
     question_number = models.IntegerField()  # a1, a2, ... の順番
     explanation = models.TextField(blank=True, default='')
+    study_points = models.JSONField(
+        null=True,
+        blank=True,
+        help_text='学習ポイント（category / title / keys のdict）。ノート・振り返り用',
+    )
     created_at = models.DateTimeField(auto_now_add=True)
 
     def __str__(self):
         return f"Question {self.question_number} for Passage {self.passage.id}"
+
+    def study_point_badge_class(self):
+        from exams.models import Question
+
+        category = (self.study_points or {}).get('category', '')
+        return Question.STUDY_POINT_BADGE_CLASSES.get(category, 'bg-secondary')
 
 class ReadingChoice(models.Model):
     question = models.ForeignKey(ReadingQuestion, on_delete=models.CASCADE, related_name='choices')

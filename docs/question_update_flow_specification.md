@@ -531,7 +531,7 @@ B : Yes, I did. I'm happy.
 
 `【解説N】` のあとに置ける学習ポイント。`Question.study_points`（JSON）に入り、回答結果画面の解説の手前と、ページ下部の「今回のまとめ」表に出る。ノート・振り返り用。
 
-- `種別:` … 単語 / 熟語 / 文法 / 会話 / 読解 / リスニング（`Question.STUDY_POINT_BADGE_CLASSES` のキー）
+- `種別:` … 単語 / 熟語 / 文法 / 会話 / 読解 / リスニング / ライティング（`Question.STUDY_POINT_BADGE_CLASSES` のキー）
 - `見出し:` … 1行で言い切る
 - `・` 行 … 覚える要点。3つ程度まで
 - 省略した問題は `study_points` が `None` になり、画面には何も出ない

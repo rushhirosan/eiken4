@@ -318,6 +318,10 @@ def _validate_writing_file(text: str, *, level: str, issues: list[Issue]) -> Non
         ref = f'問題{qm.group(1)}' if qm else 'block'
         if '【参考解答】' not in block:
             issues.append(Issue(level, category, ref, '【参考解答】 がありません'))
+            continue
+        suffix = qm.group(1) if qm else ''
+        if suffix:
+            _check_study_point(block, suffix, issues, level, category, ref)
 
 
 def _check_answer_bias(

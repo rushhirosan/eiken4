@@ -35,6 +35,13 @@ I practice chess twice a week. The club meets every Wednesday after school.
 ■ 表現のメモ
 twice a week / every Wednesday / after school など、具体的に書く。
 
+【ポイント1】
+種別: ライティング
+見出し: メール返信は下線の2問に必ず答える
+・How often → twice a week / every day など頻度
+・When → 曜日や時刻（every Wednesday after school）
+・本文は 15〜25 語が目安
+
 ---
 
 問題2:
@@ -73,6 +80,13 @@ I usually study in my room. I like it because it is quiet and I can focus.
 
 ■ 表現のメモ
 because it is quiet / because I can use the internet など、理由を一文で足す。
+
+【ポイント2】
+種別: ライティング
+見出し: Where と Why には場所＋理由で返す
+・Where → in my room / at the library
+・Why → because it is quiet / because I can focus
+・2文で2問に答える形が書きやすい
 
 ---
 
@@ -113,6 +127,13 @@ It took about twenty minutes. I felt tired, but I was happy I arrived on time.
 ■ 表現のメモ
 about twenty minutes / a little tired / happy など、短い語で具体的に。
 
+【ポイント3】
+種別: ライティング
+見出し: How long と気持ちは時間＋形容詞
+・How long → It took about twenty minutes.
+・How did you feel → I felt tired / happy / nervous
+・過去の話なら過去形でそろえる
+
 ---
 
 問題4:
@@ -151,6 +172,13 @@ I usually water the plants and clean the yard. Yes, I enjoy it because we talk a
 
 ■ 表現のメモ
 water the plants / clean the room / Yes, I do. など、実際の手伝いを書く。
+
+【ポイント4】
+種別: ライティング
+見出し: What と Do you には行動＋Yes/No
+・What do you do → I usually 〜 and 〜.
+・Do you enjoy 〜? → Yes, I do. / No, I don't. ＋一言
+・because で短い理由を足すと自然
 
 ---
 
@@ -191,6 +219,13 @@ I want to go to the mountains near my city. I want to go with my family.
 ■ 表現のメモ
 to the sea / to Kyoto / with my friends など、希望をはっきり書く。
 
+【ポイント5】
+種別: ライティング
+見出し: Where と Who には場所＋人で返す
+・I want to go to 〜. I want to go with 〜.
+・to the sea / to Kyoto / with my family など具体的に
+・希望なので want to / would like to が使いやすい
+
 ---
 
 問題6:
@@ -216,6 +251,13 @@ I think students should do homework on weekends. First, they can review what the
 
 ■ 表現のメモ
 I think ... / First, ... / Second, ... / because ... / Also, ...
+
+【ポイント6】
+種別: ライティング
+見出し: 意見文は「意見→理由2つ」の型
+・最初に I think ... / I don't think ...
+・First, ... Second, ... で理由を2つ
+・語数は 25〜35 語が目安
 
 ---
 
@@ -243,6 +285,13 @@ I don't think students should use smartphones at school. First, they may not lis
 ■ 表現のメモ
 I don't think ... / First, ... / Second, ... / at school / face to face
 
+【ポイント7】
+種別: ライティング
+見出し: 反対意見も I don't think で書き始める
+・I don't think students should 〜.
+・理由は具体的な行動（not listen / talk face to face）
+・First / Second で2つそろえる
+
 ---
 
 問題8:
@@ -268,6 +317,13 @@ I think students should wear school uniforms. First, everyone looks the same and
 
 ■ 表現のメモ
 I think ... / school uniforms / every morning / feel equal
+
+【ポイント8】
+種別: ライティング
+見出し: should の意見はメリットを理由にする
+・I think students should 〜.
+・feel equal / don't worry about clothes など利点を書く
+・自分の毎朝の経験でも理由になる
 
 ---
 
@@ -295,6 +351,13 @@ I think it is important to learn English. First, I can talk with people from oth
 ■ 表現のメモ
 I think it is important ... / other countries / helps me ...
 
+【ポイント9】
+種別: ライティング
+見出し: important の意見は「できること」で理由づけ
+・I think it is important to 〜.
+・talk with people / read books and websites など
+・helps me 〜 の形も使いやすい
+
 ---
 
 問題10:
@@ -321,4 +384,10 @@ I think students should join club activities. First, they can make new friends. 
 ■ 表現のメモ
 club activities / make new friends / work with others / after school
 
----
+【ポイント10】
+種別: ライティング
+見出し: 部活の意見は友だち・協力を理由にしやすい
+・I think students should join club activities.
+・make new friends / work with others / become stronger
+・after school の場面を一文で足してもよい
+

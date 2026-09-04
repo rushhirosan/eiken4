@@ -103,6 +103,7 @@ class Question(models.Model):
         '会話': 'bg-secondary',
         '読解': 'bg-dark',
         'リスニング': 'bg-danger',
+        'ライティング': 'bg-warning text-dark',
     }
 
     def study_point_badge_class(self):

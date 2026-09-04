@@ -16,6 +16,13 @@ A : Why are you packing so many bottles? B : ( )
 ほかの選択肢：1「At the school library.（学校の図書館で）」は場所、3「They cost five hundred yen.（500円です）」は値段、4「I'm going by bus.（バスで行く）」は行き方で、理由の答えになっていません。
 ヒント：Why には Because で返す、とまず考えましょう。
 
+【ポイント1】
+種別: 会話
+見出し: Why と聞かれたら Because で理由を返す
+・Because のあとは「主語 + 動詞」の文が続く
+・Where → 場所、How much → 値段、How → 行き方
+・Why don't we 〜? は提案で、理由の Why とは別物
+
 ---
 
 問題2:
@@ -35,6 +42,13 @@ Girl : Have you ever been to the new aquarium? Boy : ( )
 「Have you ever 〜?」は経験を聞く質問なので、行ったことがあるかどうかを答えるのが自然です。
 ほかの選択肢：1「It's near the harbor.（港の近くです）」は場所の説明、2「I want some ice cream.（アイスクリームがほしい）」はほしいもの、4「By bus.（バスで）」は乗り物で、経験の答えになっていません。
 ヒント：Have you ever 〜? には Yes, I have. / No, I haven't. や、いつ行ったかを足す答えがよく来ます。
+
+【ポイント2】
+種別: 文法
+見出し: Have you ever 〜? は「今までに〜したことある？」
+・Yes, I have. / No, I haven't. が基本の答え
+・いつ・だれと行ったかを足してもよい
+・be - was / were - been
 
 ---
 
@@ -56,6 +70,13 @@ A : What should we do if it rains on Sunday? B : ( )
 ほかの選択肢：1「It rained a lot yesterday.（きのうたくさん雨が降った）」は過去の天気、3「Sunday is my favorite day.（日曜日がいちばん好き）」は好きな曜日、4「Take an umbrella with you now.（いま傘を持っていって）」はいますぐの注意で、日曜の計画の答えになっていません。
 ヒント：if（もし）の相談には、「〜できる／〜しよう」の提案がよく来ます。
 
+【ポイント3】
+種別: 会話
+見出し: What should we do if 〜? には別の計画を出す
+・if = もし〜なら。答えは We can 〜 / Let's 〜
+・If it rains, we can visit the indoor pool.
+・What will you do if 〜? は自分の対応（I'll 〜）で別物
+
 ---
 
 問題4:
@@ -75,6 +96,13 @@ Boy : Could you tell me where the gym is? Girl : ( )
 「where（どこ）」と場所を聞いているので、道順や位置で答えるのが自然です。
 ほかの選択肢：1「I play basketball after school.（放課後にバスケをする）」は自分の習慣、2「It's open until five.（5時まで開いている）」は閉店時間、3「Because I like sports.（スポーツが好きだから）」は理由で、いまの場所の答えになっていません。
 ヒント：where の質問には、道順や「It's next to 〜」などの位置が答えになります。
+
+【ポイント4】
+種別: 会話
+見出し: where と場所を聞かれたら道順で答える
+・Go straight and turn left / right at 〜
+・It's next to / across from 〜 もよく使う
+・Could you tell me 〜? はていねいな尋ね方
 
 ---
 
@@ -96,6 +124,13 @@ A : I'm nervous about my speech tomorrow. B : ( )
 ほかの選択肢：1「The speech is about animals.（スピーチは動物について）」はスピーチの内容、3「Tomorrow is Tuesday.（あしたは火曜日）」は曜日、4「I bought a new notebook.（新しいノートを買った）」は買い物の話で、気持ちへの返事になっていません。
 ヒント：相手が困る・不安なときは、Don't worry. / You'll be fine. などがよく使われます。
 
+【ポイント5】
+種別: 会話
+見出し: 相手が不安なら励ます返事を返す
+・Don't worry. / You'll be fine. がよく出る
+・You've prepared well. のように根拠を足すと自然
+・I'm sure you'll do well. もよく使う
+
 ---
 
 問題6:
@@ -115,6 +150,13 @@ Girl : How much is this scarf? Boy : ( )
 「How much（いくら）」と値段を聞いているので、金額で答えるのが自然です。
 ほかの選択肢：1「It's made of wool.（ウールでできている）」は素材、2「I got it for my mother.（お母さんのために買った）」はだれのため、4「The color is blue.（色は青）」は色で、値段の答えではありません。
 ヒント：How much には yen / dollars などの金額が答えになります。
+
+【ポイント6】
+種別: 会話
+見出し: How much は値段を聞く疑問詞
+・It's 〜 yen. / It costs 〜 yen. で答える
+・How many は数、How long は期間
+・素材（made of）や色は値段の答えではない
 
 ---
 
@@ -136,6 +178,13 @@ A : Do you mind if I open the window? B : ( )
 ほかの選択肢：1「The window is blue.（窓は青い）」は色、2「I opened it yesterday.（きのう開けた）」は過去、3「Please close your book.（本を閉じてください）」は別のお願いで、許しへの返事になっていません。
 ヒント：Do you mind if 〜? に Yes だけ返すと「いやだ」に聞こえることがあるので、Not at all. を覚えておくと安心です。
 
+【ポイント7】
+種別: 会話
+見出し: Do you mind if 〜? は「〜してもいい？」
+・OKなら Not at all. / Of course not. / Go ahead.
+・Yes. だけだと「いやだ」に聞こえることがある
+・Would you mind 〜ing? は相手にしてほしいお願い（if I とは形が違う）
+
 ---
 
 問題8:
@@ -155,6 +204,13 @@ Boy : Which club are you going to join? Girl : ( )
 「Which club（どの部）」と選択を聞いているので、部の名前で答えるのが自然です。
 ほかの選択肢：2「The club room is on the second floor.（部室は2階）」は場所、3「Club activities start in April.（部活は4月に始まる）」は開始時期、4「I join clubs every day.（毎日部に入る）」は頻度で、「どの部か」の答えになっていません。
 ヒント：Which 〜? には、選択肢の中のひとつ（またはその名前）で答えます。
+
+【ポイント8】
+種別: 会話
+見出し: Which 〜? には選んだもの（名前）で答える
+・Which club / which one は選択を聞く
+・The art club. / I'm going to join the art club. のように返す
+・場所や開始時期は「どの〜か」の答えではない
 
 ---
 
@@ -176,6 +232,13 @@ A : What did you do during the summer vacation? B : ( )
 ほかの選択肢：1「Summer vacation is too short.（夏休みは短すぎる）」は感想、2「It starts in July.（7月に始まる）」は期間の説明、4「I like swimming better than running.（走るより泳ぐほうが好き）」は好き嫌い比較で、「何をしたか」の答えになっていません。
 ヒント：What did you do 〜? には過去形の文で答えましょう。
 
+【ポイント9】
+種別: 文法
+見出し: What did you do 〜? には過去形で「したこと」を答える
+・質問の did のあと動詞は原形、答えは過去形（help → helped）
+・during = 〜のあいだ
+・I visited my uncle. / I played tennis. のように行動で返す
+
 ---
 
 問題10:
@@ -195,6 +258,13 @@ Girl : Shall I carry your bag for you? Boy : ( )
 「Shall I 〜?」は「〜しましょうか？」という申し出です。受けるときは感謝の返事が自然です。
 ほかの選択肢：1「My bag is heavy because of my books.（本でかばんが重い）」はかばんが重い理由、2「I bought this bag last month.（先月このかばんを買った）」は購入時期、3「Carry it to the station, please, every day.（毎日駅まで運んで）」は毎日の依頼で、いまの申し出への返事になっていません。
 ヒント：Shall I 〜? には Yes, please. / Thank you. などがよく使われます。
+
+【ポイント10】
+種別: 熟語
+見出し: Shall I 〜? は「〜しましょうか？」の申し出
+・受けるときは Yes, please. / Thank you. That would be a great help.
+・断るときは No, thank you. / That's OK.
+・Why don't we 〜? はいっしょにする提案で別物
 
 ---
 
@@ -216,6 +286,13 @@ Girl : Have you ever cooked for your family? Boy : ( )
 ほかの選択肢：1「I like cooking shows on TV.（料理番組が好き）」は好み、3「My family eats dinner at seven.（家族は7時に夕食）」は習慣、4「The kitchen is next to the living room.（台所は居間のとなり）」は場所で、経験の答えになっていません。
 ヒント：Have you ever 〜? には Yes, I have. / No, I haven't. や、いつ何をしたかを足す答えがよく来ます。
 
+【ポイント11】
+種別: 文法
+見出し: 経験ありの答えは「Yes + いつ・何を」
+・Have you ever 〜? → Yes. I made pancakes yesterday.
+・具体例は過去形（make - made - made）
+・好き・習慣ではなく、したことがあるかを答える
+
 ---
 
 問題12:
@@ -235,6 +312,13 @@ A : Why did you choose that book? B : ( )
 「Why（なぜ）」とその本を選んだ理由を聞いているので、「Because 〜」で答えるのが自然です。
 ほかの選択肢：2「I borrowed it from the library yesterday.（きのう図書館で借りた）」はいつ借りたか、3「It's about two hundred pages.（約200ページ）」は長さ、4「The writer is from Canada.（作家はカナダ出身）」は人の情報で、選んだ理由ではありません。
 ヒント：Why には Because で返す、とまず考えましょう。借りた日やページ数と混ぜないようにします。
+
+【ポイント12】
+種別: 会話
+見出し: Why did you 〜? も Because で過去の理由を返す
+・Because I wanted to 〜 / Because it looked 〜
+・Why の答えは理由。いつ・どこ・だれは別の疑問詞
+・Why don't we 〜?（提案）と混ぜない
 
 ---
 
@@ -256,6 +340,13 @@ A : What will you do if you miss the train? B : ( )
 ほかの選択肢：1「The train leaves at eight.（電車は8時発）」は時刻、2「I missed it yesterday too.（きのうも乗り遅れた）」は過去、3「It's a ten-minute walk to school.（学校まで歩いて10分）」は距離で、もし乗り遅れたときの行動ではありません。
 ヒント：if（もし）の質問には、will でこれからすることを答えると合いやすいです。
 
+【ポイント13】
+種別: 文法
+見出し: What will you do if 〜? には will でこれからを答える
+・if の節は現在形（if you miss）、答えは will（I'll wait）
+・If I miss the train, I'll wait for the next one.
+・時刻や過去の話ではなく I'll 〜 で答える
+
 ---
 
 問題14:
@@ -275,6 +366,13 @@ A : Could you keep this secret? B : ( )
 「Could you 〜?」は「〜してくれる？」というお願いです。秘密を守ってほしいので、守ると約束する返事が自然です。
 ほかの選択肢：1「The secret is about the party.（秘密はパーティーのこと）」は中身、2「I heard it from Ken this morning.（けさケンから聞いた）」は情報の出どころ、4「Please tell me more about it.（もっと教えて）」は逆にお願いしていて、守る返事ではありません。
 ヒント：Could you 〜? のお願いは、Of course. / Sure. などで受けることが多いです。
+
+【ポイント14】
+種別: 会話
+見出し: Could you 〜? はていねいなお願い
+・Of course. / Sure. / No problem. で引き受ける
+・Sure. I'll help you. のように will で約束してもよい
+・Can you / Will you 〜? もお願い（Could のほうがていねい）
 
 ---
 
@@ -296,6 +394,13 @@ Girl : How long have you known her? Boy : ( )
 ほかの選択肢：2「I know her very well.（とてもよく知っている）」は親密度、3「She lives near the station.（駅の近くに住んでいる）」は場所、4「We met in the science club.（科学部で知り合った）」は出会いの場所で、期間の答えではありません。
 ヒント：How long have you 〜? には for + 期間、または since + 時点 がよく来ます。どこで会ったかと混ぜないようにしましょう。
 
+【ポイント15】
+種別: 文法
+見出し: How long have you 〜? には for / since で期間を答える
+・for + 期間（for five years）
+・since + 時点（since 2020 / since last April）
+・know - knew - known
+
 ---
 
 問題16:
@@ -315,6 +420,13 @@ A : I'm thinking of joining a volunteer group this spring. B : ( )
 相手が「ボランティアのグループに入ろうと思っている」と予定を話しているので、関心を示して質問を返す返事が自然です。
 ほかの選択肢：1「Volunteer groups meet on Saturdays.（土曜に集まる）」は活動日の説明、3「I joined a music club last year.（去年音楽部に入った）」は自分の過去、4「Volunteers are kind people.（ボランティアは親切）」は一般論で、相手の予定への返事になっていません。
 ヒント：I'm thinking of 〜. には、That sounds 〜. や質問を返す返事がよく来ます。
+
+【ポイント16】
+種別: 熟語
+見出し: I'm thinking of 〜ing（〜しようと思っている）
+・of のあとは 〜ing（joining / going）
+・That sounds great. で関心を示す
+・What are you going to do? など質問を返すと会話が続く
 
 ---
 
@@ -336,6 +448,13 @@ A : What should I say if I arrive late? B : ( )
 ほかの選択肢：1「You should leave home earlier.（もっと早く家を出るべき）」は遅れない方法で、「何と言うか」への答えではありません。2「Late students wait in the hall.（遅い生徒は廊下で待つ）」はルール、3「I arrived late last week.（先週遅れた）」は過去です。
 ヒント：What should I say 〜? には、言う英語そのものを答えると合いやすいです。遅れる前の対策と混ぜないようにしましょう。
 
+【ポイント17】
+種別: 会話
+見出し: What should I say if 〜? には言うことばを教える
+・Just say 〜. / You can say 〜. の形
+・if の節は現在形（if I arrive）
+・What should we do if 〜? は行動の相談で、言うことばとは別
+
 ---
 
 問題18:
@@ -355,6 +474,13 @@ A : Do you know who left this note? B : ( )
 「who（だれが）」とそのメモを置いた人を聞いているので、人名で答えるのが自然です。
 ほかの選択肢：1「The note is on the teacher's desk.（メモは先生の机の上）」は場所、2「It says "See you after class."（放課後に会おうと書いてある）」は内容、4「Please leave a note for me too.（私にもメモを残して）」はお願いで、だれが置いたかではありません。
 ヒント：who の質問には人の名前（または I don't know.）が答えになります。メモの場所や文面と混ぜないようにしましょう。
+
+【ポイント18】
+種別: 会話
+見出し: who と人を聞かれたら名前で答える
+・Do you know who 〜? = 〜はだれか知ってる？
+・I think 〜 の推測でも答えになる
+・場所や内容ではなく人の名前で答える
 
 ---
 
@@ -376,6 +502,13 @@ A : Would you mind waiting a few minutes? I need to find my ticket. B : ( )
 ほかの選択肢：1「The ticket office is already closed.（切符売り場はもう閉まっている）」は別の情報、3「I waited for an hour yesterday.（きのう1時間待った）」は過去、4「A few minutes is a short time.（数分は短い時間）」は一般論で、待ってよいかへの返事ではありません。
 ヒント：Would you mind 〜? に Yes だけ返すと「いやだ」に聞こえることがあるので、Not at all. を覚えておくと安心です。
 
+【ポイント19】
+種別: 熟語
+見出し: Would you mind 〜ing? は相手へのていねいなお願い
+・mind のあとは 〜ing（waiting）
+・OKなら Not at all. Take your time.
+・Do you mind if I 〜? は自分がしてよいか（if + 主語 + 動詞）
+
 ---
 
 問題20:
@@ -395,5 +528,12 @@ Girl : Why don't we take the later bus? We still have plenty of time. Boy : ( )
 「Why don't we 〜?」は「〜しない？」という提案です。Girl は「まだ時間がある」と言っているので、賛成する返事が自然です。
 ほかの選択肢：1「The later bus is cheaper than the train.（あとのバスは電車より安い）」はバスの情報、2「I took the early bus this morning.（けさ早いバスに乗った）」は過去、3「The bus stop is over there.（バス停はあそこ）」は場所で、提案への返事ではありません。
 ヒント：Why don't we 〜? には Good idea. / Sure. などの賛成がよく来ます。値段や場所の話と混ぜないようにしましょう。
+
+【ポイント20】
+種別: 熟語
+見出し: Why don't we 〜? は「〜しない？」の提案
+・Good idea. / Sure. Let's. で賛成する
+・Why don't you 〜? は相手への助言
+・Shall we 〜? もいっしょにする提案
 
 ---
