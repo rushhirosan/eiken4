@@ -7,6 +7,7 @@ from questions.level_paths import (
     db_audio_path,
 )
 from questions.register_source import resolve_register_io
+from questions.study_points import extract_study_points
 
 def parse_questions_from_file(file_path):
     with open(file_path, 'r', encoding='utf-8') as f:
@@ -51,8 +52,11 @@ def parse_questions_from_file(file_path):
         correct_answer_number = int(correct_match.group(1)) if correct_match else 0
         
         # 解説を抽出
-        explanation_match = re.search(r'【解説\d*】\s*(.*?)(?=\n---|$)', block, re.DOTALL)
+        explanation_match = re.search(
+            r'【解説\d*】\s*(.*?)(?=\n*【ポイント\d*】|\n---|$)', block, re.DOTALL
+        )
         explanation = explanation_match.group(1).strip() if explanation_match else ''
+        study_points = extract_study_points(block)
         
         if question_text and len(choices) == 4 and question_number is not None:
             questions_data.append({
@@ -61,7 +65,8 @@ def parse_questions_from_file(file_path):
                 'question_text': question_text,
                 'choices': choices,
                 'correct_answer_number': correct_answer_number,
-                'explanation': explanation
+                'explanation': explanation,
+                'study_points': study_points,
             })
     
     return questions_data
@@ -104,7 +109,8 @@ class Command(BaseCommand):
                 listening_text=data['conversation'],  # 会話文を保存
                 explanation=data['explanation'],
                 audio_file=af,
-                question_number=question_number
+                question_number=question_number,
+                study_points=data.get('study_points'),
             )
             # 選択肢を作成
             for j, choice_text in enumerate(data['choices'], 1):

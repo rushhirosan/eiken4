@@ -2627,7 +2627,8 @@ def _build_study_point_summary(context):
             'title': points.get('title', ''),
             'keys': points.get('keys', []),
             'badge_class': question.study_point_badge_class(),
-            'is_correct': bool(answer.get('is_correct')),
+            # None = 採点なし（ライティング・スピーキング）。bool() しない。
+            'is_correct': answer.get('is_correct'),
         })
     return summary
 

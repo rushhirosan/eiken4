@@ -118,7 +118,7 @@ def extract_no_explanation(block: str) -> tuple[int | None, str]:
         return None, ''
     number = int(number_match.group(1))
     explanation_match = re.search(
-        r'【解説\d+】\s*(.*?)(?=\n---|$)', block, re.DOTALL
+        r'【解説\d+】\s*(.*?)(?=\n*【ポイント\d*】|\n---|$)', block, re.DOTALL
     )
     explanation = explanation_match.group(1).strip() if explanation_match else ''
     return number, explanation
@@ -391,6 +391,9 @@ def update_listening_illustration(level: str, dry_run: bool, log, warn, *, origi
             continue
         if not dry_run:
             update_fields = {'explanation': explanation}
+            study_points = extract_study_points(block)
+            if study_points is not None or original:
+                update_fields['study_points'] = study_points
             if correct_order is not None:
                 update_fields['correct_answer'] = str(correct_order)
             qs.update(**update_fields)
@@ -429,7 +432,11 @@ def update_listening_conversation(level: str, dry_run: bool, log, warn, *, origi
             warn(f'listening_conversation No.{number}: DBに該当なし')
             continue
         if not dry_run:
-            qs.update(explanation=explanation)
+            fields = {'explanation': explanation}
+            study_points = extract_study_points(block)
+            if study_points is not None or original:
+                fields['study_points'] = study_points
+            qs.update(**fields)
         updated += count
         log(f'listening_conversation No.{number}: {count} row(s)')
     return updated
@@ -457,7 +464,11 @@ def update_listening_passage(level: str, dry_run: bool, log, warn, *, original: 
             warn(f'listening_passage No.{number}: DBに該当なし')
             continue
         if not dry_run:
-            qs.update(explanation=explanation)
+            fields = {'explanation': explanation}
+            study_points = extract_study_points(block)
+            if study_points is not None or original:
+                fields['study_points'] = study_points
+            qs.update(**fields)
         updated += count
         log(f'listening_passage No.{number}: {count} row(s)')
     return updated

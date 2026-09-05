@@ -20,6 +20,12 @@ M: Yes. Where could it be?（うん。どこだろう？）
 最後に場所を聞いているので、1「On the machine by the gate.（改札の機械のうえ）」が自然です。
 2「It's raining hard now.（いま雨がひどい）」は天気、3「I bought a new one.（新しいのを買った）」は新しい定期の話で、場所の答えではありません。
 
+【ポイント1】
+種別: リスニング
+見出し: Where could it be? には場所で答える
+・場所を聞くときは on / by / at + 名詞
+・天気や買ったものは場所の答えではない
+
 ---
 
 No.2:
@@ -43,6 +49,12 @@ W: Next to the gym door, please.（体育館のドアのとなり、お願い。
 
 手伝いと場所が決まったあとの返事なので、2「OK. I'll carry them there.（わかった。そこまで運ぶよ）」が自然です。
 1「The festival is in May.（文化祭は5月）」は時期、3「Bottles are colorful.（びんは色とりどり）」はびんの説明で、返事になっていません。
+
+【ポイント2】
+種別: リスニング
+見出し: 手伝いの依頼には OK + 行動で返す
+・Could you help 〜? → OK. I'll carry / take 〜
+・場所が決まったあとは there などで受ける
 
 ---
 
@@ -68,6 +80,12 @@ M: How did you feel after that?（そのあと、どう感じた？）
 気持ちを聞いているので、1「I felt happy and relaxed.（うれしくて安心した）」が自然です。
 2「The contest was on Friday.（コンテストは金曜日だった）」は日程、3「My teacher was busy.（先生は忙しかった）」は先生の話で、気持ちの答えではありません。
 
+【ポイント3】
+種別: リスニング
+見出し: How did you feel? には I felt 〜 で気持ち
+・How did you feel? / How do you feel?
+・日程や他人の様子は気持ちの答えではない
+
 ---
 
 No.4:
@@ -91,6 +109,12 @@ W: About thirty. Can you buy them?（だいたい30個。買ってきてくれ�
 
 買い物のお願いへの返事なので、3「OK. I'll go to the supermarket.（いいよ。スーパーに行くね）」が自然です。
 1「The party starts at six.（パーティーは6時に始まる）」は開始時刻、2「Paper cups are white.（紙コップは白い）」は色で、お願いへの返事になっていません。
+
+【ポイント4】
+種別: リスニング
+見出し: Can you buy 〜? には OK + 買いに行く
+・Can you buy them? → OK. I'll go to 〜
+・パーティーの開始時刻は依頼への返事ではない
 
 ---
 
@@ -116,6 +140,12 @@ M: So where can we practice basketball?（じゃあ、どこでバスケの練�
 代わりの場所を聞いているので、3「We can use the park court outside.（外の公園のコートが使えるよ）」が自然です。
 1「The floor looks new.（床は新しそう）」は床の話、2「Basketball is fun.（バスケは楽しい）」は感想で、場所の答えではありません。
 
+【ポイント5】
+種別: リスニング
+見出し: Where can we 〜? には提案 We can 〜
+・where can we practice → We can use 〜
+・床の状態など場所以外の描写に惑わされない
+
 ---
 
 No.6:
@@ -139,6 +169,12 @@ W: She likes flowers. Any ideas?（お花が好き。何か案ある？）
 
 アイデアを求めているので、2「How about a small flower pot?（小さな植木鉢はどう？）」が自然です。
 1「Mom's birthday is next week.（お母さんの誕生日は来週）」は誕生日、3「Flowers need water.（花には水が必要）」は花の世話で、提案になっていません。
+
+【ポイント6】
+種別: リスニング
+見出し: Any ideas? には How about 〜 で提案
+・プレゼントの相談 → How about a small 〜?
+・誕生日の日付だけでは提案にならない
 
 ---
 
@@ -164,6 +200,12 @@ M: Almost twenty minutes. What should we do?（もう20分近い。どうしよ�
 どうするか聞いているので、2「Let's call the school office.（学校の事務室に電話しよう）」が自然です。
 1「The bus is yellow.（バスは黄色い）」は色、3「I like waiting.（待つのは好き）」は好みで、次の行動の提案になっていません。
 
+【ポイント7】
+種別: リスニング
+見出し: What should we do? には具体的な行動
+・Let's call 〜 / Ask 〜 など次の一手
+・バスの色や待ち時間だけでは行動の答えではない
+
 ---
 
 No.8:
@@ -187,6 +229,12 @@ W: When will you finish it?（いつ終わる予定？）
 
 いつ終わるかを聞いているので、3「Maybe by this weekend.（今週末までには、かな）」が自然です。
 1「Magazines are thick.（雑誌は厚い）」は厚さ、2「I borrowed it from my cousin.（いとこから借りた）」は借りた相手で、時期の答えではありません。
+
+【ポイント8】
+種別: リスニング
+見出し: When will you 〜? には時期・期限で答える
+・Maybe by this weekend. / By Friday.
+・雑誌の厚さなど内容の説明は時期ではない
 
 ---
 
@@ -212,6 +260,12 @@ M: Good idea. What do you want?（いいね。何がいい？）
 食べたいものを聞いているので、2「Some hot noodles, please.（あったかい麺がいいな）」が自然です。
 1「Club practice was hard.（部活は大変だった）」は部活の感想、3「The shop closes at eight.（店は8時に閉まる）」は閉店時間で、ほしいものの答えではありません。
 
+【ポイント9】
+種別: リスニング
+見出し: What do you want? には注文 Some 〜, please.
+・食べ物・飲み物 → Some hot noodles, please.
+・部活の感想は注文の答えではない
+
 ---
 
 No.10:
@@ -235,6 +289,12 @@ W: Over there, by the cherry tree.（あそこの桜の木のそば。）
 
 場所が決まったあとの撮影の流れなので、3「OK. Smile, everyone!（了解。みんな、笑って！）」が自然です。
 1「Cherry blossoms are pink.（桜はピンク）」は桜の説明、2「Our team won yesterday.（チームはきのう勝った）」は試合結果で、いま撮る場面の返事になっていません。
+
+【ポイント10】
+種別: リスニング
+見出し: 写真の指示には OK + 短い合図
+・Smile, everyone! / OK. など
+・桜の色など景色の説明は返事にならない
 
 ---
 
@@ -261,6 +321,12 @@ M: No. I have left my lunch ticket in the art room. What should I do?（ちが�
 2「The art room is on the third floor.（美術室は3階）」は場所、3「Lunch starts at twelve.（昼食は12時）」は時刻で、どうするかの答えではありません。
 ヒント：なくした？と聞かれたあとの No. の文が、本当に起きたことです。ひっかけは場所や時刻です。
 
+【ポイント11】
+種別: リスニング
+見出し: What should I do? には Ask / Check など
+・落とし物 → Ask 〜 if anyone found it.
+・置き場所の説明だけでは行動の答えではない
+
 ---
 
 No.12:
@@ -285,6 +351,12 @@ W: Then let's move the meeting to the music room.（そのときは、集まり�
 条件つきの予定が決まったあとの返事なので、2「OK. I'll tell the other members.（わかった。ほかのメンバーに伝えるね）」が自然です。
 1「The tent is in the gym.（テントは体育館にある）」は場所、3「I like windy days.（風の日が好き）」は好みで、返事になっていません。
 ヒント：If のあとに決めた予定を受けて、OK. で返す形です。ひっかけはテントの場所や好みです。
+
+【ポイント12】
+種別: リスニング
+見出し: 場所変更の提案には OK + 伝える
+・move the meeting → OK. I'll tell 〜
+・テントの場所だけでは返事にならない
 
 ---
 
@@ -311,6 +383,12 @@ M: What did you buy last time?（このまえ、何を買った？）
 2「The shop opens at ten.（店は10時にあく）」は開店時刻、3「I go there every Sunday.（毎週日曜に行く）」は頻度で、買い物の答えではありません。
 ヒント：最後の What did you buy に答えます。3回行った、は経験の回数で、買ったものではありません。
 
+【ポイント13】
+種別: リスニング
+見出し: What did you buy? には買ったもの
+・What did you buy? → A set of 〜 / Some 〜
+・値段や店の名前だけでは「何を買ったか」にならない
+
 ---
 
 No.14:
@@ -335,6 +413,12 @@ W: How long will the meeting last?（集まりはどのくらい続く？）
 長さ・終了の目安を聞いているので、2「Until four o'clock.（4時まで）」が自然です。
 1「Because I like hot tea.（熱いお茶が好きだから）」は理由、3「I washed the cups yesterday.（きのうカップを洗った）」は過去のそうじで、時間の答えではありません。
 ヒント：最後の How long に答えます。外で集まる、は茶びんを持ってきた理由で、長さではありません。
+
+【ポイント14】
+種別: リスニング
+見出し: How long will 〜? には Until 〜 / For 〜
+・How long will the meeting last? → Until four o'clock.
+・好みの理由（Because I like 〜）は長さの答えではない
 
 ---
 
@@ -361,6 +445,12 @@ M: Yes. What should I do if it still doesn't work?（うん。それでも動か
 1「The printer is in the science room.（プリンターは理科室にある）」は場所、2「It broke before lunch.（昼の前に壊れた）」はいつ壊れたかで、代案になっていません。
 ヒント：What should I do if 〜? には、次にすることを答えます。ひっかけは場所や壊れた時刻です。
 
+【ポイント15】
+種別: リスニング
+見出し: うまくいかないときは別のものを使う
+・What should I do if 〜? → Use the one in 〜
+・機械の場所の説明と「代わりに使うもの」を混同しない
+
 ---
 
 No.16:
@@ -385,6 +475,12 @@ W: Who taught it to you?（だれが教えてくれたの？）
 人を聞いているので、3「My cousin in Hokkaido.（北海道のいとこ）」が自然です。
 1「I learned it last spring.（去年の春に覚えた）」はいつ、2「The song is three minutes long.（歌は3分）」は長さで、だれかの答えではありません。
 ヒント：Who には人名を答えます。去年の春から、は知っている期間です。
+
+【ポイント16】
+種別: リスニング
+見出し: Who 〜? には人で答える
+・Who taught you? → My cousin / My teacher.
+・いつ覚えたか（last spring）は人の答えではない
 
 ---
 
@@ -411,6 +507,12 @@ M: What if the gloves are too big?（手袋が大きすぎたら、どうする�
 1「The oven is in the kitchen.（オーブンは台所にある）」は場所、3「I baked a cake yesterday.（きのうケーキを焼いた）」は過去で、代案になっていません。
 ヒント：What if 〜? には、そのときの別のやり方を答えます。熱いフライパン、は手袋の理由です。
 
+【ポイント17】
+種別: リスニング
+見出し: What if 〜? には代わり Use 〜 instead
+・What if the gloves are too big? → Use a dry towel instead.
+・道具の場所だけでは「代わり」の答えにならない
+
 ---
 
 No.18:
@@ -435,6 +537,12 @@ W: When will you rest?（いつ休むの？）
 休む時期を聞いているので、3「After I take this stack to the office.（この束を事務室に届けたあと）」が自然です。
 1「The newspaper is for our class.（新聞はクラス用だ）」は何の新聞か、2「Five o'clock is early.（5時は早い）」は起床時刻の感想で、いつ休むかの答えではありません。
 ヒント：When will you rest? に答えます。5時から起きている、はいま眠い理由です。
+
+【ポイント18】
+種別: リスニング
+見出し: When will you rest? には After 〜 / Before 〜
+・After I take this 〜 to the office.
+・新聞の用途は休息の時刻ではない
 
 ---
 
@@ -461,6 +569,12 @@ M: What should we bring just in case?（万一に備えて、何を持ってい�
 2「The balcony is made of wood.（ベランダは木製）」は材質、3「Summer vacation starts soon.（夏休みがもうすぐ）」は時期で、持ち物の答えではありません。
 ヒント：What should we bring に答えます。中に入る、は蚊が出たときの条件で、持ち物ではありません。
 
+【ポイント19】
+種別: リスニング
+見出し: What should we bring? には持ち物を列挙
+・just in case → A small light and some spray.
+・クラブの場所は持ち物の答えではない
+
 ---
 
 No.20:
@@ -486,4 +600,8 @@ W: How is he now?（その子は、いまどう？）
 1「Art club is on the second floor.（美術部は2階）」は場所、3「The nurse was busy yesterday.（看護師さんはきのう忙しかった）」は昨日の話で、いまの様子ではありません。
 ヒント：How is he now? はいまの様子です。遅れた理由は保健室まで案内したことで、How の答えではありません。
 
----
+【ポイント20】
+種別: リスニング
+見出し: How is he now? には状態 He's fine.
+・How is he? → He's fine. / He only needed 〜
+・部活の場所はけがの状態の答えではない

@@ -26,6 +26,12 @@ Question: Where will they go after club?（2人は部活のあとどこへ行き
 女の子が「the shop by the river（川のそばの店）」へ行こうと言っているので、1「To the bicycle shop by the river.（川のそばの自転車屋へ）」が正解です。
 2「To the gym.（体育館へ）」・3「To Dad's office.（お父さんの会社へ）」・4「To a flower shop.（花屋へ）」は放送に出てこない行き先です。日曜は店が閉まっていたときの予定、4時は集合時刻です。
 
+【ポイント1】
+種別: リスニング
+見出し: Where 〜? は会話の行き先キーワード
+・pick it up / go to 〜 → 店・場所
+・予備の日時（日曜・4時）は本命ではない
+
 ---
 
 No.2:
@@ -55,6 +61,12 @@ Question: When should the boy return the dictionary?（男の子はいつ辞書�
 
 女の子が「before lunch（お昼の前に）」と言っているので、3「Before lunch.（お昼の前）」が正解です。
 1「After school.（放課後）」・2「Tomorrow morning.（あしたの朝）」・4「Next Monday.（来週の月曜日）」は返す時刻ではありません。宿題を早くやる、は返すための行動です。午後は女の子が使う時間です。
+
+【ポイント2】
+種別: リスニング
+見出し: When should 〜? は before / by / until
+・return 〜 before lunch
+・宿題の速さ・午後の用途は返す時刻ではない
 
 ---
 
@@ -86,6 +98,12 @@ Question: Why is the boy wearing boots?（男の子がブーツをはいてい�
 男の子が「wet grass（ぬれた草）」を歩くと言っているので、1「Because he will walk through wet grass.（ぬれた草の中を歩くから）」が正解です。
 2「Because it is snowing at school.（学校で雪が降っているから）」・3「Because his shoes are broken.（くつが壊れているから）」・4「Because he has a P.E. class.（体育があるから）」は放送にありません。理科室は雨が強くなったときの変更で、いまブーツをはく理由ではありません。
 
+【ポイント3】
+種別: リスニング
+見出し: Why 〜? は Because + 理由
+・Why boots? → Because 〜 walk through wet grass
+・クラブ名・雨の予定は理由ではない
+
 ---
 
 No.4:
@@ -115,6 +133,12 @@ Question: What will the boy do to help?（男の子は手伝いで何をしま�
 
 男の子が「grate the cheese（チーズをおろす）」と言っているので、4「Grate the cheese.（チーズをおろす）」が正解です。
 1「Buy the pasta.（パスタを買う）」・2「Set the table only.（テーブルを並べるだけ）」・3「Call his friends again.（友達にもう一度電話する）」は手伝いの中身として言っていません。手を洗うのは準備です。
+
+【ポイント4】
+種別: リスニング
+見出し: What will 〜 do to help? は具体的な作業
+・help → grate / carry / wash など動詞
+・時間・場所だけでは「何をするか」にならない
 
 ---
 
@@ -146,6 +170,12 @@ Question: What does the boy still need to do?（男の子がまだやらなけ�
 男の子が「finish my poster tonight（今夜ポスターを仕上げる）」と言っているので、3「Finish his poster tonight.（今夜ポスターを仕上げる）」が正解です。
 1「Buy tickets for the festival.（文化祭のチケットを買う）」・2「Clean the classroom.（教室をそうじする）」・4「Practice a dance.（ダンスの練習をする）」は放送にありません。絵はすでに終わっています。マーカーは手伝いの申し出です。
 
+【ポイント5】
+種別: リスニング
+見出し: What still need to do? は finish / complete
+・still need → Finish 〜 tonight
+・道具の場所は残りの宿題ではない
+
 ---
 
 No.6:
@@ -175,6 +205,12 @@ Question: How long has the girl played the violin?（女の子はどのくらい
 
 「How long」に対して開始時点の「Since I was eight」が答えなので、1「Since she was eight years old.（8歳のときから）」が正解です。
 2「For eight minutes.（8分間）」は短すぎる長さ、3「Only on Saturday morning.（土曜の朝だけ）」はレッスンの曜日、4「Until last year.（去年まで）」は終了時点で、弾き続けている期間ではありません。
+
+【ポイント6】
+種別: リスニング
+見出し: How long has 〜? は Since / For
+・play the violin → Since she was eight
+・練習場所は期間の答えではない
 
 ---
 
@@ -206,6 +242,12 @@ Question: What will they do if it rains on Sunday?（日曜に雨なら、2人�
 男の子が「indoor swimming pool（屋内プール）」と言っているので、2「Visit the indoor swimming pool.（屋内プールに行く）」が正解です。
 1「Stay home and sleep.（家で寝る）」・3「Play soccer in the park.（公園でサッカーをする）」・4「Go to the beach.（海へ行く）」は雨のときの予定として出ていません。図書館の前は集合場所です。
 
+【ポイント7】
+種別: リスニング
+見出し: What will they do if 〜? は if 節の予定
+・if it rains → visit the indoor pool
+・晴れの日の予定は if の答えではない
+
 ---
 
 No.8:
@@ -235,6 +277,12 @@ Question: Why does the girl tell him not to worry?（女の子が「心配しな
 
 「You've practiced a lot（たくさん練習した）」が理由なので、2「Because he has practiced a lot.（たくさん練習したから）」が正解です。
 1「Because the speech is about animals.（スピーチは動物についてだから）」・3「Because tomorrow is Tuesday.（あしたは火曜日だから）」・4「Because she bought a new notebook.（新しいノートを買ったから）」は放送にありません。ゆっくり話す、は追加のアドバイスです。
+
+【ポイント8】
+種別: リスニング
+見出し: Why tell not to worry? は Because + 安心材料
+・not to worry → Because he has practiced a lot
+・開始時刻だけでは理由にならない
 
 ---
 
@@ -266,6 +314,12 @@ Question: How can the girl get to the gym?（女の子は体育館へどうや�
 道順の「Go past the cafeteria and turn right at the science lab」が答えなので、4「Go past the cafeteria and turn right at the science lab.（食堂をすぎて理科室で右へ）」が正解です。
 1「She should play basketball after school.（放課後にバスケをすべき）」は習慣、2「It is open until five.（5時まで開いている）」は閉店時間、3「Because she likes sports.（スポーツが好きだから）」は理由で、行き方ではありません。3分は距離の目安です。
 
+【ポイント9】
+種別: リスニング
+見出し: How can 〜 get to 〜? は道順
+・Go past 〜 and turn right at 〜
+・距離・時間だけでは行き方にならない
+
 ---
 
 No.10:
@@ -295,6 +349,12 @@ Question: What does the girl say about opening the window?（窓を開けるこ�
 
 「Not at all. It's a little hot」が許可の返事なので、4「Not at all. It is a little hot.（ぜんぜん大丈夫。ちょっと暑い）」が正解です。
 1「The window is blue.（窓は青い）」は色、2「She opened it yesterday.（きのう開けた）」は過去、3「Please close your book.（本を閉じて）」は別のお願いで、開けてもよいかの返事ではありません。テストが終わった、は追加の理由です。
+
+【ポイント10】
+種別: リスニング
+見出し: Do you mind if 〜? は Not at all. / Of course not.
+・open the window → Not at all. It is a little hot.
+・窓の場所の説明は許可の返事ではない
 
 ---
 
@@ -328,6 +388,12 @@ Question: Why is the boy bringing a compass?（男の子がコンパスを持っ
 3「Because the woods are famous for flowers.（森は花で有名だから）」・4「Because he lost his map at school.（学校で地図をなくしたから）」は放送にありません。
 ヒント：水を分け合う、はのどがかわいたときの条件です。ひっかけは、もう一人の持ち物を理由にすることです。
 
+【ポイント11】
+種別: リスニング
+見出し: Why bring 〜? は Because + 必要な理由
+・bring a compass → Because the path isn't marked
+・地図の大きさは理由ではない
+
 ---
 
 No.12:
@@ -359,6 +425,12 @@ Question: What must they do before the pottery class?（陶芸の授業の前に
 3「Clean the library.（図書館をそうじする）」は男の子が宿題をした場所をそうじする話にすり替えています。
 1「Buy clay at a shop.（店で粘土を買う）」・4「Call the music teacher.（音楽の先生に電話する）」は放送にありません。
 ヒント：4時の美術室は集合の話です。ひっかけは、宿題をした場所（図書館）をそうじする話にすることです。
+
+【ポイント12】
+種別: リスニング
+見出し: What must they do before 〜? は before の条件
+・before class → Finish the math worksheet
+・教室の場所は事前準備の答えではない
 
 ---
 
@@ -392,6 +464,12 @@ Question: How many times has the boy used the camping stove?（男の子はこ�
 1「Once with his mother.（お母さんと1回）」は相手が違います。2「Every weekend this year.（ことし毎週末）」は放送にありません。
 ヒント：How many times の合計が twice です。ひっかけは「1回はお父さんと」だけを答えにすることです。マッチは準備です。
 
+【ポイント13】
+種別: リスニング
+見出し: How many times has 〜? は回数
+・Twice. / Three times.
+・道具の名前だけでは回数にならない
+
 ---
 
 No.14:
@@ -423,6 +501,12 @@ Question: Why is the girl's backpack heavy?（女の子のリュックサック�
 1「Because he has never joined radio club.（彼は無線部に入ったことがないから）」は男の子の経験で、重さの理由ではありません。
 2「Because she bought a new backpack.（新しいリュックサックを買ったから）」・3「Because the sky is cloudy tonight.（今夜は曇りだから）」は放送にありません。
 ヒント：電波が弱いとき、は電池が必要な条件です。ひっかけは、もう一人の経験を理由にすることです。
+
+【ポイント14】
+種別: リスニング
+見出し: Why is 〜 heavy? は Because + 中身
+・heavy backpack → Because she brought extra batteries
+・色や大きさだけでは理由にならない
 
 ---
 
@@ -456,6 +540,12 @@ Question: Under what condition may the girl use the kitchen?（女の子が調�
 3「If she buys vegetables first.（先に野菜を買えば）」・4「If a teacher stays with her.（先生が一緒にいれば）」は放送にありません。
 ヒント：スープは作るメニューです。ひっかけは、もう一人がすでにした準備を条件にすることです。
 
+【ポイント15】
+種別: リスニング
+見出し: Under what condition? は If 〜
+・use the kitchen → If she washes every dish afterward
+・料理名だけでは条件の答えではない
+
 ---
 
 No.16:
@@ -487,6 +577,12 @@ Question: How long has the girl collected old postcards?（女の子は古い絵
 1「Since last month.（先月からの）」は男の子が始めた時期です。
 3「For two weeks only.（2週間だけ）」は短すぎます。4「Until she visited Kyoto.（京都に行くまで）」は終わりの時点で、集め続けている期間ではありません。
 ヒント：アルバムは見せる提案です。ひっかけは、もう一人が始めた「先月」です。How long には for + 期間を選びましょう。
+
+【ポイント16】
+種別: リスニング
+見出し: How long has 〜 collected? は For about 〜
+・collected postcards → For about two years
+・最初の1枚の話は期間の答えではない
 
 ---
 
@@ -520,6 +616,12 @@ Question: When can they borrow chairs from the English room?（2人はどんな�
 2「Before lunch only.（お昼の前だけ）」は運ぶ時間が逆です。3「If the drama club is closed.（演劇部が閉まっていれば）」は放送にありません。
 ヒント：借りられる条件は if it's empty です。先生に聞いたことや運ぶ時間と混ぜないようにしましょう。
 
+【ポイント17】
+種別: リスニング
+見出し: When can they 〜? は If 〜 is empty
+・borrow chairs → If the English room is empty
+・椅子の色は借りられる条件ではない
+
 ---
 
 No.18:
@@ -551,6 +653,12 @@ Question: Why did the girl bring empty jars?（女の子が空きびんを持っ
 1「Because he mixed the blue paint.（彼が青い絵の具を混ぜたから）」は男の子の準備で、持ってきた理由ではありません。
 2「Because she will cook jam in them.（ジャムを煮て入れるから）」・4「Because the sale starts tomorrow morning.（バザーは明日の朝だから）」は放送にありません。
 ヒント：星を足す、は早く乾いたときの条件です。ひっかけは、もう一人がした準備を理由にすることです。
+
+【ポイント18】
+種別: リスニング
+見出し: Why bring empty jars? は Because they will 〜
+・empty jars → Because they will paint them
+・店の場所は理由ではない
 
 ---
 
@@ -584,6 +692,12 @@ Question: How many times has the boy taken the night bus?（男の子は夜行�
 3「Never in his life.（一度もない）」・4「Once last winter.（去年の冬に1回）」は回数として合っていません。
 ヒント：How many times の合計が three times です。ひっかけは「おじさんと」だけ拾って回数を2回にすることです。時刻表は準備です。
 
+【ポイント19】
+種別: リスニング
+見出し: How many times has 〜 taken? は回数
+・night bus → Three times.
+・バスの時刻表だけでは回数にならない
+
 ---
 
 No.20:
@@ -616,4 +730,8 @@ Question: When can they practice the recorder on the roof?（2人はどんなと
 2「After it gets dark.（暗くなってから）」は逆です。3「Only on Sunday morning.（日曜の朝だけ）」は放送にありません。
 ヒント：写真部が下にいた、はいま屋上に人がいないことの手がかりで、条件そのものではありません。Only if のあとを答えにしましょう。
 
----
+【ポイント20】
+種別: リスニング
+見出し: When can they 〜? は Only if 〜
+・practice on the roof → Only if no one is taking photos
+・楽器の種類は条件の答えではない

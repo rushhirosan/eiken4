@@ -94,6 +94,7 @@
                             （正解が見つかりませんでした）
                         {% endif %}
                     </p>
+                    {% include 'exams/_study_point.html' with sp_question=answer.question %}
                     {% if answer.explanation %}
                     <div class="alert alert-info mt-2">
                         <strong>解説:</strong><br>
@@ -299,8 +300,8 @@
                     </thead>
                     <tbody>
                         {% for item in study_point_summary %}
-                        <tr class="study-point-row{% if not item.is_correct %} study-point-row--wrong{% endif %}">
-                            <td>{% if item.is_correct %}<span class="text-success">○</span>{% else %}<span class="text-danger">✕</span>{% endif %}</td>
+                        <tr class="study-point-row{% if item.is_correct is False %} study-point-row--wrong{% endif %}">
+                            <td>{% if item.is_correct is True %}<span class="text-success">○</span>{% elif item.is_correct is False %}<span class="text-danger">✕</span>{% else %}<span class="text-muted" title="自己採点">—</span>{% endif %}</td>
                             <td><span class="badge {{ item.badge_class }}">{{ item.category }}</span></td>
                             <td>
                                 <div class="fw-semibold">{{ item.title }}</div>

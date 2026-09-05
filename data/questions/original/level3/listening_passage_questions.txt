@@ -22,6 +22,12 @@ Question: Where will Nao work next Sunday?（ナオは次の日曜日、どこ�
 「community garden（コミュニティガーデン）」とあるので、1「At a community garden.（コミュニティガーデンで）」が正解です。
 2「At a bakery.（パン屋で）」・3「At a museum.（博物館で）」・4「At a library.（図書館で）」は働く場所として出ていません。ハーブを持ち帰る話はあとでしたいことです。
 
+【ポイント1】
+種別: リスニング
+見出し: Where will 〜? は work / visit + at 〜
+・Where will 〜 work? → At 〜 / In 〜
+・持ち帰りたいもの・後でしたいことは場所ではない
+
 ---
 
 No.2:
@@ -47,6 +53,12 @@ Question: What did Hina teach her neighbor?（ヒナは隣人に何を教えま�
 
 「how to use a new tablet（新しいタブレットの使い方）」とあるので、3「How to use a new tablet.（新しいタブレットの使い方）」が正解です。
 1「How to bake bread.（パンの焼き方）」・2「How to ride a bike.（自転車の乗り方）」・4「How to play the piano.（ピアノの弾き方）」は教えた内容ではありません。夕食はお礼です。
+
+【ポイント2】
+種別: リスニング
+見出し: What did 〜 teach? は taught + 内容
+・taught 〜 how to 〜 / how to use 〜
+・お礼や食事は「教えた内容」ではない
 
 ---
 
@@ -74,6 +86,12 @@ Question: Why did Kenta wake up early?（ケンタが早く起きた理由は何
 「to make rice balls for the sports day（運動会用のおにぎりを作るため）」とあるので、1「To make rice balls for sports day.（運動会用のおにぎりを作るため）」が正解です。
 2「To wash fruit with his sister.（妹と果物を洗うため）」は妹がした手伝い、3「To study hard for a big test.（大きなテストのため勉強する）」・4「To walk his dog in the park.（公園で犬の散歩）」は早く起きた理由ではありません。
 
+【ポイント3】
+種別: リスニング
+見出し: Why did 〜 wake up early? は to 不定詞の目的
+・woke up early to 〜（目的）
+・他人の手伝いは本人の目的と混同しない
+
 ---
 
 No.4:
@@ -99,6 +117,12 @@ Question: What does Yui want to write about?（ユイは何について書きた
 
 「a report about it」の it はリサイクルセンター見学のことなので、3「A recycling center visit.（リサイクルセンター見学）」が正解です。
 1「A school play next month.（来月の学園劇）」・2「Glass bottles at her home.（家のガラスびん）」・4「A cooking class at school.（学校の料理教室）」は書くテーマではありません。ガラスびんは見学で学ぶ内容の一部です。
+
+【ポイント4】
+種別: リスニング
+見出し: What want to write about? は write about 〜
+・write a report about 〜 / about 〜
+・日付だけではテーマにならない
 
 ---
 
@@ -127,6 +151,12 @@ Question: What did Ren do after practicing?（レンは練習のあと何をし�
 練習のあとはオンラインで演奏した、なので 4「He played online for his grandparents.（おじいちゃん・おばあちゃんにオンラインで演奏した）」が正解です。
 1「He went to a nearby concert hall.（近くのホールへ行った）」・2「He bought a new guitar downtown.（街で新しいギターを買った）」・3「He slept in his room all day.（一日中部屋で寝た）」はそのあとの行動ではありません。2時間練習した、は前の行動です。
 
+【ポイント5】
+種別: リスニング
+見出し: What did 〜 do after 〜? は after の行動
+・after 〜, he/she 過去形
+・練習の内容だけでは after の行動ではない
+
 ---
 
 No.6:
@@ -153,6 +183,12 @@ Question: How long has Saki lived near the sea?（サキはどのくらい海の
 「for three years（3年間）」とあるので、4「For three years.（3年間）」が正解です。
 1「For three weeks.（3週間）」・2「All her life.（生まれてからずっと）」・3「Since last summer.（去年の夏から）」は住んでいる期間ではありません。サーフィンをしたことがない、は別の現在完了です。
 
+【ポイント6】
+種別: リスニング
+見出し: How long has 〜 lived? は For 〜 / Since 〜
+・How long has 〜? → For three years.
+・好み・特徴の描写は期間ではない
+
 ---
 
 No.7:
@@ -178,6 +214,12 @@ Question: How many times has Kosei visited the museum before today?（コウセ�
 
 「twice before（以前に2回）」とあるので、2「Twice.（2回）」が正解です。
 1「Once.（1回）」・3「Three times.（3回）」・4「Never.（一度もない）」は回数として合っていません。歩いて行った、は今日の行き方です。
+
+【ポイント7】
+種別: リスニング
+見出し: How many times has 〜? は回数
+・Twice. / Three times. / Four times.
+・天気・場所の説明は回数ではない
 
 ---
 
@@ -206,6 +248,12 @@ Question: What does Ayaka still need to do before Friday?（アヤカが金曜�
 「add one photo before Friday（金曜までに写真を1枚足す）」とあるので、1「Add one photo.（写真を1枚足す）」が正解です。
 2「Start a new report.（新しいレポートを始める）」・3「Change her teacher.（先生を変える）」・4「Study for a music test.（音楽のテストの勉強）」はまだやるべきこととして言っていません。レポート本文はすでに終わっています。
 
+【ポイント8】
+種別: リスニング
+見出し: What still need to do? は still need + 残り
+・still need to 〜 / Add 〜
+・締切の日だけでは残りの作業ではない
+
 ---
 
 No.9:
@@ -231,6 +279,12 @@ Question: What will Daiki's family do if it snows on Sunday?（日曜に雪な�
 
 「stay home and make hot soup（家にいて温かいスープを作る）」とあるので、2「Stay home and make hot soup.（家にいて温かいスープを作る）」が正解です。
 1「Go skiing in the mountains.（山でスキーに行く）」・3「Buy bread at the shop.（店でパンを買う）」・4「Visit friends by bus.（バスで友達を訪ねる）」は雪の日の予定ではありません。パンはすでに買ってあるものです。
+
+【ポイント9】
+種別: リスニング
+見出し: What will 〜 do if 〜? は if 節
+・if it snows / if it rains → そのときの行動
+・晴れの日の予定は if の答えではない
 
 ---
 
@@ -258,6 +312,12 @@ Question: How many times have they cleaned the station stairs?（彼らは駅の
 
 「three times（3回）」とあるので、3「Three times.（3回）」が正解です。
 1「Once.（1回）」・2「Twice.（2回）」・4「Every day.（毎日）」はそうじの回数ではありません。古い本は来週の予定です。
+
+【ポイント10】
+種別: リスニング
+見出し: How many times have they 〜? は回数
+・How many times → 数字 + times
+・場所・道具の説明は回数ではない
 
 ---
 
@@ -287,6 +347,12 @@ Question: Why will Haruto leave school early?（ハルトが学校を早めに�
 3「Because he will sit near the front.（前方に座るから）」は妹の手助け、4「Because the town hall is new.（町役場が新しいから）」は放送にありません。
 ヒント：because の直後が早退の理由です。ひっかけは、もう終わった宿題や席の話です。
 
+【ポイント11】
+種別: リスニング
+見出し: Why will 〜 leave early? は Because + 理由
+・leave early because 〜
+・時刻表だけでは理由にならない
+
 ---
 
 No.12:
@@ -314,6 +380,12 @@ Question: How many times has Kana visited the clock museum this year?（カナ�
 1「Once.（1回）」・2「Twice.（2回）」・4「Every day.（毎日）」は回数として合っていません。
 ヒント：How many times の数字を拾いましょう。古い時計を勉強したい、は通う理由で、回数ではありません。
 
+【ポイント12】
+種別: リスニング
+見出し: How many times this year? は回数 + 期間
+・this year → Four times.
+・場所の説明は回数ではない
+
 ---
 
 No.13:
@@ -340,6 +412,12 @@ Question: How long has Sho checked the class rain gauge?（ショウはどのく
 「for six months（6か月間）」とあるので、2「For six months.（6か月間）」が正解です。
 1「For six weeks.（6週間）」・4「For two days.（2日間）」は長さが違います。3「Since next Monday.（来週の月曜から）」はこれから教える日で、記録の期間ではありません。
 ヒント：How long には for + 期間を選びます。ひっかけは来週教える日や weeks と months の取り違えです。
+
+【ポイント13】
+種別: リスニング
+見出し: How long has 〜 checked 〜? は For 〜
+・has checked 〜 for six months
+・数値の結果だけでは期間ではない
 
 ---
 
@@ -369,6 +447,12 @@ Question: Why did Mei stay after school last Friday?（メイが先週の金曜�
 1「To clean the kitchen.（台所をそうじするため）」・2「To cook dinner for her family.（家族の夕食を作るため）」は放送にありません。
 ヒント：because の直後が残った理由です。ひっかけは以前の2回です。ホームルームの発表はあとからの予定です。
 
+【ポイント14】
+種別: リスニング
+見出し: Why stay after school? は To 〜 / Because 〜
+・stay after school to 〜
+・帰宅時刻だけでは理由にならない
+
 ---
 
 No.15:
@@ -396,6 +480,12 @@ Question: How many times has Toma wiped the music stands this month?（トマは
 2「Once before homeroom.（ホームルームの前に1回）」は明日の予定を回数にしたものです。
 3「Every day in winter.（冬は毎日）」・4「Twice last year.（去年2回）」は放送にありません。
 ヒント：How many times this month の数字を拾いましょう。ひっかけは明日のピアノカバーです。ほこりとにおい、はふく理由です。
+
+【ポイント15】
+種別: リスニング
+見出し: How many times this month? は回数
+・this month → Five times.
+・道具名だけでは回数にならない
 
 ---
 
@@ -425,6 +515,12 @@ Question: Why does Aoi leave early?（アオイが早めに出る理由は何で
 3「Because she has used the road for two years.（その道を2年使っているから）」は期間です。2「Because she has a new bike.（新しい自転車があるから）」は放送にありません。
 ヒント：If the river path is muddy は行き方の条件、because は早出の理由です。二つを混ぜないようにしましょう。
 
+【ポイント16】
+種別: リスニング
+見出し: Why leave early? は Because + 理由
+・leave early because the traffic 〜
+・到着時刻だけでは理由にならない
+
 ---
 
 No.17:
@@ -452,6 +548,12 @@ Question: How long has Ryo studied German?（リョウはどのくらいドイ�
 1「For eight weeks.（8週間）」は手紙の通数と混ざりやすい長さです。2「Since this weekend.（今週末から）」はこれから録る日、4「For two days.（2日間）」は短すぎます。
 ヒント：How long には for + 期間です。ひっかけは手紙の8通を週にすることと、今週末の録音です。
 
+【ポイント17】
+種別: リスニング
+見出し: How long has 〜 studied 〜? は For 〜
+・studied 〜 for a year and a half
+・好きな科目だけでは期間ではない
+
 ---
 
 No.18:
@@ -478,6 +580,12 @@ Question: How many times has Nami sung in the station choir this spring?（ナ�
 「three times this spring（今春3回）」とあるので、4「Three times.（3回）」が正解です。
 1「Once.（1回）」・3「Eight times.（8回）」は回数として合っていません。2「Every Saturday.（毎週土曜）」はこれから歌う土曜と混ぜやすい言い方です。
 ヒント：How many times this spring の数字を拾いましょう。笑顔にしたい、は入った理由で、回数ではありません。
+
+【ポイント18】
+種別: リスニング
+見出し: How many times this spring? は回数
+・this spring → Three times.
+・場所の名前は回数ではない
 
 ---
 
@@ -507,6 +615,12 @@ Question: Why will Sota skip soccer this Saturday?（ソウタが今週の土曜
 3「Because the evening game is on TV.（夜の試合がテレビだから）」はあとで見たい希望です。4「Because his aunt is sick.（叔母が病気だから）」は放送にありません。
 ヒント：because の直後が今週休む理由です。2回働いた経験やテレビの話と混ぜないようにしましょう。
 
+【ポイント19】
+種別: リスニング
+見出し: Why skip 〜? は Because + 約束・理由
+・skip 〜 because he promised to 〜
+・相手の名前だけでは理由にならない
+
 ---
 
 No.20:
@@ -534,4 +648,8 @@ Question: How long has Hana lived in the apartment building?（ハナはどの�
 1「For four weeks.（4週間）」は長さが違います。3「Since it started raining.（雨が降り始めてから）」は条件の話、4「All morning.（朝ずっと）」は散歩の時間帯で、住んでいる期間ではありません。
 ヒント：How long には for + 期間です。ひっかけは雨のときの廊下と、毎朝の散歩です。
 
----
+【ポイント20】
+種別: リスニング
+見出し: How long lived in 〜? は For 〜
+・lived in 〜 for four years
+・部屋の数だけでは期間ではない

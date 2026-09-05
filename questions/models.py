@@ -109,6 +109,11 @@ class ListeningQuestion(models.Model):
     audio = models.CharField(max_length=200)  # 静的ファイルのパスを保存
     correct_answer = models.CharField(max_length=200)
     explanation = models.TextField(blank=True, default='')
+    study_points = models.JSONField(
+        null=True,
+        blank=True,
+        help_text='学習ポイント（category / title / keys のdict）。ノート・振り返り用',
+    )
     level = models.CharField(max_length=10, choices=LEVELS, default='4')
     provenance = models.CharField(
         max_length=20,
@@ -123,6 +128,12 @@ class ListeningQuestion(models.Model):
 
     def __str__(self):
         return self.question_text
+
+    def study_point_badge_class(self):
+        from exams.models import Question
+
+        category = (self.study_points or {}).get('category', '')
+        return Question.STUDY_POINT_BADGE_CLASSES.get(category, 'bg-secondary')
 
 class ListeningChoice(models.Model):
     question = models.ForeignKey(ListeningQuestion, on_delete=models.CASCADE, related_name='choices')

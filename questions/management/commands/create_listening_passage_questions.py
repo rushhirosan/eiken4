@@ -7,6 +7,7 @@ from questions.level_paths import (
     db_audio_path,
 )
 from questions.register_source import resolve_register_io
+from questions.study_points import extract_study_points
 
 
 class Command(BaseCommand):
@@ -48,6 +49,7 @@ class Command(BaseCommand):
                 question_text=q_data['passage'] + '\n' + q_data['question_text'],
                 explanation=q_data['explanation'],
                 audio_file=af,
+                study_points=q_data.get('study_points'),
             )
             
             # 選択肢を作成
@@ -105,8 +107,11 @@ class Command(BaseCommand):
                 correct_choice_index = int(correct_match.group(1)) - 1 if correct_match else 0
                 
                 # 解説を抽出
-                explanation_match = re.search(r'【解説\d+】\s*(.+)', block, re.DOTALL)
+                explanation_match = re.search(
+                    r'【解説\d+】\s*(.*?)(?=\n*【ポイント\d*】|\n---|$)', block, re.DOTALL
+                )
                 explanation = explanation_match.group(1).strip() if explanation_match else ''
+                study_points = extract_study_points(block)
                 
                 # データ追加
                 if question_text and choices:
@@ -116,6 +121,7 @@ class Command(BaseCommand):
                         'question_text': question_text,
                         'choices': choices,
                         'correct_choice_index': correct_choice_index,
-                        'explanation': explanation
+                        'explanation': explanation,
+                        'study_points': study_points,
                     })
         return questions_data 

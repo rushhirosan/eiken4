@@ -12,6 +12,7 @@ from questions.level_paths import (
     static_images_part1_dir,
 )
 from questions.register_source import resolve_register_io
+from questions.study_points import extract_study_points
 
 
 class Command(BaseCommand):
@@ -113,7 +114,7 @@ class Command(BaseCommand):
                     explanation = ''
                     continue
                 if in_explanation:
-                    if line.strip().startswith('---'):
+                    if line.strip().startswith('---') or line.strip().startswith('【ポイント'):
                         in_explanation = False
                     else:
                         explanation += line.strip() + '\n'
@@ -127,6 +128,7 @@ class Command(BaseCommand):
                         correct_answer = line.strip()
 
             explanation = explanation.strip()
+            study_points = extract_study_points(block)
 
             # モデル登録
             q = ListeningQuestion.objects.create(
@@ -136,6 +138,7 @@ class Command(BaseCommand):
                 audio=audio_path,
                 correct_answer=correct_answer,
                 explanation=explanation,
+                study_points=study_points,
                 level=level
             )
 

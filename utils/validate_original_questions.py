@@ -250,6 +250,8 @@ def _validate_listening_block(
     if ans_num < 1 or ans_num > len(choices):
         issues.append(Issue(level, category, ref, f'正解番号 {ans_num} が範囲外'))
 
+    _check_study_point(block, str(num), issues, level, category, ref)
+
     if category == 'listening_illustration':
         image_rel = db_image_path_part1(level, f'listening_illustration_image{num}.png')
         audio_part = listening_illustration_audio_part(level, num)

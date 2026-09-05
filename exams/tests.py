@@ -2526,3 +2526,195 @@ class WritingFeedbackTests(TestCase):
         )
         rubric = get_writing_rubric(question)
         self.assertEqual(rubric['kind'], 'opinion')
+
+
+class StudyPointSummaryTest(TestCase):
+    """「今回のまとめ」の is_correct 表示（採点あり/なし）"""
+
+    def setUp(self):
+        self.study_points = {
+            'category': 'ライティング',
+            'title': 'should の意見はメリットを理由にする',
+            'keys': ['I think students should 〜.'],
+        }
+
+    def test_build_study_point_summary_preserves_none_for_ungraded(self):
+        from exams.views import _build_study_point_summary
+
+        question = Question.objects.create(
+            provenance=PROVENANCE_ORIGINAL,
+            level='3',
+            question_type='writing',
+            question_text='Write your opinion.',
+            study_points=self.study_points,
+        )
+        context = {
+            'answers_with_questions': [
+                {'question': question, 'is_correct': None},
+            ],
+        }
+        summary = _build_study_point_summary(context)
+        self.assertEqual(len(summary), 1)
+        self.assertIsNone(summary[0]['is_correct'])
+
+    def test_build_study_point_summary_keeps_false_for_wrong_answers(self):
+        from exams.views import _build_study_point_summary
+
+        question = Question.objects.create(
+            provenance=PROVENANCE_ORIGINAL,
+            level='3',
+            question_type='grammar_fill',
+            question_text='Fill in the blank.',
+            study_points={
+                'category': '文法',
+                'title': 'テスト',
+                'keys': [],
+            },
+        )
+        context = {
+            'answers_with_questions': [
+                {'question': question, 'is_correct': False},
+            ],
+        }
+        summary = _build_study_point_summary(context)
+        self.assertEqual(len(summary), 1)
+        self.assertIs(summary[0]['is_correct'], False)
+
+    def test_build_study_point_summary_keeps_true_for_correct_answers(self):
+        from exams.views import _build_study_point_summary
+
+        question = Question.objects.create(
+            provenance=PROVENANCE_ORIGINAL,
+            level='3',
+            question_type='grammar_fill',
+            question_text='Fill in the blank.',
+            study_points={
+                'category': '文法',
+                'title': 'テスト',
+                'keys': [],
+            },
+        )
+        context = {
+            'answers_with_questions': [
+                {'question': question, 'is_correct': True},
+            ],
+        }
+        summary = _build_study_point_summary(context)
+        self.assertEqual(len(summary), 1)
+        self.assertIs(summary[0]['is_correct'], True)
+
+
+class ListeningStudyPointSyncTest(TestCase):
+    def test_update_listening_conversation_syncs_study_points(self):
+        from questions.explanation_sync import update_listening_conversation
+
+        block = """No.1:
+W: Hi.
+Question No.1:
+Where?
+
+1. A
+2. B
+3. C
+4. D
+
+【正解1】
+1. A
+
+【解説1】
+説明です。
+
+【ポイント1】
+種別: リスニング
+見出し: Where 〜? は場所
+・at / in / to
+・時間は場所ではない
+"""
+        Question.objects.create(
+            provenance=PROVENANCE_ORIGINAL,
+            level='3',
+            question_type='listening_conversation',
+            question_number=1,
+            question_text='Where?',
+            explanation='old',
+        )
+        with patch('questions.explanation_sync._read_file', return_value=block):
+            updated = update_listening_conversation(
+                '3', False, log=lambda m: None, warn=lambda m: None, original=True
+            )
+        self.assertEqual(updated, 1)
+        q = Question.objects.get(question_type='listening_conversation', question_number=1)
+        self.assertEqual(q.study_points['category'], 'リスニング')
+        self.assertEqual(q.study_points['title'], 'Where 〜? は場所')
+
+    def test_listening_question_study_point_badge_class(self):
+        from questions.models import ListeningQuestion
+
+        lq = ListeningQuestion.objects.create(
+            provenance=PROVENANCE_ORIGINAL,
+            level='3',
+            question_text='',
+            image='images/level3/part1/listening_illustration_image1.png',
+            audio='audio/level3/part1/listening_illustration_question1.mp3',
+            correct_answer='1',
+            study_points={'category': 'リスニング', 'title': 'test', 'keys': []},
+        )
+        self.assertEqual(lq.study_point_badge_class(), 'bg-danger')
+
+
+class ListeningStudyPointSyncTest(TestCase):
+    def test_update_listening_conversation_syncs_study_points(self):
+        from questions.explanation_sync import update_listening_conversation
+
+        block = """No.1:
+W: Hi.
+Question No.1:
+Where?
+
+1. A
+2. B
+3. C
+4. D
+
+【正解1】
+1. A
+
+【解説1】
+説明です。
+
+【ポイント1】
+種別: リスニング
+見出し: Where 〜? は場所
+・at / in / to
+・時間は場所ではない
+"""
+        Question.objects.create(
+            provenance=PROVENANCE_ORIGINAL,
+            level='3',
+            question_type='listening_conversation',
+            question_number=1,
+            question_text='Where?',
+            explanation='old',
+        )
+        with patch('questions.explanation_sync._read_file', return_value=block):
+            updated = update_listening_conversation(
+                '3', False, log=lambda m: None, warn=lambda m: None, original=True
+            )
+        self.assertEqual(updated, 1)
+        q = Question.objects.get(question_type='listening_conversation', question_number=1)
+        self.assertEqual(q.study_points['category'], 'リスニング')
+        self.assertEqual(q.study_points['title'], 'Where 〜? は場所')
+
+    def test_listening_question_study_point_badge_class(self):
+        from questions.models import ListeningQuestion
+
+        lq = ListeningQuestion.objects.create(
+            provenance=PROVENANCE_ORIGINAL,
+            level='3',
+            question_text='',
+            image='images/level3/part1/listening_illustration_image1.png',
+            audio='audio/level3/part1/listening_illustration_question1.mp3',
+            correct_answer='1',
+            study_points={'category': 'リスニング', 'title': 'test', 'keys': []},
+        )
+        self.assertEqual(lq.study_point_badge_class(), 'bg-danger')
