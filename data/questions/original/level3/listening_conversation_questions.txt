@@ -28,9 +28,9 @@ Question: Where will they go after club?（2人は部活のあとどこへ行き
 
 【ポイント1】
 種別: リスニング
-見出し: Where 〜? は会話の行き先キーワード
-・pick it up / go to 〜 → 店・場所
-・予備の日時（日曜・4時）は本命ではない
+見出し: Where will they go? は本命の行き先を拾う
+・pick it up / go to 〜 / meet at 〜 の場所
+・閉まっていたときの予備日や集合時刻は本命の行き先ではない
 
 ---
 
@@ -64,9 +64,9 @@ Question: When should the boy return the dictionary?（男の子はいつ辞書�
 
 【ポイント2】
 種別: リスニング
-見出し: When should 〜? は before / by / until
-・return 〜 before lunch
-・宿題の速さ・午後の用途は返す時刻ではない
+見出し: When should 〜? は返す・やる期限を拾う
+・before / by / until + 時刻・できごと
+・早くやる理由やあとで使う時間は「いつ返すべきか」ではない
 
 ---
 
@@ -100,9 +100,9 @@ Question: Why is the boy wearing boots?（男の子がブーツをはいてい�
 
 【ポイント3】
 種別: リスニング
-見出し: Why 〜? は Because + 理由
-・Why boots? → Because 〜 walk through wet grass
-・クラブ名・雨の予定は理由ではない
+見出し: Why 〜? は Because + 本人が言った理由
+・Because + 主語 + 動詞（なぜそうするか）
+・クラブ名や「もし〜なら」の変更予定は、いまの理由ではない
 
 ---
 
@@ -136,9 +136,9 @@ Question: What will the boy do to help?（男の子は手伝いで何をしま�
 
 【ポイント4】
 種別: リスニング
-見出し: What will 〜 do to help? は具体的な作業
-・help → grate / carry / wash など動詞
-・時間・場所だけでは「何をするか」にならない
+見出し: What will 〜 do to help? は具体的な作業動詞
+・I'll grate / carry / wash / cut 〜 など
+・招待の話や手洗いなど準備だけでは「手伝いの中身」ではない
 
 ---
 
@@ -172,9 +172,9 @@ Question: What does the boy still need to do?（男の子がまだやらなけ�
 
 【ポイント5】
 種別: リスニング
-見出し: What still need to do? は finish / complete
-・still need → Finish 〜 tonight
-・道具の場所は残りの宿題ではない
+見出し: What still need to do? は still need / finish の残り
+・I still need to finish 〜 / I haven't 〜 yet
+・もう終わった部分や道具の申し出は「まだやること」ではない
 
 ---
 
@@ -208,9 +208,9 @@ Question: How long has the girl played the violin?（女の子はどのくらい
 
 【ポイント6】
 種別: リスニング
-見出し: How long has 〜? は Since / For
-・play the violin → Since she was eight
-・練習場所は期間の答えではない
+見出し: How long has 〜? は Since / For で期間
+・Since I was 〜 / For 〜 years
+・レッスンの曜日や終了時点（Until）は期間の答えではない
 
 ---
 
@@ -244,9 +244,9 @@ Question: What will they do if it rains on Sunday?（日曜に雨なら、2人�
 
 【ポイント7】
 種別: リスニング
-見出し: What will they do if 〜? は if 節の予定
-・if it rains → visit the indoor pool
-・晴れの日の予定は if の答えではない
+見出し: What will they do if 〜? は if のときの予定
+・If it rains / If 〜, we'll 〜 / We can 〜
+・集合場所や晴れの日の予定は if の答えではない
 
 ---
 
@@ -280,9 +280,9 @@ Question: Why does the girl tell him not to worry?（女の子が「心配しな
 
 【ポイント8】
 種別: リスニング
-見出し: Why tell not to worry? は Because + 安心材料
-・not to worry → Because he has practiced a lot
-・開始時刻だけでは理由にならない
+見出し: Why say Don't worry? は安心材料の Because
+・You've practiced a lot. / You'll be fine if 〜
+・追加のアドバイスと「心配しない理由」を取り違えない
 
 ---
 
@@ -316,9 +316,9 @@ Question: How can the girl get to the gym?（女の子は体育館へどうや�
 
 【ポイント9】
 種別: リスニング
-見出し: How can 〜 get to 〜? は道順
-・Go past 〜 and turn right at 〜
-・距離・時間だけでは行き方にならない
+見出し: How can 〜 get to 〜? は道順の動詞列
+・Go past 〜 and turn right / left at 〜
+・所要時間や開店時間だけでは行き方にならない
 
 ---
 
@@ -352,9 +352,9 @@ Question: What does the girl say about opening the window?（窓を開けるこ�
 
 【ポイント10】
 種別: リスニング
-見出し: Do you mind if 〜? は Not at all. / Of course not.
-・open the window → Not at all. It is a little hot.
-・窓の場所の説明は許可の返事ではない
+見出し: Do you mind if 〜? の許可は Not at all. など
+・Not at all. / Of course not. / Go ahead.
+・物の色や過去の動作は許可の返事ではない
 
 ---
 
@@ -390,9 +390,9 @@ Question: Why is the boy bringing a compass?（男の子がコンパスを持っ
 
 【ポイント11】
 種別: リスニング
-見出し: Why bring 〜? は Because + 必要な理由
-・bring a compass → Because the path isn't marked
-・地図の大きさは理由ではない
+見出し: Why bring 〜? は持っていく本人の Because
+・Because + 必要な理由（道がない・使うから など）
+・もう一人の持ち物や経験を、持っていく理由にしない
 
 ---
 
@@ -428,9 +428,9 @@ Question: What must they do before the pottery class?（陶芸の授業の前に
 
 【ポイント12】
 種別: リスニング
-見出し: What must they do before 〜? は before の条件
-・before class → Finish the math worksheet
-・教室の場所は事前準備の答えではない
+見出し: What must they do before 〜? は before / first の条件
+・if we finish 〜 first / before 〜
+・宿題をした場所や集合時刻を、事前にやることにすり替えない
 
 ---
 
@@ -466,9 +466,9 @@ Question: How many times has the boy used the camping stove?（男の子はこ�
 
 【ポイント13】
 種別: リスニング
-見出し: How many times has 〜? は回数
-・Twice. / Three times.
-・道具の名前だけでは回数にならない
+見出し: How many times? は合計回数（Twice / Three times）
+・I've 〜 twice / three times.
+・「1回は〜と」だけ拾って合計回数を減らさない
 
 ---
 
@@ -504,9 +504,9 @@ Question: Why is the girl's backpack heavy?（女の子のリュックサック�
 
 【ポイント14】
 種別: リスニング
-見出し: Why is 〜 heavy? は Because + 中身
-・heavy backpack → Because she brought extra batteries
-・色や大きさだけでは理由にならない
+見出し: Why is 〜 heavy / 〜? は中身・原因の Because
+・Because I brought / put 〜
+・もう一人の経験や天気を、重さの理由にしない
 
 ---
 
@@ -542,9 +542,9 @@ Question: Under what condition may the girl use the kitchen?（女の子が調�
 
 【ポイント15】
 種別: リスニング
-見出し: Under what condition? は If 〜
-・use the kitchen → If she washes every dish afterward
-・料理名だけでは条件の答えではない
+見出し: Under what condition? / May I 〜? は If 〜 の条件
+・Yes, if you 〜 afterward / Only if 〜
+・もう一人が済ませた準備やメニュー名を条件にしない
 
 ---
 
@@ -580,9 +580,9 @@ Question: How long has the girl collected old postcards?（女の子は古い絵
 
 【ポイント16】
 種別: リスニング
-見出し: How long has 〜 collected? は For about 〜
-・collected postcards → For about two years
-・最初の1枚の話は期間の答えではない
+見出し: How long has 〜 collected / 〜? は For / Since
+・For about two years / Since I 〜
+・もう一人が始めた時期を、本人の期間にしない
 
 ---
 
@@ -618,9 +618,9 @@ Question: When can they borrow chairs from the English room?（2人はどんな�
 
 【ポイント17】
 種別: リスニング
-見出し: When can they 〜? は If 〜 is empty
-・borrow chairs → If the English room is empty
-・椅子の色は借りられる条件ではない
+見出し: When can they borrow / 〜? は借りられる条件 If 〜
+・If the room is empty / If no one is 〜
+・先生に聞いたことや運ぶ時間を、借りられる条件にしない
 
 ---
 
@@ -656,9 +656,9 @@ Question: Why did the girl bring empty jars?（女の子が空きびんを持っ
 
 【ポイント18】
 種別: リスニング
-見出し: Why bring empty jars? は Because they will 〜
-・empty jars → Because they will paint them
-・店の場所は理由ではない
+見出し: Why bring / did you bring 〜? は用途の Because
+・Because we'll paint / use / make 〜
+・もう一人の準備や乾いたあとの作業を、持ってきた理由にしない
 
 ---
 
@@ -694,9 +694,9 @@ Question: How many times has the boy taken the night bus?（男の子は夜行�
 
 【ポイント19】
 種別: リスニング
-見出し: How many times has 〜 taken? は回数
-・night bus → Three times.
-・バスの時刻表だけでは回数にならない
+見出し: How many times has 〜 taken / 〜? は合計回数
+・Three times. / Twice. など数字 + times
+・一緒に行った人だけ拾って回数を変えたり、時刻表を回数にしない
 
 ---
 
@@ -732,6 +732,6 @@ Question: When can they practice the recorder on the roof?（2人はどんなと
 
 【ポイント20】
 種別: リスニング
-見出し: When can they 〜? は Only if 〜
-・practice on the roof → Only if no one is taking photos
-・楽器の種類は条件の答えではない
+見出し: When can they 〜? は Only if / If の許可条件
+・Only if no one is 〜 / If 〜 is free
+・いま見た場所や暗くなる前などの時刻を、条件そのものにしない

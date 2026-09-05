@@ -2556,6 +2556,7 @@ class StudyPointSummaryTest(TestCase):
         summary = _build_study_point_summary(context)
         self.assertEqual(len(summary), 1)
         self.assertIsNone(summary[0]['is_correct'])
+        self.assertFalse(any(item['is_correct'] is not None for item in summary))
 
     def test_build_study_point_summary_keeps_false_for_wrong_answers(self):
         from exams.views import _build_study_point_summary

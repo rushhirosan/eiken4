@@ -18,156 +18,319 @@ def _p(title: str, *keys: str) -> Point:
     return (title, list(keys))
 
 
-# --- Level 3 listening_illustration ---
+# --- Level 3 listening_illustration（イラスト：次の一言を選ぶ）---
+# 見出し = 最後の問い／場面の型 → 答えの型。・1本目=使える英語、・2本目=ひっかけの型
 L3_ILL: dict[int, Point] = {
     1: _p(
-        'Where could it be? には場所で答える',
-        '場所を聞くときは on / by / at + 名詞',
-        '天気や買ったものは場所の答えではない',
+        'Where 〜? / Where could it be? には場所で答える',
+        'on / by / at / next to + 場所の名詞',
+        '天気・買ったものなど、場所以外の話は答えにならない',
     ),
     2: _p(
-        '手伝いの依頼には OK + 行動で返す',
+        '手伝いの依頼には「了解 + 行動」で返す',
         "Could you help 〜? → OK. I'll carry / take 〜",
-        '場所が決まったあとは there などで受ける',
+        '場所が決まったら there などで受け、日時や物の説明だけで終わらない',
     ),
     3: _p(
         'How did you feel? には I felt 〜 で気持ち',
-        'How did you feel? / How do you feel?',
+        'I felt happy / tired / relaxed. など感情の形容詞',
         '日程や他人の様子は気持ちの答えではない',
     ),
     4: _p(
-        'Can you buy 〜? には OK + 買いに行く',
-        "Can you buy them? → OK. I'll go to 〜",
-        'パーティーの開始時刻は依頼への返事ではない',
+        'Can you buy / get 〜? には「了解 + 買いに行く」',
+        "OK. I'll go to the supermarket / store.",
+        '開始時刻や物の色だけでは依頼への返事にならない',
     ),
     5: _p(
-        'Where can we 〜? には提案 We can 〜',
-        'where can we practice → We can use 〜',
-        '床の状態など場所以外の描写に惑わされない',
+        'Where can we 〜? には代わりの場所を提案',
+        'We can use / go to 〜（別の場所）',
+        '閉じた理由や感想だけでは場所の答えではない',
     ),
     6: _p(
-        'Any ideas? には How about 〜 で提案',
-        'プレゼントの相談 → How about a small 〜?',
-        '誕生日の日付だけでは提案にならない',
+        'Any ideas? には How about 〜? で提案',
+        'How about a 〜? / Why don\'t we 〜?',
+        '誕生日や世話の説明だけでは提案にならない',
     ),
     7: _p(
-        'What should we do? には具体的な行動',
-        "Let's call 〜 / Ask 〜 など次の一手",
-        'バスの色や待ち時間だけでは行動の答えではない',
+        'What should we do? には次の一手を提案',
+        "Let's call / ask / go to 〜",
+        '色・好み・待ち時間だけでは行動の答えではない',
     ),
     8: _p(
         'When will you 〜? には時期・期限で答える',
-        'Maybe by this weekend. / By Friday.',
-        '雑誌の厚さなど内容の説明は時期ではない',
+        'by this weekend / on Friday / after 〜',
+        '物の厚さや借りた相手は時期の答えではない',
     ),
     9: _p(
-        'What do you want? には注文 Some 〜, please.',
-        '食べ物・飲み物 → Some hot noodles, please.',
-        '部活の感想は注文の答えではない',
+        'What do you want? にはほしいもの・注文で答える',
+        'Some 〜, please. / I\'d like 〜.',
+        '直前の出来事の感想や閉店時間は注文ではない',
     ),
     10: _p(
-        '写真の指示には OK + 短い合図',
-        'Smile, everyone! / OK. など',
-        '桜の色など景色の説明は返事にならない',
+        '撮影の準備が終わったら撮る人の短い合図',
+        'OK. / Smile! / Ready? など次の動作の一言',
+        '景色や試合結果など、いま撮る流れと関係ない説明は続きにならない',
     ),
     11: _p(
-        'What should I do? には Ask / Check など',
-        '落とし物 → Ask 〜 if anyone found it.',
-        '置き場所の説明だけでは行動の答えではない',
+        'What should I do? には具体的な行動で答える',
+        'Ask 〜 / Check 〜 / Call 〜 など次にすること',
+        '置き場所や時刻の説明だけでは「どうするか」にならない',
     ),
     12: _p(
-        '場所変更の提案には OK + 伝える',
-        "move the meeting → OK. I'll tell 〜",
-        'テントの場所だけでは返事にならない',
+        '提案を受けたら「了解 + 次の一手」で返す',
+        "OK. I'll tell / call / bring 〜",
+        '話題に出た物の場所や好みだけでは返事にならない',
     ),
     13: _p(
-        'What did you buy? には買ったもの',
-        'What did you buy? → A set of 〜 / Some 〜',
-        '値段や店の名前だけでは「何を買ったか」にならない',
+        'What did you buy? には買ったものそのもので答える',
+        'A set of 〜 / Some 〜 / A 〜',
+        '開店時刻や行く頻度は「何を買ったか」ではない',
     ),
     14: _p(
-        'How long will 〜? には Until 〜 / For 〜',
-        "How long will the meeting last? → Until four o'clock.",
-        '好みの理由（Because I like 〜）は長さの答えではない',
+        'How long will 〜 last? には長さ・終了で答える',
+        'Until 〜 / For 〜 hours / About 〜 minutes',
+        '持ち物の理由や過去の作業は長さの答えではない',
     ),
     15: _p(
-        'うまくいかないときは別のものを使う',
-        "What should I do if 〜? → Use the one in 〜",
-        '機械の場所の説明と「代わりに使うもの」を混同しない',
+        'うまくいかないときは代わりの手段を答える',
+        'Use the one in 〜 / Try 〜 instead',
+        '壊れた時刻や置き場所だけでは代案にならない',
     ),
     16: _p(
-        'Who 〜? には人で答える',
-        'Who taught you? → My cousin / My teacher.',
-        'いつ覚えたか（last spring）は人の答えではない',
+        'Who 〜? には人（名前・関係）で答える',
+        'My cousin / My teacher / A friend など',
+        'いつ覚えたか・長さは人の答えではない',
     ),
     17: _p(
-        'What if 〜? には代わり Use 〜 instead',
-        'What if the gloves are too big? → Use a dry towel instead.',
-        '道具の場所だけでは「代わり」の答えにならない',
+        'What if 〜? には代わりのやり方で答える',
+        'Use 〜 instead / Try 〜',
+        '道具の場所や過去の出来事だけでは「代わり」にならない',
     ),
     18: _p(
-        'When will you rest? には After 〜 / Before 〜',
-        'After I take this 〜 to the office.',
-        '新聞の用途は休息の時刻ではない',
+        'When will you rest / finish? には After / Before 〜',
+        'After I 〜 / Before 〜 / When I finish 〜',
+        '何のための作業か・起床の感想は「いつ休むか」ではない',
     ),
     19: _p(
-        'What should we bring? には持ち物を列挙',
-        'just in case → A small light and some spray.',
-        'クラブの場所は持ち物の答えではない',
+        'What should we bring? には持ち物を答える',
+        'A 〜 and some 〜 / Just in case, 〜',
+        '場所の材質や季節の話は持ち物の答えではない',
     ),
     20: _p(
-        'How is he now? には状態 He\'s fine.',
-        "How is he? → He's fine. / He only needed 〜",
-        '部活の場所はけがの状態の答えではない',
+        'How is he / she now? にはいまの状態で答える',
+        "He's fine. / She's OK. / He only needed 〜",
+        '場所や昨日の忙しさは「いまどうか」ではない',
     ),
 }
 
-# --- Level 3 listening_conversation ---
+# --- Level 3 listening_conversation（会話：質問に答える）---
+# 質問語の型 → 拾う情報。ひっかけ＝予備計画・もう一人の話・関連語だけ
 L3_CONV: dict[int, Point] = {
-    1: _p('Where 〜? は会話の行き先キーワード', 'pick it up / go to 〜 → 店・場所', '予備の日時（日曜・4時）は本命ではない'),
-    2: _p('When should 〜? は before / by / until', 'return 〜 before lunch', '宿題の速さ・午後の用途は返す時刻ではない'),
-    3: _p('Why 〜? は Because + 理由', 'Why boots? → Because 〜 walk through wet grass', 'クラブ名・雨の予定は理由ではない'),
-    4: _p('What will 〜 do to help? は具体的な作業', 'help → grate / carry / wash など動詞', '時間・場所だけでは「何をするか」にならない'),
-    5: _p('What still need to do? は finish / complete', 'still need → Finish 〜 tonight', '道具の場所は残りの宿題ではない'),
-    6: _p('How long has 〜? は Since / For', 'play the violin → Since she was eight', '練習場所は期間の答えではない'),
-    7: _p('What will they do if 〜? は if 節の予定', 'if it rains → visit the indoor pool', '晴れの日の予定は if の答えではない'),
-    8: _p('Why tell not to worry? は Because + 安心材料', 'not to worry → Because he has practiced a lot', '開始時刻だけでは理由にならない'),
-    9: _p('How can 〜 get to 〜? は道順', 'Go past 〜 and turn right at 〜', '距離・時間だけでは行き方にならない'),
-    10: _p('Do you mind if 〜? は Not at all. / Of course not.', 'open the window → Not at all. It is a little hot.', '窓の場所の説明は許可の返事ではない'),
-    11: _p('Why bring 〜? は Because + 必要な理由', 'bring a compass → Because the path isn\'t marked', '地図の大きさは理由ではない'),
-    12: _p('What must they do before 〜? は before の条件', 'before class → Finish the math worksheet', '教室の場所は事前準備の答えではない'),
-    13: _p('How many times has 〜? は回数', 'Twice. / Three times.', '道具の名前だけでは回数にならない'),
-    14: _p('Why is 〜 heavy? は Because + 中身', 'heavy backpack → Because she brought extra batteries', '色や大きさだけでは理由にならない'),
-    15: _p('Under what condition? は If 〜', 'use the kitchen → If she washes every dish afterward', '料理名だけでは条件の答えではない'),
-    16: _p('How long has 〜 collected? は For about 〜', 'collected postcards → For about two years', '最初の1枚の話は期間の答えではない'),
-    17: _p('When can they 〜? は If 〜 is empty', 'borrow chairs → If the English room is empty', '椅子の色は借りられる条件ではない'),
-    18: _p('Why bring empty jars? は Because they will 〜', 'empty jars → Because they will paint them', '店の場所は理由ではない'),
-    19: _p('How many times has 〜 taken? は回数', 'night bus → Three times.', 'バスの時刻表だけでは回数にならない'),
-    20: _p('When can they 〜? は Only if 〜', 'practice on the roof → Only if no one is taking photos', '楽器の種類は条件の答えではない'),
+    1: _p(
+        'Where will they go? は本命の行き先を拾う',
+        'pick it up / go to 〜 / meet at 〜 の場所',
+        '閉まっていたときの予備日や集合時刻は本命の行き先ではない',
+    ),
+    2: _p(
+        'When should 〜? は返す・やる期限を拾う',
+        'before / by / until + 時刻・できごと',
+        '早くやる理由やあとで使う時間は「いつ返すべきか」ではない',
+    ),
+    3: _p(
+        'Why 〜? は Because + 本人が言った理由',
+        'Because + 主語 + 動詞（なぜそうするか）',
+        'クラブ名や「もし〜なら」の変更予定は、いまの理由ではない',
+    ),
+    4: _p(
+        'What will 〜 do to help? は具体的な作業動詞',
+        'I\'ll grate / carry / wash / cut 〜 など',
+        '招待の話や手洗いなど準備だけでは「手伝いの中身」ではない',
+    ),
+    5: _p(
+        'What still need to do? は still need / finish の残り',
+        'I still need to finish 〜 / I haven\'t 〜 yet',
+        'もう終わった部分や道具の申し出は「まだやること」ではない',
+    ),
+    6: _p(
+        'How long has 〜? は Since / For で期間',
+        'Since I was 〜 / For 〜 years',
+        'レッスンの曜日や終了時点（Until）は期間の答えではない',
+    ),
+    7: _p(
+        'What will they do if 〜? は if のときの予定',
+        'If it rains / If 〜, we\'ll 〜 / We can 〜',
+        '集合場所や晴れの日の予定は if の答えではない',
+    ),
+    8: _p(
+        'Why say Don\'t worry? は安心材料の Because',
+        'You\'ve practiced a lot. / You\'ll be fine if 〜',
+        '追加のアドバイスと「心配しない理由」を取り違えない',
+    ),
+    9: _p(
+        'How can 〜 get to 〜? は道順の動詞列',
+        'Go past 〜 and turn right / left at 〜',
+        '所要時間や開店時間だけでは行き方にならない',
+    ),
+    10: _p(
+        'Do you mind if 〜? の許可は Not at all. など',
+        'Not at all. / Of course not. / Go ahead.',
+        '物の色や過去の動作は許可の返事ではない',
+    ),
+    11: _p(
+        'Why bring 〜? は持っていく本人の Because',
+        'Because + 必要な理由（道がない・使うから など）',
+        'もう一人の持ち物や経験を、持っていく理由にしない',
+    ),
+    12: _p(
+        'What must they do before 〜? は before / first の条件',
+        'if we finish 〜 first / before 〜',
+        '宿題をした場所や集合時刻を、事前にやることにすり替えない',
+    ),
+    13: _p(
+        'How many times? は合計回数（Twice / Three times）',
+        'I\'ve 〜 twice / three times.',
+        '「1回は〜と」だけ拾って合計回数を減らさない',
+    ),
+    14: _p(
+        'Why is 〜 heavy / 〜? は中身・原因の Because',
+        'Because I brought / put 〜',
+        'もう一人の経験や天気を、重さの理由にしない',
+    ),
+    15: _p(
+        'Under what condition? / May I 〜? は If 〜 の条件',
+        'Yes, if you 〜 afterward / Only if 〜',
+        'もう一人が済ませた準備やメニュー名を条件にしない',
+    ),
+    16: _p(
+        'How long has 〜 collected / 〜? は For / Since',
+        'For about two years / Since I 〜',
+        'もう一人が始めた時期を、本人の期間にしない',
+    ),
+    17: _p(
+        'When can they borrow / 〜? は借りられる条件 If 〜',
+        'If the room is empty / If no one is 〜',
+        '先生に聞いたことや運ぶ時間を、借りられる条件にしない',
+    ),
+    18: _p(
+        'Why bring / did you bring 〜? は用途の Because',
+        'Because we\'ll paint / use / make 〜',
+        'もう一人の準備や乾いたあとの作業を、持ってきた理由にしない',
+    ),
+    19: _p(
+        'How many times has 〜 taken / 〜? は合計回数',
+        'Three times. / Twice. など数字 + times',
+        '一緒に行った人だけ拾って回数を変えたり、時刻表を回数にしない',
+    ),
+    20: _p(
+        'When can they 〜? は Only if / If の許可条件',
+        'Only if no one is 〜 / If 〜 is free',
+        'いま見た場所や暗くなる前などの時刻を、条件そのものにしない',
+    ),
 }
 
-# --- Level 3 listening_passage ---
+# --- Level 3 listening_passage（英文：質問に答える）---
+# 質問語の型 → 文中の対応表現。ひっかけ＝別の現在完了・すでに済んだこと・条件と理由の混同
 L3_PASS: dict[int, Point] = {
-    1: _p('Where will 〜? は work / visit + at 〜', 'Where will 〜 work? → At 〜 / In 〜', '持ち帰りたいもの・後でしたいことは場所ではない'),
-    2: _p('What did 〜 teach? は taught + 内容', 'taught 〜 how to 〜 / how to use 〜', 'お礼や食事は「教えた内容」ではない'),
-    3: _p('Why did 〜 wake up early? は to 不定詞の目的', 'woke up early to 〜（目的）', '他人の手伝いは本人の目的と混同しない'),
-    4: _p('What want to write about? は write about 〜', 'write a report about 〜 / about 〜', '日付だけではテーマにならない'),
-    5: _p('What did 〜 do after 〜? は after の行動', 'after 〜, he/she 過去形', '練習の内容だけでは after の行動ではない'),
-    6: _p('How long has 〜 lived? は For 〜 / Since 〜', 'How long has 〜? → For three years.', '好み・特徴の描写は期間ではない'),
-    7: _p('How many times has 〜? は回数', 'Twice. / Three times. / Four times.', '天気・場所の説明は回数ではない'),
-    8: _p('What still need to do? は still need + 残り', 'still need to 〜 / Add 〜', '締切の日だけでは残りの作業ではない'),
-    9: _p('What will 〜 do if 〜? は if 節', 'if it snows / if it rains → そのときの行動', '晴れの日の予定は if の答えではない'),
-    10: _p('How many times have they 〜? は回数', 'How many times → 数字 + times', '場所・道具の説明は回数ではない'),
-    11: _p('Why will 〜 leave early? は Because + 理由', 'leave early because 〜', '時刻表だけでは理由にならない'),
-    12: _p('How many times this year? は回数 + 期間', 'this year → Four times.', '場所の説明は回数ではない'),
-    13: _p('How long has 〜 checked 〜? は For 〜', 'has checked 〜 for six months', '数値の結果だけでは期間ではない'),
-    14: _p('Why stay after school? は To 〜 / Because 〜', 'stay after school to 〜', '帰宅時刻だけでは理由にならない'),
-    15: _p('How many times this month? は回数', 'this month → Five times.', '道具名だけでは回数にならない'),
-    16: _p('Why leave early? は Because + 理由', 'leave early because the traffic 〜', '到着時刻だけでは理由にならない'),
-    17: _p('How long has 〜 studied 〜? は For 〜', 'studied 〜 for a year and a half', '好きな科目だけでは期間ではない'),
-    18: _p('How many times this spring? は回数', 'this spring → Three times.', '場所の名前は回数ではない'),
-    19: _p('Why skip 〜? は Because + 約束・理由', 'skip 〜 because he promised to 〜', '相手の名前だけでは理由にならない'),
-    20: _p('How long lived in 〜? は For 〜', 'lived in 〜 for four years', '部屋の数だけでは期間ではない'),
+    1: _p(
+        'Where will 〜 work / go? は at / in + 場所',
+        'work at 〜 / visit 〜 / go to 〜',
+        '持ち帰りたいものやあとでしたいことは働く場所ではない',
+    ),
+    2: _p(
+        'What did 〜 teach? は taught + how to 〜',
+        'taught 〜 how to use / make / play 〜',
+        'お礼の食事や練習の細部は「教えた内容」そのものではない',
+    ),
+    3: _p(
+        'Why 〜 early / 〜? の目的は to + 動詞',
+        'woke up early to 〜 / stayed to 〜',
+        '他人が手伝ったことや別の用事を、本人の目的にしない',
+    ),
+    4: _p(
+        'What does 〜 want to write about? は about の中身',
+        'write a report about it → it が指すできごと・場所',
+        '学ぶ細部（びんなど）だけをテーマ全体にすり替えない',
+    ),
+    5: _p(
+        'What did 〜 do after 〜? は Then / after の次の行動',
+        'Then he/she 過去形 〜',
+        '練習時間など「前」の行動を after の答えにしない',
+    ),
+    6: _p(
+        'How long has 〜 lived / 〜? は For / Since',
+        'has lived 〜 for three years / since 〜',
+        'したことがない経験や来年の予定は住んでいる期間ではない',
+    ),
+    7: _p(
+        'How many times has 〜 before? は回数の数字',
+        'twice before / three times / never',
+        '今日の行き方や目的は「以前の回数」ではない',
+    ),
+    8: _p(
+        'What still need to do? は残り・先生に言われたこと',
+        'asked to add 〜 / still need to 〜',
+        'すでに finish / print したことは「まだやること」ではない',
+    ),
+    9: _p(
+        'What will 〜 do if 〜? は if 節のときの行動',
+        'If it snows / rains, 〜 will 〜',
+        'すでに買ってあるものやオンラインの希望は if の家族の予定ではない',
+    ),
+    10: _p(
+        'How many times have they 〜? は数字 + times',
+        'have cleaned / visited 〜 three times',
+        '来週の予定や欠かしたことがない話はそうじの回数ではない',
+    ),
+    11: _p(
+        'Why leave early / 〜? は because の直後',
+        'leave early because 〜',
+        'もう終わった宿題や席の話を早退の理由にしない',
+    ),
+    12: _p(
+        'How many times this year / month? は期間つき回数',
+        'four times this year / five times this month',
+        '通う理由や借りた本の話は回数ではない',
+    ),
+    13: _p(
+        'How long has 〜 checked / done 〜? は For + 期間',
+        'for six months / for a year',
+        'weeks と months の取り違えや、これから教える日を期間にしない',
+    ),
+    14: _p(
+        'Why stay after school? は To 〜 / Because 〜 の目的',
+        'stayed because she wanted to interview / to 〜',
+        '以前の回数やあとからの発表を、残った理由にすり替えない',
+    ),
+    15: _p(
+        'How many times this month? は今月の合計回数',
+        'five times this month / already 〜 times',
+        '明日の予定やふく理由を、今月の回数にしない',
+    ),
+    16: _p(
+        'Why leave early? は because。If は別ルートの条件',
+        'leaves early because the traffic is 〜',
+        'ぬかるみで道を変える条件と、早出の理由を混ぜない',
+    ),
+    17: _p(
+        'How long has 〜 studied 〜? は For + 期間',
+        'for a year and a half / for two years',
+        '手紙の通数や今週末の予定を期間の長さにしない',
+    ),
+    18: _p(
+        'How many times this spring / season? は季節つき回数',
+        'three times this spring',
+        '入った理由や次の土曜の練習を、今春の回数にしない',
+    ),
+    19: _p(
+        'Why skip / miss 〜? は because の約束・用事',
+        'skip 〜 because he promised to 〜',
+        '以前働いた回数やテレビの希望を、休む理由にしない',
+    ),
+    20: _p(
+        'How long has 〜 lived in 〜? は For + 期間',
+        'has lived 〜 for four years',
+        '雨のときの廊下や毎朝の散歩は住んでいる期間ではない',
+    ),
 }
 
 DATA: dict[tuple[str, str], dict[int, Point]] = {

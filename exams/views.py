@@ -2658,7 +2658,12 @@ def _finalize_and_render_answer_results(request, context):
     )
     context['new_badges'] = gamification_result['new_badges']
 
-    context['study_point_summary'] = _build_study_point_summary(context)
+    summary = _build_study_point_summary(context)
+    context['study_point_summary'] = summary
+    # 正誤のない種別（ライティング・スピーキング）ではフィルタを出さない
+    context['study_point_summary_gradable'] = any(
+        item['is_correct'] is not None for item in summary
+    )
 
     context['next_learning_tip'] = None
     if getattr(settings, 'SHOW_NEXT_LEARNING', False) and next_learning_weekly_cap_allows(

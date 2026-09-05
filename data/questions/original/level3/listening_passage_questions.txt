@@ -24,9 +24,9 @@ Question: Where will Nao work next Sunday?（ナオは次の日曜日、どこ�
 
 【ポイント1】
 種別: リスニング
-見出し: Where will 〜? は work / visit + at 〜
-・Where will 〜 work? → At 〜 / In 〜
-・持ち帰りたいもの・後でしたいことは場所ではない
+見出し: Where will 〜 work / go? は at / in + 場所
+・work at 〜 / visit 〜 / go to 〜
+・持ち帰りたいものやあとでしたいことは働く場所ではない
 
 ---
 
@@ -56,9 +56,9 @@ Question: What did Hina teach her neighbor?（ヒナは隣人に何を教えま�
 
 【ポイント2】
 種別: リスニング
-見出し: What did 〜 teach? は taught + 内容
-・taught 〜 how to 〜 / how to use 〜
-・お礼や食事は「教えた内容」ではない
+見出し: What did 〜 teach? は taught + how to 〜
+・taught 〜 how to use / make / play 〜
+・お礼の食事や練習の細部は「教えた内容」そのものではない
 
 ---
 
@@ -88,9 +88,9 @@ Question: Why did Kenta wake up early?（ケンタが早く起きた理由は何
 
 【ポイント3】
 種別: リスニング
-見出し: Why did 〜 wake up early? は to 不定詞の目的
-・woke up early to 〜（目的）
-・他人の手伝いは本人の目的と混同しない
+見出し: Why 〜 early / 〜? の目的は to + 動詞
+・woke up early to 〜 / stayed to 〜
+・他人が手伝ったことや別の用事を、本人の目的にしない
 
 ---
 
@@ -120,9 +120,9 @@ Question: What does Yui want to write about?（ユイは何について書きた
 
 【ポイント4】
 種別: リスニング
-見出し: What want to write about? は write about 〜
-・write a report about 〜 / about 〜
-・日付だけではテーマにならない
+見出し: What does 〜 want to write about? は about の中身
+・write a report about it → it が指すできごと・場所
+・学ぶ細部（びんなど）だけをテーマ全体にすり替えない
 
 ---
 
@@ -153,9 +153,9 @@ Question: What did Ren do after practicing?（レンは練習のあと何をし�
 
 【ポイント5】
 種別: リスニング
-見出し: What did 〜 do after 〜? は after の行動
-・after 〜, he/she 過去形
-・練習の内容だけでは after の行動ではない
+見出し: What did 〜 do after 〜? は Then / after の次の行動
+・Then he/she 過去形 〜
+・練習時間など「前」の行動を after の答えにしない
 
 ---
 
@@ -185,9 +185,9 @@ Question: How long has Saki lived near the sea?（サキはどのくらい海の
 
 【ポイント6】
 種別: リスニング
-見出し: How long has 〜 lived? は For 〜 / Since 〜
-・How long has 〜? → For three years.
-・好み・特徴の描写は期間ではない
+見出し: How long has 〜 lived / 〜? は For / Since
+・has lived 〜 for three years / since 〜
+・したことがない経験や来年の予定は住んでいる期間ではない
 
 ---
 
@@ -217,9 +217,9 @@ Question: How many times has Kosei visited the museum before today?（コウセ�
 
 【ポイント7】
 種別: リスニング
-見出し: How many times has 〜? は回数
-・Twice. / Three times. / Four times.
-・天気・場所の説明は回数ではない
+見出し: How many times has 〜 before? は回数の数字
+・twice before / three times / never
+・今日の行き方や目的は「以前の回数」ではない
 
 ---
 
@@ -250,9 +250,9 @@ Question: What does Ayaka still need to do before Friday?（アヤカが金曜�
 
 【ポイント8】
 種別: リスニング
-見出し: What still need to do? は still need + 残り
-・still need to 〜 / Add 〜
-・締切の日だけでは残りの作業ではない
+見出し: What still need to do? は残り・先生に言われたこと
+・asked to add 〜 / still need to 〜
+・すでに finish / print したことは「まだやること」ではない
 
 ---
 
@@ -282,9 +282,9 @@ Question: What will Daiki's family do if it snows on Sunday?（日曜に雪な�
 
 【ポイント9】
 種別: リスニング
-見出し: What will 〜 do if 〜? は if 節
-・if it snows / if it rains → そのときの行動
-・晴れの日の予定は if の答えではない
+見出し: What will 〜 do if 〜? は if 節のときの行動
+・If it snows / rains, 〜 will 〜
+・すでに買ってあるものやオンラインの希望は if の家族の予定ではない
 
 ---
 
@@ -315,9 +315,9 @@ Question: How many times have they cleaned the station stairs?（彼らは駅の
 
 【ポイント10】
 種別: リスニング
-見出し: How many times have they 〜? は回数
-・How many times → 数字 + times
-・場所・道具の説明は回数ではない
+見出し: How many times have they 〜? は数字 + times
+・have cleaned / visited 〜 three times
+・来週の予定や欠かしたことがない話はそうじの回数ではない
 
 ---
 
@@ -349,9 +349,9 @@ Question: Why will Haruto leave school early?（ハルトが学校を早めに�
 
 【ポイント11】
 種別: リスニング
-見出し: Why will 〜 leave early? は Because + 理由
+見出し: Why leave early / 〜? は because の直後
 ・leave early because 〜
-・時刻表だけでは理由にならない
+・もう終わった宿題や席の話を早退の理由にしない
 
 ---
 
@@ -382,9 +382,9 @@ Question: How many times has Kana visited the clock museum this year?（カナ�
 
 【ポイント12】
 種別: リスニング
-見出し: How many times this year? は回数 + 期間
-・this year → Four times.
-・場所の説明は回数ではない
+見出し: How many times this year / month? は期間つき回数
+・four times this year / five times this month
+・通う理由や借りた本の話は回数ではない
 
 ---
 
@@ -415,9 +415,9 @@ Question: How long has Sho checked the class rain gauge?（ショウはどのく
 
 【ポイント13】
 種別: リスニング
-見出し: How long has 〜 checked 〜? は For 〜
-・has checked 〜 for six months
-・数値の結果だけでは期間ではない
+見出し: How long has 〜 checked / done 〜? は For + 期間
+・for six months / for a year
+・weeks と months の取り違えや、これから教える日を期間にしない
 
 ---
 
@@ -449,9 +449,9 @@ Question: Why did Mei stay after school last Friday?（メイが先週の金曜�
 
 【ポイント14】
 種別: リスニング
-見出し: Why stay after school? は To 〜 / Because 〜
-・stay after school to 〜
-・帰宅時刻だけでは理由にならない
+見出し: Why stay after school? は To 〜 / Because 〜 の目的
+・stayed because she wanted to interview / to 〜
+・以前の回数やあとからの発表を、残った理由にすり替えない
 
 ---
 
@@ -483,9 +483,9 @@ Question: How many times has Toma wiped the music stands this month?（トマは
 
 【ポイント15】
 種別: リスニング
-見出し: How many times this month? は回数
-・this month → Five times.
-・道具名だけでは回数にならない
+見出し: How many times this month? は今月の合計回数
+・five times this month / already 〜 times
+・明日の予定やふく理由を、今月の回数にしない
 
 ---
 
@@ -517,9 +517,9 @@ Question: Why does Aoi leave early?（アオイが早めに出る理由は何で
 
 【ポイント16】
 種別: リスニング
-見出し: Why leave early? は Because + 理由
-・leave early because the traffic 〜
-・到着時刻だけでは理由にならない
+見出し: Why leave early? は because。If は別ルートの条件
+・leaves early because the traffic is 〜
+・ぬかるみで道を変える条件と、早出の理由を混ぜない
 
 ---
 
@@ -550,9 +550,9 @@ Question: How long has Ryo studied German?（リョウはどのくらいドイ�
 
 【ポイント17】
 種別: リスニング
-見出し: How long has 〜 studied 〜? は For 〜
-・studied 〜 for a year and a half
-・好きな科目だけでは期間ではない
+見出し: How long has 〜 studied 〜? は For + 期間
+・for a year and a half / for two years
+・手紙の通数や今週末の予定を期間の長さにしない
 
 ---
 
@@ -583,9 +583,9 @@ Question: How many times has Nami sung in the station choir this spring?（ナ�
 
 【ポイント18】
 種別: リスニング
-見出し: How many times this spring? は回数
-・this spring → Three times.
-・場所の名前は回数ではない
+見出し: How many times this spring / season? は季節つき回数
+・three times this spring
+・入った理由や次の土曜の練習を、今春の回数にしない
 
 ---
 
@@ -617,9 +617,9 @@ Question: Why will Sota skip soccer this Saturday?（ソウタが今週の土曜
 
 【ポイント19】
 種別: リスニング
-見出し: Why skip 〜? は Because + 約束・理由
+見出し: Why skip / miss 〜? は because の約束・用事
 ・skip 〜 because he promised to 〜
-・相手の名前だけでは理由にならない
+・以前働いた回数やテレビの希望を、休む理由にしない
 
 ---
 
@@ -650,6 +650,6 @@ Question: How long has Hana lived in the apartment building?（ハナはどの�
 
 【ポイント20】
 種別: リスニング
-見出し: How long lived in 〜? は For 〜
-・lived in 〜 for four years
-・部屋の数だけでは期間ではない
+見出し: How long has 〜 lived in 〜? は For + 期間
+・has lived 〜 for four years
+・雨のときの廊下や毎朝の散歩は住んでいる期間ではない
