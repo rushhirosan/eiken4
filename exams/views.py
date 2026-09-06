@@ -2306,10 +2306,26 @@ def answer_results(request, level, question_type):
         answers_with_questions = []
         for answer in user_answers:
             data = answer.question.speaking_data or {}
+            response_json = answer.response_json or {}
+            memo_compare = []
+            for q in data.get('questions') or []:
+                num = q.get('number')
+                if num is None:
+                    continue
+                memo = (response_json.get(f'q{num}') or '').strip()
+                if not memo:
+                    continue
+                memo_compare.append({
+                    'number': num,
+                    'prompt': q.get('prompt', ''),
+                    'memo': memo,
+                    'sample_answers': q.get('sample_answers') or [],
+                })
             answers_with_questions.append({
                 'question': answer.question,
                 'speaking_data': data,
-                'user_answers': answer.response_json or {},
+                'user_answers': response_json,
+                'memo_compare': memo_compare,
                 'is_correct': None,
                 'explanation': answer.question.explanation,
                 'order': order_dict.get(answer.question.id, 0),

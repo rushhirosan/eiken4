@@ -588,6 +588,67 @@ class Level5ExamListTests(TestCase):
         self.assertNotContains(response, '表示できるスピーキング問題がありません')
         self.assertNotContains(response, 'この級のスピーキング問題はまだ登録されていません')
 
+    def test_speaking_answer_results_is_light_without_full_reference_dump(self):
+        from exams.models import SpeakingUserAnswer
+
+        question = Question.objects.create(
+            provenance=PROVENANCE_ORIGINAL,
+            question_text="City Museum\n\nMany students visit.",
+            question_type='speaking',
+            level='3',
+            question_number=1,
+            explanation='long explanation dump',
+            speaking_data={
+                'title': 'City Museum',
+                'passage': 'Many students visit the city museum.',
+                'illustration': '博物館。案内係がパネルを指さしている。',
+                'silent_seconds': 20,
+                'turn_over_after': 3,
+                'questions': [
+                    {
+                        'number': 1,
+                        'prompt': 'What do students look at in the museum?',
+                        'kind': 'passage',
+                        'sample_answers': ['Old tools.'],
+                    },
+                    {
+                        'number': 2,
+                        'prompt': 'What is the girl doing?',
+                        'kind': 'illustration',
+                        'sample_answers': ['She is looking at old tools.'],
+                    },
+                ],
+            },
+        )
+        SpeakingUserAnswer.objects.create(
+            user=self.user,
+            question=question,
+            response_json={'q1': 'Old tools.', 'q2': ''},
+        )
+        session = self.client.session
+        session[f'answered_questions_speaking_3'] = [question.id]
+        session.save()
+
+        response = self.client.get(
+            reverse(
+                'exams:answer_results',
+                kwargs={'level': '3', 'question_type': 'speaking'},
+            )
+        )
+        self.assertEqual(response.status_code, 200)
+        self.assertContains(response, '練習済み')
+        self.assertContains(response, '記録しました')
+        self.assertContains(response, 'あなたのメモ: Old tools.')
+        self.assertContains(response, '参考: Old tools.')
+        # Full practice-card dump should not reappear on results.
+        self.assertNotContains(response, 'Many students visit the city museum.')
+        self.assertNotContains(response, '博物館。案内係がパネルを指さしている。')
+        self.assertNotContains(response, 'long explanation dump')
+        self.assertNotContains(response, 'What is the girl doing?')
+        memos = response.context['answers_with_questions'][0]['memo_compare']
+        self.assertEqual(len(memos), 1)
+        self.assertEqual(memos[0]['number'], 1)
+
     def test_exam_list_level5_random_scope_description(self):
         response = self.client.get(self.url, {'level': '5'})
         self.assertContains(response, '文法・会話・語順・リスニングから出題されます')
