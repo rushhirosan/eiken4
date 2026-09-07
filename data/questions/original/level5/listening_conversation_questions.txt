@@ -25,6 +25,12 @@ Question: What is the girl making?（女の子はなにをつくっています�
 女の子が「カードをつくっている」と言っているので、3「A card.（カード）」が正解です。
 1「A cake.（ケーキ）」も、2「A poster.（ポスター）」も、4「A photo.（しゃしん）」も出ていません。かみの色の話は出ますが、つくっているものはカードです。
 
+【ポイント1】
+種別: リスニング
+見出し: What is 〜 making? は making + つくっているもの
+・I'm making a card. = カードをつくっている
+・かみの色の話は「何をつくっているか」ではない
+
 ---
 
 No.2:
@@ -53,6 +59,12 @@ Question: Where is the boy's umbrella?（男の子のかさはどこにありま
 
 男の子が「みせにわすれた」と言っているので、3「At the store.（みせ）」が正解です。
 1「At school.（がっこう）」はあとで取りに行く場所で、いまかさがある場所ではありません。2「At home.（うち）」も、4「At the station.（えき）」も出ていません。
+
+【ポイント2】
+種別: リスニング
+見出し: Where is 〜? はいまあるばしょを拾う
+・I left my umbrella at the store. = みせにわすれた
+・あとで取りに行く時刻（after school）はいまのかさのばしょではない
 
 ---
 
@@ -83,6 +95,12 @@ Question: When does her brother practice?（お兄ちゃんのれんしゅうは
 女の子が「きんようびにれんしゅう」と言っているので、4「On Fridays.（きんようび）」が正解です。
 1「On Mondays.（げつようび）」も、2「On Saturdays.（どようび）」も、3「Every day.（まいにち）」も出ていません。
 
+【ポイント3】
+種別: リスニング
+見出し: When does 〜 practice? は曜日・いつを拾う
+・He has practice on Fridays. = きんようびにれんしゅう
+・がっこうなどばしょの話は「いつ」の答えではない
+
 ---
 
 No.4:
@@ -111,6 +129,12 @@ Question: What does the girl want?（女の子はなにがほしいですか？�
 
 女の子が「いちご」と言っているので、4「Strawberries.（いちご）」が正解です。
 2「Bananas.（バナナ）」は男の子がほしいものです。1「Apples.（りんご）」も、3「Oranges.（オレンジ）」も出ていません。
+
+【ポイント4】
+種別: リスニング
+見出し: What does the girl want? は女の子の I want
+・I want strawberries. = いちごがほしい
+・男の子の I want bananas. は女の子の答えではない
 
 ---
 
@@ -141,6 +165,12 @@ Question: What does the boy have?（男の子はなにを持っていますか�
 男の子が「おおきいかばんはある」と言っているので、2「A big bag.（おおきいかばん）」が正解です。
 1「A raincoat.（レインコート）」はない、と答えています。3「An umbrella.（かさ）」も、4「New shoes.（あたらしいくつ）」も出ていません。
 
+【ポイント5】
+種別: リスニング
+見出し: What does 〜 have? は No. But I have のあと
+・But I have a big bag. = おおきいかばんはある
+・No で否定したもの（raincoat）は「持っているもの」ではない
+
 ---
 
 No.6:
@@ -169,6 +199,12 @@ Question: Where will the girl walk her dog?（女の子はどこで犬を散歩�
 
 最初の ☆ が「in the park（公園で）」と言っているので、1「In the park.（公園で）」が正解です。
 「At three this afternoon.（午後3時）」は時刻の話で、ばしょの答えではありません。2「At school.（がっこう）」も、3「At the store.（みせ）」も、4「In the library.（としょかん）」も出ていません。
+
+【ポイント6】
+種別: リスニング
+見出し: Where will 〜? は in / at + ばしょ
+・walk my dog in the park. = こうえんで犬のさんぽ
+・At three this afternoon. は時刻で、ばしょではない
 
 ---
 
@@ -199,6 +235,12 @@ Question: What did they do at the party?（パーティーで何をしました�
 ☆ が「We ate cake and sang songs.（ケーキを食べて歌を歌った）」と言っているので、1「They ate cake and sang songs.（ケーキを食べて歌を歌った）」が正解です。
 2「They played soccer.（サッカーをした）」も、3「They went shopping.（かいものに行った）」も、4「They watched a movie.（えいがを見た）」も会話に出てきません。最後の「Who came...?」はだれが来たかの質問で、ここでの答えではありません。
 
+【ポイント7】
+種別: リスニング
+見出し: What did they do? はしたこと・うごいたことを拾う
+・We ate cake and sang songs. = ケーキを食べて歌を歌った
+・Who came...?（だれが来た）は「何をしたか」ではない
+
 ---
 
 No.8:
@@ -227,6 +269,12 @@ Question: Where does the boy think his homework is?（男の子はしゅくだ�
 
 ☆ が「in my room（へや）」にあると思う、と言っているので、4「In his room.（へや）」が正解です。
 1「At school.（がっこう）」は ★ の質問で、☆ は「No（ううん）」と否定しています。2「In the kitchen.（だいどころ）」も、3「At the park.（こうえん）」も出ていません。
+
+【ポイント8】
+種別: リスニング
+見出し: Where does 〜 think 〜 is? は本人の思うばしょ
+・I think it's in my room. = へやにあると思う
+・相手の「がっこう？」に No と答えたばしょは答えではない
 
 ---
 
@@ -257,6 +305,12 @@ Question: What is the problem with the shoes?（くつはどんな問題があ�
 女の子が「too small（小さい）」と言っているので、2「They are too small.（小さい）」が正解です。
 1「They are too big.（大きい）」は反対の意味です。3「They are too old.（ふるい）」も、4「They are too dirty.（きたない）」も会話に出てきません。
 
+【ポイント9】
+種別: リスニング
+見出し: What is the problem? は too + こまっている点
+・These shoes are too small. = くつが小さすぎる
+・too big（大きすぎる）は反対で、答えではない
+
 ---
 
 No.10:
@@ -285,6 +339,12 @@ Question: What did the girl forget?（女の子は何を忘れましたか？）
 
 ☆ が「I forgot my umbrella（かさを忘れた）」と言っているので、3「Her umbrella.（かさ）」が正解です。
 1「Her hat.（ぼうし）」も、2「Her bag.（かばん）」も、4「Her lunch.（おべんとう）」も出ていません。★ が自分のかさを貸す、と言っているので、かさの話だとわかります。
+
+【ポイント10】
+種別: リスニング
+見出し: What did 〜 forget? は forgot + わすれたもの
+・I forgot my umbrella. = かさをわすれた
+・ぼうし・かばんなど出ていないものは答えではない
 
 ---
 
@@ -315,6 +375,12 @@ Question: What can they do in the club?（クラブで何ができますか？�
 ★ が「play the guitar and sing（ギターをひいたり歌ったりできる）」と言っているので、4「Play the guitar and sing.（ギターをひいたり歌ったりする）」が正解です。
 1「Play soccer.（サッカーをする）」も、2「Cook lunch.（ひるごはんをつくる）」も、3「Read books.（ほんを読む）」も会話に出てきません。
 
+【ポイント11】
+種別: リスニング
+見出し: What can they do? は can + できること
+・We can play the guitar and sing. = ギターをひいたり歌ったりできる
+・サッカーや料理など会話にないことは答えではない
+
 ---
 
 No.12:
@@ -343,6 +409,12 @@ Question: What did the boy bring?（男の子は何を持ってきましたか�
 
 ☆ が「some flowers（花）」を持ってきた、と言っているので、1「Some flowers.（花）」が正解です。
 2「Some fruit.（くだもの）」も、3「A book.（ほん）」も、4「A cake.（ケーキ）」も出ていません。「put them in a vase（花瓶に入れる）」の them は花のことです。
+
+【ポイント12】
+種別: リスニング
+見出し: What did 〜 bring? は brought + 持ってきたもの
+・I brought you some flowers. = 花を持ってきた
+・くだもの・ケーキなど出ていないものは答えではない
 
 ---
 
@@ -373,6 +445,12 @@ Question: Where did the boy last use his wallet?（男の子は最後にどこ�
 ★ が「At the bookstore（本屋）」で使った、と答えているので、1「At the bookstore.（本屋）」が正解です。
 2「At school.（がっこう）」も、3「At the park.（こうえん）」も、4「At the library.（としょかん）」も会話に出てきません。
 
+【ポイント13】
+種別: リスニング
+見出し: Where did 〜 last use 〜? は最後に使ったばしょ
+・At the bookstore this morning. = きょうの朝、ほんやで
+・がっこう・こうえんなど会話にないばしょは答えではない
+
 ---
 
 No.14:
@@ -402,6 +480,12 @@ Question: What are they making?（2人は何を作っていますか？）
 ★ が「making sandwiches（サンドイッチを作っている）」と言っているので、3「Sandwiches.（サンドイッチ）」が正解です。
 1「Soup.（スープ）」も、2「Cookies.（クッキー）」も、4「Salad.（サラダ）」も出ていません。「for lunch（ひるごはん用）」も手がかりになります。
 
+【ポイント14】
+種別: リスニング
+見出し: What are they making? は making + つくっているもの
+・We're making sandwiches. = サンドイッチをつくっている
+・スープやサラダなど出ていないものは答えではない
+
 ---
 
 No.15:
@@ -430,3 +514,9 @@ Question: Where does the girl want to go?（女の子はどこに行きたいで
 
 ☆ が「go to the beach（海に行きたい）」と言っているので、4「To the beach.（海）」が正解です。
 1「To the mountains.（山）」も、2「To the zoo.（どうぶつえん）」も、3「To the museum.（はくぶつかん）」も会話に出てきません。
+
+【ポイント15】
+種別: リスニング
+見出し: Where does 〜 want to go? は go to + 行きたいばしょ
+・I want to go to the beach. = うみに行きたい
+・山・どうぶつえんなど会話にないばしょは答えではない

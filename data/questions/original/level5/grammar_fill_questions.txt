@@ -16,6 +16,12 @@ A : The cat is hungry. Please give it some ( ). B : OK.
 ほかの選択肢：「songs（うた）」は音楽、「rain（あめ）」は天気、「Tuesday（かようび）」は曜日で、どれも食べものではありません。
 「hungry（おなかがすいた）」のあとに、食べものが入るか見てみましょう。
 
+【ポイント1】
+種別: 単語
+見出し: hungry のあとは食べもの
+・hungry → food = たべもの（bread / rice も同じ）
+・songs（うた）や Tuesday（かようび）は食べものではない
+
 ---
 
 問題2:
@@ -35,6 +41,12 @@ Sora has a ( ) on the wall. It shows Japan and many cities.
 文全体は「ソラはかべにちずを持っています。にほんといくつものまちがのっています」という意味です。にほんやまちがのっているものは「map（ちず）」です。
 ほかの選択肢：「clock（とけい）」はかべにあっても、まちはのっていません。「sock（くつした）」は足に履くもの、「cloud（くも）」はそらにあるもので、かべにまちを見せるものではありません。
 うしろの文で「何がのっているか」を読むと、正解がわかります。
+
+【ポイント2】
+種別: 単語
+見出し: map = ちず（くにやまちがのるもの）
+・map = ちず（It shows Japan. = にほんがのっている）
+・clock（とけい）はまちはのらない。うしろの文で何がのるか見る
 
 ---
 
@@ -56,6 +68,12 @@ A : I'm sleepy. B : Here's a ( ).
 ほかの選択肢：「homework（しゅくだい）」は勉強、「jacket（うわぎ）」はさむいときの服、「station（えき）」はばしょで、ねむいときに渡すものではありません。
 「sleepy（ねむい）」と来たら、ねるどうぐを探すとよいです。
 
+【ポイント3】
+種別: 単語
+見出し: sleepy のときはねるどうぐ
+・pillow = まくら（sleepy = ねむい のときに使う）
+・homework（しゅくだい）や jacket（うわぎ）はねむいときのどうぐではない
+
 ---
 
 問題4:
@@ -75,6 +93,12 @@ Ms. Mori is in the kitchen. She is making ( ) for lunch.
 文全体は「モリせんせいはだいどころにいます。ひるごはんのスープをつくっています」という意味です。「make soup」で「スープをつくる」になります。だいどころでひるごはんにつくるものは、食べものです。
 ほかの選択肢：「a bus（バス）」は乗り物、「a song（うた）」は音楽、「a bed（ベッド）」はねる家具で、ひるごはんのメニューではありません。
 「kitchen（だいどころ）」と「lunch（ひるごはん）」の二つを見ると、食べものが入ります。
+
+【ポイント4】
+種別: 単語
+見出し: kitchen + lunch なら食べもの
+・make soup for lunch = ひるごはんのスープをつくる
+・a bus（バス）や a song（うた）はひるごはんのメニューではない
 
 ---
 
@@ -96,6 +120,12 @@ A : Let's play ( ) after school. B : Great! I have a ball.
 ほかの選択肢：「piano（ピアノ）」は「play the piano（ピアノをひく）」と the がつくことが多いです。「music（おんがく）」と「house（おうちごっこ）」はボールを使いません。
 「I have a ball.（ボールを持っている）」を見ると、ボールでする遊びが選べます。
 
+【ポイント5】
+種別: 熟語
+見出し: play soccer = サッカーをする（ボールのスポーツ）
+・play soccer = サッカーをする（I have a ball. = ボールを持っている）
+・play the piano = ピアノをひく（the がつきやすい）
+
 ---
 
 問題6:
@@ -115,6 +145,12 @@ Look at the sky at night. You can see the ( ).
 文全体は「よる、そらを見てごらん。つきが見えるよ」という意味です。よるのそらでよく見えるものは「moon（つき）」です。
 ほかの選択肢：「sun（たいよう）」はひるのそらに出ます。「desk（つくえ）」はへやの家具、「bread（パン）」は食べもので、そらにはありません。
 「sky（そら）」と「night（よる）」の両方に合うことばを探すとよいです。
+
+【ポイント6】
+種別: 単語
+見出し: night のそらによく見えるのは moon
+・moon = つき（at night = よるに）
+・sun = たいようはひる。desk（つくえ）はそらにない
 
 ---
 
@@ -136,6 +172,12 @@ A : Where are my socks? B : They're in the ( ).
 ほかの選択肢：「rain（あめ）」は天気、「August（8がつ）」は月のなまえ、「yellow（きいろ）」は色で、ばしょではありません。
 「Where（どこ）」と聞かれたら、ばしょの答えを探すとよいです。
 
+【ポイント7】
+種別: 文法
+見出し: Where（どこ）にはばしょのことばで返す
+・in the box = はこのなか（ばしょ）
+・rain（あめ）・August（8がつ）・yellow（きいろ）はばしょではない
+
 ---
 
 問題8:
@@ -155,6 +197,12 @@ It's a ( ) day. We can fly a kite in the park.
 文全体は「かぜのつよい日です。こうえんでたこをあげられます」という意味です。「fly a kite」は「たこをあげる」です。かぜがつよいと、たこがよくあがります。
 ほかの選択肢：「rainy（あめの）」日はたこがぬれてしまいます。「sleepy（ねむい）」と「hungry（おなかがすいた）」は人の気持ちで、天気ではありません。
 うしろに「fly a kite（たこをあげる）」があると、天気のことばのなかでも、かぜに関係するものが入ります。
+
+【ポイント8】
+種別: 単語
+見出し: fly a kite のときは windy（かぜがつよい）
+・windy = かぜがつよい（fly a kite = たこをあげる）
+・rainy = あめの日。sleepy / hungry は人のきもちで天気ではない
 
 ---
 
@@ -176,6 +224,12 @@ A : I want to color this picture. B : Here's a ( ). It's on the desk.
 ほかの選択肢：「umbrella（かさ）」は雨のとき、「banana（バナナ）」は食べもの、「ticket（きっぷ）」はのりものに乗るときで、絵に色はぬれません。
 「color（色をぬる）」と「picture（絵）」を見ると、ぬるどうぐが浮かびます。
 
+【ポイント9】
+種別: 単語
+見出し: color a picture ならぬるどうぐ
+・crayon = クレヨン（color this picture = この絵に色をぬる）
+・umbrella（かさ）や banana（バナナ）では色はぬれない
+
 ---
 
 問題10:
@@ -195,6 +249,12 @@ Hana ( ) her bike to the library on Saturday.
 文全体は「ハナはどようびに、じてんしゃにのって図書館（としょかん）へ行きます」という意味です。「ride a bike」で「じてんしゃにのる」になります。
 ほかの選択肢：「drives（うんてんする）」はくるまに使います。「opens（あける）」と「cooks（りょうりする）」は、じてんしゃのあとに続くことばではありません。
 「bike（じてんしゃ）」の前には「ride（のる）」がよく来ます。くるまなら drive です。
+
+【ポイント10】
+種別: 熟語
+見出し: ride a bike = じてんしゃにのる
+・ride a bike = じてんしゃにのる
+・drive a car = くるまをうんてんする（bike には drive を使わない）
 
 ---
 
@@ -216,6 +276,12 @@ My little brother reads ( ) books before bed.
 ほかの選択肢：「rainy（あめの）」は天気、「hungry（おなかがすいた）」は気持ち、「Tuesday（かようび）」は曜日で、本の種類ではありません。
 「books（本）」の前に、どんな本かを表すことばが入ります。
 
+【ポイント11】
+種別: 熟語
+見出し: story books = お話の本
+・story books = お話の本（reads story books = お話の本をよむ）
+・rainy / hungry / Tuesday は本のしゅるいではない
+
 ---
 
 問題12:
@@ -235,6 +301,12 @@ A : Can I borrow your eraser? B : Sure. It's in my ( ).
 文全体は「消しゴムをかりてもいい？」「もちろん。えんぴつケースのなかだよ」という会話です。消しゴムは文房具なので、入れ物は「pencil case」です。
 ほかの選択肢：「homework（しゅくだい）」は課題、「breakfast（あさごはん）」は食事、「soccer（サッカー）」はスポーツで、消しゴムを入れる場所ではありません。
 「eraser（消しゴム）」を見ると、文房具の入れ物を探すとよいです。
+
+【ポイント12】
+種別: 熟語
+見出し: pencil case = えんぴつケース（文房具のいれもの）
+・pencil case = えんぴつケース（eraser = けしゴムを入れる）
+・homework（しゅくだい）や breakfast（あさごはん）は入れものではない
 
 ---
 
@@ -256,6 +328,12 @@ The birds are singing in the ( ) this morning.
 ほかの選択肢：「soup（スープ）」は食べ物、「ticket（きっぷ）」は紙、「homework（しゅくだい）」は勉強で、鳥が歌う場所ではありません。
 「birds（鳥）」と「singing（歌う）」から、外にある場所を想像してみましょう。
 
+【ポイント13】
+種別: 単語
+見出し: birds が歌うばしょは tree
+・in the tree = 木のなか（birds are singing = とりがなく）
+・soup（スープ）や ticket（きっぷ）はとりが歌うばしょではない
+
 ---
 
 問題14:
@@ -275,6 +353,12 @@ We need milk and eggs from the ( ).
 文全体は「ミルクと卵を店で買う必要があります」という意味です。食べ物を買う場所は「store（店）」です。
 ほかの選択肢：「library（としょかん）」は本を借りる場所、「park（こうえん）」は遊ぶ場所、「station（えき）」は電車に乗る場所で、食料品は買えません。
 「milk（ミルク）」と「eggs（卵）」を見ると、買い物をする場所がわかります。
+
+【ポイント14】
+種別: 単語
+見出し: milk / eggs を買うばしょは store
+・from the store = みせで（milk and eggs = ミルクとたまご）
+・library = としょかん、park = こうえん、station = えき（たべものは買えない）
 
 ---
 
@@ -296,6 +380,12 @@ A : It's very hot today. B : Let's drink some cold ( ).
 ほかの選択肢：「chair（いす）」は家具、「pencil（えんぴつ）」は書く道具、「winter（ふゆ）」は季節で、のむものではありません。
 「hot（あつい）」と「drink（のむ）」から、飲み物を選びましょう。
 
+【ポイント15】
+種別: 単語
+見出し: drink のあとはのみもの
+・drink some cold juice = つめたいジュースをのむ
+・chair（いす）や pencil（えんぴつ）はのみものではない
+
 ---
 
 問題16:
@@ -315,6 +405,12 @@ Yuki ( ) TV every evening after dinner.
 文全体は「ユキは毎晩、夕食のあとテレビを見ます」という意味です。「watch TV」で「テレビを見る」になります。
 ほかの選択肢：「eats（たべる）」は食べ物に使います。「sleeps（ねる）」と「runs（はしる）」は、テレビとはつながりません。
 「TV（テレビ）」の前には「watch（見る）」が来ることを覚えましょう。
+
+【ポイント16】
+種別: 熟語
+見出し: watch TV = テレビを見る
+・watch TV = テレビを見る
+・eat / sleep / run は TV とセットにしにくい
 
 ---
 
@@ -336,6 +432,12 @@ Please put the dirty plates in the ( ).
 ほかの選択肢：「pillow（まくら）」は寝るとき、「notebook（ノート）」は勉強、「kite（たこ）」は遊びの道具で、お皿を置く場所ではありません。
 「dirty plates（よごれたお皿）」から、洗う場所を想像してみましょう。
 
+【ポイント17】
+種別: 単語
+見出し: dirty plates を入れるばしょは sink
+・in the sink = ながしのなか（dirty plates = よごれたお皿）
+・pillow（まくら）や notebook（ノート）はお皿を洗うばしょではない
+
 ---
 
 問題18:
@@ -355,6 +457,12 @@ A : What do you want for your birthday? B : A new ( ).
 文全体は「誕生日に何がほしい？」「新しいうでどけい」という会話です。プレゼントとしてもらえるものは「watch（うでどけい）」です。
 ほかの選択肢：「rain（あめ）」は天気、「homework（しゅくだい）」は課題、「soup（スープ）」は食べ物で、誕生日プレゼントとして「新しい〜」と言いにくいものです。
 「birthday（誕生日）」と「A new（新しい）」から、もらえるものを選びましょう。
+
+【ポイント18】
+種別: 単語
+見出し: birthday の A new 〜 はもらえるもの
+・a new watch = あたらしいうでどけい
+・rain（あめ）や homework（しゅくだい）はプレゼントにしにくい
 
 ---
 
@@ -376,6 +484,12 @@ The train is ( ). We have to wait.
 ほかの選択肢：「sunny（晴れ）」は天気、「hungry（おなかがすいた）」は気持ち、「green（みどり）」は色で、電車の状態を表しません。
 「We have to wait.（待たなければならない）」から、電車が来ていない理由を考えましょう。
 
+【ポイント19】
+種別: 単語
+見出し: The train is late = でんしゃがおくれている
+・late = おくれている（We have to wait. = またなければならない）
+・sunny（はれ）・hungry（おなかがすいた）・green（みどり）はでんしゃのようすではない
+
 ---
 
 問題20:
@@ -395,3 +509,9 @@ Tom and his dad ( ) the car on Sunday.
 文全体は「トムとお父さんは日曜日に車を洗います」という意味です。「wash the car」で「車を洗う」になります。
 ほかの選択肢：「drink（のむ）」は飲み物に、「sing（歌う）」と「sleep（ねる）」は、車と一緒に使う動詞ではありません。
 「the car（車）」と来たら、車に対してよく使う動詞を思い出しましょう。
+
+【ポイント20】
+種別: 熟語
+見出し: wash the car = くるまをあらう
+・wash the car = くるまをあらう
+・drink / sing / sleep はくるまとセットにしにくい

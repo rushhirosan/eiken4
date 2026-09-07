@@ -16,6 +16,12 @@ Mother : What day is today? Boy : ( )
 ほかの選択肢：「It's sunny.（はれ）」は天気、「It's under the bed.（ベッドの下）」はばしょ、「It's my book.（わたしのほん）」はもの、で曜日ではありません。
 「What day」と見たら、Monday や Tuesday などの曜日を探すとよいです。
 
+【ポイント1】
+種別: 会話
+見出し: What day には曜日で答える
+・It's Tuesday. = かようびです（Monday / Friday なども同じ）
+・It's sunny.（はれ）は天気。What day の答えではない
+
 ---
 
 問題2:
@@ -35,6 +41,12 @@ Mother : Where is your homework? Girl : ( )
 「Where（どこ）」とばしょを聞いているので、ばしょの答えが合います。
 ほかの選択肢：「Yes, I do.」ははい・いいえ、「It's Monday.（げつようび）」は曜日、「Two apples.（りんごが2つ）」はかずで、ばしょではありません。
 「Where」と聞かれたら、ばしょを答える文を選びましょう。
+
+【ポイント2】
+種別: 会話
+見出し: Where にはばしょで答える
+・On the table. = テーブルのうえ
+・It's Monday.（げつようび）は曜日。Where の答えではない
 
 ---
 
@@ -56,6 +68,12 @@ A : How old is your sister? B : ( )
 ほかの選択肢：「She's at home.（いえにいる）」はばしょ、「She's tall.（せがたかい）」はすがた、「She's hungry.（おなかがすいた）」はきもちで、年れいではありません。
 「How old」と見たら、かず＋さいの答えを探すとよいです。
 
+【ポイント3】
+種別: 会話
+見出し: How old にはさい（かず）で答える
+・She's ten. = 10さいです
+・She's at home.（いえにいる）はばしょ。How old の答えではない
+
 ---
 
 問題4:
@@ -75,6 +93,12 @@ Girl : What time is dinner? Boy : ( )
 「What time（なんじ）」と時刻を聞いているので、時刻の答えが合います。
 ほかの選択肢：「By bike.（じてんしゃで）」はのりかた、「In March.（3がつに）」は月、「With Mom.（おかあさんと）」はだれと、で時刻ではありません。
 「What time」と聞かれたら、「At 〜」の時刻を選びましょう。
+
+【ポイント4】
+種別: 会話
+見出し: What time には At ＋ じこくで答える
+・At six. = 6じに
+・By bike.（じてんしゃで）はのりかた。What time の答えではない
 
 ---
 
@@ -96,6 +120,12 @@ A : Can you swim? B : ( )
 ほかの選択肢：「In the pool.（プールで）」はばしょ、「At four.（4時に）」は時刻、「Every Sunday.（まいしゅうにちようび）」はいつか、でできるかに答えていません。
 「Can you 〜?」と聞かれたら、Yes, I can. / No, I can't. を探すとよいです。
 
+【ポイント5】
+種別: 会話
+見出し: Can you 〜? には Yes, I can. / No, I can't.
+・Yes, I can. = うん、できるよ
+・In the pool.（プールで）はばしょ。できるかには答えていない
+
 ---
 
 問題6:
@@ -115,6 +145,12 @@ Boy : Who made this cake? Girl : ( )
 「Who（だれ）」と人を聞いているので、だれかを言う答えが合います。
 ほかの選択肢：「In the kitchen.（だいどころ）」はばしょ、「At three.（3時に）」は時刻、「It's sweet.（あまい）」はあじで、だれかには答えていません。
 「Who」と見たら、人のなまえやよびかたを探すとよいです。
+
+【ポイント6】
+種別: 会話
+見出し: Who には人で答える
+・My mother did. = おかあさんがしたよ
+・In the kitchen.（だいどころ）はばしょ。Who の答えではない
 
 ---
 
@@ -136,6 +172,12 @@ A : How much are these cookies? B : ( )
 ほかの選択肢：「They're fresh.（しんせん）」はじょうたい、「They're brown.（ちゃいろ）」は色、「They're mine.（わたしの）」はだれのもの、でねだんではありません。
 「How much」と聞かれたら、かねやねだんを答える文を選びましょう。
 
+【ポイント7】
+種別: 会話
+見出し: How much にはねだんで答える
+・They're 200 yen. = 200えんです
+・They're brown.（ちゃいろ）は色。How much の答えではない
+
 ---
 
 問題8:
@@ -155,6 +197,12 @@ Mother : When is the music festival? Boy : ( )
 「When（いつ）」と時を聞いているので、日や時の答えが合います。
 ほかの選択肢：「At school.（がっこう）」はばしょ、「With my class.（クラスと）」はだれと、「By bus.（バスで）」はのりかたで、いつかには答えていません。
 「When」と見たら、日・曜日・時を探すとよいです。
+
+【ポイント8】
+種別: 会話
+見出し: When には日・ようび・ときで答える
+・Next Saturday. = こんしゅうのどようび
+・At school.（がっこう）はばしょ。When の答えではない
 
 ---
 
@@ -176,6 +224,12 @@ Girl : What's in your bag? Boy : ( )
 ほかの選択肢：「At nine.（9時に）」は時刻、「In my room.（へや）」はばしょ、「Yes, please.（はい、おねがい）」はたのむときの返事で、中身ではありません。
 「What's in」と見たら、中にあるものを答える文を選びましょう。
 
+【ポイント9】
+種別: 会話
+見出し: What's in 〜? には中身のもので答える
+・A book and a lunch box. = ほんとおべんとうばこ
+・At nine.（9じに）はじこく。中身の答えではない
+
 ---
 
 問題10:
@@ -195,6 +249,12 @@ A : How's the weather today? B : ( )
 「How's the weather（てんきはどう）」と天気を聞いているので、天気のことばが合います。
 ほかの選択肢：「It's my hat.（わたしのぼうし）」はもの、「It's under the desk.（つくえの下）」はばしょ、「It's Friday.（きんようび）」は曜日で、天気ではありません。
 「weather（てんき）」と見たら、sunny / rainy / cloudy などを探すとよいです。
+
+【ポイント10】
+種別: 会話
+見出し: How's the weather には天気のことばで答える
+・It's rainy. = あめです（sunny / cloudy も同じ）
+・It's Friday.（きんようび）は曜日。天気の答えではない
 
 ---
 
@@ -216,6 +276,12 @@ A : How many pencils do you have? B : ( )
 ほかの選択肢：「At school.（がっこうで）」はばしょ、「On the desk.（つくえのうえ）」もばしょ、「With my friend.（ともだちと）」はだれと、で、数ではありません。
 「How many」と見たら、one / two / three などを探しましょう。
 
+【ポイント11】
+種別: 会話
+見出し: How many にはかずで答える
+・Three. = 3ほん（one / two / three）
+・On the desk.（つくえのうえ）はばしょ。How many の答えではない
+
 ---
 
 問題12:
@@ -235,6 +301,12 @@ Girl : Do you like math? Boy : ( )
 「Do you like 〜?（〜は好き？）」という質問なので、はい・いいえの答えが合います。
 ほかの選択肢：「At ten o'clock.（10時に）」は時刻、「In the classroom.（教室で）」はばしょ、「My brother does.（弟が好き）」は別の人の話で、自分の答えではありません。
 「Do you 〜?」と来たら、Yes / No で答える文を選びましょう。
+
+【ポイント12】
+種別: 会話
+見出し: Do you like 〜? には Yes, I do. / No, I don't.
+・Yes, I do. = うん、すきです
+・At ten o'clock.（10じに）はじこく。すきかに答えていない
 
 ---
 
@@ -256,6 +328,12 @@ A : Whose bag is this? B : ( )
 ほかの選択肢：「A red one.（あかいの）」は色や種類、「On the chair.（いすのうえ）」はばしょ、「At school.（がっこう）」もばしょで、だれのものかには答えていません。
 「Whose」と見たら、mine / yours / his などを探すとよいです。
 
+【ポイント13】
+種別: 文法
+見出し: Whose にはだれのかで答える
+・It's mine. = わたしのです（yours / his も同じ）
+・On the chair.（いすのうえ）はばしょ。Whose の答えではない
+
 ---
 
 問題14:
@@ -275,6 +353,12 @@ A : What are you doing? B : ( )
 「What are you doing?（なにをしている？）」と今していることを聞いているので、「I'm reading a book.（本を読んでいる）」が合います。
 ほかの選択肢：「At home.（うちで）」はばしょ、「With my sister.（妹と）」はだれと、「Every day.（まいにち）」はいつで、今していることではありません。
 「What are you doing?」と来たら、I'm ＋ 〜ing の文を探しましょう。
+
+【ポイント14】
+種別: 文法
+見出し: What are you doing? には I'm ＋ 〜ing でかたち
+・I'm reading a book. = ほんをよんでいます
+・At home.（うちで）はばしょ。いましていることではない
 
 ---
 
@@ -296,6 +380,12 @@ Girl : Can you cook? Boy : ( )
 ほかの選択肢：「In the kitchen.（だいどころで）」はばしょ、「At three.（3時に）」は時刻、「With my dad.（お父さんと）」はだれと、で、できるかには答えていません。
 「Can you 〜?」と来たら、できる・できないの答えを選びましょう。
 
+【ポイント15】
+種別: 会話
+見出し: Can you 〜? にはできるかで答える
+・Yes, a little. = うん、すこしできる（Yes, I can. / No, I can't. も同じ）
+・In the kitchen.（だいどころで）はばしょ。できるかには答えていない
+
 ---
 
 問題16:
@@ -315,6 +405,12 @@ A : Where is the post office? B : ( )
 「Where is 〜?（〜はどこ？）」と場所を聞いているので、場所の答えが合います。
 ほかの選択肢：「At nine.（9時に）」は時刻、「On foot.（歩いて）」は行き方、「Every morning.（毎朝）」はいつで、場所ではありません。
 「Where」と見たら、場所を表す文を探すとよいです。
+
+【ポイント16】
+種別: 会話
+見出し: Where is 〜? にはばしょで答える
+・Next to the bank. = ぎんこうのとなり
+・On foot.（あるいて）はいきかた。Where の答えではない
 
 ---
 
@@ -336,6 +432,12 @@ A : What did you eat for breakfast? B : ( )
 ほかの選択肢：「At seven.（7時に）」は時刻、「In the kitchen.（だいどころで）」は場所、「With my family.（家族と）」はだれと、で、食べ物ではありません。
 「What did you eat」と見たら、食べたものを答える文を選びましょう。
 
+【ポイント17】
+種別: 会話
+見出し: What did you eat にはたべたもので答える
+・Toast and milk. = トーストとミルク
+・At seven.（7じに）はじこく。たべものの答えではない
+
 ---
 
 問題18:
@@ -355,6 +457,12 @@ Girl : Is this your first time here? Boy : ( )
 「Is this your first time here?（ここは初めて？）」という質問なので、はい・いいえの答えが合います。
 ほかの選択肢：「At the park.（公園で）」は場所、「With my class.（クラスと）」はだれと、「On Monday.（月曜日に）」はいつで、初めてかどうかには答えていません。
 「Is this 〜?」と来たら、Yes, it is. / No, it isn't. を探しましょう。
+
+【ポイント18】
+種別: 会話
+見出し: Is this 〜? には Yes, it is. / No, it isn't.
+・Yes, it is. = うん、そうです
+・At the park.（こうえんで）はばしょ。はい・いいえになっていない
 
 ---
 
@@ -376,6 +484,12 @@ A : Who is that woman? B : ( )
 ほかの選択肢：「At the store.（店で）」は場所、「A blue dress.（青いドレス）」はもの、「On Saturday.（土曜日に）」はいつで、だれかには答えていません。
 「Who」と見たら、人の名前や関係を答える文を選びましょう。
 
+【ポイント19】
+種別: 会話
+見出し: Who is 〜? には人で答える
+・She's my aunt. = わたしのおばさんです
+・A blue dress.（あおいドレス）はもの。Who の答えではない
+
 ---
 
 問題20:
@@ -395,3 +509,9 @@ A : Why are you sad? B : ( )
 「Why are you sad?（なぜかなしい？）」と理由を聞いているので、理由の答えが合います。
 ほかの選択肢：「At home.（うちで）」は場所、「With my dog.（犬と）」はだれと、「Every day.（まいにち）」はいつで、理由ではありません。
 「Why」と見たら、Because 〜 や理由を説明する文を探すとよいです。
+
+【ポイント20】
+種別: 会話
+見出し: Why にはりゆうで答える
+・I lost my hat. = ぼうしをなくした（Because I 〜. も同じ）
+・At home.（うちで）はばしょ。Why のりゆうではない

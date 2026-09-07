@@ -17,6 +17,12 @@ I kick a ball in the park.
 1番目は kick、3番目は ball です。全文は「わたしはこうえんでボールをけります」という意味です。
 「I + どうし + a + もの」のじゅんばんを思い出しましょう。
 
+【ポイント1】
+種別: 文法
+見出し: だれが + する + もの、ばしょはうしろ
+・I kick a ball in the park. = わたしはこうえんでボールをける
+・ばしょ（in the park）は文のうしろにつける
+
 ---
 
 問題2:
@@ -37,6 +43,12 @@ She [1番目] ( ) [3番目] ( ) the morning.
 She drinks some milk in the morning.
 1番目は drinks、3番目は milk です。全文は「かのじょはあさ、ぎゅうにゅうを飲みます」という意味です。
 She のあとは「drinks + some + milk + in」のじゅんばんです。
+
+【ポイント2】
+種別: 文法
+見出し: だれが + する + もの、ときはうしろ
+・She drinks some milk in the morning. = かのじょはあさ、ぎゅうにゅうをのむ
+・とき（in the morning）は文のうしろにつける
 
 ---
 
@@ -59,6 +71,12 @@ My dog is white.
 1番目は My、3番目は is です。全文は「わたしのいぬはしろいです」という意味です。
 「My + もの + is + いろ」のかたちをおさえましょう。
 
+【ポイント3】
+種別: 文法
+見出し: My + もの + is + いろ
+・My dog is white. = わたしのいぬはしろい
+・いろのことばは is のあとにおく
+
 ---
 
 問題4:
@@ -79,6 +97,12 @@ My dog is white.
 I make soup for dinner.
 1番目は I、3番目は soup です。全文は「わたしはゆうしょくにスープをつくります」という意味です。
 「I + make + soup + for」のじゅんばんです。
+
+【ポイント4】
+種別: 文法
+見出し: だれが + する + もの、for 〜 はうしろ
+・I make soup for dinner. = わたしはゆうしょくにスープをつくる
+・for dinner（ゆうしょくに）はもののうしろにつける
 
 ---
 
@@ -101,6 +125,12 @@ I play with my friends in the evening.
 1番目は play、3番目は my です。全文は「ぼくはゆうがた、ともだちとあそびます」という意味です。
 「play with my friends」のじゅんばんを思い出しましょう。
 
+【ポイント5】
+種別: 熟語
+見出し: play with 〜（〜とあそぶ）
+・play with my friends = ともだちとあそぶ
+・with のあとに「だれと」をおく
+
 ---
 
 問題6:
@@ -121,6 +151,12 @@ I play with my friends in the evening.
 The cat is under the chair.
 1番目は The、3番目は is です。全文は「ねこはイスのしたにいます」という意味です。
 「The + もの + is + under」のかたちです。
+
+【ポイント6】
+種別: 文法
+見出し: The + もの + is + under 〜
+・The cat is under the chair. = ねこはイスのしたにいる
+・under 〜（〜のした）は is のうしろにおく
 
 ---
 
@@ -143,6 +179,12 @@ We watch movies on Saturday.
 1番目は We、3番目は movies です。全文は「わたしたちはどようびにえいがをみます」という意味です。
 「We + watch + movies + on」のじゅんばんです。
 
+【ポイント7】
+種別: 文法
+見出し: だれが + する + もの、ようびはうしろ
+・We watch movies on Saturday. = わたしたちはどようびにえいがをみる
+・ようびのまえは on（on Saturday = どようびに）
+
 ---
 
 問題8:
@@ -163,6 +205,12 @@ He [1番目] ( ) [3番目] ( ).
 He goes to the library.
 1番目は goes、3番目は the です。全文は「かれはとしょかんへ行きます」という意味です。
 「goes to the library」のじゅんばんを思い出しましょう。
+
+【ポイント8】
+種別: 熟語
+見出し: go to + ばしょ（〜へいく）
+・goes to the library = としょかんへいく
+・to のあとにばしょをおく
 
 ---
 
@@ -185,6 +233,12 @@ She likes red apples.
 1番目は She、3番目は red です。全文は「かのじょはあかいりんごがすきです」という意味です。
 「She + likes + red + apples」のじゅんばんです。
 
+【ポイント9】
+種別: 文法
+見出し: だれが + likes + いろ + もの
+・She likes red apples. = かのじょはあかいりんごがすき
+・いろのことばはもののまえ（red apples = あかいりんご）
+
 ---
 
 問題10:
@@ -205,6 +259,12 @@ She likes red apples.
 They are reading books now.
 1番目は They、3番目は reading です。全文は「かれらはいま、ほんを読んでいます」という意味です。
 「They + are + reading + books」のじゅんばんです。いましていることは are ＋ 〜ing です。
+
+【ポイント10】
+種別: 文法
+見出し: いましていることは are / is + 〜ing
+・They are reading books. = かれらはほんをよんでいる
+・are / is のあとに 〜ing のかたちをつける
 
 ---
 
@@ -228,6 +288,12 @@ I eat eggs in the morning.
 「I + eat + eggs + in the morning」のじゅんばんです。主語 I のあとに動詞 eat が来ます。
 「in the morning（朝に）」は文の最後につくことが多いです。
 
+【ポイント11】
+種別: 文法
+見出し: だれが + する + もの、ときはうしろ
+・I eat eggs in the morning. = わたしはあさ、たまごをたべる
+・in the morning（あさに）は文のうしろにつける
+
 ---
 
 問題12:
@@ -249,6 +315,12 @@ She walks her dog every day.
 1番目は She、3番目は her です。全文は「かのじょは毎日、犬を散歩させます」という意味です。
 「She + walks + her + dog」のじゅんばんです。her dog で「彼女の犬」になります。
 every day（毎日）は文の最後につきます。
+
+【ポイント12】
+種別: 文法
+見出し: だれが + する + her / my + もの
+・She walks her dog. = かのじょはじぶんのいぬをさんぽさせる
+・her dog = かのじょのいぬ。ものにつくことばはもののまえ
 
 ---
 
@@ -272,6 +344,12 @@ We eat pizza on Fridays.
 「We + eat + pizza + on Fridays」のじゅんばんです。
 曜日の前には on（〜に）を使います。
 
+【ポイント13】
+種別: 文法
+見出し: ようびは on 〜、文のうしろにおく
+・We eat pizza on Fridays. = わたしたちはきんようびにピザをたべる
+・on Fridays（きんようびに）は文のうしろにつける
+
 ---
 
 問題14:
@@ -294,6 +372,12 @@ This book is interesting.
 「This + book + is + interesting」のじゅんばんです。
 This book（この本）のあとに is が来て、形容詞 interesting が続きます。
 
+【ポイント14】
+種別: 文法
+見出し: This + もの + is + ようす
+・This book is interesting. = このほんはおもしろい
+・This 〜 のあとに is、そのあとようすのことば
+
 ---
 
 問題15:
@@ -314,6 +398,12 @@ This book（この本）のあとに is が来て、形容詞 interesting が続
 He likes tennis too.
 1番目は He、3番目は tennis です。全文は「かれはテニスも好きです」という意味です。
 「He + likes + tennis + too」のじゅんばんです。too（〜も）は文の最後に置きます。
+
+【ポイント15】
+種別: 文法
+見出し: too（〜も）は文のうしろ
+・He likes tennis too. = かれはテニスもすき
+・too は文のおわりにつける
 
 ---
 
@@ -337,6 +427,12 @@ He runs in the park.
 「He + runs + in + the + park」のじゅんばんです。
 He は枠の前に固定されています。in the park（公園で）が場所を表します。
 
+【ポイント16】
+種別: 文法
+見出し: する + in the 〜、ばしょはうしろ
+・He runs in the park. = かれはこうえんではしる
+・in the park（こうえんで）は文のうしろにつける
+
 ---
 
 問題17:
@@ -358,6 +454,12 @@ Mom is making soup.
 1番目は Mom、3番目は making です。全文は「お母さんはスープを作っています」という意味です。
 「Mom + is + making + soup」のじゅんばんです。
 いましていることは is ＋ 〜ing（making）の形になります。
+
+【ポイント17】
+種別: 文法
+見出し: いましていることは is + 〜ing
+・Mom is making soup. = おかあさんはスープをつくっている
+・is のあとに 〜ing（making）をおく
 
 ---
 
@@ -381,6 +483,12 @@ I drink some cold water.
 「I + drink + some + cold + water」のじゅんばんです。
 I は枠の前に固定されています。some cold water で「つめたい水」になります。
 
+【ポイント18】
+種別: 文法
+見出し: some + ようす + もの
+・some cold water = つめたいみず
+・ようすのことばはもののまえ（cold water）
+
 ---
 
 問題19:
@@ -403,6 +511,12 @@ She can play the piano.
 「She + can + play + the + piano」のじゅんばんです。
 She は枠の前に固定されています。can のあとに動詞 play が来ます。
 
+【ポイント19】
+種別: 文法
+見出し: can のあとはもとのかたち
+・can play the piano = ピアノをひくことができる
+・can のあとは play（もとのかたち）。plays や playing はおかない
+
 ---
 
 問題20:
@@ -424,3 +538,9 @@ They like their teacher.
 1番目は They、3番目は their です。全文は「かれらは自分たちの先生が好きです」という意味です。
 「They + like + their + teacher」のじゅんばんです。
 their teacher で「彼らの先生」になります。
+
+【ポイント20】
+種別: 文法
+見出し: だれが + like + their / my + もの
+・They like their teacher. = かれらはじぶんたちのせんせいがすき
+・their teacher = かれらのせんせい

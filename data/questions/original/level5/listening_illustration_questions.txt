@@ -15,6 +15,12 @@ Question No.1:
 「何時？」と時刻をたずねているので、1「At twelve.（12時です）」が自然です。
 2「In the kitchen.（だいどころで）」はばしょ、3「It's chicken.（とりにくです）」はメニューで、時刻ではありません。
 
+【ポイント1】
+種別: 会話
+見出し: What time 〜? には時刻で答える
+・At twelve. = 12時です
+・だいどころ（ばしょ）やメニューは時刻ではない
+
 ---
 
 No.2:
@@ -33,6 +39,12 @@ Question No.2:
 
 「いくら」とねだんをたずねているので、2「It's 80 yen.（80えんです）」が自然です。
 1「It's on the desk.（つくえのうえ）」はばしょ、3「It's Mira's.（ミラの）」は持ち主で、ねだんではありません。
+
+【ポイント2】
+種別: 会話
+見出し: How much 〜? にはねだんで答える
+・It's 80 yen. = 80えんです
+・つくえのうえ（ばしょ）や持ち主はねだんではない
 
 ---
 
@@ -53,6 +65,12 @@ Question No.3:
 「なまえ」をたずねているので、3「Ms. Aoki.（アオキ先生）」が自然です。
 1「In the morning.（あさに）」はいつ、2「Room 3.（3組のへや）」はばしょで、なまえではありません。
 
+【ポイント3】
+種別: 会話
+見出し: What's 〜 name? にはなまえで答える
+・Ms. Aoki. = アオキ先生
+・あさ（いつ）やへや（ばしょ）はなまえではない
+
 ---
 
 No.4:
@@ -71,6 +89,12 @@ Question No.4:
 
 「Is 〜?」の質問なので、1「Yes, he is.（うん、そうです）」が自然です。
 2「At the hospital.（びょういん）」はばしょ、3「He's tall.（せがたかい）」はすがたで、はい・いいえの答えではありません。
+
+【ポイント4】
+種別: 会話
+見出し: Is 〜? には Yes / No で答える
+・Yes, he is. = うん、そうです
+・びょういん（ばしょ）やすがたの説明は Yes/No の答えではない
 
 ---
 
@@ -91,6 +115,12 @@ Question No.5:
 「どこで」とばしょをたずねているので、2「In my room.（じぶんのへやで）」が自然です。
 1「After dinner.（ばんごはんのあと）」はいつ、3「Math and English.（さんすうとえいご）」は教科で、ばしょではありません。
 
+【ポイント5】
+種別: 会話
+見出し: Where 〜? にはばしょで答える
+・In my room. = じぶんのへやで
+・ばんごはんのあと（いつ）や教科はばしょではない
+
 ---
 
 No.6:
@@ -109,6 +139,12 @@ Question No.6:
 
 「すきなきせつ」をたずねているので、3「It's spring.（はるです）」が自然です。
 1「In March.（3がつに）」は月、2「It's warm.（あたたかい）」は天気・きもちで、きせつのなまえではありません。
+
+【ポイント6】
+種別: 会話
+見出し: What's your favorite season? にはきせつで答える
+・It's spring. = はるです
+・3がつ（月）やあたたかい（ようす）はきせつのなまえではない
 
 ---
 
@@ -129,6 +165,12 @@ Question No.7:
 「Can you 〜?」の質問なので、1「Yes, I can.（うん、のれるよ）」が自然です。
 2「It's red.（あかい）」は色、3「To the park.（こうえんへ）」はばしょで、できるかに答えていません。
 
+【ポイント7】
+種別: 会話
+見出し: Can you 〜? には Yes, I can. / No, I can't.
+・Yes, I can. = うん、できるよ
+・色やばしょだけでは「できるか」に答えていない
+
 ---
 
 No.8:
@@ -147,6 +189,12 @@ Question No.8:
 
 「どうやって」とのりかたをたずねているので、2「By bike.（じてんしゃで）」が自然です。
 1「At my house.（うちで）」はばしょ、3「With my sister.（いもうとと）」はだれと、でのりかたではありません。
+
+【ポイント8】
+種別: 会話
+見出し: How do you go 〜? にはのりかたで答える
+・By bike. = じてんしゃで
+・うち（ばしょ）やだれと行くかはのりかたではない
 
 ---
 
@@ -167,6 +215,12 @@ Question No.9:
 「なにを」とものをたずねているので、3「My eraser.（けしゴム）」が自然です。
 1「Under the desk.（つくえの下）」はばしょ、2「It's new.（あたらしい）」はじょうたいで、さがしているものではありません。
 
+【ポイント9】
+種別: 会話
+見出し: What are you looking for? にはさがしているもので答える
+・My eraser. = けしゴム
+・つくえの下（ばしょ）やあたらしい（ようす）はものではない
+
 ---
 
 No.10:
@@ -185,6 +239,12 @@ Question No.10:
 
 「どう？」とようすをたずねているので、1「It's fun.（たのしいよ）」が自然です。
 2「On Monday.（げつようびに）」は曜日、3「By bus.（バスで）」はのりかたで、ようすではありません。
+
+【ポイント10】
+種別: 会話
+見出し: How's 〜? にはようす・きもちで答える
+・It's fun. = たのしいよ
+・曜日やのりかたはようすの答えではない
 
 ---
 
@@ -205,6 +265,12 @@ Question No.101:
 2「The girl is picking the flowers.（女の子は花をつんでいる）」も、3「The girl is drawing the flowers.（女の子は花をえにかいている）」も、イラストと合いません。
 動詞（picking / watering / drawing）の違いがポイントです。
 
+【ポイント101】
+種別: リスニング
+見出し: みずをやる / つむ / えにかく を聞き分ける
+・watering the flowers = 花にみずをやる
+・picking（つむ）や drawing（えにかく）は別の動き
+
 ---
 
 No.102:
@@ -223,6 +289,12 @@ Question No.102:
 2「The books are on the desk.（本はつくえのうえにある）」が正解です。
 1「The books are under the desk.（本はつくえの下にある）」も、3「The books are in the desk.（本はつくえの中にある）」も、イラストと合いません。
 前置詞（under / on / in）の違いがポイントです。
+
+【ポイント102】
+種別: リスニング
+見出し: うえ / した / なか のばしょことばを聞き分ける
+・on the desk = つくえのうえ
+・under（した）や in（なか）は別のばしょ
 
 ---
 
@@ -243,6 +315,12 @@ Question No.103:
 1「The boy is taking off his coat.（男の子はコートをぬいでいる）」も、2「The boy is washing his coat.（男の子はコートをあらっている）」も、イラストと合いません。
 動作（putting on / taking off / washing）の違いがポイントです。
 
+【ポイント103】
+種別: リスニング
+見出し: きる / ぬぐ / あらう を聞き分ける
+・putting on his coat = コートをきている
+・taking off（ぬぐ）や washing（あらう）は別の動き
+
 ---
 
 No.104:
@@ -261,6 +339,12 @@ Question No.104:
 1「The dog is sitting by the door.（いぬはドアのそばにすわっている）」が正解です。
 2「The dog is sleeping by the door.（いぬはドアのそばでねている）」も、3「The dog is running to the door.（いぬはドアへ走っている）」も、イラストと合いません。
 動詞（sleeping / running / sitting）の違いがポイントです。
+
+【ポイント104】
+種別: リスニング
+見出し: すわる / ねる / 走る を聞き分ける
+・sitting by the door = ドアのそばにすわっている
+・sleeping（ねる）や running（走る）は別の動き
 
 ---
 
@@ -281,6 +365,12 @@ Question No.105:
 1「Mom is buying the bread.（お母さんはパンを買っている）」も、3「Mom is eating the bread.（お母さんはパンを食べている）」も、イラストと合いません。
 動詞（cutting / buying / eating）の違いがポイントです。
 
+【ポイント105】
+種別: リスニング
+見出し: パンをきる / かう / たべる を聞き分ける
+・cutting the bread = パンを切っている
+・buying（かう）や eating（たべる）は別の動き
+
 ---
 
 No.11:
@@ -299,6 +389,12 @@ Question No.11:
 
 「How old（何さい）」と年をたずねているので、2「She's eight.（8さいです）」が自然です。
 1「In my room.（へや）」はばしょ、3「At school.（がっこう）」もばしょで、年ではありません。
+
+【ポイント11】
+種別: 会話
+見出し: How old 〜? にはとしで答える
+・She's eight. = 8さいです
+・へややがっこう（ばしょ）はとしではない
 
 ---
 
@@ -319,6 +415,12 @@ Question No.12:
 「どっちがいい？」と選ばせているので、3「Juice, please.（ジュースお願い）」が自然です。
 1「On the table.（テーブルのうえ）」はばしょ、2「It's cold today.（きょうはさむい）」は天気で、選びの答えではありません。
 
+【ポイント12】
+種別: 会話
+見出し: A or B? にはどちらかを選んで答える
+・Juice, please. = ジュースお願い
+・テーブルのうえ（ばしょ）や天気は選びの答えではない
+
 ---
 
 No.13:
@@ -337,6 +439,12 @@ Question No.13:
 
 「What sport（どんなスポーツ）」とスポーツをたずねているので、1「Baseball.（やきゅう）」が自然です。
 2「At four.（4時に）」は時刻、3「My brother.（おにいちゃん）」は人で、スポーツではありません。
+
+【ポイント13】
+種別: 会話
+見出し: What sport 〜? にはスポーツのなまえで答える
+・Baseball. = やきゅう
+・時刻や人のなまえはスポーツではない
 
 ---
 
@@ -357,6 +465,12 @@ Question No.14:
 「手伝ってくれる？」とたのんでいるので、2「Sure.（もちろん）」が自然です。
 1「It's heavy.（おもい）」ははこの説明、3「In the box.（はこのなか）」はばしょで、手伝うかどうかの返事ではありません。
 
+【ポイント14】
+種別: 会話
+見出し: Can you help 〜? には手伝う返事
+・Sure. = もちろん
+・おもい（せつめい）やはこのなか（ばしょ）は手伝う返事ではない
+
 ---
 
 No.15:
@@ -375,6 +489,12 @@ Question No.15:
 
 「When（いつ）」と時刻をたずねているので、3「At seven.（7時に）」が自然です。
 1「At the cinema.（えいがかん）」はばしょ、2「It's fun.（たのしい）」は感想で、時刻ではありません。
+
+【ポイント15】
+種別: 会話
+見出し: When 〜? には時刻・いつで答える
+・At seven. = 7時に
+・えいがかん（ばしょ）やたのしい（かんそう）は時刻ではない
 
 ---
 
@@ -395,6 +515,12 @@ Question No.106:
 1「The girl is washing her face.（女の子は顔を洗っている）」も、2「The girl is eating candy.（女の子はキャンディを食べている）」も、イラストと合いません。
 動詞（brushing / washing / eating）の違いがポイントです。
 
+【ポイント106】
+種別: リスニング
+見出し: 歯をみがく / 顔をあらう / たべる を聞き分ける
+・brushing her teeth = 歯をみがいている
+・washing her face（顔をあらう）や eating（たべる）は別の動き
+
 ---
 
 No.107:
@@ -413,6 +539,12 @@ Question No.107:
 1「The children are building a snowman.（子どもたちは雪だるまを作っている）」が正解です。
 2「The children are throwing snowballs.（子どもたちは雪玉を投げている）」も、3「The children are skiing.（子どもたちはスキーをしている）」も、イラストと合いません。
 動詞（building / throwing / skiing）の違いがポイントです。
+
+【ポイント107】
+種別: リスニング
+見出し: 雪だるまをつくる / なげる / スキー を聞き分ける
+・building a snowman = 雪だるまをつくっている
+・throwing snowballs（雪玉をなげる）や skiing は別の動き
 
 ---
 
@@ -433,6 +565,12 @@ Question No.108:
 1「The man is riding the bike.（男性は自転車に乗っている）」も、3「The man is selling the bike.（男性は自転車を売っている）」も、イラストと合いません。
 動詞（fixing / riding / selling）の違いがポイントです。
 
+【ポイント108】
+種別: リスニング
+見出し: なおす / のる / うる を聞き分ける
+・fixing the bike = じてんしゃをなおしている
+・riding（のる）や selling（うる）は別の動き
+
 ---
 
 No.109:
@@ -452,6 +590,12 @@ Question No.109:
 1「The shoes are on the table.（くつはテーブルのうえにある）」も、2「The shoes are in the river.（くつは川のなかにある）」も、イラストと合いません。
 前置詞（by / on / in）と場所のちがいがポイントです。
 
+【ポイント109】
+種別: リスニング
+見出し: そば / うえ / なか のばしょことばを聞き分ける
+・by the door = ドアのそば
+・on the table（うえ）や in the river（なか）は別のばしょ
+
 ---
 
 No.110:
@@ -470,3 +614,9 @@ Question No.110:
 1「The woman is reading a magazine.（女性は雑誌を読んでいる）」が正解です。
 2「The woman is writing a letter.（女性は手紙を書いている）」も、3「The woman is folding clothes.（女性は服をたたんでいる）」も、イラストと合いません。
 動詞（reading / writing / folding）の違いがポイントです。
+
+【ポイント110】
+種別: リスニング
+見出し: よむ / かく / たたむ を聞き分ける
+・reading a magazine = ざっしをよんでいる
+・writing（かく）や folding（たたむ）は別の動き

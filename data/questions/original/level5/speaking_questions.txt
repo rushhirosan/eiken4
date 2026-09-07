@@ -26,6 +26,12 @@ Riku is 8 years old. He has a dog. The dog's name is Pochi. Pochi is brown. Riku
 ■ 表現のメモ
 内容質問は He / She / It に置き換えて答えると自然です。No.3 は自分の答えを短く言えばOKです。
 
+【ポイント1】
+種別: 会話
+見出し: How old・いろは本文から、じぶんのことはみじかく
+・How old is 〜? → He is 8 years old.（ねんれいは本文から）
+・What animal do you like? → I like dogs.（じぶんのことはみじかい文で）
+
 ---
 
 問題2:
@@ -56,6 +62,12 @@ Yui goes to school by bus. Her school is big. She has many friends. She likes mu
 ■ 表現のメモ
 乗り物は by bus / by bike / on foot などで答えられます。
 
+【ポイント2】
+種別: 会話
+見出し: のりものは by 〜、じぶんのことはみじかく
+・How does 〜 go? → By bus. / She goes by bus.（のりものは本文から）
+・What subject do you like? → I like English.（じぶんのことはみじかく）
+
 ---
 
 問題3:
@@ -82,6 +94,12 @@ Ken eats lunch at school. He has rice and fish today. His friend gives him an ap
 1. He eats lunch at school. / At school.
 2. An apple. / His friend gives him an apple.
 3. I eat rice. / I eat bread. / I eat noodles.
+
+【ポイント3】
+種別: 会話
+見出し: ないようは本文から、じぶんのことはみじかく
+・Where does 〜 eat? → At school.（ばしょは本文から）
+・What do you eat 〜? → I eat rice.（じぶんのことはみじかい文で）
 
 ---
 
@@ -110,6 +128,12 @@ It is rainy today. Sora has a yellow umbrella. She walks to the store with her m
 2. They buy milk. / Milk.
 3. Yes, I do. / No, I don't. / Yes. I like rain.
 
+【ポイント4】
+種別: 会話
+見出し: いろ・かったものは本文、すきかはじぶん
+・What color is 〜? → It is yellow.（いろは本文から）
+・Do you like 〜? → Yes, I do. / No, I don't.（じぶんのすききらいはみじかく）
+
 ---
 
 問題5:
@@ -136,3 +160,9 @@ Hana's grandfather lives near the sea. He has a small boat. On Sunday, Hana visi
 1. He lives near the sea. / Near the sea.
 2. On Sunday. / She visits him on Sunday.
 3. I visit my grandmother. / My uncle. / My friend.
+
+【ポイント5】
+種別: 会話
+見出し: ばしょ・ときは本文から、だれに会うかはじぶん
+・Where does 〜 live? → Near the sea.（ばしょは本文から）
+・Who do you like to visit? → I visit my grandmother.（じぶんのことはみじかく）
