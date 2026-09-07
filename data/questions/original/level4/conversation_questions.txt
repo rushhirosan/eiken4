@@ -16,6 +16,13 @@ A : How long does it take to walk to the library? B : ( )
 ほかの選択肢：「It's next to the park.（公園のとなり）」は場所、「I like reading books.（本を読むのが好き）」は好きなもの、「At three o'clock.（3時に）」は時刻で、所要時間の答えではありません。
 ヒント：「How long does it take」と見たら、minutes / hours などの長さを探しましょう。
 
+【ポイント1】
+種別: 会話
+見出し: How long does it take はかかる時間を聞く
+・About ten minutes. / It takes two hours. のように長さで答える
+・How long（長さ）と When（何時）を混ぜない。When → at three o'clock
+・Where（どこ）の答えは場所。所要時間には使わない
+
 ---
 
 問題2:
@@ -35,6 +42,13 @@ Girl : Would you like some hot chocolate? Boy : ( )
 「Would you like 〜?」は「〜はいりますか／いかがですか」というすすめです。受けるときは「Yes, please.」がよく使われます。
 ほかの選択肢：1「It's under the chair.（いすの下）」は場所、2「I went there yesterday.（きのうそこに行った）」は過去の行動、4「She is my teacher.（彼女は私の先生）」は人の説明で、すすめへの返事になっていません。
 ヒント：「Would you like 〜?」には Yes, please. / No, thank you. の型で答えることが多いです。
+
+【ポイント2】
+種別: 会話
+見出し: Would you like 〜? は「〜いかがですか」のすすめ
+・受ける → Yes, please.　断る → No, thank you.
+・理由を足してもよい（I'm cold. / I'm full.）
+・Do you like 〜?（好きですか）とは別。すすめへの返事は please / thank you
 
 ---
 
@@ -56,6 +70,13 @@ A : Whose blue umbrella is this? B : ( )
 ほかの選択肢：2「It's raining hard.（雨がひどい）」は天気、3「Buy a new one.（新しいのを買って）」はすすめ、4「In the classroom.（教室で）」は場所で、持ち主の答えではありません。
 ヒント：「Whose」と見たら、人の名前＋'s を探しましょう。
 
+【ポイント3】
+種別: 文法
+見出し: Whose は持ち主を聞く（だれの〜？）
+・It's Rina's. / It's mine. のように人＋'s や所有代名詞で答える
+・Who は「だれ」、Whose は「だれの」。混ぜない
+・場所（In the classroom.）は Where の答え。持ち主ではない
+
 ---
 
 問題4:
@@ -75,6 +96,13 @@ Boy : How often do you practice the piano? Girl : ( )
 「How often（どのくらいの頻度で）」と回数・頻度を聞いているので、「twice a week」のような答えが合います。
 ほかの選択肢：「For thirty minutes.（30分間）」は長さ、「In the living room.（居間で）」は場所、「With my sister.（妹と）」はだれと、で頻度ではありません。
 ヒント：「How often」には once / twice / every day などの頻度語が答えになります。
+
+【ポイント4】
+種別: 会話
+見出し: How often は頻度（何回・どのくらいのペース）を聞く
+・once a week / twice a month / every day で答える
+・How long は長さ（for thirty minutes）。頻度とは別
+・Where（場所）や with 〜（だれと）は頻度の答えではない
 
 ---
 
@@ -96,6 +124,13 @@ A : What did you do after school yesterday? B : ( )
 ほかの選択肢：1「I will play soccer.（サッカーをするつもり）」の will は未来、3「I clean my room.（部屋を掃除する）」は現在の習慣、4「I'm cleaning my room.（いま部屋を掃除している）」はいま進行中で、「yesterday」とは合いません。
 ヒント：疑問文に did / yesterday があったら、答えも過去形にそろえましょう。
 
+【ポイント5】
+種別: 文法
+見出し: What did you do 〜? には過去形で答える
+・質問に did / yesterday があれば、答えも過去形（cleaned / went）
+・will は未来、現在形は習慣、be + -ing はいま進行中
+・clean → cleaned。不規則は go → went のようにセットで覚える
+
 ---
 
 問題6:
@@ -115,6 +150,13 @@ A : May I borrow your colored pencils? B : ( )
 「May I borrow 〜?」は「借りてもいい？」という許可のお願いです。貸すときは「Sure.」「Here you are.」が自然です。
 ほかの選択肢：1「They are very heavy.（とても重い）」は重さ、2「I drew a mountain.（山を描いた）」は過去の絵、3「No, I'm twelve.（いいえ、12歳です）」は年齢で、貸す／断る返事になっていません。
 ヒント：「May I 〜?」には Sure. / Of course. / Sorry, ... などの許可の返事を選びましょう。
+
+【ポイント6】
+種別: 会話
+見出し: May I 〜? は許可を求める（〜してもいい？）
+・OKなら Sure. / Of course. / Yes, you may.　渡すときは Here you are.
+・断るなら Sorry, I'm using it. のように理由を添える
+・Can I / Could I 〜? も同じ許可の型
 
 ---
 
@@ -136,6 +178,13 @@ Girl : Excuse me. How do I get to the post office? Boy : ( )
 ほかの選択肢：1「It opens at nine.（9時に開く）」は開く時刻、3「I sent a letter yesterday.（きのう手紙を送った）」は過去の行動、4「It's my favorite place.（いちばん好きな場所）」は好きな場所で、行き方の説明ではありません。
 ヒント：「How do I get to」と見たら、go / turn / across などの道順を探しましょう。
 
+【ポイント7】
+種別: 会話
+見出し: How do I get to 〜? は道順を聞く
+・Go straight / Turn left / Turn right at 〜 で答える
+・It's next to / across from 〜 も位置の答えになる
+・When（何時に開く）や How long（どのくらいかかる）とは別
+
 ---
 
 問題8:
@@ -155,6 +204,13 @@ A : What's wrong? You look tired. B : ( )
 「What's wrong?」と「疲れて見える」に対して、疲れの理由を答えるのが自然です。
 ほかの選択肢：1「The bag is on the floor.（かばんは床のうえ）」は場所、2「Let's open the window.（窓を開けよう）」は提案、3「It's Monday today.（きょうは月曜日）」は曜日で、「疲れて見える」理由の説明になっていません。
 ヒント：「What's wrong?」には、体調や困っている理由を答える文を選びましょう。
+
+【ポイント8】
+種別: 会話
+見出し: What's wrong? には困っている理由・体調を答える
+・I have a headache. / I slept late. のように理由を言う
+・Are you OK? / You look tired. も同じ流れ
+・場所や曜日の説明は「何がおかしいか」の答えではない
 
 ---
 
@@ -176,6 +232,13 @@ Boy : Shall we make a poster for the school festival? Girl : ( )
 ほかの選択肢：1「The festival was last month.（文化祭は先月だった）」は過去の事実、2「Posters are on the wall.（ポスターは壁にある）」は場所の説明、4「I don't have a festival.（文化祭を持っていない）」は不自然な文で、提案への返事になっていません。
 ヒント：「Shall we 〜?」には賛成（Good idea.）か、ていねいな断りを選ぶことが多いです。
 
+【ポイント9】
+種別: 会話
+見出し: Shall we 〜? はいっしょにする提案
+・賛成 → Good idea. / Sure. Let's 〜.　断り → Sorry, I can't.
+・Why don't we 〜? / Let's 〜 も同じ提案の仲間
+・Shall I 〜? は「私が〜しましょうか」の申し出で別物
+
 ---
 
 問題10:
@@ -195,6 +258,13 @@ A : Why don't we walk through the park? B : ( )
 「Why don't we 〜?」は「〜しない？」という提案です。断るときは「No, thanks.」に理由を添えると自然です。
 ほかの選択肢：1「The park has many trees.（公園には木がたくさんある）」は当たり前の説明、2「It's next to the station.（駅のとなり）」は場所、3「We took a bus last week.（先週バスに乗った）」は過去の話で、今回の提案への返事になっていません。
 ヒント：提案への返事は、賛成だけでなく No, thanks. / Sorry, ... で断ることもあります。
+
+【ポイント10】
+種別: 会話
+見出し: Why don't we 〜? は提案（〜しない？）
+・賛成 → Good idea. / Sure.　断り → No, thanks. + 理由
+・Why don't you 〜? は相手へのアドバイスで別物
+・Why 〜?（なぜ）の理由質問と混ぜない。提案は Why don't we
 
 ---
 
@@ -216,6 +286,13 @@ Girl : I can't find my locker key. I was in the gym after lunch. Boy : ( )
 ほかの選択肢：1「Lunch was delicious today.（今日の昼ごはんはおいしかった）」は食事の感想、3「The gym opens at eight.（体育館は8時に開く）」は開く時刻、4「I like basketball a lot.（バスケが大好き）」は好みで、なくした鍵への返事になっていません。
 ヒント：困っている相手には、場所や持ち物をいっしょに探す文（Let's look ...）がよく来ます。
 
+【ポイント11】
+種別: 会話
+見出し: 困っている相手には助ける提案を返す
+・Let's look for 〜. / I'll help you. がよく出る
+・I can't find 〜 / I lost 〜 を聞いたら、探す・手伝う流れ
+・感想や好みの話は、困りごとの返事になっていない
+
 ---
 
 問題12:
@@ -235,6 +312,13 @@ A : We're going to have a picnic by the river tomorrow. Did you check the weathe
 「明日の天気を確かめた？」と聞いているので、天気の予報で答えるのが自然です。
 ほかの選択肢：2「Picnics need a big basket.（ピクニックには大きなカゴがいる）」は持ち物、3「The river is near the school.（川は学校の近く）」は場所、4「We had a picnic last May.（去年の5月にピクニックをした）」は過去の話で、明日の天気の答えではありません。
 ヒント：「weather」と見たら、sunny / rainy / cloudy などの天気語を探しましょう。
+
+【ポイント12】
+種別: 会話
+見出し: 天気を聞かれたら sunny / rainy などで答える
+・It will be sunny. / It's going to rain. のように予報で返す
+・tomorrow の天気は will / be going to。過去形は合わない
+・場所や持ち物は weather の答えではない
 
 ---
 
@@ -256,6 +340,13 @@ Boy : It's time to feed the rabbit. Whose turn is it today? Girl : ( )
 ほかの選択肢：1「After science class.（理科のあと）」はいつ、2「In the science room.（理科室で）」は場所、4「Rabbits eat vegetables.（うさぎは野菜を食べる）」は食べ物で、だれの番か、の答えではありません。
 ヒント：「Whose turn」と見たら、人の名前＋'s turn を探しましょう。
 
+【ポイント13】
+種別: 会話
+見出し: Whose turn is it? は「だれの番？」
+・It's Haru's turn. / It's my turn. で人を答える
+・Whose（だれの）＋ turn（番）。When（いつ）や Where（どこ）とは別
+・It's your turn. = あなたの番です
+
 ---
 
 問題14:
@@ -275,6 +366,13 @@ A : Excuse me. How far is it from here to the station? B : Let me see. A : I hav
 「How far（どのくらいの距離／どのくらいかかる）」と駅までの遠さを聞いているので、時間や距離で答えるのが自然です。
 ほかの選択肢：1「It closes at nine.（9時に閉まる）」は閉まる時刻、2「Turn right at the light.（信号を右へ）」は道順、3「I take the train every day.（毎日電車に乗る）」は行き方の習慣で、遠さの答えではありません。
 ヒント：「How far」には minutes / kilometers など、距離やかかる時間を選びましょう。
+
+【ポイント14】
+種別: 会話
+見出し: How far は距離・かかる時間を聞く
+・It's about two kilometers. / It's twenty minutes on foot.
+・How do I get to 〜? は道順（Turn left）。遠さとは別
+・When（何時に閉まる）は時刻。距離の答えではない
 
 ---
 
@@ -296,6 +394,13 @@ Girl : I got a new bag yesterday. Boy : What color is it? Girl : ( )
 ほかの選択肢：1「I got it near the station.（駅の近くで手に入れた）」は場所、3「I carry books in it.（本を入れる）」は使い方、4「It's on the chair.（いすのうえ）」はいまの位置で、色の答えではありません。
 ヒント：「What color」と見たら、blue / red / green などの色を探しましょう。
 
+【ポイント15】
+種別: 単語
+見出し: What color is it? には色の名前で答える
+・It's blue. / It's red and white. のように色で返す
+・What size（大きさ）・What shape（形）と混ぜない
+・Where（どこで買った／どこにある）は色の答えではない
+
 ---
 
 問題16:
@@ -315,6 +420,13 @@ A : This box of paper is heavy. Can you help me carry it to the office? B : ( )
 「Can you help me carry 〜?」は「運ぶのを手伝って」というお願いです。引き受けるときは「Sure.」に、どう手伝うかを添えると自然です。
 ほかの選択肢：2「The office is on the first floor.（事務所は1階）」は場所、3「Paper is usually white.（紙はたいてい白い）」は紙の説明、4「I made a card yesterday.（きのうカードを作った）」は過去の行動で、手伝いの返事になっていません。
 ヒント：「Can you help me 〜?」には Sure. / Of course. / Sorry, ... などの返事を選びましょう。
+
+【ポイント16】
+種別: 会話
+見出し: Can you help me 〜? は手伝いのお願い
+・受ける → Sure. / Of course. + I'll 〜.　断り → Sorry, I'm busy.
+・Could you help me 〜? も同じお願い（Could のほうがていねい）
+・場所や物の説明は、手伝う返事になっていない
 
 ---
 
@@ -336,6 +448,13 @@ Girl : I want to buy a dictionary after club. When does the bookstore close toda
 ほかの選択肢：1「It's next to the bakery.（パン屋のとなり）」は場所、2「Dictionaries are on the third shelf.（辞書は3段目）」は店内の位置、4「I like that store a lot.（あの店が大好き）」は好みで、閉まる時刻の答えではありません。
 ヒント：「When does 〜 close / open?」と見たら、at + 時刻を探しましょう。
 
+【ポイント17】
+種別: 会話
+見出し: When does 〜 open / close? は開閉の時刻を聞く
+・It opens / closes at seven. のように at + 時刻で答える
+・Where（どこ）は場所。When（いつ）は時刻・時期
+・How long（どのくらいのあいだ）とは別の疑問詞
+
 ---
 
 問題18:
@@ -355,6 +474,13 @@ A : Oh no. I left my PE shoes at home. B : That's too bad. What are you going to
 相手は体育のくつを忘れて困っています。「どうするの？」のあとに、助ける提案をするのが自然です。
 ほかの選択肢：1「PE starts at two thirty.（体育は2時半に始まる）」は時刻、2「The gym is downstairs.（体育館は下の階）」は場所、3「I wear sneakers every morning.（毎朝スニーカーを履く）」は自分の習慣で、忘れたくつへの助けになっていません。
 ヒント：困っている相手には、貸す／分けてあげる、などの助けの文を選びましょう。
+
+【ポイント18】
+種別: 会話
+見出し: 困っている相手には貸す・手伝う文で助ける
+・Don't worry. You can borrow mine. / I'll lend you 〜.
+・I left 〜 / I forgot 〜 を聞いたら、助ける流れを探す
+・時刻や場所の説明だけでは助けになっていない
 
 ---
 
@@ -376,6 +502,13 @@ A : The elevator is full now. Let's take the stairs. B : ( )
 ほかの選択肢：1「There are stairs in this building.（この建物には階段がある）」は当たり前の説明、3「I took a taxi yesterday.（きのうタクシーに乗った）」は過去の移動、4「The fifth floor is high.（5階は高い）」は高さの話だけで、今回の提案への返事になっていません。
 ヒント：「Let's 〜」には OK. / Good idea. か、ていねいな断りを選ぶことが多いです。
 
+【ポイント19】
+種別: 会話
+見出し: Let's 〜 はいっしょにする提案
+・賛成 → OK. / Good idea. + 理由　断り → Sorry, I can't.
+・Shall we 〜? / Why don't we 〜? も同じ提案の仲間
+・当たり前の説明や過去の話は、いまの提案への返事ではない
+
 ---
 
 問題20:
@@ -395,3 +528,12 @@ A : Why is Emi wearing a hat in the classroom? B : ( )
 「Why is Emi wearing a hat（なぜエミは帽子をかぶっているの）」と理由を聞いているので、because で答えるのが自然です。
 ほかの選択肢：2「The hat is pink and cute.（帽子はピンクでかわいい）」は見た目、3「She bought it last Sunday.（先週の日曜日に買った）」は買った日、4「Hats are cheap at that shop.（あの店の帽子は安い）」は値段で、「なぜ教室でかぶっているか」の理由ではありません。
 ヒント：「Why is 〜?」と見たら、because で始まる理由の文を探しましょう。
+
+【ポイント20】
+種別: 会話
+見出し: Why と聞かれたら Because で理由を返す
+・Because + 主語 + 動詞（Because she washed her hair.）
+・見た目・値段・いつ買ったかは理由の答えではない
+・Why don't we 〜?（提案）と Why 〜?（理由）を混ぜない
+
+---

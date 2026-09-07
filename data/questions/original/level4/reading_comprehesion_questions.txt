@@ -29,6 +29,14 @@ What will students plant at Herb Pot Morning?
 1「Only mint.（ミントだけ）」はミントだけになってしまうので違います。4「Old clothes.（古い服）」は着るもの、3「Apple trees.（りんごの木）」はこの案内にはありません。
 ヒント：plant（植える）のあとに、作るもの・植えるものが続きます。wear（着る）と mix しないようにしましょう。
 
+【ポイント1a】
+種別: 読解
+見出し: plant のあとは植えるもの、wear は着るもの
+・plant basil and mint = 植えるもの
+・wear old clothes = 服装
+・タオルなど持参物と植えるものを混ぜない
+
+
 問題1b:
 When should students talk to Mr. Nomiya to join?
 
@@ -46,6 +54,13 @@ When should students talk to Mr. Nomiya to join?
 参加したい人は「talk to Mr. Nomiya by May 12」と書いてあります。by は「その日まで」という意味です。
 1「On May 16 only.（5月16日だけ）」はイベント当日です。4「Every Saturday in May.（5月の毎週土曜）」という指定はありません。2「After Herb Pot Morning.（Herb Pot Morning のあと）」では申し込みに間に合いません。
 ヒント：申し込みの期限は by / before のあとの日付です。When: の行はイベント当日です。
+
+【ポイント1b】
+種別: 読解
+見出し: by の日付は申し込み期限、When: はイベント当日
+・talk to 〜 by May 12 が参加の締め切り
+・When: の行はイベントの日・時間
+・After the event は申し込みの答えにならない
 
 ---
 
@@ -91,6 +106,14 @@ What will Mei's class sell at the festival?
 2「Red name cards.（赤い名札）」は机の印、3「Folding tables.（折りたたみテーブル）」は借りる道具です。売るものではありません。4「Apple juice.（りんごジュース）」の記述はありません。
 ヒント：sell（売る）の直後が、模擬店の商品です。borrow（借りる）の目的語と混ぜないようにしましょう。
 
+【ポイント2a】
+種別: 読解
+見出し: sell の直後が売るもの、borrow は借りる道具
+・sell baked potatoes = 模擬店の商品
+・borrow a folding table = 借りる道具
+・名札は机の印で売るものではない
+
+
 問題2b:
 When will Mei bring the table back to Sho?
 
@@ -109,6 +132,14 @@ When will Mei bring the table back to Sho?
 1「On Friday after school.（金曜の放課後）」は受け取る時です。2「At 4:00 p.m. on Sunday.（日曜の午後4時）」は、金曜の午後4時と日曜を混ぜたひっかけです。3「On Sunday night.（日曜の夜）」はメイが家へ持って帰る時で、返す日ではありません。
 ヒント：pick it up（受け取る）と bring it back（返す）の日付を並べて読むとまちがいません。
 
+【ポイント2b】
+種別: 読解
+見出し: pick it up と bring it back の日付を分ける
+・受け取る日と返す日は別
+・Sunday night は家へ持って帰る時
+・時刻と曜日を混ぜた選択肢に注意
+
+
 問題2c:
 What can Sho's brother do if Sho cannot come on Friday?
 
@@ -126,6 +157,13 @@ What can Sho's brother do if Sho cannot come on Friday?
 「If you cannot come on Friday, your brother can leave it by the art room window.」とあります。
 兄ができるのは、美術室の窓のそばにテーブルを置くことです。1「Sell potatoes at the festival.（祭りでじゃがいもを売る）」も、4「Make a red name card at school.（学校で赤い名札を作る）」も兄の仕事ではありません。3「Take the table to Mei's house.（テーブルをメイの家へ持っていく）」も出ていません。
 ヒント：If you cannot ... の文は、予定がだめなときの別のやり方です。
+
+【ポイント2c】
+種別: 読解
+見出し: If you cannot ... は別のやり方
+・条件のときの行動だけが正解
+・兄の仕事とメイの仕事を分けて読む
+・祭りで売ることなど別の文と混ぜない
 
 ---
 
@@ -162,6 +200,14 @@ What did Yui have to draw for science class?
 1「Gray clouds.（灰色の雲）」は見えなかった理由、4「The school library.（学校の図書館）」はあとから行った場所です。2「Her older brother.（兄）」を描く課題ではありません。
 ヒント：物語の最初の文に、やらなければいけない宿題が書いてあることが多いです。
 
+【ポイント3a】
+種別: 読解
+見出し: 物語の最初の文に宿題・やることがある
+・had to draw 〜 for science class
+・あとの場所や人は課題そのものではない
+・見えなかったもの（clouds）と課題を混ぜない
+
+
 問題3b:
 Why could Yui not see the moon?
 
@@ -179,6 +225,14 @@ Why could Yui not see the moon?
 「the sky was full of gray clouds」「she could not see the moon」と続いています。
 3「Because her clock did not work.（時計が動かなかったから）」ではありません。時計は五時にセットできています。2「Because the library was closed.（図書館が閉まっていたから）」も違います。図書館はあとで開いていて、本も見つかります。4「Because Ms. Kibe took the book.（キベ先生が本を持っていったから）」も出ていません。
 ヒント：but の前（空が曇っていた）が、見えなかった理由です。
+
+【ポイント3b】
+種別: 読解
+見出し: but の前に見えなかった理由がある
+・sky was full of gray clouds → could not see
+・時計や図書館は別の話
+・Because の答えは原因の文
+
 
 問題3c:
 Where did Yui and Kaito find the moon book?
@@ -198,6 +252,14 @@ Where did Yui and Kaito find the moon book?
 1「On Yui's desk at home.（家のユイの机の上）」はユイが泣きそうになった場所、2「In the science classroom.（理科の教室）」は提出する場所です。3「Under a shop roof.（店のひさしの下）」はこの物語にはありません。
 ヒント：同じ window でも、家の窓と図書館の窓は別です。前後の文で場所を確かめましょう。
 
+【ポイント3c】
+種別: 読解
+見出し: 同じ window でも家と図書館は別
+・found the book near the window は図書館のあと
+・家の窓を開けた話と混ぜない
+・前後の文で場所を確かめる
+
+
 問題3d:
 What did Yui write under the picture?
 
@@ -214,6 +276,14 @@ What did Yui write under the picture?
 正解は「I could not see the moon, so I used a book.」です。
 本文に、絵の下にそう書いたとあります。3「Kaito drew this picture for me.（カイトがこの絵を描いてくれた）」ではありません。1「The library is closed today.（今日図書館は閉まっている）」も違います。4「Please look at the gray clouds.（灰色の雲を見てください）」も書いていません。
 ヒント：引用符 " " の中は、登場人物が書いた・言った言葉そのものです。
+
+【ポイント3d】
+種別: 読解
+見出し: " " の中は書いた・言った言葉そのもの
+・Under the picture she wrote, "..."
+・兄や先生の言葉と取り違えない
+・引用符の中をそのまま取る
+
 
 問題3e:
 Why did Ms. Kibe smile?
@@ -232,6 +302,13 @@ Why did Ms. Kibe smile?
 先生は「You did not stop. That is good science.」と言ってほほえみました。途中であきらめなかったことがほめられています。
 1「Because Yui saw the moon at five o'clock.（ユイが五時に月を見たから）」ではありません。五時に月は見えていません。2「Because Kaito did the homework for Yui.（カイトがユイの代わりに宿題をしたから）」も違います。兄は本の場所を教えただけです。4「Because the picture was from a TV show.（絵がテレビ番組のものだったから）」も出ていません。
 ヒント：先生の発言の直後に、なぜほめたかが書いてあることが多いです。
+
+【ポイント3e】
+種別: 読解
+見出し: ほめた直後の文が理由
+・先生の発言のすぐあとに、なぜほめたかが来る
+・できなかったこと（見えなかった等）とほめ言葉を混ぜない
+・引用符の中身をそのまま拾う
 
 ---
 
@@ -266,6 +343,14 @@ Where の行に「By the science room door」とあります。
 1「In the school garden.（学校の庭）」ではありません。花の種は庭から持ってきてもよい、という話であって、テーブルの場所が庭だとは書いてありません。2「In the library.（図書館）」も、3「In the gym.（体育館）」も出てきません。
 ヒント：場所は Where: の行を先に見ると早いです。本文の garden は種の出所です。
 
+【ポイント4a】
+種別: 読解
+見出し: 場所は Where: の行、本文の garden は種の出所
+・Where: By the science room door
+・garden は種を持ってくる場所
+・質問先（Ms. Hara）とテーブルの場所は別
+
+
 問題4b:
 What should students write on a small card?
 
@@ -283,6 +368,13 @@ What should students write on a small card?
 「Write your name on a small card.」とあります。
 2「Ms. Hara's phone number.（原田先生の電話番号）」ではありません。原田先生は質問があるときの相手です。3「The time of science class.（理科の授業の時刻）」も、4「The color of the flowers.（花の色）」もカードに書く指示はありません。
 ヒント：Write のあとに、カードへ書く内容が続きます。
+
+【ポイント4b】
+種別: 読解
+見出し: Write のあとにカードへ書く内容
+・Write your name on a small card
+・先生の連絡先や授業の時刻と混ぜない
+・質問があるときの相手はカードの内容ではない
 
 ---
 
@@ -326,6 +418,14 @@ What will Riku's class make next week?
 1「A bird cage.（鳥かご）」は来月お手伝いするときの話、3「Pink cookies.（ピンクのクッキー）」はリクが持っていくおやつです。4「A garden map.（庭の地図）」の記述はありません。
 ヒント：class will make のあとが、クラスの作業です。I can の手伝いは別の段落です。
 
+【ポイント5a】
+種別: 読解
+見出し: class will make はクラスの作業、I can は別段落の手伝い
+・make postcards next week
+・鳥かご洗いやクッキーは別の話
+・段落を分けて話題を取る
+
+
 問題5b:
 Which stamps does Riku want Grandma Fumi to send?
 
@@ -344,6 +444,14 @@ Which stamps does Riku want Grandma Fumi to send?
 1「Only the yellow stamps.（黄色い切手だけ）」ではありません。黄色い切手はもう持っています。2「Stamps with birds on them.（鳥の切手）」も、4「Stamps from the station shop.（駅の店の切手）」も書かれていません。
 ヒント：still have（まだ持っている）と more（もっとほしい）を対で読むと、色をまちがえません。
 
+【ポイント5b】
+種別: 読解
+見出し: still have と more を対で読む
+・黄色はまだある → ピンクをもっとほしい
+・鳥や駅の店の切手と混ぜない
+・色の対比に注目
+
+
 問題5c:
 When will Riku visit if it rains on Saturday?
 
@@ -361,6 +469,13 @@ When will Riku visit if it rains on Saturday?
 「If it rains on Saturday, I will come on Sunday morning.」とあります。
 2「On Friday with Dad.（金曜にお父さんと）」ではありません。金曜はお父さんが切手を受け取りに行く日です。3「Yesterday afternoon.（昨日の午後）」は切手が届いた日、4「Next week before class.（来週の授業の前）」はこの条件の答えではありません。
 ヒント：If it rains の文は、雨のときの予定変更です。ほかの日付と役割を分けましょう。
+
+【ポイント5c】
+種別: 読解
+見出し: If it rains は雨のときの予定変更
+・come on Sunday morning
+・金曜のお父さん・昨日の到着と混ぜない
+・条件つきの日付だけが正解
 
 ---
 
@@ -395,6 +510,14 @@ When was Kota walking home?
 1「Before he bought bread.（パンを買う前）」ではありません。2「On Sunday morning.（日曜の朝）」も、3「After science class.（理科の授業のあと）」もこの物語に出てこない時間です。
 ヒント：物語の書き出しに、いつ・どこで・何のあとかがまとまっていることが多いです。
 
+【ポイント6a】
+種別: 読解
+見出し: 書き出しにいつ・何のあとかがまとまる
+・after buying bread at the bakery
+・買う前や別の曜日と混ぜない
+・物語の最初の文を先に読む
+
+
 問題6b:
 What did Kota give the first-grader?
 
@@ -412,6 +535,14 @@ What did Kota give the first-grader?
 「He gave her his umbrella」とあります。新しい青い傘は父からもらったものです。
 1「A cup of hot milk.（ホットミルク一杯）」と 3「His wet shoes.（ぬれた靴）」は家での話、4「A small cookie.（小さいクッキー）」は次の朝に女の子が持ってくるものです。
 ヒント：gave her / gave him の目的語と、あとから別の人が渡すものを区別しましょう。
+
+【ポイント6b】
+種別: 読解
+見出し: gave her の目的語と、あとで渡すものを分ける
+・He gave her his umbrella
+・ミルク・靴は家、クッキーは翌朝の話
+・誰が誰に何を渡したかを文単位で確認
+
 
 問題6c:
 What did Kota's mother say about his action?
@@ -431,6 +562,14 @@ What did Kota's mother say about his action?
 2「He should buy a new umbrella.（新しい傘を買うべきだ）」も、3「He must not walk home in the rain.（雨の中を歩いて帰るな）」も、4「The first-grader was angry.（一年生が怒っていた）」も記述はありません。
 ヒント：looked surprised（驚いた顔）でも、次の文で怒っていないことが分かります。発言の中身を読みましょう。
 
+【ポイント6c】
+種別: 読解
+見出し: 驚いたあとの発言の中身が答え
+・That was kind.
+・怒っている／禁止している選択肢を疑う
+・" " の中を取る
+
+
 問題6d:
 What did the girl bring to school the next morning?
 
@@ -449,6 +588,14 @@ What did the girl bring to school the next morning?
 1「Hot milk and a dry shirt.（ホットミルクと乾いたシャツ）」はお母さんがコタに出した夜の話です。2「Kota's bakery bag.（コタのパン屋の袋）」も、4「Flower stamps in an envelope.（封筒の花の切手）」も出ていません。
 ヒント：the next morning の段落に、翌日の出来事がまとまっています。
 
+【ポイント6d】
+種別: 読解
+見出し: the next morning の段落に翌日の出来事
+・段落の先頭の時（the next morning）を目印にする
+・前の夜のできごと（ミルク・服など）と混ぜない
+・came with 〜 のあとが持ってきたもの
+
+
 問題6e:
 What did Kota do with the cookie?
 
@@ -466,6 +613,13 @@ What did Kota do with the cookie?
 最後の文に「He gave the cookie to his mother after school.」とあります。
 1「He ate it at the station.（駅で食べた）」も、3「He put it in his wet shoes.（ぬれた靴に入れた）」も、2「He gave it to the first-grader again.（一年生にまたあげた）」もしていません。
 ヒント：物語の最後の文に、その人の気持ちや次の行動が書いてあることが多いです。
+
+【ポイント6e】
+種別: 読解
+見出し: 最後の文に次の行動がある
+・gave the cookie to his mother after school
+・駅で食べたなどの創作選択肢に注意
+・物語の結末を読む
 
 ---
 
@@ -499,6 +653,14 @@ Where の行に「Music room, on the piano」とあります。箱は音楽室�
 1「At home, after you take the scarf.（スカーフを持って帰ったあとの家）」は、自分のスカーフだったときの行き先です。3「In Ms. Aoki's bag until April 17.（4月17日まで青木先生のかばんの中）」ではありません。青木先生は声をかける相手で、期限は申し込みの日付です。4「In the music room only on April 18.（音楽室で4月18日だけ）」は、見られる最終日と場所を混ぜています。
 ヒント：場所は Where: の行です。When: の日付や先生の名前と mix しないようにしましょう。
 
+【ポイント7a】
+種別: 読解
+見出し: 場所は Where:、When: と先生名は別
+・Music room, on the piano
+・持って帰る先（家）と箱の場所を混ぜない
+・期限の日付と場所を mix しない
+
+
 問題7b:
 When should students talk to Ms. Aoki if they lost a scarf?
 
@@ -516,6 +678,13 @@ When should students talk to Ms. Aoki if they lost a scarf?
 「Talk to Ms. Aoki by April 17 if you lost a scarf.」とあります。by は「その日まで」という意味です。
 1「On April 18 only.（4月18日だけ）」は箱を見られる最終日です。2「Last Tuesday only.（先週の火曜日だけ）」は赤いスカーフが見つかった日です。4「From April 14 with no end.（4月14日から終わりなし）」ではありません。When: の行は箱を見られる期間です。
 ヒント：申し込みや相談の期限は by のあとの日付です。When: の行はイベントや公開の期間です。
+
+【ポイント7b】
+種別: 読解
+見出し: by は相談期限、When: は箱を見られる期間
+・Talk to Ms. Aoki by April 17
+・April 18 は見られる最終日
+・見つかった日（Last Tuesday）と混ぜない
 
 ---
 
@@ -559,6 +728,14 @@ What does Sora want Haru to do?
 2「Visit Sora's cousin on Saturday morning.（土曜の朝にソラのいとこを訪ねる）」はソラの都合です。3「Sweep the hallway on Tuesday.（火曜に廊下をそうじする）」は、あとでソラがハルの当番をする話です。4「Wait at the school gate at 9:50.（9時50分に校門で待つ）」はしないでほしいことです。
 ヒント：Can you の直後が、相手にお願いしていることです。I will do your の文は、お返しの仕事です。
 
+【ポイント8a】
+種別: 読解
+見出し: Can you がお願い、I will do your はお返し
+・take my duty = 代わるお願い
+・火曜のそうじはソラのお返し
+・Do not wait はしないでほしいこと
+
+
 問題8b:
 Where should Haru meet Ms. Kato?
 
@@ -577,6 +754,14 @@ Where should Haru meet Ms. Kato?
 2「At the school gate.（校門で）」は待たないでほしい場所です。1「At Sora's house at 10:00 a.m.（午前10時にソラの家で）」は当番の開始時刻といとこの訪問を混ぜています。3「At the cart by the window after lunch.（昼のあと、窓のそばのカートで）」は本を置く場所と、ソラが残りの仕事をする時間です。
 ヒント：meet の文と Do not wait の文を対で読むと、待ち合わせ場所をまちがえません。
 
+【ポイント8b】
+種別: 読解
+見出し: meet と Do not wait を対で読む
+・meet Ms. Kato in the library at 9:50
+・校門は待たない場所
+・カートや昼あとは別の話
+
+
 問題8c:
 What should Haru do if he cannot come?
 
@@ -594,6 +779,13 @@ What should Haru do if he cannot come?
 「If you cannot come, please tell Kenta tonight.」とあります。ケンタが10時から11時まで入り、ソラが昼のあとに残ります。
 1「Finish the duty after lunch by himself.（自分だけで昼のあとに当番を終える）」はソラの予定です。3「Wait at the school gate on Sunday.（日曜に校門で待つ）」は出ていません。4「Sweep the hallway on Friday night.（金曜の夜に廊下をそうじする）」は、火曜のそうじと金曜のメッセージを混ぜたひっかけです。
 ヒント：If you cannot の文は、来られないときの別のやり方です。お返しのそうじの文と分けて読みましょう。
+
+【ポイント8c】
+種別: 読解
+見出し: If you cannot は来られないときの別のやり方
+・tell Kenta tonight
+・ソラが昼あとで残す話と混ぜない
+・お返しのそうじの文と分ける
 
 ---
 
@@ -633,6 +825,14 @@ What did Ren have to do for sports day?
 1「Hang shirts on a line.（シャツを干して並べる）」はハナがしていたことです。4「Clap slowly in the courtyard.（中庭でゆっくり手拍子する）」はハナの助け方です。2「Buy a prize for his teacher.（先生に賞品を買う）」は出ていません。レンは賞品をもらっていません。
 ヒント：物語の最初の文に、やらなければいけないことが書いてあることが多いです。
 
+【ポイント9a】
+種別: 読解
+見出し: 最初の文にやらなければいけないこと
+・skip rope thirty times without stopping
+・ハナの行動（干す・手拍子）と課題を混ぜない
+・had to のあとを取る
+
+
 問題9b:
 Why did Ren stop after ten jumps in the hallway?
 
@@ -650,6 +850,14 @@ Why did Ren stop after ten jumps in the hallway?
 「He tried in the hallway, but his long rope hit his feet, so he stopped after ten jumps.」とあります。so の前が、止まった理由です。
 3「Because the ground was a little wet.（地面が少しぬれていたから）」は運動会当日の話です。2「Because Hana took the rope away.（ハナが縄を持っていったから）」ではありません。ハナはあとからテープで短くしてくれます。4「Because he already won a prize.（もう賞品をもらっていたから）」も違います。
 ヒント：but と so の近くに、うまくいかなかった理由があります。別の段落の天気と混ぜないようにしましょう。
+
+【ポイント9b】
+種別: 読解
+見出し: but と so の近くにうまくいかなかった理由
+・long rope hit his feet, so he stopped
+・運動会当日のぬれた地面と混ぜない
+・原因と結果をセットで読む
+
 
 問題9c:
 What did Hana do to Ren's rope?
@@ -669,6 +877,14 @@ What did Hana do to Ren's rope?
 1「She hung it on the shirt line.（シャツの干し綱にかけた）」ではありません。干していたのはシャツです。2「She put it in the hallway.（廊下に置いた）」も、3「She gave it to the teacher.（先生にあげた）」もしていません。手拍子はジャンプの速さを助けるためで、縄そのものへの作業ではありません。
 ヒント：make it shorter の次の文に、縄へしたことが書いてあります。
 
+【ポイント9c】
+種別: 読解
+見出し: make it shorter の次の文に実際の作業
+・言ったあとの文に、道具へしたことが書いてある
+・まわりの人がしていた別の作業と混ぜない
+・手拍子など助ける動作と、物そのものへの作業を分ける
+
+
 問題9d:
 What happened on sports day?
 
@@ -687,6 +903,14 @@ What happened on sports day?
 1「Ren stopped after ten jumps again.（また10回で止まった）」は最初の廊下の話です。3「Hana ran in the race for Ren.（ハナがレンの代わりに走った）」も、4「The teacher was angry about the tape.（先生がテープに怒った）」もありません。先生はほほえんでいます。賞品はもらっていません。
 ヒント：On Friday, sports day came. の段落に、本番の結果がまとまっています。
 
+【ポイント9d】
+種別: 読解
+見出し: sports day の段落に本番の結果
+・finished thirty times
+・廊下で10回で止まった話と混ぜない
+・段落の時（On Friday）を目印にする
+
+
 問題9e:
 What did Ren do after school?
 
@@ -704,3 +928,10 @@ What did Ren do after school?
 最後の段落に「After school, Ren took small cookies to Hana.」とあります。テープが助かった、と伝えています。
 1「He practiced in the hallway again.（また廊下で練習した）」も、2「He asked his mother for a prize.（母に賞品をもとめた）」もしていません。4「He gave the tape back to the teacher.（テープを先生に返した）」も違います。ハナはテープを縄につけたままにしておくように言いました。
 ヒント：After school の段落に、お礼の行動が書いてあります。
+
+【ポイント9e】
+種別: 読解
+見出し: After school の段落にお礼の行動
+・took small cookies to Hana
+・廊下の練習や賞品の話と混ぜない
+・お礼・感謝の場面を最後に探す

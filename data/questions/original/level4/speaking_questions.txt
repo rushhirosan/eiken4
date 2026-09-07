@@ -31,6 +31,13 @@ Hana is 10 years old. She rides to the park every Saturday. She takes a small lu
 ■ 表現のメモ
 イラストは進行形（is -ing）で答えると自然です。No.4 は自分の答えでOKです。
 
+【ポイント1】
+種別: 会話
+見出し: 内容は本文、イラストは is -ing、最後は自分のこと
+・When / Who など内容問題は本文から取る
+・イラストは見える動作を進行形で（She is eating 〜.）
+・自分のことの質問は Yes / No や自分の習慣でOK
+
 ---
 
 問題2:
@@ -65,6 +72,13 @@ Kenta usually eats lunch in the school cafeteria. Today his mother made rice bal
 
 ■ 表現のメモ
 No.2 は today の情報です。usually の文と混ぜないようにしましょう。
+
+【ポイント2】
+種別: 会話
+見出し: usually と today を分ける
+・usually の文はいつもの場所・習慣
+・today の文は今日だけの情報
+・イラストは絵に見えることを is -ing で
 
 ---
 
@@ -101,6 +115,13 @@ Sora goes to the city library after school on Thursdays. She reads comics and st
 ■ 表現のメモ
 No.1 は曜日、No.2 は行動です。イラストは本文と同じ漫画でなくても、絵に見えることを言います。
 
+【ポイント3】
+種別: 会話
+見出し: When（曜日）と What（行動）を取り違えない
+・曜日・時間は When、していることは What
+・イラストは本文と同じでなくても絵に見えること
+・Where do you like は自分の場所で答える
+
 ---
 
 問題4:
@@ -135,6 +156,13 @@ It was rainy this morning. Leo took an umbrella and wore boots. He waited for th
 
 ■ 表現のメモ
 No.1 は天気、No.2 はだれと、です。boots は持ち物で、一緒に待った人ではありません。
+
+【ポイント4】
+種別: 会話
+見出し: How was the weather / Who は本文、持ち物は別
+・天気やだれと、は本文の過去形から取る
+・umbrella / boots など持ち物と、いっしょにいた人を混ぜない
+・イラストは見える動作を is -ing で答える
 
 ---
 
@@ -171,6 +199,13 @@ Miki joined the poster club this year. The club meets in Room 5 after school. Me
 ■ 表現のメモ
 No.4 は自分の希望なので、本文の poster club と同じでなくても大丈夫です。
 
+【ポイント5】
+種別: 会話
+見出し: which club と where を分け、希望は自分の言葉で
+・クラブ名と集まる場所は本文の別の情報
+・イラストは絵の動作を is -ing で
+・自分の希望は本文と同じクラブでなくてよい
+
 ---
 
 問題6:
@@ -205,6 +240,13 @@ Nao waters plants on the school rooftop every Friday. She grows tomatoes with he
 
 ■ 表現のメモ
 No.1 は本文1文目の every Friday が答えです。No.2 は grows tomatoes を見ます。bees はいつ水をやるかの答えではありません。イラストは進行形（is -ing）で答えると自然です。
+
+【ポイント6】
+種別: 会話
+見出し: When（頻度）と What（育てるもの）を分ける
+・every Friday など頻度の語が When の答え
+・grows / plant のあとが What の答え
+・まわりの生き物や場所は、聞かれている語と違うことがある
 
 ---
 
@@ -241,6 +283,13 @@ Yuto counts the milk bottles every morning. He writes the number on a paper near
 ■ 表現のメモ
 No.1 は何を数えるか、No.2 はどこに書くか、です。先生が紙を見るのは after school なので、書く場所の答えではありません。イラストは進行形（is -ing）で答えると自然です。
 
+【ポイント7】
+種別: 会話
+見出し: What（数えるもの）と Where（書く場所）を分ける
+・counts / writes の目的語と場所を取り違えない
+・あとで先生が確認する時刻は、書く場所の答えではない
+・イラストは見える物・動作を is -ing で
+
 ---
 
 問題8:
@@ -275,6 +324,13 @@ Every morning, Kumi listens to the school radio in her classroom. She hears the 
 
 ■ 表現のメモ
 No.1 は when（いつ）、No.2 は what（何を聞くか）です。ノートを開くのはそのあとなので、聞く内容の答えではありません。No.4 は Yes / No で短く答えてOKです。
+
+【ポイント8】
+種別: 会話
+見出し: When と What、Then のあとの行動は別
+・Every morning など時の語が When
+・hears / listens to のあとが What（聞く内容）
+・Then のあとの行動は、聞く内容の答えではない
 
 ---
 
@@ -311,6 +367,13 @@ Ren joined the origami club last month. The club meets in the art room on Tuesda
 ■ 表現のメモ
 No.1 はどのクラブ、No.2 はいつ（on Tuesdays）です。in the art room は場所なので、When の答えではありません。No.4 は本文と同じ折り紙でなくても大丈夫です。
 
+【ポイント9】
+種別: 会話
+見出し: which club と When、場所は When ではない
+・joined のクラブ名が which club
+・on Tuesdays が When。in the art room は Where
+・自分のことの質問は本文と同じ題材でなくてよい
+
 ---
 
 問題10:
@@ -345,5 +408,12 @@ Mei takes a ferry to her grandmother's town in summer. She stands on the deck an
 
 ■ 表現のメモ
 No.1 は行き先、No.2 は How long（どのくらいの時間）です。summer は季節なので、時間の答えではありません。イラストのお父さんは本文になくても、絵に見えることを言います。
+
+【ポイント10】
+種別: 会話
+見出し: Where（行き先）と How long（かかる時間）を分ける
+・goes to / takes a ferry to のあとが行き先
+・takes thirty minutes / How long は長さ
+・summer など季節は、時間の長さの答えではない
 
 ---

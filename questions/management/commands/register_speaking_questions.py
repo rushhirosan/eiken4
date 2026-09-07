@@ -5,6 +5,7 @@ from django.core.management.base import BaseCommand
 from exams.models import Question
 from questions.level_paths import add_default_register_arguments
 from questions.register_source import resolve_register_io
+from questions.study_points import extract_study_points
 
 _KIND_RE = re.compile(
     r'^(\d+)\.\s*(?:\[(passage|illustration|personal)\]\s*)?(.+)$'
@@ -53,7 +54,7 @@ def _parse_speaking_block(block: str, qn: int, level: str):
         re.DOTALL,
     )
     explanation_m = re.search(
-        r'【参考解答】\s*(.*)\Z',
+        r'【参考解答】\s*(.*?)(?=\n*【ポイント|\Z)',
         block,
         re.DOTALL,
     )
@@ -64,6 +65,7 @@ def _parse_speaking_block(block: str, qn: int, level: str):
     passage = passage_m.group(1).strip()
     illustration = illustration_m.group(1).strip() if illustration_m else ''
     explanation = explanation_m.group(1).strip() if explanation_m else ''
+    study_points = extract_study_points(block)
 
     prompts = []
     for line in questions_m.group(1).splitlines():
@@ -106,7 +108,7 @@ def _parse_speaking_block(block: str, qn: int, level: str):
     question_text = f'{title}\n\n{passage}'
     if illustration:
         question_text += f'\n\n[Illustration]\n{illustration}'
-    return question_text, explanation, speaking_data
+    return question_text, explanation, speaking_data, study_points
 
 
 class Command(BaseCommand):
@@ -153,7 +155,7 @@ class Command(BaseCommand):
                     self.style.WARNING(f'問題{qn}: 解析できませんでした')
                 )
                 continue
-            question_text, explanation, speaking_data = parsed
+            question_text, explanation, speaking_data, study_points = parsed
             Question.objects.create(
                 provenance=provenance,
                 question_text=question_text,
@@ -162,6 +164,7 @@ class Command(BaseCommand):
                 question_number=qn,
                 explanation=explanation,
                 speaking_data=speaking_data,
+                study_points=study_points,
             )
             registered += 1
             self.stdout.write(self.style.SUCCESS(f'問題{qn}を登録しました'))

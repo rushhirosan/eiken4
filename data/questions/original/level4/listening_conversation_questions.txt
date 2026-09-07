@@ -26,7 +26,14 @@ Question: Where will they go after lunch?（2人はお昼のあとどこへ行�
 男の子が「bookstore（本屋）」へ行こうと言っているので、1「To the bookstore.（本屋へ）」が正解です。
 「She likes animals.（動物が好き）」はプレゼント選びの理由で、2「To a zoo.（動物園へ）」とは言っていません。3「To a bakery.（パン屋へ）」も4「To the gym.（体育館へ）」も出ていません。「at one（1時）」は集合時刻です。
 
+【ポイント1】
+種別: リスニング
+見出し: Where will they go? は本命の行き先を拾う
+・Let's go to 〜 / go to the 〜 の場所
+・好きなもの・理由や集合時刻は行き先ではない
+
 ---
+
 
 No.2:
 W: Mom, can I watch a movie tonight?
@@ -56,7 +63,14 @@ Question: What should the girl do first?（女の子はまず何をしなけれ�
 お父さんが「finish your homework first（まず宿題を終わらせて）」と言っているので、4「Finish her homework.（宿題を終わらせる）」が正解です。
 1「Watch a movie.（映画を見る）」は宿題のあとの話です。「at eight（8時）」は開始時刻で、2「Call her friend.（友だちと電話する）」も3「Eat dinner.（夕ごはんを食べる）」も出ていません。
 
+【ポイント2】
+種別: リスニング
+見出し: What should 〜 do first? は first / before の行動
+・finish 〜 first / before 〜 のあとで映画など
+・あとの予定や開始時刻を「まずやること」にしない
+
 ---
+
 
 No.3:
 M: Why do you have a flashlight?
@@ -86,7 +100,14 @@ Question: Why does the girl have a flashlight?（女の子はなぜ懐中電灯�
 女の子が「the path ... is dark（道が暗い）」と言っているので、2「Because the path is dark.（道が暗いから）」が正解です。
 1「Because it is raining.（雨が降っているから）」は出ていません。3「Because she is cold at home.（家で寒いから）」も4「Because she has a science class.（理科の授業があるから）」も会話にありません。男の子が自分のも持っていく、は別の話です。
 
+【ポイント3】
+種別: リスニング
+見出し: Why 〜? は Because + 本人が言った理由
+・Because + 主語 + 動詞（道が暗い・必要だから など）
+・もう一人が持っていく話や時刻は、持っている理由ではない
+
 ---
+
 
 No.4:
 W: Is the science museum open on Mondays?
@@ -116,7 +137,14 @@ Question: When will they go to the museum?（2人はいつ博物館へ行きま�
 女の子が「on Tuesday（火曜日に）」と言っているので、2「On Tuesday.（火曜日）」が正解です。
 1「On Monday.（月曜日）」は閉まっている日で、行く日ではありません。3「On Sunday.（日曜日）」も4「On Friday.（金曜日）」も出ていません。「at ten（10時）」は開館時刻です。
 
+【ポイント4】
+種別: リスニング
+見出し: When will they go? は決めた行く日を拾う
+・We'll go on 〜 / Let's go on 〜
+・閉まっている曜日や開館時刻は行く日ではない
+
 ---
+
 
 No.5:
 M: I left my lunch box in the classroom.
@@ -146,7 +174,14 @@ Question: Where is the boy's lunch box?（男の子のお弁当はどこにあ�
 男の子が「in the classroom（教室に）」と言っているので、3「In the classroom.（教室に）」が正解です。
 「to the gym（体育館へ）」はあとで届ける場所で、お弁当がある場所ではありません。1「In his bag.（かばんの中）」も2「At the club room.（部室）」も4「At the shop.（店）」も出ていません。
 
+【ポイント5】
+種別: リスニング
+見出し: Where is 〜? はいまある場所を拾う
+・left / is in 〜 / at 〜 の置き場所
+・あとで届ける場所（bring to 〜）は「いまどこか」ではない
+
 ---
+
 
 No.6:
 W: What time does the swimming pool open on Sunday?
@@ -176,7 +211,14 @@ Question: How long does it take to walk to the pool?（プールまで歩いて�
 男の子が「About fifteen minutes（だいたい15分）」と言っているので、2「About fifteen minutes.（だいたい15分）」が正解です。
 「at nine（9時）」は開く時刻で、1「Nine minutes.（9分）」のような所要時間ではありません。3「One hour.（1時間）」も4「Thirty seconds.（30秒）」も出ていません。
 
+【ポイント6】
+種別: リスニング
+見出し: How long does it take? は所要時間
+・About 〜 minutes / It takes 〜
+・開く時刻（at nine）を所要時間（nine minutes）と混ぜない
+
 ---
+
 
 No.7:
 M: Shall we make a poster for the school festival?
@@ -206,7 +248,14 @@ Question: Where will they make the poster?（2人はどこでポスターを作�
 男の子が「in the art room（美術室で）」と言っているので、3「In the art room.（美術室で）」が正解です。
 「colored pens（色ペン）」や「large paper（大きな紙）」は道具で、場所ではありません。1「In the gym.（体育館で）」も2「At the girl's house.（女の子の家で）」も4「At the station.（駅で）」も出ていません。
 
+【ポイント7】
+種別: リスニング
+見出し: Where will they 〜? は作業・集合の場所
+・in the art room / at 〜 など場所の句
+・色ペンや紙などの道具を場所の答えにしない
+
 ---
+
 
 No.8:
 W: What's wrong? You look tired.
@@ -236,7 +285,14 @@ Question: Why does the boy look tired?（男の子が疲れて見えるのはな
 男の子が「I slept late last night（昨夜おそくまで起きていた）」と言っているので、4「Because he slept late last night.（昨夜おそくまで起きていたから）」が正解です。
 理科の課題はおそくまで起きていた理由のひとつですが、質問の直接の答えは睡眠です。1「Because the bag is heavy.（かばんが重いから）」も2「Because it is Monday.（月曜日だから）」も3「Because he wants to open a window.（窓を開けたいから）」も出ていません。
 
+【ポイント8】
+種別: リスニング
+見出し: Why look tired / 〜? は本人の直接理由
+・I slept late / Because I 〜 など本人の説明
+・課題の細部や出てきていない話を、疲れた理由にすり替えない
+
 ---
+
 
 No.9:
 M: May I borrow your colored pencils?
@@ -266,7 +322,14 @@ Question: When will the boy return the pencils?（男の子はいつ色鉛筆を
 男の子が「after art class（美術のあと）」と言っているので、2「After art class.（美術のあと）」が正解です。
 「until Friday（金曜まで）」は女の子が次に使う日で、3「On Friday morning.（金曜の朝）」のように返す約束ではありません。1「Before lunch.（昼ごはんの前）」も4「Next Monday.（来週の月曜）」も出ていません。
 
+【ポイント9】
+種別: リスニング
+見出し: When will 〜 return / 〜? は返す約束の時
+・I'll return 〜 after / by 〜
+・相手が次に使う日（until Friday）を返す日にしない
+
 ---
+
 
 No.10:
 W: How often do you practice the piano?
@@ -296,7 +359,14 @@ Question: How often does the boy practice the piano?（男の子はどのくら�
 「How often（どのくらいの頻度で）」なので回数の3「Twice a week.（週に2回）」が正解です。
 「thirty minutes（30分）」は長さで、2「For thirty minutes only.（30分だけ）」のような頻度ではありません。1「Every morning.（毎朝）」も4「With his sister.（妹と）」も出ていません。
 
+【ポイント10】
+種別: リスニング
+見出し: How often? は頻度（Twice a week など）
+・Twice a week / Every 〜 / Three times a 〜
+・1回の長さ（For thirty minutes）は頻度ではない
+
 ---
+
 
 No.11:
 M: I have soccer club after school.
@@ -327,7 +397,14 @@ Question: Where will the boy practice soccer?（男の子はどこでサッカ�
 2「In the gym.（体育館で）」は女の子が聞いた場所、3「In the music room.（音楽室で）」は女の子が行く場所で、練習する場所ではありません。4「At the station.（駅で）」は出ていません。
 ヒント：場所を聞かれたら、練習すると言った人の言葉を拾いましょう。ひっかけは、相手が言った体育館・音楽室です。
 
+【ポイント11】
+種別: リスニング
+見出し: Where will 〜 practice / 〜? は本人が言った場所
+・On the field / In the 〜 など本人の答え
+・相手が聞いた候補や、相手が行く場所は練習場所ではない
+
 ---
+
 
 No.12:
 W: Mom asked me to buy some apples.
@@ -358,7 +435,14 @@ Question: What will the girl do after they buy apples?（りんごを買った�
 1「Wait at the fruit stand.（果物売り場で待つ）」は男の子がすることです。2「Go to the gym.（体育館へ行く）」も3「Make apple pie.（アップルパイを作る）」も出ていません。
 ヒント：「After that」のあとの行動と、もう一人が待つ場所を混ぜないようにしましょう。
 
+【ポイント12】
+種別: リスニング
+見出し: What after that? は After that のあとの行動
+・After that I need / I'll 〜
+・もう一人が待つ場所や別の用事を、本人の「そのあと」にしない
+
 ---
+
 
 No.13:
 M: Why are you wearing that thick coat today?
@@ -389,7 +473,14 @@ Question: Why is the girl wearing a thick coat?（女の子が厚いコートを
 1「Because she has a thin jacket.（薄いジャケットを持っているから）」は男の子の服の話です。2「Because it is raining.（雨が降っているから）」も4「Because she likes red coats.（赤いコートが好きだから）」も出ていません。
 ヒント：マフラーはあとから貸すもので、コートを着た理由ではありません。ひっかけは、もう一人の服の話です。
 
+【ポイント13】
+種別: リスニング
+見出し: Why wearing / bring 〜? は Because の直後
+・Because it is cold / Because I need 〜
+・もう一人の服やあとから貸すものを、着た理由にしない
+
 ---
+
 
 No.14:
 W: What time should we leave for the station?
@@ -420,7 +511,14 @@ Question: When should they leave for the station?（2人はいつ駅へ出発し
 2「At six forty.（6時40分）」は女の子が朝ごはんを終える時刻、3「At seven twenty.（7時20分）」は電車の時刻です。4「At noon.（正午）」は出ていません。
 ヒント：出発・電車・朝ごはんの時刻が並ぶので、質問が「leave（出発）」かどうか見ましょう。
 
+【ポイント14】
+種別: リスニング
+見出し: When leave? は出発時刻。電車の時刻と分ける
+・leave / start at 〜 の出発
+・電車の時刻や朝ごはんを終える時刻は出発ではない
+
 ---
+
 
 No.15:
 M: Can you feed my goldfish this weekend?
@@ -451,7 +549,14 @@ Question: What will the girl do this weekend?（女の子は今週末何をし�
 1「Stay at the boy's uncle's house.（男の子のおじさんの家に泊まる）」は男の子の予定です。2「Buy a new goldfish.（新しい金魚を買う）」も3「Visit her grandmother.（おばあちゃんを訪ねる）」も出ていません。
 ヒント：頼まれたことと、もう一人がどこへ行くかを分けて聞きましょう。おじさんの家は男の子の予定です。
 
+【ポイント15】
+種別: リスニング
+見出し: What will 〜 do? は頼まれて引き受けた行動
+・Can you 〜? → Sure. / I'll 〜
+・もう一人がどこへ行くかの予定を、自分の行動にしない
+
 ---
+
 
 No.16:
 W: How will you go to your grandmother's house?
@@ -482,7 +587,14 @@ Question: Where does the boy's grandmother live?（男の子のおばあちゃ�
 1「Near the sea.（海の近く）」は女の子が確認した場所で、男の子は「No」と否定しています。2「Near the station.（駅の近く）」も4「Near the river.（川の近く）」も出ていません。
 ヒント：相手が聞いた場所と、答えた場所を取りちがえないようにしましょう。No のあとの文が本当の答えです。
 
+【ポイント16】
+種別: リスニング
+見出し: Where does 〜 live? は No のあとの本当の場所
+・No. She/He lives near 〜
+・相手が確認した場所（near the sea など）を、否定されたまま答えにしない
+
 ---
+
 
 No.17:
 M: I want fresh bread tomorrow morning.
@@ -513,7 +625,14 @@ Question: What time does the bakery open?（パン屋は何時にあきますか
 2「At seven forty.（7時40分）」は2人が会う時刻、3「Before school.（登校前）」は男の子が行こうと言った時間帯です。4「At noon.（正午）」は出ていません。
 ヒント：開く時刻と、待ち合わせの時刻を分けて聞きましょう。
 
+【ポイント17】
+種別: リスニング
+見出し: What time does 〜 open? は開店・開始の時刻
+・opens at 〜 / starts at 〜
+・待ち合わせや「登校前」などの時間帯は開店時刻ではない
+
 ---
+
 
 No.18:
 W: I can't find my library card.
@@ -544,7 +663,14 @@ Question: What can't the girl find?（女の子は何が見つかりませんか
 2「Her pencil case.（筆箱）」は男の子が探した場所として言ったものです。1「Her textbook.（教科書）」も3「Her bus pass.（バスの定期）」も出ていません。
 ヒント：なくしたものと、探した場所の名前を混ぜないようにしましょう。
 
+【ポイント18】
+種別: リスニング
+見出し: What can't 〜 find? はなくしたものそのもの
+・I can't find my 〜 / lost my 〜
+・探した場所（pencil case など）をなくしたものにしない
+
 ---
+
 
 No.19:
 M: Shall we study English together today?
@@ -575,7 +701,14 @@ Question: Where will they study?（2人はどこで勉強しますか？）
 1「In the club room.（部室で）」は男の子が言った部活の話から連想しやすい場所です。3「In the classroom.（教室で）」も4「At the boy's house.（男の子の家で）」も出ていません。
 ヒント：「at five（5時）」は部活が終わる時刻で、場所ではありません。ひっかけは部室です。
 
+【ポイント19】
+種別: リスニング
+見出し: Where will they study / meet? は勉強・集合の場所
+・meet in the library / study at 〜
+・部活が終わる時刻や部室の連想を場所の答えにしない
+
 ---
+
 
 No.20:
 W: You look very wet. What happened?
@@ -605,3 +738,9 @@ Question: Why does the boy look wet?（男の子がぬれているのはなぜ�
 男の子が「I washed my bike with a hose（ホースで自転車を洗った）」と言っているので、3「Because he washed his bike with a hose.（ホースで自転車を洗ったから）」が正解です。
 2「Because he walked from the station.（駅から歩いてきたから）」は女の子が聞いたことで、男の子は「No」と否定しています。1「Because he washed his hair.（髪を洗ったから）」も4「Because he swam in the pool.（プールで泳いだから）」も出ていません。
 ヒント：相手の予想と、本人が言った理由を取りちがえないようにしましょう。No のあとも洗った場所の話です。
+
+【ポイント20】
+種別: リスニング
+見出し: Why 〜? は本人の理由。相手の予想と分ける
+・I washed 〜 / Because I 〜 など本人の説明を拾う
+・相手の予想を No で否定したら、その予想は答えではない

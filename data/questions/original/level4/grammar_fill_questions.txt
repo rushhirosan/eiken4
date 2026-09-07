@@ -16,6 +16,13 @@ A : Where is my notebook? B : It's ( ) the desk, next to the lamp.
 ほかの選択肢：場所のまちがいとして「under（〜のした）」は机の下になり、「next to the lamp」と合いにくいです。「between（〜のあいだ）」は二つのものの間に使います。「during（〜のあいだ）」は時間用なので、机の位置には使えません。
 ヒント：「Where」の答えで「机のどこ？」と聞かれたら、on / under / in など位置の語を比べましょう。
 
+【ポイント1】
+種別: 文法
+見出し: 場所の前置詞 on / under / in（うえ・した・中）
+・on the desk = 机のうえ、under the desk = 机のした
+・in the box = 箱の中（中に入れる・しまってある）
+・during は時間用（during the concert）。場所には使わない
+
 ---
 
 問題2:
@@ -35,6 +42,13 @@ Yuki ( ) a postcard to her grandmother last Sunday.
 文全体は「ユキは先週の日曜日に、おばあちゃんにはがきを送りました」という意味です。「last Sunday（先週の日曜日）」があるので、過去のできごとです。過去形は主語が誰でも形は同じで、「sent」になります。
 ほかの選択肢：いまの話なら「sends」、進行なら「is sending」、命令や助動詞のあとなら「send」ですが、どれも「last Sunday」とは合いません。
 ヒント：文の終わりに yesterday / last 〜 / ago があったら、まず過去形を疑いましょう。
+
+【ポイント2】
+種別: 文法
+見出し: yesterday / last 〜 があったら動詞は過去形
+・send → sent、go → went のように不規則変化もセットで覚える
+・主語が誰でも過去形の形は同じ（she sent / they sent）
+・いまの話の現在形（sends）や原形（send）は last 〜 と合わない
 
 ---
 
@@ -56,6 +70,13 @@ A : It's cold outside. B : You ( ) wear a coat.
 ほかの選択肢：「may not」は「〜しないかもしれない／〜してはいけない」寄りで、勧めになりません。「don't have」のあとに「wear」は続かず、形が足りません（「don't have to」なら「しなくてもよい」）。「are」のあとに「wear」は続きません（「are wearing」なら進行形）。
 ヒント：相手に「こうしたほうがいいよ」と言うときは should + 原形、と覚えておくとよいです。
 
+【ポイント3】
+種別: 文法
+見出し: should + 動詞の原形（〜したほうがよい）
+・You should wear a coat. のようにアドバイスに使う
+・あとの動詞は必ず原形（should wear / should go）
+・have to は「しなければならない」、should は「したほうがよい」
+
 ---
 
 問題4:
@@ -75,6 +96,13 @@ Please ( ) the fan. The kitchen smells like fish.
 文全体は「扇風機をつけてください。キッチンが魚のにおいがします」という意味です。においをやわらげるために風を送るので、「turn on the fan」が自然です。
 ほかの選択肢：「throw away（捨てる）」は扇風機を捨てることになり不自然です。「look for（探す）」は、すでに対象があるお願い文に合いません。「put on」は服を「着る／履く」ときに使い、扇風機のスイッチには使いません。
 ヒント：電気製品のスイッチは turn on（つける）／ turn off（消す）のセットで覚えると便利です。
+
+【ポイント4】
+種別: 熟語
+見出し: turn on / turn off（スイッチをつける・消す）
+・turn on the light / the fan = 電気・扇風機をつける
+・turn off = 消す。対で覚える
+・put on は服を着る／履く（put on a coat）。電化製品には使わない
 
 ---
 
@@ -96,6 +124,13 @@ There is a small bridge ( ) the river and the hill path.
 ほかの選択肢：「along（〜にそって）」は道などに使います。「without（〜なしで）」と「about（〜について／およそ）」は、二つの場所のあいだ、という位置の意味にはなりません。
 ヒント：「〜 and 〜」のあいだの位置なら、まず between を思い浮かべましょう。
 
+【ポイント5】
+種別: 文法
+見出し: between A and B（二つのもののあいだ）
+・between the river and the path のように A and B とセット
+・along = 〜にそって（along the road）。あいだの意味ではない
+・時間の「あいだ」は during（during the concert）
+
 ---
 
 問題6:
@@ -115,6 +150,13 @@ A : Do you want to see a movie tomorrow? B : Sure. I ( ) meet you at six.
 文全体は「明日映画を見ない？」「いいよ。6時に会おう」という会話です。「tomorrow」などこれからすることなので、「will + 動詞の原形（meet）」を使います。
 ほかの選択肢：「was」「did」は過去の話です。「am」のあとに「meet」は続きません（「am meeting」なら進行形）。
 ヒント：約束やこれから決めた行動は will + 原形、とセットで覚えましょう。
+
+【ポイント6】
+種別: 文法
+見出し: will + 動詞の原形（これからすること・約束）
+・I will meet you at six. のように未来の予定・約束に使う
+・tomorrow / next week など「これから」の語と相性がよい
+・was / did は過去。will のあとは原形（will meet）
 
 ---
 
@@ -136,6 +178,13 @@ A : Why is Mia wearing boots today? B : She is wearing them ( ) the ground is mu
 ほかの選択肢：「if（もし〜なら）」と「unless（〜しない限り）」は条件です。「although（〜だけれど）」は逆接で、理由の答えにはなりません。
 ヒント：「Why ...?」と見たら、because で始まる理由の文を探しましょう。
 
+【ポイント7】
+種別: 文法
+見出し: Why には because で答える（理由のつなぎ言葉）
+・because + 主語 + 動詞（because it is rainy）
+・if / unless は条件、although は逆接。理由には使わない
+・理由が名詞ひとつなら because of（because of the rain）
+
 ---
 
 問題8:
@@ -155,6 +204,13 @@ My sister can ( ) a bike without help now.
 文全体は「姉（妹）はいま、助けなしで自転車に乗れます」という意味です。「can」のあとは必ず動詞の原形が来るので、「can ride」になります。
 ほかの選択肢：「rides」は三人称単数の現在形、「riding」は -ing 形、「rode」は過去形で、どれも can の直後には置けません。
 ヒント：can / will / should などの助動詞のあとは、いつも動詞の原形、と覚えましょう。
+
+【ポイント8】
+種別: 文法
+見出し: can / will / should のあとは動詞の原形
+・can ride / will go / should wear のように原形だけ続く
+・三単現（rides）や -ing（riding）は助動詞の直後に置かない
+・過去形（rode / went）も助動詞のあとは使わない
 
 ---
 
@@ -176,6 +232,13 @@ A : I'm hungry after practice. B : There's a ( ) on the table.
 ほかの選択肢：「calendar（カレンダー）」「chalk（チョーク）」「stamp（切手）」は食べ物ではないので合いません。
 ヒント：hungry / thirsty のあとは、食べもの・飲みものを探すと早く決まります。
 
+【ポイント9】
+種別: 単語
+見出し: hungry / thirsty のあとは食べもの・飲みもの
+・hungry → sandwich / bread / rice など食べ物
+・thirsty → water / juice / tea など飲み物
+・文房具や切手など食べ物以外の語は、hungry の流れに合わない
+
 ---
 
 問題10:
@@ -195,6 +258,13 @@ We ( ) a board game if we finish our homework early.
 文全体は「宿題を早く終わらせたら、ボードゲームをします」という意味です。「if + 現在形（finish）」のあとで、これからすることを言うときによく「will」を使います。
 ほかの選択肢：「played」は過去形で、これからする話には合いません。「plays」は三人称単数の現在形で、主語が「We」なので合いません。「playing」だけでは文として足りません（「are playing」なら別）。
 ヒント：if の節が現在形なら、あとの節は will + 原形、という型を覚えておくとよいです。
+
+【ポイント10】
+種別: 文法
+見出し: if + 現在形, will + 原形（もし〜なら、〜する）
+・If we finish early, we will play. の型を覚える
+・if の節は現在形（finish）。will finish にはしない
+・主節は will + 原形（will play）。過去形 played はこれからには合わない
 
 ---
 
@@ -216,6 +286,13 @@ A : Where should I keep the markers? B : Please put them ( ) the box.
 ほかの選択肢：「at」は地点（at the station など）に使い、箱の中には合いません。「on」は「〜のうえ」なので、箱のフタのうえに置く意味になり、しまう動作とずれます。「to」は方向（〜へ）なので、「箱の中に入れる」意味にはなりません。
 ヒント：箱・引き出し・かばんの「中」なら in、「表面のうえ」なら on をまず比べましょう。
 
+【ポイント11】
+種別: 文法
+見出し: in = 中、on = うえ（箱・机・かばん）
+・in the box / bag = 中に入れる・しまう
+・on the desk / table = 表面のうえに置く
+・at は地点（at the station）。箱の中には使わない
+
 ---
 
 問題12:
@@ -235,6 +312,13 @@ Sota ( ) eat breakfast yesterday because he woke up late.
 文全体は「ソータはきのう、おそく起きたので朝ごはんを食べませんでした」という意味です。「yesterday（きのう）」があるので過去の否定で、「didn't + 動詞の原形（eat）」になります。
 ほかの選択肢：「don't」は現在の否定（I / you / we / they）、「doesn't」は現在の否定（he / she）で、どちらも「yesterday」と合いません。「isn't」は be動詞の否定で、あとに「eat」は続きません。
 ヒント：yesterday / last 〜 の否定は didn't + 原形、とそろえましょう。
+
+【ポイント12】
+種別: 文法
+見出し: 過去の否定は didn't + 動詞の原形
+・didn't eat / didn't go。あとの動詞は原形のまま
+・don't / doesn't はいまの否定。yesterday とは合わない
+・isn't は be動詞の否定。一般動詞の否定には使わない
 
 ---
 
@@ -256,6 +340,13 @@ You ( ) take off your shoes at the front door.
 ほかの選択肢：「are」のあとに「take」は続きません（「are taking」なら進行形）。「has to」は主語が he / she のときに使い、You には合いません。「having」だけでは「しなければならない」の形になりません。
 ヒント：しなければならない、は have to + 原形。主語が he / she なら has to に変わる、と覚えましょう。
 
+【ポイント13】
+種別: 文法
+見出し: have to + 原形（〜しなければならない）
+・You / I / we / they → have to take
+・he / she / it → has to take
+・should は「したほうがよい」、have to は「しなければならない」
+
 ---
 
 問題14:
@@ -275,6 +366,13 @@ Can you ( ) my grandmother this afternoon? I have a club meeting.
 文全体は「今日の午後、おばあちゃんの世話をしてくれる？部活のミーティングがあるんだ」という意味です。短いあいだ人を見てもらうときは「look after」が自然です。
 ほかの選択肢：「look for」は「探す」なので、いま見失っているわけではない文には合いません。「put on」は服を「着る／履く」ときに使います。「throw away」は「捨てる」で、人には使えません。
 ヒント：look after は世話、look for は探す、とセットで覚えるとまちがいが減ります。
+
+【ポイント14】
+種別: 熟語
+見出し: look after = 世話する、look for = 探す
+・look after my grandmother / a pet = 世話をする
+・look for my keys = 探す。意味が違うのでセットで覚える
+・put on は服、throw away は物を捨てる。人の世話には使わない
 
 ---
 
@@ -296,6 +394,13 @@ Please keep quiet ( ) the concert.
 ほかの選択肢：「between」は二つのもののあいだ（between A and B）に使います。「along」は「〜にそって」で、道などに使います。「without」は「〜なしで」で、時間のあいだ、という意味にはなりません。
 ヒント：時間の「あいだ」なら during、「二つのもののあいだ」なら between、と分けましょう。
 
+【ポイント15】
+種別: 文法
+見出し: during + 名詞（時間・できごとのあいだ）
+・during the concert / the class = そのあいだずっと
+・between は二つのもののあいだ（between A and B）
+・along は道などにそって。時間のあいだには使わない
+
 ---
 
 問題16:
@@ -315,6 +420,13 @@ The science room ( ) open last night. The lights were off.
 文全体は「理科室は昨夜、開いていませんでした。電気が消えていました」という意味です。「last night」があるので過去です。主語の The science room は一つなので、単数の「wasn't」を使います。
 ほかの選択肢：「isn't」と「aren't」はいまの話で、「last night」と合いません。「weren't」は過去ですが、主語が複数（they / the rooms など）のときに使います。
 ヒント：be動詞の過去は was / were。一つなら was / wasn't、二つ以上なら were / weren't です。
+
+【ポイント16】
+種別: 文法
+見出し: be動詞の過去は was / were（否定は wasn't / weren't）
+・主語が一つ → was / wasn't（The room wasn't open.）
+・主語が二つ以上 → were / weren't（The rooms weren't open.）
+・isn't / aren't はいまの否定。last night とは合わない
 
 ---
 
@@ -336,6 +448,13 @@ I collected sea shells ( ) I was little.
 ほかの選択肢：「if（もし〜なら）」は条件です。「after（〜のあと）」は「小さくなったあと」になり、子どものころの意味とずれます。「until（〜まで）」は終わりの時点で、「小さくなるまで」となり意味が合いません。
 ヒント：子どものころ／そのとき、という時期なら when を選びましょう。
 
+【ポイント17】
+種別: 文法
+見出し: when = 〜のとき（時期をつなぐ言葉）
+・when I was little = 小さいころ
+・if は条件（もし〜なら）。時期の説明には使わない
+・after = 〜のあと、until = 〜まで。時期の「〜のころ」には when
+
 ---
 
 問題18:
@@ -355,6 +474,13 @@ A : What do you want to do on Sunday? B : I ( ) visit the new city farm.
 文全体は「日曜日は何がしたい？」「新しい市民農園へ行きたいな」という会話です。「would like to + 動詞の原形（visit）」で希望を表します。
 ほかの選択肢：「would like」のあとに to がないと、visit に続きません。「am wanting」は普通使いません（want は進行形にしません）。「wants to」は主語が he / she の形で、I には合いません。
 ヒント：「〜したい」は want to / would like to + 原形。I のあとは wants にしない、と覚えましょう。
+
+【ポイント18】
+種別: 文法
+見出し: would like to + 原形（〜したい・ていねい）
+・I would like to visit 〜. のように to + 原形までそろえる
+・want to と同じ型。would like だけだと動詞に続かない
+・I / you / we / they のあとは wants にしない（wants は he / she）
 
 ---
 
@@ -376,6 +502,13 @@ There ( ) three red apples in the basket.
 ほかの選択肢：「is」は一つ（There is an apple）のときです。「was」は過去で、しかも単数用です。「be」は原形なので、この文の動詞としては使えません。
 ヒント：There のあとは、うしろの名詞が一つなら is、二つ以上なら are、と数えましょう。
 
+【ポイント19】
+種別: 文法
+見出し: There is / There are（〜がある）
+・うしろが一つ → There is an apple.
+・うしろが二つ以上 → There are three apples.
+・be（原形）だけでは文の動詞にならない。過去なら was / were
+
 ---
 
 問題20:
@@ -395,3 +528,12 @@ My uncle ( ) a used bicycle last week.
 文全体は「おじは先週、中古の自転車を買いました」という意味です。「last week（先週）」があるので過去形「bought」を使います。
 ほかの選択肢：「buys」はいまの習慣、「buy」は原形、「buying」は -ing 形で、どれも「last week」とは合いません。
 ヒント：last week / last month / yesterday を見たら、動詞を過去形にしましょう。
+
+【ポイント20】
+種別: 文法
+見出し: 不規則動詞の過去形（buy → bought）
+・buy → bought、send → sent、go → went をセットで覚える
+・last week / yesterday を見たら、まず動詞を過去形にする
+・現在形（buys）や原形（buy）は last 〜 と合わない
+
+---

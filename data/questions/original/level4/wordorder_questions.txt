@@ -17,6 +17,13 @@ I met my friends in the park yesterday.
 2番目は met、4番目は friends です。全文は「私はきのう公園で友達に会いました」という意味です。
 正しい順は I → met → my → friends → in です。
 
+【ポイント1】
+種別: 文法
+見出し: 主語 + 動詞 + 目的語 + 場所 + 時
+・I met my friends in the park yesterday. の型を覚える
+・場所（in the park）のあとに時（yesterday）を置く
+・目的語（my friends）を動詞のすぐあとに置く
+
 ---
 
 問題2:
@@ -37,6 +44,13 @@ He ( ) [2番目] ( ) [4番目] ( ) after lunch.
 He walks to the sports center after lunch.
 2番目は to、4番目は sports です。全文は「彼は昼ごはんのあとでスポーツセンターへ歩いて行きます」という意味です。
 walks to the sports center の順になります。
+
+【ポイント2】
+種別: 文法
+見出し: walk to + 場所（〜へ歩いて行く）
+・walks to the sports center のように to のあとに場所
+・時（after lunch）は文の終わりに置く
+・to the 〜 はセットで覚える（to the station / to school）
 
 ---
 
@@ -59,6 +73,13 @@ We will watch a funny movie next week.
 2番目は watch、4番目は funny です。全文は「私たちは来週おもしろい映画を見ます」という意味です。
 will のあとは動詞の原形 watch が来ます。
 
+【ポイント3】
+種別: 文法
+見出し: will + 動詞の原形 + 目的語 + 時
+・will watch a funny movie next week の順
+・will のあとは必ず原形（watch / go）。watches や watched は置かない
+・a + 形容詞 + 名詞（a funny movie）の順もセットで
+
 ---
 
 問題4:
@@ -79,6 +100,13 @@ will のあとは動詞の原形 watch が来ます。
 She can play the piano well.
 2番目は can、4番目は the です。全文は「彼女はとても上手にピアノを弾けます」という意味です。
 can のあとは必ず動詞の原形 play です。
+
+【ポイント4】
+種別: 文法
+見出し: can + 動詞の原形 + 目的語 + 様子
+・She can play the piano well. の型
+・can のあとは原形だけ（can play）。plays / playing は置かない
+・様子（well / very high）は文の終わりに置くことが多い
 
 ---
 
@@ -101,6 +129,13 @@ My brother goes out jogging every morning.
 2番目は out、4番目は every です。全文は「私の兄は毎朝ジョギングに出かけます」という意味です。
 goes out jogging で「ジョギングをしに出る」イメージです。
 
+【ポイント5】
+種別: 熟語
+見出し: go out + -ing（〜しに出かける）
+・goes out jogging = ジョギングをしに出る
+・時（every morning）は文の終わりに置く
+・go out のあとに動詞を続けるときは -ing（jogging / shopping）
+
 ---
 
 問題6:
@@ -121,6 +156,13 @@ goes out jogging で「ジョギングをしに出る」イメージです。
 They went to the station by bus.
 2番目は went、4番目は the です。全文は「彼らはバスで駅へ行きました」という意味です。
 went to the station の順を押さえましょう。
+
+【ポイント6】
+種別: 文法
+見出し: go / went to + 場所 + by 乗り物
+・went to the station by bus の順
+・to the 〜 で行き先、by bus / by train で乗り物
+・場所のあとに by 〜 を置く（to the station by bus）
 
 ---
 
@@ -143,6 +185,13 @@ I read comic books on rainy days at home.
 2番目は comic、4番目は on です。全文は「私は雨の日に家で漫画の本を読みます」という意味です。
 read comic books on rainy ... の順です。
 
+【ポイント7】
+種別: 文法
+見出し: 動詞 + 目的語 + on 〜 days + 場所
+・read comic books on rainy days at home の順
+・目的語（comic books）を動詞のすぐあと、時・場所はそのあと
+・on rainy days = 雨の日に。at home = 家で
+
 ---
 
 問題8:
@@ -163,6 +212,13 @@ read comic books on rainy ... の順です。
 What time do you get up?
 2番目は time、4番目は you です。全文は「あなたは何時に起きますか」という意味です。
 疑問文では What time + do + you + 動詞の原形 の順になります。
+
+【ポイント8】
+種別: 文法
+見出し: What time + do + 主語 + 動詞の原形
+・What time do you get up? の型を覚える
+・do のあとは主語、そのあと原形（get）。gets は置かない
+・get up = 起きる。かたまりで覚える
 
 ---
 
@@ -185,6 +241,13 @@ The cat is sleeping under the sofa.
 2番目は is、4番目は under です。全文は「その猫はソファの下で眠っています」という意味です。
 is + sleeping + under + the の順です。
 
+【ポイント9】
+種別: 文法
+見出し: be動詞 + -ing + 場所の前置詞
+・is sleeping under the sofa の順
+・いま進行中は is / are + -ing（is sleeping）
+・under = 下、on = うえ、in = 中。場所は文の終わりに
+
 ---
 
 問題10:
@@ -205,6 +268,13 @@ We ( ) [2番目] ( ) [4番目] ( ) if we finish early.
 We will go to the park if we finish early.
 2番目は go、4番目は the です。全文は「私たちは宿題を早く終わらせたら公園へ行きます」という意味です。
 will go to the park の順を押さえましょう。
+
+【ポイント10】
+種別: 文法
+見出し: will go to + 場所（これから行く）
+・will go to the park のように will + 原形 + to + 場所
+・will のあとは原形 go。goes / going は置かない
+・if の節は文の後ろにも置ける（if we finish early）
 
 ---
 
@@ -229,6 +299,13 @@ They visited a new museum yesterday.
 ほかの並び：1は2番目が visited で a new museum が崩れます。3も2番目が visited です。4は4番目が new で、museum の位置がずれます。
 ヒント：last / yesterday の文は、主語のあとすぐ過去形、とそのあとの名詞の順を確かめましょう。
 
+【ポイント11】
+種別: 文法
+見出し: 過去形 + a + 形容詞 + 名詞 + 時
+・visited a new museum yesterday の順
+・yesterday / last 〜 がある文は動詞を過去形にする
+・a + 形容詞 + 名詞（a new museum）のあと、時を置く
+
 ---
 
 問題12:
@@ -251,6 +328,13 @@ We will bake cookies after school.
 正しい順は will → bake → cookies → after → school です。will のあとは動詞の原形 bake です。
 ほかの並び：2と4は2番目が will になり、原形 bake が2番目に来ません。3は4番目が cookies で、after school の位置が崩れます。
 ヒント：will の直後は原形、そのあと目的語、最後に after school などの時を置きましょう。
+
+【ポイント12】
+種別: 文法
+見出し: will + 原形 + 目的語 + after school
+・will bake cookies after school の順
+・will の直後は原形（bake）。will bake でひとまとまり
+・時（after school / next week）は目的語のあとに置く
 
 ---
 
@@ -275,6 +359,13 @@ My sister can jump very high.
 ほかの並び：1と4は2番目が My sister になり、can が2番目に来ません。2は4番目が jump で、very high の位置がずれます。
 ヒント：can の文は「だれが + can + 原形 + 様子」の順で組み立てましょう。
 
+【ポイント13】
+種別: 文法
+見出し: 主語 + can + 原形 + very + 様子
+・My sister can jump very high. の型
+・can のあとは原形 jump。very high は様子で文末
+・だれが + can + 原形 + 様子、の順で組み立てる
+
 ---
 
 問題14:
@@ -297,6 +388,13 @@ Where did you put my goggles?
 正しい順は Where → did → you → put → my です。過去の疑問文では Where + did + 人 + 動詞の原形 になります。
 ほかの並び：1と3は2番目が Where になり、did が2番目に来ません。2は4番目が you で、動詞 put の位置がずれます。
 ヒント：Where / What の過去の疑問は did のあと原形、と覚えましょう。
+
+【ポイント14】
+種別: 文法
+見出し: Where + did + 主語 + 動詞の原形
+・Where did you put 〜? の型を覚える
+・did のあとは主語、そのあと原形（put）。past の put も形は同じ
+・What / When の過去疑問も同じ順（What did you see?）
 
 ---
 
@@ -321,6 +419,13 @@ Ken found a frog near the pond.
 ほかの並び：2と4は2番目が found になり、a frog の順がずれます。3は4番目が frog で、near the pond が崩れます。
 ヒント：見つけたもの（a frog）のあと、場所（near the pond）を続ける型です。
 
+【ポイント15】
+種別: 文法
+見出し: 過去形 + a + 名詞 + near + 場所
+・found a frog near the pond の順
+・見つけたもの（a frog）のあと、場所（near the pond）
+・near = 近く、under = 下、in = 中。場所は目的語のあと
+
 ---
 
 問題16:
@@ -343,6 +448,13 @@ Birds can fly over the mountain.
 正しい順は Birds → can → fly → over → the です。can のあとは原形 fly です。
 ほかの並び：1と4は2番目が Birds になり、can が2番目に来ません。3は4番目が fly で、over the mountain の位置がずれます。
 ヒント：can + 原形のあと、over / in / on などの場所を続けましょう。
+
+【ポイント16】
+種別: 文法
+見出し: can + 原形 + over / in / on + 場所
+・can fly over the mountain の順
+・can のあとは原形 fly。場所の前置詞はそのあと
+・over = 上を越えて、on = うえ、in = 中
 
 ---
 
@@ -367,6 +479,13 @@ I will help my mother tomorrow.
 ほかの並び：1と4は2番目が will になり、原形 help が2番目に来ません。2は4番目が my で、mother の位置がずれます。
 ヒント：will + 原形 + 人、のあと tomorrow などの時を置きましょう。
 
+【ポイント17】
+種別: 文法
+見出し: will + 原形 + 人 + 時
+・will help my mother tomorrow の順
+・will の直後は原形 help。my mother は目的語
+・tomorrow / next week などの時は文末に置く
+
 ---
 
 問題18:
@@ -389,6 +508,13 @@ Does your brother like soccer?
 正しい順は Does → your → brother → like → soccer です。Does のあとは人、そのあと動詞の原形 like です。
 ほかの並び：2と4は2番目が Does になり、your が2番目に来ません。3は4番目が brother で、like の位置がずれます。
 ヒント：Does + 人 + 原形、で「〜しますか／好きですか」を作ります。
+
+【ポイント18】
+種別: 文法
+見出し: Does + 主語 + 動詞の原形
+・Does your brother like soccer? の型
+・Does のあとは人、そのあと原形 like。likes は置かない
+・Do you / we / they、Does he / she で使い分ける
 
 ---
 
@@ -413,6 +539,13 @@ We ate lunch in the garden.
 ほかの並び：1と3は2番目が ate になり、lunch が2番目に来ません。2は4番目が in で、the garden の位置がずれます。
 ヒント：過去の「食べた」は ate。目的語のあと in / at で場所を続けましょう。
 
+【ポイント19】
+種別: 文法
+見出し: 過去形 + 目的語 + in / at + 場所
+・ate lunch in the garden の順
+・目的語（lunch）のあと、場所（in the garden）
+・eat → ate。場所は in / at で続ける
+
 ---
 
 問題20:
@@ -435,3 +568,10 @@ Can you open this window?
 正しい順は Can → you → open → this → window です。Can のあとは人、そのあと原形 open です。
 ほかの並び：1と4は2番目が Can になり、you が2番目に来ません。2は4番目が open で、this window の位置がずれます。
 ヒント：Can you + 原形 〜? で「〜できますか／〜してくれますか」になります。
+
+【ポイント20】
+種別: 文法
+見出し: Can + 主語 + 原形 + 目的語
+・Can you open this window? の型
+・Can のあとは人、そのあと原形 open
+・「〜できますか／〜してくれますか」の依頼・能力の疑問に使う

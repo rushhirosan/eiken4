@@ -20,7 +20,14 @@ M: Yes. Where are they?（うん。どこにあるの？）
 最後に場所を聞いているので、1「On the shelf by the door.（ドアのそばの棚のうえ）」が自然です。
 2「It's Monday today.（きょうは月曜日）」は曜日、3「I like winter.（冬が好き）」は好きなもので、場所の答えではありません。
 
+【ポイント1】
+種別: リスニング
+見出し: Where are they? / Where 〜? には場所で答える
+・on / by / under / at + 場所
+・曜日や好き嫌いは場所の答えではない
+
 ---
+
 
 No.2:
 W: Are you free this afternoon?
@@ -44,7 +51,14 @@ W: Shall we make a birthday card for Grandma?（おばあちゃんに誕生日�
 提案への返事なので、2「Sure. Let's start at three.（いいよ。3時に始めよう）」が自然です。
 1「I have a red pen.（赤いペンを持っている）」は持ち物、3「Grandma lives far away.（おばあちゃんは遠くに住んでいる）」はおばあちゃんの話で、提案への賛成になっていません。
 
+【ポイント2】
+種別: 会話
+見出し: Shall we 〜? の提案には賛成 + 次の一手
+・Sure. Let's start / OK. Let's 〜
+・持ち物や他人の話だけでは提案への返事にならない
+
 ---
+
 
 No.3:
 M: How was your science test?
@@ -68,7 +82,14 @@ M: Which part was hard?（どのところがむずかしかったの？）
 「どの部分？」と聞いているので、1「The last question about plants.（植物についての最後の問題）」が自然です。
 2「I walk to school.（歩いて学校へ行く）」は通学、3「Science is on Friday.（理科は金曜日）」は曜日で、むずかしかった部分の答えではありません。
 
+【ポイント3】
+種別: リスニング
+見出し: Which part / What 〜? には具体的な部分で答える
+・The last question / The 〜 about 〜
+・通学や曜日など、聞かれた部分以外の話は答えではない
+
 ---
+
 
 No.4:
 W: I'm thirsty after practice.
@@ -92,7 +113,14 @@ W: Thanks. Do you want some, too?（ありがとう。あなたもいる？）
 「いる？」と聞いているので、2「No, thanks. I already drank water.（ううん、いいよ。もう水を飲んだから）」が自然です。
 1「Practice starts at five.（練習は5時に始まる）」は開始時刻、3「The fridge is white.（冷蔵庫は白い）」は冷蔵庫の色で、返事になっていません。
 
+【ポイント4】
+種別: 会話
+見出し: Do you want some / 〜? には Yes/No の返事
+・No, thanks. I already 〜 / Yes, please.
+・開始時刻や物の色だけではすすめへの返事にならない
+
 ---
+
 
 No.5:
 M: Excuse me. Is this seat free?
@@ -116,7 +144,14 @@ M: Thank you. Is the next stop City Hall?（ありがとう。次は市役所で
 次の停留所を確認しているので、3「No. It's the museum stop.（いいえ。博物館の停留所です）」が自然です。
 1「City Hall is big.（市役所は大きい）」は建物の大きさ、2「I like this seat.（この席が好き）」は席の好みで、停留所の答えではありません。
 
+【ポイント5】
+種別: リスニング
+見出し: Is the next stop 〜? には停留所・駅名で答える
+・No. It's the 〜 stop. / Yes. It is.
+・建物の大きさや席の好みは次の停留所の答えではない
+
 ---
+
 
 No.6:
 W: Why is the window open?
@@ -140,7 +175,14 @@ W: Oh. Can you close it now? It's getting windy.（そっか。いま閉めて�
 お願いへの返事なので、2「OK. I'll close it.（うん。閉めるよ）」が自然です。
 1「The room is blue.（部屋は青い）」は色、3「Windy days are fun.（風の強い日は楽しい）」は感想で、閉じる返事ではありません。
 
+【ポイント6】
+種別: 会話
+見出し: Can you 〜? のお願いには了解 + 行動
+・OK. I'll close / bring / do 〜
+・色や感想だけではお願いへの返事にならない
+
 ---
+
 
 No.7:
 M: What time does the swimming pool open?
@@ -165,7 +207,14 @@ M: Great. How long does it take to walk there?（いいね。歩いてどのく�
 2「I can swim well.（うまく泳げる）」は泳げること、3「The pool is clean.（プールはきれい）」はきれいさで、時間の長さではありません。
 開く時刻は前の文の情報です。
 
+【ポイント7】
+種別: リスニング
+見出し: How long does it take? には所要時間で答える
+・About 〜 minutes / It takes 〜
+・泳げることやきれいさは時間の長さではない（開く時刻も別）
+
 ---
+
 
 No.8:
 W: I made cookies yesterday.
@@ -189,7 +238,14 @@ W: Sweet. Would you like one?（甘いよ。一ついる？）
 すすめへの返事なので、3「Yes, please. They look good.（はい、お願いします。おいしそう）」が自然です。
 1「Yesterday was Tuesday.（きのうは火曜日）」は曜日、2「I don't like cooking.（料理が好きではない）」は料理が好きかどうかで、クッキーを受ける返事ではありません。
 
+【ポイント8】
+種別: 会話
+見出し: Would you like one / 〜? には受ける・断る返事
+・Yes, please. / No, thank you.
+・曜日や料理の好き嫌いは、すすめへの返事ではない
+
 ---
+
 
 No.9:
 M: Our class will clean the park next week.
@@ -213,7 +269,14 @@ M: Please bring old gloves and a small bag.（古い手袋と小さなかばん�
 持ち物を伝えられたあとの返事なので、3「OK. I'll bring both.（わかった。どっちも持っていく）」が自然です。
 1「The park is near the school.（公園は学校の近く）」は場所、2「Cleaning is hard.（そうじは大変）」は感想で、持っていく返事ではありません。
 
+【ポイント9】
+種別: 会話
+見出し: What should we bring? のあとは了解 + 持っていく
+・OK. I'll bring both / 〜
+・場所やそうじの感想だけでは持ち物の返事にならない
+
 ---
+
 
 No.10:
 W: Tom looks happy today.
@@ -237,7 +300,14 @@ W: Where did he find it?（どこで見つけたの？）
 場所を聞いているので、2「Under his desk in the classroom.（教室の自分の机の下）」が自然です。
 1「Watches are useful.（腕時計は役に立つ）」は一般論、3「He is in Grade 4.（彼は4年生）」は学年で、見つけた場所ではありません。
 
+【ポイント10】
+種別: リスニング
+見出し: Where did 〜 find it? には見つけた場所で答える
+・Under / In / On + 場所
+・役に立つ・学年など、場所以外の話は答えではない
+
 ---
+
 
 No.11:
 W: There's a blue bag on this chair.
@@ -262,7 +332,14 @@ W: Whose bag is this?（これ、だれのカバン？）
 1「It's under the desk.（机の下だよ）」は場所、2「I like that color.（その色が好き）」は好みで、持ち主の答えではありません。
 ヒント：「Whose」と聞かれたら、人の名前で答える、と覚えておきましょう。ひっかけは場所や色です。
 
+【ポイント11】
+種別: リスニング
+見出し: Whose 〜? には人の名前・持ち主で答える
+・It's 〜's. / It belongs to 〜
+・場所や色の好みは持ち主の答えではない
+
 ---
+
 
 No.12:
 W: We have no milk at home.
@@ -287,7 +364,14 @@ W: Can you buy some at the shop?（お店で買ってきてくれる？）
 2「We need eggs too.（卵もいるね）」は別の買い物、3「The shop is new.（お店は新しい）」はお店の話で、買う返事ではありません。
 ヒント：「Can you ~?」はお願いなので、する／しないで答えます。ひっかけは別の買い物や店の説明です。
 
+【ポイント12】
+種別: 会話
+見出し: Can you buy / get 〜? には了解 + 行く・買う
+・Sure. I'll go after 〜 / OK. I'll buy 〜
+・別の買い物や店の説明だけでは依頼への返事にならない
+
 ---
+
 
 No.13:
 M: I want this green notebook.
@@ -312,7 +396,14 @@ M: Yes. How much is it?（うん。いくら？）
 1「I write every day.（毎日書く）」は習慣、3「Green is my favorite color.（緑がいちばん好きな色）」は好きな色で、値段の答えではありません。
 ヒント：「How much」は値段の聞き方です。色や習慣と混ぜないようにしましょう。
 
+【ポイント13】
+種別: リスニング
+見出し: How much is it? には値段で答える
+・It's 〜 yen. / It costs 〜
+・習慣や好きな色は値段の答えではない
+
 ---
+
 
 No.14:
 M: There's a school concert tonight.
@@ -337,7 +428,14 @@ M: What time does it start?（何時に始まる？）
 1「The hall is near the station.（ホールは駅の近く）」は場所、2「I like music.（音楽が好き）」は好き嫌いで、時刻の答えではありません。
 ヒント：「What time」と聞かれたら、時こくで答えます。場所や好き嫌いと混ぜないようにしましょう。
 
+【ポイント14】
+種別: リスニング
+見出し: What time does it start? には時刻で答える
+・At six thirty / At 〜
+・場所や好き嫌いは始まりの時刻ではない
+
 ---
+
 
 No.15:
 W: We'll have a picnic in the garden.
@@ -362,7 +460,14 @@ W: Can you bring a large blanket?（大きい毛布、持ってきてくれる�
 2「The picnic starts at two.（ピクニックは2時に始まる）」は時刻、3「I ate lunch already.（もう昼ごはんを食べた）」は食事で、持っていく返事ではありません。
 ヒント：聞かれたものを持っていく、と答えるのが自然です。ひっかけは開始時刻や食事です。
 
+【ポイント15】
+種別: 会話
+見出し: Can you bring 〜? には了解 + 持っていくもの
+・OK. I'll bring the 〜 one / Yes. I'll bring 〜
+・開始時刻や食事の話だけでは持ち物の返事にならない
+
 ---
+
 
 No.16:
 M: Look. My ball is on the roof.
@@ -387,7 +492,14 @@ M: How can I get it down?（どうやって下ろそう？）
 1「I like soccer.（サッカーが好き）」は好き嫌い、3「It fell there this morning.（けさあそこに落ちた）」はいつ落ちたかで、下ろし方ではありません。
 ヒント：「How can I」はやり方を聞く聞き方です。好き嫌いや落ちた時刻と混ぜないようにしましょう。
 
+【ポイント16】
+種別: リスニング
+見出し: How can I 〜? にはやり方・手段で答える
+・Use 〜 / Try 〜 / Ask 〜
+・好き嫌いや落ちた時刻は下ろし方・やり方ではない
+
 ---
+
 
 No.17:
 W: I borrowed this book yesterday.
@@ -412,7 +524,14 @@ W: Yes. When should I return it?（うん。いつ返せばいい？）
 1「I like stories.（物語が好き）」は好き嫌い、2「Take it to the front desk.（受付に持っていく）」は場所・やり方で、日の答えではありません。
 ヒント：「When」と聞かれたら、日や時刻で答えます。受付に持っていくは How / Where の答えです。
 
+【ポイント17】
+種別: リスニング
+見出し: When should I return 〜? には期限・日で答える
+・By next Friday / Before 〜 / On 〜
+・受付に持っていくなどは How / Where の答えで、When ではない
+
 ---
+
 
 No.18:
 M: I'm making pancakes.
@@ -437,7 +556,14 @@ M: Yes. Can you pass the eggs?（うん。卵、取ってくれる？）
 2「I like sweet food.（甘いものが好き）」は好み、3「I ate breakfast already.（もう朝ごはんを食べた）」は食事で、卵を渡す返事ではありません。
 ヒント：「Can you pass ~?」は「取って／渡して」のお願いです。好みや食事の話と混ぜないようにしましょう。
 
+【ポイント18】
+種別: 会話
+見出し: Can you pass 〜? には了解 + どこにあるか
+・Sure. They're in / on 〜
+・好みや食事の話だけでは「取って」への返事にならない
+
 ---
+
 
 No.19:
 M: The cafeteria is crowded.
@@ -462,7 +588,14 @@ M: Where should we sit?（どこに座ろう？）
 1「I like noodles.（めんが好き）」は好きな食べ物、3「Lunch is at twelve.（昼ごはんは12時）」は時刻で、場所の答えではありません。
 ヒント：「Where」と聞かれたら、場所で答えます。食べ物や時刻と混ぜないようにしましょう。
 
+【ポイント19】
+種別: リスニング
+見出し: Where should we sit / 〜? には場所で答える
+・At the table by 〜 / Near 〜
+・好きな食べ物や食事の時刻は座る場所ではない
+
 ---
+
 
 No.20:
 W: I want to see the puppet show.
@@ -486,3 +619,9 @@ W: How many tickets do we need?（切符は何枚いる？）
 枚数を聞いているので、3「Two tickets, I think.（2枚だと思う）」が自然です。
 1「It starts at three.（3時に始まる）」は時刻、2「The tickets are at the right window.（切符は右の窓口）」は場所で、枚数の答えではありません。
 ヒント：「How many」は数を聞く聞き方です。時刻や窓口の場所と混ぜないようにしましょう。
+
+【ポイント20】
+種別: リスニング
+見出し: How many 〜? には数・枚数で答える
+・Two tickets / Three 〜 / About 〜
+・開始時刻や窓口の場所は枚数・個数ではない
