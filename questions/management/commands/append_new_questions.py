@@ -255,7 +255,8 @@ class Command(BaseCommand):
                 if re.match(r'^\d+\.', line):
                     choices.append(re.sub(r'^\d+\.\s*', '', line))
             ans = int(a_match.group(1))
-            expl = e_match.group(1).strip() if e_match else ''
+            expl = extract_explanation(block) or (e_match.group(1).strip() if e_match else '')
+            study_points = extract_study_points(block)
             if dry:
                 self.stdout.write(f'[dry] {qtype} #{n} ({provenance})')
             else:
@@ -266,6 +267,7 @@ class Command(BaseCommand):
                     question_text=q_match.group(1).strip(),
                     explanation=expl,
                     question_number=n,
+                    study_points=study_points,
                 )
                 for order, text in enumerate(choices, 1):
                     Choice.objects.create(
@@ -364,7 +366,7 @@ class Command(BaseCommand):
             if not parsed:
                 self.stdout.write(self.style.WARNING(f'skip parse speaking #{n}'))
                 continue
-            question_text, explanation, speaking_data = parsed
+            question_text, explanation, speaking_data, study_points = parsed
             if dry:
                 self.stdout.write(f'[dry] speaking #{n} ({provenance})')
             else:
@@ -376,6 +378,7 @@ class Command(BaseCommand):
                     question_number=n,
                     explanation=explanation,
                     speaking_data=speaking_data,
+                    study_points=study_points,
                 )
             added += 1
         self.stdout.write(self.style.SUCCESS(f'speaking: +{added}'))
@@ -548,7 +551,8 @@ class Command(BaseCommand):
                 self.stdout.write(self.style.WARNING(f'skip ill #{n}'))
                 continue
             ans = int(a_match.group(1))
-            expl = e_match.group(1).strip() if e_match else ''
+            expl = extract_explanation(block) or (e_match.group(1).strip() if e_match else '')
+            study_points = extract_study_points(block)
             image = db_image_path_part1(level, f'listening_illustration_image{n}.png')
             audio = db_audio_path(level, 'part1', f'listening_illustration_question{n}.mp3')
             if dry:
@@ -563,6 +567,7 @@ class Command(BaseCommand):
                     image=image,
                     audio=audio,
                     correct_answer=str(ans),
+                    study_points=study_points,
                 )
                 for order, _text in enumerate(choices, 1):
                     ListeningChoice.objects.create(
@@ -633,7 +638,8 @@ class Command(BaseCommand):
                 self.stdout.write(self.style.WARNING(f'skip choices {qtype} #{n}'))
                 continue
             ans = int(am.group(1))
-            expl = em.group(1).strip() if em else ''
+            expl = extract_explanation(block) or (em.group(1).strip() if em else '')
+            study_points = extract_study_points(block)
             af = db_audio_path(level, part, f'{audio_prefix}{n}.mp3')
             if dry:
                 self.stdout.write(f'[dry] {qtype} #{n} ({provenance})')
@@ -647,6 +653,7 @@ class Command(BaseCommand):
                     explanation=expl,
                     audio_file=af,
                     question_number=n,
+                    study_points=study_points,
                 )
                 for order, text in enumerate(choices, 1):
                     Choice.objects.create(
