@@ -17,6 +17,13 @@ I want to study English now.
 2番目は want、4番目は study です。全文は「私はいま英語を勉強したいです」という意味です。
 want to + 原形 の形です。
 
+【ポイント1】
+種別: 文法
+見出し: want to + 原形（〜したい）
+・want to study / play / go
+・want のあとに原形だけはつけない（to がいる）
+・would like to も同じ to + 原形
+
 ---
 
 問題2:
@@ -37,6 +44,13 @@ want to + 原形 の形です。
 She asked me to open the window.
 2番目は asked、4番目は to です。全文は「彼女は私に窓を開けてくれるように頼んだ」という意味です。
 ask 人 to + 原形、の型です。
+
+【ポイント2】
+種別: 文法
+見出し: ask 人 to + 原形（〜するよう頼む）
+・asked me to open / help / wait
+・ask → 人 → to → 動詞、の順
+・tell 人 to 〜 も同じ語順
 
 ---
 
@@ -59,6 +73,13 @@ Can you help me with this bag?
 2番目は you、4番目は me です。全文は「この袋、手伝ってもらえますか」という意味です。
 疑問文では助動詞 Can が前に出ます。
 
+【ポイント3】
+種別: 文法
+見出し: Can you + 原形（〜してくれますか）
+・Can you help me with 〜?
+・疑問文では Can が文の先頭に出る
+・Could you 〜? もていねいな依頼
+
 ---
 
 問題4:
@@ -79,6 +100,13 @@ He ( ) [2番目] ( ) [4番目] ( ).
 He is looking for his keys.
 2番目は looking、4番目は his です。全文は「彼はかぎを探しています」という意味です。
 look for で「探す」です。
+
+【ポイント4】
+種別: 熟語
+見出し: look for（〜を探す）
+・is looking for his keys
+・look at は「見る」、look for は「探す」
+・find は「見つける」（結果）
 
 ---
 
@@ -101,6 +129,13 @@ We decided to stay home today.
 2番目は to、4番目は home です。全文は「私たちは今日、家にいることに決めました」という意味です。
 decide to + 原形の型です。
 
+【ポイント5】
+種別: 文法
+見出し: decide to + 原形（〜することに決める）
+・decided to stay / go / buy
+・decide のあとは to + 原形
+・decide 〜ing にはしない
+
 ---
 
 問題6:
@@ -121,6 +156,13 @@ Please ( ) [2番目] ( ) [4番目] ( ).
 Please tell me more about it.
 2番目は me、4番目は about です。全文は「それについてもっと教えてください」という意味です。
 tell 人 about 〜 の型です。
+
+【ポイント6】
+種別: 文法
+見出し: tell 人 about 〜（〜について話す）
+・tell me more about it
+・tell → 人 → about → こと、の順
+・say about 人 とはふつう言わない
 
 ---
 
@@ -143,6 +185,13 @@ What time does the train leave?
 2番目は time、4番目は the です。全文は「電車は何時に出発しますか」という意味です。
 疑問詞＋does＋主語＋原形、の順です。
 
+【ポイント7】
+種別: 文法
+見出し: What time does + 主語 + 原形？
+・What time does the train leave?
+・does のあとは動詞の原形
+・3人称・現在の疑問で does を使う
+
 ---
 
 問題8:
@@ -163,6 +212,13 @@ I ( ) [2番目] ( ) [4番目] ( ).
 I have never been there before.
 2番目は never、4番目は there です。全文は「私はそこに行ったことがありません」という意味です。
 have never been で「行ったことがない」です。
+
+【ポイント8】
+種別: 文法
+見出し: have never + 過去分詞（〜したことがない）
+・have never been / seen / eaten
+・be - was/were - been の変化
+・経験の現在完了の定番形
 
 ---
 
@@ -185,6 +241,13 @@ It is easy to make cakes.
 2番目は easy、4番目は make です。全文は「ケーキを作るのはかんたんです」という意味です。
 It is + 形容詞 + to + 原形、の型です。
 
+【ポイント9】
+種別: 文法
+見出し: It is + 形容詞 + to + 原形
+・It is easy to make cakes.
+・本当の主語は to 以下（ケーキを作ること）
+・It is important to 〜 も同じ型
+
 ---
 
 問題10:
@@ -205,6 +268,13 @@ It is + 形容詞 + to + 原形、の型です。
 Why don't you come along with us?
 2番目は don't、4番目は come です。全文は「いっしょに来ませんか」という意味です。
 Why don't you 〜? は提案のよくある型です。
+
+【ポイント10】
+種別: 会話
+見出し: Why don't you 〜?（提案）
+・Why don't you come along?
+・提案・誘いの定番
+・Why don't we 〜? も同じ使い方
 
 ---
 
@@ -229,6 +299,13 @@ He needs to get up early.
 ほかの並び：1は2番目が He で needs が2番目に来ません。3は4番目が to で、get up の位置がずれます。4は2番目が to です。
 ヒント：need to のあとは動詞の原形です。He を2番目に置かないようにしましょう。
 
+【ポイント11】
+種別: 文法
+見出し: need to + 原形（〜する必要がある）
+・needs to get up early
+・need to のあとは動詞の原形
+・get up = 起きる（句動詞）
+
 ---
 
 問題12:
@@ -251,6 +328,13 @@ She has just washed her dishes.
 正しい順は has → just → washed → her → dishes です。has just + 過去分詞 で「ちょうど〜したところ」です。
 ほかの並び：2と4は2番目が has になり、just が2番目に来ません。3は4番目が washed で、her dishes の位置がずれます。
 ヒント：have / has のあとに just / already / never が来ることが多いです。
+
+【ポイント12】
+種別: 文法
+見出し: have just + 過去分詞（ちょうど〜した）
+・has just washed / finished / arrived
+・just / already / never は have の直後が多い
+・wash - washed - washed
 
 ---
 
@@ -275,6 +359,13 @@ I have to finish it now.
 ほかの並び：1と4は2番目が I になり、have が2番目に来ません。3は4番目が to で、finish の位置がずれます。
 ヒント：have to のあとは動詞の原形です。I を2番目に置かないようにしましょう。
 
+【ポイント13】
+種別: 文法
+見出し: have to + 原形（〜しなければならない）
+・have to finish / go / study
+・have to のあとは動詞の原形
+・must に近い意味の義務
+
 ---
 
 問題14:
@@ -297,6 +388,13 @@ Mom told me to wait here.
 正しい順は Mom → told → me → to → wait です。tell 人 to + 原形 の型です。
 ほかの並び：1は2番目が Mom で told が2番目に来ません。2は4番目が me で、to wait の位置がずれます。4は2番目が to です。
 ヒント：tell / ask 人 to 〜、の順を覚えましょう。to wait を先にまとめないようにします。
+
+【ポイント14】
+種別: 文法
+見出し: tell 人 to + 原形（〜するように言う）
+・told me to wait / study / come
+・tell → 人 → to → 動詞
+・ask 人 to 〜 も同じ語順
 
 ---
 
@@ -321,6 +419,13 @@ They have lived here for two years.
 ほかの並び：1と4は2番目が They になり、have が2番目に来ません。3は4番目が lived で、here の位置がずれます。
 ヒント：have + 過去分詞 のあとに場所、そのあと for + 期間、の順です。
 
+【ポイント15】
+種別: 文法
+見出し: have + 過去分詞 + for（〜のあいだずっと）
+・have lived here for two years
+・live - lived - lived
+・for + 期間、since + 時点
+
 ---
 
 問題16:
@@ -343,6 +448,13 @@ I would like to try this soup.
 正しい順は I → would → like → to → try です。would like to + 原形 でていねいに「〜したい」です。
 ほかの並び：1と3は2番目が I になり、would が2番目に来ません。2は4番目が like で、to try の位置がずれます。
 ヒント：would like to は want to より少していねい、と覚えると使いやすいです。
+
+【ポイント16】
+種別: 文法
+見出し: would like to + 原形（〜したい）
+・would like to try / go / eat
+・want to より少していねい
+・Would you like to 〜? は誘い
 
 ---
 
@@ -367,6 +479,13 @@ Could you show me this picture?
 ほかの並び：2と4は2番目が Could になり、you が2番目に来ません。3は4番目が show で、me の位置がずれます。
 ヒント：Could you + 原形 + 人、の順です。Could を2番目に残さないようにしましょう。
 
+【ポイント17】
+種別: 文法
+見出し: Could you + 原形（ていねいな依頼）
+・Could you show me 〜?
+・Could が先頭、あとは原形
+・Can you よりていねい
+
 ---
 
 問題18:
@@ -389,6 +508,13 @@ This bridge was built last year.
 正しい順は This → bridge → was → built → last です。was + 過去分詞 で受動態です。
 ほかの並び：1と4は2番目が This になり、bridge が2番目に来ません。3は4番目が was で、built の位置がずれます。
 ヒント：be動詞 + 過去分詞 で「〜される／された」です。was を built のあとに置かないようにしましょう。
+
+【ポイント18】
+種別: 文法
+見出し: 受動態 be + 過去分詞（〜される）
+・was built / made / written
+・build - built - built
+・動作をした人は by 〜 で表せる
 
 ---
 
@@ -413,6 +539,13 @@ He tried to find the answer.
 ほかの並び：1と2は2番目が tried になり、to が2番目に来ません。3は4番目が find で、the answer の位置がずれます。
 ヒント：try to のあとは動詞の原形です。to の直後に the を置かないようにしましょう。
 
+【ポイント19】
+種別: 文法
+見出し: try to + 原形（〜しようとする）
+・tried to find / open / help
+・try to のあとは動詞の原形
+・try 〜ing は「試してみる」で少し意味が違う
+
 ---
 
 問題20:
@@ -435,5 +568,312 @@ I have not seen that movie yet.
 正しい順は have → not → seen → that → movie です。have not + 過去分詞 で「まだ〜していない」です。
 ほかの並び：1と4は2番目が have になり、not が2番目に来ません。2は4番目が seen で、that movie の位置がずれます。
 ヒント：have not のあとは過去分詞、文末の yet とセットで覚えると使いやすいです。
+
+【ポイント20】
+種別: 文法
+見出し: have not + 過去分詞 + yet（まだ〜していない）
+・have not seen 〜 yet
+・see - saw - seen
+・yet は疑問・否定で「もう／まだ」
+
+---
+
+問題21:
+私は音楽を聴くのが好きです。
+① listening ② enjoy ③ to ④ music ⑤ I
+( ) [2番目] ( ) [4番目] ( ).
+
+選択肢21:
+1. ② ─ ③
+2. ① ─ ③
+3. ② ─ ①
+4. ⑤ ─ ②
+
+【正解21】
+1. ② ─ ③
+
+【解説21】
+I enjoy listening to music.
+2番目は enjoy、4番目は to です。全文は「私は音楽を聴くのが好きです」という意味です。
+正しい順は I → enjoy → listening → to → music です。enjoy + 〜ing の型です。
+ほかの並び：2は2番目が listening です。3は4番目が listening で、to music の位置がずれます。4は2番目が I です。
+ヒント：enjoy のあとは to ではなく 〜ing です。
+
+【ポイント21】
+種別: 文法
+見出し: enjoy + 〜ing（〜するのを楽しむ）
+・enjoy listening / playing / reading
+・enjoy のあとに to + 原形はつけない
+・like 〜ing も近い意味
+
+---
+
+問題22:
+私たちはポスター作りを終えました。
+① making ② We ③ finished ④ the ⑤ poster
+( ) [2番目] ( ) [4番目] ( ).
+
+選択肢22:
+1. ③ ─ ①
+2. ② ─ ③
+3. ① ─ ④
+4. ③ ─ ④
+
+【正解22】
+4. ③ ─ ④
+
+【解説22】
+We finished making the poster.
+2番目は finished、4番目は the です。全文は「私たちはポスター作りを終えました」という意味です。
+正しい順は We → finished → making → the → poster です。finish + 〜ing の型です。
+ほかの並び：1は4番目が making です。2は2番目が We です。3は2番目が making です。
+ヒント：finish のあとは 〜ing（making / writing / cleaning）です。
+
+【ポイント22】
+種別: 文法
+見出し: finish + 〜ing（〜し終える）
+・finish making / writing / cleaning
+・finish to 〜 にはしない
+・finish のあとは必ず 〜ing
+
+---
+
+問題23:
+彼は絵を描くのに時間を使います。
+① time ② spends ③ drawing ④ pictures ⑤ He
+( ) [2番目] ( ) [4番目] ( ).
+
+選択肢23:
+1. ② ─ ①
+2. ② ─ ③
+3. ⑤ ─ ②
+4. ① ─ ③
+
+【正解23】
+2. ② ─ ③
+
+【解説23】
+He spends time drawing pictures.
+2番目は spends、4番目は drawing です。全文は「彼は絵を描くのに時間を使います」という意味です。
+正しい順は He → spends → time → drawing → pictures です。spend time + 〜ing の型です。
+ほかの並び：1は4番目が time です。3は2番目が He です。4は2番目が time です。
+ヒント：spend time のあとは 〜ing です。
+
+【ポイント23】
+種別: 文法
+見出し: spend time + 〜ing（〜して時を過ごす）
+・spend time drawing / reading / playing
+・spend のあとに場所だけを置く型とは別
+・pictures は drawing の目的語
+
+---
+
+問題24:
+トムは自転車に乗ることができます。
+① able ② is ③ to ④ ride ⑤ Tom
+( ) [2番目] ( ) [4番目] ( ) a bike.
+
+選択肢24:
+1. ② ─ ①
+2. ① ─ ④
+3. ② ─ ③
+4. ⑤ ─ ②
+
+【正解24】
+3. ② ─ ③
+
+【解説24】
+Tom is able to ride a bike.
+2番目は is、4番目は to です。全文は「トムは自転車に乗ることができます」という意味です。
+正しい順は Tom → is → able → to → ride です。be able to + 原形 の型です。
+ほかの並び：1は4番目が able です。2は2番目が able です。4は2番目が Tom です。
+ヒント：be able to のあとは動詞の原形です。can に近い意味です。
+
+【ポイント24】
+種別: 文法
+見出し: be able to + 原形（〜することができる）
+・is / are / was able to + 原形
+・can と近い意味
+・able のあとにすぐ原形を置かない（to が必要）
+
+---
+
+問題25:
+私の妹はよく歌っていました。
+① used ② sister ③ to ④ sing ⑤ My
+( ) [2番目] ( ) [4番目] ( ) well.
+
+選択肢25:
+1. ② ─ ③
+2. ① ─ ③
+3. ② ─ ①
+4. ⑤ ─ ②
+
+【正解25】
+1. ② ─ ③
+
+【解説25】
+My sister used to sing well.
+2番目は sister、4番目は to です。全文は「私の妹はよく歌っていました」という意味です。
+正しい順は My → sister → used → to → sing です。used to + 原形 の型です。
+ほかの並び：2は2番目が used です。3は4番目が used です。4は2番目が My です。
+ヒント：used to は「以前は〜していた（今は違う）」の意味です。
+
+【ポイント25】
+種別: 文法
+見出し: used to + 原形（以前は〜していた）
+・used to sing / live / play
+・今はしていない習慣の話に使う
+・be used to 〜ing（慣れている）とは別物
+
+---
+
+問題26:
+私は何か食べるものが必要です。
+① something ② need ③ to ④ eat ⑤ I
+( ) [2番目] ( ) [4番目] ( ) soon.
+
+選択肢26:
+1. ② ─ ①
+2. ① ─ ③
+3. ⑤ ─ ②
+4. ② ─ ③
+
+【正解26】
+4. ② ─ ③
+
+【解説26】
+I need something to eat soon.
+2番目は need、4番目は to です。全文は「私はすぐに何か食べるものが必要です」という意味です。
+正しい順は I → need → something → to → eat です。something to + 原形 の型です。
+ほかの並び：1は4番目が something です。2は2番目が something です。3は2番目が I です。
+ヒント：something / anything / nothing + to + 原形 で「〜するためのもの」です。
+
+【ポイント26】
+種別: 文法
+見出し: something to + 原形（〜するもの）
+・something to eat / drink / write
+・to のあとは動詞の原形
+・need something to 〜 の語順に注意
+
+---
+
+問題27:
+父は私に心配しないように言いました。
+① me ② told ③ not ④ to ⑤ Dad
+( ) [2番目] ( ) [4番目] ( ) worry.
+
+選択肢27:
+1. ② ─ ①
+2. ② ─ ③
+3. ① ─ ④
+4. ⑤ ─ ②
+
+【正解27】
+2. ② ─ ③
+
+【解説27】
+Dad told me not to worry.
+2番目は told、4番目は not です。全文は「父は私に心配しないように言いました」という意味です。
+正しい順は Dad → told → me → not → to です。tell 人 not to + 原形 の型です。
+ほかの並び：1は4番目が me です。3は2番目が me です。4は2番目が Dad です。
+ヒント：tell 人 to 〜 の否定は tell 人 not to 〜 です。don't を入れません。
+
+【ポイント27】
+種別: 文法
+見出し: tell 人 not to + 原形（〜しないように言う）
+・told me not to worry / shout / run
+・ask 人 not to 〜 も同じ語順
+・not は to の直前に置く
+
+---
+
+問題28:
+あなたはこの歌が好きかもしれません。
+① might ② You ③ like ④ this ⑤ song
+( ) [2番目] ( ) [4番目] ( ).
+
+選択肢28:
+1. ① ─ ③
+2. ② ─ ①
+3. ① ─ ④
+4. ③ ─ ④
+
+【正解28】
+3. ① ─ ④
+
+【解説28】
+You might like this song.
+2番目は might、4番目は this です。全文は「あなたはこの歌が好きかもしれません」という意味です。
+正しい順は You → might → like → this → song です。might + 原形 の型です。
+ほかの並び：1は4番目が like です。2は2番目が You です。4は2番目が like です。
+ヒント：might のあとは to なしの原形です。
+
+【ポイント28】
+種別: 文法
+見出し: might + 原形（〜かもしれない）
+・might like / rain / come
+・may より少し確信度が低いことが多い
+・might to 〜 にはしない
+
+---
+
+問題29:
+その赤ちゃんはずっと泣き続けていました。
+① kept ② baby ③ crying ④ all ⑤ The
+( ) [2番目] ( ) [4番目] ( ) night.
+
+選択肢29:
+1. ① ─ ③
+2. ② ─ ①
+3. ⑤ ─ ②
+4. ② ─ ③
+
+【正解29】
+4. ② ─ ③
+
+【解説29】
+The baby kept crying all night.
+2番目は baby、4番目は crying です。全文は「その赤ちゃんは一晩中泣き続けていました」という意味です。
+正しい順は The → baby → kept → crying → all です。keep + 〜ing の型です。
+ほかの並び：1は2番目が kept です。2は4番目が kept です。3は2番目が The です。
+ヒント：keep 〜ing は「〜し続ける」です。
+
+【ポイント29】
+種別: 文法
+見出し: keep + 〜ing（〜し続ける）
+・keep crying / practicing / trying
+・all night = 一晩中
+・keep to 〜 はこの意味では使わない
+
+---
+
+問題30:
+私は歩くほうを乗り物に乗るより好みます。
+① walking ② prefer ③ to ④ riding ⑤ I
+( ) [2番目] ( ) [4番目] ( ).
+
+選択肢30:
+1. ② ─ ③
+2. ② ─ ①
+3. ① ─ ③
+4. ⑤ ─ ②
+
+【正解30】
+1. ② ─ ③
+
+【解説30】
+I prefer walking to riding.
+2番目は prefer、4番目は to です。全文は「私は乗り物に乗るより歩くほうを好みます」という意味です。
+正しい順は I → prefer → walking → to → riding です。prefer A to B の型です。
+ほかの並び：2は4番目が walking です。3は2番目が walking です。4は2番目が I です。
+ヒント：prefer A to B で「BよりAが好き」です。A と B は同じ形（ここではどちらも 〜ing）にそろえます。
+
+【ポイント30】
+種別: 文法
+見出し: prefer A to B（BよりAを好む）
+・prefer walking to riding
+・A と B は名詞または 〜ing でそろえる
+・look forward to 〜ing とは別の型
 
 ---

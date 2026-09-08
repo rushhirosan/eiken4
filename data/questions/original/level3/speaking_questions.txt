@@ -3,13 +3,13 @@
 After-School Time
 
 【Passage】
-Many students stay at school after classes. Some join clubs and practice hard. Others study in the library or talk with friends. It is a busy but happy time of the day.
+Many students stay at school after classes because they join clubs or study with friends. Some practice hard for games. Others talk quietly in the library. It is a busy but happy time of the day.
 
 【Illustration】
 校庭。女子生徒がサッカーボールをけっている。男子生徒がベンチで水筒の水を飲んでいる。先生が時計を見ている。
 
 【Questions】
-1. [passage] When do many students stay at school?
+1. [passage] Why do many students stay at school after classes?
 2. [illustration] What is the girl doing?
 3. [illustration] What is the boy doing?
 4. [personal] Do you stay at school after classes?
@@ -20,18 +20,25 @@ Many students stay at school after classes. Some join clubs and practice hard. O
 約30語を黙読・音読し、内容1問・イラスト2問のあと、自分のこと2問に答えます。
 
 ■ 音読のポイント
-・after classes / library / busy but happy をはっきり読む
+・after classes / because / library / busy but happy をはっきり読む
 ・一文ずつ区切る
 
 ■ 参考解答の例
-1. They stay at school after classes. / After classes.
+1. Because they join clubs or study with friends. / To join clubs or study.
 2. She is kicking a soccer ball. / Playing soccer.
 3. He is drinking water. / He is sitting on a bench.
 4. Yes, I do. / No, I don't.
 5. I join a club. / I study at home. / I play games.
 
 ■ 表現のメモ
-イラストは進行形（is -ing）で答えると自然です。No.4・5は自分の答えでOKです。
+Why には Because ... や To ... で答えると自然です。イラストは進行形（is -ing）で答えます。No.4・5は自分の答えでOKです。
+
+【ポイント1】
+種別: 会話
+見出し: 内容の Why には Because / To で答える
+・Why 〜? → Because 〜. / To 〜.
+・イラストは What is 〜 doing? → is -ing
+・自分のことは Yes, I do. / No, I don't. も使える
 
 ---
 
@@ -46,7 +53,7 @@ On rainy weekends, some families stay indoors. They cook together, watch movies,
 リビング。お父さんがフライパンで料理をしている。お母さんがテーブルでカードゲームをしている。子どもが窓の外の雨を見ている。
 
 【Questions】
-1. [passage] What do some families do on rainy weekends?
+1. [passage] Which activities do some families do indoors on rainy weekends?
 2. [illustration] What is the man doing?
 3. [illustration] What is the child doing?
 4. [personal] Do you stay home on rainy days?
@@ -61,14 +68,21 @@ On rainy weekends, some families stay indoors. They cook together, watch movies,
 ・does not stop もはっきり
 
 ■ 参考解答の例
-1. They stay indoors. / They cook, watch movies, or play games.
+1. They cook, watch movies, or play board games. / Cooking, watching movies, or playing games.
 2. He is cooking. / He is using a frying pan.
 3. The child is looking at the rain. / Looking out the window.
 4. Yes, I do. / No, I don't.
 5. I watch movies. / I play sports. / I read books.
 
 ■ 表現のメモ
-No.1 は本文の主情報。イラストは本文と同じでなくても、絵に見えることを言います。
+No.1 の Which は本文に並んだ活動から答えます。イラストは本文と同じでなくても、絵に見えることを言います。
+
+【ポイント2】
+種別: 会話
+見出し: 内容の Which には本文のものを選ぶ
+・Which 〜? は本文に並んだものから答える
+・イラストは絵に見えることを進行形で言う
+・本文とイラストが違っても絵の事実で答える
 
 ---
 
@@ -83,7 +97,7 @@ The school library is quiet in the morning. Students can borrow storybooks and s
 図書館。女子生徒が棚から本を取っている。男子生徒が机でノートに書いている。司書がカウンターで本にスタンプを押している。
 
 【Questions】
-1. [passage] When is the school library quiet?
+1. [passage] Which books can students borrow from the school library?
 2. [illustration] What is the girl doing?
 3. [illustration] What is the librarian doing?
 4. [personal] Do you often go to a library?
@@ -95,17 +109,24 @@ The school library is quiet in the morning. Students can borrow storybooks and s
 
 ■ 音読のポイント
 ・quiet / borrow / librarian をはっきり
-・comics / before class も丁寧に
+・storybooks / study guides も丁寧に
 
 ■ 参考解答の例
-1. It is quiet in the morning. / In the morning.
+1. Storybooks and study guides. / They can borrow storybooks and study guides.
 2. She is taking a book from the shelf. / Choosing a book.
 3. She is stamping books. / Helping at the counter.
 4. Yes, I do. / No, I don't.
 5. I like comics. / I like mystery books. / I like science books.
 
 ■ 表現のメモ
-No.1 は when（いつ）。イラストの司書は librarian です。
+No.1 は Which（どの本）。comics は借りる本の例ではなく、読む場面の話です。イラストの司書は librarian です。
+
+【ポイント3】
+種別: 会話
+見出し: 内容の Which は借りられるものなどを拾う
+・Which books / things? → 本文の名詞を答える
+・イラストは人ごとに Who を取り違えない
+・自分の好みは What kind of 〜 do you like?
 
 ---
 
@@ -120,11 +141,11 @@ Some towns have a morning market on Sundays. People buy fresh vegetables and fru
 市場。お店の人がトマトを箱に並べている。お客さんがりんごを持っている。子どもが大きな袋を両手で持っている。
 
 【Questions】
-1. [passage] When do some towns have a morning market?
+1. [passage] Which things do people buy at the morning market?
 2. [illustration] What is the shopkeeper doing?
 3. [illustration] What is the child doing?
 4. [personal] Do you go shopping with your family?
-5. [personal] What food do you like to buy?
+5. [personal] Can you help your family carry shopping bags?
 
 【参考解答】
 ■ この問題で求められること
@@ -135,14 +156,21 @@ Some towns have a morning market on Sundays. People buy fresh vegetables and fru
 ・noisy but friendly の対比を意識
 
 ■ 参考解答の例
-1. On Sundays. / They have it on Sundays.
+1. Fresh vegetables and fruit. / They buy vegetables and fruit.
 2. He is putting tomatoes in a box. / Arranging tomatoes.
 3. The child is carrying a big bag. / Holding a bag.
 4. Yes, I do. / No, I don't.
-5. I like fruit. / I like bread. / I like snacks.
+5. Yes, I can. / No, I can't. / Yes, I can carry light bags.
 
 ■ 表現のメモ
-carry bags は「袋を持つ／運ぶ」。No.5 は好きな食べ物を短くでOKです。
+No.1 の Which は買うもの。No.5 の Can you は Yes, I can. / No, I can't. で答え、一言足してもよいです。
+
+【ポイント4】
+種別: 会話
+見出し: Can you 〜? には Yes, I can. / No, I can't.
+・能力・手伝いの質問は can で答える
+・Which things? は買うもの・見るものを本文から
+・イラストは is -ing / is holding など
 
 ---
 
@@ -151,13 +179,13 @@ carry bags は「袋を持つ／運ぶ」。No.5 は好きな食べ物を短く�
 Science Fair
 
 【Passage】
-Once a year, the school holds a science fair. Students show experiments and posters in the gym. Parents come to ask questions. Many students feel nervous but proud.
+Once a year, the school holds a science fair. Students show experiments and posters in the gym. Parents come to ask questions. Many students feel nervous but proud because they share their work.
 
 【Illustration】
 体育館。男子生徒が机の上の火山モデルを指さしている。女子生徒がポスターの前に立っている。保護者がメモを取っている。
 
 【Questions】
-1. [passage] Where do students show their work?
+1. [passage] Why do many students feel nervous but proud?
 2. [illustration] What is the boy doing?
 3. [illustration] What is the parent doing?
 4. [personal] Have you ever joined a school event?
@@ -169,17 +197,24 @@ Once a year, the school holds a science fair. Students show experiments and post
 
 ■ 音読のポイント
 ・science fair / experiments / nervous but proud を丁寧に
-・Once a year もはっきり
+・because they share もはっきり
 
 ■ 参考解答の例
-1. In the gym. / They show them in the gym.
+1. Because they share their work. / Because parents ask about their work.
 2. He is pointing at a volcano model. / Showing a model.
 3. The parent is taking notes. / Writing a memo.
 4. Yes, I have. / No, I haven't.
 5. I like the sports day. / I like the school festival. / I like the concert.
 
 ■ 表現のメモ
-No.4 は経験なので Yes, I have. / No, I haven't. も使えます。
+No.1 は Why。本文の because のあとが答えです。No.4 は経験なので Yes, I have. / No, I haven't. も使えます。
+
+【ポイント5】
+種別: 会話
+見出し: Why の答えは本文の because のあと
+・Why 〜? → Because 〜. を本文から取る
+・Have you ever 〜? → Yes, I have. / No, I haven't.
+・イラストは指さす・立っているなど見える動作
 
 ---
 
@@ -218,6 +253,13 @@ Many classes clean their rooms after lunch. Some students wipe the desks. Others
 ■ 表現のメモ
 No.1 は本文1文目の after lunch が答えです。short but useful はそうじの印象なので、いつするかの答えではありません。イラストは進行形（is -ing）で答えると自然です。No.4・5は自分の答えでOKです。
 
+【ポイント6】
+種別: 会話
+見出し: 内容の When は本文の時刻・タイミング
+・When 〜? → after lunch / in the morning など
+・印象の形容（short but useful）を When の答えにしない
+・イラストは進行形で答える
+
 ---
 
 問題7:
@@ -231,10 +273,10 @@ The school band practices in the music room before contests. Students play trump
 音楽室。男子生徒がトランペットを吹いている。女子生徒がフルートを持っている。先生が手をたたいている。
 
 【Questions】
-1. [passage] Where does the school band practice?
+1. [passage] Why does the teacher clap during practice?
 2. [illustration] What is the boy doing?
 3. [illustration] What is the teacher doing?
-4. [personal] Do you play a musical instrument?
+4. [personal] Can you play a musical instrument?
 5. [personal] What kind of music do you like?
 
 【参考解答】
@@ -243,17 +285,24 @@ The school band practices in the music room before contests. Students play trump
 
 ■ 音読のポイント
 ・music room / trumpets / carefully を丁寧に
-・before contests もはっきり
+・to keep the beat もはっきり
 
 ■ 参考解答の例
-1. In the music room. / They practice in the music room.
+1. To keep the beat. / Because the teacher wants to keep the beat.
 2. He is playing the trumpet. / Playing the trumpet.
 3. The teacher is clapping. / Keeping the beat.
-4. Yes, I do. / No, I don't.
+4. Yes, I can. / No, I can't. / Yes, I can play the piano.
 5. I like pop music. / I like anime songs. / I like piano music.
 
 ■ 表現のメモ
-No.1 は where（どこ）。before contests はいつ練習するかで、場所の答えではありません。イラストの女の子はフルートを持っていますが、No.2 は男の子、No.3 は先生です。人を取り違えないようにしましょう。
+No.1 は Why。本文の to keep the beat が目的です。No.4 の Can you は Yes, I can. / No, I can't. で答えます。イラストの女の子はフルートを持っていますが、No.2 は男の子、No.3 は先生です。
+
+【ポイント7】
+種別: 会話
+見出し: Why は目的・理由（to / because）
+・Why does 〜? → To keep the beat. / Because 〜.
+・Can you play 〜? → Yes, I can. / No, I can't.
+・イラストの人と質問の主語を取り違えない
 
 ---
 
@@ -268,7 +317,7 @@ On quiet Sunday mornings, some families walk along the river to watch birds. The
 川べり。子どもが水面を指さしている。お父さんが双眼鏡を持っている。お母さんがノートを開いている。
 
 【Questions】
-1. [passage] What do some families do on quiet Sunday mornings?
+1. [passage] Why do some families walk along the river on quiet Sunday mornings?
 2. [illustration] What is the child doing?
 3. [illustration] What is the man holding?
 4. [personal] Have you ever watched birds?
@@ -280,17 +329,24 @@ On quiet Sunday mornings, some families walk along the river to watch birds. The
 
 ■ 音読のポイント
 ・quiet Sunday mornings / binoculars / herons をはっきり
-・cool and slow も丁寧に
+・to watch birds も丁寧に
 
 ■ 参考解答の例
-1. They watch birds. / They walk along the river to watch birds.
+1. To watch birds. / Because they want to watch birds.
 2. The child is pointing at the water. / Pointing at a heron.
 3. He is holding binoculars. / Binoculars.
 4. Yes, I have. / No, I haven't.
 5. I eat breakfast. / I read books. / I walk my dog.
 
 ■ 表現のメモ
-No.1 は本文の主情報（鳥を見る）。双眼鏡やノートは持ち物なので、何をするかの答えの中心ではありません。No.4 は経験なので Yes, I have. / No, I haven't. も使えます。
+No.1 は Why。本文の to watch birds が目的です。双眼鏡やノートは持ち物なので、目的の答えの中心ではありません。No.4 は経験なので Yes, I have. / No, I haven't. も使えます。
+
+【ポイント8】
+種別: 会話
+見出し: Why は to + 動詞の目的が多い
+・Why do they 〜? → To watch birds.
+・Have you ever 〜? は経験の答え
+・持ち物（双眼鏡など）を目的の答えにしない
 
 ---
 
@@ -329,6 +385,13 @@ Once a week, neighbors gather in the park before breakfast. They stretch and fol
 ■ 表現のメモ
 No.1 は How often（どのくらいの頻度）なので、Once a week が答えです。before breakfast は集まる時間で、頻度の答えではありません。イラストは絵に見えることを進行形で言います。
 
+【ポイント9】
+種別: 会話
+見出し: How often には頻度で答える
+・How often? → Once a week. / Every day.
+・時刻（before breakfast）を頻度の答えにしない
+・イラストは絵の動作を is -ing で
+
 ---
 
 問題10:
@@ -365,5 +428,12 @@ Many students visit the city museum on field trips. They look at old tools and w
 
 ■ 表現のメモ
 No.1 は look at の目的語（old tools）です。write notes は別の行動、guide は案内係の話なので、見ているものの答えではありません。No.5 は見たいものを短く言えばOKです。
+
+【ポイント10】
+種別: 会話
+見出し: What do they look at? は目的語を取る
+・look at のあとの名詞が答え
+・別の行動（write notes）を答えにしない
+・自分のことは短く具体的に言えばOK
 
 ---

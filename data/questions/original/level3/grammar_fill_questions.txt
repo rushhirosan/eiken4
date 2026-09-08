@@ -537,3 +537,812 @@ This game is ( ) popular in our school.
 ・than があるときは比較級 more（最上級ではない）
 
 ---
+問題21:
+Rina enjoys ( ) pictures of birds in the park.
+
+選択肢21:
+1. draw
+2. drawing
+3. to drawing
+4. drew
+
+【正解21】
+2. drawing
+
+【解説21】
+正解は「drawing」です。「enjoy + 〜ing」で「〜することを楽しむ」という意味になります。
+文全体は「リナは公園で鳥の絵をかくのを楽しんでいます」という意味です。enjoy のあとは to ではなく、動詞の -ing 形が続きます。
+ひっかけ：「draw」は原形、「drew」は過去形で、enjoy のあとに続きません。「to drawing」は to と -ing を混ぜた形でまちがいです。
+ヒント：enjoy / finish / keep / spend time のあとは -ing、とセットで覚えましょう。
+
+【ポイント21】
+種別: 文法
+見出し: enjoy / finish / keep / spend time + -ing（〜すること）
+・enjoy drawing = 絵をかくのを楽しむ
+・finish doing / keep walking / spend time reading も同じ形
+・want / hope のあとの to + 原形とまちがえない
+
+---
+
+問題22:
+A : Would you mind ( ) the window? It's hot in here. B : Not at all.
+
+選択肢22:
+1. opening
+2. open
+3. to open
+4. opened
+
+【正解22】
+1. opening
+
+【解説22】
+正解は「opening」です。「Would you mind + 〜ing」で「〜してくれませんか」とていねいに頼む言い方です。
+文全体は「窓を開けてくれませんか。ここ、暑いんです」「もちろんいいよ」という会話です。
+ひっかけ：「open / opened」は mind のあとの形ではありません。「to open」は want to open など別の動詞の形です。
+ヒント：Would you mind のあとは必ず -ing。答えの Not at all. は「かまわないよ」の意味です。
+
+【ポイント22】
+種別: 文法
+見出し: Would you mind + -ing（〜してくれませんか）
+・ていねいなお願いの定番形
+・mind のあとは -ing（opening / waiting）
+・OK / Not at all. で「いいよ」と答えられる
+
+---
+
+問題23:
+This box is ( ) heavy for me to carry alone.
+
+選択肢23:
+1. enough
+2. so
+3. too
+4. very
+
+【正解23】
+3. too
+
+【解説23】
+正解は「too」です。「too + 形容詞 + to + 原形」で「〜すぎて…できない」という意味になります。
+文全体は「この箱は重すぎて、私ひとりでは運べません」という意味です。「ひとりでは運べない」という結果が to carry に続いています。
+ひっかけ：「enough」は enough to（〜するのに十分な）で、意味が逆方向です。「so / very」は「とても」だけで、この to とのセットにはなりません。
+ヒント：too 〜 to do = 〜すぎて…できない、とまとめて覚えましょう。
+
+【ポイント23】
+種別: 文法
+見出し: too + 形容詞 + to + 原形（〜すぎて…できない）
+・too heavy to carry = 重すぎて運べない
+・enough to は「十分なのでできる」（意味がほぼ反対）
+・very は to とセットでは使わない
+
+---
+
+問題24:
+Kenta is old ( ) to stay home alone for a few hours.
+
+選択肢24:
+1. too
+2. so
+3. very
+4. enough
+
+【正解24】
+4. enough
+
+【解説24】
+正解は「enough」です。「形容詞 + enough + to + 原形」で「〜するのにもう十分（なだけ）〜だ」という意味です。
+文全体は「ケンタは、数時間ひとりで家にいるのに十分な年齢です」という意味です。
+ひっかけ：「too」だと too old to stay（年をとりすぎていられない）になり、意味が合いません。「so / very」はこの enough to の形には入りません。
+ヒント：形は「形容詞 + enough to do」。too 〜 to と向きが違うので注意です。
+
+【ポイント24】
+種別: 文法
+見出し: 形容詞 + enough + to + 原形（〜するのに十分な）
+・old enough to 〜 = 〜できる年齢だ
+・too 〜 to は「すぎてできない」
+・enough は形容詞の後ろに置く
+
+---
+
+問題25:
+I'm thirsty. Do you have ( ) to drink?
+
+選択肢25:
+1. something
+2. anything
+3. nothing
+4. everything
+
+【正解25】
+1. something
+
+【解説25】
+正解は「something」です。「something to + 原形」で「何か飲むもの」のように、「〜するための何か」を表します。
+文全体は「のどがかわいた。何か飲むものはある？」という意味です。ほしいものがありそうな聞き方なので something が自然です。
+ひっかけ：「anything」は否定文や、本当に何でもよい強い疑問でよく使います。「nothing（何もない）」「everything（すべて）」はこの文の意味に合いません。
+ヒント：something / anything / nothing + to do の形をセットで覚えましょう。
+
+【ポイント25】
+種別: 文法
+見出し: something / anything + to + 原形（〜するもの）
+・something to drink = 何か飲むもの
+・anything to eat は「食べるもの（何かある？）」にも使える
+・to のあとは原形（to drink / to read）
+
+---
+
+問題26:
+It is important for students ( ) every day.
+
+選択肢26:
+1. study
+2. to study
+3. studying
+4. studied
+
+【正解26】
+2. to study
+
+【解説26】
+正解は「to study」です。「It is + 形容詞 + for + 人 + to + 原形」で「人が〜することは…だ」という意味になります。
+文全体は「生徒が毎日勉強することは大切です」という意味です。本当の主語にあたる内容が to study の部分です。
+ひっかけ：「study」だけだと to が足りません。「studying / studied」はこの for 人 to の形には合いません。
+ヒント：It is fun / hard / important for 人 to do 〜、の型をそのまま覚えましょう。
+
+【ポイント26】
+種別: 文法
+見出し: It is + 形容詞 + for + 人 + to do（人が〜するのは…だ）
+・It is important for us to sleep well.
+・for のあとに「誰にとってか」を入れる
+・to のあとは必ず原形
+
+---
+
+問題27:
+I have a friend ( ) mother works at the library.
+
+選択肢27:
+1. who
+2. which
+3. whose
+4. where
+
+【正解27】
+3. whose
+
+【解説27】
+正解は「whose」です。関係代名詞 whose は「〜の」で、あとに名詞（ここでは mother）が続きます。
+文全体は「私には、お母さんが図書館で働いている友だちがいます」という意味です。「友だちのお母さん」という所有のつながりなので whose です。
+ひっかけ：「who」は人そのものを説明しますが、あとに mother という名詞が続く形にはなりません。「which」は物用、「where」は場所用です。
+ヒント：あとに名詞が続く「〜の」なら whose を疑いましょう。
+
+【ポイント27】
+種別: 文法
+見出し: 関係代名詞 whose（〜の／所有）
+・a friend whose mother 〜 = お母さんが〜の友だち
+・whose のあとは必ず名詞
+・who / which / where と役割を分ける
+
+---
+
+問題28:
+This is the park ( ) we played soccer last Sunday.
+
+選択肢28:
+1. which
+2. who
+3. what
+4. where
+
+【正解28】
+4. where
+
+【解説28】
+正解は「where」です。関係副詞 where は、前の場所の名詞を説明します。
+文全体は「ここが、先週の日曜日にサッカーをした公園です」という意味です。park は場所なので where が合います。
+ひっかけ：「which」は物を主語・目的語にするときに使い、ここでは「そこで」の意味になりにくいです。「who」は人、「what」は前に名詞があるこの形にはふつう使いません。
+ヒント：場所→ where、時→ when（the day when 〜）と分けると迷いにくいです。
+
+【ポイント28】
+種別: 文法
+見出し: 関係副詞 where / when（場所・時を説明する）
+・the park where we played = 私たちが遊んだ公園
+・the morning when I met her = 彼女に会った朝
+・人は who、物は which / that
+
+---
+
+問題29:
+You can swim well, ( )?
+
+選択肢29:
+1. can't you
+2. can you
+3. don't you
+4. aren't you
+
+【正解29】
+1. can't you
+
+【解説29】
+正解は「can't you」です。文のうしろに短い問いを足す「付加疑問」です。前が肯定（can）なら、うしろは否定（can't you）になります。
+文全体は「きみは泳ぐのが上手だね？」のように確認する言い方です。
+ひっかけ：「can you」だと前もあとも肯定で、ふつうの付加疑問になりません。「don't you / aren't you」は前の動詞が can ではないときに使う形です。
+ヒント：前が肯定→うしろ否定、前が否定→うしろ肯定。助動詞は前の文に合わせます。
+
+【ポイント29】
+種別: 文法
+見出し: 付加疑問（文のうしろの短い確認）
+・You can 〜, can't you?
+・She isn't 〜, is she?
+・助動詞・be動詞は前の文と同じものを使う
+
+---
+
+問題30:
+At seven last night, Saki ( ) dinner with her family.
+
+選択肢30:
+1. cooks
+2. was cooking
+3. is cooking
+4. cook
+
+【正解30】
+2. was cooking
+
+【解説30】
+正解は「was cooking」です。「was / were + 〜ing」で過去進行形（そのとき〜していた）になります。
+文全体は「昨夜7時、サキは家族と夕食を作っていました」という意味です。「At seven last night」のように過去の一点があるので、そのときの動作の途中を表す過去進行形が自然です。
+ひっかけ：「cooks / cook」は現在の習慣、「is cooking」はいま進行中で、昨夜の話には合いません。
+ヒント：過去の時刻 + 動作の最中 → was / were + -ing です。
+
+【ポイント30】
+種別: 文法
+見出し: 過去進行形 was / were + -ing（そのとき〜していた）
+・At seven, she was cooking.
+・過去の一点とそのとき続いていた動作
+・いまの話の is -ing と時制をまちがえない
+
+---
+
+問題31:
+My uncle ( ) live near the station, but he moved last year.
+
+選択肢31:
+1. uses to
+2. using to
+3. used to
+4. use to
+
+【正解31】
+3. used to
+
+【解説31】
+正解は「used to」です。「used to + 原形」で「以前は〜していた（いまは違う）」という意味です。
+文全体は「おじは以前、駅の近くに住んでいたが、去年引っ越した」という意味です。いまは住んでいない、という対比が but 以下にあります。
+ひっかけ：「uses to / use to / using to」は正しい形ではありません。過去の習慣・状態は used to です。
+ヒント：いまはそうでない「昔の話」が見えたら used to を疑いましょう。
+
+【ポイント31】
+種別: 文法
+見出し: used to + 原形（以前は〜していた）
+・used to live = 以前住んでいた（いまは違う）
+・いまの習慣は usually など別の言い方
+・to のあとは原形（used to play）
+
+---
+
+問題32:
+I hope I will ( ) visit my cousins next summer.
+
+選択肢32:
+1. can
+2. could
+3. able to
+4. be able to
+
+【正解32】
+4. be able to
+
+【解説32】
+正解は「be able to」です。意味は「〜できる」で、can に近い表現です。
+文全体は「来年の夏に、いとこたちを訪ねられるといいな」という意味です。will のあとに can は続けられないので、be able to を使います。
+ひっかけ：「can / could」は will のあとにそのまま置けません。「able to」だけだと be が足りません。
+ヒント：will / have などと組み合わせるときは be able to が便利です。
+
+【ポイント32】
+種別: 文法
+見出し: be able to（〜できる）
+・can と近い意味。時制を作りやすい
+・will be able to / was able to のように変化できる
+・will can とは言わない
+
+---
+
+問題33:
+Take an umbrella. It ( ) rain this afternoon.
+
+選択肢33:
+1. must
+2. should
+3. can to
+4. might
+
+【正解33】
+4. might
+
+【解説33】
+正解は「might」です。意味は「〜かもしれない」で、可能性をやわらかく表します。
+文全体は「かさを持っていって。午後は雨が降るかもしれない」という意味です。確実ではない予想なので might が合います。
+ひっかけ：「must」は「きっと〜だ」（強い確信）、「should」は「〜するべき／たぶん〜だろう」で、この「かもしれない」より強く感じられます。「can to」は形がまちがいです。
+ヒント：確信度が低めの「かも」は might / may を思い出しましょう。
+
+【ポイント33】
+種別: 文法
+見出し: might（〜かもしれない）
+・It might rain. = 雨が降るかもしれない
+・must より弱い可能性
+・あとに原形（might rain / might come）
+
+---
+
+問題34:
+A : Do you know ( ) to use this machine? B : Yes. Push this button.
+
+選択肢34:
+1. what
+2. where
+3. which
+4. how
+
+【正解34】
+4. how
+
+【解説34】
+正解は「how」です。「how to + 原形」で「〜のしかた」という意味になります。
+文全体は「この機械の使いかた、わかる？」「うん。このボタンを押して」という会話です。
+ひっかけ：「what / which」は「何を／どれを」で、しかたにはなりません。「where to」は「どこへ」の方向で、使い方の説明には合いません。
+ヒント：しかた・方法を聞くときは how to 〜 です。
+
+【ポイント34】
+種別: 文法
+見出し: how to + 原形（〜のしかた）
+・how to use = 使いかた
+・know / learn / show + how to do
+・what to do（何をすべきか）と区別する
+
+---
+
+問題35:
+I'm looking forward to ( ) you at the festival.
+
+選択肢35:
+1. see
+2. saw
+3. seeing
+4. to see
+
+【正解35】
+3. seeing
+
+【解説35】
+正解は「seeing」です。「look forward to + 〜ing / 名詞」で「〜を楽しみにしている」という意味です。ここでの to は不定詞の to ではなく、前置詞の to です。
+文全体は「お祭りであなたに会えるのを楽しみにしています」という意味です。
+ひっかけ：「see / saw」は look forward to のあとに続きません。「to see」のように to を重ねる形にもしません。
+ヒント：look forward to の to のあとは -ing、と決めましょう。
+
+【ポイント35】
+種別: 熟語
+見出し: look forward to + -ing（〜を楽しみにしている）
+・to は前置詞なのであとは -ing
+・look forward to meeting you
+・enjoy -ing と意味は近いが形が違う
+
+---
+
+問題36:
+Emi is interested ( ) Japanese history.
+
+選択肢36:
+1. of
+2. for
+3. in
+4. at
+
+【正解36】
+3. in
+
+【解説36】
+正解は「in」です。「be interested in」で「〜に興味がある」という意味です。
+文全体は「エミは日本の歴史に興味があります」という意味です。
+ひっかけ：「of / for / at」は interested とはセットになりません。good at（得意）の at などと混ぜないようにしましょう。
+ヒント：interested のあとは in、と単語セットで覚えます。
+
+【ポイント36】
+種別: 熟語
+見出し: be interested in（〜に興味がある）
+・interested in music / sports
+・interesting は「おもしろい（もの・こと）」で形が違う
+・be good at（得意）の前置詞と区別する
+
+---
+
+問題37:
+Daiki is proud ( ) his little sister.
+
+選択肢37:
+1. of
+2. in
+3. for
+4. with
+
+【正解37】
+1. of
+
+【解説37】
+正解は「of」です。「be proud of」で「〜を誇りに思う」という意味です。
+文全体は「ダイキは妹を誇りに思っています」という意味です。
+ひっかけ：「in / for / with」は proud の定番の相手ではありません。interested in の in と混ぜないように注意です。
+ヒント：proud のあとは of、とセットで覚えましょう。
+
+【ポイント37】
+種別: 熟語
+見出し: be proud of（〜を誇りに思う）
+・proud of my team / my work
+・前置詞は of
+・interested in / good at と前置詞を整理する
+
+---
+
+問題38:
+We stayed home ( ) going to the pool because it was cold.
+
+選択肢38:
+1. because
+2. according to
+3. instead of
+4. thanks to
+
+【正解38】
+3. instead of
+
+【解説38】
+正解は「instead of」です。意味は「〜のかわりに」です。あとに名詞や -ing が続きます。
+文全体は「寒かったので、プールに行くかわりに家にいました」という意味です。
+ひっかけ：「because」のあとは文が続く形が普通で、going だけには続きにくいです。「according to（〜によると）」「thanks to（〜のおかげで）」はこの文の「かわりに」の意味ではありません。
+ヒント：A instead of B = B ではなく A、です。
+
+【ポイント38】
+種別: 熟語
+見出し: instead of（〜のかわりに）
+・instead of going = 行くかわりに
+・あとに名詞 / -ing
+・because（理由の接続詞）と役割が違う
+
+---
+
+問題39:
+The game was put off ( ) the strong wind.
+
+選択肢39:
+1. because
+2. although
+3. despite
+4. because of
+
+【正解39】
+4. because of
+
+【解説39】
+正解は「because of」です。「because of + 名詞」で「〜のために（理由）」という意味です。
+文全体は「強い風のために、試合は延期されました」という意味です。the strong wind は名詞のまとまりなので because of が合います。
+ひっかけ：「because」のあとは主語＋動詞の文が続きます。「although」は逆接、「despite」も「〜にもかかわらず」で、理由の「ために」ではありません。
+ヒント：うしろが名詞だけなら because of、文なら because です。
+
+【ポイント39】
+種別: 熟語
+見出し: because of + 名詞（〜のために）
+・because of the rain / the wind
+・because + 主語 + 動詞（because it rained）
+・理由か逆接かを文の意味で確かめる
+
+---
+
+問題40:
+Nao prefers tea ( ) coffee.
+
+選択肢40:
+1. than
+2. from
+3. for
+4. to
+
+【正解40】
+4. to
+
+【解説40】
+正解は「to」です。「prefer A to B」で「Bより A が好き」という意味です。
+文全体は「ナオはコーヒーよりお茶のほうが好きです」という意味です。
+ひっかけ：「than」は比較級（better than）とセットで、prefer とはふつう使いません。「from / for」もこの形には合いません。
+ヒント：prefer A to B。like A better than B とは前置詞が違います。
+
+【ポイント40】
+種別: 熟語
+見出し: prefer A to B（Bより A が好き）
+・prefer tea to coffee
+・to を than にしない
+・両方とも名詞や -ing にできる
+
+---
+
+問題41:
+A : Can you give me a ( ) with these bags? B : Sure.
+
+選択肢41:
+1. hand
+2. help
+3. look
+4. care
+
+【正解41】
+1. hand
+
+【解説41】
+正解は「hand」です。「give someone a hand」で「（人を）手伝う」という意味の熟語です。
+文全体は「これらのかばん、手伝ってくれる？」「もちろん」という会話です。
+ひっかけ：「help」は動詞として help me とは言えますが、give me a help とはふつう言いません。「look / care」もこの形の熟語ではありません。
+ヒント：手伝う＝ give 人 a hand、と覚えましょう。
+
+【ポイント41】
+種別: 熟語
+見出し: give someone a hand（人を手伝う）
+・give me a hand with 〜 = 〜を手伝って
+・hand は手。手伝うイメージで覚える
+・give me a help とはふつう言わない
+
+---
+
+問題42:
+A : What's the ( ) with you? You look pale. B : I have a cold.
+
+選択肢42:
+1. thing
+2. problem
+3. matter
+4. trouble
+
+【正解42】
+3. matter
+
+【解説42】
+正解は「matter」です。「What's the matter?」で「どうしたの？」と様子を聞く決まり文句です。
+文全体は「どうしたの？顔色が悪いよ」「かぜなんだ」という会話です。
+ひっかけ：「thing / problem / trouble」も「問題」に近い意味はありますが、この定番の聞き方は matter です。
+ヒント：顔色や元気がなさそうなときに What's the matter? を使います。
+
+【ポイント42】
+種別: 熟語
+見出し: What's the matter?（どうしたの？）
+・様子がおかしいときに使う
+・What's wrong? と近い意味
+・in time（間に合って）も覚えておくと便利
+
+---
+
+問題43:
+Mika is very good ( ) playing the piano.
+
+選択肢43:
+1. in
+2. on
+3. at
+4. for
+
+【正解43】
+3. at
+
+【解説43】
+正解は「at」です。「be good at」で「〜が得意だ」という意味です。あとに名詞や -ing が続きます。
+文全体は「ミカはピアノをひくのがとても得意です」という意味です。
+ひっかけ：「in / on / for」は good のこの意味ではセットになりません。interested in の in と混ぜないようにしましょう。
+ヒント：得意＝ good at、苦手＝ bad at、です。
+
+【ポイント43】
+種別: 熟語
+見出し: be good at（〜が得意）
+・good at math / swimming
+・前置詞は at
+・interested in / proud of と前置詞を整理する
+
+---
+
+問題44:
+A : Why did you ( ) the invitation? B : Because I was busy that day.
+
+選択肢44:
+1. turn down
+2. turn on
+3. turn up
+4. turn off
+
+【正解44】
+1. turn down
+
+【解説44】
+正解は「turn down」です。意味は「（申し出・招待などを）断る」です。
+文全体は「どうしてその招待を断ったの？」「その日は忙しかったから」という会話です。
+ひっかけ：「turn on / turn off」は電源を入れる・切る、「turn up」は音を大きくする・現れるなどで、招待を断る意味にはなりません。
+ヒント：turn down = 断る／音を小さくする、など意味が複数あるので文脈で判断します。
+
+【ポイント44】
+種別: 熟語
+見出し: turn down（断る／小さくする）
+・turn down an invitation = 招待を断る
+・turn down the music = 音を小さくする（文脈で判断）
+・turn on / off は電源、turn up は大きくする
+
+---
+
+問題45:
+The bottle is ( ). There is no water in it.
+
+選択肢45:
+1. full
+2. heavy
+3. open
+4. empty
+
+【正解45】
+4. empty
+
+【解説45】
+正解は「empty」です。意味は「からの／中身がない」です。
+文全体は「そのびんはからです。中に水は入っていません」という意味です。あとの文がヒントになっています。
+ひっかけ：「full（いっぱい）」は逆の意味です。「heavy（重い）」「open（開いている）」は「水が入っていない」ことの説明になりません。
+ヒント：あとの文（no water）と合う語を選びましょう。
+
+【ポイント45】
+種別: 単語
+見出し: empty（からの）
+・empty bottle = からのびん
+・反対語は full（いっぱい）
+・形容詞として be empty の形で使う
+
+---
+
+問題46:
+Could you ( ) me your pen for a minute?
+
+選択肢46:
+1. borrow
+2. lend
+3. keep
+4. take
+
+【正解46】
+2. lend
+
+【解説46】
+正解は「lend」です。「lend 人 もの」で「（人に）ものを貸す」という意味です。
+文全体は「ちょっとのあいだ、ペンを貸してくれますか？」という意味です。話者が相手に貸してほしいので lend です。
+ひっかけ：「borrow」は「借りる」なので方向が逆です（I want to borrow your pen.）。「keep（持っておく）」「take（持っていく）」はこのお願いの意味に合いません。
+ヒント：貸す＝ lend、借りる＝ borrow。主語がどちら側かを見ます。
+
+【ポイント46】
+種別: 単語
+見出し: lend（貸す）と borrow（借りる）
+・lend me your pen = ペンを貸して
+・borrow a pen from 人 = 人からペンを借りる
+・方向をまちがえない
+
+---
+
+問題47:
+Toru had a job ( ) at the bookstore yesterday.
+
+選択肢47:
+1. interview
+2. vacation
+3. homework
+4. message
+
+【正解47】
+1. interview
+
+【解説47】
+正解は「interview」です。ここでは「面接」という意味の名詞です。「have a job interview」で「就職の面接を受ける」というまとまりになります。
+文全体は「トルはきのう、その本屋で面接を受けました」という意味です。
+ひっかけ：「vacation（休み）」「homework（宿題）」「message（伝言）」は job のあとに続くこの場面では不自然です。
+ヒント：job interview = 仕事の面接、とセットで覚えるとよいです。
+
+【ポイント47】
+種別: 単語
+見出し: interview（面接／インタビュー）
+・a job interview = 就職の面接
+・動詞でも「面接する／インタビューする」と使える
+・vacation など別の名詞と意味を混同しない
+
+---
+
+問題48:
+Please wait for me at the ( ) of the street. I'll be there soon.
+
+選択肢48:
+1. middle
+2. corner
+3. center
+4. end
+
+【正解48】
+2. corner
+
+【解説48】
+正解は「corner」です。意味は「かど／角」です。「at the corner of the street」で「通りの角で」という意味になります。
+文全体は「通りの角で待っていてください。すぐ行きます」という意味です。待ち合わせの場所として角はよく使われます。
+ひっかけ：「middle / center」は「真ん中」で、通りの角の待ち合わせにはふつう使いません。「end」は「はし」ですが、この定番の言い方は corner です。
+ヒント：街角の待ち合わせ＝ at the corner、と覚えましょう。
+
+【ポイント48】
+種別: 単語
+見出し: corner（角・かど）
+・at the corner of the street
+・in the corner of the room（部屋のすみ）は in
+・待ち合わせの場所によく出る
+
+---
+
+問題49:
+The bakery is ( ) the post office and the flower shop.
+
+選択肢49:
+1. among
+2. between
+3. through
+4. across
+
+【正解49】
+2. between
+
+【解説49】
+正解は「between」です。意味は「（2つのものの）あいだに」です。
+文全体は「そのパン屋は、郵便局と花屋のあいだにあります」という意味です。post office と flower shop の2つなので between が合います。
+ひっかけ：「among」は3つ以上のあいだ、「through」は「〜を通って」、「across」は「〜を横切って」で、2つのあいだの位置には使いません。
+ヒント：2つ→ between、3つ以上→ among、と分けましょう。
+
+【ポイント49】
+種別: 単語
+見出し: between（2つのあいだ）
+・between A and B
+・among は3つ以上
+・場所の説明でよく出る
+
+---
+
+問題50:
+Haruto went to school ( ) his umbrella, so he got wet.
+
+選択肢50:
+1. without
+2. within
+3. with
+4. worth
+
+【正解50】
+1. without
+
+【解説50】
+正解は「without」です。意味は「〜なしで」です。
+文全体は「ハルトはかさなしで学校へ行ったので、ぬれてしまった」という意味です。かさを持っていなかった、という文脈なので without が合います。
+ひっかけ：「with」は「〜といっしょに／〜を持って」で意味が逆です。「within（〜以内に）」「worth（〜の価値がある）」はこの文には合いません。
+ヒント：with の反対が without、とセットで覚えましょう。
+
+【ポイント50】
+種別: 単語
+見出し: without（〜なしで）
+・without an umbrella = かさなしで
+・with と対で覚える
+・still（まだ）/ several（いくつかの）も3級でよく出る語
+
+---

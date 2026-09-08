@@ -280,29 +280,29 @@ When did Mr. Umeda give the radio back?
 ・same day / next morning のちがいに注意
 
 問題3e:
-What did Nao write in her diary?
+What is this story mainly about?
 
 選択肢3e:
-1. "We should always buy new things."
-2. "Old things can still help us if we look after them."
-3. "Mr. Umeda is too old to work."
-4. "Music is better than weather reports."
+1. Why Nao's grandmother never listens to music.
+2. How Nao learns that old things can still help if people look after them.
+3. How Mr. Umeda builds a new radio for the kitchen.
+4. Why Nao throws away the radio near the market.
 
 【正解3e】
-2. "Old things can still help us if we look after them."
+2. How Nao learns that old things can still help if people look after them.
 
 【解説3e】
-正解は「Old things can still help us if we look after them.」です。
-物語の最後で、ナオが日記にそう書いています。大事にすれば古いものでもまだ役に立つ、という気づきです。
-1「We should always buy new things.（いつも新しいものを買うべきだ）」も、3「Mr. Umeda is too old to work.（梅田さんはもう働けないほど年をとっている）」も、4「Music is better than weather reports.（音楽は天気予報より大切だ）」も書いていません。
-ヒント：日記や最後の文は、話全体のまとめになっていることが多いです。最初の「捨てたい」気持ちと対比して読むと分かります。
+正解は「How Nao learns that old things can still help if people look after them.」です。
+この物語は、古くて音が小さいラジオを捨てたいと思ったナオが、修理と祖母の話を通して「大事にすればまだ役に立つ」と気づく話です。最後の日記の文も、その要旨をまとめています。
+1「Why Nao's grandmother never listens to music.（なぜ祖母が音楽を聞かないか）」ではありません。祖母は音楽も天気予報も聞きます。3「How Mr. Umeda builds a new radio for the kitchen.（梅田さんが台所用の新しいラジオを作る話）」も違います。直したのは今あるラジオです。4「Why Nao throws away the radio near the market.（なぜナオが市場の近くでラジオを捨てるか）」も違います。捨てずに修理店へ持っていきます。
+ヒント：What is this story mainly about? は、細部の一文ではなく話全体の流れ（きっかけ→出来事→気づき）を選びます。
 
 【ポイント3e】
 種別: 読解
-見出し: 日記や最後の文は話全体のまとめ
-・最初の気持ち（捨てたい）と対比して読む
-・先生や店主の言葉ではなく、書いた人の気づき
-・物語の教訓型の選択肢を疑う
+見出し: mainly about は話全体の流れを取る
+・きっかけ→出来事→最後の気づき、を一文でまとめたものが正解
+・登場人物の一文や持ち物だけを主題にしない
+・本文と反対のあらすじ（捨てる／新品を作る など）はひっかけ
 
 ---
 
@@ -535,29 +535,29 @@ What did Mr. Oka tell Yuto to look at?
 ・命令文の目的語に注目
 
 問題6c:
-How long did Yuto practice each evening during the week?
+How many times did Yuto ride around the park on Friday without stopping?
 
 選択肢6c:
-1. Two hours without stopping.
-2. All morning, until his knee was better.
-3. Fifteen seconds near the hill.
-4. Fifteen minutes.
+1. Once.
+2. Twice.
+3. Fifteen times.
+4. Two years.
 
 【正解6c】
-4. Fifteen minutes.
+2. Twice.
 
 【解説6c】
-正解は「Fifteen minutes.」です。
-「Yuto practiced every evening for fifteen minutes.」とあります。
-1「Two hours without stopping.（止まらずに2時間）」ではありません。金曜に公園を2周した、というのは練習の成果です。2「All morning, until his knee was better.（膝がよくなるまで午前中ずっと）」も、3「Fifteen seconds near the hill.（丘の近くで15秒）」も違います。
-ヒント：for + 時間 が、1回の練習の長さです。twice（2回）は別の日の話です。
+正解は「Twice.」です。
+「On Friday he rode around the park twice without stopping.」とあります。
+1「Once.（1回）」ではありません。3「Fifteen times.（15回）」も違います。fifteen は毎晩の練習時間（fifteen minutes）です。4「Two years.（2年）」も違います。補助輪を使っていた年数です。
+ヒント：How many times は回数です。for fifteen minutes（時間の長さ）や for two years（年数）と混ぜないようにしましょう。
 
 【ポイント6c】
 種別: 読解
-見出し: for + 時間 が1回の練習の長さ
-・every evening for fifteen minutes
-・twice（回数）や別の日の話と混ぜない
-・How long には時間の長さで答える
+見出し: How many times は回数を取る
+・答えは once / twice / three times など回数の言い方
+・for fifteen minutes は時間、for two years は年数（回数ではない）
+・without stopping（止まらずに）は様子で、回数そのものではない
 
 問題6d:
 Who took a photo near the hill?
@@ -585,29 +585,29 @@ Who took a photo near the hill?
 ・Who の答えは人名
 
 問題6e:
-What does Yuto do when he is afraid to start something new?
+What is this story about?
 
 選択肢6e:
-1. He looks at the photo and remembers the tree.
-2. He puts the training wheels back on.
-3. He calls Mr. Oka from the hill.
-4. He waits for his mother to hold the bike.
+1. How Yuto learns to ride without training wheels and keeps trying new things.
+2. How Mr. Oka buys a new bike for the camping trip.
+3. Why Yuto's mother holds the bike every evening.
+4. Why the class walks up the hill instead of riding.
 
 【正解6e】
-1. He looks at the photo and remembers the tree.
+1. How Yuto learns to ride without training wheels and keeps trying new things.
 
 【解説6e】
-正解は「He looks at the photo and remembers the tree.」です。
-最後の文に「When he is afraid to start something new, he looks at it and remembers the tree.」とあります。it は机にしまってある写真です。
-2「He puts the training wheels back on.（補助輪をつけ直す）」も、3「He calls Mr. Oka from the hill.（丘から岡さんに電話する）」も、4「He waits for his mother to hold the bike.（母が自転車を支えてくれるのを待つ）」も、今の習慣としては書かれていません。母は練習中も自転車を持っていません。
-ヒント：When he is afraid ... のような文は、物語の教訓や今も続く行動です。it が何を指すかを直前の文で確かめます。
+正解は「How Yuto learns to ride without training wheels and keeps trying new things.」です。
+この物語は、キャンプ前に補助輪なしで乗れるようになりたいユウトが、転んでも練習を続け、丘まで乗れるようになり、新しいことを始めるときの勇気にもつなげる話です。
+2「How Mr. Oka buys a new bike for the camping trip.（岡さんがキャンプ用の新しい自転車を買う話）」ではありません。岡さんは教え役です。3「Why Yuto's mother holds the bike every evening.（なぜ母が毎晩自転車を支えるか）」も違います。母は窓から見ますが、支えません。4「Why the class walks up the hill instead of riding.（なぜクラスが自転車ではなく歩いて丘を上がるか）」も違います。先生は乗って上がるように言っています。
+ヒント：What is this story about? は、練習の一日だけや写真の一文だけでなく、話全体の主題を選びます。
 
 【ポイント6e】
 種別: 読解
-見出し: When he is afraid ... は今も続く習慣
-・物語の終わりの行動・教訓を取る
-・it が何を指すか直前の文で確かめる
-・昔の失敗の行動と今の習慣を混ぜない
+見出し: What is this story about? は主題を取る
+・最初の目標→努力→できるようになる、の一本の線が主題
+・手伝った人や写真など細部だけを主題にしない
+・本文と反対のあらすじはひっかけ
 
 ---
 
@@ -891,27 +891,27 @@ What sounds did Saki use in the end?
 ・メモの so のあとを見る
 
 問題9e:
-Why did Ms. Ide say Saki's work was real collecting?
+What is this story mainly about?
 
 選択肢9e:
-1. Because Saki recorded only street sounds.
-2. Because the other students laughed at the kettle.
-3. Because Mr. Hori came to the music room.
-4. Because Saki did not give up and explained the change.
+1. How Saki keeps collecting useful sounds even after her first plan fails.
+2. How Mr. Hori teaches music class with shop scales.
+3. Why Ms. Ide tells students never to record kitchen sounds.
+4. Why workers stop cutting the road for Saki's project.
 
 【正解9e】
-4. Because Saki did not give up and explained the change.
+1. How Saki keeps collecting useful sounds even after her first plan fails.
 
 【解説9e】
-正解は「Because Saki did not give up and explained the change.」です。
-最後の段落で井出先生は「You did not give up, and you explained the change. That is real collecting.」と言っています。計画を変えた理由をメモに書いたことも、その説明になっています。
-1「Because Saki recorded only street sounds.（街の音だけを録ったから）」はひっかけです。最初の課題どおりではありません。2「Because the other students laughed at the kettle.（ほかの生徒がやかんの音を笑ったから）」も違います。笑ったのは生徒で、先生がほめた理由ではありません。3「Because Mr. Hori came to the music room.（堀さんが音楽室へ来たから）」も出ていません。サキがりんごの絵を店へ持っていったのは放課後です。
-ヒント：先生の発言の直後に、なぜほめたかが書いてあることが多いです。生徒の反応や最初の課題文と混ぜないようにしましょう。
+正解は「How Saki keeps collecting useful sounds even after her first plan fails.」です。
+この物語は、街の音を録る課題で電池切れや工事の騒音にぶつかったサキが、あきらめずに台所の音を録り、変更の理由も説明して「本当の収集」だと認められる話です。
+2「How Mr. Hori teaches music class with shop scales.（堀さんが秤で音楽の授業をする話）」ではありません。堀さんは電池を貸した店主です。3「Why Ms. Ide tells students never to record kitchen sounds.（なぜ井出先生が台所の音を録るなと言うか）」も違います。先生は計画変更をほめています。4「Why workers stop cutting the road for Saki's project.（なぜ作業員がサキのために道の工事を止めるか）」も出ていません。工事は止まりません。
+ヒント：mainly about は、電池や工事の細部だけ、ではなく「失敗しても続けた収集」という全体の主題を選びます。
 
 【ポイント9e】
 種別: 読解
-見出し: ほめた直後の文が理由
-・did not give up / explained the change
-・生徒が笑ったことや最初の課題どおりかは理由ではない
-・先生の発言の引用をそのまま取る
+見出し: mainly about は失敗→工夫→認められる流れ
+・最初の計画がうまくいかなくても続けたことが主題になりやすい
+・途中の人やできごと一文だけを主題にしない
+・本文にないあらすじ（禁止した／工事が止まった など）はひっかけ
 

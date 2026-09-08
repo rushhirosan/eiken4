@@ -735,3 +735,575 @@ Question: When can they practice the recorder on the roof?（2人はどんなと
 見出し: When can they 〜? は Only if / If の許可条件
 ・Only if no one is 〜 / If 〜 is free
 ・いま見た場所や暗くなる前などの時刻を、条件そのものにしない
+
+---
+
+No.21:
+W: Who will introduce the guest speaker at the morning assembly?
+M: Our class president, Sora, will do it.
+W: Nice. I have already printed the welcome cards.
+M: Great. Please give them to Sora before eight.
+
+Question No.21:
+Who will introduce the guest speaker?
+
+1. Sora, the class president.
+2. The music teacher.
+3. W's older brother.
+4. A student from another school.
+
+【正解21】
+1. Sora, the class president.
+
+【解説21】
+放送文
+W: Who will introduce the guest speaker at the morning assembly?（朝の集会で、ゲストの紹介はだれがするの？）
+M: Our class president, Sora, will do it.（クラス委員のソラがやるよ。）
+W: Nice. I have already printed the welcome cards.（いいね。歓迎カードはもう刷ってあるよ。）
+M: Great. Please give them to Sora before eight.（いいね。8時前にソラに渡して。）
+Question: Who will introduce the guest speaker?（ゲストの紹介はだれがしますか？）
+
+男の子が「Our class president, Sora（クラス委員のソラ）」と言っているので、1「Sora, the class president.（クラス委員のソラ）」が正解です。
+2「The music teacher.（音楽の先生）」は放送にいません。
+3「W's older brother.（女の子のお兄さん）」も紹介役としては出ていません。
+4「A student from another school.（別の学校の生徒）」も放送にありません。
+ヒント：歓迎カードや8時前に渡す、は準備と期限です。ひっかけは、用意した人や渡す時刻を「だれが紹介するか」にすることです。
+【ポイント21】
+種別: リスニング
+見出し: Who will 〜? は名前・役割を拾う
+・class president / teacher / my cousin など
+・用意したものや期限を「だれがやるか」にしない
+
+---
+
+No.22:
+M: Which club are you joining this year?
+W: The cooking club. I want to learn how to bake bread.
+M: I've already joined the photo club.
+W: If you want, I can bring cookies to your next meeting.
+
+Question No.22:
+Which club is the girl joining?
+
+1. The photo club.
+2. The cooking club.
+3. The soccer club.
+4. The drama club.
+
+【正解22】
+2. The cooking club.
+
+【解説22】
+放送文
+M: Which club are you joining this year?（ことし、どの部に入るの？）
+W: The cooking club. I want to learn how to bake bread.（料理部。パンの焼き方を習いたいの。）
+M: I've already joined the photo club.（ぼくは写真部に入ったよ。）
+W: If you want, I can bring cookies to your next meeting.（よかったら、次の集まりにクッキー持っていくよ。）
+Question: Which club is the girl joining?（女の子はどの部に入りますか？）
+
+女の子が「The cooking club（料理部）」と言い、パンの焼き方を習いたいとも言っているので、2「The cooking club.（料理部）」が正解です。
+1「The photo club.（写真部）」は男の子が「I've already joined」と言った部で、女の子の答えではありません。
+3「The soccer club.（サッカー部）」は会話に一度も出ていません。
+4「The drama club.（演劇部）」も放送にありません。
+ヒント：クッキーは写真部の次の集まりへの差し入れです。ひっかけは、もう一人が入った部を本人の部にすることです。
+【ポイント22】
+種別: リスニング
+見出し: Which club? は本人が入る部を拾う
+・I'm joining the 〜 club.
+・もう一人が入った部を答えにしない
+
+---
+
+No.23:
+W: You look worried. What's wrong?
+M: I left my sports shoes at home, and P.E. is next.
+W: I have an extra pair in my locker.
+M: Thanks. If they fit, I'll return them after class.
+
+Question No.23:
+What is the boy's problem?
+
+1. He lost his locker key.
+2. He forgot his homework.
+3. He left his sports shoes at home.
+4. He is late for the bus.
+
+【正解23】
+3. He left his sports shoes at home.
+
+【解説23】
+放送文
+W: You look worried. What's wrong?（心配そうだね。どうしたの？）
+M: I left my sports shoes at home, and P.E. is next.（運動ぐつを家に忘れて、次が体育なんだ。）
+W: I have an extra pair in my locker.（ロッカーに予備があるよ。）
+M: Thanks. If they fit, I'll return them after class.（ありがとう。サイズが合えば、授業のあと返すね。）
+Question: What is the boy's problem?（男の子の困りごとは何ですか？）
+
+男の子が「I left my sports shoes at home（運動ぐつを家に忘れた）」と言っているので、3「He left his sports shoes at home.（運動ぐつを家に忘れた）」が正解です。
+1「He lost his locker key.（ロッカーの鍵をなくした）」は放送にありません。
+2「He forgot his homework.（宿題を忘れた）」も困りごととしては出ていません。
+4「He is late for the bus.（バスに遅れている）」も放送にありません。
+ヒント：予備のくつは解決の申し出、授業のあとは返す予定です。ひっかけは、相手の助けやあとで返す話を問題そのものにすることです。
+【ポイント23】
+種別: リスニング
+見出し: What is X's problem? は困っている本人の事実
+・I left / forgot / can't find 〜
+・相手の申し出やあとで返す話を問題そのものにしない
+
+---
+
+No.24:
+M: How much are those notebooks for the art project?
+W: They're 120 yen each. I need three.
+M: I've already bought the colored pencils.
+W: Good. Let's pay at the front counter.
+
+Question No.24:
+How much is one notebook?
+
+1. Three hundred yen.
+2. Ninety yen.
+3. Two hundred yen.
+4. One hundred twenty yen.
+
+【正解24】
+4. One hundred twenty yen.
+
+【解説24】
+放送文
+M: How much are those notebooks for the art project?（美術の作品用のノート、いくら？）
+W: They're 120 yen each. I need three.（1冊120円。3冊いるよ。）
+M: I've already bought the colored pencils.（色えんぴつはもう買ったよ。）
+W: Good. Let's pay at the front counter.（いいね。手前のレジで払おう。）
+Question: How much is one notebook?（ノート1冊はいくらですか？）
+
+女の子が「They're 120 yen each（1冊120円）」と言っているので、1冊の値段は4「One hundred twenty yen.（120円）」が正解です。
+1「Three hundred yen.（300円）」は放送にない金額で、3冊分を足したように聞こえても答えではありません。
+2「Ninety yen.（90円）」も会話に出ていない値段です。
+3「Two hundred yen.（200円）」も1冊の単価としては言っていません。
+ヒント：3冊は必要な数、色えんぴつはもう買ったものです。手前のレジは支払い場所です。ひっかけは、個数や別の買い物を「1冊いくら」の答えにすることです。
+【ポイント24】
+種別: リスニング
+見出し: How much is one 〜? は each / one の値段
+・120 yen each / They cost 〜
+・必要な個数や別の買い物を単価にしない
+
+---
+
+No.25:
+W: When does the school library open on weekends?
+M: It opens at ten on Saturdays, but it's closed on Sundays.
+W: I've already finished my book list.
+M: Then let's go this Saturday morning.
+
+Question No.25:
+When does the school library open on Saturdays?
+
+1. At ten.
+2. At nine.
+3. At noon.
+4. At eight.
+
+【正解25】
+1. At ten.
+
+【解説25】
+放送文
+W: When does the school library open on weekends?（学校の図書館、週末は何時にあくの？）
+M: It opens at ten on Saturdays, but it's closed on Sundays.（土曜は10時。日曜は閉まっているよ。）
+W: I've already finished my book list.（本のリストはもうできたよ。）
+M: Then let's go this Saturday morning.（じゃあ今週の土曜の朝に行こう。）
+Question: When does the school library open on Saturdays?（土曜、学校の図書館は何時にあきますか？）
+
+男の子が「It opens at ten on Saturdays（土曜は10時にあく）」と言っているので、1「At ten.（10時）」が正解です。
+2「At nine.（9時）」は放送にない開店時刻です。
+3「At noon.（正午）」も、土曜の開店としては言っていません。
+4「At eight.（8時）」も、会話には一度も出ていません。
+ヒント：日曜は閉まっている日で、開く時刻ではありません。本のリストは準備、土曜の朝は行く予定です。ひっかけは、閉まっている日や「行く予定」を開店時刻にすることです。
+【ポイント25】
+種別: リスニング
+見出し: When does 〜 open? は曜日つきの時刻
+・opens at ten on Saturdays / closed on Sundays
+・閉まっている日や行く予定を開店時刻にしない
+
+---
+
+No.26:
+M: Where will we meet before the movie?
+W: In front of the ticket machines at the station.
+M: I've already bought the tickets online.
+W: Perfect. If the train is late, wait inside the gate.
+
+Question No.26:
+Where will they meet?
+
+1. Inside the movie theater.
+2. In front of the ticket machines at the station.
+3. At the school gate.
+4. Near the bus stop by the park.
+
+【正解26】
+2. In front of the ticket machines at the station.
+
+【解説26】
+放送文
+M: Where will we meet before the movie?（映画の前、どこで会う？）
+W: In front of the ticket machines at the station.（駅の券売機の前。）
+M: I've already bought the tickets online.（チケットはもうオンラインで買ったよ。）
+W: Perfect. If the train is late, wait inside the gate.（いいね。電車が遅れたら、改札の中で待って。）
+Question: Where will they meet?（2人はどこで会いますか？）
+
+女の子が「In front of the ticket machines at the station（駅の券売機の前）」と言っているので、2「In front of the ticket machines at the station.（駅の券売機の前）」が正解です。
+1「Inside the movie theater.（映画館の中）」は本命の集合場所ではありません。
+3「At the school gate.（学校の門）」は放送にありません。
+4「Near the bus stop by the park.（公園のそばのバス停付近）」も放送にありません。
+ヒント：改札の中で待つ、は電車が遅れたときの案内です。ひっかけは、予備の場所を本命の集合にすることです。
+【ポイント26】
+種別: リスニング
+見出し: Where will they meet? は本命の集合場所
+・In front of 〜 / At the 〜
+・遅れたときの予備の場所を本命の集合にしない
+
+---
+
+No.27:
+W: Could you water the classroom plants while I'm away?
+M: Sure. How often should I do it?
+W: Once every morning before homeroom.
+M: OK. I've already put the watering can by the window.
+
+Question No.27:
+What does the girl ask the boy to do?
+
+1. Buy new plants for the class.
+2. Clean the windows every morning.
+3. Water the classroom plants every morning.
+4. Move the watering can to the office.
+
+【正解27】
+3. Water the classroom plants every morning.
+
+【解説27】
+放送文
+W: Could you water the classroom plants while I'm away?（わたしがいないあいだ、教室の植物に水をやってくれる？）
+M: Sure. How often should I do it?（いいよ。どのくらいの頻度で？）
+W: Once every morning before homeroom.（毎朝、ホームルームの前に1回。）
+M: OK. I've already put the watering can by the window.（わかった。じょうろはもう窓のそばに置いてあるよ。）
+Question: What does the girl ask the boy to do?（女の子は男の子に何をお願いしていますか？）
+
+女の子が「water the classroom plants（教室の植物に水をやる）」と「Once every morning（毎朝1回）」と言っているので、3「Water the classroom plants every morning.（毎朝、教室の植物に水をやる）」が正解です。
+1「Buy new plants for the class.（クラス用に新しい植物を買う）」は放送にありません。
+2「Clean the windows every morning.（毎朝窓をそうじする）」もお願いの内容ではありません。
+4「Move the watering can to the office.（じょうろを事務に移す）」も放送にありません。
+ヒント：じょうろを窓のそばに置いたのは男の子の準備です。ひっかけは、道具の置き場所をお願いの内容にすることです。
+【ポイント27】
+種別: リスニング
+見出し: What does X ask Y to do? は Could you 〜? の内容
+・Could you water / bring / check 〜?
+・頻度や道具の置き場所だけを「お願い」全体と取り違えない
+
+---
+
+No.28:
+M: Who fixed the broken printer in the computer room?
+W: Ms. Aoki from the office did. She came after lunch.
+M: I've already printed my history handout.
+W: Good. If it stops again, call the office.
+
+Question No.28:
+Who fixed the broken printer?
+
+1. The boy's father.
+2. A student from class 3.
+3. The science teacher.
+4. Ms. Aoki from the office.
+
+【正解28】
+4. Ms. Aoki from the office.
+
+【解説28】
+放送文
+M: Who fixed the broken printer in the computer room?（パソコン室の壊れたプリンター、だれが直したの？）
+W: Ms. Aoki from the office did. She came after lunch.（事務のアオキ先生だよ。お昼のあとに来たの。）
+M: I've already printed my history handout.（歴史のプリントはもう刷ったよ。）
+W: Good. If it stops again, call the office.（いいね。また止まったら事務に電話して。）
+Question: Who fixed the broken printer?（壊れたプリンターを直したのはだれですか？）
+
+女の子が「Ms. Aoki from the office（事務のアオキ先生）」と言っているので、4「Ms. Aoki from the office.（事務のアオキ先生）」が正解です。
+1「The boy's father.（男の子のお父さん）」は放送にいません。
+2「A student from class 3.（3組の生徒）」も直した人ではありません。
+3「The science teacher.（理科の先生）」も放送にいません。
+ヒント：お昼のあとは来た時刻、歴史のプリントは男の子が刷ったものです。ひっかけは、時刻や自分が刷ったものを「だれが直したか」にすることです。
+【ポイント28】
+種別: リスニング
+見出し: Who fixed / did 〜? は人名＋所属
+・Ms. 〜 from the office / Our teacher
+・来た時刻や自分が刷ったものを「だれが直したか」にしない
+
+---
+
+No.29:
+W: Which subject will you choose for the free study period?
+M: Science. I want to build a small robot.
+W: I've already chosen music.
+M: If you finish early, come see my robot.
+
+Question No.29:
+Which subject will the boy choose?
+
+1. Science.
+2. Music.
+3. Art.
+4. English.
+
+【正解29】
+1. Science.
+
+【解説29】
+放送文
+W: Which subject will you choose for the free study period?（自由学習の時間、どの教科にするの？）
+M: Science. I want to build a small robot.（理科。小さなロボットを作りたいんだ。）
+W: I've already chosen music.（わたしはもう音楽にしたよ。）
+M: If you finish early, come see my robot.（早く終わったら、ロボットを見に来て。）
+Question: Which subject will the boy choose?（男の子はどの教科を選びますか？）
+
+男の子が「Science（理科）」と言い、小さなロボットを作りたいとも言っているので、1「Science.（理科）」が正解です。
+2「Music.（音楽）」は女の子が「I've already chosen music」と言った教科で、男の子の答えではありません。
+3「Art.（美術）」は自由学習で選ぶ教科としては放送にありません。
+4「English.（英語）」も、自由学習で選ぶ教科としては会話に一度も出てきていません。
+ヒント：ロボットを見に来る、は早く終わったときの提案です。ひっかけは、もう一人が選んだ教科を、質問されている本人（男の子）の答えにすることです。
+【ポイント29】
+種別: リスニング
+見出し: Which subject? は本人が選ぶ教科
+・I'll choose science / history.
+・もう一人が選んだ教科を答えにしない
+
+---
+
+No.30:
+M: The hallway is wet near the stairs. Be careful.
+W: Oh no. Someone spilled a water bottle there.
+M: I've already put up a small sign.
+W: Good. If it gets worse, we'll call the office.
+
+Question No.30:
+What is the problem?
+
+1. The stairs are broken.
+2. The hallway is wet near the stairs.
+3. The office is closed.
+4. Someone lost a water bottle.
+
+【正解30】
+2. The hallway is wet near the stairs.
+
+【解説30】
+放送文
+M: The hallway is wet near the stairs. Be careful.（階段の近くの廊下がぬれているよ。気をつけて。）
+W: Oh no. Someone spilled a water bottle there.（大変。だれかが水筒をこぼしたのね。）
+M: I've already put up a small sign.（小さな看板はもう立てたよ。）
+W: Good. If it gets worse, we'll call the office.（いいね。ひどくなったら事務に電話しよう。）
+Question: What is the problem?（何が問題ですか？）
+
+男の子が「The hallway is wet near the stairs（階段の近くの廊下がぬれている）」と言っているので、2「The hallway is wet near the stairs.（階段の近くの廊下がぬれている）」が正解です。
+1「The stairs are broken.（階段が壊れている）」は放送にありません。
+3「The office is closed.（事務が閉まっている）」も問題としては出ていません。
+4「Someone lost a water bottle.（だれかが水筒をなくした）」は「なくした」ではなく「こぼした」です。
+ヒント：看板は対応、事務への電話は悪くなったときの条件です。ひっかけは、対応や条件つきの次の一手を問題そのものにすることです。
+【ポイント30】
+種別: リスニング
+見出し: What is the problem? はいま困っている状況
+・The hallway is wet / The printer isn't working.
+・すでにした対応や条件つきの次の一手を問題そのものにしない
+
+---
+
+No.31:
+W: How much does the bus to the swimming pool cost?
+M: It costs 210 yen for students with a school ID.
+W: I've already packed my swimsuit.
+M: Good. If we miss the 1:00 bus, we'll take the next one.
+
+Question No.31:
+How much does the bus cost for students with a school ID?
+
+1. One hundred yen.
+2. Three hundred yen.
+3. Two hundred ten yen.
+4. Free with any ticket.
+
+【正解31】
+3. Two hundred ten yen.
+
+【解説31】
+放送文
+W: How much does the bus to the swimming pool cost?（プール行きのバス、いくら？）
+M: It costs 210 yen for students with a school ID.（学生証があれば210円だよ。）
+W: I've already packed my swimsuit.（水着はもう入れておいたよ。）
+M: Good. If we miss the 1:00 bus, we'll take the next one.（いいね。1時のバスに乗り遅れたら、次のに乗ろう。）
+Question: How much does the bus cost for students with a school ID?（学生証がある生徒のバス代はいくらですか？）
+
+男の子が「210 yen for students with a school ID（学生証があれば210円）」と言っているので、3「Two hundred ten yen.（210円）」が正解です。
+1「One hundred yen.（100円）」は放送にない金額です。
+2「Three hundred yen.（300円）」も放送にありません。
+4「Free with any ticket.（どの切符でも無料）」も料金として言っていません。
+ヒント：水着は持ち物、1時のバスは出発の話です。ひっかけは、持ち物や次のバスを料金にすることです。
+【ポイント31】
+種別: リスニング
+見出し: How much does 〜 cost? は条件つきの料金も拾う
+・210 yen for students / It costs 〜
+・持ち物や次のバスを料金にしない
+
+---
+
+No.32:
+M: When does the community center close on weekdays?
+W: It closes at seven, but the cafe stops serving at six.
+M: I've already reserved a study room.
+W: Then let's arrive before six-thirty.
+
+Question No.32:
+When does the community center close on weekdays?
+
+1. At six.
+2. At five.
+3. At eight.
+4. At seven.
+
+【正解32】
+4. At seven.
+
+【解説32】
+放送文
+M: When does the community center close on weekdays?（平日、市民センターは何時に閉まるの？）
+W: It closes at seven, but the cafe stops serving at six.（7時に閉まるよ。でもカフェは6時まで。）
+M: I've already reserved a study room.（勉強室はもう予約したよ。）
+W: Then let's arrive before six-thirty.（じゃあ6時半より前に着こう。）
+Question: When does the community center close on weekdays?（平日、市民センターは何時に閉まりますか？）
+
+女の子が「It closes at seven（7時に閉まる）」と言っているので、建物全体の閉店は4「At seven.（7時）」が正解です。
+1「At six.（6時）」は「the cafe stops serving at six」のカフェ終了で、センターの閉店ではありません。
+2「At five.（5時）」は放送にありません。
+3「At eight.（8時）」も閉店時刻としては言っていません。
+ヒント：6時半より前は到着の目安、勉強室は予約済みの場所です。ひっかけは、カフェ終了や到着時刻を閉店時刻にすることです。
+【ポイント32】
+種別: リスニング
+見出し: When does 〜 close? は建物全体の閉店時刻
+・closes at seven / opens at 〜
+・店内のカフェ終了や到着時刻を閉店時刻にしない
+
+---
+
+No.33:
+W: Where will the hiking club meet on Sunday?
+M: At the south entrance of Green Park.
+W: I've already packed lunch for two.
+M: Perfect. If it rains, we'll meet at the station instead.
+
+Question No.33:
+Where will they meet on Sunday?
+
+1. At the south entrance of Green Park.
+2. At the station.
+3. At the school gym.
+4. Near the north gate of the zoo.
+
+【正解33】
+1. At the south entrance of Green Park.
+
+【解説33】
+放送文
+W: Where will the hiking club meet on Sunday?（日曜、ハイキング部はどこで集合？）
+M: At the south entrance of Green Park.（グリーン公園の南入口。）
+W: I've already packed lunch for two.（お弁当は2人分もう入れたよ。）
+M: Perfect. If it rains, we'll meet at the station instead.（いいね。雨なら、かわりに駅で会おう。）
+Question: Where will they meet on Sunday?（日曜、2人はどこで会いますか？）
+
+男の子が「At the south entrance of Green Park（グリーン公園の南入口）」と言っているので、1「At the south entrance of Green Park.（グリーン公園の南入口）」が正解です。
+2「At the station.（駅）」は雨のときのかわりの集合場所です。
+3「At the school gym.（学校の体育館）」は放送にありません。
+4「Near the north gate of the zoo.（動物園の北門付近）」も放送にありません。
+ヒント：お弁当は持ち物です。ひっかけは、雨のときのかわりの場所を本命の集合にすることです。
+【ポイント33】
+種別: リスニング
+見出し: Where will they meet? は晴れ・通常の集合場所
+・At the south entrance / In front of 〜
+・雨のときのかわりの場所を本命にしない
+
+---
+
+No.34:
+M: Can you check the science lab door after club?
+W: Sure. Should I lock it if no one is there?
+M: Yes, please. I've already turned off the lights.
+W: OK. I'll take the key from the teachers' room.
+
+Question No.34:
+What does the boy ask the girl to do?
+
+1. Turn off the lights in the lab.
+2. Check the science lab door after club.
+3. Open the teachers' room window.
+4. Bring new keys for every classroom.
+
+【正解34】
+2. Check the science lab door after club.
+
+【解説34】
+放送文
+M: Can you check the science lab door after club?（部活のあと、理科室のドアを見てくれる？）
+W: Sure. Should I lock it if no one is there?（いいよ。だれもいなかったら鍵をかける？）
+M: Yes, please. I've already turned off the lights.（うん、お願い。電気はもう消したよ。）
+W: OK. I'll take the key from the teachers' room.（わかった。先生の部屋から鍵をもらうね。）
+Question: What does the boy ask the girl to do?（男の子は女の子に何をお願いしていますか？）
+
+男の子が最初に「check the science lab door after club（部活のあと理科室のドアを見て）」と言っているので、2「Check the science lab door after club.（部活のあと理科室のドアを見る）」が正解です。
+1「Turn off the lights in the lab.（理科室の電気を消す）」は男の子がもう済ませたことです。
+3「Open the teachers' room window.（先生の部屋の窓を開ける）」は放送にありません。
+4「Bring new keys for every classroom.（すべての教室用に新しい鍵を持ってくる）」もお願いしていません。
+ヒント：鍵をもらうのは女の子の準備です。ひっかけは、もう一人が済ませた作業をお願いの内容にすることです。
+【ポイント34】
+種別: リスニング
+見出し: What does X ask Y to do? は Can you 〜? の動詞
+・Can you check / lock / bring 〜?
+・もう一人が済ませた作業を、お願いの内容にしない
+
+---
+
+No.35:
+W: Which book did you borrow for the book report?
+M: A story about a young mountain climber.
+W: I've already finished mine about sea animals.
+M: If you like, we can trade books next week.
+
+Question No.35:
+Which book did the boy borrow?
+
+1. A book about sea animals.
+2. A guidebook to local museums.
+3. A story about a young mountain climber.
+4. A comic about city trains.
+
+【正解35】
+3. A story about a young mountain climber.
+
+【解説35】
+放送文
+W: Which book did you borrow for the book report?（読書感想文用に、どの本を借りたの？）
+M: A story about a young mountain climber.（若い登山家の物語。）
+W: I've already finished mine about sea animals.（わたしは海の生き物の本、もう読み終わったよ。）
+M: If you like, we can trade books next week.（よかったら、来週本を交換しよう。）
+Question: Which book did the boy borrow?（男の子はどの本を借りましたか？）
+
+男の子が「A story about a young mountain climber（若い登山家の物語）」と言っているので、3「A story about a young mountain climber.（若い登山家の物語）」が正解です。
+1「A book about sea animals.（海の生き物の本）」は女の子が読んだ本です。
+2「A guidebook to local museums.（地元の博物館のガイドブック）」は放送にありません。
+4「A comic about city trains.（市内電車のまんが）」も放送にありません。
+ヒント：来週本を交換する、は提案です。ひっかけは、もう一人の本や交換の話を本人が借りた本にすることです。
+【ポイント35】
+種別: リスニング
+見出し: Which book? は本人が借りた・選んだ本
+・A story about 〜 / A book on 〜
+・もう一人の本や交換の提案を答えにしない
+
+---

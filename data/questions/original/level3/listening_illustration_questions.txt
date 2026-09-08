@@ -605,3 +605,456 @@ W: How is he now?（その子は、いまどう？）
 見出し: How is he / she now? にはいまの状態で答える
 ・He's fine. / She's OK. / He only needed 〜
 ・場所や昨日の忙しさは「いまどうか」ではない
+
+---
+
+No.21:
+M: We're going to the science museum on Saturday. Would you like to come with us?
+W: That sounds fun. I've never been there.
+M: Great. Can you join us?
+
+Question No.21:
+1. I'd love to.
+2. The museum closes at five.
+3. Science is hard.
+
+【正解21】
+1. I'd love to.
+
+【解説21】
+放送文
+M: We're going to the science museum on Saturday. Would you like to come with us?（土曜に科学博物館へ行くよ。一緒に来る？）
+W: That sounds fun. I've never been there.（楽しそう。行ったことないんだ。）
+M: Great. Can you join us?（いいね。来られる？）
+
+誘いに対する返事なので、1「I'd love to.（ぜひ行きたい）」が自然です。
+2「The museum closes at five.（博物館は5時に閉まる）」は閉店時間、3「Science is hard.（科学はむずかしい）」は感想で、誘いへの返事になっていません。
+
+【ポイント21】
+種別: リスニング
+見出し: Would you like to come / join? には I'd love to.
+・I'd love to. / Yes, I'd like to. で誘いを受ける
+・閉店時間や教科の感想だけでは返事にならない
+
+---
+
+No.22:
+W: I visited the old castle in Okayama last month.
+M: Really? How was it?
+W: It was amazing. The garden was beautiful.
+
+Question No.22:
+1. Castles are made of stone.
+2. I've been there, too.
+3. Okayama is far from here.
+
+【正解22】
+2. I've been there, too.
+
+【解説22】
+放送文
+W: I visited the old castle in Okayama last month.（先月、岡山の古いお城に行ったよ。）
+M: Really? How was it?（へえ。どうだった？）
+W: It was amazing. The garden was beautiful.（最高だった。庭がきれいだったよ。）
+
+相手の経験に合わせる返事なので、2「I've been there, too.（わたしも行ったことあるよ）」が自然です。
+1「Castles are made of stone.（お城は石でできている）」は一般論、3「Okayama is far from here.（岡山はここから遠い）」は距離で、経験の共有になっていません。
+
+【ポイント22】
+種別: リスニング
+見出し: 旅行・訪問の話には I've been there, too.
+・I've been there, too. / Me too. で経験を共有
+・建物の説明や距離だけでは「わたしも」にならない
+
+---
+
+No.23:
+M: Thanks for carrying my heavy bag to the station.
+W: No problem. It wasn't far.
+M: Still, I really appreciate it.
+
+Question No.23:
+1. The station opens at six.
+2. Bags are useful.
+3. My pleasure.
+
+【正解23】
+3. My pleasure.
+
+【解説23】
+放送文
+M: Thanks for carrying my heavy bag to the station.（重いバッグを駅まで運んでくれてありがとう。）
+W: No problem. It wasn't far.（いいよ。そんなに遠くなかったし。）
+M: Still, I really appreciate it.（それでも、本当に助かるよ。）
+
+お礼への返事なので、3「My pleasure.（どういたしまして）」が自然です。
+1「The station opens at six.（駅は6時にあく）」は時刻、2「Bags are useful.（バッグは便利）」は物の説明で、礼への返事になっていません。
+
+【ポイント23】
+種別: リスニング
+見出し: Thanks / I appreciate it. には My pleasure.
+・My pleasure. / You're welcome. / No problem.
+・場所の開店時刻や物の説明は礼への返事ではない
+
+---
+
+No.24:
+W: I'm leaving for the school trip now.
+M: Oh, already?
+W: Yes. See you next week.
+
+Question No.24:
+1. Have a good time.
+2. The bus is yellow.
+3. Next week is Monday.
+
+【正解24】
+1. Have a good time.
+
+【解説24】
+放送文
+W: I'm leaving for the school trip now.（いま修学旅行に出発するよ。）
+M: Oh, already?（え、もう？）
+W: Yes. See you next week.（うん。来週ね。）
+
+出発の直前なので、1「Have a good time.（楽しんできてね）」が見送りとして自然です。
+2「The bus is yellow.（バスは黄色い）」は色、3「Next week is Monday.（来週は月曜日）」は曜日で、見送りになっていません。
+ヒント：See you のあとに Have a good time. / Take care. を足す定番です。
+
+【ポイント24】
+種別: リスニング
+見出し: 出発・旅行の見送りは Have a good time.
+・Have a good time. / Take care. / See you soon.
+・乗り物の色や曜日だけでは見送りにならない
+
+---
+
+No.25:
+M: Don't worry about the math test. You've studied hard.
+W: I still feel nervous.
+M: You'll do fine. I'm sure of it.
+
+Question No.25:
+1. Math is my favorite.
+2. I hope you're right.
+3. The test is on Friday.
+
+【正解25】
+2. I hope you're right.
+
+【解説25】
+放送文
+M: Don't worry about the math test. You've studied hard.（数学のテスト、心配しないで。よく勉強したでしょ。）
+W: I still feel nervous.（それでも不安だよ。）
+M: You'll do fine. I'm sure of it.（大丈夫だよ。きっとうまくいく。）
+
+励ましへの反応なので、2「I hope you're right.（そうだといいな）」が自然です。
+1「Math is my favorite.（数学は好きな教科）」は好み、3「The test is on Friday.（テストは金曜）」は日程で、励ましへの返事になっていません。
+
+【ポイント25】
+種別: リスニング
+見出し: You'll do fine. などの励ましには I hope you're right.
+・I hope you're right. / Thanks. That helps.
+・好きな教科やテストの曜日だけでは励ましへの返事にならない
+
+---
+
+No.26:
+W: Let's skip lunch and keep practicing for the contest.
+M: We've already practiced for two hours.
+W: Just one more hour. What do you think?
+
+Question No.26:
+1. Lunch starts at twelve.
+2. Contests are exciting.
+3. That's not a good idea.
+
+【正解26】
+3. That's not a good idea.
+
+【解説26】
+放送文
+W: Let's skip lunch and keep practicing for the contest.（お昼を抜いて、コンテストの練習を続けよう。）
+M: We've already practiced for two hours.（もう2時間練習したよ。）
+W: Just one more hour. What do you think?（あと1時間だけ。どう思う？）
+
+無理な提案への反対なので、3「That's not a good idea.（それはよくないと思う）」が自然です。
+1「Lunch starts at twelve.（お昼は12時）」は時刻、2「Contests are exciting.（コンテストはわくわくする）」は感想で、助言になっていません。
+
+【ポイント26】
+種別: リスニング
+見出し: 無理な提案には That's not a good idea.
+・That's not a good idea. / We should take a break.
+・時刻や感想だけでは反対・助言にならない
+
+---
+
+No.27:
+M: Are you going home now? The festival isn't over yet.
+W: I have to help Mom cook dinner.
+M: Oh. Will you come back later?
+
+Question No.27:
+1. I'll come back soon.
+2. Dinner is at seven.
+3. Festivals are noisy.
+
+【正解27】
+1. I'll come back soon.
+
+【解説27】
+放送文
+M: Are you going home now? The festival isn't over yet.（いま帰るの？お祭りはまだ終わってないよ。）
+W: I have to help Mom cook dinner.（お母さんの夕食作りを手伝わないと。）
+M: Oh. Will you come back later?（そうか。あとで戻ってくる？）
+
+意思を聞かれているので、1「I'll come back soon.（すぐ戻ってくるよ）」が自然です。
+2「Dinner is at seven.（夕食は7時）」は時刻、3「Festivals are noisy.（お祭りはうるさい）」は感想で、戻る意思の答えではありません。
+
+【ポイント27】
+種別: リスニング
+見出し: Will you come back? には I'll 〜 soon.
+・I'll come back soon. / I'll return after dinner.
+・夕食の時刻や感想は will の意思の答えではない
+
+---
+
+No.28:
+W: You left your umbrella on the bus, right?
+M: Did I?
+W: Yes. I thought you lost it.
+
+Question No.28:
+1. Umbrellas are useful on rainy days.
+2. Actually, it's still in my locker.
+3. The bus left at eight.
+
+【正解28】
+2. Actually, it's still in my locker.
+
+【解説28】
+放送文
+W: You left your umbrella on the bus, right?（傘をバスに置き忘れたんでしょ？）
+M: Did I?（え、そうだったっけ？）
+W: Yes. I thought you lost it.（うん。なくしたと思ったよ。）
+
+誤解を正すので、2「Actually, it's still in my locker.（実は、まだロッカーにあるよ）」が自然です。
+1「Umbrellas are useful on rainy days.（雨の日は傘が便利）」は一般論、3「The bus left at eight.（バスは8時に出た）」は時刻で、訂正になっていません。
+
+【ポイント28】
+種別: リスニング
+見出し: 誤解の訂正は Actually, ...
+・Actually, it's 〜. / No, I put it 〜.
+・一般論や時刻だけでは訂正にならない
+
+---
+
+No.29:
+M: We need more chalk for the blackboard.
+W: There's none in this classroom.
+M: Could you get some from the teachers' room?
+
+Question No.29:
+1. Blackboards are black.
+2. The teachers' room is quiet.
+3. OK, I'll get some now.
+
+【正解29】
+3. OK, I'll get some now.
+
+【解説29】
+放送文
+M: We need more chalk for the blackboard.（黒板用のチョークがもっといる。）
+W: There's none in this classroom.（この教室にはないよ。）
+M: Could you get some from the teachers' room?（先生の部屋から取ってきてくれる？）
+
+要求への応じなので、3「OK, I'll get some now.（わかった。いま取ってくる）」が自然です。
+1「Blackboards are black.（黒板は黒い）」は色、2「The teachers' room is quiet.（先生の部屋は静か）」は様子で、依頼への返事になっていません。
+
+【ポイント29】
+種別: リスニング
+見出し: Could you get 〜? には OK, I'll get 〜.
+・OK, I'll get / bring / buy 〜 now.
+・物の色や部屋の様子だけでは依頼への返事にならない
+
+---
+
+No.30:
+W: It's too hot in this classroom.
+M: The window won't open.
+W: What should we do then?
+
+Question No.30:
+1. Let's turn on the fan.
+2. Summer is long.
+3. The window is dirty.
+
+【正解30】
+1. Let's turn on the fan.
+
+【解説30】
+放送文
+W: It's too hot in this classroom.（この教室、暑すぎる。）
+M: The window won't open.（窓が開かないんだ。）
+W: What should we do then?（じゃあ、どうしよう？）
+
+次の行動の提案なので、1「Let's turn on the fan.（扇風機をつけよう）」が自然です。
+2「Summer is long.（夏は長い）」は季節、3「The window is dirty.（窓が汚い）」は窓の状態で、提案になっていません。
+
+【ポイント30】
+種別: リスニング
+見出し: What should we do? には Let's 〜 で提案
+・Let's turn on / open / move 〜
+・季節や汚れの説明だけでは次の行動にならない
+
+---
+
+No.31:
+W: Something smells sweet in the classroom.
+M: I baked cookies for our club this morning.
+W: Oh, really?
+
+Question No.31:
+1. Cookies are sweet.
+2. Would you like one?
+3. Homemade food takes time.
+
+【正解31】
+2. Would you like one?
+
+【解説31】
+放送文
+W: Something smells sweet in the classroom.（教室、甘いにおいがするね。）
+M: I baked cookies for our club this morning.（けさ、部活用にクッキーを焼いたんだ。）
+W: Oh, really?（へえ、ほんとう？）
+
+相手に勧める流れなので、2「Would you like one?（一つどう？）」が自然です。
+1「Cookies are sweet.（クッキーは甘い）」は味、3「Homemade food takes time.（手作りは時間がかかる）」は一般論で、勧めになっていません。
+
+【ポイント31】
+種別: リスニング
+見出し: 食べ物を勧めるときは Would you like 〜?
+・Would you like one / some?
+・味や手間の説明だけでは勧めにならない
+
+---
+
+No.32:
+W: Did your sister find her library card?
+M: She looked in her bag and desk.
+W: And then?
+
+Question No.32:
+1. Library cards are small.
+2. The library opens at nine.
+3. She couldn't find it.
+
+【正解32】
+3. She couldn't find it.
+
+【解説32】
+放送文
+W: Did your sister find her library card?（お姉ちゃん、図書カード見つかった？）
+M: She looked in her bag and desk.（かばんと机の中を見たよ。）
+W: And then?（それで？）
+
+探し物の結果なので、3「She couldn't find it.（見つからなかった）」が自然です。
+1「Library cards are small.（図書カードは小さい）」は大きさ、2「The library opens at nine.（図書館は9時にあく）」は開店時刻で、結果になっていません。
+
+【ポイント32】
+種別: リスニング
+見出し: 探し物の結果は She couldn't find it. / She found it.
+・couldn't find / found it under 〜
+・物の大きさや開店時刻は「見つかったか」ではない
+
+---
+
+No.33:
+M: How many pizza boxes should I order for the party?
+W: There will be about twelve people.
+M: So what size should I get?
+
+Question No.33:
+1. Three large ones.
+2. Pizza is Italian food.
+3. The party starts at six.
+
+【正解33】
+1. Three large ones.
+
+【解説33】
+放送文
+M: How many pizza boxes should I order for the party?（パーティー用のピザ、何箱頼めばいい？）
+W: There will be about twelve people.（だいたい12人来るよ。）
+M: So what size should I get?（じゃあ、どのサイズにする？）
+
+数量・サイズの答えなので、1「Three large ones.（大きいのを3つ）」が自然です。
+2「Pizza is Italian food.（ピザはイタリア料理）」は一般論、3「The party starts at six.（パーティーは6時に始まる）」は開始時刻で、注文の数量ではありません。
+
+【ポイント33】
+種別: リスニング
+見出し: How many / what size? には数＋大きさ
+・Three large ones. / Two medium ones.
+・料理の説明や開始時刻は数量の答えではない
+
+---
+
+No.34:
+W: Excuse me. Is this the way to the station?
+M: Yes. Go straight and turn left at the light.
+W: Thank you for explaining this map so carefully.
+
+Question No.34:
+1. Maps show streets.
+2. It's my pleasure.
+3. This town is large.
+
+【正解34】
+2. It's my pleasure.
+
+【解説34】
+放送文
+W: Excuse me. Is this the way to the station?（すみません。駅へはこの道ですか？）
+M: Yes. Go straight and turn left at the light.（そう。まっすぐ行って、信号で左に曲がって。）
+W: Thank you for explaining this map so carefully.（地図をていねいに説明してくれてありがとう。）
+
+お礼への定型なので、2「It's my pleasure.（どういたしまして）」が自然です。
+1「Maps show streets.（地図は道を示す）」は地図の説明、3「This town is large.（この町は大きい）」は町の話で、礼への返事になっていません。
+
+【ポイント34】
+種別: リスニング
+見出し: Thank you for 〜ing. には It's my pleasure.
+・It's my pleasure. / You're welcome.
+・地図や町の説明は礼への返事ではない
+
+---
+
+No.35:
+M: The art club needs more paint for tomorrow.
+W: I can stop by the shop after school.
+M: That would help a lot. Anything else?
+
+Question No.35:
+1. Paint is expensive.
+2. The shop is near the station.
+3. Let's buy two sets of brushes, too.
+
+【正解35】
+3. Let's buy two sets of brushes, too.
+
+【解説35】
+放送文
+M: The art club needs more paint for tomorrow.（美術部、明日までに絵の具がもっといるんだ。）
+W: I can stop by the shop after school.（放課後、店に寄れるよ。）
+M: That would help a lot. Anything else?（助かる。ほかに何かある？）
+
+追加の提案なので、3「Let's buy two sets of brushes, too.（筆も2セット買おう）」が自然です。
+1「Paint is expensive.（絵の具は高い）」は値段、2「The shop is near the station.（店は駅の近く）」は場所で、追加の提案になっていません。
+
+【ポイント35】
+種別: リスニング
+見出し: Anything else? には Let's 〜, too. で追加提案
+・Let's buy / bring 〜, too.
+・値段や店の場所だけでは「ほかに何か」への答えにならない
+
+---

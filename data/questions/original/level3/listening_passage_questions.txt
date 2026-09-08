@@ -653,3 +653,502 @@ Question: How long has Hana lived in the apartment building?（ハナはどの�
 見出し: How long has 〜 lived in 〜? は For + 期間
 ・has lived 〜 for four years
 ・雨のときの廊下や毎朝の散歩は住んでいる期間ではない
+
+---
+
+No.21:
+W: The town pool opens at nine on weekdays and at eight on Saturdays. It closes at six every day. On rainy days, the outdoor area stays closed, but the indoor lanes are open.
+
+Question No.21:
+When does the town pool open on Saturdays?
+
+1. At eight.
+2. At nine.
+3. At six.
+4. At ten.
+
+【正解21】
+1. At eight.
+
+【解説21】
+放送文
+W: The town pool opens at nine on weekdays and at eight on Saturdays.（町のプールは平日9時、土曜は8時にあきます。）
+It closes at six every day.（毎日6時に閉まります。）
+On rainy days, the outdoor area stays closed, but the indoor lanes are open.（雨の日は屋外は閉まりますが、屋内レーンは開いています。）
+Question: When does the town pool open on Saturdays?（土曜、町のプールは何時にあきますか？）
+
+「at eight on Saturdays（土曜は8時）」とあるので、1「At eight.（8時）」が正解です。
+2「At nine.（9時）」は平日の開店時刻です。3「At six.（6時）」は毎日の閉店時刻で、開店ではありません。4「At ten.（10時）」は放送にありません。雨の日は屋外が閉まる話で、開店時刻の答えではありません。
+ヒント：曜日ごとの開店時刻を分けて聞きましょう。ひっかけは平日の9時と閉店の6時です。
+
+【ポイント21】
+種別: リスニング
+見出し: When does 〜 open? は曜日ごとの時刻を区別
+・opens at eight on Saturdays / at nine on weekdays
+・閉店時刻や雨の日の屋外と取り違えない
+
+---
+
+No.22:
+M: Last Friday, Emi helped at the school festival booth. Her older brother, Kaito, designed the posters. Their aunt sold tickets near the gate. Emi wants to thank Kaito with homemade cookies.
+
+Question No.22:
+Who designed the posters?
+
+1. Emi.
+2. Kaito.
+3. Their aunt.
+4. A teacher.
+
+【正解22】
+2. Kaito.
+
+【解説22】
+放送文
+M: Last Friday, Emi helped at the school festival booth.（先週の金曜、エミは文化祭のブースを手伝いました。）
+Her older brother, Kaito, designed the posters.（兄のカイトがポスターをデザインしました。）
+Their aunt sold tickets near the gate.（おばが門の近くでチケットを売りました。）
+Emi wants to thank Kaito with homemade cookies.（エミは手作りクッキーでカイトにお礼したいと思っています。）
+Question: Who designed the posters?（ポスターをデザインしたのはだれですか？）
+
+「Kaito, designed the posters（カイトがポスターをデザインした）」とあるので、2「Kaito.（カイト）」が正解です。
+1「Emi.（エミ）」はブースを手伝った人です。3「Their aunt.（おば）」はチケットを売った人です。4「A teacher.（先生）」は放送にありません。
+ヒント：designed の主語を拾いましょう。ひっかけは手伝った人やチケット売り、お礼のクッキーです。
+
+【ポイント22】
+種別: リスニング
+見出し: Who designed / made 〜? は動詞の主語
+・X designed / sold / helped
+・別の作業をした人をお礼の相手と混ぜない
+
+---
+
+No.23:
+W: To get to the city library, take the Number 7 bus from the school gate. Get off at Green Bridge and walk for three minutes. You can also ride a bike along the river path if the weather is fine.
+
+Question No.23:
+How can you get to the city library from the school gate?
+
+1. Take a taxi to the station only.
+2. Walk all the way without a bus.
+3. Take the Number 7 bus and get off at Green Bridge.
+4. Take the Number 3 train to the museum.
+
+【正解23】
+3. Take the Number 7 bus and get off at Green Bridge.
+
+【解説23】
+放送文
+W: To get to the city library, take the Number 7 bus from the school gate.（市立図書館へは、校門から7番バスに乗ります。）
+Get off at Green Bridge and walk for three minutes.（グリーン橋で降りて、3分歩きます。）
+You can also ride a bike along the river path if the weather is fine.（天気がよければ、川沿いを自転車でも行けます。）
+Question: How can you get to the city library from the school gate?（校門から市立図書館へはどう行きますか？）
+
+「take the Number 7 bus」「Get off at Green Bridge」が主な行き方なので、3「Take the Number 7 bus and get off at Green Bridge.（7番バスに乗りグリーン橋で降りる）」が正解です。
+1「Take a taxi to the station only.（タクシーで駅だけ行く）」は放送にありません。2「Walk all the way without a bus.（バスなしでずっと歩く）」も放送にありません。4「Take the Number 3 train to the museum.（3番電車で博物館へ）」は乗り物も行き先も違います。自転車は天気がよいときの別ルートです。
+ヒント：まず案内された本命のバス＋降車場所を選びます。ひっかけは天気がよいときの自転車ルートです。
+
+【ポイント23】
+種別: リスニング
+見出し: How can you get to 〜? は乗り物＋降車場所
+・Take the Number 〜 bus and get off at 〜
+・天気がよいときの別ルートだけを本命にしない
+
+---
+
+No.24:
+M: Rina is fifteen years old and will enter high school next April. Her cousin is twelve and still in elementary school. Their grandmother is seventy and lives nearby. Rina hopes to study art in high school.
+
+Question No.24:
+How old is Rina?
+
+1. Twelve.
+2. Seventy.
+3. Sixteen.
+4. Fifteen.
+
+【正解24】
+4. Fifteen.
+
+【解説24】
+放送文
+M: Rina is fifteen years old and will enter high school next April.（リナは15歳で、来年の4月に高校へ進みます。）
+Her cousin is twelve and still in elementary school.（いとこは12歳で、まだ小学校です。）
+Their grandmother is seventy and lives nearby.（おばあちゃんは70歳で、近くに住んでいます。）
+Rina hopes to study art in high school.（リナは高校で美術を学びたいと思っています。）
+Question: How old is Rina?（リナは何歳ですか？）
+
+「Rina is fifteen years old（リナは15歳）」とあるので、4「Fifteen.（15歳）」が正解です。
+1「Twelve.（12歳）」はいとこの年齢です。2「Seventy.（70歳）」はおばあちゃんの年齢です。3「Sixteen.（16歳）」は放送にありません。美術を学びたい、は高校での希望で、年齢ではありません。
+ヒント：How old is のあとに続く本人の数字だけ拾いましょう。ひっかけはいとこや祖父母の年齢です。
+
+【ポイント24】
+種別: リスニング
+見出し: How old is 〜? は本人の年齢だけ拾う
+・X is fifteen years old.
+・いとこや祖父母の年齢を本人の年齢にしない
+
+---
+
+No.25:
+W: Hello, shoppers. Today we have fresh strawberries near the front door. Milk and eggs are on sale in the cold-food section. Please bring your own bags to the checkout.
+
+Question No.25:
+Where is the speaker talking?
+
+1. At a supermarket.
+2. At a school gym.
+3. At a train station.
+4. At a museum.
+
+【正解25】
+1. At a supermarket.
+
+【解説25】
+放送文
+W: Hello, shoppers. Today we have fresh strawberries near the front door.（お客様、こんにちは。きょうは入口近くに新鮮ないちごがあります。）
+Milk and eggs are on sale in the cold-food section.（牛乳と卵は冷蔵コーナーで特売です。）
+Please bring your own bags to the checkout.（レジには、ご自分の袋をお持ちください。）
+Question: Where is the speaker talking?（話し手はどこで話していますか？）
+
+「shoppers」「on sale」「checkout」など店の案内なので、1「At a supermarket.（スーパーで）」が正解です。
+2「At a school gym.（学校の体育館で）」は放送にありません。3「At a train station.（駅で）」も放送にありません。4「At a museum.（博物館で）」も放送にありません。いちごの置き場所や特売は店内の案内の一部です。
+ヒント：shoppers / sale / checkout などの場面語を拾いましょう。商品の置き場所だけを「どこで話しているか」全体と取り違えないようにします。
+
+【ポイント25】
+種別: リスニング
+見出し: Where is the speaker talking? は場面の手がかり語
+・shoppers / on sale / checkout → 店
+・商品の置き場所だけを「どこで話しているか」全体と取り違えない
+
+---
+
+No.26:
+M: This morning, Yuto packed his bag carefully, but he forgot his lunch box on the kitchen table. He remembered it on the train. His mother will bring it to the school office before noon.
+
+Question No.26:
+What did Yuto forget?
+
+1. His train pass.
+2. His lunch box.
+3. His homework notebook.
+4. His sports shoes.
+
+【正解26】
+2. His lunch box.
+
+【解説26】
+放送文
+M: This morning, Yuto packed his bag carefully, but he forgot his lunch box on the kitchen table.（けさ、ユウトはかばんをていねいに詰めたが、弁当箱を台所のテーブルに忘れた。）
+He remembered it on the train.（電車の中で思い出しました。）
+His mother will bring it to the school office before noon.（お母さんが正午までに学校の事務室へ届けます。）
+Question: What did Yuto forget?（ユウトが忘れたものは何ですか？）
+
+「forgot his lunch box（弁当箱を忘れた）」とあるので、2「His lunch box.（弁当箱）」が正解です。
+1「His train pass.（定期券）」は放送にありません。3「His homework notebook.（宿題のノート）」も放送にありません。4「His sports shoes.（運動靴）」も放送にありません。電車は思い出した場所、事務室はお母さんが届ける先です。
+ヒント：forgot の直後の物を答えにします。ひっかけは思い出した場所や届ける先です。
+
+【ポイント26】
+種別: リスニング
+見出し: What did X forget? は forgot + 物
+・forgot his lunch box / left 〜 on the table
+・思い出した場所や届ける先を、忘れた物にしない
+
+---
+
+No.27:
+W: In today's short talk, I will explain how our class recycles paper cups after lunch. We wash them, dry them, and put them in the blue box by the sink. Next month we will start recycling plastic bottles, too.
+
+Question No.27:
+What is the speaker talking about?
+
+1. How to cook lunch at school.
+2. How to clean the blue box only.
+3. How the class recycles paper cups.
+4. How to buy new plastic bottles.
+
+【正解27】
+3. How the class recycles paper cups.
+
+【解説27】
+放送文
+W: In today's short talk, I will explain how our class recycles paper cups after lunch.（きょうの短い話では、クラスが昼のあと紙コップをどうリサイクルするか説明します。）
+We wash them, dry them, and put them in the blue box by the sink.（洗って乾かし、シンク横の青い箱に入れます。）
+Next month we will start recycling plastic bottles, too.（来月はペットボトルのリサイクルも始めます。）
+Question: What is the speaker talking about?（話し手は何について話していますか？）
+
+「how our class recycles paper cups」が主題なので、3「How the class recycles paper cups.（クラスの紙コップのリサイクル方法）」が正解です。
+1「How to cook lunch at school.（学校で昼ごはんを作る方法）」は放送にありません。2「How to clean the blue box only.（青い箱だけそうじする方法）」は手順の一部を主題全体にしたものです。4「How to buy new plastic bottles.（新しいペットボトルの買い方）」は放送にありません。ペットボトルは来月からの予定です。
+ヒント：I will explain の直後が主題です。ひっかけは来月のペットボトルや青い箱の細部です。
+
+【ポイント27】
+種別: リスニング
+見出し: What is X talking about? は I will explain の主題
+・explain how we recycle 〜
+・来月の予定や手順の一部だけを主題全体にしない
+
+---
+
+No.28:
+M: The flower shop near the station closes at seven on weekdays. On Sundays it closes at five. If it rains hard, the outdoor flower stands are moved inside before closing time.
+
+Question No.28:
+When does the flower shop close on Sundays?
+
+1. At seven.
+2. At six.
+3. At eight.
+4. At five.
+
+【正解28】
+4. At five.
+
+【解説28】
+放送文
+M: The flower shop near the station closes at seven on weekdays.（駅前の花屋は平日7時に閉まります。）
+On Sundays it closes at five.（日曜は5時に閉まります。）
+If it rains hard, the outdoor flower stands are moved inside before closing time.（雨がひどいと、屋外の花台は閉店前に中へ移します。）
+Question: When does the flower shop close on Sundays?（日曜、花屋は何時に閉まりますか？）
+
+「On Sundays it closes at five（日曜は5時に閉まる）」とあるので、4「At five.（5時）」が正解です。
+1「At seven.（7時）」は平日の閉店時刻です。2「At six.（6時）」は放送にありません。3「At eight.（8時）」も放送にありません。雨の日の花台を中へ移す話は、閉店時刻そのものではありません。
+ヒント：曜日ごとの閉店時刻を分けて聞きましょう。ひっかけは平日の7時と雨の日の作業です。
+
+【ポイント28】
+種別: リスニング
+見出し: When does 〜 close on Sundays? は日曜の時刻
+・closes at five on Sundays / at seven on weekdays
+・平日の時刻や雨の日の作業を日曜の閉店にしない
+
+---
+
+No.29:
+W: At the volunteer day, three people worked at the information desk. Mai guided visitors, and her friend Ken carried boxes. Their teacher, Mr. Mori, took photos for the school website.
+
+Question No.29:
+Who guided the visitors?
+
+1. Mai.
+2. Ken.
+3. Mr. Mori.
+4. A first-year student.
+
+【正解29】
+1. Mai.
+
+【解説29】
+放送文
+W: At the volunteer day, three people worked at the information desk.（ボランティアの日、案内デスクで3人が働きました。）
+Mai guided visitors, and her friend Ken carried boxes.（マイが来場者を案内し、友達のケンが箱を運びました。）
+Their teacher, Mr. Mori, took photos for the school website.（担任のモリ先生が学校のサイト用に写真を撮りました。）
+Question: Who guided the visitors?（来場者を案内したのはだれですか？）
+
+「Mai guided visitors（マイが来場者を案内した）」とあるので、1「Mai.（マイ）」が正解です。
+2「Ken.（ケン）」は箱を運んだ人です。3「Mr. Mori.（モリ先生）」は写真を撮った人です。4「A first-year student.（1年生）」は放送にありません。案内デスクで3人が働いた、は人数の話で、案内した人そのものではありません。
+ヒント：guided の主語を拾いましょう。ひっかけは箱運びや写真の人です。
+
+【ポイント29】
+種別: リスニング
+見出し: Who guided / carried / took 〜? は動詞ごとの主語
+・Mai guided / Ken carried / Mr. Mori took
+・別の作業をした人を答えにしない
+
+---
+
+No.30:
+M: If you want to join the evening study room, fill out a form at the front desk. Then show your student card to the teacher on duty. You can also reserve a seat online the day before.
+
+Question No.30:
+How can students join the evening study room?
+
+1. Call the principal at home.
+2. Fill out a form and show a student card.
+3. Buy a ticket at the station.
+4. Wait outside until someone opens the door.
+
+【正解30】
+2. Fill out a form and show a student card.
+
+【解説30】
+放送文
+M: If you want to join the evening study room, fill out a form at the front desk.（夜の自習室に入りたい人は、受付で用紙に記入します。）
+Then show your student card to the teacher on duty.（そのあと、当番の先生に学生証を見せます。）
+You can also reserve a seat online the day before.（前日にオンラインで席を予約することもできます。）
+Question: How can students join the evening study room?（生徒は夜の自習室にどうやって入れますか？）
+
+「fill out a form」「show your student card」が手順なので、2「Fill out a form and show a student card.（用紙に書いて学生証を見せる）」が正解です。
+1「Call the principal at home.（校長先生の家に電話する）」は放送にありません。3「Buy a ticket at the station.（駅で切符を買う）」も放送にありません。4「Wait outside until someone opens the door.（だれかがドアを開けるまで外で待つ）」も放送にありません。オンライン予約は別の便利な方法です。
+ヒント：まず fill out / show の本手順を選びます。ひっかけは前日のオンライン予約だけを答えにすることです。
+
+【ポイント30】
+種別: リスニング
+見出し: How can students join / enter 〜? は手順の動詞列
+・fill out a form / show your card
+・オンライン予約は別手段。設問の本手順を先に拾う
+
+---
+
+No.31:
+W: Daichi works at a small bookshop near the city hall. He lives in an apartment above the shop with his uncle. On Sundays he helps at a bakery two streets away.
+
+Question No.31:
+Where does Daichi work?
+
+1. At a bakery two streets away.
+2. At the city hall office.
+3. At a small bookshop near the city hall.
+4. At a library downtown.
+
+【正解31】
+3. At a small bookshop near the city hall.
+
+【解説31】
+放送文
+W: Daichi works at a small bookshop near the city hall.（ダイチは市役所の近くの小さな本屋で働いています。）
+He lives in an apartment above the shop with his uncle.（おじと、店の上のアパートに住んでいます。）
+On Sundays he helps at a bakery two streets away.（日曜は2本先のパン屋を手伝います。）
+Question: Where does Daichi work?（ダイチはどこで働いていますか？）
+
+「works at a small bookshop near the city hall（市役所近くの小さな本屋で働いている）」とあるので、3「At a small bookshop near the city hall.（市役所近くの小さな本屋で）」が正解です。
+1「At a bakery two streets away.（2本先のパン屋で）」は日曜の手伝い先です。2「At the city hall office.（市役所の事務所で）」は near the city hall を職場そのものにすり替えています。4「At a library downtown.（街の図書館で）」は放送にありません。店の上のアパートは住んでいる場所です。
+ヒント：works at の場所が本業です。ひっかけは日曜のパン屋手伝いや住んでいるアパートです。
+
+【ポイント31】
+種別: リスニング
+見出し: Where does X work? は works at の場所
+・works at a 〜 / helps at 〜 on Sundays
+・住んでいる場所や日曜だけの手伝いを本業の職場にしない
+
+---
+
+No.32:
+M: Yesterday, Hina received a package from her pen pal in Canada. Inside she found a photo book and a short letter. She has already written a thank-you note to send back.
+
+Question No.32:
+What did Hina receive?
+
+1. A new bicycle.
+2. Tickets to a concert.
+3. A map of her town.
+4. A package with a photo book and a letter.
+
+【正解32】
+4. A package with a photo book and a letter.
+
+【解説32】
+放送文
+M: Yesterday, Hina received a package from her pen pal in Canada.（きのう、ヒナはカナダのペンパルから小包を受け取りました。）
+Inside she found a photo book and a short letter.（中には写真集と短い手紙が入っていました。）
+She has already written a thank-you note to send back.（お礼の手紙はもう書いて、送り返す準備ができています。）
+Question: What did Hina receive?（ヒナが受け取ったものは何ですか？）
+
+「received a package」「a photo book and a short letter」なので、4「A package with a photo book and a letter.（写真集と手紙の入った小包）」が正解です。
+1「A new bicycle.（新しい自転車）」は放送にありません。2「Tickets to a concert.（コンサートのチケット）」も放送にありません。3「A map of her town.（自分の町の地図）」も放送にありません。thank-you note はヒナが書いたお礼で、受け取った物ではありません。
+ヒント：received / found inside の物を答えにします。ひっかけは自分が書いたお礼の手紙です。
+
+【ポイント32】
+種別: リスニング
+見出し: What did X receive / get? は受け取った物
+・received a package / found 〜 inside
+・自分が書いたお礼を、受け取った物にしない
+
+---
+
+No.33:
+W: The spring concert will be held on Friday evening in the school hall. Doors open at five, and the first song starts at five-thirty. If it rains, umbrellas must stay outside the hall.
+
+Question No.33:
+When will the spring concert be held?
+
+1. On Friday evening.
+2. On Saturday morning.
+3. On Sunday afternoon.
+4. On Monday after school.
+
+【正解33】
+1. On Friday evening.
+
+【解説33】
+放送文
+W: The spring concert will be held on Friday evening in the school hall.（春のコンサートは金曜の夕方、学校のホールであります。）
+Doors open at five, and the first song starts at five-thirty.（ドアは5時にあき、最初の曲は5時半に始まります。）
+If it rains, umbrellas must stay outside the hall.（雨なら、傘はホールの外に置きます。）
+Question: When will the spring concert be held?（春のコンサートはいつありますか？）
+
+「on Friday evening（金曜の夕方）」が開催日なので、1「On Friday evening.（金曜の夕方）」が正解です。
+2「On Saturday morning.（土曜の朝）」は放送にありません。3「On Sunday afternoon.（日曜の午後）」も放送にありません。4「On Monday after school.（月曜の放課後）」も放送にありません。5時・5時半は開場と開始時刻、雨の日は傘の置き方です。
+ヒント：will be held on の曜日＋時間帯を拾いましょう。ひっかけは開場時刻や雨の日のルールです。
+
+【ポイント33】
+種別: リスニング
+見出し: When will the event be held? は曜日＋時間帯
+・on Friday evening / on Saturday morning
+・開場時刻や雨の日のルールを開催日そのものにしない
+
+---
+
+No.34:
+M: Today I want to talk about our new recycling rules for plastic bottles. Please rinse them and remove the caps before you put them in the green bin. Paper trash still goes in the yellow bin by the stairs.
+
+Question No.34:
+What is the speaker talking about?
+
+1. How to climb the stairs safely.
+2. New recycling rules for plastic bottles.
+3. Where to buy green bins.
+4. How to make paper from bottles.
+
+【正解34】
+2. New recycling rules for plastic bottles.
+
+【解説34】
+放送文
+M: Today I want to talk about our new recycling rules for plastic bottles.（きょうは、ペットボトルの新しいリサイクルルールについて話します。）
+Please rinse them and remove the caps before you put them in the green bin.（緑の箱に入れる前に、すすいでキャップを外してください。）
+Paper trash still goes in the yellow bin by the stairs.（紙ごみはこれまでどおり、階段横の黄色い箱へ。）
+Question: What is the speaker talking about?（話し手は何について話していますか？）
+
+「new recycling rules for plastic bottles」が主題なので、2「New recycling rules for plastic bottles.（ペットボトルの新しいリサイクルルール）」が正解です。
+1「How to climb the stairs safely.（階段を安全にのぼる方法）」は by the stairs と混ざりやすいですが、主題ではありません。3「Where to buy green bins.（緑の箱の買い方）」は放送にありません。4「How to make paper from bottles.（ボトルから紙を作る方法）」も放送にありません。黄色い箱は紙ごみの補足です。
+ヒント：Today I want to talk about の直後が主題です。ひっかけは紙ごみの黄色い箱の話です。
+
+【ポイント34】
+種別: リスニング
+見出し: What is the speaker talking about? は Today I want to talk about
+・talk about new rules for 〜
+・別のごみ箱の話を主題全体にすり替えない
+
+---
+
+No.35:
+W: Kenji lives with his family in a house near the river. He works at a bike shop downtown on weekends. On rainy days he stays home and repairs old bikes in the garage.
+
+Question No.35:
+Where does Kenji live?
+
+1. Downtown near the bike shop.
+2. In a garage by the station.
+3. In a house near the river.
+4. In an apartment above a bakery.
+
+【正解35】
+3. In a house near the river.
+
+【解説35】
+放送文
+W: Kenji lives with his family in a house near the river.（ケンジは家族と、川の近くの家に住んでいます。）
+He works at a bike shop downtown on weekends.（週末は街の自転車屋で働きます。）
+On rainy days he stays home and repairs old bikes in the garage.（雨の日は家にいて、車庫で古い自転車を直します。）
+Question: Where does Kenji live?（ケンジはどこに住んでいますか？）
+
+「lives ... in a house near the river（川の近くの家に住んでいる）」とあるので、3「In a house near the river.（川の近くの家で）」が正解です。
+1「Downtown near the bike shop.（街の自転車屋の近く）」は働く場所を住む場所にしたものです。2「In a garage by the station.（駅のそばの車庫で）」は雨の日の作業場所を住所にしたもので、「駅のそば」は放送にありません。4「In an apartment above a bakery.（パン屋の上のアパートで）」は放送にありません。
+ヒント：lives in / near の場所が住所です。ひっかけは週末の職場や車庫での修理です。
+
+【ポイント35】
+種別: リスニング
+見出し: Where does X live? は lives in / near
+・lives in a house near the river
+・働く場所や車庫での作業を住所にしない
+
+---

@@ -7,26 +7,26 @@
 
 ## 対象ファイル
 
-| カテゴリ | パス | 目安件数 |
+| カテゴリ | パス | 目安件数（最適セット） |
 |----------|------|----------|
-| 文法・語彙 | `grammar_fill_questions.txt` | 10 |
-| 会話補充 | `conversation_questions.txt` | 10 |
-| 語順 | `wordorder_questions.txt` | 10（`validate_wordorder_questions.py` 済） |
-| 読解 | `reading_comprehesion_questions.txt` | 本文6（掲示2問・メール3問・物語5問を2セット） |
-| Lイラスト | `listening_illustration_questions.txt` | 10 |
-| L会話 | `listening_conversation_questions.txt` | 10 |
-| L文章 | `listening_passage_questions.txt` | 10 |
-| スピーキング | `speaking_questions.txt` | 5（イラスト説明付き） |
-| ライティング | `writing_questions.txt` | 5（メール返信） |
+| 文法・語彙 | `grammar_fill_questions.txt` | 50（文法＋熟語＋語彙） |
+| 会話補充 | `conversation_questions.txt` | 40（定型応答含む） |
+| 語順 | `wordorder_questions.txt` | 30（`validate_wordorder_questions.py` 済） |
+| 読解 | `reading_comprehesion_questions.txt` | 本文9 / 設問30（3セット。物語末尾に要旨） |
+| Lイラスト | `listening_illustration_questions.txt` | 35 |
+| L会話 | `listening_conversation_questions.txt` | 35 |
+| L文章 | `listening_passage_questions.txt` | 35 |
+| スピーキング | `speaking_questions.txt` | 10カード（内容に Why/Which、自分に Can you） |
+| ライティング | `writing_questions.txt` | 12（メール6＋意見6。Which / Do you like 含む） |
 
 ## アセット
 
 | 種類 | 配置 | 状態メモ |
 |------|------|----------|
-| 音声 Part1 | `static/audio/level3/part1/listening_illustration_question{1–10}.mp3` | image1/2 は場面差し替え済。登録時に該当 TTS を再生成 |
-| 音声 Part2 | `static/audio/level3/part2/listening_conversation_question{1–10}.mp3` | テキスト10問。登録時に TTS（既存は1–5） |
-| 音声 Part3 | `static/audio/level3/part3/listening_passage_question{1–10}.mp3` | テキスト10問。登録時に TTS（既存は1–5） |
-| 画像 | `static/images/level3/part1/listening_illustration_image{1–10}.png` | 生成済・640×426・要目視 |
+| 音声 Part1 | `static/audio/level3/part1/listening_illustration_question{1–35}.mp3` | 追加分は登録時に TTS。画像が無い No. は画像生成後 |
+| 音声 Part2 | `static/audio/level3/part2/listening_conversation_question{1–35}.mp3` | 追加分は登録時に TTS |
+| 音声 Part3 | `static/audio/level3/part3/listening_passage_question{1–35}.mp3` | 追加分は登録時に TTS |
+| 画像 | `static/images/level3/part1/listening_illustration_image{1–35}.png` | 既存1–10は生成済。11–35は要生成・目視 |
 | スピーキング | テキスト内【Illustration】説明のみ | 別画像ファイル不要 |
 
 画像の注意:
@@ -63,7 +63,7 @@ python3 utils/validate_wordorder_questions.py data/questions/original/level3/wor
 - [ ] 1セットが掲示2問・メール3問・物語5問（12 / 123 / 12345）
 - [ ] 語数が3級目安（掲示約100・メール約280–300・物語約250）
 - [ ] 案内・メール・物語の設定が公式と被っていない
-- [ ] 設問が本文に根拠がある。メールは用件をまたぐ。物語は理由・目的を含む
+- [ ] 設問が本文に根拠がある。メールは用件をまたぐ。物語は理由・目的・要旨（What is this story about?）を含む
 
 ### リスニング
 
@@ -81,7 +81,8 @@ python3 utils/validate_wordorder_questions.py data/questions/original/level3/wor
 
 - [ ] メールの題材が公式と被っていない
 - [ ] 下線部2問に答える形が崩れていない
-- [ ] 参考解答が 15〜25 語目安に収まる
+- [ ] 参考解答が 15〜25 語目安に収まる（意見論述は 25〜35）
+- [ ] メールに Which / How many 等、意見に Do you like / Which が混ざっている
 
 ## 完了後
 
