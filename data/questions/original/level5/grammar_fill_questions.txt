@@ -515,3 +515,262 @@ Tom and his dad ( ) the car on Sunday.
 見出し: wash the car = くるまをあらう
 ・wash the car = くるまをあらう
 ・drink / sing / sleep はくるまとセットにしにくい
+---
+
+問題21:
+A : Where is the map of Japan? B : It's ( ) the wall.
+
+選択肢21:
+1. under
+2. on
+3. between
+4. during
+
+【正解21】
+2. on
+
+【解説21】
+正解は「on」です。意味は「〜のうえに／〜に（はりつけて）」です。
+文全体は「日本のちずはどこ？」「かべにあるよ」という会話です。「on the wall」で「かべに（はってある）」になります。
+ほかの選択肢：「under（した）」はかべの下になって不自然です。「between（あいだ）」は二つのものの間です。「during」は時間用なので、かべのばしょには使えません。
+かべ・つくえ・ゆかなど「表面」にあるものは on を使うことが多いです。
+
+【ポイント21】
+種別: 文法
+見出し: on the wall = かべに（はってある）
+・on the wall / on the desk = 表面のうえ・かべ
+・during は時間用。ばしょには使わない
+
+---
+
+問題22:
+This postcard is ( ) my cousin in Hokkaido.
+
+選択肢22:
+1. from
+2. under
+3. about
+4. during
+
+【正解22】
+1. from
+
+【解説22】
+正解は「from」です。意味は「〜から」です。
+文全体は「このはがきは北海道のいとこからです」という意味です。「from my cousin」で「いとこから」になります。
+ほかの選択肢：「under（した）」はばしょ、「about（〜について）」は話題、「during（〜のあいだ）」は時間で、「だれから来たか」には合いません。
+だれか・どこか「から」来たものには from を使います。
+
+【ポイント22】
+種別: 文法
+見出し: from = 〜から（だれ・どこから）
+・from my cousin = いとこから
+・about は「〜について」、during は時間用
+
+---
+
+問題23:
+A : ( ) bag is this? B : It's Mira's.
+
+選択肢23:
+1. Who
+2. Where
+3. When
+4. Whose
+
+【正解23】
+4. Whose
+
+【解説23】
+正解は「Whose」です。意味は「だれの」です。
+文全体は「これはだれのかばん？」「ミラのよ」という会話です。「Whose bag is this?」で「これはだれのかばんですか」と聞きます。答えの「It's Mira's.（ミラの）」とも合います。
+ほかの選択肢：「Who（だれ）」は人そのものを聞きます（Who is that?）。「Where（どこ）」はばしょ、「When（いつ）」はときで、持ち主を聞く形ではありません。
+持ち主を聞くときは Whose + もの（Whose bag / Whose book）、と覚えましょう。Who と Whose をまちがえやすいので注意です。
+
+【ポイント23】
+種別: 文法
+見出し: Whose + もの = だれの〜？
+・Whose bag is this? = これはだれのかばん？
+・Who は「だれ」、Whose は「だれの」
+
+---
+
+問題24:
+A : Is this your pen? B : No. This pen is ( ).
+
+選択肢24:
+1. me
+2. I
+3. mine
+4. my
+
+【正解24】
+3. mine
+
+【解説24】
+正解は「mine」です。意味は「わたしのもの」です。
+文全体は「これはあなたのペン？」「ちがう。このペンはわたしの」という会話です。「This pen is mine.」で「このペンはわたしのもの」になります。
+ほかの選択肢：「me」「I」は人をさす語で、この位置には合いません。「my」のあとに名詞が必要なので、「my pen」なら使えますが、ひとりでは使えません。
+「わたしの（もの）」とだけ言うときは mine です。
+
+【ポイント24】
+種別: 文法
+見出し: mine = わたしのもの（あとに名詞をつけない）
+・This pen is mine. = このペンはわたしのもの
+・my は my pen のように、あとにものがいる
+
+---
+
+問題25:
+A : How ( ) stamps do you need? B : Three, please.
+
+選択肢25:
+1. much
+2. many
+3. often
+4. old
+
+【正解25】
+2. many
+
+【解説25】
+正解は「many」です。意味は「たくさんの（数えられるもの）」です。
+文全体は「切手はいくついりますか」「3つお願いします」という会話です。「How many」で「いくつ」と数を聞きます。stamps（切手）は1枚、2枚とかぞえられます。
+ほかの選択肢：「much」は水やミルクなど、かぞえにくいものに使いやすいです。「often（よく）」は回数、「old（古い）」はようすで、数の聞き方ではありません。
+かぞえられるものには How many、と覚えましょう。
+
+【ポイント25】
+種別: 文法
+見出し: How many = いくつ（かぞえられるもの）
+・How many stamps = 切手はいくつ
+・much はかぞえにくいもの向き。often は「よく」
+
+---
+
+問題26:
+Look! The children are ( ) in the park.
+
+選択肢26:
+1. play
+2. plays
+3. playing
+4. played
+
+【正解26】
+3. playing
+
+【解説26】
+正解は「playing」です。意味は「あそんでいる」です。
+文全体は「見て！子どもたちは公園であそんでいます」という意味です。「are playing」で「いまあそんでいる」になります。Look!（見て！）があるので、いま目の前の動きです。
+ほかの選択肢：「play」「plays」はいま動いている形ではありません。「played」は過去の話向きです。
+Look! や now があったら、are / is + 〜ing を疑いましょう。
+
+【ポイント26】
+種別: 文法
+見出し: are / is + 〜ing = いましていること
+・are playing = いまあそんでいる
+・Look! や now のときは 〜ing のかたち
+
+---
+
+問題27:
+A : Can your sister swim? B : Yes, she ( ).
+
+選択肢27:
+1. can
+2. is
+3. does
+4. has
+
+【正解27】
+1. can
+
+【解説27】
+正解は「can」です。意味は「できる」です。
+文全体は「お姉さんは泳げる？」「うん、泳げるよ」という会話です。「Can 〜?」の質問には「Yes, she can.」で答えます。
+ほかの選択肢：「is」は be動詞の答え、「does」は Do / Does の答え、「has」は持っている話で、Can の答えには合いません。
+Can で聞かれたら、Yes / No + can / can't で返しましょう。
+
+【ポイント27】
+種別: 文法
+見出し: Can 〜? の答えは can / can't
+・Yes, she can. = うん、できる
+・is や does は Can の答えではない
+
+---
+
+問題28:
+A : Why are you happy? B : I'm happy ( ) it's sunny.
+
+選択肢28:
+1. but
+2. or
+3. because
+4. so
+
+【正解28】
+3. because
+
+【解説28】
+正解は「because」です。意味は「〜だから」です。
+文全体は「なぜうれしいの？」「晴れだからうれしい」という会話です。「because it's sunny」で理由を言います。
+ほかの選択肢：「but（でも）」は反対、「or（または）」は選択、「so（だから）」は前の文の結果を言うときに使い、この空所の「理由をつなぐ」役には because が一番自然です。
+Why（なぜ）のあとの理由には because がよく来ます。
+
+【ポイント28】
+種別: 文法
+見出し: Why の理由は because
+・because it's sunny = 晴れだから
+・but は「でも」、or は「または」
+
+---
+
+問題29:
+A : Goodbye! See you on Monday. B : Bye! ( ) a nice weekend!
+
+選択肢29:
+1. Make
+2. Have
+3. Do
+4. Take
+
+【正解29】
+2. Have
+
+【解説29】
+正解は「Have」です。意味は「（よい時間を）過ごしてね」に近い決まり文句の一部です。
+文全体は「さよなら！月曜日にまたね」「バイバイ！よい週末を！」という会話です。「Have a nice weekend!」は「よい週末を」という決まった言い方です。Have a good day! / Have fun! も同じ仲間です。
+ほかの選択肢：「Make」「Do」「Take」はそれぞれ「つくる」「する」「とる」などの意味がありますが、この決まり文句では使いません。
+別れや朝のあいさつで「よい〜を」と言うときは、Have a nice / good 〜 のかたまりで覚えましょう。
+
+【ポイント29】
+種別: 熟語
+見出し: Have a nice weekend! = よい週末を
+・Have a nice weekend! / Have fun! のかたまりで覚える
+・Make / Do / Take はこの決まり文句では使わない
+
+---
+
+問題30:
+Emi ( ) to school by bike every day.
+
+選択肢30:
+1. go
+2. goes
+3. going
+4. gone
+
+【正解30】
+2. goes
+
+【解説30】
+正解は「goes」です。意味は「行きます」です。
+文全体は「エミは毎日自転車で学校へ行きます」という意味です。Emi は一人・いまの習慣なので、動詞は goes になります。
+ほかの選択肢：「go」は I / you / we / they 向きです。「going」は are going などの一部、「gone」はこの文の形には合いません。
+he / she / 名前 のあとの習慣の話では、動詞に s がつくことが多いです。
+
+【ポイント30】
+種別: 文法
+見出し: she / 名前 + goes（習慣の話）
+・Emi goes to school = エミは学校へ行く
+・I go / she goes。名前のあとは goes になりやすい

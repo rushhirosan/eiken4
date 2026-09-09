@@ -520,3 +520,182 @@ Question: Where does the girl want to go?（女の子はどこに行きたいで
 見出し: Where does 〜 want to go? は go to + 行きたいばしょ
 ・I want to go to the beach. = うみに行きたい
 ・山・どうぶつえんなど会話にないばしょは答えではない
+---
+
+No.16:
+☆I like this blue bag.
+★Me too.  How much is it?
+☆It's fifteen dollars.
+☆☆
+
+Question No.16:
+How much is the bag?
+
+1. Five dollars.
+2. Ten dollars.
+3. Fifteen dollars.
+4. Fifty dollars.
+
+【正解16】
+3. Fifteen dollars.
+
+【解説16】
+放送文
+☆I like this blue bag.（この青いバッグがすき。）
+★Me too.  How much is it?（わたしも。いくら？）
+☆It's fifteen dollars.（15ドルだよ。）
+Question: How much is the bag?（バッグはいくらですか？）
+
+ねだんを聞いているので、「いくら」の数字を拾います。☆ が「fifteen dollars（15ドル）」と言っているので、3「Fifteen dollars.」が正解です。
+1「Five dollars.（5ドル）」も、2「Ten dollars.（10ドル）」も、4「Fifty dollars.（50ドル）」も、似た数字ですが会話には出ていません。
+「blue（青い）」はバッグの色の話で、ねだんの答えではありません。How much と来たら、いろやばしょではなく数字を探しましょう。
+
+【ポイント16】
+種別: リスニング
+見出し: How much はねだんの数字を拾う
+・It's fifteen dollars. = 15ドル
+・いろの話はねだんの答えではない
+
+---
+
+No.17:
+★Who has a soccer ball?
+☆Ken does.  He always brings it.
+★Great.  Let's ask him.
+☆☆
+
+Question No.17:
+Who has a soccer ball?
+
+1. The girl.
+2. Ken.
+3. The teacher.
+4. The girl's brother.
+
+【正解17】
+2. Ken.
+
+【解説17】
+放送文
+★Who has a soccer ball?（だれがサッカーボールを持っている？）
+☆Ken does.  He always brings it.（ケンだよ。いつも持ってくる。）
+★Great.  Let's ask him.（いいね。ケンに頼もう。）
+Question: Who has a soccer ball?（だれがサッカーボールを持っていますか？）
+
+だれかを聞いているので、人のなまえを拾います。☆ が「Ken does.（ケンが持っている）」と言っているので、2「Ken.」が正解です。
+1「The girl.（女の子）」も、3「The teacher.（先生）」も、4「The girl's brother.（女の子の兄）」も、会話に名前が出ていません。
+「always brings it（いつも持ってくる）」は補足で、持っている人の答えそのものではありません。Who と来たらなまえを探しましょう。
+
+【ポイント17】
+種別: リスニング
+見出し: Who は人のなまえを拾う
+・Ken does. = ケンが持っている
+・出ていない人のなまえは答えではない
+
+---
+
+No.18:
+☆I can't find my cup.
+★Is it the red one?
+☆Yes.  My cup is red.
+☆☆
+
+Question No.18:
+What color is the girl's cup?
+
+1. Blue.
+2. Green.
+3. Red.
+4. Yellow.
+
+【正解18】
+3. Red.
+
+【解説18】
+放送文
+☆I can't find my cup.（カップが見つからない。）
+★Is it the red one?（赤いの？）
+☆Yes.  My cup is red.（うん。わたしのカップは赤。）
+Question: What color is the girl's cup?（女の子のカップは何色ですか？）
+
+いろを聞いているので、いろのことばを拾います。☆ が「My cup is red.（カップは赤）」と言っているので、3「Red.」が正解です。
+1「Blue.（青）」も、2「Green.（みどり）」も、4「Yellow.（きいろ）」も会話に出ていません。
+「I can't find（見つからない）」は困っている話で、いろの答えではありません。What color と来たらいろのことばを探しましょう。
+
+【ポイント18】
+種別: リスニング
+見出し: What color はいろのことばを拾う
+・My cup is red. = カップはあかい
+・出ていないいろは答えではない
+
+---
+
+No.19:
+★Do you have any pets?
+☆Yes.  I have three rabbits.
+★Wow, that's a lot!
+☆☆
+
+Question No.19:
+How many rabbits does the girl have?
+
+1. One.
+2. Two.
+3. Three.
+4. Four.
+
+【正解19】
+3. Three.
+
+【解説19】
+放送文
+★Do you have any pets?（ペットは飼っている？）
+☆Yes.  I have three rabbits.（うん。うさぎを3羽飼っている。）
+★Wow, that's a lot!（わあ、多いね！）
+Question: How many rabbits does the girl have?（女の子はうさぎを何羽飼っていますか？）
+
+かずを聞いているので、数字を拾います。☆ が「three rabbits（うさぎ3羽）」と言っているので、3「Three.」が正解です。
+1「One.（1）」も、2「Two.（2）」も、4「Four.（4）」も会話にありません。
+「that's a lot!（多いね）」は感想で、正確なかずの答えではありません。How many と来たら数字を探しましょう。
+
+【ポイント19】
+種別: リスニング
+見出し: How many はかずを拾う
+・I have three rabbits. = うさぎが3羽
+・会話にないかずは答えではない
+
+---
+
+No.20:
+☆How do you go to the library?
+★I go by bike.  It's near my house.
+☆That's nice.
+☆☆
+
+Question No.20:
+How does the boy go to the library?
+
+1. By bus.
+2. By train.
+3. On foot.
+4. By bike.
+
+【正解20】
+4. By bike.
+
+【解説20】
+放送文
+☆How do you go to the library?（図書館へどうやって行くの？）
+★I go by bike.  It's near my house.（自転車で行くよ。うちの近くだから。）
+☆That's nice.（いいね。）
+Question: How does the boy go to the library?（男の子は図書館へどうやって行きますか？）
+
+のりかたを聞いているので、by 〜 を拾います。★ が「I go by bike.（自転車で行く）」と言っているので、4「By bike.」が正解です。
+1「By bus.（バスで）」も、2「By train.（電車で）」も、3「On foot.（あるいて）」も会話に出ていません。
+「near my house.（うちの近く）」はばしょの補足で、のりかたの答えではありません。How do you go と来たら by 〜 を探しましょう。
+
+【ポイント20】
+種別: リスニング
+見出し: How do you go は by 〜 を拾う
+・I go by bike. = じてんしゃで行く
+・ちかい（ばしょ）の話はのりかたではない
