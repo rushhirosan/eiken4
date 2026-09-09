@@ -3,14 +3,14 @@
 Park Picnic
 
 【Passage】
-Hana is 10 years old. She rides to the park every Saturday. She takes a small lunch and meets her friend Aya there. They sit under a tree.
+Hana is 10 years old. She rides a blue bike to the park every Saturday. She takes a small lunch and meets her friend Aya there. They sit under a tree.
 
 【Illustration】
 公園。女の子が木の下でおにぎりを食べている。もう一人の女の子が水筒の水を飲んでいる。自転車が木のそばに置いてある。
 
 【Questions】
 1. [passage] When does Hana go to the park?
-2. [passage] Who does she meet there?
+2. [passage] What color is Hana's bike?
 3. [illustration] What is the girl under the tree eating?
 4. [personal] Do you like going to the park?
 
@@ -20,21 +20,21 @@ Hana is 10 years old. She rides to the park every Saturday. She takes a small lu
 
 ■ 音読のポイント
 ・一文ずつ区切ってはっきり読む
-・Hana / Aya / Saturday も丁寧に
+・Hana / blue / Saturday も丁寧に
 
 ■ 参考解答の例
 1. Every Saturday. / She goes every Saturday.
-2. Her friend Aya. / She meets Aya.
+2. It is blue. / Her bike is blue. / Blue.
 3. She is eating a rice ball. / A rice ball.
 4. Yes, I do. / No, I don't.
 
 ■ 表現のメモ
-イラストは進行形（is -ing）で答えると自然です。No.4 は自分の答えでOKです。
+No.2 は本文の a blue bike が答えです。Aya の名前は色の答えではありません。イラストは進行形（is -ing）で答えると自然です。No.4 は自分の答えでOKです。
 
 【ポイント1】
 種別: 会話
-見出し: 内容は本文、イラストは is -ing、最後は自分のこと
-・When / Who など内容問題は本文から取る
+見出し: 内容は本文、イラストは is -ing
+・When / What color など内容問題は本文の語から取る
 ・イラストは見える動作を進行形で（She is eating 〜.）
 ・自分のことの質問は Yes / No や自分の習慣でOK
 
@@ -226,7 +226,7 @@ Nao waters plants on the school rooftop every Friday. She grows tomatoes with he
 
 【参考解答】
 ■ この問題で求められること
-約20語を黙読→音読したあと、内容2問・イラスト1問・自分のこと1問に答えます。
+約25語を黙読→音読したあと、内容2問・イラスト1問・自分のこと1問に答えます。
 
 ■ 音読のポイント
 ・一文ずつ区切ってはっきり読む
@@ -255,13 +255,13 @@ No.1 は本文1文目の every Friday が答えです。No.2 は grows tomatoes 
 Morning Milk Count
 
 【Passage】
-Yuto counts the milk bottles every morning. He writes the number on a paper near the office. A teacher checks the paper after school.
+Yuto counts ten milk bottles every morning. He writes the number on a paper near the office. A teacher checks the paper after school.
 
 【Illustration】
 廊下。男の子が紙に数字を書いている。先生がメモ帳を持っている。箱の中に牛乳びんが並んでいる。
 
 【Questions】
-1. [passage] What does Yuto count every morning?
+1. [passage] How many milk bottles does Yuto count every morning?
 2. [passage] Where does he write the number?
 3. [illustration] What is the teacher holding?
 4. [personal] What do you often drink at school?
@@ -271,23 +271,23 @@ Yuto counts the milk bottles every morning. He writes the number on a paper near
 パッセージを黙読・音読し、内容2問・イラスト1問・自分のこと1問に答えます。
 
 ■ 音読のポイント
-・counts / bottles / office をはっきり読む
+・counts / ten / bottles / office をはっきり読む
 ・every morning / after school の時を落とさない
 
 ■ 参考解答の例
-1. The milk bottles. / He counts the milk bottles.
+1. Ten. / He counts ten milk bottles. / Ten bottles.
 2. On a paper near the office. / Near the office.
 3. The teacher is holding a notebook. / A memo pad.
 4. I drink milk. / I drink water. / I drink tea.
 
 ■ 表現のメモ
-No.1 は何を数えるか、No.2 はどこに書くか、です。先生が紙を見るのは after school なので、書く場所の答えではありません。イラストは進行形（is -ing）で答えると自然です。
+No.1 は How many（いくつ）なので数字の ten が答えです。No.2 はどこに書くか、です。先生が紙を見るのは after school なので、書く場所の答えではありません。イラストは進行形（is -ing）で答えると自然です。
 
 【ポイント7】
 種別: 会話
-見出し: What（数えるもの）と Where（書く場所）を分ける
-・counts / writes の目的語と場所を取り違えない
-・あとで先生が確認する時刻は、書く場所の答えではない
+見出し: How many（数）と Where（書く場所）を分ける
+・How many は ten / five など数字が答え
+・writes の場所と、あとで先生が確認する時刻を取り違えない
 ・イラストは見える物・動作を is -ing で
 
 ---

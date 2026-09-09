@@ -537,3 +537,542 @@ My uncle ( ) a used bicycle last week.
 ・現在形（buys）や原形（buy）は last 〜 と合わない
 
 ---
+問題21:
+This tower is ( ) than the old one next to the station.
+
+選択肢21:
+1. tall
+2. taller
+3. tallest
+4. more tall
+
+【正解21】
+2. taller
+
+【解説21】
+正解は「taller」です。意味は「より高い」です（tall の比較級）。
+文全体は「この塔は、駅のとなりの古い塔より高いです」という意味です。「than（〜より）」があるので、二つのものをくらべる比較級「taller」を使います。
+ほかの選択肢：「tall」はふつうの形で、than とは合いません。「tallest」はいちばん高い（最上級）で、than を使う比較には使いません。「more tall」はまちがった形です（短い形容詞は -er をつけます）。
+ヒント：than があったら比較級（-er や more 〜）。いちばんなら -est / the most です。
+
+【ポイント21】
+種別: 文法
+見出し: 比較級 taller + than（〜より高い）
+・短い形容詞は -er（tall → taller）
+・than とセットで二つのものをくらべる
+・tallest は最上級。than とは使わない
+
+---
+
+問題22:
+This puzzle book is ( ) than the comic I read yesterday.
+
+選択肢22:
+1. interesting
+2. interestinger
+3. more interesting
+4. most interesting
+
+【正解22】
+3. more interesting
+
+【解説22】
+正解は「more interesting」です。意味は「よりおもしろい」です。
+文全体は「このパズルの本は、きのう読んだマンガよりおもしろいです」という意味です。「interesting」のように長い形容詞は、「more + 形容詞」で比較級にします。「than」があるので比較の文です。
+ほかの選択肢：「interesting」だけでは「より」の意味になりません。「interestinger」という形はありません。「most interesting」は最上級（いちばんおもしろい）で、than を使う比較には合いません。
+ヒント：長い形容詞は more 〜 / the most 〜。短い語の -er / -est と分けて覚えましょう。
+
+【ポイント22】
+種別: 文法
+見出し: 長い形容詞は more 〜 + than
+・interesting → more interesting than 〜
+・短い語は -er（taller）。長い語は more
+・most は最上級。than の比較には more を使う
+
+---
+
+問題23:
+A : Which bag do you want? B : This blue one is ( ) for school.
+
+選択肢23:
+1. better
+2. gooder
+3. more good
+4. best
+
+【正解23】
+1. better
+
+【解説23】
+正解は「better」です。意味は「よりよい」です（good の比較級）。
+文全体は「どのかばんがいい？」「この青いほうが、学校にはよりよいよ」という会話です。二つのなかでどちらがよいかを言うとき、「better」を使います。
+ほかの選択肢：「gooder」と「more good」はどちらもまちがった形です。「best」はいちばんよい（最上級）で、二つのくらべごとにはふつう better を使います。
+ヒント：good → better → best はセットで覚えましょう（規則どおり -er にしません）。
+
+【ポイント23】
+種別: 文法
+見出し: good の比較級は better
+・good → better → best（不規則）
+・gooder / more good は使わない
+・二つなら better、いちばんなら best
+
+---
+
+問題24:
+Look! The children ( ) soccer in the park right now.
+
+選択肢24:
+1. play
+2. played
+3. plays
+4. are playing
+
+【正解24】
+4. are playing
+
+【解説24】
+正解は「are playing」です。意味は「いま遊んでいる／している」です（進行形）。
+文全体は「見て！子どもたちがいま公園でサッカーをしているよ」という意味です。「Look!」と「right now（いま）」があるので、いま進行中の動作です。主語 the children は複数なので、「are + -ing（playing）」になります。
+ほかの選択肢：「play」は習慣、「played」は過去、「plays」は一人の現在形で、どれも「いままさにしている」感じと合いません。
+ヒント：Look! / right now / now を見たら、be動詞 + -ing を疑いましょう。
+
+【ポイント24】
+種別: 文法
+見出し: 進行形 be + -ing（いま〜している）
+・複数 → are playing、一人 → is playing
+・Look! / right now / now と相性がよい
+・play / played は「いままさに」の意味にならない
+
+---
+
+問題25:
+A : Where is Ren? B : He ( ) a poster for the school festival in the art room.
+
+選択肢25:
+1. makes
+2. is making
+3. made
+4. making
+
+【正解25】
+2. is making
+
+【解説25】
+正解は「is making」です。意味は「つくっているところです」です。
+文全体は「レンはどこ？」「美術室で、学校祭のポスターをつくっているよ」という会話です。いまどこにいるかの答えとして、進行中の動作「is making」が自然です。主語 He は一人なので is + -ing です。
+ほかの選択肢：「makes」は習慣、「made」は過去です。「making」だけでは be動詞がなく、文として足りません。
+ヒント：Where is 〜? の答えで「いま〜している」なら is / are + -ing です。
+
+【ポイント25】
+種別: 文法
+見出し: Where is 〜? の答えは is / are + -ing が多い
+・He is making / They are making（いましている動作）
+・-ing だけでは足りない。be動詞が必要
+・makes（習慣）や made（過去）と使い分ける
+
+---
+
+問題26:
+A : What do you want ( ) after school? B : I want to buy a new eraser.
+
+選択肢26:
+1. to do
+2. doing
+3. do
+4. did
+
+【正解26】
+1. to do
+
+【解説26】
+正解は「to do」です。意味は「すること」です（want to + 原形の to の部分）。
+文全体は「放課後は何がしたい？」「新しい消しゴムを買いたい」という会話です。「want to + 動詞の原形」で「〜したい」になります。うしろの答えも「want to buy」と同じ型です。
+ほかの選択肢：「doing」は want のあとにふつう続きません。「do」だけだと to がなく形が足りません。「did」は過去形です。
+ヒント：want / like / forget のあとは to + 原形、とセットで覚えましょう。
+
+【ポイント26】
+種別: 文法
+見出し: want to + 動詞の原形（〜したい）
+・want to do / want to buy
+・to をわすれない。doing や do だけにはしない
+・like to / forget to も同じ型
+
+---
+
+問題27:
+Please don't forget ( ) the classroom window before you leave.
+
+選択肢27:
+1. closing
+2. close
+3. to close
+4. closed
+
+【正解27】
+3. to close
+
+【解説27】
+正解は「to close」です。意味は「閉めること」です。
+文全体は「帰る前に、教室のまどを閉めるのをわすれないでください」という意味です。「forget to + 動詞の原形」で「〜するのをわすれる／わすれないで」になります。
+ほかの選択肢：「closing」は別の意味の型になりやすく、このお願い文では to close が自然です。「close」だけだと to が足りません。「closed」は過去形・過去分詞で、forget の直後には合いません。
+ヒント：わすれずに〜して、は don't forget to + 原形、です。
+
+【ポイント27】
+種別: 文法
+見出し: forget to + 原形（〜するのをわすれる）
+・don't forget to close / to bring
+・to + 原形までそろえる
+・closed（過去）は forget のあとに直接置かない
+
+---
+
+問題28:
+You ( ) wash your hands before lunch. It's a school rule.
+
+選択肢28:
+1. must not to
+2. must to
+3. musting
+4. must
+
+【正解28】
+4. must
+
+【解説28】
+正解は「must」です。意味は「〜しなければならない」です。
+文全体は「昼ごはんの前に手をあらわなければなりません。学校のルールです」という意味です。「must + 動詞の原形（wash）」で、きまりや必要を表します。
+ほかの選択肢：「must not to」と「must to」は形がまちがいです（must のあとに to はつけません）。「musting」という形はありません。
+ヒント：must のあとは原形だけ。have to とちがい、must のあとに to は置きません。
+
+【ポイント28】
+種別: 文法
+見出し: must + 原形（〜しなければならない）
+・You must wash your hands.
+・must のあとに to はつけない（must to は不可）
+・have to も近い意味だが、形が違う（have to + 原形）
+
+---
+
+問題29:
+A : You're muddy after soccer practice. B : I know. I'll ( ) before dinner.
+
+選択肢29:
+1. take a picture
+2. take a bath
+3. catch a cold
+4. get up
+
+【正解29】
+2. take a bath
+
+【解説29】
+正解は「take a bath」です。意味は「おふろに入る」です。
+文全体は「サッカーの練習のあと、どろだらけだね」「わかってる。夕飯の前におふろに入るよ」という会話です。どろを落とす流れなので「take a bath」が自然です。
+ほかの選択肢：「take a picture」は写真をとる意味で、どろを落とす話ではありません。「catch a cold」はかぜをひく意味で、おふろの代わりにはなりません。「get up」は起きる意味で、夕飯前のどろだらけの場面には合いません。
+ヒント：bath = おふろ、picture = 写真。take a 〜 のうしろの語で意味が変わります。
+
+【ポイント29】
+種別: 熟語
+見出し: take a bath（おふろに入る）
+・take a bath = おふろに入る
+・take a picture = 写真をとる。うしろの語で意味が変わる
+・よごれ・汗のあとに使う定番表現
+
+---
+
+問題30:
+On weekdays I ( ) at six and walk the dog.
+
+選択肢30:
+1. get up
+2. get on
+3. take off
+4. turn off
+
+【正解30】
+1. get up
+
+【解説30】
+正解は「get up」です。意味は「起きる」です。
+文全体は「平日は6時に起きて、犬の散歩をします」という意味です。「at six（6時に）」と朝のルーティンなので、「get up」が自然です。朝の時間とセットで使う語を選びます。
+ほかの選択肢：「get on」はバスなどに乗る意味で、6時に起きることではありません。「take off」は服をぬぐ・飛行機が飛び立つなどで、朝起きる意味ではありません。「turn off」は電気などを消す意味で、起きる動作ではありません。
+ヒント：朝の時間 + 起きる、なら get up を思い浮かべましょう。
+
+【ポイント30】
+種別: 熟語
+見出し: get up（起きる）
+・get up at six = 6時に起きる
+・get on = 乗る。意味が違う
+・turn off はスイッチを消す
+
+---
+
+問題31:
+A : The cherry blossoms look beautiful. B : Let's ( ) near the pond.
+
+選択肢31:
+1. catch a cold
+2. wait a minute
+3. take a picture
+4. see you later
+
+【正解31】
+3. take a picture
+
+【解説31】
+正解は「take a picture」です。意味は「写真をとる」です。
+文全体は「桜がきれいだね」「池の近くで写真をとろう」という会話です。きれいな景色を残したい流れなので「take a picture」が自然です。
+ほかの選択肢：「catch a cold」はかぜをひく意味で、きれいな景色のあとには言いません。「wait a minute」はちょっと待って、という意味で、写真をとる提案ではありません。「see you later」はまたね、という別れのあいさつで、写真の場面には合いません。
+ヒント：きれい・記念・カメラの話なら take a picture です。
+
+【ポイント31】
+種別: 熟語
+見出し: take a picture（写真をとる）
+・take a picture / take pictures
+・take a bath（おふろ）と取りちがえない
+・きれいな景色・記念の場面でよく使う
+
+---
+
+問題32:
+A : Why is Kenta staying home today? B : He ( ) yesterday in the rain.
+
+選択肢32:
+1. got up
+2. took a bath
+3. was good at
+4. caught a cold
+
+【正解32】
+4. caught a cold
+
+【解説32】
+正解は「caught a cold」です。意味は「かぜをひいた」です（catch a cold の過去）。
+文全体は「なぜケンタは今日うちにいるの？」「きのう雨のなかでかぜをひいたんだ」という意味です。家にいる理由として「caught a cold」が自然です。「yesterday」があるので過去形です。
+ほかの選択肢：「got up」は起きた、という意味で、今日うちにいる理由にはなりません。「took a bath」はおふろに入った、という意味で、病気の理由ではありません。「was good at」は〜が得意だった、という意味で、家にいる理由ではありません。
+ヒント：catch a cold → caught a cold。雨・寒い・体調不良の流れとセットで覚えましょう。
+
+【ポイント32】
+種別: 熟語
+見出し: catch a cold（かぜをひく）
+・catch a cold → 過去は caught a cold
+・雨や寒い日のあとに出やすい表現
+・get up / take a bath とは意味が違う
+
+---
+
+問題33:
+My cousin is ( ) drawing animals. Her sketchbook is full of cats.
+
+選択肢33:
+1. good for
+2. good at
+3. good to
+4. good with on
+
+【正解33】
+2. good at
+
+【解説33】
+正解は「good at」です。意味は「〜が得意だ」です。
+文全体は「いとこは動物を描くのが得意です。スケッチブックがねこでいっぱいです」という意味です。「be good at + 名詞 / -ing」で得意を表します。うしろのスケッチブックの話も、上手だという流れです。
+ほかの選択肢：「good for」は〜に良い／役に立つ、という意味で、得意とは違います。「good to」は〜にやさしい、などに使い、上手の意味ではありません。「good with on」は前置詞がくずれていて、正しい形ではありません。
+ヒント：得意・上手は be good at。スポーツや教科の名前とよく一緒に出ます。
+
+【ポイント33】
+種別: 熟語
+見出し: be good at（〜が得意）
+・be good at drawing / soccer / English
+・good for は「〜に良い」。得意とは違う
+・at のあとは名詞か -ing
+
+---
+
+問題34:
+A : I have a piano contest this Saturday. B : ( )! Practice hard.
+
+選択肢34:
+1. Good luck
+2. See you later
+3. Wait a minute
+4. Catch a cold
+
+【正解34】
+1. Good luck
+
+【解説34】
+正解は「Good luck」です。意味は「がんばってね／うまくいきますように」です。
+文全体は「土曜にピアノのコンテストがあるんだ」「がんばって！しっかり練習してね」という会話です。これから大事なことに向かう相手には「Good luck」が自然です。うしろの Practice hard も応援の流れです。
+ほかの選択肢：「See you later」はまたね、という別れのあいさつで、応援ではありません。「Wait a minute」はちょっと待って、という意味で、コンテストの応援には合いません。「Catch a cold」はかぜをひく、という意味で、がんばっての代わりには使えません。
+ヒント：試合・テスト・発表の前は Good luck! と覚えるとよいです。
+
+【ポイント34】
+種別: 熟語
+見出し: Good luck（うまくいきますように）
+・試合・テスト・コンテストの前に使う
+・See you later は別れ。応援ではない
+・Catch a cold はかぜをひく。応援に使わない
+
+---
+
+問題35:
+A : I need to go home now. B : OK. ( ).
+
+選択肢35:
+1. Good at math
+2. Take a bath
+3. See you later
+4. Catch a cold
+
+【正解35】
+3. See you later
+
+【解説35】
+正解は「See you later」です。意味は「またね／またあとで」です。
+文全体は「もう家に帰らないと」「わかった。またね」という会話です。別れるときのあいさつなので「See you later」が自然です。
+ほかの選択肢：「Good at math」は〜が得意、の一部で、別れのあいさつにはなりません。「Take a bath」はおふろに入る、という意味で、さよならの代わりには使えません。「Catch a cold」はかぜをひく、という意味で、別れの場面には合いません。
+ヒント：帰る・学校が終わる・友だちと分かれるときは See you later です。
+
+【ポイント35】
+種別: 熟語
+見出し: See you later（またね）
+・別れのあいさつ。あとでまた会う感じ
+・Good luck は応援。別れとは使い分け
+・Take a bath など動作の熟語とは別物
+
+---
+
+問題36:
+A : Can you help me with this heavy box? B : ( ). I'll be right there.
+
+選択肢36:
+1. See you later
+2. Good luck
+3. Get up
+4. Wait a minute
+
+【正解36】
+4. Wait a minute
+
+【解説36】
+正解は「Wait a minute」です。意味は「ちょっと待って」です。
+文全体は「この重い箱、手伝ってくれる？」「ちょっと待って。すぐ行くよ」という会話です。すぐ来る前に少し時間がほしいとき、「Wait a minute」が自然です。うしろの I'll be right there（すぐ行く）とセットです。
+ほかの選択肢：「See you later」はまたね、という別れで、手伝う前の一言には合いません。「Good luck」はがんばって、という応援で、待つ意味ではありません。「Get up」は起きて、という意味で、箱を手伝う流れには合いません。
+ヒント：すぐ行く・すぐ答える前の一言は Wait a minute です。
+
+【ポイント36】
+種別: 熟語
+見出し: Wait a minute（ちょっと待って）
+・少し時間がほしいときに使う
+・I'll be right there（すぐ行く）とよく続く
+・See you later / Good luck と混同しない
+
+---
+
+問題37:
+A : It's raining hard. B : Don't forget your ( ) by the door.
+
+選択肢37:
+1. umbrella
+2. eraser
+3. ruler
+4. stamp
+
+【正解37】
+1. umbrella
+
+【解説37】
+正解は「umbrella」です。意味は「かさ」です。
+文全体は「雨がひどいよ」「ドアのところのかさをわすれないで」という会話です。雨の日に持っていくものは「umbrella」が自然です。
+ほかの選択肢：「eraser」は消しゴムで、雨をよける道具ではありません。「ruler」はものさしで、雨の日に持つものではありません。「stamp」は切手で、雨よけにはなりません。
+ヒント：rain / raining が出たら、umbrella や raincoat など雨の道具を探しましょう。
+
+【ポイント37】
+種別: 単語
+見出し: umbrella（かさ）と天気の語
+・umbrella = かさ。rain / raining とよく一緒に出る
+・eraser / ruler など文房具は雨の道具ではない
+・文の天気の語に合う持ち物を選ぶ
+
+---
+
+問題38:
+Please be ( ) in the library. People are studying.
+
+選択肢38:
+1. noisy
+2. quiet
+3. heavy
+4. empty
+
+【正解38】
+2. quiet
+
+【解説38】
+正解は「quiet」です。意味は「静かな」です。
+文全体は「図書館では静かにしてください。みんな勉強しています」という意味です。勉強している場所では「be quiet（静かにする）」が自然です。
+ほかの選択肢：「noisy」はうるさい、という意味で、静かに、の逆です。「heavy」は重い、という意味で、声の大きさの話ではありません。「empty」はからの、という意味で、ふるまいのお願いには合いません。
+ヒント：library / study / sleep の近くでは quiet がよく出ます。
+
+【ポイント38】
+種別: 単語
+見出し: quiet（静か）⇔ noisy（うるさい）
+・be quiet in the library
+・noisy は逆なので取りちがえ注意
+・heavy / empty は音の大きさの話ではない
+
+---
+
+問題39:
+A : I left my dictionary at home. B : You can ( ) mine during class.
+
+選択肢39:
+1. throw
+2. break
+3. borrow
+4. paint
+
+【正解39】
+3. borrow
+
+【解説39】
+正解は「borrow」です。意味は「（一時的に）借りる」です。
+文全体は「辞書をうちにわすれた」「授業中、私のを借りていいよ」という会話です。友だちの辞書をしばらく使うので「borrow」が自然です。返す前提で使う語です。
+ほかの選択肢：「throw」はなげる、という意味で、辞書を貸す流れではありません。「break」はこわす、という意味で、助けにはなりません。「paint」はぬる・えをかく、という意味で、借りる場面には合いません。
+ヒント：自分のものをわすれた → 友だちのを borrow。返す前提の「借りる」です。
+
+【ポイント39】
+種別: 単語
+見出し: borrow（借りる）
+・borrow a dictionary / a pen = 借りる
+・lend は「貸す」。向きが逆
+・throw / break は借りる場面に使わない
+
+---
+
+問題40:
+A : Do you want some water? B : Yes, please. I'm very ( ) after the race.
+
+選択肢40:
+1. cloudy
+2. early
+3. round
+4. thirsty
+
+【正解40】
+4. thirsty
+
+【解説40】
+正解は「thirsty」です。意味は「のどがかわいている」です。
+文全体は「水いる？」「うん、お願い。レースのあとでのどがとてもかわいた」という会話です。水をすすめられて「Yes」と言う理由は「thirsty」です。
+ほかの選択肢：「cloudy」はくもりの、という意味で、のどのかわきではありません。「early」は早い、という意味で、水がほしい理由にはなりません。「round」はまるい、という意味で、のどのかわきとは関係ありません。
+ヒント：water / juice をすすめられたら、thirsty を思い浮かべましょう（hungry は食べ物）。
+
+【ポイント40】
+種別: 単語
+見出し: thirsty（のどがかわいた）→ 飲み物
+・thirsty → water / juice / tea
+・hungry → 食べ物。飲みものとは分けて覚える
+・cloudy / early はのどの話ではない
+
+---

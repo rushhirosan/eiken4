@@ -575,3 +575,243 @@ Can you open this window?
 ・Can you open this window? の型
 ・Can のあとは人、そのあと原形 open
 ・「〜できますか／〜してくれますか」の依頼・能力の疑問に使う
+
+---
+
+問題21:
+この箱はあの箱と同じくらい重いです。
+① as ② is ③ heavy ④ as ⑤ This box
+( ) [2番目] ( ) [4番目] ( ) that one.
+
+選択肢21:
+1. ⑤ ─ ①
+2. ② ─ ③
+3. ② ─ ①
+4. ① ─ ③
+
+【正解21】
+2. ② ─ ③
+
+【解説21】
+This box is as heavy as that one.
+2番目は is、4番目は heavy です。全文は「この箱はあの箱と同じくらい重いです」という意味です。
+正しい順は This box → is → as → heavy → as です。as + 形容詞 + as で「〜と同じくらい」になります。
+ほかの並び：1は2番目が This box になり、is が2番目に来ません。3は4番目が as で、heavy の位置がずれます。4は2番目が as です。as と as のあいだには必ず形容詞（ここでは heavy）が入ります。
+ヒント：as 〜 as の型は「as + 形容詞 + as」の順をセットで覚えましょう。
+
+【ポイント21】
+種別: 文法
+見出し: as + 形容詞 + as（〜と同じくらい）
+・is as heavy as 〜 の順で「同じくらい重い」
+・as と as のあいだに形容詞（heavy / tall / big）を置く
+・比較対象（that one / Tom）は後ろの as のあと
+
+---
+
+問題22:
+私たちはきのう、図書館で本を読んでいました。
+① reading ② were ③ books ④ in ⑤ We
+( ) [2番目] ( ) [4番目] ( ) the library yesterday.
+
+選択肢22:
+1. ① ─ ④
+2. ② ─ ④
+3. ② ─ ③
+4. ⑤ ─ ②
+
+【正解22】
+3. ② ─ ③
+
+【解説22】
+We were reading books in the library yesterday.
+2番目は were、4番目は books です。全文は「私たちはきのう、図書館で本を読んでいました」という意味です。
+正しい順は We → were → reading → books → in です。過去のある時点で進行中のことは were / was + -ing です。
+ほかの並び：1は2番目が reading になり、were が2番目に来ません。2は4番目が in で、books の位置がずれます。4は2番目が We です。were は -ing（reading）の前に置く必要があります。
+ヒント：過去進行形は were / was の直後に -ing、そのあと目的語や場所を続けましょう。
+
+【ポイント22】
+種別: 文法
+見出し: were / was + -ing（過去進行形）
+・were reading books のように were / was + -ing
+・主語が I / he / she / it なら was、we / you / they なら were
+・場所（in the library）は目的語のあとに置く
+
+---
+
+問題23:
+私は鍵を持ってくるのを忘れました。
+① to ② forgot ③ bring ④ my ⑤ key
+I ( ) [2番目] ( ) [4番目] ( ).
+
+選択肢23:
+1. ① ─ ④
+2. ② ─ ③
+3. ① ─ ③
+4. ② ─ ①
+
+【正解23】
+1. ① ─ ④
+
+【解説23】
+I forgot to bring my key.
+2番目は to、4番目は my です。全文は「私は鍵を持ってくるのを忘れました」という意味です。
+正しい順は forgot → to → bring → my → key です。forget to + 動詞の原形で「〜するのを忘れる」になります。
+ほかの並び：2と4は2番目が forgot になり、to が2番目に来ません。3は4番目が bring で、my key の位置がずれます。to のあとに動詞の原形（bring）を置く型がくずれると合いません。
+ヒント：forgot to のあとは必ず原形（bring）。bringing や brought は置かないでください。
+
+【ポイント23】
+種別: 文法
+見出し: forget to + 動詞の原形
+・forgot to bring 〜 = 〜するのを忘れた
+・to のあとは原形だけ（bring / close / call）
+・目的語（my key）は動詞のすぐあとに置く
+
+---
+
+問題24:
+この本を借りてもいいですか。
+① I ② May ③ borrow ④ this ⑤ book
+( ) [2番目] ( ) [4番目] ( )?
+
+選択肢24:
+1. ② ─ ①
+2. ① ─ ③
+3. ② ─ ③
+4. ① ─ ④
+
+【正解24】
+4. ① ─ ④
+
+【解説24】
+May I borrow this book?
+2番目は I、4番目は this です。全文は「この本を借りてもいいですか」という意味です。
+正しい順は May → I → borrow → this → book です。May I + 動詞の原形で「〜してもいいですか」と許可を求めます。
+ほかの並び：1と3は2番目が May になり、I が2番目に来ません。2は4番目が borrow で、this book の位置がずれます。May I のあとに動詞の原形（borrow）を続ける型がくずれると合いません。
+ヒント：May I + 原形 〜? のかたまりで覚えましょう。
+
+【ポイント24】
+種別: 文法
+見出し: May I + 動詞の原形（〜してもいいですか）
+・May I borrow this book? の型
+・May のあとは I、そのあと原形 borrow
+・丁寧に許可を求めるときによく使う
+
+---
+
+問題25:
+兄はサッカーをするのが上手です。
+① good ② is ③ at ④ playing ⑤ My brother
+( ) [2番目] ( ) [4番目] ( ) soccer.
+
+選択肢25:
+1. ① ─ ④
+2. ② ─ ③
+3. ② ─ ①
+4. ⑤ ─ ②
+
+【正解25】
+2. ② ─ ③
+
+【解説25】
+My brother is good at playing soccer.
+2番目は is、4番目は at です。全文は「兄はサッカーをするのが上手です」という意味です。
+正しい順は My brother → is → good → at → playing です。be good at + -ing で「〜するのが上手」になります。
+ほかの並び：1は2番目が good になり、is が2番目に来ません。3は4番目が good で、at の位置がずれます。4は2番目が My brother です。good at のあとに -ing（playing）を置く型がくずれると合いません。
+ヒント：good at のあとは名詞か -ing（playing / swimming / drawing）です。
+
+【ポイント25】
+種別: 熟語
+見出し: be good at + -ing（〜するのが上手）
+・is good at playing のように be + good at + -ing
+・at のあとは原形ではなく -ing
+・enjoy + -ing（楽しむ）も同じように後ろは -ing
+
+---
+
+問題26:
+私は祖父に会うのを楽しみにしています。
+① forward ② look ③ to ④ seeing ⑤ my
+I ( ) [2番目] ( ) [4番目] ( ) grandfather.
+
+選択肢26:
+1. ① ─ ④
+2. ② ─ ③
+3. ① ─ ③
+4. ② ─ ①
+
+【正解26】
+1. ① ─ ④
+
+【解説26】
+I look forward to seeing my grandfather.
+2番目は forward、4番目は seeing です。全文は「私は祖父に会うのを楽しみにしています」という意味です。
+正しい順は look → forward → to → seeing → my です。look forward to + -ing で「〜を楽しみにする」になります。
+ほかの並び：2と4は2番目が look になり、forward が2番目に来ません。3は4番目が to で、seeing の位置がずれます。look forward to のあとに -ing（seeing）を置く型がくずれると合いません。
+ヒント：to のあとは原形ではなく -ing（seeing / meeting / visiting）です。
+
+【ポイント26】
+種別: 熟語
+見出し: look forward to + -ing（〜を楽しみにする）
+・look forward to seeing 〜 のかたまりで覚える
+・to のあとは -ing（原形 see は置かない）
+・楽しみにしている相手や予定を後ろに続ける
+
+---
+
+問題27:
+市役所へはどうやって行けばいいですか。
+① can ② How ③ I ④ get ⑤ to
+( ) [2番目] ( ) [4番目] ( ) the city hall?
+
+選択肢27:
+1. ② ─ ①
+2. ① ─ ③
+3. ① ─ ④
+4. ② ─ ③
+
+【正解27】
+3. ① ─ ④
+
+【解説27】
+How can I get to the city hall?
+2番目は can、4番目は get です。全文は「市役所へはどうやって行けばいいですか」という意味です。
+正しい順は How → can → I → get → to です。How can I get to 〜? で「〜へはどうやって行けばいいですか」と道を尋ねます。
+ほかの並び：1と4は2番目が How になり、can が2番目に来ません。2は4番目が I で、get の位置がずれます。How can I get to 〜? の型がくずれると道の聞き方になりません。
+ヒント：How can I get to + 場所? をセットで覚えましょう。
+
+【ポイント27】
+種別: 文法
+見出し: How can I get to + 場所
+・How can I get to the city hall? の型
+・can のあとは主語 I、そのあと原形 get
+・行き先は get to のあと（to the station / to the park）
+
+---
+
+問題28:
+ドアを開けてくれませんか。
+① you ② Could ③ open ④ the ⑤ door
+( ) [2番目] ( ) [4番目] ( )?
+
+選択肢28:
+1. ② ─ ①
+2. ① ─ ③
+3. ② ─ ③
+4. ① ─ ④
+
+【正解28】
+4. ① ─ ④
+
+【解説28】
+Could you open the door?
+2番目は you、4番目は the です。全文は「ドアを開けてくれませんか」という意味です。
+正しい順は Could → you → open → the → door です。Could you + 動詞の原形で丁寧な依頼になります。
+ほかの並び：1と3は2番目が Could になり、you が2番目に来ません。2は4番目が open で、the door の位置がずれます。Could you のあとに動詞の原形（open）を続ける型がくずれると合いません。
+ヒント：Could you + 原形 〜? は Can you より少し丁寧な依頼です。
+
+【ポイント28】
+種別: 文法
+見出し: Could you + 動詞の原形（丁寧な依頼）
+・Could you open the door? の型
+・Could のあとは you、そのあと原形 open
+・お願いするときは Could you / Can you + 原形

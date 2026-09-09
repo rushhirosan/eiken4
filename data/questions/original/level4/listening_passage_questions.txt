@@ -674,3 +674,284 @@ Question: What did they do after practice?（練習のあと、彼らは何を�
 見出し: What after practice / 〜? は After のあとの文
 ・After practice, they washed 〜
 ・練習中のランニングやコーチの位置を after の答えにしない
+
+---
+
+
+No.21:
+W: Next Sunday, Hina will buy a sketchbook at the stationery shop. It costs four hundred yen. She will also buy a white eraser. She wants to draw mountains after school.
+
+Question No.21:
+How much does the sketchbook cost?
+
+1. Four hundred yen.
+2. Two hundred yen.
+3. Three hundred yen.
+4. Five hundred yen.
+
+【正解21】
+1. Four hundred yen.
+
+【解説21】
+放送文
+W: Next Sunday, Hina will buy a sketchbook at the stationery shop.（次の日曜日、ヒナは文房具屋でスケッチブックを買います。）
+It costs four hundred yen.（値段は400円です。）
+She will also buy a white eraser.（白い消しゴムも買います。）
+She wants to draw mountains after school.（放課後に山を描きたいと思っています。）
+Question: How much does the sketchbook cost?（スケッチブックはいくらですか？）
+
+「costs four hundred yen（400円）」とあるので、1「Four hundred yen.（400円）」が正解です。
+2「Two hundred yen.（200円）」・3「Three hundred yen.（300円）」・4「Five hundred yen.（500円）」は出ていません。消しゴムは別の買い物、山は描きたいものです。
+ヒント：「How much」は値段です。ほかに買うものと混ぜないようにしましょう。
+
+【ポイント21】
+種別: リスニング
+見出し: How much does 〜 cost? は値段
+・costs 〜 yen / It is 〜 yen
+・別の買い物や描きたいものは値段ではない
+
+---
+
+
+No.22:
+M: Yesterday, Oto helped his neighbor water the garden. His neighbor is Mr. Sato. They used a green hose. After that, Oto drank cold tea on the porch.
+
+Question No.22:
+Who did Oto help yesterday?
+
+1. His teacher.
+2. His sister.
+3. His cousin.
+4. Mr. Sato.
+
+【正解22】
+4. Mr. Sato.
+
+【解説22】
+放送文
+M: Yesterday, Oto helped his neighbor water the garden.（きのう、オトは近所の人の庭の水やりを手伝いました。）
+His neighbor is Mr. Sato.（近所の人は佐藤さんです。）
+They used a green hose.（緑のホースを使いました。）
+After that, Oto drank cold tea on the porch.（そのあと、オトは縁側で冷たいお茶を飲みました。）
+Question: Who did Oto help yesterday?（オトはきのうだれを手伝いましたか？）
+
+「His neighbor is Mr. Sato（近所の人は佐藤さん）」とあるので、4「Mr. Sato.（佐藤さん）」が正解です。
+1「His teacher.（先生）」・2「His sister.（お姉さん）」・3「His cousin.（いとこ）」は出ていません。ホースやお茶は道具・そのあとの話です。
+ヒント：「Who」は人の名前です。道具や飲み物を答えにしないようにしましょう。
+
+【ポイント22】
+種別: リスニング
+見出し: Who did 〜 help? は手伝った人の名前
+・His neighbor is Mr. Sato / helped 〜
+・道具やそのあとのお茶は「だれを」の答えではない
+
+---
+
+
+No.23:
+W: Next Friday, Miku's class will choose a class pet. They can choose a hamster or a goldfish. Miku hopes they choose the hamster. The vote will be after lunch.
+
+Question No.23:
+Which animal does Miku hope they choose?
+
+1. A rabbit.
+2. A hamster.
+3. A goldfish.
+4. A bird.
+
+【正解23】
+2. A hamster.
+
+【解説23】
+放送文
+W: Next Friday, Miku's class will choose a class pet.（今度の金曜日、ミクのクラスはクラスのペットを選びます。）
+They can choose a hamster or a goldfish.（ハムスターか金魚を選べます。）
+Miku hopes they choose the hamster.（ミクはハムスターを選んでほしいと思っています。）
+The vote will be after lunch.（投票はお昼のあとです。）
+Question: Which animal does Miku hope they choose?（ミクはどの動物を選んでほしいと思っていますか？）
+
+「hopes they choose the hamster（ハムスターを選んでほしい）」とあるので、2「A hamster.（ハムスター）」が正解です。
+3「A goldfish.（金魚）」は候補のもう一方で、ミクの希望ではありません。1「A rabbit.（うさぎ）」も4「A bird.（鳥）」も出ていません。
+ヒント：「Which」は希望したほうを拾います。候補の両方を混ぜないようにしましょう。
+
+【ポイント23】
+種別: リスニング
+見出し: Which 〜 does 〜 hope? は希望したほう
+・hope / want のあとに続くものを拾う
+・候補のもう一方や投票の時刻を答えにしない
+・Which は選んだ／望んだもの。When と混ぜない
+
+---
+
+
+No.24:
+M: This morning, Daiki found a red scarf on the classroom floor. The teacher said it was Sara's. Sara left it after music class. Daiki put it on her desk.
+
+Question No.24:
+Whose scarf did Daiki find?
+
+1. Sara's.
+2. The teacher's.
+3. His sister's.
+4. His friend's brother's.
+
+【正解24】
+1. Sara's.
+
+【解説24】
+放送文
+M: This morning, Daiki found a red scarf on the classroom floor.（けさ、ダイキは教室の床で赤いマフラーを見つけました。）
+The teacher said it was Sara's.（先生は、それはサラのだと言いました。）
+Sara left it after music class.（サラは音楽のあと置きわすれていました。）
+Daiki put it on her desk.（ダイキはそれをサラの机のうえに置きました。）
+Question: Whose scarf did Daiki find?（ダイキが見つけたマフラーはだれのですか？）
+
+「it was Sara's（サラのだ）」とあるので、1「Sara's.（サラの）」が正解です。
+2「The teacher's.（先生の）」は言った人で、持ち主ではありません。3「His sister's.（お姉さん）」も4「His friend's brother's.（友だちの弟）」も出ていません。
+ヒント：「Whose」は持ち主です。見つけた人や先生と混ぜないようにしましょう。
+
+【ポイント24】
+種別: リスニング
+見出し: Whose 〜? は持ち主の名前
+・it was Sara's / It's 〜's
+・見つけた人や先生を持ち主にしない
+
+---
+
+
+No.25:
+W: Last weekend, Rui made a paper lantern for the summer festival. He painted stars on it. His little sister helped him cut the paper. They hung it by the window.
+
+Question No.25:
+What did Rui make last weekend?
+
+1. A paper boat.
+2. A paper plane.
+3. A paper flower.
+4. A paper lantern.
+
+【正解25】
+4. A paper lantern.
+
+【解説25】
+放送文
+W: Last weekend, Rui made a paper lantern for the summer festival.（先週末、ルイは夏祭り用の紙ちょうちんを作りました。）
+He painted stars on it.（それに星を描きました。）
+His little sister helped him cut the paper.（妹が紙を切るのを手伝いました。）
+They hung it by the window.（窓のそばに掛けました。）
+Question: What did Rui make last weekend?（ルイは先週末何を作りましたか？）
+
+「made a paper lantern（紙ちょうちんを作った）」とあるので、4「A paper lantern.（紙ちょうちん）」が正解です。
+1「A paper boat.（紙の船）」・2「A paper plane.（紙飛行機）」・3「A paper flower.（紙の花）」は作ったものではありません。星や窓はあとの話です。
+ヒント：作ったものそのものを拾いましょう。描いた絵や置いた場所は別情報です。
+
+【ポイント25】
+種別: リスニング
+見出し: What did 〜 make? は made + 作ったもの
+・made a paper lantern / made 〜
+・描いた絵や掛けた場所を作ったものにしない
+
+---
+
+
+No.26:
+M: Next Wednesday, Noa will practice the recorder at her aunt's house. Her aunt lives near the bridge. Noa will go there after school. She will take her music book.
+
+Question No.26:
+Where will Noa practice the recorder?
+
+1. At school.
+2. At the bridge.
+3. At her aunt's house.
+4. In the music room.
+
+【正解26】
+3. At her aunt's house.
+
+【解説26】
+放送文
+M: Next Wednesday, Noa will practice the recorder at her aunt's house.（今度の水曜日、ノアはおばさんの家でリコーダーを練習します。）
+Her aunt lives near the bridge.（おばさんは橋の近くに住んでいます。）
+Noa will go there after school.（ノアは放課後そこに行きます。）
+She will take her music book.（楽譜を持っていきます。）
+Question: Where will Noa practice the recorder?（ノアはどこでリコーダーを練習しますか？）
+
+「at her aunt's house（おばさんの家で）」とあるので、3「At her aunt's house.（おばさんの家で）」が正解です。
+2「At the bridge.（橋で）」はおばさんの家の場所の説明で、練習場所そのものではありません。1「At school.（学校で）」も4「In the music room.（音楽室で）」も出ていません。
+ヒント：住んでいる場所の目印と、練習する場所を分けましょう。
+
+【ポイント26】
+種別: リスニング
+見出し: Where will 〜 practice? は練習場所
+・at her aunt's house / in 〜
+・家の目印（橋の近く）を練習場所そのものにしない
+
+---
+
+
+No.27:
+W: Every Saturday morning, Asahi goes to the swimming club. Practice starts at eight. He swims for forty minutes. Then he eats toast at a shop near the pool.
+
+Question No.27:
+When does Asahi's swimming practice start?
+
+1. At eight.
+2. At seven.
+3. At nine.
+4. At noon.
+
+【正解27】
+1. At eight.
+
+【解説27】
+放送文
+W: Every Saturday morning, Asahi goes to the swimming club.（毎週土曜の朝、アサヒは水泳クラブへ行きます。）
+Practice starts at eight.（練習は8時に始まります。）
+He swims for forty minutes.（40分泳ぎます。）
+Then he eats toast at a shop near the pool.（そのあと、プールの近くの店でトーストを食べます。）
+Question: When does Asahi's swimming practice start?（アサヒの水泳の練習は何時に始まりますか？）
+
+「starts at eight（8時に始まる）」とあるので、1「At eight.（8時に）」が正解です。
+2「At seven.（7時）」・3「At nine.（9時）」・4「At noon.（正午）」は出ていません。40分は泳ぐ長さ、トーストはそのあとの話です。
+ヒント：「When」の開始時刻と、泳ぐ時間の長さを混ぜないようにしましょう。
+
+【ポイント27】
+種別: リスニング
+見出し: When does 〜 start? は開始時刻
+・starts at eight / at 〜
+・泳ぐ長さやそのあとの食事は開始時刻ではない
+
+---
+
+
+No.28:
+M: Last Thursday, Chika stayed after school because she needed help with math. Her teacher explained the last question again. Chika understood it at last. She went home at five.
+
+Question No.28:
+Why did Chika stay after school last Thursday?
+
+1. Because she had club practice.
+2. Because she needed help with math.
+3. Because she cleaned the classroom.
+4. Because she waited for her sister.
+
+【正解28】
+2. Because she needed help with math.
+
+【解説28】
+放送文
+M: Last Thursday, Chika stayed after school because she needed help with math.（先週の木曜日、チカは数学の助けが必要だったので放課後残りました。）
+Her teacher explained the last question again.（先生が最後の問題をもう一度説明しました。）
+Chika understood it at last.（チカはやっとわかりました。）
+She went home at five.（5時に帰りました。）
+Question: Why did Chika stay after school last Thursday?（チカが先週の木曜日に放課後残ったのはなぜですか？）
+
+「because she needed help with math（数学の助けが必要だったから）」とあるので、2「Because she needed help with math.（数学の助けが必要だったから）」が正解です。
+1「Because she had club practice.（部活があったから）」・3「Because she cleaned the classroom.（教室をそうじしたから）」・4「Because she waited for her sister.（お姉さんを待ったから）」は出ていません。
+ヒント：because の直後が理由です。説明してもらったことや帰る時刻は理由そのものではありません。
+
+【ポイント28】
+種別: リスニング
+見出し: Why stay after school? は because の直後
+・because she needed help with math
+・説明・帰る時刻を残った理由にしない

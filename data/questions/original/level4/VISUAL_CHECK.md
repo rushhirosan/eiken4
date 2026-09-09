@@ -7,25 +7,25 @@
 
 ## 対象ファイル
 
-| カテゴリ | パス | 目安件数 |
+| カテゴリ | パス | 目安件数（inventory 最小セット） |
 |----------|------|----------|
-| 文法・語彙 | `grammar_fill_questions.txt` | 10 |
-| 会話補充 | `conversation_questions.txt` | 10 |
-| 語順 | `wordorder_questions.txt` | 10（`validate_wordorder_questions.py` 済） |
-| 読解 | `reading_comprehesion_questions.txt` | 本文6（掲示2問・メール3問・物語5問を2セット） |
-| Lイラスト | `listening_illustration_questions.txt` | 10 |
-| L会話 | `listening_conversation_questions.txt` | 10 |
-| L文章 | `listening_passage_questions.txt` | 10 |
-| スピーキング | `speaking_questions.txt` | 5 |
+| 文法・語彙 | `grammar_fill_questions.txt` | 40（比較・進行・不定詞・must・熟語・語彙） |
+| 会話補充 | `conversation_questions.txt` | 30（励まし／礼・祝福／断り／快諾／値段／経験） |
+| 語順 | `wordorder_questions.txt` | 28（`validate_wordorder_questions.py` 済） |
+| 読解 | `reading_comprehesion_questions.txt` | 本文6 / 設問20（2セット。How many / How long / What color 含む） |
+| Lイラスト | `listening_illustration_questions.txt` | 30 |
+| L会話 | `listening_conversation_questions.txt` | 30 |
+| L文章 | `listening_passage_questions.txt` | 28 |
+| スピーキング | `speaking_questions.txt` | 10（How many / What color 含む） |
 
 ## アセット
 
 | 種類 | 配置 | 状態メモ |
 |------|------|----------|
-| 音声 Part1 | `static/audio/level4/part1/listening_illustration_question{1–10}.mp3` | TTS 済 |
-| 音声 Part2 | `static/audio/level4/part2/listening_conversation_question{1–10}.mp3` | テキスト10問。登録時に TTS（既存は1–5） |
-| 音声 Part3 | `static/audio/level4/part3/listening_passage_question{1–10}.mp3` | テキスト10問。登録時に TTS（既存は1–5） |
-| 画像 | `static/images/level4/part1/listening_illustration_image{1–10}.png` | 生成済・要目視 |
+| 音声 Part1 | `static/audio/level4/part1/listening_illustration_question{1–30}.mp3` | 1–30 TTS 済（18・21–30 は最新テキストで再生成含む） |
+| 音声 Part2 | `static/audio/level4/part2/listening_conversation_question{1–30}.mp3` | 21–30 TTS 済 |
+| 音声 Part3 | `static/audio/level4/part3/listening_passage_question{1–28}.mp3` | 21–28 TTS 済 |
+| 画像 | `static/images/level4/part1/listening_illustration_image{1–30}.png` | 21–30 生成済・要目視（特に **image30** に看板文字が残る可能性） |
 
 画像の注意:
 

@@ -744,3 +744,384 @@ Question: Why does the boy look wet?（男の子がぬれているのはなぜ�
 見出し: Why 〜? は本人の理由。相手の予想と分ける
 ・I washed 〜 / Because I 〜 など本人の説明を拾う
 ・相手の予想を No で否定したら、その予想は答えではない
+
+---
+
+
+No.21:
+M: Who will bring snacks to the class party?
+W: Fumi will. She made rice crackers yesterday.
+M: Nice. What about drinks?
+W: Leo will buy juice after school.
+
+Question No.21:
+Who will bring snacks to the class party?
+
+1. Fumi.
+2. Leo.
+3. The teacher.
+4. The boy's mother.
+
+【正解21】
+1. Fumi.
+
+【解説21】
+放送文
+M: Who will bring snacks to the class party?（クラスパーティーのお菓子はだれが持ってくる？）
+W: Fumi will. She made rice crackers yesterday.（フミだよ。きのうせんべいを作ったんだ。）
+M: Nice. What about drinks?（いいね。飲み物は？）
+W: Leo will buy juice after school.（レオが放課後にジュースを買うよ。）
+Question: Who will bring snacks to the class party?（クラスパーティーのお菓子はだれが持ってきますか？）
+
+女の子が「Fumi will（フミが）」と言っているので、1「Fumi.（フミ）」が正解です。
+2「Leo.（レオ）」は飲み物を買う人です。3「The teacher.（先生）」も4「The boy's mother.（男の子のお母さん）」も出ていません。
+ヒント：「Who」は人の名前を拾います。飲み物担当と混ぜないようにしましょう。
+
+【ポイント21】
+種別: リスニング
+見出し: Who will 〜? は担当した人の名前
+・〜 will bring / 〜 will の主語を拾う
+・別の人がやる物や役割を答えにしない
+・Who は人名。What（もの）と混ぜない
+
+---
+
+
+No.22:
+W: Which bag should I take to the camp?
+M: Take the green one. It is light.
+W: OK. The blue one is heavy.
+M: Yes. And put your raincoat inside.
+
+Question No.22:
+Which bag should the girl take to the camp?
+
+1. The blue one.
+2. The red one.
+3. The green one.
+4. The black one.
+
+【正解22】
+3. The green one.
+
+【解説22】
+放送文
+W: Which bag should I take to the camp?（キャンプにはどのカバンを持っていけばいい？）
+M: Take the green one. It is light.（緑のを持っていって。軽いよ。）
+W: OK. The blue one is heavy.（うん。青いのは重いね。）
+M: Yes. And put your raincoat inside.（そう。レインコートを中に入れてね。）
+Question: Which bag should the girl take to the camp?（女の子はキャンプにどのカバンを持っていくべきですか？）
+
+男の子が「Take the green one（緑のを持っていって）」と言っているので、3「The green one.（緑の）」が正解です。
+1「The blue one.（青いの）」は重いと言ったカバンで、持っていくものではありません。2「The red one.（赤いの）」も4「The black one.（黒いの）」も出ていません。
+ヒント：「Which」は選んだものを拾います。重いと言った別の色はひっかけです。
+
+【ポイント22】
+種別: リスニング
+見出し: Which 〜 should I take? は選ばれたもの
+・Take the green one / Choose the 〜
+・重い・だめだと言った別の色を答えにしない
+
+---
+
+
+No.23:
+M: How much is this sketchbook?
+W: It's three hundred yen.
+M: I'll take it. Do you have a larger one?
+W: Yes, but that one is five hundred yen.
+
+Question No.23:
+How much is the sketchbook the boy will buy?
+
+1. Five hundred yen.
+2. Two hundred yen.
+3. One thousand yen.
+4. Three hundred yen.
+
+【正解23】
+4. Three hundred yen.
+
+【解説23】
+放送文
+M: How much is this sketchbook?（このスケッチブックはいくら？）
+W: It's three hundred yen.（300円だよ。）
+M: I'll take it. Do you have a larger one?（これにします。もっと大きいのはある？）
+W: Yes, but that one is five hundred yen.（あるよ。でもそれは500円。）
+Question: How much is the sketchbook the boy will buy?（男の子が買うスケッチブックはいくらですか？）
+
+女の子が「three hundred yen（300円）」と言い、男の子が「I'll take it（これにします）」と言っているので、4「Three hundred yen.（300円）」が正解です。
+1「Five hundred yen.（500円）」は大きいほうの値段で、買うものではありません。2「Two hundred yen.（200円）」も3「One thousand yen.（1000円）」も出ていません。
+ヒント：「I'll take it」のあとの値段と、別サイズの値段を分けましょう。
+
+【ポイント23】
+種別: リスニング
+見出し: How much is 〜? は買うものの値段
+・It's 〜 yen / I'll take it の対象
+・別サイズ・買わないものの値段を答えにしない
+
+---
+
+
+No.24:
+W: What color is Nana's new umbrella?
+M: It's orange. She bought it yesterday.
+W: Nice. Mine is light purple.
+M: Orange is easy to find in the rain.
+
+Question No.24:
+What color is Nana's new umbrella?
+
+1. Orange.
+2. Light purple.
+3. Dark blue.
+4. Yellow.
+
+【正解24】
+1. Orange.
+
+【解説24】
+放送文
+W: What color is Nana's new umbrella?（ナナの新しい傘は何色？）
+M: It's orange. She bought it yesterday.（オレンジだよ。きのう買ったんだ。）
+W: Nice. Mine is light purple.（いいね。私のは薄い紫。）
+M: Orange is easy to find in the rain.（オレンジは雨の中でも見つけやすいよ。）
+Question: What color is Nana's new umbrella?（ナナの新しい傘は何色ですか？）
+
+男の子が「It's orange（オレンジだよ）」と言っているので、1「Orange.（オレンジ）」が正解です。
+2「Light purple.（薄い紫）」は女の子の傘の色です。3「Dark blue.（濃い青）」も4「Yellow.（黄色）」も出ていません。
+ヒント：質問の「Nana's」と、話している人の傘を取りちがえないようにしましょう。
+
+【ポイント24】
+種別: リスニング
+見出し: What color is 〜's? は本人の色
+・It's orange / It is 〜
+・別の人が持っている色を答えにしない
+
+---
+
+
+No.25:
+M: Whose gloves are on this chair?
+W: They're Ren's. He left them after PE.
+M: Oh. Are these yours?
+W: No. Mine are in my bag.
+
+Question No.25:
+Whose gloves are on the chair?
+
+1. The girl's.
+2. The teacher's.
+3. The boy's brother's.
+4. Ren's.
+
+【正解25】
+4. Ren's.
+
+【解説25】
+放送文
+M: Whose gloves are on this chair?（このいすのうえの手袋はだれの？）
+W: They're Ren's. He left them after PE.（レンのだよ。体育のあと置きっぱなし。）
+M: Oh. Are these yours?（へえ。これ、あなたのも？）
+W: No. Mine are in my bag.（ううん。私のはカバンの中。）
+Question: Whose gloves are on the chair?（いすのうえの手袋はだれのですか？）
+
+女の子が「They're Ren's（レンのだよ）」と言っているので、4「Ren's.（レンの）」が正解です。
+1「The girl's.（女の子の）」は否定されています。2「The teacher's.（先生の）」も3「The boy's brother's.（男の子の弟の）」も出ていません。
+ヒント：「Whose」は持ち主の名前です。No のあとの「私のはカバン」は別の話です。
+
+【ポイント25】
+種別: リスニング
+見出し: Whose 〜? は持ち主の名前
+・They're Ren's / It's 〜's
+・否定された「あなたのもの」を答えにしない
+
+---
+
+
+No.26:
+W: How will you go to the aquarium tomorrow?
+M: I'll take the subway with my cousin.
+W: Does your cousin live near the sea?
+M: No. He lives near the park.
+
+Question No.26:
+How will the boy go to the aquarium?
+
+1. By subway.
+2. By bus.
+3. On foot.
+4. By taxi.
+
+【正解26】
+1. By subway.
+
+【解説26】
+放送文
+W: How will you go to the aquarium tomorrow?（明日、水族館にはどうやって行くの？）
+M: I'll take the subway with my cousin.（いとこといっしょに地下鉄で行くよ。）
+W: Does your cousin live near the sea?（いとことは海の近くに住んでいるの？）
+M: No. He lives near the park.（ううん。公園の近くだよ。）
+Question: How will the boy go to the aquarium?（男の子は水族館へどうやって行きますか？）
+
+男の子が「take the subway（地下鉄に乗る）」と言っているので、1「By subway.（地下鉄で）」が正解です。
+2「By bus.（バスで）」・3「On foot.（歩いて）」・4「By taxi.（タクシーで）」は行き方として出ていません。
+ヒント：公園の近くはいとこの家の場所で、行き方ではありません。How と Where を分けましょう。
+
+【ポイント26】
+種別: リスニング
+見出し: How will you go? は by subway / by 〜
+・take the subway / go by 〜
+・住んでいる場所は行き方ではない（How と Where）
+
+---
+
+
+No.27:
+M: What's wrong? You look upset.
+W: I lost my bus pass this morning.
+M: Did you leave it at home?
+W: No. I think I dropped it near the gate.
+
+Question No.27:
+What is the girl's problem?
+
+1. She missed the bus.
+2. She lost her bus pass.
+3. She left her bag at home.
+4. She broke her bike.
+
+【正解27】
+2. She lost her bus pass.
+
+【解説27】
+放送文
+M: What's wrong? You look upset.（どうしたの？元気がなさそう。）
+W: I lost my bus pass this morning.（けさバスの定期をなくしたの。）
+M: Did you leave it at home?（家に置きわすれたの？）
+W: No. I think I dropped it near the gate.（ううん。門の近くで落としたと思う。）
+Question: What is the girl's problem?（女の子の困っていることは何ですか？）
+
+女の子が「I lost my bus pass（バスの定期をなくした）」と言っているので、2「She lost her bus pass.（バスの定期をなくした）」が正解です。
+3「She left her bag at home.（家にカバンを置きわすれた）」は男の子の予想に近い別の話で、女の子は「No」と否定しています。1「She missed the bus.（バスに乗り遅れた）」も4「She broke her bike.（自転車をこわした）」も出ていません。
+ヒント：「What's wrong?」のあとの本人の説明が問題点です。相手の予想は答えではありません。
+
+【ポイント27】
+種別: リスニング
+見出し: What is 〜's problem? は困っている内容
+・I lost 〜 / I can't find 〜
+・相手の予想や No で否定した話を問題にしない
+
+---
+
+
+No.28:
+W: When does the puppet show start?
+M: At two thirty in the hall.
+W: Then I'll finish lunch at two.
+M: Good. Don't forget your ticket.
+
+Question No.28:
+When does the puppet show start?
+
+1. At two.
+2. At noon.
+3. At two thirty.
+4. At three.
+
+【正解28】
+3. At two thirty.
+
+【解説28】
+放送文
+W: When does the puppet show start?（人形劇は何時に始まる？）
+M: At two thirty in the hall.（ホールで2時半だよ。）
+W: Then I'll finish lunch at two.（じゃあ昼ごはんは2時に終わらせる。）
+M: Good. Don't forget your ticket.（いいね。切符を忘れないで。）
+Question: When does the puppet show start?（人形劇は何時に始まりますか？）
+
+男の子が「At two thirty（2時半）」と言っているので、3「At two thirty.（2時半）」が正解です。
+1「At two.（2時）」は女の子が昼ごはんを終える時刻です。2「At noon.（正午）」も4「At three.（3時）」も出ていません。
+ヒント：開始時刻と、食事を終える時刻を分けて聞きましょう。
+
+【ポイント28】
+種別: リスニング
+見出し: When does 〜 start? は開始時刻
+・At two thirty / starts at 〜
+・食事を終える時刻を開始時刻にしない
+
+---
+
+
+No.29:
+M: Where should we put the leftover cake?
+W: In the fridge. Cover it first.
+M: OK. Should I put the juice there too?
+W: No. Leave the juice on the table.
+
+Question No.29:
+Where should they put the leftover cake?
+
+1. In the fridge.
+2. On the table.
+3. In the bag.
+4. On the shelf.
+
+【正解29】
+1. In the fridge.
+
+【解説29】
+放送文
+M: Where should we put the leftover cake?（残ったケーキはどこに置こう？）
+W: In the fridge. Cover it first.（冷蔵庫に。まずふたをしてね。）
+M: OK. Should I put the juice there too?（うん。ジュースもそこに入れる？）
+W: No. Leave the juice on the table.（ううん。ジュースはテーブルに置いて。）
+Question: Where should they put the leftover cake?（残ったケーキはどこに置くべきですか？）
+
+女の子が「In the fridge（冷蔵庫に）」と言っているので、1「In the fridge.（冷蔵庫に）」が正解です。
+2「On the table.（テーブルのうえ）」はジュースを置く場所です。3「In the bag.（カバンの中）」も4「On the shelf.（棚のうえ）」も出ていません。
+ヒント：ケーキとジュースで置く場所が違うので、質問の対象を確かめましょう。
+
+【ポイント29】
+種別: リスニング
+見出し: Where put 〜? はその物の置き場所
+・In the fridge / On 〜
+・別の物の置き場所を答えにしない
+
+---
+
+
+No.30:
+W: Why are you carrying that large box?
+M: Because I need to take these books to the library.
+W: Can I help you?
+M: Thanks. Please hold the door.
+
+Question No.30:
+Why is the boy carrying a large box?
+
+1. Because he is moving house.
+2. Because he bought new shoes.
+3. Because he needs to take books to the library.
+4. Because the door is broken.
+
+【正解30】
+3. Because he needs to take books to the library.
+
+【解説30】
+放送文
+W: Why are you carrying that large box?（どうしてその大きな箱を運んでいるの？）
+M: Because I need to take these books to the library.（この本を図書館へ持っていく必要があるから。）
+W: Can I help you?（手伝おうか？）
+M: Thanks. Please hold the door.（ありがとう。ドアを押さえて。）
+Question: Why is the boy carrying a large box?（男の子が大きな箱を運んでいるのはなぜですか？）
+
+男の子が「take these books to the library（本を図書館へ持っていく）」と言っているので、3「Because he needs to take books to the library.（本を図書館へ持っていく必要があるから）」が正解です。
+4「Because the door is broken.（ドアがこわれているから）」はドアを押さえる話からのひっかけです。1「Because he is moving house.（引越しするから）」も2「Because he bought new shoes.（新しいくつを買ったから）」も出ていません。
+ヒント：because の直後が理由です。あとから手伝う話は理由ではありません。
+
+【ポイント30】
+種別: リスニング
+見出し: Why carrying / 〜? は Because の直後
+・Because I need to 〜 / Because I 〜
+・手伝う・ドアの話を運ぶ理由にしない

@@ -539,12 +539,12 @@ W: Do you need help?
 M: Yes. Can you pass the eggs?
 
 Question No.18:
-1. Sure. They're in the bowl.
+1. Sure. Here you are.
 2. I like sweet food.
 3. I ate breakfast already.
 
 【正解18】
-1. Sure. They're in the bowl.
+1. Sure. Here you are.
 
 【解説18】
 放送文
@@ -552,14 +552,14 @@ M: I'm making pancakes.（パンケーキを作っているんだ。）
 W: Do you need help?（手伝おうか？）
 M: Yes. Can you pass the eggs?（うん。卵、取ってくれる？）
 
-卵を取ってほしいお願いなので、1「Sure. They're in the bowl.（いいよ。ボウルの中にあるよ）」が自然です。
+卵を渡してほしいお願いなので、1「Sure. Here you are.（いいよ。はい、どうぞ）」が自然です。
 2「I like sweet food.（甘いものが好き）」は好み、3「I ate breakfast already.（もう朝ごはんを食べた）」は食事で、卵を渡す返事ではありません。
 ヒント：「Can you pass ~?」は「取って／渡して」のお願いです。好みや食事の話と混ぜないようにしましょう。
 
 【ポイント18】
 種別: 会話
-見出し: Can you pass 〜? には了解 + どこにあるか
-・Sure. They're in / on 〜
+見出し: Can you pass 〜? には了解 + 渡す
+・Sure. Here you are. / Sure. I'll get them.
 ・好みや食事の話だけでは「取って」への返事にならない
 
 ---
@@ -625,3 +625,315 @@ W: How many tickets do we need?（切符は何枚いる？）
 見出し: How many 〜? には数・枚数で答える
 ・Two tickets / Three 〜 / About 〜
 ・開始時刻や窓口の場所は枚数・個数ではない
+
+---
+
+
+No.21:
+M: I want to buy some stamps.
+W: The post office is near here.
+M: What time does it close today?
+
+Question No.21:
+1. Around five.
+2. Stamps are useful.
+3. I walk to school.
+
+【正解21】
+1. Around five.
+
+【解説21】
+放送文
+M: I want to buy some stamps.（切手を買いたいな。）
+W: The post office is near here.（郵便局はすぐ近くだよ。）
+M: What time does it close today?（今日は何時に閉まる？）
+
+最後に閉まる時刻を聞いているので、1「Around five.（だいたい5時）」が自然です。
+2「Stamps are useful.（切手は役に立つ）」は一般論、3「I walk to school.（歩いて学校へ行く）」は通学で、時刻の答えではありません。
+ヒント：「What time」と聞かれたら、Around 〜 / At 〜 の時刻で答えます。
+
+【ポイント21】
+種別: リスニング
+見出し: What time does it close? には時刻で答える
+・Around five / At 〜
+・役に立つ・通学は閉まる時刻ではない
+
+---
+
+
+No.22:
+W: It's a nice afternoon.
+M: Yes. Shall we ride our bikes to the river?
+
+Question No.22:
+1. The river is long.
+2. Sure. Let's leave now.
+3. I have a blue bike.
+
+【正解22】
+2. Sure. Let's leave now.
+
+【解説22】
+放送文
+W: It's a nice afternoon.（いい午後だね。）
+M: Yes. Shall we ride our bikes to the river?（うん。自転車で川へ行かない？）
+
+提案への返事なので、2「Sure. Let's leave now.（いいよ。いま出発しよう）」が自然です。
+1「The river is long.（川は長い）」は川の説明、3「I have a blue bike.（青い自転車を持っている）」は持ち物で、提案への賛成になっていません。
+ヒント：「Shall we」には Sure. Let's 〜 で応じると覚えましょう。
+
+【ポイント22】
+種別: 会話
+見出し: Shall we 〜? には賛成 + Let's
+・Sure. Let's leave / OK. Let's 〜
+・場所の説明や持ち物だけでは提案への返事にならない
+
+---
+
+
+No.23:
+M: You stepped on my bag under the desk.
+W: Oh. Is this yours?
+M: Yes. Please be careful next time.
+
+Question No.23:
+1. Bags are heavy.
+2. The desk is brown.
+3. Sorry. I didn't see it.
+
+【正解23】
+3. Sorry. I didn't see it.
+
+【解説23】
+放送文
+M: You stepped on my bag under the desk.（机の下の僕のかばんを踏んだよ。）
+W: Oh. Is this yours?（えっ。これ、あなたの？）
+M: Yes. Please be careful next time.（うん。次は気をつけてね。）
+
+踏んでしまったことへの返事なので、3「Sorry. I didn't see it.（ごめん。見ていなかった）」が自然です。
+1「Bags are heavy.（かばんは重い）」は一般論、2「The desk is brown.（机は茶色）」は色で、謝罪になっていません。
+ヒント：相手のものを踏んだ・落としたときは、Sorry で謝ります。
+
+【ポイント23】
+種別: 会話
+見出し: 相手のものを傷つけたら Sorry + 次の行動
+・Sorry. I didn't see it. / Sorry. I'll pick it up.
+・Sorry のあとに直す・拾うなど次の行動を続ける
+・重い・色など別の話題だけは謝罪の返事にならない
+
+---
+
+
+No.24:
+M: Let's make fruit salad for dinner.
+W: Nice. What time should we start?
+
+Question No.24:
+1. At three.
+2. Fruit is sweet.
+3. I washed the apples.
+
+【正解24】
+1. At three.
+
+【解説24】
+放送文
+M: Let's make fruit salad for dinner.（夕ごはんにフルーツサラダを作ろう。）
+W: Nice. What time should we start?（いいね。何時に始めよう？）
+
+始まりの時刻を聞いているので、1「At three.（3時に）」が自然です。
+2「Fruit is sweet.（果物は甘い）」は味、3「I washed the apples.（りんごを洗った）」は準備で、時刻の答えではありません。
+ヒント：「What time should we start?」には At 〜 で答えます。
+
+【ポイント24】
+種別: リスニング
+見出し: What time should we start? には At 〜
+・At three / Around 〜
+・味や準備の話は開始時刻ではない
+
+---
+
+
+No.25:
+M: I'm tired after club practice.
+W: Let's sit on that bench and drink water.
+
+Question No.25:
+1. Practice ends at five.
+2. Good idea. I'm thirsty too.
+3. The bench is brown.
+
+【正解25】
+2. Good idea. I'm thirsty too.
+
+【解説25】
+放送文
+M: I'm tired after club practice.（部活のあとで疲れた。）
+W: Let's sit on that bench and drink water.（あのベンチに座って水を飲もう。）
+
+提案への返事なので、2「Good idea. I'm thirsty too.（いいね。僕ものどがかわいた）」が自然です。
+1「Practice ends at five.（練習は5時に終わる）」は終了時刻、3「The bench is brown.（ベンチは茶色）」は色で、提案への賛成ではありません。
+ヒント：「Let's」には Good idea. / OK. で応じます。
+
+【ポイント25】
+種別: 会話
+見出し: Let's 〜 には賛成の返事
+・Good idea. / Sure. Let's 〜
+・終了時刻や色だけでは提案への返事にならない
+
+---
+
+
+No.26:
+M: Look. Juice is on my homework sheet.
+W: Oh no. Was that my cup?
+M: Yes. It was next to your bag.
+
+Question No.26:
+1. Homework is hard.
+2. Cups are round.
+3. Sorry. I'll copy it for you.
+
+【正解26】
+3. Sorry. I'll copy it for you.
+
+【解説26】
+放送文
+M: Look. Juice is on my homework sheet.（見て。宿題の用紙にジュースがついてる。）
+W: Oh no. Was that my cup?（大変。私のコップ？）
+M: Yes. It was next to your bag.（うん。あなたのカバンのそばだったよ。）
+
+自分のコップでよごしてしまったので、3「Sorry. I'll copy it for you.（ごめん。書き写してあげる）」が自然です。
+1「Homework is hard.（宿題はむずかしい）」は感想、2「Cups are round.（コップは丸い）」は形で、謝罪になっていません。
+ヒント：相手のものをよごしたら、Sorry + 次にできること、が自然です。
+
+【ポイント26】
+種別: 会話
+見出し: よごしてしまったら Sorry + 直す行動
+・Sorry. I'll clean / copy / help 〜.
+・Sorry と、あとでする行動をセットで覚える
+・むずかしい・形の話だけでは謝罪にならない
+
+---
+
+
+No.27:
+W: The craft fair starts this morning.
+M: I want to go. What time should we meet?
+
+Question No.27:
+1. Crafts are fun.
+2. Around ten at the gate.
+3. I made a paper flower.
+
+【正解27】
+2. Around ten at the gate.
+
+【解説27】
+放送文
+W: The craft fair starts this morning.（今朝、手作り市が始まるよ。）
+M: I want to go. What time should we meet?（行きたい。何時に会おう？）
+
+待ち合わせの時刻を聞いているので、2「Around ten at the gate.（だいたい10時、門のところで）」が自然です。
+1「Crafts are fun.（手作りは楽しい）」は感想、3「I made a paper flower.（紙の花を作った）」は作品で、時刻の答えではありません。
+ヒント：「What time should we meet?」には Around 〜 / At 〜 + 場所、がよく出ます。
+
+【ポイント27】
+種別: リスニング
+見出し: What time should we meet? には Around / At + 時刻
+・Around ten / At three など時刻で答える
+・at the gate など場所が続くこともあるが、質問は時刻
+・感想や作品の話は待ち合わせ時刻ではない
+
+---
+
+
+No.28:
+M: We have no butter for the cookies.
+W: Shall we ask Mom to buy some?
+
+Question No.28:
+1. Yes. Let's ask her now.
+2. Cookies are sweet.
+3. Butter is yellow.
+
+【正解28】
+1. Yes. Let's ask her now.
+
+【解説28】
+放送文
+M: We have no butter for the cookies.（クッキー用のバターがない。）
+W: Shall we ask Mom to buy some?（お母さんに買ってきてもらおうか？）
+
+提案への返事なので、1「Yes. Let's ask her now.（うん。いま聞こう）」が自然です。
+2「Cookies are sweet.（クッキーは甘い）」は味、3「Butter is yellow.（バターは黄色い）」は色で、提案への賛成ではありません。
+ヒント：「Shall we」→ Yes. Let's 〜 のセットを覚えておきましょう。
+
+【ポイント28】
+種別: 会話
+見出し: Shall we ask / 〜? には Yes. Let's
+・Yes. Let's ask / go / buy 〜
+・味や色だけでは提案への返事にならない
+
+---
+
+
+No.29:
+M: One tip of my new marker set is broken.
+W: Oh. Did I break it yesterday?
+M: Yes. You used them without asking.
+
+Question No.29:
+1. Markers are colorful.
+2. Art class is on Friday.
+3. Sorry. I'll buy a new one.
+
+【正解29】
+3. Sorry. I'll buy a new one.
+
+【解説29】
+放送文
+M: One tip of my new marker set is broken.（新しいマーカーセットの先が一本折れてる。）
+W: Oh. Did I break it yesterday?（えっ。きのう私が折った？）
+M: Yes. You used them without asking.（うん。ことわりなしで使ったでしょ。）
+
+ことわりなしで使って折ってしまったことへの返事なので、3「Sorry. I'll buy a new one.（ごめん。新しいのを買うね）」が自然です。
+1「Markers are colorful.（マーカーはいろとりどり）」は一般論、2「Art class is on Friday.（美術は金曜日）」は曜日で、謝罪になっていません。
+ヒント：借りたものをこわしたら、Sorry + 買い直す・直す、が自然です。
+
+【ポイント29】
+種別: 会話
+見出し: 許可なく使って壊したら Sorry + 直す・弁償
+・Sorry. I'll buy / replace / fix 〜.
+・ことわりなしで使ったあとの定番の謝り方
+・色や曜日など別の話題は謝罪の返事ではない
+
+---
+
+
+No.30:
+W: The library is quiet now.
+M: Let's return our books before lunch.
+
+Question No.30:
+1. Books are heavy.
+2. OK. Let's go now.
+3. Lunch is at twelve.
+
+【正解30】
+2. OK. Let's go now.
+
+【解説30】
+放送文
+W: The library is quiet now.（いま図書館は静かだね。）
+M: Let's return our books before lunch.（お昼の前に本を返そう。）
+
+提案への返事なので、2「OK. Let's go now.（うん。いま行こう）」が自然です。お昼の前に返す、という提案に合わせてすぐ行く流れです。
+1「Books are heavy.（本は重い）」は本の話、3「Lunch is at twelve.（昼ごはんは12時）」は食事の時刻で、提案への賛成＋次の一手にはなっていません。
+ヒント：「Let's」には OK. Let's 〜 で返事すると自然です。
+
+【ポイント30】
+種別: 会話
+見出し: Let's 〜 before 〜 には OK + すぐ行動
+・OK. Let's go now. / Sure. Let's 〜
+・重い・食事時刻だけでは提案への返事にならない
