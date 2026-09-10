@@ -30,12 +30,4 @@ def maintenance_notice(request):
             settings, 'MAINTENANCE_NOTICE_TITLE', '問題は公開中。品質は上げていきます。'
         ),
         'maintenance_notice_body': getattr(settings, 'MAINTENANCE_NOTICE_BODY', ''),
-        'maintenance_official_exams_url': getattr(
-            settings, 'MAINTENANCE_OFFICIAL_EXAMS_URL', ''
-        ),
-        'maintenance_official_exams_label': getattr(
-            settings,
-            'MAINTENANCE_OFFICIAL_EXAMS_LABEL',
-            '公式の過去問・試験内容はこちら',
-        ),
     }

@@ -10,7 +10,7 @@ class MaintenanceNoticeTest(TestCase):
         self.assertContains(response, '問題は公開中。品質は上げていきます。')
         self.assertContains(response, 'オリジナル練習が使えます')
         self.assertContains(response, 'フィードバック')
-        self.assertContains(response, '公式の過去問・試験内容はこちら')
+        self.assertNotContains(response, '公式の過去問・試験内容はこちら')
 
     @override_settings(MAINTENANCE_NOTICE_ENABLED=False)
     def test_landing_hides_notice_when_disabled(self):
