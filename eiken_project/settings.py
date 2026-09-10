@@ -30,13 +30,14 @@ DEBUG = True
 # 本番反映するときは settings_production で明示的に True にする。
 SHOW_NEXT_LEARNING = DEBUG
 
-# 試験運用の案内バナー。本番公開後も、問題追加・改善中であることを示す。不要になったら False。
+# 公開案内バナー。品質改善への協力を示す。不要になったら False。
 MAINTENANCE_NOTICE_ENABLED = True
-MAINTENANCE_NOTICE_TITLE = 'ただいま試験運用中です'
+MAINTENANCE_NOTICE_TITLE = '問題は公開中。品質は上げていきます。'
 MAINTENANCE_NOTICE_BODY = (
-    'オリジナルの練習問題で、5級・4級・3級の学習ができます。'
-    '問題の追加や改善を続けている途中ですので、そのときに学習の進捗がリセットされることがあります。'
-    '不具合や分かりにくいところがあれば、ログイン後の「フィードバック」からお知らせください。'
+    '5級・4級・3級のオリジナル練習が使えます。'
+    '気になるところ・分かりにくい解説・音声の違和感などがあれば、'
+    'ログイン後の「フィードバック」から教えてください。'
+    'いただいた声をベースに直していきます。'
 )
 MAINTENANCE_OFFICIAL_EXAMS_URL = 'https://www.eiken.or.jp/eiken/exam/'
 MAINTENANCE_OFFICIAL_EXAMS_LABEL = '公式の過去問・試験内容はこちら（日本英語検定協会）'
