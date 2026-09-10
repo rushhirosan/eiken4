@@ -46,6 +46,15 @@ class TrySample:
     image_path: str = ''
     passage_text: str = ''
     correct_choice_id: int | None = None
+    study_points: dict | None = None
+
+    @property
+    def study_point_badge_class(self) -> str:
+        """_study_point.html が Question と同じ属性を参照できるようにする。"""
+        from exams.models import Question
+
+        category = (self.study_points or {}).get('category', '')
+        return Question.STUDY_POINT_BADGE_CLASSES.get(category, 'bg-secondary')
 
 
 def is_try_level(level: str) -> bool:
@@ -80,6 +89,7 @@ def _grammar_sample(level: str) -> TrySample | None:
         explanation=question.explanation or '',
         choices=choices,
         correct_choice_id=correct.pk if correct else None,
+        study_points=question.study_points,
     )
 
 
@@ -113,6 +123,7 @@ def _listening_illustration_sample(level: str) -> TrySample | None:
         audio_path=(question.audio or '').strip(),
         image_path=(question.image or '').strip(),
         correct_choice_id=correct.pk if correct else None,
+        study_points=getattr(question, 'study_points', None),
     )
 
 
@@ -145,6 +156,7 @@ def _listening_conversation_sample(level: str) -> TrySample | None:
         choices=choices,
         audio_path=audio,
         correct_choice_id=correct.pk if correct else None,
+        study_points=question.study_points,
     )
 
 
@@ -183,6 +195,7 @@ def _reading_sample(level: str) -> TrySample | None:
         choices=choices,
         passage_text=passage.text or '',
         correct_choice_id=correct.pk if correct else None,
+        study_points=question.study_points,
     )
 
 

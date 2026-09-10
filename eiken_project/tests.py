@@ -28,6 +28,7 @@ class LandingPageTest(TestCase):
         self.assertContains(response, reverse('try_index'))
         self.assertContains(response, '登録なしでお試し')
         self.assertContains(response, reverse('guides'))
+        self.assertContains(response, '学習ポイントでノート復習しやすい')
         self.assertContains(response, '本サイトは公益財団法人 日本英語検定協会の公式サイトではありません。')
         self.assertContains(response, '英検®は、公益財団法人 日本英語検定協会の登録商標です。')
         self.assertContains(response, '級の目安は、一般的な英語検定の5・4・3級レベルです。')
@@ -130,6 +131,9 @@ class GuidesPageTest(TestCase):
         self.assertContains(response, '4級の進め方')
         self.assertContains(response, '3級の進め方')
         self.assertContains(response, 'フィードバックの送り方')
+        self.assertContains(response, '学習ポイントをノートに写す')
+        self.assertContains(response, '学習ポイントとは何ですか？')
+        self.assertContains(response, '今回のまとめ')
         self.assertContains(response, 'FAQPage')
         self.assertContains(response, 'index, follow')
         self.assertContains(response, 'https://eigogohan.com/guides/')
@@ -314,6 +318,8 @@ class AboutPageTest(TestCase):
         self.assertContains(response, '4級</strong> — 文法・語彙、会話補充、語順選択、長文読解')
         self.assertContains(response, '3級</strong> — 文法・語彙、会話補充、ライティング')
         self.assertContains(response, 'スピーキング（二次面接の流れ）')
+        self.assertContains(response, 'デイリーミッション・バッジ')
+        self.assertContains(response, '学習ポイントと「今回のまとめ」')
         self.assertContains(response, 'スピーキング問題はありますか？')
         self.assertContains(response, '本サイトは公益財団法人 日本英語検定協会の公式サイトではありません。')
         self.assertContains(response, '英検®は、公益財団法人 日本英語検定協会の登録商標です。')
@@ -427,6 +433,11 @@ class TrySamplePageTest(TestCase):
             question_text='I ( ) a book.',
             explanation='read が正解です。',
             question_number=1,
+            study_points={
+                'category': '文法',
+                'title': '現在形',
+                'keys': ['主語に合わせて動詞を変える'],
+            },
         )
         self.grammar_correct = Choice.objects.create(
             question=self.grammar, choice_text='read', is_correct=True, order=1
@@ -511,8 +522,15 @@ class TrySamplePageTest(TestCase):
             },
         )
         self.assertEqual(response.status_code, 200)
-        self.assertContains(response, '3 / 3')
+        self.assertContains(response, '正解数: 3 / 3')
         self.assertContains(response, '無料登録して続きを練習する')
+        self.assertContains(response, 'この問題のポイント')
+        self.assertContains(response, '現在形')
+        self.assertContains(response, 'alert-info')
+        self.assertContains(response, '正解です！')
+        self.assertContains(response, '選択肢:')
+        self.assertContains(response, '正解・解説・学習ポイント')
+        self.assertContains(response, '今回のまとめ')
         self.assertEqual(UserAnswer.objects.count(), 0)
         self.assertEqual(ListeningUserAnswer.objects.count(), 0)
         self.assertEqual(ReadingUserAnswer.objects.count(), 0)
