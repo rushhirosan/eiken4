@@ -199,6 +199,8 @@ Hina goes to the pool on Saturdays. The water is cool. She swims with her sister
 ・When does 〜? → On Saturdays.（ときは本文から）
 ・Do you like 〜? → Yes, I do. / No, I don't.（じぶんはみじかく）
 
+---
+
 問題7:
 【Title】
 My Skateboard
@@ -230,6 +232,8 @@ Ren has a green skateboard. He rides it after school. His friend Kaito has a bla
 ・What color is 〜? → It is green.（いろは本文から）
 ・Do you have a 〜? → Yes, I do. / No, I don't.（じぶんはみじかく）
 
+---
+
 問題8:
 【Title】
 Saturday Afternoon
@@ -260,6 +264,8 @@ Nao helps her father on Saturday afternoon. They make curry in the kitchen. Nao 
 見出し: とき・りょうりは本文、じぶんの土曜日はみじかく
 ・When does 〜? → On Saturday afternoon.（ときは本文から）
 ・What do you do on Saturday? → I play games.（じぶんはみじかい文で）
+
+---
 
 問題9:
 【Title】

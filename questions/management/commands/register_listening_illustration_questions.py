@@ -96,6 +96,8 @@ class Command(BaseCommand):
             explanation = ''
             in_choices = False
             in_explanation = False
+            in_correct = False
+            correct_captured = False
 
             for line in lines[1:]:
                 if line.strip().startswith('Question No.'):
@@ -107,25 +109,29 @@ class Command(BaseCommand):
                         choices.append(stripped[3:].strip())
                 if '【正解' in line:
                     in_choices = False
+                    in_correct = True
                     # 正解テキストを抽出（次の行から）
                     continue
                 if '【解説' in line:
+                    in_correct = False
                     in_explanation = True
                     explanation = ''
+                    continue
+                if in_correct and line.strip() and not correct_captured:
+                    stripped = line.strip()
+                    if len(stripped) >= 2 and stripped[0].isdigit() and stripped[1] == '.':
+                        # 番号を抽出（例：「2. I have a piano lesson.」→「2」）
+                        correct_answer = str(int(stripped[0]))
+                    else:
+                        correct_answer = stripped
+                    correct_captured = True
+                    in_correct = False
                     continue
                 if in_explanation:
                     if line.strip().startswith('---') or line.strip().startswith('【ポイント'):
                         in_explanation = False
                     else:
                         explanation += line.strip() + '\n'
-                elif not in_choices and not in_explanation and line.strip() and not line.startswith('【'):
-                    stripped = line.strip()
-                    if len(stripped) >= 2 and stripped[0].isdigit() and stripped[1] == '.':
-                        # 番号を抽出（例：「2. I have a piano lesson.」→「2」）
-                        correct_answer_order = int(line.strip()[0])
-                        correct_answer = str(correct_answer_order)  # order番号を文字列で保存
-                    else:
-                        correct_answer = line.strip()
 
             explanation = explanation.strip()
             study_points = extract_study_points(block)
