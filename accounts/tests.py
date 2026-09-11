@@ -94,8 +94,8 @@ class SignupViewTest(TestCase):
                 'password1': 'testpass123',
                 'password2': 'testpass123'
             })
-            # 登録成功後はリダイレクト
-            self.assertEqual(response.status_code, 302)
+            # 登録成功後は級選択へ
+            self.assertRedirects(response, reverse('exams:choose_exam_level'))
             # ユーザーが作成されたか確認
             self.assertTrue(User.objects.filter(username='newuser').exists())
             mock_notify.assert_called_once()

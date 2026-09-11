@@ -18,7 +18,11 @@ User = get_user_model()
 class LandingPageTest(TestCase):
     def setUp(self):
         self.client = Client()
-        self.user = User.objects.create_user(username='landing_user', password='testpass123')
+        self.user = User.objects.create_user(
+            username='landing_user',
+            password='testpass123',
+            preferred_exam_level='4',
+        )
 
     def test_landing_page_is_public(self):
         response = self.client.get(reverse('landing'))
@@ -291,7 +295,11 @@ class PrivacyPolicyAffiliateTest(TestCase):
 
 class AuthenticatedNavLinksTest(TestCase):
     def setUp(self):
-        self.user = User.objects.create_user(username='nav_user', password='testpass123')
+        self.user = User.objects.create_user(
+            username='nav_user',
+            password='testpass123',
+            preferred_exam_level='4',
+        )
         self.client = Client()
         self.client.login(username='nav_user', password='testpass123')
 
@@ -378,7 +386,9 @@ class LandingFaqJsonLdTest(TestCase):
 class AppShellSeoTest(TestCase):
     def setUp(self):
         self.user = get_user_model().objects.create_user(
-            username='seo_user', password='testpass123'
+            username='seo_user',
+            password='testpass123',
+            preferred_exam_level='4',
         )
         self.client = Client()
         self.client.login(username='seo_user', password='testpass123')

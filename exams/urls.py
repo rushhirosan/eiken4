@@ -5,6 +5,7 @@ app_name = 'exams'
 
 urlpatterns = [
     path('', views.exam_list, name='exam_list'),
+    path('choose-level/', views.choose_exam_level, name='choose_exam_level'),
     path('level/<str:level>/', views.question_list, name='question_list_by_level'),
     path('exam/<int:exam_id>/', views.question_list, name='question_list_by_exam'),
     path('question/<int:question_id>/', views.question_detail, name='question_detail'),

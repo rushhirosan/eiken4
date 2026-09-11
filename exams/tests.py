@@ -179,7 +179,8 @@ class ExamListViewTest(TestCase):
         self.user = User.objects.create_user(
             username='testuser',
             email='test@example.com',
-            password='testpass123'
+            password='testpass123',
+            preferred_exam_level='4',
         )
         self.url = reverse('exams:exam_list')
     
@@ -195,9 +196,17 @@ class ExamListViewTest(TestCase):
         response = self.client.get(self.url)
         self.assertEqual(response.status_code, 200)
         self.assertTemplateUsed(response, 'exams/exam_list.html')
+
+    def test_exam_list_redirects_new_user_to_choose_level(self):
+        """級未設定の新規ユーザーは級選択へ誘導する"""
+        self.user.preferred_exam_level = ''
+        self.user.save(update_fields=['preferred_exam_level'])
+        self.client.login(username='testuser', password='testpass123')
+        response = self.client.get(self.url)
+        self.assertRedirects(response, reverse('exams:choose_exam_level'))
     
-    def test_exam_list_defaults_to_level_4(self):
-        """初回は4級にフォーカスする"""
+    def test_exam_list_defaults_to_preferred_level_4(self):
+        """設定済みなら4級にフォーカスする"""
         self.client.login(username='testuser', password='testpass123')
         response = self.client.get(self.url)
         self.assertContains(response, '現在の試験級')
@@ -243,6 +252,8 @@ class ExamListViewTest(TestCase):
 
     def test_exam_list_falls_back_to_recent_progress_level(self):
         """ユーザー設定が空でも、直近の学習級を問題一覧に使う"""
+        self.user.preferred_exam_level = ''
+        self.user.save(update_fields=['preferred_exam_level'])
         UserProgress.objects.create(
             user=self.user,
             level='3',
@@ -335,6 +346,60 @@ class ExamListViewTest(TestCase):
 
         response = self.client.get(self.url)
         self.assertContains(response, '3級')
+
+
+class ChooseExamLevelViewTest(TestCase):
+    """初回級選択オンボーディングのテスト"""
+
+    def setUp(self):
+        self.client = Client()
+        self.user = User.objects.create_user(
+            username='newlearner',
+            email='newlearner@example.com',
+            password='testpass123',
+        )
+        self.url = reverse('exams:choose_exam_level')
+
+    def test_choose_level_requires_login(self):
+        response = self.client.get(self.url)
+        self.assertEqual(response.status_code, 302)
+
+    def test_choose_level_shows_cards_for_new_user(self):
+        self.client.login(username='newlearner', password='testpass123')
+        response = self.client.get(self.url)
+        self.assertEqual(response.status_code, 200)
+        self.assertTemplateUsed(response, 'exams/choose_exam_level.html')
+        self.assertContains(response, '受験する級を選んでください')
+        self.assertContains(response, '5級で始める')
+        self.assertContains(response, '4級で始める')
+        self.assertContains(response, '3級で始める')
+        self.assertContains(response, 'わからない・あとで決める')
+
+    def test_choose_level_get_sets_preference_and_redirects(self):
+        self.client.login(username='newlearner', password='testpass123')
+        response = self.client.get(self.url, {'level': '5'})
+        self.assertRedirects(response, reverse('exams:exam_list'))
+        self.user.refresh_from_db()
+        self.assertEqual(self.user.preferred_exam_level, '5')
+        self.assertEqual(self.client.session.get('preferred_exam_level'), '5')
+
+        exam_list = self.client.get(reverse('exams:exam_list'))
+        self.assertEqual(exam_list.status_code, 200)
+        self.assertContains(exam_list, '<option value="5" selected>5級</option>', html=True)
+
+    def test_choose_level_skip_defaults_to_level_4(self):
+        self.client.login(username='newlearner', password='testpass123')
+        response = self.client.post(self.url, {'skip': '1'})
+        self.assertRedirects(response, reverse('exams:exam_list'))
+        self.user.refresh_from_db()
+        self.assertEqual(self.user.preferred_exam_level, '4')
+
+    def test_choose_level_redirects_when_already_set(self):
+        self.user.preferred_exam_level = '3'
+        self.user.save(update_fields=['preferred_exam_level'])
+        self.client.login(username='newlearner', password='testpass123')
+        response = self.client.get(self.url)
+        self.assertRedirects(response, reverse('exams:exam_list'))
 
 
 class Level3RandomAndMockTests(TestCase):

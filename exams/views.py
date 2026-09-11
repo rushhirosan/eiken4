@@ -580,6 +580,45 @@ def _get_preferred_exam_level(request):
     return '4'
 
 
+def _user_needs_exam_level_choice(request):
+    """級が未確定の新規ユーザーなら True（進捗や明示設定がある人は False）。"""
+    user = getattr(request, 'user', None)
+    if user is None or not user.is_authenticated:
+        return False
+    if request.session.get(PREFERRED_LEVEL_SESSION_KEY) in VALID_EXAM_LEVELS:
+        return False
+    if (user.preferred_exam_level or '').strip() in VALID_EXAM_LEVELS:
+        return False
+    if _preferred_level_from_progress(user):
+        return False
+    return True
+
+
+CHOOSE_EXAM_LEVEL_CARDS = [
+    {
+        'code': '5',
+        'name': '5級',
+        'badge': '入門',
+        'summary': '会話補充・語順選択を含む入門レベル。リスニングと任意のスピーキングもあります。',
+        'tags': ['文法・語彙', '会話補充', '語順選択', 'リスニング'],
+    },
+    {
+        'code': '4',
+        'name': '4級',
+        'badge': '初級',
+        'summary': '5級に加えて長文読解があり、基礎〜標準の問題を一通りカバーします。',
+        'tags': ['文法・語彙', '長文読解', 'リスニング', '模擬試験'],
+    },
+    {
+        'code': '3',
+        'name': '3級',
+        'badge': '中級',
+        'summary': 'ライティングや、より実践的な読解・リスニングに対応。スピーキングは二次面接の流れ練習です。',
+        'tags': ['文法・語彙', 'ライティング', '長文読解', '二次面接'],
+    },
+]
+
+
 def _exam_level_name(level_code):
     return dict(EXAM_LEVEL_ENTRIES).get(level_code, f'{level_code}級')
 
@@ -672,6 +711,27 @@ def _build_exam_section(user, level_code, level_name, daily_goal=3):
 
 
 @login_required
+def choose_exam_level(request):
+    """初回（級未設定）ユーザー向けの級選択オンボーディング。"""
+    level = request.POST.get('level') if request.method == 'POST' else request.GET.get('level')
+    if request.method == 'POST' and request.POST.get('skip') == '1':
+        level = '4'
+
+    if level in VALID_EXAM_LEVELS:
+        _set_preferred_exam_level(request, level)
+        return redirect('exams:exam_list')
+
+    if not _user_needs_exam_level_choice(request):
+        return redirect('exams:exam_list')
+
+    return render(
+        request,
+        'exams/choose_exam_level.html',
+        {'level_cards': CHOOSE_EXAM_LEVEL_CARDS},
+    )
+
+
+@login_required
 def exam_list(request):
     """試験一覧を表示（選択中の級にフォーカス）"""
     level_param = request.GET.get('level')
@@ -679,6 +739,8 @@ def exam_list(request):
         active_level = level_param
         _set_preferred_exam_level(request, active_level)
     else:
+        if _user_needs_exam_level_choice(request):
+            return redirect('exams:choose_exam_level')
         active_level = _get_preferred_exam_level(request)
 
     daily_goal_param = request.GET.get('daily_goal')

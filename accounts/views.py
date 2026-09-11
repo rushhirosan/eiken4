@@ -19,7 +19,7 @@ def signup(request):
             ip_address = get_client_ip(request)
             logger.info(f'新規ユーザー登録成功: username={user.username}, ip={ip_address}')
             notify_user_registered(username=user.username, ip=ip_address)
-            return redirect('exams:exam_list')
+            return redirect('exams:choose_exam_level')
         else:
             # デバッグ情報をログに出力
             logger.warning(f'新規登録失敗: errors={form.errors}, ip={get_client_ip(request)}')
