@@ -957,15 +957,15 @@ A : Would you like another piece of cake? B : ( )
 
 【解説36】
 正解は「No, thank you. I'm full.」です。意味は「いいえ、けっこうです。おなかいっぱいです」です。
-「Would you like 〜?」は勧めなので、断るなら丁寧に理由を添えるのが自然です。
+「Would you like 〜?」は勧めなので、断るときはまず No, thank you. が定番です。I'm full. のように理由を足してもよいです。
 ほかの選択肢：1「The cake is chocolate.（ケーキはチョコ）」は味の説明、2「Cake is my favorite dessert.（ケーキがいちばん好きなデザート）」は好み、3「It costs four hundred yen.（400円）」は値段で、勧めへの断りではありません。
-ヒント：勧めを断るときは No, thank you. I'm full. がよく使われます。
+ヒント：勧めを断るときは No, thank you. が基本です。食べ物なら I'm full. などを足してもよいです。
 
 【ポイント36】
 種別: 会話
-見出し: Would you like 〜? への断りは I'm full. など
-・No, thank you. I'm full. / I've had enough.
-・受けるときは Yes, please. が定番
+見出し: Would you like 〜? への断りは No, thank you.
+・断る → No, thank you.（＋ I'm full. など理由でも可）
+・受ける → Yes, please.
 ・味や値段の説明は断りのことばではない
 
 ---
