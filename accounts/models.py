@@ -1,3 +1,5 @@
+from typing import Optional
+
 from django.contrib.auth.models import AbstractUser
 from django.db import models
 
@@ -41,7 +43,7 @@ class CustomUser(AbstractUser):
     def has_recovery_code(self) -> bool:
         return bool(self.recovery_code_hash)
 
-    def set_recovery_code(self, code: str | None = None, *, save: bool = True) -> str:
+    def set_recovery_code(self, code: Optional[str] = None, *, save: bool = True) -> str:
         """復元コードを発行してハッシュ保存し、平文を返す（画面表示用・一度きり）。"""
         plain = code or generate_recovery_code()
         self.recovery_code_hash = hash_recovery_code(plain)
