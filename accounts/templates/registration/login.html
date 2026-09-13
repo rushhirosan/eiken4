@@ -267,11 +267,17 @@
                     </div>
                     
                     <!-- ログイン状態保持 -->
-                    <div class="form-check mb-4">
+                    <div class="form-check mb-3">
                         <input class="form-check-input" type="checkbox" id="rememberMe" name="remember_me">
                         <label class="form-check-label" for="rememberMe">
                             <i class="fas fa-clock me-1"></i>ログイン状態を保持
                         </label>
+                    </div>
+
+                    <div class="text-end mb-4">
+                        <a href="{% url 'recover_password' %}" class="small">
+                            パスワードを忘れた方（復元コード）
+                        </a>
                     </div>
                     
                     <!-- ログインボタン -->
