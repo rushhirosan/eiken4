@@ -876,13 +876,13 @@ Girl : Your bag looks heavy. ( ) Boy : Yes, please. Thank you.
 
 【解説33】
 正解は「Should I carry it for you?」です。意味は「持ってあげようか？」です。
-あとに「Yes, please. Thank you.」と続くので、手伝いの申し出・確認になっている質問が合います。
+あとに「Yes, please. Thank you.」と続くので、手伝いの申し出になっている質問が合います。
 ほかの選択肢：2「How much does it weigh?（重さはどのくらい）」は重さ、3「Where did you buy the bag?（どこで買った）」は購入場所、4「When is your next class?（次の授業はいつ）」は時間割で、手伝いの申し出ではありません。
-ヒント：Should I 〜? は「〜したほうがいい？／してあげようか？」の確認です。
+ヒント：Should I 〜? は「してあげようか？」の申し出にも使えます。Shall I 〜? も近い言い方です。
 
 【ポイント33】
 種別: 会話
-見出し: Should I 〜? は助言・手伝いの確認
+見出し: Should I 〜? は手伝いの申し出
 ・Should I help you? / Should I carry it?
 ・受ける側は Yes, please. / No, thank you.
 ・Shall I 〜? も近い申し出

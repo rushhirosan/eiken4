@@ -1267,7 +1267,7 @@ Toru had a job ( ) at the bookstore yesterday.
 ---
 
 問題48:
-Please wait for me at the ( ) of the street. I'll be there soon.
+The bookstore is on the ( ) of First Street and Oak Street.
 
 選択肢48:
 1. middle
@@ -1279,17 +1279,17 @@ Please wait for me at the ( ) of the street. I'll be there soon.
 2. corner
 
 【解説48】
-正解は「corner」です。意味は「かど／角」です。「at the corner of the street」で「通りの角で」という意味になります。
-文全体は「通りの角で待っていてください。すぐ行きます」という意味です。待ち合わせの場所として角はよく使われます。
-ひっかけ：「middle / center」は「真ん中」で、通りの角の待ち合わせにはふつう使いません。「end」は「はし」ですが、この定番の言い方は corner です。
-ヒント：街角の待ち合わせ＝ at the corner、と覚えましょう。
+正解は「corner」です。意味は「かど／角」です。「on the corner of A and B」で「AとBの角に」という意味になります。
+文全体は「その本屋は First Street と Oak Street の角にあります」という意味です。2本の通りの交わる場所を言う定番です。
+ひっかけ：「middle / center」は「真ん中」で、2本の通りの角には使いません。「end」は「はし」ですが、「on the end of A and B」とはふつう言いません。
+ヒント：2本の通りの角＝ on / at the corner of A and B、と覚えましょう。
 
 【ポイント48】
 種別: 単語
 見出し: corner（角・かど）
-・at the corner of the street
+・on / at the corner of A and B（2本の通りの角）
 ・in the corner of the room（部屋のすみ）は in
-・待ち合わせの場所によく出る
+・店の場所や待ち合わせによく出る
 
 ---
 
