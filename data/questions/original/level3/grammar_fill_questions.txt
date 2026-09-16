@@ -865,26 +865,26 @@ I hope I will ( ) visit my cousins next summer.
 Take an umbrella. It ( ) rain this afternoon.
 
 選択肢33:
-1. must
-2. should
+1. need
+2. might
 3. can to
-4. might
+4. must to
 
 【正解33】
-4. might
+2. might
 
 【解説33】
 正解は「might」です。意味は「〜かもしれない」で、可能性をやわらかく表します。
 文全体は「かさを持っていって。午後は雨が降るかもしれない」という意味です。確実ではない予想なので might が合います。
-ひっかけ：「must」は「きっと〜だ」（強い確信）、「should」は「〜するべき／たぶん〜だろう」で、この「かもしれない」より強く感じられます。「can to」は形がまちがいです。
-ヒント：確信度が低めの「かも」は might / may を思い出しましょう。
+ひっかけ：「need」だけでは「雨が降る必要がある」のような不自然な文になります。「can to / must to」は助動詞のあとに to がついていて形がまちがいです（原形 rain が続く）。
+ヒント：確信度が低めの「かも」は might / may。助動詞のあとは原形、と覚えましょう。
 
 【ポイント33】
 種別: 文法
 見出し: might（〜かもしれない）
 ・It might rain. = 雨が降るかもしれない
-・must より弱い可能性
-・あとに原形（might rain / might come）
+・助動詞のあとは原形（might rain / ではない might to rain）
+・can to / must to は形のまちがい
 
 ---
 

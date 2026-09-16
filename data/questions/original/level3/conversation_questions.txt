@@ -707,7 +707,7 @@ Girl : Do you want to play soccer with us now? Boy : ( )
 1. Soccer is my favorite sport.
 2. We play on the school field.
 3. Sorry, I can't. I have to practice the piano.
-4. Let's play for one hour.
+4. I played the piano last night.
 
 【正解27】
 3. Sorry, I can't. I have to practice the piano.
@@ -715,7 +715,7 @@ Girl : Do you want to play soccer with us now? Boy : ( )
 【解説27】
 正解は「Sorry, I can't. I have to practice the piano.」です。意味は「ごめん、無理。ピアノの練習があるんだ」です。
 いまいっしょにサッカーをしようという誘いなので、断るなら理由を添えるのが自然です。
-ほかの選択肢：1「Soccer is my favorite sport.（サッカーがいちばん好き）」は好み、2「We play on the school field.（校庭でやる）」は場所、4「Let's play for one hour.（1時間やろう）」は受ける返事で、断りではありません。
+ほかの選択肢：1「Soccer is my favorite sport.（サッカーがいちばん好き）」は好み、2「We play on the school field.（校庭でやる）」は場所、4「I played the piano last night.（きのうの夜ピアノを練習した）」は過去の話で、誘いへの返事（受ける／断る）になっていません。
 ヒント：断りは Sorry, I can't. + 理由（I have to 〜）のセットで覚えると安心です。
 
 【ポイント27】
@@ -723,7 +723,7 @@ Girl : Do you want to play soccer with us now? Boy : ( )
 見出し: Sorry, I can't ... は誘いの断り＋理由
 ・Sorry, I can't. のあとに理由を続ける
 ・I have to 〜 / I need to 〜 がよく出る
-・好きや場所の話だけだと断りに聞こえない
+・好きや場所・過去の話だけだと断りに聞こえない
 
 ---
 
