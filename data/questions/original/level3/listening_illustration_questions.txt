@@ -646,7 +646,7 @@ W: It was amazing. The garden was beautiful.
 Question No.22:
 1. Castles are made of stone.
 2. I've been there, too.
-3. Okayama is far from here.
+3. Okayama is in the west.
 
 【正解22】
 2. I've been there, too.
@@ -658,13 +658,13 @@ M: Really? How was it?（へえ。どうだった？）
 W: It was amazing. The garden was beautiful.（最高だった。庭がきれいだったよ。）
 
 相手の経験に合わせる返事なので、2「I've been there, too.（わたしも行ったことあるよ）」が自然です。
-1「Castles are made of stone.（お城は石でできている）」は一般論、3「Okayama is far from here.（岡山はここから遠い）」は距離で、経験の共有になっていません。
+1「Castles are made of stone.（お城は石でできている）」は一般論、3「Okayama is in the west.（岡山は西にある）」は地理の説明で、経験の共有になっていません。
 
 【ポイント22】
 種別: リスニング
 見出し: 旅行・訪問の話には I've been there, too.
 ・I've been there, too. / Me too. で経験を共有
-・建物の説明や距離だけでは「わたしも」にならない
+・建物の説明や地理の話だけでは「わたしも」にならない
 
 ---
 
