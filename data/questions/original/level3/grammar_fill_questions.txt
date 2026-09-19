@@ -650,7 +650,7 @@ I'm thirsty. Do you have ( ) to drink?
 
 選択肢25:
 1. something
-2. anything
+2. someone
 3. nothing
 4. everything
 
@@ -659,15 +659,15 @@ I'm thirsty. Do you have ( ) to drink?
 
 【解説25】
 正解は「something」です。「something to + 原形」で「何か飲むもの」のように、「〜するための何か」を表します。
-文全体は「のどがかわいた。何か飲むものはある？」という意味です。ほしいものがありそうな聞き方なので something が自然です。
-ひっかけ：「anything」は否定文や、本当に何でもよい強い疑問でよく使います。「nothing（何もない）」「everything（すべて）」はこの文の意味に合いません。
+文全体は「のどがかわいた。何か飲むものはある？」という意味です。
+ひっかけ：「someone」は人なので「飲むもの」には合いません。「nothing（何もない）」「everything（すべて）」もこの文の意味に合いません。
 ヒント：something / anything / nothing + to do の形をセットで覚えましょう。
 
 【ポイント25】
 種別: 文法
 見出し: something / anything + to + 原形（〜するもの）
 ・something to drink = 何か飲むもの
-・anything to eat は「食べるもの（何かある？）」にも使える
+・人を表す someone とは別
 ・to のあとは原形（to drink / to read）
 
 ---
