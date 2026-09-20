@@ -58,6 +58,17 @@
         {% endif %}
     </div>
     {% else %}
+    <div class="card mb-4 speaking-prep-shared border-0 bg-light">
+        <div class="card-body py-3">
+            <p class="mb-2 fw-semibold">練習の流れ</p>
+            <ol class="small text-muted mb-0">
+                {% for step in speaking_prep_steps %}
+                <li>{{ step }}</li>
+                {% endfor %}
+            </ol>
+        </div>
+    </div>
+
     <form method="post" action="{% url 'exams:submit_answers' level=level %}?type=speaking" id="speakingForm">
         {% csrf_token %}
         <input type="hidden" name="question_type" value="speaking">
@@ -92,11 +103,7 @@
                 <div class="speaking-steps">
                     <div class="speaking-step" data-step="0">
                         <p class="mb-2 fw-semibold">準備</p>
-                        <ol class="small text-muted mb-3">
-                            {% for step in speaking_prep_steps %}
-                            <li>{{ step }}</li>
-                            {% endfor %}
-                        </ol>
+                        <p class="small text-muted mb-3">{{ speaking_prep_summary }}</p>
                         <button type="button" class="btn btn-primary speaking-next">黙読をはじめる</button>
                     </div>
 

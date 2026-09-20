@@ -1490,6 +1490,9 @@ def question_list(request, level=None, exam_id=None):
                 'イラストについての質問に答える（No.2・No.3）',
                 'カードを裏返し、自分自身についての質問に答える（No.4・No.5）',
             ]
+            speaking_prep_summary = (
+                '流れは同じです（黙読 → 音読 → 内容・イラスト・自分のこと）。'
+            )
             speaking_badge_label = '二次試験練習'
         elif level_str == '4':
             speaking_intro = (
@@ -1504,6 +1507,9 @@ def question_list(request, level=None, exam_id=None):
                 'イラストについての質問に答える（No.3）',
                 '自分自身についての質問に答える（No.4）',
             ]
+            speaking_prep_summary = (
+                '流れは同じです（黙読 → 音読 → 内容・イラスト・自分のこと）。'
+            )
             speaking_badge_label = '任意'
         else:
             speaking_intro = (
@@ -1517,6 +1523,9 @@ def question_list(request, level=None, exam_id=None):
                 '内容についての質問に答える（No.1・No.2）',
                 '自分自身についての質問に答える（No.3）',
             ]
+            speaking_prep_summary = (
+                '流れは同じです（黙読 → 音読 → 内容・自分のこと）。'
+            )
             speaking_badge_label = '任意'
 
         context = {
@@ -1529,6 +1538,7 @@ def question_list(request, level=None, exam_id=None):
             'question_count_options': question_count_options,
             'speaking_intro': speaking_intro,
             'speaking_prep_steps': speaking_prep_steps,
+            'speaking_prep_summary': speaking_prep_summary,
             'speaking_badge_label': speaking_badge_label,
             'speaking_total_count': speaking_total_count,
         }

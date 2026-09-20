@@ -648,6 +648,8 @@ class Level5ExamListTests(TestCase):
         self.assertEqual(response.status_code, 200)
         self.assertContains(response, '黙読をはじめる')
         self.assertContains(response, 'How old is Sam?')
+        self.assertContains(response, '練習の流れ', count=1)
+        self.assertContains(response, '流れは同じです（黙読 → 音読 → 内容・自分のこと）。')
         self.assertEqual(response.context['speaking_total_count'], 1)
         self.assertEqual(len(response.context['questions']), 1)
         self.assertNotContains(response, '表示できるスピーキング問題がありません')
