@@ -395,7 +395,7 @@ Girl : I got a new bag yesterday. Boy : What color is it? Girl : ( )
 ヒント：「What color」と見たら、blue / red / green などの色を探しましょう。
 
 【ポイント15】
-種別: 単語
+種別: 会話
 見出し: What color is it? には色の名前で答える
 ・It's blue. / It's red and white. のように色で返す
 ・What size（大きさ）・What shape（形）と混ぜない
