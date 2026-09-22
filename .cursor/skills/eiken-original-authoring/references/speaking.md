@@ -75,12 +75,12 @@ Saturday Morning
 Many families stay home on Saturday morning. Some people cook breakfast. Others read books or watch TV. It is a quiet time of the week.
 
 【Illustration】
-台所。お母さんがパンを焼いている。お父さんがテーブルで新聞を読んでいる。子どもがコップに水を入れている。
+台所。お母さんがパンを焼いている。お父さんが新聞を持ってソファへ向かう吹き出しがある。テーブルにカップが2つある。
 
 【Questions】
-1. [passage] When do many families stay home?
-2. [illustration] What is the woman doing?
-3. [illustration] What is the man doing?
+1. [passage] Please look at the passage. When do many families stay home?
+2. [illustration] Please look at the picture. What is the woman doing?
+3. [illustration] Please look at the picture. What is the man going to do?
 4. [personal] Do you stay home on Saturday morning?
 5. [personal] What do you like to do at home?
 
@@ -91,18 +91,48 @@ Many families stay home on Saturday morning. Some people cook breakfast. Others 
 ■ 参考解答の例
 1. They stay home on Saturday morning. / On Saturday morning.
 2. She is baking bread. / Cooking.
-3. He is reading a newspaper.
+3. He is going to read a newspaper. / He's going to sit on the sofa.
 4. Yes, I do. / No, I don't.
 5. I watch TV. / I play games.
+
+■ 表現のメモ
+No.4 が Yes なら Please tell me more.、No なら What do you usually do on Saturday morning?
 
 ---
 ```
 
+### 3級イラスト問のバラし（必須）
+
+各カードの No.2 / No.3 は、**少なくとも1問を「What is X doing?」以外**にする。
+
+| 型 | 質問例 | Illustration に必要な手がかり |
+|----|--------|-------------------------------|
+| 進行形 | What is the girl doing? | いまの動作 |
+| going to | What is the man going to do? | 思考吹き出し・これから |
+| holding / looking at | What is she holding? / What is she looking at? | 持ち物・視線先 |
+| 数え・位置 | How many cups …? / Where is the radio? | 数えられる小物・位置 |
+
+パッセージの中心物（radio / market / library など）を Illustration の小物としても出し、可能ならイラスト問の一方で触れる。
+
+### 3級の面接官フレーズ
+
+No.1 は `Please look at the passage.`、No.2・3 は `Please look at the picture.` を設問先頭に付ける。No.4・5（カード裏返し後）には付けない。
+
+### 3級パーソナル No.4・5
+
+Do you / Have you ever / Can you のあとに、参考解答・ポイントへ分岐を書く。
+
+- Yes → Please tell me more. の例
+- No → 関連の別質問の例
+
+設問本文に分岐文を無理に入れなくてよい（まず参考解答側で十分）。
+
 ## Rules
 
-- 公式面接の設問文・パッセージを転用しない
+- 公式面接の設問文・パッセージを転用しない（型・フレーズの一般形は可）
 - 5級パッセージはおおよそ 15〜25 語、4級はおおよそ 20〜30 語、3級はおおよそ 25〜40 語
 - **5級は内容2＋自分1。イラスト欄は作らない**
 - **4級は内容2＋イラスト1＋自分1**（質問に `[passage]` / `[illustration]` / `[personal]`）
-- **3級は内容1＋イラスト2＋自分2**
+- **3級は内容1＋イラスト2＋自分2**（イラスト型バラし・passage/picture フレーズ・Yes/No分岐は上記）
 - 現行公開セットは各級 **5問**。追記しても配分は変えない
+- 既存問題の文言差し替えで進捗を残すときは `register_speaking_questions --in-place`

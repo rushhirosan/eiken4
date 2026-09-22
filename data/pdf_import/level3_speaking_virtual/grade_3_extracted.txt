@@ -1,0 +1,75 @@
+# source: https://www.eiken.or.jp/eiken/exam/virtual/grade_3/pdf/grade_3.pdf
+# pages: 1
+# note: 保管・形式参考用。原文の転用・公開登録はしない。
+
+===== PAGE 1 (extracted text) =====
+３級（二次試験）
+無断転載・複製を禁じます。
+© 2013 公益財団法人 日本英語検定協会
+《Sample》
+
+【Questions】
+No. 1  Please look at the passage.  What can people learn from the radio?
+―― They can learn English and other languages （from the radio）.
+
+No. 2  Please look at the picture.   What is the man going to do?
+―― He's going to read （a [the] newspaper）.
+
+No. 3  How many cups are there on the table?
+―― There are two （cups） （on the table）.
+
+No. 4  What do you like to do on weekends?
+―― I like to play tennis.
+
+No. 5  Have you ever been to a foreign country?
+Yes.  → Please tell me more.
+―― I've been to America.
+No.  → What country would you like to visit?
+―― I'd like to go to Mongolia.
+
+Listening to the Radio
+There are many kinds of radio programs.  People of ten enjoy listening to
+sports or their favorite songs.  Peopl e can learn English and other languages
+from the radio, so it is very useful.
+
+===== STRUCTURE NOTES（オリジナル作問向け・型だけ） =====
+
+## カード構成（このサンプル1枚）
+
+1. タイトル + 約30〜40語パッセージ（一般論 → 具体例 → 締め）
+2. 1枚絵（複数人物・複数小物・思考吹き出しあり）
+3. 質問5問（内容1 / 絵2 / 自分2）※カード裏返し後が No.4・5
+
+## 質問の役割（公式サンプルの型）
+
+| No | 役割 | このサンプルでの型 | いまのオリジナルで多い型 |
+|----|------|--------------------|--------------------------|
+| 1 | パッセージ内容 | What can …?（本文の事実） | Why / When / Which / How often など（近い） |
+| 2 | イラスト | **be going to**（思考吹き出し＝これから） | What is X doing?（進行形）が大半 |
+| 3 | イラスト | **数え上げ・状態**（How many …?） | What is Y doing?（進行形）が大半 |
+| 4 | 自分のこと | 好きなこと（オープン） | Do you …? / What do you like …?（近い） |
+| 5 | 自分のこと | **Yes/No 経験 + 分岐フォロー** | Have you ever …? はあるが分岐なしが多い |
+
+## イラストの仕掛け（型として活かせる点）
+
+- パッセージ題材（ラジオ）が絵にも小物として入っている
+- 複数人が同時に別行動している
+- **思考吹き出し**で「これからする予定」を見せ、going to を聞ける
+- 数えられる小物（カップ2つなど）を置き、進行形以外の質問も可能
+
+## 面接官フレーズ（流れ理解用）
+
+- Please look at the passage.
+- Please look at the picture.
+- Yes → Please tell me more. / No → 別の関連質問
+
+アプリの練習UIは手順Stepで代替しているので、設問文に必ずしも載せる必要はない。
+ただし No.5 の**分岐フォロー**は本番らしさの核なので、オリジナルでは
+「フォロー例を参考解答・ポイントに書く」か「データ/UIで分岐を足す」かを検討余地あり。
+
+## パッセージの型（語数・骨格だけ）
+
+- 導入: There are many kinds of …
+- 具体: People often enjoy …
+- 締め: … so it is very useful.
+- ※文言そのものは使わない。骨格（導入→例→評価）だけ参考にする。
