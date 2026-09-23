@@ -26,9 +26,9 @@ Many students stay at school after classes because they join clubs or study with
 ■ 参考解答の例
 1. Because they join clubs or study with friends. / To join clubs or study.
 2. She is kicking a soccer ball. / Playing soccer.
-3. He is going to go into the school. / He's going to leave the field.
+3. He is going to go into the school. / He's going to go back to the school.
 4. Yes, I do. / No, I don't.
-5. I join a club. / I study at home. / I play games.
+5. I like to join a club. / I like to study at home. / I like to play games.
 
 ■ 表現のメモ
 Why には Because ... や To ... で答えると自然です。イラストは進行形だけでなく going to（これから）もあります。No.4 が Yes のときは Please tell me more.、No のときは What do you do after school at home? のような続きがあります。
@@ -69,10 +69,10 @@ On rainy weekends, some families stay indoors. They cook together, watch movies,
 
 ■ 参考解答の例
 1. They cook, watch movies, or play board games. / Cooking, watching movies, or playing games.
-2. He is cooking. / He is using a frying pan.
+2. He is cooking. / He is making food.
 3. There are three cups. / Three.
 4. Yes, I do. / No, I don't.
-5. I watch movies. / I play sports. / I read books.
+5. I like to watch movies. / I like to play sports. / I like to read books.
 
 ■ 表現のメモ
 No.1 の Which は本文に並んだ活動から答えます。イラストは進行形だけでなく How many もあります。No.4 が Yes なら Please tell me more.、No なら What do you do on rainy days? が続きます。
@@ -91,7 +91,7 @@ No.1 の Which は本文に並んだ活動から答えます。イラストは�
 School Library
 
 【Passage】
-The school library is quiet in the morning. Students can borrow storybooks and study guides. Some students read comics there before class. The librarian helps them find good books.
+The school library is quiet in the morning. Students can borrow storybooks and books for study. Some students read comics there before class. The librarian helps them find good books.
 
 【Illustration】
 図書館。女子生徒が棚から本を取っている。男子生徒が机でノートに書いている。机のうえに本が4冊ある。男子の頭上に、本を開いて読む吹き出しがある。司書がカウンターで本にスタンプを押している。
@@ -109,10 +109,10 @@ The school library is quiet in the morning. Students can borrow storybooks and s
 
 ■ 音読のポイント
 ・quiet / borrow / librarian をはっきり
-・storybooks / study guides も丁寧に
+・storybooks / books for study も丁寧に
 
 ■ 参考解答の例
-1. Storybooks and study guides. / They can borrow storybooks and study guides.
+1. Storybooks and books for study. / They can borrow storybooks and books for study.
 2. She is taking a book from the shelf. / Choosing a book.
 3. He is going to read a book. / He's going to open a book.
 4. Yes, I do. / No, I don't.
@@ -142,7 +142,7 @@ Some towns have a morning market on Sundays. People buy fresh vegetables and fru
 
 【Questions】
 1. [passage] Please look at the passage. Which things do people buy at the morning market?
-2. [illustration] Please look at the picture. What is the shopkeeper doing?
+2. [illustration] Please look at the picture. What is the man doing?
 3. [illustration] Please look at the picture. What is the child holding?
 4. [personal] Do you go shopping with your family?
 5. [personal] Can you help your family carry shopping bags?
@@ -157,7 +157,7 @@ Some towns have a morning market on Sundays. People buy fresh vegetables and fru
 
 ■ 参考解答の例
 1. Fresh vegetables and fruit. / They buy vegetables and fruit.
-2. He is putting tomatoes in a box. / Arranging tomatoes.
+2. He is putting tomatoes in a box. / He is putting tomatoes away.
 3. A big bag. / The child is holding a big bag.
 4. Yes, I do. / No, I don't.
 5. Yes, I can. / No, I can't. / Yes, I can carry light bags.
@@ -182,7 +182,7 @@ Science Fair
 Once a year, the school holds a science fair. Students show experiments and posters in the gym. Parents come to ask questions. Many students feel nervous but proud because they share their work.
 
 【Illustration】
-体育館。男子生徒が机の上の火山モデルを指さしている。女子生徒がポスターの前に立っており、頭上にポスターを指さして説明する吹き出しがある。机のうえにポスターが2枚ある。保護者がメモを取っている。
+体育館。男子生徒が机の上のモデルを指さしている。女子生徒がポスターの前に立っており、頭上にポスターを指さして話す吹き出しがある。机のうえにポスターが2枚ある。保護者がメモを取っている。
 
 【Questions】
 1. [passage] Please look at the passage. Why do many students feel nervous but proud?
@@ -201,8 +201,8 @@ Once a year, the school holds a science fair. Students show experiments and post
 
 ■ 参考解答の例
 1. Because they share their work. / Because parents ask about their work.
-2. He is pointing at a volcano model. / Showing a model.
-3. She is going to talk about her poster. / She's going to explain the poster.
+2. He is pointing at a model. / He is showing his work.
+3. She is going to talk about her poster. / She's going to talk about her work.
 4. Yes, I have. / No, I haven't.
 5. I like the sports day. / I like the school festival. / I like the concert.
 
@@ -251,7 +251,7 @@ Many classes clean their rooms after lunch. Some students wipe the desks. Others
 5. I like wiping the desks. / I like sweeping. / I like watering the flowers.
 
 ■ 表現のメモ
-No.1 は本文1文目の after lunch が答えです。short but useful は印象なので When の答えではありません。No.3 は How many。No.4 が Yes なら Please tell me more.、No なら What chores do you do at home?
+No.1 は本文1文目の after lunch が答えです。short but useful は印象なので When の答えではありません。No.3 は How many。No.4 が Yes なら Please tell me more.、No なら What do you do to help at home?
 
 【ポイント6】
 種別: 会話
@@ -311,10 +311,10 @@ No.1 は Why。本文の to keep the beat が目的です。No.3 は holding。N
 Morning Bird Walk
 
 【Passage】
-On quiet Sunday mornings, some families walk along the river to watch birds. They bring binoculars and a small notebook. Children point at herons in the water. The air feels cool and slow.
+On quiet Sunday mornings, some families walk along the river to watch birds. They bring a camera and a small notebook. Children point at birds in the water. The air feels cool and slow.
 
 【Illustration】
-川べり。子どもが水面を指さしている。お父さんが双眼鏡を持っている。お母さんがノートを開いている。水面に鳥が2羽いる。
+川べり。子どもが水面を指さしている。お父さんがカメラを持っている。お母さんがノートを開いている。水面に鳥が2羽いる。
 
 【Questions】
 1. [passage] Please look at the passage. Why do some families walk along the river on quiet Sunday mornings?
@@ -328,25 +328,25 @@ On quiet Sunday mornings, some families walk along the river to watch birds. The
 約30語を音読し、内容・イラスト・自分のことの質問に答えます。
 
 ■ 音読のポイント
-・quiet Sunday mornings / binoculars / herons をはっきり
+・quiet Sunday mornings / camera / birds をはっきり
 ・to watch birds も丁寧に
 
 ■ 参考解答の例
 1. To watch birds. / Because they want to watch birds.
-2. The child is pointing at the water. / Pointing at a heron.
-3. He is holding binoculars. / Binoculars.
+2. The child is pointing at the water. / Pointing at a bird.
+3. He is holding a camera. / A camera.
 4. Yes, I have. / No, I haven't.
-5. I eat breakfast. / I read books. / I walk my dog.
+5. I like to eat breakfast. / I like to read books. / I like to walk my dog.
 
 ■ 表現のメモ
-No.1 は Why。本文の to watch birds が目的です。No.3 は holding。No.4 は経験です。Yes なら Please tell me more.、No なら What animal would you like to watch?
+No.1 は Why。本文の to watch birds が目的です。No.3 は holding。No.4 は経験です。Yes なら Please tell me more.、No なら What animal would you like to watch? No.5 は like to で答えると自然です。
 
 【ポイント8】
 種別: 会話
 見出し: Why は to + 動詞の目的が多い
 ・Why do they 〜? → To watch birds.
 ・Have you ever 〜? は経験の答え＋続き
-・持ち物（双眼鏡など）を目的の答えにしない
+・持ち物（カメラなど）を目的の答えにしない
 
 ---
 
@@ -377,7 +377,7 @@ Once a week, neighbors gather in the park before breakfast. They stretch and fol
 
 ■ 参考解答の例
 1. Once a week. / They gather once a week.
-2. The child is raising both arms. / Copying the leader.
+2. The child is putting her hands up. / She is stretching.
 3. On the bench. / It's on the bench.
 4. Yes, I do. / No, I don't.
 5. I wash my face. / I eat breakfast. / I listen to the radio.
@@ -421,7 +421,7 @@ Many students visit the city museum on field trips. They look at old tools and w
 
 ■ 参考解答の例
 1. Old tools. / They look at old tools.
-2. She is looking at old tools. / Looking at a display.
+2. She is looking at old tools. / Looking at things in the case.
 3. He is going to go to the next room. / He's going to walk to another room.
 4. Yes, I do. / No, I don't.
 5. I want to see dinosaurs. / I want to see old trains. / I want to see paintings.
