@@ -592,7 +592,7 @@ This puzzle book is ( ) than the comic I read yesterday.
 ---
 
 問題23:
-A : Which bag do you want? B : This blue one is ( ) for school.
+A : Which bag do you want? B : This blue one is ( ) for school than the red one.
 
 選択肢23:
 1. better
@@ -605,16 +605,16 @@ A : Which bag do you want? B : This blue one is ( ) for school.
 
 【解説23】
 正解は「better」です。意味は「よりよい」です（good の比較級）。
-文全体は「どのかばんがいい？」「この青いほうが、学校にはよりよいよ」という会話です。二つのなかでどちらがよいかを言うとき、「better」を使います。
-ほかの選択肢：「gooder」と「more good」はどちらもまちがった形です。「best」はいちばんよい（最上級）で、二つのくらべごとにはふつう better を使います。
-ヒント：good → better → best はセットで覚えましょう（規則どおり -er にしません）。
+文全体は「どのかばんがいい？」「この青いほうが、赤いのより学校にはよいよ」という会話です。「than the red one」があるので、赤いほうとの比較です。比較には「better」を使います。
+ほかの選択肢：「gooder」と「more good」はどちらもまちがった形です。「best」はいちばんよい（最上級）で、「than」と一緒には使いません。
+ヒント：than があるときは better。good → better → best はセットで覚えましょう。
 
 【ポイント23】
 種別: 文法
-見出し: good の比較級は better
+見出し: than があるときは better
 ・good → better → best（不規則）
 ・gooder / more good は使わない
-・二つなら better、いちばんなら best
+・than がある比較は better。best は than と一緒に使わない
 
 ---
 

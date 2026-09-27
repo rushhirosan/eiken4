@@ -348,7 +348,7 @@ W: Can you buy some at the shop?
 
 Question No.12:
 1. Sure. I'll go after breakfast.
-2. We need eggs too.
+2. I don't like milk.
 3. The shop is new.
 
 【正解12】
@@ -361,14 +361,14 @@ M: Oh. What should we do?（えっ。どうしよう？）
 W: Can you buy some at the shop?（お店で買ってきてくれる？）
 
 お願いへの返事なので、1「Sure. I'll go after breakfast.（いいよ。朝ごはんのあと行く）」が自然です。
-2「We need eggs too.（卵もいるね）」は別の買い物、3「The shop is new.（お店は新しい）」はお店の話で、買う返事ではありません。
-ヒント：「Can you ~?」はお願いなので、する／しないで答えます。ひっかけは別の買い物や店の説明です。
+2「I don't like milk.（牛乳は好きじゃない）」は好み、3「The shop is new.（お店は新しい）」はお店の話で、買う返事ではありません。
+ヒント：「Can you ~?」はお願いなので、する／しないで答えます。ひっかけは好みや店の説明です。
 
 【ポイント12】
 種別: 会話
 見出し: Can you buy / get 〜? には了解 + 行く・買う
 ・Sure. I'll go after 〜 / OK. I'll buy 〜
-・別の買い物や店の説明だけでは依頼への返事にならない
+・好みや店の説明だけでは依頼への返事にならない
 
 ---
 
@@ -886,10 +886,10 @@ M: Yes. You used them without asking.
 Question No.29:
 1. Markers are colorful.
 2. Art class is on Friday.
-3. Sorry. I'll buy a new one.
+3. Sorry. I'll ask my mom to buy a new one.
 
 【正解29】
-3. Sorry. I'll buy a new one.
+3. Sorry. I'll ask my mom to buy a new one.
 
 【解説29】
 放送文
@@ -897,15 +897,15 @@ M: One tip of my new marker set is broken.（新しいマーカーセットの�
 W: Oh. Did I break it yesterday?（えっ。きのう私が折った？）
 M: Yes. You used them without asking.（うん。ことわりなしで使ったでしょ。）
 
-ことわりなしで使って折ってしまったことへの返事なので、3「Sorry. I'll buy a new one.（ごめん。新しいのを買うね）」が自然です。
+ことわりなしで使って折ってしまったことへの返事なので、3「Sorry. I'll ask my mom to buy a new one.（ごめん。お母さんに新しいのを買ってもらうね）」が自然です。
 1「Markers are colorful.（マーカーはいろとりどり）」は一般論、2「Art class is on Friday.（美術は金曜日）」は曜日で、謝罪になっていません。
-ヒント：借りたものをこわしたら、Sorry + 買い直す・直す、が自然です。
+ヒント：子どもがこわしたら、Sorry + お母さんに買い直してもらう、が自然です。
 
 【ポイント29】
 種別: 会話
-見出し: 許可なく使って壊したら Sorry + 直す・弁償
-・Sorry. I'll buy / replace / fix 〜.
-・ことわりなしで使ったあとの定番の謝り方
+見出し: 許可なく使って壊したら Sorry + お母さんに頼む
+・Sorry. I'll ask my mom to buy a new one.
+・ことわりなしで使ったあとの謝り方
 ・色や曜日など別の話題は謝罪の返事ではない
 
 ---

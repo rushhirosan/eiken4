@@ -10,6 +10,10 @@ from questions.study_points import extract_study_points
 _KIND_RE = re.compile(
     r'^(\d+)\.\s*(?:\[(passage|illustration|personal)\]\s*)?(.+)$'
 )
+_FOLLOW_RE = re.compile(r'^(Yes|No):\s*(.+)$')
+_SAMPLE_RE = re.compile(
+    r'^(\d+)\.\s*(?:\[(Yes|No)\]\s*)?(.+)$'
+)
 
 
 def _infer_kind(level: str, number: int) -> str:
@@ -72,6 +76,11 @@ def _parse_speaking_block(block: str, qn: int, level: str):
         line = line.strip()
         if not line:
             continue
+        follow = _FOLLOW_RE.match(line)
+        if follow and prompts:
+            key = 'yes_prompt' if follow.group(1) == 'Yes' else 'no_prompt'
+            prompts[-1][key] = follow.group(2).strip()
+            continue
         qm = _KIND_RE.match(line)
         if not qm:
             continue
@@ -85,23 +94,36 @@ def _parse_speaking_block(block: str, qn: int, level: str):
         })
 
     sample_by_num = {}
+    yes_by_num = {}
+    no_by_num = {}
     for line in explanation.splitlines():
-        sm = re.match(r'^(\d+)\.\s*(.+)$', line.strip())
+        sm = _SAMPLE_RE.match(line.strip())
         if not sm:
             continue
         num = int(sm.group(1))
-        answers = [a.strip() for a in sm.group(2).split('/') if a.strip()]
-        sample_by_num[num] = answers
+        answers = [a.strip() for a in sm.group(3).split('/') if a.strip()]
+        branch = sm.group(2)
+        if branch == 'Yes':
+            yes_by_num[num] = answers
+        elif branch == 'No':
+            no_by_num[num] = answers
+        else:
+            sample_by_num[num] = answers
 
     for item in prompts:
         item['sample_answers'] = sample_by_num.get(item['number'], [])
+        if item.get('yes_prompt') or item.get('no_prompt'):
+            item['yes_samples'] = yes_by_num.get(item['number'], [])
+            item['no_samples'] = no_by_num.get(item['number'], [])
 
     turn_over_after = 3 if str(level) == '3' else None
+    aloud_seconds = 30 if str(level) == '4' else None
     speaking_data = {
         'title': title,
         'passage': passage,
         'illustration': illustration,
         'silent_seconds': 20,
+        'aloud_seconds': aloud_seconds,
         'turn_over_after': turn_over_after,
         'questions': prompts,
     }

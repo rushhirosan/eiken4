@@ -13,10 +13,12 @@ Hana is 10 years old. She rides a blue bike to the park every Saturday. She take
 2. [passage] What color is Hana's bike?
 3. [illustration] What is the girl under the tree eating?
 4. [personal] Do you like going to the park?
+   Yes: Please tell me more.
+   No: What do you like to do on Saturday?
 
 【参考解答】
 ■ この問題で求められること
-約25語を黙読→音読したあと、内容2問・イラスト1問・自分のこと1問に答えます。
+約25語を黙読（20秒）→音読（30秒）したあと、内容2問・イラスト1問に答えます。No.4 は Yes か No を選び、そのあとの質問に答えます。
 
 ■ 音読のポイント
 ・一文ずつ区切ってはっきり読む
@@ -26,17 +28,18 @@ Hana is 10 years old. She rides a blue bike to the park every Saturday. She take
 1. Every Saturday. / She goes every Saturday.
 2. It is blue. / Her bike is blue. / Blue.
 3. She is eating a rice ball. / A rice ball.
-4. Yes, I do. / No, I don't.
+4. [Yes] I go every Saturday. / I play with my friend.
+4. [No] I read books at home. / I watch TV.
 
 ■ 表現のメモ
-No.2 は本文の a blue bike が答えです。Aya の名前は色の答えではありません。イラストは進行形（is -ing）で答えると自然です。No.4 は自分の答えでOKです。
+No.2 は本文の a blue bike が答えです。Aya の名前は色の答えではありません。イラストは進行形（is -ing）で答えると自然です。No.4 で Yes を選んだら、いつ行くか・なにをするかを短く足します。No なら土曜の過ごし方を言います。
 
 【ポイント1】
 種別: 会話
 見出し: 内容は本文、イラストは is -ing
 ・When / What color など内容問題は本文の語から取る
 ・イラストは見える動作を進行形で（She is eating 〜.）
-・自分のことの質問は Yes / No や自分の習慣でOK
+・自分のことは Yes ならもう一言、No なら別の質問に短く答える
 
 ---
 
@@ -54,11 +57,13 @@ Kenta usually eats lunch in the school cafeteria. Today his mother made rice bal
 1. [passage] Where does Kenta usually eat lunch?
 2. [passage] What did his mother make today?
 3. [illustration] What is the girl drinking?
-4. [personal] What do you often eat for lunch?
+4. [personal] Do you eat lunch at school?
+   Yes: Please tell me more.
+   No: Where do you eat lunch?
 
 【参考解答】
 ■ この問題で求められること
-パッセージを黙読・音読し、内容2問・イラスト1問・自分のこと1問に答えます。
+パッセージを黙読（20秒）・音読（30秒）し、内容2問・イラスト1問に答えます。No.4 は Yes か No を選び、そのあとの質問に答えます。
 
 ■ 音読のポイント
 ・usually / cafeteria / rice balls をはっきり読む
@@ -68,10 +73,11 @@ Kenta usually eats lunch in the school cafeteria. Today his mother made rice bal
 1. In the school cafeteria. / At school.
 2. She made rice balls and orange juice.
 3. She is drinking orange juice. / Orange juice.
-4. I eat a sandwich. / I eat rice. / I eat bread.
+4. [Yes] I eat rice and a sandwich. / I sit with my friends.
+4. [No] I eat lunch at home. / I eat lunch in the park.
 
 ■ 表現のメモ
-No.2 は today の情報です。usually の文と混ぜないようにしましょう。
+No.2 は today の情報です。usually の文と混ぜないようにしましょう。No.4 で Yes なら給食で何を食べるかを足し、No ならどこで食べるかを言います。
 
 【ポイント2】
 種別: 会話
@@ -96,11 +102,13 @@ Sora goes to the city library after school on Thursdays. She reads comics and st
 1. [passage] When does Sora go to the library?
 2. [passage] What does she do there?
 3. [illustration] What is the boy doing?
-4. [personal] Where do you like to study?
+4. [personal] Do you like reading books?
+   Yes: Please tell me more.
+   No: What do you like to do after school?
 
 【参考解答】
 ■ この問題で求められること
-約25語を音読し、内容2・イラスト1・自分のこと1に答えます。
+約25語を黙読（20秒）・音読（30秒）し、内容2・イラスト1に答えます。No.4 は Yes か No を選び、そのあとの質問に答えます。
 
 ■ 音読のポイント
 ・Thursdays / comics / English をはっきり
@@ -110,17 +118,18 @@ Sora goes to the city library after school on Thursdays. She reads comics and st
 1. On Thursdays. / After school on Thursdays.
 2. She reads comics and studies English.
 3. He is writing in a notebook. / Studying English.
-4. I study at home. / I study at school.
+4. [Yes] I read comics at home. / I go to the library.
+4. [No] I play soccer. / I watch TV.
 
 ■ 表現のメモ
-No.1 は曜日、No.2 は行動です。イラストは本文と同じ漫画でなくても、絵に見えることを言います。
+No.1 は曜日、No.2 は行動です。イラストは本文と同じ漫画でなくても、絵に見えることを言います。No.4 で Yes なら何を読むかを足し、No なら放課後にすることを言います。
 
 【ポイント3】
 種別: 会話
 見出し: When（曜日）と What（行動）を取り違えない
 ・曜日・時間は When、していることは What
 ・イラストは本文と同じでなくても絵に見えること
-・Where do you like は自分の場所で答える
+・自分のことは Yes ならもう一言、No なら別の質問に短く答える
 
 ---
 
@@ -138,11 +147,13 @@ It was rainy this morning. Leo took an umbrella and wore boots. He waited for th
 1. [passage] How was the weather this morning?
 2. [passage] Who waited for the bus with Leo?
 3. [illustration] What is the man looking at?
-4. [personal] What do you take on rainy days?
+4. [personal] Do you take an umbrella on rainy days?
+   Yes: Please tell me more.
+   No: What do you do on rainy days?
 
 【参考解答】
 ■ この問題で求められること
-パッセージを黙読・音読し、内容2問・イラスト1問・自分のこと1問に答えます。
+パッセージを黙読（20秒）・音読（30秒）し、内容2問・イラスト1問に答えます。No.4 は Yes か No を選び、そのあとの質問に答えます。
 
 ■ 音読のポイント
 ・rainy / umbrella / boots をはっきり読む
@@ -152,10 +163,11 @@ It was rainy this morning. Leo took an umbrella and wore boots. He waited for th
 1. It was rainy. / It was rainy this morning.
 2. His father. / He waited with his father.
 3. He is looking at the timetable. / A bus timetable.
-4. I take an umbrella. / I wear a raincoat.
+4. [Yes] I take a blue umbrella. / I wear boots.
+4. [No] I stay home. / I watch TV.
 
 ■ 表現のメモ
-No.1 は天気、No.2 はだれと、です。boots は持ち物で、一緒に待った人ではありません。
+No.1 は天気、No.2 はだれと、です。boots は持ち物で、一緒に待った人ではありません。No.4 で Yes なら傘以外も足し、No なら雨の日の過ごし方を言います。
 
 【ポイント4】
 種別: 会話
@@ -180,11 +192,13 @@ Miki joined the poster club this year. The club meets in Room 5 after school. Me
 1. [passage] Which club did Miki join?
 2. [passage] Where does the club meet?
 3. [illustration] What is the girl doing?
-4. [personal] What club do you want to join?
+4. [personal] Do you want to join a club?
+   Yes: Please tell me more.
+   No: What do you like to do after school?
 
 【参考解答】
 ■ この問題で求められること
-約25語を音読し、内容2・イラスト1・自分のこと1に答えます。
+約25語を黙読（20秒）・音読（30秒）し、内容2・イラスト1に答えます。No.4 は Yes か No を選び、そのあとの質問に答えます。
 
 ■ 音読のポイント
 ・joined / Room 5 / events をはっきり
@@ -194,10 +208,11 @@ Miki joined the poster club this year. The club meets in Room 5 after school. Me
 1. She joined the poster club. / The poster club.
 2. In Room 5. / It meets in Room 5.
 3. She is drawing on a big paper. / Drawing a poster.
-4. I want to join the music club. / I want to join the soccer club.
+4. [Yes] I want to join the music club. / I want to join the soccer club.
+4. [No] I read books. / I play games at home.
 
 ■ 表現のメモ
-No.4 は自分の希望なので、本文の poster club と同じでなくても大丈夫です。
+No.4 で Yes なら入りたいクラブを言います。本文の poster club と同じでなくても大丈夫です。No なら放課後にすることを言います。
 
 【ポイント5】
 種別: 会話
@@ -222,11 +237,13 @@ Nao waters plants on the school rooftop every Friday. She grows tomatoes with he
 1. [passage] When does Nao water the plants?
 2. [passage] What does she grow with her class?
 3. [illustration] What is the girl doing?
-4. [personal] What plant do you like?
+4. [personal] Do you like plants?
+   Yes: Please tell me more.
+   No: What do you like at school?
 
 【参考解答】
 ■ この問題で求められること
-約25語を黙読→音読したあと、内容2問・イラスト1問・自分のこと1問に答えます。
+約25語を黙読（20秒）→音読（30秒）したあと、内容2問・イラスト1問に答えます。No.4 は Yes か No を選び、そのあとの質問に答えます。
 
 ■ 音読のポイント
 ・一文ずつ区切ってはっきり読む
@@ -236,7 +253,8 @@ Nao waters plants on the school rooftop every Friday. She grows tomatoes with he
 1. Every Friday. / She waters them every Friday.
 2. She grows tomatoes. / Tomatoes.
 3. She is watering the tomatoes. / She is using a watering can.
-4. I like sunflowers. / I like tomatoes. / I like cherry blossoms.
+4. [Yes] I like sunflowers. / I water them on Friday.
+4. [No] I like soccer. / I like music.
 
 ■ 表現のメモ
 No.1 は本文1文目の every Friday が答えです。No.2 は grows tomatoes を見ます。bees はいつ水をやるかの答えではありません。イラストは進行形（is -ing）で答えると自然です。
@@ -264,11 +282,13 @@ Yuto counts ten milk bottles every morning. He writes the number on a paper near
 1. [passage] How many milk bottles does Yuto count every morning?
 2. [passage] Where does he write the number?
 3. [illustration] What is the teacher holding?
-4. [personal] What do you often drink at school?
+4. [personal] Do you drink milk at school?
+   Yes: Please tell me more.
+   No: What do you often drink?
 
 【参考解答】
 ■ この問題で求められること
-パッセージを黙読・音読し、内容2問・イラスト1問・自分のこと1問に答えます。
+パッセージを黙読（20秒）・音読（30秒）し、内容2問・イラスト1問に答えます。No.4 は Yes か No を選び、そのあとの質問に答えます。
 
 ■ 音読のポイント
 ・counts / ten / bottles / office をはっきり読む
@@ -278,7 +298,8 @@ Yuto counts ten milk bottles every morning. He writes the number on a paper near
 1. Ten. / He counts ten milk bottles. / Ten bottles.
 2. On a paper near the office. / Near the office.
 3. The teacher is holding a notebook. / A memo pad.
-4. I drink milk. / I drink water. / I drink tea.
+4. [Yes] I drink milk every morning. / I drink it at lunch.
+4. [No] I drink water. / I drink tea.
 
 ■ 表現のメモ
 No.1 は How many（いくつ）なので数字の ten が答えです。No.2 はどこに書くか、です。先生が紙を見るのは after school なので、書く場所の答えではありません。イラストは進行形（is -ing）で答えると自然です。
@@ -307,10 +328,12 @@ Every morning, Kumi listens to the school radio in her classroom. She hears the 
 2. [passage] What does she hear?
 3. [illustration] What is the girl doing?
 4. [personal] Do you listen to the radio?
+   Yes: Please tell me more.
+   No: What do you do in the morning?
 
 【参考解答】
 ■ この問題で求められること
-約25語を音読し、内容2・イラスト1・自分のこと1に答えます。
+約25語を黙読（20秒）・音読（30秒）し、内容2・イラスト1に答えます。No.4 は Yes か No を選び、そのあとの質問に答えます。
 
 ■ 音読のポイント
 ・Every morning / weather / notebook をはっきり
@@ -320,10 +343,11 @@ Every morning, Kumi listens to the school radio in her classroom. She hears the 
 1. Every morning. / In the morning.
 2. The weather and a short song. / She hears the weather.
 3. She is turning on the radio. / Turning on the radio.
-4. Yes, I do. / No, I don't.
+4. [Yes] I listen every morning. / I like the songs.
+4. [No] I eat breakfast. / I read a book.
 
 ■ 表現のメモ
-No.1 は when（いつ）、No.2 は what（何を聞くか）です。ノートを開くのはそのあとなので、聞く内容の答えではありません。No.4 は Yes / No で短く答えてOKです。
+No.1 は when（いつ）、No.2 は what（何を聞くか）です。ノートを開くのはそのあとなので、聞く内容の答えではありません。No.4 で Yes ならいつ聞くかを足し、No なら朝することを言います。
 
 【ポイント8】
 種別: 会話
@@ -348,11 +372,13 @@ Ren joined the origami club last month. The club meets in the art room on Tuesda
 1. [passage] Which club did Ren join?
 2. [passage] When does the club meet?
 3. [illustration] What is the boy doing?
-4. [personal] What do you like to make?
+4. [personal] Do you like making things?
+   Yes: Please tell me more.
+   No: What do you like to do at home?
 
 【参考解答】
 ■ この問題で求められること
-パッセージを黙読・音読し、内容2問・イラスト1問・自分のこと1問に答えます。
+パッセージを黙読（20秒）・音読（30秒）し、内容2問・イラスト1問に答えます。No.4 は Yes か No を選び、そのあとの質問に答えます。
 
 ■ 音読のポイント
 ・joined / origami / Tuesdays をはっきり読む
@@ -362,10 +388,11 @@ Ren joined the origami club last month. The club meets in the art room on Tuesda
 1. He joined the origami club. / The origami club.
 2. On Tuesdays. / It meets on Tuesdays.
 3. He is folding a paper crane. / Folding paper.
-4. I like to make cards. / I like to make models. / I like to make cookies.
+4. [Yes] I like to make cards. / I fold paper.
+4. [No] I watch TV. / I read comics.
 
 ■ 表現のメモ
-No.1 はどのクラブ、No.2 はいつ（on Tuesdays）です。in the art room は場所なので、When の答えではありません。No.4 は本文と同じ折り紙でなくても大丈夫です。
+No.1 はどのクラブ、No.2 はいつ（on Tuesdays）です。in the art room は場所なので、When の答えではありません。No.4 で Yes なら作るものを言います。本文と同じ折り紙でなくても大丈夫です。No なら家ですることを言います。
 
 【ポイント9】
 種別: 会話
@@ -391,10 +418,12 @@ Mei takes a ferry to her grandmother's town in summer. She stands on the deck an
 2. [passage] How long does the ride take?
 3. [illustration] What is the man doing?
 4. [personal] Do you like riding boats?
+   Yes: Please tell me more.
+   No: How do you like to travel?
 
 【参考解答】
 ■ この問題で求められること
-約25語を音読し、内容2・イラスト1・自分のこと1に答えます。
+約25語を黙読（20秒）・音読（30秒）し、内容2・イラスト1に答えます。No.4 は Yes か No を選び、そのあとの質問に答えます。
 
 ■ 音読のポイント
 ・ferry / grandmother / thirty minutes をはっきり
@@ -404,7 +433,8 @@ Mei takes a ferry to her grandmother's town in summer. She stands on the deck an
 1. To her grandmother's town. / She goes to her grandmother's town.
 2. It takes thirty minutes. / Thirty minutes.
 3. He is looking at a map. / Looking at a map.
-4. Yes, I do. / No, I don't.
+4. [Yes] I like ferries. / I watch the sea.
+4. [No] I like trains. / I like buses.
 
 ■ 表現のメモ
 No.1 は行き先、No.2 は How long（どのくらいの時間）です。summer は季節なので、時間の答えではありません。イラストのお父さんは本文になくても、絵に見えることを言います。

@@ -60,7 +60,11 @@ Hana is 10 years old. She rides to the park every Saturday. She takes a small lu
 2. [passage] Who does she meet there?
 3. [illustration] What is the girl under the tree eating?
 4. [personal] Do you like going to the park?
+   Yes: Please tell me more.
+   No: What do you like to do on Saturday?
 ```
+
+No.4 は Do you で始め、最初は Yes / No のクリック、そのあと追質問に声で答える。参考解答は `4. [Yes]` と `4. [No]` に分ける。音読の目安は30秒。
 
 ## 3級
 
@@ -132,7 +136,7 @@ Do you / Have you ever / Can you のあとに、参考解答・ポイントへ�
 - 公式面接の設問文・パッセージを転用しない（型・フレーズの一般形は可）
 - 5級パッセージはおおよそ 15〜25 語、4級はおおよそ 20〜30 語、3級はおおよそ 25〜40 語
 - **5級は内容2＋自分1。イラスト欄は作らない**
-- **4級は内容2＋イラスト1＋自分1**（質問に `[passage]` / `[illustration]` / `[personal]`）
+- **4級は内容2＋イラスト1＋自分1**（質問に `[passage]` / `[illustration]` / `[personal]`）。No.4 は `Yes:` / `No:` の追質問を書く
 - **3級は内容1＋イラスト2＋自分2**（イラスト型バラし・passage/picture フレーズ・Yes/No分岐は上記）
 - 現行公開セットは各級 **5問**。追記しても配分は変えない
 - 既存問題の文言差し替えで進捗を残すときは `register_speaking_questions --in-place`

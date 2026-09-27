@@ -351,29 +351,29 @@ Where の行に「By the science room door」とあります。
 
 
 問題4b:
-How many days a week is the Seed Share Table open?
+What should you not do?
 
 選択肢4b:
-1. One day.
-2. Two days.
-3. Three days.
-4. Five days.
+1. Take flower seeds.
+2. Leave seeds from your garden.
+3. Write your name on a small card.
+4. Run in the hallway.
 
 【正解4b】
-4. Five days.
+4. Run in the hallway.
 
 【解説4b】
-正解は「Five days.」です。
-When の行に「Monday to Friday」とあります。月曜から金曜までなので、週に5日です。
-1「One day.（1日）」も、2「Two days.（2日）」も、3「Three days.（3日）」も短すぎます。12:20–12:40 は1日あたりの時間で、曜日の数ではありません。
-ヒント：How many days は When: の曜日の幅（Monday to Friday）を数えます。
+正解は「Run in the hallway.」です。
+本文に「Please do not run in the hallway」とあります。してはいけないのは廊下を走ることです。
+1「Take flower seeds.（花の種を取る）」も、2「Leave seeds from your garden.（庭の種を置く）」も、3「Write your name on a small card.（小さなカードに名前を書く）」も、してよいことです。
+ヒント：Please do not のあとが、してはいけないことです。
 
 【ポイント4b】
 種別: 読解
-見出し: How many days は When: の曜日の幅
-・When: の曜日の範囲（〜 to 〜）から日数を数える
-・1日の時刻の幅（開始〜終了）と曜日の数を混ぜない
-・Where: や人の名前は日数の答えにしない
+見出し: do not の直後が禁止
+・Please do not のあとがしてはいけないこと
+・take / leave / write はしてよいこと
+・When: や Where: は禁止の答えにしない
 ---
 
 本文5

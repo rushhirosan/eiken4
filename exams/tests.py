@@ -654,6 +654,104 @@ class Level5ExamListTests(TestCase):
         self.assertEqual(len(response.context['questions']), 1)
         self.assertNotContains(response, '表示できるスピーキング問題がありません')
         self.assertNotContains(response, 'この級のスピーキング問題はまだ登録されていません')
+        self.assertNotContains(response, '残り時間が0になるまで次へは進めません')
+
+    def test_parse_level4_speaking_yes_no_and_aloud_seconds(self):
+        from questions.management.commands.register_speaking_questions import (
+            _parse_speaking_block,
+        )
+
+        block = """
+問題1:
+【Title】
+Park Picnic
+
+【Passage】
+Hana rides to the park every Saturday.
+
+【Illustration】
+公園。女の子がおにぎりを食べている。
+
+【Questions】
+1. [passage] When does Hana go to the park?
+2. [passage] What color is Hana's bike?
+3. [illustration] What is the girl eating?
+4. [personal] Do you like going to the park?
+   Yes: Please tell me more.
+   No: What do you like to do on Saturday?
+
+【参考解答】
+1. Every Saturday.
+2. It is blue.
+3. She is eating a rice ball.
+4. [Yes] I go every Saturday. / I play with my friend.
+4. [No] I read books at home.
+"""
+        parsed = _parse_speaking_block(block, 1, '4')
+        self.assertIsNotNone(parsed)
+        data = parsed[2]
+        self.assertEqual(data['aloud_seconds'], 30)
+        self.assertIsNone(data['turn_over_after'])
+        personal = data['questions'][3]
+        self.assertEqual(personal['yes_prompt'], 'Please tell me more.')
+        self.assertEqual(personal['no_prompt'], 'What do you like to do on Saturday?')
+        self.assertEqual(personal['yes_samples'], ['I go every Saturday.', 'I play with my friend.'])
+        self.assertEqual(personal['no_samples'], ['I read books at home.'])
+        self.assertEqual(personal['sample_answers'], [])
+
+        level5 = _parse_speaking_block(block, 1, '5')
+        self.assertIsNone(level5[2]['aloud_seconds'])
+
+    def test_level4_speaking_keeps_card_and_yes_no_followup(self):
+        Question.objects.create(
+            provenance=PROVENANCE_ORIGINAL,
+            question_text='Park Picnic\n\nHana rides a blue bike.',
+            question_type='speaking',
+            level='4',
+            question_number=1,
+            explanation='ref',
+            speaking_data={
+                'title': 'Park Picnic',
+                'passage': 'Hana rides a blue bike to the park.',
+                'illustration': '公園。女の子がおにぎりを食べている。',
+                'silent_seconds': 20,
+                'aloud_seconds': 30,
+                'turn_over_after': None,
+                'questions': [
+                    {'number': 1, 'prompt': 'When does Hana go?', 'kind': 'passage'},
+                    {'number': 2, 'prompt': 'What color is the bike?', 'kind': 'passage'},
+                    {'number': 3, 'prompt': 'What is the girl eating?', 'kind': 'illustration'},
+                    {
+                        'number': 4,
+                        'prompt': 'Do you like going to the park?',
+                        'kind': 'personal',
+                        'yes_prompt': 'Please tell me more.',
+                        'no_prompt': 'What do you like to do on Saturday?',
+                        'yes_samples': ['I go every Saturday.'],
+                        'no_samples': ['I read books at home.'],
+                    },
+                ],
+            },
+        )
+        response = self.client.get(
+            reverse('exams:question_list_by_level', kwargs={'level': '4'}),
+            {'type': 'speaking', 'status': 'all', 'num_questions': 'all'},
+        )
+        self.assertEqual(response.status_code, 200)
+        self.assertContains(response, 'data-aloud-seconds="30"')
+        self.assertContains(response, '残り時間が0になるまで次へは進めません')
+        self.assertContains(response, 'No.4は Yes / No のあと、次の質問')
+        html = response.content.decode()
+        step3 = html.split('data-step="q-3"', 1)[1].split('data-step="q-4"', 1)[0]
+        self.assertIn('Hana rides a blue bike to the park.', step3)
+        self.assertIn('おにぎり', step3)
+        step4 = html.split('data-step="q-4"', 1)[1].split('data-step="review"', 1)[0]
+        self.assertNotIn('Hana rides a blue bike to the park.', step4)
+        self.assertIn('Do you like going to the park?', step4)
+        self.assertIn('>Yes<', step4)
+        self.assertIn('>No<', step4)
+        self.assertIn('Please tell me more.', step4)
+        self.assertIn('What do you like to do on Saturday?', step4)
 
     def test_speaking_answer_results_is_light_without_full_reference_dump(self):
         from exams.models import SpeakingUserAnswer

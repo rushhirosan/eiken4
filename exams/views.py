@@ -1501,14 +1501,14 @@ def question_list(request, level=None, exam_id=None):
                 '黙読 → 音読 → 内容2問 → イラスト1問 → 自分のこと1問、の流れで練習します。'
             )
             speaking_prep_steps = [
-                'パッセージを黙読する（約20秒）',
-                '声に出して音読する',
+                'パッセージを黙読する（20秒）',
+                '声に出して音読する（30秒）',
                 '内容についての質問に答える（No.1・No.2）',
                 'イラストについての質問に答える（No.3）',
-                '自分自身についての質問に答える（No.4）',
+                '自分自身についての質問に答える（No.4は Yes / No のあと、次の質問）',
             ]
             speaking_prep_summary = (
-                '流れは同じです（黙読 → 音読 → 内容・イラスト・自分のこと）。'
+                '流れは同じです（黙読20秒 → 音読30秒 → 内容・イラスト。自分のことは Yes / No のあと次の質問）。'
             )
             speaking_badge_label = '任意'
         else:
@@ -1528,6 +1528,7 @@ def question_list(request, level=None, exam_id=None):
             )
             speaking_badge_label = '任意'
 
+        speaking_keep_card = level_str == '4'
         context = {
             'level': level,
             'question_type': question_type,
@@ -1540,6 +1541,7 @@ def question_list(request, level=None, exam_id=None):
             'speaking_prep_steps': speaking_prep_steps,
             'speaking_prep_summary': speaking_prep_summary,
             'speaking_badge_label': speaking_badge_label,
+            'speaking_keep_card': speaking_keep_card,
             'speaking_total_count': speaking_total_count,
         }
         return render(request, 'exams/speaking_practice.html', context)
@@ -1975,6 +1977,9 @@ def submit_answers(request, level):
                     raw = request.POST.get(f'speaking_answer_{question_id}_{n}')
                     if raw is not None:
                         response_json[f'q{n}'] = (raw or '').strip()
+                    choice = request.POST.get(f'speaking_choice_{question_id}_{n}')
+                    if choice in ('yes', 'no'):
+                        response_json[f'q{n}_choice'] = choice
                 SpeakingUserAnswer.objects.create(
                     user=request.user,
                     question_id=question_id,
@@ -2385,11 +2390,28 @@ def answer_results(request, level, question_type):
                 memo = (response_json.get(f'q{num}') or '').strip()
                 if not memo:
                     continue
+                choice = response_json.get(f'q{num}_choice')
+                prompt = q.get('prompt', '')
+                samples = q.get('sample_answers') or []
+                if choice == 'yes' and q.get('yes_samples'):
+                    samples = q.get('yes_samples') or []
+                    if q.get('yes_prompt'):
+                        prompt = f'{prompt} → {q.get("yes_prompt")}'
+                elif choice == 'no' and q.get('no_samples'):
+                    samples = q.get('no_samples') or []
+                    if q.get('no_prompt'):
+                        prompt = f'{prompt} → {q.get("no_prompt")}'
+                elif q.get('yes_samples') or q.get('no_samples'):
+                    samples = []
+                    if q.get('yes_samples'):
+                        samples.append('Yes: ' + ' / '.join(q.get('yes_samples') or []))
+                    if q.get('no_samples'):
+                        samples.append('No: ' + ' / '.join(q.get('no_samples') or []))
                 memo_compare.append({
                     'number': num,
-                    'prompt': q.get('prompt', ''),
+                    'prompt': prompt,
                     'memo': memo,
-                    'sample_answers': q.get('sample_answers') or [],
+                    'sample_answers': samples,
                 })
             answers_with_questions.append({
                 'question': answer.question,
