@@ -10,16 +10,17 @@ Question No.1:
 1. At twelve.
 
 【解説1】
-放送文：What time is lunch?（ひるごはんは何時？）
+放送文：What time is lunch?（昼ごはんは何時ですか）
 
-「何時？」と時刻をたずねているので、1「At twelve.（12時です）」が自然です。
-2「In the kitchen.（だいどころで）」はばしょ、3「It's chicken.（とりにくです）」はメニューで、時刻ではありません。
+「何時？」と時刻を聞いているので、1「At twelve.（12時です）」が合います。
+2「In the kitchen.（台所で）」は場所、3「It's chicken.（鶏肉です）」はメニューで、時刻の答えではありません。
+What time と聞こえたら、At + 時刻 を探します。
 
 【ポイント1】
 種別: 会話
 見出し: What time 〜? には時刻で答える
 ・At twelve. = 12時です
-・だいどころ（ばしょ）やメニューは時刻ではない
+・場所（台所）やメニューは時刻ではない
 
 ---
 
@@ -35,16 +36,17 @@ Question No.2:
 2. It's 80 yen.
 
 【解説2】
-放送文：How much is this notebook?（このノートはいくら？）
+放送文：How much is this notebook?（このノートはいくらですか）
 
-「いくら」とねだんをたずねているので、2「It's 80 yen.（80えんです）」が自然です。
-1「It's on the desk.（つくえのうえ）」はばしょ、3「It's Mira's.（ミラの）」は持ち主で、ねだんではありません。
+「いくら？」と値段を聞いているので、2「It's 80 yen.（80円です）」が合います。
+1「It's on the desk.（机の上）」は場所、3「It's Mira's.（ミラのものです）」は持ち主で、値段ではありません。
+How much と聞こえたら、円などの値段を探します。
 
 【ポイント2】
 種別: 会話
-見出し: How much 〜? にはねだんで答える
-・It's 80 yen. = 80えんです
-・つくえのうえ（ばしょ）や持ち主はねだんではない
+見出し: How much 〜? には値段で答える
+・It's 80 yen. = 80円です
+・場所や持ち主は値段ではない
 
 ---
 
@@ -60,16 +62,17 @@ Question No.3:
 3. Ms. Aoki.
 
 【解説3】
-放送文：What's your teacher's name?（先生のなまえはなに？）
+放送文：What's your teacher's name?（先生の名前は何ですか）
 
-「なまえ」をたずねているので、3「Ms. Aoki.（アオキ先生）」が自然です。
-1「In the morning.（あさに）」はいつ、2「Room 3.（3組のへや）」はばしょで、なまえではありません。
+「名前は？」と聞いているので、3「Ms. Aoki.（アオキ先生）」が合います。
+1「In the morning.（朝に）」はいつ、2「Room 3.（3組の部屋）」は場所で、名前ではありません。
+name と聞こえたら、人の名前を探します。
 
 【ポイント3】
 種別: 会話
-見出し: What's 〜 name? にはなまえで答える
+見出し: What's 〜 name? には名前で答える
 ・Ms. Aoki. = アオキ先生
-・あさ（いつ）やへや（ばしょ）はなまえではない
+・「いつ」や「どこ」は名前ではない
 
 ---
 
@@ -85,16 +88,17 @@ Question No.4:
 1. Yes, he is.
 
 【解説4】
-放送文：Is your father a doctor?（おとうさんはお医者さん？）
+放送文：Is your father a doctor?（お父さんは医者ですか）
 
-「Is 〜?」の質問なので、1「Yes, he is.（うん、そうです）」が自然です。
-2「At the hospital.（びょういん）」はばしょ、3「He's tall.（せがたかい）」はすがたで、はい・いいえの答えではありません。
+Is 〜? は「はい／いいえ」で答える質問です。1「Yes, he is.（はい、そうです）」が合います。
+2「At the hospital.（病院で）」は場所、3「He's tall.（背が高い）」は見た目で、はい／いいえの答えではありません。
+Is your 〜? と聞こえたら、Yes, he is. か No, he isn't. を探します。
 
 【ポイント4】
 種別: 会話
 見出し: Is 〜? には Yes / No で答える
-・Yes, he is. = うん、そうです
-・びょういん（ばしょ）やすがたの説明は Yes/No の答えではない
+・Yes, he is. = はい、そうです
+・場所や見た目の説明は Yes / No ではない
 
 ---
 
@@ -110,16 +114,17 @@ Question No.5:
 2. In my room.
 
 【解説5】
-放送文：Where do you do your homework?（しゅくだいはどこでするの？）
+放送文：Where do you do your homework?（宿題はどこでしますか）
 
-「どこで」とばしょをたずねているので、2「In my room.（じぶんのへやで）」が自然です。
-1「After dinner.（ばんごはんのあと）」はいつ、3「Math and English.（さんすうとえいご）」は教科で、ばしょではありません。
+「どこで？」と場所を聞いているので、2「In my room.（自分の部屋で）」が合います。
+1「After dinner.（夕ごはんのあと）」はいつ、3「Math and English.（算数と英語）」は教科で、場所ではありません。
+Where と聞こえたら、in / at / on + 場所 を探します。
 
 【ポイント5】
 種別: 会話
-見出し: Where 〜? にはばしょで答える
-・In my room. = じぶんのへやで
-・ばんごはんのあと（いつ）や教科はばしょではない
+見出し: Where 〜? には場所で答える
+・In my room. = 自分の部屋で
+・「いつ」や教科の名前は場所ではない
 
 ---
 
@@ -135,16 +140,17 @@ Question No.6:
 3. It's spring.
 
 【解説6】
-放送文：What's your favorite season?（すきなきせつはなに？）
+放送文：What's your favorite season?（好きな季節は何ですか）
 
-「すきなきせつ」をたずねているので、3「It's spring.（はるです）」が自然です。
-1「In March.（3がつに）」は月、2「It's warm.（あたたかい）」は天気・きもちで、きせつのなまえではありません。
+季節の名前を聞いているので、3「It's spring.（春です）」が合います。
+1「In March.（3月に）」は月、2「It's warm.（暖かい）」は様子で、季節の名前ではありません。
+season と聞こえたら、spring / summer / fall / winter を探します。
 
 【ポイント6】
 種別: 会話
-見出し: What's your favorite season? にはきせつで答える
-・It's spring. = はるです
-・3がつ（月）やあたたかい（ようす）はきせつのなまえではない
+見出し: favorite season には季節の名前で答える
+・It's spring. = 春です
+・月や「暖かい」は季節の名前ではない
 
 ---
 
@@ -160,16 +166,17 @@ Question No.7:
 1. Yes, I can.
 
 【解説7】
-放送文：Can you ride a bike?（じてんしゃにのれる？）
+放送文：Can you ride a bike?（自転車に乗れますか）
 
-「Can you 〜?」の質問なので、1「Yes, I can.（うん、のれるよ）」が自然です。
-2「It's red.（あかい）」は色、3「To the park.（こうえんへ）」はばしょで、できるかに答えていません。
+Can you 〜? は「できる？」という質問です。1「Yes, I can.（はい、できます）」が合います。
+2「It's red.（赤い）」は色、3「To the park.（公園へ）」は行き先で、「できるか」への答えではありません。
+Can you 〜? と聞こえたら、Yes, I can. か No, I can't. を探します。
 
 【ポイント7】
 種別: 会話
 見出し: Can you 〜? には Yes, I can. / No, I can't.
-・Yes, I can. = うん、できるよ
-・色やばしょだけでは「できるか」に答えていない
+・Yes, I can. = はい、できます
+・色や行き先だけでは「できるか」に答えていない
 
 ---
 
@@ -185,16 +192,17 @@ Question No.8:
 2. By bike.
 
 【解説8】
-放送文：How do you go to the pool?（プールにはどうやって行くの？）
+放送文：How do you go to the pool?（プールにはどうやって行きますか）
 
-「どうやって」とのりかたをたずねているので、2「By bike.（じてんしゃで）」が自然です。
-1「At my house.（うちで）」はばしょ、3「With my sister.（いもうとと）」はだれと、でのりかたではありません。
+「どうやって行く？」と行き方を聞いているので、2「By bike.（自転車で）」が合います。
+1「At my house.（家で）」は場所、3「With my sister.（妹と）」はだれと行くかで、行き方ではありません。
+How do you go と聞こえたら、By bike や By bus のような行き方を探します。
 
 【ポイント8】
 種別: 会話
-見出し: How do you go 〜? にはのりかたで答える
-・By bike. = じてんしゃで
-・うち（ばしょ）やだれと行くかはのりかたではない
+見出し: How do you go 〜? には行き方で答える
+・By bike. = 自転車で
+・場所や「だれと」は行き方ではない
 
 ---
 
@@ -210,16 +218,17 @@ Question No.9:
 3. My eraser.
 
 【解説9】
-放送文：What are you looking for?（なにをさがしているの？）
+放送文：What are you looking for?（何を探していますか）
 
-「なにを」とものをたずねているので、3「My eraser.（けしゴム）」が自然です。
-1「Under the desk.（つくえの下）」はばしょ、2「It's new.（あたらしい）」はじょうたいで、さがしているものではありません。
+「何を？」と物を聞いているので、3「My eraser.（消しゴム）」が合います。
+1「Under the desk.（机の下）」は場所、2「It's new.（新しい）」は様子で、探している物ではありません。
+What are you looking for? と聞こえたら、物の名前を探します。
 
 【ポイント9】
 種別: 会話
-見出し: What are you looking for? にはさがしているもので答える
-・My eraser. = けしゴム
-・つくえの下（ばしょ）やあたらしい（ようす）はものではない
+見出し: What are you looking for? には探している物で答える
+・My eraser. = 消しゴム
+・場所や「新しい」は物の名前ではない
 
 ---
 
@@ -235,16 +244,17 @@ Question No.10:
 1. It's fun.
 
 【解説10】
-放送文：How's your new school?（あたらしいがっこうはどう？）
+放送文：How's your new school?（新しい学校はどうですか）
 
-「どう？」とようすをたずねているので、1「It's fun.（たのしいよ）」が自然です。
-2「On Monday.（げつようびに）」は曜日、3「By bus.（バスで）」はのりかたで、ようすではありません。
+「どう？」と様子や気持ちを聞いているので、1「It's fun.（楽しいです）」が合います。
+2「On Monday.（月曜日に）」は曜日、3「By bus.（バスで）」は行き方で、様子ではありません。
+How's 〜? と聞こえたら、楽しい・忙しいなどの気持ちや様子を探します。
 
 【ポイント10】
 種別: 会話
-見出し: How's 〜? にはようす・きもちで答える
-・It's fun. = たのしいよ
-・曜日やのりかたはようすの答えではない
+見出し: How's 〜? には様子や気持ちで答える
+・It's fun. = 楽しいです
+・曜日や行き方は様子の答えではない
 
 ---
 
@@ -260,16 +270,16 @@ Question No.101:
 1. The girl is watering the flowers.
 
 【解説101】
-放送された3つの英文から、イラストの内容に合うものを選びます。
-1「The girl is watering the flowers.（女の子は花にみずをやっている）」が正解です。
-2「The girl is picking the flowers.（女の子は花をつんでいる）」も、3「The girl is drawing the flowers.（女の子は花をえにかいている）」も、イラストと合いません。
-動詞（picking / watering / drawing）の違いがポイントです。
+放送された3つの英文から、イラストに合うものを選びます。
+イラストは、女の子が花に水をやっています。1「The girl is watering the flowers.（女の子は花に水をやっている）」が合います。
+2「The girl is picking the flowers.（女の子は花を摘んでいる）」は摘む、3「The girl is drawing the flowers.（女の子は花を絵にかいている）」は描く、でイラストと違います。
+watering / picking / drawing の動詞を聞き分けます。
 
 【ポイント101】
 種別: リスニング
-見出し: みずをやる / つむ / えにかく を聞き分ける
-・watering the flowers = 花にみずをやる
-・picking（つむ）や drawing（えにかく）は別の動き
+見出し: 水をやる / 摘む / 絵にかく を聞き分ける
+・watering the flowers = 花に水をやる
+・picking（摘む）や drawing（絵にかく）は別の動き
 
 ---
 
@@ -285,16 +295,16 @@ Question No.102:
 2. The books are on the desk.
 
 【解説102】
-放送された3つの英文から、イラストの内容に合うものを選びます。
-2「The books are on the desk.（本はつくえのうえにある）」が正解です。
-1「The books are under the desk.（本はつくえの下にある）」も、3「The books are in the desk.（本はつくえの中にある）」も、イラストと合いません。
-前置詞（under / on / in）の違いがポイントです。
+放送された3つの英文から、イラストに合うものを選びます。
+イラストは、本が机の上にあります。2「The books are on the desk.（本は机の上にある）」が合います。
+1「The books are under the desk.（本は机の下にある）」も、3「The books are in the desk.（本は机の中にある）」も、場所が違います。
+on（上）/ under（下）/ in（中）を聞き分けます。
 
 【ポイント102】
 種別: リスニング
-見出し: うえ / した / なか のばしょことばを聞き分ける
-・on the desk = つくえのうえ
-・under（した）や in（なか）は別のばしょ
+見出し: 上 / 下 / 中 の場所を聞き分ける
+・on the desk = 机の上
+・under（下）や in（中）は別の場所
 
 ---
 
@@ -310,16 +320,16 @@ Question No.103:
 3. The boy is putting on his coat.
 
 【解説103】
-放送された3つの英文から、イラストの内容に合うものを選びます。
-3「The boy is putting on his coat.（男の子はコートをきている）」が正解です。
-1「The boy is taking off his coat.（男の子はコートをぬいでいる）」も、2「The boy is washing his coat.（男の子はコートをあらっている）」も、イラストと合いません。
-動作（putting on / taking off / washing）の違いがポイントです。
+放送された3つの英文から、イラストに合うものを選びます。
+イラストは、男の子がコートを着ています。3「The boy is putting on his coat.（男の子はコートを着ている）」が合います。
+1「The boy is taking off his coat.（男の子はコートを脱いでいる）」も、2「The boy is washing his coat.（男の子はコートを洗っている）」も、動きが違います。
+putting on（着る）/ taking off（脱ぐ）/ washing（洗う）を聞き分けます。
 
 【ポイント103】
 種別: リスニング
-見出し: きる / ぬぐ / あらう を聞き分ける
-・putting on his coat = コートをきている
-・taking off（ぬぐ）や washing（あらう）は別の動き
+見出し: 着る / 脱ぐ / 洗う を聞き分ける
+・putting on his coat = コートを着ている
+・taking off（脱ぐ）や washing（洗う）は別の動き
 
 ---
 
@@ -335,16 +345,16 @@ Question No.104:
 1. The dog is sitting by the door.
 
 【解説104】
-放送された3つの英文から、イラストの内容に合うものを選びます。
-1「The dog is sitting by the door.（いぬはドアのそばにすわっている）」が正解です。
-2「The dog is sleeping by the door.（いぬはドアのそばでねている）」も、3「The dog is running to the door.（いぬはドアへ走っている）」も、イラストと合いません。
-動詞（sleeping / running / sitting）の違いがポイントです。
+放送された3つの英文から、イラストに合うものを選びます。
+イラストは、犬がドアのそばに座っています。1「The dog is sitting by the door.（犬はドアのそばに座っている）」が合います。
+2「The dog is sleeping by the door.（犬はドアのそばで寝ている）」も、3「The dog is running to the door.（犬はドアへ走っている）」も、動きが違います。
+sitting / sleeping / running の動詞を聞き分けます。
 
 【ポイント104】
 種別: リスニング
-見出し: すわる / ねる / 走る を聞き分ける
-・sitting by the door = ドアのそばにすわっている
-・sleeping（ねる）や running（走る）は別の動き
+見出し: 座る / 寝る / 走る を聞き分ける
+・sitting by the door = ドアのそばに座っている
+・sleeping（寝る）や running（走る）は別の動き
 
 ---
 
@@ -360,16 +370,16 @@ Question No.105:
 2. Mom is cutting the bread.
 
 【解説105】
-放送された3つの英文から、イラストの内容に合うものを選びます。
-2「Mom is cutting the bread.（お母さんはパンを切っている）」が正解です。
-1「Mom is buying the bread.（お母さんはパンを買っている）」も、3「Mom is eating the bread.（お母さんはパンを食べている）」も、イラストと合いません。
-動詞（cutting / buying / eating）の違いがポイントです。
+放送された3つの英文から、イラストに合うものを選びます。
+イラストは、お母さんがパンを切っています。2「Mom is cutting the bread.（お母さんはパンを切っている）」が合います。
+1「Mom is buying the bread.（お母さんはパンを買っている）」も、3「Mom is eating the bread.（お母さんはパンを食べている）」も、動きが違います。
+cutting / buying / eating の動詞を聞き分けます。
 
 【ポイント105】
 種別: リスニング
-見出し: パンをきる / かう / たべる を聞き分ける
+見出し: 切る / 買う / 食べる を聞き分ける
 ・cutting the bread = パンを切っている
-・buying（かう）や eating（たべる）は別の動き
+・buying（買う）や eating（食べる）は別の動き
 
 ---
 
@@ -385,16 +395,17 @@ Question No.11:
 2. She's eight.
 
 【解説11】
-放送文：How old is your sister?（おねえちゃんは何さい？）
+放送文：How old is your sister?（お姉さんは何歳ですか）
 
-「How old（何さい）」と年をたずねているので、2「She's eight.（8さいです）」が自然です。
-1「In my room.（へや）」はばしょ、3「At school.（がっこう）」もばしょで、年ではありません。
+「何歳？」と年齢を聞いているので、2「She's eight.（8歳です）」が合います。
+1「In my room.（部屋で）」も、3「At school.（学校で）」も場所で、年齢ではありません。
+How old と聞こえたら、数字で年齢を答える文を探します。
 
 【ポイント11】
 種別: 会話
-見出し: How old 〜? にはとしで答える
-・She's eight. = 8さいです
-・へややがっこう（ばしょ）はとしではない
+見出し: How old 〜? には年齢で答える
+・She's eight. = 8歳です
+・部屋や学校は年齢ではない
 
 ---
 
@@ -410,16 +421,17 @@ Question No.12:
 3. Juice, please.
 
 【解説12】
-放送文：Do you want tea or juice?（おちゃとジュース、どっちがいい？）
+放送文：Do you want tea or juice?（お茶とジュース、どちらがいいですか）
 
-「どっちがいい？」と選ばせているので、3「Juice, please.（ジュースお願い）」が自然です。
-1「On the table.（テーブルのうえ）」はばしょ、2「It's cold today.（きょうはさむい）」は天気で、選びの答えではありません。
+二つから選ぶ質問なので、3「Juice, please.（ジュースをお願いします）」が合います。
+1「On the table.（テーブルの上）」は場所、2「It's cold today.（今日は寒い）」は天気で、選んだ答えではありません。
+A or B? と聞こえたら、どちらか一方を選んだ返事を探します。
 
 【ポイント12】
 種別: 会話
 見出し: A or B? にはどちらかを選んで答える
-・Juice, please. = ジュースお願い
-・テーブルのうえ（ばしょ）や天気は選びの答えではない
+・Juice, please. = ジュースをお願いします
+・場所や天気は選びの答えではない
 
 ---
 
@@ -435,16 +447,17 @@ Question No.13:
 1. Baseball.
 
 【解説13】
-放送文：What sport do you like?（どんなスポーツが好き？）
+放送文：What sport do you like?（どのスポーツが好きですか）
 
-「What sport（どんなスポーツ）」とスポーツをたずねているので、1「Baseball.（やきゅう）」が自然です。
-2「At four.（4時に）」は時刻、3「My brother.（おにいちゃん）」は人で、スポーツではありません。
+スポーツの名前を聞いているので、1「Baseball.（野球）」が合います。
+2「At four.（4時に）」は時刻、3「My brother.（兄）」は人で、スポーツではありません。
+What sport と聞こえたら、野球やサッカーなどの名前を探します。
 
 【ポイント13】
 種別: 会話
-見出し: What sport 〜? にはスポーツのなまえで答える
-・Baseball. = やきゅう
-・時刻や人のなまえはスポーツではない
+見出し: What sport 〜? にはスポーツの名前で答える
+・Baseball. = 野球
+・時刻や人の名前はスポーツではない
 
 ---
 
@@ -460,16 +473,17 @@ Question No.14:
 2. Sure.
 
 【解説14】
-放送文：Can you help me carry this box?（このはこを運ぶの、手伝ってくれる？）
+放送文：Can you help me carry this box?（この箱を運ぶのを手伝ってくれますか）
 
-「手伝ってくれる？」とたのんでいるので、2「Sure.（もちろん）」が自然です。
-1「It's heavy.（おもい）」ははこの説明、3「In the box.（はこのなか）」はばしょで、手伝うかどうかの返事ではありません。
+手伝いを頼んでいるので、2「Sure.（もちろん）」が合います。
+1「It's heavy.（重い）」は箱の説明、3「In the box.（箱の中）」は場所で、手伝うかどうかの返事ではありません。
+Can you help me 〜? と聞こえたら、Sure. や Yes. のような返事を探します。
 
 【ポイント14】
 種別: 会話
 見出し: Can you help 〜? には手伝う返事
 ・Sure. = もちろん
-・おもい（せつめい）やはこのなか（ばしょ）は手伝う返事ではない
+・「重い」や「箱の中」は手伝う返事ではない
 
 ---
 
@@ -485,16 +499,17 @@ Question No.15:
 3. At seven.
 
 【解説15】
-放送文：When does the movie start?（えいがは何時に始まる？）
+放送文：When does the movie start?（映画は何時に始まりますか）
 
-「When（いつ）」と時刻をたずねているので、3「At seven.（7時に）」が自然です。
-1「At the cinema.（えいがかん）」はばしょ、2「It's fun.（たのしい）」は感想で、時刻ではありません。
+「いつ？」と時刻を聞いているので、3「At seven.（7時に）」が合います。
+1「At the cinema.（映画館で）」は場所、2「It's fun.（楽しい）」は感想で、時刻ではありません。
+When と聞こえたら、At + 時刻 を探します。Where（どこ）と聞き分けます。
 
 【ポイント15】
 種別: 会話
-見出し: When 〜? には時刻・いつで答える
+見出し: When 〜? には時刻で答える
 ・At seven. = 7時に
-・えいがかん（ばしょ）やたのしい（かんそう）は時刻ではない
+・映画館（場所）や感想は時刻ではない
 
 ---
 
@@ -510,16 +525,16 @@ Question No.106:
 3. The girl is brushing her teeth.
 
 【解説106】
-放送された3つの英文から、イラストの内容に合うものを選びます。
-3「The girl is brushing her teeth.（女の子は歯をみがいている）」が正解です。
-1「The girl is washing her face.（女の子は顔を洗っている）」も、2「The girl is eating candy.（女の子はキャンディを食べている）」も、イラストと合いません。
-動詞（brushing / washing / eating）の違いがポイントです。
+放送された3つの英文から、イラストに合うものを選びます。
+イラストは、女の子が歯を磨いています。3「The girl is brushing her teeth.（女の子は歯を磨いている）」が合います。
+1「The girl is washing her face.（女の子は顔を洗っている）」も、2「The girl is eating candy.（女の子はキャンディを食べている）」も、動きが違います。
+brushing / washing / eating の動詞を聞き分けます。
 
 【ポイント106】
 種別: リスニング
-見出し: 歯をみがく / 顔をあらう / たべる を聞き分ける
-・brushing her teeth = 歯をみがいている
-・washing her face（顔をあらう）や eating（たべる）は別の動き
+見出し: 歯を磨く / 顔を洗う / 食べる を聞き分ける
+・brushing her teeth = 歯を磨いている
+・washing her face（顔を洗う）や eating（食べる）は別の動き
 
 ---
 
@@ -535,16 +550,16 @@ Question No.107:
 1. The children are building a snowman.
 
 【解説107】
-放送された3つの英文から、イラストの内容に合うものを選びます。
-1「The children are building a snowman.（子どもたちは雪だるまを作っている）」が正解です。
-2「The children are throwing snowballs.（子どもたちは雪玉を投げている）」も、3「The children are skiing.（子どもたちはスキーをしている）」も、イラストと合いません。
-動詞（building / throwing / skiing）の違いがポイントです。
+放送された3つの英文から、イラストに合うものを選びます。
+イラストは、子どもたちが雪だるまを作っています。1「The children are building a snowman.（子どもたちは雪だるまを作っている）」が合います。
+2「The children are throwing snowballs.（子どもたちは雪玉を投げている）」も、3「The children are skiing.（子どもたちはスキーをしている）」も、動きが違います。
+building / throwing / skiing の動詞を聞き分けます。
 
 【ポイント107】
 種別: リスニング
-見出し: 雪だるまをつくる / なげる / スキー を聞き分ける
-・building a snowman = 雪だるまをつくっている
-・throwing snowballs（雪玉をなげる）や skiing は別の動き
+見出し: 雪だるまを作る / 投げる / スキー を聞き分ける
+・building a snowman = 雪だるまを作っている
+・throwing snowballs（雪玉を投げる）や skiing は別の動き
 
 ---
 
@@ -560,16 +575,16 @@ Question No.108:
 2. The man is fixing the bike.
 
 【解説108】
-放送された3つの英文から、イラストの内容に合うものを選びます。
-2「The man is fixing the bike.（男性は自転車を直している）」が正解です。
-1「The man is riding the bike.（男性は自転車に乗っている）」も、3「The man is selling the bike.（男性は自転車を売っている）」も、イラストと合いません。
-動詞（fixing / riding / selling）の違いがポイントです。
+放送された3つの英文から、イラストに合うものを選びます。
+イラストは、男性が自転車を直しています。2「The man is fixing the bike.（男性は自転車を直している）」が合います。
+1「The man is riding the bike.（男性は自転車に乗っている）」も、3「The man is selling the bike.（男性は自転車を売っている）」も、動きが違います。
+fixing / riding / selling の動詞を聞き分けます。
 
 【ポイント108】
 種別: リスニング
-見出し: なおす / のる / うる を聞き分ける
-・fixing the bike = じてんしゃをなおしている
-・riding（のる）や selling（うる）は別の動き
+見出し: 直す / 乗る / 売る を聞き分ける
+・fixing the bike = 自転車を直している
+・riding（乗る）や selling（売る）は別の動き
 
 ---
 
@@ -585,16 +600,16 @@ Question No.109:
 3. The shoes are by the door.
 
 【解説109】
-放送された3つの英文から、イラストの内容に合うものを選びます。
-3「The shoes are by the door.（くつはドアのそばにある）」が正解です。
-1「The shoes are on the table.（くつはテーブルのうえにある）」も、2「The shoes are in the river.（くつは川のなかにある）」も、イラストと合いません。
-前置詞（by / on / in）と場所のちがいがポイントです。
+放送された3つの英文から、イラストに合うものを選びます。
+イラストは、靴がドアのそばにあります。3「The shoes are by the door.（靴はドアのそばにある）」が合います。
+1「The shoes are on the table.（靴はテーブルの上にある）」も、2「The shoes are in the river.（靴は川の中にある）」も、場所が違います。
+by（そば）/ on（上）/ in（中）を聞き分けます。
 
 【ポイント109】
 種別: リスニング
-見出し: そば / うえ / なか のばしょことばを聞き分ける
+見出し: そば / 上 / 中 の場所を聞き分ける
 ・by the door = ドアのそば
-・on the table（うえ）や in the river（なか）は別のばしょ
+・on the table（上）や in the river（中）は別の場所
 
 ---
 
@@ -610,16 +625,16 @@ Question No.110:
 1. The woman is reading a magazine.
 
 【解説110】
-放送された3つの英文から、イラストの内容に合うものを選びます。
-1「The woman is reading a magazine.（女性は雑誌を読んでいる）」が正解です。
-2「The woman is writing a letter.（女性は手紙を書いている）」も、3「The woman is folding clothes.（女性は服をたたんでいる）」も、イラストと合いません。
-動詞（reading / writing / folding）の違いがポイントです。
+放送された3つの英文から、イラストに合うものを選びます。
+イラストは、女性が雑誌を読んでいます。1「The woman is reading a magazine.（女性は雑誌を読んでいる）」が合います。
+2「The woman is writing a letter.（女性は手紙を書いている）」も、3「The woman is folding clothes.（女性は服をたたんでいる）」も、動きが違います。
+reading / writing / folding の動詞を聞き分けます。
 
 【ポイント110】
 種別: リスニング
-見出し: よむ / かく / たたむ を聞き分ける
-・reading a magazine = ざっしをよんでいる
-・writing（かく）や folding（たたむ）は別の動き
+見出し: 読む / 書く / たたむ を聞き分ける
+・reading a magazine = 雑誌を読んでいる
+・writing（書く）や folding（たたむ）は別の動き
 ---
 
 No.16:
@@ -634,16 +649,17 @@ Question No.16:
 1. Sounds good!
 
 【解説16】
-放送文：Let's draw pictures together.（いっしょに絵をかこう。）
+放送文：Let's draw pictures together.（一緒に絵を描きましょう）
 
-「Let's 〜」の誘いに賛成する返事なので、1「Sounds good!（いいね！）」が自然です。
-2「It's 50 yen.（50えん）」はねだん、3「In the desk.（つくえの中）」はばしょで、誘いへの返事ではありません。
+Let's 〜 は誘いです。賛成する返事なので、1「Sounds good!（いいですね）」が合います。
+2「It's 50 yen.（50円です）」は値段、3「In the desk.（机の中）」は場所で、誘いへの返事ではありません。
+Let's 〜 と聞こえたら、Sounds good. や OK. を探します。
 
 【ポイント16】
 種別: 会話
-見出し: Let's 〜 には Sounds good / OK
+見出し: Let's 〜 には Sounds good. / OK.
 ・Let's 〜. → Sounds good!
-・ねだんやばしょは誘いへの返事ではない
+・値段や場所は誘いへの返事ではない
 
 ---
 
@@ -659,16 +675,17 @@ Question No.17:
 2. Thank you!
 
 【解説17】
-放送文：Your new bag looks great!（あたらしいかばん、すてきだね！）
+放送文：Your new bag looks great!（新しいかばん、すてきですね）
 
-ほめられているので、2「Thank you!（ありがとう）」が自然です。
-1「On Tuesday.（かようびに）」はいつ、3「I'm eight.（8さい）」はとしで、ほめへの返事ではありません。
+ほめ言葉への返事は感謝です。2「Thank you!（ありがとう）」が合います。
+1「On Tuesday.（火曜日に）」は曜日、3「I'm eight.（8歳です）」は年齢で、ほめへの返事ではありません。
+looks great とほめられたら、Thank you. を探します。
 
 【ポイント17】
 種別: 会話
-見出し: ほめられたら Thank you
+見出し: ほめられたら Thank you.
 ・Your 〜 looks great! → Thank you!
-・曜日やとしはほめへの返事ではない
+・曜日や年齢はほめへの返事ではない
 
 ---
 
@@ -684,17 +701,17 @@ Question No.18:
 3. Me, too.
 
 【解説18】
-放送文：I like bananas.（バナナがすき。）
+放送文：I like bananas.（バナナが好きです）
 
-相手のすきに合わせて同意する場面です。3「Me, too.（わたしも）」が自然です。I do, too. も同じ仲間です。
-1「At noon.（正午に）」はとき、2「It's heavy.（おもい）」はようすで、「わたしもすき」という同意ではありません。
-I like 〜. と来たら、Me, too. / I do, too. を探すとよいです。
+相手と同じ気持ちを伝える返事です。3「Me, too.（私も）」が合います。I do, too. も同じ使い方です。
+1「At noon.（正午に）」は時刻、2「It's heavy.（重い）」は様子で、同意ではありません。
+I like 〜. と聞こえたら、Me, too. を探します。
 
 【ポイント18】
 種別: 会話
-見出し: I like 〜 には Me, too
+見出し: I like 〜. には Me, too.
 ・I like 〜. → Me, too.
-・ときやようすは同意の返事ではない
+・時刻や様子は同意の返事ではない
 
 ---
 
@@ -710,16 +727,17 @@ Question No.19:
 1. They're Sora's.
 
 【解説19】
-放送文：Whose crayons are on the table?（テーブルのうえのくれよんはだれの？）
+放送文：Whose crayons are on the table?（テーブルの上のクレヨンはだれのですか）
 
-持ち主を聞いているので、1「They're Sora's.（ソラの）」が自然です。
-2「In the fridge.（れいぞうこの中）」はばしょ、3「It's cloudy.（くもり）」は天気で、持ち主ではありません。
+「だれの？」と持ち主を聞いているので、1「They're Sora's.（ソラのものです）」が合います。
+2「In the fridge.（冷蔵庫の中）」は場所、3「It's cloudy.（曇りです）」は天気で、持ち主ではありません。
+Whose と聞こえたら、人の名前 + 's を探します。
 
 【ポイント19】
 種別: 会話
-見出し: Whose 〜? にはだれのかで答える
-・Whose crayons are 〜? → They're Sora's.
-・ばしょや天気は持ち主の答えではない
+見出し: Whose 〜? には「だれの」で答える
+・They're Sora's. = ソラのものです
+・場所や天気は持ち主の答えではない
 
 ---
 
@@ -735,14 +753,14 @@ Question No.20:
 2. It's May 5.
 
 【解説20】
-放送文：What's the date today?（今日は何日？）
+放送文：What's the date today?（今日は何日ですか）
 
-日付（何月何日）を聞いているので、2「It's May 5.（5月5日）」が自然です。What time（何時）ではなく date（日付）なのがポイントです。
-1「By car.（車で）」はのりかた、3「I like math.（算数がすき）」は好き嫌いで、日付の答えではありません。
-What's the date? と来たら、月と日のことばを探しましょう。
+日付（何月何日）を聞いているので、2「It's May 5.（5月5日です）」が合います。What time（何時）ではなく date（日付）です。
+1「By car.（車で）」は行き方、3「I like math.（算数が好き）」は好きな教科で、日付ではありません。
+What's the date? と聞こえたら、月と日を探します。
 
 【ポイント20】
 種別: 会話
 見出し: What's the date? には月日で答える
-・What's the date today? → It's May 5.
-・のりかたやすきな教科は日付ではない
+・It's May 5. = 5月5日です
+・行き方や好きな教科は日付ではない

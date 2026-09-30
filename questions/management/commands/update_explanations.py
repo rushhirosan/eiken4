@@ -9,6 +9,8 @@ from questions.level_paths import add_default_register_arguments
 class Command(BaseCommand):
     help = (
         'data/questions の【解説】（ライティングは【参考解答】）だけを既存DBへ反映する。'
+        '語順は問題文（question_text）も同じ行へ書き戻す。'
+        'リスニング会話は会話文と質問文も同じ行へ書き戻す。'
         'リスニング第1部は【正解】番号と ListeningChoice.is_correct も同期する。'
         '問題行は削除しないので回答・進捗を保持する。'
         '--original で data/questions/original/ を読み、provenance=original のみ更新。'

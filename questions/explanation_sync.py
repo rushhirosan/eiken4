@@ -144,6 +144,12 @@ def extract_mondai_explanation(block: str) -> tuple[int | None, str]:
     return number, explanation
 
 
+def extract_mondai_question_text(block: str) -> str:
+    """問題N: から選択肢N: の手前まで（日本語文と英語の枠）。"""
+    match = re.search(r'問題\d+:\s*(.*?)\n選択肢\d+:', block, re.DOTALL)
+    return match.group(1).strip() if match else ''
+
+
 def _strip_writing_noise_lines(text: str) -> str:
     out: list[str] = []
     for line in text.splitlines():
@@ -189,6 +195,7 @@ def _update_exam_by_question_number(
     original: bool = False,
     number_min: int = 1,
     number_max: int = 999,
+    sync_question_text: bool = False,
 ) -> int:
     content = _read_file(level, filename, original=original)
     updated = 0
@@ -216,6 +223,12 @@ def _update_exam_by_question_number(
             # original txt が正本。レガシー txt にポイントが無いときは既存を消さない
             if study_points is not None or original:
                 fields['study_points'] = study_points
+            if sync_question_text:
+                question_text = extract_mondai_question_text(block)
+                if not question_text:
+                    warn(f'{question_type} 問題{number}: 問題文なし（question_text は未更新）')
+                else:
+                    fields['question_text'] = question_text
             qs.update(**fields)
         updated += count
         log(f'{question_type} 問題{number}: {count} row(s)')
@@ -258,6 +271,7 @@ def update_word_order(level: str, dry_run: bool, log, warn, *, original: bool = 
         log=log,
         warn=warn,
         original=original,
+        sync_question_text=True,
     )
 
 
@@ -414,6 +428,15 @@ def update_listening_illustration(level: str, dry_run: bool, log, warn, *, origi
     return updated
 
 
+def extract_listening_conversation_script(block: str) -> tuple[str, str]:
+    """会話本文と質問文。選択肢の英文は含めない。"""
+    conv_match = re.search(r'No\.\d+:\n(.*?)\n\nQuestion', block, re.DOTALL)
+    question_match = re.search(r'Question No\.\d+:\s*(.*?)\n', block)
+    conversation = conv_match.group(1).strip() if conv_match else ''
+    question_text = question_match.group(1).strip() if question_match else ''
+    return conversation, question_text
+
+
 def update_listening_conversation(level: str, dry_run: bool, log, warn, *, original: bool = False) -> int:
     content = _read_file(level, 'listening_conversation_questions.txt', original=original)
     updated = 0
@@ -436,6 +459,15 @@ def update_listening_conversation(level: str, dry_run: bool, log, warn, *, origi
             study_points = extract_study_points(block)
             if study_points is not None or original:
                 fields['study_points'] = study_points
+            conversation, question_text = extract_listening_conversation_script(block)
+            if conversation:
+                fields['listening_text'] = conversation
+            else:
+                warn(f'listening_conversation No.{number}: 会話文なし（listening_text は未更新）')
+            if question_text:
+                fields['question_text'] = question_text
+            else:
+                warn(f'listening_conversation No.{number}: 質問文なし（question_text は未更新）')
             qs.update(**fields)
         updated += count
         log(f'listening_conversation No.{number}: {count} row(s)')

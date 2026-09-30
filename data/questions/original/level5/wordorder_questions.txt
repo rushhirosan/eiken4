@@ -683,7 +683,7 @@ Can Tom ride a horse?
 ---
 
 問題26:
-お母さんは先生ですか。
+彼女のお母さんは先生ですか。
 ① her ② Is ③ a ④ mother
 [1番目] ( ) [3番目] ( ) teacher?
 
@@ -698,13 +698,13 @@ Can Tom ride a horse?
 
 【解説26】
 Is her mother a teacher?
-1番目は Is、3番目は mother です。全文は「お母さんは先生ですか」という意味です。
-「Is + her + mother + a + teacher」のじゅんばんです。
+1番目は Is、3番目は mother です。全文は「彼女のお母さんは先生ですか」という意味です。
+「Is + her + mother + a + teacher」のじゅんばんです。her は「彼女の」です。
 
 【ポイント26】
 種別: 文法
-見出し: Is her 〜? = 〜ですか（be動詞の疑問）
-・Is her mother a teacher? = お母さんは先生ですか
+見出し: Is her 〜? = 彼女の〜ですか（be動詞の疑問）
+・Is her mother a teacher? = 彼女のお母さんは先生ですか
 ・1番目は Is、そのつぎは her + 人
 
 ---

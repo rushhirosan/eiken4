@@ -197,3 +197,97 @@ class UpdateExplanationsCommandTest(TestCase):
             1,
         )
         self.assertEqual(Question.objects.filter(pk=original.pk).count(), 1)
+
+    def test_word_order_syncs_question_text_without_deleting_answers(self):
+        question = Question.objects.create(
+            provenance=PROVENANCE_ORIGINAL,
+            level='5',
+            question_type='word_order',
+            question_text='お母さんは先生ですか。\n① her ② Is ③ a ④ mother',
+            question_number=26,
+            explanation='古い解説',
+        )
+        Choice.objects.create(
+            question=question, choice_text='② ─ ④', is_correct=True, order=4
+        )
+        UserAnswer.objects.create(
+            user=self.user,
+            question=question,
+            selected_choice=question.choices.first(),
+            is_correct=True,
+        )
+        progress = UserProgress.objects.create(
+            user=self.user,
+            level='5',
+            question_type='word_order',
+            correct_answers=3,
+            total_attempts=5,
+        )
+
+        call_command(
+            'update_explanations',
+            level='5',
+            category='word_order',
+            original=True,
+        )
+        question.refresh_from_db()
+        progress.refresh_from_db()
+
+        self.assertIn('彼女のお母さんは先生ですか', question.question_text)
+        self.assertIn('彼女のお母さんは先生ですか', question.explanation)
+        self.assertEqual(question.choices.count(), 1)
+        self.assertEqual(
+            UserAnswer.objects.filter(user=self.user, question=question).count(),
+            1,
+        )
+        self.assertEqual(progress.correct_answers, 3)
+        self.assertEqual(progress.total_attempts, 5)
+        self.assertEqual(Question.objects.filter(pk=question.pk).count(), 1)
+
+    def test_listening_conversation_syncs_script_without_deleting_answers(self):
+        question = Question.objects.create(
+            provenance=PROVENANCE_ORIGINAL,
+            level='5',
+            question_type='listening_conversation',
+            question_text='old question',
+            listening_text="☆I can't find my math homework.",
+            question_number=8,
+            explanation='古い解説',
+        )
+        Choice.objects.create(
+            question=question, choice_text='In his room.', is_correct=True, order=4
+        )
+        UserAnswer.objects.create(
+            user=self.user,
+            question=question,
+            selected_choice=question.choices.first(),
+            is_correct=True,
+        )
+        progress = UserProgress.objects.create(
+            user=self.user,
+            level='5',
+            question_type='listening_conversation',
+            correct_answers=4,
+            total_attempts=6,
+        )
+
+        call_command(
+            'update_explanations',
+            level='5',
+            category='listening_conversation',
+            original=True,
+        )
+        question.refresh_from_db()
+        progress.refresh_from_db()
+
+        self.assertTrue(question.listening_text.startswith('★I can\'t find my math homework.'))
+        self.assertIn('Where does the boy think his homework is?', question.question_text)
+        self.assertIn('部屋にあると思う', question.explanation)
+        self.assertEqual(question.choices.count(), 1)
+        self.assertEqual(
+            UserAnswer.objects.filter(user=self.user, question=question).count(),
+            1,
+        )
+        self.assertEqual(progress.correct_answers, 4)
+        self.assertEqual(progress.total_attempts, 6)
+        self.assertEqual(Question.objects.filter(pk=question.pk).count(), 1)
