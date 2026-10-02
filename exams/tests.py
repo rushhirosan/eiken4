@@ -649,7 +649,13 @@ class Level5ExamListTests(TestCase):
         self.assertContains(response, '黙読をはじめる')
         self.assertContains(response, 'How old is Sam?')
         self.assertContains(response, '練習の流れ', count=1)
-        self.assertContains(response, '流れは同じです（黙読 → 音読 → 内容・自分のこと）。')
+        self.assertContains(response, '黙読は20秒です。音読は残り時間が0になるまで待ち、そのあとカードの質問、最後に自分のことです。')
+        self.assertContains(response, 'data-aloud-seconds="30"')
+        self.assertContains(response, 'data-auto-advance="1"')
+        self.assertContains(response, '声を出さずに読んでください')
+        self.assertContains(response, '読み終わっても、残り時間があるあいだは待ちます')
+        self.assertContains(response, '音読はここまでです')
+        self.assertContains(response, '最後の質問は、あなた自身のことです')
         self.assertEqual(response.context['speaking_total_count'], 1)
         self.assertEqual(len(response.context['questions']), 1)
         self.assertNotContains(response, '表示できるスピーキング問題がありません')
@@ -700,7 +706,7 @@ Hana rides to the park every Saturday.
         self.assertEqual(personal['sample_answers'], [])
 
         level5 = _parse_speaking_block(block, 1, '5')
-        self.assertIsNone(level5[2]['aloud_seconds'])
+        self.assertEqual(level5[2]['aloud_seconds'], 30)
 
     def test_level4_speaking_keeps_card_and_yes_no_followup(self):
         Question.objects.create(

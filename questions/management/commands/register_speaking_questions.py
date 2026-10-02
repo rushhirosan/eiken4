@@ -117,7 +117,8 @@ def _parse_speaking_block(block: str, qn: int, level: str):
             item['no_samples'] = no_by_num.get(item['number'], [])
 
     turn_over_after = 3 if str(level) == '3' else None
-    aloud_seconds = 30 if str(level) == '4' else None
+    # 4級・5級の音読は残り時間まで待つ（5級の体験画面は30秒表示）
+    aloud_seconds = 30 if str(level) in ('4', '5') else None
     speaking_data = {
         'title': title,
         'passage': passage,

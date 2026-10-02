@@ -1469,6 +1469,9 @@ def question_list(request, level=None, exam_id=None):
                     'user_answer': user_answers.get(f'q{num}', ''),
                 })
             data_for_view = {**data, 'questions': enriched_questions}
+            # 登録済みデータに音読秒が無くても、5級は残り時間つきで出す
+            if str(level) == '5' and not data_for_view.get('aloud_seconds'):
+                data_for_view['aloud_seconds'] = 30
             questions_with_answers.append({
                 'question': question,
                 'speaking_data': data_for_view,
@@ -1515,16 +1518,16 @@ def question_list(request, level=None, exam_id=None):
             speaking_intro = (
                 '面接官と会わず、家のパソコンやスマホで声を録音して出すテストです。'
                 '会場に行かず、好きなときに受けられ、合否には関係ありません（任意）。'
-                '黙読 → 音読 → 内容2問 → 自分のこと1問、の流れで練習します。'
+                'カードを黙読（20秒）→ 音読（残り時間まで待つ）→ カードについての質問2問 → 自分のこと1問、の流れで練習します。'
             )
             speaking_prep_steps = [
-                'パッセージを黙読する（約20秒）',
-                '声に出して音読する',
-                '内容についての質問に答える（No.1・No.2）',
-                '自分自身についての質問に答える（No.3）',
+                'カードの英文を、声を出さずに読む（20秒。青い残り時間）',
+                '声に出して音読する（赤い残り時間。読み終わっても0まで待つ）',
+                'カードについての質問に答える（No.1・No.2）',
+                '自分自身についての質問に答える（No.3。カードは見ない）',
             ]
             speaking_prep_summary = (
-                '流れは同じです（黙読 → 音読 → 内容・自分のこと）。'
+                '黙読は20秒です。音読は残り時間が0になるまで待ち、そのあとカードの質問、最後に自分のことです。'
             )
             speaking_badge_label = '任意'
 

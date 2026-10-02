@@ -81,7 +81,8 @@
              data-question-id="{{ q.id }}"
              data-silent-seconds="{{ data.silent_seconds|default:20 }}"
              data-aloud-seconds="{{ data.aloud_seconds|default:'' }}"
-             data-turn-over-after="{{ data.turn_over_after|default:'' }}">
+             data-turn-over-after="{{ data.turn_over_after|default:'' }}"
+             data-auto-advance="{% if level == '5' %}1{% else %}0{% endif %}">
             <div class="card-header bg-white d-flex justify-content-between align-items-center">
                 <div>
                     <span class="fw-semibold">問題 {{ forloop.counter }}</span>
@@ -111,9 +112,19 @@
                     <div class="speaking-step d-none" data-step="1">
                         <div class="d-flex justify-content-between align-items-center mb-2">
                             <p class="mb-0 fw-semibold">Step 1: 黙読</p>
-                            <span class="badge bg-info speaking-timer">20</span>
+                            <span class="speaking-remain speaking-remain-silent">
+                                <span class="speaking-remain-mark" aria-hidden="true"></span>
+                                <span class="speaking-remain-label">残り時間</span>
+                                <span class="speaking-timer">00:20</span>
+                            </span>
                         </div>
-                        <p class="small text-muted">声は出さず、カードを読んでください。</p>
+                        <p class="small text-muted">
+                            {% if level == '5' %}
+                            声を出さずに読んでください。青い表示が残り時間です。
+                            {% else %}
+                            声は出さず、カードを読んでください。
+                            {% endif %}
+                        </p>
                         <div class="speaking-passage-box mb-3">
                             <div class="speaking-title">{{ data.title }}</div>
                             <div class="speaking-passage">{{ data.passage }}</div>
@@ -131,12 +142,20 @@
                         <div class="d-flex justify-content-between align-items-center mb-2">
                             <p class="mb-0 fw-semibold">Step 2: 音読</p>
                             {% if data.aloud_seconds %}
-                            <span class="badge bg-info speaking-aloud-timer">{{ data.aloud_seconds }}</span>
+                            <span class="speaking-remain speaking-remain-aloud">
+                                <span class="speaking-remain-mark" aria-hidden="true"></span>
+                                <span class="speaking-remain-label">残り時間</span>
+                                <span class="speaking-aloud-timer">00:30</span>
+                            </span>
                             {% endif %}
                         </div>
                         <p class="small text-muted">
                             声に出して、はっきり読んでください。
-                            {% if data.aloud_seconds %}残り時間が0になるまで次へは進めません。{% endif %}
+                            {% if level == '5' and data.aloud_seconds %}
+                            読み終わっても、残り時間があるあいだは待ちます。0になると、自動で次へ進みます。
+                            {% elif data.aloud_seconds %}
+                            読み終わっても、残り時間があるあいだは待ちます。残り時間が0になるまで次へは進めません。
+                            {% endif %}
                         </p>
                         <div class="speaking-passage-box mb-3">
                             <div class="speaking-title">{{ data.title }}</div>
@@ -152,6 +171,24 @@
                     </div>
 
                     {% for sq in data.questions %}
+                    {% if level == '5' and forloop.first and sq.kind == 'passage' %}
+                    <div class="speaking-step d-none" data-step="after-aloud">
+                        <p class="mb-2 fw-semibold">カードについての質問</p>
+                        <p class="small text-muted mb-3">
+                            音読はここまでです。次はカードについての質問です。カードを見ながら、声に出して答えてください。
+                        </p>
+                        <button type="button" class="btn btn-primary speaking-next">質問へ</button>
+                    </div>
+                    {% endif %}
+                    {% if level == '5' and sq.kind == 'personal' %}
+                    <div class="speaking-step d-none" data-step="before-personal">
+                        <p class="mb-2 fw-semibold">自分のこと</p>
+                        <p class="small text-muted mb-3">
+                            最後の質問は、あなた自身のことです。カードは見ずに、短く答えてください。
+                        </p>
+                        <button type="button" class="btn btn-primary speaking-next">質問へ</button>
+                    </div>
+                    {% endif %}
                     {% if data.turn_over_after and sq.number == data.turn_over_after|add:1 %}
                     <div class="speaking-step d-none" data-step="turnover-{{ data.turn_over_after }}">
                         <p class="mb-2 fw-semibold">カードを裏返してください</p>
@@ -318,6 +355,40 @@
 .speaking-yesno .btn {
     min-width: 6.5rem;
 }
+.speaking-remain {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.4rem;
+    border-radius: 999px;
+    padding: 0.28rem 0.7rem 0.28rem 0.45rem;
+    font-variant-numeric: tabular-nums;
+    font-weight: 700;
+    background: #fff;
+    border: 1px solid rgba(26, 31, 54, 0.12);
+}
+.speaking-remain-mark {
+    width: 0.85rem;
+    height: 0.85rem;
+    border-radius: 50%;
+    flex: 0 0 auto;
+}
+.speaking-remain-silent .speaking-remain-mark {
+    background: #0d6efd;
+}
+.speaking-remain-silent .speaking-timer {
+    color: #0d6efd;
+}
+.speaking-remain-aloud .speaking-remain-mark {
+    background: #dc3545;
+}
+.speaking-remain-aloud .speaking-aloud-timer {
+    color: #dc3545;
+}
+.speaking-remain-label {
+    font-size: 0.75rem;
+    font-weight: 600;
+    color: #6c757d;
+}
 </style>
 
 <script>
@@ -344,6 +415,13 @@ function updateSpeakingFilters() {
             .filter(Boolean);
     }
 
+    function formatRemain(seconds) {
+        const safe = Math.max(0, seconds);
+        const mins = Math.floor(safe / 60);
+        const secs = safe % 60;
+        return String(mins).padStart(2, '0') + ':' + String(secs).padStart(2, '0');
+    }
+
     function startCountdown(card, stepKey, timerSelector, attrName) {
         const seconds = parseInt(card.getAttribute(attrName) || '', 10);
         const step = card.querySelector('.speaking-step[data-step="' + stepKey + '"]');
@@ -356,7 +434,7 @@ function updateSpeakingFilters() {
         }
         let remaining = seconds;
         if (nextBtn) nextBtn.disabled = true;
-        timer.textContent = String(remaining);
+        timer.textContent = formatRemain(remaining);
         const timerKey = attrName === 'data-aloud-seconds' ? '_aloudTimer' : '_silentTimer';
         if (card[timerKey]) {
             clearInterval(card[timerKey]);
@@ -365,11 +443,18 @@ function updateSpeakingFilters() {
             remaining -= 1;
             if (remaining <= 0) {
                 clearInterval(card[timerKey]);
-                timer.textContent = '0';
+                timer.textContent = formatRemain(0);
                 if (nextBtn) nextBtn.disabled = false;
+                if (card.getAttribute('data-auto-advance') === '1' && nextBtn) {
+                    setTimeout(function () {
+                        if (!step.classList.contains('d-none')) {
+                            nextBtn.click();
+                        }
+                    }, 600);
+                }
                 return;
             }
-            timer.textContent = String(remaining);
+            timer.textContent = formatRemain(remaining);
         }, 1000);
     }
 
