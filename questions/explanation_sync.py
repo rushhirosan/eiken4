@@ -1,6 +1,7 @@
 """Progress-safe explanation sync from data/questions txt into existing DB rows.
 
-Never deletes Question / ListeningQuestion / ReadingQuestion rows.
+Never deletes Question / ListeningQuestion / ReadingQuestion / Choice rows.
+For conversation_fill, also rewrites Choice.choice_text and is_correct on the same rows.
 For listening_illustration, also syncs correct_answer and ListeningChoice.is_correct.
 """
 
@@ -11,7 +12,7 @@ import re
 from dataclasses import dataclass
 from typing import Callable
 
-from exams.models import Question
+from exams.models import Choice, Question
 from exams.provenance import PROVENANCE_ORIGINAL
 from questions.level_paths import questions_file_abspath
 from questions.models import ListeningQuestion, ReadingPassage, ReadingQuestion
@@ -183,6 +184,43 @@ def _read_file(level: str, filename: str, *, original: bool = False) -> str:
         return f.read()
 
 
+def extract_mondai_choice_rows(block: str) -> tuple[list[str], str] | None:
+    """選択肢の本文（番号なし）と正解本文。読めなければ None。"""
+    choices_match = re.search(r'選択肢\d+:\s*(.*?)\s*【正解\d+】', block, re.DOTALL)
+    correct_match = re.search(r'【正解\d+】\s*(.*?)\s*【解説\d+】', block, re.DOTALL)
+    if not choices_match or not correct_match:
+        return None
+    raw = [
+        line.strip()
+        for line in choices_match.group(1).split('\n')
+        if line.strip() and re.match(r'^[1-4]\.', line.strip())
+    ]
+    choices = [re.sub(r'^\d+\.\s*', '', line) for line in raw]
+    correct = re.sub(r'^\d+\.\s*', '', correct_match.group(1).strip())
+    return choices, correct
+
+
+def _sync_choice_rows(qs, block: str, warn: Callable[[str], None]) -> None:
+    """既存 Choice 行の文言と正誤だけを上書きする。行の削除・追加はしない。"""
+    parsed = extract_mondai_choice_rows(block)
+    if not parsed:
+        warn('選択肢を読めないため choice は未更新')
+        return
+    choices, correct = parsed
+    for question in qs:
+        existing = list(question.choices.order_by('order', 'id'))
+        if len(existing) != len(choices):
+            warn(
+                f'{question.question_type} 問題{question.question_number}: '
+                f'選択肢数が DB {len(existing)} / ファイル {len(choices)} のため choice は未更新'
+            )
+            continue
+        for row, text in zip(existing, choices):
+            row.choice_text = text
+            row.is_correct = text == correct
+            row.save(update_fields=['choice_text', 'is_correct'])
+
+
 def _update_exam_by_question_number(
     *,
     level: str,
@@ -196,6 +234,7 @@ def _update_exam_by_question_number(
     number_min: int = 1,
     number_max: int = 999,
     sync_question_text: bool = False,
+    sync_choices: bool = False,
 ) -> int:
     content = _read_file(level, filename, original=original)
     updated = 0
@@ -230,6 +269,8 @@ def _update_exam_by_question_number(
                 else:
                     fields['question_text'] = question_text
             qs.update(**fields)
+            if sync_choices:
+                _sync_choice_rows(qs, block, warn)
         updated += count
         log(f'{question_type} 問題{number}: {count} row(s)')
     return updated
@@ -258,6 +299,7 @@ def update_conversation_fill(level: str, dry_run: bool, log, warn, *, original: 
         log=log,
         warn=warn,
         original=original,
+        sync_choices=True,
     )
 
 

@@ -2,18 +2,18 @@ No.1:
 ★What time is lunch?
 
 Question No.1:
-1. At twelve.
-2. In the kitchen.
-3. It's chicken.
+1. It's chicken.
+2. At twelve.
+3. In the kitchen.
 
 【正解1】
-1. At twelve.
+2. At twelve.
 
 【解説1】
 放送文：What time is lunch?（昼ごはんは何時ですか）
 
-「何時？」と時刻を聞いているので、1「At twelve.（12時です）」が合います。
-2「In the kitchen.（台所で）」は場所、3「It's chicken.（鶏肉です）」はメニューで、時刻の答えではありません。
+「何時？」と時刻を聞いているので、2「At twelve.（12時です）」が合います。
+3「In the kitchen.（台所で）」は場所、1「It's chicken.（鶏肉です）」はメニューで、時刻の答えではありません。
 What time と聞こえたら、At + 時刻 を探します。
 
 【ポイント1】
@@ -28,18 +28,18 @@ No.2:
 ☆How much is this notebook?
 
 Question No.2:
-1. It's on the desk.
-2. It's 80 yen.
-3. It's Mira's.
+1. It's 80 yen.
+2. It's Mira's.
+3. It's on the desk.
 
 【正解2】
-2. It's 80 yen.
+1. It's 80 yen.
 
 【解説2】
 放送文：How much is this notebook?（このノートはいくらですか）
 
-「いくら？」と値段を聞いているので、2「It's 80 yen.（80円です）」が合います。
-1「It's on the desk.（机の上）」は場所、3「It's Mira's.（ミラのものです）」は持ち主で、値段ではありません。
+「いくら？」と値段を聞いているので、1「It's 80 yen.（80円です）」が合います。
+3「It's on the desk.（机の上）」は場所、2「It's Mira's.（ミラのものです）」は持ち主で、値段ではありません。
 How much と聞こえたら、円などの値段を探します。
 
 【ポイント2】
@@ -80,18 +80,18 @@ No.4:
 ☆Is your father a doctor?
 
 Question No.4:
-1. Yes, he is.
-2. At the hospital.
-3. He's tall.
+1. He's tall.
+2. Yes, he is.
+3. At the hospital.
 
 【正解4】
-1. Yes, he is.
+2. Yes, he is.
 
 【解説4】
 放送文：Is your father a doctor?（お父さんは医者ですか）
 
-Is 〜? は「はい／いいえ」で答える質問です。1「Yes, he is.（はい、そうです）」が合います。
-2「At the hospital.（病院で）」は場所、3「He's tall.（背が高い）」は見た目で、はい／いいえの答えではありません。
+Is 〜? は「はい／いいえ」で答える質問です。2「Yes, he is.（はい、そうです）」が合います。
+3「At the hospital.（病院で）」は場所、1「He's tall.（背が高い）」は見た目で、はい／いいえの答えではありません。
 Is your 〜? と聞こえたら、Yes, he is. か No, he isn't. を探します。
 
 【ポイント4】
@@ -106,18 +106,18 @@ No.5:
 ★Where do you do your homework?
 
 Question No.5:
-1. After dinner.
-2. In my room.
-3. Math and English.
+1. Math and English.
+2. After dinner.
+3. In my room.
 
 【正解5】
-2. In my room.
+3. In my room.
 
 【解説5】
 放送文：Where do you do your homework?（宿題はどこでしますか）
 
-「どこで？」と場所を聞いているので、2「In my room.（自分の部屋で）」が合います。
-1「After dinner.（夕ごはんのあと）」はいつ、3「Math and English.（算数と英語）」は教科で、場所ではありません。
+「どこで？」と場所を聞いているので、3「In my room.（自分の部屋で）」が合います。
+2「After dinner.（夕ごはんのあと）」はいつ、1「Math and English.（算数と英語）」は教科で、場所ではありません。
 Where と聞こえたら、in / at / on + 場所 を探します。
 
 【ポイント5】
@@ -132,18 +132,18 @@ No.6:
 ☆What's your favorite season?
 
 Question No.6:
-1. In March.
-2. It's warm.
-3. It's spring.
+1. It's spring.
+2. In March.
+3. It's warm.
 
 【正解6】
-3. It's spring.
+1. It's spring.
 
 【解説6】
 放送文：What's your favorite season?（好きな季節は何ですか）
 
-季節の名前を聞いているので、3「It's spring.（春です）」が合います。
-1「In March.（3月に）」は月、2「It's warm.（暖かい）」は様子で、季節の名前ではありません。
+季節の名前を聞いているので、1「It's spring.（春です）」が合います。
+2「In March.（3月に）」は月、3「It's warm.（暖かい）」は様子で、季節の名前ではありません。
 season と聞こえたら、spring / summer / fall / winter を探します。
 
 【ポイント6】
@@ -184,25 +184,25 @@ No.8:
 ☆How do you go to the pool?
 
 Question No.8:
-1. At my house.
-2. By bike.
-3. With my sister.
+1. With my sister.
+2. At my house.
+3. By bike.
 
 【正解8】
-2. By bike.
+3. By bike.
 
 【解説8】
 放送文：How do you go to the pool?（プールにはどうやって行きますか）
 
-「どうやって行く？」と行き方を聞いているので、2「By bike.（自転車で）」が合います。
-1「At my house.（家で）」は場所、3「With my sister.（妹と）」はだれと行くかで、行き方ではありません。
+「どうやって行く？」と行き方を聞いているので、3「By bike.（自転車で）」が合います。
+2「At my house.（家で）」は場所、1「With my sister.（妹と）」はだれと行くかで、行き方ではありません。
 How do you go と聞こえたら、By bike や By bus のような行き方を探します。
 
 【ポイント8】
 種別: 会話
 見出し: How do you go 〜? には行き方で答える
 ・By bike. = 自転車で
-・場所や「だれと」は行き方ではない
+・場所や「誰と」は行き方ではない
 
 ---
 
@@ -210,18 +210,18 @@ No.9:
 ★What are you looking for?
 
 Question No.9:
-1. Under the desk.
-2. It's new.
-3. My eraser.
+1. It's new.
+2. My eraser.
+3. Under the desk.
 
 【正解9】
-3. My eraser.
+2. My eraser.
 
 【解説9】
 放送文：What are you looking for?（何を探していますか）
 
-「何を？」と物を聞いているので、3「My eraser.（消しゴム）」が合います。
-1「Under the desk.（机の下）」は場所、2「It's new.（新しい）」は様子で、探している物ではありません。
+「何を？」と物を聞いているので、2「My eraser.（消しゴム）」が合います。
+3「Under the desk.（机の下）」は場所、1「It's new.（新しい）」は様子で、探している物ではありません。
 What are you looking for? と聞こえたら、物の名前を探します。
 
 【ポイント9】
@@ -262,24 +262,24 @@ No.101:
 (イラスト一致問題)
 
 Question No.101:
-1. The girl is watering the flowers.
-2. The girl is picking the flowers.
-3. The girl is drawing the flowers.
+1. The girl is drawing the flowers.
+2. The girl is watering the flowers.
+3. The girl is picking the flowers.
 
 【正解101】
-1. The girl is watering the flowers.
+2. The girl is watering the flowers.
 
 【解説101】
 放送された3つの英文から、イラストに合うものを選びます。
-イラストは、女の子が花に水をやっています。1「The girl is watering the flowers.（女の子は花に水をやっている）」が合います。
-2「The girl is picking the flowers.（女の子は花を摘んでいる）」は摘む、3「The girl is drawing the flowers.（女の子は花を絵にかいている）」は描く、でイラストと違います。
+イラストは、女の子が花に水をやっています。2「The girl is watering the flowers.（女の子は花に水をやっている）」が合います。
+3「The girl is picking the flowers.（女の子は花を摘んでいる）」は摘む、1「The girl is drawing the flowers.（女の子は花を絵にかいている）」は描く、でイラストと違います。
 watering / picking / drawing の動詞を聞き分けます。
 
 【ポイント101】
 種別: リスニング
-見出し: 水をやる / 摘む / 絵にかく を聞き分ける
+見出し: 水をやる / 摘む / 絵に描く を聞き分ける
 ・watering the flowers = 花に水をやる
-・picking（摘む）や drawing（絵にかく）は別の動き
+・picking（摘む）や drawing（絵に描く）は別の動き
 
 ---
 
@@ -287,17 +287,17 @@ No.102:
 (イラスト一致問題)
 
 Question No.102:
-1. The books are under the desk.
-2. The books are on the desk.
-3. The books are in the desk.
+1. The books are in the desk.
+2. The books are under the desk.
+3. The books are on the desk.
 
 【正解102】
-2. The books are on the desk.
+3. The books are on the desk.
 
 【解説102】
 放送された3つの英文から、イラストに合うものを選びます。
-イラストは、本が机の上にあります。2「The books are on the desk.（本は机の上にある）」が合います。
-1「The books are under the desk.（本は机の下にある）」も、3「The books are in the desk.（本は机の中にある）」も、場所が違います。
+イラストは、本が机の上にあります。3「The books are on the desk.（本は机の上にある）」が合います。
+2「The books are under the desk.（本は机の下にある）」も、1「The books are in the desk.（本は机の中にある）」も、場所が違います。
 on（上）/ under（下）/ in（中）を聞き分けます。
 
 【ポイント102】
@@ -312,17 +312,17 @@ No.103:
 (イラスト一致問題)
 
 Question No.103:
-1. The boy is taking off his coat.
-2. The boy is washing his coat.
-3. The boy is putting on his coat.
+1. The boy is putting on his coat.
+2. The boy is taking off his coat.
+3. The boy is washing his coat.
 
 【正解103】
-3. The boy is putting on his coat.
+1. The boy is putting on his coat.
 
 【解説103】
 放送された3つの英文から、イラストに合うものを選びます。
-イラストは、男の子がコートを着ています。3「The boy is putting on his coat.（男の子はコートを着ている）」が合います。
-1「The boy is taking off his coat.（男の子はコートを脱いでいる）」も、2「The boy is washing his coat.（男の子はコートを洗っている）」も、動きが違います。
+イラストは、男の子がコートを着ています。1「The boy is putting on his coat.（男の子はコートを着ている）」が合います。
+2「The boy is taking off his coat.（男の子はコートを脱いでいる）」も、3「The boy is washing his coat.（男の子はコートを洗っている）」も、動きが違います。
 putting on（着る）/ taking off（脱ぐ）/ washing（洗う）を聞き分けます。
 
 【ポイント103】
@@ -337,17 +337,17 @@ No.104:
 (イラスト一致問題)
 
 Question No.104:
-1. The dog is sitting by the door.
-2. The dog is sleeping by the door.
-3. The dog is running to the door.
+1. The dog is sleeping by the door.
+2. The dog is running to the door.
+3. The dog is sitting by the door.
 
 【正解104】
-1. The dog is sitting by the door.
+3. The dog is sitting by the door.
 
 【解説104】
 放送された3つの英文から、イラストに合うものを選びます。
-イラストは、犬がドアのそばに座っています。1「The dog is sitting by the door.（犬はドアのそばに座っている）」が合います。
-2「The dog is sleeping by the door.（犬はドアのそばで寝ている）」も、3「The dog is running to the door.（犬はドアへ走っている）」も、動きが違います。
+イラストは、犬がドアのそばに座っています。3「The dog is sitting by the door.（犬はドアのそばに座っている）」が合います。
+1「The dog is sleeping by the door.（犬はドアのそばで寝ている）」も、2「The dog is running to the door.（犬はドアへ走っている）」も、動きが違います。
 sitting / sleeping / running の動詞を聞き分けます。
 
 【ポイント104】
@@ -362,17 +362,17 @@ No.105:
 (イラスト一致問題)
 
 Question No.105:
-1. Mom is buying the bread.
-2. Mom is cutting the bread.
-3. Mom is eating the bread.
+1. Mom is cutting the bread.
+2. Mom is eating the bread.
+3. Mom is buying the bread.
 
 【正解105】
-2. Mom is cutting the bread.
+1. Mom is cutting the bread.
 
 【解説105】
 放送された3つの英文から、イラストに合うものを選びます。
-イラストは、お母さんがパンを切っています。2「Mom is cutting the bread.（お母さんはパンを切っている）」が合います。
-1「Mom is buying the bread.（お母さんはパンを買っている）」も、3「Mom is eating the bread.（お母さんはパンを食べている）」も、動きが違います。
+イラストは、お母さんがパンを切っています。1「Mom is cutting the bread.（お母さんはパンを切っている）」が合います。
+3「Mom is buying the bread.（お母さんはパンを買っている）」も、2「Mom is eating the bread.（お母さんはパンを食べている）」も、動きが違います。
 cutting / buying / eating の動詞を聞き分けます。
 
 【ポイント105】
@@ -387,18 +387,18 @@ No.11:
 ★How old is your sister?
 
 Question No.11:
-1. In my room.
-2. She's eight.
-3. At school.
+1. At school.
+2. In my room.
+3. She's eight.
 
 【正解11】
-2. She's eight.
+3. She's eight.
 
 【解説11】
 放送文：How old is your sister?（お姉さんは何歳ですか）
 
-「何歳？」と年齢を聞いているので、2「She's eight.（8歳です）」が合います。
-1「In my room.（部屋で）」も、3「At school.（学校で）」も場所で、年齢ではありません。
+「何歳？」と年齢を聞いているので、3「She's eight.（8歳です）」が合います。
+2「In my room.（部屋で）」も、1「At school.（学校で）」も場所で、年齢ではありません。
 How old と聞こえたら、数字で年齢を答える文を探します。
 
 【ポイント11】
@@ -413,18 +413,18 @@ No.12:
 ☆Do you want tea or juice?
 
 Question No.12:
-1. On the table.
-2. It's cold today.
-3. Juice, please.
+1. It's cold today.
+2. Juice, please.
+3. On the table.
 
 【正解12】
-3. Juice, please.
+2. Juice, please.
 
 【解説12】
 放送文：Do you want tea or juice?（お茶とジュース、どちらがいいですか）
 
-二つから選ぶ質問なので、3「Juice, please.（ジュースをお願いします）」が合います。
-1「On the table.（テーブルの上）」は場所、2「It's cold today.（今日は寒い）」は天気で、選んだ答えではありません。
+二つから選ぶ質問なので、2「Juice, please.（ジュースをお願いします）」が合います。
+3「On the table.（テーブルの上）」は場所、1「It's cold today.（今日は寒い）」は天気で、選んだ答えではありません。
 A or B? と聞こえたら、どちらか一方を選んだ返事を探します。
 
 【ポイント12】
@@ -439,18 +439,18 @@ No.13:
 ★What sport do you like?
 
 Question No.13:
-1. Baseball.
-2. At four.
-3. My brother.
+1. My brother.
+2. Baseball.
+3. At four.
 
 【正解13】
-1. Baseball.
+2. Baseball.
 
 【解説13】
 放送文：What sport do you like?（どのスポーツが好きですか）
 
-スポーツの名前を聞いているので、1「Baseball.（野球）」が合います。
-2「At four.（4時に）」は時刻、3「My brother.（兄）」は人で、スポーツではありません。
+スポーツの名前を聞いているので、2「Baseball.（野球）」が合います。
+3「At four.（4時に）」は時刻、1「My brother.（兄）」は人で、スポーツではありません。
 What sport と聞こえたら、野球やサッカーなどの名前を探します。
 
 【ポイント13】
@@ -465,18 +465,18 @@ No.14:
 ☆Can you help me carry this box?
 
 Question No.14:
-1. It's heavy.
-2. Sure.
-3. In the box.
+1. Sure.
+2. In the box.
+3. It's heavy.
 
 【正解14】
-2. Sure.
+1. Sure.
 
 【解説14】
 放送文：Can you help me carry this box?（この箱を運ぶのを手伝ってくれますか）
 
-手伝いを頼んでいるので、2「Sure.（もちろん）」が合います。
-1「It's heavy.（重い）」は箱の説明、3「In the box.（箱の中）」は場所で、手伝うかどうかの返事ではありません。
+手伝いを頼んでいるので、1「Sure.（もちろん）」が合います。
+3「It's heavy.（重い）」は箱の説明、2「In the box.（箱の中）」は場所で、手伝うかどうかの返事ではありません。
 Can you help me 〜? と聞こえたら、Sure. や Yes. のような返事を探します。
 
 【ポイント14】
@@ -517,17 +517,17 @@ No.106:
 (イラスト一致問題)
 
 Question No.106:
-1. The girl is washing her face.
-2. The girl is eating candy.
-3. The girl is brushing her teeth.
+1. The girl is eating candy.
+2. The girl is brushing her teeth.
+3. The girl is washing her face.
 
 【正解106】
-3. The girl is brushing her teeth.
+2. The girl is brushing her teeth.
 
 【解説106】
 放送された3つの英文から、イラストに合うものを選びます。
-イラストは、女の子が歯を磨いています。3「The girl is brushing her teeth.（女の子は歯を磨いている）」が合います。
-1「The girl is washing her face.（女の子は顔を洗っている）」も、2「The girl is eating candy.（女の子はキャンディを食べている）」も、動きが違います。
+イラストは、女の子が歯を磨いています。2「The girl is brushing her teeth.（女の子は歯を磨いている）」が合います。
+3「The girl is washing her face.（女の子は顔を洗っている）」も、1「The girl is eating candy.（女の子はキャンディを食べている）」も、動きが違います。
 brushing / washing / eating の動詞を聞き分けます。
 
 【ポイント106】
@@ -542,17 +542,17 @@ No.107:
 (イラスト一致問題)
 
 Question No.107:
-1. The children are building a snowman.
-2. The children are throwing snowballs.
-3. The children are skiing.
+1. The children are skiing.
+2. The children are building a snowman.
+3. The children are throwing snowballs.
 
 【正解107】
-1. The children are building a snowman.
+2. The children are building a snowman.
 
 【解説107】
 放送された3つの英文から、イラストに合うものを選びます。
-イラストは、子どもたちが雪だるまを作っています。1「The children are building a snowman.（子どもたちは雪だるまを作っている）」が合います。
-2「The children are throwing snowballs.（子どもたちは雪玉を投げている）」も、3「The children are skiing.（子どもたちはスキーをしている）」も、動きが違います。
+イラストは、子どもたちが雪だるまを作っています。2「The children are building a snowman.（子どもたちは雪だるまを作っている）」が合います。
+3「The children are throwing snowballs.（子どもたちは雪玉を投げている）」も、1「The children are skiing.（子どもたちはスキーをしている）」も、動きが違います。
 building / throwing / skiing の動詞を聞き分けます。
 
 【ポイント107】
@@ -567,17 +567,17 @@ No.108:
 (イラスト一致問題)
 
 Question No.108:
-1. The man is riding the bike.
-2. The man is fixing the bike.
-3. The man is selling the bike.
+1. The man is fixing the bike.
+2. The man is selling the bike.
+3. The man is riding the bike.
 
 【正解108】
-2. The man is fixing the bike.
+1. The man is fixing the bike.
 
 【解説108】
 放送された3つの英文から、イラストに合うものを選びます。
-イラストは、男性が自転車を直しています。2「The man is fixing the bike.（男性は自転車を直している）」が合います。
-1「The man is riding the bike.（男性は自転車に乗っている）」も、3「The man is selling the bike.（男性は自転車を売っている）」も、動きが違います。
+イラストは、男性が自転車を直しています。1「The man is fixing the bike.（男性は自転車を直している）」が合います。
+3「The man is riding the bike.（男性は自転車に乗っている）」も、2「The man is selling the bike.（男性は自転車を売っている）」も、動きが違います。
 fixing / riding / selling の動詞を聞き分けます。
 
 【ポイント108】
@@ -617,42 +617,42 @@ No.110:
 (イラスト一致問題)
 
 Question No.110:
-1. The woman is reading a magazine.
-2. The woman is writing a letter.
-3. The woman is folding clothes.
+1. The woman is folding clothes.
+2. The woman is reading a magazine.
+3. The woman is writing a letter.
 
 【正解110】
-1. The woman is reading a magazine.
+2. The woman is reading a magazine.
 
 【解説110】
 放送された3つの英文から、イラストに合うものを選びます。
-イラストは、女性が雑誌を読んでいます。1「The woman is reading a magazine.（女性は雑誌を読んでいる）」が合います。
-2「The woman is writing a letter.（女性は手紙を書いている）」も、3「The woman is folding clothes.（女性は服をたたんでいる）」も、動きが違います。
+イラストは、女性が雑誌を読んでいます。2「The woman is reading a magazine.（女性は雑誌を読んでいる）」が合います。
+3「The woman is writing a letter.（女性は手紙を書いている）」も、1「The woman is folding clothes.（女性は服をたたんでいる）」も、動きが違います。
 reading / writing / folding の動詞を聞き分けます。
 
 【ポイント110】
 種別: リスニング
-見出し: 読む / 書く / たたむ を聞き分ける
+見出し: 読む / 書く / 畳む を聞き分ける
 ・reading a magazine = 雑誌を読んでいる
-・writing（書く）や folding（たたむ）は別の動き
+・writing（書く）や folding（畳む）は別の動き
 ---
 
 No.16:
 ★Let's draw pictures together.
 
 Question No.16:
-1. Sounds good!
-2. It's 50 yen.
-3. In the desk.
+1. It's 50 yen.
+2. In the desk.
+3. Sounds good!
 
 【正解16】
-1. Sounds good!
+3. Sounds good!
 
 【解説16】
 放送文：Let's draw pictures together.（一緒に絵を描きましょう）
 
-Let's 〜 は誘いです。賛成する返事なので、1「Sounds good!（いいですね）」が合います。
-2「It's 50 yen.（50円です）」は値段、3「In the desk.（机の中）」は場所で、誘いへの返事ではありません。
+Let's 〜 は誘いです。賛成する返事なので、3「Sounds good!（いいですね）」が合います。
+1「It's 50 yen.（50円です）」は値段、2「In the desk.（机の中）」は場所で、誘いへの返事ではありません。
 Let's 〜 と聞こえたら、Sounds good. や OK. を探します。
 
 【ポイント16】
@@ -667,25 +667,25 @@ No.17:
 ☆Your new bag looks great!
 
 Question No.17:
-1. On Tuesday.
-2. Thank you!
-3. I'm eight.
+1. Thank you!
+2. I'm eight.
+3. On Tuesday.
 
 【正解17】
-2. Thank you!
+1. Thank you!
 
 【解説17】
 放送文：Your new bag looks great!（新しいかばん、すてきですね）
 
-ほめ言葉への返事は感謝です。2「Thank you!（ありがとう）」が合います。
-1「On Tuesday.（火曜日に）」は曜日、3「I'm eight.（8歳です）」は年齢で、ほめへの返事ではありません。
+ほめ言葉への返事は感謝です。1「Thank you!（ありがとう）」が合います。
+3「On Tuesday.（火曜日に）」は曜日、2「I'm eight.（8歳です）」は年齢で、ほめへの返事ではありません。
 looks great とほめられたら、Thank you. を探します。
 
 【ポイント17】
 種別: 会話
-見出し: ほめられたら Thank you.
+見出し: 褒められたら Thank you.
 ・Your 〜 looks great! → Thank you!
-・曜日や年齢はほめへの返事ではない
+・曜日や年齢は褒めへの返事ではない
 
 ---
 
@@ -693,18 +693,18 @@ No.18:
 ★I like bananas.
 
 Question No.18:
-1. At noon.
-2. It's heavy.
-3. Me, too.
+1. It's heavy.
+2. Me, too.
+3. At noon.
 
 【正解18】
-3. Me, too.
+2. Me, too.
 
 【解説18】
 放送文：I like bananas.（バナナが好きです）
 
-相手と同じ気持ちを伝える返事です。3「Me, too.（私も）」が合います。I do, too. も同じ使い方です。
-1「At noon.（正午に）」は時刻、2「It's heavy.（重い）」は様子で、同意ではありません。
+相手と同じ気持ちを伝える返事です。2「Me, too.（私も）」が合います。I do, too. も同じ使い方です。
+3「At noon.（正午に）」は時刻、1「It's heavy.（重い）」は様子で、同意ではありません。
 I like 〜. と聞こえたら、Me, too. を探します。
 
 【ポイント18】
@@ -719,23 +719,23 @@ No.19:
 ☆Whose crayons are on the table?
 
 Question No.19:
-1. They're Sora's.
-2. In the fridge.
-3. It's cloudy.
+1. In the fridge.
+2. It's cloudy.
+3. They're Sora's.
 
 【正解19】
-1. They're Sora's.
+3. They're Sora's.
 
 【解説19】
 放送文：Whose crayons are on the table?（テーブルの上のクレヨンはだれのですか）
 
-「だれの？」と持ち主を聞いているので、1「They're Sora's.（ソラのものです）」が合います。
-2「In the fridge.（冷蔵庫の中）」は場所、3「It's cloudy.（曇りです）」は天気で、持ち主ではありません。
+「だれの？」と持ち主を聞いているので、3「They're Sora's.（ソラのものです）」が合います。
+1「In the fridge.（冷蔵庫の中）」は場所、2「It's cloudy.（曇りです）」は天気で、持ち主ではありません。
 Whose と聞こえたら、人の名前 + 's を探します。
 
 【ポイント19】
 種別: 会話
-見出し: Whose 〜? には「だれの」で答える
+見出し: Whose 〜? には「誰の」で答える
 ・They're Sora's. = ソラのものです
 ・場所や天気は持ち主の答えではない
 
@@ -745,18 +745,18 @@ No.20:
 ★What's the date today?
 
 Question No.20:
-1. By car.
-2. It's May 5.
-3. I like math.
+1. It's May 5.
+2. I like math.
+3. By car.
 
 【正解20】
-2. It's May 5.
+1. It's May 5.
 
 【解説20】
 放送文：What's the date today?（今日は何日ですか）
 
-日付（何月何日）を聞いているので、2「It's May 5.（5月5日です）」が合います。What time（何時）ではなく date（日付）です。
-1「By car.（車で）」は行き方、3「I like math.（算数が好き）」は好きな教科で、日付ではありません。
+日付（何月何日）を聞いているので、1「It's May 5.（5月5日です）」が合います。What time（何時）ではなく date（日付）です。
+3「By car.（車で）」は行き方、2「I like math.（算数が好き）」は好きな教科で、日付ではありません。
 What's the date? と聞こえたら、月と日を探します。
 
 【ポイント20】

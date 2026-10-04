@@ -18,9 +18,9 @@ A : The cat is hungry. Please give it some ( ). B : OK.
 
 【ポイント1】
 種別: 単語
-見出し: hungry のあとは食べもの
-・hungry → food = たべもの（bread / rice も同じ）
-・songs（うた）や Tuesday（かようび）は食べものではない
+見出し: hungry のあとは食べ物
+・hungry → food = 食べ物（bread / rice も同じ）
+・songs（歌）や Tuesday（火曜日）は食べ物ではない
 
 ---
 
@@ -44,9 +44,9 @@ Sora has a ( ) on the wall. It shows Japan and many cities.
 
 【ポイント2】
 種別: 単語
-見出し: map = ちず（くにやまちがのるもの）
-・map = ちず（It shows Japan. = にほんがのっている）
-・clock（とけい）はまちはのらない。うしろの文で何がのるか見る
+見出し: map = 地図（国や町が載る物）
+・map = 地図（It shows Japan. = 日本が載っている）
+・clock（時計）は町は載らない。後ろの文で何が載るか見る
 
 ---
 
@@ -70,9 +70,9 @@ A : I'm sleepy. B : Here's a ( ).
 
 【ポイント3】
 種別: 単語
-見出し: sleepy のときはねるどうぐ
-・pillow = まくら（sleepy = ねむい のときに使う）
-・homework（しゅくだい）や jacket（うわぎ）はねむいときのどうぐではない
+見出し: sleepy のときは寝る道具
+・pillow = 枕（sleepy = 眠い のときに使う）
+・homework（宿題）や jacket（上着）は眠いときの道具ではない
 
 ---
 
@@ -96,9 +96,9 @@ Ms. Mori is in the kitchen. She is making ( ) for lunch.
 
 【ポイント4】
 種別: 単語
-見出し: kitchen + lunch なら食べもの
-・make soup for lunch = ひるごはんのスープをつくる
-・a bus（バス）や a song（うた）はひるごはんのメニューではない
+見出し: kitchen + lunch なら食べ物
+・make soup for lunch = 昼ご飯のスープを作る
+・a bus（バス）や a song（歌）は昼ご飯のメニューではない
 
 ---
 
@@ -124,7 +124,7 @@ A : Let's play ( ) after school. B : Great! I have a ball.
 種別: 熟語
 見出し: play soccer = サッカーをする（ボールのスポーツ）
 ・play soccer = サッカーをする（I have a ball. = ボールを持っている）
-・play the piano = ピアノをひく（the がつきやすい）
+・play the piano = ピアノを弾く（the がつきやすい）
 
 ---
 
@@ -148,9 +148,9 @@ Look at the sky at night. You can see the ( ).
 
 【ポイント6】
 種別: 単語
-見出し: night のそらによく見えるのは moon
-・moon = つき（at night = よるに）
-・sun = たいようはひる。desk（つくえ）はそらにない
+見出し: night の空によく見えるのは moon
+・moon = 月（at night = 夜に）
+・sun = 太陽は昼。desk（机）は空にない
 
 ---
 
@@ -174,9 +174,9 @@ A : Where are my socks? B : They're in the ( ).
 
 【ポイント7】
 種別: 文法
-見出し: Where（どこ）にはばしょのことばで返す
-・in the box = はこのなか（ばしょ）
-・rain（あめ）・August（8がつ）・yellow（きいろ）はばしょではない
+見出し: Where（どこ）には場所の言葉で返す
+・in the box = 箱の中（場所）
+・rain（雨）・August（8月）・yellow（黄色）は場所ではない
 
 ---
 
@@ -200,9 +200,9 @@ It's a ( ) day. We can fly a kite in the park.
 
 【ポイント8】
 種別: 単語
-見出し: fly a kite のときは windy（かぜがつよい）
-・windy = かぜがつよい（fly a kite = たこをあげる）
-・rainy = あめの日。sleepy / hungry は人のきもちで天気ではない
+見出し: fly a kite のときは windy（風が強い）
+・windy = 風が強い（fly a kite = 凧を上げる）
+・rainy = 雨の日。sleepy / hungry は人の気持ちで天気ではない
 
 ---
 
@@ -226,9 +226,9 @@ A : I want to color this picture. B : Here's a ( ). It's on the desk.
 
 【ポイント9】
 種別: 単語
-見出し: color a picture ならぬるどうぐ
-・crayon = クレヨン（color this picture = この絵に色をぬる）
-・umbrella（かさ）や banana（バナナ）では色はぬれない
+見出し: color a picture なら塗る道具
+・crayon = クレヨン（color this picture = この絵に色を塗る）
+・umbrella（傘）や banana（バナナ）では色は塗れない
 
 ---
 
@@ -252,9 +252,9 @@ Hana ( ) her bike to the library on Saturday.
 
 【ポイント10】
 種別: 熟語
-見出し: ride a bike = じてんしゃにのる
-・ride a bike = じてんしゃにのる
-・drive a car = くるまをうんてんする（bike には drive を使わない）
+見出し: ride a bike = 自転車に乗る
+・ride a bike = 自転車に乗る
+・drive a car = 車を運転する（bike には drive を使わない）
 
 ---
 
@@ -279,8 +279,8 @@ My little brother reads ( ) books before bed.
 【ポイント11】
 種別: 熟語
 見出し: story books = お話の本
-・story books = お話の本（reads story books = お話の本をよむ）
-・rainy / hungry / Tuesday は本のしゅるいではない
+・story books = お話の本（reads story books = お話の本を読む）
+・rainy / hungry / Tuesday は本の種類ではない
 
 ---
 
@@ -304,9 +304,9 @@ A : Can I borrow your eraser? B : Sure. It's in my ( ).
 
 【ポイント12】
 種別: 熟語
-見出し: pencil case = えんぴつケース（文房具のいれもの）
-・pencil case = えんぴつケース（eraser = けしゴムを入れる）
-・homework（しゅくだい）や breakfast（あさごはん）は入れものではない
+見出し: pencil case = 鉛筆ケース（文房具の入れ物）
+・pencil case = 鉛筆ケース（eraser = 消しゴムを入れる）
+・homework（宿題）や breakfast（朝ご飯）は入れ物ではない
 
 ---
 
@@ -330,9 +330,9 @@ The birds are singing in the ( ) this morning.
 
 【ポイント13】
 種別: 単語
-見出し: birds が歌うばしょは tree
-・in the tree = 木のなか（birds are singing = とりがなく）
-・soup（スープ）や ticket（きっぷ）はとりが歌うばしょではない
+見出し: birds が歌う場所は tree
+・in the tree = 木の中（birds are singing = 鳥が鳴く）
+・soup（スープ）や ticket（切符）は鳥が歌う場所ではない
 
 ---
 
@@ -356,9 +356,9 @@ We need milk and eggs from the ( ).
 
 【ポイント14】
 種別: 単語
-見出し: milk / eggs を買うばしょは store
-・from the store = みせで（milk and eggs = ミルクとたまご）
-・library = としょかん、park = こうえん、station = えき（たべものは買えない）
+見出し: milk / eggs を買う場所は store
+・from the store = 店で（milk and eggs = ミルクと卵）
+・library = 図書館、park = 公園、station = 駅（食べ物は買えない）
 
 ---
 
@@ -382,9 +382,9 @@ A : It's very hot today. B : Let's drink some cold ( ).
 
 【ポイント15】
 種別: 単語
-見出し: drink のあとはのみもの
-・drink some cold juice = つめたいジュースをのむ
-・chair（いす）や pencil（えんぴつ）はのみものではない
+見出し: drink のあとは飲み物
+・drink some cold juice = 冷たいジュースを飲む
+・chair（椅子）や pencil（鉛筆）は飲み物ではない
 
 ---
 
@@ -434,9 +434,9 @@ Please put the dirty plates in the ( ).
 
 【ポイント17】
 種別: 単語
-見出し: dirty plates を入れるばしょは sink
-・in the sink = ながしのなか（dirty plates = よごれたお皿）
-・pillow（まくら）や notebook（ノート）はお皿を洗うばしょではない
+見出し: dirty plates を入れる場所は sink
+・in the sink = 流しの中（dirty plates = 汚れたお皿）
+・pillow（枕）や notebook（ノート）はお皿を洗う場所ではない
 
 ---
 
@@ -460,9 +460,9 @@ A : What do you want for your birthday? B : A new ( ).
 
 【ポイント18】
 種別: 単語
-見出し: birthday の A new 〜 はもらえるもの
-・a new watch = あたらしいうでどけい
-・rain（あめ）や homework（しゅくだい）はプレゼントにしにくい
+見出し: birthday の A new 〜 はもらえる物
+・a new watch = 新しい腕時計
+・rain（雨）や homework（宿題）はプレゼントにしにくい
 
 ---
 
@@ -486,9 +486,9 @@ The train is ( ). We have to wait.
 
 【ポイント19】
 種別: 単語
-見出し: The train is late = でんしゃがおくれている
-・late = おくれている（We have to wait. = またなければならない）
-・sunny（はれ）・hungry（おなかがすいた）・green（みどり）はでんしゃのようすではない
+見出し: The train is late = 電車が遅れている
+・late = 遅れている（We have to wait. = 待たなければならない）
+・sunny（晴れ）・hungry（おなかが空いた）・green（緑）は電車の様子ではない
 
 ---
 
@@ -512,9 +512,9 @@ Tom and his dad ( ) the car on Sunday.
 
 【ポイント20】
 種別: 熟語
-見出し: wash the car = くるまをあらう
-・wash the car = くるまをあらう
-・drink / sing / sleep はくるまとセットにしにくい
+見出し: wash the car = 車を洗う
+・wash the car = 車を洗う
+・drink / sing / sleep は車とセットにしにくい
 ---
 
 問題21:
@@ -537,9 +537,9 @@ A : Where is the map of Japan? B : It's ( ) the wall.
 
 【ポイント21】
 種別: 文法
-見出し: on the wall = かべに（はってある）
-・on the wall / on the desk = 表面のうえ・かべ
-・during は時間用。ばしょには使わない
+見出し: on the wall = 壁に（貼ってある）
+・on the wall / on the desk = 表面の上・壁
+・during は時間用。場所には使わない
 
 ---
 
@@ -563,7 +563,7 @@ This postcard is ( ) my cousin in Hokkaido.
 
 【ポイント22】
 種別: 文法
-見出し: from = 〜から（だれ・どこから）
+見出し: from = 〜から（誰・どこから）
 ・from my cousin = いとこから
 ・about は「〜について」、during は時間用
 
@@ -589,14 +589,14 @@ A : ( ) bag is this? B : It's Mira's.
 
 【ポイント23】
 種別: 文法
-見出し: Whose + もの = だれの〜？
-・Whose bag is this? = これはだれのかばん？
-・Who は「だれ」、Whose は「だれの」
+見出し: Whose + 物 = 誰の〜？
+・Whose bag is this? = これは誰のかばん？
+・Who は「誰」、Whose は「誰の」
 
 ---
 
 問題24:
-A : Is this your pen? B : No. This pen is ( ).
+A : Is this Tom's pen? B : No. This pen is ( ).
 
 選択肢24:
 1. me
@@ -609,15 +609,15 @@ A : Is this your pen? B : No. This pen is ( ).
 
 【解説24】
 正解は「mine」です。意味は「わたしのもの」です。
-文全体は「これはあなたのペン？」「ちがう。このペンはわたしの」という会話です。「This pen is mine.」で「このペンはわたしのもの」になります。
+文全体は「これはトムのペン？」「ちがう。このペンはわたしの」という会話です。「This pen is mine.」で「このペンはわたしのもの」になります。
 ほかの選択肢：「me」「I」は人をさす語で、この位置には合いません。「my」のあとに名詞が必要なので、「my pen」なら使えますが、ひとりでは使えません。
 「わたしの（もの）」とだけ言うときは mine です。
 
 【ポイント24】
 種別: 文法
-見出し: mine = わたしのもの（あとに名詞をつけない）
-・This pen is mine. = このペンはわたしのもの
-・my は my pen のように、あとにものがいる
+見出し: mine = 私のもの（あとに名詞をつけない）
+・This pen is mine. = このペンは私のもの
+・my は my pen のように、あとに物がいる
 
 ---
 
@@ -641,9 +641,9 @@ A : How ( ) stamps do you need? B : Three, please.
 
 【ポイント25】
 種別: 文法
-見出し: How many = いくつ（かぞえられるもの）
+見出し: How many = いくつ（数えられる物）
 ・How many stamps = 切手はいくつ
-・much はかぞえにくいもの向き。often は「よく」
+・much は数えにくい物向き。often は「よく」
 
 ---
 
@@ -667,9 +667,9 @@ Look! や now があったら、are / is + 〜ing を疑いましょう。
 
 【ポイント26】
 種別: 文法
-見出し: are / is + 〜ing = いましていること
-・are playing = いまあそんでいる
-・Look! や now のときは 〜ing のかたち
+見出し: are / is + 〜ing = 今していること
+・are playing = 今遊んでいる
+・Look! や now のときは 〜ing の形
 
 ---
 
@@ -745,7 +745,7 @@ A : Goodbye! See you on Monday. B : Bye! ( ) a nice weekend!
 
 【ポイント29】
 種別: 熟語
-見出し: Have a nice weekend! = よい週末を
+見出し: Have a nice weekend! = 良い週末を
 ・Have a nice weekend! / Have fun! のかたまりで覚える
 ・Make / Do / Take はこの決まり文句では使わない
 

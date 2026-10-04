@@ -18,16 +18,3 @@ def site_brand(request):
         'PUBLIC_BASE_URL': getattr(settings, 'PUBLIC_BASE_URL', 'https://eigogohan.com'),
     }
 
-
-def maintenance_notice(request):
-    """公開面の案内バナー。"""
-    enabled = getattr(settings, 'MAINTENANCE_NOTICE_ENABLED', False)
-    if not enabled:
-        return {'maintenance_notice_enabled': False}
-    return {
-        'maintenance_notice_enabled': True,
-        'maintenance_notice_title': getattr(
-            settings, 'MAINTENANCE_NOTICE_TITLE', '問題は公開中。品質は上げていきます。'
-        ),
-        'maintenance_notice_body': getattr(settings, 'MAINTENANCE_NOTICE_BODY', ''),
-    }

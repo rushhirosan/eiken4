@@ -30,16 +30,6 @@ DEBUG = True
 # 本番反映するときは settings_production で明示的に True にする。
 SHOW_NEXT_LEARNING = DEBUG
 
-# 公開案内バナー。品質改善への協力を示す。不要になったら False。
-MAINTENANCE_NOTICE_ENABLED = True
-MAINTENANCE_NOTICE_TITLE = '問題は公開中。品質は上げていきます。'
-MAINTENANCE_NOTICE_BODY = (
-    '5級・4級・3級のオリジナル練習が使えます。'
-    '気になるところ・分かりにくい解説・音声の違和感などがあれば、'
-    'ログイン後の「フィードバック」から教えてください。'
-    'いただいた声をベースに直していきます。'
-)
-
 # レガシー（公式PDF由来）問題の再登録。既定 False = 配信パイプラインから切り離し。
 # True または --allow-legacy-blocked-import のときのみ blocked 登録を許可。
 LEGACY_QUESTION_IMPORT_ENABLED = False
@@ -100,7 +90,6 @@ TEMPLATES = [
                 'django.contrib.auth.context_processors.auth',
                 'django.contrib.messages.context_processors.messages',
                 'eiken_project.context_processors.google_analytics',
-                'eiken_project.context_processors.maintenance_notice',
                 'eiken_project.context_processors.site_brand',
             ],
         },

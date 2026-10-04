@@ -1,8 +1,0 @@
-{% if maintenance_notice_enabled %}
-<div class="alert alert-info border-0 shadow-sm mb-3 maintenance-notice" role="status">
-    <div class="fw-bold mb-1">{{ maintenance_notice_title }}</div>
-    {% if maintenance_notice_body %}
-    <p class="mb-0 small">{{ maintenance_notice_body }}</p>
-    {% endif %}
-</div>
-{% endif %}

@@ -291,3 +291,66 @@ class UpdateExplanationsCommandTest(TestCase):
         self.assertEqual(progress.correct_answers, 4)
         self.assertEqual(progress.total_attempts, 6)
         self.assertEqual(Question.objects.filter(pk=question.pk).count(), 1)
+
+    def test_conversation_choice_text_updates_without_deleting_answers(self):
+        question = Question.objects.create(
+            provenance=PROVENANCE_ORIGINAL,
+            level='3',
+            question_type='conversation_fill',
+            question_text='Girl : Could you pass me that eraser? Boy : ( )',
+            question_number=21,
+            explanation='古い解説',
+            study_points={'category': '会話', 'title': '古い', 'keys': []},
+        )
+        correct = Choice.objects.create(
+            question=question,
+            choice_text='Certainly. Here you are.',
+            is_correct=True,
+            order=1,
+        )
+        Choice.objects.create(
+            question=question, choice_text="It's a new eraser.", is_correct=False, order=2
+        )
+        Choice.objects.create(
+            question=question, choice_text='I bought it yesterday.', is_correct=False, order=3
+        )
+        Choice.objects.create(
+            question=question, choice_text='Erasers are useful.', is_correct=False, order=4
+        )
+        UserAnswer.objects.create(
+            user=self.user,
+            question=question,
+            selected_choice=correct,
+            is_correct=True,
+        )
+        progress = UserProgress.objects.create(
+            user=self.user,
+            level='3',
+            question_type='conversation_fill',
+            correct_answers=2,
+            total_attempts=4,
+        )
+
+        call_command(
+            'update_explanations',
+            level='3',
+            category='conversation_fill',
+            original=True,
+        )
+        question.refresh_from_db()
+        correct.refresh_from_db()
+        progress.refresh_from_db()
+
+        self.assertEqual(correct.choice_text, 'Sure. Here you are.')
+        self.assertTrue(correct.is_correct)
+        self.assertEqual(correct.pk, UserAnswer.objects.get(question=question).selected_choice_id)
+        self.assertIn('Sure. Here you are.', question.explanation)
+        self.assertEqual(question.study_points['title'], 'Sure. はクラスメートへの依頼の快諾')
+        self.assertEqual(question.choices.count(), 4)
+        self.assertEqual(
+            UserAnswer.objects.filter(user=self.user, question=question).count(),
+            1,
+        )
+        self.assertEqual(progress.correct_answers, 2)
+        self.assertEqual(progress.total_attempts, 4)
+        self.assertEqual(Question.objects.filter(pk=question.pk).count(), 1)
