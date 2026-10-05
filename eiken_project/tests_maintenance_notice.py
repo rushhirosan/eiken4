@@ -2,7 +2,7 @@ from django.contrib.auth import get_user_model
 from django.test import Client, TestCase
 from django.urls import reverse
 
-FOOTER_NOTE = 'まだ直すべきところは残っているはずです'
+FOOTER_NOTE = 'まだまだ改善余地はあります'
 ABOUT_NOTE = '練習問題は制作者1人で作っています'
 OLD_BANNER = '問題は公開中。品質は上げていきます。'
 
