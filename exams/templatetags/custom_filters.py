@@ -10,6 +10,26 @@ register = template.Library()
 # 出力は <span class="writing-q-underline"> にし、Bootstrap / ブラウザ既定でも下線が確実に見えるようにする
 _WRITING_U_TOKEN = re.compile(r'(<\s*u\s*>|<\s*/\s*u\s*>)', re.IGNORECASE)
 _WRITING_PARA_SPLIT = re.compile(r'\r?\n\r?\n')
+_EMAIL_FORM_START = '[[email-form-start]]'
+_EMAIL_FORM_END = '[[email-form-end]]'
+_EMAIL_ANSWER_BOX = '[[email-answer-box]]'
+_EMAIL_ANSWER_BOX_HTML = (
+    '<div class="writing-email-answer-box" style="border:1px solid #222;'
+    'padding:0.85rem 1rem;margin:0.75rem 0;text-align:center;line-height:1.8;">'
+    '返信の本文は、この枠の位置に入ります。<br>'
+    '入力は、下の「あなたの英文」にしてください。'
+    '</div>'
+)
+_EMAIL_FORM_OPEN = (
+    '<div class="writing-email-form" style="border:1px solid #222;'
+    'padding:0.9rem 1rem;margin:0.75rem 0;">'
+)
+# 3級など、目印なしで「Hi, 名前! / Thank you / Best wishes,」だけが入っている返信欄。
+# 段落分割後なので、挨拶と Thank you のあいだは改行のまま。
+_REPLY_GREETING_RE = re.compile(
+    r'^Hi, [^!\n]+!\nThank you for your e-mail\.?$',
+    re.IGNORECASE,
+)
 
 
 @register.filter
@@ -43,12 +63,48 @@ def writing_prompt_html(value):
     if u_depth:
         buf.extend('</span>' * u_depth)
     html = ''.join(buf)
+    blocks = [
+        block.strip()
+        for block in _WRITING_PARA_SPLIT.split(html)
+        if block.strip()
+    ]
     paras = []
-    for block in _WRITING_PARA_SPLIT.split(html):
-        block = block.strip()
-        if not block:
+    in_email_form = False
+    i = 0
+    while i < len(blocks):
+        block = blocks[i]
+        nxt = blocks[i + 1] if i + 1 < len(blocks) else ''
+        if block == _EMAIL_FORM_START:
+            paras.append(_EMAIL_FORM_OPEN)
+            in_email_form = True
+            i += 1
+            continue
+        if block == _EMAIL_FORM_END:
+            if in_email_form:
+                paras.append('</div>')
+                in_email_form = False
+            i += 1
+            continue
+        if block == _EMAIL_ANSWER_BOX:
+            paras.append(_EMAIL_ANSWER_BOX_HTML)
+            i += 1
+            continue
+        if (
+            not in_email_form
+            and _REPLY_GREETING_RE.match(block)
+            and nxt.lower() == 'best wishes,'
+        ):
+            paras.append(_EMAIL_FORM_OPEN)
+            paras.append('<p>' + block.replace('\n', '<br>') + '</p>')
+            paras.append(_EMAIL_ANSWER_BOX_HTML)
+            paras.append('<p>' + nxt.replace('\n', '<br>') + '</p>')
+            paras.append('</div>')
+            i += 2
             continue
         paras.append('<p>' + block.replace('\n', '<br>') + '</p>')
+        i += 1
+    if in_email_form:
+        paras.append('</div>')
     return mark_safe(''.join(paras)) if paras else mark_safe('')
 
 

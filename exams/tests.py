@@ -2031,6 +2031,51 @@ class WritingPromptHtmlFilterTest(TestCase):
         self.assertIn('writing-q-underline', compact)
         self.assertIn('>open</span>', compact)
 
+    def test_email_answer_box_is_only_rendered_from_marker(self):
+        from exams.templatetags.custom_filters import writing_prompt_html
+
+        plain = writing_prompt_html('Hi, Sam!\nThank you for your e-mail.\n\n\nBest wishes,')
+        self.assertEqual(plain.count('writing-email-answer-box'), 1)
+        self.assertIn('Best wishes,', plain)
+
+        boxed = writing_prompt_html(
+            '[[email-form-start]]\n\n'
+            'Hi, Sam!\n'
+            'Thank you for your e-mail.\n\n'
+            '[[email-answer-box]]\n\n'
+            'Best wishes,\n\n'
+            '[[email-form-end]]'
+        )
+        self.assertIn('writing-email-form', boxed)
+        self.assertEqual(boxed.count('writing-email-answer-box'), 1)
+        self.assertIn('この枠の位置に入ります', boxed)
+        self.assertIn('Hi, Sam!', boxed)
+        self.assertLess(boxed.find('Hi, Sam!'), boxed.find('この枠の位置に入ります'))
+        self.assertLess(boxed.find('この枠の位置に入ります'), boxed.find('Best wishes,'))
+        self.assertNotIn('[[email-answer-box]]', boxed)
+
+    def test_grade3_reply_skeleton_gets_one_box_without_marker(self):
+        from exams.templatetags.custom_filters import writing_prompt_html
+
+        prompt = (
+            'Hi,\n'
+            'Thank you for your e-mail.\n'
+            'I hear you joined the chess club at school.\n'
+            'Your friend,\n'
+            'Alex\n\n'
+            'Hi, Alex!\n'
+            'Thank you for your e-mail.\n\n\n'
+            'Best wishes,'
+        )
+        html = writing_prompt_html(prompt)
+        self.assertEqual(html.count('writing-email-answer-box'), 1)
+        self.assertLess(html.find('Hi, Alex!'), html.find('この枠の位置に入ります'))
+        self.assertLess(html.find('この枠の位置に入ります'), html.find('Best wishes,'))
+        self.assertIn('chess club', html)
+
+        opinion = 'QUESTION\nDo you think students should join club activities?'
+        self.assertNotIn('writing-email-answer-box', writing_prompt_html(opinion))
+
 
 class GamificationTest(TestCase):
     """Gamification helper tests."""
