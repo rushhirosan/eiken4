@@ -7,7 +7,7 @@ description: eiken4 リポジトリでの Django 開発・検証手順をまと�
 
 ## 環境
 
-- 依存: ルートの `requirements.txt`（本番用の複製が `config/requirements.txt`）。
+- 依存: ルートの `requirements.txt`。
 - ローカル DB: 通常 SQLite（`docs/README.md` のセットアップ手順）。
 - 本番設定: `eiken_project/settings_production.py`、`config/fly.toml` など。
 

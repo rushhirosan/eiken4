@@ -148,14 +148,11 @@ python utils/validate_original_questions.py --level 4   # 級・カテゴリ単�
 
 **config/（デプロイ設定）**
 - 役割: 本番環境のデプロイ設定
-- ファイル: Dockerfile, fly.toml, Procfile, requirements.txt, runtime.txt
-- サイズ: 本番環境での動作に必須
+- ファイル: `fly.toml`、`Dockerfile`（起動はルートの `Dockerfile` と `requirements.txt`）
 
 **data/（データファイル）**
 - 役割: 問題データの管理
-- `questions/` - テキストファイル（7個）
-- `*.json` - エクスポートデータ
-- 整理: 重複ファイルを削除済み（3個削除）
+- `questions/` - テキストファイル
 
 **docs/（ドキュメント）**
 - 役割: プロジェクトドキュメント
