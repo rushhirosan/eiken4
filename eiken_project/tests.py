@@ -35,11 +35,11 @@ class LandingPageTest(TestCase):
         self.assertContains(response, '学習ポイントでノート復習しやすい')
         self.assertContains(response, '本サイトは公益財団法人 日本英語検定協会の公式サイトではありません。')
         self.assertContains(response, '英検®は、公益財団法人 日本英語検定協会の登録商標です。')
-        self.assertContains(response, '級の目安は、一般的な英語検定の5・4・3級レベルです。')
-        # マーケ文言では「英検」を使わず、フッターの®表記のみ
-        body = response.content.decode()
-        body_without_notice = body.replace('英検®は、公益財団法人 日本英語検定協会の登録商標です。', '')
-        self.assertNotIn('英検', body_without_notice)
+        self.assertContains(response, '英検®5級・4級・3級の無料練習 - えいごごはん')
+        self.assertContains(response, '英検®の5級・4級・3級を目安にしたオリジナル練習です。協会の承認・推奨を受けたものではありません。')
+        self.assertContains(response, '<span class="gradient-text">えいごごはん</span>で、')
+        self.assertNotContains(response, '英検公式')
+        self.assertNotContains(response, '協会公認')
 
     def test_landing_avoids_render_blocking_third_party_assets(self):
         """公開トップは LCP のため外部フォント/アイコンCDNに依存しない。"""
@@ -105,7 +105,7 @@ class LlmsTxtTest(TestCase):
         self.assertEqual(response['Content-Type'], 'text/plain; charset=utf-8')
         content = response.content.decode()
         self.assertTrue(content.startswith('# えいごごはん\n'))
-        self.assertIn('> 5級・4級・3級向け', content)
+        self.assertIn('> 英検®5級・4級・3級向け', content)
         self.assertIn('- [トップ](https://eigogohan.com/):', content)
         self.assertIn('- [サービス概要・FAQ](https://eigogohan.com/about/):', content)
         self.assertIn('- [学習の進め方](https://eigogohan.com/guides/):', content)
@@ -118,7 +118,8 @@ class LlmsTxtTest(TestCase):
         self.assertIn('- [3級 スピーキング](https://eigogohan.com/guides/eiken-3-speaking/):', content)
         self.assertIn('- [学習リソース](https://eigogohan.com/resources/):', content)
         self.assertIn('日本英語検定協会の公式サイト・公式アプリではない', content)
-        self.assertNotIn('英検', content)
+        self.assertIn('英検®', content)
+        self.assertIn('過去問そのものは掲載していない', content)
         self.assertIn('## Optional', content)
         self.assertIn('- [プライバシーポリシー](https://eigogohan.com/privacy-policy/):', content)
         # Docs セクションの公開ページは Markdown リンク形式
@@ -211,8 +212,9 @@ class GuideTopicPageTest(TestCase):
             reverse('guide_topic', kwargs={'slug': 'eiken-4-reading'})
         )
         self.assertEqual(response.status_code, 200)
-        self.assertContains(response, '4級の長文練習問題を無料で解く')
-        self.assertContains(response, '4級の長文練習問題をブラウザで無料練習')
+        self.assertContains(response, '英検®4級の長文練習問題を無料で解く')
+        self.assertContains(response, '英検®4級の長文練習問題をブラウザで無料練習')
+        self.assertContains(response, '公式の過去問PDFそのものではなく')
         self.assertContains(response, reverse('try_level', kwargs={'level': '4'}))
         self.assertContains(response, '4級の長文練習問題は無料で解けますか？')
 
@@ -335,11 +337,10 @@ class AboutPageTest(TestCase):
             response,
             'このコンテンツは、公益財団法人 日本英語検定協会の承認や推奨、その他の検討を受けたものではありません。',
         )
-        body_without_notice = response.content.decode().replace(
-            '英検®は、公益財団法人 日本英語検定協会の登録商標です。',
-            '',
-        )
-        self.assertNotIn('英検', body_without_notice)
+        self.assertContains(response, '英検®5級・4級・3級のサービス概要 - えいごごはん')
+        self.assertContains(response, '協会の過去問そのものではありません。')
+        self.assertNotContains(response, '英検公式')
+        self.assertNotContains(response, '協会公認')
 
 
 class SitemapXmlTest(TestCase):

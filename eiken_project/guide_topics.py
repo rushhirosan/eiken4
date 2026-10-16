@@ -744,13 +744,38 @@ GUIDE_TOPICS: dict[str, GuideTopic] = {
 }
 
 
+EXAM_MARK = '英検®'
+
+
+def _mention_exam(text: str) -> str:
+    """試験名は説明として先頭に付ける。ブランド名には使わない。"""
+    if text.startswith(EXAM_MARK):
+        return text
+    return f'{EXAM_MARK}{text}'
+
+
+def _topic_for_display(topic: GuideTopic) -> GuideTopic:
+    shown: GuideTopic = dict(topic)  # type: ignore[assignment]
+    shown['title'] = _mention_exam(topic['title'])
+    shown['h1'] = _mention_exam(topic['h1'])
+    shown['meta_description'] = _mention_exam(topic['meta_description'])
+    return shown
+
+
 def get_guide_topic(slug: str) -> GuideTopic | None:
-    return GUIDE_TOPICS.get(slug)
+    topic = GUIDE_TOPICS.get(slug)
+    if topic is None:
+        return None
+    return _topic_for_display(topic)
 
 
 def iter_guide_topics() -> list[GuideTopic]:
-    return list(GUIDE_TOPICS.values())
+    return [_topic_for_display(topic) for topic in GUIDE_TOPICS.values()]
 
 
 def guide_topics_for_level(level: str) -> list[GuideTopic]:
-    return [topic for topic in GUIDE_TOPICS.values() if topic['level'] == level]
+    return [
+        _topic_for_display(topic)
+        for topic in GUIDE_TOPICS.values()
+        if topic['level'] == level
+    ]

@@ -301,14 +301,14 @@ def try_level(request, level: str):
     label = level_label(level)
     if level in ('4', '3'):
         try_meta_description = (
-            f'{label}の文法・リスニング・長文をお試し。登録なしで無料の練習問題を体験できます。'
+            f'英検®{label}の文法・リスニング・長文をお試し。登録なしで無料のオリジナル練習問題を体験できます。'
         )
-        try_og_description = f'登録なしで{label}の文法・リスニング・長文を体験。'
+        try_og_description = f'登録なしで英検®{label}の文法・リスニング・長文を体験。'
     else:
         try_meta_description = (
-            f'{label}の文法・リスニングをお試し。登録なしで無料体験できます。'
+            f'英検®{label}の文法・リスニングをお試し。登録なしで無料体験できます。オリジナル練習です。'
         )
-        try_og_description = f'登録なしで{label}の文法とリスニングを体験。'
+        try_og_description = f'登録なしで英検®{label}の文法とリスニングを体験。'
 
     return render(
         request,
