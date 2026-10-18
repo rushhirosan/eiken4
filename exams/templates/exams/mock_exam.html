@@ -17,7 +17,7 @@
 
 {% block content %}
 <div class="container mt-4">
-    {% if level == '3' %}
+    {% if level == '3' or level == 'pre2' %}
     <p class="text-muted small mb-3">この模擬試験は選択式・読解・リスニングが中心です。ライティング・スピーキングは専用メニューで別に練習してください。</p>
     {% endif %}
     <h1 class="mb-3">模擬試験問題（{{ level_display }}）</h1>
@@ -171,7 +171,7 @@
         <div class="row">
             <div class="col-12">
                 <div class="mock-section-banner">
-                    <h5>第1部: リスニングイラスト問題</h5>
+                    <h5>{% if level == 'pre2' %}第1部: 会話の応答{% else %}第1部: リスニングイラスト問題{% endif %}</h5>
                 </div>
             </div>
         </div>
@@ -184,9 +184,11 @@
                             問題 {{ question.question_number }}
                         </h5>
                         
+                        {% if question.question.image %}
                         <div class="listening-illustration-img-wrap">
                             <img src="{% static question.question.image %}" alt="問題のイラスト" class="listening-illustration-img">
                         </div>
+                        {% endif %}
                         <div class="text-center listening-illustration-audio-wrap">
                             <audio controls>
                                 <source src="{% static question.question.audio %}" type="audio/mpeg">
@@ -278,9 +280,11 @@
                             問題 {{ question.question_number }}
                         </h5>
                         
+                        {% if question.question.image %}
                         <div class="listening-illustration-img-wrap">
                             <img src="{% static question.question.image %}" alt="問題のイラスト" class="listening-illustration-img">
                         </div>
+                        {% endif %}
                         <div class="text-center listening-illustration-audio-wrap">
                             <audio controls>
                                 <source src="{% static question.question.audio %}" type="audio/mpeg">

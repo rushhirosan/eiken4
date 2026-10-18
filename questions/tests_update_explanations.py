@@ -94,7 +94,64 @@ class UpdateExplanationsCommandTest(TestCase):
         call_command('update_explanations', level='4', category='listening')
         self.lq.refresh_from_db()
         self.assertTrue(self.lq.explanation.startswith('放送文'))
+        self.assertEqual(self.lq.listening_text, '')
         self.assertEqual(ListeningUserAnswer.objects.filter(user=self.user).count(), 1)
+
+    def test_pre2_listening_illustration_syncs_broadcast_script(self):
+        from questions.explanation_sync import extract_listening_illustration_script
+
+        script = extract_listening_illustration_script(
+            'No.1:\n'
+            'M: The guest has not arrived.\n'
+            'W: The talk is supposed to start at two.\n'
+            'M: Shall I call the teacher?\n'
+            '\n'
+            'Question No.1:\n'
+            '1. The guest is still at the station.\n'
+        )
+        self.assertEqual(
+            script,
+            'M: The guest has not arrived.\n'
+            'W: The talk is supposed to start at two.\n'
+            'M: Shall I call the teacher?',
+        )
+        self.assertNotIn('The guest is still at the station.', script)
+
+        q = ListeningQuestion.objects.create(
+            provenance=PROVENANCE_ORIGINAL,
+            question_text='',
+            listening_text='',
+            image='',
+            audio='audio/levelpre2/part1/listening_illustration_question12.mp3',
+            correct_answer='1',
+            explanation='古い解説',
+            level='pre2',
+        )
+        ListeningChoice.objects.create(
+            question=q, choice_text='1', is_correct=False, order=1
+        )
+        ListeningChoice.objects.create(
+            question=q, choice_text='2', is_correct=True, order=2
+        )
+        ListeningUserAnswer.objects.create(
+            user=self.user, question=q, selected_answer='2', is_correct=True
+        )
+
+        call_command(
+            'update_explanations',
+            level='pre2',
+            category='listening_illustration',
+            original=True,
+        )
+        q.refresh_from_db()
+        self.assertIn('Shall I call the teacher?', q.listening_text)
+        self.assertIn('The guest has not arrived.', q.listening_text)
+        self.assertNotIn('Yes, please call her now.', q.listening_text)
+        self.assertIn('Shall I call the teacher?', q.explanation)
+        self.assertEqual(
+            ListeningUserAnswer.objects.filter(user=self.user, question=q).count(),
+            1,
+        )
 
     def test_reading_updates_without_deleting_passage(self):
         call_command(

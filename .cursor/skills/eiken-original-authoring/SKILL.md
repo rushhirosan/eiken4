@@ -1,13 +1,13 @@
 ---
 name: eiken-original-authoring
-description: Creates original (provenance=original) practice questions for えいごごはん by level and category. Use when asked to 作問, add original questions, write 5級/4級/3級 grammar, conversation, word order, listening, speaking, reading, or writing items for data/questions/original/.
+description: Creates original (provenance=original) practice questions for えいごごはん by level and category. Use when asked to 作問, add original questions, write 5級/4級/3級/準2級 grammar, conversation, word order, listening, speaking, reading, or writing items for data/questions/original/.
 ---
 
 # Original Question Authoring
 
 子供向けオリジナル練習問題を、公式由来ファイルを見ずに新規作成する。
 
-公開用の置き場は `data/questions/original/level{5|4|3}/` のみ。既存の `data/questions/*.txt`・`level3/`・`level5/` や `data/pdf_import/` には書かない。
+公開用の置き場は `data/questions/original/level{5|4|3|pre2}/` のみ。既存の `data/questions/*.txt`・`level3/`・`level5/` や `data/pdf_import/` には書かない。準2級の枠は [references/pre2.md](references/pre2.md)。3級の節を準2級に流用しない。
 
 ## Inputs to confirm
 
@@ -30,7 +30,7 @@ description: Creates original (provenance=original) practice questions for え�
 | `reading_comprehension` 読解 | × | ○ | ○ | [reading_comprehension.md](references/reading_comprehension.md) |
 | `writing` ライティング | × | × | ○ | [writing.md](references/writing.md) |
 
-5級に読解・ライティング・`listening_passage` は作らない。5級リスニング第3部は文章問題ではなく **イラスト一致**（`listening_illustration` の No.101+）。
+5級に読解・ライティング・`listening_passage` は作らない。5級リスニング第3部は文章問題ではなく **イラスト一致**（`listening_illustration` の No.101+）。準2級は上表の3級列ではなく [references/pre2.md](references/pre2.md)。語順は作らない。
 
 ## 公式形式（必須）
 
@@ -98,6 +98,25 @@ description: Creates original (provenance=original) practice questions for え�
 
 学習の伸びやすい順（参考）: 単語 → 穴埋め → ライティング（Eメール→意見） → 長文 → リスニング → 面接。
 
+### 準2級（一次＋二次。語句整序なし）
+
+正本は [references/pre2.md](references/pre2.md)。3級の語数・タスクを準2級に使わない。他級の表示と登録は変えない。
+
+| 技能 | 枠 | 本番の形 |
+|------|----|----------|
+| R | 短文空所 | 15。語彙・句。3級文法の穴埋めにしない |
+| R | 会話空所 | 5。約65語。空所は文の途中の句 |
+| R | 長文の語句空所 | 1本・空所2・句の4肢。設問は日本語 |
+| R | 内容一致 | メール約200語＋3問、説明文約250語以上＋4問。本文を分ける |
+| W | Eメール | 友人メール約65〜70語。下線は1か所。最後の Do you think に理由1つ、その下線への質問2つ。本文40〜50語 |
+| W | 意見 | 1文の QUESTION。理由2つ。50〜60語 |
+| L | 第1部 | 会話の応答10。3肢は放送。イラストなし |
+| L | 第2部 | 会話10。約35〜60語。4肢は冊子 |
+| L | 第3部 | モノローグ10。約60語。質問は言い換えか推測 |
+| S | 面接 | 約50語。絵Aは複数の動作、絵Bは状況。No.3 のあと裏返す |
+
+R+W は80分、L は約25分、面接は約6分。
+
 ### 現行の公開セット件数
 
 本番より多いカテゴリは **練習用増量**。品質レビューで難易度の偏りがないか確認する。
@@ -105,6 +124,7 @@ description: Creates original (provenance=original) practice questions for え�
 - 5級: 文法30・会話30・語順30・L第1部20・L会話20・L第3部10・スピーキング10
 - 4級（inventory 網羅向け最小セット）: 文法40・会話30・語順28・読解本文6/設問20・Lイラスト30・L会話30・L文章28・スピーキング10（比較・熟語・定型応答・L焦点を含める）
 - 3級（inventory 網羅向け最適セット）: 文法50・会話40・語順30・読解本文9/設問30・L各部35・スピーキング10・ライティング12（メール6＋意見6。物語要旨・定型応答・熟語語彙を含める）
+- 準2級（3級の公開セットに揃えた練習量。語句整序は作らない）: 文法50・会話40・読解本文9/設問27（語句空所3・メール3・説明文3）・L各部35・スピーキング10・ライティング12（メール6＋意見6）
 
 5級リスニング TTS は既定 **-15%**（`utils/text_to_speech.py`）。画像はプレースホルダー禁止。白黒線画で会話／正解シーンと一致させる。
 
@@ -139,12 +159,12 @@ data/questions/original/level{N}/writing_questions.txt
 ## Workflow
 
 1. 級・カテゴリ・件数を確定する。級に無いカテゴリなら止める。
-2. 該当の `references/*.md` だけ読む。
+2. 該当の `references/*.md` を読む。級が準2級なら、その前に [references/pre2.md](references/pre2.md) を読む。3級用の語数・タスクは使わない。
 3. 既存の **original** ファイルがあれば末尾番号を確認する（公式由来ファイルは見ない）。
 4. 級の **公式形式表** と該当 `references/*.md` を守って書く。枠・話者・セット構成を独自に変えない。
 5. 解説も同時に書く（詳細は `eiken-explanation-quality-review`）。
 6. `---` 区切り・連番・選択肢数を崩さない。
-7. 追加分の正解番号が極端に偏らないようにする。
+7. 追加分の正解番号が極端に偏らないようにする。場面と曜日も、そのファイルの既存問と合わせて寄らないようにする。準2級の目安は [references/pre2.md](references/pre2.md) の「場面と曜日」。
 8. **カテゴリ固有の検算**を全問でやる（参照の Mandatory check）。語順は枠の手検算に加え、必ず次を実行する:
 
 ```bash
@@ -157,10 +177,13 @@ exit 0 以外なら直し、通るまで次に進まない。
 ## Authoring rules
 
 - 難易度・形式は級の傾向に合わせてよい。中身は完全自作
-- 場面は日常（家・学校・買い物・天気・趣味）。固有の組み合わせを公式と共有しない
+- **語彙・熟語・表現は、その級で意味が取れるものだけを使う。** 一つ上の級の語、専門の用具名・部品名・職業名、基本の意味でない動詞で解かせない。本文・選択肢・質問・放送原稿・絵の描写・参考解答を、書くときに見る。正解に効く語も、本文に出るだけの語も対象
+- 級の外の語が手がかりや場面の中心なら、時刻・条件・誤答の役割は残し、語だけ級内のものに替える。熟語は、その級の定番（4級なら `need to do`, `look for`）に限る
+- 場面は日常（家・学校・買い物・天気・趣味）。学校が一番多くてよいが、連絡・部室・提出ばかりにしない。曜日名を出す問は月〜日に散らす。準2級の数の目安は [references/pre2.md](references/pre2.md) の「場面と曜日」。固有の組み合わせを公式と共有しない
 - 5級: 短文、基本語彙（色・動物・食べ物・曜日・基本動詞・定型表現・前置詞など）、専門用語なし。解説はひらがな多め可
 - 4級: 少し長い会話・簡単な接続詞まで。頻出パターン例: `need to do`, `look for`, `have a good time`, `wait for`, `get up`
 - 3級: 理由・経験・予定。読解は案内・メール・短い物語。4級の焼き直しにしない
+- 準2級: [references/pre2.md](references/pre2.md)。短文空所は語彙・句、メールは Do you think への返答＋質問2つ、内容一致はメール約200語／説明文約250語以上、第1部はイラストなし、第3部は約60語、面接パッセージは約50語。他級に影響させない。高校初級の日常語で書く。用具の専門名、楽器の部品、一つ上の級の句は使わない。外した例は `references/pre2.md` の「語彙」
 - 音声は TTS／自作のみ。画像は自作またはライセンス済みのみ（公式切り出し禁止）
 - イラストが必要なら、テキストを置いたあと `eiken-listening-illustration-images` を使う。参照画像に `data/archived_media/` は使わない
 

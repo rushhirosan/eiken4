@@ -63,6 +63,7 @@ OFFICIAL_GRADE_PAST_QUESTION_URLS: dict[str, str] = {
     '5': 'https://www.eiken.or.jp/eiken/exam/grade_5/',
     '4': 'https://www.eiken.or.jp/eiken/exam/grade_4/',
     '3': 'https://www.eiken.or.jp/eiken/exam/grade_3/',
+    'pre2': 'https://www.eiken.or.jp/eiken/exam/grade_p2/',
 }
 
 
@@ -215,6 +216,25 @@ def resources_page_sections() -> list[ResourcesPageSection]:
                     'title': '3級の英作文・ライティング対策',
                     'reason': 'サイトの自己チェックのあとに、書き方の型を本で確認したいときの選択肢です。',
                     'url': 'https://www.amazon.co.jp/s?k=%E8%8B%B1%E6%A4%9C+3%E7%B4%9A+%E3%83%A9%E3%82%A4%E3%83%86%E3%82%A3%E3%83%B3%E3%82%B0',
+                    'optional': True,
+                },
+            ],
+        },
+        {
+            'level': 'pre2',
+            'level_label': '準2級（ベータ）',
+            'intro': (
+                'ベータ公開です。問題はまだ改善中です。'
+                '短文・会話・長文、Eメールと英作文、リスニング、面接の流れ練習が使えます。'
+                '紙の過去問・問題集は必須ではありません。'
+            ),
+            'official_past_questions_url': OFFICIAL_GRADE_PAST_QUESTION_URLS['pre2'],
+            'official_past_questions_label': '協会の準2級過去問・試験内容ページ（公式）',
+            'tips': [
+                {
+                    'title': '準2級の過去問・問題集',
+                    'reason': '選択・読解・リスニングの通しを一度確かめたいときの参考です。購入の義務はありません。',
+                    'url': 'https://www.amazon.co.jp/s?k=%E8%8B%B1%E6%A4%9C+%E6%BA%96%EF%BC%92%E7%B4%9A+%E9%81%8E%E5%8E%BB%E5%95%8F',
                     'optional': True,
                 },
             ],

@@ -18,15 +18,15 @@
     {% include 'partials/_favicon.html' %}
     
     <!-- SEO Meta Tags -->
-    <meta name="description" content="{% block meta_description %}5級・4級・3級向けの試験形式オリジナル練習を無料で。文法・語彙、会話補充、語順選択、長文読解、リスニング、模擬試験に対応。{% endblock %}">
-    <meta name="keywords" content="えいごごはん,EigoGohan,英語学習,5級,4級,3級,文法,リスニング,長文読解">
+    <meta name="description" content="{% block meta_description %}5級・4級・3級向けの試験形式オリジナル練習を無料で。準2級はベータ公開です。問題はまだ改善中です。{% endblock %}">
+    <meta name="keywords" content="えいごごはん,EigoGohan,英語学習,5級,4級,3級,準2級,文法,リスニング,長文読解">
     <meta name="author" content="{{ SITE_BRAND_NAME }}">
     <meta name="robots" content="{% block robots %}noindex, follow{% endblock %}">
     <link rel="canonical" href="{{ PUBLIC_BASE_URL }}{{ request.path }}">
     
     <!-- Open Graph Meta Tags -->
-    <meta property="og:title" content="{% block og_title %}{{ SITE_BRAND_NAME }} - 5級・4級・3級の無料練習{% endblock %}">
-    <meta property="og:description" content="{% block og_description %}5級・4級・3級向けの試験形式オリジナル練習を無料で。文法・語彙、長文読解、リスニング、模擬試験に対応。{% endblock %}">
+    <meta property="og:title" content="{% block og_title %}{{ SITE_BRAND_NAME }} - 5級・4級・3級・準2級（ベータ）の無料練習{% endblock %}">
+    <meta property="og:description" content="{% block og_description %}5級・4級・3級向けの試験形式オリジナル練習を無料で。準2級はベータ公開です。問題はまだ改善中です。{% endblock %}">
     <meta property="og:type" content="website">
     <meta property="og:url" content="{{ PUBLIC_BASE_URL }}{{ request.path }}">
     <meta property="og:locale" content="ja_JP">
@@ -35,8 +35,8 @@
     
     <!-- Twitter Card Meta Tags -->
     <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="{% block twitter_title %}{{ SITE_BRAND_NAME }} - 5級・4級・3級の無料練習{% endblock %}">
-    <meta name="twitter:description" content="{% block twitter_description %}5級・4級・3級向けの試験形式オリジナル練習を無料で。{% endblock %}">
+    <meta name="twitter:title" content="{% block twitter_title %}{{ SITE_BRAND_NAME }} - 5級・4級・3級・準2級（ベータ）の無料練習{% endblock %}">
+    <meta name="twitter:description" content="{% block twitter_description %}5級・4級・3級向けの試験形式オリジナル練習を無料で。準2級はベータ公開です。問題はまだ改善中です。{% endblock %}">
     <meta name="twitter:image" content="{{ PUBLIC_BASE_URL }}{% static 'eigogohan-og-image.png' %}">
     
     <!-- Structured Data (JSON-LD) -->
@@ -46,7 +46,7 @@
       "@type": "WebApplication",
       "name": "{{ SITE_BRAND_NAME }}",
       "alternateName": "{{ SITE_BRAND_FULL_NAME }}",
-      "description": "5級・4級・3級向けの試験形式オリジナル練習を無料でできる学習サイト。",
+      "description": "5級・4級・3級向けの試験形式オリジナル練習を無料でできる学習サイト。準2級はベータ公開です。問題はまだ改善中です。",
       "url": "{{ PUBLIC_BASE_URL }}",
       "applicationCategory": "EducationalApplication",
       "operatingSystem": "Web Browser",

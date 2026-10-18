@@ -73,8 +73,8 @@ def add_default_register_arguments(parser):
         '--level',
         type=str,
         default='4',
-        choices=['3', '4', '5'],
-        help='試験級（既定: 4）。3/5 のとき data/questions/level{N}/ と DB の level=N を使用。',
+        choices=['3', '4', '5', 'pre2'],
+        help='試験級（既定: 4）。3/5/pre2 のとき data/questions/level{N}/ と DB の level を使用。',
     )
     parser.add_argument(
         '--original',

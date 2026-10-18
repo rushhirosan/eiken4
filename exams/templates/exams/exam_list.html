@@ -10,6 +10,9 @@
             <div class="text-center mb-1 px-2 exam-level-focus">
                 <p class="text-muted small mb-1">現在の試験級</p>
                 <p class="exam-level-focus-title mb-0">{{ active_section.level_name }}</p>
+                {% if active_section.level_code == 'pre2' %}
+                <p class="text-muted small mb-0 mt-1">ベータ公開です。問題はまだ改善中です。</p>
+                {% endif %}
             </div>
 
             {% include 'exams/_habit_status.html' with habit_summary=active_section.habit_summary %}
@@ -69,7 +72,7 @@
                                 {% include 'exams/_foundation_progress.html' %}
                                 {% endwith %}
                             </div>
-                            {% if section.level_code != '3' %}
+                            {% if section.level_code != '3' and section.level_code != 'pre2' %}
                             <div class="col-md-6">
                                 <a href="{% url 'exams:question_list_by_level' level=section.level_code %}?type=word_order" 
                                    class="btn btn-light shadow-sm text-dark w-100 py-2">
@@ -93,7 +96,7 @@
                                 {% endwith %}
                             </div>
                             {% endif %}
-                            {% if section.level_code == '3' %}
+                            {% if section.level_code == '3' or section.level_code == 'pre2' %}
                             <div class="col-md-6 exam-format-item">
                                 <a href="{% url 'exams:question_list_by_level' level=section.level_code %}?type=writing" 
                                    class="btn btn-light shadow-sm text-dark w-100 py-2">
@@ -118,8 +121,14 @@
                             <div class="col-lg-4 col-md-6">
                                 <a href="{% url 'exams:question_list_by_level' level=section.level_code %}?type=listening_illustration" 
                                    class="btn btn-light shadow-sm text-dark w-100 py-2" style="white-space: nowrap;">
+                                    {% if section.level_code == 'pre2' %}
+                                    <i class="fas fa-comments me-2"></i>
+                                    {% else %}
                                     <i class="fas fa-image me-2"></i>
-                                    {% if section.level_code == '5' %}
+                                    {% endif %}
+                                    {% if section.level_code == 'pre2' %}
+                                    第1部: 会話の応答（{{ section.question_counts.listening_illustration }}問）
+                                    {% elif section.level_code == '5' %}
                                     第1部: 会話応答（{{ section.question_counts.listening_illustration }}問）
                                     {% else %}
                                     第1部: イラスト問題（{{ section.question_counts.listening_illustration }}問）
@@ -191,7 +200,7 @@
                                             <span class="fw-semibold">模擬試験</span>
                                             {% if summary.mock_unlocked %}
                                             <span class="badge bg-success">解放済み</span>
-                                            {% elif section.level_code == '3' %}
+                                            {% elif section.level_code == '3' or section.level_code == 'pre2' %}
                                             <span class="text-muted">{{ summary.mock_cleared_count }}/{{ summary.mock_total_count }}カテゴリ達成（各{{ summary.mock_required_rate }}%以上）※ライティングは含みません</span>
                                             {% else %}
                                             <span class="text-muted">{{ summary.mock_cleared_count }}/{{ summary.mock_total_count }}カテゴリ達成（各{{ summary.mock_required_rate }}%以上）</span>
@@ -259,20 +268,22 @@
                                 </div>
                         </div>
 
-                        {% if section.level_code == '5' or section.level_code == '4' or section.level_code == '3' %}
-                        <!-- スピーキング（5・4=任意 / 3=二次試験） -->
+                        {% if section.level_code == '5' or section.level_code == '4' or section.level_code == '3' or section.level_code == 'pre2' %}
+                        <!-- スピーキング（5・4=任意 / 3・準2=二次試験） -->
                         <div class="row mt-4 g-3">
                             <div class="col-12">
                                 <h5 class="exam-format-section-label mb-2 h6 fw-semibold">
                                     <i class="fas fa-microphone-alt me-2"></i>
-                                    {% if section.level_code == '3' %}
+                                    {% if section.level_code == '3' or section.level_code == 'pre2' %}
                                     スピーキング（二次試験）
                                     {% else %}
                                     スピーキング（任意）
                                     {% endif %}
                                 </h5>
                                 <p class="small text-muted mb-2">
-                                    {% if section.level_code == '3' %}
+                                    {% if section.level_code == 'pre2' %}
+                                    準2級の二次試験は面接形式です。パッセージの音読、イラスト、自分の意見まで、ここでは流れを練習できます。
+                                    {% elif section.level_code == '3' %}
                                     3級の二次試験は面接形式です。一次試験合格後に進む本番の流れを、ここでは練習できます。
                                     {% elif section.level_code == '4' %}
                                     面接官と会わず、家のパソコンやスマホで声を録音して出すテストです。会場に行かず、好きなときに受けられ、合否には関係ありません（任意）。

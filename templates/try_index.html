@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>英検®5級・4級・3級のお試し問題（登録不要） - えいごごはん</title>
     {% include 'partials/_favicon.html' %}
-    <meta name="description" content="英検®5級・4級・3級のお試し問題。登録なしで文法とリスニングを1問ずつ体験できます。オリジナル練習です。">
+    <meta name="description" content="英検®5級・4級・3級のお試し問題。登録なしで文法とリスニングを1問ずつ体験できます。オリジナル練習です。準2級はベータ公開です。問題はまだ改善中で、お試し問題はまだありません。">
     <meta name="robots" content="index, follow">
     <link rel="canonical" href="https://eigogohan.com/try/">
     <meta property="og:title" content="英検®5級・4級・3級のお試し問題（登録不要） - えいごごはん">
@@ -139,6 +139,7 @@
             アカウントなしで、級ごとの<strong>文法・リスニング</strong>
             （4級・3級は<strong>長文</strong>も）を体験できます。
             本番と同じ画面イメージで解けるので、登録前に雰囲気を確認してください。
+            準2級はベータ公開です。問題はまだ改善中で、お試し問題はまだありません。
         </p>
 
         <div class="row g-3 mb-4">
@@ -166,6 +167,14 @@
                 {% endif %}
             </div>
             {% endfor %}
+            <div class="col-md-4">
+                <div class="card level-card disabled">
+                    <div class="card-body">
+                        <h2 class="h5 fw-bold mb-2">準2級（ベータ）</h2>
+                        <p class="text-muted mb-0 small">ベータ公開です。問題はまだ改善中です。お試し問題はまだありません。</p>
+                    </div>
+                </div>
+            </div>
         </div>
 
         <div class="card">

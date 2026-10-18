@@ -39,7 +39,7 @@ Question No.2:
 放送文：How much is this notebook?（このノートはいくらですか）
 
 「いくら？」と値段を聞いているので、1「It's 80 yen.（80円です）」が合います。
-3「It's on the desk.（机の上）」は場所、2「It's Mira's.（ミラのものです）」は持ち主で、値段ではありません。
+3「It's on the desk.（机の上）」は場所、2「It's Mira's.（ミラの物です）」は持ち主で、値段ではありません。
 How much と聞こえたら、円などの値段を探します。
 
 【ポイント2】
@@ -117,7 +117,7 @@ Question No.5:
 放送文：Where do you do your homework?（宿題はどこでしますか）
 
 「どこで？」と場所を聞いているので、3「In my room.（自分の部屋で）」が合います。
-2「After dinner.（夕ごはんのあと）」はいつ、1「Math and English.（算数と英語）」は教科で、場所ではありません。
+2「After dinner.（夕ごはんの後）」はいつ、1「Math and English.（算数と英語）」は教科で、場所ではありません。
 Where と聞こえたら、in / at / on + 場所 を探します。
 
 【ポイント5】
@@ -195,7 +195,7 @@ Question No.8:
 放送文：How do you go to the pool?（プールにはどうやって行きますか）
 
 「どうやって行く？」と行き方を聞いているので、3「By bike.（自転車で）」が合います。
-2「At my house.（家で）」は場所、1「With my sister.（妹と）」はだれと行くかで、行き方ではありません。
+2「At my house.（家で）」は場所、1「With my sister.（妹と）」は誰と行くかで、行き方ではありません。
 How do you go と聞こえたら、By bike や By bus のような行き方を探します。
 
 【ポイント8】
@@ -270,9 +270,9 @@ Question No.101:
 2. The girl is watering the flowers.
 
 【解説101】
-放送された3つの英文から、イラストに合うものを選びます。
+放送された3つの英文から、イラストに合う物を選びます。
 イラストは、女の子が花に水をやっています。2「The girl is watering the flowers.（女の子は花に水をやっている）」が合います。
-3「The girl is picking the flowers.（女の子は花を摘んでいる）」は摘む、1「The girl is drawing the flowers.（女の子は花を絵にかいている）」は描く、でイラストと違います。
+3「The girl is picking the flowers.（女の子は花を摘んでいる）」は摘む、1「The girl is drawing the flowers.（女の子は花を絵に描いている）」は描く、でイラストと違います。
 watering / picking / drawing の動詞を聞き分けます。
 
 【ポイント101】
@@ -295,7 +295,7 @@ Question No.102:
 3. The books are on the desk.
 
 【解説102】
-放送された3つの英文から、イラストに合うものを選びます。
+放送された3つの英文から、イラストに合う物を選びます。
 イラストは、本が机の上にあります。3「The books are on the desk.（本は机の上にある）」が合います。
 2「The books are under the desk.（本は机の下にある）」も、1「The books are in the desk.（本は机の中にある）」も、場所が違います。
 on（上）/ under（下）/ in（中）を聞き分けます。
@@ -320,7 +320,7 @@ Question No.103:
 1. The boy is putting on his coat.
 
 【解説103】
-放送された3つの英文から、イラストに合うものを選びます。
+放送された3つの英文から、イラストに合う物を選びます。
 イラストは、男の子がコートを着ています。1「The boy is putting on his coat.（男の子はコートを着ている）」が合います。
 2「The boy is taking off his coat.（男の子はコートを脱いでいる）」も、3「The boy is washing his coat.（男の子はコートを洗っている）」も、動きが違います。
 putting on（着る）/ taking off（脱ぐ）/ washing（洗う）を聞き分けます。
@@ -345,7 +345,7 @@ Question No.104:
 3. The dog is sitting by the door.
 
 【解説104】
-放送された3つの英文から、イラストに合うものを選びます。
+放送された3つの英文から、イラストに合う物を選びます。
 イラストは、犬がドアのそばに座っています。3「The dog is sitting by the door.（犬はドアのそばに座っている）」が合います。
 1「The dog is sleeping by the door.（犬はドアのそばで寝ている）」も、2「The dog is running to the door.（犬はドアへ走っている）」も、動きが違います。
 sitting / sleeping / running の動詞を聞き分けます。
@@ -370,7 +370,7 @@ Question No.105:
 1. Mom is cutting the bread.
 
 【解説105】
-放送された3つの英文から、イラストに合うものを選びます。
+放送された3つの英文から、イラストに合う物を選びます。
 イラストは、お母さんがパンを切っています。1「Mom is cutting the bread.（お母さんはパンを切っている）」が合います。
 3「Mom is buying the bread.（お母さんはパンを買っている）」も、2「Mom is eating the bread.（お母さんはパンを食べている）」も、動きが違います。
 cutting / buying / eating の動詞を聞き分けます。
@@ -525,7 +525,7 @@ Question No.106:
 2. The girl is brushing her teeth.
 
 【解説106】
-放送された3つの英文から、イラストに合うものを選びます。
+放送された3つの英文から、イラストに合う物を選びます。
 イラストは、女の子が歯を磨いています。2「The girl is brushing her teeth.（女の子は歯を磨いている）」が合います。
 3「The girl is washing her face.（女の子は顔を洗っている）」も、1「The girl is eating candy.（女の子はキャンディを食べている）」も、動きが違います。
 brushing / washing / eating の動詞を聞き分けます。
@@ -550,7 +550,7 @@ Question No.107:
 2. The children are building a snowman.
 
 【解説107】
-放送された3つの英文から、イラストに合うものを選びます。
+放送された3つの英文から、イラストに合う物を選びます。
 イラストは、子どもたちが雪だるまを作っています。2「The children are building a snowman.（子どもたちは雪だるまを作っている）」が合います。
 3「The children are throwing snowballs.（子どもたちは雪玉を投げている）」も、1「The children are skiing.（子どもたちはスキーをしている）」も、動きが違います。
 building / throwing / skiing の動詞を聞き分けます。
@@ -575,7 +575,7 @@ Question No.108:
 1. The man is fixing the bike.
 
 【解説108】
-放送された3つの英文から、イラストに合うものを選びます。
+放送された3つの英文から、イラストに合う物を選びます。
 イラストは、男性が自転車を直しています。1「The man is fixing the bike.（男性は自転車を直している）」が合います。
 3「The man is riding the bike.（男性は自転車に乗っている）」も、2「The man is selling the bike.（男性は自転車を売っている）」も、動きが違います。
 fixing / riding / selling の動詞を聞き分けます。
@@ -600,7 +600,7 @@ Question No.109:
 3. The shoes are by the door.
 
 【解説109】
-放送された3つの英文から、イラストに合うものを選びます。
+放送された3つの英文から、イラストに合う物を選びます。
 イラストは、靴がドアのそばにあります。3「The shoes are by the door.（靴はドアのそばにある）」が合います。
 1「The shoes are on the table.（靴はテーブルの上にある）」も、2「The shoes are in the river.（靴は川の中にある）」も、場所が違います。
 by（そば）/ on（上）/ in（中）を聞き分けます。
@@ -625,9 +625,9 @@ Question No.110:
 2. The woman is reading a magazine.
 
 【解説110】
-放送された3つの英文から、イラストに合うものを選びます。
+放送された3つの英文から、イラストに合う物を選びます。
 イラストは、女性が雑誌を読んでいます。2「The woman is reading a magazine.（女性は雑誌を読んでいる）」が合います。
-3「The woman is writing a letter.（女性は手紙を書いている）」も、1「The woman is folding clothes.（女性は服をたたんでいる）」も、動きが違います。
+3「The woman is writing a letter.（女性は手紙を書いている）」も、1「The woman is folding clothes.（女性は服を畳んでいる）」も、動きが違います。
 reading / writing / folding の動詞を聞き分けます。
 
 【ポイント110】
@@ -677,9 +677,9 @@ Question No.17:
 【解説17】
 放送文：Your new bag looks great!（新しいかばん、すてきですね）
 
-ほめ言葉への返事は感謝です。1「Thank you!（ありがとう）」が合います。
+褒め言葉への返事は感謝です。1「Thank you!（ありがとう）」が合います。
 3「On Tuesday.（火曜日に）」は曜日、2「I'm eight.（8歳です）」は年齢で、ほめへの返事ではありません。
-looks great とほめられたら、Thank you. を探します。
+looks great と褒められたら、Thank you. を探します。
 
 【ポイント17】
 種別: 会話
@@ -727,16 +727,16 @@ Question No.19:
 3. They're Sora's.
 
 【解説19】
-放送文：Whose crayons are on the table?（テーブルの上のクレヨンはだれのですか）
+放送文：Whose crayons are on the table?（テーブルの上のクレヨンは誰のですか）
 
-「だれの？」と持ち主を聞いているので、3「They're Sora's.（ソラのものです）」が合います。
+「誰の？」と持ち主を聞いているので、3「They're Sora's.（ソラの物です）」が合います。
 1「In the fridge.（冷蔵庫の中）」は場所、2「It's cloudy.（曇りです）」は天気で、持ち主ではありません。
 Whose と聞こえたら、人の名前 + 's を探します。
 
 【ポイント19】
 種別: 会話
 見出し: Whose 〜? には「誰の」で答える
-・They're Sora's. = ソラのものです
+・They're Sora's. = ソラの物です
 ・場所や天気は持ち主の答えではない
 
 ---

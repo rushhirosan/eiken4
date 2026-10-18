@@ -56,6 +56,8 @@ python manage.py update_explanations --level 3 --category all --dry-run
 python manage.py update_listening_explanations --level 4
 ```
 
+準2級の original は `--level pre2 --original`（`data/questions/original/levelpre2/`）。`utils/eiken_paths.py` の `questions_txt()` は original を指さない。第3部の音声は `--level pre2 --part 3 --passage-txt data/questions/original/levelpre2/listening_passage_questions.txt`。`register_writing_questions` は級の既存ライティングを削除する。3級では実行しない。
+
 **進捗を消したくないとき**は `register_*` / `create_*`（削除→再作成）を使わず、次を使う。
 - 解説、および会話補充の選択肢文言: `update_explanations`（Choice 行は消さない）
 - スピーキング本文・speaking_data の差し替え: `register_speaking_questions --level 3 --original --in-place`

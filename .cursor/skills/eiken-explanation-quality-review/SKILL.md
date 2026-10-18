@@ -9,7 +9,7 @@ description: Reviews and rewrites explanations for original Eiken-style practice
 
 ## Inputs to confirm
 
-- 級（`5` / `4` / `3`）
+- 級（`5` / `4` / `3` / `pre2`）
 - カテゴリ
 - 対象範囲（全件 or 番号レンジ）
 
@@ -49,6 +49,12 @@ description: Reviews and rewrites explanations for original Eiken-style practice
 - 根拠を本文・会話の該当箇所に結びつける
 - ひっかけ（別の話者の情報、補足情報）を明示する
 - 用語は最小限。使うなら例とセット
+
+### 準2級
+
+- 密度は3級と同じ。根拠の文を指す
+- 語句空所は、時制の名前より先に手がかり（2文目、because、that）を示す
+- 内容一致・リスニングは、誤答が本文のどの事実に引っ張られているかを書く
 
 ## Workflow
 

@@ -1673,10 +1673,70 @@ class ListeningIllustrationScoringTest(TestCase):
         self.assertEqual(response.status_code, 200)
         self.assertTemplateUsed(response, 'exams/question_list.html')
         content = response.content.decode()
+        self.assertIn('リスニング第1部: イラスト問題', content)
         self.assertIn('question-list-row', content)
         self.assertIn(f'name="answer_lq_{self.question.id}"', content)
         self.assertNotIn('type="radio" name="question_', content)
         self.assertLess(content.find('for="status"'), content.find('for="num_questions"'))
+
+    def test_pre2_listening_illustration_shows_script_only_on_results(self):
+        """準2級第1部は試験中は音声のみ。結果画面に放送文を出す。"""
+        script = (
+            'M: The guest has not arrived.\n'
+            'W: The talk is supposed to start at two.\n'
+            'M: Shall I call the teacher?'
+        )
+        question = ListeningQuestion.objects.create(
+            provenance=PROVENANCE_ORIGINAL,
+            question_text='',
+            listening_text=script,
+            image='',
+            audio='audio/levelpre2/part1/listening_illustration_question12.mp3',
+            correct_answer='2',
+            explanation='最後は Shall I call the teacher? です。',
+            level='pre2',
+        )
+        for order, correct in ((1, False), (2, True), (3, False)):
+            ListeningChoice.objects.create(
+                question=question,
+                choice_text=str(order),
+                is_correct=correct,
+                order=order,
+            )
+
+        listing = self.client.get(
+            reverse('exams:question_list_by_level', kwargs={'level': 'pre2'}),
+            {
+                'type': 'listening_illustration',
+                'status': 'unanswered',
+                'num_questions': '5',
+            },
+        )
+        self.assertEqual(listing.status_code, 200)
+        self.assertContains(listing, f'name="answer_lq_{question.id}"')
+        self.assertNotContains(listing, 'Shall I call the teacher?')
+        self.assertNotContains(listing, 'The guest has not arrived.')
+
+        submitted = self.client.post(
+            reverse('exams:submit_answers', kwargs={'level': 'pre2'}),
+            {
+                'question_type': 'listening_illustration',
+                'num_questions': '5',
+                f'answer_lq_{question.id}': '2',
+            },
+        )
+        self.assertEqual(submitted.status_code, 302)
+
+        results = self.client.get(
+            reverse(
+                'exams:answer_results',
+                kwargs={'level': 'pre2', 'question_type': 'listening_illustration'},
+            )
+        )
+        self.assertEqual(results.status_code, 200)
+        self.assertContains(results, 'The guest has not arrived.')
+        self.assertContains(results, 'Shall I call the teacher?')
+        self.assertContains(results, '正解です')
 
     def test_listening_illustration_part3_uses_shared_question_list_template(self):
         """5級イラスト一致も question_list.html を使う（デグレ防止）"""

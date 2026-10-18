@@ -3,6 +3,7 @@
 Never deletes Question / ListeningQuestion / ReadingQuestion / Choice rows.
 For conversation_fill, also rewrites Choice.choice_text and is_correct on the same rows.
 For listening_illustration, also syncs correct_answer and ListeningChoice.is_correct.
+For pre2 listening_illustration, also syncs listening_text (the broadcast script).
 """
 
 from __future__ import annotations
@@ -426,6 +427,24 @@ def update_reading_comprehension(level: str, dry_run: bool, log, warn, *, origin
     return updated
 
 
+def extract_listening_illustration_script(block: str) -> str:
+    """No.N と Question No.N のあいだの放送文。選択肢・正解・解説は含めない。"""
+    match = re.search(
+        r'No\.\d+:\s*(.*?)(?=\n\s*Question No\.)',
+        block,
+        re.DOTALL,
+    )
+    if not match:
+        return ''
+    lines = []
+    for line in match.group(1).splitlines():
+        stripped = line.strip()
+        if not stripped or stripped == '(イラスト一致問題)':
+            continue
+        lines.append(stripped)
+    return '\n'.join(lines)
+
+
 def update_listening_illustration(level: str, dry_run: bool, log, warn, *, original: bool = False) -> int:
     from questions.models import ListeningChoice
 
@@ -436,11 +455,19 @@ def update_listening_illustration(level: str, dry_run: bool, log, warn, *, origi
         if number is None or not explanation:
             continue
         correct_order = extract_no_correct_order(block)
-        qs = ListeningQuestion.objects.filter(
-            level=level,
-            image__endswith=f'listening_illustration_image{number}.png',
-            **_provenance_kwargs(original),
-        )
+        # 準2級第1部は image が空。番号は音声ファイル名にある。
+        if str(level) == 'pre2':
+            qs = ListeningQuestion.objects.filter(
+                level=level,
+                audio__endswith=f'listening_illustration_question{number}.mp3',
+                **_provenance_kwargs(original),
+            )
+        else:
+            qs = ListeningQuestion.objects.filter(
+                level=level,
+                image__endswith=f'listening_illustration_image{number}.png',
+                **_provenance_kwargs(original),
+            )
         count = qs.count()
         if count == 0:
             warn(f'listening_illustration No.{number}: DBに該当なし')
@@ -452,6 +479,15 @@ def update_listening_illustration(level: str, dry_run: bool, log, warn, *, origi
                 update_fields['study_points'] = study_points
             if correct_order is not None:
                 update_fields['correct_answer'] = str(correct_order)
+            if str(level) == 'pre2':
+                script = extract_listening_illustration_script(block)
+                if script:
+                    update_fields['listening_text'] = script
+                else:
+                    warn(
+                        f'listening_illustration No.{number}: '
+                        '放送文なし（listening_text は未更新）'
+                    )
             qs.update(**update_fields)
             if correct_order is not None:
                 for question in qs:

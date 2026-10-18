@@ -11,7 +11,7 @@ description: Reviews and improves the 【ポイント】 study-point blocks atta
 
 ## Inputs to confirm
 
-- 級（`5` / `4` / `3`）とカテゴリ
+- 級（`5` / `4` / `3` / `pre2`）とカテゴリ
 - 対象範囲（全件 or 番号レンジ）
 - 新規付与か、既存ポイントのレビューか
 
@@ -61,6 +61,13 @@ description: Reviews and improves the 【ポイント】 study-point blocks atta
 - 変化形・活用をまとめて置く（`see - saw - seen`）
 - 紛らわしい相手との違いを1本入れる（`made of` と `made from`）
 - 例文の型を書く（`If it rains tomorrow, we will 〜`）
+
+### 準2級
+
+- 見出しは手がかり（2文目、because、下線、絵の複数の動作）
+- 多義の語は、裸の語 = 一つの意味にしない。`=` の左はこの文のかたまり。別の意味は1行だけ
+- 3級の時制・受動態の見出しを、語彙問題に付けない
+- ライティングは「最後の質問に理由1つ、そのあと質問2つ」「意見のあと理由2つ」
 
 ## Good / Bad
 

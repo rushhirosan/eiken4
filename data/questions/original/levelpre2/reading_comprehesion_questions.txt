@@ -1,0 +1,755 @@
+本文1
+Ken's Lunch Notes
+
+Ken started a notebook called Lunch Notes. Every weekday, he wrote the name of the main dish at the neighborhood cafe. His neighbors soon asked him to explain why some lunches were better than others. ( 1 ), Ken began to add a short comment under each dish name.
+
+Ms. Ito, the cafe owner, read the notebook. She asked Ken to put one page on the cafe board each Tuesday. Customers could draw a star when they agreed with a comment. After a month, the cooks asked to see the stars. They did not change the whole menu. They ( 2 ).
+
+Ken learned that simple notes can help other people when the notes are clear and regular.
+
+問題1a:
+( 1 ) に入れるのに最も適切なものを、1、2、3、4 の中から一つ選びなさい。
+
+選択肢1a:
+1. Before he bought a new notebook
+2. Until Ms. Ito locked the cafe
+3. Although the cafe was closed that week
+4. Because his neighbors wanted more than a list of names
+
+【正解1a】
+4. Because his friends wanted more than a list of names
+
+【解説1a】
+直前の文は、近所の人が「なぜその昼食の方がよいのか説明してほしい」と頼んだ、です。( 1 ) はその理由で、Ken が料理名の下に短いコメントを書き始めたことにつながります。Because his neighbors wanted more than a list of names が合います。
+1 Before he bought a new notebook は、ノートを買う前にコメントを書き始めたことになり、話の順と逆です。2 Until Ms. Ito locked the cafe は「店主がカフェを鍵で閉めるまで」で、コメントを書き始めた理由になりません。3 Although the cafe was closed that week は「カフェが閉まっていたけれども」で、本文にそんな週はありません。
+
+【ポイント1a】
+種別: 読解
+見出し: Because のかたまり は直前の理由とつなぐ
+・空所には1語ではなく、文のかたまりが入る
+・Because のあとは、前の文で述べた理由になる
+・逆の内容 ← Although。時の前後 ← Before / Until
+
+問題1b:
+( 2 ) に入れるのに最も適切なものを、1、2、3、4 の中から一つ選びなさい。
+
+選択肢1b:
+1. started serving warm rice more often
+2. asked Ken to cook the Tuesday lunch
+3. threw the notebook into the trash
+4. closed the cafe on Mondays
+
+【正解1b】
+1. started serving warm rice more often
+
+【解説1b】
+調理員は星の数を見て、メニュー全体は変えませんでした。そのあとの They ( 2 ) は、変えなかったことと対になる、実際に始めたことです。温かいご飯をより頻繁に出した、が本文の流れです。最後の段落も、メモが人の役に立ったとまとめています。
+2 は Ken に火曜の昼食を作らせた、とは書いてありません。3 はノートを捨てた、だと「メモが役に立った」という結びと逆です。4 は月曜にカフェを閉めた、とも書いてありません。did not change the whole menu のあとなので、全部をやめた選択肢は合いません。
+
+【ポイント1b】
+種別: 読解
+見出し: did not のあとは、実際にしたこと
+・A ではなく別の行動 ← They did not A. They ( ).
+・空所のかたまりは、うしろのまとめの文とも矛盾しない
+・本文にない行動（捨てる、閉めさせる）は入れない
+
+---
+
+本文2
+From: Nao
+To: Elena
+Date: October 9
+Subject: Friday star night
+
+Hi Elena,
+
+The science club will hold a star night this Friday. We will meet on the school roof at 7:00 if the sky is clear. Please do not go to the science room first. The roof gets cold after sunset, so bring a jacket. The teacher will bring two telescopes. You do not need your own, but you will share one with another student.
+
+I also need to tell you something about the number of people. The roof is safe for only sixteen students. Your classmate Mio asked me yesterday if she could come with you. I would like to say yes, but the list already has sixteen names. Because she asked after the list was closed, there is no space left for her.
+
+You can still come, and I hope you will. If Mio wants a place, she should wait to see whether someone cancels by Thursday noon. I will write to her if a space opens. If it rains, we will not use the roof. We will meet in the science room at the same time and watch a short video about the moon instead. We will finish by 8:30 either way.
+
+Please tell me by Thursday morning if you can come. I have to give the teacher the final list before noon.
+
+See you on Friday,
+Nao
+
+問題2a:
+What is true about Friday's star night?
+
+選択肢2a:
+1. It will be held in the science room if the sky is clear.
+2. The club has never held a star night before.
+3. Elena must bring her own telescope.
+4. More students wanted to come than the roof can hold.
+
+【正解2a】
+4. More students wanted to come than the roof can hold.
+
+【解説2a】
+屋上は16人までです。名簿はすでに16人で、Mio は締切のあとに来たいと言いました。だから、来たい人数が屋上の定員を超えています。
+1 は逆です。晴れているときは屋上で、理科室に先に行かないようにと書いてあります。理科室は雨のときの場所です。3 も逆です。望遠鏡は先生が2台持ってくるので、Elena の自分の望遠鏡は不要です。4 の「初めて」とは書いてありません。
+
+【ポイント2a】
+種別: 読解
+見出し: 定員と、希望した人数を比べる
+・only sixteen と、あとに来た人をセットで読む
+・晴れの場所と、雨の場所を入れ替えない
+・本文に never となければ、「初めて」は選ばない
+
+問題2b:
+Why can't Mio join the star night?
+
+選択肢2b:
+1. She does not have a jacket.
+2. The teacher thinks she is not ready.
+3. She asked after all sixteen places were taken.
+4. Nao canceled the star night on Thursday.
+
+【正解2b】
+3. She asked after all sixteen places were taken.
+
+【解説2b】
+Mio が来られない理由は、"Because she asked after the list was closed, there is no space left for her." です。名簿が16人で締まったあとに頼んだからです。
+1 のジャケットは、Elena への持参の指示で、Mio が断られた理由ではありません。2 は先生が Mio の力不足だと言った、とは書いてありません。Nao は来てほしいと思っています。4 は中止ではありません。誰かが木曜の正午までに取り消せば、空いた席を Mio に知らせます。
+
+【ポイント2b】
+種別: 読解
+見出し: Because のあとが、断りの理由
+・asked after the list was closed が理由
+・本文の別の指示（jacket）を、その人の理由にしない
+・cancel = 「中止」ではなく、空席が出るかもしれない話
+
+問題2c:
+What does Nao want Elena to do?
+
+選択肢2c:
+1. Come on Friday and share a telescope.
+2. Wait until someone cancels, and then decide.
+3. Meet Mio in the science room at noon.
+4. Bring a short video about the moon.
+
+【正解2c】
+1. Come on Friday and share a telescope.
+
+【解説2c】
+Elena への勧めは "You can still come, and I hope you will." です。望遠鏡は自分のを持たず、ほかの生徒と1台を共有します。
+2 は Mio の動きです。席が空くのを待つのは Mio で、Elena ではありません。3 の正午は、木曜に最終名簿を先生へ渡す時刻と、Mio のキャンセル待ちの期限です。理科室で会う時刻ではありません。4 の月のビデオは、雨のときに先生側が見せるもので、Elena が持っていくものではありません。
+
+【ポイント2c】
+種別: 読解
+見出し: 誰への指示かを分ける
+・Elena への勧め ← You can still come
+・Mio への案内 ← wait until someone cancels
+・雨の代わりの予定を、晴れた日の持参物にしない
+
+---
+
+本文3
+The Garden Bell
+
+Last spring, neighbors at North Hill started a small garden behind the community hall. They did not start it because they wanted a quiet place to sit. They wanted fresh herbs for the Tuesday soup night. At first, only six neighbors stayed after work on Wednesdays to water the plants and pull weeds.
+
+In June, the garden almost failed. The six neighbors watered the plants at different times, and on some days nobody came. The soil dried out, and several herb plants died. Mr. Okada, who lives next door, did not close the garden. He hung a small bell by the shed. A neighbor rang it once after watering. The next person, walking over from the hall, could hear the bell and know that the job was already finished. The bell was not a sign that the garden was closed.
+
+By October, the garden was healthy again. The soup night was using the herbs in soup twice a week. It did not change the whole dinner menu. The neighbors also wrote each watering time on a card by the shed. New helpers could read the card and help without stopping Mr. Okada on the path every Wednesday.
+
+The bell is still by the shed, but the neighbors use it less often now. A list on the hall door shows who will water the plants each Wednesday. Any neighbor can join if they bring a pair of gloves. Neighbors without gloves can still read the list, but they cannot work in the garden that day. Mr. Okada says the list, not the bell, is the way to check the plan.
+
+問題3a:
+Why did the neighbors start the garden?
+
+選択肢3a:
+1. To make a quiet place to sit behind the hall.
+2. To grow herbs for the soup night.
+3. To ring a bell for people in the hall.
+4. To give gloves to new helpers.
+
+【正解3a】
+2. To grow herbs for the soup night.
+
+【解説3a】
+始めた理由は "They wanted fresh herbs for the Tuesday soup night." です。その直前で、座るための静かな場所が理由ではない、と否定しています。
+1 は本文が否定している理由です。3 のベルは6月に、水やりがばらばらだったので後から付けたものです。4 の手袋は、今から作業する人の条件で、庭を始めた理由ではありません。
+
+【ポイント3a】
+種別: 読解
+見出し: did not の次の文が本当の理由
+・B が目的 ← They did not A. They wanted B.
+・あとから出てきた道具（bell / gloves）は、最初の理由と限らない
+・Why did they start なら、最初の段落を見る
+
+問題3b:
+Why did Mr. Okada hang a bell by the shed?
+
+選択肢3b:
+1. To show neighbors that the garden was closed.
+2. To call the soup night to dinner.
+3. So the next person would know the watering was finished.
+4. To take the place of the list on the hall door.
+
+【正解3b】
+3. So the next person would know the watering was finished.
+
+【解説3b】
+6月に水やりの時間がばらばらで、来ない日もあり、ハーブが枯れました。Mr. Okada は庭を閉めず、小屋のそばにベルを掛けました。水をやった人が一度鳴らすと、次の人が「もう終わった」と分かります。
+1 は本文の反対です。"The bell was not a sign that the garden was closed." とあります。2 の夕食への呼び出しとは書いてありません。4 も時期が違います。会館のドアの名簿は、今の確認方法です。6月のベルは、その名簿の代わりではありません。
+
+【ポイント3b】
+種別: 読解
+見出し: その読み方を消す ← not a sign
+・ベルの目的 ← could hear the bell and know
+・本文が否定した意味（closed）は選ばない
+・今の道具（list）を、前の季節の理由にしない
+
+問題3c:
+What is true about the garden in October?
+
+選択肢3c:
+1. The soup night used the herbs in soup, but not in every dish.
+2. Nobody wrote the watering times down.
+3. The garden stayed closed after the plants died.
+4. Mr. Okada watered the plants by himself.
+
+【正解3c】
+1. The soup night used the herbs in soup, but not in every dish.
+
+【解説3c】
+10月には庭はまた元気になり、スープの会が週に2回、スープにハーブを使っていました。同時に "It did not change the whole dinner menu." なので、すべての料理に使ったわけではありません。
+2 は逆です。近所の人は水やりの時刻を小屋のカードに書いています。3 も逆です。6月にいくつかのハーブは枯れましたが、Mr. Okada は庭を閉めていません。10月には was healthy again とあります。4 は Mr. Okada が一人で水やりをした、とは書いてありません。
+
+【ポイント3c】
+種別: 読解
+見出し: その段落の事実 ← in October
+・By October の段落が、その時点の事実
+・did not change the whole menu = 「一部だけ変わった」
+・June の失敗を、10月も続いていることとして読まない
+
+問題3d:
+How do neighbors check the Wednesday plan now?
+
+選択肢3d:
+1. They listen for the bell by the shed.
+2. They stop Mr. Okada on the path every Wednesday.
+3. They read a card by the shed.
+4. They read the list on the hall door.
+
+【正解3d】
+4. They read the list on the hall door.
+
+【解説3d】
+最後の段落で、ベルはまだありますが、前ほど使いません。"Mr. Okada says the list, not the bell, is the way to check the plan." なので、今の確認方法は会館のドアの名簿です。
+1 は以前のベルです。今の主な方法ではありません。2 は逆です。新しい人は、毎週道で Mr. Okada を呼び止めなくてよい、と10月の段落にあります。3 のカードは、10月に水やりの時刻を書いたものです。水曜の担当を見る今の方法は、ドアの名簿です。
+
+【ポイント3d】
+種別: 読解
+見出し: 最後の段落の手段 ← now
+・the list, not the bell で、今の方法が一つに決まる
+・前の段落の道具（bell / card）が残っていても、今の確認方法とは限らない
+・without stopping Mr. Okada = 「毎週先生に聞かなくてよい」
+
+---
+
+本文4
+Shop Stories
+
+The broadcast club started a weekly show called Shop Stories. Each week, students visited one neighborhood shop and talked with the owner. At first, they only said the shop's name and its opening hours on air. Listeners then wrote to the club and asked what the owner did during a normal day. ( 1 ), the students began to record a three-minute talk with each owner.
+
+Ms. Abe, the adviser, played those talks in the library at lunch. She did not ask the school to tell students about the shops. After six weeks, two owners invited the club behind the counter. The club did not accept every invitation. They ( 2 ).
+
+By winter, listeners could understand a shop without visiting it first. The students learned that a short talk helps when it answers a question people have already asked.
+
+問題4a:
+( 1 ) に入れるのに最も適切なものを、1、2、3、4 の中から一つ選びなさい。
+
+選択肢4a:
+1. Before any listener wrote to the club
+2. Although the show had already ended
+3. Because the listeners wanted more than a name and the hours
+4. Until Ms. Abe locked the library
+
+【正解4a】
+3. Because the listeners wanted more than a name and the hours
+
+【解説4a】
+直前の文は、聞き手が「店主はふだんの一日に何をしているのか」と手紙で聞いてきた、です。( 1 ) はその理由で、生徒が店主との3分の話を録音し始めたことにつながります。Because the listeners wanted more than a name and the hours が合います。
+1 Before any listener wrote は、手紙の前に録音を始めたことになり、話の順と逆です。2 Although the show had already ended は「番組がすでに終わっていたけれども」で、毎週の番組は続いています。4 Until Ms. Abe locked the library は「先生が図書館を鍵で閉めるまで」で、録音を始めた理由になりません。
+
+【ポイント4a】
+種別: 読解
+見出し: Because のかたまり は直前の頼みとつなぐ
+・空所には1語ではなく、理由のかたまりが入る
+・順序が逆 ← Before。逆の内容 ← Although
+・Until = 「いつまで」で、始めた理由にならない
+
+問題4b:
+( 2 ) に入れるのに最も適切なものを、1、2、3、4 の中から一つ選びなさい。
+
+選択肢4b:
+1. asked the school to tell students about every shop
+2. visited only when the owner could show the work listeners had asked about
+3. ended the show after the second invitation
+4. went back to reading only the opening hours
+
+【正解4b】
+2. visited only when the owner could show the work listeners had asked about
+
+【解説4b】
+クラブはすべての招待を受けたわけではありません。そのあとの They ( 2 ) は、受けなかったことと対になる、実際に選んだことです。最後の段落も、すでに聞かれた質問に答える短い話が役に立つ、とまとめています。聞き手が知りたかった仕事を見せてもらえるときだけ訪ねた、が流れに合います。
+1 は、Ms. Abe が学校に、店のことを生徒へ伝えるよう頼まなかった、と逆です。3 は2件目の招待のあとで番組を終えた、ですが、冬には聞き手が店を理解できるようになっています。4 は、最初にやめていた「店名と営業時間だけ」に戻る、で、3分の話を始めた流れと逆です。
+
+【ポイント4b】
+種別: 読解
+見出し: did not accept every のあとは、選んでしたこと
+・A の全部ではなく一部 ← They did not A. They ( ).
+・うしろのまとめの文と、空所の行動が矛盾しない
+・本文が否定した行動（生徒へ知らせる、時間だけ読む）は入れない
+
+---
+
+本文5
+From: Sora
+To: Mina
+Date: June 3
+Subject: A book behind the desk
+
+Hi Mina,
+
+I help at the used-book corner on Wednesday afternoons. It is not a shop. People leave books they have finished, and others may take one book home for free. I sort them by sticker color, not by the writer's name. Yellow means easy stories, blue means books about jobs, and green means books with maps.
+
+Last Wednesday I found a blue book about bakery work, with photos of ovens. I did not take it home, because helpers may not keep a book on a day they are working. I wrote your name on a card and left the book behind the desk until Friday at noon. After that, it goes back on the open cart.
+
+Please do not come on Wednesday. That is my work day, and friends must follow the same rule. Come on Thursday after school, and arrive by five, because the library closes at six. If you cannot come by Friday noon, tell me on Thursday. I will not mail the book. You must pick it up yourself.
+
+If you also want a yellow story for your cousin, look on the open cart. I cannot hold two books. The card is only for the blue bakery book.
+
+See you,
+Sora
+
+問題5a:
+What is true about the used-book corner?
+
+選択肢5a:
+1. People may take a finished book home without paying.
+2. Helpers may keep any book on the day they work.
+3. Sora sorts the books by the writer's name.
+4. The corner sells maps and job books.
+
+【正解5a】
+1. People may take a finished book home without paying.
+
+【解説5a】
+読み終えた本を置き、ほかの人は1冊を無料で家へ持って帰ってよい、とあります。The corner is not a shop. なので、売る場所ではありません。
+2 は逆です。働いている日に本を取っておくことはできません。Sora がパンの本を持ち帰らなかった理由です。3 も逆です。色のシールで分け、作家の名前では分けません。4 は、緑が地図のある本、青が仕事の本、という意味で、その場で売っているのではありません。
+
+【ポイント5a】
+種別: 読解
+見出し: 無料で持って帰る場所 ← not a shop
+・for free と not a shop をセットで読む
+・作家名ではない ← sort by sticker color
+・働く日の係への禁止 ← helpers may not keep
+
+問題5b:
+Why didn't Sora take the bakery book home on Wednesday?
+
+選択肢5b:
+1. Mina told her to leave it on the cart.
+2. The library was closed on Wednesday afternoon.
+3. The book was a green one, with maps.
+4. Helpers cannot keep a book on the day they work.
+
+【正解5b】
+4. Helpers cannot keep a book on the day they work.
+
+【解説5b】
+理由は "because helpers may not keep a book on a day they are working." です。水曜は Sora の勤務日なので、その日にパンの本を持ち帰ることはできません。
+1 は、Mina がカートに置けと頼んだ、とは書いてありません。Sora が Mina のために机のうしろへ取っておいています。2 は逆です。水曜の午後に Sora はそこで手伝っています。3 も逆です。その本は仕事の本なので青です。緑は地図のある本です。
+
+【ポイント5b】
+種別: 読解
+見出し: because のあとが、持ち帰らなかった理由
+・on a day they are working が禁止の条件
+・青は仕事の本、緑は地図の本
+・持ち帰らずに机のうしろへ置くこと ← hold
+
+問題5c:
+What should Mina do if she wants the bakery book?
+
+選択肢5c:
+1. Come on Wednesday and take it while Sora is working.
+2. Pick it up herself on Thursday, before Friday noon.
+3. Ask Sora to mail it if she is late.
+4. Have Sora hold a yellow book for her cousin at the same time.
+
+【正解5c】
+2. Pick it up herself on Thursday, before Friday noon.
+
+【解説5c】
+Mina への案内は、水曜は来ないこと、木曜の放課後がよいこと、自分で受け取ることです。取り置きは金曜の正午までです。
+1 は、Please do not come on Wednesday. と逆です。勤務日のルールは、友だちも同じように守らなければなりません。3 は、I will not mail the book. とあるので、送ってもらうことはできません。4 は、I cannot hold two books. です。いとこ向けの黄色い本は、その日の開いたカートで自分で見ます。カードは青いパンの本だけです。
+
+【ポイント5c】
+種別: 読解
+見出し: 誰の行動かを、禁止の文とセットで読む
+・Mina への指示 ← do not come on Wednesday
+・遅れても郵送しない ← will not mail
+・黄色い本は対象外 ← cannot hold two books
+
+---
+
+本文6
+Night Market Rules
+
+Riverside School holds a night market every October so clubs can sell one homemade item. It is not a fund-raiser for the school office. Each club keeps its money for its own supplies. In the first year, selling lasted until nine. Neighbors wrote about noise. The principal did not cancel the market. She moved the closing time to seven thirty.
+
+In the second year, clubs could still sell calendars, postcards, and small plants. They could not sell anything that needed a heater or a flame. The cooking club had planned hot soup. It switched to jars of dried herbs, packed at school the day before, not on the market night. A teacher at the gate checked bags. She did not taste the food. She only made sure no club brought a heater.
+
+This year, rain means the gym, and clear weather means the field. The choice is made at noon. A white sign on the front door shows the place. A blue sign means canceled. That blue sign has been used only once, after a typhoon. Parents should read the sign before they park. The field gate opens at six, but cars must park on the street. The gym lot belongs to the city pool on Saturday nights.
+
+A club that finishes early must fold its table and take it to the storage room. The principal says an empty table makes visitors think the club has gone home, even while the market is open. Money is counted in the storage room, not at the table. A folded table means that club has stopped selling. Other clubs may still sell until seven thirty.
+
+問題6a:
+Why did the closing time change after the first year?
+
+選択肢6a:
+1. The school office needed the clubs' money.
+2. Neighbors complained about noise, and the market continued with an earlier end.
+3. The cooking club needed more time to heat soup.
+4. A typhoon forced the school to cancel every October market.
+
+【正解6a】
+2. Neighbors complained about noise, and the market continued with an earlier end.
+
+【解説6a】
+初年度は9時まで売れました。近所の人が音について書き、校長は中止せず、終了を7時30分にしました。質問は、初年度のあとで終了時刻が変わった理由です。
+1 は本文が否定している読みです。市場は事務室の募金ではなく、各クラブが売上を自分たちの用品に使います。3 は2年目の話です。加熱が必要なものは売れなくなり、スープは乾いたハーブに変わりました。終了時刻の理由ではありません。4 は、青い札を台風のあと一度だけ使った、という今年の中止の話です。毎年の中止ではありません。
+
+【ポイント6a】
+種別: 読解
+見出し: did not cancel の次が、実際に変えたこと
+・noise について書いたことが、終了時刻を早めた理由
+・お金が事務室へ行く読みを消す ← not a fund-raiser
+・一度だけの中止 ← typhoon。毎年の理由ではない
+
+問題6b:
+What did the cooking club sell in the second year?
+
+選択肢6b:
+1. Jars of dried herbs, packed the day before.
+2. Hot soup kept warm with a heater.
+3. Food that the teacher tasted at the gate.
+4. Calendars, because herbs were not allowed.
+
+【正解6b】
+1. Jars of dried herbs, packed the day before.
+
+【解説6b】
+調理部は温かいスープを売る予定でしたが、品物を乾燥ハーブの瓶に変えました。ハーブは当日の夜ではなく、前日に学校で詰めました。ヒーターも炎も必要なものは売れません。
+2 は、やめた予定です。heater や flame が必要なものは禁止です。3 は逆です。門の先生は食べ物を味見せず、ヒーターを持ち込んでいないかだけを見ました。4 は、カレンダーは売ってよい品の例です。ハーブが禁止になったのではありません。変わったのはスープの方です。
+
+【ポイント6b】
+種別: 読解
+見出し: had planned と changed で、実際の品を分ける
+・やめた予定 ← planned to sell
+・実際の準備 ← packed the day before
+・先生の仕事から味見を外す ← did not taste
+
+問題6c:
+How can parents tell where the market is?
+
+選択肢6c:
+1. They wait for a blue sign, which means the gym.
+2. They park in the gym lot and then look for the field.
+3. They ask the city pool, which runs the market on rainy nights.
+4. They read the sign on the front door after the noon decision.
+
+【正解6c】
+4. They read the sign on the front door after the noon decision.
+
+【解説6c】
+雨なら体育館、晴れならグラウンド、とその選択は正午に決まります。正面ドアの白い札が場所、青い札は中止です。保護者は車を停める前に札を読むよう書かれています。
+1 は色の意味が違います。青は中止で、体育館という意味ではありません。体育館は雨のときの場所で、白い札が示します。2 は逆です。体育館の駐車場は土曜の夜、市のプールのものです。車は通りに停めます。3 は、プールが雨の夜に市場を開く、とは書いてありません。
+
+【ポイント6c】
+種別: 読解
+見出し: 札の色で、場所と中止を分ける
+・場所 ← white。中止 ← blue
+・noon のあとで札を見る
+・プールのもので、市場の駐車場ではない ← gym lot
+
+問題6d:
+What is true about a club that has folded its table?
+
+選択肢6d:
+1. Visitors can still buy from that club until seven thirty.
+2. The club is counting money at the empty table.
+3. It has stopped selling, even if the market is still open.
+4. An empty table tells visitors that the club is still there.
+
+【正解6d】
+3. It has stopped selling, even if the market is still open.
+
+【解説6d】
+早く売り終えたクラブは、テーブルを畳んで保管室へ運びます。畳んだテーブルは、そのクラブが販売を終えた印です。市場自体はまだ開いていても、です。
+1 は、7時30分まで買えるのは、まだ売っているクラブです。畳んだクラブは止まっています。2 は逆です。お金を数えるのは保管室で、テーブルの上ではありません。4 も逆です。空のテーブルは、クラブが帰ったと客に思わせる、と校長は言っています。だから畳んで片づけるのです。
+
+【ポイント6d】
+種別: 読解
+見出し: そのクラブの販売終了 ← folded
+・market is still open でも、畳んだクラブ は売り終わっている
+・テーブルの上ではない ← counted in the storage room
+・empty table = 「まだいる」ではなく「帰ったように見える」
+
+---
+
+本文7
+The Window Log
+
+The family kept a notebook called the Window Log. Each afternoon, one person wrote the temperature by the hall window and whether the curtain was open. At first, the notes were only numbers. The others asked what the numbers meant for the plants on the shelf. The writer did not add a plant sentence on the first day. ( 1 ), one sentence about the plants appeared under the temperature.
+
+Mr. Abe read the log before winter. He did not ask the family to move the plants into a dark closet. He asked them to use the sentence when they chose a curtain. After three weeks, the plants were still by the window. The family did not buy special lamps. They ( 2 ).
+
+The family learned that a short daily note is useful when the next person can act on it the same day.
+
+問題7a:
+( 1 ) に入れるのに最も適切なものを、1、2、3、4 の中から一つ選びなさい。
+
+選択肢7a:
+1. Before the shelf had any plants
+2. Only after a week of those questions
+3. Although the curtain was always closed
+4. Until Mr. Abe locked the notebook
+
+【正解7a】
+2. Only after a week of those questions
+
+【解説7a】
+記録する人は、初日には植物の文を足していません。ほかの家族が数字の意味を尋ねたあとの1週間を経て、気温の下に植物の1文が出てきます。Only after a week of those questions が、その順序に合います。
+1 Before the shelf had any plants は、棚に植物がある前に文が出たことになり、植物について尋ねられた話と逆です。3 Although the curtain was always closed は「カーテンがいつも閉まっていたけれども」で、本文はカーテンが開いているかを記録しています。4 Until Mr. Abe locked the notebook は「Mr. Abe がノートに鍵をかけるまで」で、文が現れた時期の説明になりません。
+
+【ポイント7a】
+種別: 読解
+見出し: それより前には起きていない ← Only after
+・did not add ... on the first day と、Only after がセット
+・数字の意味を尋ねたこと ← those questions
+・逆の内容 ← Although。別の時の関係 ← Before / Until
+
+問題7b:
+( 2 ) に入れるのに最も適切なものを、1、2、3、4 の中から一つ選びなさい。
+
+選択肢7b:
+1. threw the plants away in December
+2. moved every plant into the closet
+3. stopped writing the temperature
+4. closed the curtain on cold afternoons
+
+【正解7b】
+4. closed the curtain on cold afternoons
+
+【解説7b】
+Mr. Abe は植物を暗い押し入れへ移すようには頼まず、カーテンを選ぶときにその1文を使うよう頼みました。植物は窓のそばに残っています。特別な照明も買っていません。They ( 2 ) は、買わなかったことと対になる、実際にしたことです。寒い午後にカーテンを閉めた、が流れに合います。
+1 は植物を捨てた、だと窓のそばに残ったという文と逆です。2 は押し入れへ移した、で、did not ask the family to move と逆です。3 は気温を書くのをやめた、だと Window Log の記録そのものが消えます。
+
+【ポイント7b】
+種別: 読解
+見出し: did not のあとは、実際にした別の行動
+・did not buy のあとなので、買う以外の対処を選ぶ
+・Mr. Abe が頼まなかった移動 ← closet
+・空所の行動は、カーテンを選ぶという依頼と矛盾しない
+
+---
+
+本文8
+From: Hana
+To: Luis
+Date: May 12
+Subject: Saturday label table
+
+Hi Luis,
+
+I am helping at the label table in the library this Saturday. We put new white labels on returned books from nine to eleven. Please come to the workroom, not the front desk. The desk is only for borrowing that morning.
+
+Your job is the date stamp, not the title label. I will do the titles. Bring a pencil. The library has glue, so you do not need to buy any. If you arrive after ten, start with the green bin. Books in that bin have no name inside. The red bin is for books that still show a name, and only staff may open it.
+
+Mio wanted to help, but she has a match at nine. She can join us after eleven if the table is still open. We close at eleven thirty even if some books are left. Those books stay in the workroom until Monday. Do not take them home to finish the labels.
+
+Please tell me by Friday evening if you can come. I need one more person for the date stamp. If you cannot come, I will ask Ken. He is free, but he has not used the stamp before, so I hope you can do it.
+
+See you on Saturday,
+Hana
+
+問題8a:
+What is Luis asked to do on Saturday?
+
+選択肢8a:
+1. Put title labels on the books.
+2. Stamp the date, and start with the green bin if he is late.
+3. Open the red bin and borrow books at the front desk.
+4. Take unfinished books home after eleven thirty.
+
+【正解8a】
+2. Stamp the date, and start with the green bin if he is late.
+
+【解説8a】
+Luis の仕事は日付のスタンプで、題名のラベルは Hana がやります。10時よりあとに来たら緑のかごから始めます。緑のかごは、中に名前がない本です。
+1 は Hana の仕事です。3 は逆です。赤いビンは職員だけが開け、フロントは借りるための場所で、作業場所ではありません。4 は、残った本を家へ持ち帰らないよう書いてあります。
+
+【ポイント8a】
+種別: 読解
+見出し: Your job is A, not B で、担当を分ける
+・Luis ← date stamp。Hana ← title label
+・緑のかごから始める条件 ← after ten
+・残った本の扱い ← Do not take them home
+
+問題8b:
+What is true about the red bin?
+
+選択肢8b:
+1. It holds books that still show a name, and only staff may open it.
+2. Luis should start with it if he arrives after ten.
+3. Mio will open it during her match.
+4. Books in it go home with the helpers on Saturday.
+
+【正解8b】
+1. It holds books that still show a name, and only staff may open it.
+
+【解説8b】
+赤いビンは、まだ名前が見える本のためで、開けてよいのは職員だけです。10時よりあと Luis が始めるのは緑のかごです。
+2 は緑のかごの話です。3 は、Mio は9時から試合で、11時よりあとならテーブルが開いていれば加われます。赤いビンを開けるとは書いてありません。4 は、残った本は月曜まで作業室にあり、家へは持って帰りません。
+
+【ポイント8b】
+種別: 読解
+見出し: 手伝いに来ても開けない場所 ← only staff
+・名前が残っている本 ← red。名前がない本 ← green
+・緑から始める ← after ten
+・土曜に家へ出ない ← stay in the workroom
+
+問題8c:
+What does Hana want Luis to do if he cannot come?
+
+選択肢8c:
+1. Tell her by Friday evening, so she can ask Ken.
+2. Send Mio to the match with the date stamp.
+3. Ask Ken to teach him the stamp on Saturday morning.
+4. Leave the green bin at the front desk.
+
+【正解8c】
+1. Tell her by Friday evening, so she can ask Ken.
+
+【解説8c】
+来られないときは金曜の夕方までに知らせてほしい、とあります。その場合 Hana は Ken に頼みます。Ken は暇ですが、スタンプを使ったことがありません。Hana は Luis に来てほしいと思っています。
+2 は、Mio の試合にスタンプを持たせる、とは書いてありません。3 は、土曜の朝に Ken が Luis に教える、ではありません。Ken は Luis が来られないときの代わりです。4 は、緑のかごをフロントへ出す、とは書いてありません。作業室が作業場所です。
+
+【ポイント8c】
+種別: 読解
+見出し: If you cannot のあとが、代わりの人
+・連絡の期限 ← Friday evening
+・Luis が来られないときの次の人 ← Ken
+・Ken が第二希望である理由 ← has not used the stamp
+
+---
+
+本文9
+The Blue Card Shelf
+
+North Gate School keeps a shelf of blue cards by the front office. A student who has forgotten a pen, a ruler, or a calculator may take one card and exchange it for that item. The shelf is not a shop. Cards go back to the shelf when the item is returned the same day. Last term, some students kept calculators overnight. The office did not close the shelf. It added a red mark on any card that stayed out past four.
+
+In the first month after the red mark, fewer calculators were late. The office did not start charging money. A student with a red mark may still borrow a pen the next day, but not a calculator until the old one is back. Friends may not lend their own card to clear someone else's mark. The card has the borrower's name on it.
+
+This term, the shelf opens at eight fifteen and closes at three forty-five. It does not stay open for club time. A teacher on duty sits by the shelf during lunch only. Before lunch, students place the item they are returning in a tray, and the next teacher checks the names. A card left in the tray without the item does not erase a red mark. Both the item and the card have to be there.
+
+Rainy days do not change the hours. A wet path is not a reason to keep a calculator past four. If a calculator is lost, the student tells the office the same day and does not take a second one. The office writes a note, and the student uses a classroom set until a replacement arrives. That replacement is not on the blue shelf. Parents may bring a forgotten card in the morning, but they cannot take a new calculator home after three forty-five.
+
+問題9a:
+Why did the office add a red mark?
+
+選択肢9a:
+1. To close the shelf after club time.
+2. To charge money for a late calculator.
+3. To show that a card had stayed out past four.
+4. To stop students from borrowing pens.
+
+【正解9a】
+3. To show that a card had stayed out past four.
+
+【解説9a】
+先学期、電卓を夜まで持って帰る生徒がいました。事務所は棚を閉めず、4時を過ぎても戻らないカードに赤い印を足しました。印は、そのカードが4時を過ぎて外に出たままであることを示すためです。
+1 は、今学期の開いている時間の話で、印を足した理由ではありません。2 は逆です。印のあともお金は取り始めていません。4 は、赤い印があっても翌日ペンは借りられます。止められたのは、古い電卓が戻るまでの電卓です。
+
+【ポイント9a】
+種別: 読解
+見出し: did not close のあとが、実際に足した印
+・赤い印の意味 ← past four
+・しなかったこと ← charging money
+・印があっても翌日借りられる ← pen
+
+問題9b:
+What can a student with a red mark still do the next day?
+
+選択肢9b:
+1. Borrow a pen.
+2. Borrow another calculator.
+3. Ask a friend to lend a card and clear the mark.
+4. Keep the calculator because the path is wet.
+
+【正解9b】
+1. Borrow a pen.
+
+【解説9b】
+赤い印のある生徒は、翌日ペンは借りられます。電卓は、前のものが戻るまで借りられません。友だちが自分のカードを貸して、他人の印を消すこともできません。カードには借りた人の名前があります。雨の道は、4時の規則を省く理由になりません。
+2 は、not a calculator until the old one is back と逆です。3 は、Friends may not lend their own card と逆です。4 は、The answer is still no です。
+
+【ポイント9b】
+種別: 読解
+見出し: still のあとと、until のあとで、借りられる物が分かれる
+・翌日も可 ← pen。返却まで不可 ← calculator
+・友だちのカードでは、印は消えない
+・例外にならない ← wet path
+
+問題9c:
+What is true about returning an item before lunch?
+
+選択肢9c:
+1. A card alone in the tray erases a red mark.
+2. The teacher on duty checks names only after club time.
+3. Both the item and the card need to be in the tray.
+4. Parents may take a new calculator home after the check.
+
+【正解9c】
+3. Both the item and the card need to be in the tray.
+
+【解説9c】
+昼より前は、返す物をトレイに置き、次の先生が名前を確認します。当直の先生が棚のそばにいるのは昼のあいだだけです。物のないカードだけでは、赤い印は消えません。物とカードの両方が必要です。
+1 は逆です。without the item では印は消えません。2 は、クラブの時間まで棚は開いていません。確認は昼より前の返却でも行われます。4 は、保護者は3時45分よりあと品物を受け取れず、新しい電卓を家へ持ち帰ることもできません。
+
+【ポイント9c】
+種別: 読解
+見出し: 片方だけでは足りない ← Both A and B
+・印を消さない ← card without the item
+・先生が座っている時間 ← during lunch only
+・放課後に新しい電卓を受け取れない ← parents
+
+問題9d:
+What should a student do if a calculator is lost?
+
+選択肢9d:
+1. Take a second calculator from the blue shelf.
+2. Tell the office the same day and use a classroom set.
+3. Ask a parent to pick up a replacement after three forty-five.
+4. Wait for the replacement on the blue shelf.
+
+【正解9d】
+2. Tell the office the same day and use a classroom set.
+
+【解説9d】
+電卓をなくしたら、その日のうちに事務所へ言い、2台目は取りません。事務所がメモを書き、代わりが届くまで教室のセットを使います。その代わりは青い棚には置かれません。
+1 は、does not take a second one と逆です。3 は、保護者は3時45分よりあとに新しい電卓を家へ持ち帰れません。4 は、代わりは青い棚には来ません。
+
+【ポイント9d】
+種別: 読解
+見出し: 紛失を言う期限 ← the same day
+・自分で取らない ← second one
+・青い棚とは別の代わり ← classroom set
+・青い棚には置かない ← replacement
+
+---

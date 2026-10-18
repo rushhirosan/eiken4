@@ -24,7 +24,7 @@ Question: What is the girl making?（女の子は何を作っていますか？�
 
 女の子が「a card（カード）を作っている」と言っているので、3「A card.（カード）」が正解です。
 1「A cake.（ケーキ）」も、2「A poster.（ポスター）」も、4「A photo.（写真）」も会話に出てきません。
-「Pink（ピンク）」は紙の色で、作っているものではありません。What is 〜 making? と来たら、making のあとの物を探します。
+「Pink（ピンク）」は紙の色で、作っている物ではありません。What is 〜 making? と来たら、making の後の物を探します。
 
 【ポイント1】
 種別: リスニング
@@ -55,11 +55,11 @@ Where is the boy's umbrella?
 放送文
 ★I left my umbrella at the store.（傘を店に忘れてきた。）
 ☆Oh no.  Was it the big blue one?（大変。大きい青いの？）
-★Yes.  I'll go back after school.（うん。学校のあと取りに行く。）
+★Yes.  I'll go back after school.（うん。学校の後取りに行く。）
 Question: Where is the boy's umbrella?（男の子の傘はどこにありますか？）
 
 男の子が「at the store（店に）忘れた」と言っているので、3「At the store.（店）」が正解です。
-1「At school.（学校）」はあとで取りに行く場所で、今傘がある場所ではありません。2「At home.（家）」も、4「At the station.（駅）」も出てきません。
+1「At school.（学校）」は後で取りに行く場所で、今傘がある場所ではありません。2「At home.（家）」も、4「At the station.（駅）」も出てきません。
 Where is 〜? と来たら、left 〜 at の場所を探します。after school は時刻です。
 
 【ポイント2】
@@ -127,11 +127,11 @@ What does the girl want?
 放送文
 ★Let's buy some fruit.（果物を買おう。）
 ☆OK.  I want strawberries.（いいよ。いちごがほしい。）
-★I want bananas.  Let's share.（ぼくはバナナ。分けよう。）
+★I want bananas.  Let's share.（僕はバナナ。分けよう。）
 Question: What does the girl want?（女の子は何がほしいですか？）
 
 女の子（☆）が「strawberries（いちご）」と言っているので、4「Strawberries.（いちご）」が正解です。
-2「Bananas.（バナナ）」は男の子（★）がほしいものです。1「Apples.（りんご）」も、3「Oranges.（オレンジ）」も出てきません。
+2「Bananas.（バナナ）」は男の子（★）がほしい物です。1「Apples.（りんご）」も、3「Oranges.（オレンジ）」も出てきません。
 What does the girl want? と来たら、女の子の I want を探します。
 
 【ポイント4】
@@ -167,14 +167,14 @@ What does the boy have?
 Question: What does the boy have?（男の子は何を持っていますか？）
 
 男の子が「I have a big bag（大きいかばんはある）」と言っているので、2「A big bag.（大きいかばん）」が正解です。
-1「A raincoat.（レインコート）」は「No」で持っていないものです。3「An umbrella.（傘）」も、4「New shoes.（新しい靴）」も出てきません。
-What does 〜 have? と来たら、I have のあと。No のあとに否定した物は答えにしません。
+1「A raincoat.（レインコート）」は「No」で持っていない物です。3「An umbrella.（傘）」も、4「New shoes.（新しい靴）」も出てきません。
+What does 〜 have? と来たら、I have の後。No の後に否定した物は答えにしません。
 
 【ポイント5】
 種別: リスニング
-見出し: What does 〜 have? は I have のあと
+見出し: What does 〜 have? は I have の後
 ・But I have a big bag. = 大きいかばんはある
-・No で否定したものは「持っている物」ではない
+・No で否定した物は「持っている物」ではない
 
 ---
 
@@ -235,12 +235,12 @@ What did they do at the party?
 放送文
 ★Did you enjoy the birthday party?（誕生日パーティーは楽しかった？）
 ☆Yes.  We ate cake and sang songs.（うん。ケーキを食べて歌を歌ったよ。）
-★Who came to the party?（だれが来たの？）
+★Who came to the party?（誰が来たの？）
 Question: What did they do at the party?（パーティーで何をしましたか？）
 
 女の子が「ate cake and sang songs（ケーキを食べて歌を歌った）」と言っているので、1「They ate cake and sang songs.」が正解です。
 2「They played soccer.（サッカーをした）」も、3「They went shopping.（買い物に行った）」も、4「They watched a movie.（映画を見た）」も出てきません。
-最後の「Who came...?」は「だれが来たか」で、返事はありません。What did they do? の答えには使いません。
+最後の「Who came...?」は「誰が来たか」で、返事はありません。What did they do? の答えには使いません。
 
 【ポイント7】
 種別: リスニング
@@ -276,7 +276,7 @@ Question: Where does the boy think his homework is?（男の子は宿題がど�
 
 男の子（★）が「in my room（部屋にあると思う）」と言っているので、4「In his room.（自分の部屋）」が正解です。
 1「At school.（学校）」は女の子の質問で、男の子は「No」と否定しています。2「In the kitchen.（台所）」も、3「At the park.（公園）」も出てきません。
-Where does 〜 think? と来たら、I think のあとの場所を探します。
+Where does 〜 think? と来たら、I think の後の場所を探します。
 
 【ポイント8】
 種別: リスニング
@@ -305,7 +305,7 @@ What is the problem with the shoes?
 
 【解説9】
 放送文
-★These shoes are too small for me.（この靴はぼくには小さい。）
+★These shoes are too small for me.（この靴は僕には小さい。）
 ☆Let's try a bigger size.（もっと大きいサイズを試そう。）
 ★OK.  Where are they?（わかった。どこにある？）
 Question: What is the problem with the shoes?（靴はどんな問題がありますか？）
@@ -342,17 +342,17 @@ What did the girl forget?
 【解説10】
 放送文
 ☆It's raining hard.  I forgot my umbrella.（雨が強い。傘を忘れた。）
-★Don't worry.  You can use mine.（心配しないで。ぼくのを使っていいよ。）
+★Don't worry.  You can use mine.（心配しないで。僕のを使っていいよ。）
 ☆Thanks.  You're kind.（ありがとう。親切だね。）
 Question: What did the girl forget?（女の子は何を忘れましたか？）
 
 女の子が「I forgot my umbrella（傘を忘れた）」と言っているので、3「Her umbrella.（彼女の傘）」が正解です。
 1「Her hat.（帽子）」も、2「Her bag.（かばん）」も、4「Her lunch.（お弁当）」も出てきません。
-男の子が自分の傘を貸す、と言っているので、話題は傘です。What did 〜 forget? と来たら、forgot のあとの物を探します。
+男の子が自分の傘を貸す、と言っているので、話題は傘です。What did 〜 forget? と来たら、forgot の後の物を探します。
 
 【ポイント10】
 種別: リスニング
-見出し: What did 〜 forget? は forgot のあとの物
+見出し: What did 〜 forget? は forgot の後の物
 ・I forgot my umbrella. = 傘を忘れた
 ・帽子やかばんなど出ていない物は答えではない
 
@@ -378,17 +378,17 @@ What can they do in the club?
 【解説11】
 放送文
 ★Our school has a new music club.（学校に新しい音楽クラブができたよ。）
-☆Really?  What can we do there?（ほんと？ そこで何ができるの？）
+☆Really?  What can we do there?（本当？ そこで何ができるの？）
 ★We can play the guitar and sing.（ギターを弾いたり歌ったりできるよ。）
 Question: What can they do in the club?（クラブで何ができますか？）
 
 男の子が「play the guitar and sing（ギターを弾いたり歌ったりできる）」と言っているので、4「Play the guitar and sing.」が正解です。
 1「Play soccer.（サッカーをする）」も、2「Cook lunch.（昼ごはんを作る）」も、3「Read books.（本を読む）」も出てきません。
-What can they do? と来たら、can のあとのできることを探します。
+What can they do? と来たら、can の後のできることを探します。
 
 【ポイント11】
 種別: リスニング
-見出し: What can they do? は can のあと
+見出し: What can they do? は can の後
 ・We can play the guitar and sing. = ギターを弾いたり歌ったりできる
 ・サッカーや料理など会話にないことは答えではない
 
@@ -420,11 +420,11 @@ Question: What did the boy bring?（男の子は何を持ってきましたか�
 
 男の子（★）が「some flowers（花）を持ってきた」と言っているので、1「Some flowers.（花）」が正解です。
 2「Some fruit.（果物）」も、3「A book.（本）」も、4「A cake.（ケーキ）」も出てきません。
-「put them in a vase（花瓶に入れる）」の them は花です。What did 〜 bring? と来たら、brought のあとの物を探します。
+「put them in a vase（花瓶に入れる）」の them は花です。What did 〜 bring? と来たら、brought の後の物を探します。
 
 【ポイント12】
 種別: リスニング
-見出し: What did 〜 bring? は brought のあとの物
+見出し: What did 〜 bring? は brought の後の物
 ・I brought you some flowers. = 花を持ってきた
 ・果物やケーキなど出ていない物は答えではない
 
@@ -492,11 +492,11 @@ Question: What are they making?（2人は何を作っていますか？）
 
 男の子が「making sandwiches（サンドイッチを作っている）」と言っているので、3「Sandwiches.（サンドイッチ）」が正解です。
 1「Soup.（スープ）」も、2「Cookies.（クッキー）」も、4「Salad.（サラダ）」も出てきません。
-「for lunch（昼ごはん用）」はいつ食べるかで、作っている物そのものではありません。What are they making? と来たら、making のあとを探します。
+「for lunch（昼ごはん用）」はいつ食べるかで、作っている物その物ではありません。What are they making? と来たら、making の後を探します。
 
 【ポイント14】
 種別: リスニング
-見出し: What are they making? は making のあと
+見出し: What are they making? は making の後
 ・We're making sandwiches. = サンドイッチを作っている
 ・スープやサラダなど出ていない物は答えではない
 
@@ -528,11 +528,11 @@ Question: Where does the girl want to go?（女の子はどこに行きたいで
 
 女の子が「go to the beach（海に行きたい）」と言っているので、4「To the beach.（海）」が正解です。
 1「To the mountains.（山）」も、2「To the zoo.（動物園）」も、3「To the museum.（博物館）」も出てきません。
-Where does 〜 want to go? と来たら、go to のあとの場所を探します。
+Where does 〜 want to go? と来たら、go to の後の場所を探します。
 
 【ポイント15】
 種別: リスニング
-見出し: Where does 〜 want to go? は go to のあと
+見出し: Where does 〜 want to go? は go to の後
 ・I want to go to the beach. = 海に行きたい
 ・山や動物園など会話にない場所は答えではない
 ---
@@ -557,7 +557,7 @@ How much is the bag?
 【解説16】
 放送文
 ☆I like this blue bag.（この青いバッグが好き。）
-★Me too.  How much is it?（ぼくも。いくら？）
+★Me too.  How much is it?（僕も。いくら？）
 ☆It's fifteen dollars.（15ドルだよ。）
 Question: How much is the bag?（バッグはいくらですか？）
 
@@ -592,10 +592,10 @@ Who has a soccer ball?
 
 【解説17】
 放送文
-★Who has a soccer ball?（だれがサッカーボールを持っている？）
+★Who has a soccer ball?（誰がサッカーボールを持っている？）
 ☆Ken does.  He always brings it.（ケンだよ。いつも持ってくる。）
 ★Great.  Let's ask him.（いいね。ケンに頼もう。）
-Question: Who has a soccer ball?（だれがサッカーボールを持っていますか？）
+Question: Who has a soccer ball?（誰がサッカーボールを持っていますか？）
 
 人を聞いているので、名前を拾います。女の子が「Ken does.（ケンが持っている）」と言っているので、2「Ken.」が正解です。
 1「The girl.（女の子）」も、3「The teacher.（先生）」も、4「The girl's brother.（女の子の兄）」も、名前としては出てきません。
@@ -630,7 +630,7 @@ What color is the girl's cup?
 放送文
 ☆I can't find my cup.（カップが見つからない。）
 ★Is it the red one?（赤いの？）
-☆Yes.  My cup is red.（うん。わたしのカップは赤。）
+☆Yes.  My cup is red.（うん。私のカップは赤。）
 Question: What color is the girl's cup?（女の子のカップは何色ですか？）
 
 色を聞いているので、色の言葉を拾います。女の子が「My cup is red.（カップは赤）」と言っているので、3「Red.」が正解です。

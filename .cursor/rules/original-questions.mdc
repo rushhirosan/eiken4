@@ -6,7 +6,7 @@ alwaysApply: false
 
 # オリジナル問題
 
-- 公開用テキストは **`data/questions/original/level{5|4|3}/` のみ**。
+- 公開用テキストは **`data/questions/original/level{5|4|3|pre2}/` のみ**。準2級の枠は `eiken-original-authoring` の `references/pre2.md`。3級の型を準2級に使わない。
 - 既存の `data/questions/*.txt`・`level3/`・`level5/` や `data/pdf_import/` をコピーしない。
 - 作業順（正本は `eiken-original-authoring` の After writing）:
   1. 作問 → 2. 酷似 → 3. 解説丁寧さ → 4. 品質 → 5. **人の目視** → 6. 公開前チェック → 7. 登録

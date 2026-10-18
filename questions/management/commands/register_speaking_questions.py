@@ -116,7 +116,7 @@ def _parse_speaking_block(block: str, qn: int, level: str):
             item['yes_samples'] = yes_by_num.get(item['number'], [])
             item['no_samples'] = no_by_num.get(item['number'], [])
 
-    turn_over_after = 3 if str(level) == '3' else None
+    turn_over_after = 3 if str(level) in ('3', 'pre2') else None
     # 4級・5級の音読は残り時間まで待つ（5級の体験画面は30秒表示）
     aloud_seconds = 30 if str(level) in ('4', '5') else None
     speaking_data = {
@@ -160,9 +160,9 @@ class Command(BaseCommand):
         level, txt_path, provenance, is_original = resolve_register_io(
             options, 'speaking_questions.txt'
         )
-        if level not in ('3', '4', '5'):
+        if level not in ('3', '4', '5', 'pre2'):
             self.stdout.write(
-                self.style.ERROR(f'スピーキングは level 3/4/5 のみ対応です: {level}')
+                self.style.ERROR(f'スピーキングは level 3/4/5/pre2 のみ対応です: {level}')
             )
             return
 

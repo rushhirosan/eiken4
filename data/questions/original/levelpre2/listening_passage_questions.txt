@@ -1,0 +1,943 @@
+No.1:
+W: Attention, students waiting in the front hall. The bus to the city museum will leave at eight fifteen, not eight. Please bring your student card. Lunch will be inside the museum, so do not bring a packed lunch. We will see two galleries and return to school at two. Teachers will walk with each group. If you are late, the bus will not wait.
+
+Question No.1:
+Where is the speaker talking to the students?
+
+1. On the bus.
+2. Inside the museum.
+3. In the front hall.
+4. In a gallery.
+
+【正解1】
+3. In the front hall.
+
+【解説1】
+最初の文が Attention, students waiting in the front hall. です。話し相手は正面ホールで待っている生徒なので、放送の場所は正面ホールです。博物館、バス、ギャラリーはこれからの行き先や中で見る場所で、今いる場所ではありません。
+1 はこれからのバス、2 は昼食と見学の場所、4 は館内で見る2つの部屋です。どれも文中に出ますが、waiting in the front hall とは別です。eight fifteen や two は時刻で、場所の質問の答えにはなりません。
+
+【ポイント1】
+種別: リスニング
+見出し: 最初の呼びかけが場所を決める
+・今いる場所 ← waiting in the front hall
+・このあとの予定 ← bus / museum / gallery
+・質問が Where なら、時刻は答えにしない
+
+---
+
+No.2:
+M: This is a message for the park tennis group. Wednesday's meeting will move to the indoor court because the outdoor courts are wet. Please arrive ten minutes early and bring indoor shoes. If you cannot come, send a message to the leader before noon. The match on Saturday is still outside, so check the weather again on Tuesday night. Do not wait until Wednesday morning to decide.
+
+Question No.2:
+What should members do if they cannot come on Wednesday?
+
+1. Tell the leader they cannot come.
+2. Practice on the outdoor courts.
+3. Bring indoor shoes to the indoor court.
+4. Check the weather on Tuesday night.
+
+【正解2】
+1. Tell the leader they cannot come.
+
+【解説2】
+If you cannot come, send a message to the leader before noon. が、来られない人への指示です。伝える内容は、来られないことです。正午は、その連絡の期限です。
+2 は、屋外コートが濡れているので水曜日の練習場所ではありません。3 は来る人への指示で、来られない人の話ではありません。4 は土曜日の試合のための確認で、火曜日の夜の話です。because the outdoor courts are wet は場所を変えた理由で、欠席したときの行動ではありません。
+
+【ポイント2】
+種別: リスニング
+見出し: if のあとが条件の答え
+・cannot come のときだけ、leader / before noon
+・参加する人 ← indoor shoes。土曜の試合 ← Tuesday night
+・理由で、質問の行動そのものではない ← wet
+
+---
+
+No.3:
+M: This is a message for students on Saturday's photo walk. Meet at the north exit of the station. If the market stalls are closed, photograph the shop windows on Main Street and come back by four. Bring a camera you already understand. A phone is all right only when the battery is full. Please do not buy a new camera that morning.
+
+Question No.3:
+What does the speaker want students to bring?
+
+1. A camera bought that morning.
+2. A map of the market stalls.
+3. Any phone, even with a low battery.
+4. A camera they already know how to use.
+
+【正解3】
+4. A camera they already know how to use.
+
+【解説3】
+Bring a camera you already understand. と、Please do not buy a new camera that morning. がセットです。質問は何を持ってくるかです。使い方をすでに知っているカメラ、が答えです。
+1 はその朝に買ったカメラで、本文がしないでほしいことです。3 は充電が少なくてもよい、ですが、電話は電池が満タンのときだけよい、と限っています。4 の地図は本文にありません。market stalls は、閉まっていたときの行き先の条件です。
+
+【ポイント3】
+種別: リスニング
+見出し: already と do not buy をセットで読む
+・持ってくるのは、使い慣れたカメラ
+・battery is full のときだけ ← phone
+・撮る場所の条件 ← If the stalls are closed
+
+---
+
+No.4:
+W: Attention, members of the reading circle. Tonight's meeting stays in the small room, even though more people signed up than we have chairs. Please bring a cushion if you can. We will talk about the last chapter only. Anyone who has not finished the book may still come and listen. Eat snacks in the hall. They will be put away before we start.
+
+Question No.4:
+Why might a member bring a cushion?
+
+1. The meeting has moved to the hall.
+2. Snacks will be served on the chairs.
+3. Only people who finished the book may sit.
+4. There are more people coming than there are chairs.
+
+【正解4】
+4. There are more people coming than there are chairs.
+
+【解説4】
+more people signed up than we have chairs のすぐあとに Please bring a cushion if you can. とあります。質問は、なぜクッションを持ってくることがあるかです。椅子の数より人が多いから、が答えです。本文は because とは言っていませんが、二つの文が理由と準備をつないでいます。
+1 は逆です。会場は小さい部屋のままです。hall は軽食を食べる場所です。2 は、開始前に軽食を片づける、とあるので、椅子の上で出すのではありません。3 は、読み終えていない人も来て聞いてよい、とあるので、座れる人を本の完了では分けていません。
+
+【ポイント4】
+種別: リスニング
+見出し: 準備の直前の文が、その理由になる
+・cushion の理由 ← more people than chairs
+・場所は変わらない ← stays in the small room
+・has not finished でも come and listen できる
+
+---
+
+No.5:
+M: A note for the town swim group. Tuesday's swim is in the usual pool, but the warm-up will be shorter. You have a morning job that day, and the coach does not want you to arrive worn out. Come at the regular time. Leave your bag in the locker. The pool office will not watch it.
+
+Question No.5:
+Why will the warm-up be shorter?
+
+1. So the swimmers will not be too tired after the morning job.
+2. Because the usual pool is closed on Tuesday.
+3. So swimmers can finish their job at the pool office.
+4. Because the regular start time has changed.
+
+【正解5】
+1. So the swimmers will not be too tired after the morning job.
+
+【解説5】
+warm-up will be shorter のあと、その朝に仕事があること、コーチは疲れきった状態で来てほしくないこと、と続きます。質問はウォームアップを短くする理由です。朝の仕事のあとで疲れすぎないように、が答えです。worn out は「疲れ切った」です。
+2 は逆です。usual pool で行います。3 は、かばんはロッカーに入れたまま、事務所は見てくれない、とあります。4 は、Come at the regular time. なので開始時刻は変わりません。変わったのは準備運動の長さです。
+
+【ポイント5】
+種別: リスニング
+見出し: shorter のあとの文が、短くする理由
+・morning job と worn out を、shorter とつなぐ
+・変えていないもの ← usual pool / regular time
+・事務所に預けるものではない ← bag
+
+---
+
+No.6:
+W: This is a reminder about Wednesday's club sale. Each student may use only one table, and the table is free. If you share with a friend, the two of you still count as one table. The sale ends at three. Anything unsold must go home with you. The school will not keep it overnight. Volunteers will sweep after the last table is folded.
+
+Question No.6:
+What is true about two friends who share a table?
+
+1. They may take two free tables.
+2. The school will keep their unsold items overnight.
+3. They still count as one table.
+4. Volunteers will sell what they leave behind.
+
+【正解6】
+3. They still count as one table.
+
+【解説6】
+If you share with a friend, the two of you still count as one table. が、二人で一つ、のルールです。質問はテーブルを共有する二人について何が正しいかです。それでもテーブル1つ分、が答えです。
+1 は、一人1テーブルの上限と逆です。2 は、売れ残りを学校が夜まで保管しない、とあるので逆です。4 は、ボランティアが残りを売る、とは書いてありません。彼らは最後のテーブルが畳まれたあとで掃き掃除をします。
+
+【ポイント6】
+種別: リスニング
+見出し: 人数が増えても枠は増えない ← still count as one
+・一つ ← share しても table
+・自分で持ち帰る ← unsold
+・販売ではなく、あとの掃除 ← sweep
+
+---
+
+No.7:
+M: Good morning. This is about the lost-and-found box in the front office. Anything left for more than two weeks will go to the charity shop. It will not be thrown away. Please look in the box before next Thursday if something of yours is missing. A name label helps, but it is not required. A jacket with no name stays in that same box.
+
+Question No.7:
+What is true about a jacket with no name?
+
+1. It is thrown away on the day it is found.
+2. It goes to the charity shop on the same day.
+3. It must have a label before the office will take it.
+4. It is kept in the same box as the other lost items.
+
+【正解7】
+4. It is kept in the same box as the other lost items.
+
+【解説7】
+A jacket with no name stays in that same box. が、名前のない上着の扱いです。質問はその上着について何が正しいかです。ほかの忘れ物と同じ箱に入ったまま、が答えです。
+1 は、捨てないと本文にあります。3 は、ラベルは役に立つが必須ではない、とあるので、ラベルがないと受け取れないのではありません。4 の同じ日は違います。チャリティへ行くのは、二週間より長く残ったものです。名前の有無では分けていません。
+
+【ポイント7】
+種別: リスニング
+見出し: no name でも、箱 は分けない
+・上着の置き場所 ← stays in that same box
+・ラベルがなくても預かる ← not required
+・二週間を超えたあとの話 ← charity shop
+
+---
+
+No.8:
+W: This is a message for students who borrowed winter coats from the nurse. Please bring them back by next Monday, even if the week is still cold. Coats left after that day will be washed and lent to another class. A name inside helps the nurse find you, but she will still accept a coat with no name. Do not leave coats in your classroom.
+
+Question No.8:
+What will happen to coats that are not returned by Monday?
+
+1. They will be washed and lent to another class.
+2. They will stay in the classroom.
+3. They will be given back only if a name is inside.
+4. Students may keep them until the weather is warm.
+
+【正解8】
+1. They will be washed and lent to another class.
+
+【解説8】
+月曜までに戻らないコートは洗い、別のクラスへ貸す、とあります。寒い週でも戻すよう言っています。名前がなくても、看護師は受け取ります。教室に置くな、とも言っています。
+2 は、教室に置くことを禁じています。3 は、名前がないと戻せない、ではなく、名前は助けになるだけです。4 は、暖かくなるまで持っていてよい、とは言っていません。
+
+【ポイント8】
+種別: リスニング
+見出し: even if のあとも、期限 は動かない
+・返す期限 ← by next Monday
+・no name でも、受け取る
+・置いてよい場所ではない ← classroom
+
+---
+
+No.9:
+M: Attention, students in tonight's play. Enter through the side door, not the front hall. The front hall is for the audience. Be in costume by six fifteen. If you are only helping with lights, you may wear school clothes, but you still use the side door. The play starts at seven. Late helpers will not be seated in the back row.
+
+Question No.9:
+Which door should a light helper use?
+
+1. The front hall, with the audience.
+2. The back row of the theater.
+3. Any door, because helpers wear school clothes.
+4. The side door.
+
+【正解9】
+4. The side door.
+
+【解説9】
+出演者は正面ホールではなく脇のドアから入ります。照明だけの手伝いも制服のままでよいですが、同じ脇のドアを使います。正面ホールは観客用です。遅れた手伝いを後ろの列に座らせる、とは言っていません。
+1 は観客の入口です。3 は、服装が違っても入口は同じです。2 は、遅れた手伝いの座席ではありません。
+
+【ポイント9】
+種別: リスニング
+見出し: 例外に見えて同じ規則 ← but you still
+・出演も照明も ← side door
+・観客 ← front hall
+・入口を変えない ← school clothes
+
+---
+
+No.10:
+W: A note for anyone who keeps a bicycle at the apartment. Register the bicycle by Tuesday if you have not done so this year. A number sticker will be put on the back, not on the basket. Bicycles without a sticker may not use the racks after Tuesday. Walking does not require a sticker. Bring the bicycle itself, not only a photo.
+
+Question No.10:
+What must a resident bring in order to register?
+
+1. The bicycle.
+2. Only a photo of the bicycle.
+3. A basket for the sticker.
+4. Proof that they walk.
+
+【正解10】
+1. The bicycle.
+
+【解説10】
+登録するには自転車そのものを持ってきて、写真だけではだめです。番号のシールは後ろに貼り、かごには貼りません。火曜のあと、シールのない自転車は置き場を使えません。歩いて来る人にシールは不要です。
+2 は、not only a photo で足りません。3 は、シールを貼る場所ではありません。4 は、歩く人は登録の対象外です。
+
+【ポイント10】
+種別: リスニング
+見出し: 現物が必要 ← not only a photo
+・持ってくる物 ← the bicycle itself
+・シールの位置 ← back。違う ← basket
+・ステッカー不要 ← walking
+
+---
+
+No.11:
+M: This is about Quiet Week in the library. From Monday to Thursday, group talk moves to the hall. One student may still sit alone and read. On Friday the usual group tables open again. Food is not part of this change. Eat in the cafeteria this week and next week, as always. The hall will not become a place to eat.
+
+Question No.11:
+What changes during Quiet Week?
+
+1. Students must stop reading alone.
+2. The hall becomes the place to eat.
+3. The cafeteria closes.
+4. Group talk leaves the library until Friday.
+
+【正解11】
+4. Group talk leaves the library until Friday.
+
+【解説11】
+月曜から木曜は、グループの会話を廊下へ移します。一人で読むのはそのままです。金曜にはいつものグループ用テーブルが戻ります。食事の場所は変わらず、食堂です。廊下は食べる場所にはなりません。
+1 は、一人の読書は残ります。3 と 2 は、食事の規則は変えない、と反対です。
+
+【ポイント11】
+種別: リスニング
+見出し: 変わることと、as always を分ける
+・group talk だけが廊下へ移る
+・残る ← read alone
+・今週も来週も食堂 ← food
+
+---
+
+No.12:
+W: A reminder for Friday's experiment. Safety glasses are kept in the blue box, and each student takes one pair. Return them to the same box, not to your bag. Students who already wear glasses for reading still need the safety pair on top. The experiment will not start until every pair is on. Water bottles stay outside the lab.
+
+Question No.12:
+What is true about students who wear reading glasses?
+
+1. They put the safety pair on over their own glasses.
+2. They do not need safety glasses.
+3. They may take the safety glasses home in a bag.
+4. They may bring water into the lab.
+
+【正解12】
+1. They put the safety pair on over their own glasses.
+
+【解説12】
+読書用の眼鏡をすでにかけている生徒も、その上に安全眼鏡が必要です。安全眼鏡は青い箱から取り、同じ箱へ戻します。カバンに入れて持ち帰ってはいけません。全員がかけるまで実験は始まりません。水筒は実験室の外です。
+2 は、still need と逆です。3 は、not to your bag と逆です。4 は、水筒は外に置きます。
+
+【ポイント12】
+種別: リスニング
+見出し: 自分の眼鏡があっても追加 ← still need
+・読書用の上にかける ← on top
+・戻す場所 ← same box
+・実験とは別の規則 ← water bottles
+
+---
+
+No.13:
+M: This is for the map club on Sunday. Meet at the park gate at eight, not at school. Bring a pencil you can sharpen. Pens will not show on the wet paper if it rains. If the gate is locked, wait on the street. Do not climb it. The walk ends at eleven, and maps are collected then, even if a page is unfinished.
+
+Question No.13:
+What should members do if the park gate is locked?
+
+1. Climb the gate.
+2. Go back to school and start there.
+3. Wait on the street.
+4. Turn in an unfinished map before eight.
+
+【正解13】
+3. Wait on the street.
+
+【解説13】
+集合は学校ではなく公園の門で8時です。門がロックされていたら、通りで待ち、よじ登ってはいけません。鉛筆は削れるものを持っていきます。ペンは濡れた紙に残りません。地図は11時に集め、未完成でもそのときです。
+1 は、Do not climb it と逆です。2 は、学校で始める、とは言っていません。4 は、8時より前に出す、ではなく、11時に集めます。
+
+【ポイント13】
+種別: リスニング
+見出し: If the gate is locked のあとが、そのときの行動
+・ロックのとき ← wait on the street
+・道具の話 ← pencil と pen
+・地図を集める時刻 ← eleven
+
+---
+
+No.14:
+W: Garden club members, listen. A frost is expected on Wednesday night. Tools can stay in the shed, but young plants cannot. Cover the herb boxes before you go home on Wednesday. Do not water them that afternoon. Wet leaves freeze more easily. The covers come off on Thursday morning if the sun is out. If it is still freezing, leave the covers on.
+
+Question No.14:
+Why should members avoid watering on Wednesday afternoon?
+
+1. The shed will be locked.
+2. The sun will be out on Wednesday night.
+3. The covers must stay on all winter.
+4. Wet leaves freeze more easily.
+
+【正解14】
+4. Wet leaves freeze more easily.
+
+【解説14】
+水曜の夜に霜が予想されています。道具は小屋に置いたままでよく、若い植物はだめです。水曜の帰宅前にハーブの箱へカバーをします。その午後は水をやらないでください。濡れた葉は凍りやすい、が理由です。カバーは木曜の朝、日が出ていれば外します。まだ凍るなら付けたままです。
+1 は、道具は小屋に置ける、で、水をやらない理由ではありません。3 は、冬のあいだずっと、ではありません。2 は、水曜の夜に日が出る、とは言っていません。
+
+【ポイント14】
+種別: リスニング
+見出し: 禁止の直後の文が、その理由
+・午後に水をやらない理由 ← Wet leaves freeze
+・植物とは扱いが違う ← tools
+・カバーを外すかもしれないとき ← Thursday morning
+
+---
+
+No.15:
+M: A note about Monday's math test. You may use a calculator only for the last section. The first two sections must be done without one. Borrowing a classmate's calculator is not allowed. If you forget yours, tell the teacher before the test, and you will do the last section by hand. Phones are not calculators in this room.
+
+Question No.15:
+What happens if a student forgets a calculator?
+
+1. They may borrow one from a classmate.
+2. They use a phone for the last section.
+3. They do the last section by hand.
+4. They skip the first two sections.
+
+【正解15】
+3. They do the last section by hand.
+
+【解説15】
+電卓は最後の部分だけ使えます。最初の二つは電卓なしです。級友から借りることはできません。忘れた場合は試験の前に先生に言い、最後の部分を手で計算します。この部屋では電話は電卓になりません。
+1 は、not allowed です。2 は、Phones are not calculators と逆です。4 は、最初の二つを飛ばす、とは言っていません。
+
+【ポイント15】
+種別: リスニング
+見出し: 前の部分と分ける ← only for the last section
+・最初の二つ ← without one
+・電卓を忘れたときの最後 ← by hand
+・代わりの電卓にならない ← phones
+
+---
+
+No.16:
+W: This is about the town radio on Sunday. The show will be shorter because of a power test at two. We will read shop news, but not play music. Music returns next Sunday. People who sent a birthday message will still hear it, at the beginning, not at the end. Please do not call the studio during the test.
+
+Question No.16:
+What is different about Sunday's show?
+
+1. Birthday messages are canceled.
+2. Music will be played at the end.
+3. There will be no music.
+4. The power test is canceled.
+
+【正解16】
+3. There will be no music.
+
+【解説16】
+2時の電力点検のため、日曜の放送は短くなります。店の知らせは読み、音楽は流しません。音楽は次の日曜に戻ります。誕生日メッセージは、終わりではなく最初に流れます。点検のあいだスタジオへ電話しないでください。
+1 は、メッセージは流れます。2 は、音楽がなく、メッセージの位置も終わりではありません。4 は、点検があるから短い、ので中止ではありません。
+
+【ポイント16】
+種別: リスニング
+見出し: 続くものとの差 ← but not
+・読む ← shop news。読まない ← music
+・音楽が戻る日 ← next Sunday
+・誕生日メッセージの位置 ← beginning
+
+---
+
+No.17:
+M: Hikers, a change for Saturday. The trail to the waterfall is closed. We will use the lake path instead. It is shorter, so we will be back by three, not four. Bring the same lunch. Do not bring extra water for the waterfall stop, because that stop is gone. Fill your bottle at school before we leave.
+
+Question No.17:
+Why is extra water for the waterfall unnecessary?
+
+1. That stop will not happen.
+2. The lake path has no stops.
+3. Students must buy water at the lake.
+4. The group will return at four.
+
+【正解17】
+1. That stop will not happen.
+
+【解説17】
+滝への道は閉鎖で、代わりに湖の道を使います。短いので帰りは4時ではなく3時です。昼食は同じでよいです。滝の休憩はなくなるので、そのための余分な水は不要です。出発前に学校でボトルを満たします。
+2 は、休憩が一つなくなる、で、道に休憩がまったくない、とは言っていません。3 の湖で買う、は本文にありません。4 は、not four と逆です。
+
+【ポイント17】
+種別: リスニング
+見出し: instead のあと、いらなくなる荷物がある
+・余分な水をやめる理由 ← waterfall stop is gone
+・変えないもの ← same lunch
+・帰りの時刻 ← by three, not four
+
+---
+
+No.18:
+W: Poster club, the wall by the gym is ours until Sunday night. Take every poster down before eight on Sunday. The basketball team needs a blank wall on Monday morning. Posters left up will be removed by the custodians and will not be saved. If you want a poster back, take it yourself. Tape must come off the wall, not just the paper.
+
+Question No.18:
+What should students do if they want a poster back?
+
+1. Ask the custodians to save it.
+2. Leave it up until Monday.
+3. Take it down themselves.
+4. Leave the tape on the wall.
+
+【正解18】
+3. Take it down themselves.
+
+【解説18】
+体育館のそばの壁は日曜の夜までポスター部のものです。日曜の8時より前に全部外します。月曜の朝、バスケットボール部が無地の壁を必要とします。残ったポスターは用務員が外し、保管しません。返してほしいなら自分で外します。テープも紙だけでなく壁から取ります。
+1 は、will not be saved です。2 は、月曜まで貼ったまま、と逆です。4 は、テープも外します。
+
+【ポイント18】
+種別: リスニング
+見出し: 自分で回収する ← will not be saved
+・外す期限 ← before eight on Sunday
+・次の使用者 ← Monday morning
+・tape も、紙といっしょに残さない
+
+---
+
+No.19:
+M: The shoe drive ends on Tuesday. Clean pairs go to the community center. Torn pairs are recycled, not repaired. Please tie the laces and put a size note on one shoe. A pair with no size can still be given, but it will be checked more slowly. Do not leave single shoes. One shoe cannot be sent.
+
+Question No.19:
+What happens to shoes that are torn?
+
+1. They are repaired and then given away.
+2. They are accepted even if only one shoe is left.
+3. They are sent without a size note.
+4. They are recycled.
+
+【正解19】
+4. They are recycled.
+
+【解説19】
+靴の回収は火曜までです。きれいな組はコミュニティセンターへ、破れた組は修理せず再利用します。ひもを結び、片方にサイズを書きます。サイズがなくても出せますが、確認は遅くなります。片方だけでは出せません。
+1 は、not repaired と逆です。3 は、破れた靴の行き先ではなく、サイズの話です。2 は、single shoes は出せません。
+
+【ポイント19】
+種別: リスニング
+見出し: not repaired のあとが、破れた靴の行き先
+・破れた組 ← recycled
+・きれいな組 ← community center
+・対象外 ← single shoes
+
+---
+
+No.20:
+W: Language exchange seats are limited to sixteen. The first meeting is in room 5B, not the cafeteria. Partners are chosen by the teacher, not by friends sitting together. If you cannot come, tell the office by noon on Tuesday so another student can take the seat. Arriving late does not save the seat past ten minutes.
+
+Question No.20:
+How can another student get a seat?
+
+1. By sitting with a friend in the cafeteria.
+2. By arriving ten minutes late.
+3. If someone reports an absence by Tuesday noon.
+4. By adding seats past sixteen.
+
+【正解20】
+3. If someone reports an absence by Tuesday noon.
+
+【解説20】
+席は16までです。最初の会は食堂ではなく5Bです。相手は先生が決め、友だちが並んで座るのではありません。来られないときは火曜の正午までに事務所へ言い、別の生徒がその席を使えます。10分を過ぎた遅れは席を保てません。
+1 は、場所も決め方も違います。2 は、10分を過ぎると席は残りません。4 は、16を超えて増やせる、とは言っていません。
+
+【ポイント20】
+種別: リスニング
+見出し: 空ける手続きの目的 ← so another student can
+・欠席連絡の期限 ← by noon on Tuesday
+・食堂ではない ← room 5B
+・遅れても席が残る限界 ← ten minutes
+
+---
+
+No.21:
+M: Students using the photo room on Wednesday must sign the sheet before lunch. The room holds four people. A fifth person may wait in the hall, not inside. The bottles stay on the metal table. Do not move them to the sink. If you finish early, clean your tray and let the next person in. The room locks at five whether you are finished or not.
+
+Question No.21:
+Where may a fifth student wait?
+
+1. In the hall.
+2. Inside the photo room.
+3. At the sink.
+4. Until five, inside with the bottles.
+
+【正解21】
+1. In the hall.
+
+【解説21】
+写真室は4人です。5人目は中ではなく廊下で待ちます。水曜に使う生徒は昼より前に用紙へ署名します。瓶は金属の机に置き、流しへ移しません。早く終わったらトレイを洗い、次の人を入れます。終わっていなくても5時に施錠します。
+2 は、not inside です。3 は、瓶を移さない場所です。4 は、5時は施錠の時刻で、5人目が中にいてよい意味ではありません。
+
+【ポイント21】
+種別: リスニング
+見出し: 待ち場所を外に限る ← not inside
+・four people が定員
+・瓶の場所 ← metal table
+・作業の終わりとは別 ← locks at five
+
+---
+No.22:
+W: Neighborhood helpers, listen. Announcements must be on the front desk by eight, not by email. I will read them in the order I receive them. A group that sends a long note will hear only the first two sentences. Write the place and the time in those two sentences. Jokes at the end will not be read. If you miss the desk, wait until the next morning.
+
+Question No.22:
+What part of a long announcement will be read?
+
+1. The joke at the end.
+2. Nothing until the next week.
+3. The whole note, if it arrives by email.
+4. The first two sentences.
+
+【正解22】
+4. The first two sentences.
+
+【解説22】
+朝の連絡は8時までに机へ置き、メールでは受け付けません。受け取った順に読みます。長いノートは最初の2文だけです。場所と時刻はその2文に書きます。終わりの冗談は読みません。机に間に合わなければ次の朝まで待ちます。
+1 は、読まれません。3 は、メールは不可です。2 は、次の週まで、ではなく、次の朝です。
+
+【ポイント22】
+種別: リスニング
+見出し: 長い文のどこが残るか ← only the first two
+・出し方 ← by eight, not by email
+・その2文に入れる情報 ← place and time
+・読まれない ← jokes at the end
+
+---
+
+No.23:
+M: Library users, the fine for a late book is not money this month. You will put books back on the shelf for ten minutes. The fine starts on the second day, not the first morning. A book returned before the library opens still counts as on time. Tell the desk if you lost a book. Putting books back cannot replace a lost book.
+
+Question No.23:
+What is true about a book returned on the first morning?
+
+1. It still counts as on time.
+2. The student must put books back for ten minutes.
+3. It is treated as a lost book.
+4. The student must pay money.
+
+【正解23】
+1. It still counts as on time.
+
+【解説23】
+今月の延滞の罰はお金ではなく、10分間、本を棚へ戻すことです。罰は2日目からで、初日の朝ではありません。開館前に返せば、期限内です。本をなくした場合は受付に言い、棚へ戻すだけでは失った本の代わりになりません。
+2 は、2日目からの罰です。初日の朝には始まりません。3 は、紛失は別の扱いです。4 は、今月はお金ではありません。
+
+【ポイント23】
+種別: リスニング
+見出し: not money のあとに、本当の罰がある
+・初日の朝は期限内 ← still counts as on time
+・今月の罰 ← put books back for ten minutes
+・棚戻しでは済まない ← lost
+
+---
+
+No.24:
+W: If snow closes the community center on Wednesday, group meetings that day are canceled. They will not move to Thursday. Thursday already has its own groups. People should not come to the building to check the board. A message will be sent by seven in the morning. Plans for Sunday's game are still on if the snow stops, and that message will say so.
+
+Question No.24:
+What happens to Wednesday groups if the center closes for snow?
+
+1. They move to Thursday.
+2. They become Sunday's game.
+3. People check the board at the center.
+4. They are canceled.
+
+【正解24】
+4. They are canceled.
+
+【解説24】
+雪で水曜に会館が閉まると、その日の集まりは中止で、木曜へは移しません。木曜にはもともと別の集まりがあります。掲示を見に建物へ来ないでください。朝7時までにメッセージが届きます。日曜の試合の予定は、雪がやめば実施で、そのこともメッセージに書きます。
+1 は、will not move と逆です。3 は、来ないように言っています。2 は、水曜の集まりが日曜の試合になる、のではありません。
+
+【ポイント24】
+種別: リスニング
+見出し: 中止であって振替ではない ← will not move
+・水曜の集まり ← canceled
+・振替できない理由 ← Thursday already has
+・別のメッセージ ← Sunday's game
+
+---
+
+No.25:
+M: Cooking class on Tuesday will post an allergy list on the door. Read it before you take a tray. The nut-free soup is in the blue pot. The white pot is for students with no limits. If your name is missing from the list, tell the teacher before you eat. Do not decide from the color alone.
+
+Question No.25:
+What should a student do if their name is not on the list?
+
+1. Take the white pot.
+2. Choose by the color of the soup.
+3. Tell the teacher before eating.
+4. Avoid the blue pot only.
+
+【正解25】
+3. Tell the teacher before eating.
+
+【解説25】
+火曜の調理は、ドアにアレルギーの名簿を出します。トレイを取る前に読みます。ナッツなしのスープは青い鍋、制限のない生徒は白い鍋です。名前が名簿になければ、食べる前に先生に言います。スープの色だけで決めてはいけません。両方の鍋は同じように見えることがあります。
+1 は、制限がない生徒の鍋で、名前がないときの指示ではありません。2 は、色だけでは決めない、と逆です。4 は、青い鍋だけを避ける、では名簿の欠けを埋めていません。
+
+【ポイント25】
+種別: リスニング
+見出し: 見た目以外の確認 ← Do not decide from
+・ナッツなし ← blue。制限なし ← white
+・name is missing のとき は先生に言う
+・色が手がかりにならない理由 ← look the same
+
+---
+
+No.26:
+W: Stage crew, the floor paint is still wet on the left side. Walk only on the right until three. The wet paint looks dry, so do not test it with your shoe. Chairs for the audience go out after three, not before. If you must cross the left side, use the back hallway. That hallway adds two minutes. It is still faster than repainting the floor.
+
+Question No.26:
+Why should the crew avoid testing the floor with a shoe?
+
+1. The right side is closed.
+2. The paint looks dry but is not.
+3. Chairs are already on the left.
+4. The back hallway is locked until three.
+
+【正解26】
+2. The paint looks dry but is not.
+
+【解説26】
+舞台の左側のペンキはまだ濡れていて、3時までは右側だけ歩きます。乾いて見えるので、靴で試してはいけません。客席のいすは3時より前には出しません。左側を横切る必要があるときは裏の廊下を使い、2分余分でも、塗り直すより速いです。
+1 は、右側が歩ける側です。3 は、いすは3時のあとです。4 は、裏の廊下が3時まで施錠、とは言っていません。
+
+【ポイント26】
+種別: リスニング
+見出し: 見た目と状態が違う ← looks dry
+・右側だけ歩く時間 ← until three
+・左を横切るときの道 ← back hallway
+・靴で試したあとの損 ← repainting
+
+---
+
+No.27:
+M: Volunteer shirts for the town clean-up are in the gym office. Take one only if you are working on Sunday. Students who are just watching do not need a shirt. Write your name on the list when you take one, and bring the shirt back washed on Monday. Do not take a second shirt for a friend.
+
+Question No.27:
+Who should take a volunteer shirt?
+
+1. Students who will only watch.
+2. Students working on Sunday.
+3. A friend who is not on the list.
+4. Anyone who wants an extra size.
+
+【正解27】
+2. Students working on Sunday.
+
+【解説27】
+町の清掃のシャツは体育館の事務所にあります。日曜に働く人だけが1枚取ります。見ているだけの生徒は不要です。取るときに名簿へ名前を書き、月曜に洗って戻します。友だちの分を余分に取ってはいけません。
+1 は、不要です。3 は、友だちの分は取らない、です。4 は、2枚目を取らない、です。名簿にない人の分は取りません。
+
+【ポイント27】
+種別: リスニング
+見出し: シャツを取る人を限る ← only if
+・取る人 ← working on Sunday
+・取らない人 ← watching
+・友だちの分 ← a second shirt
+
+---
+
+No.28:
+W: The night sky evening is on for Tuesday if there are few clouds. We will meet on the field, not the roof. The roof is closed for repairs. Bring a jacket, and leave cameras at home. The club will set up two telescopes. If the sky stays cloudy, we will watch a short film in room 2A instead.
+
+Question No.28:
+Where will students meet if the sky is clear enough?
+
+1. On the roof.
+2. On the field.
+3. In room 2A.
+4. At home, with their own cameras.
+
+【正解28】
+2. On the field.
+
+【解説28】
+火曜の夜空の会は、雲が少なければ実施です。屋根は修理中なので、屋上ではなくグラウンドに集合します。上着は持っていき、カメラは家に置きます。望遠鏡はクラブが2台準備します。空が曇ったままなら、代わりに2Aで短い映画を見ます。
+1 は、修理で閉じています。3 は、空が曇っているときの場所です。4 は、カメラを家に置く、で、家で会うのではありません。
+
+【ポイント28】
+種別: リスニング
+見出し: if の条件ごとに、場所が一つずつある
+・雲が少ないとき ← field
+・雲が厚いとき ← room 2A
+・修理で使えない ← roof
+
+---
+
+No.29:
+M: Locker row C will be painted on Thursday. Empty your locker by Wednesday after school. Items left inside will be put in boxes in the hall. A lock left on the door will be cut. You may use row B for one night if you ask the office before noon on Wednesday. Row A is already full.
+
+Question No.29:
+What should students do with things in row C?
+
+1. Leave them in the locker during the painting.
+2. Empty the locker by Wednesday after school.
+3. Move them to row A.
+4. Keep the lock on the door.
+
+【正解29】
+2. Empty the locker by Wednesday after school.
+
+【解説29】
+C列のロッカーは木曜に塗装します。水曜の放課後までに空けてください。残った物は廊下の箱へ入れます。ドアの錠は切られます。水曜の正午より前に事務所へ言えば、1晩だけB列を使えます。A列はすでに満杯です。
+1 は、中に残すと廊下の箱へ出ます。3 は、A列は満杯です。4 は、錠は切られます。
+
+【ポイント29】
+種別: リスニング
+見出し: 塗装の日の前に空ける ← by Wednesday
+・塗装の日 ← Thursday
+・申し出があれば1晩 ← row B
+・すでに使えない ← row A
+
+---
+
+No.30:
+W: Students who need a new bus pass photo must come to the office on Tuesday or Thursday. Monday is for lost passes, not for photos. Bring the old pass if you have it. If it was lost, Monday's desk will write a note, and you bring that note to the photo day. Photos without the pass or the note will not be printed.
+
+Question No.30:
+What should a student bring if the old pass was lost?
+
+1. Nothing, because Monday is the photo day.
+2. A note from Monday's desk.
+3. Only the old pass.
+4. Monday's photo without a note.
+
+【正解30】
+2. A note from Monday's desk.
+
+【解説30】
+新しいバス定期の写真は、火曜か木曜に事務所です。月曜は紛失した定期の窓口で、写真の日ではありません。古い定期があれば持ってきます。紛失した場合は月曜の窓口がメモを書き、そのメモを写真の日に持ってきます。定期もメモもなしの写真は印刷しません。
+1 は、月曜は写真の日ではありません。3 は、紛失したので持っていけません。4 は、メモなしでは印刷されません。
+
+【ポイント30】
+種別: リスニング
+見出し: 別の用事 ← Monday と photo day
+・月曜 ← lost passes
+・写真の日に持っていくもの ← note
+・印刷されない ← without the pass or the note
+
+---
+
+No.31:
+M: The recycling contest counts bottles and cans only. Paper goes to the usual bin and will not earn points. Each class has a clear bag by the back door. Tie it before Tuesday's collection. A bag with food inside will leave the contest. Rinse containers at home. The winning class will choose a tree for the yard, not a pizza party.
+
+Question No.31:
+What will the winning class receive?
+
+1. Points for paper.
+2. A pizza party.
+3. The chance to choose a tree.
+4. A bag that still has food in it.
+
+【正解31】
+3. The chance to choose a tree.
+
+【解説31】
+リサイクルコンテストの対象は瓶と缶だけです。紙はいつもの箱で、点数になりません。各クラスは裏口に透明の袋を置き、火曜の回収の前に結びます。食べ物が残った袋はコンテストから外れます。容器は家で洗います。勝ったクラスはピザではなく、校庭の木を選びます。
+1 は、紙は点数になりません。2 は、not a pizza party と逆です。4 は、食べ物が残ると除外されます。
+
+【ポイント31】
+種別: リスニング
+見出し: not a pizza party の前が、実際の賞
+・bottles and cans だけが点数
+・失格 ← food still inside
+・勝ったクラスの選択 ← tree for the yard
+
+---
+
+No.32:
+W: The nurse will be out on Wednesday morning. Afternoon visits are still possible after one. For a small cut before then, use the kit by the office, not the one in the gym. The gym kit is for practices after school. If you feel too ill to stay, call a parent from the office phone. The nurse returns at twelve forty-five.
+
+Question No.32:
+Where is the kit for a small cut on Wednesday morning?
+
+1. In the gym.
+2. By the office.
+3. After school, from the gym kit.
+4. With the nurse, before one.
+
+【正解32】
+2. By the office.
+
+【解説32】
+看護師は水曜の午前は不在で、午後の診察は1時のあとです。それより前の小さい傷は、体育館ではなく事務所のそばのキットを使います。体育館のキットは放課後の練習用です。あまりに具合が悪ければ、事務所の電話で保護者に連絡します。看護師は12時45分に戻ります。
+1 は、放課後の練習用です。3 も体育館のキットで、午前の小さい傷には使いません。4 は、午前は看護師がいないので、1時より前の傷はキットです。
+
+【ポイント32】
+種別: リスニング
+見出し: 時間でキットが分かれる ← not the one in the gym
+・1時より前 ← before then
+・小さい傷 ← office kit
+・放課後 ← gym kit
+
+---
+
+No.33:
+M: Club treasurers must put this month's receipts in the blue envelope. Coins go in the white envelope. Do not mix them. The blue envelope is due on Thursday. The white one can wait until Monday because the bank is closed on Friday. A receipt with no date will be returned to the club. Write the date before you seal the envelope.
+
+Question No.33:
+Where do the coins go?
+
+1. In the blue envelope with the receipts.
+2. In the white envelope.
+3. They can be mixed with the receipts.
+4. Back to the club, with no date.
+
+【正解33】
+2. In the white envelope.
+
+【解説33】
+今月のレシートは青い封筒、硬貨は白い封筒で、混ぜません。質問は硬貨の行き先です。白い封筒です。青い封筒は木曜が期限で、白い封筒は月曜まで待てます。金曜は銀行が閉まっているからです。
+1 はレシートの封筒です。3 は、Do not mix と逆です。4 は、日付のないレシートが部へ戻される話で、硬貨の行き先ではありません。
+
+【ポイント33】
+種別: リスニング
+見出し: 混ぜない二つの封筒
+・硬貨 ← white。レシート ← blue
+・白が月曜まで待てる理由 ← bank is closed on Friday
+・戻されるレシート ← no date
+
+---
+
+No.34:
+W: The east field is closed to dogs this month, even if the owner holds the dog. The grass is new. Dog owners may use the west path. Students who are not with a dog may still practice on the east field after four. Before four, the field is for the workers. A dog on the west path must stay off the flower beds. Those beds are new.
+
+Question No.34:
+Who may use the east field after four?
+
+1. Dogs, even if the owner holds them.
+2. Students who are not with a dog.
+3. Only the workers.
+4. Dogs, if they avoid the flower beds.
+
+【正解34】
+2. Students who are not with a dog.
+
+【解説34】
+東のグラウンドは今月、飼い主がつないでいても犬は入れません。芝生が新しいからです。犬の飼い主は西の道を使えます。犬と一緒でない生徒は、4時のあと東で練習できます。4時より前は作業員の時間です。西の道の犬は、新しい花壇に入ってはいけません。
+1 は、even if the owner holds the dog でも東は不可です。3 は、4時より前の利用者です。4 は、花壇を避ける話は西の道です。
+
+【ポイント34】
+種別: リスニング
+見出し: 条件を足しても禁止 ← even if the owner holds the dog
+・犬は不可 ← east field
+・犬のいない生徒 ← after four
+・西の道の注意 ← flower beds
+
+---
+
+No.35:
+M: Summer activity packets are at the front desk of the community center, not in the hall. Take the packet with your age color. Green is for younger children, blue for ages eleven to fourteen, and red for ages fifteen to seventeen. Packets left after Tuesday will be mailed, and mailing is not free. A family member may pick one up, but they must say your age color.
+
+Question No.35:
+What happens to packets still at the desk after Tuesday?
+
+1. They are given out in the hall.
+2. They are mailed, and the mailing costs money.
+3. They are kept in the hall the next week.
+4. Only older teens may take a green packet.
+
+【正解35】
+2. They are mailed, and the mailing costs money.
+
+【解説35】
+夏の活動の袋はホールではなく、会館の正面受付にあります。年齢の色の袋を取ります。緑が小さい子ども、青が11歳から14歳、赤が15歳から17歳です。火曜を過ぎて残った袋は郵送され、その郵送は無料ではありません。家族が受け取るときも、年齢の色を言う必要があります。
+1 は、not in the hall です。3 は、次の週のホールまで残す、のではありません。4 は、緑は小さい子どもです。
+
+【ポイント35】
+種別: リスニング
+見出し: 残った袋の郵送に費用がある ← not free
+・取り違えの防止 ← age color
+・郵送に回る期限 ← after Tuesday
+・本人不在でも受け取れる ← a family member
+
+---

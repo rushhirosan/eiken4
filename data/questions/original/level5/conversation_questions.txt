@@ -11,9 +11,9 @@ Mother : What day is today? Boy : ( )
 1. It's Tuesday.
 
 【解説1】
-正解は「It's Tuesday.」です。意味は「かようびです」です。
-「What day（なんようび）」と曜日を聞いているので、曜日の答えが合います。
-ほかの選択肢：「It's sunny.（はれ）」は天気、「It's under the bed.（ベッドの下）」はばしょ、「It's my book.（わたしのほん）」はもの、で曜日ではありません。
+正解は「It's Tuesday.」です。意味は「火曜日です」です。
+「What day（何曜日）」と曜日を聞いているので、曜日の答えが合います。
+ほかの選択肢：「It's sunny.（晴れ）」は天気、「It's under the bed.（ベッドの下）」は場所、「It's my book.（私の本）」は物、で曜日ではありません。
 「What day」と見たら、Monday や Tuesday などの曜日を探すとよいです。
 
 【ポイント1】
@@ -37,10 +37,10 @@ Mother : Where is your homework? Girl : ( )
 2. On the table.
 
 【解説2】
-正解は「On the table.」です。意味は「テーブルのうえ」です。
-「Where（どこ）」とばしょを聞いているので、ばしょの答えが合います。
-ほかの選択肢：「Yes, I do.」ははい・いいえ、「It's Monday.（げつようび）」は曜日、「Two apples.（りんごが2つ）」はかずで、ばしょではありません。
-「Where」と聞かれたら、ばしょを答える文を選びましょう。
+正解は「On the table.」です。意味は「テーブルの上」です。
+「Where（どこ）」と場所を聞いているので、場所の答えが合います。
+ほかの選択肢：「Yes, I do.」ははい・いいえ、「It's Monday.（月曜日）」は曜日、「Two apples.（りんごが2つ）」は数で、場所ではありません。
+「Where」と聞かれたら、場所を答える文を選びましょう。
 
 【ポイント2】
 種別: 会話
@@ -63,10 +63,10 @@ A : How old is your sister? B : ( )
 2. She's ten.
 
 【解説3】
-正解は「She's ten.」です。意味は「10さいです」です。
-「How old（なんさい）」と年れいを聞いているので、さいの答えが合います。
-ほかの選択肢：「She's at home.（いえにいる）」はばしょ、「She's tall.（せがたかい）」はすがた、「She's hungry.（おなかがすいた）」はきもちで、年れいではありません。
-「How old」と見たら、かず＋さいの答えを探すとよいです。
+正解は「She's ten.」です。意味は「10歳です」です。
+「How old（何歳）」と年齢を聞いているので、歳の答えが合います。
+ほかの選択肢：「She's at home.（家にいる）」は場所、「She's tall.（背が高い）」は姿、「She's hungry.（おなかが空いた）」は気持ちで、年齢ではありません。
+「How old」と見たら、数＋歳の答えを探すとよいです。
 
 【ポイント3】
 種別: 会話
@@ -90,8 +90,8 @@ Girl : What time is dinner? Boy : ( )
 
 【解説4】
 正解は「At six.」です。意味は「6時に」です。
-「What time（なんじ）」と時刻を聞いているので、時刻の答えが合います。
-ほかの選択肢：「By bike.（じてんしゃで）」はのりかた、「In March.（3がつに）」は月、「With Mom.（おかあさんと）」はだれと、で時刻ではありません。
+「What time（何時）」と時刻を聞いているので、時刻の答えが合います。
+ほかの選択肢：「By bike.（自転車で）」は乗り方、「In March.（3月に）」は月、「With Mom.（お母さんと）」は誰と、で時刻ではありません。
 「What time」と聞かれたら、「At 〜」の時刻を選びましょう。
 
 【ポイント4】
@@ -117,7 +117,7 @@ A : Can you swim? B : ( )
 【解説5】
 正解は「Yes, I can.」です。意味は「うん、できるよ」です。
 「Can you 〜?（できる？）」には、「Yes, I can. / No, I can't.」が自然です。
-ほかの選択肢：「In the pool.（プールで）」はばしょ、「At four.（4時に）」は時刻、「Every Sunday.（まいしゅうにちようび）」はいつか、でできるかに答えていません。
+ほかの選択肢：「In the pool.（プールで）」は場所、「At four.（4時に）」は時刻、「Every Sunday.（毎週日曜日）」はいつか、でできるかに答えていません。
 「Can you 〜?」と聞かれたら、Yes, I can. / No, I can't. を探すとよいです。
 
 【ポイント5】
@@ -141,10 +141,10 @@ Boy : Who made this cake? Girl : ( )
 3. My mother did.
 
 【解説6】
-正解は「My mother did.」です。意味は「おかあさんがつくったよ」です。
-「Who（だれ）」と人を聞いているので、だれかを言う答えが合います。
-ほかの選択肢：「In the kitchen.（だいどころ）」はばしょ、「At three.（3時に）」は時刻、「It's sweet.（あまい）」はあじで、だれかには答えていません。
-「Who」と見たら、人のなまえやよびかたを探すとよいです。
+正解は「My mother did.」です。意味は「お母さんが作ったよ」です。
+「Who（誰）」と人を聞いているので、誰かを言う答えが合います。
+ほかの選択肢：「In the kitchen.（台所）」は場所、「At three.（3時に）」は時刻、「It's sweet.（甘い）」は味で、誰かには答えていません。
+「Who」と見たら、人の名前や呼び方を探すとよいです。
 
 【ポイント6】
 種別: 会話
@@ -167,10 +167,10 @@ A : How much are these cookies? B : ( )
 4. They're 200 yen.
 
 【解説7】
-正解は「They're 200 yen.」です。意味は「200えんです」です。
-「How much（いくら）」とねだんを聞いているので、ねだんの答えが合います。
-ほかの選択肢：「They're fresh.（しんせん）」はじょうたい、「They're brown.（ちゃいろ）」は色、「They're mine.（わたしの）」はだれのもの、でねだんではありません。
-「How much」と聞かれたら、かねやねだんを答える文を選びましょう。
+正解は「They're 200 yen.」です。意味は「200円です」です。
+「How much（いくら）」と値段を聞いているので、値段の答えが合います。
+ほかの選択肢：「They're fresh.（新鮮）」は状態、「They're brown.（茶色）」は色、「They're mine.（私の）」は誰の物、で値段ではありません。
+「How much」と聞かれたら、かねや値段を答える文を選びましょう。
 
 【ポイント7】
 種別: 会話
@@ -193,9 +193,9 @@ Mother : When is the music festival? Boy : ( )
 1. Next Saturday.
 
 【解説8】
-正解は「Next Saturday.」です。意味は「こんしゅうのどようび」です。
+正解は「Next Saturday.」です。意味は「今週の土曜日」です。
 「When（いつ）」と時を聞いているので、日や時の答えが合います。
-ほかの選択肢：「At school.（がっこう）」はばしょ、「With my class.（クラスと）」はだれと、「By bus.（バスで）」はのりかたで、いつかには答えていません。
+ほかの選択肢：「At school.（学校）」は場所、「With my class.（クラスと）」は誰と、「By bus.（バスで）」は乗り方で、いつかには答えていません。
 「When」と見たら、日・曜日・時を探すとよいです。
 
 【ポイント8】
@@ -219,10 +219,10 @@ Girl : What's in your bag? Boy : ( )
 4. A book and a lunch box.
 
 【解説9】
-正解は「A book and a lunch box.」です。意味は「ほんとおべんとうばこです」です。
-「What's in 〜?（〜のなかはなに？）」と中身を聞いているので、ものの答えが合います。
-ほかの選択肢：「At nine.（9時に）」は時刻、「In my room.（へや）」はばしょ、「Yes, please.（はい、おねがい）」はたのむときの返事で、中身ではありません。
-「What's in」と見たら、中にあるものを答える文を選びましょう。
+正解は「A book and a lunch box.」です。意味は「本とお弁当箱です」です。
+「What's in 〜?（〜の中は何？）」と中身を聞いているので、物の答えが合います。
+ほかの選択肢：「At nine.（9時に）」は時刻、「In my room.（部屋）」は場所、「Yes, please.（はい、お願い）」は頼む時の返事で、中身ではありません。
+「What's in」と見たら、中にある物を答える文を選びましょう。
 
 【ポイント9】
 種別: 会話
@@ -245,10 +245,10 @@ A : How's the weather today? B : ( )
 2. It's rainy.
 
 【解説10】
-正解は「It's rainy.」です。意味は「あめです」です。
-「How's the weather（てんきはどう）」と天気を聞いているので、天気のことばが合います。
-ほかの選択肢：「It's my hat.（わたしのぼうし）」はもの、「It's under the desk.（つくえの下）」はばしょ、「It's Friday.（きんようび）」は曜日で、天気ではありません。
-「weather（てんき）」と見たら、sunny / rainy / cloudy などを探すとよいです。
+正解は「It's rainy.」です。意味は「雨です」です。
+「How's the weather（天気はどう）」と天気を聞いているので、天気の言葉が合います。
+ほかの選択肢：「It's my hat.（私の帽子）」は物、「It's under the desk.（机の下）」は場所、「It's Friday.（金曜日）」は曜日で、天気ではありません。
+「weather（天気）」と見たら、sunny / rainy / cloudy などを探すとよいです。
 
 【ポイント10】
 種別: 会話
@@ -273,7 +273,7 @@ A : How many pencils do you have? B : ( )
 【解説11】
 正解は「Three.」です。意味は「3本です」です。
 「How many（いくつ）」と数を聞いているので、数字の答えが合います。
-ほかの選択肢：「At school.（がっこうで）」はばしょ、「On the desk.（つくえのうえ）」もばしょ、「With my friend.（ともだちと）」はだれと、で、数ではありません。
+ほかの選択肢：「At school.（学校で）」は場所、「On the desk.（机の上）」も場所、「With my friend.（友達と）」は誰と、で、数ではありません。
 「How many」と見たら、one / two / three などを探しましょう。
 
 【ポイント11】
@@ -299,7 +299,7 @@ Girl : Do you like math? Boy : ( )
 【解説12】
 正解は「Yes, I do.」です。意味は「うん、好きです」です。
 「Do you like 〜?（〜は好き？）」という質問なので、はい・いいえの答えが合います。
-ほかの選択肢：「At ten o'clock.（10時に）」は時刻、「In the classroom.（教室で）」はばしょ、「My brother does.（弟が好き）」は別の人の話で、自分の答えではありません。
+ほかの選択肢：「At ten o'clock.（10時に）」は時刻、「In the classroom.（教室で）」は場所、「My brother does.（弟が好き）」は別の人の話で、自分の答えではありません。
 「Do you 〜?」と来たら、Yes / No で答える文を選びましょう。
 
 【ポイント12】
@@ -323,9 +323,9 @@ A : Whose bag is this? B : ( )
 4. It's mine.
 
 【解説13】
-正解は「It's mine.」です。意味は「わたしのです」です。
-「Whose（だれの）」と持ち主を聞いているので、「It's mine.（わたしのです）」が合います。
-ほかの選択肢：「A red one.（あかいの）」は色や種類、「On the chair.（いすのうえ）」はばしょ、「At school.（がっこう）」もばしょで、だれのものかには答えていません。
+正解は「It's mine.」です。意味は「私のです」です。
+「Whose（誰の）」と持ち主を聞いているので、「It's mine.（私のです）」が合います。
+ほかの選択肢：「A red one.（赤いの）」は色や種類、「On the chair.（椅子の上）」は場所、「At school.（学校）」も場所で、誰の物かには答えていません。
 「Whose」と見たら、mine / yours / his などを探すとよいです。
 
 【ポイント13】
@@ -350,8 +350,8 @@ A : What are you doing? B : ( )
 
 【解説14】
 正解は「I'm reading a book.」です。意味は「本を読んでいます」です。
-「What are you doing?（なにをしている？）」と今していることを聞いているので、「I'm reading a book.（本を読んでいる）」が合います。
-ほかの選択肢：「At home.（うちで）」はばしょ、「With my sister.（妹と）」はだれと、「Every day.（まいにち）」はいつで、今していることではありません。
+「What are you doing?（何をしている？）」と今していることを聞いているので、「I'm reading a book.（本を読んでいる）」が合います。
+ほかの選択肢：「At home.（家で）」は場所、「With my sister.（妹と）」は誰と、「Every day.（毎日）」はいつで、今していることではありません。
 「What are you doing?」と来たら、I'm ＋ 〜ing の文を探しましょう。
 
 【ポイント14】
@@ -377,7 +377,7 @@ Girl : Can you cook? Boy : ( )
 【解説15】
 正解は「Yes, a little.」です。意味は「うん、少しできます」です。
 「Can you cook?（料理できる？）」という能力を聞く質問なので、「Yes, a little.（少しできる）」が自然です。
-ほかの選択肢：「In the kitchen.（だいどころで）」はばしょ、「At three.（3時に）」は時刻、「With my dad.（お父さんと）」はだれと、で、できるかには答えていません。
+ほかの選択肢：「In the kitchen.（台所で）」は場所、「At three.（3時に）」は時刻、「With my dad.（お父さんと）」は誰と、で、できるかには答えていません。
 「Can you 〜?」と来たら、できる・できないの答えを選びましょう。
 
 【ポイント15】
@@ -428,9 +428,9 @@ A : What did you eat for breakfast? B : ( )
 
 【解説17】
 正解は「Toast and milk.」です。意味は「トーストとミルクです」です。
-「What did you eat（なにを食べた？）」と食べたものを聞いているので、食べ物の答えが合います。
-ほかの選択肢：「At seven.（7時に）」は時刻、「In the kitchen.（だいどころで）」は場所、「With my family.（家族と）」はだれと、で、食べ物ではありません。
-「What did you eat」と見たら、食べたものを答える文を選びましょう。
+「What did you eat（何を食べた？）」と食べた物を聞いているので、食べ物の答えが合います。
+ほかの選択肢：「At seven.（7時に）」は時刻、「In the kitchen.（台所で）」は場所、「With my family.（家族と）」は誰と、で、食べ物ではありません。
+「What did you eat」と見たら、食べた物を答える文を選びましょう。
 
 【ポイント17】
 種別: 会話
@@ -455,14 +455,14 @@ Girl : Is this your first time here? Boy : ( )
 【解説18】
 正解は「Yes, it is.」です。意味は「うん、初めてです」です。
 「Is this your first time here?（ここは初めて？）」という質問なので、はい・いいえの答えが合います。
-ほかの選択肢：「At the park.（公園で）」は場所、「With my class.（クラスと）」はだれと、「On Monday.（月曜日に）」はいつで、初めてかどうかには答えていません。
+ほかの選択肢：「At the park.（公園で）」は場所、「With my class.（クラスと）」は誰と、「On Monday.（月曜日に）」はいつで、初めてかどうかには答えていません。
 「Is this 〜?」と来たら、Yes, it is. / No, it isn't. を探しましょう。
 
 【ポイント18】
 種別: 会話
 見出し: Is this 〜? には Yes, it is. / No, it isn't.
 ・Yes, it is. = うん、そうです
-・At the park.（公園で）は場所。はい・いいえになっていない
+・At the park.（公園で）は場所。はい・い家になっていない
 
 ---
 
@@ -479,9 +479,9 @@ A : Who is that woman? B : ( )
 2. She's my aunt.
 
 【解説19】
-正解は「She's my aunt.」です。意味は「わたしのおばさんです」です。
-「Who is 〜?（だれ？）」と人を聞いているので、「She's my aunt.（おばさんです）」が合います。
-ほかの選択肢：「At the store.（店で）」は場所、「A blue dress.（青いドレス）」はもの、「On Saturday.（土曜日に）」はいつで、だれかには答えていません。
+正解は「She's my aunt.」です。意味は「私のおばさんです」です。
+「Who is 〜?（誰？）」と人を聞いているので、「She's my aunt.（おばさんです）」が合います。
+ほかの選択肢：「At the store.（店で）」は場所、「A blue dress.（青いドレス）」は物、「On Saturday.（土曜日に）」はいつで、誰かには答えていません。
 「Who」と見たら、人の名前や関係を答える文を選びましょう。
 
 【ポイント19】
@@ -505,9 +505,9 @@ A : Why are you sad? B : ( )
 4. I lost my hat.
 
 【解説20】
-正解は「I lost my hat.」です。意味は「ぼうしをなくしました」です。
-「Why are you sad?（なぜかなしい？）」と理由を聞いているので、理由の答えが合います。
-ほかの選択肢：「At home.（うちで）」は場所、「With my dog.（犬と）」はだれと、「Every day.（まいにち）」はいつで、理由ではありません。
+正解は「I lost my hat.」です。意味は「帽子を無くしました」です。
+「Why are you sad?（なぜ悲しい？）」と理由を聞いているので、理由の答えが合います。
+ほかの選択肢：「At home.（家で）」は場所、「With my dog.（犬と）」は誰と、「Every day.（毎日）」はいつで、理由ではありません。
 「Why」と見たら、Because 〜 や理由を説明する文を探すとよいです。
 
 【ポイント20】
@@ -531,9 +531,9 @@ Girl : Your new hat is nice. Boy : ( )
 
 【解説21】
 正解は「Thanks.」です。意味は「ありがとう」です。
-女の子がぼうしをほめているので、「Thanks.（ありがとう）」が自然です。
-ほかの選択肢：「At the store.（みせで）」はばしょ、「It's Monday.（げつようび）」は曜日、「By bus.（バスで）」はのりかたで、ほめられたときの返事ではありません。
-ほめられたら Thanks / Thank you で返すとよいです。
+女の子が帽子を褒めているので、「Thanks.（ありがとう）」が自然です。
+ほかの選択肢：「At the store.（店で）」は場所、「It's Monday.（月曜日）」は曜日、「By bus.（バスで）」は乗り方で、褒められた時の返事ではありません。
+褒められたら Thanks / Thank you で返すとよいです。
 
 【ポイント21】
 種別: 会話
@@ -557,9 +557,9 @@ Boy : Thank you for the umbrella. Girl : ( )
 
 【解説22】
 正解は「You're welcome.」です。意味は「どういたしまして」です。
-かさを借りて「ありがとう」と言われたあとの定番の返事です。
-ほかの選択肢：「I'm nine.（9さい）」はとし、「On the bench.（ベンチのうえ）」はばしょ、「It's purple.（むらさき）」はいろで、礼への返事ではありません。
-Thank you のあとは You're welcome を思い出しましょう。
+傘を借りて「ありがとう」と言われた後の定番の返事です。
+ほかの選択肢：「I'm nine.（9歳）」は歳、「On the bench.（ベンチの上）」は場所、「It's purple.（紫）」は色で、礼への返事ではありません。
+Thank you の後は You're welcome を思い出しましょう。
 
 【ポイント22】
 種別: 会話
@@ -583,7 +583,7 @@ Boy : Let's play badminton after school. Girl : ( ) I love badminton.
 
 【解説23】
 正解は「Good idea.」です。意味は「いいね」です。
-「Let's 〜（〜しよう）」の誘いに賛成する返事です。あとに「バドミントンが好き」ともつながります。
+「Let's 〜（〜しよう）」の誘いに賛成する返事です。後に「バドミントンが好き」ともつながります。
 ほかの選択肢：「At three.（3時に）」は時刻、「It's rainy.（雨）」は天気、「My sister.（お姉さん）」は人で、誘いへの賛成ではありません。
 Let's と来たら、Good idea. / OK. / Sure. などの賛成を探すとよいです。
 
@@ -609,15 +609,15 @@ Girl : Can you come to the zoo tomorrow? Boy : ( ) I have a fever.
 
 【解説24】
 正解は「Sorry, I can't.」です。意味は「ごめん、行けない」です。
-どうぶつえんへの誘いに対して断る言い方で、あとの「ねつがある」という理由とも合います。
-ほかの選択肢：「Sure, here you are.」は物を渡すとき、「You're welcome.」は礼への返事、「Nice to meet you.」は初めて会ったときで、断りではありません。
-行けないときは Sorry, I can't. + 理由、と覚えましょう。
+動物園への誘いに対して断る言い方で、後の「熱がある」という理由とも合います。
+ほかの選択肢：「Sure, here you are.」は物を渡す時、「You're welcome.」は礼への返事、「Nice to meet you.」は初めて会った時で、断りではありません。
+行けない時は Sorry, I can't. + 理由、と覚えましょう。
 
 【ポイント24】
 種別: 会話
-見出し: 誘いを断るときは Sorry, I can't
+見出し: 誘いを断る時は Sorry, I can't
 ・Can you come 〜? → Sorry, I can't. + 理由
-・here you are は物を渡すとき
+・here you are は物を渡す時
 
 ---
 
@@ -636,7 +636,7 @@ Boy : Can you help me carry this box? Girl : ( )
 【解説25】
 正解は「Sure. Let's do it together.」です。意味は「いいよ。いっしょにやろう」です。
 箱を運ぶ手伝いを頼まれて、快く引き受ける返事です。
-ほかの選択肢：「It's windy.（かぜがつよい）」は天気、「At the park.（こうえんで）」はばしょ、「I'm sleepy.（ねむい）」は気持ちで、手伝いの返事ではありません。
+ほかの選択肢：「It's windy.（風が強い）」は天気、「At the park.（公園で）」は場所、「I'm sleepy.（眠い）」は気持ちで、手伝いの返事ではありません。
 Can you help me 〜? には Sure. / OK. がよく来ます。
 
 【ポイント25】
@@ -661,9 +661,9 @@ Mother : You're late for dinner. Boy : ( ) I missed the bus.
 
 【解説26】
 正解は「Sorry.」です。意味は「ごめん」です。
-お母さんが「晩ごはんにおそいよ」と言っているので、謝る返事が自然です。あとの「バスに乗り遅れた」という理由ともつながります。
-ほかの選択肢：「Good idea.（いいね）」は賛成、「You're welcome.（どういたしまして）」は礼への返事、「Me, too.（わたしも）」は同意で、謝罪ではありません。
-おそくなった・悪いことをしたときは、Sorry. から始めて理由を続けるとよいです。
+お母さんが「晩ごはんに遅いよ」と言っているので、謝る返事が自然です。後の「バスに乗り遅れた」という理由ともつながります。
+ほかの選択肢：「Good idea.（いいね）」は賛成、「You're welcome.（どういたしまして）」は礼への返事、「Me, too.（私も）」は同意で、謝罪ではありません。
+遅くなった・悪いことをした時は、Sorry. から始めて理由を続けるとよいです。
 
 【ポイント26】
 種別: 会話
@@ -686,9 +686,9 @@ Father : What's wrong, Mei? Girl : ( )
 4. I feel cold.
 
 【解説27】
-正解は「I feel cold.」です。意味は「さむい（調子がわるい）」です。
-「What's wrong?（どうしたの？）」は具合や困りごとを聞くので、体のようすを答えるのが自然です。
-ほかの選択肢：「At seven o'clock.（7時）」は時刻、「It's green.（みどり）」はいろ、「By subway.（ちかてつで）」はのりかたで、どうしたかには答えていません。
+正解は「I feel cold.」です。意味は「寒い（調子が悪い）」です。
+「What's wrong?（どうしたの？）」は具合や困りごとを聞くので、体の様子を答えるのが自然です。
+ほかの選択肢：「At seven o'clock.（7時）」は時刻、「It's green.（緑）」は色、「By subway.（地下鉄で）」は乗り方で、どうしたかには答えていません。
 What's wrong? / What's the matter? には I feel 〜. や I have a 〜. がよく来ます。
 
 【ポイント27】
@@ -712,16 +712,16 @@ Girl : I like oranges. Boy : ( ) I eat them every morning.
 3. I do, too.
 
 【解説28】
-正解は「I do, too.」です。意味は「わたしも（すき）です」です。
-相手の「好き」に同意して、自分も同じだと伝える言い方です。あとの「毎朝食べる」とも合います。
-ほかの選択肢：「Here you are.」は渡すとき、「I'm sorry.」は謝罪、「On the table.」はばしょで、同意ではありません。
-I like 〜. に同意するときは I do, too. を使いましょう。
+正解は「I do, too.」です。意味は「私も（好き）です」です。
+相手の「好き」に同意して、自分も同じだと伝える言い方です。後の「毎朝食べる」とも合います。
+ほかの選択肢：「Here you are.」は渡す時、「I'm sorry.」は謝罪、「On the table.」は場所で、同意ではありません。
+I like 〜. に同意する時は I do, too. を使いましょう。
 
 【ポイント28】
 種別: 会話
 見出し: I like 〜 への同意は I do, too
 ・I like oranges. → I do, too.
-・Here you are は渡すとき用
+・Here you are は渡す時用
 
 ---
 
@@ -739,13 +739,13 @@ Teacher : Class, this is Leo. He is a new student. Leo : Hello, everyone. Studen
 
 【解説29】
 正解は「Hello, Leo. Welcome.」です。意味は「こんにちは、レオ。ようこそ」です。
-新しい友だちのあいさつに対して、クラスからの返事として自然です。
-ほかの選択肢：「It's thirty yen.（30えん）」はねだん、「In July.（7がつ）」はいつ、「He is my uncle.（おじさん）」はだれかで、歓迎のあいさつではありません。
+新しい友達のあいさつに対して、クラスからの返事として自然です。
+ほかの選択肢：「It's thirty yen.（30円）」は値段、「In July.（7月）」はいつ、「He is my uncle.（おじさん）」は誰かで、歓迎のあいさつではありません。
 新しい人には Hello / Welcome で返すとよいです。
 
 【ポイント29】
 種別: 会話
-見出し: 新しい友だちには Hello / Welcome
+見出し: 新しい友達には Hello / Welcome
 ・Hello, everyone. → Hello. Welcome.
 ・値段や月は挨拶返しではない
 
@@ -764,10 +764,10 @@ Girl : I'm hungry. Boy : ( )
 2. Let's eat lunch.
 
 【解説30】
-正解は「Let's eat lunch.」です。意味は「ひるごはんを食べよう」です。
-相手が「おなかがすいた」と言っているので、食べる提案が自然です。
-ほかの選択肢：「It's mine.（わたしの）」は持ち主、「Three, please.（3つ）」は数、「She's a doctor.（お医者さん）」は職業で、提案ではありません。
-I'm hungry. のあとは Let's eat 〜. などが使えます。
+正解は「Let's eat lunch.」です。意味は「昼ごはんを食べよう」です。
+相手が「おなかが空いた」と言っているので、食べる提案が自然です。
+ほかの選択肢：「It's mine.（私の）」は持ち主、「Three, please.（3つ）」は数、「She's a doctor.（お医者さん）」は職業で、提案ではありません。
+I'm hungry. の後は Let's eat 〜. などが使えます。
 
 【ポイント30】
 種別: 会話

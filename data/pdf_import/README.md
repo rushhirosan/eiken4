@@ -4,8 +4,8 @@
 
 | ディレクトリ | 内容 |
 |--------------|------|
-| `level3_kakomon/` / `level4_kakomon/` / `level5_kakomon/` | 一次試験の過去問・解答・リスニング原稿 |
-| `level3_speaking_virtual/` | 3級二次バーチャルサンプル（`grade_3.pdf`） |
+| `level3_kakomon/` / `level4_kakomon/` / `level5_kakomon/` / `pre2_kakomon/` | 一次試験の過去問・解答・リスニング原稿（準2級は直近3回。音源はローカルのみ） |
+| `level3_speaking_virtual/` / `pre2_speaking_virtual/` | 二次バーチャルサンプル（3級 `grade_3.pdf`、準2級 `grade_p2.pdf`） |
 
 ## やってよいこと
 

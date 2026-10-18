@@ -12,6 +12,7 @@ from questions.level_paths import (
     static_images_part1_dir,
 )
 from questions.register_source import resolve_register_io
+from questions.explanation_sync import extract_listening_illustration_script
 from questions.study_points import extract_study_points
 
 
@@ -83,7 +84,8 @@ class Command(BaseCommand):
             # 画像・音声ファイル名
             image_name = f'listening_illustration_image{number}.png'
             audio_name = f'listening_illustration_question{number}.mp3'
-            image_path = db_image_path_part1(level, image_name)
+            # 準2級第1部はイラストなし（選択肢は放送）。空パスにして画面に壊れた画像を出さない。
+            image_path = '' if level == 'pre2' else db_image_path_part1(level, image_name)
             audio_part = listening_illustration_audio_part(level, number)
             audio_path = db_audio_path(level, audio_part, audio_name)
 
@@ -135,11 +137,16 @@ class Command(BaseCommand):
 
             explanation = explanation.strip()
             study_points = extract_study_points(block)
+            # 準2級だけ結果画面に放送文を出す。他級は解説内の「放送文」のまま。
+            listening_text = (
+                extract_listening_illustration_script(block) if level == 'pre2' else ''
+            )
 
             # モデル登録
             q = ListeningQuestion.objects.create(
                 provenance=provenance,
                 question_text='',
+                listening_text=listening_text,
                 image=image_path,
                 audio=audio_path,
                 correct_answer=correct_answer,

@@ -46,7 +46,7 @@
          class="card mb-4 progress-level-panel{% if not forloop.first %} d-none{% endif %}"
          data-level="{{ level }}">
         <div class="card-header">
-            <h3>{{ level }}級</h3>
+            <h3>{{ level|exam_level_name }}</h3>
         </div>
         <div class="card-body">
             <!-- 取り組み率グラフを追加 -->
@@ -107,7 +107,7 @@
                             <td>{{ progress.conversation_fill.incorrect_answers|default:"0" }}</td>
                             <td>{% if progress.conversation_fill.last_attempted %}{{ progress.conversation_fill.last_attempted }}{% else %}未回答{% endif %}</td>
                         </tr>
-                        {% if level != '3' %}
+                        {% if level != '3' and level != 'pre2' %}
                         <tr>
                             <td>語順選択問題</td>
                             <td>{{ progress.word_order.progress_rate|default:"0" }}%</td>
@@ -133,7 +133,7 @@
                             <td>{% if progress.reading_comprehension.last_attempted %}{{ progress.reading_comprehension.last_attempted }}{% else %}未回答{% endif %}</td>
                         </tr>
                         {% endif %}
-                        {% if level == '3' %}
+                        {% if level == '3' or level == 'pre2' %}
                         <tr>
                             <td>ライティング問題</td>
                             <td>{{ progress.writing.progress_rate|default:"0" }}%</td>
@@ -147,7 +147,7 @@
                         </tr>
                         {% endif %}
                         <tr>
-                            <td>リスニングイラスト問題</td>
+                            <td>{% if level == 'pre2' %}リスニング第1部: 会話の応答{% else %}リスニングイラスト問題{% endif %}</td>
                             <td>{{ progress.listening_illustration.progress_rate|default:"0" }}%</td>
                             <td>{{ progress.listening_illustration.answered_questions|default:"0" }}</td>
                             <td>{{ progress.listening_illustration.total_questions|default:"0" }}</td>
@@ -254,7 +254,7 @@
                     </div>
                 </div>
 
-                {% if level != '3' %}
+                {% if level != '3' and level != 'pre2' %}
                 <!-- 語順選択問題 -->
                 <div class="card mb-3 progress-card">
                     <div class="card-header d-flex justify-content-between align-items-center">
@@ -322,7 +322,7 @@
                 </div>
                 {% endif %}
 
-                {% if level == '3' %}
+                {% if level == '3' or level == 'pre2' %}
                 <!-- ライティング問題 -->
                 <div class="card mb-3 progress-card">
                     <div class="card-header d-flex justify-content-between align-items-center">
@@ -355,7 +355,7 @@
                 <!-- リスニングイラスト問題 -->
                 <div class="card mb-3 progress-card">
                     <div class="card-header d-flex justify-content-between align-items-center">
-                        <h6 class="mb-0"><i class="fas fa-headphones me-2"></i>リスニングイラスト問題</h6>
+                        <h6 class="mb-0"><i class="fas fa-headphones me-2"></i>{% if level == 'pre2' %}リスニング第1部: 会話の応答{% else %}リスニングイラスト問題{% endif %}</h6>
                         <span class="badge bg-primary">{{ progress.listening_illustration.progress_rate|default:"0" }}%</span>
                     </div>
                     <div class="card-body">
@@ -469,13 +469,13 @@ document.addEventListener('DOMContentLoaded', function() {
     // デバッグ用のコンソールログ
     console.log('Progress data for level {{ level }}:', progress);
     
-    {% if level == '3' %}
+    {% if level == '3' or level == 'pre2' %}
     const labels = [
         '文法・語彙問題',
         '会話補充問題',
         '長文読解問題',
         'ライティング問題',
-        'リスニングイラスト問題',
+        '{% if level == 'pre2' %}リスニング第1部: 会話の応答{% else %}リスニングイラスト問題{% endif %}',
         'リスニング会話問題',
         'リスニング文章問題'
     ];
@@ -537,7 +537,7 @@ document.addEventListener('DOMContentLoaded', function() {
             datasets: [{
                 label: '取り組み率 (%)',
                 data: data,
-                {% if level == '3' %}
+                {% if level == '3' or level == 'pre2' %}
                 backgroundColor: [
                     'rgba(54, 162, 235, 0.5)',  // 文法
                     'rgba(255, 99, 132, 0.5)',   // 会話
@@ -626,7 +626,7 @@ document.addEventListener('DOMContentLoaded', function() {
             plugins: {
                 title: {
                     display: true,
-                    text: '{{ level }}級 取り組み率',
+                    text: '{{ level|exam_level_name }} 取り組み率',
                     font: {
                         size: window.innerWidth < 768 ? 12 : 16
                     }
@@ -645,9 +645,9 @@ document.addEventListener('DOMContentLoaded', function() {
     const allDailyData = {};
     const questionTypes = [
         'grammar_fill', 'conversation_fill',
-        {% if level != '3' %}'word_order', {% endif %}
+        {% if level != '3' and level != 'pre2' %}'word_order', {% endif %}
         {% if level != '5' %}'reading_comprehension', {% endif %}
-        {% if level == '3' %}'writing', {% endif %}
+        {% if level == '3' or level == 'pre2' %}'writing', {% endif %}
         'listening_illustration', 'listening_conversation'{% if level != '5' %}, 'listening_passage'{% endif %}
     ];
     
@@ -730,7 +730,7 @@ document.addEventListener('DOMContentLoaded', function() {
             plugins: {
                 title: {
                     display: true,
-                    text: '{{ level }}級 過去7日間の取り組み数',
+                    text: '{{ level|exam_level_name }} 過去7日間の取り組み数',
                     font: {
                         size: window.innerWidth < 768 ? 12 : 16
                     }

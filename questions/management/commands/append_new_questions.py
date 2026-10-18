@@ -21,6 +21,7 @@ from questions.level_paths import (
     db_image_path_part1,
     questions_file_abspath,
 )
+from questions.explanation_sync import extract_listening_illustration_script
 from questions.models import (
     ListeningChoice,
     ListeningQuestion,
@@ -518,7 +519,12 @@ class Command(BaseCommand):
         if original:
             lq_qs = lq_qs.filter(provenance=provenance)
         for lq in lq_qs:
+            # 準2級第1部は image が空。番号は音声ファイル名から取る。
             m = re.search(r'listening_illustration_image(\d+)\.png', lq.image or '')
+            if not m:
+                m = re.search(
+                    r'listening_illustration_question(\d+)\.mp3', lq.audio or ''
+                )
             if m:
                 existing.add(int(m.group(1)))
 
@@ -553,16 +559,25 @@ class Command(BaseCommand):
             ans = int(a_match.group(1))
             expl = extract_explanation(block) or (e_match.group(1).strip() if e_match else '')
             study_points = extract_study_points(block)
-            image = db_image_path_part1(level, f'listening_illustration_image{n}.png')
+            image = (
+                ''
+                if level == 'pre2'
+                else db_image_path_part1(level, f'listening_illustration_image{n}.png')
+            )
             audio = db_audio_path(level, 'part1', f'listening_illustration_question{n}.mp3')
             if dry:
                 self.stdout.write(f'[dry] listening_illustration #{n} ({provenance})')
             else:
-                # register_listening_illustration_questions と同じ: 本文空、選択肢は番号文字
+                # register と同じ: 選択肢は番号。準2級だけ放送文を listening_text に残す。
                 lq = ListeningQuestion.objects.create(
                     provenance=provenance,
                     level=level,
                     question_text='',
+                    listening_text=(
+                        extract_listening_illustration_script(block)
+                        if level == 'pre2'
+                        else ''
+                    ),
                     explanation=expl,
                     image=image,
                     audio=audio,

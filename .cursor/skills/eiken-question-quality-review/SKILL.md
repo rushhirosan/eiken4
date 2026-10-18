@@ -1,6 +1,6 @@
 ---
 name: eiken-question-quality-review
-description: Reviews original practice questions for level fit, dummy-choice quality, answer-position bias, and format integrity. Use when asked to review question quality or 級に合っているか, not for official-similarity (use eiken-originality-review).
+description: Reviews original practice questions for level fit, dummy-choice quality, answer-position bias, setting and weekday balance, and format integrity. Use when asked to review question quality or 級に合っているか, not for official-similarity (use eiken-originality-review).
 ---
 
 # Question Quality Review
@@ -9,7 +9,7 @@ description: Reviews original practice questions for level fit, dummy-choice qua
 
 ## Inputs to confirm
 
-- 級（`5` / `4` / `3`）
+- 級（`5` / `4` / `3` / `pre2`）
 - カテゴリ
 - 対象範囲（全件 or 番号レンジ）
 - 改訂方針（最小修正 / 積極修正）
@@ -21,9 +21,10 @@ description: Reviews original practice questions for level fit, dummy-choice qua
 1. **級適合**: 語彙・文法・文長がその級か。下記「級適合の客観基準」で感覚判断にしない
 2. **選択肢**: ダミーが不自然な英語／明らかにハズレすぎ／正解が文脈上複数、がないか
 3. **正解偏り**: 対象範囲で 1〜4 が極端に偏っていないか
-4. **形式**: 番号、`---`、【正解】【解説】、選択肢数
-5. **自作内の重複**: 人名だけ違う同型。IP 用の公式比較は originality 側
-6. **構造の正しさ（カテゴリ別）**: 見た目の丁寧さより先に、枠と正解が機械的に成り立つか。**公式形式は `eiken-original-authoring` の「公式形式」表と一致させる**（独自の語順枠・読解セット・スピーキング配分にしない）
+4. **場面と曜日**: 学校の連絡・部室・提出がほぼ全部になっていないか。曜日名がある問が金曜や木曜などに寄っていないか。準2級の目安は `eiken-original-authoring` の `references/pre2.md`「場面と曜日」（学校が主は形式ごとに約6割、曜日は月〜日が近い数）
+5. **形式**: 番号、`---`、【正解】【解説】、選択肢数
+6. **自作内の重複**: 人名だけ違う同型。IP 用の公式比較は originality 側
+7. **構造の正しさ（カテゴリ別）**: 見た目の丁寧さより先に、枠と正解が機械的に成り立つか。**公式形式は `eiken-original-authoring` の「公式形式」表と一致させる**（独自の語順枠・読解セット・スピーキング配分にしない）
 
 ### 級適合の客観基準（感覚判断にしない）
 
@@ -34,14 +35,16 @@ description: Reviews original practice questions for level fit, dummy-choice qua
 | 5 | 中学初級（中1修了） | 約600〜630語 | 15 / 5 / 5（25分） | 10 / **5** / 10（約20分） | なし | なし |
 | 4 | 中学中級（CEFR A1） | 約900〜1,300語 | 15 / 5 / 5 / **10**（35分） | 10 / 10 / 10（約30分） | なし | なし |
 | 3 | 中学卒業（CEFR A1） | 約1,210語 | 15 / 5 / 10 | 10 / 10 / 10 | あり | メール15–25語＋意見25–35語 |
+| pre2 | 高校初級 | 下の NG を使う | 15 / 5 / 長文空所2 / 内容一致7 | 10 / 10 / 10 | あり | メール本文40–50語＋意見50–60語 |
 
 合格ラインの目安（CSE）: 5級 419/850、4級 622/1000、3級一次 1103/1650。正答率の目安はおおむね **6〜7割**。
 
 **級適合 NG の目安**
 
 - 対象範囲の **3割超** が「一つ下の級でも解ける」難易度（5級に be/一般動詞のみ、4級に色・数字だけ、3級に4級の焼き直し）
-- 語彙がその級の上限を明らかに超え、解説でも補えない（5級に `although`、4級に `present perfect`、3級に準2級語）
+- 語彙・熟語・表現がその級の範囲を超える。正解に効く語も、本文に出るだけの語も見る。専門の用具名・部品名・職業名、一つ上の級の句、基本の意味でない動詞は落とす（5級に `although`、4級に `present perfect`、3級に準2級語、準2級に `reed` / `make an exception` / `shelve`）。正本の置き方は `eiken-original-authoring` の Authoring rules と `references/pre2.md` の「語彙」
 - 3級 `writing` に Eメールと意見論述の **両形式がそろっていない**（形式欠落は品質以前の不備）
+- 準2級が3級の型のまま（短文空所が時制・関係代名詞・受動態だけ、メールが下線への質問2つだけ、内容一致が1本文に7問またはメール約100語・説明文約170語、設問が英語、第1部にイラスト、第3部が約40語で本文の写し、面接が約30語で絵が1動作）。正本は `eiken-original-authoring` の `references/pre2.md`
 - 公開セット件数が本番配分と大きく違うとき、意図（練習用増量）の記載がなく偏りが生じている
 
 **大問別の見るポイント**
@@ -104,7 +107,7 @@ python utils/validate_original_questions.py
 
 ## Revision policy
 
-- 5級の難語は身近な語に置き換える
+- 級の外の語は、その級の日常語に置き換える。時刻・条件・誤答の役割は残す
 - 複数正解になる空所は、文脈を足して1つにする
 - 意味不明なダミーは「別の疑問詞への答え」など、ありそうな誤りにする
 - 酷似の疑いは直さず、`eiken-originality-review` に回す

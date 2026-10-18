@@ -1,0 +1,1200 @@
+問題1:
+The hiking club had walked for two hours when fog covered the trail. Their leader checked a map and a ( ) so the group could tell which way was north.
+
+選択肢1:
+1. suitcase
+2. receipt
+3. compass
+4. keyboard
+
+【正解1】
+3. compass
+
+【解説1】
+空所のあと so the group could tell which way was north とあります。北の方角を知るために地図と一緒に見るものはコンパスです。2文目が、空所の語の意味を決めています。
+1 suitcase は旅行かばんです。霧の中の方角には使いません。2 receipt はレシートで、支払いの記録です。4 keyboard はコンピュータのキーボードです。どれも「どちらが北か」を教えません。
+
+【ポイント1】
+種別: 文法
+見出し: 2文目が語の意味を決める
+・空所の語は、あとの so ... で何に使うかが分かる
+・選択肢はすべて名詞。文法ではなく意味で選ぶ
+・north と一緒に使うのは compass
+---
+
+問題2:
+Before the cooking contest last Saturday, Mr. Ito spoke to every team in the kitchen. He told them to ( ), because one team had left the oven on the week before.
+
+選択肢2:
+1. make sure the oven was off
+2. make fun of the other teams
+3. make noise in the hallway
+4. make room for more judges
+
+【正解2】
+1. make sure the oven was off
+
+【解説2】
+because のあとが理由です。先週、あるチームがオーブンをつけたままにしていたので、先生は「オーブンがオフであることを確かめなさい」と言っています。make sure ... は「〜を確かめる」です。
+2 make fun of は「ばかにする」で、オーブンの話とつながりません。3 make noise は「音を立てる」です。4 make room は「場所を空ける」です。because の中身（oven / left it on）と合うのは 1 だけです。
+
+【ポイント2】
+種別: 文法
+見出し: because のあとで句を選ぶ
+・make sure the oven was off = 「オフだと確かめる」
+・make sure to 〜 は「必ず〜する」（確かめる、とは別）
+・どの make かを決める ← because のあとの oven
+・形が似ていても、理由とつながらない句は選ばない
+---
+
+問題3:
+The neighborhood coach moved Tuesday's practice to the indoor court. Several players still went to the outdoor field. He sent a message to ( ) that everyone knew about the change.
+
+選択肢3:
+1. complain
+2. compare
+3. continue
+4. confirm
+
+【正解3】
+4. confirm
+
+【解説3】
+何人かがまだ外のグラウンドに行ってしまったので、コーチは変更を全員が知っていることを確かめるメッセージを送りました。confirm that ... は「〜であることを確認する」です。
+1 complain は「文句を言う」で、that everyone knew とはつながりません。2 compare は「比べる」です。3 continue は「続ける」で、変更を知らせる目的と合いません。空所の直後の that everyone knew about the change を見て選びます。
+
+【ポイント3】
+種別: 文法
+見出し: that のあとで動詞の意味を決める
+・confirm that ... = 「〜だと確認する」
+・complain = 「文句を言う」。compare = 「比べる」。continue = 「続ける」。that everyone knew とは結びつかない
+・1文目と2文目の事実が、空所の目的を説明する
+---
+
+問題4:
+The corner shop sold notebooks at the Saturday market. By three o'clock every blue notebook was gone, so the clerk wrote that the store had ( ).
+
+選択肢4:
+1. run after the customers
+2. run out of blue notebooks
+3. run into the storeroom
+4. run over the poster
+
+【正解4】
+2. run out of blue notebooks
+
+【解説4】
+2文目の every blue notebook was gone が手がかりです。青いノートが全部なくなったので、店は「青いノートを切らした」と書きました。run out of は「〜を使い切る、品切れになる」です。
+1 run after は「追いかける」で、客を追う話ではありません。3 run into は「偶然会う」や「ぶつかる」で、倉庫に入ったことにはなりません。4 run over は「車でひく」です。なくなったのはノートで、ポスターではありません。
+
+【ポイント4】
+種別: 熟語
+見出し: run out of blue notebooks = 「青いノートを切らす」
+・run out of + 名詞 = 「それを使い切る」（在庫だけではない）
+・run after = 「追う」。run into は「出会う」または「ぶつかる」。run over = 「ひく」
+・なくなったもの ← 2文目の was gone
+---
+
+問題5:
+A new bus stop opened beside the park. The city office sent a map home to ( ) that riders should get off there, not at the old stop by the station.
+
+選択肢5:
+1. forget
+2. hope
+3. decide
+4. explain
+
+【正解5】
+4. explain
+
+【解説5】
+空所のあとが that riders should get off there です。市の事務所は地図を家へ送り、乗る人は公園のそばの新しい停留所で降りること、駅の古い停留所ではないことを説明しています。explain that ... は「〜であることを説明する」です。
+1 forget that は「〜を忘れる」で、知らせる目的と逆です。2 hope that は「〜だといい」で、地図を送る理由にはなりません。3 decide that は「〜に決める」です。停留所はもう開いていて、空所の仕事は決めることではなく、降り場を説明することです。
+
+【ポイント5】
+種別: 単語
+見出し: explain that = 「〜であることを説明する」
+・that のあとが、伝えたい内容
+・forget = 「忘れる」。hope = 「望む」。decide = 「決める」
+・正しい場所を一つに絞る情報 ← not at the old stop
+---
+
+問題6:
+The drama club will use a small stage. Actors at the back have to speak slowly, because people in the last row need to ( ).
+
+選択肢6:
+1. catch every word
+2. catch a train home
+3. catch a cold backstage
+4. catch up on homework
+
+【正解6】
+1. catch every word
+
+【解説6】
+because のあとが理由です。最後列の人にもせりふが届くように、後ろの役者はゆっくり話す、という意味です。catch every word は「一語ももらさず聞き取る」です。
+2 catch a train は「電車に間に合う」で、舞台の話ではありません。3 catch a cold は「かぜをひく」です。4 catch up on homework は「遅れた宿題を取り戻す」です。どれも last row と speak slowly の理由になりません。
+
+【ポイント6】
+種別: 熟語
+見出し: because のあとで catch の意味を分ける
+・catch every word = 「全部聞き取る」
+・同じ catch でも、電車・かぜ・宿題は別の意味
+・聞こえるかどうか ← speak slowly の理由
+---
+
+問題7:
+Kenji borrowed a camera for the school trip and returned it the next day. He left a short ( ) with it, because the battery was weak and the strap was loose.
+
+選択肢7:
+1. invitation
+2. uniform
+3. report
+4. celebration
+
+【正解7】
+3. report
+
+【解説7】
+because が、残したものの中身を決めています。電池が弱いことと、ひもがゆるいことを持ち主に伝えるので、短い報告です。report は「報告」です。
+1 invitation は「招待」で、故障の説明にはなりません。2 uniform は「制服」で、カメラと一緒に置く文書ではありません。4 celebration は「お祝い」です。because の中の weak と loose は、問題の報告です。
+
+【ポイント7】
+種別: 単語
+見出し: because の中身が名詞の意味を決める
+・報告する事実 ← battery was weak / strap was loose
+・invitation = 「誘う文書」。uniform = 「服」
+・空所の名詞は、because で説明できるものにする
+---
+
+問題8:
+The cafe will serve a new soup next month. The cooks asked the customers to ( ), because last year's spicy soup was too hot for many children.
+
+選択肢8:
+1. make the soup even hotter
+2. keep the new soup mild
+3. close the cafe in May
+4. serve soup only to adults
+
+【正解8】
+2. keep the new soup mild
+
+【解説8】
+because の理由は、去年の辛いスープが子どもの多くには熱すぎた、です。だから新しいスープは辛くしないでほしい、という依頼です。mild は「辛くない、まろやかな」です。
+1 は去年よりさらに辛くする、で、理由と逆です。3 は5月にカフェを閉める、ですが、来月出すスープの話です。4 は大人だけに出す、とは書いてありません。too hot for many children に合うのは、味をまろやかに保つことです。
+
+【ポイント8】
+種別: 熟語
+見出し: keep the new soup mild = 「新しいスープをまろやかにする」
+・too hot の too = 「度を超して」（too は「〜も」もある）
+・mild は味では「まろやか」（天気の「穏やか」ではない）
+・even hotter = 「さらに熱い」（問題を強くする側）
+---
+
+問題9:
+The photography club asked for the hall in September. The chess club asked the night before the meeting, so the council praised the photography club for planning ( ).
+
+選択肢9:
+1. at the last minute
+2. without permission
+3. in advance
+4. by mistake
+
+【正解9】
+3. in advance
+
+【解説9】
+1文目が9月に頼んだ、2文目が会議の前夜に頼んだ、と時期を比べています。ほめられたのは写真部なので、早くから計画したことへのほめ言葉です。in advance は「前もって」です。
+1 at the last minute は「直前に」で、前夜に頼んだチェス部の方に合います。2 without permission は「許可なく」で、本文にありません。4 by mistake は「間違って」で、ほめる理由になりません。
+
+【ポイント9】
+種別: 熟語
+見出し: 二つの時期を比べて in advance を選ぶ
+・早い日付と、night before を並べて読む
+・遅い方の行動 ← at the last minute
+・ほめている相手が、どちらの時期かで決まる
+---
+
+問題10:
+Several classes forgot their masks during the cold week. The nurse now tells each class to take only what they need that morning, so the box by the door will not ( ).
+
+選択肢10:
+1. run short before Tuesday
+2. be locked during lunch
+3. be moved to the pool
+4. stay full all year
+
+【正解10】
+1. run short before Tuesday
+
+【解説10】
+2文目の so が目的です。必要な分だけ取るように言っているのは、ドアのそばの箱が火曜より前に足りなくなるのを防ぐためです。run short は「不足する」です。
+2 は昼に鍵をかける、3 はプールへ移す、とは書いてありません。4 stay full all year は「一年中いっぱいにしておく」です。必要な分だけ取る話は、使い切らないようにする話で、一年中満杯にすることではありません。
+
+【ポイント10】
+種別: 熟語
+見出し: so のあとが、防ぎたい結果
+・使いすぎを止める ← take only what they need
+・run short = 「足りなくなる」
+・stay full = 「満杯のまま」（目的が違う）
+---
+
+問題11:
+The drama club moved Wednesday's practice to a different building. The captain told every member to ( ), because the old flyer still lists the gym.
+
+選択肢11:
+1. make a note of the new room number
+2. make fun of the old flyer
+3. make noise in the new building
+4. make room for an audience
+
+【正解11】
+1. make a note of the new room number
+
+【解説11】
+because のあとが理由です。古い案内にはまだ体育館と書いてあるので、新しい部屋番号を書き留めておく必要があります。make a note of は「〜を書き留める」です。
+2 make fun of は「ばかにする」で、部屋の移動を覚えることにはなりません。3 make noise は「音を立てる」です。4 make room は「場所を空ける」で、観客の話は本文にありません。
+
+【ポイント11】
+種別: 熟語
+見出し: make a note of = 「書き留める」
+・make a note of + 名詞 で「〜をメモする」
+・make fun of = 「からかう」。make room = 「場所を空ける」
+・メモが要る理由 ← because の中の old flyer
+---
+
+問題12:
+The art class finished a welcome poster for Tuesday's guest. The hallway paint was still wet, so the teacher told them to ( ).
+
+選択肢12:
+1. hang it on the wet wall tonight
+2. keep it in the office until Tuesday
+3. paint a second poster for the gym
+4. give it to the guest before the talk
+
+【正解12】
+2. keep it in the office until Tuesday
+
+【解説12】
+so の前が理由です。廊下の壁のペンキがまだ乾いていないので、火曜まで職員室に置いておく、という指示です。
+1 は、まだ乾いていない壁に今夜かける、で、理由と逆です。3 は体育館用にもう1枚描く、とは書いてありません。4 は講演の前に客へ渡す、ですが、ポスターは火曜の歓迎用です。wet が、今は壁に出せない理由です。
+
+【ポイント12】
+種別: 熟語
+見出し: so の前が、今できない理由
+・今夜は貼れない ← still wet
+・乾くまで待つ期限 ← until Tuesday
+・本文にない第二のポスターや、客への手渡しは選ばない
+---
+
+問題13:
+The evening bus will no longer stop by the library. The school sent a letter home to ( ) the change, because many students still waited at the old stop.
+
+選択肢13:
+1. decorate
+2. celebrate
+3. announce
+4. measure
+
+【正解13】
+3. announce
+
+【解説13】
+because が、手紙の目的を決めています。多くの生徒がまだ古い停留所で待っているので、変更を知らせる必要があります。announce the change は「変更を知らせる」です。
+1 decorate は「飾る」で、変更そのものを伝える動詞ではありません。2 celebrate は「祝う」で、停留所がなくなる知らせとは合いません。4 measure は「測る」です。待っている生徒がいる、という理由とつながるのは知らせることです。
+
+【ポイント13】
+種別: 単語
+見出し: announce = 「知らせる」
+・the change を目的語にできるかを見る
+・celebrate = 「祝う」
+・知らせる必要性 ← because の still waited
+---
+
+問題14:
+Several water bottles were left in the science lab. The teacher will ( ) until Monday, and then any bottle with no name will be recycled.
+
+選択肢14:
+1. drink them at lunch
+2. hide them from the class
+3. fill them with ink
+4. keep them on a shelf
+
+【正解14】
+4. keep them on a shelf
+
+【解説14】
+until Monday と、そのあと名前のないボトルは再利用する、が手がかりです。月曜までは棚に置いて、持ち主が取りに来られるようにします。
+1 は昼に飲んでしまう、だと月曜まで残す話と逆です。2 はクラスから隠す、とは書いてありません。3 はインクを入れる、で、実験室に残った飲み物の扱いではありません。
+
+【ポイント14】
+種別: 単語
+見出し: keep them until Monday = 「月曜まで置いておく」
+・until のあとは、曜日や文も置ける（時刻だけではない）
+・そのあと別の扱い ← no name のもの
+・drink = 「飲む」。hide = 「隠す」。fill = 「満たす」（保管ではない）
+---
+
+問題15:
+The photo club may use the hall on Sunday morning. The office said yes only if they ( ), because another club needs the same hall on Saturday night.
+
+選択肢15:
+1. stack every chair before eight
+2. lock the other club out
+3. cancel Sunday's meeting
+4. paint the hall that night
+
+【正解15】
+1. stack every chair before eight
+
+【解説15】
+only if のあとが条件です。土曜の夜に別のクラブが同じホールを使うので、日曜の朝8時より前にいすを重ねておけば使ってよい、という意味です。
+2 は別のクラブを締め出す、で、相手が使うことを前提にした条件と逆です。3 は日曜の会合を中止する、だと許可の中身がなくなります。4 は夜にペンキを塗る、とは書いてありません。
+
+【ポイント15】
+種別: 熟語
+見出し: only if のあとが、許可の条件
+・only if = 「そのときだけよい」
+・片づける理由 ← another club needs the hall
+・相手を締め出す句は、条件と逆
+---
+
+問題16:
+The microphone failed during the morning assembly. The broadcast club offered to ( ), because they had tested it the night before and missed a loose wire.
+
+選択肢16:
+1. blame the principal for the silence
+2. take responsibility for the problem
+3. take a break until June
+4. take part in the next concert
+
+【正解16】
+2. take responsibility for the problem
+
+【解説16】
+because の中身は、前日の点検でゆるんだコードを見落とした、です。だから放送部は、その問題の責任を引き受けると申し出ています。take responsibility for は「〜の責任を負う」です。
+1 は校長のせいにする、で、自分たちが点検した事実と逆です。3 は6月まで休む、とは書いてありません。4 は次のコンサートに出る、で、マイクの故障への申し出ではありません。
+
+【ポイント16】
+種別: 熟語
+見出し: take responsibility for = 「責任を負う」
+・自分たちの見落とし ← because の missed
+・blame = 「相手のせいにする」
+・take part in = 「参加する」（故障のあと始末ではない）
+---
+
+問題17:
+The festival needs paper cups, but nobody knows the exact number. The teacher asked the class to ( ), because last year they ran out before three o'clock.
+
+選択肢17:
+1. ignore last year's number
+2. throw the extra cups away
+3. estimate how many they need
+4. sell cups to another school
+
+【正解17】
+3. estimate how many they need
+
+【解説17】
+exact number が分からないことと、去年は3時前に切れたことが手がかりです。必要な数を見積もってほしい、という依頼です。estimate は「見積もる」です。
+1 は去年の数を無視する、だと、切れないようにする話と逆です。2 は余ったコップを捨てる、ですが、まだ数も決まっていません。4 は他校に売る、とは書いてありません。
+
+【ポイント17】
+種別: 単語
+見出し: estimate = 「見積もる」
+・exact が不明のとき estimate
+・少なすぎた経験 ← ran out
+・ignore = 「無視する」（その経験を使わない）
+---
+
+問題18:
+The guest cannot come on Thursday. The speech is not canceled. The principal decided to ( ) until the following Monday.
+
+選択肢18:
+1. put the guest on a bus home
+2. put up a sign that the speech is today
+3. put out the lights in the hall
+4. put off the speech
+
+【正解18】
+4. put off the speech
+
+【解説18】
+is not canceled と until the following Monday がセットです。中止ではなく、次の月曜まで延期します。put off は「延期する」です。
+1 は客をバスで帰す、で、来られない人を送る話ではありません。2 は今日講演がある、という札で、木曜に来られない事実と逆です。3 はホールの電気を消す、とは書いてありません。
+
+【ポイント18】
+種別: 熟語
+見出し: put off = 「延期する」（中止ではない）
+・日をずらす印 ← not canceled と until
+・put up = 「掲示する」。put out = 「消す」
+・今日ある、という札は延期と矛盾する
+---
+
+問題19:
+Two students received the same locker number. The office promised to ( ), because the list was typed by two different people.
+
+選択肢19:
+1. look into the mistake
+2. look after the lockers at home
+3. look for a new school
+4. look up to the students
+
+【正解19】
+1. look into the mistake
+
+【解説19】
+同じロッカー番号が2人に渡ったことと、リストを2人が別々に打ったことが手がかりです。事務所はその誤りを調べると約束しています。look into は「調べる」です。
+2 look after は「世話をする」で、家でロッカーを見る話ではありません。3 look for a new school は「新しい学校を探す」です。4 look up to は「尊敬する」です。mistake と typed by two people と合うのは調べることです。
+
+【ポイント19】
+種別: 熟語
+見出し: look into = 「調べる」
+・look into + 問題 で「調査する」
+・look after = 「世話をする」。look up to = 「尊敬する」
+・調べる理由 ← 2人が入力した
+---
+
+問題20:
+A shop offered free samples during class time. The principal ( ) the offer, because students may not leave the building before three.
+
+選択肢20:
+1. turned up
+2. turned down
+3. turned into
+4. turned over
+
+【正解20】
+2. turned down
+
+【解説20】
+because の理由は、3時より前に校舎の外へ出てはいけない、です。授業中の試食の申し出は断っています。turn down は「断る」です。
+1 turn up は「現れる」や「音を大きくする」で、申し出を受けることにはなりません。3 turn into は「〜に変わる」です。4 turn over は「裏返す、引き渡す」です。校外に出られない理由と合うのは断ることです。
+
+【ポイント20】
+種別: 熟語
+見出し: turn down the offer = 「申し出を断る」
+・受けられない理由 ← may not leave before three
+・turn down the music = 「音を小さくする」（断る、とは別）
+・turn up は「現れる」または「音を大きくする」。turn into = 「変わる」
+---
+
+問題21:
+The pool door sticks when it rains. A sign asks swimmers to ( ) the problem and push the bar, not pull it.
+
+選択肢21:
+1. be proud of
+2. be short of
+3. be aware of
+4. be made of
+
+【正解21】
+3. be aware of
+
+【解説21】
+雨の日にドアが引っかかるので、札は泳ぐ人にその問題を知っておいてほしい、と頼んでいます。be aware of は「〜を知っている、気づいている」です。push, not pull が、知ったうえでの行動です。
+1 be proud of は「誇りに思う」で、故障の知らせにはなりません。2 be short of は「不足している」です。4 be made of は「〜でできている」で、ドアの材質の話ではありません。
+
+【ポイント21】
+種別: 熟語
+見出し: be aware of = 「気づいている」
+・知ったあとの動作 ← push the bar
+・be short of = 「量が足りない」
+・be made of = 「〜でできている」
+---
+
+問題22:
+The elevator is being repaired. Classes on the third floor will use the stairs ( ), because the work will finish next Wednesday.
+
+選択肢22:
+1. for the first time
+2. for a long vacation
+3. for no reason
+4. for the time being
+
+【正解22】
+4. for the time being
+
+【解説22】
+修理が次の水曜に終わる、が期限です。それまでは階段を使う、という一時的な措置です。for the time being は「当分のあいだ」です。
+1 for the first time は「初めて」で、修理が終わるまで、という意味にはなりません。2 は長い休みのあいだ、ですが、本文は休暇ではなく工事です。3 for no reason は「理由なく」で、because の修理と矛盾します。
+
+【ポイント22】
+種別: 熟語
+見出し: for the time being = 「当分のあいだ」
+・いつまでか ← because の finish
+・for the first time = 「初めて」（期間の意味ではない）
+・for no reason = 「理由なく」（because とは一緒に使わない）
+---
+
+問題23:
+The usual field is booked on Thursday. The soccer captain has until tonight to ( ) another place, because the match cannot move to next week.
+
+選択肢23:
+1. come up with
+2. get rid of
+3. run out of
+4. look forward to
+
+【正解23】
+1. come up with
+
+【解説23】
+いつものグラウンドがふさがっていて、試合は来週に動かせません。今夜までに別の場所を考え出さなければなりません。come up with は「（考え・案を）出す」です。
+2 get rid of は「処分する」で、別の場所を捨てることになり、目的と逆です。3 run out of は「切らす」です。4 look forward to は「楽しみにする」で、場所を確保する行動にはなりません。
+
+【ポイント23】
+種別: 熟語
+見出し: come up with another place = 「別の場所を考え出す」
+・come up with an idea なら「案を出す」（場所だけではない）
+・get rid of = 「取り除く」。run out of + 名詞 = 「それを切らす」
+・今夜までの理由 ← cannot move to next week
+---
+
+問題24:
+The fire drill is on Friday. Teachers will not only show a video. Each class must ( ) the practice, because last year's drill stopped at the classroom door.
+
+選択肢24:
+1. call off
+2. carry out
+3. care for
+4. copy out
+
+【正解24】
+2. carry out
+
+【解説24】
+not only show a video と、去年は教室のドアで終わった、が手がかりです。今年はビデオを見るだけでなく、避難の練習を実際にやります。carry out は「実行する」です。
+1 call off は「中止する」で、金曜に行う話と逆です。3 care for は「世話をする」です。4 copy out は「書き写す」で、去年ドアの前で止まってしまった練習を、今年は実行する話ではありません。
+
+【ポイント24】
+種別: 熟語
+見出し: carry out = 「実行する」
+・見るだけでは足りない ← not only のあと
+・call off = 「取りやめる」
+・今年やる理由 ← last year の止まり方
+---
+
+問題25:
+The museum visit is not required. Students who have a club match that day may stay at school. The letter says the visit is ( ).
+
+選択肢25:
+1. urgent
+2. private
+3. optional
+4. dangerous
+
+【正解25】
+3. optional
+
+【解説25】
+not required と、試合がある生徒は学校に残ってよい、が同じ意味を言い換えています。見学は選択です。optional は「任意の、しなくてもよい」です。
+1 urgent は「緊急の」で、行かなくてもよい話と逆です。2 private は「私的な」で、学校の見学の性質ではありません。4 dangerous は「危険な」で、本文にありません。
+
+【ポイント25】
+種別: 単語
+見出し: optional = 「任意」（not required と同じ向き）
+・行かなくてよい人 ← may stay at school
+・urgent = 「緊急の」
+・2文目が、1文目の not required を具体にしている
+---
+
+問題26:
+This year's speech contest will use the same timer as last year. Please read the ( ) rules before you change the font on the slides.
+
+選択肢26:
+1. following
+2. foreign
+3. frozen
+4. previous
+
+【正解26】
+4. previous
+
+【解説26】
+same timer as last year が、どの規則かを決めています。スライドの文字を変える前に、去年の規則を読みなさい、です。previous は「前の、前回の」です。
+1 following は「次の」で、去年ではなくこのあとに来るものになります。2 foreign は「外国の」です。3 frozen は「凍った」で、規則の説明にはなりません。
+
+【ポイント26】
+種別: 単語
+見出し: previous = 「前の」（last year と同じ向き）
+・過去の回 ← as last year
+・following = 「この次の」
+・変える前に古い規則を見る ← before you change
+---
+
+問題27:
+The nurse counted the bandages after the hike. There were enough for a small cut, but not for a larger injury. She wrote that the box was ( ) for daily use only.
+
+選択肢27:
+1. sufficient
+2. delicious
+3. invisible
+4. ancient
+
+【正解27】
+1. sufficient
+
+【解説27】
+enough for a small cut が、daily use の中身です。大きいけがには足りないけれど、日常の使用には足りる、と書いています。sufficient は「十分な」です。
+2 delicious は「おいしい」で、包帯には使いません。3 invisible は「見えない」です。4 ancient は「非常に古い」で、数を数えた結果ではありません。
+
+【ポイント27】
+種別: 単語
+見出し: sufficient = 「十分な」（enough と同じ向き）
+・用途を限る ← enough for A, but not for B
+・小さいけがまで ← for daily use only
+・食べ物や古さの語は、数の話に使わない
+---
+
+問題28:
+The library stairs are closed. A paper sign sends students through the gym hallway. The sign says the route is ( ), because the stairs will open again on Monday.
+
+選択肢28:
+1. permanent
+2. temporary
+3. traditional
+4. terrible
+
+【正解28】
+2. temporary
+
+【解説28】
+because のあとが、月曜に階段が再び開く、です。体育館の廊下を通る道は、それまでの一時的なルートです。temporary は「一時的な」です。
+1 permanent は「恒久的な」で、月曜に戻る話と逆です。3 traditional は「伝統的な」で、工事中の回り道ではありません。4 terrible は「ひどい」で、札が言っている性質ではありません。
+
+【ポイント28】
+種別: 単語
+見出し: temporary = 「一時的な」
+・もとに戻る ← will open again
+・permanent = 「恒久的な」（一時的ではない）
+・いつまでか ← because の日付
+---
+
+問題29:
+The first draft of the map showed the pond on the wrong side of the path. The teacher asked for an ( ) map, because visitors will use it without a guide.
+
+選択肢29:
+1. ancient
+2. angry
+3. accurate
+4. average
+
+【正解29】
+3. accurate
+
+【解説29】
+wrong side が、直してほしい点です。案内人がいない来場者が使うので、池の位置が正しい地図が要ります。accurate は「正確な」です。
+1 ancient は「古代の」です。2 angry は「怒った」で、地図には合いません。4 average は「平均の」で、位置の誤りを直す言葉ではありません。
+
+【ポイント29】
+種別: 単語
+見出し: accurate = 「正確な」（wrong の反対）
+・wrong side を直した地図が accurate
+・地図だけで分かる必要がある ← without a guide
+・ancient = 「古代の」。angry = 「怒った」（位置の話ではない）
+---
+
+問題30:
+Projects may be started at any time in May. They must be on the teacher's desk before June 2. That date is the ( ).
+
+選択肢30:
+1. decoration
+2. destination
+3. definition
+4. deadline
+
+【正解30】
+4. deadline
+
+【解説30】
+before June 2 が、いつまでに出すかを決めています。その日が締め切りです。deadline は「締め切り」です。
+1 decoration は「飾り」です。2 destination は「目的地」で、机のうえは行き先ではあっても、日付の名前ではありません。3 definition は「定義」です。日付を指すのは deadline です。
+
+【ポイント30】
+種別: 単語
+見出し: deadline = 「締め切り」
+・遅れられない期限 ← must be ... before + 日付
+・destination = 「行き先」（日付の名前ではない）
+・「5月のいつでも始めてよい」と「6月2日まで」は別の情報
+---
+
+問題31:
+The regular announcer has a sore throat. A classmate will ( ) for her at the morning assembly, and she will return on Sunday.
+
+選択肢31:
+1. substitute
+2. subtract
+3. subscribe
+4. surround
+
+【正解31】
+1. substitute
+
+【解説31】
+いつもの放送係がのどを痛めていて、日曜に戻る、とあります。朝の集会ではクラスメートが代わりをします。substitute for は「〜の代わりを務める」です。
+2 subtract は「引き算する」です。3 subscribe は「購読する、加入する」です。4 surround は「囲む」です。for her と return on Sunday と合うのは代理です。
+
+【ポイント31】
+種別: 単語
+見出し: substitute for = 「代わりを務める」
+・一時的な交代 ← sore throat と return
+・subtract = 「引く」
+・subscribe = 「申し込む」
+---
+
+問題32:
+The spare violin is not being used this month. The teacher said it is ( ) to any student who signs the card.
+
+選択肢32:
+1. allergic
+2. available
+3. asleep
+4. ashamed
+
+【正解32】
+2. available
+
+【解説32】
+not being used と、カードに署名した生徒なら誰でも、が手がかりです。予備のバイオリンは空いています。available は「利用できる」です。
+1 allergic は「アレルギーの」で、楽器には使いません。3 asleep は「眠っている」です。4 ashamed は「恥じている」です。使っていない物を貸す話は available です。
+
+【ポイント32】
+種別: 単語
+見出し: available = 「使える・空いている」
+・意味は、空いている・借りられる
+・今手が空いている手がかり ← not being used
+・ashamed = 「恥ずかしい」。allergic = 「アレルギーの」。asleep = 「眠っている」
+---
+
+問題33:
+Everyone joining the boat trip must be able to swim. The office will not allow anyone to skip the test. A swim test is ( ).
+
+選択肢33:
+1. rare
+2. rude
+3. required
+4. recent
+
+【正解33】
+3. required
+
+【解説33】
+must be able to swim と will not allow anyone to skip the test が、テストを義務にしています。required は「必須の」です。
+1 rare は「まれな」で、全員に課す話と逆です。2 rude は「失礼な」です。4 recent は「最近の」で、テストを省けないこととは別です。
+
+【ポイント33】
+種別: 単語
+見出し: required = 「必須の」（must と同じ向き）
+・免除がない ← will not allow anyone to skip the test
+・rare = 「まれな」
+・must の言い換えを、形容詞の選択肢から探す
+---
+
+問題34:
+The walk from the station to the hall takes about twelve minutes. The guide wrote "( ) twelve minutes" so visitors would not expect an exact time.
+
+選択肢34:
+1. suddenly
+2. silently
+3. separately
+4. approximately
+
+【正解34】
+4. approximately
+
+【解説34】
+about twelve minutes と、正確な時間を期待しないでほしい、が同じ内容です。approximately は「およそ」です。
+1 suddenly は「突然」です。2 silently は「静かに」です。3 separately は「別々に」です。どれも about の言い換えにはなりません。
+
+【ポイント34】
+種別: 単語
+見出し: approximately = 「おおよそ」（about と同じ向き）
+・おおよその印 ← not expect an exact time
+・suddenly = 「突然」。silently = 「静かに」（時間の幅ではない）
+・括弧の中は、前の about を言い換えた語
+---
+
+問題35:
+The puzzle club tried the last problem for an hour. They could not solve it, so they decided to ( ) and ask the teacher the next day.
+
+選択肢35:
+1. give up
+2. give away the answer key
+3. give out invitations
+4. give back the hour
+
+【正解35】
+1. give up
+
+【解説35】
+could not solve it と、翌日先生に聞く、がセットです。その問題は諦めて、次の日に助けを求めます。give up は「諦める」です。
+2 は答えの鍵を配る、ですが、自分たちで解けなかったあとに先生へ聞く話です。3 は招待状を配る、とは書いてありません。4 は1時間を返す、で、tried for an hour を字どおりに取ったひっかけです。
+
+【ポイント35】
+種別: 熟語
+見出し: give up = 「諦める」
+・今日は止める印 ← could not と ask the next day
+・give away は「ただで渡す」または「（答えを）ばらす」
+・返せる物ではない ← for an hour
+---
+
+問題36:
+A date on the concert poster was wrong. A first-year student ( ) the mistake, because she compared the poster with the teacher's email.
+
+選択肢36:
+1. covered up
+2. pointed out
+3. left out
+4. put out
+
+【正解36】
+2. pointed out
+
+【解説36】
+メールとポスターを比べて、日付の誤りに気づいた、です。1年生はその誤りを指摘しました。point out は「指摘する」です。
+1 covered up は「隠した」で、比べて見つけた話と逆です。3 left out は「省いた」で、ポスターを作った人の動作に見えます。4 put out は「消す、出す」で、誤りを見つけることにはなりません。
+
+【ポイント36】
+種別: 熟語
+見出し: point out = 「指摘する」
+・この文で知らせるのは、ポスターの日付の誤り
+・見つける前の動作 ← compared with
+・cover up = 「隠す」
+---
+
+問題37:
+The lights went out during the play for ten seconds. It was not an accident. The director turned them off ( ), because the next scene starts in the dark.
+
+選択肢37:
+1. by accident
+2. in public
+3. on purpose
+4. at random
+
+【正解37】
+3. on purpose
+
+【解説37】
+not an accident と、次の場面は暗闇で始まる、が理由です。監督は意図して照明を消しました。on purpose は「わざと」です。
+1 by accident は「偶然に」で、not an accident と逆です。2 in public は「人前で」で、舞台はすでに人前です。消した理由にはなりません。4 at random は「手あたり次第に」で、次の場面のための消灯とは合いません。
+
+【ポイント37】
+種別: 熟語
+見出し: on purpose = 「わざと」（accident ではない）
+・わざと消す理由 ← because の next scene
+・by accident = 「偶然」
+・at random = 「無作為に」
+---
+
+問題38:
+The handout explains the rules in one sentence. Students who want every step should read the guide ( ), because the handout leaves out the examples.
+
+選択肢38:
+1. in a hurry
+2. in common
+3. in trouble
+4. in detail
+
+【正解38】
+4. in detail
+
+【解説38】
+one sentence と leaves out the examples が、ハンドアウトでは足りないことを示しています。すべての手順が欲しい人は、手引きを詳しく読みます。in detail は「詳しく」です。
+1 in a hurry は「急いで」で、例が省かれている理由にはなりません。2 in common は「共通して」です。3 in trouble は「困って」で、読み方の指示ではありません。
+
+【ポイント38】
+種別: 熟語
+見出し: in detail = 「詳しく」
+・読む対象は、この文では手順
+・短い紙にない情報 ← leaves out
+・in a hurry = 「急いで」（詳しさではない）
+---
+
+問題39:
+The survey is not only for club members. Any second-year student may ( ) it, because the office wants a wide range of answers.
+
+選択肢39:
+1. take part in
+2. take care of
+3. take after
+4. take off
+
+【正解39】
+1. take part in
+
+【解説39】
+not only for club members と a wide range of answers が、参加の範囲です。2年生なら誰でもアンケートに参加できます。take part in は「参加する」です。
+2 take care of は「世話をする」です。3 take after は「（家族に）似ている」です。4 take off は「脱ぐ、離陸する」です。it が survey のとき、参加の意味になるのは 1 です。
+
+【ポイント39】
+種別: 熟語
+見出し: take part in = 「参加する」
+・この文の it は survey
+・部員以外も含む ← not only
+・take care of = 「世話をする」。take after = 「似る」
+---
+
+問題40:
+The two families want the same picnic table on Sunday. They have not canceled either lunch. They will meet today to ( ) a schedule both groups can use.
+
+選択肢40:
+1. work against
+2. work out
+3. work up
+4. work over
+
+【正解40】
+2. work out
+
+【解説40】
+どちらも中止していないので、両方の家族が使える予定を今日作ります。work out a schedule は「予定をうまく作る」です。
+1 work against は「不利に働く、反対する」で、両方使える案とは逆です。3 work up は「徐々に高める」で、schedule とは普通つながりません。4 work over は「徹底的にやり直す、殴る」で、この調整の意味にはなりません。
+
+【ポイント40】
+種別: 熟語
+見出し: work out a schedule = 「使える予定を作る」
+・どちらかを消さない ← not canceled
+・両方使える案 ← both groups can use
+・work out は運動する・計算する意味もある。work against = 「不利に働く」
+---
+
+問題41:
+Dark clouds are over the field, and the forecast says rain at four. The match is ( ) be delayed, so players should wait in the gym.
+
+選択肢41:
+1. eager to
+2. afraid to
+3. likely to
+4. willing to
+
+【正解41】
+3. likely to
+
+【解説41】
+雨雲と、4時に雨という予報が、試合が遅れる見込みの根拠です。likely to は「〜しそうである」です。so のあとは、体育館で待つ、という準備です。
+1 eager to be delayed は「遅れたがっている」で、天気の話と合いません。2 afraid to be delayed は「遅れるのを恐れて遅れる」になり、意味が通りません。4 willing to は「遅れることをいとわない」で、予報から分かる見込みではありません。
+
+【ポイント41】
+種別: 熟語
+見出し: likely to = 「〜しそうだ」
+・まだ起きていないことの根拠 ← forecast
+・eager = 「したがる」。willing = 「してもよいと思う」
+・その見込みへの備え ← so のあと
+---
+
+問題42:
+The project pairs were chosen by the teacher. She put Nao with Ken because they ( ) each other in last year's group work.
+
+選択肢42:
+1. got rid of
+2. got on a bus with
+3. got over
+4. got along with
+
+【正解42】
+4. got along with
+
+【解説42】
+先生が2人を組ませた理由は、去年のグループ活動で互いとうまくやっていた、です。get along with は「うまくやる」です。
+1 got rid of は「捨てた、追い払った」で、組ませる理由になりません。2 はバスに一緒に乗った、で、group work の中身ではありません。3 got over は「乗り越えた」で、each other を目的語にするこの文には合いません。
+
+【ポイント42】
+種別: 熟語
+見出し: get along with = 「うまくやっていく」
+・ペアを組ませた理由 ← because
+・get rid of = 「取り除く」
+・人間関係の手がかり ← last year's group work
+---
+
+問題43:
+The club earns a little money from the calendar sale. The treasurer does not spend all of it. She will ( ) some of it for next year's paper.
+
+選択肢43:
+1. set aside
+2. set off
+3. set out
+4. set back
+
+【正解43】
+1. set aside
+
+【解説43】
+does not spend all of it と for next year's paper が、残し方を決めています。来年の紙代として一部を取っておきます。set aside は「（お金・時間を）取っておく」です。
+2 set off は「出発する、爆発させる」です。3 set out は「出発する、述べる」です。4 set back は「遅らせる、後退させる」です。お金を将来のために残すのは set aside です。
+
+【ポイント43】
+種別: 熟語
+見出し: set aside = 「取っておく」
+・一部を使わない ← not spend all
+・残す目的 ← for next year
+・set off は「出発する」または「爆発させる」。set out は「出発する」または「述べる」
+---
+
+問題44:
+Someone must stay by the door and check names. That student is ( ) the list, because the teacher will be on the stage.
+
+選択肢44:
+1. in favor of
+2. in charge of
+3. in spite of
+4. in place of
+
+【正解44】
+2. in charge of
+
+【解説44】
+ドアのそばで名前を確認する人が、名簿の担当です。先生は舞台にいるので、その生徒がリストを預かります。in charge of は「〜を担当している」です。
+1 in favor of は「賛成して」です。3 in spite of は「〜にもかかわらず」で、リストを持つ理由になりません。4 in place of the list は「リストの代わりに」で、リストを担当する意味にはなりません。
+
+【ポイント44】
+種別: 熟語
+見出し: in charge of = 「担当する」
+・担当の中身 ← check names
+・先生がリストを持てない理由 ← on the stage
+・in spite of = 「〜にもかかわらず」。in favor of = 「賛成して」
+---
+
+問題45:
+The printer broke at noon. ( ), the programs will be copied by hand, because there is no second printer in the school.
+
+選択肢45:
+1. As a joke
+2. As a guest
+3. As a result
+4. As a rule
+
+【正解45】
+3. As a result
+
+【解説45】
+正午にプリンターが壊れたことと、手で写すことのあいだは、原因と結果です。as a result は「その結果」です。because は、予備の機械がない、という追加の理由です。
+1 As a joke は「冗談で」で、故障のあとではありません。2 As a guest は「客として」です。4 As a rule は「原則として」で、今回の故障が原因であることは表しません。
+
+【ポイント45】
+種別: 熟語
+見出し: as a result = 「その結果」（直前が原因）
+・壊れた → 手で写す、の順
+・as a rule = 「通例」
+・結果の文の中のもう一つの理由 ← because
+---
+
+問題46:
+Every club may use the new printer. The rule does not include the newspaper club, which has its own machine. All clubs ( ) the newspaper club should sign the sheet.
+
+選択肢46:
+1. according to
+2. instead of
+3. because of
+4. except for
+
+【正解46】
+4. except for
+
+【解説46】
+does not include the newspaper club が、署名の対象から外すクラブを決めています。新聞部以外のすべてのクラブが用紙に署名します。except for は「〜を除いて」です。
+1 according to は「〜によれば」で、新聞部という除外の意味にはなりません。2 instead of は「〜の代わりに」で、新聞部が署名する側になってしまいます。3 because of は「〜が原因で」です。
+
+【ポイント46】
+種別: 熟語
+見出し: except for = 「〜を除いて」
+・除外の理由 ← which has its own machine
+・instead of = 「〜の代わりに」（除外ではない）
+・All ... except for → 一人だけ外す型
+---
+
+問題47:
+The trails are not all easy. The guide will ( ) the east path to beginners, because it has no steep steps.
+
+選択肢47:
+1. recommend
+2. recognize
+3. recycle
+4. repeat
+
+【正解47】
+1. recommend
+
+【解説47】
+全部の道が易しいわけではない、と、東の道には急な段がない、が手がかりです。初心者には東の道を勧めます。recommend A to B は「BにAを勧める」です。
+2 recognize は「見分けがつく」で、to beginners への勧めにはなりません。3 recycle は「再利用する」です。4 repeat は「繰り返す」です。no steep steps は、勧める理由です。
+
+【ポイント47】
+種別: 単語
+見出し: recommend A to B = 「AをBに勧める」
+・この文の A は道、B は初心者
+・選んで勧める必要がある ← not all easy
+・recognize = 「見分けて分かる」
+---
+
+問題48:
+Wet shoes left in the hallway have caused falls. The box by the door is there to ( ) that problem, because students can change shoes before they walk in.
+
+選択肢48:
+1. cause
+2. prevent
+3. pretend
+4. predict
+
+【正解48】
+2. prevent
+
+【解説48】
+濡れた靴が転倒を起こしているので、ドアのそばの箱は、その問題を防ぐためのものです。中に入る前に履き替えられます。prevent は「防ぐ」です。
+1 cause は「引き起こす」で、箱の目的と逆です。3 pretend は「ふりをする」です。4 predict は「予測する」で、履き替えの箱の働きではありません。
+
+【ポイント48】
+種別: 単語
+見出し: prevent = 「防ぐ」
+・過去に起きた困りごと ← have caused
+・防ぐ方法 ← change shoes
+・cause = 「引き起こす」（prevent の反対）
+---
+
+問題49:
+The question box is for any student. The poster says not to ( ) to write, because no name is required on the paper.
+
+選択肢49:
+1. refuse
+2. forget
+3. hesitate
+4. offer
+
+【正解49】
+3. hesitate
+
+【解説49】
+no name is required が、書きやすくする理由です。ためらわずに書いてほしい、というポスターです。hesitate to write は「書くのをためらう」で、not to hesitate は「遠慮しないで」です。
+1 refuse to write は「書くのを拒む」で、名前が不要なこととはつながりが弱いです。2 forget to write は「書き忘れる」で、箱の招待にはなりません。4 offer to write は「書くと申し出る」で、not to offer だと書くな、という逆の指示になります。
+
+【ポイント49】
+種別: 単語
+見出し: not hesitate to = 「遠慮しないで〜する」
+・ためらいを消す情報 ← no name is required
+・not to offer → 「するな」（not hesitate to とは逆）
+・to write を伴う動詞かを見る
+---
+
+問題50:
+The form says students must apply by themselves. ( ), a parent cannot send the form for them.
+
+選択肢50:
+1. In the past
+2. In a moment
+3. In no time
+4. In other words
+
+【正解50】
+4. In other words
+
+【解説50】
+自分で申し込まなければならない、と、保護者が代わりに用紙を送れない、は同じ規則の言い換えです。in other words は「言い換えると」です。
+1 In the past は「過去には」で、今の規則の説明にはなりません。2 In a moment は「すぐに」です。3 In no time も「すぐ」で、must の内容を言い換えてはいません。
+
+【ポイント50】
+種別: 熟語
+見出し: in other words = 「言い換えると」
+・同じ意味の言いかえ ← must apply by themselves と cannot send for them
+・in a moment / in no time = 「すぐに」（時間の短さ）
+・言い換えの文は、新しい条件を足さない
+---

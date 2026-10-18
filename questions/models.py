@@ -14,6 +14,7 @@ class ReadingPassage(models.Model):
         ('5', 'Grade 5'),
         ('4', 'Grade 4'),
         ('3', 'Grade 3'),
+        ('pre2', 'Pre-Grade 2'),
         ('2', 'Grade 2'),
         ('1', 'Grade 1'),
         ('pre1', 'Pre-Grade 1'),
@@ -71,6 +72,7 @@ class GrammarFillQuestion(models.Model):
         ('5', 'Grade 5'),
         ('4', 'Grade 4'),
         ('3', 'Grade 3'),
+        ('pre2', 'Pre-Grade 2'),
         ('2', 'Grade 2'),
         ('1', 'Grade 1'),
         ('pre1', 'Pre-Grade 1'),
@@ -99,12 +101,15 @@ class ListeningQuestion(models.Model):
         ('5', 'Grade 5'),
         ('4', 'Grade 4'),
         ('3', 'Grade 3'),
+        ('pre2', 'Pre-Grade 2'),
         ('2', 'Grade 2'),
         ('1', 'Grade 1'),
         ('pre1', 'Pre-Grade 1'),
     ]
     
     question_text = models.CharField(max_length=200)
+    # 準2級第1部の放送文。結果画面だけ出す（試験中は音声のみ）。他級は空。
+    listening_text = models.TextField(blank=True, default='')
     image = models.CharField(max_length=200)  # 静的ファイルのパスを保存
     audio = models.CharField(max_length=200)  # 静的ファイルのパスを保存
     correct_answer = models.CharField(max_length=200)

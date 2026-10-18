@@ -109,6 +109,18 @@ def writing_prompt_html(value):
 
 
 @register.filter
+def exam_level_name(value):
+    """級コードを画面用の名前にする。pre2 は「準2級」（「pre2級」にしない）。"""
+    from exams.views import EXAM_LEVEL_ENTRIES
+
+    code = str(value or '')
+    for level_code, name in EXAM_LEVEL_ENTRIES:
+        if level_code == code:
+            return name
+    return f'{code}級'
+
+
+@register.filter
 def strip_question_no(value):
     """
     リスニング問題文に含まれる「Question No.12:」のような行を、

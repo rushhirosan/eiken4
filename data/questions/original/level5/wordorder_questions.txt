@@ -15,7 +15,7 @@ I [1番目] ( ) [3番目] ( ) the park.
 【解説1】
 I kick a ball in the park.
 1番目は kick、3番目は ball です。全文は「私は公園でボールを蹴ります」という意味です。
-「I + どうし + a + もの」のじゅんばんを思い出しましょう。
+「I + 動詞 + a + 物」の順番を思い出しましょう。
 
 【ポイント1】
 種別: 文法
@@ -42,7 +42,7 @@ She [1番目] ( ) [3番目] ( ) the morning.
 【解説2】
 She drinks some milk in the morning.
 1番目は drinks、3番目は milk です。全文は「彼女は朝、牛乳を飲みます」という意味です。
-She のあとは「drinks + some + milk + in」のじゅんばんです。
+She の後は「drinks + some + milk + in」の順番です。
 
 【ポイント2】
 種別: 文法
@@ -69,13 +69,13 @@ She のあとは「drinks + some + milk + in」のじゅんばんです。
 【解説3】
 My dog is white.
 1番目は My、3番目は is です。全文は「私の犬は白いです」という意味です。
-「My + もの + is + いろ」のかたちをおさえましょう。
+「My + 物 + is + 色」の形を押さえましょう。
 
 【ポイント3】
 種別: 文法
 見出し: My + 物 + is + 色
 ・My dog is white. = 私の犬は白い
-・色の言葉は is のあとに置く
+・色の言葉は is の後に置く
 
 ---
 
@@ -96,7 +96,7 @@ My dog is white.
 【解説4】
 I make soup for dinner.
 1番目は I、3番目は soup です。全文は「私は夕食にスープを作ります」という意味です。
-「I + make + soup + for」のじゅんばんです。
+「I + make + soup + for」の順番です。
 
 【ポイント4】
 種別: 文法
@@ -107,7 +107,7 @@ I make soup for dinner.
 ---
 
 問題5:
-ぼくは夕方、友達と遊びます。
+僕は夕方、友達と遊びます。
 ① with ② play ③ friends ④ my
 I [1番目] ( ) [3番目] ( ) in the evening.
 
@@ -122,14 +122,14 @@ I [1番目] ( ) [3番目] ( ) in the evening.
 
 【解説5】
 I play with my friends in the evening.
-1番目は play、3番目は my です。全文は「ぼくは夕方、友達と遊びます」という意味です。
-「play with my friends」のじゅんばんを思い出しましょう。
+1番目は play、3番目は my です。全文は「僕は夕方、友達と遊びます」という意味です。
+「play with my friends」の順番を思い出しましょう。
 
 【ポイント5】
 種別: 熟語
 見出し: play with 〜（〜と遊ぶ）
-・play with my friends = 友だちと遊ぶ
-・with のあとに「誰と」を置く
+・play with my friends = 友達と遊ぶ
+・with の後に「誰と」を置く
 
 ---
 
@@ -150,7 +150,7 @@ I play with my friends in the evening.
 【解説6】
 The cat is under the chair.
 1番目は The、3番目は is です。全文は「猫はイスの下にいます」という意味です。
-「The + もの + is + under」のかたちです。
+「The + 物 + is + under」の形です。
 
 【ポイント6】
 種別: 文法
@@ -177,7 +177,7 @@ The cat is under the chair.
 【解説7】
 We watch movies on Saturday.
 1番目は We、3番目は movies です。全文は「私たちは土曜日に映画を見ます」という意味です。
-「We + watch + movies + on」のじゅんばんです。
+「We + watch + movies + on」の順番です。
 
 【ポイント7】
 種別: 文法
@@ -204,13 +204,13 @@ He [1番目] ( ) [3番目] ( ).
 【解説8】
 He goes to the library.
 1番目は goes、3番目は the です。全文は「彼は図書館へ行きます」という意味です。
-「goes to the library」のじゅんばんを思い出しましょう。
+「goes to the library」の順番を思い出しましょう。
 
 【ポイント8】
 種別: 熟語
 見出し: go to + 場所（〜へ行く）
 ・goes to the library = 図書館へ行く
-・to のあとに場所を置く
+・to の後に場所を置く
 
 ---
 
@@ -231,7 +231,7 @@ He goes to the library.
 【解説9】
 She likes red apples.
 1番目は She、3番目は red です。全文は「彼女は赤いりんごが好きです」という意味です。
-「She + likes + red + apples」のじゅんばんです。
+「She + likes + red + apples」の順番です。
 
 【ポイント9】
 種別: 文法
@@ -258,13 +258,13 @@ She likes red apples.
 【解説10】
 They are reading books now.
 1番目は They、3番目は reading です。全文は「彼らは今、本を読んでいます」という意味です。
-「They + are + reading + books」のじゅんばんです。いましていることは are ＋ 〜ing です。
+「They + are + reading + books」の順番です。いましていることは are ＋ 〜ing です。
 
 【ポイント10】
 種別: 文法
 見出し: 今していることは are / is + 〜ing
 ・They are reading books. = 彼らは本を読んでいる
-・are / is のあとに 〜ing の形をつける
+・are / is の後に 〜ing の形をつける
 
 ---
 
@@ -285,7 +285,7 @@ They are reading books now.
 【解説11】
 I eat eggs in the morning.
 1番目は I、3番目は eggs です。全文は「私は朝、卵を食べます」という意味です。
-「I + eat + eggs + in the morning」のじゅんばんです。主語 I のあとに動詞 eat が来ます。
+「I + eat + eggs + in the morning」の順番です。主語 I の後に動詞 eat が来ます。
 「in the morning（朝に）」は文の最後につくことが多いです。
 
 【ポイント11】
@@ -313,7 +313,7 @@ I eat eggs in the morning.
 【解説12】
 She walks her dog every day.
 1番目は She、3番目は her です。全文は「彼女は毎日、犬を散歩させます」という意味です。
-「She + walks + her + dog」のじゅんばんです。her dog で「彼女の犬」になります。
+「She + walks + her + dog」の順番です。her dog で「彼女の犬」になります。
 every day（毎日）は文の最後につきます。
 
 【ポイント12】
@@ -341,7 +341,7 @@ every day（毎日）は文の最後につきます。
 【解説13】
 We eat pizza on Fridays.
 1番目は We、3番目は pizza です。全文は「私たちは金曜日にピザを食べます」という意味です。
-「We + eat + pizza + on Fridays」のじゅんばんです。
+「We + eat + pizza + on Fridays」の順番です。
 曜日の前には on（〜に）を使います。
 
 【ポイント13】
@@ -369,14 +369,14 @@ We eat pizza on Fridays.
 【解説14】
 This book is interesting.
 1番目は This、3番目は is です。全文は「この本は面白いです」という意味です。
-「This + book + is + interesting」のじゅんばんです。
-This book（この本）のあとに is が来て、形容詞 interesting が続きます。
+「This + book + is + interesting」の順番です。
+This book（この本）の後に is が来て、形容詞 interesting が続きます。
 
 【ポイント14】
 種別: 文法
 見出し: This + 物 + is + 様子
 ・This book is interesting. = この本は面白い
-・This 〜 のあとに is、そのあと様子の言葉
+・This 〜 の後に is、その後様子の言葉
 
 ---
 
@@ -397,7 +397,7 @@ This book（この本）のあとに is が来て、形容詞 interesting が続
 【解説15】
 He likes tennis too.
 1番目は He、3番目は tennis です。全文は「彼はテニスも好きです」という意味です。
-「He + likes + tennis + too」のじゅんばんです。too（〜も）は文の最後に置きます。
+「He + likes + tennis + too」の順番です。too（〜も）は文の最後に置きます。
 
 【ポイント15】
 種別: 文法
@@ -424,7 +424,7 @@ He [1番目] ( ) [3番目] ( ).
 【解説16】
 He runs in the park.
 1番目は runs、3番目は the です。全文は「彼は公園で走ります」という意味です。
-「He + runs + in + the + park」のじゅんばんです。
+「He + runs + in + the + park」の順番です。
 He は枠の前に固定されています。in the park（公園で）が場所を表します。
 
 【ポイント16】
@@ -452,14 +452,14 @@ He は枠の前に固定されています。in the park（公園で）が場所
 【解説17】
 Mom is making soup.
 1番目は Mom、3番目は making です。全文は「お母さんはスープを作っています」という意味です。
-「Mom + is + making + soup」のじゅんばんです。
+「Mom + is + making + soup」の順番です。
 いましていることは is ＋ 〜ing（making）の形になります。
 
 【ポイント17】
 種別: 文法
 見出し: 今していることは is + 〜ing
 ・Mom is making soup. = お母さんはスープを作っている
-・is のあとに 〜ing（making）を置く
+・is の後に 〜ing（making）を置く
 
 ---
 
@@ -480,8 +480,8 @@ I [1番目] ( ) [3番目] ( ).
 【解説18】
 I drink some cold water.
 1番目は drink、3番目は cold です。全文は「私は冷たい水を飲みます」という意味です。
-「I + drink + some + cold + water」のじゅんばんです。
-I は枠の前に固定されています。some cold water で「つめたい水」になります。
+「I + drink + some + cold + water」の順番です。
+I は枠の前に固定されています。some cold water で「冷たい水」になります。
 
 【ポイント18】
 種別: 文法
@@ -508,14 +508,14 @@ She [1番目] ( ) [3番目] ( ).
 【解説19】
 She can play the piano.
 1番目は can、3番目は the です。全文は「彼女はピアノを弾くことができます」という意味です。
-「She + can + play + the + piano」のじゅんばんです。
-She は枠の前に固定されています。can のあとに動詞 play が来ます。
+「She + can + play + the + piano」の順番です。
+She は枠の前に固定されています。can の後に動詞 play が来ます。
 
 【ポイント19】
 種別: 文法
-見出し: can のあとは元の形
+見出し: can の後は元の形
 ・can play the piano = ピアノを弾くことができる
-・can のあとは play（元の形）。plays や playing は置かない
+・can の後は play（元の形）。plays や playing は置かない
 
 ---
 
@@ -536,7 +536,7 @@ She は枠の前に固定されています。can のあとに動詞 play が来
 【解説20】
 They like their teacher.
 1番目は They、3番目は their です。全文は「彼らは自分たちの先生が好きです」という意味です。
-「They + like + their + teacher」のじゅんばんです。
+「They + like + their + teacher」の順番です。
 their teacher で「彼らの先生」になります。
 
 【ポイント20】
@@ -563,18 +563,18 @@ their teacher で「彼らの先生」になります。
 【解説21】
 How much is this lunch box?
 1番目は How、3番目は is です。全文は「このお弁当箱はいくらですか」という意味です。
-「How + much + is + this」のじゅんばんで、「いくらですか」の疑問文になります。
+「How + much + is + this」の順番で、「いくらですか」の疑問文になります。
 
 【ポイント21】
 種別: 文法
 見出し: How much is 〜? = いくらですか
 ・How much is this lunch box? = このお弁当箱はいくら
-・How の次は much、そのあと is / are
+・How の次は much、その後 is / are
 
 ---
 
 問題22:
-窓のそばの男の子はだれですか。
+窓のそばの男の子は誰ですか。
 ① the ② Who ③ boy ④ is
 [1番目] ( ) [3番目] ( ) by the window?
 
@@ -589,8 +589,8 @@ How much is this lunch box?
 
 【解説22】
 Who is the boy by the window?
-1番目は Who、3番目は the です。全文は「窓のそばの男の子はだれですか」という意味です。
-「Who + is + the + boy」のじゅんばんで、人を聞く疑問文になります。
+1番目は Who、3番目は the です。全文は「窓のそばの男の子は誰ですか」という意味です。
+「Who + is + the + boy」の順番で、人を聞く疑問文になります。
 
 【ポイント22】
 種別: 文法
@@ -617,13 +617,13 @@ Who is the boy by the window?
 【解説23】
 What does he want for lunch?
 1番目は What、3番目は he です。全文は「彼は昼ごはんに何がほしいですか」という意味です。
-「What + does + he + want」のじゅんばんです。
+「What + does + he + want」の順番です。
 
 【ポイント23】
 種別: 文法
 見出し: What does 〜 want? = 何が欲しいですか
 ・What does he want 〜? = 彼は何が欲しい
-・What の次は does、そのあと主語
+・What の次は does、その後主語
 
 ---
 
@@ -644,8 +644,8 @@ What does he want for lunch?
 【解説24】
 When is the picnic?
 1番目は When、3番目は the です。全文は「遠足はいつですか」という意味です。
-「When + is + the + picnic」のじゅんばんで、「いつですか」の疑問文になります。
-When のあとに is が来て、そのあとに the + もの と続きます。1番目と3番目をまちがえると文がくずれます。
+「When + is + the + picnic」の順番で、「いつですか」の疑問文になります。
+When の後に is が来て、その後に the + 物 と続きます。1番目と3番目を間違えると文が崩れます。
 
 【ポイント24】
 種別: 文法
@@ -672,7 +672,7 @@ When のあとに is が来て、そのあとに the + もの と続きます。
 【解説25】
 Can Tom ride a horse?
 1番目は Can、3番目は ride です。全文は「トムは馬に乗れますか」という意味です。
-「Can + Tom + ride + a + horse」のじゅんばんです。can のあとはもとのかたちの動詞です。
+「Can + Tom + ride + a + horse」の順番です。can の後はもとの形の動詞です。
 
 【ポイント25】
 種別: 文法
@@ -699,7 +699,7 @@ Can Tom ride a horse?
 【解説26】
 Is her mother a teacher?
 1番目は Is、3番目は mother です。全文は「彼女のお母さんは先生ですか」という意味です。
-「Is + her + mother + a + teacher」のじゅんばんです。her は「彼女の」です。
+「Is + her + mother + a + teacher」の順番です。her は「彼女の」です。
 
 【ポイント26】
 種別: 文法
@@ -726,13 +726,13 @@ Is her mother a teacher?
 【解説27】
 That is Dad's old camera.
 1番目は That、3番目は Dad's です。全文は「あれはお父さんの古いカメラです」という意味です。
-「That + is + Dad's + old + camera」のじゅんばんです。Dad's で「お父さんの」を表します。
+「That + is + Dad's + old + camera」の順番です。Dad's で「お父さんの」を表します。
 
 【ポイント27】
 種別: 文法
 見出し: 誰's + 物 = 誰の物
 ・Dad's old camera = お父さんの古いカメラ
-・That is のあとに 誰's + 物と続ける
+・That is の後に 誰's + 物と続ける
 
 ---
 
@@ -753,13 +753,13 @@ That is Dad's old camera.
 【解説28】
 Kota gets up at five for soccer.
 1番目は Kota、3番目は at です。全文は「コウタはサッカーのために５時に起きます」という意味です。
-「Kota + gets up + at + five」のじゅんばんです。gets up は「起きる」のかたまりです。
+「Kota + gets up + at + five」の順番です。gets up は「起きる」の塊です。
 
 【ポイント28】
 種別: 熟語
 見出し: gets up at 〜 = 〜に起きる
 ・Kota gets up at five. = コウタは5時に起きる
-・gets up のあとに at + 時刻
+・gets up の後に at + 時刻
 
 ---
 
@@ -780,14 +780,14 @@ Kota gets up at five for soccer.
 【解説29】
 What time is math class?
 1番目は What、3番目は is です。全文は「算数の授業は何時ですか」という意味です。
-「What + time + is + math + class」のうち、チップでは What time is math まで並べ、class は枠のうしろです。
-What time で「何時」を作り、そのあとに is が来ます。time と is のじゅんばんを入れかえないようにしましょう。
+「What + time + is + math + class」のうち、チップでは What time is math まで並べ、class は枠の後ろです。
+What time で「何時」を作り、その後に is が来ます。time と is の順番を入れかえないようにしましょう。
 
 【ポイント29】
 種別: 文法
 見出し: What time is 〜? = 〜は何時ですか
 ・What time is math class? = 算数は何時
-・What の次は time、そのあと is
+・What の次は time、その後 is
 
 ---
 
@@ -808,10 +808,10 @@ What time で「何時」を作り、そのあとに is が来ます。time と 
 【解説30】
 What do you need for art class?
 1番目は What、3番目は you です。全文は「図工のために何が必要ですか」という意味です。
-「What + do + you + need」のじゅんばんです。
+「What + do + you + need」の順番です。
 
 【ポイント30】
 種別: 文法
 見出し: What do you need? = 何が必要ですか
 ・What do you need for art class? = 図工に何が必要
-・What の次は do、そのあと主語
+・What の次は do、その後主語

@@ -1,8 +1,9 @@
 {% extends 'accounts/base.html' %}
+{% load custom_filters %}
 
 {% block content %}
 <div class="container mt-5">
-    <h2 class="mb-4">{{ level }}級 解答結果</h2>
+    <h2 class="mb-4">{{ level|exam_level_name }} 解答結果</h2>
     
     <div class="card mb-4">
         <div class="card-body text-center">

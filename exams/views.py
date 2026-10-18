@@ -348,6 +348,7 @@ EXAM_LEVEL_ENTRIES = [
     ('5', '5級'),
     ('4', '4級'),
     ('3', '3級'),
+    ('pre2', '準2級（ベータ）'),
 ]
 VALID_EXAM_LEVELS = {code for code, _ in EXAM_LEVEL_ENTRIES}
 QUESTION_TYPE_LABELS = {
@@ -365,6 +366,15 @@ QUESTION_TYPE_LABELS = {
 
 PREFERRED_LEVEL_SESSION_KEY = 'preferred_exam_level'
 
+# 準2級第1部はイラストではなく会話の応答。他級の表示名は変えない。
+_PRE2_LISTENING_PART1_LABEL = 'リスニング第1部: 会話の応答'
+
+
+def _question_type_label(level, question_type, fallback):
+    if str(level) == 'pre2' and question_type == 'listening_illustration':
+        return _PRE2_LISTENING_PART1_LABEL
+    return fallback
+
 
 def _foundation_question_types_for_level(level):
     level = str(level)
@@ -377,7 +387,7 @@ def _foundation_question_types_for_level(level):
             'listening_conversation',
             'listening_illustration_part3',
         ]
-    if level == '3':
+    if level in ('3', 'pre2'):
         return [
             'grammar_fill',
             'conversation_fill',
@@ -403,10 +413,10 @@ def _random_categories_for_level(level):
         ('grammar_fill', Question),
         ('conversation_fill', Question),
     ]
-    if level != '3':
+    if level not in ('3', 'pre2'):
         categories.append(('word_order', Question))
     categories.append(('listening_conversation', Question))
-    if level == '4':
+    if level in ('4', 'pre2'):
         categories.append(('listening_passage', Question))
     categories.append(('listening_illustration', ListeningQuestion))
     return categories
@@ -448,6 +458,16 @@ def _get_mock_exam_structure(level):
             ('listening_conversation', Question, 10),
             ('listening_passage', Question, 10),
         ]
+    if level == 'pre2':
+        # 準2級に語順はない。ライティングは別メニュー。件数は手元の最小セットに合わせる。
+        return [
+            ('grammar_fill', Question, 3),
+            ('conversation_fill', Question, 2),
+            ('reading_comprehension', ReadingPassage, 2),
+            ('listening_illustration', ListeningQuestion, 2),
+            ('listening_conversation', Question, 2),
+            ('listening_passage', Question, 2),
+        ]
     return [
         ('grammar_fill', Question, 15),
         ('conversation_fill', Question, 5),
@@ -463,6 +483,8 @@ def _mock_exam_time_limits(level):
     """模擬試験の制限時間（分）。公式の目安に近い値。"""
     if str(level) == '5':
         return 25, 20  # 筆記 / リスニング
+    if str(level) == 'pre2':
+        return 80, 25
     return 35, 30
 
 
@@ -616,6 +638,13 @@ CHOOSE_EXAM_LEVEL_CARDS = [
         'summary': 'ライティングや、より実践的な読解・リスニングに対応。スピーキングは二次面接の流れ練習です。',
         'tags': ['文法・語彙', 'ライティング', '長文読解', '二次面接'],
     },
+    {
+        'code': 'pre2',
+        'name': '準2級',
+        'badge': 'ベータ',
+        'summary': 'ベータ公開です。問題はまだ改善中です。短文・会話・長文、Eメールと英作文、リスニング、面接の流れ練習が使えます。',
+        'tags': ['長文読解', 'Eメール', '英作文', '面接'],
+    },
 ]
 
 
@@ -637,15 +666,19 @@ def _extra_display_progress(user, level_code, foundation_progress):
             return
         extras.append({
             'question_type': question_type,
-            'display_name': QUESTION_TYPE_LABELS.get(question_type, question_type),
+            'display_name': _question_type_label(
+                level_code,
+                question_type,
+                QUESTION_TYPE_LABELS.get(question_type, question_type),
+            ),
             'progress_rate': _progress_rate_for_type(user, level_code, question_type),
             'total_questions': total_questions,
             'counts_toward_mock': False,
         })
 
-    if level_code == '3':
+    if level_code in ('3', 'pre2'):
         _append('writing')
-    if level_code in ('3', '4', '5'):
+    if level_code in ('3', '4', '5', 'pre2'):
         _append('speaking')
     return extras
 
@@ -675,7 +708,7 @@ def _build_exam_section(user, level_code, level_name, daily_goal=3):
         question_counts['listening_illustration'] = _total_questions_for_type(
             level_code, 'listening_illustration'
         )
-    if str(level_code) in ('3', '4', '5'):
+    if str(level_code) in ('3', '4', '5', 'pre2'):
         question_counts['speaking'] = _total_questions_for_type(level_code, 'speaking')
     unlock_status = _build_exam_unlock_status(user, level_code)
     foundation_rows = (
@@ -798,12 +831,12 @@ def question_list(request, level=None, exam_id=None):
     
     status = request.GET.get('status', 'unanswered')
 
-    if question_type == 'writing' and str(level) != '3':
-        messages.info(request, 'ライティング問題は3級のみです。')
+    if question_type == 'writing' and str(level) not in ('3', 'pre2'):
+        messages.info(request, 'ライティング問題は3級と準2級のみです。')
         return redirect('exams:exam_list')
 
-    if question_type == 'speaking' and str(level) not in ('3', '4', '5'):
-        messages.info(request, 'スピーキング問題は3級・4級・5級のみです。')
+    if question_type == 'speaking' and str(level) not in ('3', '4', '5', 'pre2'):
+        messages.info(request, 'スピーキング問題は3級・4級・5級・準2級のみです。')
         return redirect('exams:exam_list')
 
     if _is_level5_only_type(level, question_type):
@@ -889,6 +922,8 @@ def question_list(request, level=None, exam_id=None):
             'listening_passage': 'リスニング文章問題',
             'listening_illustration': 'リスニングイラスト問題',
         }
+        if str(level) == 'pre2':
+            category_names['listening_illustration'] = _PRE2_LISTENING_PART1_LABEL
         
         # 各カテゴリーから問題を取得（級によってカテゴリ数が違うので、合計10問になるよう調整）
         categories = _random_categories_for_level(level)
@@ -968,6 +1003,8 @@ def question_list(request, level=None, exam_id=None):
             'listening_conversation': 'リスニング会話問題',
             'listening_passage': 'リスニング文章問題',
         }
+        if str(level) == 'pre2':
+            category_names['listening_illustration'] = _PRE2_LISTENING_PART1_LABEL
         
         exam_structure = _get_mock_exam_structure(level)
         
@@ -1093,9 +1130,12 @@ def question_list(request, level=None, exam_id=None):
             apply_choice_shuffle_to_passages(request, level, reading_passages)
 
         writing_minutes, listening_minutes = _mock_exam_time_limits(level)
-        writing_section_label = (
-            '筆記（大問1-3）' if str(level) == '5' else '筆記（大問1-4）'
-        )
+        if str(level) == '5':
+            writing_section_label = '筆記（大問1-3）'
+        elif str(level) == 'pre2':
+            writing_section_label = 'リーディング'
+        else:
+            writing_section_label = '筆記（大問1-4）'
 
         context = {
             'level': level,
@@ -1176,7 +1216,11 @@ def question_list(request, level=None, exam_id=None):
         context = {
             'level': level,
             'question_type': question_type,
-            'question_type_display': question_types.get(question_type, question_types.get('listening_illustration', '')),
+            'question_type_display': _question_type_label(
+                level,
+                question_type,
+                question_types.get(question_type, question_types.get('listening_illustration', '')),
+            ),
             'num_questions': num_questions,
             'status': status,
             'questions': questions_with_choices,
@@ -1481,7 +1525,23 @@ def question_list(request, level=None, exam_id=None):
             })
 
         level_str = str(level)
-        if level_str == '3':
+        if level_str == 'pre2':
+            speaking_intro = (
+                '準2級のスピーキングは二次試験（面接）形式です。'
+                '黙読 → 音読 → パッセージ1問 → イラスト2問 → カード裏返し → 自分のこと2問、の流れで練習します。'
+            )
+            speaking_prep_steps = [
+                'パッセージを黙読する（約20秒）',
+                'タイトルから声に出して音読する',
+                'パッセージについての質問に答える（No.1）',
+                'イラストについての質問に答える（No.2・No.3）',
+                'カードを裏返し、自分自身についての質問に答える（No.4・No.5）',
+            ]
+            speaking_prep_summary = (
+                '流れは黙読 → 音読 → 内容・イラスト。No.3 のあとカードを裏返します。'
+            )
+            speaking_badge_label = '二次試験練習'
+        elif level_str == '3':
             speaking_intro = (
                 '3級のスピーキングは二次試験（面接）形式です。'
                 '黙読 → 音読 → 内容1問 → イラスト2問 → カード裏返し → 自分のこと2問、の流れで練習します。'
@@ -1771,12 +1831,12 @@ def submit_reading_comprehension(request, level):
 def submit_answers(request, level):
     if request.method == 'POST':
         question_type = request.POST.get('question_type') or request.GET.get('type')
-        level = int(level)  # URLパラメータから取得したlevelを使用
-        if question_type == 'writing' and str(level) != '3':
-            messages.info(request, 'ライティング問題は3級のみです。')
+        level = str(level)
+        if question_type == 'writing' and level not in ('3', 'pre2'):
+            messages.info(request, 'ライティング問題は3級と準2級のみです。')
             return redirect('exams:exam_list')
-        if question_type == 'speaking' and str(level) not in ('3', '4', '5'):
-            messages.info(request, 'スピーキング問題は3級・4級・5級のみです。')
+        if question_type == 'speaking' and level not in ('3', '4', '5', 'pre2'):
+            messages.info(request, 'スピーキング問題は3級・4級・5級・準2級のみです。')
             return redirect('exams:exam_list')
         if not _has_submittable_answers(request.POST):
             return _redirect_empty_submission(request, level, question_type)
@@ -1951,8 +2011,8 @@ def submit_answers(request, level):
             return redirect('exams:answer_results', level=level, question_type=question_type)
 
         elif question_type == 'speaking':
-            if str(level) not in ('3', '4', '5'):
-                messages.info(request, 'スピーキング問題は3級・4級・5級のみです。')
+            if str(level) not in ('3', '4', '5', 'pre2'):
+                messages.info(request, 'スピーキング問題は3級・4級・5級・準2級のみです。')
                 return redirect('exams:exam_list')
 
             raw_ids = request.POST.getlist('speaking_question_id')
@@ -2107,11 +2167,11 @@ def submit_answers(request, level):
 
 @login_required
 def answer_results(request, level, question_type):
-    if question_type == 'writing' and str(level) != '3':
-        messages.info(request, 'ライティング問題は3級のみです。')
+    if question_type == 'writing' and str(level) not in ('3', 'pre2'):
+        messages.info(request, 'ライティング問題は3級と準2級のみです。')
         return redirect('exams:exam_list')
-    if question_type == 'speaking' and str(level) not in ('3', '4', '5'):
-        messages.info(request, 'スピーキング問題は3級・4級・5級のみです。')
+    if question_type == 'speaking' and str(level) not in ('3', '4', '5', 'pre2'):
+        messages.info(request, 'スピーキング問題は3級・4級・5級・準2級のみです。')
         return redirect('exams:exam_list')
     if question_type in ('random', 'mock_exam'):
         session_key = f'answered_questions_{question_type}_{level}'
@@ -2507,7 +2567,7 @@ def answer_results(request, level, question_type):
 def progress_view(request):
     """学習進捗を表示"""
     user = request.user
-    level_order = ['5', '4', '3', '2', '1', 'pre1']
+    level_order = ['5', '4', '3', 'pre2', '2', '1', 'pre1']
     available_levels = list(
         Question.objects.published().values_list('level', flat=True).distinct()
     )
@@ -2518,6 +2578,7 @@ def progress_view(request):
     level_labels = {
         '4': '4級',
         '3': '3級',
+        'pre2': '準2級',
         '2': '2級',
         '1': '1級',
         'pre1': '準1級',
@@ -2664,7 +2725,11 @@ def _build_exam_unlock_status(user, level):
         progress_rate = _progress_rate_for_type(user, level, question_type)
         category_progress.append({
             'question_type': question_type,
-            'display_name': QUESTION_TYPE_LABELS.get(question_type, question_type),
+            'display_name': _question_type_label(
+                level,
+                question_type,
+                QUESTION_TYPE_LABELS.get(question_type, question_type),
+            ),
             'progress_rate': progress_rate,
             'total_questions': total_questions,
             'counts_toward_mock': counts_toward_mock_unlock(level, question_type),
@@ -3023,7 +3088,7 @@ def progress_to_dict(progress, level=None, question_type=None, user=None):
     return result
 
 def _allowed_progress_levels():
-    level_order = ['5', '4', '3', '2', '1', 'pre1']
+    level_order = ['5', '4', '3', 'pre2', '2', '1', 'pre1']
     available_levels = list(
         Question.objects.published().values_list('level', flat=True).distinct()
     )
@@ -3058,6 +3123,7 @@ def clear_progress(request):
         level_labels = {
             '4': '4級',
             '3': '3級',
+            'pre2': '準2級',
             '2': '2級',
             '1': '1級',
             'pre1': '準1級',

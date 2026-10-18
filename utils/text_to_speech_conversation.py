@@ -432,7 +432,7 @@ def main():
     parser.add_argument(
         '--level',
         default=os.environ.get('EIKEN_LEVEL', '4'),
-        choices=['3', '4', '5'],
+        choices=['3', '4', '5', 'pre2'],
         help='3 のとき level3 配下のテキスト・音声ディレクトリを既定にする',
     )
     parser.add_argument('--conversation-txt', default=None, help='第2部の入力テキスト')

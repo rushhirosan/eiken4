@@ -33,6 +33,7 @@ class Question(models.Model):
         ('5', 'Grade 5'),
         ('4', 'Grade 4'),
         ('3', 'Grade 3'),
+        ('pre2', 'Pre-Grade 2'),
         ('2', 'Grade 2'),
         ('1', 'Grade 1'),
         ('pre1', 'Pre-Grade 1'),

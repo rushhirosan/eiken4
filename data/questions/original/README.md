@@ -6,6 +6,7 @@
 data/questions/original/level5/
 data/questions/original/level4/
 data/questions/original/level3/
+data/questions/original/levelpre2/
 ```
 
 ファイル名は既存の register コマンドと同じ（`grammar_fill_questions.txt` など）。

@@ -4,14 +4,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>英検®5級・4級・3級の学習の進め方 - えいごごはん</title>
+    <title>英検®5級・4級・3級・準2級の学習の進め方 - えいごごはん</title>
     {% include 'partials/_favicon.html' %}
-    <meta name="description" content="英検®5級・4級・3級それぞれで、えいごごはんのどのメニューをどの順で進めるかをまとめた使い方ガイド。オリジナル練習です。無料登録後すぐに演習できます。">
+    <meta name="description" content="英検®5級・4級・3級と、ベータの準2級それぞれで、えいごごはんのどのメニューをどの順で進めるかをまとめた使い方ガイド。オリジナル練習です。準2級はベータ公開です。問題はまだ改善中です。">
     <meta name="robots" content="index, follow">
     <link rel="canonical" href="https://eigogohan.com/guides/">
 
-    <meta property="og:title" content="英検®5級・4級・3級の学習の進め方 - えいごごはん">
-    <meta property="og:description" content="英検®の級ごとのメニュー対応とおすすめ学習順。オリジナル練習の使い方ガイドです。">
+    <meta property="og:title" content="英検®5級・4級・3級・準2級の学習の進め方 - えいごごはん">
+    <meta property="og:description" content="英検®の級ごとのメニュー対応とおすすめ学習順。オリジナル練習の使い方ガイドです。準2級はベータ公開です。問題はまだ改善中です。">
     <meta property="og:type" content="article">
     <meta property="og:url" content="https://eigogohan.com/guides/">
     <meta property="og:locale" content="ja_JP">
@@ -19,8 +19,8 @@
     <meta property="og:image" content="https://eigogohan.com{% static 'eigogohan-og-image.png' %}">
 
     <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="英検®5級・4級・3級の学習の進め方 - えいごごはん">
-    <meta name="twitter:description" content="英検®の級ごとのメニュー対応とおすすめ学習順。オリジナル練習の使い方ガイドです。">
+    <meta name="twitter:title" content="英検®5級・4級・3級・準2級の学習の進め方 - えいごごはん">
+    <meta name="twitter:description" content="英検®の級ごとのメニュー対応とおすすめ学習順。オリジナル練習の使い方ガイドです。準2級はベータ公開です。問題はまだ改善中です。">
     <meta name="twitter:image" content="https://eigogohan.com{% static 'eigogohan-og-image.png' %}">
 
     <script type="application/ld+json">
@@ -57,7 +57,7 @@
           "name": "スピーキングは合否に関係しますか？",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "5級・4級のスピーキングは任意です。面接官と会わず、家のパソコンやスマホで声を録音して出すテストで、級の合否には関係ありません。3級は一次合格後の二次試験（面接）です。このサイトでは、それぞれの流れを声に出して練習できます。"
+            "text": "5級・4級のスピーキングは任意です。面接官と会わず、家のパソコンやスマホで声を録音して出すテストで、級の合否には関係ありません。3級と準2級は一次合格後の二次試験（面接）です。このサイトでは、それぞれの流れを声に出して練習できます。準2級はベータ公開です。問題はまだ改善中です。"
           }
         },
         {
@@ -228,13 +228,14 @@
         <div class="row justify-content-center">
             <div class="col-lg-8">
                 <div class="content-card">
-                    <h1 class="h3 fw-bold mb-3">英検®5級・4級・3級の学習の進め方</h1>
+                    <h1 class="h3 fw-bold mb-3">英検®5級・4級・3級・準2級の学習の進め方</h1>
                     <p>
                         えいごごはん で、英検®の受験級ごとに「どのメニューを・どの順で」進めるかをまとめたガイドです。
                         公式の本試そのものではなく、<strong>試験形式のオリジナル練習</strong>をブラウザで解くためのサイトです。
                     </p>
                     <p class="mb-0">
                         問題演習はアカウント登録後に利用できます。まずは下の級別セクションで、自分の級の進め方を確認してください。
+                        準2級はベータ公開です。問題はまだ改善中です。
                     </p>
 
                     <nav class="toc" aria-label="目次">
@@ -243,6 +244,7 @@
                             <li><a href="#level-5">5級の進め方</a></li>
                             <li><a href="#level-4">4級の進め方</a></li>
                             <li><a href="#level-3">3級の進め方</a></li>
+                            <li><a href="#level-pre2">準2級の進め方</a></li>
                             <li><a href="#topic-guides">級×パート別ガイド</a></li>
                             <li><a href="{% url 'try_index' %}">登録なしのお試し問題</a></li>
                             <li><a href="#common">共通の使い方のコツ</a></li>
@@ -369,10 +371,43 @@
                     {% endwith %}
                     {% endif %}
 
+                    <h2 id="level-pre2">準2級の進め方</h2>
+                    <p>
+                        高校初級向けです。<strong>ベータ公開です。問題はまだ改善中です。</strong>
+                        語順選択はありません。短文・会話・長文、Eメールと英作文、リスニング、面接の流れ練習が使えます。
+                    </p>
+                    <p class="mb-2">このサイトの主なメニュー:</p>
+                    <div class="mb-3">
+                        <span class="tag">文法・語彙</span>
+                        <span class="tag">会話補充</span>
+                        <span class="tag">ライティング</span>
+                        <span class="tag">長文読解</span>
+                        <span class="tag">リスニング</span>
+                        <span class="tag">スピーキング（二次試験）</span>
+                        <span class="tag">ランダム10問</span>
+                        <span class="tag">模擬試験</span>
+                    </div>
+                    <h3>おすすめの学習順</h3>
+                    <ol>
+                        <li>文法・語彙と会話補充で、選択問題のベースを作る</li>
+                        <li>読解とリスニングを部ごとに継続する</li>
+                        <li>ライティングは別メニューで、Eメールと英作文を練習する</li>
+                        <li>ランダム10問で短時間の総合確認をする</li>
+                        <li>模擬試験で選択式・読解・リスニングの通し練習をする</li>
+                        <li>二次試験の前に、スピーキングで面接の流れを声に出して練習する</li>
+                    </ol>
+                    <div class="note">
+                        <p class="mb-0 small">
+                            ランダム10問には長文・ライティング・スピーキングは含まれません。
+                            模擬試験もライティング・スピーキングは別メニュー扱いです。
+                            スピーキングは面接形式の二次試験の流れ練習です。
+                        </p>
+                    </div>
+
                     <h2 id="topic-guides">級×パート別ガイド</h2>
                     <p>
                         検索でよく見られるテーマごとに、短い対策ガイドを用意しています。
-                        気になる形式から読んで、そのまま無料演習へ進んでください。
+                        5級・4級・3級が対象です。準2級はベータ公開です。問題はまだ改善中で、パート別ガイドはまだありません。
                     </p>
                     <h3 class="h6 text-white-50 mt-3">5級</h3>
                     <ul>
@@ -399,7 +434,7 @@
                         <li><strong>間違えた問題は解説とポイントを読む</strong> — 正答率より「見直せたか」を優先する</li>
                         <li><strong>学習ポイントをノートに写す</strong> — 結果画面の「この問題のポイント」と、セッション末尾の「今回のまとめ」を写しておくと、同じ形の問題で迷いにくくなります</li>
                         <li><strong>ランダムと模擬は後半</strong> — 各形式をある程度やってから解いた方が効果的</li>
-                        <li><strong>スピーキングは声に出す</strong> — 5・4級は任意の録音形式、3級は二次面接の流れ練習。どちらも専用メニューで練習します</li>
+                        <li><strong>スピーキングは声に出す</strong> — 5・4級は任意の録音形式、3級と準2級は二次面接の流れ練習。どちらも専用メニューで練習します。準2級はベータ公開です。</li>
                         <li><strong>スマホでもOK</strong> — ブラウザで動作します。リスニングはイヤホンがあると集中しやすいです</li>
                     </ul>
 
@@ -441,7 +476,7 @@
                     </div>
                     <div class="faq-item">
                         <h3>スピーキングは合否に関係しますか？</h3>
-                        <p class="mb-0">5級・4級のスピーキングは任意です。面接官と会わず、家のパソコンやスマホで声を録音して出すテストで、級の合否には関係ありません。3級は一次合格後の二次試験（面接）です。このサイトでは、それぞれの流れを声に出して練習できます。</p>
+                        <p class="mb-0">5級・4級のスピーキングは任意です。面接官と会わず、家のパソコンやスマホで声を録音して出すテストで、級の合否には関係ありません。3級と準2級は一次合格後の二次試験（面接）です。このサイトでは、それぞれの流れを声に出して練習できます。準2級はベータ公開です。問題はまだ改善中です。</p>
                     </div>
                     <div class="faq-item">
                         <h3>毎日どれくらい解けばいいですか？</h3>

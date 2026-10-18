@@ -1,0 +1,908 @@
+No.1:
+W: The art room is open after school today.
+M: I have soccer practice until four.
+W: Can you come after that?
+
+Question No.1:
+1. Yes, I'll be there around four thirty.
+2. It's on the second floor, next to the gym.
+3. I already finished soccer practice.
+
+【正解1】
+1. Yes, I'll be there around four thirty.
+
+【解説1】
+最後の文は Can you come after that?（そのあと来られる？）です。that は、4時までのサッカーの練習のあとです。1 は「4時半ごろ行く」で、その質問への返事です。
+2 は美術室の場所で、Where is the art room? への返事です。1文目の the art room を拾っています。3 はサッカーの練習が終わった、という返事で、2文目の soccer practice を拾っています。最後の Can you には、Yes か No で答えます。
+
+【ポイント1】
+種別: リスニング
+見出し: 最後の文への返事を選ぶ
+・Can you come? には Yes / No
+・場所は Where、練習が終わったかは別の文への返事
+・前の文に出た語が入っていても、最後の質問と違うなら選ばない
+
+---
+
+No.2:
+M: I left my calculator in the music room.
+W: I can get it for you on my way to band.
+M: Could you bring it to the library?
+
+Question No.2:
+1. The band concert starts at six.
+2. I left mine in the music room, too.
+3. Sure. I'll meet you at the library.
+
+【正解2】
+3. Sure. I'll meet you at the library.
+
+【解説2】
+最後は Could you bring it to the library?（図書館まで持ってきてくれる？）です。3 は Sure で依頼を引き受け、there ではなく the library と場所を言い直しています。
+1 は band への返事で、女子の on my way to band を拾っています。コンサートの開始時刻はこの会話にありません。2 は「私も音楽室に忘れた」で、1文目の left my calculator in the music room への返事です。依頼を引き受けていません。
+
+【ポイント2】
+種別: リスニング
+見出し: 最後の依頼 ← Could you ...?
+・Could you bring it to the library? には Sure で引き受ける
+・前の文の語 ← music room や band
+・前の文に合う返事でも、最後の依頼への返事でなければ選ばない
+
+---
+
+No.3:
+W: The ticket window closes at six.
+M: My sister is still at work.
+W: Can she pick the tickets up tomorrow?
+
+Question No.3:
+1. The window is next to the station.
+2. Yes, it opens again at ten.
+3. She finished work at noon.
+
+【正解3】
+2. Yes, it opens again at ten.
+
+【解説3】
+最後は Can she pick the tickets up tomorrow?（明日、チケットを受け取れますか）です。2 は Yes で、窓口は10時にまた開く、と答えています。
+1 は窓口の場所で、Where is the window? への返事です。1文目の ticket window を拾っています。3 は仕事が正午に終わった、で、2文目の at work への返事です。まだ仕事中という話とも合いません。最後の Can she には、できるかどうかで答えます。
+
+【ポイント3】
+種別: リスニング
+見出し: 明日できるか ← Can she ... tomorrow?
+・Yes と、次に開く時刻がセット
+・場所は Where、仕事の終わりは別の文
+・今日の閉店で、明日の返事そのものではない ← closes at six
+
+---
+
+No.4:
+M: I need a quiet place to practice the violin.
+W: The hall is free after five, but the piano club is there now.
+M: Could I use a classroom until they finish?
+
+Question No.4:
+1. Sure. Room 2B is empty.
+2. The piano club starts at three.
+3. I'll practice in the hall now.
+
+【正解4】
+1. Sure. Room 2B is empty.
+
+【解説4】
+最後は Could I use a classroom until they finish?（彼らが終わるまで教室を使っていい？）です。they は、今ホールにいるピアノ部です。1 は Sure で引き受け、空いている 2B を示しています。
+2 はピアノ部の開始時刻で、女子の the piano club is there now を拾っています。3 は今すぐホールで練習する、ですが、ホールは今ふさがっています。教室を使う許可への返事ではありません。
+
+【ポイント4】
+種別: リスニング
+見出し: 空いている場所で受ける ← Could I use ...?
+・今いるピアノ部 ← until they finish の they
+・now のホール は使えない
+・開始時刻は、教室を貸す返事にならない
+
+---
+
+No.5:
+W: We still need paper cups for the bake sale.
+M: I bought plates yesterday, not cups.
+W: Will you get the cups on your way to school?
+
+Question No.5:
+1. The sale is in the gym.
+2. I already bought plates.
+3. Yes, I'll stop at the store.
+
+【正解5】
+3. Yes, I'll stop at the store.
+
+【解説5】
+最後は Will you get the cups on your way to school?（登校のついでにコップを買ってくれる？）です。3 は Yes で、店に寄る、と引き受けています。
+1 は販売の場所で、Where is the bake sale? への返事です。本文に体育館はありません。2 は皿を買った、で、男子の I bought plates を繰り返しています。コップを買う依頼には答えていません。
+
+【ポイント5】
+種別: リスニング
+見出し: 取りにいくかの Yes / No ← Will you get ...?
+・依頼の対象 ← cups。すでに買った別のもの ← plates
+・途中で店に寄る ← on your way
+・場所の返事は、Where の質問用
+
+---
+
+No.6:
+M: The slides for the science talk are on my USB drive.
+W: I can copy them during lunch.
+M: Could you also print one copy for the teacher?
+
+Question No.6:
+1. Lunch is at twelve thirty.
+2. Yes, I'll print it after I copy them.
+3. I left the drive in the science room.
+
+【正解6】
+2. Yes, I'll print it after I copy them.
+
+【解説6】
+最後は Could you also print one copy for the teacher?（先生用に1部印刷もしてくれる？）です。also は、昼にコピーする、という女子の申し出に印刷を足しています。2 は Yes で、コピーのあとに印刷する、と順序まで合っています。
+1 は昼の時刻で、during lunch への返事です。3 は USB を理科室に置いてきた、で、1文目の drive を拾っています。印刷の依頼を引き受けていません。
+
+【ポイント6】
+種別: リスニング
+見出し: 前の申し出に一つ足す ← also
+・copy のあとに print する、が最後の依頼
+・lunch の時刻 はWhen is lunch? への返事
+・drive の場所 は最初の文への返事
+
+---
+
+No.7:
+W: The volunteer sign-up sheet is on the office door.
+M: I already wrote my name for Sunday.
+W: Did you add your phone number?
+
+Question No.7:
+1. Sunday starts at nine.
+2. The office is on the first floor.
+3. No, I'll write it now.
+
+【正解7】
+3. No, I'll write it now.
+
+【解説7】
+最後は Did you add your phone number?（電話番号は書いた？）です。3 は No で、今書く、と答えています。名前はもう書いてある、という2文目とは別の欄です。
+1 は日曜の開始時刻で、for Sunday を拾っています。2 は事務所の階で、office door の場所への返事です。どちらも電話番号の質問には答えていません。
+
+【ポイント7】
+種別: リスニング
+見出し: 書き足したかの Yes / No ← Did you add ...?
+・書いた ← name。聞いているのは phone number
+・Sunday の時刻 はいつ始まるかへの返事
+・用紙の場所を言うとき ← door
+
+---
+
+No.8:
+M: The ticket box is heavy.
+W: I can carry it to the hall.
+M: Where should I leave the sign?
+
+Question No.8:
+1. Put the sign on the front door.
+2. Leave the box on the stage.
+3. The hall opens at nine.
+
+【正解8】
+1. Put the sign on the front door.
+
+【解説8】
+最後は Where should I leave the sign?（看板はどこに置けばいい？）です。1 は正面のドア、と場所で答えています。
+2 は箱の行き先で、1文目の ticket box と、女子の hall を拾っています。3 は開く時刻で、When does the hall open? への返事です。看板の場所は聞いていません。
+
+【ポイント8】
+種別: リスニング
+見出し: 置く場所 ← Where should I leave
+・聞いている物は sign。前の文 ← box
+・時刻は When への返事
+・最後の名詞が、返事の対象
+
+---
+
+No.9:
+W: The north gate closes at five.
+M: My club ends at four thirty.
+W: What time should we leave the field?
+
+Question No.9:
+1. The north gate is by the pool.
+2. At four forty, before it closes.
+3. Your club starts at three.
+
+【正解9】
+2. At four forty, before it closes.
+
+【解説9】
+最後は What time should we leave the field?（グラウンドを何時に出る？）です。門は5時に閉まるので、2 は閉まる前の4時40分、と時刻で答えています。
+1 は北門の場所で、Where is the north gate? への返事です。3 はクラブの開始で、2文目の ends at four thirty を別の時刻にすり替えています。
+
+【ポイント9】
+種別: リスニング
+見出し: 行動の時刻 ← What time should we
+・門が閉まる時刻 ← five。返事はそれより前
+・場所は Where
+・ends を starts に変えた選択肢 は最後の質問ではない
+
+---
+
+No.10:
+M: The meeting moved from the library to room 2C.
+W: I already told Ken it was in the library.
+M: Why was the room changed?
+
+Question No.10:
+1. Because the library is being painted.
+2. Ken will come to the library.
+3. Room 2C is on the second floor.
+
+【正解10】
+1. Because the library is being painted.
+
+【解説10】
+最後は Why was the room changed?（なぜ部屋が変わった？）です。1 は Because で、図書館がペンキ塗りだから、と理由を答えています。
+2 は Ken が図書館へ来る、で、2文目の told Ken への返事です。3 は 2C の階で、Where is room 2C? への返事です。
+
+【ポイント10】
+種別: リスニング
+見出し: Why には Because で理由
+・changed の理由が、最後の質問
+・人の名前は、前の文への返事になりやすい
+・階は Where の答え
+
+---
+
+No.11:
+W: The art room is warm this afternoon.
+M: The windows are all shut.
+W: Would you mind opening one?
+
+Question No.11:
+1. The art room is on the third floor.
+2. Yes, it's warm today.
+3. No, I'll open the one by the door.
+
+【正解11】
+3. No, I'll open the one by the door.
+
+【解説11】
+最後は Would you mind opening one?（一つ開けてもらえる？）です。mind を使う依頼に No は「構わない、やる」です。3 はドアのそばの窓を開ける、と引き受けています。
+1 は美術室の階で、Where への返事です。2 は暑い、で、1文目の warm を繰り返しています。依頼への Yes / No にはなっていません。
+
+【ポイント11】
+種別: リスニング
+見出し: 引き受ける ← Would you mind の No
+・閉まっている窓 ← opening one の one
+・依頼の理由で、返事そのものではない ← warm
+・階は、場所を聞かれたとき
+
+---
+
+No.12:
+M: The guest has not arrived.
+W: The talk is supposed to start at two.
+M: Shall I call the teacher?
+
+Question No.12:
+1. The guest is still at the station.
+2. Yes, please call her now.
+3. The talk is in the gym.
+
+【正解12】
+2. Yes, please call her now.
+
+【解説12】
+最後は Shall I call the teacher?（先生に電話しようか？）です。2 は Yes で、今電話して、と申し出を受けています。
+1 は客がまだ駅にいる、で、1文目の has not arrived への説明です。3 は講演の場所で、Where is the talk? への返事です。
+
+【ポイント12】
+種別: リスニング
+見出し: 申し出への Yes / No ← Shall I
+・最後の提案 ← call the teacher
+・電話する理由 ← has not arrived
+・場所は、別の疑問詞への返事
+
+---
+
+No.13:
+W: I printed the song sheets.
+M: The choir has twenty singers, and two are absent.
+W: How many copies do we need?
+
+Question No.13:
+1. Twenty, if you count the absent singers.
+2. The sheets are on the piano.
+3. Eighteen, one for each singer here.
+
+【正解13】
+3. Eighteen, one for each singer here.
+
+【解説13】
+最後は How many copies do we need?（コピーは何部いる？）です。20人のうち2人が欠席なので、今いる18人分です。3 がその数です。
+1 は欠席者も数えた20で、2文目の twenty をそのまま使っています。two are absent を引いていません。2 は楽譜の場所で、Where are the sheets? への返事です。
+
+【ポイント13】
+種別: リスニング
+見出し: 条件を引いた数 ← How many
+・必要な数は 18 ← twenty から two absent を引く
+・印刷した場所は、Where の答え
+・最初の数を、引き算せずに選ばない
+
+---
+
+No.14:
+M: The number 12 bus goes to the museum.
+W: It left two minutes ago.
+M: Which bus should we take now?
+
+Question No.14:
+1. The number 12 leaves every hour.
+2. The next one is the number 8.
+3. The museum closes at four.
+
+【正解14】
+2. The next one is the number 8.
+
+【解説14】
+最後は Which bus should we take now?（今はどのバスに乗る？）です。12番は2分前に出たので、2 は次の8番、と別のバスを答えています。
+1 は12番が1時間ごと、で、1文目の number 12 への補足です。今乗るバスではありません。3 は博物館の閉館で、When does the museum close? への返事です。
+
+【ポイント14】
+種別: リスニング
+見出し: もう出たものを除く ← Which ... now
+・12番を外す情報 ← left two minutes ago
+・そのバスの間隔 ← every hour
+・閉館時刻は、バスの選択ではない
+
+---
+
+No.15:
+W: There are two seats left on the train.
+M: I get sick by the window.
+W: Do you want the aisle seat?
+
+Question No.15:
+1. The train leaves at seven.
+2. Yes, please. The window is fine.
+3. Yes. I'll sit away from the window.
+
+【正解15】
+3. Yes. I'll sit away from the window.
+
+【解説15】
+最後は Do you want the aisle seat?（通路側の席がいい？）です。2文目で窓側は気分が悪くなると言っているので、3 は窓から離れて座る、と Yes で受けています。
+1 は電車の出発時刻で、When does the train leave? への返事です。2 は窓側でよい、で、I get sick by the window と矛盾します。
+
+【ポイント15】
+種別: リスニング
+見出し: 前の苦手と合う方 ← Do you want
+・通路側 ← aisle。避けたい側 ← window
+・2文目と逆 ← Yes でも、窓でよい、
+・時刻は、席の希望ではない
+
+---
+
+No.16:
+M: I forgot my pen.
+W: I have a blue one and a black one.
+M: Could you lend me the black one?
+
+Question No.16:
+1. Sure. Here is the black pen.
+2. You forgot it in the classroom.
+3. The blue one is new.
+
+【正解16】
+1. Sure. Here is the black pen.
+
+【解説16】
+最後は Could you lend me the black one?（黒い方を貸してくれる？）です。1 は Sure で、黒いペンを渡しています。
+2 は教室に忘れた、で、1文目の forgot への返事です。3 は青い方が新しい、で、女子の blue one を拾っています。貸してほしいのは黒い方です。
+
+【ポイント16】
+種別: リスニング
+見出し: 指定した方を渡す ← Could you lend me
+・依頼の対象 ← the black one
+・forgot の場所 はWhere did I leave it?
+・もう一方の色は、前の文の情報
+
+---
+
+No.17:
+W: The volunteer day is on Sunday.
+M: I have a match on Sunday afternoon.
+W: Are you free on Sunday morning?
+
+Question No.17:
+1. The match is at the stadium.
+2. Yes. I can come before noon.
+3. Sunday afternoon is busy.
+
+【正解17】
+2. Yes. I can come before noon.
+
+【解説17】
+最後は Are you free on Sunday morning?（日曜の午前は空いている？）です。午後に試合があるので、2 は正午前なら来られる、と午前への Yes です。
+1 は試合の場所で、Where is the match? への返事です。3 は日曜の午後が忙しい、で、2文目の afternoon への返事です。聞いているのは午前です。
+
+【ポイント17】
+種別: リスニング
+見出し: morning と afternoon を入れ替えない
+・Are you free には Yes / No
+・afternoon の試合 は午前をふさがない
+・場所は、最後の質問ではない
+
+---
+
+No.18:
+M: Someone needs to bring juice to the party.
+W: I can bring cups, but not drinks.
+M: Who is bringing the juice?
+
+Question No.18:
+1. Nao said she would bring it.
+2. The party starts at six.
+3. I'll bring the cups.
+
+【正解18】
+1. Nao said she would bring it.
+
+【解説18】
+最後は Who is bringing the juice?（ジュースは誰が持ってくる？）です。1 は Nao が持ってくると言った、と人の名前で答えています。
+2 はパーティーの開始時刻で、When does the party start? への返事です。本文にその時刻はありません。3 はコップを持っていく、で、女子の I can bring cups への返事です。ジュースの担当ではありません。
+
+【ポイント18】
+種別: リスニング
+見出し: 人の名前 ← Who is bringing
+・別の担当 ← juice と cups
+・女子がジュースを持たない印 ← but not drinks
+・時刻は Who の答えにならない
+
+---
+
+No.19:
+W: I ordered a new string for my violin.
+M: The shop usually delivers in two days.
+W: Did the package arrive?
+
+Question No.19:
+1. The shop is next to the station.
+2. A new string costs eight hundred yen.
+3. Yes. It came this morning.
+
+【正解19】
+3. Yes. It came this morning.
+
+【解説19】
+最後は Did the package arrive?（荷物は届いた？）です。3 は Yes で、今朝来た、と届いたかどうかに答えています。
+1 は店の場所で、Where is the shop? への返事です。2 は弦の値段で、How much is a string? への返事です。どちらも届いたかには答えていません。
+
+【ポイント19】
+種別: リスニング
+見出し: 届いたかの Yes / No ← Did it arrive?
+・注文した弦の荷物 ← package
+・いつもの日数で、届いたかの答えではない ← two days
+・場所と値段は、別の疑問詞
+
+---
+
+No.20:
+M: Dark clouds are over the field.
+W: The coach has a backup plan.
+M: Will the match be outside?
+
+Question No.20:
+1. No. It will move to the small gym.
+2. The coach is in the office.
+3. The clouds will clear at noon.
+
+【正解20】
+1. No. It will move to the small gym.
+
+【解説20】
+最後は Will the match be outside?（試合は外である？）です。1 は No で、小体育館へ移る、と外ではないと答えています。
+2 はコーチの居場所で、Where is the coach? への返事です。3 は雲が晴れる時刻で、1文目の clouds への返事です。試合が外かどうかには答えていません。
+
+【ポイント20】
+種別: リスニング
+見出し: 場所が外かどうか ← Will it be outside?
+・No と、代わりの場所がセット
+・外でない可能性の伏線 ← backup plan
+・晴れる時刻は、When will the clouds clear?
+
+---
+
+No.21:
+W: The club T-shirts are ready.
+M: I don't have the money today.
+W: Can you pay tomorrow?
+
+Question No.21:
+1. The shirts are blue and white.
+2. Yes. Bring the money in the morning.
+3. You can pay at the station.
+
+【正解21】
+2. Yes. Bring the money in the morning.
+
+【解説21】
+最後は Can you pay tomorrow?（明日払える？）です。2 は Yes で、朝に持ってきて、と明日の支払いに答えています。
+1 はシャツの色で、What color are the shirts? への返事です。3 は駅で払う、で、Where can I pay? への返事です。明日かどうかには答えていません。
+
+【ポイント21】
+種別: リスニング
+見出し: 日をずらしてよいか ← Can you pay tomorrow?
+・明日になる理由 ← don't have the money today
+・色は、シャツの説明
+・Where と When を混ぜない
+
+---
+No.22:
+M: The ceremony is in the gym tomorrow.
+W: I only have my club jacket here.
+M: Should I wear the school uniform?
+
+Question No.22:
+1. The gym is next to the library.
+2. The ceremony starts at nine.
+3. Yes. A jacket is not enough.
+
+【正解22】
+3. Yes. A jacket is not enough.
+
+【解説22】
+最後は Should I wear the school uniform?（制服を着ていくべき？）です。3 は Yes で、ジャケットでは足りない、と着ていく判断に答えています。
+1 は体育館の場所で、Where is the gym? への返事です。2 は式の開始時刻で、When does the ceremony start? への返事です。
+
+【ポイント22】
+種別: リスニング
+見出し: 服装への Yes / No ← Should I wear
+・持っているが足りない服 ← club jacket
+・最後の質問の服 ← uniform
+・場所と時刻は、服の判断ではない
+
+---
+
+No.23:
+W: I need the key to the music room.
+M: I used it during lunch.
+W: Where did you put it?
+
+Question No.23:
+1. I put it back on the office desk.
+2. The music room is locked now.
+3. Lunch ended at one.
+
+【正解23】
+1. I put it back on the office desk.
+
+【解説23】
+最後は Where did you put it?（どこに置いた？）です。it は音楽室の鍵です。1 は事務所の机に戻した、と場所で答えています。
+2 は音楽室が今ロックされている、で、1文目の music room への返事です。鍵の場所ではありません。3 は昼が1時に終わった、で、2文目の during lunch への返事です。
+
+【ポイント23】
+種別: リスニング
+見出し: 直前の鍵 ← Where did you put it? の it
+・場所の答え ← put it back
+・部屋の状態 ← locked
+・lunch の時刻 はWhen の答え
+
+---
+
+No.24:
+M: Practice may be canceled if the rain continues.
+W: I already told my mother I would be home late.
+M: What should I tell the coach?
+
+Question No.24:
+1. Tell her you can still come if it stops.
+2. Your mother is waiting at home.
+3. The rain started at noon.
+
+【正解24】
+1. Tell her you can still come if it stops.
+
+【解説24】
+最後は What should I tell the coach?（コーチに何と伝えればいい？）です。1 は、雨がやめば来られる、と伝える内容を答えています。
+2 は母が家で待っている、で、2文目の mother への返事です。3 は雨が正午に始まった、で、1文目の rain への返事です。コーチへの伝言ではありません。
+
+【ポイント24】
+種別: リスニング
+見出し: 伝える中身 ← What should I tell
+・まだ決まっていない条件 ← if the rain continues
+・すでに伝えた相手 ← mother
+・雨の開始時刻は、伝言の文ではない
+
+---
+
+No.25:
+W: Our class trip to the museum is on Monday.
+M: I thought museums were closed on Mondays.
+W: Is that museum closed on Monday?
+
+Question No.25:
+1. The trip was moved to Tuesday.
+2. No. This one is open on Mondays.
+3. The museum is far from school.
+
+【正解25】
+2. No. This one is open on Mondays.
+
+【解説25】
+最後は Is that museum closed on Monday?（その博物館は月曜に閉まっている？）です。2 は No で、この館は月曜も開いている、と閉館かどうかに答えています。
+1 は旅行が火曜に変わった、で、1文目の on Monday を別の日にすり替えています。3 は学校から遠い、で、How far is the museum? への返事です。
+
+【ポイント25】
+種別: リスニング
+見出し: 開いているかの Yes / No ← Is it closed?
+・思い込み ← I thought。最後の質問が確かめている
+・別の曜日への変更は、本文にない
+・距離は、閉館の答えではない
+
+---
+
+No.26:
+M: The station is a ten-minute walk.
+W: My bag is heavy, and the train comes in four minutes.
+M: Would you rather walk or take the train?
+
+Question No.26:
+1. The station has two exits.
+2. Four minutes is not long.
+3. Let's take the train with this bag.
+
+【正解26】
+3. Let's take the train with this bag.
+
+【解説26】
+最後は Would you rather walk or take the train?（歩くのと電車と、どちらがいい？）です。2文目でカバンが重く、電車は4分後です。3 は電車にする、と二つから選んでいます。
+1 は駅の出口の数で、How many exits? への返事です。2 は4分は長くない、で、女子の four minutes をコメントしています。walk か train かの選択にはなっていません。
+
+【ポイント26】
+種別: リスニング
+見出し: どちらかを選ぶ ← Would you rather A or B
+・歩く方を避けたい理由 ← heavy bag
+・電車が来るまでの時間 ← four minutes
+・出口の数は、選択の答えではない
+
+---
+
+No.27:
+M: These seats are for the guest players.
+W: I don't see their names on the chairs.
+M: May I sit here?
+
+Question No.27:
+1. The guests arrive at seven.
+2. No. Please use the row behind.
+3. Their names are on the program.
+
+【正解27】
+2. No. Please use the row behind.
+
+【解説27】
+最後は May I sit here?（ここに座っていい？）です。1文目でその席はゲスト選手用です。2 は No で、うしろの列を使って、と断っています。
+1 はゲストの到着時刻で、When do the guests arrive? への返事です。3 は名前がプログラムにある、で、2文目の names への返事です。座ってよいかには答えていません。
+
+【ポイント27】
+種別: リスニング
+見出し: その席を使ってよいか ← May I sit here?
+・断る理由 ← for the guest players
+・席を見分けられなかった話 ← names
+・到着時刻は、座ってよいかとは別
+
+---
+
+No.28:
+M: I can't find my green jacket.
+W: The lost box is in the office.
+M: Have you seen it?
+
+Question No.28:
+1. The office closes at four.
+2. Green is the team color.
+3. Yes. It's on the chair by the door.
+
+【正解28】
+3. Yes. It's on the chair by the door.
+
+【解説28】
+最後は Have you seen it?（それを見なかった？）です。it は緑のジャケットです。3 は Yes で、ドアのそばのいすにある、と見たかと場所を答えています。
+1 は事務所の閉まる時刻で、When does the office close? への返事です。2 は緑がチームの色、で、1文目の green への返事です。見たかどうかには答えていません。
+
+【ポイント28】
+種別: リスニング
+見出し: 見たかと、あれば場所 ← Have you seen it?
+・green jacket ← it
+・探す場所の候補で、見たかの答えそのものではない ← lost box
+・閉まる時刻は、When の答え
+
+---
+
+No.29:
+W: Ken missed the bus.
+M: We need four people to start the game.
+W: Could we start without him?
+
+Question No.29:
+1. Yes. Three of us can play a short game.
+2. The bus comes again at four.
+3. Ken is the team captain.
+
+【正解29】
+1. Yes. Three of us can play a short game.
+
+【解説29】
+最後は Could we start without him?（彼なしで始めていい？）です。him はバスに乗り遅れた Ken です。1 は Yes で、3人で短い試合ならできる、と始めてよいかに答えています。
+2 は次のバスが4時、で、1文目の bus への返事です。3 は Ken が主将、で、Who is Ken? への返事です。始められるかには答えていません。
+
+【ポイント29】
+種別: リスニング
+見出し: 人数が足りるか ← Could we start without him?
+・本来必要な人数 ← four people
+・3人になる ← without him
+・次のバスは、Ken が来る時刻の話
+
+---
+
+No.30:
+M: I'm going to the market for the class party.
+W: We already have plates and cups.
+M: Do you need the large bag?
+
+Question No.30:
+1. The market is two stops away.
+2. No. The small one is enough.
+3. Please buy more plates.
+
+【正解30】
+2. No. The small one is enough.
+
+【解説30】
+最後は Do you need the large bag?（大きいカバンは必要？）です。皿とコップはすでにあるので、2 は No で、小さい方で足りる、と答えています。
+1 は市場まで2駅、で、How far is the market? への返事です。3 は皿を追加で買う、で、2文目の plates への返事です。カバンの大きさには答えていません。
+
+【ポイント30】
+種別: リスニング
+見出し: 大きさの Yes / No ← Do you need the large bag?
+・たくさん運ばなくてよい理由 ← already have
+・別の依頼 ← plates をさらに買う、
+・距離は、カバンの質問ではない
+
+---
+
+No.31:
+W: The movie starts at seven.
+M: I'm hungry, and the shop here is still open.
+W: Why don't we eat first?
+
+Question No.31:
+1. The movie is two hours long.
+2. The shop closes at six.
+3. Good idea. We still have time.
+
+【正解31】
+3. Good idea. We still have time.
+
+【解説31】
+最後は Why don't we eat first?（先に食べない？）です。提案なので、3 は Good idea で受け、まだ時間がある、と7時の映画に間に合うことを足しています。
+1 は映画が2時間、で、How long is the movie? への返事です。2 は店が6時に閉まる、で、2文目の shop への返事ですが、still open と矛盾し、先に食べる提案も受けていません。
+
+【ポイント31】
+種別: リスニング
+見出し: 提案への同意か断り ← Why don't we
+・映画の前に食べる ← eat first
+・まだ間に合う根拠 ← starts at seven
+・上映時間は、提案への返事ではない
+
+---
+
+No.32:
+M: I'll be at the station at three.
+W: The west exit is crowded after school.
+M: Shall we meet at the bridge instead?
+
+Question No.32:
+1. Yes. The bridge is quieter.
+2. I'll arrive at three.
+3. The west exit has a bakery.
+
+【正解32】
+1. Yes. The bridge is quieter.
+
+【解説32】
+最後は Shall we meet at the bridge instead?（代わりに橋で会わない？）です。1 は Yes で、橋の方が静か、と代わりの場所を受けています。
+2 は3時に着く、で、1文目の at three を繰り返しています。場所の提案には答えていません。3 は西口にパン屋がある、で、2文目の west exit への返事です。
+
+【ポイント32】
+種別: リスニング
+見出し: 前の場所を入れ替える提案 ← instead
+・新しい待ち合わせ ← bridge
+・混むので避けたい場所 ← west exit
+・時刻の繰り返しは、Where への返事にならない
+
+---
+
+No.33:
+M: The speech contest is in the hall.
+W: I may arrive five minutes late.
+M: Should I save you a seat?
+
+Question No.33:
+1. The hall holds two hundred people.
+2. Five minutes is a short time.
+3. Yes, please. One in the back row is fine.
+
+【正解33】
+3. Yes, please. One in the back row is fine.
+
+【解説33】
+最後は Should I save you a seat?（席を取っておこうか？）です。女子は5分遅れるかもしれないので、3 は Yes, please で、後ろの列でよい、と申し出を受けています。
+1 はホールの収容人数で、How many people? への返事です。2 は5分は短い、で、2文目の five minutes へのコメントです。席を取る申し出には答えていません。
+
+【ポイント33】
+種別: リスニング
+見出し: 申し出への Yes / No ← Should I save you a seat?
+・席が要る理由 ← five minutes late
+・取る場所 ← back row
+・収容人数は、席を取る返事ではない
+
+---
+
+No.34:
+M: The drama club wants the stage on Friday.
+W: The band has it until four.
+M: Can the club use it after that?
+
+Question No.34:
+1. The band concert is on Saturday.
+2. Yes. The stage is free after four.
+3. Friday is the last day of term.
+
+【正解34】
+2. Yes. The stage is free after four.
+
+【解説34】
+最後は Can the club use it after that?（そのあとクラブは使える？）です。that は、バンドが4時まで使う、のあとです。2 は Yes で、4時のあと舞台は空く、と答えています。
+1 はバンドのコンサートが土曜、で、2文目の band への返事です。3 は金曜が学期の最終日、で、1文目の Friday への返事です。使えるかには答えていません。
+
+【ポイント34】
+種別: リスニング
+見出し: 直前の until ← after that の that
+・until four のあとが、空く時刻
+・band の別の予定 は舞台が空くかどうかではない
+・使いたい日 ← Friday
+
+---
+
+No.35:
+W: The new meeting time is on the board.
+M: I copied the old time into my notebook.
+W: Did you hear the change?
+
+Question No.35:
+1. The board is next to the office.
+2. No. I still have the old time.
+3. The meeting is in room 4.
+
+【正解35】
+2. No. I still have the old time.
+
+【解説35】
+最後は Did you hear the change?（変更を聞いた？）です。2文目で古い時刻をノートに写した、と言っています。2 は No で、まだ古い時刻のまま、と変更を聞いていないと答えています。
+1 は掲示板が事務所のそば、で、1文目の board の場所です。3 は会議が4号室、で、Where is the meeting? への返事です。聞いたかどうかには答えていません。
+
+【ポイント35】
+種別: リスニング
+見出し: 新しい情報を知っているか ← Did you hear the change?
+・まだ更新していない印 ← old time
+・変更が書いてある場所 ← board
+・部屋番号は、聞いたかの答えではない
+
+---

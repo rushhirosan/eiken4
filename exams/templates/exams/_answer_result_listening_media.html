@@ -1,5 +1,6 @@
 {% load static %}
-{# リスニングイラスト結果の画像・音声。answer.question に image / audio がある想定 #}
+{% load custom_filters %}
+{# リスニング第1部の結果。画像・音声に加え、準2級は放送文（listening_text）を出す #}
 {% if answer.question.image %}
 <div class="listening-illustration-img-wrap listening-illustration-img-wrap--results">
     <img src="{% static answer.question.image %}" alt="問題のイラスト" class="listening-illustration-img">
@@ -12,4 +13,7 @@
         お使いのブラウザは音声再生に対応していません。
     </audio>
 </div>
+{% endif %}
+{% if answer.question.listening_text %}
+<div class="mb-3 small text-muted">{{ answer.question.listening_text|strip_question_no|linebreaks }}</div>
 {% endif %}

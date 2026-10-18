@@ -64,7 +64,7 @@ def about(request):
 
 
 def guides(request):
-    """公開の級別学習ガイド（5級・4級・3級）"""
+    """公開の級別学習ガイド（5級・4級・3級・準2級）"""
     show_next_learning = getattr(settings, 'SHOW_NEXT_LEARNING', False)
     context = {
         'show_next_learning': show_next_learning,
