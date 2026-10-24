@@ -168,7 +168,7 @@ because が、残したものの中身を決めています。電池が弱いこ
 ---
 
 問題8:
-The cafe will serve a new soup next month. The cooks asked the customers to ( ), because last year's spicy soup was too hot for many children.
+The cafe will serve a new soup to children next month. The customers asked the cooks to ( ), because last year's spicy soup was too hot for many children.
 
 選択肢8:
 1. make the soup even hotter
@@ -180,15 +180,16 @@ The cafe will serve a new soup next month. The cooks asked the customers to ( ),
 2. keep the new soup mild
 
 【解説8】
-because の理由は、去年の辛いスープが子どもの多くには熱すぎた、です。だから新しいスープは辛くしないでほしい、という依頼です。mild は「辛くない、まろやかな」です。
-1 は去年よりさらに辛くする、で、理由と逆です。3 は5月にカフェを閉める、ですが、来月出すスープの話です。4 は大人だけに出す、とは書いてありません。too hot for many children に合うのは、味をまろやかに保つことです。
+空所の動作をするのは cooks です。ask the cooks to do は「料理人に〜するよう頼む」です。客が頼んでいます。because の理由は、去年の辛いスープが子どもの多くには辛すぎた、です。来月も子どもに出すので、新しいスープを辛くしないでほしい、という依頼です。keep the new soup mild は「新しいスープをまろやかに保つ」です。
+1 はさらに辛くする、で、理由と逆です。3 は5月に店を閉める、で、来月出すスープの味の話ではありません。4 は大人だけに出す、ですが、1文目は子どもに出すと言っています。
 
 【ポイント8】
 種別: 熟語
-見出し: keep the new soup mild = 「新しいスープをまろやかにする」
+見出し: keep the new soup mild = 「新しいスープをまろやかに保つ」
+・ask A to do = A がする。ここでは cooks
 ・too hot の too = 「度を超して」（too は「〜も」もある）
 ・mild は味では「まろやか」（天気の「穏やか」ではない）
-・even hotter = 「さらに熱い」（問題を強くする側）
+・大人だけに出すのは、子どもに出すという1文目と逆
 ---
 
 問題9:
@@ -336,7 +337,7 @@ until Monday と、そのあと名前のないボトルは再利用する、が�
 ---
 
 問題15:
-The photo club may use the hall on Sunday morning. The office said yes only if they ( ), because another club needs the same hall on Saturday night.
+The photo club may use the hall on Sunday morning. The office said yes only if they ( ), because another club needs the same hall at nine.
 
 選択肢15:
 1. stack every chair before eight
@@ -348,7 +349,7 @@ The photo club may use the hall on Sunday morning. The office said yes only if t
 1. stack every chair before eight
 
 【解説15】
-only if のあとが条件です。土曜の夜に別のクラブが同じホールを使うので、日曜の朝8時より前にいすを重ねておけば使ってよい、という意味です。
+only if のあとが条件です。9時に別のクラブが同じホールを使うので、8時前にいすを重ねて返せば使ってよい、という意味です。
 2 は別のクラブを締め出す、で、相手が使うことを前提にした条件と逆です。3 は日曜の会合を中止する、だと許可の中身がなくなります。4 は夜にペンキを塗る、とは書いてありません。
 
 【ポイント15】

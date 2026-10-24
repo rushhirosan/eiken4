@@ -3,7 +3,7 @@ Ken's Lunch Notes
 
 Ken started a notebook called Lunch Notes. Every weekday, he wrote the name of the main dish at the neighborhood cafe. His neighbors soon asked him to explain why some lunches were better than others. ( 1 ), Ken began to add a short comment under each dish name.
 
-Ms. Ito, the cafe owner, read the notebook. She asked Ken to put one page on the cafe board each Tuesday. Customers could draw a star when they agreed with a comment. After a month, the cooks asked to see the stars. They did not change the whole menu. They ( 2 ).
+Ms. Ito, the cafe owner, read the notebook. She asked Ken to put one page on the cafe board each Tuesday. Customers could draw a star when they agreed with a comment. Customers drew the most stars on the days the cafe served warm rice. After a month, the cooks asked to see the stars. They did not change the whole menu. They ( 2 ).
 
 Ken learned that simple notes can help other people when the notes are clear and regular.
 
@@ -17,7 +17,7 @@ Ken learned that simple notes can help other people when the notes are clear and
 4. Because his neighbors wanted more than a list of names
 
 【正解1a】
-4. Because his friends wanted more than a list of names
+4. Because his neighbors wanted more than a list of names
 
 【解説1a】
 直前の文は、近所の人が「なぜその昼食の方がよいのか説明してほしい」と頼んだ、です。( 1 ) はその理由で、Ken が料理名の下に短いコメントを書き始めたことにつながります。Because his neighbors wanted more than a list of names が合います。
@@ -43,12 +43,13 @@ Ken learned that simple notes can help other people when the notes are clear and
 1. started serving warm rice more often
 
 【解説1b】
-調理員は星の数を見て、メニュー全体は変えませんでした。そのあとの They ( 2 ) は、変えなかったことと対になる、実際に始めたことです。温かいご飯をより頻繁に出した、が本文の流れです。最後の段落も、メモが人の役に立ったとまとめています。
+調理員は星の数を見て、メニュー全体は変えませんでした。星が一番多かったのは、温かいご飯を出した日です。そのあとの They ( 2 ) は、変えなかったことと対になる、実際に始めたことです。温かいご飯をより頻繁に出した、がその流れです。最後の段落も、メモが人の役に立ったとまとめています。
 2 は Ken に火曜の昼食を作らせた、とは書いてありません。3 はノートを捨てた、だと「メモが役に立った」という結びと逆です。4 は月曜にカフェを閉めた、とも書いてありません。did not change the whole menu のあとなので、全部をやめた選択肢は合いません。
 
 【ポイント1b】
 種別: 読解
 見出し: did not のあとは、実際にしたこと
+・星が多かった料理 ← warm rice
 ・A ではなく別の行動 ← They did not A. They ( ).
 ・空所のかたまりは、うしろのまとめの文とも矛盾しない
 ・本文にない行動（捨てる、閉めさせる）は入れない
@@ -255,7 +256,7 @@ Shop Stories
 
 The broadcast club started a weekly show called Shop Stories. Each week, students visited one neighborhood shop and talked with the owner. At first, they only said the shop's name and its opening hours on air. Listeners then wrote to the club and asked what the owner did during a normal day. ( 1 ), the students began to record a three-minute talk with each owner.
 
-Ms. Abe, the adviser, played those talks in the library at lunch. She did not ask the school to tell students about the shops. After six weeks, two owners invited the club behind the counter. The club did not accept every invitation. They ( 2 ).
+Ms. Abe, the adviser, played those talks in the library at lunch. She did not ask the school to tell students about the shops. Some owners could only talk at the counter. Others could show the work listeners had asked about. The club did not accept every invitation. They ( 2 ).
 
 By winter, listeners could understand a shop without visiting it first. The students learned that a short talk helps when it answers a question people have already asked.
 
@@ -295,12 +296,13 @@ By winter, listeners could understand a shop without visiting it first. The stud
 2. visited only when the owner could show the work listeners had asked about
 
 【解説4b】
-クラブはすべての招待を受けたわけではありません。そのあとの They ( 2 ) は、受けなかったことと対になる、実際に選んだことです。最後の段落も、すでに聞かれた質問に答える短い話が役に立つ、とまとめています。聞き手が知りたかった仕事を見せてもらえるときだけ訪ねた、が流れに合います。
+クラブはすべての招待を受けたわけではありません。店主には、カウンターで話すだけの人と、聞き手が知りたかった仕事を見せられる人がいました。そのあとの They ( 2 ) は、受けなかったことと対になる、実際に選んだことです。最後の段落も、すでに聞かれた質問に答える短い話が役に立つ、とまとめています。聞き手が知りたかった仕事を見せてもらえるときだけ訪ねた、がその流れです。
 1 は、Ms. Abe が学校に、店のことを生徒へ伝えるよう頼まなかった、と逆です。3 は2件目の招待のあとで番組を終えた、ですが、冬には聞き手が店を理解できるようになっています。4 は、最初にやめていた「店名と営業時間だけ」に戻る、で、3分の話を始めた流れと逆です。
 
 【ポイント4b】
 種別: 読解
 見出し: did not accept every のあとは、選んでしたこと
+・仕事を見せられる店主 ← show the work
 ・A の全部ではなく一部 ← They did not A. They ( ).
 ・うしろのまとめの文と、空所の行動が矛盾しない
 ・本文が否定した行動（生徒へ知らせる、時間だけ読む）は入れない
@@ -505,7 +507,7 @@ What is true about a club that has folded its table?
 本文7
 The Window Log
 
-The family kept a notebook called the Window Log. Each afternoon, one person wrote the temperature by the hall window and whether the curtain was open. At first, the notes were only numbers. The others asked what the numbers meant for the plants on the shelf. The writer did not add a plant sentence on the first day. ( 1 ), one sentence about the plants appeared under the temperature.
+The family kept a notebook called the Window Log. Each afternoon, one person wrote the temperature by the hall window and whether the curtain was open. At first, the notes were only numbers. The others asked what the numbers meant for the plants on the shelf. The writer did not add a plant sentence on the first day. ( 1 ), the writer added one sentence about the plants under the temperature.
 
 Mr. Abe read the log before winter. He did not ask the family to move the plants into a dark closet. He asked them to use the sentence when they chose a curtain. After three weeks, the plants were still by the window. The family did not buy special lamps. They ( 2 ).
 
@@ -524,7 +526,7 @@ The family learned that a short daily note is useful when the next person can ac
 2. Only after a week of those questions
 
 【解説7a】
-記録する人は、初日には植物の文を足していません。ほかの家族が数字の意味を尋ねたあとの1週間を経て、気温の下に植物の1文が出てきます。Only after a week of those questions が、その順序に合います。
+記録する人は、初日には植物の文を足していません。ほかの家族が数字の意味を尋ねたあとの1週間を経て、同じ人が気温の下に植物の1文を書き足します。Only after a week of those questions が、その順序に合います。
 1 Before the shelf had any plants は、棚に植物がある前に文が出たことになり、植物について尋ねられた話と逆です。3 Although the curtain was always closed は「カーテンがいつも閉まっていたけれども」で、本文はカーテンが開いているかを記録しています。4 Until Mr. Abe locked the notebook は「Mr. Abe がノートに鍵をかけるまで」で、文が現れた時期の説明になりません。
 
 【ポイント7a】

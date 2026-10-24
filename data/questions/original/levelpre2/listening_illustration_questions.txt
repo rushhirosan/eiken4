@@ -337,8 +337,8 @@ Question No.13:
 ---
 
 No.14:
-M: The number 12 bus goes to the museum.
-W: It left two minutes ago.
+M: The number 12 bus and the number 8 bus both go to the museum.
+W: The number 12 left two minutes ago.
 M: Which bus should we take now?
 
 Question No.14:
@@ -350,12 +350,13 @@ Question No.14:
 2. The next one is the number 8.
 
 【解説14】
-最後は Which bus should we take now?（今はどのバスに乗る？）です。12番は2分前に出たので、2 は次の8番、と別のバスを答えています。
-1 は12番が1時間ごと、で、1文目の number 12 への補足です。今乗るバスではありません。3 は博物館の閉館で、When does the museum close? への返事です。
+最後は Which bus should we take now?（今はどのバスに乗る？）です。12番も8番も博物館へ行きます。12番は2分前に出たので、2 は残った8番を、次に乗るバスとして答えています。
+1 は12番が1時間ごと、で、今乗るバスではありません。3 は博物館の閉館で、When does the museum close? への返事です。
 
 【ポイント14】
 種別: リスニング
 見出し: もう出たものを除く ← Which ... now
+・博物館へ行くバス ← number 12 と number 8
 ・12番を外す情報 ← left two minutes ago
 ・そのバスの間隔 ← every hour
 ・閉館時刻は、バスの選択ではない
