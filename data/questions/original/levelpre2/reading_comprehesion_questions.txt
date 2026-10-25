@@ -89,7 +89,7 @@ What is true about Friday's star night?
 
 【解説2a】
 屋上は16人までです。名簿はすでに16人で、Mio は締切のあとに来たいと言いました。だから、来たい人数が屋上の定員を超えています。
-1 は逆です。晴れているときは屋上で、理科室に先に行かないようにと書いてあります。理科室は雨のときの場所です。3 も逆です。望遠鏡は先生が2台持ってくるので、Elena の自分の望遠鏡は不要です。4 の「初めて」とは書いてありません。
+1 は逆です。晴れているときは屋上で、理科室に先に行かないようにと書いてあります。理科室は雨のときの場所です。3 も逆です。望遠鏡は先生が2台持ってくるので、Elena の自分の望遠鏡は不要です。2 の「初めて」とは書いてありません。
 
 【ポイント2a】
 種別: 読解
@@ -509,7 +509,7 @@ The Window Log
 
 The family kept a notebook called the Window Log. Each afternoon, one person wrote the temperature by the hall window and whether the curtain was open. At first, the notes were only numbers. The others asked what the numbers meant for the plants on the shelf. The writer did not add a plant sentence on the first day. ( 1 ), the writer added one sentence about the plants under the temperature.
 
-Mr. Abe read the log before winter. He did not ask the family to move the plants into a dark closet. He asked them to use the sentence when they chose a curtain. After three weeks, the plants were still by the window. The family did not buy special lamps. They ( 2 ).
+Mr. Abe read the log before winter. He did not ask the family to move the plants into a dark closet. He asked them to use the sentence when they chose a curtain. After three weeks, the plants were still by the window. On cold afternoons the window was too bright for the plants. The family did not buy special lamps. They ( 2 ).
 
 The family learned that a short daily note is useful when the next person can act on it the same day.
 
@@ -549,13 +549,14 @@ The family learned that a short daily note is useful when the next person can ac
 4. closed the curtain on cold afternoons
 
 【解説7b】
-Mr. Abe は植物を暗い押し入れへ移すようには頼まず、カーテンを選ぶときにその1文を使うよう頼みました。植物は窓のそばに残っています。特別な照明も買っていません。They ( 2 ) は、買わなかったことと対になる、実際にしたことです。寒い午後にカーテンを閉めた、が流れに合います。
+Mr. Abe は植物を暗い押し入れへ移すようには頼まず、カーテンを選ぶときにその1文を使うよう頼みました。植物は窓のそばに残っています。On cold afternoons the window was too bright for the plants. と、寒い午後は窓が明るすぎます。特別な照明も買っていません。They ( 2 ) は、買わなかったあとに実際にしたことです。その午後にカーテンを閉めた、が合います。
 1 は植物を捨てた、だと窓のそばに残ったという文と逆です。2 は押し入れへ移した、で、did not ask the family to move と逆です。3 は気温を書くのをやめた、だと Window Log の記録そのものが消えます。
 
 【ポイント7b】
 種別: 読解
 見出し: did not のあとは、実際にした別の行動
 ・did not buy のあとなので、買う以外の対処を選ぶ
+・カーテンを閉める理由 ← too bright
 ・Mr. Abe が頼まなかった移動 ← closet
 ・空所の行動は、カーテンを選ぶという依頼と矛盾しない
 

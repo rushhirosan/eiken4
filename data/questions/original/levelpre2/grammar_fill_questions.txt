@@ -217,7 +217,7 @@ The photography club asked for the hall two months before the meeting. The chess
 ---
 
 問題10:
-Several classes forgot their masks during the cold week. The nurse now tells each class to take only what they need that morning, so the box by the door will not ( ).
+Several classes forgot their masks during the cold week. More masks will not arrive until Tuesday. The nurse now tells each class to take only what they need that morning, so the box by the door will not ( ).
 
 選択肢10:
 1. run short before Tuesday
@@ -229,13 +229,14 @@ Several classes forgot their masks during the cold week. The nurse now tells eac
 1. run short before Tuesday
 
 【解説10】
-2文目の so が目的です。必要な分だけ取るように言っているのは、ドアのそばの箱が火曜より前に足りなくなるのを防ぐためです。run short は「不足する」です。
+2文目で、マスクの追加は火曜まで来ない、とあります。必要な分だけ取るように言っているのは、ドアのそばの箱が火曜より前に足りなくなるのを防ぐためです。run short は「不足する」です。
 2 は昼に鍵をかける、3 はプールへ移す、とは書いてありません。4 stay full all year は「一年中いっぱいにしておく」です。必要な分だけ取る話は、使い切らないようにする話で、一年中満杯にすることではありません。
 
 【ポイント10】
 種別: 熟語
 見出し: so のあとが、防ぎたい結果
 ・使いすぎを止める ← take only what they need
+・足りなくなる期限 ← until Tuesday
 ・run short = 「足りなくなる」
 ・stay full = 「満杯のまま」（目的が違う）
 ---

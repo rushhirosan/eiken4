@@ -1,7 +1,7 @@
 問題1:
-A : Are you going to the volunteer clean-up on Sunday? It starts at nine in the morning near the river.
-B : I want to, but I have a piano lesson until noon. I also need to buy gloves on the way.
-A : Then you can ( ). Ken is leading the group by the bridge, so ask him for a bag.
+A : Are you going to the clean-up on Sunday? It starts at nine in the morning by the bridge near the river. Ken will have bags there after noon.
+B : I have a piano lesson until noon. I need to buy gloves on the way.
+A : Then you can ( ). The group stays there after your lesson.
 B : Great. I'll bring the gloves and look for Ken.
 
 選択肢1:
@@ -14,15 +14,16 @@ B : Great. I'll bring the gloves and look for Ken.
 1. ask Ken for a bag by the bridge
 
 【解説1】
-空所の次は、Ken が橋のそばでグループを見ているので、袋を彼に頼む、です。A が指名しているのは人です。朝9時は開始時刻ですが、B は正午までピアノがあります。
-2 は9時に川へ来る、で、レッスンのあとには間に合いません。3 はレッスンをやめる、とは言っていません。4 は、B が自分で買う手袋を朝のグループのために買う、ではありません。
+空所の前で、Ken は正午のあと、橋のそばに袋を持っています。場所は by the bridge near the river の一か所です。B のピアノは正午までなので、開始の9時には間に合いません。Then you can の you は B です。空所は、その袋を Ken に頼む、です。a bag は Ken will have bags の一つです。次の文は、レッスンのあとグループがまだそこにいる、という確認です。手袋は B が途中で自分で買うもので、袋とは別です。
+2 come to the river at nine は9時に川へ来る、です。ピアノが正午までなので間に合いません。3 skip your piano lesson はレッスンをやめる、です。B はやめるとは言っていません。4 buy gloves for the morning group は朝のグループのために手袋を買う、です。手袋は B が自分用に買うもので、朝9時は開始時刻です。
 
 【ポイント1】
 種別: 会話
-見出し: 空所の次の人が、頼む相手
-・袋を頼む相手 ← Ken
-・会話に出るが、空所の答えではない ← nine や piano
-・手袋は B が自分で買うもの
+見出し: 空所の前の人と物で、頼む相手を決める
+・袋の持ち主 ← Ken will have bags there
+・場所 ← by the bridge near the river
+・正午までの piano があるので、nine には間に合わない
+・手袋は B が自分で買うもの。袋とは別
 
 ---
 
@@ -83,10 +84,10 @@ B : I'll put a card in front of every bowl.
 ---
 
 問題4:
-A : Two choir robes are still too long for Monday's concert. People in the back need to see the singers' shoes.
+A : Two choir robes are still too long for Monday's concert. The two singers in the back row need shorter robes so people can see their shoes.
 B : I can sew, but I have basketball until five. Did you tell the conductor?
-A : Yes. She said we may ( ). The two singers in the back row are the ones who need shorter robes.
-B : I'll ask those two to try the robes after practice.
+A : Yes. She said we may ( ). Practice ends at five, and those two will still be there.
+B : I'll ask them to try the robes after practice.
 
 選択肢4:
 1. cancel basketball and sew at noon
@@ -98,15 +99,15 @@ B : I'll ask those two to try the robes after practice.
 4. ask the two singers in the back to try shorter robes
 
 【解説4】
-空所の次は、後ろの列の2人が、短いローブを必要としている人だ、です。A が指名しているのはその歌手です。指揮者にはもう伝えてあります。
-1 は昼に縫うためにバスケットを中止する、ですが、A は練習をやめろとは言っていません。2 は、すでに Yes と答えた連絡をもう一度する、ではありません。3 はバスケットに長いローブを着ていく、で、後ろの列の話ではありません。
+1文目で、後ろの列の2人の歌手が短いローブを必要としています。people は、その歌手の靴を見る客です。指揮者にはもう伝えてあります。She said we may のあとは、その2人に短いローブを試させる、です。次の文は、練習が5時に終わり、その2人はまだそこにいる、という確認です。
+1 は昼に縫うためにバスケットを中止する、ですが、A は練習をやめろとは言っていません。2 は、すでに Yes と答えた連絡をもう一度する、ではありません。3 はバスケットに長いローブを着ていく、で、後ろの列の歌手の話ではありません。
 
 【ポイント4】
 種別: 会話
-見出し: 空所の次の人が、試着する相手
-・試着する人 ← the two singers in the back
-・Yes と答えた連絡 はもう終わった用事
-・長すぎるのは2着だけ。全部を着て練習する話ではない
+見出し: 空所の前にいる人が、試着する相手
+・試着する人 ← the two singers in the back row
+・靴を見る人 ← people。歌手とは別
+・Yes と答えた連絡は、もう終わった用事
 
 ---
 
@@ -336,9 +337,9 @@ A は Use the room another day, or go to town. と二つ示したあとに You c
 
 問題13:
 A : I saved two seats for the town play on Friday. The doors open at six, and they close the extra seats at six fifteen.
-B : My cousin wants one, but her train arrives at six thirty. I don't want the seat to go to waste.
-A : Then you should ( ). Your cousin's train is too late, so ask someone who is already at the theater.
-B : I'll ask a neighbor who can be there when the doors open.
+B : My cousin wants one, but her train arrives at six thirty. My neighbor is already at the theater.
+A : Then you should ( ). Your cousin's train is too late for the extra seats.
+B : I'll ask my neighbor when the doors open.
 
 選択肢13:
 1. give the extra seat to a neighbor
@@ -350,13 +351,13 @@ B : I'll ask a neighbor who can be there when the doors open.
 1. give the extra seat to a neighbor
 
 【解説13】
-空所の次は、いとこの電車は遅すぎるので、もう劇場にいる人に頼む、です。席を渡す相手は近所の人です。開場は6時、予備席は6時15分に閉じ、いとこは6時半着です。
-3 は6時半まで席を押さえる、で、six fifteen と矛盾します。2 は開場を遅らせる、とは言っていません。4 は6時15分に駅でいとこに会う、で、劇場にいる人へ渡す話ではありません。
+B は空所の前で、いとこが6時半に着くことと、隣人がもう劇場にいること、を言っています。予備席は6時15分に閉じます。Then you should のあとは、その予備席を隣人に渡す、です。次の文は、いとこの電車では予備席に間に合わない、という確認です。
+3 は6時半まで席を押さえる、で、six fifteen と矛盾します。2 は開場を遅らせる、とは言っていません。4 は6時15分に駅でいとこに会う、で、劇場にいる隣人へ渡す話ではありません。
 
 【ポイント13】
 種別: 会話
 見出し: 間に合わない人の代わりに、劇場にいる人へ渡す
-・席を渡す相手 ← a neighbor
+・席を渡す相手 ← My neighbor is already at the theater
 ・いとこの到着 ← six thirty
 ・予備席が閉じる時刻 ← six fifteen
 
@@ -839,8 +840,8 @@ A は Keep the thick paper. と言っています。次の文は、駅の店の�
 ---
 
 問題31:
-A : The chess clocks need new batteries before Saturday's match. The school shop sells them, but only in the morning.
-B : I have practice until noon, and the shop closes at eleven. I could ask my brother to buy them after his class.
+A : The chess clocks need batteries before Saturday morning's match. The school shop is closed that day and opens on weekday mornings.
+B : I have practice until noon, and the shop closes at eleven. I could ask my brother to buy them.
 A : Ask him this evening. Please ( ). You cannot leave practice, and he can go to the shop.
 B : I'll call him and bring the batteries on Friday.
 
@@ -854,14 +855,15 @@ B : I'll call him and bring the batteries on Friday.
 3. ask your brother to buy the batteries
 
 【解説31】
-A は Ask him this evening. と言っています。次の文は、練習は抜けられないが、兄は店へ行ける、です。頼む人は兄です。店は11時に閉まり、B の練習は正午までです。
-1 は正午に自分で買う、で、closes at eleven と矛盾します。2 は土曜の朝に買う、ですが、店は午前だけで、試合の前には間に合いません。4 は時計なしで試合をする、とは言っていません。
+試合は土曜の朝で、学校の店はその日は閉まっています。店が開くのは平日の午前だけです。B の練習は正午まで、店は11時に閉まるので、B 自身は行けません。A は Ask him this evening. と、兄に今夜頼むよう言っています。空所は、兄に電池を買ってもらう、です。
+1 は正午に自分で買う、で、closes at eleven と矛盾します。2 は土曜の朝に買う、ですが、店は土曜は閉まり、試合も土曜の朝です。4 は時計なしで試合をする、とは言っていません。
 
 【ポイント31】
 種別: 会話
 見出し: 自分の予定が店の時間と重なるときは、別の人に頼む
 ・頼む人 ← brother
 ・閉店 ← eleven。練習の終わり ← noon
+・土曜の朝には買えない ← closed that day
 ・自分では抜けられない ← cannot leave practice
 
 ---
@@ -1063,10 +1065,10 @@ A は Leave the white one. と、白い方は置いておいてよいと言っ�
 ---
 
 問題39:
-A : The evening study hall is full. Students absent from homeroom may not get a seat, even with a pass.
+A : The evening study hall is full. Students absent from homeroom may not get a seat, even with a pass. Daytime seats are in the library classroom.
 B : I was at the dentist during homeroom, and I have a pass. I was going to arrive at six.
-A : Come for the daytime room instead. You can ( ). The study hall teacher saves those seats for students who were in homeroom.
-B : I'll use the library classroom at four and skip the evening hall.
+A : Come for those seats instead. You can ( ). They are free at four.
+B : I'll use the library classroom at four.
 
 選択肢39:
 1. use your pass to take an evening seat at six
@@ -1078,13 +1080,13 @@ B : I'll use the library classroom at four and skip the evening hall.
 2. use the library classroom, not the evening hall
 
 【解説39】
-A は Come for the daytime room instead. と言っています。次の文は、夜の自習の先生は、ホームルームにいた生徒のために席を残している、です。行く場所は図書室の教室です。B は歯医者でホームルームを欠席しているので、パスがあっても夜の席は保証されません。B の I'll use the library classroom も同じです。
+空所の前で、昼の席は図書室の教室にある、と A が言っています。夜の自習室は満席で、ホームルームを欠席した生徒はパスがあっても席が保証されません。Come for those seats の those は、図書室の昼の席です。空所は、夜の自習室ではなく図書室の教室を使う、です。
 1 は6時にパスで夜の席を取る、で、may not get a seat と矛盾します。3 はホームルームの前に来てパスを持っておく、ですが、欠席はもう終わっています。4 は歯医者に2枚目のパスを書いてもらう、とは言っていません。
 
 【ポイント39】
 種別: 会話
 見出し: even if のパスが、夜の席を保証しない
-・instead の行き先 ← library classroom
+・昼の席の場所 ← Daytime seats are in the library classroom
 ・夜の席が後回しになる理由 ← absent from homeroom
 ・六時は、席が残る意味ではない
 
