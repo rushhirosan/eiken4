@@ -193,7 +193,7 @@ The cafe will serve a new soup to children next month. The customers asked the c
 ---
 
 問題9:
-The photography club asked for the hall in September. The chess club asked the night before the meeting, so the council praised the photography club for planning ( ).
+The photography club asked for the hall two months before the meeting. The chess club asked the night before the meeting, so the council praised the photography club for planning ( ).
 
 選択肢9:
 1. at the last minute
@@ -205,15 +205,15 @@ The photography club asked for the hall in September. The chess club asked the n
 3. in advance
 
 【解説9】
-1文目が9月に頼んだ、2文目が会議の前夜に頼んだ、と時期を比べています。ほめられたのは写真部なので、早くから計画したことへのほめ言葉です。in advance は「前もって」です。
+1文目は、写真部が会議の2か月前にホールを頼んだ、です。2文目は、チェス部が会議の前夜に頼んだ、です。so のあとでほめられたのは写真部です。写真部が頼んだのは会議の2か月前なので、planning in advance（前もって計画した）が合います。
 1 at the last minute は「直前に」で、前夜に頼んだチェス部の方に合います。2 without permission は「許可なく」で、本文にありません。4 by mistake は「間違って」で、ほめる理由になりません。
 
 【ポイント9】
 種別: 熟語
-見出し: 二つの時期を比べて in advance を選ぶ
-・早い日付と、night before を並べて読む
-・遅い方の行動 ← at the last minute
-・ほめている相手が、どちらの時期かで決まる
+見出し: 会議の何日前かで in advance を選ぶ
+・in advance ← two months before the meeting
+・at the last minute ← the night before the meeting
+・praised の相手が、どちらの時期かで決まる
 ---
 
 問題10:
