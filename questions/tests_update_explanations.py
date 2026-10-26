@@ -2,7 +2,7 @@ from django.contrib.auth import get_user_model
 from django.core.management import call_command
 from django.test import TestCase
 
-from exams.models import Choice, Question, UserAnswer, UserProgress
+from exams.models import Choice, Question, ReadingUserAnswer, UserAnswer, UserProgress
 from exams.provenance import PROVENANCE_ORIGINAL
 from questions.models import (
     ListeningChoice,
@@ -411,3 +411,122 @@ class UpdateExplanationsCommandTest(TestCase):
         self.assertEqual(progress.correct_answers, 2)
         self.assertEqual(progress.total_attempts, 4)
         self.assertEqual(Question.objects.filter(pk=question.pk).count(), 1)
+
+    def test_grammar_syncs_stem_and_correct_choice_without_touching_progress(self):
+        question = Question.objects.create(
+            provenance=PROVENANCE_ORIGINAL,
+            level='4',
+            question_type='grammar_fill',
+            question_text='old stem',
+            question_number=1,
+            explanation='古い文法解説',
+        )
+        choices = []
+        for order, text in enumerate(('under', 'beside', 'between', 'during'), start=1):
+            choices.append(Choice.objects.create(
+                question=question,
+                choice_text=text,
+                is_correct=(order == 1),
+                order=order,
+            ))
+        UserAnswer.objects.create(
+            user=self.user,
+            question=question,
+            selected_choice=choices[0],
+            is_correct=True,
+        )
+        progress = UserProgress.objects.get(
+            user=self.user,
+            level='4',
+            question_type='grammar_fill',
+        )
+        progress.correct_answers = 7
+        progress.total_attempts = 9
+        progress.save()
+
+        call_command(
+            'update_explanations',
+            level='4',
+            category='grammar_fill',
+            original=True,
+        )
+        question.refresh_from_db()
+        progress.refresh_from_db()
+        on_choice = question.choices.get(order=2)
+
+        self.assertIn('notebook', question.question_text)
+        self.assertEqual(on_choice.choice_text, 'on')
+        self.assertTrue(on_choice.is_correct)
+        self.assertEqual(question.choices.filter(is_correct=True).count(), 1)
+        self.assertEqual(question.choices.count(), 4)
+        self.assertEqual(UserAnswer.objects.filter(question=question).count(), 1)
+        self.assertEqual(UserAnswer.objects.get(question=question).selected_choice_id, choices[0].pk)
+        self.assertEqual(progress.correct_answers, 7)
+        self.assertEqual(progress.total_attempts, 9)
+
+    def test_reading_syncs_passage_and_correct_flag_without_deleting_answers(self):
+        passage = ReadingPassage.objects.create(
+            provenance=PROVENANCE_ORIGINAL,
+            text='old passage without the clue',
+            level='4',
+            identifier='a',
+        )
+        question = ReadingQuestion.objects.create(
+            passage=passage,
+            question_text='old prompt',
+            question_number=1,
+            explanation='古い読解解説',
+        )
+        stored = []
+        for order, text in enumerate(
+            ('Only mint.', 'Only basil.', 'Apple trees.', 'Old clothes.'),
+            start=1,
+        ):
+            stored.append(ReadingChoice.objects.create(
+                question=question,
+                choice_text=text,
+                is_correct=False,
+                order=order,
+            ))
+        ReadingUserAnswer.objects.create(
+            user=self.user,
+            reading_question=question,
+            selected_reading_choice=stored[1],
+            is_correct=False,
+        )
+        progress = UserProgress.objects.create(
+            user=self.user,
+            level='4',
+            question_type='reading_comprehension',
+            correct_answers=3,
+            total_attempts=8,
+        )
+
+        call_command(
+            'update_explanations',
+            level='4',
+            category='reading_comprehension',
+            original=True,
+        )
+        passage.refresh_from_db()
+        question.refresh_from_db()
+        progress.refresh_from_db()
+        correct = question.choices.get(order=2)
+
+        self.assertIn('basil and mint', passage.text)
+        self.assertIn('Herb Pot Morning', passage.text)
+        self.assertEqual(correct.choice_text, 'Basil and mint.')
+        self.assertTrue(correct.is_correct)
+        self.assertEqual(question.choices.filter(is_correct=True).count(), 1)
+        self.assertEqual(ReadingPassage.objects.filter(pk=passage.pk).count(), 1)
+        self.assertEqual(ReadingQuestion.objects.filter(pk=question.pk).count(), 1)
+        self.assertEqual(ReadingUserAnswer.objects.filter(reading_question=question).count(), 1)
+        self.assertEqual(
+            ReadingUserAnswer.objects.get(reading_question=question).selected_reading_choice_id,
+            stored[1].pk,
+        )
+        self.assertFalse(
+            ReadingUserAnswer.objects.get(reading_question=question).is_correct
+        )
+        self.assertEqual(progress.correct_answers, 3)
+        self.assertEqual(progress.total_attempts, 8)

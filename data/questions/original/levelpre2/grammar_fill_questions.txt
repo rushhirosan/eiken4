@@ -410,7 +410,7 @@ exact number が分からないことと、去年は3時前に切れたことが
 ---
 
 問題18:
-The guest cannot come on Thursday. The speech is not canceled. The principal decided to ( ) until the following Monday.
+The guest cannot give the speech on Thursday. The speech is not canceled. The principal decided to ( ) until the following Monday.
 
 選択肢18:
 1. put the guest on a bus home
@@ -422,19 +422,19 @@ The guest cannot come on Thursday. The speech is not canceled. The principal dec
 4. put off the speech
 
 【解説18】
-is not canceled と until the following Monday がセットです。中止ではなく、次の月曜まで延期します。put off は「延期する」です。
-1 は客をバスで帰す、で、来られない人を送る話ではありません。2 は今日講演がある、という札で、木曜に来られない事実と逆です。3 はホールの電気を消す、とは書いてありません。
+1文目で、客は木曜にその講演ができません。2文目の is not canceled と、空所のうしろの until the following Monday で、中止ではなく次の月曜まで延ばす、と分かります。put off は「延期する」です。
+1 は客をバスで帰す、です。来られない人を送る話ではありません。2 は「講演は今日ある」という札です。until the following Monday と、今日やる、は両立しません。3 はホールの電気を消す、で、本文にありません。
 
 【ポイント18】
 種別: 熟語
 見出し: put off = 「延期する」（中止ではない）
 ・日をずらす印 ← not canceled と until
 ・put up = 「掲示する」。put out = 「消す」
-・今日ある、という札は延期と矛盾する
+・今日ある、という札は until the following Monday と両立しない
 ---
 
 問題19:
-Two students received the same locker number. The office promised to ( ), because the list was typed by two different people.
+Two people typed the locker list and did not check it, so two students received the same number by mistake. The office promised to ( ).
 
 選択肢19:
 1. look into the mistake
@@ -446,15 +446,15 @@ Two students received the same locker number. The office promised to ( ), becaus
 1. look into the mistake
 
 【解説19】
-同じロッカー番号が2人に渡ったことと、リストを2人が別々に打ったことが手がかりです。事務所はその誤りを調べると約束しています。look into は「調べる」です。
-2 look after は「世話をする」で、家でロッカーを見る話ではありません。3 look for a new school は「新しい学校を探す」です。4 look up to は「尊敬する」です。mistake と typed by two people と合うのは調べることです。
+1文目で、2人がリストを確かめずに打ったので、生徒2人が同じ番号を誤って受け取っています。事務所は、その誤りを調べると約束しています。look into は「調べる」です。
+2 look after は「世話をする」で、家でロッカーを見る話ではありません。3 look for a new school は「新しい学校を探す」です。4 look up to は「尊敬する」です。
 
 【ポイント19】
 種別: 熟語
 見出し: look into = 「調べる」
 ・look into + 問題 で「調査する」
 ・look after = 「世話をする」。look up to = 「尊敬する」
-・調べる理由 ← 2人が入力した
+・調べる対象 ← 確かめずに打った結果の mistake
 ---
 
 問題20:

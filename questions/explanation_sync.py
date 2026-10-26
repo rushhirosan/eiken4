@@ -1,9 +1,10 @@
-"""Progress-safe explanation sync from data/questions txt into existing DB rows.
+"""Progress-safe sync from data/questions txt into existing DB rows.
 
-Never deletes Question / ListeningQuestion / ReadingQuestion / Choice rows.
-For conversation_fill, also rewrites Choice.choice_text and is_correct on the same rows.
-For listening_illustration, also syncs correct_answer and ListeningChoice.is_correct.
-For pre2 listening_illustration, also syncs listening_text (the broadcast script).
+Never deletes Question / ListeningQuestion / ReadingQuestion / Choice rows,
+and never rewrites UserAnswer / UserProgress.
+Also rewrites learner-visible fields on those same rows:
+question text, reading passage text, choice text, and is_correct.
+Listening illustration choices stay numbered (1/2/3); only the correct order changes.
 """
 
 from __future__ import annotations
@@ -201,6 +202,23 @@ def extract_mondai_choice_rows(block: str) -> tuple[list[str], str] | None:
     return choices, correct
 
 
+def _apply_choice_texts(question, choices: list[str], correct: str, warn: Callable[[str], None]) -> None:
+    """既存の選択肢行へ文言と正誤を上書きする。行の削除・追加はしない。"""
+    existing = list(question.choices.order_by('order', 'id'))
+    label = getattr(question, 'question_type', None) or 'reading'
+    number = getattr(question, 'question_number', None)
+    if len(existing) != len(choices):
+        warn(
+            f'{label} 問題{number}: '
+            f'選択肢数が DB {len(existing)} / ファイル {len(choices)} のため choice は未更新'
+        )
+        return
+    for row, text in zip(existing, choices):
+        row.choice_text = text
+        row.is_correct = text == correct
+        row.save(update_fields=['choice_text', 'is_correct'])
+
+
 def _sync_choice_rows(qs, block: str, warn: Callable[[str], None]) -> None:
     """既存 Choice 行の文言と正誤だけを上書きする。行の削除・追加はしない。"""
     parsed = extract_mondai_choice_rows(block)
@@ -209,17 +227,100 @@ def _sync_choice_rows(qs, block: str, warn: Callable[[str], None]) -> None:
         return
     choices, correct = parsed
     for question in qs:
-        existing = list(question.choices.order_by('order', 'id'))
-        if len(existing) != len(choices):
-            warn(
-                f'{question.question_type} 問題{question.question_number}: '
-                f'選択肢数が DB {len(existing)} / ファイル {len(choices)} のため choice は未更新'
-            )
-            continue
-        for row, text in zip(existing, choices):
-            row.choice_text = text
-            row.is_correct = text == correct
-            row.save(update_fields=['choice_text', 'is_correct'])
+        _apply_choice_texts(question, choices, correct, warn)
+
+
+def extract_broadcast_choice_rows(block: str) -> tuple[list[str], str] | None:
+    """Question のあとの 1.〜4. と【正解】本文。リスニング会話・文章用。"""
+    question_match = re.search(r'Question No\.\d+:\s*(.*?)\n', block)
+    question_text = question_match.group(1).strip() if question_match else ''
+    choices: list[str] = []
+    choices_section = re.split(r'【正解\d*】', block, maxsplit=1)[0]
+    after_question = False
+    for line in choices_section.split('\n'):
+        if after_question and re.match(r'^\d+\.', line.strip()):
+            choice_text = re.sub(r'^\d+\.\s*', '', line.strip())
+            if choice_text and not choice_text.startswith('【'):
+                choices.append(choice_text)
+            if len(choices) == 4:
+                break
+        if question_text and line.strip() == question_text:
+            after_question = True
+    correct_match = re.search(
+        r'【正解\d*】\s*(.*?)\s*【解説',
+        block,
+        re.DOTALL,
+    )
+    if not choices or not correct_match:
+        return None
+    correct = re.sub(r'^\d+\.\s*', '', correct_match.group(1).strip())
+    if not correct:
+        return None
+    return choices, correct
+
+
+def extract_listening_passage_question_text(block: str) -> str:
+    """登録と同じく、放送文と質問を改行でつなぐ。"""
+    passage_match = re.search(
+        r'No\.\d+:\s*(.*?)\n\s*Question No\.',
+        block,
+        re.DOTALL,
+    )
+    question_match = re.search(
+        r'Question No\.\d+:\s*(.*?)\n\s*1\.',
+        block,
+        re.DOTALL,
+    )
+    if not passage_match or not question_match:
+        return ''
+    return passage_match.group(1).strip() + '\n' + question_match.group(1).strip()
+
+
+def extract_reading_passage_text(passage_block: str) -> str:
+    match = re.search(
+        r'本文\d+\s*\n(.*?)(?=\n問題\d+[a-z]:)',
+        passage_block,
+        re.DOTALL,
+    )
+    return match.group(1).strip() if match else ''
+
+
+def extract_reading_question_text(question_block: str, suffix: str) -> str:
+    esc = re.escape(suffix)
+    match = re.search(
+        rf'問題{esc}:\s*(.*?)\s*選択肢{esc}:',
+        question_block,
+        re.DOTALL,
+    )
+    return match.group(1).strip() if match else ''
+
+
+def extract_reading_choice_rows(
+    question_block: str, suffix: str
+) -> tuple[list[str], str] | None:
+    esc = re.escape(suffix)
+    choices_match = re.search(
+        rf'選択肢{esc}:\s*(.*?)\s*【正解{esc}】',
+        question_block,
+        re.DOTALL,
+    )
+    correct_match = re.search(
+        rf'【正解{esc}】\s*(.*?)\s*【解説{esc}】',
+        question_block,
+        re.DOTALL,
+    )
+    if not choices_match or not correct_match:
+        return None
+    raw = [
+        line.strip()
+        for line in choices_match.group(1).split('\n')
+        if line.strip() and re.match(r'^[1-4]\.', line.strip())
+    ]
+    choices = [re.sub(r'^\d+\.\s*', '', line) for line in raw]
+    correct = re.sub(r'^\d+\.\s*', '', correct_match.group(1).strip())
+    if not choices or not correct:
+        return None
+    return choices, correct
 
 
 def _update_exam_by_question_number(
@@ -287,6 +388,8 @@ def update_grammar_fill(level: str, dry_run: bool, log, warn, *, original: bool 
         log=log,
         warn=warn,
         original=original,
+        sync_question_text=True,
+        sync_choices=True,
     )
 
 
@@ -300,6 +403,7 @@ def update_conversation_fill(level: str, dry_run: bool, log, warn, *, original: 
         log=log,
         warn=warn,
         original=original,
+        sync_question_text=True,
         sync_choices=True,
     )
 
@@ -363,6 +467,18 @@ def update_writing(level: str, dry_run: bool, log, warn, *, original: bool = Fal
             study_points = extract_study_points(block)
             if study_points is not None or original:
                 fields['study_points'] = study_points
+            body_match = re.search(
+                rf'問題{number}:\s*(.*?)\s*【参考解答】\s*',
+                block,
+                re.DOTALL,
+            )
+            if body_match:
+                from exams.writing_feedback import parse_writing_rubric
+
+                question_text = _strip_writing_noise_lines(body_match.group(1).strip())
+                if question_text:
+                    fields['question_text'] = question_text
+                    fields['writing_rubric'] = parse_writing_rubric(question_text)
             qs.update(**fields)
         updated += count
         log(f'writing 問題{number}: {count} row(s)')
@@ -385,45 +501,67 @@ def update_reading_comprehension(level: str, dry_run: bool, log, warn, *, origin
         if not identifier:
             warn(f'reading 本文{passage_number}: identifier map に未登録')
             continue
-        passage = ReadingPassage.objects.filter(
+        passages = list(ReadingPassage.objects.filter(
             level=level,
             identifier=identifier,
             **_provenance_kwargs(original),
-        ).first()
-        if not passage:
+        ))
+        if not passages:
             warn(f'reading 本文{passage_number}: DBに該当なし')
             continue
 
-        question_iter = re.finditer(
+        passage_text = extract_reading_passage_text(passage_block)
+        if not passage_text:
+            warn(f'reading 本文{passage_number}: 本文なし（text は未更新）')
+        elif not dry_run:
+            for passage in passages:
+                passage.text = passage_text
+                passage.save(update_fields=['text'])
+
+        question_iter = list(re.finditer(
             r'(問題(\d+[a-z]):.*?)(?=\n問題\d+[a-z]:|\Z)',
             passage_block,
             re.DOTALL,
-        )
-        for i, question_match in enumerate(question_iter, 1):
-            question_block = question_match.group(1)
-            suffix = question_match.group(2)
-            explanation = extract_explanation(question_block, suffix=re.escape(suffix))
-            if not explanation:
-                continue
-            qs = ReadingQuestion.objects.filter(
-                passage=passage, question_number=i
-            )
-            count = qs.count()
-            if count == 0:
-                warn(
-                    f'reading 本文{passage_number} 問{i}: DBに該当なし'
+        ))
+        for passage in passages:
+            for i, question_match in enumerate(question_iter, 1):
+                question_block = question_match.group(1)
+                suffix = question_match.group(2)
+                explanation = extract_explanation(question_block, suffix=re.escape(suffix))
+                if not explanation:
+                    continue
+                qs = ReadingQuestion.objects.filter(
+                    passage=passage, question_number=i
                 )
-                continue
-            if not dry_run:
-                fields = {'explanation': explanation}
-                study_points = extract_study_points(
-                    question_block, suffix=re.escape(suffix)
-                )
-                if study_points is not None or original:
-                    fields['study_points'] = study_points
-                qs.update(**fields)
-            updated += count
-            log(f'reading 本文{passage_number} 問{i}: {count} row(s)')
+                count = qs.count()
+                if count == 0:
+                    warn(
+                        f'reading 本文{passage_number} 問{i}: DBに該当なし'
+                    )
+                    continue
+                if not dry_run:
+                    fields = {'explanation': explanation}
+                    study_points = extract_study_points(
+                        question_block, suffix=re.escape(suffix)
+                    )
+                    if study_points is not None or original:
+                        fields['study_points'] = study_points
+                    question_text = extract_reading_question_text(question_block, suffix)
+                    if question_text:
+                        fields['question_text'] = question_text
+                    qs.update(**fields)
+                    parsed = extract_reading_choice_rows(question_block, suffix)
+                    if not parsed:
+                        warn(
+                            f'reading 本文{passage_number} 問{i}: '
+                            '選択肢を読めないため choice は未更新'
+                        )
+                    else:
+                        choices, correct = parsed
+                        for question in qs:
+                            _apply_choice_texts(question, choices, correct, warn)
+                updated += count
+                log(f'reading 本文{passage_number} 問{i}: {count} row(s)')
     return updated
 
 
@@ -547,6 +685,13 @@ def update_listening_conversation(level: str, dry_run: bool, log, warn, *, origi
             else:
                 warn(f'listening_conversation No.{number}: 質問文なし（question_text は未更新）')
             qs.update(**fields)
+            parsed = extract_broadcast_choice_rows(block)
+            if not parsed:
+                warn(f'listening_conversation No.{number}: 選択肢を読めないため choice は未更新')
+            else:
+                choices, correct = parsed
+                for question in qs:
+                    _apply_choice_texts(question, choices, correct, warn)
         updated += count
         log(f'listening_conversation No.{number}: {count} row(s)')
     return updated
@@ -578,7 +723,22 @@ def update_listening_passage(level: str, dry_run: bool, log, warn, *, original: 
             study_points = extract_study_points(block)
             if study_points is not None or original:
                 fields['study_points'] = study_points
+            passage_question = extract_listening_passage_question_text(block)
+            if passage_question:
+                fields['question_text'] = passage_question
+            else:
+                warn(
+                    f'listening_passage No.{number}: '
+                    '放送文なし（question_text は未更新）'
+                )
             qs.update(**fields)
+            parsed = extract_broadcast_choice_rows(block)
+            if not parsed:
+                warn(f'listening_passage No.{number}: 選択肢を読めないため choice は未更新')
+            else:
+                choices, correct = parsed
+                for question in qs:
+                    _apply_choice_texts(question, choices, correct, warn)
         updated += count
         log(f'listening_passage No.{number}: {count} row(s)')
     return updated

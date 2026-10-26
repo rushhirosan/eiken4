@@ -254,58 +254,59 @@ How do neighbors check the Wednesday plan now?
 本文4
 Shop Stories
 
-The broadcast club started a weekly show called Shop Stories. Each week, students visited one neighborhood shop and talked with the owner. At first, they only said the shop's name and its opening hours on air. Listeners then wrote to the club and asked what the owner did during a normal day. ( 1 ), the students began to record a three-minute talk with each owner.
+The broadcast club visits one neighborhood shop each Monday for Shop Stories. In October, the bakery and the flower shop both asked for the same Monday. The bakery is noisy at noon, and the owner can talk only while packing bread. The flower shop is quiet after six, and the owner can walk through the shop with the microphone so listeners can see the work. The students could record only one shop that week. ( 1 ), they chose the flower shop.
 
-Ms. Abe, the adviser, played those talks in the library at lunch. She did not ask the school to tell students about the shops. Some owners could only talk at the counter. Others could show the work listeners had asked about. The club did not accept every invitation. They ( 2 ).
+Ms. Abe, the adviser, played that recording in the library at lunch. The club did not ask the school to announce the shop's address. A shoe shop then asked for Tuesday. Its counter is too noisy for listeners to see the work, and a Monday visit had to be quiet enough for that. The students wrote back and ( 2 ).
 
-By winter, listeners could understand a shop without visiting it first. The students learned that a short talk helps when it answers a question people have already asked.
+By winter, Shop Stories was still on the air each Monday. Listeners could picture the flower shop's work without going there first.
 
 問題4a:
 ( 1 ) に入れるのに最も適切なものを、1、2、3、4 の中から一つ選びなさい。
 
 選択肢4a:
-1. Before any listener wrote to the club
-2. Although the show had already ended
-3. Because the listeners wanted more than a name and the hours
-4. Until Ms. Abe locked the library
+1. Before either shop sent an invitation
+2. Although both shops were closed that Monday
+3. Because the flower shop was quiet and the owner could walk through it
+4. Until the microphone battery ran out
 
 【正解4a】
-3. Because the listeners wanted more than a name and the hours
+3. Because the flower shop was quiet and the owner could walk through it
 
 【解説4a】
-直前の文は、聞き手が「店主はふだんの一日に何をしているのか」と手紙で聞いてきた、です。( 1 ) はその理由で、生徒が店主との3分の話を録音し始めたことにつながります。Because the listeners wanted more than a name and the hours が合います。
-1 Before any listener wrote は、手紙の前に録音を始めたことになり、話の順と逆です。2 Although the show had already ended は「番組がすでに終わっていたけれども」で、毎週の番組は続いています。4 Until Ms. Abe locked the library は「先生が図書館を鍵で閉めるまで」で、録音を始めた理由になりません。
+ベーカリーと花屋が同じ月曜を頼み、生徒はその週に1店しか録音できません。ベーカリーは正午にうるさく、店主はパンを包みながらしか話せません。花屋は6時すぎに静かで、店主はマイクを持って店内を歩けます。( 1 ) はその理由で、花屋を選んだことにつながります。Because the flower shop was quiet and the owner could walk through it が合います。
+1 Before either shop sent an invitation は、招待の前に花屋を選んだことになり、話の順と逆です。2 Although both shops were closed that Monday は「その月曜に両店が閉まっていたけれども」で、両店はその月曜を頼んでいます。4 Until the microphone battery ran out は「マイクの電池が切れるまで」で、花屋を選んだ理由になりません。
 
 【ポイント4a】
 種別: 読解
-見出し: Because のかたまり は直前の頼みとつなぐ
-・空所には1語ではなく、理由のかたまりが入る
-・順序が逆 ← Before。逆の内容 ← Although
-・Until = 「いつまで」で、始めた理由にならない
+見出し: Because は、録音できた店の条件とつなぐ
+・花屋を選んだ理由 ← quiet after six と walk through
+・その週に録音できるのは1店 ← only one shop
+・順序が逆 ← Before。その月曜は両店が開いている ← Although
+・Until = 「いつまで」で、選んだ理由にならない
 
 問題4b:
 ( 2 ) に入れるのに最も適切なものを、1、2、3、4 の中から一つ選びなさい。
 
 選択肢4b:
-1. asked the school to tell students about every shop
-2. visited only when the owner could show the work listeners had asked about
-3. ended the show after the second invitation
-4. went back to reading only the opening hours
+1. asked the school to announce the shop's address
+2. asked the shoe shop to wait for a quiet Monday
+3. told the shoe shop that Shop Stories had ended
+4. agreed to record at the shoe shop's noisy counter on Tuesday
 
 【正解4b】
-2. visited only when the owner could show the work listeners had asked about
+2. asked the shoe shop to wait for a quiet Monday
 
 【解説4b】
-クラブはすべての招待を受けたわけではありません。店主には、カウンターで話すだけの人と、聞き手が知りたかった仕事を見せられる人がいました。そのあとの They ( 2 ) は、受けなかったことと対になる、実際に選んだことです。最後の段落も、すでに聞かれた質問に答える短い話が役に立つ、とまとめています。聞き手が知りたかった仕事を見せてもらえるときだけ訪ねた、がその流れです。
-1 は、Ms. Abe が学校に、店のことを生徒へ伝えるよう頼まなかった、と逆です。3 は2件目の招待のあとで番組を終えた、ですが、冬には聞き手が店を理解できるようになっています。4 は、最初にやめていた「店名と営業時間だけ」に戻る、で、3分の話を始めた流れと逆です。
+靴店は火曜を頼みましたが、カウンターはうるさく、聞き手は仕事を見られません。月曜の録音は、仕事が見える静けさが要ります。生徒は返事を書き、静かな月曜まで待つよう靴店に頼みます。asked the shoe shop to wait for a quiet Monday が合います。
+1 は学校に店の場所を知らせる、で、クラブはそれを頼んでいません。3 は Shop Stories が終わったと伝える、ですが、冬も毎週月曜に番組は続いています。4 はうるさいカウンターで火曜に録音することに同意する、で、月曜の録音に必要な静けさと逆です。
 
 【ポイント4b】
 種別: 読解
-見出し: did not accept every のあとは、選んでしたこと
-・仕事を見せられる店主 ← show the work
-・A の全部ではなく一部 ← They did not A. They ( ).
-・うしろのまとめの文と、空所の行動が矛盾しない
-・本文が否定した行動（生徒へ知らせる、時間だけ読む）は入れない
+見出し: 返事は、月曜に必要な静けさに合わせる
+・うるさい火曜のカウンターでは仕事が見えない
+・月曜の録音の条件 ← quiet enough for that
+・学校への店の告知は、本文が否定している
+・冬も毎週月曜にあるので、終了の返事は合わない
 
 ---
 

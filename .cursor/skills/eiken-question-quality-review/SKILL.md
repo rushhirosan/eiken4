@@ -1,6 +1,6 @@
 ---
 name: eiken-question-quality-review
-description: Reviews original practice questions for level fit, dummy-choice quality, answer-position bias, setting and weekday balance, format integrity, and whether the keyed choice is licensed by the passage (time order, one referent, no new facts, exact answer text). Use when asked to review question quality or 級に合っているか, not for official-similarity (use eiken-originality-review).
+description: Reviews original practice questions for level fit, dummy-choice quality, answer-position bias, setting and weekday balance, format integrity, and whether the keyed choice is licensed by the passage before the blank (time order, one referent, no new facts, exact answer text, distractors closed in the passage, explanation choice numbers). Use when asked to review question quality or 級に合っているか, not for official-similarity (use eiken-originality-review).
 ---
 
 # Question Quality Review
@@ -85,11 +85,13 @@ description: Reviews original practice questions for level fit, dummy-choice qua
 文法・会話・読解の空所と、リスニングの正解応答を、問ごとに見る。正解を空所へ入れた全文で判定する。1問でも落ちたら「品質 OK」にしない。解説やポイントが事実を補っていても通さない。落ちた問は、正解番号と各誤答の役割を残し、本文・台本・解説・ポイントを直す。
 
 1. **時刻。** `because` / `only if` / `before` / `after` の理由と、正解の動作を時刻順に並べる。理由が正解より前で、もう終わっているなら不可。日曜の朝に使い、別の用が土曜の夜、なのに朝8時前に片づける、は不可。次の用が9時なら、8時前に返す、は可。
-2. **一つの参照。** 正解にある場所・人・物が、空所より前の本文で一つに決まっているか。東口と花屋が別のままなら不可。ポイントの「東口の花屋」も、本文にその結びが無いなら不可。
-3. **新しい事実は正解だけに無い。** 空所を埋めて初めて出る中身（温かいご飯、見せてもらえるときだけ訪ねた）は不可。その事実は空所の前にあること。空所が担う時期や程度（1週間後、より頻繁に）が本文に書かれていないこと。
+2. **一つの参照。** 正解にある場所・人・物が、空所より前の本文で一つに決まっているか。東口と花屋が別のままなら不可。ポイントの「東口の花屋」も、本文にその結びが無いなら不可。会話で、その人・場所・物の初出が空所の直後の文、または B の最後の発話なら不可。直後の文は確認（まだいる、間に合わない）だけか。見出しが「空所の次の人」なら不可。場所が前後に分かれていないか（前が near the river、直後が by the bridge、は不可）。似た物・似た人（手袋と袋、靴を見る客とローブが要る歌手）は、正解の側が前で名指しされているか。those / there / them の名詞は前にあるか。
+3. **新しい事実は正解だけに無い。** 空所を埋めて初めて出る中身（温かいご飯、見せてもらえるときだけ訪ねた）は不可。その事実は空所の前にあること。空所が担う時期や程度（1週間後、より頻繁に）が本文に書かれていないこと。正解の句の中の曜日・時刻・人（before Tuesday、a neighbor）が本文の前に無いなら不可。選ばせる行動の理由（カーテンを閉めるなら、窓が明るすぎる）が前に無いなら不可。「流れに合う」は根拠にしない。
 4. **同じ人。** 空所の前が `did not add` の人なら、空所のうしろもその人の動作。`appeared` で誰がしたかを消していたら不可。
 5. **文言一致。** 【正解】の番号を外した英文が、その番号の選択肢と一致する。`neighbors` と `friends` の差は不可。読解の登録は、一致した選択肢だけを正解にする。
 6. **放送の範囲。** リスニングの正解は、会話がすでに言ったことの組み合わせか。博物館行きと分かっているのが12番だけなのに正解が8番、は不可。候補が複数のとき、外す方は名指しされているか（`It` のままなら不可）。台本を直した問は、その問の音声だけが新しい台本か。
+7. **誤答の読みが残っていないか。** 残したい誤答が、本文の読み方次第でまだ正しいなら不可。「午前だけ売る」では、試合の土曜の朝に買える。試合がその朝で、店はその日は閉まっている、まで書いて閉じる。誤答の番号と役割は残す。
+8. **解説の番号。** 解説の「N は」が、今の選択肢 N の中身と一致するか。並べ替えのあと、試合が2なのに「4 の試合」、地図が2なのに「4 の地図」、は不可。直すのは番号だけで、誤答の役割は残す。
 
 内容一致の誤答は、これまでどおり本文の別事実（本文が否定している読みを含む）か。空所の論理と別に見る。
 
