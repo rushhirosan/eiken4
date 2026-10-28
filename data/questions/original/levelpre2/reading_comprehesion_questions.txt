@@ -3,7 +3,7 @@ Ken's Lunch Notes
 
 Ken started a notebook called Lunch Notes. Every weekday, he wrote the name of the main dish at the neighborhood cafe. His neighbors soon asked him to explain why some lunches were better than others. ( 1 ), Ken began to add a short comment under each dish name.
 
-Ms. Ito, the cafe owner, read the notebook. She asked Ken to put one page on the cafe board each Tuesday. Customers could draw a star when they agreed with a comment. Customers drew the most stars on the days the cafe served warm rice. After a month, the cooks asked to see the stars. They did not change the whole menu. They ( 2 ).
+Ms. Ito, the cafe owner, read the notebook. She asked Ken to put one page on the cafe board each Tuesday. Customers could draw a star when they agreed with a comment. Customers drew the most stars on the days the cafe served warm rice. After a month, the cooks asked to see the stars. They did not change the whole menu. They wanted customers to find warm rice on more days, so they ( 2 ).
 
 Ken learned that simple notes can help other people when the notes are clear and regular.
 
@@ -43,15 +43,15 @@ Ken learned that simple notes can help other people when the notes are clear and
 1. started serving warm rice more often
 
 【解説1b】
-調理員は星の数を見て、メニュー全体は変えませんでした。星が一番多かったのは、温かいご飯を出した日です。そのあとの They ( 2 ) は、変えなかったことと対になる、実際に始めたことです。温かいご飯をより頻繁に出した、がその流れです。最後の段落も、メモが人の役に立ったとまとめています。
+調理員は星の数を見て、メニュー全体は変えませんでした。星が一番多かったのは、温かいご飯を出した日です。そのあと、もっと多くの日に温かいご飯があるようにしたい、とあります。They ( 2 ) は、その希望に続く実際の行動です。温かいご飯をより頻繁に出した、が合います。最後の段落も、メモが人の役に立ったとまとめています。
 2 は Ken に火曜の昼食を作らせた、とは書いてありません。3 はノートを捨てた、だと「メモが役に立った」という結びと逆です。4 は月曜にカフェを閉めた、とも書いてありません。did not change the whole menu のあとなので、全部をやめた選択肢は合いません。
 
 【ポイント1b】
 種別: 読解
-見出し: did not のあとは、実際にしたこと
+見出し: 空所前の希望が、実際の行動を決める
 ・星が多かった料理 ← warm rice
-・A ではなく別の行動 ← They did not A. They ( ).
-・空所のかたまりは、うしろのまとめの文とも矛盾しない
+・もっと多くの日に ← wanted ... on more days
+・A ではなく別の行動 ← They did not A. ... they ( ).
 ・本文にない行動（捨てる、閉めさせる）は入れない
 
 ---
@@ -68,9 +68,9 @@ The science club will hold a star night this Friday. We will meet on the school 
 
 I also need to tell you something about the number of people. The roof is safe for only sixteen students. Your classmate Mio asked me yesterday if she could come with you. I would like to say yes, but the list already has sixteen names. Because she asked after the list was closed, there is no space left for her.
 
-You can still come, and I hope you will. If Mio wants a place, she should wait to see whether someone cancels by Thursday noon. I will write to her if a space opens. If it rains, we will not use the roof. We will meet in the science room at the same time and watch a short video about the moon instead. We will finish by 8:30 either way.
+You can still come, and I hope you will. If Mio wants a place, she should wait to see whether someone cancels. I will write to her if a space opens. If it rains, we will not use the roof. We will meet in the science room at the same time and watch a short video about the moon instead. We will finish by 8:30 either way.
 
-Please tell me by Thursday morning if you can come. I have to give the teacher the final list before noon.
+Please tell me by Wednesday evening if you can come. I have to give the teacher the final list on Thursday.
 
 See you on Friday,
 Nao
@@ -112,7 +112,7 @@ Why can't Mio join the star night?
 
 【解説2b】
 Mio が来られない理由は、"Because she asked after the list was closed, there is no space left for her." です。名簿が16人で締まったあとに頼んだからです。
-1 のジャケットは、Elena への持参の指示で、Mio が断られた理由ではありません。2 は先生が Mio の力不足だと言った、とは書いてありません。Nao は来てほしいと思っています。4 は中止ではありません。誰かが木曜の正午までに取り消せば、空いた席を Mio に知らせます。
+1 のジャケットは、Elena への持参の指示で、Mio が断られた理由ではありません。2 は先生が Mio の力不足だと言った、とは書いてありません。Nao は来てほしいと思っています。4 は中止ではありません。誰かが取り消せば、空いた席を Mio に知らせます。
 
 【ポイント2b】
 種別: 読解
@@ -135,7 +135,7 @@ What does Nao want Elena to do?
 
 【解説2c】
 Elena への勧めは "You can still come, and I hope you will." です。望遠鏡は自分のを持たず、ほかの生徒と1台を共有します。
-2 は Mio の動きです。席が空くのを待つのは Mio で、Elena ではありません。3 の正午は、木曜に最終名簿を先生へ渡す時刻と、Mio のキャンセル待ちの期限です。理科室で会う時刻ではありません。4 の月のビデオは、雨のときに先生側が見せるもので、Elena が持っていくものではありません。
+2 は Mio の動きです。席が空くのを待つのは Mio で、Elena ではありません。3 の noon は理科室で会う時刻ではありません。Elena への返信期限は水曜の夕方で、最終名簿は木曜です。4 の月のビデオは、雨のときに先生側が見せるもので、Elena が持っていくものではありません。
 
 【ポイント2c】
 種別: 読解
@@ -254,9 +254,9 @@ How do neighbors check the Wednesday plan now?
 本文4
 Shop Stories
 
-The broadcast club visits one neighborhood shop each Monday for Shop Stories. In October, the bakery and the flower shop both asked for the same Monday. The bakery is noisy at noon, and the owner can talk only while packing bread. The flower shop is quiet after six, and the owner can walk through the shop with the microphone so listeners can see the work. The students could record only one shop that week. ( 1 ), they chose the flower shop.
+The broadcast club visits one neighborhood shop each Monday for Shop Stories. In October, the bakery and the flower shop both asked for the same Monday. The bakery is noisy at noon, and the owner can talk only while packing bread. The flower shop is quiet after six, and the owner can walk through the shop with the microphone so listeners can follow the work. The students could record only one shop that week. ( 1 ), they chose the flower shop.
 
-Ms. Abe, the adviser, played that recording in the library at lunch. The club did not ask the school to announce the shop's address. A shoe shop then asked for Tuesday. Its counter is too noisy for listeners to see the work, and a Monday visit had to be quiet enough for that. The students wrote back and ( 2 ).
+Ms. Abe, the adviser, played that recording in the library at lunch. The club did not ask the school to announce the shop's address. A shoe shop then asked for Tuesday. Its counter is too noisy for listeners to follow the work, and a Monday visit had to be quiet enough for that. The students wrote back and ( 2 ).
 
 By winter, Shop Stories was still on the air each Monday. Listeners could picture the flower shop's work without going there first.
 
@@ -297,13 +297,13 @@ By winter, Shop Stories was still on the air each Monday. Listeners could pictur
 2. asked the shoe shop to wait for a quiet Monday
 
 【解説4b】
-靴店は火曜を頼みましたが、カウンターはうるさく、聞き手は仕事を見られません。月曜の録音は、仕事が見える静けさが要ります。生徒は返事を書き、静かな月曜まで待つよう靴店に頼みます。asked the shoe shop to wait for a quiet Monday が合います。
+靴店は火曜を頼みましたが、カウンターはうるさく、聞き手は仕事を追えません。月曜の録音は、仕事を追える静けさが要ります。生徒は返事を書き、静かな月曜まで待つよう靴店に頼みます。asked the shoe shop to wait for a quiet Monday が合います。
 1 は学校に店の場所を知らせる、で、クラブはそれを頼んでいません。3 は Shop Stories が終わったと伝える、ですが、冬も毎週月曜に番組は続いています。4 はうるさいカウンターで火曜に録音することに同意する、で、月曜の録音に必要な静けさと逆です。
 
 【ポイント4b】
 種別: 読解
 見出し: 返事は、月曜に必要な静けさに合わせる
-・うるさい火曜のカウンターでは仕事が見えない
+・うるさい火曜のカウンターでは仕事を追えない
 ・月曜の録音の条件 ← quiet enough for that
 ・学校への店の告知は、本文が否定している
 ・冬も毎週月曜にあるので、終了の返事は合わない
@@ -322,7 +322,7 @@ I help at the used-book corner on Wednesday afternoons. It is not a shop. People
 
 Last Wednesday I found a blue book about bakery work, with photos of ovens. I did not take it home, because helpers may not keep a book on a day they are working. I wrote your name on a card and left the book behind the desk until Friday at noon. After that, it goes back on the open cart.
 
-Please do not come on Wednesday. That is my work day, and friends must follow the same rule. Come on Thursday after school, and arrive by five, because the library closes at six. If you cannot come by Friday noon, tell me on Thursday. I will not mail the book. You must pick it up yourself.
+Please do not come on Wednesday. That is my work day, and friends must follow the same rule. Come on Thursday after school to pick it up yourself. I will not mail the book.
 
 If you also want a yellow story for your cousin, look on the open cart. I cannot hold two books. The card is only for the blue bakery book.
 
@@ -388,7 +388,7 @@ What should Mina do if she wants the bakery book?
 2. Pick it up herself on Thursday, before Friday noon.
 
 【解説5c】
-Mina への案内は、水曜は来ないこと、木曜の放課後がよいこと、自分で受け取ることです。取り置きは金曜の正午までです。
+Mina への案内は、水曜は来ないこと、木曜の放課後に自分で受け取ることです。取り置きは金曜の正午までです。
 1 は、Please do not come on Wednesday. と逆です。勤務日のルールは、友だちも同じように守らなければなりません。3 は、I will not mail the book. とあるので、送ってもらうことはできません。4 は、I cannot hold two books. です。いとこ向けの黄色い本は、その日の開いたカートで自分で見ます。カードは青いパンの本だけです。
 
 【ポイント5c】
@@ -508,7 +508,7 @@ What is true about a club that has folded its table?
 本文7
 The Window Log
 
-The family kept a notebook called the Window Log. Each afternoon, one person wrote the temperature by the hall window and whether the curtain was open. At first, the notes were only numbers. The others asked what the numbers meant for the plants on the shelf. The writer did not add a plant sentence on the first day. ( 1 ), the writer added one sentence about the plants under the temperature.
+The family kept a notebook called the Window Log. Each afternoon, one person wrote the temperature by the hall window and whether the curtain was open. At first, the notes were only numbers. The others asked what the numbers meant for the plants on the shelf. Those questions continued for about a week. The writer did not add a plant sentence on the first day. ( 1 ), the writer added one sentence about the plants under the temperature.
 
 Mr. Abe read the log before winter. He did not ask the family to move the plants into a dark closet. He asked them to use the sentence when they chose a curtain. After three weeks, the plants were still by the window. On cold afternoons the window was too bright for the plants. The family did not buy special lamps. They ( 2 ).
 
@@ -527,14 +527,14 @@ The family learned that a short daily note is useful when the next person can ac
 2. Only after a week of those questions
 
 【解説7a】
-記録する人は、初日には植物の文を足していません。ほかの家族が数字の意味を尋ねたあとの1週間を経て、同じ人が気温の下に植物の1文を書き足します。Only after a week of those questions が、その順序に合います。
+記録する人は、初日には植物の文を足していません。ほかの家族の質問は約1週間続き、そのあとで同じ人が気温の下に植物の1文を書き足します。Only after a week of those questions が、その順序に合います。
 1 Before the shelf had any plants は、棚に植物がある前に文が出たことになり、植物について尋ねられた話と逆です。3 Although the curtain was always closed は「カーテンがいつも閉まっていたけれども」で、本文はカーテンが開いているかを記録しています。4 Until Mr. Abe locked the notebook は「Mr. Abe がノートに鍵をかけるまで」で、文が現れた時期の説明になりません。
 
 【ポイント7a】
 種別: 読解
 見出し: それより前には起きていない ← Only after
+・質問が約1週間続いた ← Those questions continued for about a week
 ・did not add ... on the first day と、Only after がセット
-・数字の意味を尋ねたこと ← those questions
 ・逆の内容 ← Although。別の時の関係 ← Before / Until
 
 問題7b:

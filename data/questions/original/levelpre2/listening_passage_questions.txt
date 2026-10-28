@@ -512,26 +512,26 @@ What happens to shoes that are torn?
 ---
 
 No.20:
-W: Language exchange seats are limited to sixteen. The first meeting is in room 5B, not the cafeteria. Partners are chosen by the teacher, not by friends sitting together. If you cannot come, tell the office by noon on Tuesday so another student can take the seat. Arriving late does not save the seat past ten minutes.
+W: Language exchange partners are chosen by the teacher, not by friends sitting together. The first meeting is in room 5B, not the cafeteria. Bring your name card from the office. If you cannot come, tell the office by noon on Tuesday so the teacher can choose a new partner. Arriving late does not keep your place past ten minutes.
 
 Question No.20:
-How can another student get a seat?
+Why should a student tell the office about an absence by Tuesday noon?
 
-1. By sitting with a friend in the cafeteria.
-2. By arriving ten minutes late.
-3. If someone reports an absence by Tuesday noon.
-4. By adding seats past sixteen.
+1. So friends can sit together in the cafeteria.
+2. So a late arrival can keep the place.
+3. So the teacher can choose a new partner.
+4. So the meeting can move past room 5B.
 
 【正解20】
-3. If someone reports an absence by Tuesday noon.
+3. So the teacher can choose a new partner.
 
 【解説20】
-席は16までです。最初の会は食堂ではなく5Bです。相手は先生が決め、友だちが並んで座るのではありません。来られないときは火曜の正午までに事務所へ言い、別の生徒がその席を使えます。10分を過ぎた遅れは席を保てません。
-1 は、場所も決め方も違います。2 は、10分を過ぎると席は残りません。4 は、16を超えて増やせる、とは言っていません。
+相手は先生が決め、友だちが並んで座るのではありません。最初の会は食堂ではなく5Bです。来られないときは火曜の正午までに事務所へ言い、先生が新しい相手を選べるようにします。10分を過ぎた遅れは席を保てません。
+1 は、場所も決め方も違います。2 は、遅れで席を保てる、と逆です。4 は、会場を5Bの外へ広げる、ではありません。
 
 【ポイント20】
 種別: リスニング
-見出し: 空ける手続きの目的 ← so another student can
+見出し: 欠席連絡の目的 ← so the teacher can
 ・欠席連絡の期限 ← by noon on Tuesday
 ・食堂ではない ← room 5B
 ・遅れても席が残る限界 ← ten minutes
@@ -595,7 +595,7 @@ No.23:
 M: Library users, the fine for a late book is not money this month. You will put books back on the shelf for ten minutes. The fine starts on the second day, not the first morning. A book returned before the library opens still counts as on time. Tell the desk if you lost a book. Putting books back cannot replace a lost book.
 
 Question No.23:
-What is true about a book returned on the first morning?
+What is true about a book returned before the library opens?
 
 1. It still counts as on time.
 2. The student must put books back for ten minutes.
@@ -606,14 +606,15 @@ What is true about a book returned on the first morning?
 1. It still counts as on time.
 
 【解説23】
-今月の延滞の罰はお金ではなく、10分間、本を棚へ戻すことです。罰は2日目からで、初日の朝ではありません。開館前に返せば、期限内です。本をなくした場合は受付に言い、棚へ戻すだけでは失った本の代わりになりません。
-2 は、2日目からの罰です。初日の朝には始まりません。3 は、紛失は別の扱いです。4 は、今月はお金ではありません。
+今月の延滞の罰はお金ではなく、10分間、本を棚へ戻すことです。罰は2日目からで、初日の朝には始まりません。開館前に返せば、期限内です。本をなくした場合は受付に言い、棚へ戻すだけでは失った本の代わりになりません。
+質問は開館前に返した本についてです。期限内、が答えです。
+2 は、2日目からの罰です。開館前の返却には当てはまりません。3 は、紛失は別の扱いです。4 は、今月はお金ではありません。
 
 【ポイント23】
 種別: リスニング
-見出し: not money のあとに、本当の罰がある
-・初日の朝は期限内 ← still counts as on time
-・今月の罰 ← put books back for ten minutes
+見出し: 開館前の返却は期限内
+・開館前 ← still counts as on time
+・罰が始まるのは2日目。初日の朝ではない
 ・棚戻しでは済まない ← lost
 
 ---
@@ -660,15 +661,15 @@ What should a student do if their name is not on the list?
 3. Tell the teacher before eating.
 
 【解説25】
-火曜の調理は、ドアにアレルギーの名簿を出します。トレイを取る前に読みます。ナッツなしのスープは青い鍋、制限のない生徒は白い鍋です。名前が名簿になければ、食べる前に先生に言います。スープの色だけで決めてはいけません。両方の鍋は同じように見えることがあります。
+火曜の調理は、ドアにアレルギーの名簿を出します。トレイを取る前に読みます。ナッツなしのスープは青い鍋、制限のない生徒は白い鍋です。名前が名簿になければ、食べる前に先生に言います。スープの色だけで決めてはいけません。
 1 は、制限がない生徒の鍋で、名前がないときの指示ではありません。2 は、色だけでは決めない、と逆です。4 は、青い鍋だけを避ける、では名簿の欠けを埋めていません。
 
 【ポイント25】
 種別: リスニング
-見出し: 見た目以外の確認 ← Do not decide from
+見出し: 名簿がないときは色で決めない
 ・ナッツなし ← blue。制限なし ← white
 ・name is missing のとき は先生に言う
-・色が手がかりにならない理由 ← look the same
+・Do not decide from the color alone
 
 ---
 
@@ -727,29 +728,29 @@ Who should take a volunteer shirt?
 ---
 
 No.28:
-W: The night sky evening is on for Tuesday if there are few clouds. We will meet on the field, not the roof. The roof is closed for repairs. Bring a jacket, and leave cameras at home. The club will set up two telescopes. If the sky stays cloudy, we will watch a short film in room 2A instead.
+W: The early bird walk is on for Tuesday if the rain stops. We will meet at the river path, not the parking lot. The parking lot is closed for repairs. Bring soft shoes, and leave bikes at home. The club will lend two pairs of binoculars. If the path stays wet, we will watch a short film in room 2A instead.
 
 Question No.28:
-Where will students meet if the sky is clear enough?
+Where will students meet if the rain has stopped?
 
-1. On the roof.
-2. On the field.
+1. In the parking lot.
+2. At the river path.
 3. In room 2A.
-4. At home, with their own cameras.
+4. At home, with their own bikes.
 
 【正解28】
-2. On the field.
+2. At the river path.
 
 【解説28】
-火曜の夜空の会は、雲が少なければ実施です。屋根は修理中なので、屋上ではなくグラウンドに集合します。上着は持っていき、カメラは家に置きます。望遠鏡はクラブが2台準備します。空が曇ったままなら、代わりに2Aで短い映画を見ます。
-1 は、修理で閉じています。3 は、空が曇っているときの場所です。4 は、カメラを家に置く、で、家で会うのではありません。
+火曜の早朝の野鳥散歩は、雨がやんでいれば実施です。駐車場は修理中なので、川沿いの道に集合します。柔らかい靴を持っていき、自転車は家に置きます。双眼鏡はクラブが2組貸します。道が濡れたままなら、代わりに2Aで短い映画を見ます。
+1 は、修理で閉じています。3 は、道が濡れているときの場所です。4 は、自転車を家に置く、で、家で会うのではありません。
 
 【ポイント28】
 種別: リスニング
 見出し: if の条件ごとに、場所が一つずつある
-・雲が少ないとき ← field
-・雲が厚いとき ← room 2A
-・修理で使えない ← roof
+・雨がやんだとき ← river path
+・道が濡れたまま ← room 2A
+・修理で使えない ← parking lot
 
 ---
 

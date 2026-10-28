@@ -89,32 +89,32 @@ What will the boy tell the owner?
 ---
 
 No.4:
-M: The plant sale is on Tuesday. Did you bring the price cards?
-W: I printed them, but the names of the herbs are wrong.
-M: The organizer said the cards must show both the name and the price.
-W: I'll fix the names tonight. Can you check the prices tomorrow before we tape the cards on?
+M: The plant sale is on Saturday. The cards need a photo of each pot.
+W: I fixed the names on the cards, but the photos are still missing.
+M: I have my camera today. I can take the photos after school.
+W: Please send them to me tonight. I'll add them before we open on Saturday.
 
 Question No.4:
-What does the girl want the boy to do tomorrow?
+What does the girl want the boy to do?
 
-1. Print new cards with the herb names.
-2. Tape the cards on the plants tonight.
-3. Move the sale to Saturday.
-4. Check the prices before the cards are taped on.
+1. Fix the herb names tonight.
+2. Send her the photos tonight.
+3. Move the sale to Tuesday.
+4. Open the sale before he takes the photos.
 
 【正解4】
-4. Check the prices before the cards are taped on.
+2. Send her the photos tonight.
 
 【解説4】
-女子は I'll fix the names tonight. と自分の仕事を言ったあと、Can you check the prices tomorrow before we tape the cards on? と頼んでいます。明日の男子の仕事は、貼る前に値段を確認することです。
-1 の印刷と名前の修正は、今夜の女子の仕事です。2 の tonight は名前を直すときで、貼るのはそのあとです。3 は販売を土曜に移す、とは言っていません。Tuesday は販売日のままです。
+植物の販売は土曜です。カードには各鉢の写真が要ります。女子は名前を直しましたが、写真がまだありません。男子は放課後に撮れると言い、女子は今夜送ってほしい、土曜の開店前に足す、と頼んでいます。女子が男子にしてほしいことは、今夜写真を送ることです。
+1 の名前直しは、女子がすでに終えています。3 は販売を火曜に移す、とは言っていません。4 は写真の前に開店する、で順序が逆です。
 
 【ポイント4】
 種別: リスニング
-見出し: tomorrow の依頼と tonight の自分の仕事を分ける
-・Can you check the prices tomorrow? が男子への依頼
-・女子が今夜直す ← names
-・日程を変える文ではない ← sale is on Tuesday
+見出し: Please send them tonight が依頼
+・男子への依頼 ← send them to me tonight
+・女子がすでに終えた仕事 ← fixed the names
+・販売日はそのまま ← Saturday
 
 ---
 
@@ -179,32 +179,32 @@ What does the girl want the boy to do on Sunday?
 ---
 
 No.7:
-W: I saved two seats for the photo workshop on Saturday.
-M: My cousin wants to come, but he arrives in town at two.
-W: The workshop starts at one, and the door closes at one fifteen.
-M: Then he can't use my extra seat. I'll invite a classmate who can be there at one.
+W: I booked two cameras for Saturday's photo workshop.
+M: My cousin wanted the second one, but he only has dress shoes.
+W: The workshop is outdoors on wet grass. Soft shoes are required.
+M: Then he can't use that camera. I'll lend it to a classmate who already has soft shoes.
 
 Question No.7:
-What will the boy do with the extra seat?
+What will the boy do with the second camera?
 
-1. Give it to a classmate who can arrive at the start.
-2. Hold it until his cousin arrives at two.
-3. Ask the workshop to begin at two.
-4. Close the door at one fifteen.
+1. Lend it to a classmate who has soft shoes.
+2. Hold it until his cousin buys soft shoes.
+3. Ask the workshop to move indoors.
+4. Give both cameras to his cousin.
 
 【正解7】
-1. Give it to a classmate who can arrive at the start.
+1. Lend it to a classmate who has soft shoes.
 
 【解説7】
-男子は Then he can't use my extra seat. I'll invite a classmate who can be there at one. と言います。質問は余分な席をどうするかです。開始の1時に来られる同級生に渡す、が答えです。two はいとこが町に着く時刻で、ワークショップはそれより前にドアが閉まります。
-2 は2時まで席を取っておく、ですが、男子はいとこには使えないと言っています。3 は開始を2時にする、とは言っていません。4 の one fifteen はドアが閉まる時刻で、男子が自分で閉めるのではありません。
+男子は2台目のカメラをいとこのために取っていましたが、いとこは革靴しかありません。ワークショップは湿った芝生の屋外で、柔らかい靴が必要です。男子は Then he can't use that camera. I'll lend it to a classmate who already has soft shoes. と言います。2台目を柔らかい靴の同級生に貸す、が答えです。
+2 はいとこが靴を買うまで押さえる、ではありません。3 は屋内へ移す、とは言っていません。4 は両方をいとこに渡す、で、靴の条件と合いません。
 
 【ポイント7】
 種別: リスニング
 見出し: can't use の次の文が、代わりの相手
-・席の新しい使い方 ← classmate / at one
-・いとこの到着で、開始時刻ではない ← two
-・会場のルールで、男子の行動ではない ← door closes
+・2台目の新しい使い方 ← classmate / soft shoes
+・使えない理由 ← dress shoes / wet grass
+・会場の条件で、場所を変える話ではない
 
 ---
 
@@ -240,7 +240,7 @@ What will the boy still bring on the walk?
 
 No.9:
 M: The town concert is on Tuesday. Did you buy a new shirt?
-W: I bought one, but it is too small. The conductor wants a medium shirt.
+W: I bought one, but it is too small. Singers need a medium shirt for the stage.
 M: The shop still has medium ones, and it closes at six.
 W: I'll go after lunch and leave the small shirt at home.
 
@@ -256,13 +256,13 @@ What will the girl buy after lunch?
 1. A medium shirt.
 
 【解説9】
-女子は小さいシャツを買いましたが、指揮者はミディアムが欲しいと言っています。昼のあと店へ行き、小さい方は家に置きます。買うのはミディアムのシャツです。
+女子は小さいシャツを買いましたが、舞台の歌い手にはミディアムが必要です。昼のあと店へ行き、小さい方は家に置きます。買うのはミディアムのシャツです。
 2 は、すでに買って家に置く方です。3 の火曜の切符、4 の新しい上着は、本文にありません。
 
 【ポイント9】
 種別: リスニング
 見出し: too small のあとが、買い直す種類
-・指揮者の指定 ← medium
+・舞台の規定 ← medium shirt for the stage
 ・使わない方 ← leave at home
 ・昼のあとに行く理由の一部 ← closes at six
 
@@ -509,32 +509,32 @@ Who may get a seat because of the cancellations?
 ---
 
 No.18:
-W: You're on the morning shift at the bakery on Thursday, but you have a match that morning.
-M: The shift is to write the specials and count the bread.
-W: I have the shift on Friday, and I don't have a match. We can trade days.
-M: Thanks. I'll do Friday, and you can do Thursday's specials.
+W: You're on the morning desk at the library on Thursday, but you have a match that morning.
+M: The desk job is to stamp returns and shelve the new books.
+W: I have the desk on Friday, and I don't have a match. We can trade days.
+M: Thanks. I'll do Friday, and you can do Thursday's stamping.
 
 Question No.18:
 What did they decide to do?
 
-1. Cancel Thursday's shift.
-2. Trade shift days.
+1. Cancel Thursday's desk.
+2. Trade desk days.
 3. Both work on Thursday.
-4. Skip the bread count on Friday.
+4. Skip the shelving on Friday.
 
 【正解18】
-2. Trade shift days.
+2. Trade desk days.
 
 【解説18】
-男子は木曜の朝に試合があります。シフトは本日のおすすめを書き、パンの数を数える仕事です。女子は金曜がシフトで、試合はありません。曜日を交換し、男子は金曜、女子は木曜のおすすめをやります。
-1 は木曜のシフトを中止する、とは言っていません。3 は二人とも木曜、ではありません。4 は金曜の数を省く、ではなく、シフトの日を入れ替えています。
+男子は木曜の朝に試合があります。デスク当番は返却に印を押し、新しい本を棚へ入れる仕事です。女子は金曜が当番で、試合はありません。曜日を交換し、男子は金曜、女子は木曜の印押しをやります。
+1 は木曜の当番を中止する、とは言っていません。3 は二人とも木曜、ではありません。4 は金曜の棚入れを省く、ではなく、当番の日を入れ替えています。
 
 【ポイント18】
 種別: リスニング
 見出し: 仕事の中身は同じ ← trade days
 ・試合と重なる日 ← Thursday
 ・女子が空いている日 ← Friday
-・中止されない仕事 ← specials と bread count
+・中止されない仕事 ← stamp returns と shelve
 
 ---
 
@@ -688,40 +688,40 @@ What should the boy use on the model?
 ---
 
 No.24:
-W: The club banner is too wide for the gym wall.
+W: The club banner is too wide for the outdoor fence.
 M: I can fold one side, but the letters would be hidden.
-W: The hall wall is longer, and it is free after lunch.
-M: Then I'll hang the whole banner there and leave the gym wall for the posters.
+W: Wind also pulls hard on that fence. Use the indoor pillars and rope instead.
+M: Then I'll hang the whole banner on the pillars and leave the fence for the posters.
 
 Question No.24:
 Where will the boy hang the banner?
 
-1. On the gym wall, with one side folded.
-2. Over the posters in the gym.
-3. On the longer wall in the hall.
-4. In the art room until after lunch.
+1. On the outdoor fence, with one side folded.
+2. Over the posters on the fence.
+3. On the indoor pillars with rope.
+4. In the art room until the wind stops.
 
 【正解24】
-3. On the longer wall in the hall.
+3. On the indoor pillars with rope.
 
 【解説24】
-横断幕は体育館の壁には広すぎます。男子は片側を折ると文字が隠れる、と言います。女子はホールの壁の方が長く、昼のあと空いている、と言います。男子は丸ごとそこへ掛け、体育館の壁はポスターに残します。
-1 は折る案で、男子自身が文字が隠れると言っています。2 はポスターの上、ではなく、体育館の壁はポスター用に残します。4 は美術室、とは言っていません。
+横断幕は外のフェンスには広すぎます。男子は片側を折ると文字が隠れる、と言います。女子は風も強いので、屋内の柱とロープを使え、と言います。男子は横断幕を柱に掛け、フェンスはポスターに残します。
+1 は折る案で、男子自身が文字が隠れると言っています。2 はポスターの上、ではなく、フェンスはポスター用に残します。4 は美術室、とは言っていません。
 
 【ポイント24】
 種別: リスニング
-見出し: too wide の壁 は掛ける場所にしない
-・ホールの壁 ← longer と free
+見出し: 外のフェンスは掛けない
+・掛ける場所 ← indoor pillars with rope
 ・文字が隠れる案 ← fold
-・体育館の壁に残すもの ← posters
+・フェンスに残すもの ← posters
 
 ---
 
 No.25:
-M: I lent my helmet to Riku for Thursday's ride. I need it on Friday.
+M: I lent my helmet to Riku for Thursday's ride. I need it on Friday after school.
 W: Riku's ride was moved to Friday morning. He still has your helmet.
-M: My ride is Friday after school. The shop rents helmets until noon.
-W: Ask Riku to return it at lunch. You won't need a rental if he does.
+M: Then I may not get it back in time.
+W: Ask Riku to return it at lunch. You will have it before your ride.
 
 Question No.25:
 What does the girl want Riku to do?
@@ -735,15 +735,15 @@ What does the girl want Riku to do?
 2. Return the boy's helmet.
 
 【解説25】
-男子は木曜の乗車のためにヘルメットを貸しましたが、自分の乗車は金曜の放課後です。Riku の乗車は金曜の朝に変わり、ヘルメットはまだ Riku のところにあります。店のレンタルは正午までです。女子は昼に返してもらえば、レンタルは不要だと言います。
-1 は、返さずに持ち続ける、で依頼と逆です。3 は男子が借りる手段で、Riku への依頼ではありません。4 は男子の乗車を朝に移す、とは言っていません。
+男子は木曜の乗車のためにヘルメットを貸しましたが、自分の乗車は金曜の放課後です。Riku の乗車は金曜の朝に変わり、ヘルメットはまだ Riku のところにあります。女子は昼に返してもらえば、放課後の乗車に間に合う、と言います。
+1 は、返さずに持ち続ける、で依頼と逆です。3 のレンタルは本文にありません。4 は男子の乗車を朝に移す、とは言っていません。
 
 【ポイント25】
 種別: リスニング
-見出し: ヘルメットを戻せば、レンタルは要らない
+見出し: 昼に戻せば、放課後に間に合う
 ・Riku の乗車 ← Friday morning
 ・男子の乗車 ← after school
-・レンタルの受付 ← until noon
+・返却の依頼 ← return it at lunch
 
 ---
 
@@ -780,7 +780,7 @@ Which curry will the boy eat?
 No.27:
 M: We need name cards for twenty guests. I have written twelve.
 W: The library printer stops at four. The office printer is free after five.
-M: I finish club at five thirty. The guests arrive at seven.
+M: I finish club at five thirty.
 W: Print the other eight on the office printer after club. Stopping at four would leave the cards short.
 
 Question No.27:
@@ -795,8 +795,8 @@ What should the boy do after club?
 1. Print eight more cards on the office printer.
 
 【解説27】
-名札は20人分必要で、12人分は書いてあります。図書館のプリンターは4時に止まり、事務所のは5時のあと空きます。男子の部活は5時半まで、客は7時です。女子は部活のあと、残り8枚を事務所のプリンターで刷るよう言います。4時でやめると枚数が足りません。
-2 は、4時に止まる機械です。3 は20枚を手で書き直す、とは言っていません。4 は客の到着を5時半に変える、ではありません。
+名札は20人分必要で、12人分は書いてあります。図書館のプリンターは4時に止まり、事務所のは5時のあと空きます。男子の部活は5時半までです。女子は部活のあと、残り8枚を事務所のプリンターで刷るよう言います。4時でやめると枚数が足りません。
+2 は、4時に止まる機械です。3 は20枚を手で書き直す、とは言っていません。4 は客の到着を5時半に変える、ではありません。客の到着時刻はこの会話にありません。
 
 【ポイント27】
 種別: リスニング
@@ -1018,31 +1018,31 @@ What should the girl do with the tickets?
 ---
 
 No.35:
-M: My indoor shoes are in locker nine, but that locker will be cleaned on Thursday.
-W: Anything left inside at eight in the morning goes to the office.
-M: I need the shoes for Friday's ceremony. I have practice until seven on Wednesday.
-W: Pick them up after practice on Wednesday. Don't wait until Thursday morning.
+M: I left my science report on the printer tray in the lab. I need it for Friday's class.
+W: The lab staff clear that tray every Thursday at noon. Anything left goes to the lost box.
+M: I have club until four on Wednesday.
+W: Pick it up after club on Wednesday. Don't wait until Thursday.
 
 Question No.35:
-What should the boy do with the shoes in the locker?
+What should the boy do with the report on the tray?
 
-1. Leave them for the office to take on Thursday.
-2. Take them out after Wednesday's practice.
-3. Wear them only at Friday's ceremony and leave the locker full.
-4. Move them during Thursday's cleaning.
+1. Leave it for the lost box on Thursday.
+2. Pick it up after Wednesday's club.
+3. Wait until Friday's class and print it again.
+4. Ask the staff to clear the tray on Wednesday morning.
 
 【正解35】
-2. Take them out after Wednesday's practice.
+2. Pick it up after Wednesday's club.
 
 【解説35】
-上履きは9番ロッカーにあり、そのロッカーは木曜に清掃されます。朝8時に残っている物は事務所へ移ります。女子は Pick them up after practice on Wednesday. と、木曜の朝まで待つな、と言います。取り出すのが答えです。
-1 は、事務所へ移るのを待つ、で、Don't wait と逆です。3 は式で使う話で、ロッカーに残すことにはなりません。4 は清掃の日に移す、で、その前に出す指示と逆です。
+男子は実験室のプリンター受けにレポートを置き、金曜の授業で必要です。職員は毎週木曜の正午に受けを片付け、残った物は忘れ物箱へ移します。男子の部活は水曜の4時までです。女子は部活のあとに取り、木曜まで待つな、と言います。取りに行くのが答えです。
+1 は忘れ物箱へ行くのを待つ、で、Don't wait と逆です。3 は金曜まで待って打ち直す、ではありません。4 は水曜の朝に片付けてもらう、とは言っていません。
 
 【ポイント35】
 種別: リスニング
-見出し: 移される前の日を選ぶ ← Don't wait until
-・事務所へ行く期限 ← Thursday eight
-・取り出すとき ← Wednesday after practice
-・靴を使う日 ← Friday
+見出し: 片付けられる前に取りに行く
+・受けが片付くとき ← Thursday at noon
+・取りに行くとき ← after club on Wednesday
+・レポートが必要な日 ← Friday's class
 
 ---

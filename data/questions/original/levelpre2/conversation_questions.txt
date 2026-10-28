@@ -1,7 +1,7 @@
 問題1:
-A : Ken is bringing bags for the river clean-up. The shop has gloves, but only in your size, and not enough for his whole group.
+A : Ken is bringing bags for the river clean-up. You still need one bag of your own. The shop has gloves, but only in your size, and not enough for his whole group.
 B : Should I ask him for gloves, buy some for his group, or look for a bigger size?
-A : No. He has the bags, and the shop can't cover his group. Please ( ).
+A : No. Don't worry about gloves for his group. You only need a bag from Ken. Please ( ).
 B : All right. I'll ask him when I see him.
 
 選択肢1:
@@ -14,15 +14,15 @@ B : All right. I'll ask him when I see him.
 1. ask him for a bag
 
 【解説1】
-Ken が川の清掃に袋を持ってきます。店の手袋は B のサイズだけで、Ken のグループ全員には足りません。袋は Ken が持っていて、店ではグループ分をまかなえないので、B は Ken に袋を頼みます。
+Ken が川の清掃に袋を持ってきます。B は自分用の袋がまだ必要です。店の手袋は B のサイズだけで、Ken のグループ全員には足りません。手袋の心配ではなく、Ken から袋を1つもらう必要があります。
 2 は、足りない手袋を Ken に頼む、です。3 は、グループの分の手袋を買う、です。店にはその分がありません。4 は、店にない大きいサイズを探す、です。
 
 【ポイント1】
 種別: 会話
-見出し: 持っている人に、足りる物を頼む
+見出し: 自分に必要な物を、持っている人に頼む
+・B にまだ必要なもの ← one bag of your own
 ・袋を持ってくる人 ← Ken is bringing bags
-・店の手袋は B のサイズだけで、グループ全員には足りない
-・頼む相手は、袋を持っている Ken
+・手袋ルートは使わない
 
 ---
 

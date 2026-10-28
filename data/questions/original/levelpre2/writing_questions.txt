@@ -193,7 +193,7 @@ I think students should ... / First, ... / Second, ... / even on busy days
 ●枠の下の Best wishes, の後にあなたの名前を書く必要はありません。
 
 Hi!
-I visited <u>a print room</u> at the city museum last Sunday. The room opened this spring and has three big tables. People can print photos there on weekend mornings. A staff member showed me a notice. A new dryer for photo paper will arrive in June, and visitors can print even on wet days. Do you think more museums will buy such dryers in the future?
+I visited <u>a print room</u> at the city museum last Sunday. The room opened this spring and has three big tables. People can print photos there on weekend mornings. A staff member showed me a notice. A large scanner that needs a reservation will arrive in June, and visitors can book a thirty-minute turn online. Do you think more museums will use reservation systems like this in the future?
 Your friend,
 Sam
 
@@ -210,23 +210,23 @@ Best wishes,
 
 【参考解答】
 ■ この問題で求められること
-下線は訪ねた場所（a print room）の1か所です。場所の説明のあと、これから入る設備（写真用紙用の乾燥機）を知らせ、その設備の将来を聞いています。返信では乾燥機の質問に理由を1つつけて答え、下線の部屋について本文にないことを2つ聞きます。テーブルの数、週末の午前、6月に届くことは聞かないでください。本文の目安は40〜50語です。
+下線は訪ねた場所（a print room）の1か所です。場所の説明のあと、これから入る予約制の大きなスキャナを知らせ、その予約の仕組みの将来を聞いています。返信では予約制の質問に理由を1つつけて答え、下線の部屋について本文にないことを2つ聞きます。テーブルの数、週末の午前、6月に届くこと、30分は聞かないでください。本文の目安は40〜50語です。
 
 ■ 書き方のポイント
-・最初に I think more museums will ... で乾燥機の質問に答える
+・最初に I think more museums will ... で予約制の質問に答える
 ・理由は1文
 ・質問は流しがあるか、職員が何人かなど、本文にないこと
 
 ■ 参考解答の例
-I think more museums will buy such dryers in the future. Visitors can print photos even on wet days, so rain will not stop a weekend visit. I have two questions. Does the print room have a sink? How many staff members work there?
+I think more museums will use reservation systems like this in the future. A timed turn keeps the line fair when many people want to scan. I have two questions. Does the print room have a sink? How many staff members work there?
 
 ■ 表現のメモ
-I think more museums will ... / even on wet days / Does the print room have ...? / How many staff members ...?
+I think more museums will ... / reservation systems / Does the print room have ...? / How many staff members ...?
 
 【ポイント5】
 種別: ライティング
-見出し: 場所の下線と、設備の将来
-・これから入る設備について答える ← Do you think
+見出し: 場所の下線と、予約制設備の将来
+・これから入る予約制について答える ← Do you think
 ・質問2つは、下線の場所について。本文にある事実は聞かない
 ・本文の目安は40〜50語
 
@@ -243,7 +243,7 @@ I think more museums will ... / even on wet days / Does the print room have ...?
 ●枠の下の Best wishes, の後にあなたの名前を書く必要はありません。
 
 Hi!
-I moved to <u>a neighborhood</u> near the station in April. The streets are quiet, and there is a small bakery. Many students pass the bakery on the way to school. On my first Saturday, I found something useful. There was a shelf where neighbors could borrow board games for free. Do you think more neighborhoods will start such a game shelf in the future?
+I moved to <u>a neighborhood</u> near the station in April. The streets are quiet, and there is a small bakery. Many students pass the bakery on the way to school. On my first rainy Saturday, I found something useful. There was a stand where neighbors could borrow umbrellas only on wet days. Do you think more neighborhoods will start such an umbrella stand in the future?
 Your friend,
 Sam
 
@@ -260,7 +260,7 @@ Best wishes,
 
 【参考解答】
 ■ この問題で求められること
-下線は移った場所（a neighborhood）の1か所です。場所の描写のあと、そこで見つけたサービス（無料のボードゲーム棚）を書き、そのサービスの将来を聞いています。返信では棚の質問に理由を1つつけて答え、下線の近所について本文にないことを2つ聞きます。駅、静かな通り、パン屋、通学路は聞かないでください。本文の目安は40〜50語です。
+下線は移った場所（a neighborhood）の1か所です。場所の描写のあと、そこで見つけたサービス（雨の日だけの共有傘）を書き、そのサービスの将来を聞いています。返信では傘立ての質問に理由を1つつけて答え、下線の近所について本文にないことを2つ聞きます。駅、静かな通り、パン屋、通学路、雨の日限定は聞かないでください。本文の目安は40〜50語です。
 
 ■ 書き方のポイント
 ・最初に I think more neighborhoods will ... でサービスの質問に答える
@@ -268,15 +268,15 @@ Best wishes,
 ・質問は郵便局の有無や、家の古さなど、本文にないこと
 
 ■ 参考解答の例
-I think more neighborhoods will start a free game shelf in the future. Neighbors can play together without buying a new game every month. I have two questions. Is there a post office nearby? How old are most of the houses?
+I think more neighborhoods will start such an umbrella stand in the future. People can walk to school without buying a new umbrella every rainy week. I have two questions. Is there a post office nearby? How old are most of the houses?
 
 ■ 表現のメモ
-I think more neighborhoods will ... / without buying a new game / Is there a post office ...? / How old are ...?
+I think more neighborhoods will ... / umbrella stand / Is there a post office ...? / How old are ...?
 
 【ポイント6】
 種別: ライティング
-見出し: 場所の下線と、サービスの将来
-・そこで見つけたサービスについて答える ← Do you think
+見出し: 場所の下線と、条件付きサービスの将来
+・そこで見つけた雨の日のサービスについて答える ← Do you think
 ・質問2つは、下線の場所について。本文にある事実は聞かない
 ・本文の目安は40〜50語
 
@@ -293,7 +293,7 @@ I think more neighborhoods will ... / without buying a new game / Is there a pos
 ●枠の下の Best wishes, の後にあなたの名前を書く必要はありません。
 
 Hi!
-I joined <u>a map club</u> this spring. About twelve students draw maps of streets near our school. Last Sunday, we walked for an hour and marked every bench. The leader asked us to check each other's maps before we went home. When I saw that, I thought checking each other's work was very useful. Do you think checking each other's work will become more useful in the future?
+I joined <u>a map club</u> this spring. About twelve students draw maps of streets near our school. Last Sunday, we walked for an hour and marked every bench. The leader asked us to leave a short note on each map about one hard corner. When I saw that, I thought keeping a short daily record was very useful. Do you think keeping short records will become more useful in the future?
 Your friend,
 Sam
 
@@ -310,22 +310,22 @@ Best wishes,
 
 【参考解答】
 ■ この問題で求められること
-下線は参加した活動（a map club）の1か所です。活動の描写のあと、そこから得た考え（互いの作業を確認すること）を書き、その考えの将来を聞いています。返信では確認の質問に理由を1つつけて答え、下線のクラブについて本文にないことを2つ聞きます。人数、先週の日曜、ベンチ、リーダーの確認は聞かないでください。本文の目安は40〜50語です。
+下線は参加した活動（a map club）の1か所です。活動の描写のあと、そこから得た考え（短い記録を残すこと）を書き、その考えの将来を聞いています。返信では記録の質問に理由を1つつけて答え、下線のクラブについて本文にないことを2つ聞きます。人数、先週の日曜、ベンチ、難しい曲がり角のメモは聞かないでください。本文の目安は40〜50語です。
 
 ■ 書き方のポイント
-・最初に I think checking each other's work will ... で考えの質問に答える
+・最初に I think keeping short records will ... で考えの質問に答える
 ・理由は1文
 ・質問は会費と、新しいメンバーの持ち物など、本文にないこと
 
 ■ 参考解答の例
-I think checking each other's work will become more useful in the future. A small mistake is easier to find when another person looks once. I have two questions. How much does it cost to join? What should new members bring?
+I think keeping short records will become more useful in the future. A later reader can act on one clear note without asking again. I have two questions. How much does it cost to join? What should new members bring?
 
 ■ 表現のメモ
-I think checking each other's work will ... / when another person looks / How much does it cost ...? / What should new members bring?
+I think keeping short records will ... / one clear note / How much does it cost ...? / What should new members bring?
 
 【ポイント7】
 種別: ライティング
-見出し: 活動の下線と、考えの将来
+見出し: 活動の下線と、短い記録の将来
 ・活動から得た考えについて答える ← Do you think
 ・質問2つは、下線の活動について。本文にある事実は聞かない
 ・本文の目安は40〜50語
