@@ -5,9 +5,9 @@ choice primary keys, so shuffling does not affect scoring. Reading comprehension
 and listening illustration are excluded: explanations reference fixed choice
 numbers, and illustration choices (1/2/3) refer to fixed positions in the image.
 
-Listening conversation/passage explanations also use fixed choice numbers in the
-source text; after shuffle those numbers are remapped to the display order so
-learners can match 「選択肢の文言」 with the on-screen 1–4 labels.
+Explanations cite the canonical choice number (``Choice.order``). After shuffle
+those labels are remapped to the on-screen 1–4 position. Quantity words
+(2文目, 4時, 11歳), ``・3人``, and ``Number 3 train`` are not choice labels.
 """
 
 from __future__ import annotations
@@ -24,9 +24,21 @@ CHOICE_SHUFFLE_QUESTION_TYPES = frozenset({
 })
 
 # Canonical choice numbers in explanations (DB ``order``) → display labels.
-# Matches: 1「…」, 2が正解, 2・4の家 (both sides of ・). Skips multi-digit (e.g. No.41).
+# Each alternative captures the digit only.
+#   1「…」 / 2が正解
+#   2・4の…  (left digit, then the digit after ・ when it introduces 「 or の)
+#   2 は、 / 1 の… / 3 も… / 3 と 2 は
+#   。 or line start + ``1 suitcase`` (not ``Number 3 train``)
+#   合うのは 1 だけ / になるのは 1 です
+# Skips multi-digit (No.41, 1.20, 20枚) and counters (2文目, 4時, ・3人, June 2).
 _EXPLANATION_CHOICE_NUM_RE = re.compile(
-    r'(?<!\d)([1-4])(?=「|が正解|・)|(?<=・)([1-4])(?!\d)'
+    r'(?<!\d)([1-4])(?=「|が正解)'
+    r'|(?<!\d)([1-4])(?=・[1-4])'
+    r'|(?<=・)([1-4])(?=「|の)'
+    r'|(?<!\d)([1-4])(?= は| の| も)'
+    r'|(?<!\d)([1-4])(?= と [1-4] は)'
+    r'|(?:(?<=^)|(?<=。)|(?<=\n))([1-4])(?= [A-Za-z])'
+    r'|(?<=のは )([1-4])(?= だけ| です)'
 )
 
 ChoiceT = TypeVar('ChoiceT')
@@ -62,7 +74,7 @@ def remap_explanation_choice_numbers(
         return text
 
     def _replace(match: re.Match) -> str:
-        canonical = int(match.group(1) or match.group(2))
+        canonical = int(next(group for group in match.groups() if group))
         return str(order_to_display.get(canonical, canonical))
 
     return _EXPLANATION_CHOICE_NUM_RE.sub(_replace, text)

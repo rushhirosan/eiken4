@@ -195,7 +195,7 @@ B : I'll change before we leave.
 ---
 
 問題8:
-A : The albums are in the third-floor room with the painters. The painters are not in the room under that one. Mio is bringing more albums and said to meet her upstairs.
+A : The albums can't stay in the third-floor room with the painters. The room under them is empty, so that is where we keep the albums. Mio is bringing more, but she said to meet her upstairs.
 B : Then I'll wait for her in the painters' room.
 A : She named the wrong room. We should ( ).
 B : I'll tell her on the way.
@@ -210,14 +210,14 @@ B : I'll tell her on the way.
 4. take every album to the room under the painters
 
 【解説8】
-アルバムは、ペンキ屋がいる3階の部屋にあります。ペンキ屋は、その下の部屋にはいません。Mio はアルバムをさらに持ってきて、上の階で会おうと言いました。その部屋の指定は違うので、アルバムは全部、ペンキ屋のいる部屋の下へ運びます。
-1 は、Mio の言った上の階で会う、です。部屋の指定が違います。2 は、アルバムをペンキ屋に預けたまま、です。3 は、Mio の分だけ上に残して、古い分だけ下ろす、です。全部を下の部屋へ運びます。
+アルバムは、ペンキ屋のいる3階の部屋には置けません。その下の部屋は空いているので、アルバムはそこに置きます。Mio はさらに持ってきますが、上の階で会おうと言いました。部屋の指定が違うので、アルバムは全部、ペンキ屋の部屋の下へ運びます。
+1 は、Mio の言った上の階で会う、です。部屋の指定が違います。2 は、アルバムをペンキ屋の部屋に置いたまま、です。置けません。3 は、Mio の分だけ上に残して、古い分だけ下ろす、です。全部を下の部屋へ運びます。
 
 【ポイント8】
 種別: 会話
-見出し: 人のいる階と、指定された階を分けて運ぶ
-・アルバムはペンキ屋のいる3階にある
-・ペンキ屋は、その下の部屋にはいない
+見出し: 置けない階と、空いている下の部屋を分けて運ぶ
+・アルバムはペンキ屋のいる3階には置けない
+・その下の部屋は空いていて、置く場所はそこ
 ・Mio の「上の階」は部屋の指定が違う
 
 ---
@@ -307,7 +307,7 @@ B : I'll do that before I carry it in.
 ---
 
 問題12:
-A : Dragging your foot on the ground will stop the bike, but it isn't a repair. The pump at your apartment doesn't fit a loose brake. The shop in town repairs that kind, and the bus stops outside it.
+A : Dragging your foot on the ground will stop the bike, but it isn't a repair. The pump at your apartment only fills tires, so it can't fix a loose brake. The shop in town repairs that kind, and the bus stops outside it.
 B : My brake is the loose one. I ride this bike every day.
 A : Then your brake is the kind that shop knows. You should ( ).
 B : I'll go there after school.
@@ -322,14 +322,14 @@ B : I'll go there after school.
 4. take the bike to the shop in town
 
 【解説12】
-足を地面に擦って止めることはできますが、修理ではありません。アパートの空気入れは、緩んだブレーキには合いません。町の店がその種類を直していて、バスはその店の外に止まります。B のブレーキは緩んだ種類なので、自転車をその店へ持っていきます。
-1 は、足を擦って毎日乗り続ける、です。修理になりません。2 は、バスに乗って自転車を家に残す、です。バスは店の場所の話です。3 は、合わない空気入れを店へ持っていく、です。
+足を地面に擦って止めることはできますが、修理ではありません。アパートの空気入れはタイヤに空気を入れるだけで、緩んだブレーキは直せません。町の店がその種類を直していて、バスはその店の外に止まります。B のブレーキは緩んだ種類なので、自転車をその店へ持っていきます。
+1 は、足を擦って毎日乗り続ける、です。修理になりません。2 は、バスに乗って自転車を家に残す、です。バスは店の場所の話です。3 は、タイヤ用の空気入れを店へ持っていく、です。ブレーキの修理にはなりません。
 
 【ポイント12】
 種別: 会話
 見出し: 応急と、合わない道具を分けて、直せる店へ持っていく
 ・足を擦るのは止まり方で、修理ではない
-・アパートの空気入れは緩んだブレーキに合わない
+・アパートの空気入れはタイヤ用で、緩んだブレーキは直せない
 ・町の店がその種類を直す。バスはその店の外に止まる
 
 ---
@@ -391,9 +391,9 @@ B : I'll take it over now.
 ---
 
 問題15:
-A : You have ten minutes with the baker. Your questions aren't written yet. The club camera is booked, but your brother can lend you his.
+A : You have ten minutes with the baker, so write your questions at home first. The club camera is booked, but your brother can lend you his.
 B : I was going to film with the club camera.
-A : The questions still have to be ready. Our camera doesn't. Take ( ).
+A : The questions still have to be ready before the shop. For filming, take ( ).
 B : I'll ask him tonight.
 
 選択肢15:
@@ -406,15 +406,15 @@ B : I'll ask him tonight.
 1. the camera your brother can lend you
 
 【解説15】
-パン屋とは10分だけ話せます。質問はまだ書いてありません。部のカメラは予約済みですが、兄が自分のカメラを貸してくれます。質問は用意する必要があります。部のカメラは使えなくてよいので、兄が貸せるカメラを持っていきます。
+パン屋とは10分だけ話せるので、質問は先に家で書きます。部のカメラは予約済みですが、兄が自分のカメラを貸してくれます。質問は店に行く前に用意する必要があり、撮影用には兄が貸せるカメラを持っていきます。
 2 は、予約済みの部のカメラです。3 は、店で質問を書くのに10分使う、です。10分はパン屋と話す時間です。4 は、パン屋のカメラ、です。貸してくれるのは兄です。
 
 【ポイント15】
 種別: 会話
-見出し: 予約済みの機材と、貸してもらえる機材を分ける
-・パン屋と話せるのは10分
-・質問はまだ書いていない
-・部のカメラは予約済みで、兄が貸してくれる
+見出し: 質問は家で用意し、撮影は貸してもらえるカメラで
+・パン屋と話せるのは10分。質問は先に家で書く
+・部のカメラは予約済み
+・兄が自分のカメラを貸してくれる
 
 ---
 
@@ -560,8 +560,8 @@ B : I'll leave the lunch page out.
 
 問題21:
 A : The study room is silent. If you read aloud, you are sent out. The shoe boxes are too loud, so you can't hear each other there.
-B : We need to practice our lines together.
-A : The study room won't let you speak, and the shoe boxes won't let you hear. Practice ( ).
+B : We need to practice our lines together. Can we use either place?
+A : No. One stops you from speaking, and the other stops you from hearing. Practice ( ).
 B : We'll look for a place like that.
 
 選択肢21:
@@ -574,7 +574,7 @@ B : We'll look for a place like that.
 2. where you can hear each other and still talk
 
 【解説21】
-自習室は静かで、声に出して読むと出されます。下駄箱はうるさすぎて、お互いの声が聞こえません。一緒にせりふを練習する必要があるので、聞こえて、しかも話せる場所で練習します。
+自習室は静かで、声に出して読むと出されます。下駄箱はうるさすぎて、お互いの声が聞こえません。一緒にせりふを練習する必要があり、どちらの場所も使えません。片方は話せなくし、もう片方は聞こえなくするので、聞こえて、しかも話せる場所で練習します。
 1 は、自習室で声に出して読む、です。出されます。3 は、下駄箱のあいだ、です。聞こえません。4 は、出されたあとの静かな部屋、です。話せません。
 
 【ポイント21】
@@ -582,7 +582,7 @@ B : We'll look for a place like that.
 見出し: 話せない部屋と、聞こえない場所の両方を外す
 ・自習室は静かで、声に出すと出される
 ・下駄箱はうるさすぎて、お互いの声が聞こえない
-・せりふは一緒に練習する必要がある
+・どちらの場所も使えず、せりふは一緒に練習する必要がある
 
 ---
 
@@ -671,30 +671,30 @@ B : We'll go that way.
 ---
 
 問題25:
-A : Don't wait under the clock. The meeting point is the flower shop at the east exit. Yuki looks under the clock and doesn't read her phone on the train. The staff there can pass her a note.
+A : Meet at the flower shop at the east exit, not under the clock. Yuki always checks the clock first, and she doesn't read her phone on the train. The shop staff can give her a note.
 B : I was going to text her from the train.
 A : She won't read it. Please ( ).
 B : I'll call the shop.
 
 選択肢25:
 1. wait under the clock and text her
-2. send her from the clock to the flower shop
+2. ask the shop to send her from the clock to the flower shop
 3. tell her to read the message on the train
 4. meet her under the clock at the east exit
 
 【正解25】
-2. send her from the clock to the flower shop
+2. ask the shop to send her from the clock to the flower shop
 
 【解説25】
-時計の下で待ってはいけません。待ち合わせは東口の花屋です。Yuki は時計の下を見て、電車の中では電話を読みません。そこの店員がメモを渡せます。電車のメッセージは読まないので、時計の下から花屋へ向かわせます。
+待ち合わせは東口の花屋で、時計の下ではありません。Yuki はまず時計の下を見に行き、電車の中では電話を読みません。花屋の店員がメモを渡せます。電車のメッセージは読まないので、花屋に頼んで、時計の下から花屋へ向かわせます。
 1 は、時計の下で待ってメールする、です。待ってはいけず、電車では読みません。3 は、電車の中でメッセージを読むよう言う、です。読みません。4 は、東口の時計の下で会う、です。待ち合わせは花屋です。
 
 【ポイント25】
 種別: 会話
-見出し: 見てしまう場所から、本当の待ち合わせへ案内する
-・時計の下で待ってはいけない
-・待ち合わせは東口の花屋
-・Yuki は時計の下を見て、電車では電話を読まない。店員がメモを渡せる
+見出し: 見てしまう場所から、本当の待ち合わせへ店経由で案内する
+・待ち合わせは東口の花屋。時計の下ではない
+・Yuki はまず時計の下を見に行き、電車では電話を読まない
+・花屋の店員がメモを渡せる
 
 ---
 

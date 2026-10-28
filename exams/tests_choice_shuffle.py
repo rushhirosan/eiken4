@@ -1,7 +1,11 @@
+import re
+from collections import Counter
+from pathlib import Path
+from unittest.mock import patch
+
 from django.contrib.auth import get_user_model
 from django.test import Client, RequestFactory, TestCase
 from django.urls import reverse
-from unittest.mock import patch
 
 from exams.choice_shuffle import (
     apply_choice_shuffle_to_items,
@@ -366,3 +370,179 @@ class ChoiceShuffleIntegrationTest(TestCase):
         self.assertIn('4「At school.」が正解です', item['explanation'])
         self.assertIn('2「At the library.」は今日の予定', item['explanation'])
         self.assertIn('3・1の家は会話に出てきません', item['explanation'])
+
+
+class _Order:
+    def __init__(self, order):
+        self.order = order
+
+
+def _reversed_choices():
+    """Display order 4,3,2,1 → canonical 1→4, 2→3, 3→2, 4→1."""
+    return [_Order(4), _Order(3), _Order(2), _Order(1)]
+
+
+class ExplanationChoiceNumberRemapTest(TestCase):
+    """Choice labels in explanations follow the shuffled 1–4 shown on screen."""
+
+    def test_pre2_conversation_wa_follows_screen_order(self):
+        # Screen order from the reported results: source 1,3,4,2.
+        display = [_Order(1), _Order(3), _Order(4), _Order(2)]
+        explanation = (
+            '残りの6個も見える必要があるので、その窓に出します。\n'
+            '2 は、塗装中で空いていない会議室です。'
+            '3 は、6個までの棚に残りも載せる、です。'
+            '4 は、正面ホールに向いている窓を、ホールから見えない場所にするものです。'
+        )
+        remapped = remap_explanation_choice_numbers(explanation, display)
+        self.assertIn('4 は、塗装中で空いていない会議室です。', remapped)
+        self.assertIn('2 は、6個までの棚に残りも載せる、です。', remapped)
+        self.assertIn('3 は、正面ホールに向いている窓を、ホールから見えない場所にするものです。', remapped)
+
+    def test_pre2_conversation_correct_choice_is_not_described_as_distractor(self):
+        # Screen order: source 4,1,2,3. 「1 は」 must not stay on the correct choice.
+        display = [_Order(4), _Order(1), _Order(2), _Order(3)]
+        explanation = (
+            '足りない10枚を刷ります。\n'
+            '1 は、1枚を全員で見る、です。1枚では全員に行き渡りません。'
+            '2 は、違う種類の地図をコピーする、です。'
+            '3 は、コピー機が直るまで待つ、です。'
+        )
+        remapped = remap_explanation_choice_numbers(explanation, display)
+        self.assertIn('2 は、1枚を全員で見る、です。', remapped)
+        self.assertIn('1枚では全員に行き渡りません。', remapped)
+        self.assertIn('3 は、違う種類の地図をコピーする、です。', remapped)
+        self.assertIn('4 は、コピー機が直るまで待つ、です。', remapped)
+        self.assertNotIn('1 は、1枚を全員で見る', remapped)
+
+    def test_pre2_grammar_english_label_and_sentence_counter(self):
+        explanation = (
+            '2文目が、空所の語の意味を決めています。\n'
+            '1 suitcase は旅行かばんです。2 receipt はレシートです。'
+            'because の中身と合うのは 1 だけです。'
+        )
+        remapped = remap_explanation_choice_numbers(explanation, _reversed_choices())
+        self.assertIn('2文目が、空所の語の意味を決めています。', remapped)
+        self.assertIn('4 suitcase は旅行かばんです。', remapped)
+        self.assertIn('3 receipt はレシートです。', remapped)
+        self.assertIn('合うのは 4 だけです。', remapped)
+
+    def test_pre2_listening_no_to_and_mo(self):
+        explanation = (
+            '正午・3人で席を予約しています。\n'
+            '1 の家で料理する、とは言っていません。2 の eleven は弟の仕事が終わる時刻です。\n'
+            '1 は、一人の読書は残ります。3 と 2 は、食事の規則は変えない、と反対です。\n'
+            '1 は、放課後の練習用です。3 も体育館のキットで、1時より前の傷はキットです。'
+        )
+        remapped = remap_explanation_choice_numbers(explanation, _reversed_choices())
+        self.assertIn('正午・3人で席を予約しています。', remapped)
+        self.assertIn('4 の家で料理する', remapped)
+        self.assertIn('3 の eleven は', remapped)
+        self.assertIn('4 は、一人の読書は残ります。2 と 3 は、食事の規則は変えない', remapped)
+        self.assertIn('4 は、放課後の練習用です。2 も体育館のキットで、1時より前の傷はキットです。', remapped)
+
+    def test_quantities_and_unrelated_digits_stay(self):
+        explanation = (
+            'June 2 が、いつまでに出すかを決めています。'
+            'Number 3 train to the museum.（3番電車）'
+            'B の板は1.20メートルです。11歳から14歳。No.41 is ready。'
+            '4 は1時間を返す。3 は20枚を手で書き直す。1 は、2年生の絵を飾る。'
+            '事務所は1階。辞書は3段目。'
+        )
+        remapped = remap_explanation_choice_numbers(explanation, _reversed_choices())
+        self.assertIn('June 2 が、いつまでに出すか', remapped)
+        self.assertIn('Number 3 train', remapped)
+        self.assertIn('3番電車', remapped)
+        self.assertIn('1.20メートル', remapped)
+        self.assertIn('11歳から14歳', remapped)
+        self.assertIn('No.41 is ready', remapped)
+        self.assertIn('1 は1時間を返す', remapped)
+        self.assertIn('2 は20枚を手で書き直す', remapped)
+        self.assertIn('4 は、2年生の絵を飾る', remapped)
+        self.assertIn('事務所は1階', remapped)
+        self.assertIn('辞書は3段目', remapped)
+
+    def test_original_explanations_keep_non_choice_digits(self):
+        root = Path(__file__).resolve().parents[1] / 'data' / 'questions' / 'original'
+        names = (
+            'grammar_fill_questions.txt',
+            'conversation_questions.txt',
+            'listening_conversation_questions.txt',
+            'listening_passage_questions.txt',
+        )
+        protected = (
+            re.compile(r'(?<!\d)[1-4]文目'),
+            re.compile(r'(?<!\d)[1-4]時'),
+            re.compile(r'(?<!\d)[1-4]階'),
+            re.compile(r'(?<!\d)[1-4]人'),
+            re.compile(r'(?<!\d)[1-4]枚'),
+            re.compile(r'(?<!\d)[1-4]年生'),
+            re.compile(r'(?<!\d)[1-4]回'),
+            re.compile(r'(?<!\d)[1-4]月'),
+            re.compile(r'(?<!\d)[1-4]分'),
+            re.compile(r'(?<!\d)[1-4]本'),
+            re.compile(r'(?<!\d)[1-4]段'),
+            re.compile(r'(?<!\d)[1-4]つ'),
+            re.compile(r'(?<!\d)[1-4]羽'),
+            re.compile(r'(?<!\d)[1-4]席'),
+            re.compile(r'(?<!\d)[1-4]歳'),
+            re.compile(r'・[1-4](?!「|の)'),
+            re.compile(r'June [1-4]'),
+            re.compile(r'Number [1-4] [A-Za-z]'),
+            re.compile(r'[1-4]\.[0-9]+'),
+            re.compile(r'(?<![0-9])[1-4][0-9]'),
+            re.compile(r'No\.[0-9]+'),
+        )
+        must_change = {
+            'levelpre2/grammar_fill_questions.txt',
+            'levelpre2/conversation_questions.txt',
+            'levelpre2/listening_conversation_questions.txt',
+            'levelpre2/listening_passage_questions.txt',
+        }
+        must_stay = {
+            'level5/grammar_fill_questions.txt',
+            'level5/conversation_questions.txt',
+            'level4/grammar_fill_questions.txt',
+            'level3/grammar_fill_questions.txt',
+        }
+        display = _reversed_choices()
+        for level in ('level5', 'level4', 'level3', 'levelpre2'):
+            for name in names:
+                path = root / level / name
+                if not path.exists():
+                    continue
+                rel = f'{level}/{name}'
+                changed = 0
+                total = 0
+                for explanation in _explanation_bodies(path.read_text(encoding='utf-8')):
+                    total += 1
+                    remapped = remap_explanation_choice_numbers(explanation, display)
+                    before = _token_counts(explanation, protected)
+                    after = _token_counts(remapped, protected)
+                    self.assertEqual(
+                        before,
+                        after,
+                        f'{rel} rewrote a non-choice digit',
+                    )
+                    if remapped != explanation:
+                        changed += 1
+                if rel in must_change:
+                    self.assertEqual(changed, total, rel)
+                if rel in must_stay:
+                    self.assertEqual(changed, 0, rel)
+
+
+def _explanation_bodies(text):
+    bodies = []
+    for part in text.split('\n---\n'):
+        match = re.search(r'【解説\d+】\n(.*?)(?:\n【ポイント|\Z)', part, re.S)
+        if match:
+            bodies.append(match.group(1).strip())
+    return bodies
+
+
+def _token_counts(text, patterns):
+    counts = Counter()
+    for pattern in patterns:
+        counts.update(match.group() for match in pattern.finditer(text))
+    return counts
