@@ -1,1121 +1,1120 @@
 問題1:
-A : Are you going to the clean-up on Sunday? It starts at nine in the morning by the bridge near the river. Ken will have bags there after noon.
-B : I have a piano lesson until noon. I need to buy gloves on the way.
-A : Then you can ( ). The group stays there after your lesson.
-B : Great. I'll bring the gloves and look for Ken.
+A : Ken is bringing bags for the river clean-up. The shop has gloves, but only in your size, and not enough for his whole group.
+B : Should I ask him for gloves, buy some for his group, or look for a bigger size?
+A : No. He has the bags, and the shop can't cover his group. Please ( ).
+B : All right. I'll ask him when I see him.
 
 選択肢1:
-1. ask Ken for a bag by the bridge
-2. come to the river at nine
-3. skip your piano lesson
-4. buy gloves for the morning group
+1. ask him for a bag
+2. ask Ken for gloves
+3. buy gloves for his group
+4. look for a bigger size at the shop
 
 【正解1】
-1. ask Ken for a bag by the bridge
+1. ask him for a bag
 
 【解説1】
-空所の前で、Ken は正午のあと、橋のそばに袋を持っています。場所は by the bridge near the river の一か所です。B のピアノは正午までなので、開始の9時には間に合いません。Then you can の you は B です。空所は、その袋を Ken に頼む、です。a bag は Ken will have bags の一つです。次の文は、レッスンのあとグループがまだそこにいる、という確認です。手袋は B が途中で自分で買うもので、袋とは別です。
-2 come to the river at nine は9時に川へ来る、です。ピアノが正午までなので間に合いません。3 skip your piano lesson はレッスンをやめる、です。B はやめるとは言っていません。4 buy gloves for the morning group は朝のグループのために手袋を買う、です。手袋は B が自分用に買うもので、朝9時は開始時刻です。
+Ken が川の清掃に袋を持ってきます。店の手袋は B のサイズだけで、Ken のグループ全員には足りません。袋は Ken が持っていて、店ではグループ分をまかなえないので、B は Ken に袋を頼みます。
+2 は、足りない手袋を Ken に頼む、です。3 は、グループの分の手袋を買う、です。店にはその分がありません。4 は、店にない大きいサイズを探す、です。
 
 【ポイント1】
 種別: 会話
-見出し: 空所の前の人と物で、頼む相手を決める
-・袋の持ち主 ← Ken will have bags there
-・場所 ← by the bridge near the river
-・正午までの piano があるので、nine には間に合わない
-・手袋は B が自分で買うもの。袋とは別
+見出し: 持っている人に、足りる物を頼む
+・袋を持ってくる人 ← Ken is bringing bags
+・店の手袋は B のサイズだけで、グループ全員には足りない
+・頼む相手は、袋を持っている Ken
 
 ---
 
 問題2:
-A : This soup is too salty for the guests tonight. I followed the recipe, but I added the salt twice by mistake.
-B : It still smells good. Did you buy these vegetables at the supermarket this morning?
-A : Yes, on my way home. I can ( ). A little water would make the soup better.
-B : Yes, please. I'll get the bowls and call everyone to the table.
+A : This card says the soup should be thin and a little salty, made with water. The jug on the counter is full of water.
+B : I thought the guests would drink that water. I bought the vegetables at the supermarket this morning.
+A : The jug isn't for drinking. I can ( ).
+B : Please do. I'll get the bowls.
 
 選択肢2:
 1. go back to the supermarket for more vegetables
-2. add salt once more and follow the recipe
-3. bring you some water
-4. wash the bowls before we eat
+2. add salt to the soup again
+3. use the jug to thin the soup
+4. pour the jug into the guests' bowls
 
 【正解2】
-3. bring you some water
+3. use the jug to thin the soup
 
 【解説2】
-空所の直後が A little water would make the soup better. です。A は水を持ってくる、と申し出ています。B の Yes, please. はその申し出への返事です。
-1 は、B がスーパーと野菜について聞いた部分を使ったひっかけです。次の文は水の話です。2 は、塩を2回入れてしまった、という失敗をさらに進める提案で、水を足す話と逆です。4 は、B が最後に言う bowls へのひっかけです。A が今すると言っているのは水を足すことです。
+カードには、スープは水で薄く、塩は少し、とあります。カウンターの水差しには水が入っています。その水は客が飲むものではないので、スープを薄めるのに使います。野菜はもう買ってあります。
+1 は、野菜を買い足しにスーパーへ戻る、です。野菜は材料の話で、水差しとは別です。2 は、塩を足す、です。カードは塩を少し、です。4 は、水を客の碗に注ぐ、です。飲むための水ではありません。
 
 【ポイント2】
 種別: 会話
-見出し: 直後の文が申し出の中身
-・水を持ってくる申し出の説明 ← A little water
-・別の文の情報 ← supermarket と salt と bowls
-・申し出への返事 ← Yes, please
+見出し: 容器の中身を、カードの指示に使う
+・水差しの水 ← The jug on the counter is full of water
+・スープは水で薄くする ← thin ... made with water
+・飲む用ではないので、碗には注がない
 
 ---
 
 問題3:
-A : Can you explain the bowls at the pottery exhibit from ten on Saturday?
-B : I have a dentist appointment at ten. I'll be back by noon, and I already printed a card for each bowl.
-A : Then you can ( ). Each card names one bowl, so visitors can read them without you.
-B : I'll put a card in front of every bowl.
+A : Each bowl in the exhibit has a card with its name. You were going to explain the difficult ones to visitors.
+B : I can't stay. Should the cards go in a pile by the door?
+A : People can read. Please ( ).
+B : I'll do that before I leave.
 
 選択肢3:
-1. skip the dentist and stay from ten
-2. put a card in front of every bowl
-3. print the cards again on Saturday morning
-4. explain the bowls to the dentist
+1. explain the difficult bowls before you leave
+2. put each card beside the bowl it names
+3. leave all the cards in a pile by the door
+4. take the cards home and explain them later
 
 【正解3】
-2. put a card in front of every bowl
+2. put each card beside the bowl it names
 
 【解説3】
-空所の次は、カードが器の名前を書いてあるので、いなくても来場者が読める、です。A が勧める場所は、各器の前です。B は10時に歯医者があるので、朝から説明係にはなれません。
-1 は歯医者をやめて10時からいる、ですが、A は予約をやめろとは言っていません。3 は、すでに印刷したカードをもう一度刷る、とは言っていません。4 は歯医者に器を説明する、で、来場者の話ではありません。
+展示の器には、それぞれ名前のカードがあります。B は難しい器を説明するつもりでしたが、残っていられません。来場者はカードを読めるので、各カードを、その名前の器のそばに置きます。
+1 は、残って説明する、です。B は残っていられません。3 は、ドアのそばにまとめて置く、です。どの器の名前か分かりません。4 は、カードを家に持ち帰る、です。来場者が読めなくなります。
 
 【ポイント3】
 種別: 会話
-見出し: カードを置く場所が、説明の代わりになる
-・置く場所 ← in front of every bowl
-・歯医者の時刻で、空所の行動ではない ← ten
-・もう印刷は終わっている ← already printed
+見出し: 説明できないときは、カードを対応する物のそばに置く
+・器ごとに名前のカードがある
+・B は残って説明できない
+・来場者はカードを読める
 
 ---
 
 問題4:
-A : Two choir robes are still too long for Monday's concert. The two singers in the back row need shorter robes so people can see their shoes.
-B : I can sew, but I have basketball until five. Did you tell the conductor?
-A : Yes. She said we may ( ). Practice ends at five, and those two will still be there.
-B : I'll ask them to try the robes after practice.
+A : These two robes are too long. The singers in the back row need their shoes to show, and the conductor has already told them that.
+B : I was going to wear this one anyway.
+A : Then the back row still has the same problem. You should ( ).
+B : I'll look for one that fits.
 
 選択肢4:
-1. cancel basketball and sew at noon
-2. tell the conductor about the robes again
-3. wear the long robes to basketball
-4. ask the two singers in the back to try shorter robes
+1. wear the long robe in the back row
+2. ask the conductor to change the rule
+3. hide your shoes under the robe
+4. try on a shorter robe
 
 【正解4】
-4. ask the two singers in the back to try shorter robes
+4. try on a shorter robe
 
 【解説4】
-1文目で、後ろの列の2人の歌手が短いローブを必要としています。people は、その歌手の靴を見る客です。指揮者にはもう伝えてあります。She said we may のあとは、その2人に短いローブを試させる、です。次の文は、練習が5時に終わり、その2人はまだそこにいる、という確認です。
-1 は昼に縫うためにバスケットを中止する、ですが、A は練習をやめろとは言っていません。2 は、すでに Yes と答えた連絡をもう一度する、ではありません。3 はバスケットに長いローブを着ていく、で、後ろの列の歌手の話ではありません。
+この2着のローブは長すぎます。後ろの列の歌い手は靴が見える必要があり、指揮者もすでにそう言っています。長いものを着ると同じ問題が残るので、短いローブを試着します。
+1 は、長いローブを後ろの列で着る、です。2 は、指揮者に決まりを変えさせる、です。指揮者はすでに伝えています。3 は、ローブの下に靴を隠す、です。見せる必要があります。
 
 【ポイント4】
 種別: 会話
-見出し: 空所の前にいる人が、試着する相手
-・試着する人 ← the two singers in the back row
-・靴を見る人 ← people。歌手とは別
-・Yes と答えた連絡は、もう終わった用事
+見出し: すでに伝えられた条件に合う物を試す
+・2着は長すぎる
+・後ろの列は靴が見える必要がある
+・指揮者はすでにそのことを伝えている
 
 ---
 
 問題5:
-A : I left the class tablet in the science lab. We need the graph on it today.
-B : I can look before lunch, but I also have to return a library book.
-A : Return the book later. Please ( ). The presentation starts at one, but the graph is only on the tablet in the science lab.
-B : All right. I'll check the lab first and meet you outside the hall.
+A : The graph for your presentation is only on the tablet in the science lab. The library book is a different topic.
+B : I was going to read from that book.
+A : The book won't show the graph. Please ( ).
+B : I'll go to the lab now.
 
 選択肢5:
-1. bring the tablet from the science lab
-2. return the library book before you look
-3. start the presentation at one without the graph
-4. leave the tablet in the science lab
+1. bring that tablet back from the science lab
+2. read the library book in the presentation
+3. leave the tablet in the science lab
+4. draw the graph from the library book
 
 【正解5】
-1. bring the tablet from the science lab
+1. bring that tablet back from the science lab
 
 【解説5】
-A は Return the book later. と、本はあとでよいと言ったあとに頼んでいます。次の文は、発表は1時だが、グラフは理科実験室のタブレットにしかない、です。取りに行く場所は実験室です。
-2 は本を先に返す、で、later と逆です。3 は1時にグラフなしで始める、ですが、A はグラフが必要だと言っています。4 は置き忘れたままにする、で、依頼と逆です。
+発表用のグラフは、理科室のタブレットにしか入っていません。図書館の本は別の話題です。本ではグラフを見せられないので、そのタブレットを理科室から戻します。
+2 は、図書館の本を発表で読む、です。話題が違います。3 は、タブレットを理科室に置いたまま、です。グラフを見せられません。4 は、図書館の本からグラフを描く、です。グラフはその本にはありません。
 
 【ポイント5】
 種別: 会話
-見出し: later と言った用事 は空所の依頼ではない
-・取りに行く場所 ← science lab
-・あと回し ← library book
-・代わりのグラフがないという意味 ← only on that tablet
+見出し: 必要なデータがある機器を、置いてある部屋から戻す
+・グラフは理科室のタブレットにしかない
+・図書館の本は別の話題
+・本ではグラフを見せられない
 
 ---
 
 問題6:
-A : The audio club will record Saturday's announcements. We need the voices to be easy to hear, and the music room is booked until eleven.
-B : The nurse's office is busy all morning. The art room is empty after lunch.
-A : Then we should ( ). The art room is quiet enough for voices.
-B : I'll reserve the art room and bring the recorder.
+A : The announcements have to be easy to hear. The art room is empty, the music room is too unclear, and people are talking in the nurse's office.
+B : I have a recorder.
+A : A recorder still needs a quiet room. Use it ( ).
+B : I'll go there.
 
 選択肢6:
-1. record in the music room at nine
-2. use the nurse's office all morning
-3. record in the art room
-4. wait until next week to record
+1. in the music room
+2. in the nurse's office
+3. in the art room
+4. in the room where people are talking
 
 【正解6】
-3. record in the art room
+3. in the art room
 
 【解説6】
-B は、保健室は午前中ずっと忙しく、美術室は昼のあと空いている、と言っています。A の Then we should は、その情報を受けた提案です。次の文は、美術室は声が聞き取れるほど静かだ、です。収録する場所は美術室です。B の I'll reserve the art room も同じです。
-1 は、11時まで予約済みの音楽室を9時に使う、で、1文目と矛盾します。2 は、忙しいと言った保健室です。4 は来週まで待つ、とは言っていません。
+放送は聞き取りやすくする必要があります。美術室は空いていて、音楽室は不明瞭で、保健室では人が話しています。レコーダーがあっても静かな部屋が要るので、美術室で使います。
+1 は、不明瞭な音楽室です。2 は、人が話している保健室です。4 は、人が話している部屋、で、保健室と同じ問題です。
 
 【ポイント6】
 種別: 会話
-見出し: 直前の空き情報を使う ← Then we should
-・収録する場所 ← art room
-・booked until eleven の部屋 は候補から外す
-・午前中は使えない ← nurse's office
+見出し: 聞き取りの条件に合う、空いている部屋を選ぶ
+・放送は聞き取りやすくする必要がある
+・美術室は空いている
+・音楽室は不明瞭、保健室は話し声がある
 
 ---
 
 問題7:
-A : The harbor trip is still on for Saturday. Light rain is forecast for the morning, then sun.
-B : I was going to bring a heavy coat. Should I bring my camera? I don't want it to get wet.
-A : Bring it in a small bag. You can ( ). The outdoor walk starts only after the rain stops.
-B : I'll pack the bag and a light jacket.
+A : The rain is light, not a storm. Your heavy coat is by the door, but the camera has to stay dry. Your light jacket and the small bag are already in your backpack.
+B : I was going to wear the heavy coat and carry the camera in my hand.
+A : You won't need the coat. For the trip, ( ).
+B : I'll change before we leave.
 
 選択肢7:
-1. take the outdoor walk during the morning rain
-2. use the camera on the walk after the rain
-3. leave the camera at home because of the sun
-4. wear the heavy coat for the whole day
+1. wear the heavy coat and leave the camera by the door
+2. wear the light jacket and keep the camera in the small bag
+3. carry the camera in your hand in the rain
+4. leave both the jacket and the bag at home
 
 【正解7】
-2. use the camera on the walk after the rain
+2. wear the light jacket and keep the camera in the small bag
 
 【解説7】
-A は、カメラは小さい袋に入れて持っていく、と言ったあとに You can ( ) と続けています。次の文は、屋外の散歩が始まるのは雨がやんでから、です。だから雨のあとの散歩でカメラを使えば、濡らさずにすみます。
-1 は、朝の雨の間に屋外を歩く、で、only after the rain stops と逆です。3 は家に置いていく、ですが、A は持っていくよう言っています。sun は雨のあとの天気です。4 は一日中厚手のコート、ですが、B は最後に light jacket を選んでいます。A もコートを着続けろとは言っていません。
+雨は弱く、嵐ではありません。厚いコートはドアのそばにありますが、カメラは濡らしてはいけません。軽い上着と小さい袋は、すでにリュックに入っています。コートは不要なので、軽い上着を着て、カメラは小さい袋に入れます。
+1 は、厚いコートを着てカメラをドアのそばに残す、です。カメラは持っていく必要があります。3 は、雨の中でカメラを手に持つ、です。濡らしてはいけません。4 は、上着も袋も家に残す、です。どちらもリュックに入っています。
 
 【ポイント7】
 種別: 会話
-見出し: カメラを使う時刻を決める ← only after
-・雨のあとの散歩が、屋外で使うとき
-・B が持っていく予定だったもの ← heavy coat
-・Bring the camera のあとに、家に置けとは続かない
+見出し: 雨の強さと、すでに持っている物で服装を決める
+・雨は弱く、嵐ではない
+・カメラは濡らしてはいけない
+・軽い上着と小さい袋はリュックに入っている
 
 ---
 
 問題8:
-A : The photo albums are on the third floor of my uncle's house, but that room is being painted on Tuesday.
-B : I told Mio we would start at four. She finishes her piano lesson at three forty and is bringing the extra albums.
-A : Then we should ( ). The second-floor room is free at four thirty, and the paint smell will be gone by Sunday.
-B : I'll text Mio and carry the albums downstairs.
+A : The albums are in the third-floor room with the painters. The painters are not in the room under that one. Mio is bringing more albums and said to meet her upstairs.
+B : Then I'll wait for her in the painters' room.
+A : She named the wrong room. We should ( ).
+B : I'll tell her on the way.
 
 選択肢8:
-1. stay on the third floor during the painting
-2. ask Mio to skip her lesson and come at four
-3. buy another set of albums on Sunday
-4. move Tuesday's visit to the second floor
+1. meet Mio in the painters' room upstairs
+2. leave all the albums with the painters
+3. leave her albums upstairs and bring the old ones down
+4. take every album to the room under the painters
 
 【正解8】
-4. move Tuesday's visit to the second floor
+4. take every album to the room under the painters
 
 【解説8】
-空所の次の文が The second-floor room is free at four thirty です。おじの家の3階は火曜にペンキを塗っているので、A は集まりを2階へ移す提案をしています。B の I'll text Mio も、開始場所が変わる連絡です。
-1 は、塗っている3階に残る、で、1文目と矛盾します。2 は、B が述べたピアノをやめさせる話で、A は three forty のあとに間に合う部屋を示しています。3 は、日曜にもう一度アルバムを買う、で、次の文の four thirty とはつながりません。
+アルバムは、ペンキ屋がいる3階の部屋にあります。ペンキ屋は、その下の部屋にはいません。Mio はアルバムをさらに持ってきて、上の階で会おうと言いました。その部屋の指定は違うので、アルバムは全部、ペンキ屋のいる部屋の下へ運びます。
+1 は、Mio の言った上の階で会う、です。部屋の指定が違います。2 は、アルバムをペンキ屋に預けたまま、です。3 は、Mio の分だけ上に残して、古い分だけ下ろす、です。全部を下の部屋へ運びます。
 
 【ポイント8】
 種別: 会話
-見出し: 空所の次の部屋が、移す先
-・新しい場所の時刻 ← free at four thirty
-・being painted の部屋 はその日は使わない
-・もう一度買う理由にならない ← Sunday
+見出し: 人のいる階と、指定された階を分けて運ぶ
+・アルバムはペンキ屋のいる3階にある
+・ペンキ屋は、その下の部屋にはいない
+・Mio の「上の階」は部屋の指定が違う
 
 ---
 
 問題9:
-A : The display shelf in the entrance holds only six bowls. We fired twelve this morning.
-B : I can pack the extra ones. Should I ask the office for the meeting room?
-A : That room is being painted. We should ( ). The library window is empty until Monday, and it faces the main hall.
-B : I'll take the other six there after school and leave a small sign.
+A : You baked twelve bowls. The shelf by the door can show only six. The meeting room is being painted, so it isn't free. The empty library window faces the main hall.
+B : I could put the extra six in the meeting room.
+A : The extras still have to be on view. They should be ( ).
+B : I'll move them after the first six are on the shelf.
 
 選択肢9:
-1. put the other six bowls in the library window
-2. ask the office for the meeting room before the paint dries
-3. fire another twelve bowls for the entrance shelf
-4. pack all twelve and take them home tonight
+1. in that library window
+2. in the meeting room while it is being painted
+3. on the shelf with the first six
+4. where the main hall can't see them
 
 【正解9】
-1. put the other six bowls in the library window
+1. in that library window
 
 【解説9】
-空所の次は、図書室の窓が月曜まで空いていて、正面ホールに向いている、です。入口の棚は6つしか置けないので、残りの6つはそこへ置く、が A の提案です。B の最後も、放課後に残りを運ぶ、です。
-2 は会議室を頼む、ですが、その部屋は塗装中です。3 はさらに12個焼く、で、すでに焼いた数を増やす話ではありません。4 は12個全部を家へ持ち帰る、ですが、6つは入口の棚に残します。
+焼いた器は12個で、ドアのそばの棚に出せるのは6個です。会議室は塗装中で空いていません。図書室の空いている窓は、正面ホールに向いています。残りの6個も見える必要があるので、その窓に出します。
+2 は、塗装中で空いていない会議室です。3 は、6個までの棚に残りも載せる、です。4 は、正面ホールに向いている窓を、ホールから見えない場所にするものです。
 
 【ポイント9】
 種別: 会話
-見出し: 使えない部屋は、空所の行き先にしない
-・月曜まで空いている ← library window
-・塗装中 ← meeting room
-・入口に残す数 ← six。焼いた数 ← twelve
+見出し: 入りきらない分を、空いていて見える場所に出す
+・12個のうち棚に出せるのは6個
+・会議室は塗装中で空いていない
+・図書室の窓は空いていて、正面ホールに向いている
 
 ---
 
 問題10:
-A : The welcome board is wider than our classroom door. I measured it this morning.
-B : I can cut the sides tonight. Should I ask the art teacher for a new one?
-A : She is away until Monday. We should ( ). The students meet us at the front gate, and that entrance is wide enough.
-B : Then I'll leave the sides uncut and meet you at the gate before homeroom.
+A : This board is wider than the classroom door. I already measured it. Your class meets at the front gate, and that gate is wide enough. The teacher said to keep this board.
+B : I was going to cut it so it fits through the classroom door.
+A : Don't cut it. You should ( ).
+B : We'll carry it out the other way.
 
 選択肢10:
-1. carry this board to the front gate
-2. cut the sides in the classroom tonight
-3. ask the art teacher for a new board before Monday
-4. measure the classroom door again this morning
+1. take this board to the front gate
+2. cut the board to fit the classroom door
+3. meet the class inside the classroom
+4. leave the board because the door is too narrow
 
 【正解10】
-1. carry this board to the front gate
+1. take this board to the front gate
 
 【解説10】
-空所の次は、生徒は正門で待ち、その入口は幅が足りる、です。教室のドアは板より狭いので、切らずに正門へ運ぶのが A の提案です。B の最後も、側面は切らず正門で会う、です。
-2 は今夜教室で側面を切る、で、B の申し出です。A はそれを頼んでいません。3 は月曜より前に美術の先生へ新しい板を頼む、ですが、先生は月曜まで不在です。4 は今朝もう一度ドアを測る、で、A はすでに測り終えています。
+この板は教室のドアより広いです。すでに測ってあります。クラスの集合場所は正門で、正門は十分な幅があります。先生はこの板をそのまま使うと言っているので、切らずに正門へ運びます。
+2 は、教室のドアに合わせて切る、です。切ってはいけません。3 は、教室の中で集合する、です。集合は正門です。4 は、ドアが狭いから板を置いていく、です。板は正門なら通ります。
 
 【ポイント10】
 種別: 会話
-見出し: 狭い入口は行き先にしない
-・wide enough と合うのは front gate
-・B の申し出 ← cut the sides。頼んでいない ← A
-・away until Monday の相手には、今日 は頼めない
+見出し: 測った幅と、集合場所の入口で運び方を決める
+・板は教室のドアより広い。すでに測ってある
+・集合場所は正門で、正門は通る幅がある
+・先生は、この板を切らずに使うと言っている
 
 ---
 
 問題11:
-A : Science fair boards must be under one meter. The hall has no space for taller ones.
-B : Mine is one meter twenty. I can trim it tonight, but I also promised to help the ticket table.
-A : Help the table on Saturday. Please ( ). Judging starts at nine, and tall boards will be turned away.
-B : I'll cut it to under one meter and bring the short one.
+A : The hall turns away any board taller than one meter. 
+B : Mine is 1.20 meters. The title is painted on the extra twenty centimeters, and the rest is one meter. I also promised to run the ticket table.
+A : Another student already has the ticket table. Please ( ).
+B : I'll do that before I carry it in.
 
 選択肢11:
-1. trim the board so it is under one meter
-2. keep the board at one meter twenty
-3. help the ticket table before you cut it
-4. move the judging to Saturday afternoon
+1. cut off the title and keep a one-meter board
+2. bring the 1.20-meter board into the hall
+3. run the ticket table and leave the board outside
+4. paint the title on the one-meter part and keep the extra
 
 【正解11】
-1. trim the board so it is under one meter
+1. cut off the title and keep a one-meter board
 
 【解説11】
-A は Help the table on Saturday. と、切符係は土曜でよいと言っています。次の文は、審査は9時で、高いボードは断られる、です。必要なのは、1メートル未満に切ることです。B の cut it to under one meter も同じです。
-2 は1.2メートルのまま、で、under one meter と矛盾します。3 は切る前に切符係を手伝う、ですが、A はその手伝いを土曜まで遅らせています。4 は審査を午後に移す、とは言っていません。
+ホールは、1メートルより高い板を受け取りません。B の板は1.20メートルで、はみ出した20センチに題名が描いてあり、残りは1メートルです。チケット机は別の生徒がすでに担当しています。題名の部分を切り、1メートルの板にします。
+2 は、1.20メートルのまま持ち込む、です。受け取ってもらえません。3 は、チケット机をやり、板を外に残す、です。机は別の生徒の担当です。4 は、題名を1メートルの部分に描き足して、はみ出しも残す、です。高いままです。
 
 【ポイント11】
 種別: 会話
-見出し: 切る長さが、空所の中身
-・上限 ← under one meter
-・今の長さ ← one meter twenty
-・切符係は先ではない ← on Saturday
+見出し: はみ出した部分と、もう埋まっている係を分けて切る
+・1メートルより高い板はホールが受け取らない
+・はみ出した20センチが題名で、残りは1メートル
+・チケット机は別の生徒がすでに担当している
 
 ---
 
 問題12:
-A : The bike room under our apartment is open on weekdays, but Thursday afternoon is for the delivery bikes only.
-B : My brake is loose. I was going to go at three. The shop in town closes at four.
-A : Use the room another day, or go to town. You can ( ). The delivery riders have booked every pump from one to five.
-B : I'll take the bus to the shop and be back before dinner.
+A : Dragging your foot on the ground will stop the bike, but it isn't a repair. The pump at your apartment doesn't fit a loose brake. The shop in town repairs that kind, and the bus stops outside it.
+B : My brake is the loose one. I ride this bike every day.
+A : Then your brake is the kind that shop knows. You should ( ).
+B : I'll go there after school.
 
 選択肢12:
-1. fix the brake in the room at three
-2. wait until the shop opens on Sunday
-3. join the delivery riders for the afternoon
-4. take the bike to the shop before four
+1. drag your foot and keep riding every day
+2. take the bus and leave the bike at home
+3. carry the apartment pump to the shop
+4. take the bike to the shop in town
 
 【正解12】
-4. take the bike to the shop before four
+4. take the bike to the shop in town
 
 【解説12】
-A は Use the room another day, or go to town. と二つ示したあとに You can ( ) と続けています。次の文は、1時から5時までポンプは配達用の予約、です。B は3時に部屋へ行こうとしていたので、その時間は使えません。B の I'll take the bus to the shop も、町の店を選んだことを示しています。店は4時に閉まるので、その前です。
-1 は3時に部屋で直す、で、booked from one to five と矛盾します。2 は日曜まで待つ、ですが、A は今日町へ行く選択を残しています。3 は配達の人に交ざる、とは言っていません。
+足を地面に擦って止めることはできますが、修理ではありません。アパートの空気入れは、緩んだブレーキには合いません。町の店がその種類を直していて、バスはその店の外に止まります。B のブレーキは緩んだ種類なので、自転車をその店へ持っていきます。
+1 は、足を擦って毎日乗り続ける、です。修理になりません。2 は、バスに乗って自転車を家に残す、です。バスは店の場所の話です。3 は、合わない空気入れを店へ持っていく、です。
 
 【ポイント12】
 種別: 会話
-見出し: or のあとで、使える方を選ぶ
-・部屋が使えない時間 ← one to five
-・町の店の期限 ← closes at four
-・部屋を使う場合の話 ← another day
+見出し: 応急と、合わない道具を分けて、直せる店へ持っていく
+・足を擦るのは止まり方で、修理ではない
+・アパートの空気入れは緩んだブレーキに合わない
+・町の店がその種類を直す。バスはその店の外に止まる
 
 ---
 
 問題13:
-A : I saved two seats for the town play on Friday. The doors open at six, and they close the extra seats at six fifteen.
-B : My cousin wants one, but her train arrives at six thirty. My neighbor is already at the theater.
-A : Then you should ( ). Your cousin's train is too late for the extra seats.
-B : I'll ask my neighbor when the doors open.
+A : The school play is on Sunday. The extra seats close at 6:15, and your cousin's train arrives at 6:30. Your neighbor is already in the theater.
+B : I was going to keep the extra seat for my cousin.
+A : The train is after the seats close. Please ( ).
+B : I'll tell my cousin and call my neighbor.
 
 選択肢13:
-1. give the extra seat to a neighbor
-2. ask the theater to open the doors later
-3. hold the extra seat until six thirty
-4. meet your cousin at the station at six fifteen
+1. give the extra seat to your neighbor
+2. keep the extra seat until 6:30
+3. ask your cousin to take the 6:15 train
+4. save the seat and meet the train at 6:30
 
 【正解13】
-1. give the extra seat to a neighbor
+1. give the extra seat to your neighbor
 
 【解説13】
-B は空所の前で、いとこが6時半に着くことと、隣人がもう劇場にいること、を言っています。予備席は6時15分に閉じます。Then you should のあとは、その予備席を隣人に渡す、です。次の文は、いとこの電車では予備席に間に合わない、という確認です。
-3 は6時半まで席を押さえる、で、six fifteen と矛盾します。2 は開場を遅らせる、とは言っていません。4 は6時15分に駅でいとこに会う、で、劇場にいる隣人へ渡す話ではありません。
+日曜の学校劇で、余分な席は6時15分に締め切られます。いとこが来る電車は6時30分です。隣人はすでに劇場にいます。電車は締め切りのあとなので、余分な席は隣人に渡します。
+2 は、6時30分まで席を取っておく、です。6時15分に締まります。3 は、いとこに6時15分の電車を頼む、です。到着は6時30分です。4 は、席を残して6時30分に電車へ迎えに行く、です。席はそれより前に締まります。
 
 【ポイント13】
 種別: 会話
-見出し: 間に合わない人の代わりに、劇場にいる人へ渡す
-・席を渡す相手 ← My neighbor is already at the theater
-・いとこの到着 ← six thirty
-・予備席が閉じる時刻 ← six fifteen
+見出し: 締め切りと到着の前後で、席を渡す相手を決める
+・余分な席は 6:15 に締め切る
+・いとこの電車は 6:30 に着く
+・隣人はすでに劇場にいる
 
 ---
 
 問題14:
-A : The garden tools have to be back on the rack before the cooking class at four. I still need the small shovel.
-B : I have it. I was going to wash it after practice, and practice ends at three thirty.
-A : Wash it later if you must. Please ( ). The class can use a dirty shovel, but not a missing one.
-B : I'll bring it dirty and wash it after they start.
+A : A dirty shovel still works, but a missing one doesn't. You have it now because practice isn't over.
+B : I was going to wash it first and bring it back after practice.
+A : Practice can wait. Please ( ).
+B : I'll take it over now.
 
 選択肢14:
-1. wash the shovel at the gym before you return it
-2. return the shovel even if it is still dirty
-3. keep the shovel until the cooking class ends
-4. cancel practice so you can wash it at three
+1. wash the shovel and then start practice
+2. return the shovel while it is still dirty
+3. keep the shovel until practice is over
+4. leave practice and buy a new shovel
 
 【正解14】
-2. return the shovel even if it is still dirty
+2. return the shovel while it is still dirty
 
 【解説14】
-A は Wash it later if you must. と、洗うのはあとでよいと言っています。次の文は、汚れたシャベルは使えるが、ないシャベルは使えない、です。規則は、汚れより返却です。B の I'll bring it dirty も同じです。
-1 は戻す前に洗う、で、later と逆です。3 はクラスが終わるまで持っている、で、戻す話と逆です。4 は練習を中止する、とは言っていません。
+汚れたシャベルは使えますが、無いと使えません。B が今持っているのは、練習が終わっていないからです。練習は待てるので、汚れたままで返します。
+1 は、洗ってから練習を始める、です。先に返す必要があります。3 は、練習が終わるまで持っている、です。無いと相手は使えません。4 は、練習をやめて新しいシャベルを買う、です。今持っているものを返せば足ります。
 
 【ポイント14】
 種別: 会話
-見出し: 汚れより、手元にないことの方が困る
-・返してよい状態 ← even if it is still dirty
-・あと回し ← wash it later
-・クラスが使えない状態 ← a missing shovel
+見出し: 汚れていても、無いより先に返す
+・汚れていてもシャベルは使える
+・無いと相手は使えない
+・B が持っているのは、練習が終わっていないから
 
 ---
 
 問題15:
-A : The newspaper interview with the baker was set for Wednesday at lunch. She can only talk for ten minutes.
-B : I haven't written the questions, and the club camera is booked that morning. I could borrow my brother's.
-A : Skip our camera. You should ( ). Ten minutes is short, so a camera you already have is enough.
-B : I'll write the questions and take my brother's camera.
+A : You have ten minutes with the baker. Your questions aren't written yet. The club camera is booked, but your brother can lend you his.
+B : I was going to film with the club camera.
+A : The questions still have to be ready. Our camera doesn't. Take ( ).
+B : I'll ask him tonight.
 
 選択肢15:
-1. use your brother's camera
-2. ask the baker to stay all afternoon
-3. wait until the club camera is free on Wednesday
-4. move the interview to the school cafeteria
+1. the camera your brother can lend you
+2. the club camera that is already booked
+3. ten minutes to write the questions at the shop
+4. the baker's camera for the interview
 
 【正解15】
-1. use your brother's camera
+1. the camera your brother can lend you
 
 【解説15】
-A は Skip our camera. と、部のカメラは使わなくてよいと言っています。次の文は、10分は短いので、もう持っているカメラで足りる、です。使う物は兄のカメラです。B の最後の文も同じです。
-3 は水曜に部のカメラが空くのを待つ、で、Skip our camera と逆です。2 は午後ずっと残ってもらう、ですが、ten minutes と合いません。4 は食堂へ場所を移す、とは言っていません。
+パン屋とは10分だけ話せます。質問はまだ書いてありません。部のカメラは予約済みですが、兄が自分のカメラを貸してくれます。質問は用意する必要があります。部のカメラは使えなくてよいので、兄が貸せるカメラを持っていきます。
+2 は、予約済みの部のカメラです。3 は、店で質問を書くのに10分使う、です。10分はパン屋と話す時間です。4 は、パン屋のカメラ、です。貸してくれるのは兄です。
 
 【ポイント15】
 種別: 会話
-見出し: Skip のあとが、代わりに使うもの
-・部のカメラの代わり ← brother's camera
-・短いので、新しい機材は要らない ← ten minutes
-・午後ずっと、ではない
+見出し: 予約済みの機材と、貸してもらえる機材を分ける
+・パン屋と話せるのは10分
+・質問はまだ書いていない
+・部のカメラは予約済みで、兄が貸してくれる
 
 ---
 
 問題16:
-A : Lane three at the pool is closed for repairs until Friday. Our test is on Thursday morning.
-B : I always practice in lane three. Lane one is for beginners, and it is crowded after school.
-A : Come before school. You can ( ). The coach will open lane four at seven for people taking Thursday's test.
-B : I'll be there at seven and leave my bag in the usual place.
+A : Lane 3 is closed, and that is your usual lane. Lane 1 is packed with beginners. The coach unlocked another lane for the names on the test list, and the beginners were told not to use it.
+B : I'm not a beginner. My name is on the test list.
+A : Your name is on that list. You can ( ).
+B : I'll move over before warm-up.
 
 選択肢16:
-1. practice in lane three on Thursday morning
-2. share lane one after school with the beginners
-3. use lane four at seven before school
-4. move the test to Friday afternoon
+1. swim in lane 3, your usual lane
+2. join the beginners in lane 1
+3. practice in the lane the coach unlocked
+4. use the unlocked lane because you are a beginner
 
 【正解16】
-3. use lane four at seven before school
+3. practice in the lane the coach unlocked
 
 【解説16】
-A は Come before school. のあとに You can ( ) と続けています。次の文は、コーチが7時にレーン4を、木曜のテストを受ける人のために開ける、です。B の I'll be there at seven も同じです。
-1 は木曜の朝にレーン3で練習する、ですが、そのレーンは金曜まで修理中です。2 は放課後に初心者のレーン1を使う、で、B が混むと言った時間です。A は before school を勧めています。4 はテストを金曜の午後に移す、とは言っていません。
+いつもの第3コースは閉まっています。第1コースは初心者で混んでいます。コーチは、テスト名簿に名前がある人のために別のコースを開けていて、初心者には使うなと言っています。B の名前はその名簿にあるので、コーチが開けたコースで練習します。
+1 は、閉まったいつもの第3コースです。2 は、初心者で混んでいる第1コースです。4 は、初心者だから開けたコースを使う、です。初心者は使うなと言われています。
 
 【ポイント16】
 種別: 会話
-見出し: 空所の時刻を決める ← Come before school
-・レーン4が開く時刻 ← seven
-・金曜まで使えない ← lane three
-・after school の混み方 は選ばなかった時間
+見出し: 閉まったコースと、名簿で開けたコースを分ける
+・いつもの第3コースは閉まっている
+・第1コースは初心者で混んでいる
+・コーチが開けたコースは、テスト名簿の人用で、初心者は使わない
 
 ---
 
 問題17:
-A : The coat exchange is on Wednesday. Coats with no size card will not go on the tables.
-B : I have a blue coat, but the card is at home. I can get it at lunch. The gym doors open at one.
-A : Then you should ( ). Volunteers stop accepting coats at twelve thirty, even if the doors open later.
-B : I'll go home before lunch and bring the card with the coat.
+A : The coat exchange is on Saturday. Coats with no size card are not put on the tables. The volunteers stop at 12:30, and the gym doors open at 1:00. Your card is at home.
+B : I was going to bring the coat at 1:00, when the doors open.
+A : The volunteers are gone by then. Please ( ).
+B : I'll go home for the card first.
 
 選択肢17:
 1. bring the coat and the card before twelve thirty
-2. put the coat on a table without a card
-3. wait until the gym doors open at one
-4. exchange the coat during Friday's lunch
+2. bring the coat at 1:00 without the card
+3. put the coat on a table and find the card later
+4. wait until the gym doors open
 
 【正解17】
 1. bring the coat and the card before twelve thirty
 
 【解説17】
-空所の次は、ボランティアは12時半に受け付けを止める、ドアが遅れて開いても、です。B は昼にカードを取りに行けると言っていますが、A はそれより前にカードとコートを一緒に持ってくるよう勧めています。B の I'll go home before lunch も同じです。
-2 はカードなしで台に出す、で、1文目の will not be put on the tables と矛盾します。3 は1時の開場まで待つ、ですが、受け付けは12時半に終わります。4 の金曜は本文にありません。
+コートの交換は土曜です。サイズのカードが無いコートはテーブルに出ません。ボランティアは12時30分で終わり、体育館のドアは1時に開きます。カードは家にあります。1時にはボランティアがいないので、12時30分より前にコートとカードを持っていきます。
+2 は、カード無しで1時にコートを持っていく、です。カードが無いとテーブルに出ません。3 は、先にテーブルへ出して、カードはあとで探す、です。カードが無いと出ません。4 は、ドアが開くまで待つ、です。その時刻にはボランティアが終わっています。
 
 【ポイント17】
 種別: 会話
-見出し: 開く時刻と、受け付けが終わる時刻は別
-・コートを受け取らなくなる時刻 ← twelve thirty
-・ドアが開く時刻 ← one
-・no size card のコート は台に出ない
+見出し: 受付が終わる時刻と、ドアが開く時刻を分ける
+・カードの無いコートはテーブルに出ない
+・ボランティアは 12:30 で終わる
+・体育館のドアは 1:00 に開く。カードは家にある
 
 ---
 
 問題18:
-A : The planetarium visit has four empty seats. The bus leaves at eight, and the show starts at ten.
-B : I want to come, but I have a dentist appointment at eight thirty. I'll be back at school by nine thirty.
-A : Then you can ( ). The show is at the museum, and a teacher will wait at the museum door until nine forty-five.
-B : I'll go straight to the museum after the dentist.
+A : There are four empty seats. The teacher is waiting at the museum door. The bus to the museum leaves from school, and you want to see the show, but buses make you sick.
+B : I was going to take that bus with the class.
+A : You can still make the show. You can ( ).
+B : I'll leave now and meet everyone there.
 
 選択肢18:
-1. catch the bus at eight
-2. skip the dentist and ride the bus
-3. ask the planetarium to start the show at nine thirty
-4. meet the teacher at the museum door before nine forty-five
+1. take the bus from school to the museum
+2. wait at school, where the bus leaves
+3. ask the teacher to meet you at school
+4. meet the teacher at the museum door
 
 【正解18】
-4. meet the teacher at the museum door before nine forty-five
+4. meet the teacher at the museum door
 
 【解説18】
-空所の次は、ショーは博物館で、先生が9時45分まで博物館のドアで待つ、です。B は8時半に歯医者があり、9時半に学校へ戻るので、8時のバスには乗れません。A はバスではなく、博物館で合流するよう勧めています。B の I'll go straight to the museum も同じです。
-1 は8時のバスに乗る、で、dentist at eight thirty と矛盾します。2 は歯医者をやめる、とは言っていません。3 はショーの開始を9時半に変える、ですが、starts at ten のままです。
+空席は4つあります。先生は博物館のドアで待っています。博物館行きのバスは学校から出ますが、B は展示を見たい一方で、バスに酔います。展示にはまだ間に合うので、博物館のドアにいる先生と会います。
+1 は、学校から出るバスに乗る、です。B はバスに酔います。2 は、バスが出る学校で待つ、です。先生は博物館にいます。3 は、先生に学校で会うよう頼む、です。先生は博物館のドアで待っています。
 
 【ポイント18】
 種別: 会話
-見出し: バスに乗れなくても、待つ場所が別にある
-・博物館のドアで待つ期限 ← nine forty-five
-・バスの出発 ← eight
-・学校に戻る時刻で、ショーの開始ではない ← nine thirty
+見出し: 酔う乗り物と、待ち人のいる場所を分ける
+・空席は4つある
+・先生は博物館のドアで待っている
+・バスは学校から出るが、B はバスに酔う
 
 ---
 
 問題19:
-A : The cooking class is short of butter. The recipe needs it for the sauce, and the delivery comes after class.
-B : I have some at home. I also bought sugar, but I left it in the gym office.
-A : Leave the sugar. Could you ( )? We start the sauce at ten, and oil will not work in this recipe.
-B : I'll bring the butter and pick up the sugar later.
+A : The sauce needs butter. The recipe can't use oil, and the box that just arrived is oil. You have butter at home. The sugar left in the gym office can stay there.
+B : I was going to pour in the oil from that box.
+A : The recipe won't allow it. Please ( ).
+B : I'll go home and come back.
 
 選択肢19:
-1. bring the sugar from the gym office first
-2. wait for the store delivery and then start
-3. use oil in the sauce instead of butter
+1. pour the oil from the new box into the sauce
+2. use the sugar in the gym office instead of butter
+3. change the recipe so it can use oil
 4. bring the butter from home
 
 【正解19】
 4. bring the butter from home
 
 【解説19】
-A は Leave the sugar. と、砂糖は置いておいてよいと言ったあとに頼んでいます。次の文は、ソースは10時に始め、このレシピでは油は使えない、です。足りない物は家のバターです。B の I'll bring the butter も同じです。
-1 はまず砂糖を持ってくる、で、Leave the sugar と逆です。2 は配達を待つ、ですが、授業のあとなので間に合いません。3 は油で代用する、で、will not work と矛盾します。
+ソースにはバターが要ります。レシピは油を使えず、今届いた箱は油です。バターは家にあります。体育館の事務室に残った砂糖はそのままでよいので、家からバターを持ってきます。
+1 は、届いた箱の油をソースに入れる、です。レシピは油を使えません。2 は、砂糖をバターの代わりにする、です。砂糖は置いたままでよい、とあります。3 は、油が使えるようにレシピを変える、です。レシピは油を使えません。
 
 【ポイント19】
 種別: 会話
-見出し: Leave と言った物 は空所の依頼ではない
-・足りない物 ← butter。別の話 ← sugar
-・代用できない ← oil
-・after class の配達 は今日の役に立たない
+見出し: 使えない届き物と、家にある材料を分ける
+・ソースにはバターが要る
+・レシピは油を使えず、届いた箱は油
+・バターは家にある。砂糖は事務室に置いたままでよい
 
 ---
 
 問題20:
-A : The debate notes are on my desk. We need the page about bus fares, not the page about school lunches.
-B : I can copy it after club, but club ends at six. The copier shuts off at six thirty.
-A : Copy only that page. You should ( ). The meeting is at seven, and the lunch page would confuse people.
-B : I'll copy the fare page and bring the folder.
+A : The page about bus fares is the one we need. The lunch page mixes people up, and both pages would still include that confusing page.
+B : I was going to copy both pages for the group.
+A : Then the mix-up stays in the copy. Give them ( ).
+B : I'll leave the lunch page out.
 
 選択肢20:
-1. copy the lunch page after the meeting
-2. copy only the bus-fare page
-3. leave both pages at home
-4. ask the office to keep the copier on all night
+1. both the bus-fare page and the lunch page
+2. only the page about bus fares
+3. only the lunch page that mixes people up
+4. the confusing page with the fares written over it
 
 【正解20】
-2. copy only the bus-fare page
+2. only the page about bus fares
 
 【解説20】
-A は Copy only that page. と、必要な1ページだけ、と言っています。that は bus fares のページです。次の文は、会合は7時で、昼食のページは人を混乱させる、です。刷る物は運賃のページです。
-1 は会合のあとに昼食のページを刷る、で、only that page と矛盾します。3 は両方を家に置く、で、持ってくる話と逆です。4 は一晩中電源を入れる、とは言っていません。
+必要なのはバス料金のページです。昼食のページは人を混乱させ、両方コピーしてもその紛らわしいページが入ります。混乱がコピーに残るので、バス料金のページだけを渡します。
+1 は、両方のページ、です。紛らわしいページが入ります。3 は、人を混乱させる昼食のページだけ、です。必要なのは料金のページです。4 は、紛らわしいページに料金を書き込む、です。料金のページは別にあります。
 
 【ポイント20】
 種別: 会話
-見出し: 前に指名したページ ← only that page の that
-・必要 ← bus fares。混乱のもと ← school lunches
-・コピー機が止まる時刻は、ページの選び方ではない
-・持っていく期限 ← seven
+見出し: 必要なページと、混乱の元になるページを分ける
+・必要なのはバス料金のページ
+・昼食のページは人を混乱させる
+・両方コピーすると、その紛らわしいページも入る
 
 ---
 
 問題21:
-A : The study room is for silent work after school. Group talk has to use the tables in the hall.
-B : Three of us need to practice a dialogue at four. The hall is noisy near the shoe boxes.
-A : Use the far table. You can ( ). The study room teacher will ask you to leave if you read aloud.
-B : We'll take the hall table away from the door.
+A : The study room is silent. If you read aloud, you are sent out. The shoe boxes are too loud, so you can't hear each other there.
+B : We need to practice our lines together.
+A : The study room won't let you speak, and the shoe boxes won't let you hear. Practice ( ).
+B : We'll look for a place like that.
 
 選択肢21:
-1. practice the dialogue in the study room
-2. practice at the far table in the hall
-3. move the shoe boxes into the study room
-4. wait until the hall is empty at night
+1. in the study room, reading aloud
+2. where you can hear each other and still talk
+3. among the shoe boxes
+4. in the silent room after you are sent out
 
 【正解21】
-2. practice at the far table in the hall
+2. where you can hear each other and still talk
 
 【解説21】
-A は Use the far table. のあとに You can ( ) と続けています。次の文は、声に出して読むと自習室の先生に出るように言われる、です。対話の練習は廊下の、ドアから離れたテーブルでします。B の最後の文も同じです。
-1 は自習室で練習する、で、silent work と矛盾します。3 は下駄箱を自習室へ移す、とは言っていません。noisy near the shoe boxes は、そこを避ける理由です。4 の夜まで待つ、とは言っていません。
+自習室は静かで、声に出して読むと出されます。下駄箱はうるさすぎて、お互いの声が聞こえません。一緒にせりふを練習する必要があるので、聞こえて、しかも話せる場所で練習します。
+1 は、自習室で声に出して読む、です。出されます。3 は、下駄箱のあいだ、です。聞こえません。4 は、出されたあとの静かな部屋、です。話せません。
 
 【ポイント21】
 種別: 会話
-見出し: silent の部屋では、声を出す練習 はできない
-・廊下の静かな方 ← far table
-・自習室から出される理由 ← read aloud
-・避けたい騒音の場所 ← shoe boxes
+見出し: 話せない部屋と、聞こえない場所の両方を外す
+・自習室は静かで、声に出すと出される
+・下駄箱はうるさすぎて、お互いの声が聞こえない
+・せりふは一緒に練習する必要がある
 
 ---
 
 問題22:
-A : The park game requires sports shoes. Players without them cannot enter, and the shoe shop on our street is closed today.
-B : I lent mine to Riku. He has a game until five. The sports store by the station is open until six.
-A : Don't wait for Riku. You should ( ). Our game starts at four, so his shoes will come back too late.
-B : I'll buy a cheap pair by the station and come straight to the park.
+A : You can't enter the game without sports shoes. The shop on your street is closed. Riku still has your shoes because he needs them for his own game. The store at the station has cheap pairs.
+B : I was going to wait until Riku's game is over, or walk to the shop on my street.
+A : You still have to get into the game. You should ( ).
+B : I'll stop at the station on the way.
 
 選択肢22:
-1. borrow Riku's shoes after five
-2. enter the field without shoes
-3. ask the street shop to open for ten minutes
-4. buy shoes by the station before four
+1. wait until Riku brings your shoes back
+2. buy shoes at the shop on your street
+3. enter the game in your regular shoes
+4. buy a cheap pair at the station store
 
 【正解22】
-4. buy shoes by the station before four
+4. buy a cheap pair at the station store
 
 【解説22】
-A は Don't wait for Riku. と言ったあとに勧めています。次の文は、試合は4時開始で、彼の靴は戻るのが遅すぎる、です。駅の店は6時まで開いているので、4時より前に買えば間に合います。B の I'll buy a cheap pair も同じです。
-1 は5時のあと靴を借りる、で、starts at four と矛盾します。2 は靴なしで入る、で、cannot enter と矛盾します。3 は今日閉まっている通りの店を開けてもらう、とは言っていません。
+運動靴が無いと試合に入れません。自宅の通りの店は閉まっています。B の靴は Riku が自分の試合に使うため、まだ持っています。駅の店には安い靴があります。試合には入る必要があるので、駅の店で安い一足を買います。
+1 は、Riku が靴を返すまで待つ、です。Riku は自分の試合にその靴を使います。2 は、閉まっている通りの店で買う、です。3 は、普段の靴で試合に入る、です。運動靴が必要です。
 
 【ポイント22】
 種別: 会話
-見出し: Don't wait のあとは、別の手段
-・試合の開始 ← four。Riku の戻り ← five
-・なしでは不可 ← without them cannot enter
-・closed today の店 は今日の解決にならない
+見出し: 借りられている靴と、閉まっている店を分けて、開いている店で買う
+・運動靴が無いと試合に入れない
+・通りの店は閉まっている
+・靴は Riku が自分の試合に使っている。駅の店には安い靴がある
 
 ---
 
 問題23:
-A : The hallway wall can be used on Friday morning, but only one group may hang pictures.
-B : Our group signed up, and so did the second-years. Their pictures are still wet. Ours dried on Wednesday.
-A : Then your group should ( ). Wet paint can mark the wall, so the teacher will not hang those until next week.
-B : I'll tell the second-years and put our dry pictures on the shelf tonight.
+A : Only one group can hang pictures. Wet paint can't be hung. The second-years' pictures are still wet, and yours are dry.
+B : I was going to give them our signup sheet.
+A : Their paint still isn't dry. You should ( ).
+B : I'll hang ours and leave theirs.
 
 選択肢23:
-1. wait until next week and hang the pictures together
-2. hang the second-year pictures while they are wet
-3. cancel the signup and paint new ones instead
-4. hang your dry pictures, not the wet ones
+1. hang the second-years' pictures
+2. wait until their paint is dry and hang both
+3. give your signup to the second-years
+4. hang your dry pictures and not theirs
 
 【正解23】
-4. hang your dry pictures, not the wet ones
+4. hang your dry pictures and not theirs
 
 【解説23】
-空所の次は、濡れた絵の具は壁に跡がつくので、先生は来週までそれらをかけない、です。規則は、乾いた絵だけかける、です。B のグループの絵は水曜に乾いています。B の put our dry pictures on the shelf も同じです。
-1 は来週まで一緒に待つ、ですが、乾いている側は金曜にかけられます。2 は濡れたまま2年生の絵をかける、で、will not hang those と矛盾します。3 は申し込みを取り消して新しく描く、とは言っていません。
+絵を飾れるのは1グループだけです。塗ったばかりで濡れている絵は飾れません。2年生の絵はまだ濡れていて、B たちの絵は乾いています。2年生の絵はまだ乾いていないので、乾いている自分たちの絵だけを飾ります。
+1 は、2年生の絵を飾る、です。まだ濡れています。2 は、乾くまで待って両方飾る、です。飾れるのは1グループです。3 は、申し込みを2年生に渡す、です。飾れる条件は乾いていることです。
 
 【ポイント23】
 種別: 会話
-見出し: 乾いた方だけが、壁にかけてよい
-・かけてよい状態 ← dried on Wednesday
-・来週まで待つ側 ← still wet
-・濡れた絵をかけない理由 ← mark the wall
+見出し: 飾れる数と、乾いている絵を合わせて選ぶ
+・飾れるのは1グループだけ
+・濡れた絵は飾れない
+・2年生の絵は濡れていて、B たちの絵は乾いている
 
 ---
 
 問題24:
-A : I promised to walk the neighbor's dog on Sunday, before dark. The owner comes home at six.
-B : The student council meeting moved to four. I was going to walk the dog at four thirty.
-A : Walk earlier. You can ( ). The park gate closes at five in winter, and the meeting cannot be skipped.
-B : I'll walk the dog at three and go to the meeting after that.
+A : You promised the dog a walk in the park. The street is too noisy for that. You can't miss the student-council meeting, and the meeting room is next to the park.
+B : I was going to walk him along the street and skip the meeting.
+A : The dog still gets his walk. You can ( ).
+B : We'll go that way.
 
 選択肢24:
-1. walk the dog at four thirty and skip the meeting
-2. ask the owner to come home at four
-3. walk after dark because the gate is open
-4. walk the dog at three, before the meeting
+1. walk the dog along the noisy street
+2. skip the meeting and stay in the park
+3. take the dog into the student-council meeting
+4. walk the dog in the park and then go into the meeting
 
 【正解24】
-4. walk the dog at three, before the meeting
+4. walk the dog in the park and then go into the meeting
 
 【解説24】
-A は Walk earlier. のあとに You can ( ) と続けています。次の文は、冬は公園の門が5時に閉まり、会議は欠席できない、です。会議は4時なので、その前の3時に歩けば、暗くなる前と門の両方に間に合います。B の最後の文も同じです。
-1 は4時半に歩いて会議を休む、で、cannot be skipped と矛盾します。2 は飼い主の帰宅を4時に変える、とは言っていません。3 は暗くなってから歩く、で、before dark と逆です。
+犬を公園で散歩させる約束をしています。通りはうるさすぎます。生徒会の会議は欠かせず、会議室は公園の隣にあります。犬の散歩はしたままにするので、公園を歩いてから会議に入ります。
+1 は、うるさい通りを歩かせる、です。2 は、会議を欠席して公園にいる、です。会議は欠かせません。3 は、犬を会議に連れて入る、です。散歩の場所は公園です。
 
 【ポイント24】
 種別: 会話
-見出し: 動かせない予定の前 ← earlier
-・会議 ← four。門が閉まる時刻 ← five
-・遅い散歩を止める ← before dark と gate closes
-・A が禁じた選択 ← skip
+見出し: 約束した散歩の場所と、欠かせない会議の位置をつなぐ
+・犬の散歩は公園という約束
+・通りはうるさすぎる
+・生徒会は欠かせず、会議室は公園の隣にある
 
 ---
 
 問題25:
-A : Don't wait by the clock. The meeting point is now the flower shop at the east exit.
-B : I told Yuki to look for me under the clock at nine. She doesn't check her phone on the train.
-A : Leave a note with the station staff. You should ( ). She knows the clock, so they can send her to the flower shop.
-B : I'll arrive at eight forty and ask the staff to watch for her.
+A : Don't wait under the clock. The meeting point is the flower shop at the east exit. Yuki looks under the clock and doesn't read her phone on the train. The staff there can pass her a note.
+B : I was going to text her from the train.
+A : She won't read it. Please ( ).
+B : I'll call the shop.
 
 選択肢25:
-1. keep waiting under the clock
-2. tell the staff to send Yuki to the flower shop
-3. meet her at the new shops and skip the note
-4. ask her to check her phone on the train
+1. wait under the clock and text her
+2. send her from the clock to the flower shop
+3. tell her to read the message on the train
+4. meet her under the clock at the east exit
 
 【正解25】
-2. tell the staff to send Yuki to the flower shop
+2. send her from the clock to the flower shop
 
 【解説25】
-この会話は A と B だけです。A は Leave a note with the station staff. と言ったあとに続けています。Yuki は時計の下を知っていて、電話を電車の中で見ません。だから駅員に、東口の花屋へ回すよう頼む、です。B の ask the staff to watch for her も同じです。
-1 は時計の下で待ち続ける、で、Don't wait by the clock と矛盾します。3 はメモをやめる、で、Leave a note と逆です。4 は電車の中で電話を見るよう頼む、ですが、B は she doesn't check her phone と言っています。A はその代わりに駅員を使います。
+時計の下で待ってはいけません。待ち合わせは東口の花屋です。Yuki は時計の下を見て、電車の中では電話を読みません。そこの店員がメモを渡せます。電車のメッセージは読まないので、時計の下から花屋へ向かわせます。
+1 は、時計の下で待ってメールする、です。待ってはいけず、電車では読みません。3 は、電車の中でメッセージを読むよう言う、です。読みません。4 は、東口の時計の下で会う、です。待ち合わせは花屋です。
 
 【ポイント25】
 種別: 会話
-見出し: 本人に届かない連絡は、その場にいる人へ頼む
-・Yuki が知っている古い場所 ← clock
-・新しい待ち合わせ ← east exit の flower shop
-・使えない手段 ← phone on the train
+見出し: 見てしまう場所から、本当の待ち合わせへ案内する
+・時計の下で待ってはいけない
+・待ち合わせは東口の花屋
+・Yuki は時計の下を見て、電車では電話を読まない。店員がメモを渡せる
 
 ---
 
 問題26:
-A : The flute room has two lessons at the same time on Wednesday. The piano student has the room from four to five.
-B : My lesson is supposed to be at four fifteen. I can come earlier, but not after five, because of cram school.
-A : Come before the piano lesson. You can ( ). The teacher will hear you in the practice room from three to three forty.
-B : I'll move my lesson to three and tell my mother.
+A : The piano student has the flute room for the whole session. Two students can't share it. When that room is taken, the teacher hears flute students in the practice room. You have cram school, so you can't wait.
+B : I was going to wait outside the flute room until he finishes.
+A : Your lesson still has to happen. You can ( ).
+B : I'll tell the teacher I'm there.
 
 選択肢26:
-1. share the room with the piano student at four fifteen
-2. come after five when the room is empty
-3. use the practice room from three to three forty
-4. cancel cram school and keep four fifteen
+1. share the flute room with the piano student
+2. wait until the session is over
+3. have your lesson in the practice room
+4. skip the lesson because of cram school
 
 【正解26】
-3. use the practice room from three to three forty
+3. have your lesson in the practice room
 
 【解説26】
-A は Come before the piano lesson. のあとに You can ( ) と続けています。次の文は、先生が3時から3時40分まで練習室で聞く、です。ピアノの予約は4時から5時なので、フルートはその前です。B の I'll move my lesson to three も同じです。
-1 は4時15分に部屋を共有する、ですが、同じ時間に入っている二つを分ける話で、ピアノがその時間を持っています。2 は5時よりあとに来る、で、B の not after five と矛盾します。4 は塾をやめる、とは言っていません。
+ピアノの生徒が、フルート室をその時間ずっと使います。2人では使えません。その部屋がふさがっているとき、先生は練習室でフルートの生徒を聞きます。B は塾があるので待てません。レッスンは行う必要があるので、練習室で受けます。
+1 は、ピアノの生徒とフルート室を一緒に使う、です。2人では使えません。2 は、時間が終わるまで待つ、です。塾があるので待てません。4 は、塾を理由にレッスンをやめる、です。レッスンは行う必要があります。
 
 【ポイント26】
 種別: 会話
-見出し: 重なった予約のどちらを動かすかを決める ← before
-・ピアノの時間 ← four to five
-・空いている練習室 ← three to three forty
-・5時よりあとが無理な理由 ← cram school
+見出し: ふさがった部屋の代わりに、先生が聞ける部屋を使う
+・フルート室はその時間、ピアノの生徒が使う
+・2人では一緒に使えない
+・ふさがっているときは練習室で聞く。塾があるので待てない
 
 ---
 
 問題27:
 A : Used batteries go in the red box by the office, not in the classroom trash. The box is collected on Monday mornings.
-B : I have three from the chess clocks. I was going to throw them away next Tuesday. The office closes at four.
-A : Bring them sooner. Please ( ). Next Tuesday comes after Monday's collection, so they would miss it.
-B : I'll drop them in the red box this Friday afternoon.
+B : I have three from the chess clocks. I can't get to the office until Tuesday.
+A : Tuesday misses Monday's collection. The trash and the clocks are the wrong place. Please ( ).
+B : I'll take them to the office on Monday.
 
 選択肢27:
-1. throw the batteries in the classroom trash on Tuesday
-2. put them in the red box before Monday's collection
-3. ask the office to stay open after four
-4. keep the batteries in the chess clocks
+1. throw the batteries in the classroom trash
+2. put the batteries in the red box on Monday
+3. ask the office to collect them on Tuesday
+4. leave the batteries in the chess clocks
 
 【正解27】
-2. put them in the red box before Monday's collection
+2. put the batteries in the red box on Monday
 
 【解説27】
-A は Bring them sooner. と言っています。次の文は、次の火曜は月曜の回収のあとなので、その回収に間に合わない、です。今週の金曜の午後に赤い箱へ入れれば、次の月曜に出ます。B の I'll drop them in the red box this Friday afternoon も同じです。
-1 は教室のごみに捨てる、で、not in the classroom trash と矛盾します。3 は4時すぎも事務所を開けてもらう、とは言っていません。4 は時計に入れたまま、で、箱へ出す話と逆です。
+使い終わった電池は、教室のごみ箱ではなく、事務室のそばの赤い箱に入れます。その箱は月曜の朝に回収されます。B はチェスの時計から3つ持っていて、事務室には火曜まで行けない、と言っています。火曜では月曜の回収に間に合わないので、月曜に赤い箱へ入れます。
+1 は、教室のごみ箱に捨てる、です。入れる場所ではありません。3 は、火曜に回収してもらう、です。回収は月曜の朝です。4 は、チェスの時計に入れたまま、です。時計は捨て場所ではありません。
 
 【ポイント27】
 種別: 会話
-見出し: 回収日の前に入れないと、その週には出ない
-・回収日 ← Monday
-・その回収のあと ← next Tuesday
-・次の月曜より前 ← this Friday
+見出し: 回収の曜日に、指定の箱へ入れる
+・電池は事務室のそばの赤い箱。教室のごみ箱ではない
+・赤い箱は月曜の朝に回収される
+・火曜では月曜の回収に間に合わない
 
 ---
 
 問題28:
-A : The family photo will be taken again on Sunday, only for cousins who were absent in May. The photographer leaves at noon.
-B : I was absent. I have a dentist appointment at eleven, and I'll be back by eleven forty.
-A : Then you can ( ). The second photo is at eleven fifty, under the big tree, not in the morning with the whole family.
-B : I'll come straight to the tree after the dentist.
+A : Your cousins were missing from the May photo, so they are being photographed under the big tree. The people who were in the May photo are finished. That photo was taken in front of the house.
+B : I wasn't in the May photo.
+A : Then you're in the group that isn't finished. Please ( ).
+B : I'll go over there.
 
 選択肢28:
-1. join the whole family in the morning photo
-2. skip the second photo because of the dentist
-3. be under the big tree at eleven fifty
-4. ask the photographer to wait until afternoon
+1. stand in front of the house with the finished group
+2. skip the photo because you weren't in the May one
+3. come under the big tree
+4. move the finished group under the tree
 
 【正解28】
-3. be under the big tree at eleven fifty
+3. come under the big tree
 
 【解説28】
-空所の次は、2回目の写真は11時50分、大きな木の下で、午前中の家族全員の写真ではない、です。B は11時に歯医者があり、11時40分に戻ります。A は、その2回目に間に合うと言っています。B の I'll come straight to the tree も同じです。
-1 は午前の全員写真に入る、で、not in the morning と矛盾します。2 は2回目をやめる、ですが、eleven forty は eleven fifty に間に合います。4 は午後まで待つ、とは言っていません。leaves at noon は、午後にはいないという意味です。
+いとこたちは5月の写真に写っていなかったので、大きな木の下で撮影しています。5月の写真に写っていた人は撮り終わっています。その写真は家の前で撮りました。B は5月の写真に写っていないので、まだ終わっていないグループです。大きな木の下に来ます。
+1 は、撮り終わったグループと家の前に立つ、です。B はそのグループではありません。2 は、5月の写真にいないから撮影をやめる、です。写っていなかった人が、今撮っています。4 は、撮り終わったグループを木の下へ移す、です。木の下は、写っていなかった人の場所です。
 
 【ポイント28】
 種別: 会話
-見出し: 全員の時刻と、欠席者だけの時刻を分ける
-・欠席者の撮り直し ← eleven fifty
-・5月の全員写真の時間帯 ← morning
-・カメラマンが帰ったあとは撮れない ← noon
+見出し: 写っていなかった人が、今撮っている場所へ行く
+・5月の写真にいない人は、大きな木の下で撮っている
+・5月の写真にいた人は撮り終わっている
+・5月の写真は家の前。B はそこに写っていない
 
 ---
 
 問題29:
-A : The hallway exhibition needs a label under every picture. Pictures without a name will be taken down before the parents arrive at two.
-B : I finished the drawings, but I haven't written the labels. I can do that during lunch. Lunch ends at twelve forty.
-A : Write them in the morning instead. Please ( ). The office removes any picture that has no name.
-B : I'll write a name on each one and tape it up at recess.
+A : The office takes down any picture with no name, and it will not write the names for you. Some pictures already have names and are on the wall. Your labels are still blank.
+B : I thought the office would fill them in.
+A : Yours can't go up like that. You need to ( ).
+B : I'll write them before I hand the pictures in.
 
 選択肢29:
-1. write the labels during lunch
-2. leave the pictures up without names
-3. write a name under every picture
-4. ask the parents to arrive after two
+1. ask the office to write the names
+2. put the pictures up with blank labels
+3. write a name on every label
+4. take down the pictures that already have names
 
 【正解29】
-3. write a name under every picture
+3. write a name on every label
 
 【解説29】
-A は Write them in the morning instead. と、昼ではなく午前に書くよう言っています。次の文は、名前のない絵は事務所が外す、です。必要なのは、すべての絵の下に名前を書くことです。
-1 は昼に書く、で、A が instead で入れ替えた時間です。2 は名前なしのまま飾る、で、taken down と矛盾します。4 は保護者の到着を遅らせる、とは言っていません。
+事務室は、名前の無い絵を下ろし、名前を代わりに書きません。名前の入った絵は、すでに壁に掛かっています。B のラベルはまだ空欄です。事務室は埋めてくれないので、このままでは掲出できません。すべてのラベルに名前を書きます。
+1 は、事務室に名前を書いてもらう、です。書いてくれません。2 は、空欄のラベルのまま掲げる、です。名前が無いと下ろされます。4 は、すでに名前のある絵を下ろす、です。それは壁に掛かったままです。
 
 【ポイント29】
 種別: 会話
-見出し: 名前がない絵は、展示から外れる
-・書くもの ← a name under every picture
-・外される条件 ← no name
-・A が代わりを求めた時間 ← during lunch
+見出し: 代わりに書いてもらえない欄は、自分で埋める
+・名前の無い絵は事務室が下ろす
+・事務室は名前を代わりに書かない
+・名前のある絵はすでに壁にある。B のラベルは空欄
 
 ---
 
 問題30:
-A : The copy shop printer jams on thick paper. Our party posters use that paper.
-B : I can switch to thin paper. The station shop printer is free, and the copy shop closes at six.
-A : Keep the thick paper. You should ( ). The station shop printer does not jam on it.
-B : I'll print them at the station shop and bring them over.
+A : The posters have to be on thick paper. The copy shop jams on that paper. Thin paper would go through, but you can't change the design. The posters are still at the copy shop. The shop at the station is free and doesn't jam on thick paper.
+B : I was going to print them on thin paper so the copy shop would take them.
+A : Then leave the design as it is. You should ( ).
+B : I'll pick them up and go to the station.
 
 選択肢30:
-1. switch the posters to thin paper
-2. wait until the copy shop printer is repaired after six
-3. pin a blank board up and print tomorrow
+1. print the posters on thin paper at the copy shop
+2. change the design so the copy shop won't jam
+3. leave the thick paper at the copy shop
 4. print the thick paper at the station shop
 
 【正解30】
 4. print the thick paper at the station shop
 
 【解説30】
-A は Keep the thick paper. と言っています。次の文は、駅の店のプリンターはその紙では詰まらない、です。使う機械は駅の店の方です。B の I'll print them at the station shop も同じです。
-1 は薄い紙に変える、で、Keep the thick paper と逆です。2 は6時よりあとにコピー店の機械が直るのを待つ、ですが、A は別の機械を勧めています。3 は白紙の板を出して翌日刷る、とは言っていません。
+ポスターは厚い紙でなければなりません。コピー店はその紙で詰まります。薄い紙なら通りますが、デザインは変えられません。ポスターはまだコピー店にあります。駅の店は空いていて、厚い紙では詰まりません。デザインはそのままにするので、厚い紙は駅の店で刷ります。
+1 は、コピー店で薄い紙に刷る、です。厚い紙でなければなりません。2 は、詰まらないようにデザインを変える、です。変えられません。3 は、厚い紙をコピー店に置いたまま、です。その店では詰まります。
 
 【ポイント30】
 種別: 会話
-見出し: 相手の代案を採用しない ← Keep
-・残す ← thick paper。B の代案 ← thin paper
-・詰まる機械の代わり ← station shop printer
-・閉店の時刻は、機械の選び方ではない
+見出し: 指定の紙で詰まる店と、詰まらない店を分ける
+・ポスターは厚い紙。デザインは変えられない
+・コピー店は厚い紙で詰まる。薄い紙なら通る
+・駅の店は空いていて、厚い紙では詰まらない
 
 ---
 
 問題31:
-A : The chess clocks need batteries before Saturday morning's match. The school shop is closed that day and opens on weekday mornings.
-B : I have practice until noon, and the shop closes at eleven. I could ask my brother to buy them.
-A : Ask him this evening. Please ( ). You cannot leave practice, and he can go to the shop.
-B : I'll call him and bring the batteries on Friday.
+A : The clocks need new batteries. Practice keeps you at the gym, and the shop doesn't deliver. It's a long walk. Your brother is already walking to that shop, and you can't step out during drills.
+B : I was going to go to the shop when the drills pause.
+A : The batteries still have to be bought. Please ( ).
+B : I'll ask him before the next drill.
 
 選択肢31:
-1. buy the batteries yourself at noon
-2. wait and buy them on Saturday morning
+1. leave practice and walk to the shop
+2. ask the shop to deliver the batteries
 3. ask your brother to buy the batteries
-4. play Saturday's match without the clocks
+4. wait and buy them when the drills pause
 
 【正解31】
 3. ask your brother to buy the batteries
 
 【解説31】
-試合は土曜の朝で、学校の店はその日は閉まっています。店が開くのは平日の午前だけです。B の練習は正午まで、店は11時に閉まるので、B 自身は行けません。A は Ask him this evening. と、兄に今夜頼むよう言っています。空所は、兄に電池を買ってもらう、です。
-1 は正午に自分で買う、で、closes at eleven と矛盾します。2 は土曜の朝に買う、ですが、店は土曜は閉まり、試合も土曜の朝です。4 は時計なしで試合をする、とは言っていません。
+時計には新しい電池が要ります。練習で B は体育館にいて、店は配達しません。歩いて行くには遠いです。兄はすでにその店へ歩いていて、B はドリルのあいだ席を外せません。電池は買う必要があるので、兄に買ってもらいます。
+1 は、練習を抜けて店まで歩く、です。ドリルのあいだ席を外せません。2 は、店に配達してもらう、です。店は配達しません。4 は、ドリルが止まるまで待って自分で買う、です。席を外せません。
 
 【ポイント31】
 種別: 会話
-見出し: 自分の予定が店の時間と重なるときは、別の人に頼む
-・頼む人 ← brother
-・閉店 ← eleven。練習の終わり ← noon
-・土曜の朝には買えない ← closed that day
-・自分では抜けられない ← cannot leave practice
+見出し: 席を外せない人と、すでに店へ向かっている人を分ける
+・時計には新しい電池が要る。店は配達しない
+・練習で体育館にいて、ドリルのあいだ席を外せない
+・兄はすでにその店へ歩いている
 
 ---
 
 問題32:
-A : The neighborhood picnic forms are due on Wednesday. A form without a parent's signature will not be accepted.
-B : My father is away until Thursday. My mother can sign, but she works late on Tuesday. She is home on Monday night.
-A : Then you should ( ). Thursday is after the deadline, so your father's signature would be too late.
-B : I'll ask my mother on Monday and turn the form in on Tuesday.
+A : The form is due on Thursday. A form with no signature isn't accepted. Your father is away until Friday. Your mother is home and can sign it.
+B : I was going to wait and ask my father on Friday.
+A : The form still needs a signature that arrives in time. You should ( ).
+B : I'll ask her tonight.
 
 選択肢32:
-1. wait until Thursday and ask your father
-2. turn in the form on Wednesday without a signature
-3. ask your mother to sign on Monday night
-4. move the picnic to next week
+1. hand the form in on Thursday with no signature
+2. ask your father to sign it on Friday
+3. ask your mother to sign
+4. hand the form in on Friday with your father's name
 
 【正解32】
-3. ask your mother to sign on Monday night
+3. ask your mother to sign
 
 【解説32】
-空所の次は、木曜は締め切りのあとなので、父の署名では遅い、です。母は火曜の夜は仕事が遅く、月曜の夜は家にいます。A は月曜の夜に母へ頼むよう勧めています。B の I'll ask my mother on Monday も同じです。
-1 は木曜まで父を待つ、で、too late と矛盾します。2 は署名なしで水曜に出す、で、will not be accepted と矛盾します。4 はピクニックを来週に移す、とは言っていません。
+用紙の提出は木曜です。サインが無い用紙は受け付けられません。父は金曜まで留守で、母は家にいてサインできます。期限内に届くサインが必要なので、母にサインしてもらいます。
+1 は、サイン無しで木曜に出す、です。受け付けられません。2 は、金曜に父にサインしてもらう、です。父は金曜まで留守で、提出は木曜です。4 は、金曜に父の名前で出す、です。提出日を過ぎていて、サインする人も家にいません。
 
 【ポイント32】
 種別: 会話
-見出し: 締め切りのあとに帰る人は、署名の相手にならない
-・提出日 ← Wednesday。父の帰り ← Thursday
-・母が家にいる夜 ← Monday night
-・受け付けられない ← without a signature
+見出し: 提出日に間に合う、家にいる人にサインを頼む
+・提出は木曜。サインが無いと受け付けられない
+・父は金曜まで留守
+・母は家にいてサインできる
 
 ---
 
 問題33:
-A : We need two paint sets. The school shop has one, and the town shop has the other.
-B : I can go to town after practice. Practice ends at five. The town shop closes at six, and the school shop closes at four.
-A : Buy the school one first. You should ( ). Both must be in the art room before homeroom.
-B : I'll buy one at school at lunch and the other in town after practice.
+A : The picture needs blue and red. Two tins of one color won't work. The school shop has only blue left, and the shop in town had red this morning.
+B : I have enough money for two tins. I was going to buy both at school.
+A : Get one of each color. Buy ( ).
+B : I'll stop in town on the way home.
 
 選択肢33:
-1. buy both sets in town after six
-2. buy one set at school before four and the other in town before six
-3. borrow the teacher's set and skip both shops
-4. wait until Tuesday morning and buy them at the demonstration
+1. two blue tins at the school shop
+2. the blue tin at school and the red tin in town
+3. two red tins at the shop in town
+4. the red tin at school and the blue tin in town
 
 【正解33】
-2. buy one set at school before four and the other in town before six
+2. the blue tin at school and the red tin in town
 
 【解説33】
-A は Buy the school one first. と言っています。校内の店は4時に閉まり、町の店は6時に閉まります。B の練習は5時までなので、校内の1個は昼のうち、町の1個は練習のあと、が両方の閉店に間に合います。次の文は、ホームルームの前に美術室へ両方置く、です。B の最後の文も同じです。
-1 は6時よりあとに町で両方買う、で、どちらの閉店にも間に合いません。3 は先生の絵の具セットを借りて店をやらない、とは言っていません。4 は火曜の朝の実演のときに買う、で、before homeroom と矛盾します。
+絵には青と赤が要ります。同じ色を2缶買っても使えません。学校の店に残っているのは青だけで、町の店には今朝、赤がありました。色は一つずつ必要なので、青は学校で、赤は町で買います。
+1 は、学校で青を2缶、です。同じ色では使えません。3 は、町で赤を2缶、です。青がありません。4 は、赤を学校、青を町、です。学校に残っているのは青だけです。
 
 【ポイント33】
 種別: 会話
-見出し: 二つの店の閉店時刻に、買う順を合わせる
-・校内の店 ← four。町の店 ← six
-・町の店には間に合う ← practice ends at five
-・homeroom の前が、美術室に置く期限
+見出し: 残っている色と、別の店にある色を一缶ずつ買う
+・絵には青と赤が要る。同じ色2缶では足りない
+・学校の店に残っているのは青だけ
+・町の店には今朝、赤があった
 
 ---
 
 問題34:
-A : I borrowed the class microscope on Monday. It has to be back before the next lesson on Thursday.
-B : I can return it for you, but I have band until three on Wednesday. The science room closes at three thirty.
-A : Band can wait. Please ( ). If it is still out on Thursday morning, our group cannot do the lab.
-B : I'll return it on Wednesday before three thirty, and go to band after that.
+A : The lab can't start. The microscope is still signed out. The band room has its own instruments. You also have a music stand that belongs in the band room.
+B : I was going to return the stand first.
+A : The lab is the room that's stuck. Please ( ).
+B : I'll take it back before the next class.
 
 選択肢34:
-1. return the microscope before the science room closes on Wednesday
-2. keep it until Thursday's lesson
-3. go to band first and return it at night
-4. ask the science room to stay open after three thirty
+1. bring the microscope back to the lab
+2. take the band's instruments to the lab
+3. start the lab without the microscope
+4. take the stand back and leave the microscope signed out
 
 【正解34】
-1. return the microscope before the science room closes on Wednesday
+1. bring the microscope back to the lab
 
 【解説34】
-A は Band can wait. と、バンドはあとでよいと言っています。次の文は、木曜の朝までに戻っていないと実験ができない、です。理科室は水曜の3時半に閉まるので、その前に返せば、次のレッスンに間に合います。B の最後の文も同じです。
-2 は木曜の授業まで持っている、で、back before the next lesson と逆です。3 は先にバンドへ行き夜に返す、で、Band can wait と、closes at three thirty の両方と矛盾します。4 は3時半のあと開けてもらう、とは言っていません。
+実験室は始められません。顕微鏡がまだ貸し出されたままです。音楽室には自分たちの楽器があります。B は、音楽室のものである譜面台も持っています。止まっているのは実験室なので、顕微鏡を実験室に戻します。
+2 は、音楽室の楽器を実験室へ持っていく、です。音楽室には自分たちの楽器があります。3 は、顕微鏡無しで実験を始める、です。実験室は始められません。4 は、譜面台だけ戻して、顕微鏡は貸し出したまま、です。止まっているのは実験室です。
 
 【ポイント34】
 種別: 会話
-見出し: can wait と言った予定 は空所よりあと
-・返せる最終時刻 ← Wednesday three thirty
-・実験に間に合わせる期限 ← Thursday morning
-・返す前に行かない ← band until three
+見出し: 止まっている部屋の器具を、別の部屋の持ち物より先に戻す
+・実験室は、顕微鏡が貸し出されたままで始められない
+・音楽室には自分たちの楽器がある
+・B が持っている譜面台は音楽室のもの
 
 ---
 
 問題35:
-A : Our club needs a receipt for every purchase over five hundred yen. The party snacks were six hundred.
-B : I have the snack receipt at home. I also have a bus ticket for two hundred yen.
-A : Bring the snack receipt tomorrow. You don't need ( ). The ticket is under the limit, so the treasurer will not keep it.
-B : I'll put the snack receipt in my bag tonight.
+A : The club keeps a receipt only when it is over 500 yen. The snacks were 600 yen. The bus ticket was 200 yen, and the treasurer won't keep it.
+B : I kept both slips.
+A : Bring the snack receipt. You don't need ( ).
+B : I'll leave that one at home.
 
 選択肢35:
 1. to bring the bus ticket
-2. to leave the snack receipt at home
-3. to buy more snacks without a receipt
-4. to keep every ticket over two hundred yen
+2. to bring the snack receipt
+3. to bring the receipt and the ticket together
+4. to keep the ticket because it is over 200 yen
 
 【正解35】
 1. to bring the bus ticket
 
 【解説35】
-空所の前は You don't need です。次の文は、切符は限度額未満なので、会計は取っておかない、です。必要なのは600円のおやつのレシートで、200円の切符は持ってこなくてよい、です。B はおやつのレシートをカバンに入れると言っています。
-2 はおやつのレシートを家に置いたままにする、で、Bring the snack receipt と逆です。3 はレシートなしでさらにおやつを買う、とは言っていません。4 は200円を超える切符をすべて取っておく、で、over five hundred yen とは違う線です。
+部は、500円を超えるレシートだけ保管します。お菓子は600円でした。バスの切符は200円で、会計はそれを保管しません。お菓子のレシートは持っていき、バスの切符は持っていく必要がありません。
+2 は、お菓子のレシートを持っていかない、です。600円なので必要です。3 は、レシートと切符を一緒に持っていく、です。切符は不要です。4 は、200円を超えているから切符を保管する、です。基準は500円を超えることです。
 
 【ポイント35】
 種別: 会話
-見出し: don't need のあとは、限度額未満のもの
-・レシートが要る線 ← over five hundred yen
-・two hundred なので対象外 ← bus ticket
-・持ってくる方 ← snack receipt
+見出し: 金額の基準で、持っていく紙を一つに絞る
+・部は500円を超えるレシートだけ保管する
+・お菓子は600円。バスの切符は200円
+・会計はバスの切符を保管しない
 
 ---
 
 問題36:
-A : The window plants have to be watered on a schedule. If two people water them on the same day, the soil stays too wet.
-B : I watered them this morning. Nao does not know that, and she planned to water them after club today.
-A : Tell her tonight. Please ( ). A second watering today would leave the soil too wet.
-B : I'll message Nao that I already watered them.
+A : Watering the plants twice makes the soil too wet. One watering is enough. You watered them once this morning.
+B : Nao thinks it is her turn.
+A : Her turn would make it twice. Tell her ( ).
+B : I'll talk to her before she gets the can.
 
 選択肢36:
-1. ask Nao to water them again this evening
-2. tell Nao not to water them again today
-3. water them a third time in the morning
-4. stop the watering schedule
+1. to water them again
+2. that you already watered them
+3. to water them before you did
+4. that one watering is too many
 
 【正解36】
-2. tell Nao not to water them again today
+2. that you already watered them
 
 【解説36】
-A は Tell her tonight. と言っています。次の文は、今日もう一度水をやると土が濡れたままになる、です。回数は1日1回です。B が今朝すでに水をやっています。B の I'll message Nao that I already watered them も同じです。
-1 は今夜もう一度 Nao にやらせる、で、too wet と矛盾します。3 は朝に3度目をやる、とは言っていません。4 はスケジュールをやめる、ではなく、二度目を止める話です。
+2回水をやると土が濡れすぎます。1回で足ります。B は今朝、1回すでにやりました。Nao は自分の番だと思っています。Nao がやると2回になるので、もうやったと伝えます。
+1 は、もう一度やる、です。2回になります。3 は、B より前にやる、です。B は今朝すでにやっています。4 は、1回では多すぎる、です。1回で足ります。
 
 【ポイント36】
 種別: 会話
-見出し: 同じ日の二度目を止める連絡
-・すでに終わった水やり ← this morning
-・止める回数 ← a second watering
-・今夜やらない理由 ← too wet
+見出し: もう一度やると回数を超える、と伝える
+・2回やると土が濡れすぎる。1回で足りる
+・B は今朝、1回やっている
+・Nao が番だと思うと、2回になる
 
 ---
 
 問題37:
-A : Tonight's rain will wash pencil off the plant labels. The paint pens are in the art cupboard.
-B : The cupboard stays locked until the teacher comes at eight. I was going to label the pots now.
-A : Leave the pens until morning. You should ( ). A sheet over the beds will keep the soil from splashing.
-B : I'll cover the beds tonight and write the names after eight.
+A : The rain washes the pencil marks off and splashes soil onto the labels. The pens have no ink. The names aren't written yet. There are dry sheets in the shed.
+B : I was going to write the names in pencil before the rain stops.
+A : We can't write anything until there is ink. Please ( ).
+B : I'll get the sheets.
 
 選択肢37:
-1. write the names in pencil before the rain
-2. ask the teacher to leave the cupboard open all night
-3. cover the beds with a sheet
-4. move every pot into the art room before eight
+1. write the names in pencil in the rain
+2. wait for ink and leave the pots in the rain
+3. cover the pots with the dry sheets
+4. copy the names onto the wet labels
 
 【正解37】
-3. cover the beds with a sheet
+3. cover the pots with the dry sheets
 
 【解説37】
-A は Leave the pens until morning. と言っています。次の文は、ベッドにシートをかければ土が跳ねない、です。今夜するのは覆いです。ペンは8時まで鍵がかかっています。
-1 は雨の前に鉛筆で書く、ですが、鉛筆は雨で落ちると A が言っています。2 は一晩中戸棚を開けておく、とは言っていません。4 は鉢を美術室へ移す、で、シートをかける話ではありません。
+雨は鉛筆の文字を流し、ラベルに土をはねます。ペンにはインクがありません。名前はまだ書いてありません。物置には乾いたシートがあります。インクが無ければ何も書けないので、乾いたシートで鉢を覆います。
+1 は、雨の中で鉛筆で名前を書く、です。雨が鉛筆を流します。2 は、インクを待って鉢を雨に置いたまま、です。土がラベルにはねます。4 は、濡れたラベルに名前を写す、です。インクが無く、名前もまだ書いてありません。
 
 【ポイント37】
 種別: 会話
-見出し: 今夜その道具を使わない ← Leave until morning
-・今夜かけるもの ← a sheet
-・雨で落ちる ← pencil
-・戸棚が開く時刻は、覆いの代わりではない
+見出し: 書けないあいだは、乾いたシートで覆う
+・雨は鉛筆を流し、ラベルに土をはねる
+・ペンにインクが無く、名前はまだ書いていない
+・物置に乾いたシートがある
 
 ---
 
 問題38:
-A : The red jersey for Sunday's game is still in the wash. The coach said we cannot wear a different color.
-B : It will be dry at noon. I have a white jersey in my room, and I can bring that at eight.
-A : Leave the white one. Please ( ). A white shirt is a different color, so the coach will not accept it.
-B : I'll pick up the red jersey at lunch and bring it to the field.
+A : The team wears red. A different color isn't allowed. Your red jersey is clean and ready in the bag across the room. The white one is on the chair by the door.
+B : The white one is closer.
+A : The jersey you can grab fastest isn't the one the rule means. Please ( ).
+B : I'll get the bag.
 
 選択肢38:
-1. bring the white jersey at eight
-2. wear any color the coach has not seen
-3. bring the red jersey, not the white one
-4. wash the red jersey again during the match
+1. wear the white jersey by the door
+2. wear a different color from the team
+3. take the red jersey to the game
+4. leave the red jersey in the bag
 
 【正解38】
-3. bring the red jersey, not the white one
+3. take the red jersey to the game
 
 【解説38】
-A は Leave the white one. と、白い方は置いておいてよいと言っています。次の文は、白は別の色なので、コーチは認めない、です。持ってくる物は赤いジャージです。B の I'll pick up the red jersey も同じです。
-1 は8時に白いジャージを持ってくる、で、Leave the white one と矛盾します。2 はコーチが見ていない色なら何でも、で、cannot wear a different color と逆です。4 は試合中にもう一度洗う、とは言っていません。
+チームは赤を着ます。違う色は認められません。赤いユニフォームはきれいで、部屋の向こうの袋に用意してあります。白いものはドアのそばのいすにあります。いちばん早く手に取れる方が、決まりの色ではありません。赤いユニフォームを試合に持っていきます。
+1 は、ドアのそばの白いユニフォームを着る、です。2 は、チームと違う色を着る、です。認められません。4 は、赤いユニフォームを袋に残す、です。それが試合で着る色です。
 
 【ポイント38】
 種別: 会話
-見出し: Leave のあとは、指定の色を持ってくる
-・必要な色 ← red。代わりにならない ← white
-・別の色は不可 ← different color
-・白を持ってこようとした時刻 ← eight
+見出し: 近くにある色と、決まりの色を分ける
+・チームは赤を着る。違う色は認められない
+・赤いユニフォームは、部屋の向こうの袋に用意してある
+・白いものはドアのそばのいすにある
 
 ---
 
 問題39:
-A : The evening study hall is full. Students absent from homeroom may not get a seat, even with a pass. Daytime seats are in the library classroom.
-B : I was at the dentist during homeroom, and I have a pass. I was going to arrive at six.
-A : Come for those seats instead. You can ( ). They are free at four.
-B : I'll use the library classroom at four.
+A : The evening hall is full for the whole night. A pass won't add a seat if you missed homeroom. You were at the dentist during homeroom, so you have a pass. The classroom in the library still has seats.
+B : I'll show the pass at the evening hall.
+A : You still need somewhere to study. You should ( ).
+B : I'll go to the library.
 
 選択肢39:
-1. use your pass to take an evening seat at six
-2. use the library classroom, not the evening hall
-3. arrive before homeroom and keep the pass
-4. ask the dentist to sign a second pass
+1. study in the evening hall with your pass
+2. study in the room that still has seats
+3. go back to homeroom and show the pass
+4. wait in the evening hall until someone leaves
 
 【正解39】
-2. use the library classroom, not the evening hall
+2. study in the room that still has seats
 
 【解説39】
-空所の前で、昼の席は図書室の教室にある、と A が言っています。夜の自習室は満席で、ホームルームを欠席した生徒はパスがあっても席が保証されません。Come for those seats の those は、図書室の昼の席です。空所は、夜の自習室ではなく図書室の教室を使う、です。
-1 は6時にパスで夜の席を取る、で、may not get a seat と矛盾します。3 はホームルームの前に来てパスを持っておく、ですが、欠席はもう終わっています。4 は歯医者に2枚目のパスを書いてもらう、とは言っていません。
+夕方のホールは、夜のあいだずっと満席です。ホームルームを欠席したあとでは、許可証があっても席は増えません。B はホームルームの時間に歯科にいたので、許可証を持っています。図書室の教室にはまだ席があります。勉強する場所は必要なので、まだ席がある部屋で勉強します。
+1 は、許可証を持って夕方のホールで勉強する、です。満席で、許可証では席が増えません。3 は、ホームルームに戻って許可証を見せる、です。ホームルームの時間は歯科にいました。4 は、誰かが出るまで夕方のホールで待つ、です。夜のあいだずっと満席です。
 
 【ポイント39】
 種別: 会話
-見出し: even if のパスが、夜の席を保証しない
-・昼の席の場所 ← Daytime seats are in the library classroom
-・夜の席が後回しになる理由 ← absent from homeroom
-・六時は、席が残る意味ではない
+見出し: 許可証で増えない満席と、まだ席がある部屋を分ける
+・夕方のホールは夜のあいだずっと満席
+・ホームルーム欠席のあと、許可証では席が増えない
+・B はホームルームの時間に歯科にいて、許可証を持っている
+・図書室の教室にはまだ席がある
 
 ---
 
 問題40:
-A : Sunday's volunteer maps are short by ten copies. The office copier is free on Saturday, not on Sunday.
-B : I can print them, but I have a piano lesson until eleven on Saturday. The park group meets at nine on Sunday.
-A : Print them after your lesson. You should ( ). One shared map is not enough for the whole group.
-B : I'll print the ten copies on Saturday afternoon and bring them on Sunday.
+A : The group is short ten maps. One map can't cover everyone. A different kind of map won't work. The office copier is working, and you were given one map.
+B : I was going to share my map with the group.
+A : The group still needs a full set of this kind. You should ( ).
+B : I'll use the office copier.
 
 選択肢40:
-1. print the maps on Sunday morning at the park
-2. skip the piano lesson and print at nine
-3. ask the first group to share one map
-4. print the ten missing copies
+1. share your one map with everyone
+2. copy a different kind of map
+3. wait until the office copier is fixed
+4. print the ten maps the group is missing
 
 【正解40】
-4. print the ten missing copies
+4. print the ten maps the group is missing
 
 【解説40】
-A は Print them after your lesson. と言っています。次の文は、1枚を分け合うだけではグループ全体に足りない、です。必要な枚数は、足りない10枚です。日曜はコピー機が空いていないので、土曜に刷ります。
-1 は日曜の朝に公園で刷る、で、not on Sunday と矛盾します。2 は9時にレッスンをやめて刷る、ですが、A はレッスンのあと、と言っています。3 は1枚を共有する、で、short by ten copies を解消しません。
+グループは地図が10枚足りません。1枚では全員に行き渡りません。違う種類の地図では使えません。事務室のコピー機は動いていて、B は地図を1枚渡されています。この種類が全員分まだ必要なので、足りない10枚を刷ります。
+1 は、1枚を全員で見る、です。1枚では全員に行き渡りません。2 は、違う種類の地図をコピーする、です。使えません。3 は、コピー機が直るまで待つ、です。コピー機は動いています。
 
 【ポイント40】
 種別: 会話
-見出し: 足りない枚数を刷る
-・足りない数 ← ten copies
-・1枚の共有では足りない
-・当日の朝には機械が使えない ← not on Sunday
+見出し: 1枚では足りない数を、動いているコピー機で刷る
+・グループは地図が10枚足りない
+・1枚では全員に行き渡らず、違う種類は使えない
+・事務室のコピー機は動いている。B は1枚渡されている
 
 ---
