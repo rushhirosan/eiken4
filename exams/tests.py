@@ -1738,6 +1738,57 @@ class ListeningIllustrationScoringTest(TestCase):
         self.assertContains(results, 'Shall I call the teacher?')
         self.assertContains(results, '正解です')
 
+    def test_listening_passage_results_do_not_duplicate_broadcast_script(self):
+        """文章問題の解答で、放送文が listening_text と question_text に二重でも一回だけ出す。"""
+        script = (
+            'W: Students who need a new bus pass photo must come to the office '
+            'on Tuesday or Thursday. Monday is for lost passes, not for photos.'
+        )
+        question_only = 'What should a student bring if the old pass was lost?'
+        question = Question.objects.create(
+            provenance=PROVENANCE_ORIGINAL,
+            level='pre2',
+            question_type='listening_passage',
+            question_number=99,
+            listening_text=script,
+            question_text=f'{script}\n{question_only}',
+            explanation='メモを持っていく。',
+            audio_file='audio/levelpre2/part3/listening_passage_question1.mp3',
+        )
+        correct = Choice.objects.create(
+            question=question,
+            choice_text='A note from Monday\'s desk.',
+            is_correct=True,
+            order=1,
+        )
+        Choice.objects.create(
+            question=question,
+            choice_text='The old bus pass.',
+            is_correct=False,
+            order=2,
+        )
+
+        submitted = self.client.post(
+            reverse('exams:submit_answers', kwargs={'level': 'pre2'}),
+            {
+                'question_type': 'listening_passage',
+                'num_questions': '5',
+                f'answer_q_{question.id}': str(correct.id),
+            },
+        )
+        self.assertEqual(submitted.status_code, 302)
+
+        results = self.client.get(
+            reverse(
+                'exams:answer_results',
+                kwargs={'level': 'pre2', 'question_type': 'listening_passage'},
+            )
+        )
+        self.assertEqual(results.status_code, 200)
+        content = results.content.decode()
+        self.assertEqual(content.count('Students who need a new bus pass photo'), 1)
+        self.assertIn(question_only, content)
+
     def test_listening_illustration_part3_uses_shared_question_list_template(self):
         """5級イラスト一致も question_list.html を使う（デグレ防止）"""
         part3_question = ListeningQuestion.objects.create(

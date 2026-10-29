@@ -259,8 +259,8 @@ def extract_broadcast_choice_rows(block: str) -> tuple[list[str], str] | None:
     return choices, correct
 
 
-def extract_listening_passage_question_text(block: str) -> str:
-    """登録と同じく、放送文と質問を改行でつなぐ。"""
+def extract_listening_passage_script(block: str) -> tuple[str, str]:
+    """放送文と質問文。会話問題と同様にフィールドを分けて返す。"""
     passage_match = re.search(
         r'No\.\d+:\s*(.*?)\n\s*Question No\.',
         block,
@@ -271,9 +271,17 @@ def extract_listening_passage_question_text(block: str) -> str:
         block,
         re.DOTALL,
     )
-    if not passage_match or not question_match:
+    passage = passage_match.group(1).strip() if passage_match else ''
+    question_text = question_match.group(1).strip() if question_match else ''
+    return passage, question_text
+
+
+def extract_listening_passage_question_text(block: str) -> str:
+    """後方互換: 放送文と質問を改行でつなぐ。"""
+    passage, question_text = extract_listening_passage_script(block)
+    if not passage or not question_text:
         return ''
-    return passage_match.group(1).strip() + '\n' + question_match.group(1).strip()
+    return passage + '\n' + question_text
 
 
 def extract_reading_passage_text(passage_block: str) -> str:
@@ -723,13 +731,20 @@ def update_listening_passage(level: str, dry_run: bool, log, warn, *, original: 
             study_points = extract_study_points(block)
             if study_points is not None or original:
                 fields['study_points'] = study_points
-            passage_question = extract_listening_passage_question_text(block)
-            if passage_question:
-                fields['question_text'] = passage_question
+            passage, question_text = extract_listening_passage_script(block)
+            if passage:
+                fields['listening_text'] = passage
             else:
                 warn(
                     f'listening_passage No.{number}: '
-                    '放送文なし（question_text は未更新）'
+                    '放送文なし（listening_text は未更新）'
+                )
+            if question_text:
+                fields['question_text'] = question_text
+            else:
+                warn(
+                    f'listening_passage No.{number}: '
+                    '質問文なし（question_text は未更新）'
                 )
             qs.update(**fields)
             parsed = extract_broadcast_choice_rows(block)

@@ -301,6 +301,59 @@ class UpdateExplanationsCommandTest(TestCase):
         self.assertEqual(progress.total_attempts, 5)
         self.assertEqual(Question.objects.filter(pk=question.pk).count(), 1)
 
+    def test_listening_passage_syncs_script_and_question_separately(self):
+        """文章問題は放送文を listening_text、質問だけを question_text に分ける。"""
+        question = Question.objects.create(
+            provenance=PROVENANCE_ORIGINAL,
+            level='pre2',
+            question_type='listening_passage',
+            question_text=(
+                'W: Attention, students waiting in the front hall. '
+                'The bus to the city museum will leave at eight fifteen.\n'
+                'Where is the speaker talking to the students?'
+            ),
+            listening_text='STALE SCRIPT that should be replaced',
+            question_number=1,
+            explanation='古い解説',
+        )
+        Choice.objects.create(
+            question=question,
+            choice_text='In the front hall.',
+            is_correct=True,
+            order=3,
+        )
+        UserAnswer.objects.create(
+            user=self.user,
+            question=question,
+            selected_choice=question.choices.first(),
+            is_correct=True,
+        )
+
+        call_command(
+            'update_explanations',
+            level='pre2',
+            category='listening_passage',
+            original=True,
+        )
+        question.refresh_from_db()
+
+        self.assertTrue(
+            question.listening_text.startswith(
+                'W: Attention, students waiting in the front hall.'
+            )
+        )
+        self.assertEqual(
+            question.question_text.strip(),
+            'Where is the speaker talking to the students?',
+        )
+        self.assertNotIn(question.listening_text, question.question_text)
+        self.assertIn('正面ホール', question.explanation)
+        self.assertEqual(
+            UserAnswer.objects.filter(user=self.user, question=question).count(),
+            1,
+        )
+        self.assertEqual(Question.objects.filter(pk=question.pk).count(), 1)
+
     def test_listening_conversation_syncs_script_without_deleting_answers(self):
         question = Question.objects.create(
             provenance=PROVENANCE_ORIGINAL,

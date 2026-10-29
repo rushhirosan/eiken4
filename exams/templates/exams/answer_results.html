@@ -237,7 +237,10 @@
                 </div>
                 {% endif %}
                 {% if answer.question.listening_text and answer.question.question_type != 'listening_illustration' %}
+                {# question_text に放送文が二重で入っている古いデータはスキップ #}
+                {% if answer.question.listening_text not in answer.question.question_text %}
                 <div class="mb-3 small text-muted">{{ answer.question.listening_text|strip_question_no|linebreaks }}</div>
+                {% endif %}
                 {% endif %}
                 <p class="card-text">{{ answer.question.question_text|strip_question_no|linebreaks }}</p>
 
