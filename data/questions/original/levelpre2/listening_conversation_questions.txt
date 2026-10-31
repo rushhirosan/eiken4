@@ -778,31 +778,31 @@ Which curry will the boy eat?
 ---
 
 No.27:
-M: We need name cards for twenty guests. I have written twelve.
-W: The library printer stops at four. The office printer is free after five.
+M: The guest name cards aren't finished. The library printer stops at four.
+W: The office printer is free after five.
 M: I finish club at five thirty.
-W: Print the other eight on the office printer after club. Stopping at four would leave the cards short.
+W: Use the office printer after club. The library one will already be off.
 
 Question No.27:
 What should the boy do after club?
 
-1. Print eight more cards on the office printer.
+1. Use the office printer.
 2. Use the library printer at four.
-3. Write all twenty cards again by hand.
+3. Write the cards by hand before club ends.
 4. Ask the guests to arrive at five thirty.
 
 【正解27】
-1. Print eight more cards on the office printer.
+1. Use the office printer.
 
 【解説27】
-名札は20人分必要で、12人分は書いてあります。図書館のプリンターは4時に止まり、事務所のは5時のあと空きます。男子の部活は5時半までです。女子は部活のあと、残り8枚を事務所のプリンターで刷るよう言います。4時でやめると枚数が足りません。
-2 は、4時に止まる機械です。3 は20枚を手で書き直す、とは言っていません。4 は客の到着を5時半に変える、ではありません。客の到着時刻はこの会話にありません。
+客の名札はまだ終わっていません。図書館のプリンターは4時に止まり、事務所のは5時のあと空きます。男子の部活は5時半までです。女子は部活のあと事務所のプリンターを使うよう言います。図書館の方は、そのころにはすでに止まっています。
+2 は、4時に止まる機械です。3 は部活が終わる前に手で書く、とは言っていません。4 は客の到着を5時半に変える、ではありません。客の到着時刻はこの会話にありません。
 
 【ポイント27】
 種別: リスニング
 見出し: 止まる機械と、あとから空く機械を分ける
-・済み ← twelve。残りは eight
 ・四時まで ← library printer
+・五時のあと空く ← office printer
 ・事務所のプリンターを使うとき ← after club
 
 ---
