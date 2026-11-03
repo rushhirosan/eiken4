@@ -149,7 +149,7 @@ Elena への勧めは "You can still come, and I hope you will." です。望遠
 本文3
 The Garden Bell
 
-Last spring, neighbors at North Hill started a small garden behind the community hall. They did not start it because they wanted a quiet place to sit. They wanted fresh herbs for the Tuesday soup night. At first, only six neighbors stayed after work on Wednesdays to water the plants and pull weeds.
+Last spring, neighbors at North Hill started a small garden behind the community hall. They started it not because they wanted a quiet place to sit, but because they wanted fresh herbs for the Tuesday soup night. At first, only six neighbors stayed after work on Wednesdays to water the plants and pull weeds.
 
 In June, the garden almost failed. The six neighbors watered the plants at different times, and on some days nobody came. The soil dried out, and several herb plants died. Mr. Okada, who lives next door, did not close the garden. He hung a small bell by the shed. A neighbor rang it once after watering. The next person, walking over from the hall, could hear the bell and know that the job was already finished. The bell was not a sign that the garden was closed.
 
@@ -170,13 +170,13 @@ Why did the neighbors start the garden?
 2. To grow herbs for the soup night.
 
 【解説3a】
-始めた理由は "They wanted fresh herbs for the Tuesday soup night." です。その直前で、座るための静かな場所が理由ではない、と否定しています。
-1 は本文が否定している理由です。3 のベルは6月に、水やりがばらばらだったので後から付けたものです。4 の手袋は、今から作業する人の条件で、庭を始めた理由ではありません。
+始めた理由は "not because ... a quiet place to sit, but because they wanted fresh herbs for the Tuesday soup night." です。静かな場所のためではなく、スープの夜のハーブのために始めました。
+1 は本文が not because で否定している理由です。3 のベルは6月に、水やりがばらばらだったので後から付けたものです。4 の手袋は、今から作業する人の条件で、庭を始めた理由ではありません。
 
 【ポイント3a】
 種別: 読解
-見出し: did not の次の文が本当の理由
-・B が目的 ← They did not A. They wanted B.
+見出し: not because A, but because B で本当の理由を取る
+・B が目的 ← not because A, but because B
 ・あとから出てきた道具（bell / gloves）は、最初の理由と限らない
 ・Why did they start なら、最初の段落を見る
 
