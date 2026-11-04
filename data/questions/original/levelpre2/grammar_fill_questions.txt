@@ -266,7 +266,7 @@ because のあとが理由です。古い案内にはまだ体育館と書いて
 ---
 
 問題12:
-The art class finished a welcome poster for Tuesday's guest. The hallway paint was still wet, so the teacher told them to ( ).
+The art class finished a welcome poster for Tuesday's guest. The hallway paint was still wet, and the office said they could leave posters there until the paint dried. The teacher told them to ( ).
 
 選択肢12:
 1. hang it on the wet wall tonight
@@ -278,15 +278,15 @@ The art class finished a welcome poster for Tuesday's guest. The hallway paint w
 2. keep it in the office until Tuesday
 
 【解説12】
-so の前が理由です。廊下の壁のペンキがまだ乾いていないので、火曜まで職員室に置いておく、という指示です。
-1 は、まだ乾いていない壁に今夜かける、で、理由と逆です。3 は体育館用にもう1枚描く、とは書いてありません。4 は講演の前に客へ渡す、ですが、ポスターは火曜の歓迎用です。wet が、今は壁に出せない理由です。
+廊下の壁のペンキがまだ乾いておらず、職員室はペンキが乾くまでポスターを置いてよいと言っています。なので、火曜まで職員室に置いておく、という指示です。
+1 は、まだ乾いていない壁に今夜かける、で、理由と逆です。3 は体育館用にもう1枚描く、とは書いてありません。4 は講演の前に客へ渡す、ですが、ポスターは火曜の歓迎用です。wet と office が、今は壁に出せない理由です。
 
 【ポイント12】
 種別: 熟語
-見出し: so の前が、今できない理由
+見出し: 乾くまで置けと言われた場所へ移す
 ・今夜は貼れない ← still wet
-・乾くまで待つ期限 ← until Tuesday
-・本文にない第二のポスターや、客への手渡しは選ばない
+・置いてよい場所 ← the office said they could leave posters there
+・期限 ← until Tuesday
 ---
 
 問題13:
@@ -338,7 +338,7 @@ until Monday と、そのあと名前のないボトルは再利用する、が�
 ---
 
 問題15:
-The photo club may use the hall on Sunday morning. The office said yes only if they ( ), because another club needs the same hall at nine.
+The photo club may use the hall on Sunday morning. The chairs must be ready for the next group. The office said yes only if they ( ), because another club needs the same hall at nine.
 
 選択肢15:
 1. stack every chair before eight
@@ -350,15 +350,15 @@ The photo club may use the hall on Sunday morning. The office said yes only if t
 1. stack every chair before eight
 
 【解説15】
-only if のあとが条件です。9時に別のクラブが同じホールを使うので、8時前にいすを重ねて返せば使ってよい、という意味です。
+only if のあとが条件です。いすは次のグループのために用意が必要で、9時に別のクラブが同じホールを使います。なので、8時前にいすを重ねて返せば使ってよい、という意味です。
 2 は別のクラブを締め出す、で、相手が使うことを前提にした条件と逆です。3 は日曜の会合を中止する、だと許可の中身がなくなります。4 は夜にペンキを塗る、とは書いてありません。
 
 【ポイント15】
 種別: 熟語
 見出し: only if のあとが、許可の条件
 ・only if = 「そのときだけよい」
+・片づける物 ← The chairs must be ready
 ・片づける理由 ← another club needs the hall
-・相手を締め出す句は、条件と逆
 ---
 
 問題16:

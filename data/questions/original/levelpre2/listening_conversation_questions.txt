@@ -151,8 +151,8 @@ When will the boy get his raincoat?
 No.6:
 M: Did the art teacher choose a poster for the station?
 W: She liked mine, but she wants the title in larger letters.
-M: The station needs the file by Monday, and they will print it themselves.
-W: I'll change the letters tonight. Could you send the file on Sunday? I won't have a computer then.
+M: The station needs the poster by Monday, and they will print it themselves.
+W: I'll change the letters tonight. Could you send the poster on Sunday? I won't have a computer then.
 
 Question No.6:
 What does the girl want the boy to do on Sunday?
@@ -160,13 +160,13 @@ What does the girl want the boy to do on Sunday?
 1. Print the poster at the station.
 2. Choose a different poster.
 3. Write a new title for her tonight.
-4. Send the file after she changes the letters.
+4. Send the poster after she changes the letters.
 
 【正解6】
-4. Send the file after she changes the letters.
+4. Send the poster after she changes the letters.
 
 【解説6】
-女子は文字を今夜直し、Could you send the file on Sunday? と頼んでいます。日曜にコンピュータがないのは女子の方です。質問は日曜に男子にしてほしいことです。ファイルを送る、が答えです。
+女子は文字を今夜直し、Could you send the poster on Sunday? と頼んでいます。日曜にコンピュータがないのは女子の方です。質問は日曜に男子にしてほしいことです。ポスターを送る、が答えです。
 1 は駅が自分たちで印刷する、という男子の文です。女子は印刷を頼んでいません。2 は別のポスターを選ぶ、ですが、先生は彼女の作品を気に入っています。3 の新しい題名を今夜書くのは女子です。tonight と Sunday を分けます。
 
 【ポイント6】
@@ -209,30 +209,30 @@ What will the boy do with the second camera?
 ---
 
 No.8:
-W: Did you sign up for the Saturday bird walk?
+W: Did you sign up for the Saturday bird walk? Don't forget a small telescope.
 M: Yes, but I wrote eight o'clock. The note on the board says nine.
 W: The teacher changed it because the park gate opens later than she thought.
-M: Then I'll correct my form tonight and still bring the binoculars.
+M: Then I'll correct my form tonight and still bring the small telescope.
 
 Question No.8:
 What will the boy still bring on the walk?
 
 1. A new form.
-2. The binoculars.
+2. The small telescope.
 3. The teacher's name.
 4. A key to the park gate.
 
 【正解8】
-2. The binoculars.
+2. The small telescope.
 
 【解説8】
-男子は8時と書いたが、掲示は9時です。用紙の時刻は直します。最後に still bring the binoculars と言っているので、持っていく物は双眼鏡のままです。
+女子は小さな望遠鏡を忘れないように言っています。男子は8時と書いたが、掲示は9時です。用紙の時刻は直します。最後に still bring the small telescope と言っているので、持っていく物は小さな望遠鏡のままです。
 1 の新しい用紙は、直すのは今の用紙です。3 の先生の名前は変えるとは言っていません。4 の門の鍵は、門が遅れて開く理由であって、持っていく物ではありません。
 
 【ポイント8】
 種別: リスニング
 見出し: 直す欄と、変えない持ち物を分ける
-・持っていく物 ← binoculars
+・持っていく物 ← small telescope（空所前でも名指し）
 ・直す欄 ← eight と nine
 ・時刻が変わった理由 ← gate opens later
 
@@ -479,7 +479,7 @@ Why can the boy join Monday's class?
 ---
 
 No.17:
-M: The museum workshop has twenty seats. Are you on the list?
+M: The museum workshop has eighteen seats. Are you on the list?
 W: I signed up, and so did my brother. The list closed at eighteen names.
 M: Two people canceled this morning. The office is calling the waiting list in order.
 W: My brother is number nineteen, so he may get a seat. I already have one.
@@ -496,13 +496,13 @@ Who may get a seat because of the cancellations?
 2. The girl's brother.
 
 【解説17】
-定員は20で、名簿は18人で一度閉まりました。女子は申し込み済みです。兄は19番で、待機です。今朝2人キャンセルしたので、順番に連絡が行きます。席を新たに得るかもしれないのは兄です。
+定員は18で、名簿も18人で一度閉まりました。女子は申し込み済みです。兄は19番で、待機です。今朝2人キャンセルしたので、順番に連絡が行きます。席を新たに得るかもしれないのは兄です。
 1 は、すでに席があります。3 は、女子はキャンセル待ちではありません。4 は、遅れた人全員ではなく、順番です。
 
 【ポイント17】
 種別: リスニング
 見出し: already have と waiting list を分ける
-・一度閉めたときの人数 ← eighteen
+・定員と名簿が同じ ← eighteen seats / eighteen names
 ・兄の待機番号 ← nineteen
 ・空きができた数 ← two canceled
 
@@ -510,7 +510,7 @@ Who may get a seat because of the cancellations?
 
 No.18:
 W: You're on the morning desk at the library on Thursday, but you have a match that morning.
-M: The desk job is to stamp returns and shelve the new books.
+M: The desk job is to stamp returns and put the new books on the shelf.
 W: I have the desk on Friday, and I don't have a match. We can trade days.
 M: Thanks. I'll do Friday, and you can do Thursday's stamping.
 
@@ -520,13 +520,13 @@ What did they decide to do?
 1. Cancel Thursday's desk.
 2. Trade desk days.
 3. Both work on Thursday.
-4. Skip the shelving on Friday.
+4. Skip putting books on the shelf on Friday.
 
 【正解18】
 2. Trade desk days.
 
 【解説18】
-男子は木曜の朝に試合があります。デスク当番は返却に印を押し、新しい本を棚へ入れる仕事です。女子は金曜が当番で、試合はありません。曜日を交換し、男子は金曜、女子は木曜の印押しをやります。
+男子は木曜の朝に試合があります。デスク当番は返却に印を押し、新しい本を棚に置く仕事です。女子は金曜が当番で、試合はありません。曜日を交換し、男子は金曜、女子は木曜の印押しをやります。
 1 は木曜の当番を中止する、とは言っていません。3 は二人とも木曜、ではありません。4 は金曜の棚入れを省く、ではなく、当番の日を入れ替えています。
 
 【ポイント18】
@@ -534,7 +534,7 @@ What did they decide to do?
 見出し: 仕事の中身は同じ ← trade days
 ・試合と重なる日 ← Thursday
 ・女子が空いている日 ← Friday
-・中止されない仕事 ← stamp returns と shelve
+・中止されない仕事 ← stamp returns と put books on the shelf
 
 ---
 

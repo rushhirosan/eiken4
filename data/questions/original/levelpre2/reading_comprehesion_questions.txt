@@ -256,7 +256,7 @@ Shop Stories
 
 The broadcast club visits one neighborhood shop each Monday for Shop Stories. In October, the bakery and the flower shop both asked for the same Monday. The bakery is noisy at noon, and the owner can talk only while packing bread. The flower shop is quiet after six, and the owner can walk through the shop with the microphone so listeners can follow the work. The students could record only one shop that week. ( 1 ), they chose the flower shop.
 
-Ms. Abe, the adviser, played that recording in the library at lunch. The club did not ask the school to announce the shop's address. A shoe shop then asked for Tuesday. Its counter is too noisy for listeners to follow the work, and a Monday visit had to be quiet enough for that. The students wrote back and ( 2 ).
+Ms. Abe, the adviser, played that recording in the library at lunch. The club did not ask the school to announce the shop's address. A shoe shop then asked for Tuesday. Its counter stays noisy all day, so listeners cannot follow the work then. Shop Stories only records on quiet Mondays, so Tuesday will not work. The students wrote back and ( 2 ).
 
 By winter, Shop Stories was still on the air each Monday. Listeners could picture the flower shop's work without going there first.
 
@@ -297,14 +297,14 @@ By winter, Shop Stories was still on the air each Monday. Listeners could pictur
 2. asked the shoe shop to wait for a quiet Monday
 
 【解説4b】
-靴店は火曜を頼みましたが、カウンターはうるさく、聞き手は仕事を追えません。月曜の録音は、仕事を追える静けさが要ります。生徒は返事を書き、静かな月曜まで待つよう靴店に頼みます。asked the shoe shop to wait for a quiet Monday が合います。
-1 は学校に店の場所を知らせる、で、クラブはそれを頼んでいません。3 は Shop Stories が終わったと伝える、ですが、冬も毎週月曜に番組は続いています。4 はうるさいカウンターで火曜に録音することに同意する、で、月曜の録音に必要な静けさと逆です。
+靴店は火曜を頼みましたが、カウンターは一日中うるさく、聞き手は仕事を追えません。Shop Stories は静かな月曜だけ録音するので、火曜は使えません。生徒は返事を書き、静かな月曜まで待つよう靴店に頼みます。asked the shoe shop to wait for a quiet Monday が合います。
+1 は学校に店の場所を知らせる、で、クラブはそれを頼んでいません。3 は Shop Stories が終わったと伝える、ですが、冬も毎週月曜に番組は続いています。4 はうるさいカウンターで火曜に録音することに同意する、で、月曜だけ録音する条件と逆です。
 
 【ポイント4b】
 種別: 読解
-見出し: 返事は、月曜に必要な静けさに合わせる
-・うるさい火曜のカウンターでは仕事を追えない
-・月曜の録音の条件 ← quiet enough for that
+見出し: 返事は、月曜だけ録音できる条件に合わせる
+・火曜のカウンターは一日中うるさい ← stays noisy all day
+・録音できるのは静かな月曜だけ ← only records on quiet Mondays
 ・学校への店の告知は、本文が否定している
 ・冬も毎週月曜にあるので、終了の返事は合わない
 

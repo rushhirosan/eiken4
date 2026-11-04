@@ -37,8 +37,9 @@ description: Reviews original practice questions for near-duplicates in the same
 - リスニング: 会話の流れ・質問の切り口・イラスト状況が同じ
 - 読解: 掲示・メールの設定（行事名・日程の骨格）が同じ
 - original 同士のほぼ重複
+- **解き方の骨格が同じ**（人名・小道具だけ違う）。例: 隣同士がどちらも `ask [人] to …`、どちらも「二つの時刻の早い方」。場面語が違っても、受験者の手順が同じなら **直す**（品質レビューの「自作内の重複」と同じ見方）
 
-形式（4択・穴埋め・部構成）が同じだけではフラグしない。
+形式（4択・穴埋め・部構成）が同じだけではフラグしない。時刻比較型がファイルの大半、などは originality より `eiken-question-quality-review` の偏りチェック。
 
 ## Verdicts
 

@@ -2825,7 +2825,7 @@ class WritingFeedbackTests(TestCase):
             'word_min': 25,
             'word_max': 35,
             'sentence_min': 2,
-            'sentence_max': 2,
+            'sentence_max': 3,
             'count_body_only': False,
         }
         text = 'English is more interesting for me because I like reading books.'
@@ -2834,7 +2834,7 @@ class WritingFeedbackTests(TestCase):
             any(item['level'] == 'warn' and '文数' in item['message'] for item in result['items'])
         )
 
-    def test_analyze_opinion_info_on_three_sentences(self):
+    def test_analyze_opinion_ok_on_three_sentences(self):
         from exams.writing_feedback import analyze_writing_response
 
         rubric = {
@@ -2842,13 +2842,13 @@ class WritingFeedbackTests(TestCase):
             'word_min': 25,
             'word_max': 35,
             'sentence_min': 2,
-            'sentence_max': 2,
+            'sentence_max': 3,
             'count_body_only': False,
         }
         text = (
             'English is more interesting for me. '
-            'I have two reasons. '
-            'First, I enjoy learning new words.'
+            'First, I enjoy learning new words. '
+            'Second, I can talk with people from other countries.'
         )
         result = analyze_writing_response(text, rubric)
         sentence_items = [
@@ -2856,9 +2856,9 @@ class WritingFeedbackTests(TestCase):
             if item['message'].startswith('文数:')
         ]
         self.assertEqual(len(sentence_items), 1)
-        self.assertEqual(sentence_items[0]['level'], 'info')
+        self.assertEqual(sentence_items[0]['level'], 'ok')
 
-    def test_analyze_opinion_warns_on_four_sentences(self):
+    def test_analyze_opinion_info_on_four_sentences(self):
         from exams.writing_feedback import analyze_writing_response
 
         rubric = {
@@ -2866,7 +2866,7 @@ class WritingFeedbackTests(TestCase):
             'word_min': 25,
             'word_max': 35,
             'sentence_min': 2,
-            'sentence_max': 2,
+            'sentence_max': 3,
             'count_body_only': False,
         }
         text = (
@@ -2876,9 +2876,48 @@ class WritingFeedbackTests(TestCase):
             'Second, I can communicate with people from different countries.'
         )
         result = analyze_writing_response(text, rubric)
+        sentence_items = [
+            item for item in result['items']
+            if item['message'].startswith('文数:')
+        ]
+        self.assertEqual(len(sentence_items), 1)
+        self.assertEqual(sentence_items[0]['level'], 'info')
+
+    def test_analyze_opinion_warns_on_five_sentences(self):
+        from exams.writing_feedback import analyze_writing_response
+
+        rubric = {
+            'kind': 'opinion',
+            'word_min': 50,
+            'word_max': 60,
+            'sentence_min': 2,
+            'sentence_max': 3,
+            'count_body_only': False,
+        }
+        text = (
+            'I think every school should keep a small garden. '
+            'First, students can learn how food grows. '
+            'They see that plants need water. '
+            'Second, a garden gives classes a quiet job. '
+            'A short weeding time is enough.'
+        )
+        result = analyze_writing_response(text, rubric)
         self.assertTrue(
             any(item['level'] == 'warn' and '文数' in item['message'] for item in result['items'])
         )
+
+    def test_parse_opinion_sentence_max_is_three(self):
+        from exams.writing_feedback import parse_writing_rubric
+
+        text = (
+            '次の QUESTION について、あなたの意見とその理由を2つ英文で書きなさい。\n'
+            '●語数の目安は50～60語です。\n'
+            'QUESTION\nDo you think every school should keep a small garden?'
+        )
+        rubric = parse_writing_rubric(text)
+        self.assertEqual(rubric['kind'], 'opinion')
+        self.assertEqual(rubric['sentence_min'], 2)
+        self.assertEqual(rubric['sentence_max'], 3)
 
     def test_build_exam_unlock_excludes_writing_from_mock_level3(self):
         from exams.models import Question

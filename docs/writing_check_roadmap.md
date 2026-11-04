@@ -24,7 +24,7 @@
 
 ```json
 {"kind": "email_reply", "word_min": 15, "word_max": 25, "count_body_only": true}
-{"kind": "opinion", "word_min": 25, "word_max": 35, "sentence_min": 2, "sentence_max": 2}
+{"kind": "opinion", "word_min": 25, "word_max": 35, "sentence_min": 2, "sentence_max": 3}
 ```
 
 ### チェック項目
@@ -33,7 +33,7 @@
 |------|------|
 | 英文の有無 | 英単語がほぼない → warn |
 | 語数 | 目安範囲内 → ok / やや外れ → warn |
-| 文数（意見問題） | 2文前後 → ok / 外れ → warn |
+| 文数（意見問題） | 2〜3文 → ok / 4文 → info / 5文以上 → warn（参考解答は意見＋First＋Second の3文） |
 
 メール返信の語数は `Hi, James!`・`Thank you for your e-mail.`・`Best wishes,` 以降を除いた **本文部分** のみカウント（本番に近い）。
 

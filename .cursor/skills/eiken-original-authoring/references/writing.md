@@ -80,6 +80,8 @@ Why or why not?
 ■ 参考解答の例
 I think students should do homework on weekends. First, they can review what they learned. Second, they will not forget important words.
 
+（意見問題の参考解答は「意見1文 + First + Second」の3文を基準にする。短文を積み上げて5文以上にしない。準2級の50〜60語も、理由の中身を First / Second の各1文にまとめる。）
+
 ■ 表現のメモ
 I think ... / First, ... / Second, ... / because ... / Also, ...
 

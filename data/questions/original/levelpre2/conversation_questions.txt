@@ -532,7 +532,7 @@ B : All right. I'll go home and come back soon.
 
 問題20:
 A : Please make copies of the bus-fare page for everyone in our group today.
-B : Should I copy the lunch page, too? It's on the next page of the same file.
+B : Should I copy the lunch page, too? It's on the next page.
 A : No. The lunch page confuses people. If they read it, they get the times mixed up. So give them ( ).
 B : OK. I'll leave the lunch page out.
 

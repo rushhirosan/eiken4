@@ -727,7 +727,7 @@ Question No.28:
 ---
 
 No.29:
-W: Ken missed the bus.
+W: Ken missed the bus. That leaves three of us here.
 M: We need four people to start the game.
 W: Could we start without him?
 
@@ -740,14 +740,14 @@ Question No.29:
 1. Yes. Three of us can play a short game.
 
 【解説29】
-最後は Could we start without him?（彼なしで始めていい？）です。him はバスに乗り遅れた Ken です。1 は Yes で、3人で短い試合ならできる、と始めてよいかに答えています。
+最後は Could we start without him?（彼なしで始めていい？）です。him はバスに乗り遅れた Ken です。すでに3人残っている、とあります。1 は Yes で、3人で短い試合ならできる、と始めてよいかに答えています。
 2 は次のバスが4時、で、1文目の bus への返事です。3 は Ken が主将、で、Who is Ken? への返事です。始められるかには答えていません。
 
 【ポイント29】
 種別: リスニング
 見出し: 人数が足りるか ← Could we start without him?
 ・本来必要な人数 ← four people
-・3人になる ← without him
+・いまいる人数 ← three of us here
 ・次のバスは、Ken が来る時刻の話
 
 ---

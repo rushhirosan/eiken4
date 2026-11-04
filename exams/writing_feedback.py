@@ -20,8 +20,9 @@ _EMAIL_BOILERPLATE_RES = (
 
 SHORT_RATIO = 0.7
 LONG_RATIO = 1.3
-# 意見問題: 問題文は「2つの英文」だが First/Second 型ではピリオドが3個になりやすい
-SENTENCE_INFO_MAX = 3
+# 意見問題: 「2つの英文」＝意見＋理由2つ。First/Second 型の参考解答は3文が定番で、
+# ピリオドが4個になることもある（協会・保管データの注記に合わせる）。
+SENTENCE_INFO_MAX = 4
 
 
 def parse_writing_rubric(question_text: str) -> dict[str, Any] | None:
@@ -53,8 +54,9 @@ def parse_writing_rubric(question_text: str) -> dict[str, Any] | None:
             'kind': 'opinion',
             'word_min': word_min,
             'word_max': word_max,
+            # 意見1文 + First + Second の3文を参考解答の基準にする
             'sentence_min': 2,
-            'sentence_max': 2,
+            'sentence_max': 3,
             'count_body_only': False,
         }
 
@@ -173,29 +175,33 @@ def _sentence_count_message(sentence_count: int, sentence_min: int, sentence_max
         return {
             'level': 'warn',
             'message': (
-                f'文数: {sentence_count}文（目安 {sentence_min}文）'
+                f'文数: {sentence_count}文（目安 {sentence_min}〜{sentence_max}文）'
                 ' — 文が足りない可能性があります。'
             ),
         }
     if sentence_count <= sentence_max:
         return {
             'level': 'ok',
-            'message': f'文数: {sentence_count}文（問題文どおり）',
+            'message': (
+                f'文数: {sentence_count}文'
+                '（意見＋First / Second の型でよくある目安です）'
+            ),
         }
     if sentence_count <= SENTENCE_INFO_MAX:
         return {
             'level': 'info',
             'message': (
-                f'文数: {sentence_count}文（問題文は「2つの英文」）。'
-                'この級では「意見1文＋理由1文」の2文型がよく使われます。'
-                '参考解答の書き方と見比べてみましょう。'
+                f'文数: {sentence_count}文（目安はおおよそ {sentence_min}〜{sentence_max}文）。'
+                '理由を First / Second の2か所にまとめられるか、'
+                '参考解答と見比べてみましょう。'
             ),
         }
     return {
         'level': 'warn',
         'message': (
-            f'文数: {sentence_count}文 — 「2つの英文」より多めです。'
-            '2文にまとめられるか、参考解答と見比べてみましょう。'
+            f'文数: {sentence_count}文 — 短文が多めです。'
+            '意見1文と First / Second の理由にまとめられるか、'
+            '参考解答と見比べてみましょう。'
         ),
     }
 
