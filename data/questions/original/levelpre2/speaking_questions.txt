@@ -59,7 +59,7 @@ The bread club meets every Tuesday before class. Members shape eight small loave
 
 【Illustration】
 Picture A: 男子が生地をこねている。女子がパンを8個の形に分けている。先生がオーブンのスイッチを入れている。別の生徒が焼き上がったパンを箱に入れている。
-Picture B: 女の子が家庭科室の前に立っている。手にエプロンを持っているが、ドアの前で止まっている。ドアの札は Club full。女の子は壁の名簿を見ている。
+Picture B: 女の子が家庭科室の前の列の末尾に立っている。手に番号札の15を持っている。壁の表示は Now serving 8。女の子は表示を見ている。
 
 【Questions】
 1. [passage] According to the passage, who may take a loaf home in June?
@@ -83,21 +83,21 @@ Picture B: 女の子が家庭科室の前に立っている。手にエプロン
 ■ 参考解答の例
 1. Only members. / Only club members may take a loaf home.
 2. A boy is mixing dough. A girl is shaping eight loaves. A teacher is turning on the oven. Another student is putting baked bread into a box.
-3. She cannot join because the club is full. She is holding an apron and looking at the list on the wall.
+3. She is waiting in line. Her number is 15, and the sign says Now serving 8.
 4. [Yes] Because students can learn a useful skill. They can also share the bread with other people.
 4. [No] Because the room is busy before class. Students can learn baking at home.
 5. [Yes] I wash rice and cut vegetables on weekends. My family cooks dinner together.
 5. [No] I am not good with a knife yet. I set the table instead.
 
 ■ 表現のメモ
-only members / They are -ing / She cannot join because ... / I think ... because ...
+only members / They are -ing / She is waiting / Now serving / I think ... because ...
 
 【ポイント2】
 種別: 会話
 見出し: 絵は見えることをできるだけ言う
 ・June のパンを家へ持って帰れる人。every Tuesday だけでは足りない ← No.1
 ・生地、成形、オーブン、箱のように、人物ごとに are -ing ← No.2
-・Club full と名簿から、入れない状況を言う ← No.3
+・番号札と Now serving から、順番待ちの状況を言う ← No.3
 ・カードを見ずに、自分の意見で答える ← No.4 と No.5
 
 ---
@@ -163,7 +163,7 @@ The school tool shelf opens on the first Saturday of each month. Students may bo
 
 【Illustration】
 Picture A: 男子が棚からハンマーを取っている。女子がノートに名前と日付を書いている。先生が自転車のタイヤを指さしている。別の生徒が戻した手袋を棚の指定の位置に置いている。
-Picture B: 男の子が工具棚の前に立っている。手にハンマーを持っているが、棚の札は Closed である。男の子はカレンダーの日付を見ている。
+Picture B: 男の子が工具棚の前に立っている。手は空で、棚を指さしている。棚の札は Closed である。男の子はカレンダーの日付を見ている。
 
 【Questions】
 1. [passage] According to the passage, what is the second Saturday in August for?
@@ -186,7 +186,7 @@ Picture B: 男の子が工具棚の前に立っている。手にハンマーを
 ■ 参考解答の例
 1. It is only for repairing bicycles. / Repairing bicycles.
 2. A boy is taking a hammer from the shelf. A girl is writing a name and a date. A teacher is pointing at a bicycle tire. Another student is putting gloves back.
-3. He cannot borrow the hammer because the shelf is closed. He is looking at the date on a calendar.
+3. He cannot borrow a tool because the shelf is closed. He is pointing at the shelf and looking at the date on a calendar.
 4. [Yes] Because a small repair saves money. Students can help at home.
 4. [No] Because some tools are dangerous. A shop can do the hard work.
 5. [Yes] I borrowed a dictionary for a week. I wrote my name on the card.
@@ -200,7 +200,7 @@ only for repairing bicycles / He is -ing / The shelf is closed / I think ... bec
 見出し: 絵は見える動作を分けて言う
 ・August の2回目の土曜。first Saturday だけでは足りない ← No.1
 ・ハンマー、ノート、タイヤ、手袋のように、人ごとに are -ing ← No.2
-・Closed とカレンダーから、今日は借りられない状況を言う ← No.3
+・Closed とカレンダーから、今日は借りられない状況を言う（手に道具は持っていない） ← No.3
 ・カードを見ずに答える ← No.4 と No.5
 
 ---
@@ -214,7 +214,7 @@ The neighborhood market lends cloth bags every Sunday morning. Shoppers return t
 
 【Illustration】
 Picture A: 女性が布の袋を渡している。男の子が野菜を袋に入れている。女の子が汚れた袋をかごに分けている。男性が正午の札のそばで時計を見ている。
-Picture B: 女の子が貸出テーブルの前に立っている。きれいな布袋を持っているが、テーブルの札は Bags out である。女の子は空のかごを見ている。
+Picture B: 女の子が貸出テーブルの前に立っている。手は空である。テーブルの札は Bags out である。女の子は空のかごを見ている。
 
 【Questions】
 1. [passage] According to the passage, where will dirty bags be washed from June?
@@ -237,7 +237,7 @@ Picture B: 女の子が貸出テーブルの前に立っている。きれいな
 ■ 参考解答の例
 1. At the market. / They will be washed at the market, not at home.
 2. A woman is handing over a cloth bag. A boy is putting vegetables into a bag. A girl is sorting dirty bags into a basket. A man is looking at a clock near a noon sign.
-3. She has a clean bag, but she cannot borrow one. The sign says the bags are all out, and the basket is empty.
+3. She cannot borrow a bag. The sign says Bags out, and the basket is empty.
 4. [Yes] Because people can shop without buying a new bag every time.
 4. [No] Because shops must wash the bags, and that takes time.
 5. [Yes] I carry the bread and check the list for my mother.
@@ -252,7 +252,7 @@ at the market, not at home / Bags out / I think ... because ...
 ・June からの場所 ← No.1。返す時刻 ← before noon
 ・渡す、入れる、分ける、時計を見る、を分けて言う ← No.2
 ・Bags out と空のかごから、今は借りられない ← No.3
-・きれいな袋を持っていても、貸出が終わっていれば借りられない
+・手に袋はなく、貸出が終わっている
 
 ---
 
@@ -265,7 +265,7 @@ The science class keeps four vegetable boxes on the school roof. Students water 
 
 【Illustration】
 Picture A: 女子がじょうろで野菜に水をやっている。男子が屋根の門を開けている。別の女子がカバー付きの箱のふたを持ち上げている。先生がスープ用の葉をボールに入れている。
-Picture B: 男の子が屋根の門の前に立っている。じょうろを持っているが、門の札は Closed until 8 である。空は雨である。男の子は時計を見ている。
+Picture B: 男の子が屋根の門の前に立っている。門のそばの札は Rain today — use indoor plan である。男の子はその室内計画の紙を読んでいる。
 
 【Questions】
 1. [passage] According to the passage, what are the vegetables from the covered box for?
@@ -288,21 +288,21 @@ Picture B: 男の子が屋根の門の前に立っている。じょうろを持
 ■ 参考解答の例
 1. They are for the Friday soup. / Friday soup, not for students to take home.
 2. A girl is watering the vegetables. A boy is opening the roof gate. Another girl is lifting the lid of a covered box. A teacher is putting leaves into a bowl.
-3. He cannot go in yet. The gate stays closed until eight, it is raining, and he is looking at his watch.
+3. The outdoor plan is canceled for rain. He is reading the indoor plan.
 4. [Yes] Because students can see how food grows. The vegetables can be used at school.
 4. [No] Because roofs need safety rules. A farm is a better place.
 5. [Yes] I water the plants on our balcony every Sunday.
 5. [No] My family buys vegetables. I do not have a place for plants.
 
 ■ 表現のメモ
-for the Friday soup / closed until eight / It is raining
+for the Friday soup / Rain today / indoor plan
 
 【ポイント6】
 種別: 会話
 見出し: 用途をスープに限る ← not for students to take home
 ・covered box の野菜。four boxes 全体の話で終わらない ← No.1
 ・水、門、ふた、ボールを人ごとに言う ← No.2
-・until 8 と雨と時計で、まだ入れない状況 ← No.3
+・雨の札と室内メニューから、屋外計画が中止だと言う ← No.3
 ・去年枯れた理由 ← rainy Friday
 
 ---
@@ -367,7 +367,7 @@ The community center sets out four chess tables every Wednesday from six to eigh
 
 【Illustration】
 Picture A: 2人がチェスをしている。ボランティアが初心者に駒の動きを見せている。女性が静かなランプをつけている。男の子が時計の8時を指さしている。
-Picture B: 女の子がセンターのドアの前に立っている。チェスの駒の入った箱を持っているが、ドアの札は Full である。女の子は水曜の夜の案内を読んでいる。
+Picture B: 女の子がセンターのドアの前のベンチに座っている。手に番号札の12を持っている。壁の表示は Now calling 5。女の子は表示を見ている。
 
 【Questions】
 1. [passage] According to the passage, what time will the winter evening start?
@@ -390,21 +390,21 @@ Picture B: 女の子がセンターのドアの前に立っている。チェス
 ■ 参考解答の例
 1. At five. / The winter evening will start at five. The doors still close at eight.
 2. Two people are playing chess. A volunteer is showing a beginner how a piece moves. A woman is turning on a quiet lamp. A boy is pointing at eight on a clock.
-3. She cannot go in because the room is full. She has a box of chess pieces and is reading the Wednesday evening notice.
+3. She is waiting on a bench. Her number is 12, and the sign says Now calling 5.
 4. [Yes] Because students can meet after club practice. The room is a safe place.
 4. [No] Because workers need to go home. Morning hours are enough.
 5. [Yes] I play chess with my brother on Sundays. We use a small board.
 5. [No] I have not learned the rules. I watch other people play.
 
 ■ 表現のメモ
-start at five / The room is full / I play chess ...
+start at five / She is waiting / Now calling / I play chess ...
 
 【ポイント8】
 種別: 会話
 見出し: 別の時刻 ← start と close
 ・five ← No.1。閉まる時刻のまま ← eight
 ・対局、教え、ランプ、時計を分ける ← No.2
-・Full の札から、駒を持っていても入れない ← No.3
+・番号札と Now calling から、呼び出し待ちの状況を言う ← No.3
 ・黒い駒が見えなかったから ← quieter lamp
 
 ---

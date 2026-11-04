@@ -728,7 +728,7 @@ Who should take a volunteer shirt?
 ---
 
 No.28:
-W: The early bird walk is on for Tuesday if the rain stops. We will meet at the river path, not the parking lot. The parking lot is closed for repairs. Bring soft shoes, and leave bikes at home. The club will lend two pairs of binoculars. If the path stays wet, we will watch a short film in room 2A instead.
+W: The early bird walk is on for Tuesday if the rain stops. We will meet at the river path, not the parking lot. The parking lot is closed for repairs. Bring soft shoes, and leave bikes at home. The club will lend two small maps of the path. If the path stays wet, we will watch a short film in room 2A instead.
 
 Question No.28:
 Where will students meet if the rain has stopped?
@@ -742,7 +742,7 @@ Where will students meet if the rain has stopped?
 2. At the river path.
 
 【解説28】
-火曜の早朝の野鳥散歩は、雨がやんでいれば実施です。駐車場は修理中なので、川沿いの道に集合します。柔らかい靴を持っていき、自転車は家に置きます。双眼鏡はクラブが2組貸します。道が濡れたままなら、代わりに2Aで短い映画を見ます。
+火曜の早朝の野鳥散歩は、雨がやんでいれば実施です。駐車場は修理中なので、川沿いの道に集合します。柔らかい靴を持っていき、自転車は家に置きます。道の小さな地図はクラブが2枚貸します。道が濡れたままなら、代わりに2Aで短い映画を見ます。
 1 は、修理で閉じています。3 は、道が濡れているときの場所です。4 は、自転車を家に置く、で、家で会うのではありません。
 
 【ポイント28】
@@ -863,7 +863,7 @@ Where is the kit for a small cut on Wednesday morning?
 ---
 
 No.33:
-M: Club treasurers must put this month's receipts in the blue envelope. Coins go in the white envelope. Do not mix them. The blue envelope is due on Thursday. The white one can wait until Monday because the bank is closed on Friday. A receipt with no date will be returned to the club. Write the date before you seal the envelope.
+M: Students in charge of club money must put this month's receipts in the blue envelope. Coins go in the white envelope. Do not mix them. The blue envelope is due on Thursday. The white one can wait until Monday because the bank is closed on Friday. A receipt with no date will be returned to the club. Write the date before you seal the envelope.
 
 Question No.33:
 Where do the coins go?
@@ -877,7 +877,7 @@ Where do the coins go?
 2. In the white envelope.
 
 【解説33】
-今月のレシートは青い封筒、硬貨は白い封筒で、混ぜません。質問は硬貨の行き先です。白い封筒です。青い封筒は木曜が期限で、白い封筒は月曜まで待てます。金曜は銀行が閉まっているからです。
+部のお金を預かる生徒は、今月のレシートを青い封筒、硬貨を白い封筒に入れ、混ぜません。質問は硬貨の行き先です。白い封筒です。青い封筒は木曜が期限で、白い封筒は月曜まで待てます。金曜は銀行が閉まっているからです。
 1 はレシートの封筒です。3 は、Do not mix と逆です。4 は、日付のないレシートが部へ戻される話で、硬貨の行き先ではありません。
 
 【ポイント33】

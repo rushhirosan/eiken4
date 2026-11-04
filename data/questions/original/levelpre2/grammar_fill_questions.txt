@@ -217,7 +217,7 @@ The photography club asked for the hall two months before the meeting. The chess
 ---
 
 問題10:
-Several classes forgot their masks during the cold week. More masks will not arrive until Tuesday. The nurse now tells each class to take only what they need that morning, so the box by the door will not ( ).
+The corner shop sells frozen soup only on weekdays. More boxes will not arrive until Tuesday. The owner now tells the clerk to sell only what customers need that morning, so the freezer by the door will not ( ).
 
 選択肢10:
 1. run short before Tuesday
@@ -229,13 +229,13 @@ Several classes forgot their masks during the cold week. More masks will not arr
 1. run short before Tuesday
 
 【解説10】
-2文目で、マスクの追加は火曜まで来ない、とあります。必要な分だけ取るように言っているのは、ドアのそばの箱が火曜より前に足りなくなるのを防ぐためです。run short は「不足する」です。
-2 は昼に鍵をかける、3 はプールへ移す、とは書いてありません。4 stay full all year は「一年中いっぱいにしておく」です。必要な分だけ取る話は、使い切らないようにする話で、一年中満杯にすることではありません。
+2文目で、箱の追加は火曜まで来ない、とあります。必要な分だけ売るよう言っているのは、ドアのそばの冷凍庫が火曜より前に足りなくなるのを防ぐためです。run short は「不足する」です。
+2 は昼に鍵をかける、3 はプールへ移す、とは書いてありません。4 stay full all year は「一年中いっぱいにしておく」です。必要な分だけ売る話は、使い切らないようにする話で、一年中満杯にすることではありません。
 
 【ポイント10】
 種別: 熟語
 見出し: so のあとが、防ぎたい結果
-・使いすぎを止める ← take only what they need
+・売りすぎを止める ← sell only what customers need
 ・足りなくなる期限 ← until Tuesday
 ・run short = 「足りなくなる」
 ・stay full = 「満杯のまま」（目的が違う）
@@ -245,24 +245,24 @@ Several classes forgot their masks during the cold week. More masks will not arr
 The drama club moved Wednesday's practice to a different building. The captain told every member to ( ), because the old flyer still lists the gym.
 
 選択肢11:
-1. make a note of the new room number
-2. make up for lost time at the gym
-3. make use of the old flyer as a map
-4. make plans for a weekend show
+1. check the new room on the board
+2. wait in the gym until Friday
+3. throw away every flyer at home
+4. invite another school to the gym
 
 【正解11】
-1. make a note of the new room number
+1. check the new room on the board
 
 【解説11】
-because のあとが理由です。古い案内にはまだ体育館と書いてあるので、新しい部屋番号を書き留めておく必要があります。make a note of は「〜を書き留める」です。
-2 make up for は「取り戻す」で、古い案内の問題を解決しません。3 make use of は「利用する」で、誤った案内を地図にする話ではありません。4 make plans は「予定を立てる」で、部屋番号を覚えることとは別です。
+because のあとが理由です。古い案内にはまだ体育館と書いてあるので、掲示板で新しい部屋を確認する必要があります。check the new room on the board は「掲示板で新しい部屋を確かめる」です。
+2 は金曜まで体育館で待つ、だと新しい場所へ移る話と合いません。3 は家ですべての案内を捨てる、で、正しい部屋を知る助けになりません。4 は他校を体育館へ招く、とは書いてありません。
 
 【ポイント11】
-種別: 熟語
-見出し: make a note of = 「書き留める」
-・make a note of + 名詞 で「〜をメモする」
-・似た make 句でも、because の old flyer とつながらないものは選ばない
-・メモが要る理由 ← because の中の old flyer
+種別: 単語
+見出し: check ... on the board = 「掲示板で確かめる」
+・古い案内がまだ体育館 ← because の old flyer
+・待つ／捨てる／招くは、新しい部屋を知る動作ではない
+・空所は make 句ではなく、確認の動詞句
 ---
 
 問題12:
@@ -290,27 +290,27 @@ The art class finished a welcome poster for Tuesday's guest. The hallway paint w
 ---
 
 問題13:
-The evening bus will no longer stop by the library. The school sent a letter home to ( ) the change, because many students still waited at the old stop.
+The evening bus will no longer stop by the library. Many students still waited at the old stop, so the city put a new map at the park stop ( ).
 
 選択肢13:
-1. decorate
-2. celebrate
-3. announce
-4. measure
+1. for the first time last year
+2. for a long vacation only
+3. for no clear reason
+4. from now on
 
 【正解13】
-3. announce
+4. from now on
 
 【解説13】
-because が、手紙の目的を決めています。多くの生徒がまだ古い停留所で待っているので、変更を知らせる必要があります。announce the change は「変更を知らせる」です。
-1 decorate は「飾る」で、変更そのものを伝える動詞ではありません。2 celebrate は「祝う」で、停留所がなくなる知らせとは合いません。4 measure は「測る」です。待っている生徒がいる、という理由とつながるのは知らせることです。
+夕方のバスはもう図書館のそばには止まりません。多くの生徒がまだ古い停留所で待っているので、市は公園の停留所に新しい地図をこれから置く、という意味です。from now on は「これから先」です。
+1 for the first time last year は「去年初めて」で、これからの案内ではありません。2 は長い休みのあいだだけ、ですが、停留所の変更は休暇限定ではありません。3 for no clear reason は「はっきりした理由なく」で、still waited という理由と合いません。
 
 【ポイント13】
-種別: 単語
-見出し: announce = 「知らせる」
-・the change を目的語にできるかを見る
-・celebrate = 「祝う」
-・知らせる必要性 ← because の still waited
+種別: 熟語
+見出し: from now on = 「これから先」
+・停留所が変わったあとの案内 ← no longer stop
+・知らせが必要な理由 ← still waited
+・休暇だけ／理由なし、は本文と合わない
 ---
 
 問題14:
@@ -386,7 +386,7 @@ because の中身は、前日の点検でゆるんだコードを見落とした
 ---
 
 問題17:
-The festival needs paper cups, but nobody knows the exact number. The teacher asked the class to ( ), because last year they ran out before three o'clock.
+Mom is buying paper cups for Sunday lunch at home, but nobody knows the exact number. She asked Ken to ( ), because last year they ran out before three o'clock.
 
 選択肢17:
 1. ignore last year's number
@@ -650,7 +650,7 @@ enough for a small cut が、daily use の中身です。大きいけがには�
 ---
 
 問題28:
-The library stairs are closed. A paper sign sends students through the gym hallway. The sign says the route is ( ), because the stairs will open again on Monday.
+The corner bakery marked yesterday's bread at half price. The clerk told customers the lower price was ( ), because fresh bread arrives every morning.
 
 選択肢28:
 1. permanent
@@ -662,15 +662,15 @@ The library stairs are closed. A paper sign sends students through the gym hallw
 2. temporary
 
 【解説28】
-because のあとが、月曜に階段が再び開く、です。体育館の廊下を通る道は、それまでの一時的なルートです。temporary は「一時的な」です。
-1 permanent は「恒久的な」で、月曜に戻る話と逆です。3 traditional は「伝統的な」で、工事中の回り道ではありません。4 terrible は「ひどい」で、札が言っている性質ではありません。
+because のあとが、新鮮なパンは毎朝届く、です。半額は昨日のパン向けで、ずっと続く値段ではありません。temporary は「一時的な」です。
+1 permanent は「恒久的な」で、毎朝新しいパンが来る話と逆です。3 traditional は「伝統的な」で、半額セールの長さを表しません。4 terrible は「ひどい」で、札が言っている性質ではありません。
 
 【ポイント28】
 種別: 単語
 見出し: temporary = 「一時的な」
-・もとに戻る ← will open again
+・半額が続くわけではない ← fresh bread arrives every morning
 ・permanent = 「恒久的な」（一時的ではない）
-・いつまでか ← because の日付
+・店の値札の話（学校の回り道ではない）
 ---
 
 問題29:
@@ -1010,7 +1010,7 @@ The project pairs were chosen by the teacher. She put Nao with Ken because they 
 ---
 
 問題43:
-The club earns a little money from the calendar sale. The treasurer does not spend all of it. She will ( ) some of it for next year's paper.
+The club earns a little money from the calendar sale. The student in charge of the money does not spend all of it. She will ( ) some of it for next year's paper.
 
 選択肢43:
 1. set aside
