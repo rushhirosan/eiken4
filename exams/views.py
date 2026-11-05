@@ -459,14 +459,15 @@ def _get_mock_exam_structure(level):
             ('listening_passage', Question, 10),
         ]
     if level == 'pre2':
-        # 準2級に語順はない。ライティングは別メニュー。件数は手元の最小セットに合わせる。
+        # 準2級に語順はない。ライティング・面接は別メニュー。
+        # 配分は公式の筆記寄り（短文15・会話5・長文本文3・L各10）に合わせる。
         return [
-            ('grammar_fill', Question, 3),
-            ('conversation_fill', Question, 2),
-            ('reading_comprehension', ReadingPassage, 2),
-            ('listening_illustration', ListeningQuestion, 2),
-            ('listening_conversation', Question, 2),
-            ('listening_passage', Question, 2),
+            ('grammar_fill', Question, 15),
+            ('conversation_fill', Question, 5),
+            ('reading_comprehension', ReadingPassage, 3),
+            ('listening_illustration', ListeningQuestion, 10),
+            ('listening_conversation', Question, 10),
+            ('listening_passage', Question, 10),
         ]
     return [
         ('grammar_fill', Question, 15),

@@ -27,24 +27,24 @@ Before the cooking contest last Saturday, Mr. Ito spoke to every team in the kit
 
 選択肢2:
 1. make sure the oven was off
-2. make fun of the other teams
-3. make noise in the hallway
+2. make sure the oven stayed hot
+3. make sure the oven door was clean
 4. make room for more judges
 
 【正解2】
 1. make sure the oven was off
 
 【解説2】
-because のあとが理由です。先週、あるチームがオーブンをつけたままにしていたので、先生は「オーブンがオフであることを確かめなさい」と言っています。make sure ... は「〜を確かめる」です。
-2 make fun of は「ばかにする」で、オーブンの話とつながりません。3 make noise は「音を立てる」です。4 make room は「場所を空ける」です。because の中身（oven / left it on）と合うのは 1 だけです。
+because のあとが理由です。先週、あるチームがオーブンをつけたままにしていたので、Mr. Ito は「オーブンがオフであることを確かめなさい」と言っています。make sure ... は「〜を確かめる」です。
+2 はオーブンを熱いままにする、で、つけたままにしていた問題と逆です。3 はオーブンのドアをきれいにする、で、安全の話ではありません。4 make room は「場所を空ける」で、審査員の席の話になります。because の中身（oven / left it on）と合うのは 1 だけです。
 
 【ポイント2】
 種別: 文法
 見出し: because のあとで句を選ぶ
 ・make sure the oven was off = 「オフだと確かめる」
 ・make sure to 〜 は「必ず〜する」（確かめる、とは別）
-・どの make かを決める ← because のあとの oven
-・形が似ていても、理由とつながらない句は選ばない
+・どの make sure かを決める ← because のあとの left the oven on
+・オーブンが出ていても、理由とつながらない句は選ばない
 ---
 
 問題3:
@@ -75,21 +75,21 @@ The neighborhood coach moved Tuesday's practice to the indoor court. Several pla
 The corner shop sold notebooks at the Saturday market. By three o'clock every blue notebook was gone, so the clerk wrote that the store had ( ).
 
 選択肢4:
-1. run after the customers
-2. run out of blue notebooks
+1. run after the delivery truck
+2. run out of stock
 3. run into the storeroom
-4. run over the poster
+4. run over the price list
 
 【正解4】
-2. run out of blue notebooks
+2. run out of stock
 
 【解説4】
-2文目の every blue notebook was gone が手がかりです。青いノートが全部なくなったので、店は「青いノートを切らした」と書きました。run out of は「〜を使い切る、品切れになる」です。
-1 run after は「追いかける」で、客を追う話ではありません。3 run into は「偶然会う」や「ぶつかる」で、倉庫に入ったことにはなりません。4 run over は「車でひく」です。なくなったのはノートで、ポスターではありません。
+2文目の every blue notebook was gone が手がかりです。青いノートが全部なくなったので、店は「在庫を切らした」と書きました。run out of は「〜を使い切る、品切れになる」です。
+1 run after は「追いかける」で、配達の車を追う話ではありません。3 run into は「偶然会う」や「ぶつかる」で、倉庫に入ったことにはなりません。4 run over は「車でひく」です。なくなったのはノートで、価格表ではありません。
 
 【ポイント4】
 種別: 熟語
-見出し: run out of blue notebooks = 「青いノートを切らす」
+見出し: run out of stock = 「在庫を切らす」
 ・run out of + 名詞 = 「それを使い切る」（在庫だけではない）
 ・run after = 「追う」。run into は「出会う」または「ぶつかる」。run over = 「ひく」
 ・なくなったもの ← 2文目の was gone
@@ -390,16 +390,16 @@ Mom is buying paper cups for Sunday lunch at home, but nobody knows the exact nu
 
 選択肢17:
 1. ignore last year's number
-2. throw the extra cups away
+2. wait until the cups run out again
 3. estimate how many they need
-4. sell cups to another school
+4. buy cups only after lunch ends
 
 【正解17】
 3. estimate how many they need
 
 【解説17】
 exact number が分からないことと、去年は3時前に切れたことが手がかりです。必要な数を見積もってほしい、という依頼です。estimate は「見積もる」です。
-1 は去年の数を無視する、だと、切れないようにする話と逆です。2 は余ったコップを捨てる、ですが、まだ数も決まっていません。4 は他校に売る、とは書いてありません。
+1 は去年の数を無視する、だと、切れないようにする話と逆です。2 はまた切れるまで待つ、で、先に数を決める話と逆です。4 は昼食のあとに買う、で、用意が間に合いません。
 
 【ポイント17】
 種別: 単語
@@ -413,9 +413,9 @@ exact number が分からないことと、去年は3時前に切れたことが
 The guest cannot give the speech on Thursday. The speech is not canceled. The principal decided to ( ) until the following Monday.
 
 選択肢18:
-1. put the guest on a bus home
+1. put the speech before Thursday
 2. put up a sign that the speech is today
-3. put out the lights in the hall
+3. put out a notice that the speech is canceled
 4. put off the speech
 
 【正解18】
@@ -423,14 +423,14 @@ The guest cannot give the speech on Thursday. The speech is not canceled. The pr
 
 【解説18】
 1文目で、客は木曜にその講演ができません。2文目の is not canceled と、空所のうしろの until the following Monday で、中止ではなく次の月曜まで延ばす、と分かります。put off は「延期する」です。
-1 は客をバスで帰す、です。来られない人を送る話ではありません。2 は「講演は今日ある」という札です。until the following Monday と、今日やる、は両立しません。3 はホールの電気を消す、で、本文にありません。
+1 は木曜より前に講演する、で、延期と逆方向です。2 は「講演は今日ある」という札です。until the following Monday と、今日やる、は両立しません。3 は中止の案内を出す、ですが、本文は is not canceled です。
 
 【ポイント18】
 種別: 熟語
 見出し: put off = 「延期する」（中止ではない）
 ・日をずらす印 ← not canceled と until
-・put up = 「掲示する」。put out = 「消す」
-・今日ある、という札は until the following Monday と両立しない
+・put up = 「掲示する」。put out = 「出す・消す」
+・今日ある、という札や中止の案内は until / not canceled と両立しない
 ---
 
 問題19:
@@ -438,22 +438,22 @@ Two people typed the locker list and did not check it, so two students received 
 
 選択肢19:
 1. look into the mistake
-2. look after the lockers at home
-3. look for a new school
-4. look up to the students
+2. look after the locker keys carefully
+3. look for another empty locker later
+4. look up the students' phone numbers
 
 【正解19】
 1. look into the mistake
 
 【解説19】
 1文目で、2人がリストを確かめずに打ったので、生徒2人が同じ番号を誤って受け取っています。事務所は、その誤りを調べると約束しています。look into は「調べる」です。
-2 look after は「世話をする」で、家でロッカーを見る話ではありません。3 look for a new school は「新しい学校を探す」です。4 look up to は「尊敬する」です。
+2 look after は「世話をする」で、鍵を大切に扱う話になります。3 look for は「探す」で、あとで空ロッカーを探す話です。いまの約束は、同じ番号が付いた誤りを調べることです。4 look up は「調べて見つける」で、電話番号を探す話になります。
 
 【ポイント19】
 種別: 熟語
 見出し: look into = 「調べる」
 ・look into + 問題 で「調査する」
-・look after = 「世話をする」。look up to = 「尊敬する」
+・look after = 「世話をする」。look for = 「探す」。look up = 「調べて見つける」
 ・調べる対象 ← 確かめずに打った結果の mistake
 ---
 
@@ -510,7 +510,7 @@ The elevator is being repaired. Classes on the third floor will use the stairs (
 
 選択肢22:
 1. for the first time
-2. for a long vacation
+2. for the rest of the year
 3. for no reason
 4. for the time being
 
@@ -519,7 +519,7 @@ The elevator is being repaired. Classes on the third floor will use the stairs (
 
 【解説22】
 修理が次の水曜に終わる、が期限です。それまでは階段を使う、という一時的な措置です。for the time being は「当分のあいだ」です。
-1 for the first time は「初めて」で、修理が終わるまで、という意味にはなりません。2 は長い休みのあいだ、ですが、本文は休暇ではなく工事です。3 for no reason は「理由なく」で、because の修理と矛盾します。
+1 for the first time は「初めて」で、修理が終わるまで、という意味にはなりません。2 は残りの一年中、で、次の水曜に終わる期限より長すぎます。3 for no reason は「理由なく」で、because の修理と矛盾します。
 
 【ポイント22】
 種別: 熟語
@@ -822,23 +822,23 @@ The puzzle club tried the last problem for an hour. They could not solve it, so 
 
 選択肢35:
 1. give up
-2. give away the answer key
-3. give out invitations
-4. give back the hour
+2. give away their answers
+3. give out the next problem
+4. give back the worksheet
 
 【正解35】
 1. give up
 
 【解説35】
 could not solve it と、翌日先生に聞く、がセットです。その問題は諦めて、次の日に助けを求めます。give up は「諦める」です。
-2 は答えの鍵を配る、ですが、自分たちで解けなかったあとに先生へ聞く話です。3 は招待状を配る、とは書いてありません。4 は1時間を返す、で、tried for an hour を字どおりに取ったひっかけです。
+2 は自分たちの答えを渡す、ですが、解けていないので渡す答えはありません。翌日先生に聞く流れとも合いません。3 は次の問題を配る、で、この問題を止めて助けを求める話ではありません。4 はプリントを返す、で、tried for an hour のあと先生に聞く理由にはなりません。
 
 【ポイント35】
 種別: 熟語
 見出し: give up = 「諦める」
 ・今日は止める印 ← could not と ask the next day
 ・give away は「ただで渡す」または「（答えを）ばらす」
-・返せる物ではない ← for an hour
+・give out = 「配る」。give back = 「返す」
 ---
 
 問題36:
@@ -855,7 +855,7 @@ A date on the concert poster was wrong. A first-year student ( ) the mistake, be
 
 【解説36】
 メールとポスターを比べて、日付の誤りに気づいた、です。1年生はその誤りを指摘しました。point out は「指摘する」です。
-1 covered up は「隠した」で、比べて見つけた話と逆です。3 left out は「省いた」で、ポスターを作った人の動作に見えます。4 put out は「消す、出す」で、誤りを見つけることにはなりません。
+1 covered up は「隠した」で、比べて見つけた話と逆です。3 left out は「省いた」で、日付をポスターから落とした人の動作になります。見つけた人の動作ではありません。4 put out は「消す、出す」で、誤りを見つけることにはなりません。
 
 【ポイント36】
 種別: 熟語

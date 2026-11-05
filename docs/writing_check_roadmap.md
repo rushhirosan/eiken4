@@ -33,7 +33,7 @@
 |------|------|
 | 英文の有無 | 英単語がほぼない → warn |
 | 語数 | 目安範囲内 → ok / やや外れ → warn |
-| 文数（意見問題） | 2〜3文 → ok / 4文 → info / 5文以上 → warn（参考解答は意見＋First＋Second の3文） |
+| 文数（意見問題） | 2〜3文 → ok / 4〜5文 → info / 6文以上 → warn（参考解答は意見＋First＋Second の3文） |
 
 メール返信の語数は `Hi, James!`・`Thank you for your e-mail.`・`Best wishes,` 以降を除いた **本文部分** のみカウント（本番に近い）。
 

@@ -341,24 +341,25 @@ A : Then she'd miss it. Your neighbor is already at the theater, and he has no s
 B : Then I'll ( ), and I'll call my cousin.
 
 選択肢13:
-1. give the extra seat to your neighbor
+1. give the extra seat to my neighbor
 2. keep the extra seat until 6:30
-3. ask your cousin to come at 6:15
+3. ask my cousin to come at 6:15
 4. save the seat and meet the train at 6:30
 
 【正解13】
-1. give the extra seat to your neighbor
+1. give the extra seat to my neighbor
 
 【解説13】
-日曜の劇には余分な席が1つあり、6時15分までに取る必要があります。いとこの電車は6時30分に着くので、間に合いません。隣人はすでに劇場にいて席がないので、席は隣人に渡します。
-2 は、6時30分まで席を取っておく、です。6時15分までです。3 は、いとこに6時15分に来てもらう、です。電車は6時30分に着きます。4 は、席を残して6時30分に迎えに行く、です。席はそれまでに締まります。
+日曜の劇には余分な席が1つあり、6時15分までに取る必要があります。いとこの電車は6時30分に着くので、間に合いません。隣人はすでに劇場にいて席がないので、B は自分の隣人に席を渡します。
+2 は、6時30分まで席を取っておく、です。締め切りは6時15分です。3 は、いとこに6時15分に来てもらう、です。電車は6時30分に着きます。4 は、席を残して6時30分に迎えに行く、です。6時15分までに取らないと席はなくなります。
 
 【ポイント13】
 種別: 会話
 見出し: 締め切りと到着時刻の前後で、席を渡す相手を決める
 ・席は 6:15 までに取る ← by 6:15
 ・いとこの電車は 6:30 に着く ← until 6:30
-・隣人は劇場にいて、席がない
+・隣人は劇場にいて、席がない ← Your neighbor ... has no seat
+・B の発話なので your ではなく my neighbor
 
 ---
 
@@ -813,7 +814,7 @@ B : I see. Then I need to ( ) before I hand them in.
 問題30:
 A : The posters have to be on thick paper, and you can't change the design.
 B : The copy shop jams on thick paper, so I was going to use thin paper there.
-A : Thin paper isn't allowed. The shop at the station is free, and it doesn't jam on thick paper. So why don't you ( )?
+A : Thin paper isn't allowed. The shop at the station isn't busy, and it doesn't jam on thick paper. So why don't you ( )?
 B : Okay. I'll go to the station shop after school.
 
 選択肢30:
@@ -826,7 +827,7 @@ B : Okay. I'll go to the station shop after school.
 4. print the posters on thick paper at the station shop
 
 【解説30】
-ポスターは厚い紙で、デザインは変えられません。コピー店は厚い紙で詰まり、薄い紙は認められません。駅の店は空いていて、厚い紙でも詰まらないので、駅の店で厚い紙に刷ります。
+ポスターは厚い紙で、デザインは変えられません。コピー店は厚い紙で詰まり、薄い紙は認められません。駅の店は混んでおらず、厚い紙でも詰まらないので、駅の店で厚い紙に刷ります。
 1 は、コピー店で薄い紙に刷る、です。薄い紙は認められません。2 は、デザインを変える、です。変えられません。3 は、コピー店で厚い紙に刷る、です。その店は詰まります。
 
 【ポイント30】
@@ -834,7 +835,7 @@ B : Okay. I'll go to the station shop after school.
 見出し: 条件を変えず、条件に合う店を選ぶ
 ・ポスターは厚い紙。デザインは変えられない ← thick paper / can't change the design
 ・コピー店は厚い紙で詰まる。薄い紙は不可
-・駅の店は空いていて、厚い紙でも詰まらない
+・駅の店は混んでいない ← isn't busy。厚い紙でも詰まらない
 
 ---
 

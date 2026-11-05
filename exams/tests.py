@@ -1007,6 +1007,7 @@ Hana rides to the park every Saturday.
         self.assertEqual(_mock_exam_time_limits('5'), (25, 20))
         self.assertEqual(_mock_exam_time_limits('4'), (35, 30))
         self.assertEqual(_mock_exam_time_limits('3'), (35, 30))
+        self.assertEqual(_mock_exam_time_limits('pre2'), (80, 25))
 
     def test_mock_exam_structure_is_50_questions_without_reading(self):
         from exams.views import _get_mock_exam_structure
@@ -1017,6 +1018,28 @@ Hana rides to the park every Saturday.
         self.assertEqual(total, 50)
         self.assertNotIn('reading_comprehension', categories)
         self.assertIn('listening_illustration_part3', categories)
+
+    def test_mock_exam_structure_pre2_matches_full_practice_set(self):
+        from exams.views import _get_mock_exam_structure
+
+        structure = _get_mock_exam_structure('pre2')
+        by_name = {name: count for name, _, count in structure}
+        self.assertEqual(by_name['grammar_fill'], 15)
+        self.assertEqual(by_name['conversation_fill'], 5)
+        self.assertEqual(by_name['reading_comprehension'], 3)
+        self.assertEqual(by_name['listening_illustration'], 10)
+        self.assertEqual(by_name['listening_conversation'], 10)
+        self.assertEqual(by_name['listening_passage'], 10)
+        self.assertNotIn('word_order', by_name)
+        # 選択式だけでも50問（長文の設問数は本文ごとの設問が加算される）
+        self.assertEqual(
+            by_name['grammar_fill']
+            + by_name['conversation_fill']
+            + by_name['listening_illustration']
+            + by_name['listening_conversation']
+            + by_name['listening_passage'],
+            50,
+        )
 
     def test_listening_illustration_audio_uses_part3_for_no101_plus(self):
         from questions.level_paths import db_audio_path, listening_illustration_audio_part
@@ -2883,7 +2906,7 @@ class WritingFeedbackTests(TestCase):
         self.assertEqual(len(sentence_items), 1)
         self.assertEqual(sentence_items[0]['level'], 'info')
 
-    def test_analyze_opinion_warns_on_five_sentences(self):
+    def test_analyze_opinion_info_on_five_sentences(self):
         from exams.writing_feedback import analyze_writing_response
 
         rubric = {
@@ -2896,6 +2919,33 @@ class WritingFeedbackTests(TestCase):
         }
         text = (
             'I think every school should keep a small garden. '
+            'First, students can learn how food grows. '
+            'They see that plants need water. '
+            'Second, a garden gives classes a quiet job. '
+            'A short weeding time is enough.'
+        )
+        result = analyze_writing_response(text, rubric)
+        sentence_items = [
+            item for item in result['items']
+            if item['message'].startswith('文数:')
+        ]
+        self.assertEqual(len(sentence_items), 1)
+        self.assertEqual(sentence_items[0]['level'], 'info')
+
+    def test_analyze_opinion_warns_on_six_sentences(self):
+        from exams.writing_feedback import analyze_writing_response
+
+        rubric = {
+            'kind': 'opinion',
+            'word_min': 50,
+            'word_max': 60,
+            'sentence_min': 2,
+            'sentence_max': 3,
+            'count_body_only': False,
+        }
+        text = (
+            'I think every school should keep a small garden. '
+            'I have two reasons. '
             'First, students can learn how food grows. '
             'They see that plants need water. '
             'Second, a garden gives classes a quiet job. '

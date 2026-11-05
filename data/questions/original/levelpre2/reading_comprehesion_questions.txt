@@ -12,7 +12,7 @@ Ken learned that simple notes can help other people when the notes are clear and
 
 選択肢1a:
 1. Before he bought a new notebook
-2. Until Ms. Ito locked the cafe
+2. After Ms. Ito stopped serving lunch
 3. Although the cafe was closed that week
 4. Because his neighbors wanted more than a list of names
 
@@ -21,14 +21,14 @@ Ken learned that simple notes can help other people when the notes are clear and
 
 【解説1a】
 直前の文は、近所の人が「なぜその昼食の方がよいのか説明してほしい」と頼んだ、です。( 1 ) はその理由で、Ken が料理名の下に短いコメントを書き始めたことにつながります。Because his neighbors wanted more than a list of names が合います。
-1 Before he bought a new notebook は、ノートを買う前にコメントを書き始めたことになり、話の順と逆です。2 Until Ms. Ito locked the cafe は「店主がカフェを鍵で閉めるまで」で、コメントを書き始めた理由になりません。3 Although the cafe was closed that week は「カフェが閉まっていたけれども」で、本文にそんな週はありません。
+1 Before he bought a new notebook は、ノートを買う前にコメントを書き始めたことになり、話の順と逆です。2 After Ms. Ito stopped serving lunch は「店主が昼食の提供をやめたあと」で、コメントを書き始めた理由ではありません。3 Although the cafe was closed that week は「カフェが閉まっていたけれども」で、本文にそんな週はありません。
 
 【ポイント1a】
 種別: 読解
 見出し: Because のかたまり は直前の理由とつなぐ
 ・空所には1語ではなく、文のかたまりが入る
 ・Because のあとは、前の文で述べた理由になる
-・逆の内容 ← Although。時の前後 ← Before / Until
+・逆の内容 ← Although。時の前後 ← Before / After
 
 問題1b:
 ( 2 ) に入れるのに最も適切なものを、1、2、3、4 の中から一つ選びなさい。
@@ -105,21 +105,21 @@ Why can't Aya join the star night?
 1. She does not have a jacket.
 2. The teacher thinks she is not ready.
 3. She asked after all sixteen places were taken.
-4. Nao canceled the star night on Thursday.
+4. The roof is safe for only six students.
 
 【正解2b】
 3. She asked after all sixteen places were taken.
 
 【解説2b】
 Aya が来られない理由は、"Because she asked after the list was closed, there is no space left for her." です。名簿が16人で締まったあとに頼んだからです。
-1 のジャケットは、Elena への持参の指示で、Aya が断られた理由ではありません。2 は先生が Aya の力不足だと言った、とは書いてありません。Nao は来てほしいと思っています。4 は中止ではありません。誰かが取り消せば、空いた席を Aya に知らせます。
+1 のジャケットは、Elena への持参の指示で、Aya が断られた理由ではありません。2 は先生が Aya の力不足だと言った、とは書いてありません。Nao は来てほしいと思っています。4 は屋根の定員を6人と取り違えたものです。本文の定員は sixteen です。
 
 【ポイント2b】
 種別: 読解
 見出し: Because のあとが、断りの理由
 ・asked after the list was closed が理由
 ・本文の別の指示（jacket）を、その人の理由にしない
-・cancel = 「中止」ではなく、空席が出るかもしれない話
+・定員の数字を取り違えない ← sixteen
 
 問題2c:
 What does Nao want Elena to do?
@@ -127,7 +127,7 @@ What does Nao want Elena to do?
 選択肢2c:
 1. Come on Friday and share a telescope.
 2. Wait until someone cancels, and then decide.
-3. Meet Aya in the science room at noon.
+3. Bring Aya's jacket to the roof on Friday.
 4. Bring a short video about the moon.
 
 【正解2c】
@@ -135,7 +135,7 @@ What does Nao want Elena to do?
 
 【解説2c】
 Elena への勧めは "You can still come, and I hope you will." です。望遠鏡は自分のを持たず、ほかの生徒と1台を共有します。
-2 は Aya の動きです。席が空くのを待つのは Aya で、Elena ではありません。3 の noon は理科室で会う時刻ではありません。Elena への返信期限は水曜の夕方で、最終名簿は木曜です。4 の月のビデオは、雨のときに先生側が見せるもので、Elena が持っていくものではありません。
+2 は Aya の動きです。席が空くのを待つのは Aya で、Elena ではありません。3 は Aya のジャケットを持っていく、ですが、ジャケットは Elena 自身への持参の指示です。4 の月のビデオは、雨のときに先生側が見せるもので、Elena が持っていくものではありません。
 
 【ポイント2c】
 種別: 読解
@@ -521,14 +521,14 @@ The family learned that a short daily note is useful when the next person can ac
 1. Before the shelf had any plants
 2. Only after a week of those questions
 3. Although the curtain was always closed
-4. Until Mr. Abe locked the notebook
+4. Until the temperature stopped changing
 
 【正解7a】
 2. Only after a week of those questions
 
 【解説7a】
 記録する人は、初日には植物の文を足していません。ほかの家族の質問は約1週間続き、そのあとで同じ人が気温の下に植物の1文を書き足します。Only after a week of those questions が、その順序に合います。
-1 Before the shelf had any plants は、棚に植物がある前に文が出たことになり、植物について尋ねられた話と逆です。3 Although the curtain was always closed は「カーテンがいつも閉まっていたけれども」で、本文はカーテンが開いているかを記録しています。4 Until Mr. Abe locked the notebook は「Mr. Abe がノートに鍵をかけるまで」で、文が現れた時期の説明になりません。
+1 Before the shelf had any plants は、棚に植物がある前に文が出たことになり、植物について尋ねられた話と逆です。3 Although the curtain was always closed は「カーテンがいつも閉まっていたけれども」で、本文はカーテンが開いているかを記録しています。4 Until the temperature stopped changing は「気温の変化が止まるまで」で、文が現れた時期の説明になりません。質問が続いたあとに足した、が正しい順序です。
 
 【ポイント7a】
 種別: 読解

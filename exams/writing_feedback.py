@@ -21,8 +21,9 @@ _EMAIL_BOILERPLATE_RES = (
 SHORT_RATIO = 0.7
 LONG_RATIO = 1.3
 # 意見問題: 「2つの英文」＝意見＋理由2つ。First/Second 型の参考解答は3文が定番で、
-# ピリオドが4個になることもある（協会・保管データの注記に合わせる）。
-SENTENCE_INFO_MAX = 4
+# ピリオドが3〜4個になることもある（協会・保管データの注記）。準2級の語数帯では
+# 理由の補足で5文になることもあり、5文までは info（warn は6文以上）。
+SENTENCE_INFO_MAX = 5
 
 
 def parse_writing_rubric(question_text: str) -> dict[str, Any] | None:
