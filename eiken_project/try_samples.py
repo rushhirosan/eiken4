@@ -21,13 +21,14 @@ from questions.models import (
     ReadingQuestion,
 )
 
-TRY_LEVELS = ('5', '4', '3')
-READING_TRY_LEVELS = frozenset({'4', '3'})
+TRY_LEVELS = ('5', '4', '3', 'pre2')
+READING_TRY_LEVELS = frozenset({'4', '3', 'pre2'})
 
 LEVEL_LABELS = {
     '5': '5級',
     '4': '4級',
     '3': '3級',
+    'pre2': '準2級',
 }
 
 

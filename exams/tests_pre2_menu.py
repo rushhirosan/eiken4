@@ -22,8 +22,9 @@ class Pre2MenuTests(TestCase):
     def test_exam_list_shows_pre2_formats(self):
         response = self.client.get(reverse('exams:exam_list'), {'level': 'pre2'})
         self.assertEqual(response.status_code, 200)
-        self.assertContains(response, '準2級（ベータ）')
-        self.assertContains(response, 'ベータ公開です。問題はまだ改善中です。')
+        self.assertContains(response, '準2級')
+        self.assertNotContains(response, 'ベータ')
+        self.assertNotContains(response, '問題はまだ改善中です。')
         self.assertContains(response, 'type=grammar_fill')
         self.assertContains(response, 'type=conversation_fill')
         self.assertContains(response, 'type=reading_comprehension')

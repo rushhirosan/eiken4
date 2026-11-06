@@ -72,6 +72,7 @@ def guides(request):
             '5': [t for t in iter_guide_topics() if t['level'] == '5'],
             '4': [t for t in iter_guide_topics() if t['level'] == '4'],
             '3': [t for t in iter_guide_topics() if t['level'] == '3'],
+            'pre2': [t for t in iter_guide_topics() if t['level'] == 'pre2'],
         },
     }
     if show_next_learning:
@@ -299,7 +300,7 @@ def try_level(request, level: str):
 
     related_guides = [t for t in iter_guide_topics() if t['level'] == level]
     label = level_label(level)
-    if level in ('4', '3'):
+    if level in ('4', '3', 'pre2'):
         try_meta_description = (
             f'英検®{label}の文法・リスニング・長文をお試し。登録なしで無料のオリジナル練習問題を体験できます。'
         )

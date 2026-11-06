@@ -222,9 +222,8 @@ def resources_page_sections() -> list[ResourcesPageSection]:
         },
         {
             'level': 'pre2',
-            'level_label': '準2級（ベータ）',
+            'level_label': '準2級',
             'intro': (
-                'ベータ公開です。問題はまだ改善中です。'
                 '短文・会話・長文、Eメールと英作文、リスニング、面接の流れ練習が使えます。'
                 '紙の過去問・問題集は必須ではありません。'
             ),

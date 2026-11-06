@@ -308,13 +308,13 @@ B : Oh, right. Then I'll ( ) before I carry it in.
 
 問題12:
 A : You've been dragging your foot to stop your bike all week. What's wrong?
-B : The brake is loose. I tried the pump at my apartment, but it only fills tires.
-A : Dragging your foot isn't a repair. The shop in town fixes brakes, and a bus stops right outside it. You'd better ( ).
+B : The stop lever is loose. I tried the pump at my apartment, but it only fills tires.
+A : Dragging your foot isn't a repair. The shop in town fixes bikes, and a bus stops right outside it. You'd better ( ).
 B : I'll go there after school.
 
 選択肢12:
 1. keep dragging your foot and riding
-2. use the apartment pump on the brake
+2. use the apartment pump on the stop lever
 3. take the bus and leave the bike at home
 4. take the bike to the shop in town
 
@@ -322,15 +322,15 @@ B : I'll go there after school.
 4. take the bike to the shop in town
 
 【解説12】
-B のブレーキは緩んでいて、足を擦って止めています。アパートの空気入れはタイヤ用です。足を擦るのは修理ではありません。町の店はブレーキを直すので、自転車をその店へ持っていきます。
-1 は、足を擦って乗り続ける、です。修理になりません。2 は、空気入れをブレーキに使う、です。タイヤに空気を入れるだけです。3 は、バスに乗って自転車を家に置く、です。バスは店の外に止まるだけで、自転車は直りません。
+B の止めレバーは緩んでいて、足を擦って止めています。アパートの空気入れはタイヤ用です。足を擦るのは修理ではありません。町の店は自転車を直すので、自転車をその店へ持っていきます。
+1 は、足を擦って乗り続ける、です。修理になりません。2 は、空気入れを止めレバーに使う、です。タイヤに空気を入れるだけです。3 は、バスに乗って自転車を家に置く、です。バスは店の外に止まるだけで、自転車は直りません。
 
 【ポイント12】
 種別: 会話
 見出し: 応急と合わない道具を外し、直せる店へ持っていく
 ・足を擦るのは修理ではない ← isn't a repair
 ・空気入れはタイヤ用 ← only fills tires
-・町の店はブレーキを直す ← fixes brakes
+・町の店は自転車を直す ← fixes bikes
 
 ---
 
@@ -364,28 +364,28 @@ B : Then I'll ( ), and I'll call my cousin.
 ---
 
 問題14:
-A : Kenji's team needs their shovel back right now. It still works fine with some dirt on it.
+A : Kenji's team needs their garden tool back right now. It still works fine with some dirt on it.
 B : Oh. I wanted to wash it first and bring it back after practice. But I guess I should ( ) now.
 A : Thanks. They're waiting by the gate, so please hurry a little.
 B : Okay. I'll take it over to them right away.
 
 選択肢14:
-1. wash the shovel and then start practice
-2. return the shovel while it is still dirty
-3. keep the shovel until practice is over
-4. buy Kenji's team a new shovel
+1. wash the garden tool and then start practice
+2. return the garden tool while it is still dirty
+3. keep the garden tool until practice is over
+4. buy Kenji's team a new garden tool
 
 【正解14】
-2. return the shovel while it is still dirty
+2. return the garden tool while it is still dirty
 
 【解説14】
-Kenji のチームはシャベルを今すぐ必要としています。少し汚れていても使えます。B は洗って練習のあとに返すつもりでしたが、それでは遅いので、汚れたまま今返します。
-1 は、洗ってから練習を始める、です。先に返す必要があります。3 は、練習が終わるまで持っている、です。相手は今必要です。4 は、新しいシャベルを買う、です。相手が必要なのは B が借りたシャベルです。
+Kenji のチームは庭用の道具を今すぐ必要としています。少し汚れていても使えます。B は洗って練習のあとに返すつもりでしたが、それでは遅いので、汚れたまま今返します。
+1 は、洗ってから練習を始める、です。先に返す必要があります。3 は、練習が終わるまで持っている、です。相手は今必要です。4 は、新しい道具を買う、です。相手が必要なのは B が借りた道具です。
 
 【ポイント14】
 種別: 会話
 見出し: 汚れていても使える物は、必要な人へ先に返す
-・相手は今すぐ必要 ← needs their shovel back right now
+・相手は今すぐ必要 ← needs their garden tool back right now
 ・汚れていても使える ← still works fine with some dirt
 ・B は洗って練習後に返すつもりだった
 
@@ -701,29 +701,29 @@ B : Then I'll ( ) when I get to the station.
 
 問題26:
 A : Your flute lesson is at four, but the flute room is taken.
-B : A piano student is using it all afternoon, and two students can't share it. I'll wait outside.
-A : But you have cram school at five. When the flute room is busy, the teacher hears students in the practice room. Why don't you ( )?
+B : I'll wait outside until it's free.
+A : You have another class at five, though. The teacher can hear you in the practice room. Why don't you ( )?
 B : Oh, right. I'll tell the teacher I'm here.
 
 選択肢26:
-1. share the flute room with the piano student
-2. wait until the piano student finishes
+1. share the flute room with another student
+2. wait outside until the flute room is free
 3. have your lesson in the practice room
-4. skip the lesson because of cram school
+4. skip the lesson because of the five o'clock class
 
 【正解26】
 3. have your lesson in the practice room
 
 【解説26】
-フルート室はピアノの生徒が午後ずっと使い、2人では使えません。B は5時から塾があるので待てません。フルート室がふさがっているとき、先生は練習室で生徒を聞くので、練習室でレッスンを受けます。
-1 は、ピアノの生徒と一緒に使う、です。2人では使えません。2 は、ピアノの生徒が終わるまで待つ、です。塾があるので待てません。4 は、塾のためにレッスンを休む、です。練習室で受けられます。
+フルート室はふさがっています。B は外で待つつもりですが、5時にもう一つの授業があるので待てません。先生は練習室でも聞けるので、練習室でレッスンを受けます。
+1 は、ほかの生徒とフルート室を分け合う、です。部屋はふさがっています。2 は、空くまで外で待つ、です。5時の授業があるので待てません。4 は、5時の授業のためにレッスンを休む、です。練習室で受けられます。
 
 【ポイント26】
 種別: 会話
 見出し: ふさがった部屋を避け、先生が聞ける別の部屋を使う
-・フルート室は午後ずっとピアノの生徒が使う。2人では使えない
-・B は5時から塾で、待てない ← cram school at five
-・ふさがっているときは、先生は練習室で聞く
+・フルート室はふさがっている ← the flute room is taken
+・B は5時に別の授業があり、待てない ← another class at five
+・先生は練習室でも聞ける ← practice room
 
 ---
 

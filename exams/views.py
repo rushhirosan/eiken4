@@ -348,7 +348,7 @@ EXAM_LEVEL_ENTRIES = [
     ('5', '5級'),
     ('4', '4級'),
     ('3', '3級'),
-    ('pre2', '準2級（ベータ）'),
+    ('pre2', '準2級'),
 ]
 VALID_EXAM_LEVELS = {code for code, _ in EXAM_LEVEL_ENTRIES}
 QUESTION_TYPE_LABELS = {
@@ -642,8 +642,8 @@ CHOOSE_EXAM_LEVEL_CARDS = [
     {
         'code': 'pre2',
         'name': '準2級',
-        'badge': 'ベータ',
-        'summary': 'ベータ公開です。問題はまだ改善中です。短文・会話・長文、Eメールと英作文、リスニング、面接の流れ練習が使えます。',
+        'badge': '高校初級',
+        'summary': '短文・会話・長文、Eメールと英作文、リスニング、面接の流れ練習が使えます。',
         'tags': ['長文読解', 'Eメール', '英作文', '面接'],
     },
 ]

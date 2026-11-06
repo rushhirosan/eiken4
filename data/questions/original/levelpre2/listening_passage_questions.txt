@@ -512,60 +512,61 @@ What happens to shoes that are torn?
 ---
 
 No.20:
-W: Language exchange partners are chosen by the teacher, not by friends sitting together. The first meeting is in room 5B, not the cafeteria. Bring your name card from the office. If you cannot come, tell the office by noon on Tuesday so the teacher can choose a new partner. Arriving late does not keep your place past ten minutes.
+W: For the language exchange, the teacher chooses each partner. Meet first in room 5B. Bring your name card from the office. If you cannot come, tell the office by noon on Tuesday. Then someone else can join instead. If you arrive more than ten minutes late, you lose that turn.
 
 Question No.20:
 Why should a student tell the office about an absence by Tuesday noon?
 
 1. So friends can sit together in the cafeteria.
 2. So a late arrival can keep the place.
-3. So the teacher can choose a new partner.
-4. So the meeting can move past room 5B.
+3. So someone else can join instead.
+4. So the meeting can move to another room.
 
 【正解20】
-3. So the teacher can choose a new partner.
+3. So someone else can join instead.
 
 【解説20】
-相手は先生が決め、友だちが並んで座るのではありません。最初の会は食堂ではなく5Bです。来られないときは火曜の正午までに事務所へ言い、先生が新しい相手を選べるようにします。10分を過ぎた遅れは席を保てません。
-1 は、場所も決め方も違います。2 は、遅れで席を保てる、と逆です。4 は、会場を5Bの外へ広げる、ではありません。
+相手は先生が決めます。最初の会は5Bです。来られないときは火曜の正午までに事務所へ言い、代わりの人が入れるようにします。10分を過ぎた遅れはその回の席を失います。
+1 は、友だち同士で決める話ではありません。2 は、遅れで席を保てる、と逆です。4 は、会場を変える話ではありません。
 
 【ポイント20】
 種別: リスニング
-見出し: 欠席連絡の目的 ← so the teacher can
+見出し: 欠席連絡の目的 ← someone else can join
 ・欠席連絡の期限 ← by noon on Tuesday
-・食堂ではない ← room 5B
-・遅れても席が残る限界 ← ten minutes
+・最初の場所 ← room 5B
+・遅れの限界 ← ten minutes
 
 ---
 
 No.21:
-M: Students using the photo room on Wednesday must sign the sheet before lunch. The room holds four people. A fifth person may wait in the hall, not inside. The bottles stay on the metal table. Do not move them to the sink. If you finish early, clean your tray and let the next person in. The room locks at five whether you are finished or not.
+M: Students using the photo room on Wednesday must sign the sheet before lunch. Only four people may work inside. If one more student comes, that student should wait outside the door. Keep bottles on the metal table. Do not move them to the sink. If you finish early, clean your tray and let the next person in. The room locks at five whether you are finished or not.
 
 Question No.21:
-Where may a fifth student wait?
+What should an extra student do when four people are already inside?
 
-1. In the hall.
-2. Inside the photo room.
-3. At the sink.
-4. Until five, inside with the bottles.
+1. Wait outside the door.
+2. Go inside with the four people.
+3. Move the bottles to the sink.
+4. Stay inside until five.
 
 【正解21】
-1. In the hall.
+1. Wait outside the door.
 
 【解説21】
-写真室は4人です。5人目は中ではなく廊下で待ちます。水曜に使う生徒は昼より前に用紙へ署名します。瓶は金属の机に置き、流しへ移しません。早く終わったらトレイを洗い、次の人を入れます。終わっていなくても5時に施錠します。
-2 は、not inside です。3 は、瓶を移さない場所です。4 は、5時は施錠の時刻で、5人目が中にいてよい意味ではありません。
+写真室は中で作業できるのは4人までです。もう1人来た場合は、ドアの外で待ちます。水曜に使う生徒は昼より前に用紙へ署名します。瓶は金属の机に置き、流しへ移しません。早く終わったらトレイを洗い、次の人を入れます。終わっていなくても5時に施錠します。
+2 は、定員を超えて中に入る、です。3 は、瓶を移してはいけない場所です。4 は、5時は施錠の時刻で、追加の生徒が中にいてよい意味ではありません。
 
 【ポイント21】
 種別: リスニング
-見出し: 待ち場所を外に限る ← not inside
-・four people が定員
+見出し: 定員を超えた人の待ち方
+・four people が中の定員
+・追加の人 ← wait outside the door
 ・瓶の場所 ← metal table
 ・作業の終わりとは別 ← locks at five
 
 ---
 No.22:
-W: Neighborhood helpers, listen. Announcements must be on the front desk by eight, not by email. I will read them in the order I receive them. A group that sends a long note will hear only the first two sentences. Write the place and the time in those two sentences. Jokes at the end will not be read. If you miss the desk, wait until the next morning.
+W: Neighborhood helpers, listen. Put announcements on the front desk by eight. Do not send them by email. I will read them in the order I receive them. Keep a long note short. I will only read the opening lines that name the place and the time. Leave jokes out. If you miss the desk, wait until the next morning.
 
 Question No.22:
 What part of a long announcement will be read?
@@ -573,21 +574,21 @@ What part of a long announcement will be read?
 1. The joke at the end.
 2. Nothing until the next week.
 3. The whole note, if it arrives by email.
-4. The first two sentences.
+4. The opening lines with the place and the time.
 
 【正解22】
-4. The first two sentences.
+4. The opening lines with the place and the time.
 
 【解説22】
-朝の連絡は8時までに机へ置き、メールでは受け付けません。受け取った順に読みます。長いノートは最初の2文だけです。場所と時刻はその2文に書きます。終わりの冗談は読みません。机に間に合わなければ次の朝まで待ちます。
+朝の連絡は8時までに机へ置き、メールでは送りません。受け取った順に読みます。長いノートは、場所と時刻を書いた冒頭だけが読まれます。冗談は入れないでください。机に間に合わなければ次の朝まで待ちます。
 1 は、読まれません。3 は、メールは不可です。2 は、次の週まで、ではなく、次の朝です。
 
 【ポイント22】
 種別: リスニング
-見出し: 長い文のどこが残るか ← only the first two
-・出し方 ← by eight, not by email
-・その2文に入れる情報 ← place and time
-・読まれない ← jokes at the end
+見出し: 長い文のどこが残るか ← opening lines
+・出し方 ← front desk by eight
+・冒頭に入れる情報 ← place and time
+・読まれない ← jokes
 
 ---
 

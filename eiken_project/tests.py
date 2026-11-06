@@ -35,8 +35,8 @@ class LandingPageTest(TestCase):
         self.assertContains(response, '学習ポイントでノート復習しやすい')
         self.assertContains(response, '本サイトは公益財団法人 日本英語検定協会の公式サイトではありません。')
         self.assertContains(response, '英検®は、公益財団法人 日本英語検定協会の登録商標です。')
-        self.assertContains(response, '英検®5級・4級・3級の無料練習 - えいごごはん')
-        self.assertContains(response, '英検®の5級・4級・3級を目安にしたオリジナル練習です。協会の承認・推奨を受けたものではありません。')
+        self.assertContains(response, '英検®5級・4級・3級・準2級の無料練習 - えいごごはん')
+        self.assertContains(response, '英検®の5級・4級・3級・準2級を目安にしたオリジナル練習です。協会の承認・推奨を受けたものではありません。')
         self.assertContains(response, '<span class="gradient-text">えいごごはん</span>で、')
         self.assertNotContains(response, '英検公式')
         self.assertNotContains(response, '協会公認')
@@ -105,7 +105,7 @@ class LlmsTxtTest(TestCase):
         self.assertEqual(response['Content-Type'], 'text/plain; charset=utf-8')
         content = response.content.decode()
         self.assertTrue(content.startswith('# えいごごはん\n'))
-        self.assertIn('> 英検®5級・4級・3級向け', content)
+        self.assertIn('> 英検®5級・4級・3級・準2級向け', content)
         self.assertIn('- [トップ](https://eigogohan.com/):', content)
         self.assertIn('- [サービス概要・FAQ](https://eigogohan.com/about/):', content)
         self.assertIn('- [学習の進め方](https://eigogohan.com/guides/):', content)
@@ -137,7 +137,7 @@ class GuidesPageTest(TestCase):
         self.assertContains(response, '3級の進め方')
         self.assertContains(response, '準2級の進め方')
         self.assertContains(response, 'id="level-pre2"')
-        self.assertContains(response, 'ベータ公開です。問題はまだ改善中です。')
+        self.assertNotContains(response, 'ベータ公開です。問題はまだ改善中です。')
         self.assertContains(response, 'フィードバックの送り方')
         self.assertContains(response, '学習ポイントをノートに写す')
         self.assertContains(response, '学習ポイントとは何ですか？')
@@ -255,8 +255,8 @@ class ResourcesPageTest(TestCase):
         self.assertContains(response, '5級')
         self.assertContains(response, '4級')
         self.assertContains(response, '3級')
-        self.assertContains(response, '準2級（ベータ）')
-        self.assertContains(response, 'ベータ公開です。問題はまだ改善中です。')
+        self.assertContains(response, '準2級')
+        self.assertNotContains(response, 'ベータ公開です。問題はまだ改善中です。')
         self.assertContains(response, '5級の過去問・問題集')
         self.assertContains(response, '4級の長文対策')
         self.assertContains(response, '3級の長文対策')
@@ -343,7 +343,7 @@ class AboutPageTest(TestCase):
             response,
             'このコンテンツは、公益財団法人 日本英語検定協会の承認や推奨、その他の検討を受けたものではありません。',
         )
-        self.assertContains(response, '英検®5級・4級・3級のサービス概要 - えいごごはん')
+        self.assertContains(response, '英検®5級・4級・3級・準2級のサービス概要 - えいごごはん')
         self.assertContains(response, '協会の過去問そのものではありません。')
         self.assertNotContains(response, '英検公式')
         self.assertNotContains(response, '協会公認')
@@ -498,14 +498,30 @@ class TrySamplePageTest(TestCase):
             question=self.reading, choice_text='Black.', is_correct=False, order=2
         )
 
+        self.pre2_grammar = Question.objects.create(
+            provenance=PROVENANCE_ORIGINAL,
+            level='pre2',
+            question_type='grammar_fill',
+            question_text='Please ( ) the door.',
+            explanation='close が正解です。',
+            question_number=1,
+        )
+        Choice.objects.create(
+            question=self.pre2_grammar, choice_text='close', is_correct=True, order=1
+        )
+        Choice.objects.create(
+            question=self.pre2_grammar, choice_text='closed', is_correct=False, order=2
+        )
+
     def test_try_index_is_public(self):
         response = Client().get(reverse('try_index'))
         self.assertEqual(response.status_code, 200)
         self.assertContains(response, 'お試し問題')
         self.assertContains(response, '登録不要')
         self.assertContains(response, reverse('try_level', kwargs={'level': '4'}))
-        self.assertContains(response, '準2級（ベータ）')
-        self.assertContains(response, 'お試し問題はまだありません')
+        self.assertContains(response, reverse('try_level', kwargs={'level': 'pre2'}))
+        self.assertContains(response, '準2級')
+        self.assertNotContains(response, 'お試し問題はまだありません')
         self.assertContains(response, 'index, follow')
 
     def test_try_level_shows_grammar_and_listening(self):
