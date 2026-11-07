@@ -219,7 +219,7 @@ def make_explain_01() -> Path:
     draw_wrapped(d, body, (110, 255), f_reg(26), MUTED, 620, line_gap=10)
 
     # feature pills
-    pills = ["無料", "5級・4級・3級", "PCでもOK"]
+    pills = ["無料", "5級〜準2級", "PCでもOK"]
     x = 110
     y = 390
     for p in pills:
@@ -299,34 +299,37 @@ def make_explain_03() -> Path:
     img = make_base(w, h)
     d = ImageDraw.Draw(img)
     brand_chip(d, 70, 48)
-    d.text((70, 110), "5級・4級・3級に対応", font=f_bold(40), fill=TEXT)
-    d.text((70, 170), "級ごとに最適化された問題セットで効率的に対策", font=f_reg(22), fill=MUTED)
+    d.text((70, 110), "5級・4級・3級・準2級に対応", font=f_bold(36), fill=TEXT)
+    d.text((70, 165), "級ごとに最適化された問題セットで効率的に対策", font=f_reg(22), fill=MUTED)
 
+    # 4枚に収めるためカードを細めにし、各級の主要形式を5項目で示す
     levels = [
         ("5級", "Level 5", "入門", ["文法・語彙", "会話補充", "語順選択", "リスニング", "模擬試験"], PRIMARY),
         ("4級", "Level 4", "初級", ["文法・語彙", "会話補充", "長文読解", "リスニング", "模擬試験"], PRIMARY_SOFT),
         ("3級", "Level 3", "中級", ["文法・語彙", "ライティング", "長文読解", "リスニング", "模擬試験"], TEAL),
+        ("準2級", "Pre-2", "高校初級", ["文法・語彙", "会話補充", "ライティング", "長文読解", "リスニング"], PRIMARY_DEEP),
     ]
-    card_w, card_h = 340, 360
-    gap = 28
-    total = 3 * card_w + 2 * gap
+    card_w, card_h = 255, 360
+    gap = 18
+    total = 4 * card_w + 3 * gap
     start_x = (w - total) // 2
-    y0 = 230
+    y0 = 220
+    pad = 18
     for i, (name, en, badge, tags, color) in enumerate(levels):
         x = start_x + i * (card_w + gap)
-        img = shadow_card(img, (x, y0, x + card_w, y0 + card_h), radius=24)
+        img = shadow_card(img, (x, y0, x + card_w, y0 + card_h), radius=22)
         d = ImageDraw.Draw(img)
         d.rounded_rectangle([x, y0, x + card_w, y0 + 8], radius=4, fill=color)
-        d.text((x + 28, y0 + 36), name, font=f_bold(30), fill=TEXT)
-        d.text((x + 28, y0 + 80), en, font=f_reg(18), fill=MUTED)
-        bw = text_width(d, badge, f_med(16)) + 24
-        d.rounded_rectangle([x + 28, y0 + 118, x + 28 + bw, y0 + 148], radius=12, fill=color)
-        d.text((x + 40, y0 + 122), badge, font=f_med(16), fill=WHITE)
-        yy = y0 + 180
+        d.text((x + pad, y0 + 32), name, font=f_bold(26), fill=TEXT)
+        d.text((x + pad, y0 + 72), en, font=f_reg(16), fill=MUTED)
+        bw = text_width(d, badge, f_med(15)) + 22
+        d.rounded_rectangle([x + pad, y0 + 108, x + pad + bw, y0 + 136], radius=12, fill=color)
+        d.text((x + pad + 11, y0 + 112), badge, font=f_med(15), fill=WHITE)
+        yy = y0 + 168
         for tag in tags:
-            d.ellipse([x + 32, yy + 6, x + 44, yy + 18], fill=color)
-            d.text((x + 56, yy), tag, font=f_reg(18), fill=MUTED)
-            yy += 32
+            d.ellipse([x + pad + 4, yy + 5, x + pad + 14, yy + 15], fill=color)
+            d.text((x + pad + 24, yy), tag, font=f_reg(16), fill=MUTED)
+            yy += 30
 
     footer_url(d, w, h)
     out = OUT / "explain_03_levels.png"
@@ -454,7 +457,7 @@ def make_og_image() -> Path:
     sub = "EigoGohan"
     d.text((105, 240), sub, font=f_med(28), fill=TEAL)
 
-    line = "5級・4級・3級の無料オンライン練習"
+    line = "5級・4級・3級・準2級の無料オンライン練習"
     d.text((100, 310), line, font=f_med(32), fill=(210, 216, 235))
 
     features = "文法・語彙 / 長文読解 / リスニング / 模擬試験"
