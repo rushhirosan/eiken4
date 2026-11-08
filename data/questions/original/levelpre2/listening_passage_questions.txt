@@ -215,56 +215,56 @@ What will happen to coats that are not returned by Monday?
 ---
 
 No.9:
-M: Attention, students in tonight's play. Enter through the side door, not the front hall. The front hall is for the audience. Be in costume by six fifteen. If you are only helping with lights, you may wear school clothes, but you still use the side door. The play starts at seven. Late helpers will not be seated in the back row.
+M: Attention, students in tonight's play. Enter through the side door. The front hall is for the audience only. Be in costume by six fifteen. If you are only helping with lights, you may wear school clothes, but you follow the same rule as the actors. The play starts at seven. Late helpers will not be seated in the back row.
 
 Question No.9:
-Which door should a light helper use?
+Why must a light helper use the same door as the actors?
 
-1. The front hall, with the audience.
-2. The back row of the theater.
-3. Any door, because helpers wear school clothes.
-4. The side door.
+1. Helpers sit with the audience in the front hall.
+2. Late helpers sit in the back row.
+3. The front hall is only for people watching the play.
+4. Light helpers wear different clothes, so they use another door.
 
 【正解9】
-4. The side door.
+3. The front hall is only for people watching the play.
 
 【解説9】
-出演者は正面ホールではなく脇のドアから入ります。照明だけの手伝いも制服のままでよいですが、同じ脇のドアを使います。正面ホールは観客用です。遅れた手伝いを後ろの列に座らせる、とは言っていません。
-1 は観客の入口です。3 は、服装が違っても入口は同じです。2 は、遅れた手伝いの座席ではありません。
+脇のドアから入ります。正面ホールは観客だけが使います。照明の手伝いも制服でよいですが、出演者と同じ入口の規則に従います。だから照明の手伝いも同じドアを使います。遅れた手伝いを後ろの列に座らせる、とは言っていません。
+1 は観客の話です。2 は座席の話で、入口の理由ではありません。4 は逆です。服装が違っても入口は同じです。
 
 【ポイント9】
 種別: リスニング
-見出し: 例外に見えて同じ規則 ← but you still
-・出演も照明も ← side door
-・観客 ← front hall
-・入口を変えない ← school clothes
+見出し: 同じ規則に従う ← follow the same rule
+・正面ホール ← audience only
+・照明も同じ入口 ← same rule as the actors
+・服装が違っても入口は変えない
 
 ---
 
 No.10:
-W: A note for anyone who keeps a bicycle at the apartment. Register the bicycle by Tuesday if you have not done so this year. A number sticker will be put on the back, not on the basket. Bicycles without a sticker may not use the racks after Tuesday. Walking does not require a sticker. Bring the bicycle itself, not only a photo.
+W: A note for anyone who keeps a bicycle at the apartment. Register the bicycle by Tuesday if you have not done so this year. A number sticker will be put on the back of the bicycle. Bicycles without a sticker may not use the racks after Tuesday. People who only walk do not need a sticker. Please bring the bicycle to the office. A photo alone is not enough for registration.
 
 Question No.10:
-What must a resident bring in order to register?
+Why is a photo alone not enough for registration?
 
-1. The bicycle.
-2. Only a photo of the bicycle.
-3. A basket for the sticker.
-4. Proof that they walk.
+1. Stickers go on the basket, so a photo of the back is useless.
+2. The office must put a sticker on the real bicycle.
+3. Walking residents also need to show a photo.
+4. Racks stay open after Tuesday without a sticker.
 
 【正解10】
-1. The bicycle.
+2. The office must put a sticker on the real bicycle.
 
 【解説10】
-登録するには自転車そのものを持ってきて、写真だけではだめです。番号のシールは後ろに貼り、かごには貼りません。火曜のあと、シールのない自転車は置き場を使えません。歩いて来る人にシールは不要です。
-2 は、not only a photo で足りません。3 は、シールを貼る場所ではありません。4 は、歩く人は登録の対象外です。
+登録には自転車を事務所へ持っていきます。写真だけでは足りません。番号のシールは自転車の後ろに貼るので、現物が必要です。火曜のあと、シールのない自転車は置き場を使えません。歩いて来るだけの人にシールは不要です。
+1 は逆です。シールはかごではなく後ろです。3 は、歩く人は登録の対象外です。4 は、シールがないと置き場を使えなくなります。
 
 【ポイント10】
 種別: リスニング
-見出し: 現物が必要 ← not only a photo
-・持ってくる物 ← the bicycle itself
-・シールの位置 ← back。違う ← basket
-・ステッカー不要 ← walking
+見出し: 現物が必要な理由 ← sticker on the bicycle
+・持ってくる物 ← bring the bicycle
+・足りないもの ← a photo alone
+・シール不要 ← people who only walk
 
 ---
 
@@ -837,29 +837,29 @@ What will the winning class receive?
 ---
 
 No.32:
-W: The nurse will be out on Wednesday morning. Afternoon visits are still possible after one. For a small cut before then, use the kit by the office, not the one in the gym. The gym kit is for practices after school. If you feel too ill to stay, call a parent from the office phone. The nurse returns at twelve forty-five.
+W: The nurse will be out on Wednesday morning. Afternoon visits are still possible after one. For a small cut before then, use the kit kept near the office phone. The gym kit is locked until practice starts after school. If you feel too ill to stay, call a parent from the office phone. The nurse returns at twelve forty-five.
 
 Question No.32:
-Where is the kit for a small cut on Wednesday morning?
+Why can't a student use the gym kit on Wednesday morning?
 
-1. In the gym.
-2. By the office.
-3. After school, from the gym kit.
-4. With the nurse, before one.
+1. The nurse returns at twelve forty-five.
+2. The gym kit is only for practice after school.
+3. Afternoon visits start after one.
+4. Parents must bring their own kit.
 
 【正解32】
-2. By the office.
+2. The gym kit is only for practice after school.
 
 【解説32】
-看護師は水曜の午前は不在で、午後の診察は1時のあとです。それより前の小さい傷は、体育館ではなく事務所のそばのキットを使います。体育館のキットは放課後の練習用です。あまりに具合が悪ければ、事務所の電話で保護者に連絡します。看護師は12時45分に戻ります。
-1 は、放課後の練習用です。3 も体育館のキットで、午前の小さい傷には使いません。4 は、午前は看護師がいないので、1時より前の傷はキットです。
+看護師は水曜の午前は不在で、午後の診察は1時のあとです。それより前の小さい傷は、事務所の電話のそばのキットを使います。体育館のキットは放課後の練習が始まるまで鍵がかかっています。あまりに具合が悪ければ、事務所の電話で保護者に連絡します。看護師は12時45分に戻ります。
+1 は看護師の戻り時刻で、体育館キットが使えない理由ではありません。3 は午後の診察の開始です。4 は本文にありません。
 
 【ポイント32】
 種別: リスニング
-見出し: 時間でキットが分かれる ← not the one in the gym
-・1時より前 ← before then
-・小さい傷 ← office kit
-・放課後 ← gym kit
+見出し: 体育館キットが使えない理由 ← locked until practice
+・1時より前の小さい傷 ← kit near the office phone
+・体育館キット ← after school only
+・具合が悪いとき ← office phone
 
 ---
 

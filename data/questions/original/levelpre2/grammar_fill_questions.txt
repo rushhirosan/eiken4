@@ -722,7 +722,7 @@ before June 2 が、いつまでに出すかを決めています。その日が
 ---
 
 問題31:
-The regular announcer has a sore throat. A classmate will ( ) for her at the morning assembly, and she will return on Sunday.
+The regular announcer is sick today. A classmate will ( ) for her at the morning assembly, and she will return on Sunday.
 
 選択肢31:
 1. substitute
@@ -734,13 +734,13 @@ The regular announcer has a sore throat. A classmate will ( ) for her at the mor
 1. substitute
 
 【解説31】
-いつもの放送係がのどを痛めていて、日曜に戻る、とあります。朝の集会ではクラスメートが代わりをします。substitute for は「〜の代わりを務める」です。
+いつもの放送係が今日は具合が悪く、日曜に戻る、とあります。朝の集会ではクラスメートが代わりをします。substitute for は「〜の代わりを務める」です。
 2 subtract は「引き算する」です。3 subscribe は「購読する、加入する」です。4 surround は「囲む」です。for her と return on Sunday と合うのは代理です。
 
 【ポイント31】
 種別: 単語
 見出し: substitute for = 「代わりを務める」
-・一時的な交代 ← sore throat と return
+・一時的な交代 ← sick today と return
 ・subtract = 「引く」
 ・subscribe = 「申し込む」
 ---

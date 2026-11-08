@@ -10,12 +10,14 @@
 | 2025年度第2回 | `2025-2-1ji-5kyu.pdf` | `2025-2-1ji-5kyu_script.pdf` |
 | 2025年度第3回 | `2025-3-1ji-5kyu.pdf` | `2025-3-1ji-5kyuscript.pdf` |
 | 2026年度第1回 | `2026-1-1ji-5kyu.pdf` | `2026-1-1ji_5kyuscript.pdf` |
+| 2026年度第2回 | `2026-2-1ji-5kyu.pdf` | `2026-2-1ji_5kyuscript.pdf` |
 
 ## 解答（F日程のみ・正解照合の一次情報）
 
 - `202502F5kyu_answers.pdf`（2025年度第2回）
 - `202503F5kyu_answers.pdf`（2025年度第3回）
 - `202601F5kyu_answers.pdf`（2026年度第1回）
+- `202602F5kyu_answers.pdf`（2026年度第2回）
 
 **D日程の解答PDFは使わない**（3級と同様、過去問冊子と正解がずれることがある）。
 

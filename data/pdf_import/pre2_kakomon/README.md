@@ -2,10 +2,10 @@
 
 > 配信パイプラインからは切り離す。詳細は [`../README.md`](../README.md)。
 > **問題文・選択肢・原稿・音源の転用、類題生成、`provenance=original` への登録はしない。**
-> モデルの級コード `pre2` は未追加。ここは形式を思い出すための保管だけ。
+> ここは形式を思い出すための保管だけ（サイト公開・register には使わない）。
 
 出所: [準2級の過去問・試験内容](https://www.eiken.or.jp/eiken/exam/grade_p2/)  
-取得日: 2026-10-05。公開されている直近3回（本会場・準会場 F日程）。
+取得日: 2026-11-09。公開されている直近分を保管（本会場・準会場 F日程）。
 
 ## 一次試験
 
@@ -14,20 +14,22 @@
 | 2025年度第2回 | `2025-2-1ji-p2kyu.pdf` | `2025-2-1ji-p2kyu_script.pdf` | `202502Fp2kyu_answers.pdf` | `2025-2-P2Q-part{1,2,3}.mp3` |
 | 2025年度第3回 | `2025-3-1ji-p2kyu.pdf` | `2025-3-1ji-p2kyuscript.pdf` | `202503Fp2kyu_answers.pdf` | `2025-3-P2Q-part{1,2,3}.mp3` |
 | 2026年度第1回 | `2026-1-1ji-p2kyu.pdf` | `2026-1-1ji_p2kyuscript.pdf` | `202601Fp2kyu_answers.pdf` | `2026-1-P2Q-part{1,2,3}.mp3` |
+| 2026年度第2回 | `2026-2-1ji-p2kyu.pdf` | `2026-2-1ji_p2kyuscript.pdf` | `202602Fp2kyu_answers.pdf` | `2026-2-P2Q-part{1,2,3}.mp3` |
 
 解答の一次情報は **F日程のみ**。D日程は置いていない。
 
 音源の公式URL（再取得用）:
 
+- 2026② `https://media.eiken.or.jp/listening/grade_p2/2026-20/P2Q-part{1,2,3}.mp3`
 - 2026① `https://media.eiken.or.jp/listening/grade_p2/2026_01/P2Q-part{1,2,3}.mp3`
 - 2025③ `https://media.eiken.or.jp/listening/grade_p2/2025-30/P2Q-part{1,2,3}.mp3`
 - 2025② `https://media.eiken.or.jp/listening/grade_p2/2025-2/P2Q-part{1,2,3}.mp3`
 
-3回とも冊子は16ページ、原稿は10ページ。リスニング時間は冊子表記で約23〜24分（公式案内は約25分）。
+冊子は16ページ前後、原稿は10ページ前後。リスニング時間は冊子表記で約23〜24分（公式案内は約25分）。
 
-## 3回で共通の枠
+## 共通の枠
 
-語句整序はない。番号は3回とも同じ。
+語句整序はない。番号は各回とも同じ。
 
 | 技能 | 枠 | 番号 | 形 |
 |------|----|------|----|

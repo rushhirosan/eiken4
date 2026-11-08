@@ -23,6 +23,7 @@ python utils/validate_original_questions.py --level 4   # 級・カテゴリ単�
   - `https://www.eiken.or.jp/eiken/result/pdf/202502F3kyu.pdf`（2025年度第2回）
   - `https://www.eiken.or.jp/eiken/result/pdf/202503F3kyu.pdf`（2025年度第3回）
   - `https://www.eiken.or.jp/eiken/result/pdf/202601F3kyu.pdf`（2026年度第1回）
+  - `https://www.eiken.or.jp/eiken/result/pdf/202602F3kyu.pdf`（2026年度第2回）
 - リポジトリ内の `data/pdf_import/level3_kakomon/20250{D}3kyu_answers.pdf` は **D日程（金曜実施）** で、上記過去問冊子と正解がずれることがある。**正解の照合・テキスト修正に D版を使わない。**
 - 照合コマンド: `python utils/verify_level3_official_answers.py`（`data/questions/level3/*.txt` と F版PDFを突合。不一致時は exit 1）
 - 通し番号の対応（例: リスニング第1部）: アプリ `Question No.11–20` = 第2回の本番 No.1–10、…（各回10問×既存回）。**2026①** は文法101–115 / 会話51–55 / 読解本文16–18 / ライティング21–22 / リスニング各部41–50（`append_new_questions --level 3` で進捗安全に追記）。
@@ -34,6 +35,7 @@ python utils/validate_original_questions.py --level 4   # 級・カテゴリ単�
   - `https://www.eiken.or.jp/eiken/result/pdf/202502F5kyu.pdf`（2025年度第2回）
   - `https://www.eiken.or.jp/eiken/result/pdf/202503F5kyu.pdf`（2025年度第3回）
   - `https://www.eiken.or.jp/eiken/result/pdf/202601F5kyu.pdf`（2026年度第1回）
+  - `https://www.eiken.or.jp/eiken/result/pdf/202602F5kyu.pdf`（2026年度第2回）
 - リポジトリ内: `data/pdf_import/level5_kakomon/`（問題冊子・F版解答・リスニング原稿）
 - テキスト生成: `python utils/build_level5_questions.py` → `data/questions/level5/*.txt`
 - 照合コマンド: `python utils/verify_level5_official_answers.py`（不一致時は exit 1）
