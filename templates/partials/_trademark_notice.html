@@ -1,14 +1,15 @@
 {# 市販教材と同様: ®表記 + 非承認 + 非公式。ロゴや「英検」風デザインは使わない #}
-<p class="mb-1 small text-muted">
+{# Bootstrap の text-muted は暗いフッターで潰れるため使わない。親フッターの色を継承する。 #}
+<p class="mb-1 small trademark-notice">
   英検®は、公益財団法人 日本英語検定協会の登録商標です。
 </p>
-<p class="mb-1 small text-muted">
+<p class="mb-1 small trademark-notice">
   このコンテンツは、公益財団法人 日本英語検定協会の承認や推奨、その他の検討を受けたものではありません。
 </p>
-<p class="mb-1 small text-muted">
+<p class="mb-1 small trademark-notice">
   本サイトは公益財団法人 日本英語検定協会の公式サイトではありません。
 </p>
-<p class="mb-0 small text-muted">
+<p class="mb-0 small trademark-notice">
   5級・4級・3級・準2級の練習問題は、一通り見直しましたがまだまだ改善余地はあります。気づいた点はフィードバックへお願いします。
   追加した問題などは<a href="{% url 'updates' %}">最近の更新</a>で確認できます。
 </p>

@@ -399,6 +399,14 @@
 
         .footer-landing a:hover { color: white; }
 
+        /* 商標注記は親色を継承（Bootstrap text-muted は使わない） */
+        .footer-landing .trademark-notice a {
+            color: #c5c8f0;
+            text-decoration: underline;
+            text-underline-offset: 0.15em;
+        }
+        .footer-landing .trademark-notice a:hover { color: white; }
+
         .fade-up {
             animation: fadeUp 0.8s ease both;
         }
@@ -673,7 +681,7 @@
                     <a href="{% url 'signup' %}">新規登録</a>
                 </div>
             </div>
-            <div class="small opacity-75">
+            <div class="small">
                 {% include 'partials/_trademark_notice.html' %}
             </div>
         </div>
