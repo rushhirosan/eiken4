@@ -43,6 +43,7 @@
 
 - [トップ](https://eigogohan.com/): サービス紹介と無料登録・ログインへの入口
 - [サービス概要・FAQ](https://eigogohan.com/about/): 対応級・機能・よくある質問
+- [最近の更新](https://eigogohan.com/updates/): オリジナル練習の追加など短い更新メモ
 - [学習の進め方](https://eigogohan.com/guides/): 英検®5級・4級・3級・準2級ごとのおすすめ学習順と使い方ガイド
 - [お試し問題](https://eigogohan.com/try/): 登録なしで英検®の級別の文法・リスニングなどを体験
 - [5級 文法・語彙](https://eigogohan.com/guides/eiken-5-grammar/): 5級の短文穴埋め対策

@@ -3214,6 +3214,12 @@ def sitemap_xml(request):
             'priority': '0.8',
         },
         {
+            'loc': f"{base_url}/updates/",
+            'lastmod': today,
+            'changefreq': 'weekly',
+            'priority': '0.6',
+        },
+        {
             'loc': f"{base_url}/guides/",
             'lastmod': today,
             'changefreq': 'monthly',

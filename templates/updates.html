@@ -1,0 +1,157 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>最近の更新 - えいごごはん</title>
+    {% include 'partials/_favicon.html' %}
+    <meta name="description" content="えいごごはんの最近の更新メモ。英検®5級・4級・3級・準2級のオリジナル練習の追加などを短く記録します。公式の過去問そのものは掲載していません。">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://eigogohan.com/updates/">
+
+    <meta property="og:title" content="最近の更新 - えいごごはん">
+    <meta property="og:description" content="オリジナル練習の追加など、サイトの短い更新メモです。">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://eigogohan.com/updates/">
+    <meta property="og:locale" content="ja_JP">
+    <meta property="og:site_name" content="えいごごはん">
+    <meta property="og:image" content="https://eigogohan.com{% static 'eigogohan-og-image.png' %}">
+
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="最近の更新 - えいごごはん">
+    <meta name="twitter:description" content="オリジナル練習の追加など、サイトの短い更新メモです。">
+    <meta name="twitter:image" content="https://eigogohan.com{% static 'eigogohan-og-image.png' %}">
+
+    <link rel="stylesheet" href="{% static 'vendor/bootstrap/bootstrap.min.css' %}">
+
+    <style>
+        :root {
+            --bg-deep: #0b1020;
+            --border: rgba(255, 255, 255, 0.12);
+            --text: #f4f6fb;
+            --muted: #a8b3cf;
+        }
+        body {
+            margin: 0;
+            font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Hiragino Sans", "Noto Sans JP", "Helvetica Neue", Arial, sans-serif;
+            color: var(--text);
+            background: linear-gradient(180deg, #0b1020 0%, #121a33 100%);
+            min-height: 100vh;
+        }
+        .icon {
+            display: inline-block;
+            width: 1em;
+            height: 1em;
+            vertical-align: -0.125em;
+            fill: currentColor;
+        }
+        .navbar-landing {
+            backdrop-filter: blur(16px);
+            background: rgba(11, 16, 32, 0.72);
+            border-bottom: 1px solid var(--border);
+        }
+        .content-card {
+            border: 1px solid var(--border);
+            background: rgba(255, 255, 255, 0.05);
+            border-radius: 20px;
+            padding: 2rem;
+        }
+        .content-card p, .content-card li { color: var(--muted); line-height: 1.7; }
+        .content-card a { color: #c5c8f0; }
+        .content-card a:hover { color: white; }
+        .update-item {
+            border-top: 1px solid var(--border);
+            padding-top: 1.25rem;
+            margin-top: 1.25rem;
+        }
+        .update-item:first-of-type {
+            border-top: none;
+            padding-top: 0;
+            margin-top: 0;
+        }
+        .update-meta {
+            font-size: 0.875rem;
+            color: var(--muted);
+            margin-bottom: 0.35rem;
+        }
+        .level-chip {
+            display: inline-block;
+            border: 1px solid var(--border);
+            border-radius: 999px;
+            padding: 0.1rem 0.55rem;
+            margin-right: 0.25rem;
+            font-size: 0.75rem;
+            color: #d7dbf0;
+        }
+        .footer-landing {
+            border-top: 1px solid var(--border);
+            color: var(--muted);
+            padding: 2rem 0;
+        }
+        .footer-landing a { color: var(--muted); text-decoration: none; }
+        .footer-landing a:hover { color: white; }
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-dark navbar-landing">
+        <div class="container py-2">
+            <a class="navbar-brand fw-bold" href="/">
+                <svg class="icon me-2" aria-hidden="true" viewBox="0 0 24 24"><path d="M12 3L1 9l4 2.18v6L12 21l7-3.82v-6l2-1.09V17h2V9L12 3zm6.82 6L12 12.72 5.18 9 12 5.28 18.82 9zM17 15.99l-5 2.73-5-2.73v-3.72L12 15l5-2.73v3.72z"/></svg>えいごごはん
+            </a>
+        </div>
+    </nav>
+
+    <main class="container py-5">
+        <div class="row justify-content-center">
+            <div class="col-lg-8">
+                <div class="content-card">
+                    <h1 class="h3 fw-bold mb-3">最近の更新</h1>
+                    <p class="mb-4">
+                        オリジナル練習の追加など、サイトに反映した内容を短く残しています。
+                        協会の過去問そのものを掲載したものではありません。
+                    </p>
+
+                    {% if updates %}
+                        {% for item in updates %}
+                        <article class="update-item">
+                            <p class="update-meta mb-1">
+                                <time datetime="{{ item.date }}">{{ item.date }}</time>
+                                {% for label in item.level_labels %}
+                                <span class="level-chip">{{ label }}</span>
+                                {% endfor %}
+                            </p>
+                            <p class="mb-0">{{ item.summary }}</p>
+                        </article>
+                        {% endfor %}
+                    {% else %}
+                        <p class="mb-0">まだ掲載する更新はありません。</p>
+                    {% endif %}
+
+                    <div class="d-flex flex-wrap justify-content-center gap-2 mt-4 pt-2">
+                        <a href="{% url 'signup' %}" class="btn btn-primary">無料で始める</a>
+                        <a href="{% url 'guides' %}" class="btn btn-outline-light">学習の進め方</a>
+                        <a href="{% url 'about' %}" class="btn btn-outline-light">サービス概要</a>
+                        <a href="/" class="btn btn-outline-light">トップへ戻る</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer class="footer-landing">
+        <div class="container d-flex flex-column flex-md-row justify-content-between align-items-center gap-3">
+            <p class="mb-0 small"><svg class="icon me-2" aria-hidden="true" viewBox="0 0 24 24"><path d="M12 3L1 9l4 2.18v6L12 21l7-3.82v-6l2-1.09V17h2V9L12 3zm6.82 6L12 12.72 5.18 9 12 5.28 18.82 9zM17 15.99l-5 2.73-5-2.73v-3.72L12 15l5-2.73v3.72z"/></svg>えいごごはん</p>
+            <div class="d-flex flex-wrap gap-3 small">
+                <a href="{% url 'about' %}">サービス概要</a>
+                <a href="{% url 'updates' %}">最近の更新</a>
+                <a href="{% url 'guides' %}">学習の進め方</a>
+                <a href="{% url 'privacy_policy' %}">プライバシーポリシー</a>
+            </div>
+            <div class="mt-3">
+                {% include 'partials/_trademark_notice.html' %}
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

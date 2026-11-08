@@ -815,3 +815,57 @@ What do you need for art class?
 見出し: What do you need? = 何が必要ですか
 ・What do you need for art class? = 図工に何が必要
 ・What の次は do、その後主語
+
+---
+
+問題31:
+ミーナ、どちらのペンがほしいですか？
+① which ② pen ③ do ④ you
+Mina, [1番目] ( ) [3番目] ( ) want?
+
+選択肢31:
+1. ② ─ ④
+2. ① ─ ③
+3. ① ─ ④
+4. ③ ─ ②
+
+【正解31】
+2. ① ─ ③
+
+【解説31】
+Mina, which pen do you want?
+1番目は which、3番目は do です。全文は「ミーナ、どちらのペンがほしいですか」という意味です。
+「which + pen + do + you」の順番です。which で「どちら／どの」を作り、そのあと物の名前、次に do が来ます。
+
+【ポイント31】
+種別: 文法
+見出し: which + 物 + do you want? = どの〜がほしい
+・which pen do you want? = どのペンがほしい
+・which の次は物の名前、そのあと do
+
+---
+
+問題32:
+ハナはうまく歌えない。
+① Hana ② can't ③ sing ④ well
+[1番目] ( ) [3番目] ( ).
+
+選択肢32:
+1. ② ─ ④
+2. ① ─ ②
+3. ② ─ ③
+4. ① ─ ③
+
+【正解32】
+4. ① ─ ③
+
+【解説32】
+Hana can't sing well.
+1番目は Hana、3番目は sing です。全文は「ハナはうまく歌えない」という意味です。
+「Hana + can't + sing + well」の順番です。can't のあとに動詞、そのあとに well（うまく）が来ます。
+
+【ポイント32】
+種別: 文法
+見出し: can't + 動詞 + well = うまく〜できない
+・Hana can't sing well. = ハナはうまく歌えない
+・can't の次は動詞、うまくは文の終わり寄り

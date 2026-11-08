@@ -36,6 +36,7 @@ from eiken_project.views import (
     try_index,
     try_level,
     try_level_slashless_redirect,
+    updates,
 )
 
 def healthz(request):
@@ -64,6 +65,8 @@ urlpatterns = [
     # Slash-less → absolute 301 on production hosts (GSC Redirect error 対策)
     path('about', slashless_canonical_redirect('/about/')),
     path('about/', about, name='about'),
+    path('updates', slashless_canonical_redirect('/updates/')),
+    path('updates/', updates, name='updates'),
     path('guides', slashless_canonical_redirect('/guides/')),
     path('guides/', guides, name='guides'),
     path('guides/<slug:slug>', guide_topic_slashless_redirect),

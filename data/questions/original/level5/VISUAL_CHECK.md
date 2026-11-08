@@ -16,9 +16,9 @@ python utils/validate_wordorder_questions.py data/questions/original/level5/word
 
 | カテゴリ | パス | 件数 |
 |----------|------|-----:|
-| 文法・語彙 | `grammar_fill_questions.txt` | 30 |
+| 文法・語彙 | `grammar_fill_questions.txt` | 33（追記31–33: of course / sit down / doesn't） |
 | 会話補充 | `conversation_questions.txt` | 30 |
-| 語順 | `wordorder_questions.txt` | 30 |
+| 語順 | `wordorder_questions.txt` | 32（追記31–32: which / can't … well） |
 | Lイラスト | `listening_illustration_questions.txt` | 30（Part1: 1–20 / Part3: 101–110） |
 | L会話 | `listening_conversation_questions.txt` | 20 |
 | スピーキング | `speaking_questions.txt` | 10 |

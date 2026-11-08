@@ -12,6 +12,7 @@ from eiken_project.next_learning import (
     decorated_next_learning_by_level,
     resources_page_sections,
 )
+from eiken_project.site_updates import iter_site_updates
 from eiken_project.try_samples import (
     get_try_samples,
     is_try_level,
@@ -61,6 +62,17 @@ def llms_txt(request):
 def about(request):
     """公開のサービス概要・FAQページ"""
     return render(request, 'about.html')
+
+
+def updates(request):
+    """公開の最近の更新メモ（問題追加などの短い記録）"""
+    return render(
+        request,
+        'updates.html',
+        {
+            'updates': iter_site_updates(),
+        },
+    )
 
 
 def guides(request):

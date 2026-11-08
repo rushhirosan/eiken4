@@ -91,6 +91,7 @@ class RobotsTxtTest(TestCase):
         self.assertContains(response, 'Disallow: /accounts/')
         self.assertContains(response, 'Disallow: /exams/')
         self.assertContains(response, 'Allow: /about/')
+        self.assertContains(response, 'Allow: /updates/')
         self.assertContains(response, 'Allow: /guides/')
         self.assertContains(response, 'Allow: /try/')
         self.assertContains(response, 'Allow: /resources/')
@@ -108,6 +109,7 @@ class LlmsTxtTest(TestCase):
         self.assertIn('> 英検®5級・4級・3級・準2級向け', content)
         self.assertIn('- [トップ](https://eigogohan.com/):', content)
         self.assertIn('- [サービス概要・FAQ](https://eigogohan.com/about/):', content)
+        self.assertIn('- [最近の更新](https://eigogohan.com/updates/):', content)
         self.assertIn('- [学習の進め方](https://eigogohan.com/guides/):', content)
         self.assertIn('- [お試し問題](https://eigogohan.com/try/):', content)
         self.assertIn('- [4級 リスニング](https://eigogohan.com/guides/eiken-4-listening/):', content)
@@ -313,8 +315,10 @@ class AuthenticatedNavLinksTest(TestCase):
         self.assertEqual(response.status_code, 200)
         self.assertContains(response, reverse('guides'))
         self.assertContains(response, reverse('about'))
+        self.assertContains(response, reverse('updates'))
         self.assertContains(response, '学習の進め方')
         self.assertContains(response, 'サービス概要')
+        self.assertContains(response, '最近の更新')
 
 
 class AboutPageTest(TestCase):
@@ -355,6 +359,7 @@ class SitemapXmlTest(TestCase):
         self.assertEqual(response.status_code, 200)
         self.assertContains(response, 'https://eigogohan.com/')
         self.assertContains(response, 'https://eigogohan.com/about/')
+        self.assertContains(response, 'https://eigogohan.com/updates/')
         self.assertContains(response, 'https://eigogohan.com/guides/')
         self.assertContains(response, 'https://eigogohan.com/guides/eiken-4-listening/')
         self.assertContains(response, 'https://eigogohan.com/guides/eiken-3-writing/')
@@ -633,6 +638,7 @@ class CanonicalHostRedirectTest(TestCase):
         """Relative APPEND_SLASH Location can surface as GSC Redirect error."""
         for path, dest in (
             ('/about', 'https://eigogohan.com/about/'),
+            ('/updates', 'https://eigogohan.com/updates/'),
             ('/guides', 'https://eigogohan.com/guides/'),
             ('/resources', 'https://eigogohan.com/resources/'),
             ('/privacy-policy', 'https://eigogohan.com/privacy-policy/'),
@@ -640,6 +646,20 @@ class CanonicalHostRedirectTest(TestCase):
             response = self.client.get(path, HTTP_HOST='eigogohan.com')
             self.assertEqual(response.status_code, 301, path)
             self.assertEqual(response['Location'], dest, path)
+
+
+class UpdatesPageTest(TestCase):
+    def test_updates_page_is_public(self):
+        response = Client().get(reverse('updates'))
+        self.assertEqual(response.status_code, 200)
+        self.assertContains(response, '最近の更新')
+        self.assertContains(response, 'オリジナル練習の追加')
+        self.assertContains(response, '過去問そのものを掲載したものではありません')
+        self.assertContains(response, '2026-11-09')
+        self.assertContains(response, '5級')
+        self.assertContains(response, '文法・語彙と語順')
+        self.assertContains(response, reverse('about'))
+        self.assertContains(response, reverse('guides'))
 
 
 class DiscordNotifyTest(TestCase):
