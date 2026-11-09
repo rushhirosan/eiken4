@@ -9,7 +9,7 @@
 
 | カテゴリ | パス | 目安件数 |
 |----------|------|----------|
-| 文法・語彙 | `grammar_fill_questions.txt` | 50 |
+| 文法・語彙 | `grammar_fill_questions.txt` | 53（追記51–53: for nothing / regard A as B / be caught in） |
 | 会話補充 | `conversation_questions.txt` | 40（語順なし） |
 | 読解 | `reading_comprehesion_questions.txt` | 本文9 / 設問27（長文空所＋内容一致） |
 | L第1部（会話応答） | `listening_illustration_questions.txt` | 35（画像なし。内部 type は illustration） |
@@ -98,3 +98,9 @@
 python3 manage.py check
 python3 manage.py test exams.tests.ExamViewTests.test_mock_exam_structure_pre2_matches_full_practice_set
 ```
+
+## メモ（エージェント作業ログ）
+
+| 日付 | 内容 |
+|------|------|
+| 2026-11-10 | 2026②の型穴埋めとして文法51–53（for nothing / regard A as B / be caught in）を追記。validate_original OK。登録は目視後。 |

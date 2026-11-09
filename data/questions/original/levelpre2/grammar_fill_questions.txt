@@ -1200,3 +1200,78 @@ The form says students must apply by themselves. ( ), a parent cannot send the f
 ・in a moment / in no time = 「すぐに」（時間の短さ）
 ・言い換えの文は、新しい条件を足さない
 ---
+
+問題51:
+Maya waited in a long line at the ticket window for a free movie seat. The clerk said the free tickets were already gone, so her wait was ( ).
+
+選択肢51:
+1. at last
+2. for nothing
+3. by chance
+4. on average
+
+【正解51】
+2. for nothing
+
+【解説51】
+正解は「for nothing」です。意味は「むだに／無料で得たものがない」です。
+無料券をもらうために並んだが、もう残っていなかったので、待ち時間はむだになりました。for nothing が合います。
+1 at last は「とうとう」で、並んだ結果うまくいったときの語です。3 by chance は「たまたま」です。4 on average は「平均すると」で、むだになった待ちには合いません。
+
+【ポイント51】
+種別: 熟語
+見出し: for nothing = 「むだに／何も得られずに」
+・努力や待ちが報われない ← free tickets were already gone
+・at last = 「とうとう」（成功・到達のあと）
+・by chance = 「たまたま」
+---
+
+問題52:
+The club members ( ) Ken as the best person to lead the weekend tour, so they asked him to make the map.
+
+選択肢52:
+1. regard
+2. pause
+3. melt
+4. surf
+
+【正解52】
+1. regard
+
+【解説52】
+正解は「regard」です。「regard A as B」で「AをBとみなす」という意味です。
+週末ツアーの案内役として Ken がいちばんだと思っているので、地図作りを頼んでいます。あとに as が続くので regard が合います。
+2 pause は「一時停止する」で、as と結びません。3 melt は「溶ける」です。4 surf は「サーフィンする／ネットを見る」で、人を役割とみなす意味ではありません。
+
+【ポイント52】
+種別: 熟語
+見出し: regard A as B = 「AをBとみなす」
+・空所のあと ← as the best person
+・みなしたから頼む ← so they asked him
+・As a result（その結果）とは別の as
+---
+
+問題53:
+On the way home from practice, Rina was ( ) a sudden heavy shower, and her bag got wet.
+
+選択肢53:
+1. known for
+2. found in
+3. caught in
+4. divided into
+
+【正解53】
+3. caught in
+
+【解説53】
+正解は「caught in」です。「be caught in a shower」で「急な雨に遭う」という意味です。
+練習の帰り道で突然の強い雨に遭い、かばんがぬれました。caught in が合います。
+1 known for は「〜で知られている」です。2 found in は「〜で見つかる」です。4 divided into は「〜に分けられる」で、雨に遭う場面ではありません。
+
+【ポイント53】
+種別: 熟語
+見出し: be caught in = 「（雨などに）遭う」
+・be caught in a shower / the rain
+・帰り道・突然の雨 ← on the way home / sudden heavy shower
+・known for / found in は別の be + 過去分詞の句
+---
