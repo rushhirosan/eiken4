@@ -1077,3 +1077,84 @@ A : You stepped on my foot. B : ( )
 ・一般論や相手への注意は謝罪の代わりにならない
 
 ---
+
+問題41:
+Girl : I play the violin in the school orchestra. Boy : ( )
+
+選択肢41:
+1. How long have you played the violin?
+2. The orchestra practices on Fridays.
+3. Violins are expensive.
+4. I like listening to music.
+
+【正解41】
+1. How long have you played the violin?
+
+【解説41】
+正解は「How long have you played the violin?」です。意味は「どのくらいのあいだバイオリンをひいているの？」です。
+相手がオーケストラでバイオリンをひくと話したので、経験の長さを聞くのが自然な続きです。
+ほかの選択肢：2「The orchestra practices on Fridays.（金に練習がある）」は一般情報、3「Violins are expensive.（バイオリンは高い）」は値段の話、4「I like listening to music.（音楽を聞くのが好き）」は自分の好みで、相手の経験に聞く返しではありません。
+ヒント：相手の経験を聞いたら How long have you 〜? で期間を尋ねられます。答え側の for / since とセットで覚えましょう。
+
+【ポイント41】
+種別: 会話
+見出し: 経験の話のあと How long have you 〜? で期間を聞く
+・How long have you played / lived / known 〜?
+・答えは for + 期間 / since + 時点
+・一般論や自分の好みだけだと会話がつながらない
+
+---
+
+問題42:
+A : Is this your notebook on the desk? B : ( ) Mine is blue.
+
+選択肢42:
+1. It's not mine.
+2. Yes, please.
+3. Here you are.
+4. I'm studying math.
+
+【正解42】
+1. It's not mine.
+
+【解説42】
+正解は「It's not mine.」です。意味は「それは私のではありません」です。
+「これあなたのノート？」と聞かれ、続けて「私のは青い」と言っているので、先に「自分のではない」と否定するのが自然です。
+ほかの選択肢：2「Yes, please.（はい、お願いします）」はすすめへの返事、3「Here you are.（はい、どうぞ）」は渡すとき、4「I'm studying math.（数学を勉強している）」は別の話題で、持ち主の質問への答えではありません。
+ヒント：Is this yours? には Yes, it is. / No, it's not mine. で返す型を覚えましょう。
+
+【ポイント42】
+種別: 会話
+見出し: It's not mine. は持ち主の否定
+・It's not mine. Mine is 〜.
+・Is this yours? / Is this your 〜? への答え
+・Yes, please. / Here you are. は別の場面
+
+---
+
+問題43:
+A : I don't know when the science room closes today. B : ( )
+
+選択肢43:
+1. Let's call and ask Ms. Sato.
+2. Science rooms have desks.
+3. I closed my textbook.
+4. When do you study science?
+
+【正解43】
+1. Let's call and ask Ms. Sato.
+
+【解説43】
+正解は「Let's call and ask Ms. Sato.」です。意味は「佐藤先生に電話して聞いてみよう」です。
+閉まっている時刻がわからないので、知っていそうな人に確認する提案が自然です。
+ほかの選択肢：2「Science rooms have desks.（理科室には机がある）」は当たり前の説明、3「I closed my textbook.（教科書を閉じた）」は別の動作、4「When do you study science?（いつ理科を勉強するの）」は相手の勉強時間で、閉室時刻の解決になりません。
+ヒント：わからないときは Let's ask 〜. / Let's call and ask 〜. で確認する流れが使えます。
+
+【ポイント43】
+種別: 会話
+見出し: Let's call and ask 〜. は確認の提案
+・わからない事実 → 知っていそうな人に聞く
+・Let's ask Ms. 〜. / Let's call and ask 〜.
+・部屋の一般説明や別の When 質問では解決しない
+
+---

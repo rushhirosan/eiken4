@@ -9,15 +9,15 @@
 
 | カテゴリ | パス | 目安件数（最適セット） |
 |----------|------|----------|
-| 文法・語彙 | `grammar_fill_questions.txt` | 50（文法＋熟語＋語彙） |
-| 会話補充 | `conversation_questions.txt` | 40（定型応答含む） |
+| 文法・語彙 | `grammar_fill_questions.txt` | 54（追記51–54: tired of / show around / give up / by＝そば） |
+| 会話補充 | `conversation_questions.txt` | 43（追記41–43: How long を聞く / It's not mine / call and ask） |
 | 語順 | `wordorder_questions.txt` | 30（`validate_wordorder_questions.py` 済） |
 | 読解 | `reading_comprehesion_questions.txt` | 本文9 / 設問30（3セット。物語末尾に要旨） |
 | Lイラスト | `listening_illustration_questions.txt` | 35 |
 | L会話 | `listening_conversation_questions.txt` | 35 |
 | L文章 | `listening_passage_questions.txt` | 35 |
 | スピーキング | `speaking_questions.txt` | 10カード（内容に Why/Which、自分に Can you） |
-| ライティング | `writing_questions.txt` | 12（メール6＋意見6。Which / Do you like 含む） |
+| ライティング | `writing_questions.txt` | 14（追記13–14: メール What time+How long / 意見 What 将来。メール7＋意見7） |
 
 ## アセット
 
@@ -102,3 +102,9 @@ python3 manage.py register_writing_questions --level 3 --original
 ```
 
 （コマンド名は `eiken-question-operations` / 既存4級手順に合わせて最終確認すること）
+
+## メモ（エージェント作業ログ）
+
+| 日付 | 内容 |
+|------|------|
+| 2026-11-10 | 2026②の型穴埋めとして文法51–54・会話41–43・ライティング13–14を追記。validate_original OK。登録は目視後。 |

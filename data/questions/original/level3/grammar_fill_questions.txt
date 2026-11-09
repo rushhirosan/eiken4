@@ -1346,3 +1346,111 @@ Haruto went to school ( ) his umbrella, so he got wet.
 ・still（まだ）/ several（いくつかの）も3級でよく出る語
 
 ---
+
+問題51:
+A : Do you still play that video game every night? B : No. I'm ( ) of playing it.
+
+選択肢51:
+1. happy
+2. busy
+3. tired
+4. ready
+
+【正解51】
+3. tired
+
+【解説51】
+正解は「tired」です。「be tired of + -ing」で「〜するのに飽きた」という意味です。
+文全体は「毎晩そのゲーム、まだやってる？」「ううん。やるのに飽きた」という会話です。「of playing」の前なので、tired が自然です。
+ほかの選択肢：「happy of」「busy of」は定番の形ではありません。「ready」は ready for / ready to で、of + -ing には続きません。
+ヒント：be interested in / be proud of / be tired of のように、形容詞と前置詞のセットで覚えましょう。
+
+【ポイント51】
+種別: 熟語
+見出し: be tired of + -ing（〜するのに飽きた）
+・I'm tired of playing / waiting / studying
+・あとは -ing（原形 play は置かない）
+・interested in / proud of と前置詞を整理する
+
+---
+
+問題52:
+A : Your cousin is new here. B : Let's show her ( ) the school.
+
+選択肢52:
+1. up
+2. around
+3. off
+4. of
+
+【正解52】
+2. around
+
+【解説52】
+正解は「around」です。「show 人 around」で「人に場所を案内する」という意味です。
+文全体は「いとこがここに来たばかりだね」「学校を案内しよう」という会話です。人（her）のあとに around が続きます。
+ほかの選択肢：「show up」は「姿を現す」、「show off」は「見せびらかす」で、人を案内する意味ではありません。「of」は show のあとには合いません。
+ヒント：show him / her / them around で「案内する」、とかたまりで覚えましょう。
+
+【ポイント52】
+種別: 熟語
+見出し: show 人 around（人に場所を案内する）
+・show her around the school
+・around は「あたりを」案内するイメージ
+・show up（現れる）/ show off（見せびらかす）と区別する
+
+---
+
+問題53:
+A : This puzzle is too hard for me. B : Don't ( ) up. You can do it.
+
+選択肢53:
+1. give
+2. take
+3. put
+4. look
+
+【正解53】
+1. give
+
+【解説53】
+正解は「give」です。「give up」で「あきらめる」という意味です。
+文全体は「このパズル、むずかしすぎる」「あきらめないで。できるよ」という会話です。「up」の前なので give が続きます。
+ほかの選択肢：「take up」は「始める／取り上げる」、「put up」は「掲げる」など別の意味、「look up」は「調べる」で、あきらめる意味ではありません。
+ヒント：Don't give up. = あきらめないで、とセットで覚えましょう。
+
+【ポイント53】
+種別: 熟語
+見出し: give up（あきらめる）
+・Don't give up. / give up smoking（やめる）
+・give のあとに up
+・take up / look up など別の句動詞と区別する
+
+---
+
+問題54:
+There is a small cafe ( ) the river. We often walk there after lunch.
+
+選択肢54:
+1. during
+2. until
+3. among
+4. by
+
+【正解54】
+4. by
+
+【解説54】
+正解は「by」です。ここでは「〜のそばに」という意味です。
+文全体は「川のそばに小さなカフェがある。お昼のあと、よくそこへ歩く」という意味です。場所の近さを表すので by が合います。
+ほかの選択肢：「during」と「until」は時間用です。「among」は「（3つ以上の）あいだに」で、川一本のそばには使いません。
+ヒント：by the window / by the river = 〜のそば。動作主の by（written by）や期限の by（by Friday）と場面で分けて覚えましょう。
+
+【ポイント54】
+種別: 文法
+見出し: by = 〜のそばに（場所の近さ）
+・by the river / by the window
+・during / until は時間用
+・動作主・期限の by とは場面が違う
+
+---
