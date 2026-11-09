@@ -9,9 +9,9 @@
 
 | カテゴリ | パス | 目安件数（inventory 最小セット） |
 |----------|------|----------|
-| 文法・語彙 | `grammar_fill_questions.txt` | 40（比較・進行・不定詞・must・熟語・語彙） |
+| 文法・語彙 | `grammar_fill_questions.txt` | 41（追記41: in + 時間帯。比較・進行・不定詞・must・熟語・語彙） |
 | 会話補充 | `conversation_questions.txt` | 30（励まし／礼・祝福／断り／快諾／値段／経験） |
-| 語順 | `wordorder_questions.txt` | 28（`validate_wordorder_questions.py` 済） |
+| 語順 | `wordorder_questions.txt` | 30（追記29–30: too + adj + for / practice + -ing） |
 | 読解 | `reading_comprehesion_questions.txt` | 本文6 / 設問20（2セット。How many / How long / What color 含む） |
 | Lイラスト | `listening_illustration_questions.txt` | 30 |
 | L会話 | `listening_conversation_questions.txt` | 30 |
@@ -91,3 +91,9 @@ python manage.py register_speaking_questions --level 4 --original
 ```
 
 3. ローカルで公開クエリが original のみ見えることを確認
+
+## メモ（エージェント作業ログ）
+
+| 日付 | 内容 |
+|------|------|
+| 2026-11-10 | 2026②の型穴埋めとして文法41（in + 時間帯）・語順29（too + adj + for）・語順30（practice + -ing）を追記。validate_wordorder / validate_original OK。登録は目視後。 |

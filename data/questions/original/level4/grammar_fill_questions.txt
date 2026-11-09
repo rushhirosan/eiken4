@@ -1076,3 +1076,30 @@ A : Do you want some water? B : Yes, please. I'm very ( ) after the race.
 ・cloudy / early はのどの話ではない
 
 ---
+
+問題41:
+A : Can we draw pictures ( ) the afternoon? B : Yes. Let's meet in the art room at two.
+
+選択肢41:
+1. on
+2. in
+3. at
+4. to
+
+【正解41】
+2. in
+
+【解説41】
+正解は「in」です。意味は「〜に（時間帯）」です。
+文全体は「午後に絵をかこうか」「うん。2時に図工室で会おう」という会話です。「in the afternoon」で「午後に」になります。「morning / afternoon / evening」の前は in を使います。
+ほかの選択肢：「on」は on Monday / on Sunday のように曜日の前に使います。「at」は at two / at 3 o'clock のように時刻の前に使います。「to」は行き先（go to the park）などで、時間帯の前には使いません。
+ヒント：曜日は on、時刻は at、morning / afternoon / evening は in、とセットで覚えましょう。
+
+【ポイント41】
+種別: 文法
+見出し: in + morning / afternoon / evening（時間帯）
+・in the morning / in the afternoon / in the evening
+・on Monday は曜日、at two は時刻。時間帯は in
+・to は行き先用で、時間帯には使わない
+
+---

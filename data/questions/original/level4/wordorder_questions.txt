@@ -815,3 +815,65 @@ Could you open the door?
 ・Could you open the door? の型
 ・Could のあとは you、そのあと原形 open
 ・お願いするときは Could you / Can you + 原形
+
+---
+
+問題29:
+このいすはミアには低すぎます。
+① chair ② is ③ too ④ short ⑤ for
+This ( ) [2番目] ( ) [4番目] ( ) Mia.
+
+選択肢29:
+1. ② ─ ④
+2. ① ─ ③
+3. ② ─ ③
+4. ③ ─ ⑤
+
+【正解29】
+1. ② ─ ④
+
+【解説29】
+This chair is too short for Mia.
+2番目は is、4番目は short です。全文は「このいすはミアには低すぎます」という意味です。
+正しい順は chair → is → too → short → for です。too + 形容詞 + for 〜 で「〜には形容詞すぎる」になります。
+ほかの並び：2は2番目が chair になり、is が2番目に来ません。3は4番目が too で、short の位置がずれます。4は2番目が too です。too と for のあいだに形容詞（short）を置く型がくずれると合いません。
+ヒント：too short for 〜 は「〜には低すぎる」のかたまりで覚えましょう。
+
+【ポイント29】
+種別: 文法
+見出し: too + 形容詞 + for（〜には〜すぎる）
+・is too short for Mia の順
+・too と for のあいだに形容詞（short / big / small）を置く
+・比較級（shorter than）とは別の型
+
+---
+
+問題30:
+ハルはコンサートの前にピアノをひく練習をしました。
+① the piano ② playing ③ the concert ④ practiced ⑤ before
+Haru ( ) [2番目] ( ) [4番目] ( ).
+
+選択肢30:
+1. ④ ─ ①
+2. ② ─ ①
+3. ② ─ ⑤
+4. ① ─ ⑤
+
+【正解30】
+3. ② ─ ⑤
+
+【解説30】
+Haru practiced playing the piano before the concert.
+2番目は playing、4番目は before です。全文は「ハルはコンサートの前にピアノをひく練習をしました」という意味です。
+正しい順は practiced → playing → the piano → before → the concert です。practice + -ing で「〜する練習をする」になります。
+ほかの並び：1は2番目が practiced になり、playing が2番目に来ません。2は4番目が the piano で、before の位置がずれます。4は2番目が the piano です。practice のあとに -ing（playing）を置く型がくずれると合いません。
+ヒント：practice のあとは原形ではなく -ing（playing / singing / kicking）です。
+
+【ポイント30】
+種別: 熟語
+見出し: practice + -ing（〜する練習をする）
+・practiced playing のように practice + -ing
+・あとは原形 play ではなく playing
+・enjoy + -ing / be good at + -ing と同じく後ろは -ing
+
+---
