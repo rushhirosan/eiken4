@@ -139,12 +139,18 @@
                     <span class="mx-1">/</span>
                     <a href="{% url 'guides' %}">学習の進め方</a>
                     <span class="mx-1">/</span>
+                    {% if topic.topic_key == 'exam_week' %}
+                    <span>{{ topic.topic_label }}</span>
+                    {% else %}
                     <span>{{ topic.level_label }} {{ topic.topic_label }}</span>
+                    {% endif %}
                 </nav>
 
                 <div class="content-card">
                     <div class="mb-3">
+                        {% if topic.topic_key != 'exam_week' %}
                         <span class="tag">{{ topic.level_label }}</span>
+                        {% endif %}
                         <span class="tag">{{ topic.topic_label }}</span>
                         <span class="tag">無料</span>
                     </div>
@@ -182,7 +188,11 @@
 
                     <h2>まずは登録なしで試す</h2>
                     <p>
+                        {% if topic.topic_key == 'exam_week' %}
+                        級別のお試し問題を、アカウント登録なしで解けます。
+                        {% else %}
                         {{ topic.level_label }}のお試し問題を、アカウント登録なしで解けます。
+                        {% endif %}
                         雰囲気を確かめてから本番メニューに進むのがおすすめです。
                     </p>
                     <p class="mb-0">

@@ -7,7 +7,13 @@ from django.shortcuts import redirect, render
 from django.urls import reverse
 from django.utils.safestring import mark_safe
 
-from eiken_project.guide_topics import get_guide_topic, iter_guide_topics
+from eiken_project.guide_topics import (
+    get_guide_topic,
+    guide_topics_for_level,
+    is_cross_level_guide,
+    iter_cross_level_guide_topics,
+    iter_guide_topics,
+)
 from eiken_project.next_learning import (
     decorated_next_learning_by_level,
     resources_page_sections,
@@ -81,11 +87,12 @@ def guides(request):
     context = {
         'show_next_learning': show_next_learning,
         'guide_topics_by_level': {
-            '5': [t for t in iter_guide_topics() if t['level'] == '5'],
-            '4': [t for t in iter_guide_topics() if t['level'] == '4'],
-            '3': [t for t in iter_guide_topics() if t['level'] == '3'],
-            'pre2': [t for t in iter_guide_topics() if t['level'] == 'pre2'],
+            '5': guide_topics_for_level('5'),
+            '4': guide_topics_for_level('4'),
+            '3': guide_topics_for_level('3'),
+            'pre2': guide_topics_for_level('pre2'),
         },
+        'cross_level_guides': iter_cross_level_guide_topics(),
     }
     if show_next_learning:
         if request.user.is_authenticated:
@@ -114,15 +121,26 @@ def guide_topic(request, slug: str):
         if related is not None:
             related_topics.append(related)
 
+    cross_level = is_cross_level_guide(topic['slug'])
     if request.user.is_authenticated:
-        cta_url = f"{reverse('exams:exam_list')}?level={topic['level']}"
-        cta_label = f"{topic['level_label']}の練習を続ける"
+        if cross_level:
+            cta_url = reverse('exams:exam_list')
+            cta_label = '練習を続ける'
+        else:
+            cta_url = f"{reverse('exams:exam_list')}?level={topic['level']}"
+            cta_label = f"{topic['level_label']}の練習を続ける"
     else:
         cta_url = reverse('signup')
         cta_label = '無料で練習を始める'
 
-    try_url = reverse('try_level', kwargs={'level': topic['level']})
-    try_label = f"{topic['level_label']}をお試し（登録なし）"
+    if cross_level:
+        try_url = reverse('try_index')
+        try_label = '級別のお試し（登録なし）'
+        breadcrumb_leaf = topic['topic_label']
+    else:
+        try_url = reverse('try_level', kwargs={'level': topic['level']})
+        try_label = f"{topic['level_label']}をお試し（登録なし）"
+        breadcrumb_leaf = f"{topic['level_label']} {topic['topic_label']}"
 
     page_url = f"{CANONICAL_ORIGIN}/guides/{topic['slug']}/"
     article_json_ld = {
@@ -158,7 +176,7 @@ def guide_topic(request, slug: str):
             {
                 '@type': 'ListItem',
                 'position': 3,
-                'name': f"{topic['level_label']} {topic['topic_label']}",
+                'name': breadcrumb_leaf,
                 'item': page_url,
             },
         ],

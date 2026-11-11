@@ -198,7 +198,7 @@ class GuideTopicPageTest(TestCase):
             reverse('guide_topic', kwargs={'slug': 'eiken-4-listening'})
         )
         self.assertEqual(response.status_code, 200)
-        self.assertContains(response, '4級のリスニングを無料で練習する')
+        self.assertContains(response, '4級リスニングの勉強法（部ごとの無料練習）')
         self.assertContains(response, 'index, follow')
         self.assertContains(response, 'https://eigogohan.com/guides/eiken-4-listening/')
         self.assertContains(response, 'FAQPage')
@@ -222,6 +222,20 @@ class GuideTopicPageTest(TestCase):
         self.assertContains(response, '公式の過去問PDFそのものではなく')
         self.assertContains(response, reverse('try_level', kwargs={'level': '4'}))
         self.assertContains(response, '4級の長文練習問題は無料で解けますか？')
+
+    def test_exam_week_guide_is_cross_level(self):
+        response = Client().get(
+            reverse('guide_topic', kwargs={'slug': 'exam-one-week-before'})
+        )
+        self.assertEqual(response.status_code, 200)
+        self.assertContains(response, '受験1週間前にやること')
+        self.assertContains(response, reverse('try_index'))
+        self.assertContains(response, '級別のお試し（登録なし）')
+        self.assertNotContains(response, '全級をお試し')
+
+        guides = Client().get(reverse('guides'))
+        self.assertContains(guides, 'exam-week')
+        self.assertContains(guides, reverse('guide_topic', kwargs={'slug': 'exam-one-week-before'}))
 
     def test_guide_topic_unknown_slug_404(self):
         response = Client().get(

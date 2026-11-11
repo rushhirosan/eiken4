@@ -47,17 +47,18 @@
 - [学習の進め方](https://eigogohan.com/guides/): 英検®5級・4級・3級・準2級ごとのおすすめ学習順と使い方ガイド
 - [お試し問題](https://eigogohan.com/try/): 登録なしで英検®の級別の文法・リスニングなどを体験
 - [5級 文法・語彙](https://eigogohan.com/guides/eiken-5-grammar/): 5級の短文穴埋め対策
-- [5級 リスニング](https://eigogohan.com/guides/eiken-5-listening/): 5級リスニング第1〜3部の進め方
+- [5級 リスニング](https://eigogohan.com/guides/eiken-5-listening/): 5級リスニングの勉強法（第1〜3部）
 - [5級 スピーキング](https://eigogohan.com/guides/eiken-5-speaking/): 5級任意スピーキングの流れ練習
 - [4級 文法・語彙](https://eigogohan.com/guides/eiken-4-grammar/): 4級の短文系対策
-- [4級 リスニング](https://eigogohan.com/guides/eiken-4-listening/): 4級リスニングの部ごとの練習
+- [4級 リスニング](https://eigogohan.com/guides/eiken-4-listening/): 4級リスニングの勉強法（部ごと）
 - [4級 長文読解](https://eigogohan.com/guides/eiken-4-reading/): 4級の長文練習問題を無料で解く進め方
 - [4級 スピーキング](https://eigogohan.com/guides/eiken-4-speaking/): 4級任意スピーキングの流れ練習
 - [3級 文法・語彙](https://eigogohan.com/guides/eiken-3-grammar/): 3級の選択問題ベース作り
-- [3級 リスニング](https://eigogohan.com/guides/eiken-3-listening/): 3級リスニング対策
+- [3級 リスニング](https://eigogohan.com/guides/eiken-3-listening/): 3級リスニングの勉強法
 - [3級 長文読解](https://eigogohan.com/guides/eiken-3-reading/): 3級長文の読み方
-- [3級 ライティング](https://eigogohan.com/guides/eiken-3-writing/): 3級英作文の練習の進め方
-- [3級 スピーキング](https://eigogohan.com/guides/eiken-3-speaking/): 3級二次面接の流れ練習
+- [3級 ライティング](https://eigogohan.com/guides/eiken-3-writing/): 3級ライティングの書き方・何を書けばよいか
+- [3級 スピーキング](https://eigogohan.com/guides/eiken-3-speaking/): 3級二次面接の練習方法
+- [受験1週間前](https://eigogohan.com/guides/exam-one-week-before/): 親子で整える直前チェックリスト
 - [準2級 文法・語彙](https://eigogohan.com/guides/eiken-pre2-grammar/): 準2級の短文・会話補充対策
 - [準2級 リスニング](https://eigogohan.com/guides/eiken-pre2-listening/): 準2級リスニングの部ごとの練習
 - [準2級 長文読解](https://eigogohan.com/guides/eiken-pre2-reading/): 準2級長文の読み方

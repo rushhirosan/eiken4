@@ -251,6 +251,7 @@
                             <li><a href="#level-4">4級の進め方</a></li>
                             <li><a href="#level-3">3級の進め方</a></li>
                             <li><a href="#level-pre2">準2級の進め方</a></li>
+                            <li><a href="#exam-week">受験1週間前にやること</a></li>
                             <li><a href="#topic-guides">級×パート別ガイド</a></li>
                             <li><a href="{% url 'try_index' %}">登録なしのお試し問題</a></li>
                             <li><a href="#common">共通の使い方のコツ</a></li>
@@ -409,6 +410,17 @@
                             スピーキングは面接形式の二次試験の流れ練習です。
                         </p>
                     </div>
+
+                    <h2 id="exam-week">受験1週間前にやること</h2>
+                    <p>
+                        本番直前期は、新しい教材を増やすより弱点の見直しと通し練習が効きやすいです。
+                        親子で確認しやすいチェックリストを用意しています。
+                    </p>
+                    <ul>
+                        {% for topic in cross_level_guides %}
+                        <li><a href="{% url 'guide_topic' slug=topic.slug %}">{{ topic.h1 }}</a></li>
+                        {% endfor %}
+                    </ul>
 
                     <h2 id="topic-guides">級×パート別ガイド</h2>
                     <p>
