@@ -35,7 +35,7 @@ class LandingPageTest(TestCase):
         self.assertContains(response, '学習ポイントでノート復習しやすい')
         self.assertContains(response, '本サイトは公益財団法人 日本英語検定協会の公式サイトではありません。')
         self.assertContains(response, '英検®は、公益財団法人 日本英語検定協会の登録商標です。')
-        self.assertContains(response, '英検®5級・4級・3級・準2級の無料練習 - えいごごはん')
+        self.assertContains(response, '英検®無料練習サイト｜5級〜準2級をブラウザで - えいごごはん')
         self.assertContains(response, '英検®の5級・4級・3級・準2級を目安にしたオリジナル練習です。協会の承認・推奨を受けたものではありません。')
         self.assertContains(response, '<span class="gradient-text">えいごごはん</span>で、')
         self.assertNotContains(response, '英検公式')
@@ -344,7 +344,7 @@ class AboutPageTest(TestCase):
             response,
             'このコンテンツは、公益財団法人 日本英語検定協会の承認や推奨、その他の検討を受けたものではありません。',
         )
-        self.assertContains(response, '英検®5級・4級・3級・準2級のサービス概要 - えいごごはん')
+        self.assertContains(response, 'えいごごはんとは｜英検®無料練習サイトの概要 - えいごごはん')
         self.assertContains(response, '協会の過去問そのものではありません。')
         self.assertNotContains(response, '英検公式')
         self.assertNotContains(response, '協会公認')
@@ -518,8 +518,8 @@ class TrySamplePageTest(TestCase):
     def test_try_index_is_public(self):
         response = Client().get(reverse('try_index'))
         self.assertEqual(response.status_code, 200)
-        self.assertContains(response, 'お試し問題')
-        self.assertContains(response, '登録不要')
+        self.assertContains(response, '英検®練習をお試し')
+        self.assertContains(response, '登録なし')
         self.assertContains(response, reverse('try_level', kwargs={'level': '4'}))
         self.assertContains(response, reverse('try_level', kwargs={'level': 'pre2'}))
         self.assertContains(response, '準2級')
