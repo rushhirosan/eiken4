@@ -194,6 +194,7 @@ SELECT pg_size_pretty(pg_database_size(current_database()));
 
 - [データベースクリーンアップガイド](DATABASE_CLEANUP.md)
 - [クイックガイド](QUICK_CLEANUP_GUIDE.md)
+- [プロダクト成長・収益の方向性](product_growth_roadmap.md) — 集客・定着・アフィリエイト優先順位（級拡張は後回し）
 - [アフィリエイト「このあとの学習」仕様](affiliate_next_learning_specification.md) — guides / resources / 回答結果 tip（ローカルゲート付き）
 - [問題更新フロー仕様](question_update_flow_specification.md)
 - [テスト自動化ロードマップ](testing_automation_roadmap.md) — 手動テスト削減の段階計画（Phase 0〜7）
