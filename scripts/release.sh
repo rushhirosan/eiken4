@@ -14,7 +14,7 @@ set -euo pipefail
 ROOT="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)"
 cd "$ROOT"
 
-# 仮想環境があれば優先（README_VENV.md / 一般的な venv 名）
+# 仮想環境があれば優先（.venv / venv）
 PYTHON="python3"
 if [[ -x ".venv/bin/python" ]]; then
   PYTHON=".venv/bin/python"
