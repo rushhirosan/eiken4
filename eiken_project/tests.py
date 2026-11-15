@@ -33,6 +33,8 @@ class LandingPageTest(TestCase):
         self.assertContains(response, '登録なしでお試し')
         self.assertContains(response, reverse('guides'))
         self.assertContains(response, '学習ポイントでノート復習しやすい')
+        self.assertContains(response, '氏名・メールなし。ユーザー名だけで登録')
+        self.assertContains(response, '氏名・住所・電話番号・メールアドレスは不要です。')
         self.assertContains(response, '本サイトは公益財団法人 日本英語検定協会の公式サイトではありません。')
         self.assertContains(response, '英検®は、公益財団法人 日本英語検定協会の登録商標です。')
         self.assertContains(response, '英検®無料練習サイト｜5級〜準2級をブラウザで - えいごごはん')
@@ -352,6 +354,8 @@ class AboutPageTest(TestCase):
         self.assertContains(response, 'デイリーミッション・バッジ')
         self.assertContains(response, '学習ポイントと「今回のまとめ」')
         self.assertContains(response, 'スピーキング問題はありますか？')
+        self.assertContains(response, '登録に氏名やメールアドレスは必要ですか？')
+        self.assertContains(response, '氏名・住所・電話番号・メールアドレスはいただきません。')
         self.assertContains(response, '本サイトは公益財団法人 日本英語検定協会の公式サイトではありません。')
         self.assertContains(response, '英検®は、公益財団法人 日本英語検定協会の登録商標です。')
         self.assertContains(
@@ -401,6 +405,7 @@ class LandingFaqJsonLdTest(TestCase):
         self.assertEqual(response.status_code, 200)
         self.assertContains(response, '"@type": "FAQPage"')
         self.assertContains(response, '無料で使えますか')
+        self.assertContains(response, '登録に氏名やメールアドレスは必要ですか？')
         self.assertContains(response, '"@type": "WebSite"')
         self.assertContains(response, '"@type": "Organization"')
         self.assertContains(response, 'eigogohan-og-image.png')
@@ -434,6 +439,9 @@ class AppShellSeoTest(TestCase):
         self.assertEqual(response.status_code, 200)
         self.assertContains(response, 'index, follow')
         self.assertContains(response, 'プライバシーポリシー')
+        self.assertContains(response, '氏名・住所・電話番号・メールアドレスといった連絡先の登録は求めません。')
+        self.assertContains(response, 'ユーザー名とパスワードのみ')
+        self.assertNotContains(response, 'メールアドレス（登録時）')
 
 
 class LoginSeoTest(TestCase):
@@ -446,6 +454,8 @@ class LoginSeoTest(TestCase):
         response = Client().get(reverse('signup'))
         self.assertEqual(response.status_code, 200)
         self.assertContains(response, 'noindex, follow')
+        self.assertContains(response, '氏名・住所・電話番号・メールアドレスは不要です。')
+        self.assertContains(response, reverse('privacy_policy'))
 
 
 class TrySamplePageTest(TestCase):

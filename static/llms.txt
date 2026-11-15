@@ -68,6 +68,6 @@
 
 ## Optional
 
-- [プライバシーポリシー](https://eigogohan.com/privacy-policy/): 個人情報の取り扱い
+- [プライバシーポリシー](https://eigogohan.com/privacy-policy/): 氏名・メール等は登録不要。ユーザー名と学習進捗の取り扱い
 - [robots.txt](https://eigogohan.com/robots.txt): クローラ向けの公開・非公開パス
 - [sitemap.xml](https://eigogohan.com/sitemap.xml): 公開ページのサイトマップ

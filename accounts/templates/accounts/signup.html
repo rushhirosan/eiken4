@@ -213,6 +213,13 @@
                 <p class="mb-0 mt-2">新規登録</p>
             </div>
             <div class="card-body">
+                <p class="small text-muted mb-4">
+                    氏名・住所・電話番号・メールアドレスは不要です。
+                    ユーザー名とパスワードだけで始められます。
+                    詳しくは
+                    <a href="{% url 'privacy_policy' %}">プライバシーポリシー</a>
+                    をご覧ください。
+                </p>
                 {% if form.errors %}
                     <div class="alert alert-danger alert-dismissible fade show" role="alert">
                         <i class="fas fa-exclamation-triangle me-2"></i>

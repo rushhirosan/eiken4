@@ -106,6 +106,14 @@
         },
         {
           "@type": "Question",
+          "name": "登録に氏名やメールアドレスは必要ですか？",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "いいえ。ユーザー名とパスワードだけで登録できます。氏名・住所・電話番号・メールアドレスはいただきません。学習の進捗はアカウントに保存します。パスワードを忘れたときは、登録時の復元コードで再設定できます。"
+          }
+        },
+        {
+          "@type": "Question",
           "name": "どんな種類の問題が解けますか？",
           "acceptedAnswer": {
             "@type": "Answer",
@@ -510,6 +518,7 @@
                             <li class="mb-2"><svg class="icon text-success me-2" aria-hidden="true" viewBox="0 0 24 24"><path d="M12 2a10 10 0 100 20 10 10 0 000-20zm-1.2 14.2l-3.5-3.5 1.4-1.4 2.1 2.1 4.7-4.7 1.4 1.4-6.1 6.1z"/></svg>デイリーミッションで学習習慣をサポート</li>
                             <li class="mb-2"><svg class="icon text-success me-2" aria-hidden="true" viewBox="0 0 24 24"><path d="M12 2a10 10 0 100 20 10 10 0 000-20zm-1.2 14.2l-3.5-3.5 1.4-1.4 2.1 2.1 4.7-4.7 1.4 1.4-6.1 6.1z"/></svg>正答率・進捗を自動で記録</li>
                             <li class="mb-2"><svg class="icon text-success me-2" aria-hidden="true" viewBox="0 0 24 24"><path d="M12 2a10 10 0 100 20 10 10 0 000-20zm-1.2 14.2l-3.5-3.5 1.4-1.4 2.1 2.1 4.7-4.7 1.4 1.4-6.1 6.1z"/></svg>学習ポイントでノート復習しやすい</li>
+                            <li class="mb-2"><svg class="icon text-success me-2" aria-hidden="true" viewBox="0 0 24 24"><path d="M12 2a10 10 0 100 20 10 10 0 000-20zm-1.2 14.2l-3.5-3.5 1.4-1.4 2.1 2.1 4.7-4.7 1.4 1.4-6.1 6.1z"/></svg>氏名・メールなし。ユーザー名だけで登録</li>
                             <li><svg class="icon text-success me-2" aria-hidden="true" viewBox="0 0 24 24"><path d="M12 2a10 10 0 100 20 10 10 0 000-20zm-1.2 14.2l-3.5-3.5 1.4-1.4 2.1 2.1 4.7-4.7 1.4 1.4-6.1 6.1z"/></svg>スマホ・PC どちらでも利用可能</li>
                         </ul>
                     </div>
@@ -651,8 +660,8 @@
             <div class="cta-panel text-center">
                 <h2 class="section-title mb-3">まずは無料で始めてみよう</h2>
                 <p class="section-sub mb-4">
-                    アカウント登録後、すぐに問題演習を開始できます。
-                    ログインすれば前回の続きから学習を再開できます。
+                    氏名・住所・電話番号・メールアドレスは不要です。
+                    ユーザー名とパスワードだけで始められ、ログインすれば前回の続きから学習を再開できます。
                 </p>
                 <div class="d-flex flex-wrap justify-content-center gap-3">
                     <a href="{% url 'signup' %}" class="btn btn-glow btn-lg">
