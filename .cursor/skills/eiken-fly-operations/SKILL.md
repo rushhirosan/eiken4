@@ -35,5 +35,5 @@ fly postgres connect -a eiken-app-db
 
 ## Troubleshooting focus
 
-- 起動失敗時は `scripts/start.sh` の `collectstatic` / `migrate` 失敗を優先確認
+- 起動失敗時は Dockerfile の `collectstatic`、`fly.toml` の `release_command`（migrate）、gunicorn CMD を優先確認
 - 認証系不具合は `accounts` ロガーと `docs/security_logging_guide.md` を参照

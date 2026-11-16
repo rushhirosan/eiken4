@@ -161,8 +161,9 @@ python utils/validate_original_questions.py --level 4   # 級・カテゴリ単�
 - ファイル: README.md, todo.md, question_update_flow_specification.md
 
 **scripts/（スクリプト）**
-- 役割: 起動スクリプト
-- ファイル: start.sh
+- 役割: リリース・preflight・inventory 生成
+- ファイル: `release.sh`, `preflight-original.sh`, `preflight-phase0.sh`, `gen_*_inventory.py`
+- 本番起動はここに置かない（Dockerfile の CMD + `config/fly.toml` の `release_command`）
 
 **static/（静的ファイル）**
 - 役割: ウェブサイトの静的リソース

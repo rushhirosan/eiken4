@@ -1,5 +1,26 @@
+# Deploy config / VCS / local env（イメージに不要）
 fly.toml
 .git/
+.gitignore
 *.sqlite3
 venv
 .venv
+.env
+.env.*
+
+# ビルド成果・キャッシュ
+staticfiles/
+__pycache__/
+**/__pycache__/
+*.py[cod]
+.DS_Store
+media/
+
+# 公式保管・開発資料（配信は DB + static/ のみ）
+data/archived_media/
+data/pdf_import/
+data/questions/level3/
+data/questions/level5/
+data/questions/*.txt
+docs/
+.cursor/

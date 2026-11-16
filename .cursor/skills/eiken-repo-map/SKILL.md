@@ -29,8 +29,8 @@ description: Maps this Eiken Django repository structure, main app responsibilit
 
 - ローカル起動: `python manage.py runserver`
 - 管理コマンド: `python manage.py <command>`
-- 本番起動スクリプト: `scripts/start.sh`
-- デプロイ設定: `config/` および `fly.toml` 系ファイル
+- 本番起動: ルート `Dockerfile`（collectstatic + gunicorn）と `config/fly.toml`（migrate）
+- デプロイ: `./scripts/release.sh --ship`（または `fly deploy` + ルート Dockerfile）
 
 ## Change guidance
 
