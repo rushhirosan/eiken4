@@ -21,11 +21,11 @@
 
 **D日程の解答PDFは使わない**（3級と同様、過去問冊子と正解がずれることがある）。
 
-照合: `python utils/verify_level5_official_answers.py`
+照合: `python utils/legacy/verify_level5_official_answers.py`
 
 ## テキスト生成
 
-`python utils/build_level5_questions.py` → `data/questions/level5/*.txt`
+`python utils/legacy/build_level5_questions.py` → `data/questions/level5/*.txt`
 
 ## 音声・画像
 
@@ -40,8 +40,8 @@
 過去問 PDF から一括抽出:
 
 ```bash
-python utils/extract_level5_illustrations.py
+python utils/legacy/extract_level5_illustrations.py
 python manage.py register_listening_illustration_questions --level 5
 ```
 
-音声のプレースホルダー生成のみ必要な場合: `python utils/setup_level5_assets.py`
+音声のプレースホルダー生成のみ必要な場合: `python utils/legacy/setup_level5_assets.py`

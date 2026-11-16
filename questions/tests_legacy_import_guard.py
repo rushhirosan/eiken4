@@ -21,13 +21,14 @@ class LegacyPdfGuardTest(SimpleTestCase):
 
         env = os.environ.copy()
         env.pop('ALLOW_LEGACY_PDF_IMPORT', None)
-        script = Path(__file__).resolve().parents[1] / 'utils' / 'build_level5_questions.py'
+        repo = Path(__file__).resolve().parents[1]
+        script = repo / 'utils' / 'legacy' / 'build_level5_questions.py'
         result = subprocess.run(
             [sys.executable, str(script)],
             capture_output=True,
             text=True,
             env=env,
-            cwd=str(script.parents[1]),
+            cwd=str(repo),
         )
         self.assertEqual(result.returncode, 2)
         self.assertIn('配信から切り離されています', result.stderr)

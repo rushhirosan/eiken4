@@ -17,7 +17,7 @@ from pathlib import Path
 
 import fitz
 
-_REPO = Path(__file__).resolve().parents[1]
+_REPO = Path(__file__).resolve().parents[2]
 _PDF_DIR = _REPO / 'data' / 'pdf_import' / 'level5_kakomon'
 _OUT_DIR = _REPO / 'static' / 'images' / 'level5' / 'part1'
 

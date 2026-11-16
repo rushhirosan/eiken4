@@ -10,7 +10,7 @@
 | 2026年度第1回 | `2026-1-1ji-3kyu.pdf` | `2026-1-1ji_3kyuscript.pdf` | `202601F3kyu_answers.pdf` | `3Q-part{1,2,3}.mp3` |
 | 2026年度第2回 | `2026-2-1ji-3kyu.pdf` | `2026-2-1ji_3kyuscript.pdf` | `202602F3kyu_answers.pdf` | `2026-2-3Q-part{1,2,3}.mp3` |
 
-テキスト生成・追記（2026①）: `python utils/build_level3_202601.py`  
+テキスト生成・追記（2026①）: `python utils/legacy/build_level3_202601.py`  
 追加登録（既存削除なし）: `python manage.py append_new_questions --level 3`
 
 アプリ通し番号（2026①）:

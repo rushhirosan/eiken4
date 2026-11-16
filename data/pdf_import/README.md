@@ -21,7 +21,7 @@
 ツール実行は既定でブロックされています。ローカルでどうしても動かす場合のみ:
 
 ```bash
-ALLOW_LEGACY_PDF_IMPORT=1 python utils/build_level5_questions.py
+ALLOW_LEGACY_PDF_IMPORT=1 python utils/legacy/build_level5_questions.py
 ```
 
 公開用問題は `data/questions/original/` に新規自作し、明示的に `original` で登録してください。

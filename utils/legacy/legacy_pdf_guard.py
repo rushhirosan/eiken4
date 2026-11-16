@@ -15,7 +15,7 @@ _MESSAGE = """\
 - data/pdf_import の保管・人が形式を思い出す用途は可
 - PDF→txt→サイト公開の再実行は既定で禁止
 - どうしてもローカルでツールを動かす場合のみ:
-    ALLOW_LEGACY_PDF_IMPORT=1 python utils/...
+    ALLOW_LEGACY_PDF_IMPORT=1 python utils/legacy/...
 
 公開用コンテンツは公式PDFを入力にせず、新規自作してください。
 """

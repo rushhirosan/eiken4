@@ -25,7 +25,7 @@ python utils/validate_original_questions.py --level 4   # 級・カテゴリ単�
   - `https://www.eiken.or.jp/eiken/result/pdf/202601F3kyu.pdf`（2026年度第1回）
   - `https://www.eiken.or.jp/eiken/result/pdf/202602F3kyu.pdf`（2026年度第2回）
 - リポジトリ内の `data/pdf_import/level3_kakomon/20250{D}3kyu_answers.pdf` は **D日程（金曜実施）** で、上記過去問冊子と正解がずれることがある。**正解の照合・テキスト修正に D版を使わない。**
-- 照合コマンド: `python utils/verify_level3_official_answers.py`（`data/questions/level3/*.txt` と F版PDFを突合。不一致時は exit 1）
+- 照合コマンド: `python utils/legacy/verify_level3_official_answers.py`（`data/questions/level3/*.txt` と F版PDFを突合。不一致時は exit 1）
 - 通し番号の対応（例: リスニング第1部）: アプリ `Question No.11–20` = 第2回の本番 No.1–10、…（各回10問×既存回）。**2026①** は文法101–115 / 会話51–55 / 読解本文16–18 / ライティング21–22 / リスニング各部41–50（`append_new_questions --level 3` で進捗安全に追記）。
 
 ### 5級の公式解答（正解照合の一次情報）
@@ -37,8 +37,8 @@ python utils/validate_original_questions.py --level 4   # 級・カテゴリ単�
   - `https://www.eiken.or.jp/eiken/result/pdf/202601F5kyu.pdf`（2026年度第1回）
   - `https://www.eiken.or.jp/eiken/result/pdf/202602F5kyu.pdf`（2026年度第2回）
 - リポジトリ内: `data/pdf_import/level5_kakomon/`（問題冊子・F版解答・リスニング原稿）
-- テキスト生成: `python utils/build_level5_questions.py` → `data/questions/level5/*.txt`
-- 照合コマンド: `python utils/verify_level5_official_answers.py`（不一致時は exit 1）
+- テキスト生成: `python utils/legacy/build_level5_questions.py` → `data/questions/level5/*.txt`
+- 照合コマンド: `python utils/legacy/verify_level5_official_answers.py`（不一致時は exit 1）
 - 正解分布チェック: `python utils/check_answer_distribution.py`
 - 試験構成: 長文・ライティングなし。リスニングは第1部10問＋第2部5問＋第3部10問（`listening_illustration` No.1–30 / No.31–60）
 - 音声配置（公式 Part1/2/3 に対応）:
@@ -54,7 +54,7 @@ python utils/validate_original_questions.py --level 4   # 級・カテゴリ単�
   python manage.py create_listening_conversation_questions --level 5
   python manage.py register_speaking_questions --level 5
   ```
-- アセット準備: `python utils/setup_level5_assets.py`（プレースホルダー画像・音声。TTS 不可時は ffmpeg で無音 MP3）
+- アセット準備: `python utils/legacy/setup_level5_assets.py`（プレースホルダー画像・音声。TTS 不可時は ffmpeg で無音 MP3）
 - スピーキング: `data/questions/level5/speaking_questions.txt`（任意・録音形式の流れ練習。長文・ライティングなし）
 
 ## プロジェクト構造とディレクトリ役割
@@ -175,16 +175,15 @@ python utils/validate_original_questions.py --level 4   # 級・カテゴリ単�
 - ファイル: base.html, privacy_policy.html
 
 **utils/（ユーティリティ）**
-- 役割: 問題取得・音声生成ツール
-- ファイル: pdf_text_extractor.py, pdf_image_extractor.py, text_to_speech.py, text_to_speech_conversation.py
-- 整理: 重複スクリプトを統合済み（2個統合）
+- 役割: 現行は original 検証・TTS（`validate_*`, `text_to_speech*` など）
+- レガシー PDF 取り込み: `utils/legacy/`（再実行非推奨。詳細は同ディレクトリ README）
 
 ## 全体フロー概要
 
 ### 1. 過去問PDF取得フロー
 1. **過去問PDFダウンロード**: [英検公式サイト](https://www.eiken.or.jp/eiken/exam/grade_4/)から過去問PDFを取得
-2. **PDF解析**: `utils/pdf_text_extractor.py`でテキスト抽出
-3. **画像抽出**: `utils/pdf_image_extractor.py`でリスニング問題の画像を`static/images/level{N}/part1/`に抽出
+2. **PDF解析**: `utils/legacy/pdf_text_extractor.py`でテキスト抽出
+3. **画像抽出**: `utils/legacy/pdf_image_extractor.py`でリスニング問題の画像を`static/images/level{N}/part1/`に抽出
 4. **問題分類**: 各カテゴリごとに問題を分類・整理
 5. **テキストファイル保存**: 各問題タイプのテキストファイルに保存
 6. **音声生成**: `utils/text_to_speech*.py`でリスニング問題の音声を`static/audio/level{N}/part*/`に生成
@@ -344,7 +343,7 @@ class ReadingPassage(models.Model):
 #### 2.1 テキスト抽出
 ```bash
 # PDFからテキストを抽出
-python utils/pdf_text_extractor.py
+python utils/legacy/pdf_text_extractor.py
 ```
 
 **機能:**
@@ -362,7 +361,7 @@ page_range = (13, 15)  # 特定ページ範囲
 #### 2.2 画像抽出（リスニング第1部用）
 ```bash
 # PDFから画像を抽出
-python utils/pdf_image_extractor.py
+python utils/legacy/pdf_image_extractor.py
 ```
 
 **機能:**
@@ -420,7 +419,7 @@ python utils/text_to_speech_conversation.py
 #### 3.4 画像ファイル抽出
 ```bash
 # PDFから画像を抽出
-python utils/pdf_image_extractor.py
+python utils/legacy/pdf_image_extractor.py
 ```
 
 **機能:**
@@ -617,14 +616,14 @@ python manage.py update_audio_paths
 ```
 
 ### ファイル生成手順
-1. **PDFから画像抽出**: `utils/pdf_image_extractor.py`
+1. **PDFから画像抽出**: `utils/legacy/pdf_image_extractor.py`
 2. **音声ファイル生成**: `utils/text_to_speech*.py`
 3. **ファイルパス更新**: `python manage.py update_audio_paths`
 4. **Django静的ファイル収集**: `python manage.py collectstatic`
 
 ### 音声生成ツール
-- `utils/pdf_text_extractor.py` - PDFテキスト抽出
-- `utils/pdf_image_extractor.py` - PDF画像抽出
+- `utils/legacy/pdf_text_extractor.py` - PDFテキスト抽出
+- `utils/legacy/pdf_image_extractor.py` - PDF画像抽出
 - `utils/text_to_speech.py` - リスニング第1部音声生成
 - `utils/text_to_speech_conversation.py` - リスニング第2部音声生成
 
@@ -688,8 +687,8 @@ python manage.py update_audio_paths
 ### ユーティリティ（推奨順序）
 
 #### 主要スクリプト（必須）
-1. **`utils/pdf_text_extractor.py`** - PDFテキスト抽出（最重要）
-2. **`utils/pdf_image_extractor.py`** - PDF画像抽出（リスニング第1部用）
+1. **`utils/legacy/pdf_text_extractor.py`** - PDFテキスト抽出（最重要）
+2. **`utils/legacy/pdf_image_extractor.py`** - PDF画像抽出（リスニング第1部用）
 3. **`utils/text_to_speech.py`** - リスニング第1部音声生成
 4. **`utils/text_to_speech_conversation.py`** - リスニング第2部音声生成
 

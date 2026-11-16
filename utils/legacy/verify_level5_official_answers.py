@@ -19,7 +19,7 @@ from pathlib import Path
 
 import fitz
 
-_REPO = Path(__file__).resolve().parents[1]
+_REPO = Path(__file__).resolve().parents[2]
 _LEVEL5 = _REPO / 'data' / 'questions' / 'level5'
 
 ROUND_CODES = ('202502', '202503', '202601')

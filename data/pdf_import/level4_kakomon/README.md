@@ -11,7 +11,7 @@
 | 2026年度第1回 | `2026-1-1ji-4kyu.pdf` | `2026-1-1ji_4kyuscript.pdf` | `202601F4kyu_answers.pdf` | `4Q-part{1,2,3}.mp3` |
 | 2026年度第2回 | `2026-2-1ji-4kyu.pdf` | `2026-2-1ji_4kyuscript.pdf` | `202602F4kyu_answers.pdf` | `2026-2-4Q-part{1,2,3}.mp3` |
 
-テキスト生成・追記（2026①）: `python utils/build_level4_202601.py`  
+テキスト生成・追記（2026①）: `python utils/legacy/build_level4_202601.py`  
 追加登録（既存削除なし）: `python manage.py append_new_questions --level 4`
 
 アプリ通し番号（2026①）:

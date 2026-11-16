@@ -135,7 +135,7 @@ python manage.py register_listening_illustration_questions --level 5
 
 - **4級の `static/images/level4/part1/` を 3級/5級用に上書きしない**（級別パスを厳守）。
 - 公式由来・アーカイブ画像をオリジナル問題の参照や配信に使わない。
-- プレースホルダー（`setup_level5_assets.py` 生成物）と本番イラストを混同しない。
+- プレースホルダー（`utils/legacy/setup_level5_assets.py` 生成物）と本番イラストを混同しない。
 - オリジナル用の再登録は `original` 登録コマンドができるまでユーザー確認。レガシー `register_*` は `blocked` になる。
 
 ## Example requests

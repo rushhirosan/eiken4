@@ -9,7 +9,7 @@ from pathlib import Path
 
 from PIL import Image, ImageDraw, ImageFont
 
-_REPO = Path(__file__).resolve().parents[1]
+_REPO = Path(__file__).resolve().parents[2]
 _IMG_DIR = _REPO / 'static' / 'images' / 'level5' / 'part1'
 _AUDIO_PART1 = _REPO / 'static' / 'audio' / 'level5' / 'part1'
 _AUDIO_PART2 = _REPO / 'static' / 'audio' / 'level5' / 'part2'

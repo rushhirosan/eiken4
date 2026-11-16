@@ -65,14 +65,14 @@ python manage.py update_listening_explanations --level 4
   （既存 original は消さず、未登録番号だけ追加。文法・会話・語順・読解・L・speaking・writing 対応）
 `listening_illustration` は【解説】に加え【正解】番号と `ListeningChoice.is_correct` も同期する。
 
-ユーティリティ（PDF 抽出・TTS）の出力先は `utils/pdf_text_extractor.py` 等の引数・環境変数、または `utils/eiken_paths.py` と `--level` で 3級に切り替え可能。既定は 4級レイアウトのまま。
+TTS 等の現行ツールは `utils/`（`eiken_paths.py` と `--level`）。公式 PDF 抽出は `utils/legacy/`（再実行非推奨）。
 
 ## Practical checks
 
 - 問題数が想定通りか（極端な増減がないか）
 - 解説テキストが空になっていないか
 - リスニング問題で `audio_file` / `image_file` が有効か
-- **3級**: 正解変更後は `python utils/verify_level3_official_answers.py` で F日程公式PDFと一致することを確認する（[grade_3 過去問](https://www.eiken.or.jp/eiken/exam/grade_3/) → 解答PDF `202501F3kyu.pdf` 等）。D日程 `*D3kyu*` は照合に使わない。
+- **3級**: 正解変更後は `python utils/legacy/verify_level3_official_answers.py` で F日程公式PDFと一致することを確認する（[grade_3 過去問](https://www.eiken.or.jp/eiken/exam/grade_3/) → 解答PDF `202501F3kyu.pdf` 等）。D日程 `*D3kyu*` は照合に使わない。
 
 ## Common pitfalls
 

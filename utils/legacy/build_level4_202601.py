@@ -13,7 +13,7 @@ if __name__ == "__main__":
 
 from pathlib import Path
 
-_REPO = Path(__file__).resolve().parents[1]
+_REPO = Path(__file__).resolve().parents[2]
 _Q = _REPO / 'data' / 'questions'
 
 # 公式 F 日程解答
