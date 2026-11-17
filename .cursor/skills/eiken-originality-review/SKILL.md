@@ -1,11 +1,11 @@
 ---
 name: eiken-originality-review
-description: Reviews original practice questions for near-duplicates in the same category, similarity to official-derived items, and true originality before human visual check. Use when asked to 酷似チェック, 類似, 公式と並べる前のレビュー, or verify provenance=original candidates in data/questions/original/.
+description: Reviews original practice questions for near-duplicates in the same category, similarity to official-derived items, and true originality before human quality check. Use when asked to 酷似チェック, 類似, 公式と並べる前のレビュー, or verify provenance=original candidates in data/questions/original/.
 ---
 
 # Originality Review
 
-目視の前に、自作候補が本当にオリジナルか見る。教育的な難しさや解説の丁寧さは見ない（それらは `eiken-question-quality-review` / `eiken-explanation-quality-review`）。
+人の品質チェックの前に、自作候補が本当にオリジナルか見る（級別保管 txt との機械酷似）。教育的な難しさや解説の丁寧さは見ない（それらは `eiken-question-quality-review` / `eiken-explanation-quality-review`／人の中身チェック）。
 
 ## Inputs to confirm
 
@@ -45,7 +45,7 @@ description: Reviews original practice questions for near-duplicates in the same
 
 | 判定 | 意味 |
 |------|------|
-| 通す | 目視へ回してよい |
+| 通す | 品質レビュー／人の中身チェックへ回してよい |
 | 直す | 近い。場面か選択肢を作り直す |
 | 差し替え | 公式由来または他の自作と実質同じ。その問は使わない |
 
@@ -74,12 +74,12 @@ Q2  直す  — 既存5級文法の No.xx 付近と場面が近い（場所＋�
 Q3  差し替え — 選択肢セットが既存 No.yy と実質同一
 ...
 
-目視へ: Q1, Q4, ...
+品質チェックへ: Q1, Q4, ...
 書き直し後に再チェック: Q2, ...
 破棄: Q3, ...
 ```
 
-最後に一文: 人が公式の公開過去問と並べて目視する。このレビューは目視の代用ではない。
+最後に一文: 人のメインは作問後の品質チェック。公式 PDF 全問並べはしない（怪しい番号だけ軽くで可）。このレビューが PDF 目視の完全代用ではないが、酷似の主担当は級別 txt スキャンである。
 
 ## Example requests
 

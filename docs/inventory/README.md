@@ -63,3 +63,10 @@ python scripts/gen_inventory.py --all         # 全級 + README
 4・5級の文法／会話／L応答の種別は解説ベースの自動分類（目安）。
 3級の文法・会話は手作業タグを含む既存台帳を優先。
 
+## 公式が更新されたとき
+
+公開への再取り込みはしない。手順の正本: [official_update_flow.md](official_update_flow.md)
+
+- inventory 再生成 → 穴を決める → original 自作 → 機械酷似・品質レビュー
+- **人の時間は作問後の問題チェックが主。** 公式 PDF との並べ目視は軽く／疑わしいときだけ
+

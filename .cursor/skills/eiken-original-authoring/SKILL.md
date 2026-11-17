@@ -157,6 +157,8 @@ data/questions/original/level{N}/writing_questions.txt
 
 ## Workflow
 
+0. **網羅・公式更新がきっかけなら inventory first**（PDF first にしない）。  
+   `docs/inventory/level{N}/` の該当カテゴリと [official_update_flow.md](../../../docs/inventory/official_update_flow.md) を見て、足したい型を決める。公式本文・`pdf_import` は開かない。
 1. 級・カテゴリ・件数を確定する。級に無いカテゴリなら止める。
 2. 該当の `references/*.md` を読む。級が準2級なら、その前に [references/pre2.md](references/pre2.md) を読む。3級用の語数・タスクは使わない。
 3. 既存の **original** ファイルがあれば末尾番号を確認する（公式由来ファイルは見ない）。
@@ -171,7 +173,7 @@ python utils/validate_wordorder_questions.py data/questions/original/level{N}/wo
 ```
 
 exit 0 以外なら直し、通るまで次に進まない。
-9. 書き終わったら **この場では登録しない**。下の **After writing** の順でレビューへ進む（登録は目視と公開前チェックのあと）。
+9. 書き終わったら **この場では登録しない**。下の **After writing** の順でレビューへ進む（登録は品質チェックと公開前チェックのあと）。
 
 ## Authoring rules
 
@@ -216,17 +218,17 @@ exit 0 以外なら直し、通るまで次に進まない。
 
 ## After writing
 
-カテゴリごと（またはまとめて）この順。飛ばさない。**登録は人の目視と公開前チェックのあと**。
+カテゴリごと（またはまとめて）この順。飛ばさない。**登録は人の品質チェックと公開前チェックのあと**。
 
 1. 作問（このスキル。テキストを `original/level{N}/` に置く）
-2. `eiken-originality-review`（同一カテゴリの類似・公式由来との酷似・本当に original か）
+2. `eiken-originality-review`（同一カテゴリの類似・公式由来 txt との酷似。PDF は開かない）
 3. `eiken-explanation-quality-review`（懇切丁寧）
 4. `eiken-question-quality-review`（級適合・ダミーの質・正解偏り・空所の論理・選択肢と会話の質）
-5. **人の目視**（公式公開過去問と並べて酷似最終確認。スキルの代用ではない）
+5. **人のチェック（メイン）** — 作問後の**問題の中身**（解けるか、空所論理、ダミー、解説、級適合、ポイント）。公式 PDF と全問並べる酷似目視はしない／ごく軽く（機械が怪しい番号・最新回の抜けだけ）
 6. **公開前チェック**（`.cursor/rules/original-questions.mdc`。1つでも未なら登録しない）
-7. 登録・ローカル確認（`--original` など。目視・公開前チェックの前に登録しない）
+7. 登録・ローカル確認（`--original` など。品質チェック・公開前チェックの前に登録しない）
 
-級の最小セットを積み上げるときは、カテゴリごとに 1〜4 を回し、セットが揃ってから 5→6→7 でもよい。いずれにせよ **7 の前に 5 と 6**。
+級の最小セットを積み上げるときは、カテゴリごとに 1〜4 を回し、セットが揃ってから 5→6→7 でもよい。いずれにせよ **7 の前に 5 と 6**。手順の正本（公式更新時）: `docs/inventory/official_update_flow.md`。
 
 登録コマンドの既定はレガシー取り込みを `blocked` にする。`original` は明示した新規だけ。
 
