@@ -54,8 +54,10 @@ docs/inventory/
 ## 再生成
 
 ```bash
-python scripts/gen_official_inventory.py          # 4級・5級
-python scripts/gen_level3_inventory.py            # 3級の一部カテゴリ
+python scripts/gen_inventory.py --level 3     # 3級（手タグ台帳以外のカテゴリ）
+python scripts/gen_inventory.py --level 4     # 4級
+python scripts/gen_inventory.py --level 5     # 5級
+python scripts/gen_inventory.py --all         # 全級 + README
 ```
 
 4・5級の文法／会話／L応答の種別は解説ベースの自動分類（目安）。

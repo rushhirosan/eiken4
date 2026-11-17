@@ -865,8 +865,10 @@ def update_readme(level_files: dict[str, list[str]]) -> None:
         "## 再生成",
         "",
         "```bash",
-        "python scripts/gen_official_inventory.py          # 4級・5級",
-        "python scripts/gen_level3_inventory.py            # 3級の一部カテゴリ",
+        "python scripts/gen_inventory.py --level 3     # 3級（手タグ台帳以外のカテゴリ）",
+        "python scripts/gen_inventory.py --level 4     # 4級",
+        "python scripts/gen_inventory.py --level 5     # 5級",
+        "python scripts/gen_inventory.py --all         # 全級 + README",
         "```",
         "",
         "4・5級の文法／会話／L応答の種別は解説ベースの自動分類（目安）。",
@@ -876,17 +878,25 @@ def update_readme(level_files: dict[str, list[str]]) -> None:
     (INV / "README.md").write_text("\n".join(lines) + "\n", encoding="utf-8")
 
 
+def collect_level_files(extra: dict[str, list[str]] | None = None) -> dict[str, list[str]]:
+    """既存 md 一覧を集め、extra で上書きする。"""
+    results: dict[str, list[str]] = {}
+    for lv in ("3", "4", "5"):
+        p = INV / f"level{lv}"
+        results[lv] = sorted(x.name for x in p.glob("*.md")) if p.exists() else []
+    if extra:
+        for lv, files in extra.items():
+            results[lv] = sorted(files)
+    return results
+
+
 def main() -> None:
-    results = {}
-    for level in ("4", "5"):
-        written = generate_level(level)
-        results[level] = sorted(written)
-        print(f"level{level}:", ", ".join(results[level]))
-    # include level3 existing
-    p3 = INV / "level3"
-    results["3"] = sorted(x.name for x in p3.glob("*.md")) if p3.exists() else []
-    update_readme(results)
-    print("README updated")
+    """後方互換: 入口は scripts/gen_inventory.py --level 4,5 または --all を推奨。"""
+    import subprocess
+    import sys
+
+    script = Path(__file__).resolve().parent / "gen_inventory.py"
+    raise SystemExit(subprocess.call([sys.executable, str(script), "--level", "4,5"]))
 
 
 if __name__ == "__main__":

@@ -544,44 +544,11 @@ def write_reading() -> None:
     (OUT / "reading_comprehension.md").write_text("\n".join(lines) + "\n", encoding="utf-8")
 
 
-def update_readme() -> None:
-    readme = """# 公式保管問題の出題内容インベントリ
+def generate_level3() -> list[str]:
+    """3級の残りカテゴリ md を再生成する（文法・会話の手タグ台帳は触らない）。
 
-`data/questions/`（級別 txt）で**実際に聞かれていること**を級・カテゴリごとに整理した台帳。  
-オリジナル作問の網羅チェック用。公式文面の転載・公開登録用ではない。
-
-## 構成
-
-```
-docs/inventory/
-  level3/
-    grammar_vocabulary.md      # 文法・語彙
-    conversation.md            # 会話補充
-    listening_illustration.md  # L第1部（応答）
-    listening_conversation.md  # L第2部（会話）
-    listening_passage.md       # L第3部（モノローグ）
-    reading_comprehension.md   # 読解
-    writing.md                 # ライティング
-    speaking.md                # スピーキング
-  level4/                      # （未作成）
-  level5/                      # （未作成）
-```
-
-| 級 | 状態 |
-|----|------|
-| 3級 | [`level3/`](level3/) 全カテゴリ（公式保管にあるもの） |
-| 4級 | 未作成 |
-| 5級 | 未作成 |
-
-### 3級メモ
-
-- 公式保管に **語順（wordorder）ファイルはない**（オリジナル側のみ）。
-- 読解ファイル名の typo `reading_comprehesion` はデータ側の既存名に合わせている。
-"""
-    (ROOT / "docs" / "inventory" / "README.md").write_text(readme, encoding="utf-8")
-
-
-def main() -> None:
+    README は更新しない（`gen_inventory.py` / `gen_official_inventory.update_readme` に一本化）。
+    """
     OUT.mkdir(parents=True, exist_ok=True)
     li = parse_listening(DATA / "listening_illustration_questions.txt")
     lc = parse_listening(DATA / "listening_conversation_questions.txt")
@@ -633,8 +600,16 @@ def main() -> None:
     write_writing()
     write_speaking()
     write_reading()
-    update_readme()
-    print("done:", sorted(p.name for p in OUT.iterdir()))
+    return sorted(p.name for p in OUT.glob("*.md"))
+
+
+def main() -> None:
+    """後方互換: 入口は scripts/gen_inventory.py --level 3 を推奨。"""
+    import subprocess
+    import sys
+
+    script = Path(__file__).resolve().parent / "gen_inventory.py"
+    raise SystemExit(subprocess.call([sys.executable, str(script), "--level", "3"]))
 
 
 if __name__ == "__main__":
