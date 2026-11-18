@@ -70,3 +70,12 @@ python scripts/gen_inventory.py --all         # 全級 + README
 - inventory 再生成 → 穴を決める → original 自作 → 機械酷似・品質レビュー
 - **人の時間は作問後の問題チェックが主。** 公式 PDF との並べ目視は軽く／疑わしいときだけ
 
+## カバレッジ（任意）
+
+リスニングの疑問詞焦点だけ、保管 txt と original の割合差を見る（release / preflight には入れない）:
+
+```bash
+python scripts/check_inventory_coverage.py --level 4
+python scripts/check_inventory_coverage.py --level 3,4,5
+```
+

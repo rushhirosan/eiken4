@@ -20,7 +20,12 @@
 
 4. **穴を決める**  
    `docs/inventory/level{N}/` の該当カテゴリ（焦点・談話機能・網羅メモ）を見る。  
-   「original に足りない型」を 1〜数個メモする。公式本文を開いて類題を作らない。
+   「original に足りない型」を 1〜数個メモする。公式本文を開いて類題を作らない。  
+   任意（L の疑問詞焦点）:
+
+   ```bash
+   python scripts/check_inventory_coverage.py --level 4
+   ```
 
 5. **original を自作**  
    `eiken-original-authoring`（`references/*.md` の枠）。置き場は `data/questions/original/level{N}/` のみ。

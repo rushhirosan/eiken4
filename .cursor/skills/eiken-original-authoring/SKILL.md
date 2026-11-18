@@ -157,8 +157,9 @@ data/questions/original/level{N}/writing_questions.txt
 
 ## Workflow
 
-0. **網羅・公式更新がきっかけなら inventory first**（PDF first にしない）。  
-   `docs/inventory/level{N}/` の該当カテゴリと [official_update_flow.md](../../../docs/inventory/official_update_flow.md) を見て、足したい型を決める。公式本文・`pdf_import` は開かない。
+0. **inventory first**（PDF first にしない）。  
+   作問・追記の前に `docs/inventory/level{N}/` の該当カテゴリを見る。網羅・公式更新がきっかけなら [official_update_flow.md](../../../docs/inventory/official_update_flow.md) も見る。足したい型を決めてから書く。公式本文・`pdf_import` は開かない。  
+   任意: `python scripts/check_inventory_coverage.py --level {N}`（L の疑問詞焦点の偏り）。
 1. 級・カテゴリ・件数を確定する。級に無いカテゴリなら止める。
 2. 該当の `references/*.md` を読む。級が準2級なら、その前に [references/pre2.md](references/pre2.md) を読む。3級用の語数・タスクは使わない。
 3. 既存の **original** ファイルがあれば末尾番号を確認する（公式由来ファイルは見ない）。
