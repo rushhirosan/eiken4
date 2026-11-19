@@ -2,10 +2,10 @@
 # -*- coding: utf-8 -*-
 """公式保管問題の inventory 再生成エントリ（級共通の入口）。
 
-既存ロジックは触らず振り分けるだけ:
-  - 3級: gen_level3_inventory.generate_level3
-  - 4/5級: gen_official_inventory.generate_level
-  - README: gen_official_inventory.update_readme（一本化）
+実装は gen_official_inventory:
+  - 3級: generate_level3（文法・会話の手タグ台帳は上書きしない）
+  - 4/5級: generate_level
+  - README: update_readme
 """
 from __future__ import annotations
 
@@ -15,8 +15,6 @@ import sys
 from pathlib import Path
 
 SCRIPTS = Path(__file__).resolve().parent
-ROOT = SCRIPTS.parent
-INV = ROOT / "docs" / "inventory"
 
 
 def _load(name: str):
@@ -67,12 +65,11 @@ def main(argv: list[str] | None = None) -> int:
 
     levels = _parse_levels(args.level, args.all)
     goi = _load("gen_official_inventory")
-    gl3 = _load("gen_level3_inventory")
 
     written: dict[str, list[str]] = {}
     for level in levels:
         if level == "3":
-            files = gl3.generate_level3()
+            files = goi.generate_level3()
         else:
             files = sorted(goi.generate_level(level))
         written[level] = files
