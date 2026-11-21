@@ -35,6 +35,17 @@ fly secrets set AMAZON_ASSOCIATE_TAG=your-tracking-id-22 -a eiken-app
 
 Amazon URL は検索ベース。`affiliate_url()` が `tag=` を付与する。商品固定 ASIN URL への差し替えは今後の作業。
 
+### outbound click（GA4）
+
+| 項目 | 内容 |
+|------|------|
+| イベント名 | `affiliate_outbound_click` |
+| パラメータ | `placement`（`guides` / `resources` / `answer_results`）、`level`、`link_label` |
+| 配線 | 外部 `<a>` に `data-affiliate-click` 等。`partials/_affiliate_click_tracking.html` が click を拾う |
+| 対象ページ | guides・resources（GA4 も追加）・accounts/base 配下（回答結果 tip 含む） |
+
+GA4 のリアルタイム／イベントで `affiliate_outbound_click` を確認する。
+
 ---
 
 ## フェーズ概要
@@ -136,7 +147,9 @@ Amazon URL は検索ベース。`affiliate_url()` が `tag=` を付与する。�
 | パス | 役割 |
 |------|------|
 | `eiken_project/next_learning.py` | コピー・URL・resources 構成・結果 tip 選定・週キャップ |
-| `templates/partials/_next_learning.html` | 共通 UI 部品 |
+| `templates/partials/_next_learning.html` | 共通 UI 部品（`data-affiliate-*` 付き） |
+| `templates/partials/_ga4.html` | GA4 共通スニペット |
+| `templates/partials/_affiliate_click_tracking.html` | outbound click → `affiliate_outbound_click` |
 | `templates/guides.html` | Phase A 埋め込み・リソースへの導線 |
 | `templates/resources.html` | Phase B ページ |
 | `templates/privacy_policy.html` | アフィリエイト節（ゲート ON 時） |
@@ -169,12 +182,12 @@ URL は `/privacy-policy/`（テンプレート名 `privacy_policy.html` では�
 ## 今後のブラッシュアップ候補
 
 - [x] 本番で `SHOW_NEXT_LEARNING = True`
-- [ ] `AMAZON_ASSOCIATE_TAG` を Fly secrets に設定（紹介料の有効化）
+- [x] `AMAZON_ASSOCIATE_TAG` を Fly secrets に設定（紹介料の有効化）
 - [ ] Amazon 商品固定 URL（ASIN）への差し替え
 - [ ] 週キャップをセッション → ユーザー永続（DB）へ
 - [ ] ランダム10問: 弱点カテゴリ偏り時のみ tip（Phase 2）
 - [ ] 結果 tip のしきい値・コピーの A/B や調整
-- [ ] outbound click の GA 計測（級・カテゴリ別）
+- [x] outbound click の GA 計測（`affiliate_outbound_click`。placement / level / link_label）
 - [ ] 英会話など単価の高い商材（コンセプト・対象端末を踏まえて慎重に）
 - [ ] guides 級末尾と結果 tip の文言統一・短縮
 

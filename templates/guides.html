@@ -23,6 +23,8 @@
     <meta name="twitter:description" content="英検®の級ごとのメニュー対応とおすすめ学習順。オリジナル練習の使い方ガイドです。">
     <meta name="twitter:image" content="https://eigogohan.com{% static 'eigogohan-og-image.png' %}">
 
+    {% include 'partials/_ga4.html' %}
+
     <script type="application/ld+json">
     {
       "@context": "https://schema.org",
@@ -296,7 +298,7 @@
                     </div>
                     {% if show_next_learning %}
                     {% with item=next_learning_by_level.5 %}
-                    {% include 'partials/_next_learning.html' with reason=item.reason resource_title=item.resource_title resource_url=item.resource_url primary_internal_url=next_learning_primary_url primary_internal_label=next_learning_primary_label %}
+                    {% include 'partials/_next_learning.html' with reason=item.reason resource_title=item.resource_title resource_url=item.resource_url primary_internal_url=next_learning_primary_url primary_internal_label=next_learning_primary_label affiliate_placement='guides' affiliate_level='5' %}
                     {% endwith %}
                     {% endif %}
 
@@ -335,7 +337,7 @@
                     </div>
                     {% if show_next_learning %}
                     {% with item=next_learning_by_level.4 %}
-                    {% include 'partials/_next_learning.html' with reason=item.reason resource_title=item.resource_title resource_url=item.resource_url primary_internal_url=next_learning_primary_url primary_internal_label=next_learning_primary_label %}
+                    {% include 'partials/_next_learning.html' with reason=item.reason resource_title=item.resource_title resource_url=item.resource_url primary_internal_url=next_learning_primary_url primary_internal_label=next_learning_primary_label affiliate_placement='guides' affiliate_level='4' %}
                     {% endwith %}
                     {% endif %}
 
@@ -374,7 +376,7 @@
                     </div>
                     {% if show_next_learning %}
                     {% with item=next_learning_by_level.3 %}
-                    {% include 'partials/_next_learning.html' with reason=item.reason resource_title=item.resource_title resource_url=item.resource_url primary_internal_url=next_learning_primary_url primary_internal_label=next_learning_primary_label %}
+                    {% include 'partials/_next_learning.html' with reason=item.reason resource_title=item.resource_title resource_url=item.resource_url primary_internal_url=next_learning_primary_url primary_internal_label=next_learning_primary_label affiliate_placement='guides' affiliate_level='3' %}
                     {% endwith %}
                     {% endif %}
 
@@ -550,5 +552,6 @@
             </div>
         </div>
     </footer>
+    {% include 'partials/_affiliate_click_tracking.html' %}
 </body>
 </html>

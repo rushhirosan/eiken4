@@ -1,6 +1,7 @@
 {# 「このあとの学習」— アフィリエイト導線の共通部品。広告カードではなく学習の次の一手として見せる。 #}
 {# 必須: reason, resource_title, resource_url #}
 {# 任意: primary_internal_url, primary_internal_label, show_affiliate_note (default true) #}
+{# 任意（計測）: affiliate_placement, affiliate_level #}
 <aside class="next-learning" aria-label="このあとの学習">
     <p class="next-learning-heading mb-2">このあとの学習</p>
     <p class="next-learning-reason small mb-3">{{ reason }}</p>
@@ -17,7 +18,11 @@
         <a href="{{ resource_url }}"
            class="next-learning-external"
            target="_blank"
-           rel="noopener noreferrer sponsored">
+           rel="noopener noreferrer sponsored"
+           data-affiliate-click
+           data-affiliate-placement="{{ affiliate_placement|default:'unknown' }}"
+           data-affiliate-level="{{ affiliate_level|default:'' }}"
+           data-affiliate-label="{{ resource_title }}">
             {{ resource_title }}（外部）
         </a>
     </p>

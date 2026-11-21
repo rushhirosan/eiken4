@@ -318,7 +318,7 @@
 
     {% if next_learning_tip %}
     <div class="next-learning-wrap mt-5 mb-3">
-        {% include 'partials/_next_learning.html' with reason=next_learning_tip.reason resource_title=next_learning_tip.resource_title resource_url=next_learning_tip.resource_url %}
+        {% include 'partials/_next_learning.html' with reason=next_learning_tip.reason resource_title=next_learning_tip.resource_title resource_url=next_learning_tip.resource_url affiliate_placement='answer_results' affiliate_level=level %}
     </div>
     {% endif %}
     <div class="text-center mt-4 mb-5">
