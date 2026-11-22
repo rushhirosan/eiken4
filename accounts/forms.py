@@ -10,7 +10,17 @@ from .recovery import format_recovery_code, normalize_recovery_code
 User = get_user_model()
 
 
+PASSWORD_HELP_TEXT = (
+    '8文字以上。password のような簡単すぎるものは使えません。'
+)
+
+
 class CustomUserCreationForm(UserCreationForm):
+    error_messages = {
+        **UserCreationForm.error_messages,
+        'password_mismatch': 'パスワードが一致しません。',
+    }
+
     class Meta:
         model = CustomUser
         fields = ('username', 'password1', 'password2')
@@ -20,6 +30,11 @@ class CustomUserCreationForm(UserCreationForm):
         # emailフィールドをオプションにする
         if 'email' in self.fields:
             self.fields['email'].required = False
+        self.fields['username'].label = 'ユーザー名'
+        self.fields['password1'].label = 'パスワード'
+        self.fields['password1'].help_text = PASSWORD_HELP_TEXT
+        self.fields['password2'].label = 'パスワード（確認）'
+        self.fields['password2'].help_text = '確認のため、もう一度入力してください。'
 
 
 class RecoverPasswordForm(forms.Form):
@@ -49,6 +64,7 @@ class RecoverPasswordForm(forms.Form):
     new_password1 = forms.CharField(
         label='新しいパスワード',
         strip=False,
+        help_text=PASSWORD_HELP_TEXT,
         widget=forms.PasswordInput(attrs={
             'class': 'form-control',
             'placeholder': '新しいパスワード',

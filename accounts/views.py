@@ -52,9 +52,11 @@ def signup(request):
             )
             return redirect('recovery_code_reveal')
         else:
-            logger.warning(f'新規登録失敗: errors={form.errors}, ip={get_client_ip(request)}')
-            print("Form errors:", form.errors)
-            print("Form data:", request.POST)
+            logger.warning(
+                '新規登録失敗: fields=%s, ip=%s',
+                list(form.errors.keys()),
+                get_client_ip(request),
+            )
     else:
         form = CustomUserCreationForm()
     return render(request, 'accounts/signup.html', {'form': form})

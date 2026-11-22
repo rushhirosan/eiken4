@@ -192,14 +192,28 @@
             }
         }
 
+        .form-text {
+            margin-top: 0.4rem;
+            font-size: 0.8rem;
+            color: var(--brand-muted);
+        }
+
         .password-strength {
-            margin-top: 0.5rem;
+            margin-top: 0.35rem;
             font-size: 0.8rem;
         }
 
         .strength-weak { color: #dc3545; }
-        .strength-medium { color: #ffc107; }
-        .strength-strong { color: var(--brand-primary); }
+        .strength-ok { color: var(--brand-primary); }
+
+        .input-group .form-floating {
+            flex: 1 1 auto;
+            min-width: 0;
+        }
+
+        .input-group .form-floating > .form-control {
+            border-radius: 12px 0 0 12px;
+        }
     </style>
 </head>
 <body>
@@ -223,18 +237,8 @@
                 {% if form.errors %}
                     <div class="alert alert-danger alert-dismissible fade show" role="alert">
                         <i class="fas fa-exclamation-triangle me-2"></i>
-                        入力内容にエラーがあります。確認してください。
+                        入力内容にエラーがあります。赤字の案内を確認してください。
                         <button type="button" class="btn-close" data-bs-dismiss="alert"></button>
-                    </div>
-                    <!-- デバッグ情報 -->
-                    <div class="alert alert-info">
-                        <strong>デバッグ情報:</strong><br>
-                        {% for field, errors in form.errors.items %}
-                            <strong>{{ field }}:</strong>
-                            {% for error in errors %}
-                                {{ error }}<br>
-                            {% endfor %}
-                        {% endfor %}
                     </div>
                 {% endif %}
                 
@@ -254,29 +258,40 @@
                             <i class="fas fa-user me-2"></i>ユーザー名
                         </label>
                         {% if form.username.errors %}
-                            <div class="invalid-feedback">
+                            <div class="invalid-feedback d-block">
                                 {{ form.username.errors.0 }}
                             </div>
                         {% endif %}
                     </div>
                     
                     <!-- パスワードフィールド -->
-                    <div class="form-floating mb-3">
+                    <div class="mb-3">
                         <div class="input-group">
-                            <input type="password" 
-                                   class="form-control {% if form.password1.errors %}is-invalid{% endif %}" 
-                                   id="id_password1" 
-                                   name="password1" 
-                                   placeholder="パスワード"
-                                   required>
+                            <div class="form-floating flex-grow-1">
+                                <input type="password" 
+                                       class="form-control {% if form.password1.errors %}is-invalid{% endif %}" 
+                                       id="id_password1" 
+                                       name="password1" 
+                                       placeholder="パスワード"
+                                       autocomplete="new-password"
+                                       minlength="8"
+                                       required>
+                                <label for="id_password1">
+                                    <i class="fas fa-lock me-2"></i>パスワード
+                                </label>
+                            </div>
                             <button class="btn btn-outline-secondary" 
                                     type="button" 
-                                    id="togglePassword1">
+                                    id="togglePassword1"
+                                    aria-label="パスワードを表示">
                                 <i class="fas fa-eye" id="eyeIcon1"></i>
                             </button>
                         </div>
+                        <div class="form-text">
+                            8文字以上。password のような簡単すぎるものは使えません。
+                        </div>
                         {% if form.password1.errors %}
-                            <div class="invalid-feedback">
+                            <div class="invalid-feedback d-block">
                                 {{ form.password1.errors.0 }}
                             </div>
                         {% endif %}
@@ -284,22 +299,30 @@
                     </div>
                     
                     <!-- パスワード確認フィールド -->
-                    <div class="form-floating mb-4">
+                    <div class="mb-4">
                         <div class="input-group">
-                            <input type="password" 
-                                   class="form-control {% if form.password2.errors %}is-invalid{% endif %}" 
-                                   id="id_password2" 
-                                   name="password2" 
-                                   placeholder="パスワード（確認）"
-                                   required>
+                            <div class="form-floating flex-grow-1">
+                                <input type="password" 
+                                       class="form-control {% if form.password2.errors %}is-invalid{% endif %}" 
+                                       id="id_password2" 
+                                       name="password2" 
+                                       placeholder="パスワード（確認）"
+                                       autocomplete="new-password"
+                                       minlength="8"
+                                       required>
+                                <label for="id_password2">
+                                    <i class="fas fa-lock me-2"></i>パスワード（確認）
+                                </label>
+                            </div>
                             <button class="btn btn-outline-secondary" 
                                     type="button" 
-                                    id="togglePassword2">
+                                    id="togglePassword2"
+                                    aria-label="パスワード確認を表示">
                                 <i class="fas fa-eye" id="eyeIcon2"></i>
                             </button>
                         </div>
                         {% if form.password2.errors %}
-                            <div class="invalid-feedback">
+                            <div class="invalid-feedback d-block">
                                 {{ form.password2.errors.0 }}
                             </div>
                         {% endif %}
@@ -352,27 +375,29 @@
         togglePasswordVisibility(togglePassword1, passwordInput1, eyeIcon1);
         togglePasswordVisibility(togglePassword2, passwordInput2, eyeIcon2);
         
-        // パスワード強度チェック
+        // サーバ側ルールに近い簡易チェック（8文字以上。明らかにベタな例だけ案内）
         const passwordStrength = document.getElementById('passwordStrength');
+        const obviouslyCommon = new Set([
+            'password', 'password1', 'password12', 'password123',
+            '12345678', '123456789', 'qwerty12', 'qwerty123',
+            'abcdefgh', 'abcdefghi', 'iloveyou', 'welcome1'
+        ]);
         passwordInput1.addEventListener('input', function() {
             const password = this.value;
-            let strength = 0;
             let message = '';
-            
-            if (password.length >= 8) strength++;
-            if (/[a-z]/.test(password)) strength++;
-            if (/[A-Z]/.test(password)) strength++;
-            if (/[0-9]/.test(password)) strength++;
-            if (/[^A-Za-z0-9]/.test(password)) strength++;
-            
-            if (strength < 3) {
-                message = '<span class="strength-weak">弱いパスワードです</span>';
-            } else if (strength < 4) {
-                message = '<span class="strength-medium">中程度のパスワードです</span>';
-            } else {
-                message = '<span class="strength-strong">強いパスワードです</span>';
+
+            if (!password) {
+                passwordStrength.innerHTML = '';
+                return;
             }
-            
+            if (password.length < 8) {
+                message = '<span class="strength-weak">8文字以上にしてください</span>';
+            } else if (obviouslyCommon.has(password.toLowerCase())) {
+                message = '<span class="strength-weak">もう少しだけ別の組み合わせにしてください</span>';
+            } else {
+                message = '<span class="strength-ok">この長さなら大丈夫です</span>';
+            }
+
             passwordStrength.innerHTML = message;
         });
         

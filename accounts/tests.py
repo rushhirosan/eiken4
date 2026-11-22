@@ -149,6 +149,22 @@ class SignupViewTest(TestCase):
             continue_resp = self.client.post(reverse('recovery_code_reveal'))
             self.assertRedirects(continue_resp, reverse('exams:choose_exam_level'))
 
+    def test_signup_shows_password_guidance_without_debug_dump(self):
+        response = self.client.get(self.url)
+        self.assertContains(response, '8文字以上')
+        self.assertNotContains(response, 'デバッグ情報')
+
+    def test_signup_common_password_shows_japanese_error(self):
+        response = self.client.post(self.url, {
+            'username': 'newuser2',
+            'password1': 'password',
+            'password2': 'password',
+        })
+        self.assertEqual(response.status_code, 200)
+        self.assertNotContains(response, 'デバッグ情報')
+        self.assertContains(response, 'このパスワードは一般的すぎます')
+        self.assertFalse(User.objects.filter(username='newuser2').exists())
+
 
 class RecoverPasswordViewTest(TestCase):
     def setUp(self):
