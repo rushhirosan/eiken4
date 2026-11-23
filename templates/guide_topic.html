@@ -156,6 +156,15 @@
                     </div>
                     <h1 class="h3 fw-bold mb-3">{{ topic.h1 }}</h1>
                     <p>{{ topic.lead }}</p>
+                    <div class="d-flex flex-wrap gap-2 mb-4">
+                        {% if user.is_authenticated %}
+                        <a href="{{ cta_url }}" class="btn btn-primary">{{ cta_label }}</a>
+                        <a href="{{ try_url }}" class="btn btn-outline-light">{{ try_label }}</a>
+                        {% else %}
+                        <a href="{{ try_url }}" class="btn btn-primary">{{ try_label }}</a>
+                        <a href="{{ cta_url }}" class="btn btn-outline-light">{{ cta_label }}</a>
+                        {% endif %}
+                    </div>
                     {% for paragraph in topic.paragraphs %}
                     <p>{{ paragraph }}</p>
                     {% endfor %}
@@ -190,13 +199,16 @@
                     <p>
                         {% if topic.topic_key == 'exam_week' %}
                         級別のお試し問題を、アカウント登録なしで解けます。
+                        {% elif topic.topic_key == 'speaking' %}
+                        {{ topic.level_label }}のお試し問題でサイトの雰囲気を確認できます。
+                        スピーキング本体は無料登録後の専用メニューです。
                         {% else %}
-                        {{ topic.level_label }}のお試し問題を、アカウント登録なしで解けます。
-                        {% endif %}
+                        {{ topic.level_label }}の{{ topic.topic_label }}をお試しできます（登録なし）。
                         雰囲気を確かめてから本番メニューに進むのがおすすめです。
+                        {% endif %}
                     </p>
-                    <p class="mb-0">
-                        <a href="{{ try_url }}">{{ try_label }}</a>
+                    <p class="mb-3">
+                        <a href="{{ try_url }}" class="btn btn-primary">{{ try_label }}</a>
                     </p>
 
                     {% if related_topics %}

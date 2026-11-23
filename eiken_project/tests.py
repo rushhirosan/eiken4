@@ -212,11 +212,17 @@ class GuideTopicPageTest(TestCase):
         self.assertContains(response, reverse('signup'))
         self.assertContains(response, reverse('guides'))
         self.assertContains(response, reverse('try_level', kwargs={'level': '4'}))
-        self.assertContains(response, '4級をお試し（登録なし）')
+        self.assertContains(response, '4級のリスニングを今すぐ試す（登録なし）')
+        self.assertContains(response, '4級の本格練習を始める（無料登録）')
         content = response.content.decode()
         self.assertIn('vendor/bootstrap/bootstrap.min.css', content)
         self.assertNotIn('fonts.googleapis.com', content)
         self.assertNotIn('font-awesome', content)
+        # リード直後とページ下部の両方に主 CTA がある
+        self.assertGreaterEqual(
+            content.count('4級のリスニングを今すぐ試す（登録なし）'),
+            2,
+        )
 
     def test_guide_topic_reading_matches_search_intent(self):
         response = Client().get(
@@ -263,7 +269,13 @@ class GuideTopicPageTest(TestCase):
             )
             self.assertEqual(response.status_code, 200, topic['slug'])
             self.assertContains(response, topic['h1'])
-            self.assertContains(response, '無料で練習を始める')
+            if topic['slug'] == 'exam-one-week-before':
+                self.assertContains(response, '無料で練習を始める')
+            else:
+                self.assertContains(
+                    response,
+                    f"{topic['level_label']}の本格練習を始める（無料登録）",
+                )
 
 
 class ResourcesPageTest(TestCase):

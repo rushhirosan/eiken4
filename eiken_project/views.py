@@ -131,7 +131,10 @@ def guide_topic(request, slug: str):
             cta_label = f"{topic['level_label']}の練習を続ける"
     else:
         cta_url = reverse('signup')
-        cta_label = '無料で練習を始める'
+        if cross_level:
+            cta_label = '無料で練習を始める'
+        else:
+            cta_label = f"{topic['level_label']}の本格練習を始める（無料登録）"
 
     if cross_level:
         try_url = reverse('try_index')
@@ -139,7 +142,13 @@ def guide_topic(request, slug: str):
         breadcrumb_leaf = topic['topic_label']
     else:
         try_url = reverse('try_level', kwargs={'level': topic['level']})
-        try_label = f"{topic['level_label']}をお試し（登録なし）"
+        # お試しにスピーキングは含まれないので、級のみの文言にする
+        if topic.get('topic_key') == 'speaking':
+            try_label = f"{topic['level_label']}を今すぐ試す（登録なし）"
+        else:
+            try_label = (
+                f"{topic['level_label']}の{topic['topic_label']}を今すぐ試す（登録なし）"
+            )
         breadcrumb_leaf = f"{topic['level_label']} {topic['topic_label']}"
 
     page_url = f"{CANONICAL_ORIGIN}/guides/{topic['slug']}/"
