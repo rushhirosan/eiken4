@@ -218,6 +218,7 @@ class GuideTopicPageTest(TestCase):
         self.assertIn('vendor/bootstrap/bootstrap.min.css', content)
         self.assertNotIn('fonts.googleapis.com', content)
         self.assertNotIn('font-awesome', content)
+        self.assertIn('googletagmanager.com/gtag/js?id=G-8WVRCJX26T', content)
         # リード直後とページ下部の両方に主 CTA がある
         self.assertGreaterEqual(
             content.count('4級のリスニングを今すぐ試す（登録なし）'),
@@ -568,12 +569,14 @@ class TrySamplePageTest(TestCase):
         self.assertContains(response, '準2級')
         self.assertNotContains(response, 'お試し問題はまだありません')
         self.assertContains(response, 'index, follow')
+        self.assertContains(response, 'googletagmanager.com/gtag/js?id=G-8WVRCJX26T')
 
     def test_try_level_shows_grammar_and_listening(self):
         response = Client().get(reverse('try_level', kwargs={'level': '4'}))
         self.assertEqual(response.status_code, 200)
         self.assertContains(response, '4級のお試し問題')
         self.assertContains(response, '登録なし・無料')
+        self.assertContains(response, 'googletagmanager.com/gtag/js?id=G-8WVRCJX26T')
         self.assertContains(response, '文法・リスニング・長文をお試し')
         self.assertContains(response, 'I ( ) a book.')
         self.assertContains(response, 'Choose the correct picture.')

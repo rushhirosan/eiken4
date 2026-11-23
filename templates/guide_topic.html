@@ -23,6 +23,8 @@
     <meta name="twitter:description" content="{{ topic.meta_description }}">
     <meta name="twitter:image" content="https://eigogohan.com{% static 'eigogohan-og-image.png' %}">
 
+    {% include 'partials/_ga4.html' %}
+
     <script type="application/ld+json">{{ article_json_ld }}</script>
     <script type="application/ld+json">{{ breadcrumb_json_ld }}</script>
     <script type="application/ld+json">{{ faq_json_ld }}</script>
