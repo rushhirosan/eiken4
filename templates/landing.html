@@ -471,14 +471,20 @@
                         えいごごはん｜食べる・寝るみたいに、毎日ちょっと英語
                     </div>
                     <h1><span class="gradient-text">えいごごはん</span>で、<br class="d-none d-md-block">毎日つづく練習を。</h1>
-                    <p class="hero-lead mb-4">
+                    <p class="hero-lead mb-3">
                         食べる・寝るみたいに、英語を生活の一部に。
                         英検®5級・4級・3級・準2級の形式に合わせたオリジナル練習を、ブラウザで無料。
                         文法・語彙、長文読解、リスニング、スピーキング、模擬試験まで。進捗・バッジ・学習ポイントで続けやすくします。
                     </p>
+                    <p class="hero-lead mb-4 small" style="opacity:0.92;">
+                        準2級なら、スキマ時間に本番形式を登録なしで試せます。文法・リスニング・ライティングもブラウザだけで。
+                    </p>
                     <div class="d-flex flex-wrap gap-3">
                         <a href="{% url 'try_index' %}" class="btn btn-glow">
                             <svg class="icon me-2" aria-hidden="true" viewBox="0 0 24 24"><path d="M12 2.5c-1.1 0-2 .9-2 2v6.09l-1.29-1.3a1 1 0 10-1.42 1.42l3 3a1 1 0 001.42 0l3-3a1 1 0 10-1.42-1.42L14 10.59V4.5c0-1.1-.9-2-2-2zm-7 14a1 1 0 011-1h12a1 1 0 011 1v1a5 5 0 01-5 5h-4a5 5 0 01-5-5v-1z"/></svg>登録なしでお試し
+                        </a>
+                        <a href="{% url 'try_level' level='pre2' %}" class="btn btn-ghost">
+                            準2級を試す
                         </a>
                         <a href="{% url 'signup' %}" class="btn btn-ghost">
                             無料アカウント作成
@@ -639,7 +645,7 @@
                             <h3>準2級</h3>
                             <span class="badge text-bg-secondary">高校初級</span>
                         </div>
-                        <p class="text-white-50">短文・会話・長文、Eメールと英作文、リスニング、面接の流れ練習が使えます。</p>
+                        <p class="text-white-50">中3〜高校・社会人向け。スキマで本番形式の練習ができます。短文・会話・長文、Eメールと英作文、リスニング、面接の流れ練習に対応。</p>
                         <div>
                             <span class="tag">文法・語彙</span>
                             <span class="tag">会話補充</span>
@@ -648,6 +654,7 @@
                             <span class="tag">リスニング</span>
                             <span class="tag">スピーキング（二次）</span>
                         </div>
+                        <a href="{% url 'try_level' level='pre2' %}" class="small mt-3 d-inline-block text-decoration-none me-3" style="color:#c5c8f0;">準2級をお試し →</a>
                         <a href="{% url 'guides' %}#level-pre2" class="small mt-3 d-inline-block text-decoration-none" style="color:#c5c8f0;">準2級の進め方 →</a>
                     </div>
                 </div>
