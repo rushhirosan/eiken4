@@ -236,6 +236,33 @@ class GuideTopicPageTest(TestCase):
         self.assertContains(response, reverse('try_level', kwargs={'level': '4'}))
         self.assertContains(response, '4級の長文練習問題は無料で解けますか？')
 
+    def test_pre2_guide_titles_match_search_queries(self):
+        listening = Client().get(
+            reverse('guide_topic', kwargs={'slug': 'eiken-pre2-listening'})
+        )
+        self.assertEqual(listening.status_code, 200)
+        self.assertContains(
+            listening, '英検®準2級リスニングを無料で練習｜部ごとの対策 - えいごごはん'
+        )
+        self.assertContains(listening, '登録なしでお試し可')
+
+        writing = Client().get(
+            reverse('guide_topic', kwargs={'slug': 'eiken-pre2-writing'})
+        )
+        self.assertEqual(writing.status_code, 200)
+        self.assertContains(
+            writing, '英検®準2級ライティング練習問題（Eメール・英作文）無料 - えいごごはん'
+        )
+        self.assertContains(writing, '準2級ライティングの練習問題は無料で解けますか？')
+
+        grammar = Client().get(
+            reverse('guide_topic', kwargs={'slug': 'eiken-pre2-grammar'})
+        )
+        self.assertEqual(grammar.status_code, 200)
+        self.assertContains(
+            grammar, '英検®準2級の文法を無料で練習｜語彙・会話補充 - えいごごはん'
+        )
+
     def test_exam_week_guide_is_cross_level(self):
         response = Client().get(
             reverse('guide_topic', kwargs={'slug': 'exam-one-week-before'})
@@ -384,6 +411,7 @@ class AboutPageTest(TestCase):
         )
         self.assertContains(response, 'えいごごはんとは｜英検®無料練習サイトの概要 - えいごごはん')
         self.assertContains(response, '協会の過去問そのものではありません。')
+        self.assertContains(response, 'googletagmanager.com/gtag/js?id=G-8WVRCJX26T')
         self.assertNotContains(response, '英検公式')
         self.assertNotContains(response, '協会公認')
 
@@ -562,7 +590,7 @@ class TrySamplePageTest(TestCase):
     def test_try_index_is_public(self):
         response = Client().get(reverse('try_index'))
         self.assertEqual(response.status_code, 200)
-        self.assertContains(response, '英検®練習をお試し')
+        self.assertContains(response, '英検®練習サイトを無料でお試し')
         self.assertContains(response, '登録なし')
         self.assertContains(response, reverse('try_level', kwargs={'level': '4'}))
         self.assertContains(response, reverse('try_level', kwargs={'level': 'pre2'}))
@@ -706,6 +734,7 @@ class UpdatesPageTest(TestCase):
         self.assertContains(response, '文法・語彙と語順')
         self.assertContains(response, reverse('about'))
         self.assertContains(response, reverse('guides'))
+        self.assertContains(response, 'googletagmanager.com/gtag/js?id=G-8WVRCJX26T')
 
 
 class DiscordNotifyTest(TestCase):

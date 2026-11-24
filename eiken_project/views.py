@@ -339,7 +339,13 @@ def try_level(request, level: str):
 
     related_guides = [t for t in iter_guide_topics() if t['level'] == level]
     label = level_label(level)
-    if level in ('4', '3', 'pre2'):
+    if level == 'pre2':
+        try_meta_description = (
+            '英検®準2級の練習サイトをお試し。文法・リスニング・長文を登録なしで無料体験。'
+            'オリジナル問題でブラウザ練習できます。'
+        )
+        try_og_description = '登録なしで英検®準2級の練習サイトを体験。文法・リスニング・長文対応。'
+    elif level in ('4', '3'):
         try_meta_description = (
             f'英検®{label}の文法・リスニング・長文をお試し。登録なしで無料のオリジナル練習問題を体験できます。'
         )
